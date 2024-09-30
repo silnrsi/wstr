@@ -4,9 +4,11 @@ backend:
   branch: main
   use_graphql: true
   base_url: https://wstr.api.languagetechnology.org/
+  squash_merges: true
 
 media_folder: src/assets
 public_folder: src/assets
+publish_mode: editorial_workflow
 
 site_url: http://localhost:4321/
 
@@ -20,8 +22,8 @@ collections:
   - { label: Description, name: description, widget: string }
   - { label: Body, name: body, widget: markdown }
 - label: Reference
-  name: src/content/docs/reference
-  folder: reference
+  name: reference
+  folder: src/content/docs/reference
   create: true
   fields:
   - { label: Title, name: title, widget: string }
@@ -37,7 +39,7 @@ collections:
     - { label: Title, name: title, widget: string }
     - { label: Description, name: description, widget: text }
     - { label: Template, name: template, widget: string }
-    - { label: Body, name: body, widget: markdown }
+    - { label: Body, name: body, widget: code }
     - label: Hero
       name: hero
       widget: object
