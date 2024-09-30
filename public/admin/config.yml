@@ -1,0 +1,54 @@
+backend:
+  name: github
+  repo: silnrsi/wstr-sample-site # Path to your GitHub repository
+  branch: main
+  use_graphql: true
+  base_url: https://wstr.api.languagetechnology.org/
+
+media_folder: src/assets
+public_folder: src/assets
+
+site_url: http://localhost:4321/
+
+collections:
+- label: Guide
+  name: guide
+  folder: src/content/docs/guides
+  create: true
+  fields:
+  - { label: Title, name: title, widget: string }
+  - { label: Description, name: description, widget: string }
+  - { label: Body, name: body, widget: markdown }
+- label: Reference
+  name: src/content/docs/reference
+  folder: reference
+  create: true
+  fields:
+  - { label: Title, name: title, widget: string }
+  - { label: Description, name: description, widget: string }
+  - { label: Body, name: body, widget: markdown }
+- label: Pages
+  name: pages
+  files:
+  - label: Home
+    name: index
+    file: src/content/docs/index.mdx
+    fields:
+    - { label: Title, name: title, widget: string }
+    - { label: Description, name: description, widget: text }
+    - { label: Template, name: template, widget: string }
+    - { label: Body, name: body, widget: markdown }
+    - label: Hero
+      name: hero
+      widget: object
+      fields:
+      - { label: Tagline, name: tag, widget: string }
+      - { label: Image, name: image.file, widget: image, allow_multiple: false }
+      - label: Actions
+        name: actions
+        widget: list
+        fields:
+        - { label: Text, name: text, widget: text }
+        - { label: Link, name: link, widget: string }
+        - { label: Icon, name: icon, widget: string }
+        - { label: Variant, name: variant, requried: false, widget: string }
