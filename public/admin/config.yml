@@ -29,24 +29,27 @@ collections:
   - { label: Title, name: title, widget: string }
   - { label: Description, name: description, widget: string }
   - { label: Body, name: body, widget: markdown }
-- label: Pages
-  name: pages
+- label: Frontmatter
+  name: frontmatter
+  format: yaml-frontmatter
   files:
   - label: Home
     name: index
-    file: src/content/docs/index2.md
+    file: src/content/docs/index.mdx
     fields:
-    - { label: Title, name: title, widget: string, requried: false }
+    - { label: Title, name: title, widget: string }
     - { label: Description, name: description, widget: text, requried: false }
     - { label: Template, name: template, widget: string, requried: false }
-    - { label: Body, name: body, widget: code }
     - label: Hero
       name: hero
       widget: object
       required: false
       fields:
-      - { label: Tagline, name: tag, widget: string }
-      - { label: Image, name: image.file, widget: image, allow_multiple: false }
+      - { label: Tagline, name: tagline, widget: string }
+      - label: Image
+        name: image
+        widget: object
+        fields: [{ label: Image, name: file, widget: image, allow_multiple: false }]
       - label: Actions
         name: actions
         widget: list
@@ -55,8 +58,13 @@ collections:
         - { label: Link, name: link, widget: string }
         - { label: Icon, name: icon, widget: string }
         - { label: Variant, name: variant, requried: false, widget: string }
-  - label: Settings
+    - { label: body, name: body, widget: code }
+- label: Configuration
+  name: config
+  format: yaml
+  files:
+  - label: Decap Settings
     name: config
     file: public/admin/config.yml
     fields:
-    - { label: Body, name: body, widget: code }
+    - { label: body, name: body, widget: text,  default_language: yaml}
