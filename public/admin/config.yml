@@ -61,13 +61,4 @@ collections:
         - { label: Link, name: link, widget: string }
         - { label: Icon, name: icon, widget: string }
         - { label: Variant, name: variant, requried: false, widget: string }
-    - { label: body, name: body, widget: code }
-- label: Configuration
-  name: config
-  format: yaml
-  files:
-  - label: Decap Settings
-    name: config
-    file: public/admin/config.yml
-    fields:
-    - { label: body, name: body, widget: text,  default_language: yaml}
+    - { label: body, name: body, widget: markdown }
