@@ -6,6 +6,9 @@ backend:
   base_url: https://wstr.api.languagetechnology.org/
   squash_merges: true
 
+editor:
+  preview: false
+
 media_folder: src/assets
 public_folder: src/assets
 publish_mode: editorial_workflow
