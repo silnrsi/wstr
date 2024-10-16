@@ -34,15 +34,16 @@ collections:
   files:
   - label: Home
     name: index
-    file: src/content/docs/index.mdx
+    file: src/content/docs/index2.md
     fields:
-    - { label: Title, name: title, widget: string }
-    - { label: Description, name: description, widget: text }
-    - { label: Template, name: template, widget: string }
+    - { label: Title, name: title, widget: string, requried: false }
+    - { label: Description, name: description, widget: text, requried: false }
+    - { label: Template, name: template, widget: string, requried: false }
     - { label: Body, name: body, widget: code }
     - label: Hero
       name: hero
       widget: object
+      required: false
       fields:
       - { label: Tagline, name: tag, widget: string }
       - { label: Image, name: image.file, widget: image, allow_multiple: false }
@@ -54,3 +55,8 @@ collections:
         - { label: Link, name: link, widget: string }
         - { label: Icon, name: icon, widget: string }
         - { label: Variant, name: variant, requried: false, widget: string }
+  - label: Settings
+    name: config
+    file: public/admin/config.yml
+    fields:
+    - { label: Body, name: body, widget: code }
