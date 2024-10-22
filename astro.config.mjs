@@ -7,6 +7,10 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Writing Systems Technical Resources',
+			logo: {
+				src: './src/assets/logo.svg',
+				replacesTitle: false,
+			  },
 			social: {
 				github: 'https://github.com/silnrsi/wstr-sample-site',
 			},
@@ -17,7 +21,10 @@ export default defineConfig({
 				},
 				{
 					label: 'Topics',
-					autogenerate: { directory: 'topics' },
+					items: [
+						{ slug: 'topics/writingsystems/writing-systems' },
+						{ label: 'Writing Systems', autogenerate: { directory: 'topics/writingsystems' } }
+				],
 				},
 				{
 					label: 'Scripts & Languages',

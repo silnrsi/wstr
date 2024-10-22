@@ -32,6 +32,14 @@ collections:
   - { label: Title, name: title, widget: string }
   - { label: Description, name: description, widget: string }
   - { label: Body, name: body, widget: markdown }
+- label: Topic
+  name: topic
+  folder: src/content/docs/topics
+  create: true
+  fields:
+  - { label: Title, name: title, widget: string }
+  - { label: Description, name: description, widget: string }
+  - { label: Body, name: body, widget: markdown }
 - label: Frontmatter
   name: frontmatter
   format: yaml-frontmatter
