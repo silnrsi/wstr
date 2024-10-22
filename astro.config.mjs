@@ -22,8 +22,14 @@ export default defineConfig({
 				{
 					label: 'Topics',
 					items: [
-						{ slug: 'topics/writingsystems/writing-systems' },
-						{ label: 'Writing Systems', autogenerate: { directory: 'topics/writingsystems' } }
+						//{ slug: 'topics/writingsystems/writing-systems' },
+						{ label: 'Writing Systems', autogenerate: { directory: 'topics/writingsystems' } },
+						{ label: 'Computing Support', autogenerate: { directory: 'topics/computing' } },
+						{ label: 'Encoding', autogenerate: { directory: 'topics/encoding' } },
+						{ label: 'Input', autogenerate: { directory: 'topics/input' } },
+						{ label: 'Fonts', autogenerate: { directory: 'topics/fonts' } },
+						{ label: 'Layout', autogenerate: { directory: 'topics/layout' } },
+						{ label: 'Analysis', autogenerate: { directory: 'topics/analysis' } },
 				],
 				},
 				{

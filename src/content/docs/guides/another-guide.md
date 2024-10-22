@@ -1,6 +1,10 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: Another Guide
+description: Another guide example.
+sidebar:
+    order: 9891
+lastUpdated: 2024-10-22
+
 ---
 
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.

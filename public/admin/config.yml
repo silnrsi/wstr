@@ -32,6 +32,14 @@ collections:
   - { label: Title, name: title, widget: string }
   - { label: Description, name: description, widget: string }
   - { label: Body, name: body, widget: markdown }
+- label: Support
+  name: support
+  folder: src/content/docs/support
+  create: true
+  fields:
+  - { label: Title, name: title, widget: string }
+  - { label: Description, name: description, widget: string }
+  - { label: Body, name: body, widget: markdown }
 - label: Topic
   name: topic
   folder: src/content/docs/topics
