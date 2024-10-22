@@ -6,22 +6,30 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Writing Systems Technical Resources',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/silnrsi/wstr-sample-site',
 			},
 			sidebar: [
 				{
 					label: 'Guides',
 					autogenerate: { directory: 'guides' },
-					// items: [
-					// 	// Each item here is one entry in the navigation menu.
-					// 	{ label: 'Example Guide', slug: 'guides/example' },
-					// ],
+				},
+				{
+					label: 'Topics',
+					autogenerate: { directory: 'topics' },
+				},
+				{
+					label: 'Scripts & Languages',
+					autogenerate: { directory: 'scrlang' },
 				},
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'Support',
+					autogenerate: { directory: 'support' },
 				},
 			],
 		}),
