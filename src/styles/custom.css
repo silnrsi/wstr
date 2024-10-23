@@ -1,0 +1,9 @@
+:root {
+    /* color of glyphs in SIL logo */
+    --sl-color-accent-high: hsl(205, 65%, 65%);
+    }
+
+:root[data-theme='light'] {
+    /* color of main SIL logo */
+    --sl-color-accent: hsl(210.16, 100%, 36.27%);
+    }

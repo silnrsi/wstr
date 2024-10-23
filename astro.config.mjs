@@ -49,6 +49,10 @@ export default defineConfig({
 				// Override the default Footer component
 				Footer: './src/components/Footer.astro',
 			}, 
+			customCss: [
+				// Relative path to your custom CSS file
+				'./src/styles/custom.css',
+			  ],
 		}),
 	],
 });
