@@ -4,7 +4,6 @@ description: Another guide example.
 sidebar:
     order: 9891
 lastUpdated: 2024-10-22
-
 ---
 
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.

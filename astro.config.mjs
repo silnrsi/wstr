@@ -45,6 +45,10 @@ export default defineConfig({
 					autogenerate: { directory: 'support' },
 				},
 			],
+			components: {
+				// Override the default Footer component
+				Footer: './src/components/Footer.astro',
+			}, 
 		}),
 	],
 });
