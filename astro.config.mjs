@@ -47,6 +47,7 @@ export default defineConfig({
 			],
 			components: {
 				// Override the default Footer component
+				Hero: './src/components/Hero.astro',
 				PageTitle: './src/components/PageTitle.astro',
 				Footer: './src/components/Footer.astro',
 			}, 
