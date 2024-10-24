@@ -1,6 +1,5 @@
 ---
 title: Example Topic
-description: A topic page.
 sidebar:
     order: 5100
 lastUpdated: 2024-10-22

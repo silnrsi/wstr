@@ -1,5 +1,6 @@
 ---
 title: What is a writing system?
+subtitle: This is a subtitle
 description: Main definition of writing systems
 sidebar:
     order: 1100
