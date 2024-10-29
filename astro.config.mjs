@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://silnrsi.github.io',
+	base: 'wstr-sample-site',
 	integrations: [
 		starlight({
 			title: 'Writing Systems Technical Resources',
