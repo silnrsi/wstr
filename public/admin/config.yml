@@ -13,7 +13,7 @@ media_folder: src/assets
 public_folder: src/assets
 publish_mode: editorial_workflow
 
-site_url: http://localhost:4321/
+site_url: https://silnrsi.github.io/wstr-sample-site/
 
 collections:
 - label: Guide
