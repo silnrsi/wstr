@@ -44,6 +44,9 @@ collections:
   name: topic
   folder: src/content/docs/topics
   create: true
+  nested:
+   depth: 2
+   summary: '{{title}}'
   fields:
   - { label: Title, name: title, widget: string }
   - { label: Description, name: description, widget: string }
