@@ -254,9 +254,9 @@ The font selected to display the text needs to support all the characters in the
 
 ### Font features and glyph variants
 
-In addition, a particular language may require glyph variants for a character. For example, in African languages, the uppercase eng is typically in the shape of the lowercase eng, just larger. In European and North and South American languages where the eng is used the uppercase equivalent is generally in the form of an uppercase N with a hook. The same codepoint is used for both styles. 
+In addition, a particular language may require glyph variants for a character. For example, in African languages, the uppercase eng is typically in the shape of the lowercase eng ('ŋ'), just larger. In North and South American and European languages where the eng is used, the uppercase equivalent is generally in the form of an uppercase 'N' with a hook. The same codepoint is used for both styles. 
 
-An application needs to allow the user to choose glyph variants, either directly or via language tag information (or both). One user-friendly way to support this is to provide a dialog that offers a  choice of the variants available in the font. Ideally the choice of variants would only be offered if relevant to the language. 
+An application needs to allow the user to choose glyph variants, either directly or via language tag information (or both). One user-friendly way to support this is to provide a dialog that offers a choice of the variants available in the font. Ideally the choice of variants would only be offered if relevant to the language. 
 
 Where known, information about the preferred glyph variants for a language is stored in the SLDR file for the language tag. That information can be obtained using the LDML API.
 
@@ -278,7 +278,7 @@ Those who speak and write European languages often have a very simple concept of
 
 
 * Contextual shaping, where the shape of the glyph depends on adjacent characters or its position within the word.
-* Ligatures, where two or more characters combine into a single shape.
+* Ligatures, where two or more characters combine into a single shape. In the Arabic script, for example, when a "lam" character (ل) is followed by an "alif" character (ا), the two characters combine to form a single shape (لا).
 * Complex positioning, where diacritics must stack up or be positioned in various ways in order to be readable.
 * Reordering, where glyphs appear to the left or above or below characters that precede them in the data.
 * Splitting, where a single character is displayed using two disjoint glyphs.
@@ -310,7 +310,7 @@ TBD
 Resource: [Challenges in publishing with non-Roman Scripts](https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter09&site_id=nrsi)
 
 
-## Ref:
+Ref:
 
 6000: Layout
 
