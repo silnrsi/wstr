@@ -3,7 +3,7 @@ title: Glossary
 description: Glossary
 sidebar:
     order: 9100
-lastUpdated: 2024-11-15
+lastUpdated: 2024-11-18
 ---
 
 This glossary covers a wide range of terms used for discussing writing systems.
@@ -25,6 +25,7 @@ This glossary covers a wide range of terms used for discussing writing systems.
 
 Term | Definition
 ---- | ----------
+<a id=''></a>AAT|see <a href='#aat'>Apple Advanced Typography</a>.
 <a id='abjad'></a>abjad | a form of writing in which the vowels are omitted or optional, such as Hebrew and Arabic scripts.
 <a id='abschar'></a>abstract character|a unit of information used for the organization, control or representation of textual data. Abstract characters may be non-graphic characters used in textual information systems to control the organization of textual data (e.g. <span class='USV'>U+FFF9</span>&nbsp;<span class='UnicodeCharName'>INTERLINEAR ANNOTATION ANCHOR</span>), or to control the presentation of textual data (e.g. <span class='USV'>U+200D</span>&nbsp;<span class='UnicodeCharName'>ZERO WIDTH JOINER</span>).
 <a id='abscharrep'></a>abstract character repertoire|a collection of abstract characters compiled for the purposes of encoding. See also <a href='#charset'>charset</a>.
@@ -36,6 +37,7 @@ Term | Definition
 <a id='allo'></a>allophone|a variant of a <a href='#phon'>phoneme</a>. It is not distinctive, that is, substituting one allophone for another of the same phoneme will not change the meaning of the word, although it will sound unnatural. Broadly speaking, the test to determine whether two sounds are allophones of the same phoneme, or separate phonemes, is to see whether they are in <a href='#comp'>complementary distribution</a>, that is, when two phonological elements are found only in two complementary environments. For example, in English /p<sup>h</sup>/ only occurs syllable-initially when followed by a <a href='#stress'>stressed</a> vowel, but /p/ occurs in all other environments. This is illustrated by the words _pin_ /p<sup>h</sup>in/ and _spin_ /spin/. Therefore, /p<sup>h</sup>/ and /p/ are seen to be in complementary distribution, and therefore allophones of the phoneme [p]. This test is not foolproof; some sounds are in complementary distribution but are not considered to be allophones. For example, in English /h/ only occurs syllable-initially and /ʔ/ only occurs syllable-finally. However they are phonetically so different that they are still considered to be separate phonemes. One allophone can be assigned to more than one phoneme, as illustrated in some North American English dialects, where the phonemes /t/ and /d/ can both be changed into the allophone [ɾ].
 <a id='alph'></a>alphabet|a segmental writing system having symbols for individual sounds, rather than for syllables or morphemes. In a true alphabet, consonants and vowels are written as independent letters, in contrast to an <a href='#abugida'>abugida</a> or an <a href='#abjad'>abjad</a>. In a perfectly phonemic alphabet, phonemes and letters would be predictable in both directions; that is, the sound of a word could be predicted from its spelling and vice-versa. A phonetic alphabet is also predictable in this way, however it uses separate letters for separate <a href='#allo'>allophones</a>, whereas a phonemic alphabet may describe allophones of the same phoneme using a single letter.
 <a id='anchorpoint'></a>anchor point|see <a href='#attpoint'>attachment point</a>.
+<a id='aat'></a>Apple Advanced Typography|**a <a href='#smartfont'>smart font</a> rendering technology developed by Apple.**
 <a id='articulator'></a>articulator|any vocal organ used to form a speech sound. For example, the articulators used to form the sound [f] are the lower lip (a labial articulator) and the upper teeth (a dental articulator), so is described as a 'labiodental' sound. _Active articulators_ are those organs which can move - for example the tongue - and _passive articulators_ are those which are fixed - for example the roof of the mouth.
 <a id='ascent'></a>ascent|the distance between the top of the line of text and the baseline, or the distance from the baseline to the top of the highest <a href='#glyph'>glyph</a> in a <a href='#font'>font</a>.
 <a id='ascii'></a>ASCII|a standard that defines the 7-bit numbers (<a href='#codepoint'>codepoints</a>) needed for most of the U.S. English <a href='#writingsys'>writing system</a>. The initials stand for American Standard Code for Information Interchange. Also specified as [ISO 646-IRV](http://en.wikipedia.org/wiki/ISO/IEC_646).
@@ -67,7 +69,7 @@ Term | Definition
 <a id='charencform'></a>character encoding form|a system for representing the <a href='#codepoint'>codepoints</a> associated with a particular coded character set in terms of code values of a particular datatype or size. For many situations, this is a trivial mapping: codepoints are represented by bytes with the same integer value as the codepoint. Some encoding forms may represent codepoints in terms of 16- or 32-bit values, though, and some 8-bit encoding forms may be able to represent a <a href='#codespace'>codespace</a> that has more than 256 codepoints by using multiple-byte sequences. Most <a href='#enc'>encoding forms</a> are designed specifically for use in connection with a particular <a href='#codedcharset'>coded character set</a>; e.g. <a href='#utf8'>UTF-8</a> is used specifically for encoded representation of the <a href='#ucs'>Universal Character Set</a> defined by <a href='#unicode'>Unicode</a> and ISO/IEC 10646. Some encoding forms may be designed for use with multiple repertoires, however. For example, the ISO 2022 encoding form supports an open collection of coded character sets and specifies changes between character sets in a data stream using escape sequences. See also [Unicode TR17 Character Encoding Form](https://www.unicode.org/reports/tr17/#CharacterEncodingForm).
 <a id='charencsch'></a>character encoding scheme|a <a href='#charencform'>character encoding form</a> with a specific byte order serialization (relevant mainly for 16- or 32-bit encoding forms)
 <a id='charsetenc'></a>character set encoding|a system for encoded representation of textual data that specifies the following: (1) a <a href='#codedcharset'>coded character set</a>, (2) one or more <a href='#charencform'>character encoding forms</a> and (3) one or more <a href='#charencsch'>character encoding schemes</a>.
-<a id='cv'></a>Character Variant|**Add definition**
+<a id='cv'></a>Character Variant|**selects a typographic alternative for one character or a set of closely related characters.**
 <a id='charset'></a>charset|an identifier used to specify a set of characters. Used particularly in Microsoft Windows and <a href='#truetype'>TrueType fonts</a>, and in HTML and other Internet or Web protocols to refer to identifiers for particular subsets of the <a href='#ucs'>Universal Character Set</a>.
 <a id='cjkv'></a>CJKV (Chinese, Japanese, Korean and Vietnamese)|the significance of this grouping of languages is that all have <a href='#writingsys'>writing systems</a> that use Han ideographic <a href='#char'>characters</a>.
 <a id='cldr'></a>CLDR|The _Common Locale Data Repository_. An extensive repository of locale data, where a locale is a language, spoken in a particular country, written in a particular script. The CLDR is designed to provide key building blocks for software to support the world's languages, and is hosted by the Unicode Consortium.
@@ -83,7 +85,7 @@ Term | Definition
 <a id='conjunct'></a>conjunct|a <a href='#ligature'>ligature</a>, in particular, a ligature representing a consonant cluster in an Indic script.
 <a id='continuant'></a>continuant|in phonetics, a speech sound which is produced without complete closure of the vocal tract. That is, any sound other than a <a href='#stop'>stop</a>, or any sound which can be articulated continuously.
 <a id='contrast'></a>contrastive distribution|the relation between two or more variants of a given entity (sound, morpheme etc) which distinguish between units. For example, a pair of <a href='#phon'>phonemes</a> such as [p] and [b], which distinguish between the words _pin_ [pɪn] and _bin_ [bɪn] are said to be in contrastive distribution. Suffixes such as -ed and -s which distinguish between the past tense (e.g. _walked_) and the present tense (e.g. _walks_) are similarly said to be in contrastive distribution. The counterparts to contrastive distribution are <a href='#comp'>complementary distribution</a> and <a href='#freev'>free variation</a>. See also [Contrastive Distribution](https://en.wikipedia.org/wiki/Contrastive_distribution).
-<a id='ct'></a>CoreText|**Add definition**
+<a id='ct'></a>CoreText|**a shaping engine for laying out text and handling fonts on iOS and macOS.**
 <a id='creole'></a>creole|a fully-functioning language which has developed as a result of interaction between two (or more) parent languages. Often, a creole develops from a <a href='#pidgin'>pidgin</a> if the pidgin is used for long enough for a sophisticated grammar and vocabulary to evolve, and if the pidgin acquires native speakers (if children learn it as their first language).
 <a id=''></a>CSS|see <a href='#css'>cascading style sheets</a>.
 
@@ -92,20 +94,20 @@ Term | Definition
 Term | Definition
 ---- | ----------
 <a id=''></a>DBL|see <a href='#dbl'>Digital Bible Library</a>.
-<a id='dbl'></a>Digital Bible Library| **Add definition**
+<a id='dbl'></a>Digital Bible Library| **an archive and a licensing management environment which gathers, validates, and safeguards digital scripture translation and publication assets.**
 <a id=''></a>DDL|see <a href='#ddl'>Digitally Disadvanged Language</a>.
-<a id='ddl'></a>Digitally Disadvanged Language| **Add definition**
+<a id='ddl'></a>Digitally Disadvanged Language| **languages which are not well supported on the most popular devices, operating systems, browsers and mobile applications.**
 <a id='deadkey'></a>dead key|a key in a particular keyboard layout that does not generate a <a href='#char'>character</a>, but rather changes the character generated by a following keystroke. Dead keys are commonly used to enter <a href='#diacritic'>accented</a> forms of letters in writing systems based on <a href='#roman'>Roman script</a>.
 <a id='deepenc'></a>deep encoding|see <a href='#semenc'>semantic encoding</a>.
 <a id='defect'></a>defective|with regard to writing systems, a writing system which does not represent all the distinctive sounds of the language it represents.
-<a id='deprecate'></a>deprecate/deprecated| **Add definition**
+<a id='deprecate'></a>deprecate/deprecated| **this term can be used to indicate a codepoint, language tag, programming command, etc is not encouraged for use anymore. There is generally a better solution than the one that is deprecated.**
 <a id='descent'></a>descent|the distance between the bottom of the line of text and the baseline, or the distance from the baseline to the bottom of the lowest <a href='#glyph'>glyph</a> in a <a href='#font'>font</a>.
 <a id='deter'></a>determinative|in semantics, a class of words that indicates, specifies or limits a noun, such as the definite or indefinite article, the genitive (possessive) marker, or cardinal numbers. In <a href='#logws'>logographic writing systems</a>, determinatives are one of three types of <a href='#logo'>logograph</a>, the other two being <a href='#phonograph'>phonographs</a> and <a href='#logo'>ideographs</a>. Determinatives generally have no spoken equivalent but perform a grammatical function to disambiguate between multiple possible interpretations of a phonograph or ideograph.
 <a id='diacritic'></a>diacritic|a written symbol which is structurally dependent upon another symbol; that is, a symbol that does not occur independently, but always occurs with and is visually positioned in relation to another <a href='#char'>character</a>, usually above or below. Diacritics are also sometimes referred to as accents. For example, acute, grave, circumflex, etc.
 <a id='diaeresis'></a>diaeresis|a diacritic mark (¨), also called tréma, commonly placed over the second of two adjacent vowels to indicate that they are to be pronounced as separate sounds rather than as a <a href='#diphthong'>diphthong</a>, as in the English word _naïve_. It can also be used to indicate that an otherwise unpronounced vowel is to be pronounced, as in the English name _Brontë_ or the French word _cigüe_. In Welsh orthography, it is often written on the first of two adjacent vowels to indicate that the first vowel bears <a href='#stress'>stress</a>. The same mark when used over a single vowel in Germanic writing is called an <a href='#umlaut'>umlaut</a> and indicates a change in vowel quality.
 <a id='digraph'></a>digraph|a <a href='#multig'>multigraph</a> composed of two components.
 <a id='diphthong'></a>diphthong|in phonetics, a complex speech sound occupying one syllable, which begins with one vowel and ends with another. For example [eɪ] in British (RP) pronunciation of the word _lane_. See also <a href='#monophthong'>monophthong</a>.
-<a id='dw'></a>DirectWrite| **Add definition**
+<a id='dw'></a>DirectWrite| **a shaping engine for laying out text and handling fonts on Windows.**
 <a id='displayenc'></a>display encoding|See <a href='#presformenc'>presentation-form encoding</a>.
 <a id='distinct'></a>distinctive|also _contrastive_. An element which makes a distinction between units. In phonology, a process or a pair of sounds, the alternation of which changes the meaning of a word. See also <a href='#phon'>phoneme</a>, <a href='#minipair'>minimal pair</a>. For example, voicing is distinctive in most non-tonal languages, as illustrated by the difference between English _fan_ and _van_, or German _Kern_ and _gern_.
 <a id='doc'></a>document|a collection of information. This includes the common sense of the word, i.e. an organization of primarily textual information that can be produced by a word processing or data processing application. It goes beyond this, however, to include structured information held within an <a href='#xml'>XML</a> file. Each XML file is considered to contain one document, whatever the structure and type of that information.
@@ -151,7 +153,7 @@ Term | Definition
 ---- | ----------
 <a id='haček'></a>haček|See <a href='#caron'>caron</a>.
 <a id='heterogram'></a>heterogram|a term used mostly in the study of ancient texts, referring to a special kind of a logogram consisting of the written representation of a word in a foreign language.
-<a id='hb'></a>HarfBuzz|**Add definition**
+<a id='hb'></a>HarfBuzz|**a text shaping engine which primarily supports OpenType, but also Graphite, and Apple Advanced Typography.**
 <a id='hetnm'></a>heteronym|<a href='#homg'>homographs</a> which, although spelled the same way, are pronounced differently and have different meanings. For example, in English 'wind' (noun, as in weather) and 'wind' (verb, to coil something).
 <a id='homg'></a>homograph|one of multiple words having the same spelling but different meanings. They may be pronounced differently (for example in English 'tear: rip' and 'tear: secreted when crying'), in which case they are also <a href='#hetnm'>heteronyms</a>, or they may be pronounced the same (for example in American English 'tire: cause to be fatigued' and 'tire: wheel of a car'), in which case they are also <a href='#homphn'>homophones</a>.
 <a id='homphn'></a>homophone|one of multiple words having the same pronunciation but different meanings. They may be spelled differently (for example in English 'write' and 'right'), in which case they are called heterographs, or the same (for example in English 'bark: on a tree' and 'bark: of a dog'), in which case they are also <a href='#homg'>homographs</a>.
@@ -187,7 +189,7 @@ Term | Definition
 <a id='languageid'></a>language ID|a constant value within some system used for metadata identification of the language in which information is expressed. May be numeric or character based, depending on the system.
 <a id='Latin'></a>Latin script|see <a href='#roman'>Roman script</a>.
 <a id=''></a>LFF|see <a href='#lff'>Language Font Finder</a>.
-<a id='lff'></a>Language Font Finder| **Add definition**
+<a id='lff'></a>Language Font Finder| **provides a micro service responder when passed language tag will return information on a possible font to use for the orthography for that language tag. See [langfontfinder](https://github.com/silnrsi/langfontfinder).**
 <a id='leftsideb'></a>left side-bearing|the white space at the left edge of a <a href='#glyph'>glyph's</a> visual representation, or more specifically, the distance between the current horizontal display position and the left edge of the glyph's <a href='#Boundbox'>bounding box</a>. A positive left side-bearing indicates white space between the glyph and the previous one; a negative left side-bearing indicates overlap or overhang between them.
 <a id='ligature'></a>ligature|a single shape or <a href='#glyph'>glyph</a> that represents two or more underlying <a href='#char'>characters</a>. See also <a href='#conjunct'>conjunct</a>.
 <a id='locale'></a>locale|a collection of parameters that affect how information is expressed or presented within a particular group of users, generally distinguished from one another on the basis of language or location (usually country). Locale settings affect things such as number formats, calendrical systems and date and time formats, as well as language and <a href='#writingsys'>writing system</a>.
@@ -229,7 +231,7 @@ Term | Definition
 Term | Definition
 ---- | ----------
 <a id=''></a>onset|the part of a syllable that comes before the <a href='#nucleus'>nucleus</a> e.g. the [b] in [beɪs]
-<a id='opentype'></a>OpenType|A <a href='#smartfont'>smart font</a> rendering technology developed by Microsoft and Adobe; an extension to the <a href='#truetype'>TrueType font</a> specification. See also <a href='#uniscribe'>Uniscribe</a>.
+<a id='opentype'></a>OpenType|a <a href='#smartfont'>smart font</a> rendering technology developed by Microsoft and Adobe; an extension to the <a href='#truetype'>TrueType font</a> specification. See also <a href='#uniscribe'>Uniscribe</a>.
 <a id='orthochar'></a>orthographic character|a written symbol that is conventionally perceived as a distinct unit of writing in some <a href='#writingsys'>writing system</a> or orthography.
 
 ## <a id="P"></a>P
@@ -257,7 +259,7 @@ Term | Definition
 <a id='presformenc'></a>presentation-form encoding|a character encoding system in which the <a href='#abschar'>abstract characters</a> that are encoded match one-for-one with the <a href='#glyph'>glyphs</a> required for text display. Such encodings allow correct rendering of <a href='#writingsys'>writing systems</a> on 'dumb' <a href='#render'>rendering</a> systems by having distinct <a href='#codepoint'>codepoints</a> for contextual forms, positional variants, etc. and are designed on the basis of rendering needs rather than on the basis of character semantics (the linguistically relevant information). Also known as glyph encoding, display encoding or surface encoding; distinguished from <a href='#semenc'>semantic encoding</a>.
 <a id='pua'></a>Private Use Area (PUA)|a range of <a href='#unicode'>Unicode</a> <a href='#codepoint'>codepoints</a> (E000 - F8FF and <a href='#plane'>planes</a> 15 and 16) that are reserved for private definition and use within an organization or corporation for creating proprietary, non-standard character definitions. For more information see The Unicode Consortium, 1996, pp. 619 ff.
 <a id=''></a>PUA|see <a href='#pua'>Private Use Area</a>.
-<a id='python'></a>Python|**Add definition**
+<a id='python'></a>Python|**a programming language often used in font and writing system resource development.**
 
 ## <a id="Q"></a>Q
 
@@ -290,7 +292,7 @@ Term | Definition
 <a id=''></a>SFM|see <a href='#sfm'>Standard Format Marker</a>.
 <a id=''></a>SGML|See <a href='#sgml'>Standard Generalized Markup Language</a>.
 <a id='sidebearing'></a>side bearing|the white space at the edge of a <a href='#glyph'>glyph</a>; see <a href='#leftsideb'>left side-bearing</a>, <a href='#rightsideb'>right side-bearing</a>. There can also be top and bottom side bearings, of use when <a href='#render'>rendering</a> text vertically.
-<a id='sldr'></a>SIL Locale Data repository| **Add definition**
+<a id='sldr'></a>SIL Locale Data repository| **SIL's repository of selected locale data. See [sldr](https://github.com/silnrsi/sldr/).**
 <a id=''></a>SLDR|see <a href='#sldr'>SIL Locale Data repository</a>.
 <a id='smartfont'></a>smart font|a <a href='#font'>font</a> capable of performing transformations on complex patterns of <a href='#glyph'>glyphs</a>, above and beyond the simple character-to-glyph mapping that is a basic function of font rendering (see <a href='#cmap'>cmap</a>). The information specifying the smart behavior is typically in the form of extra tables embedded in the font, and will generally allow layered transformations involving one-to-many, many-to-one, and many-to-many mappings of glyphs.
 <a id='shaping'></a>shaping engine|**See [Harfbuzz](#hb), [DirectWrite](#dw), [CoreText](#ct), [Universal Shaping Engine](#use).**
@@ -298,10 +300,10 @@ Term | Definition
 <a id='sortkey'></a>sort key|a sequence of numbers that when appropriately processed using a particular standard algorithm will position the corresponding string in the correct sort position in relation to other strings. The sort key need not correspond one number to one <a href='#codepoint'>codepoint</a> in the input string.
 <a id='sfm'></a>Standard Format Marker (SFM)|an element of a proprietary format developed by SIL International and used by some linguistic software applications. A standard format marker begins with a backslash (\\); for example, `\p` would represent a paragraph tag. It is possible (and even probable) that SFMs in a single document have different character encodings. When converting to one encoding (Unicode) these must be converted with different mapping files.
 <a id='sgml'></a>Standard Generalized Markup Language (SGML)|a notation for generalized markup developed by the [International Organization for Standardization](https://www.iso.org) (ISO). It separates textual information from the processing function used for formatting. It was found difficult to parse, due to the many variants possible, and so <a href='#xml'>XML</a> was developed as a subset to resolve the ambiguities and to make parsing easier.
-<a id='smith'></a>smith|**Add definition**
+<a id='smith'></a>smith|**a Python-based framework for building, testing and maintaining WSI (Writing Systems Implementation) components such as fonts. See [smith](https://github.com/silnrsi/smith).**
 <a id='stop'></a>stop|also called a _plosive_. In phonology, a speech sound whose production involves a complete blockage of the air flow. This may include only consonants in which the air flow is blocked through both the mouth and the nose, such as [p] or [k], or those in which the air flow is blocked through the mouth only, such as [m] or [n]. Sounds in which the airflow is blocked through both the mouth and the nose cannot be articulated continuously.
 <a id='stress'></a>stress accent|one of two types of phonological accent by which one syllable is heard to be more prominent than others, its counterpart being a <a href='#pitch'>pitch accent</a>. Phonetically, stress is due to a difference in length, volume, vowel quality, or a combination of these. These differences are thought to reflect a greater muscular energy in the production of the stressed syllable. The placement of stress may determine the meaning of a word, for example in the case of the two English words /conˈtent/ and /ˈcontent/. Accents may or may not be marked in writing, depending on the orthographic conventions of a particular language.
-<a id='ss'></a>Stylistic set|**Add definition**
+<a id='ss'></a>Stylistic set|**selects typographic alternatives for a set of glyphs. The variants generally apply across a braoder range of characters than might be implemented in a <a href='#cv'>Character variant</a>.** 
 <a id='supplement'></a>supplementary planes|<a href='#unicode'>Unicode</a> Planes 1 through 16, consisting of the supplementary code points, corresponding to <a href='#codepoint'>codepoints</a> U+10000 to U+10FFFF. In The Unicode Standard 3.1, characters were assigned in the supplementary planes for the first time, in Planes 1, 2 and 14. See also <a href='#bmp'>Basic Multilingual Plane</a>.
 <a id='supraseg'></a>suprasegmental|a unit or feature whose domain extends over more than one minimal element. For example, <a href='#stress'>stress</a> is classed as a suprasegmental feature because its domain is a whole syllable, comprised of the smaller minimal elements consonants and vowels. Suprasegmental features may be marked in writing; in these cases, the area in which they are written is called the suprasegmental box.
 <a id='surfenc'></a>surface encoding|see <a href='#presformenc'>presentation form encoding</a>.
@@ -319,7 +321,7 @@ Term | Definition
 <a id='transcription'></a>transcription|**a written representation of something spoken.**
 <a id='transliteration'></a>transliteration|**converting written characters into a different script. Usually this would be from a non-Roman script to Latin IPA.**
 <a id='truetype'></a>TrueType font|font format used primarily in Windows and on the Mac, allows for <a href='#glyph'>glyph</a> scaling and hinting.
-<a id='ttw'></a>TypeTuner| **Add definition**
+<a id='ttw'></a>TypeTuner Web| **a service which allows the user to download customized versions of SIL's fonts. See [TypeTuner Web](https://typetunerweb.languagetechnology.org/ttw/fonts2go.cgi).**
 
 ## <a id="U"></a>U
 
@@ -332,7 +334,7 @@ Term | Definition
 <a id='usv'></a>Unicode Scalar Value (USV)|a number written as a hexadecimal (base 16) value that serves as the <a href='#codepoint'>codepoint</a> for Unicode characters. Characters in the <a href='#bmp'>BMP</a> are written with four hex digits, eg: U+0061, U+AA32. Characters in <a href='#supplement'>supplementary planes</a> use five or six digits.
 <a id='uniscribe'></a>Uniscribe (Unicode Script Processor)|due to technical limitations in <a href='#opentype'>OpenType</a>, it is necessary to pre-process strings before applying OpenType smart behaviour. Microsoft uses a particular DLL (Dynamic Link Library) called Uniscribe to do this pre-processing. Uniscribe does all of the script specific, <a href='#font'>font</a> generic processing of a string (such as reordering) leaving the font specific processing (such as contextual forms) to the OpenType lookups of a font.
 <a id='ucs'></a>Universal Character Set (UCS)|the coded character set defined by <a href='#unicode'>Unicode</a> and ISO/IEC 10646, intended to support all commonly used characters from all <a href='#writingsys'>writing systems</a>, current and past.
-<a id='use'></a>Universal Shaping Engine|**Add definition**
+<a id='use'></a>Universal Shaping Engine|**for use with complex scripts that aren't supported by one of the dedicated shaping engines.**
 <a id=''></a>USE|see <a href='#use'>Universal Shaping Engine</a>.
 <a id=''></a>USV|see <a href='#usv'>Unicode Scalar Value</a>.
 <a id='utf16'></a>UTF-16|an encoding form for storing <a href='#unicode'>Unicode</a> <a href='#codepoint'>codepoints</a> in 16-bit words. It includes the concept of <a href='#surrogate'>surrogate pairs</a> to encode values from U+10000 - U+10FFFF as two 16-bit words.
@@ -354,10 +356,10 @@ Term | Definition
 
 Term | Definition
 ---- | ----------
-<a id='woff'></a>Web Open Font Format|**Add definition**
+<a id='woff'></a>Web Open Font Format|**a font file format for use in web pages.**
 <a id=''></a>WOFF|see <a href='#woff'>Web Open Font Format</a>.
 <a id=''></a>WOFF2|see <a href='#woff2'>WOFF File Format 2.0</a>.
-<a id='woff2'></a>WOFF File Format 2.0| **Add definition**
+<a id='woff2'></a>WOFF File Format 2.0| **a font file format that is a more compressed version of the Web Open Font Format (WOFF).**
 <a id='writingsys'></a>writing system|an implementation of one or more <a href='#script'>scripts</a> to form a complete system for writing a particular language. Most writing systems are based primarily upon a single script; writing systems for Japanese and Korean are notable exceptions. Many languages have multiple writing systems, however, each based on different scripts; e.g. the Mongolian language can be written using Mongolian or Cyrillic scripts. A writing system uses some subset of the characters of the script or scripts on which it is based with most or all of the behaviours typical to that script and possibly certain behaviours that are peculiar to that particular writing system.
 
 ## <a id="X"></a>X
