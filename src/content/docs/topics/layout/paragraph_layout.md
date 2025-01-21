@@ -22,7 +22,7 @@ RTL behavior needs to be properly implemented with regards to bullets (see Figur
 
 ## “Hanging” verse numbers
 
-In Christian biblical typesetting, it is fairly unusual to see “hanging” verse numbers3 in Roman scriptures today, they are commonly used in non-Roman scriptures. Hanging verse numbers are never easy to implement, whether in Roman or in non-Roman typesetting. The Lao New Testament in Figure 10 uses hanging chapter and verse numbers (which appear down the far left of the page). Another instance of hanging verse numbers is seen in Figure 11 (the small digits at the top of the page).
+In Christian biblical typesetting, it is fairly unusual to see [“hanging” verse numbers](https://silnrsi.github.io/wstr-sample-site/reference/glossary#hanging) in Roman scriptures today, they are commonly used in non-Roman scriptures. Hanging verse numbers are never easy to implement, whether in Roman or in non-Roman typesetting. The Lao New Testament in Figure 10 uses hanging chapter and verse numbers (which appear down the far left of the page). Another instance of hanging verse numbers is seen in Figure 11 (the small digits at the top of the page).
 
 ![Figure 10. Hanging verse numbers in LTR text (Lao)](images/6400-10-Lao.png)
 
@@ -76,9 +76,9 @@ The type of baseline will also affect underlining of text: if the baseline is ha
 
 In the Tibetan example in Figure 18, there appears to be a wavy underline almost as far down as the top of the next line. Without knowing the rules of the writing system one cannot know the purpose of it. The small circles under several of the glyphs actually represent something similar to underlining in Roman typography, thus the wavy underline most likely represents some other form of emphasis. It is important to check this out rather than making assumptions based on design guidelines one is most familiar with. Figure 19 shows another example of underlining. One can see in both the Lanna (left) and Thai (right) titles the underline does not cross the descenders. Although technically more difficult, this is more aesthetically appealing than if the underline crossed the descenders or was set below them.
 
-![Figure 18. “Underlining” with long descenders (Tibetan)](images/6400-18-Tibt.png)
+![Figure 18. Wavy “underlining” with long descenders (Tibetan)](images/6400-18-Tibt.png)
 
-**Figure 18. “Underlining” with long descenders (Tibetan)**
+**Figure 18. Wavy “underlining” with long descenders (Tibetan)**
 
 ![Figure 19. Underlining with long descenders (Lanna/Thai)](images/6400-19-NorthernThai.png)
 

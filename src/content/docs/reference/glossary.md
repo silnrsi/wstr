@@ -152,8 +152,10 @@ Term | Definition
 Term | Definition
 ---- | ----------
 <a id='haček'></a>haček|See <a href='#caron'>caron</a>.
-<a id='heterogram'></a>heterogram|a term used mostly in the study of ancient texts, referring to a special kind of a logogram consisting of the written representation of a word in a foreign language.
+<a id='hanging'></a>“Hanging” verse numbers|“Hanging” numbers are so named because the verse or chapter begins in the middle of a line and rather than the number appearing at the actual beginning point they are “hung” out in the margin so as not to distract the reader.
 <a id='harfbuzz'></a>HarfBuzz|a cross-platform <a href='#shapingEngine'>shaping engine</a> which primarily supports [OpenType](#opentype), but also [Graphite](#graphite) and [Apple Advanced Typography](#aat).
+<a id='heterogram'></a>heterogram|a term used mostly in the study of ancient texts, referring to a special kind of a logogram consisting of the written representation of a word in a foreign language.
+
 <a id='hetnm'></a>heteronym|<a href='#homg'>homographs</a> which, although spelled the same way, are pronounced differently and have different meanings. For example, in English 'wind' (noun, as in weather) and 'wind' (verb, to coil something).
 <a id='homg'></a>homograph|one of multiple words having the same spelling but different meanings. They may be pronounced differently (for example in English 'tear: rip' and 'tear: secreted when crying'), in which case they are also <a href='#hetnm'>heteronyms</a>, or they may be pronounced the same (for example in American English 'tire: cause to be fatigued' and 'tire: wheel of a car'), in which case they are also <a href='#homphn'>homophones</a>.
 <a id='homphn'></a>homophone|one of multiple words having the same pronunciation but different meanings. They may be spelled differently (for example in English 'write' and 'right'), in which case they are called heterographs, or the same (for example in English 'bark: on a tree' and 'bark: of a dog'), in which case they are also <a href='#homg'>homographs</a>.
