@@ -10,7 +10,7 @@ The setup of a page will especially be affected in RTL and top-to-bottom books. 
 
 ![Figure 1. Vertical headers in a top-to-bottom-RTL script (Chinese)](images/6500-1-Chinese.png)
 
-<figcaption>Figure 1. Vertical headers in a top-to-bottom-RTL script (Chinese)</figcaption>
+**Figure 1. Vertical headers in a top-to-bottom-RTL script (Chinese)**
 
 
 ## Headers and Footers
@@ -19,19 +19,19 @@ Another issue that needs to be examined is what headers, footers and footnotes l
 
 ![Figure 2. Horizontal headers in a top-to-bottom-RTL script (Japanese)](images/6500-2-Japanese.png)
 
-<figcaption>Figure 2. Horizontal headers in a top-to-bottom-RTL script (Japanese)</figcaption>
+**Figure 2. Horizontal headers in a top-to-bottom-RTL script (Japanese)**
 
 A vertical text with vertical headers is seen in Figure 1 while the body of Figure 2 is vertical with vertical footnotes but has LTR horizontal headers and footers. Examples of Chinese and Korean with RTL horizontal headers have also been seen.
 
 ![Figure 3. Horizontal and vertical headers in a top-to-bottom-LTR script (Mongolian)](images/6500-3-Mongolian.png)
 
-<figcaption>Figure 3. Horizontal _and_ vertical headers in a top-to-bottom-LTR script (Mongolian)</figcaption>
+**Figure 3. Horizontal *and* vertical headers in a top-to-bottom-LTR script (Mongolian)**
 
 Figure 3 has a vertical body text with both a horizontal header for the page number and a vertical header on the outside pages (which contain first and last dictionary entries). Figure 4 has a vertical body text with a header across the top of the page while the words in the header are still running vertically LTR. What a rich variety of possibilities!
 
 ![Figure 4. Columns in a top-to-bottom-LTR script (Xibo)](images/6500-4-Xibo.png)
 
-<figcaption>Figure 4. Columns in a top-to-bottom-LTR script (Xibo)</figcaption>
+**Figure 4. Columns in a top-to-bottom-LTR script (Xibo)**
 
 ## Columns
 
@@ -43,8 +43,22 @@ The ability to typeset diglots is also very important. This could take the form 
 
 ![Figure 5. Diglot using the same script (Devanagari) in two languages (Gurung/Nepali)](images/6500-5-Deva.png)
 
-<figcaption>Figure 5. Diglot using the same script (Devanagari) in two languages (Gurung/Nepali)</figcaption>
+**Figure 5. Diglot using the same script (Devanagari) in two languages (Gurung/Nepali)**
 
 ![Figure 6. Diglot using differing scripts (Lanna/Thai)](images/6500-6-NorthernThai.png)
 
-<figcaption>Figure 6. Diglot using differing scripts (Lanna/Thai)</figcaption>
+**Figure 6. Diglot using differing scripts (Lanna/Thai)**
+
+## Figures
+
+1. Yü, Ta-fu. *Chung-kuo hsin wen i ta hsi*, Vol. 2, pp. 534-535. Taipei, Ta han chu pan she, Tsung ching hsiao yuan liu chu pan she, min kuo 65- [1976- ].
+
+2. Ebisawa, Arimichi. 1981. *Nihon no Seisho (The Japanese Bible: A History)*, pp. 260-261. Tokyo: Nihon Kirisuto Kyodan Shuppankyoku.
+
+3. Hasbaatar Saranbat. 1985. *Baigal gazar zuin toli (Nature dictionary)*, pp. 2-3. Inner Mongolia: Inner Mongolian People’s Publication Committee.
+
+4. Tong, Qing-funei (Mr.). Chief editor. 1994. *fon koolingga sibe shu tacin gisun i buleku bithe (Modern Standardized Xibo Written Language Dictionary)*. Edited by “Xinjiang Uygur Autonomous Region Working Committee of National Languages and Writings”, p. 400. Urumqi, People’s Republic of China: Xinjiang People’s Publishing House.
+
+5. 1982. *Gurung-Nepali (common language version) New Testament*, p. 148. New Delhi, India: World Home Bible League. Printed at Ambassador Press.
+
+6. Phayomyong, Manee. 2533 (Buddhist calendar). *Learning to Read Lanna Thai* (translation), p. 1. Chiang Mai, Thailand: Chiang Mai University. Printed by Sap Karn Pim.
