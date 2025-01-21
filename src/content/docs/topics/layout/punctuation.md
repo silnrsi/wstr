@@ -4,6 +4,8 @@ sidebar:
     order: 6250
 ---
 
+At this point the reader will not be surprised to hear that punctuation behaviors vary between scripts as well.
+
 ## Sentence ending
 
 Although the reader’s eye may not register it, good Roman typography adds a small amount of extra space between a full stop and the next word than between other words. A simple difference in Cyrillic is that full stops don’t have any more extra space after them than between words (Kolodin et al, 2000), thus it would be important to be able to disable any additional spacing.
