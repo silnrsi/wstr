@@ -8,7 +8,7 @@ sidebar:
 
 Although the reader’s eye may not register it, good Roman typography adds a small amount of extra space between a full stop and the next word than between other words. A simple difference in Cyrillic is that full stops don’t have any more extra space after them than between words (Kolodin et al, 2000), thus it would be important to be able to disable any additional spacing.
 
-Tibetan (&#x050D;), Devanagari (&#x0964;), and Ethiopic (&#x1362;) all have different symbols for sentence ending, each with differing amount of space before and after the marker. Some Ethiopic languages use a different question mark (&#x1367;) than the more standard Roman style.
+Tibetan (&#x0F0D;), Devanagari (&#x0964;), and Ethiopic (&#x1362;) all have different symbols for sentence ending, each with differing amount of space before and after the marker. Some Ethiopic languages use a different question mark (&#x1367;) than the more standard Roman style.
 
 Some Roman languages (such as Spanish) use an opening and closing mark for questions and exclamations. If a non-Roman script did this, that would need to be implemented as well.
 
