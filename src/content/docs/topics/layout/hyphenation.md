@@ -1,25 +1,27 @@
 ---
 title: Hyphenation
 sidebar:
-    order: 6220
+    order: 6230
 ---
+
+Hyphenation is often required because text is justified. The two are closely tied together.
 
 Hyphenation is another tool used in Roman typesetting but is not always allowed in other writing systems. Since Arabic does not allow hyphenation, another method for justification is needed: _kashidas_ are used to stretch the line. The _kashida_ (or tatweel) is typeface-dependent and varies for each kind of Arabic script. Thus, the rules for inserting the _kashida_ will be in the font, and the publishing application would need to have the capability of using the font (Milo 2001).
 
-![Figure 1. Use of kashida](images/6220-1-kashida.png)
+![Figure 1. Use of kashida](images/6230-1-kashida.png)
 
 **Figure 1. Use of kashida**
 
 Another interesting case of different hyphenation methods is Ethiopic. Because Ethiopic was traditionally written using the _Hulet Neteb_ there was no need for a hyphenation character. If a line broke at the end of a word you would see the _Hulet Neteb_ or other punctuation but, if a line broke in the middle of the word, the reader just saw the word break with no hyphen. In Figure 2, line two is “hyphenated,” line one is not.
 
 ![Figure 2. “Hyphenation” in line two with use of Hulet
-Neteb (Ethiopic)](images/6220-2-Ethi.png)
+Neteb (Ethiopic)](images/6230-2-Ethi.png)
 
 **Figure 2. “Hyphenation” in line two with use of Hulet
 Neteb (Ethiopic)**
 
 ![Figure 3. “Hyphenation” in line two with use of white space
-(Ethiopic)](images/6220-3-Ethi.png)
+(Ethiopic)](images/6230-3-Ethi.png)
 
 **Figure 3. “Hyphenation” in line two with use of white space
 (Ethiopic)**
