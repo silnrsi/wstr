@@ -40,7 +40,7 @@ Mixed direction text can be especially interesting. LTR behavior of numbers in A
 
 **Figure 12. LTR numbers in RTL text (Arabic)**
 
-![Figure 13. LTR text (Cyrillic) with RTL words (Arabic)](images/6400-13-Arab.png)
+![Figure 13. LTR text (Cyrillic) with RTL words (Arabic). Uneven line spacing with mixed scripts.](images/6400-13-Arab.png)
 
 **Figure 13. LTR text (Cyrillic) with RTL words (Arabic)**
 
@@ -78,15 +78,15 @@ In the Tibetan example in Figure 18, there appears to be a wavy underline almost
 
 ![Figure 18. Wavy “underlining” with long descenders (Tibetan)](images/6400-18-Tibt.png)
 
-**Figure 18. Wavy “underlining” with long descenders (Tibetan)**
+**Figure 18. Wavy “underlining” with long descenders (Tibetan). Line spacing is increased for long descenders.**
 
 ![Figure 19. Underlining with long descenders (Lanna/Thai)](images/6400-19-NorthernThai.png)
 
-**Figure 19. Underlining with long descenders (Lanna/Thai)**
+**Figure 19. Underlining with long descenders (Lanna/Thai). Lanna line spacing is crowded with long ascenders and descenders.**
 
-## Point size and Leading
+## Point size and Line spacing
 
-There are differences in optimum point sizes between scripts. In general the point size needs to be larger for non-Roman scripts to successfully reproduce complex characters or because of longer ascenders and descenders. Clearly this would affect leading as well and, in many computer applications, one would not want to allow the default leading to prevail. Extra leading is allowed for long descenders in the Tibetan text of Figure 18, while enough leading was probably not allowed for in Figure 19 as ascenders and descenders run together in places. Undoubtedly this makes reading the book more difficult.
+There are differences in optimum point sizes between scripts. In general the point size needs to be larger for non-Roman scripts to successfully reproduce complex characters or because of longer ascenders and descenders. Clearly this would affect line spacing as well and, in many computer applications, one would not want to allow the default leading to prevail. Extra line spacing is allowed for long descenders in the Tibetan text of Figure 18, while enough leading was probably not allowed for in Figure 19 as ascenders and descenders run together in places. Undoubtedly this makes reading the book more difficult.
 
 Figure 13 also shows how leading can be affected when one script is used within another: the line spacing in this case is increased when Turkic words are used but remains the same for the rest of the paragraph. If leading had been set to an exact amount, rather than letting the computer application decide, this odd behavior would not have occurred.
 
