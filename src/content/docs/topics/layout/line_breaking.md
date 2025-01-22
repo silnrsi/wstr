@@ -4,7 +4,15 @@ sidebar:
     order: 6210
 ---
 
-Here is an outline on this topic
+**Summary:** In typesetting with Roman script, text is justified on a line by first seeing how much fits on a line, then checking to see if there is a word break there (for example, a space), next checking to see if a word can be broken (hyphenated) at that point, then adding space between words and finally (although strongly deprecated!) between letters to fill out the line.
+
+## Word breaks
+
+Line breaking becomes more difficult if scripts do not have word breaks, as in Tibetan and Thai, or if the word break is represented by a character rather than a space. Ethiopic is an example of using a character rather than a space: the _Hulet Neteb_ (&#x1361;) is used between words in place of white space, unless there is other punctuation which acts as a word break. (This is also an excellent illustration of how computers have changed a script. With the advent of computing, Ethiopic is now usually written on computer with white space between words. When handwriting, however, people typically still use the _Hulet Neteb_.)
+
+See [Justification](justification.md) and [Hyphenation](hyphenation.md) for details on those aspects of line breaking.
+
+For a deeper discussion, here is an outline on this topic
 
 - Introduction
     - Based on linebreak opportunities
@@ -37,3 +45,4 @@ Here is an outline on this topic
         - How to stop those based on language tagging
         - How to mitigate them given poorly tagged text
             - What is the range of a ZWSP?
+
