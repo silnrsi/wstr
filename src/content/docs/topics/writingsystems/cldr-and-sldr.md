@@ -60,7 +60,7 @@ Here are some examples of how the LDML API is used:
   - This is used to test upcoming versions of SLDR prior to a new release. Typically, devs are given notice at least 2 weeks prior to release via the SIL LangTech Slack channel. 
 - https://ldml.api.sil.org/?query=langtags  returns the entirity of langtag.json from the release branch, while https://ldml.api.sil.org/?query=langtags&staging=1 returns the staging version.
 
-Since langtags.json is an important element of the LDML API, it is good practice for new versions of the SLDR and Langtags repositories to release simultaneously in order to avoid conflicts between them in output of the LDML API. 
+Since `langtags.json` is an important element of the LDML API, it is good practice for new versions of the SLDR and Langtags repositories to release simultaneously in order to avoid conflicts between them in output of the LDML API. 
 
 Examples of applications that use the SLDR via the LDML API include Bloom, Paratext, and Flex. 
 

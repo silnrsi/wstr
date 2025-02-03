@@ -4,11 +4,13 @@ sidebar:
     order: 1510
 ---
 
+!!!! UNFINISHED. also some of the links dont work yet do not be alarmed by that !!!
+
 # What is LDML?
 
 Locale Data Markup Language (LDML) is an XML format used for locale data. The most prolific user of LDML is the CLDR. 
 
-The specifications for LDML structure are described in [Unicode Technical Standard #35][uts35], though that documentation is quite dense. For that reason, a brief example of an LDML file is depicted below for reference,:
+The specifications for LDML structure are described in [Unicode Technical Standard #35][uts35], though that documentation is quite dense. For that reason, a brief example of an LDML file is depicted below for reference:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -18,7 +20,7 @@ The specifications for LDML structure are described in [Unicode Technical Standa
 	</identity>
 	<localeDisplayNames>
     	<languages>
-        	<language type="es">Español</language>
+            <language type="es">Español</language>
             <language type="en">Inglés</language>
     	</languages>
 	</localeDisplayNames>
@@ -36,7 +38,7 @@ The specifications for LDML structure are described in [Unicode Technical Standa
     	<collation type="standard">
         	<cr><![CDATA[
                 &L < ll <<< lL <<< Ll <<< LL
-            	&N < ñ <<< Ñ
+                &N < ñ <<< Ñ
         	]]></cr>
     	</collation>
 	</collations>
