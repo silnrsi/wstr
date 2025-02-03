@@ -4,7 +4,7 @@ sidebar:
     order: 1500
 ---
 
-#What is a Locale?
+# What is a Locale?
 
 Locale, in the context of computing, is a collection of parameters that affect how information is expressed or presented within a particular group of users, generally distinguished from one another on the basis of language or location (usually country). 
 
@@ -30,8 +30,8 @@ While many companies such as Meta and Microsoft often have their own internal sy
 
 # More on this site: 
 
-- CLDR and SLDR
-- LDML
+- [CLDR and SLDR][cldr and sldr]
+- [LDML][ldml]
 
 # More from External Sources:
 
