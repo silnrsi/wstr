@@ -4,7 +4,7 @@ sidebar:
     order: 1410
 ---
 
-What is a language tag? See docs in languages repo
+What is a language tag? See [docs][langtag docs] in langtags repo
 
 SIL’s `langtags.json` file resides in the a langtags repo. Information on making a maximal and minimal language tag is derived from various sources.
 
@@ -22,3 +22,5 @@ SIL’s `langtags.json` file resides in the a langtags repo. Information on maki
 - ISO 3166-1 alpha-2 country codes are used. However, these are derived from the Ethnologue `LanguageIndex.tab` file which includes all the regions.
 - We are in the process of incorporating [ROLV (Registry of Language Varieties) codes](https://hisregistries.org/rolv/). At this point these would be processed as private subtags.
 - During the build process of `langtags.json`, the sldr files are also used for testing purposes. Any language tags that are used in the sldr files should be added to `langtags.csv`. If the sldr file is incorrect, it should be corrected. 
+
+[langtag docs]: https://github.com/silnrsi/langtags/tree/master/doc
