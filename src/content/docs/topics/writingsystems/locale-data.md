@@ -18,9 +18,9 @@ Locales are identified with a key called a [Language Tag][langtag]. This is a th
 
 Locale Data refers to the data needed to present a user from a specific locale with information that would be familiar to them. This includes, but is not limited to:
 - Important vocabulary 
-  - (country, language, and script names, currency, days of the week and months of the year, units of measurement, time zones, etc)
+  - Country, language, and script names, currency, days of the week and months of the year, units of measurement, time zones, etc
 - Date and time formatting 
-  - (are dates displayed as Day/Month/Year or Month/Day/Year? Do you use 24 hr time or 12 hr time?)
+  - Are dates displayed as Day/Month/Year or Month/Day/Year? Do you use 24 hr time or 12 hr time?
 - Orthographic Data
   - What characters do you use to write? What order are they sorted in? Are they written right-to-left or left-to-right? When making an index, what characters/combinations of characters would you use for headers? What about punctuation; what type of quotation marks do you use? 
 - Numerical Data
