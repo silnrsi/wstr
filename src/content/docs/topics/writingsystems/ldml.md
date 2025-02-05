@@ -6,7 +6,7 @@ sidebar:
 
 !!!! UNFINISHED. also some of the links dont work yet do not be alarmed by that !!!
 
-# What is LDML?
+### What is LDML?
 
 Locale Data Markup Language (LDML) is an XML format used for locale data. The most prolific user of LDML is the CLDR. 
 
@@ -34,6 +34,7 @@ The specifications for LDML structure are described in [Unicode Technical Standa
     </layout>
     <characters>
         <exemplarCharacters>[a á b c d e é f g h i í j k l m n ñ o ó p q r s t u ú ü v w x y z]</exemplarCharacters>
+        <exemplarCharacters type="auxiliary">[ª à ă â å ä ã ā æ ç è ĕ ê ë ē ì ĭ î ï ī º ò ŏ ô ö ø ō œ ù ŭ û ū ý ÿ]</exemplarCharacters>
         <exemplarCharacters type="index">[A B C D E F G H I J K L {LL} M N Ñ O P Q R S T U V W X Y Z]</exemplarCharacters>
         <exemplarCharacters type="punctuation">[\- ‐‑ – — , ; \: ! ¡ ? ¿ . … '‘’ "“” « » ( ) \[ \] § @ * / \\ \&amp; # † ‡ ′ ″]</exemplarCharacters>
     </characters>
@@ -71,7 +72,7 @@ This is not an all-inclusive list of the potential elements that could be includ
 
 Note that I also added the traditional separated 'LL' back into this example for the purpose of demonstration. It is no longer present as a separate multigraph in the current version of the CLDR. 
 
-# The Building Blocks of LDML
+### The Building Blocks of LDML
 
 !!!!!!!!!! THIS BIT IS UNFINISHED BTW THIS IS A PLACEHOLDER !!!!!!!!!
 
@@ -101,11 +102,11 @@ This next section will not explain in-detail the different elements of an LDML f
 - [Annotations](https://unicode.org/reports/tr35/tr35-general.html#Annotations)
 - [Metadata](https://unicode.org/reports/tr35/tr35-info.html#Metadata_Elements)
 - References: Deprecated, but still referenced in the DTDs
-- [Special]
+- Special
 
 Of the elements listed above, a handful benefit from a more in-depth description on this site:
 
-### Identity
+#### Identity
 
 The "identity" element contains information about the locale described in the LDML file. The most important child elements are "language", "script", "territory", "variant", and the SLDR-specific "special/sil:identity". 
 
@@ -113,40 +114,41 @@ Not all of these elements are required. Only the elements used in the locale's m
 
 The sil:identity element is the child of a "special" element within the identity element. It contains attributes for the script and region of the locale, regardless of their inclusion in the previous elements. In addition, it contains a "source" attribute that indicates whether the file was imported from the CLDR. If there is no "source" attribute in the sil:identity element, the file is unique to the SLDR. 
 
-### Locale Display Names
+#### Locale Display Names
 
 vocab relating to the locale (lang, script, region). most important value is the autonym (name of lang in lang AND USING THE CORRECT SCRIPT). make sure to note that you do not have to list the full tag in the type attribute, even if the file is a long tag (i.e. sat_Deva has its autonym listed under sat, not sat_Deva). 
 
-### Characters
+#### Characters
 
 exemplar time, dont forget to explain the difference between main, aux, and index. and what can overlap and what cant. 
 
-### Dates
+#### Dates
 oh boy. someone (me)(emily) needs to track down the difference between uppercase H and lowercase h again. which one is 24 hr? i never remember.
 
-### Collations
+#### Collations
 
 oh boy collation 
 
-### Special
+#### Special
 
 FONT DATA AND KEYBOARDS AND FUN SIL STUFF GOES HERE
 
-## Draft Attributes
+### Draft Attributes
 
 Draft attributes are important. i took a ton of notes on this in the cldr import doc, get them and put them here. bc they are not intuitive. 
 
-# Text Formatting Tips
+### Text Formatting Tips
 
 For those who are primarily interacting with the SLDR and the data within, here are some useful tips about text formatting when manually entering and modifying data in an LDML file.
 
-## Formatting Text in an Exemplar:
+#### Formatting Text in an Exemplar:
 
 For the most part, the contents of an LDML file follow the standard rules of an XML file. With the exception of collation (see below), the contents within the square brackets (including the square brackets themselves) are Regular Expressions (regexes).
 
 Information about regexes can be found online in a number of places, though not all of it will be relevant to an LDML file. The most important things to know are how to escape non-ASCII characters and how to notate multigraphs and combining diacritics. 
 
-### Escaping
+***Escaping***
+
 Escaping in a regex is done by adding a backslash immediately before the character that needs escaping. You can see examples of this in the punctuation exemplar in the example above: the very first character, a hyphen (`\-`), is escaped in this way. Similarly, the backslash listed as a punctuation mark in this list is also escaped by adding a second backslash (`\\`). 
 
 Finally, a handful of characters require the whole character to be replaced with an HTML character reference, such as the ampersand, which is indicated as `\&amp;`. Notice that the escaping backslash is still present. The other two commonly-used character references are `&lt` and `&gt`, aka 'less than' (<) and 'greater than' (>). These do need to be written as their character references in an LDML file, but they do not need to be escaped. 
@@ -157,7 +159,7 @@ For example, 'A' has the unicode codepoint 'U+41', aka 'U+0041'. Therefore, the 
 
 This is most commonly used when the character will not display nicely when displayed in a coding environment, such as combining diacritics or PUA  characters. It's also sometimes used when working on non-latin scripts, when the person working on the file doesn't have easy access to a keyboard that types the characters and doesn't want to copy-paste for the entire list. The latter use-case isn't necessarily recommended, but it technically works the same either way. 
 
-### Multigraphs and Combining Diacritics
+***Multigraphs and Combining Diacritics***
 
 Multigraphs are an orthographic phenomenon in which two characters put together are treated as one single unit. In an LDML file, these are denoted by surrounding the grouped characters in curly brackets, such as the {LL} in the example above. This is important because the spaces between individual characters are only in these lists for human convenience; they do not indicate anything on a codified scale, nor are they required for the LDML file to function properly. To a computer, [s t] and [st] mean the same thing, so if you want to specifically indicate that "st" is a multigraph, you need to enter it as [{st}].  
 
@@ -167,7 +169,7 @@ For example, there is no single codepoint for 'a̱'. It consists of 'a' (U+0061)
 
 A good rule of thumb if you aren't sure if a diacritic is part of the same codepoint or not: hit the backspace after typing/copying the character. If the diacritic disappears, but the base character remains, the combined character is made of multiple codepoints. If both the base character and diacritic disappear simultaneously, they are already a single unique codepoint. Feel free to try it out with 'á' and 'a̱' right now, if you'd like. Just be sure you understand [normalization][normalization] and ensure that you are using the most composed version of the character possible (i.e. if there is a codepoint such as U+00E1 that combines the character and diacritic, prioritize using the composed one instead of placing two codepoints inside of the curly brackets). 
 
-## Formatting Text in Collation
+#### Formatting Text in Collation
 
 Collation and Sorting is a complex enough topic to require a separate page on this site, found [here][collation]. However, for the sake of this article, it should be noted that tailored coalition follows different formatting rules than most other data found within the text sections of an XML file, particularly in regard to escaping and multigraphs. 
 
