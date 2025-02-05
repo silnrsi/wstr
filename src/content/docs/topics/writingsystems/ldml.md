@@ -10,38 +10,60 @@ sidebar:
 
 Locale Data Markup Language (LDML) is an XML format used for locale data. The most prolific user of LDML is the CLDR. 
 
-The specifications for LDML structure are described in [Unicode Technical Standard #35][uts35], though that documentation is quite dense. For that reason, a brief example of an LDML file is depicted below for reference:
+The specifications for LDML structure are described in [Unicode Technical Standard #35][uts35], though that documentation is quite dense. For that reason, an abridged example of the LDML file  `es.xml` (Spanish) is depicted below for reference:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
-	<identity>
-    	<language type="es"/>
-	</identity>
-	<localeDisplayNames>
-    	<languages>
+    <identity>
+        <language type="es"/>
+        <special>
+            <sil:identity source="cldr" defaultRegion="ES" script="Latn"/>
+        </special>
+    </identity>
+    <localeDisplayNames>
+        <languages>
             <language type="es">Español</language>
             <language type="en">Inglés</language>
-    	</languages>
-	</localeDisplayNames>
-	<layout>
-    	<orientation>
-        	<characterOrder>left-to-right</characterOrder>
-    	</orientation>
-	</layout>
-	<characters>
-    	<exemplarCharacters>[a á b c d e é f g h i í j k l m n ñ o ó p q r s t u ú ü v w x y z]</exemplarCharacters>
-    	<exemplarCharacters type="index">[A B C D E F G H I J K L {LL} M N Ñ O P Q R S T U V W X Y Z]</exemplarCharacters>
-    	<exemplarCharacters type="punctuation">[\- ‐‑ – — , ; \: ! ¡ ? ¿ . … '‘’ "“” « » ( ) \[ \] § @ * / \\ \&amp; # † ‡ ′ ″]</exemplarCharacters>
-	</characters>
-	<collations>
-    	<collation type="standard">
-        	<cr><![CDATA[
+        </languages>
+    </localeDisplayNames>
+    <layout>
+        <orientation>
+            <characterOrder>left-to-right</characterOrder>
+        </orientation>
+    </layout>
+    <characters>
+        <exemplarCharacters>[a á b c d e é f g h i í j k l m n ñ o ó p q r s t u ú ü v w x y z]</exemplarCharacters>
+        <exemplarCharacters type="index">[A B C D E F G H I J K L {LL} M N Ñ O P Q R S T U V W X Y Z]</exemplarCharacters>
+        <exemplarCharacters type="punctuation">[\- ‐‑ – — , ; \: ! ¡ ? ¿ . … '‘’ "“” « » ( ) \[ \] § @ * / \\ \&amp; # † ‡ ′ ″]</exemplarCharacters>
+    </characters>
+    <collations>
+        <collation type="standard">
+            <cr><![CDATA[
                 &L < ll <<< lL <<< Ll <<< LL
                 &N < ñ <<< Ñ
-        	]]></cr>
-    	</collation>
-	</collations>
+            ]]></cr>
+        </collation>
+    </collations>
+    <special>
+        <sil:external-resources>
+            <sil:font name="Charis SIL" types="default" features="ss04=1 cv43=2 cv68=1 cv77=1 cv90=1">
+                <sil:url>https://lff.api.languagetechnology.org/family/charissil</sil:url>
+            </sil:font>
+            <sil:font name="Noto Sans">
+                <sil:url>https://github.com/googlefonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf</sil:url>
+            </sil:font>
+            <sil:font name="Noto Serif">
+                <sil:url>https://github.com/googlefonts/noto-fonts/raw/main/hinted/ttf/NotoSerif/NotoSerif-Regular.ttf</sil:url>
+            </sil:font>
+            <sil:kbd id="basic_kbdla" type="kmp">
+                <sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdla/download/kmp</sil:url>
+            </sil:kbd>
+            <sil:sampletext type="udhr">
+                <sil:url>http://efele.net/udhr/d/udhr_spa.txt</sil:url>
+            </sil:sampletext>
+        </sil:external-resources>
+    </special>
 </ldml>
 ```
 
@@ -85,18 +107,22 @@ Of the elements listed above, a handful benefit from a more in-depth description
 
 ### Identity
 
-what file am i? 
+The "identity" element contains information about the locale described in the LDML file. The most important child elements are "language", "script", "territory", "variant", and the SLDR-specific "special/sil:identity". 
+
+Not all of these elements are required. Only the elements used in the locale's minimal langtag are included. For example, in the file `enq.xml`, only the language element will be included. In the file `sat_Deva_IN`, the language ("sat"), script ("Deva"), and territory ("IN") elements will all be included. 
+
+The sil:identity element is the child of a "special" element within the identity element. It contains attributes for the script and region of the locale, regardless of their inclusion in the previous elements. In addition, it contains a "source" attribute that indicates whether the file was imported from the CLDR. If there is no "source" attribute in the sil:identity element, the file is unique to the SLDR. 
 
 ### Locale Display Names
 
-vocab relating to the locale (lang, script, region). most important value is the autonym (name of lang in lang AND USING THE CORRECT SCRIPT)
+vocab relating to the locale (lang, script, region). most important value is the autonym (name of lang in lang AND USING THE CORRECT SCRIPT). make sure to note that you do not have to list the full tag in the type attribute, even if the file is a long tag (i.e. sat_Deva has its autonym listed under sat, not sat_Deva). 
 
 ### Characters
 
-exemplar time, dont forget to explain the difference between main, aux, and index
+exemplar time, dont forget to explain the difference between main, aux, and index. and what can overlap and what cant. 
 
 ### Dates
-oh boy. someone (me) needs to track down the difference between uppercase H and lowercase h again. which one is 24 hr? i never remember.
+oh boy. someone (me)(emily) needs to track down the difference between uppercase H and lowercase h again. which one is 24 hr? i never remember.
 
 ### Collations
 
@@ -105,6 +131,10 @@ oh boy collation
 ### Special
 
 FONT DATA AND KEYBOARDS AND FUN SIL STUFF GOES HERE
+
+## Draft Attributes
+
+Draft attributes are important. i took a ton of notes on this in the cldr import doc, get them and put them here. bc they are not intuitive. 
 
 # Text Formatting Tips
 
@@ -135,7 +165,7 @@ Note that this is also required for any characters that use combining diacritics
 
 For example, there is no single codepoint for 'a̱'. It consists of 'a' (U+0061) and the combining macron below (U+0331). If left without brackets in an exemplar list, the regex would assume that 'a' and the macron were two separate letters of the alphabet. Written with brackets as '{a̱}', however, causes the regex to treat it as a single unit, just as it would act with 'á'. 
 
-A good rule of thumb if you aren't sure if a diacritic is part of the same codepoint or not: hit the backspace after typing/copying the character. If the diacritic disappears, but the base character remains, the combined character is made of multiple codepoints. If both the base character and diacritic disappear simultaneously, they are already a single unique codepoint. Feel free to try it out with 'á' and 'a̱' right now, if you'd like. Just be sure you understand [normalization][normalization] and that you are using the most composed version of the character possible (i.e. if there is a codepoint such as U+00E1 that combines the character and diacritic, prioritize using the composed one instead of placing two codepoints inside of the curly brackets). 
+A good rule of thumb if you aren't sure if a diacritic is part of the same codepoint or not: hit the backspace after typing/copying the character. If the diacritic disappears, but the base character remains, the combined character is made of multiple codepoints. If both the base character and diacritic disappear simultaneously, they are already a single unique codepoint. Feel free to try it out with 'á' and 'a̱' right now, if you'd like. Just be sure you understand [normalization][normalization] and ensure that you are using the most composed version of the character possible (i.e. if there is a codepoint such as U+00E1 that combines the character and diacritic, prioritize using the composed one instead of placing two codepoints inside of the curly brackets). 
 
 ## Formatting Text in Collation
 
