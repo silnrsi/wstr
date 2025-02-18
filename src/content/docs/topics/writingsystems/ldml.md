@@ -36,6 +36,7 @@ The specifications for LDML structure are described in [Unicode Technical Standa
         <exemplarCharacters>[a á b c d e é f g h i í j k l m n ñ o ó p q r s t u ú ü v w x y z]</exemplarCharacters>
         <exemplarCharacters type="auxiliary">[ª à ă â å ä ã ā æ ç è ĕ ê ë ē ì ĭ î ï ī º ò ŏ ô ö ø ō œ ù ŭ û ū ý ÿ]</exemplarCharacters>
         <exemplarCharacters type="index">[A B C D E F G H I J K L {LL} M N Ñ O P Q R S T U V W X Y Z]</exemplarCharacters>
+        <exemplarCharacters type="numbers">[\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9]</exemplarCharacters>
         <exemplarCharacters type="punctuation">[\- ‐‑ – — , ; \: ! ¡ ? ¿ . … '‘’ "“” « » ( ) \[ \] § @ * / \\ \&amp; # † ‡ ′ ″]</exemplarCharacters>
     </characters>
     <collations>
@@ -116,11 +117,71 @@ The sil:identity element is the child of a "special" element within the identity
 
 #### Locale Display Names
 
-vocab relating to the locale (lang, script, region). most important value is the autonym (name of lang in lang AND USING THE CORRECT SCRIPT). make sure to note that you do not have to list the full tag in the type attribute, even if the file is a long tag (i.e. sat_Deva has its autonym listed under sat, not sat_Deva). 
+Locale Display Names are translations of words related to displaying the name of a locale (hence the name). Specifically, these are translations of the names of languages, countries, regions, language variants, number systems, calendar systems, and measurement systems. It also contains vocabulary used to describe the information contained within an LDML file, such as words for "language", "script", "territory", "collation", "currency", etc. 
+
+All of this information allows for someone looking for the correct locale to read and understand it. After all, if you only speak English and are looking for an English setting on a Chinese phone, the word "英语" wouldn't help you to find the English setting! 
+
+It's important that all information within the Locale Display Names element is in the language and script used by the locale in question. For example, the file `ff_Adlm.xml` (Pulaar written in Adlam script) would contain the line `<language type="ff">𞤆𞤵𞤤𞤢𞤪</language>` (AKA the language 'ff' is called "𞤆𞤵𞤤𞤢𞤪"), rather than "Pulaar" as it is spelled by those who use Latin script to write the language. If anything within this element uses a different script or language from the locale the file is named for, something is wrong. 
+
+In the SLDR, the most important piece of information needed for the Locale Display names is the autonym (the name and spelling of the language used by the locale). For example, in the Spanish example above, that would be "Español". Many SLDR files also have a child element under Locale Display Names, called `special/sil:names/sil:name`, which contains the name of the locale used in SIL's internal systems for categorization purposes. For example, here is what this child element looks like in the SLDR file `pkr.xml`.
+
+```
+<special>
+    <sil:names>
+        <sil:name xml:lang="en">Kurumba, Attapady</sil:name>
+    </sil:names>
+</special>
+```
 
 #### Characters
 
-exemplar time, dont forget to explain the difference between main, aux, and index. and what can overlap and what cant. 
+The Characters element primarily consists of multiple child elements called "exemplarCharacters", often simply called "Exemplars". These exemplars are lists of characters used for different contexts in the locale. These contexts are "main" (sometimes also called "standard", it's the exemplar without a 'type' attribute), "auxiliary", "index", "numbers", and "punctuation". 
+
+While there are other child elements contained within the "Characters" element, these are the most important, and will be the focus of this section. 
+
+***Main***
+
+The "main exemplar" is the list of characters used consistently within the locale. For example, the main exemplar in an LDML file for English would contain the standard 26 letters of the English alphabet, A-Z, while the one for Spanish would also contain all of the diacritic characters used in Spanish, such as "á", "ñ", etc. Correct alphabetical order technically does not matter, but is HEAVILY encouraged. All characters should be lowercase. 
+
+Ideally, every character-diacritic combination possible should be listed individually. For example, Spanish should contain "a á e é i í n ñ o ó u ú ü" instead of "a e i n o u \u0301 \u0303 \u0308". This rule is not always consistently reflected within the files of the SLDR and CLDR, but should be considered "good practice". 
+
+Similarly, multigraphs, such as the Spanish "ll", are sometimes included as separate entries, but this is not always consistent. Some files only list separate multigraphs that contain characters that do not appear by themselves. For example, many languages do not use "h" except for in the multigraph "ch". Ideally, {ch} would be listed in the main exemplar, while the solo "h" would be left out of the main and listed in the "auxiliary" exemplar instead. Some of these files do simply list "h" as an entry in the main exemplar anyway, but, like with diacritics, the other method is considered "better practice".  
+
+The above two practices regarding combining diacritics and multigraphs is ignored in cases where there are a huge amount of potential combinations, such as with Indic mantras. In those cases, they are listed separately. 
+
+***Auxiliary***
+
+The "auxiliary exemplar" is the list of characters that appear sometimes within the locale, but rarely. This can include characters from loanwords, such as the "ç" in the word "façade", or characters that may need to be represented when writing foreign names, such as the "å" used in many Danish names. Like the main exemplar, all characters should be lowercase and alphabetical order is encouraged, but not necessarily required. If a character appeared in the main exemplar, it cannot also appear in the auxiliary exemplar, and vice versa. 
+
+Here are a few good rules of thumb to determine if a character should be in the auxiliary instead of the main exemplar:
+
+- The character cannot be typed using the default keyboards used in this locale.
+- The character is not taught or represented in primers or other literacy material.
+- The loanwords using this character have alternate spellings that replace the character for one in the main exemplar (e.g. "facade" and "naive" are both acceptable English spellings of "façade" and "naïve").
+- The character is an alternative codepoint used interchangably with a codepoint already featured in the main exemplar.
+  - This most often occurs with word-forming apostrophes, which are often used to represent the glottal stop sound ⟨ʔ⟩ and are NOT punctuation. Different apostrophe shapes are often used interchangably by different writers of the language, often using whichever is most easily typed on their local keyboard. For example, different people might use `'` (U+0027) and `’` (U+2019) and `ꞌ` (U+A78C) and `ʼ` (U+02BC) to mean the same thing, not realizing that the computer sees them all as completely different. The main exemplar shouldn't contain multiple versions of the same character, so alternative versions are sometimes placed in the auxiliary instead. 
+
+***Index***
+
+The "index exemplar" is the list of characters one might use to categorize and sort an indexed list, such as a dictionary or large alphebetized list. Unlike the other exemplars, the index exemplar MUST be in the correct alphabetical order. 
+
+All characters in the index exempar must be uppercase versions of characters that appeared in the main or auxiliary exemplars, but not every character in the main exemplar necessarily belongs in the index exemplar. For example, Spanish dictionaries typically do not separate "a" from "á", so while "á appears in the main exemplar, "Á" does not appear in the index exemplar. 
+
+The easiest way to find which characters would be featured in an index exemplar is to track down a dictionary in the locale and look at the table of contents. Do they have a separate section for "c" and "ch"? 
+
+If "v" is technically a loan character that only appears twice, but those two instances happen to be the first letter of the word (e.g. "vino" (wine) appears in a lot of languages in areas with a history of Spanish colonialism that otherwise don't use "v"), then that "v" from the auxiliary exemplar needs to be listed in the index exemplar as "V". 
+
+Multigraphs that are common enough to be used as distinct characters for sorting purposes would usually be featured in the index exemplar as well, depending on how prevelent they are. Spanish used to sort words starting with "LL" separately from words starting with "L", so "{LL}" would be listed in the index exemplar to reflect this.
+
+***Numbers***
+
+The "numbers exempar" is fairly self-explanatory; it contains the characters used for mathematics. This includes digits and basic mathematical symbols, but does NOT include units or currency symbols, which are located elsewhere in an LDML file. There may be some overlap with the "punctuation exemplar". 
+
+***Punctuation***
+
+As the name implies, the "punctuation exemplar" contains the characters used for punctuation in the locale. This is the exemplar that is most likely to need careful escaping (see below).
+
+While this may overlap with the numbers exemplar, it CANNOT overlap with any of the other exemplars. This is again important for languages that use word-forming apostrophes to represent the glottal stop sound. Thankfully, most languages that do use an apostrophe in this way will distinguish its punctuation apostrophes with a different shape or format entirely, but unfortunatly not all of them do so. 
 
 #### Dates
 oh boy. someone (me)(emily) needs to track down the difference between uppercase H and lowercase h again. which one is 24 hr? i never remember.

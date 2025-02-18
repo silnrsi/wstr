@@ -10,7 +10,7 @@ Locale, in the context of computing, is a collection of parameters that affect h
 
 In layman's terms, a locale is a category that is more specific than a language, containing also the script used for writing, the region in which the language is being used, and sometimes, even more specific variants, such as dialect. 
 
-For example, an English in the United States using Latin Script is a different locale from English in Great Britain using Latin Script. Similarly, Hindi in India written in Devanagari script is a different locale from Hindi in India written in Latin script. 
+For example, English in the United States using Latin Script is a different locale from English in Great Britain using Latin Script. Similarly, Hindi in India written in Devanagari script is a different locale from Hindi in India written in Latin script. 
 
 Locales are identified with a key called a [Language Tag][langtag]. This is a three-part key defined by [BCP 47][BCP 47], which consists of the language, script, and region. For example, English in the United States using Latin Script would have a full tag of en-Latn-US. For the purposes of this page, it is enough to be able to recognize a tag; for more information on Language Tags themselves, see the [Language Tagging][langtag] page on this site.
 
