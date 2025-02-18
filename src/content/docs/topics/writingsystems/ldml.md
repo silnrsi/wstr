@@ -113,11 +113,11 @@ The "identity" element contains information about the locale described in the LD
 
 Not all of these elements are required. Only the elements used in the locale's minimal langtag are included. For example, in the file `enq.xml`, only the language element will be included. In the file `sat_Deva_IN`, the language ("sat"), script ("Deva"), and territory ("IN") elements will all be included. 
 
-The sil:identity element is the child of a "special" element within the identity element. It contains attributes for the script and region of the locale, regardless of their inclusion in the previous elements. In addition, it contains a "source" attribute that indicates whether the file was imported from the CLDR. If there is no "source" attribute in the sil:identity element, the file is unique to the SLDR. 
+The sil:identity element is the child of a "special" element within the identity element. It contains attributes for the script and region of the locale, regardless of their inclusion in the previous elements. In addition, it contains a "source" attribute that indicates whether the file was imported from the CLDR. If there is no "source" attribute in the sil:identity element, the file is unique to the SLDR. Finally, an optional "draft" attribute will indicate the draft status of the file, which is explained in more depth in the "Draft Attributes" section of this page. 
 
 #### Locale Display Names
 
-Locale Display Names are translations of words related to displaying the name of a locale (hence the name). Specifically, these are translations of the names of languages, countries, regions, language variants, number systems, calendar systems, and measurement systems. It also contains vocabulary used to describe the information contained within an LDML file, such as words for "language", "script", "territory", "collation", "currency", etc. 
+Locale Display Names are translations of words related to displaying information about a locale. Specifically, these are translations of the names of languages, countries, regions, language variants, number systems, calendar systems, and measurement systems. It also contains vocabulary used to describe the information contained within an LDML file, such as words for "language", "script", "territory", "collation", "currency", etc. 
 
 All of this information allows for someone looking for the correct locale to read and understand it. After all, if you only speak English and are looking for an English setting on a Chinese phone, the word "英语" wouldn't help you to find the English setting! 
 
@@ -141,7 +141,7 @@ While there are other child elements contained within the "Characters" element, 
 
 ***Main***
 
-The "main exemplar" is the list of characters used consistently within the locale. For example, the main exemplar in an LDML file for English would contain the standard 26 letters of the English alphabet, A-Z, while the one for Spanish would also contain all of the diacritic characters used in Spanish, such as "á", "ñ", etc. Correct alphabetical order technically does not matter, but is HEAVILY encouraged. All characters should be lowercase. 
+The "main exemplar" is the list of characters used consistently within the locale. For example, the main exemplar in an LDML file for English would contain the standard 26 letters of the English alphabet, a-z, while the one for Spanish would also contain all of the diacritic characters used in Spanish, such as "á", "ñ", etc. Correct alphabetical order technically does not matter, but is HEAVILY encouraged. All characters should be lowercase. 
 
 Ideally, every character-diacritic combination possible should be listed individually. For example, Spanish should contain "a á e é i í n ñ o ó u ú ü" instead of "a e i n o u \u0301 \u0303 \u0308". This rule is not always consistently reflected within the files of the SLDR and CLDR, but should be considered "good practice". 
 
@@ -167,19 +167,19 @@ The "index exemplar" is the list of characters one might use to categorize and s
 
 All characters in the index exempar must be uppercase versions of characters that appeared in the main or auxiliary exemplars, but not every character in the main exemplar necessarily belongs in the index exemplar. For example, Spanish dictionaries typically do not separate "a" from "á", so while "á appears in the main exemplar, "Á" does not appear in the index exemplar. 
 
-The easiest way to find which characters would be featured in an index exemplar is to track down a dictionary in the locale and look at the table of contents. Do they have a separate section for "c" and "ch"? 
-
 If "v" is technically a loan character that only appears twice, but those two instances happen to be the first letter of the word (e.g. "vino" (wine) appears in a lot of languages in areas with a history of Spanish colonialism that otherwise don't use "v"), then that "v" from the auxiliary exemplar needs to be listed in the index exemplar as "V". 
 
-Multigraphs that are common enough to be used as distinct characters for sorting purposes would usually be featured in the index exemplar as well, depending on how prevelent they are. Spanish used to sort words starting with "LL" separately from words starting with "L", so "{LL}" would be listed in the index exemplar to reflect this.
+Multigraphs that are common enough to be used as distinct characters for sorting purposes would usually be featured in the index exemplar as well, depending on how prevelent they are. Spanish used to sort words starting with "LL" separately from words starting with "L", so "{LL}" would be listed in the index exemplar to reflect this. Many languages separate "c" from "ch", or "g" from "gb".  
+
+The easiest way to find which characters would be featured in an index exemplar is to track down a large dictionary in the locale and look at the table of contents. Just make sure that whoever published the dictionary wasn't accidentally using the default sorting methods used by a nearby majority language, such as English or Spanish.
 
 ***Numbers***
 
-The "numbers exempar" is fairly self-explanatory; it contains the characters used for mathematics. This includes digits and basic mathematical symbols, but does NOT include units or currency symbols, which are located elsewhere in an LDML file. There may be some overlap with the "punctuation exemplar". 
+The "numbers exemplar" is fairly self-explanatory; it contains the characters used for mathematics. This includes digits and basic mathematical symbols, but does NOT include units or currency symbols, which are located elsewhere in an LDML file. There may be some overlap with the "punctuation exemplar". 
 
 ***Punctuation***
 
-As the name implies, the "punctuation exemplar" contains the characters used for punctuation in the locale. This is the exemplar that is most likely to need careful escaping (see below).
+As the name implies, the "punctuation exemplar" contains the characters used for punctuation in the locale. This is the exemplar that is most likely to need careful escaping (see "escaping" in "Formatting Text in an Exemplar" below).
 
 While this may overlap with the numbers exemplar, it CANNOT overlap with any of the other exemplars. This is again important for languages that use word-forming apostrophes to represent the glottal stop sound. Thankfully, most languages that do use an apostrophe in this way will distinguish its punctuation apostrophes with a different shape or format entirely, but unfortunatly not all of them do so. 
 
@@ -196,7 +196,17 @@ FONT DATA AND KEYBOARDS AND FUN SIL STUFF GOES HERE
 
 ### Draft Attributes
 
-Draft attributes are important. i took a ton of notes on this in the cldr import doc, get them and put them here. bc they are not intuitive. 
+current draft (haha) of this section is very messy word dump but it gets the information down until i double check and clean it up
+
+You have the big boy whole file draft attribute at the top in the sil:identity thingy. this determines the default draft attribute for everything on the file. If an element has no draft attribute, it is considered to be the same draft attribute as the draft attribute here. if there is no draft attribute in the sil:identity thingy, it defaults to... ummm... "approved" i think. lemme double check that. 
+
+There are 5 layers of draft: approved provisional/contributed unconfirmed tentative generated. i cant remember if 2 is technically provisional or contributed. not sure. technically i think contributed is better than provisional. for context of sldr the important ones are approved tentative/unconfirmed and generated. 
+
+If a file has "generated" in its sil:identity draft attribute, and you make a manual edit to the data within that file, you need to add a draft attribute to the element you've edited that is a rank ABOVE generated. This can be "tentative" or "unconfirmed". Otherwise, your manual edits will be overwritten the next time the file is generated from whatever source it comes from (most likely the DBL). The "tentative"/"unconfirmed" draft attribute tells the file generation to prioritize the existing data rather than generate new stuff, since the manually-entered data is considered more likely to be correct than the generated data. 
+
+Technically you only need to do this for data that would get generated from a dbl import, aka exemplars and collation and maybe a few other things i need to double check. however in theory someday there might be other things we generate in which case other elements might need these draft attributes too. 
+
+Make sure the draft attribute for a collation element is located in the \<cr> part of the element, and not one of its children. Otherwise it won't work. 
 
 ### Text Formatting Tips
 
