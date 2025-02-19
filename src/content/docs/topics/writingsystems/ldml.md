@@ -184,7 +184,37 @@ As the name implies, the "punctuation exemplar" contains the characters used for
 While this may overlap with the numbers exemplar, it CANNOT overlap with any of the other exemplars. This is again important for languages that use word-forming apostrophes to represent the glottal stop sound. Thankfully, most languages that do use an apostrophe in this way will distinguish its punctuation apostrophes with a different shape or format entirely, but unfortunatly not all of them do so. 
 
 #### Dates
-oh boy. someone (me)(emily) needs to track down the difference between uppercase H and lowercase h again. which one is 24 hr? i never remember.
+
+The Dates element contains the vocabulary and patterns used to speak about time and date. It consists of three main child elements: calendars, fields, and timeZoneNames. 
+
+***Calendar Elements***
+
+The calendars element contains vocabulary and formatting conventions relating to how time and date are described in different world calendars. It consists of multiple "calendar" child elements, each with a type attribute describing the specific calendar (i.e. "gregorian", "buddhist", "islamic", etc.) These calendar elements then have their own child elements with the vocabulary and formatting patterns related to that calendar. 
+
+It's important to note that "gregorian" and "generic" usually contain the same data, except "generic" contains eras alongside years. "Generic" is mainly used to provide a consistent set of date formats for locales that don't use gregorian as their primary calendar. This means that you should consider the calendar element with the "gregorian" type as the default for locales that use it as their main calendar, and "generic" as secondary. 
+
+Vocabulary in a calendar element is fairly straightforward. Months and quarters are identified with number values (i.e. 1 = January, 2 = February, etc.). However, since there is no universally accepted "start" of the week, days of the week are identified with short strings reflecting their English names (i.e. sun = Sunday, mon = Monday, etc.). Different formats of these terms will also be included, such as abbreviated versions (Sun, Mon, Tue, Wed, Thu, Fri, Sat), narrow single-letter versions (S, M, T, W, T, F, S), short versions that are even shorter than the abbreviated ones (Su, Mo, Tu, We, Th, Fr, Sa), and the wide versions that spell the whole word (Sunday, Monday, etc). 
+
+For more information on how vocabulary is entered into a calendar element, see the [section on Calendar elements in UTS #35](https://unicode.org/reports/tr35/tr35-dates.html#Calendar_Elements)
+
+The most complicated part of a calendar element are the "formats". These describe the conventions of writing out a date or time in different contexts. For example, is January 30th, 2025 written with the month first as 01/30/2025 or with the day first as 30/01/2025? Is the time two hours before midnight written as 10:00pm or 22:00? 
+
+The way these date and time patterns are notated in an LDML file is described in the [Date Format Patterns section of UTS#35](https://unicode.org/reports/tr35/tr35-dates.html#Date_Format_Patterns). That page contains a [substancial table](https://unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table) describing what each piece of shorthand means. For a sneak peek at how month patterns might be notated:
+- M means writing the month using the minimum number of digits, such as using '9' for September
+- MM means writing the month using two digits no matter what, such as using '09' for September
+- MMM means using the abbreviated form of the month's name, such as using 'Sep' for September
+- MMMM means using the full "wide" name of the month, such as using 'September' for September
+- MMMMM means using the narrow form of the month's name, such as using 'S' for September
+
+As you can see, this gets pretty complicated. Time adds an additional layer of complexity in the form of casing, as an uppercase 'H' is used to notate 24-hour time, while a lowercase 'h' is used to notate 12-hour time. My recommendation would be to reference the chart linked above as often as possible to avoid confusion when entering date and time format data into an LDML file manually. 
+
+***Calendar Fields***
+
+The fields element contains vocabulary describing parts of a calendar and other words or phrases related to describing dates and times, such as "yesterday", "week", "n hour(s) ago", "day after tomorrow", etc. For more information and examples, see the [section on Calendar Fields in UTS #35.](https://unicode.org/reports/tr35/tr35-dates.html#Calendar_Fields)
+
+***Time Zone Names***
+
+The timeZoneNames element, as the name implies, contains vocabulary used to describe different time zones. This includes names that change based on daylight savings time ("Pacific Standard Time" for UTC-8 versus "Pacific Daylight Time" for UTC-7), the generic name ("Pacific Time"), abbreviations for all three terms ("PST", "PDT", "PT"), and an example city used as a reference point ("San Francisco"). For more information, see the [section on Time Zone Names in UTS #35](https://unicode.org/reports/tr35/tr35-dates.html#Time_Zone_Names).
 
 #### Collations
 
