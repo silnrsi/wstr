@@ -222,7 +222,53 @@ oh boy collation
 
 #### Special
 
-FONT DATA AND KEYBOARDS AND FUN SIL STUFF GOES HERE
+The special element holds a child element called `sil:external-resources`, which contains data that is unique to the SLDR. The SLDR uses this space for external resources related to the locale, such as fonts, keyboards, sample texts, spell-checking, transforms, and wordlists. Of these, fonts, keyboards, and sample texts are the most common, with fonts being a required element of every non-redundant SLDR file. 
+
+***Fonts***
+
+An `sil:font` element can contain a variety of attributes, but the most important ones are "name", "types", "features", and "lang".
+
+```
+<sil:font name="Charis SIL" types="default" features="ss04=1 cv43=2 cv68=1 cv77=1 cv90=1">
+    <sil:url>https://lff.api.languagetechnology.org/family/charissil</sil:url>
+</sil:font>
+```
+
+The "name" attribute holds the name of the font. 
+
+The "types" attribute lists the context in which the font would be used. Currently, only one value is in use in the "types" attribute: "default", meaning this should be the de-facto font choice if the end user doesn't want to be given multiple options. Multiple fonts can be listed as "default", in which case the first font listed (usually the one with the name that appears earliest in the alphabet) would be treated as the true default by the LFF API.  
+
+The "features" attribute lists any font features that should be active by default when using this font in this locale. For details on what each code means, find the font on the [SIL Font Catalogue][fonts] and click the link for "font features" to see a full list of features supported by that font. Not every font will have features. 
+
+Finally, the "lang" attribute is used to set "language features" used primarily with Arabic fonts to reflect the differences in character shaping between different Arabic-script languages. For example, Scheherazade New supports Urdu, Kurdish, Kyrgyz, Sindhi, Rohingya, and Wolof, and these parameters are set using the "lang" attribute instead of listing several different codes under the "features" attribute. To see differences within the same font using different "lang" attributes, look at the examples on the [Font Features page for the Scheherazade New font][sch features].
+
+In addition, each font entry contains an `sil:url` child element containing the URL for that font. If that font is an SIL font, the link comes from the Language Font Finder (LFF) API. Otherwise, the link comes from the source of the font, such as the Google Fonts GitHub repository for the various Noto fonts. 
+
+***Keyboards***
+
+The `sil:kbd` attribute contains data for keyboards that can be used to type the locale. It contains attributes for "id" and "type" and has a child element `sil:url` that holds the link to the keyboard. 
+
+```
+<sil:kbd id="basic_kbdla" type="kmp">
+    <sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdla/download/kmp</sil:url>
+</sil:kbd>
+```
+
+The "id" attribute, as the name implies, contains the ID of the keyboard. This is not the full name, but rather the string used to identify the keyboard in the URL. For example, the full name of the keyboard with the ID "basic_kbdla" is "Latin American Basic". 
+
+The "type" attribute lists the file type of the keyboard. As of February 2025, all of the keyboards in the SLDR come from Keyman, and therefore all have the type "kmp". 
+
+***Sample Text***
+
+The `sil:sampletext` element contains links to official examples of texts written in the locale. It contains a "type" attribute and has a child element `sil:url` that holds the link to the text. 
+
+```
+<sil:sampletext type="udhr">
+    <sil:url>http://efele.net/udhr/d/udhr_spa.txt</sil:url>
+</sil:sampletext>
+```
+
+The "type" attribute lists the category of sample text contained in the link. As of February 2025, all of the sample texts in the SLDR are translated portions of the UDHR (Universal Declaration of Human Rights) and therefore all have the type "udhr". 
 
 ### Draft Attributes
 
@@ -237,6 +283,10 @@ If a file has "generated" in its sil:identity draft attribute, and you make a ma
 Technically you only need to do this for data that would get generated from a dbl import, aka exemplars and collation and maybe a few other things i need to double check. however in theory someday there might be other things we generate in which case other elements might need these draft attributes too. 
 
 Make sure the draft attribute for a collation element is located in the \<cr> part of the element, and not one of its children. Otherwise it won't work. 
+
+### Inheritance
+
+A placeholder bc it occurred to me that this might need a section. Because it's not always intuitive. Not sure. 
 
 ### Text Formatting Tips
 
@@ -285,3 +335,5 @@ Multigraphs do not need brackets to mark them as a single unit in a collation se
 [uts35]: https://www.unicode.org/reports/tr35/ 
 [uts35gen]: https://unicode.org/reports/tr35/tr35-general.html
 [dtds]: https://github.com/silnrsi/sldr/tree/master/auxdata
+[fonts]: https://software.sil.org/fonts/
+[sch features]: https://software.sil.org/scheherazade/features/
