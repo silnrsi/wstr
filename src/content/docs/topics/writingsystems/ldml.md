@@ -123,7 +123,9 @@ All of this information allows for someone looking for the correct locale to rea
 
 It's important that all information within the Locale Display Names element is in the language and script used by the locale in question. For example, the file `ff_Adlm.xml` (Pulaar written in Adlam script) would contain the line `<language type="ff">𞤆𞤵𞤤𞤢𞤪</language>` (AKA the language 'ff' is called "𞤆𞤵𞤤𞤢𞤪"), rather than "Pulaar" as it is spelled by those who use Latin script to write the language. If anything within this element uses a different script or language from the locale the file is named for, something is wrong. 
 
-In the SLDR, the most important piece of information needed for the Locale Display names is the autonym (the name and spelling of the language used by the locale). For example, in the Spanish example above, that would be "Español". Many SLDR files also have a child element under Locale Display Names, called `special/sil:names/sil:name`, which contains the name of the locale used in SIL's internal systems for categorization purposes. For example, here is what this child element looks like in the SLDR file `pkr.xml`.
+In the SLDR, the most important piece of information needed for the Locale Display names is the autonym (the name and spelling of the language used by the locale). For example, in the Spanish example above, that would be "Español". 
+
+Many SLDR files also have a child element under Locale Display Names, called `special/sil:names/sil:name`, which contains the name of the locale used in SIL's internal systems for categorization purposes. For example, here is what this child element looks like in the SLDR file `pkr.xml`.
 
 ```
 <special>
@@ -163,11 +165,11 @@ Here are a few good rules of thumb to determine if a character should be in the 
 
 ***Index***
 
-The "index exemplar" is the list of characters one might use to categorize and sort an indexed list, such as a dictionary or large alphebetized list. Unlike the other exemplars, the index exemplar MUST be in the correct alphabetical order. 
+The "index exemplar" is the list of characters one might use to categorize and sort an indexed list, such as a dictionary or glossary. Unlike the other exemplars, the index exemplar MUST be in the correct alphabetical order. 
 
 All characters in the index exempar must be uppercase versions of characters that appeared in the main or auxiliary exemplars, but not every character in the main exemplar necessarily belongs in the index exemplar. For example, Spanish dictionaries typically do not separate "a" from "á", so while "á appears in the main exemplar, "Á" does not appear in the index exemplar. 
 
-If "v" is technically a loan character that only appears twice, but those two instances happen to be the first letter of the word (e.g. "vino" (wine) appears in a lot of languages in areas with a history of Spanish colonialism that otherwise don't use "v"), then that "v" from the auxiliary exemplar needs to be listed in the index exemplar as "V". 
+On the other hand, a character from the auxiliary exemplar may need to be represented in the index as well. For example, if "v" is technically a loan character that only appears twice, but those two instances happen to be the first letter of the word (e.g. "vino" (wine) appears in a lot of languages in areas with a history of Spanish colonialism that otherwise don't use "v"), then that "v" from the auxiliary exemplar needs to be listed in the index exemplar as "V". 
 
 Multigraphs that are common enough to be used as distinct characters for sorting purposes would usually be featured in the index exemplar as well, depending on how prevelent they are. Spanish used to sort words starting with "LL" separately from words starting with "L", so "{LL}" would be listed in the index exemplar to reflect this. Many languages separate "c" from "ch", or "g" from "gb".  
 
@@ -179,7 +181,7 @@ The "numbers exemplar" is fairly self-explanatory; it contains the characters us
 
 ***Punctuation***
 
-As the name implies, the "punctuation exemplar" contains the characters used for punctuation in the locale. This is the exemplar that is most likely to need careful escaping (see "escaping" in "Formatting Text in an Exemplar" below).
+As the name implies, the "punctuation exemplar" contains the characters used for punctuation in the locale. This is the exemplar that is most likely to need careful escaping (see "escaping" in "Text Formatting Tips" below).
 
 While this may overlap with the numbers exemplar, it CANNOT overlap with any of the other exemplars. This is again important for languages that use word-forming apostrophes to represent the glottal stop sound. Thankfully, most languages that do use an apostrophe in this way will distinguish its punctuation apostrophes with a different shape or format entirely, but unfortunatly not all of them do so. 
 
@@ -276,7 +278,7 @@ current draft (haha) of this section is very messy word dump but it gets the inf
 
 You have the big boy whole file draft attribute at the top in the sil:identity thingy. this determines the default draft attribute for everything on the file. If an element has no draft attribute, it is considered to be the same draft attribute as the draft attribute here. if there is no draft attribute in the sil:identity thingy, it defaults to... ummm... "approved" i think. lemme double check that. 
 
-There are 5 layers of draft: approved provisional/contributed unconfirmed tentative generated. i cant remember if 2 is technically provisional or contributed. not sure. technically i think contributed is better than provisional. for context of sldr the important ones are approved tentative/unconfirmed and generated. 
+In the CLDR there are the draft layers "contributed", "provisional", and "unconfirmed". In the SLDR there are also the draft layers "proposed", "tentative" and "generated". as we speak i'm working on getting confirmation of what each actually means before add nicer-sounding specifics to this section.  for context of sldr the important ones are approved tentative/unconfirmed and generated. I've been using tentative and unconfirmed interchangably sometimes which is probs not ideal, not sure? 
 
 If a file has "generated" in its sil:identity draft attribute, and you make a manual edit to the data within that file, you need to add a draft attribute to the element you've edited that is a rank ABOVE generated. This can be "tentative" or "unconfirmed". Otherwise, your manual edits will be overwritten the next time the file is generated from whatever source it comes from (most likely the DBL). The "tentative"/"unconfirmed" draft attribute tells the file generation to prioritize the existing data rather than generate new stuff, since the manually-entered data is considered more likely to be correct than the generated data. 
 
