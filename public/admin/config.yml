@@ -73,7 +73,7 @@ collections:
   - { label: Body, name: body, widget: markdown }
 - { label: Computing Support, name: computing, folder: src/content/docs/topics/computing, create: true, fields: *topic-fields }
 - { label: Encoding, name: encoding, folder: src/content/docs/topics/encoding, create: true, fields: *topic-fields }
-- { label: input, name: input, folder: src/content/docs/topics/input, create: true, fields: *topic-fields }
+- { label: Input, name: input, folder: src/content/docs/topics/input, create: true, fields: *topic-fields }
 - { label: Fonts, name: fonts, folder: src/content/docs/topics/fonts, create: true, fields: *topic-fields }
 - { label: Layout, name: layout, folder: src/content/docs/topics/layout, create: true, fields: *topic-fields }
 - { label: Analysis, name: analysis, folder: src/content/docs/topics/analysis, create: true, fields: *topic-fields }
