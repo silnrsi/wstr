@@ -11,3 +11,5 @@ lastUpdated: ""
 ## A heading
 
 *TODO*: Imagine Lorem Ipsum here
+
+![](src/assets/widget.jpg)
