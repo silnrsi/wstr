@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages adn S3
+name: Deploy to GitHub Pages and S3
 
 on:
   # Trigger the workflow every time you push to the `main` branch

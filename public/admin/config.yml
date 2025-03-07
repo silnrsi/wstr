@@ -16,38 +16,6 @@ publish_mode: editorial_workflow
 site_url: https://silnrsi.github.io/wstr-sample-site/
 
 collections:
-- label: Guide
-  name: guide
-  folder: src/content/docs/guides
-  create: true
-  fields:
-  - { label: Title, name: title, widget: string }
-  - { label: Description, name: description, widget: string }
-  - { label: Body, name: body, widget: markdown }
-- label: Reference
-  name: reference
-  folder: src/content/docs/reference
-  create: true
-  fields:
-  - { label: Title, name: title, widget: string }
-  - { label: Description, name: description, widget: string }
-  - { label: Body, name: body, widget: markdown }
-- label: Support
-  name: support
-  folder: src/content/docs/support
-  create: true
-  fields:
-  - { label: Title, name: title, widget: string }
-  - { label: Description, name: description, widget: string }
-  - { label: Body, name: body, widget: markdown }
-- label: Topic
-  name: topic
-  folder: src/content/docs/topics
-  create: true
-  fields:
-  - { label: Title, name: title, widget: string }
-  - { label: Description, name: description, widget: string }
-  - { label: Body, name: body, widget: markdown }
 - label: Frontmatter
   name: frontmatter
   format: yaml-frontmatter
@@ -78,3 +46,51 @@ collections:
         - { label: Icon, name: icon, widget: string }
         - { label: Variant, name: variant, requried: false, widget: string }
     - { label: body, name: body, widget: markdown }
+- label: Guide
+  name: guide
+  folder: src/content/docs/guides
+  create: true
+  fields:
+  - { label: Title, name: title, widget: string }
+  - { label: Description, name: description, widget: string }
+  - { label: Body, name: body, widget: markdown }
+- label: Writing Systems
+  name: writingsystems
+  folder: src/content/docs/topics/writingsystems
+  create: true
+  fields: &topic-fields
+  - { label: Title, name: title, widget: string }
+  - { label: Sub-Title, name: subtitle, required: false, widget: string}
+  - { label: Description, name: description, widget: string }
+  - label: Sidebar 
+    name: sidebar 
+    widget: object
+    collapsed: true
+    summary: 'Order: {{fields.order}}'
+    fields:
+    - { label: Topic, name: order, widget: number, value_type: float, min: 1000, max: 9999 }
+  - { label: Last Updated, name: lastUpdated, widget: datetime, required: false, default: "{{now}}", date_format: YYYY-MM-DD, picker_utc: true }
+  - { label: Body, name: body, widget: markdown }
+- { label: Computing Support, name: computing, folder: src/content/docs/topics/computing, create: true, fields: *topic-fields }
+- { label: Encoding, name: encoding, folder: src/content/docs/topics/encoding, create: true, fields: *topic-fields }
+- { label: input, name: input, folder: src/content/docs/topics/input, create: true, fields: *topic-fields }
+- { label: Fonts, name: fonts, folder: src/content/docs/topics/fonts, create: true, fields: *topic-fields }
+- { label: Layout, name: layout, folder: src/content/docs/topics/layout, create: true, fields: *topic-fields }
+- { label: Analysis, name: analysis, folder: src/content/docs/topics/analysis, create: true, fields: *topic-fields }
+- { label: Scripts & Languages, name: scrlang, folder: src/content/docs/topics/scrlang, create: true, fields: *topic-fields }
+- label: Reference
+  name: reference
+  folder: src/content/docs/reference
+  create: true
+  fields:
+  - { label: Title, name: title, widget: string }
+  - { label: Description, name: description, widget: string }
+  - { label: Body, name: body, widget: markdown }
+- label: Support
+  name: support
+  folder: src/content/docs/support
+  create: true
+  fields:
+  - { label: Title, name: title, widget: string }
+  - { label: Description, name: description, widget: string }
+  - { label: Body, name: body, widget: markdown }
