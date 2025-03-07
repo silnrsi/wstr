@@ -5,4 +5,4 @@ sidebar:
   order: 9999
 lastUpdated: 2025-03-07
 ---
-![](src/assets/kerning.png)
+![](images/kerning.png)
