@@ -12,4 +12,4 @@ lastUpdated: ""
 
 *TODO*: Imagine Lorem Ipsum here
 
-![](src/assets/widget.jpg)
+![](images/only_serifs_2x.png "CC-BY-NC https://xkcd.com/license.html")
