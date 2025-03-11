@@ -1,8 +1,13 @@
 ---
 title: Testing per collection images
-description: A test
+description: An updated test
 sidebar:
-  order: 9999
+  order: 9997
 lastUpdated: 2025-03-07
 ---
+
 ![](images/kerning.png)
+
+![from xkcd - CC-BY-NC https://xkcd.com/license.html](images/only_serifs_2x.png "Only Serifs ")
+
+CC-BY-NC https://xkcd.com/license.html
