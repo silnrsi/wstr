@@ -1,7 +1,8 @@
 ---
 title: Hyphenation
+description: Summary article on hyphenation
 sidebar:
-    order: 6230
+  order: 6230
 ---
 
 Hyphenation is often required because text is justified. The two are closely tied together.
@@ -25,6 +26,8 @@ Neteb (Ethiopic)**
 (Ethiopic)**
 
 The difficulty now arises that word breaking still sometimes occurs this way but, with software limitations encouraging the use of white space between words (rather than the _Hulet Neteb_), it is difficult to know if there is a complete word at the end of a line or if it is a “broken” word (compare Figure 3 with Figure 2).
+
+
 
 Interesting hyphenation behaviors also occur in some Roman script use, as in the German word “backen” which becomes “bak-ken” when hyphenated (although there are moves for this to be abandoned). Hyphenation rules in the publishing application need to be fully customizable for these types of behaviors.
 
