@@ -2,7 +2,7 @@
 title: Glossary
 description: Glossary
 sidebar:
-    order: 9100
+  order: 9100
 lastUpdated: 2024-11-18
 ---
 
@@ -233,6 +233,8 @@ Term | Definition
 Term | Definition
 ---- | ----------
 <a id=''></a>onset|the part of a syllable that comes before the <a href='#nucleus'>nucleus</a> e.g. the [b] in [beɪs]
+<a id='ofl'></a>OFL|see Open Font License <a href='#openfontlicense'>Open Font License</a>.
+<a id='openfontlicense'></a>Open Font License|the <a href='https://openfontlicense.org'>SIL Open Font License (OFL)</a> is a widely used, community-approved, free, libre, and open source license specifically designed for fonts and related software: a solid legal framework for worldwide development, sharing, and improvement of fonts and related software in a collaborative manner. Used by a wide variety of individuals and organizations, it provides benefits for both font users and font creators.
 <a id='opentype'></a>OpenType|a <a href='#smartfont'>smart font</a> rendering technology developed by Microsoft and Adobe; an extension to the <a href='#truetype'>TrueType font</a> specification. See also <a href='#uniscribe'>Uniscribe</a>.
 <a id='orthochar'></a>orthographic character|a written symbol that is conventionally perceived as a distinct unit of writing in some <a href='#writingsys'>writing system</a> or orthography.
 
