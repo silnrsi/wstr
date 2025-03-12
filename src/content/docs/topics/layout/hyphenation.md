@@ -14,14 +14,12 @@ Hyphenation is another tool used in Roman typesetting but is not always allowed 
 
 Another interesting case of different hyphenation methods is Ethiopic. Because Ethiopic was traditionally written using the _Hulet Neteb_ there was no need for a hyphenation character. If a line broke at the end of a word you would see the _Hulet Neteb_ or other punctuation but, if a line broke in the middle of the word, the reader just saw the word break with no hyphen. In Figure 2, line two is “hyphenated,” line one is not.
 
-![Figure 2. “Hyphenation” in line two with use of Hulet
-Neteb - Ethiopic](images/6230-2-Ethi.png)
+![Figure 2. “Hyphenation” in line two with use of Hulet Neteb (Ethiopic)](images/6230-2-Ethi.png)
 
 **Figure 2. “Hyphenation” in line two with use of Hulet
 Neteb (Ethiopic)**
 
-![Figure 3. “Hyphenation” in line two with use of white space
-(Ethiopic)](images/6230-3-Ethi.png)
+![Figure 3. “Hyphenation” in line two with use of white space (Ethiopic)](images/6230-3-Ethi.png)
 
 **Figure 3. “Hyphenation” in line two with use of white space
 (Ethiopic)**
