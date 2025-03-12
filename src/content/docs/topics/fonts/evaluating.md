@@ -2,7 +2,7 @@
 title: Evaluating Fonts
 sidebar:
     order: 5120
-lastUpdated: 2025###03-12
+lastUpdated: 2025-03-12
 ---
 
 In this page we look at how a font user could evaluate a font. We look at both
