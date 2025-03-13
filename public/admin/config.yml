@@ -81,7 +81,7 @@ collections:
 - { label: Fonts, name: fonts, folder: src/content/docs/topics/fonts, create: true, media_folder: images/, public_folder: images/, fields: *topic-fields }
 - { label: Layout, name: layout, folder: src/content/docs/topics/layout, create: true, media_folder: images/, public_folder: images/, fields: *topic-fields }
 - { label: Analysis, name: analysis, folder: src/content/docs/topics/analysis, create: true, media_folder: images/, public_folder: images/, fields: *topic-fields }
-- { label: Scripts & Languages, name: scrlang, folder: src/content/docs/topics/scrlang, create: true, media_folder: images/, public_folder: images/, fields: *topic-fields }
+- { label: Scripts & Languages, name: scrlang, folder: src/content/docs/scrlang, create: true, media_folder: images/, public_folder: images/, fields: *topic-fields }
 - label: Reference
   name: reference
   folder: src/content/docs/reference
