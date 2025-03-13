@@ -3,7 +3,6 @@ title: Testing per collection images
 description: An updated test
 sidebar:
   order: 9997
-lastUpdated: ""
 ---
 
 ![](images/kerning.png)
