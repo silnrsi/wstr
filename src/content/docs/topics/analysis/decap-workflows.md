@@ -5,7 +5,7 @@ description: A dummy document to experiment with the workflow features of Decap
 sidebar:
   order: 9999
   hidden: true
-lastUpdated: 2025-03-13
+lastUpdated: ""
 ---
 # Some markdown text
 
