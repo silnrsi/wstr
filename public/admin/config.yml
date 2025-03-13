@@ -73,7 +73,7 @@ collections:
     - { label: Topic, name: order, widget: number, value_type: float, min: 1000, max: 9999 }
     - { label: Label, name: label, required: false, widget: string }
     - { label: Hidden, name: hidden, required: false, widget: boolean }
-  - { label: Last Updated, name: lastUpdated, widget: datetime, required: false, default: "{{now}}", date_format: YYYY-MM-DD, picker_utc: true }
+  - { label: Last Updated, name: lastUpdated, widget: datetime, required: false, date_format: YYYY-MM-DD, picker_utc: true }
   - { label: Body, name: body, widget: markdown }
 - { label: Computing Support, name: computing, folder: src/content/docs/topics/computing, create: true, media_folder: images/, public_folder: images/, fields: *topic-fields }
 - { label: Encoding, name: encoding, folder: src/content/docs/topics/encoding, create: true, media_folder: images/, public_folder: images/, fields: *topic-fields }
