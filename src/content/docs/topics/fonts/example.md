@@ -10,7 +10,10 @@ Less concerned with telling a story or addressing a specific use case, they shou
 
 ![This is Alt text](images/akatab-proverb-1chief-shadow-1536x341.png "This is image title")
 
+This is text inserted with Decap
 
+![This is Alt text](images/akatab-proverb-1chief-shadow-1536x341.png "This is image title")
+This is text inserted with Decap
 
 ## Further reading
 
