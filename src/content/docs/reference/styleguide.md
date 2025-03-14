@@ -31,11 +31,14 @@ Punctuation should follow general guidelines:
 - Quotations can use either single (British) or double (American) quotes as long as they are consistent throughout a page. Place punctuation marks outside of quotation marks unless the punctuation is part of the quotation itself. This practice is sometimes referred to as 'logical punctuation'. Source files can use either straight or 'curly' quotes—rendered pages will convert them to typographic ones.
 - Comma-separated lists should use the 'Oxford comma' to provide clarity, as in: _The design process involves initiating, experimenting, forming, harmonizing, and adapting_.
 - Ampersands should only be used when they are part of a name or title or heading, such as _Scripts & Languages_.
+- The copyright symbol © should be used rather than (c) except in quotations or examples.
+
 
 Dates should generally be formatted as _yyyy-mm-dd_ (e.g. 2025-02-27) to avoid confusion. Use specific dates where known. Avoid terms that assume the present time, such as 'ten years ago' or 'currently'.  
 
 ## Referencing
 
+(to be added)
 
 ## Page metadata
 
@@ -67,9 +70,37 @@ Here are details, with required fields in **bold**.
 
 ## Markdown use
 
+Page sources need to use the flavor of Markdown supported by Starlight as documented in [Authoring Content in Markdown](https://starlight.astro.build/guides/authoring-content/). Examples:
+
+### Text formatting
+
+Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
+
+```
+Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
+```
+
+### Headings
+
+
+
+### Lists
+
+
+
+### Images
+
+
+
+### Links
+
+
+
+
 
 ## Markdown extensions
 
+(to be added)
 
 ## AI use
 
