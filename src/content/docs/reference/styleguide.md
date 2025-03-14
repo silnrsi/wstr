@@ -74,17 +74,44 @@ Page sources need to use the flavor of Markdown supported by Starlight as docume
 
 ### Text formatting
 
-Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
+Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`. Note that for clarity please use double asterisks for bold and single underscores for italic.
 
 ```
-Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
+Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`. Note that for clarity please use double asterisks for bold and single underscores for italic.
 ```
 
 ### Headings
 
+Heading 1 is only used by the page title. Anchors are automatically generated for all level 2 `<h2>` and 3 `<h3>` headings. The heading title can be added to the page URL with a hash, replacing spaces with hyphens, and making it all lowercase. A heading of 'AI use' would become `#ai-use`.
 
+## Heading 2 - main headings on a page
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+```
+## Heading 2 - main headings on a page
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+```
 
 ### Lists
+
+
+
+### Tables
+
 
 
 
@@ -96,7 +123,27 @@ Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
 
 
 
+### Blocks
 
+Code blocks begin and end with three backticks ` ``` `. Syntax formatting including Expressive Code features are available - see [Code blocks](https://starlight.astro.build/guides/authoring-content/#code-blocks).
+
+> Blockquotes use a `>` at the start of each line.
+
+```
+> Blockquotes use a `>` at the start of each line.
+```
+
+### Asides
+
+:::note
+This is an aside. Details and options can be found in the [Starlight docs](https://starlight.astro.build/guides/authoring-content/#asides).
+:::
+
+```
+:::note
+This is an aside. Details and options can be found in the [Starlight docs](https://starlight.astro.build/guides/authoring-content/#asides).
+:::
+```
 
 ## Markdown extensions
 
