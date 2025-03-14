@@ -70,14 +70,16 @@ Here are details, with required fields in **bold**.
 
 ## Markdown use
 
-Page sources need to use the flavor of Markdown supported by Starlight as documented in [Authoring Content in Markdown](https://starlight.astro.build/guides/authoring-content/). Examples:
+Page sources need to use the flavor of Markdown supported by Starlight as documented in [Authoring Content in Markdown](https://starlight.astro.build/guides/authoring-content/). Additional markdown reference material can be found at the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
+
+Examples intended as a reference but also to test all the elements with the site CSS:
 
 ### Text formatting
 
-Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`. Note that for clarity please use double asterisks for bold and single underscores for italic.
+Text can be **bold**, _italic_, ~~strikethrough~~, `inline code`, or ==highlighted==. Note that for clarity please use double asterisks for bold and single underscores for italic.
 
 ```
-Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`. Note that for clarity please use double asterisks for bold and single underscores for italic.
+Text can be **bold**, _italic_, ~~strikethrough~~, `inline code`, or ==highlighted==. Note that for clarity please use double asterisks for bold and single underscores for italic.
 ```
 
 ### Headings
@@ -108,10 +110,63 @@ Heading 1 is only used by the page title. Anchors are automatically generated fo
 
 ### Lists
 
+- First item
+- Second item
+    - Sub item
+    - Another
+- Third item
 
+```
+- First item
+- Second item
+    - Sub item
+    - Another
+- Third item
+```
+
+1. First item
+2. Second item
+3. Third item
+
+```
+1. First item
+2. Second item
+3. Third item
+```
 
 ### Tables
 
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+```
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+```
+More table tests:
+
+Unicode block | Font support
+------------- | ------------
+C0 Controls and Basic Latin|U+0020..U+007E
+C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
+
+When text requires wrapping in cells, the relative width of columns can be somewhat adjusted by tweaking the `--- | ---` line under the header:
+
+Unicode block | Characters | Long explanation
+------------- | ---- | -----------------------------
+C0 Controls and Basic Latin|U+0020..U+007E|This is a longer text to describe the basic Latin block
+C1 Controls and Latin-1 Supplement|U+00A0..U+00FF|
+
+Table columns can also be aligned using `:---:` syntax.
+
+Left-aligned | Centered | Right-aligned 
+:------------- | :------------: | -------------:
+This is a longer text to describe the basic Latin block|C0 Controls and Basic Latin|U+0020..U+007E
+More left-aligned text|C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
 
 
 
@@ -123,7 +178,7 @@ Heading 1 is only used by the page title. Anchors are automatically generated fo
 
 
 
-### Blocks
+### Blocks and rules
 
 Code blocks begin and end with three backticks ` ``` `. Syntax formatting including Expressive Code features are available - see [Code blocks](https://starlight.astro.build/guides/authoring-content/#code-blocks).
 
@@ -131,6 +186,12 @@ Code blocks begin and end with three backticks ` ``` `. Syntax formatting includ
 
 ```
 > Blockquotes use a `>` at the start of each line.
+```
+
+---
+
+```
+---
 ```
 
 ### Asides
@@ -145,6 +206,19 @@ This is an aside. Details and options can be found in the [Starlight docs](https
 :::
 ```
 
+### Footnotes
+
+Here is an example of a footnote[^1] that will appear at the very bottom[^anytext] of the page. Footnotes will automatically be numbered sequentially when rendered.
+
+[^1]: Here is an example of how the footnote text is indicated. This example reference is in the text.
+
+```
+Here is an example of a footnote[^1] that will appear at the very bottom[^anytext] of the page. Footnotes will automatically be numbered sequentially when rendered.
+
+[^1]: Here is an example of how the footnote text is indicated. This example reference is in the text.
+```
+
+
 ## Markdown extensions
 
 (to be added)
@@ -152,3 +226,6 @@ This is an aside. Details and options can be found in the [Starlight docs](https
 ## AI use
 
 Although in some cases it may be difficult to avoid using or consulting AI-generated content when authoring content for this site, it may only be used for reference purposes and never to directly prepare text or image content. All content must be authored and edited by one of the site's authors. Use of AI should also reflect SIL's [AI Ethics Statement](https://www.sil.org/ai-ethics-statement).
+
+
+[^anytext]: Footnote references can also be text but will still get numbered correctly. The references can be placed at the bottom of the markdown page.
