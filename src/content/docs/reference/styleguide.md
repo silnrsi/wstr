@@ -40,6 +40,10 @@ Dates should generally be formatted as _yyyy-mm-dd_ (e.g. 2025-02-27) to avoid c
 
 (to be added)
 
+## AI use
+
+Although in some cases it may be difficult to avoid using or consulting AI-generated content when authoring content for this site, it may only be used for reference purposes and never to directly prepare text or image content. All content must be authored and edited by one of the site's authors. Use of AI should also reflect SIL's [AI Ethics Statement](https://www.sil.org/ai-ethics-statement).
+
 ## Page metadata
 
 Metadata is defined in the YAML header of each page. Here is a complete example including all optional fields. Note that formatting and indentation is very important, particularly for sidebar.
@@ -76,10 +80,10 @@ Examples intended as a reference but also to test all the elements with the site
 
 ### Text formatting
 
-Text can be **bold**, _italic_, ~~strikethrough~~, `inline code`, or ==highlighted==. Note that for clarity please use double asterisks for bold and single underscores for italic.
+Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`. Note that for clarity please use double asterisks for bold and single underscores for italic.
 
 ```
-Text can be **bold**, _italic_, ~~strikethrough~~, `inline code`, or ==highlighted==. Note that for clarity please use double asterisks for bold and single underscores for italic.
+Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`. Note that for clarity please use double asterisks for bold and single underscores for italic.
 ```
 
 ### Headings
@@ -147,12 +151,19 @@ Heading 1 is only used by the page title. Anchors are automatically generated fo
 | Header | Title |
 | Paragraph | Text |
 ```
-More table tests:
+It can also be slightly simplified, without the left and right pipes:
 
 Unicode block | Font support
 ------------- | ------------
 C0 Controls and Basic Latin|U+0020..U+007E
 C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
+
+```
+Unicode block | Font support
+------------- | ------------
+C0 Controls and Basic Latin|U+0020..U+007E
+C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
+```
 
 When text requires wrapping in cells, the relative width of columns can be somewhat adjusted by tweaking the `--- | ---` line under the header:
 
@@ -161,6 +172,13 @@ Unicode block | Characters | Long explanation
 C0 Controls and Basic Latin|U+0020..U+007E|This is a longer text to describe the basic Latin block
 C1 Controls and Latin-1 Supplement|U+00A0..U+00FF|
 
+```
+Unicode block | Characters | Long explanation
+------------- | ---- | -----------------------------
+C0 Controls and Basic Latin|U+0020..U+007E|This is a longer text to describe the basic Latin block
+C1 Controls and Latin-1 Supplement|U+00A0..U+00FF|
+```
+
 Table columns can also be aligned using `:---:` syntax.
 
 Left-aligned | Centered | Right-aligned 
@@ -168,7 +186,12 @@ Left-aligned | Centered | Right-aligned
 This is a longer text to describe the basic Latin block|C0 Controls and Basic Latin|U+0020..U+007E
 More left-aligned text|C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
 
-
+```
+Left-aligned | Centered | Right-aligned 
+:------------- | :------------: | -------------:
+This is a longer text to describe the basic Latin block|C0 Controls and Basic Latin|U+0020..U+007E
+More left-aligned text|C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
+```
 
 ### Images
 
@@ -188,10 +211,18 @@ Code blocks begin and end with three backticks ` ``` `. Syntax formatting includ
 > Blockquotes use a `>` at the start of each line.
 ```
 
+Paragraph before horizontal rule - note blank line after
+
 ---
 
+Paragraph after horizontal rule - note blank line before
+
 ```
+Paragraph before horizontal rule - note blank line after
+
 ---
+
+Paragraph after horizontal rule - note blank line before
 ```
 
 ### Asides
@@ -223,9 +254,6 @@ Here is an example of a footnote[^1] that will appear at the very bottom[^anytex
 
 (to be added)
 
-## AI use
-
-Although in some cases it may be difficult to avoid using or consulting AI-generated content when authoring content for this site, it may only be used for reference purposes and never to directly prepare text or image content. All content must be authored and edited by one of the site's authors. Use of AI should also reflect SIL's [AI Ethics Statement](https://www.sil.org/ai-ethics-statement).
-
+---
 
 [^anytext]: Footnote references can also be text but will still get numbered correctly. The references can be placed at the bottom of the markdown page.
