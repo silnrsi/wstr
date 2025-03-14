@@ -42,7 +42,7 @@ Dates should generally be formatted as _yyyy-mm-dd_ (e.g. 2025-02-27) to avoid c
 
 ## AI use
 
-Although in some cases it may be difficult to avoid using or consulting AI-generated content when authoring content for this site, it may only be used for reference purposes and never to directly prepare text or image content. All content must be authored and edited by one of the site's authors. Use of AI should also reflect SIL's [AI Ethics Statement](https://www.sil.org/ai-ethics-statement).
+Although in some cases it may be difficult to avoid encountering AI-generated content when researching content for this site, it may only be used for reference purposes and never to directly prepare text or image content. All content must be authored and edited by one of the site's authors. Use of AI should also reflect SIL's [AI Ethics Statement](https://www.sil.org/ai-ethics-statement).
 
 ## Page metadata
 
@@ -195,13 +195,15 @@ More left-aligned text|C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
 
 ### Images
 
+(to be added)
 
 
 ### Links
 
+(to be added)
 
 
-### Blocks and rules
+### Blocks
 
 Code blocks begin and end with three backticks ` ``` `. Syntax formatting including Expressive Code features are available - see [Code blocks](https://starlight.astro.build/guides/authoring-content/#code-blocks).
 
@@ -210,6 +212,8 @@ Code blocks begin and end with three backticks ` ``` `. Syntax formatting includ
 ```
 > Blockquotes use a `>` at the start of each line.
 ```
+
+### Rules
 
 Paragraph before horizontal rule - note blank line after
 
@@ -248,7 +252,6 @@ Here is an example of a footnote[^1] that will appear at the very bottom[^anytex
 
 [^1]: Here is an example of how the footnote text is indicated. This example reference is in the text.
 ```
-
 
 ## Markdown extensions
 
