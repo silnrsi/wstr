@@ -10,3 +10,5 @@ sidebar:
 ![from xkcd - CC-BY-NC https://xkcd.com/license.html](images/only_serifs_2x.png "Only Serifs ")
 
 CC-BY-NC https://xkcd.com/license.html
+
+FooBar
