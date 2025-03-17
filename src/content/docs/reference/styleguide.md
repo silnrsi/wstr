@@ -199,21 +199,17 @@ More left-aligned text|C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
 
 Images used on a page should be placed in an `images` folder in the same location as the page, typically within a main topic (collection). They should normally be .png or .jpg. Other formats may work but are untested.
 
-Image filenames should follow the format:
+Image filenames should follow the format `pppp[-n]-shortname.png` where
 
-```pppp[-n]-shortname.png```
-
-Where
-
-- _pppp_ is the topic page number (this is a suggestion not an absolute requirement)
+- _pppp_ is the topic page number (suggestion not an absolute requirement)
 - _n_ is an optional counter if you have multiple images on a page
 - _shortname_ can be whatever you want (it-can-even-have-multiple-hyphens) but should be all lowercase
 
 There should be no spaces. Use hyphens, not underscores.
 
-If you want to reuse an image on multiple pages within the same topic (collection) name them with the topic number of one page and then reference it on another.
+If you want to reuse an image on multiple pages within the same topic name it with the topic number of one page and then reference it on another.
 
-If you want to reuse an image from another topic (collection) you can either reference it directly using a relative path or copy and rename the file into the current topic images folder (as long as it's small).
+If you want to reuse an image from another topic you can either reference it directly using a relative path or copy and rename the file into the current topic images folder (as long as it's small).
 
 Images can be any size, but those intended to fill the main content column should be at least 720 pixels wide, and any size above that can be used. Astro will adjust the size and optimize the image automatically. There is no need to manually optimize images for a particular size.
 
@@ -236,7 +232,7 @@ You can also reference smaller images:
 ![This is alt text](images/9800-small-image.png)
 
 ```
-![AltText](images/9800-full-image.png)
+![This is alt text](images/9800-small-image.png)
 ```
 
 Or an external image:
@@ -247,11 +243,7 @@ Or an external image:
 ![An illustration of planets and stars featuring the word “astro”](https://raw.githubusercontent.com/withastro/docs/main/public/default-og-image.png)
 ```
 
-You can use inline images ![This is alt text](images/9800-inline-square.png), but please only for really small ones:
-
-```
-You can use inline images ![This is alt text](images/9800-inline-square.png), but please only for really small ones:
-```
+Inline images are not supported.
 
 Image references should not be broken over multiple lines. They may still work, however the Decap system does not support them.
 
