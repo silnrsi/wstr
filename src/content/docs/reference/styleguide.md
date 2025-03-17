@@ -253,25 +253,15 @@ There is currently no special support or styling for image captions, although it
 
 _Note that link formats are not yet firm and may change depending on what decisions are made regarding general referencing._
 
-Here is a link to [another section][#ai-use] (level 2 or 3) on this page.
+Here is a link to [another section](#ai-use) (level 2 or 3) on this page.
 
-Here is a link to [Bidi page by Title][The Unicode Bidirectional Algorithm].
+Here is a link to [another page in this topic by slug](glossary).
 
-Here is a link to [Bidi page by Sidebar Label][Unicode Bidi Algorithm].
+Here is a link to [another page in this topic by /slug/](/glossary/).
 
-Here is a link to [Bidi page by filename no extension][bidi].
+Here is a link to [another page in this topic by ../slug](../glossary).
 
-Here is a link to [Bidi page by filename and path no extension](../analysis/bidi).
-
-Here is a link to [Bidi page by filename and path .md extension](../analysis/bidi.md).
-
-Here is a link to [Bidi page by filename and path .html extension](../analysis/bidi.html).
-
-Here is a link to [another page in this topic by Title][Glossary].
-
-Here is a link to [another page in this topic by lowercase title][glossary].
-
-Here is a link to [another page in this topic by slug][glossary].
+Here is a link to [another page in another topic by ../../slug](../../bidi).
 
 ### Blocks
 
