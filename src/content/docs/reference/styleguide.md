@@ -255,13 +255,9 @@ _Note that link formats are not yet firm and may change depending on what decisi
 
 Here is a link to [another section](#ai-use) (level 2 or 3) on this page.
 
-Here is a link to [another page in this topic by slug](glossary).
-
-Here is a link to [another page in this topic by /slug/](/glossary/).
-
 Here is a link to [another page in this topic by ../slug](../glossary).
 
-Here is a link to [another page in another topic by ../../slug](../../bidi).
+Here is a link to [another page in another topic by ../../topic/slug](../../analysis/bidi).
 
 ### Blocks
 
