@@ -257,7 +257,7 @@ Here is a link to [another section](#ai-use) (level 2 or 3) on this page.
 
 Here is a link to [another page in this topic by ../slug](../glossary).
 
-Here is a link to [another page in another topic by ../../topic/title](../../analysis/the-unicode-bidirectional-algorithm).
+Here is a link to [another page in another topic by ../../topic/title](../../topics/analysis/the-unicode-bidirectional-algorithm).
 
 Here is a link to [another page in another topic by ../../title](../../the-unicode-bidirectional-algorithm).
 
@@ -273,8 +273,10 @@ Here is an example of a named external link to the [OpenType Specification][OTSp
 
 [AI]: #ai-use
 [Glossary]: ../glossary
-[Bidi]: ../../analysis/the-unicode-bidirectional-algorithm
+[Bidi]: ../../topics/analysis/bidi
 [OTSpec]: https://www.microsoft.com/typography/otspec/
+
+Note on paths to topics
 
 ### Blocks
 
