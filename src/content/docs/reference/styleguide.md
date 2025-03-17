@@ -253,30 +253,38 @@ There is currently no special support or styling for image captions, although it
 
 _Note that link formats are not yet firm and may change depending on what decisions are made regarding general referencing._
 
-Here is a link to [another section](#ai-use) (level 2 or 3) on this page.
+It is generally preferred that links use named references. Rather than use the basic `[text](completefilereference)` format in text it is better to use `[text][refname]` (note use of brackets rather than parentheses), then define the `[refname]` later in the document. For most shorter pages the reference definitions should be at the end of the page, but for longer docs such as [Writing Systems Best Practice][WSBP] the reference definitions could be clustered at the end of each section. They aren't rendered on the page so their location can vary.
 
-Here is a link to [another page in this topic by ../slug](../glossary).
+Use the hash (`#ai-use`) to link to [another section on the same page][AI] (level 2 or 3).
 
-Here is a link to [another page in another topic by ../../topic/title](../../topics/analysis/the-unicode-bidirectional-algorithm).
+Use `../filename` without the `.md` extension to link to [another page in the same topic][Glossary]. Yes, that's not quite a standard relative path!
 
-Here is a link to [another page in another topic by ../../title](../../the-unicode-bidirectional-algorithm).
+Use an extended path link `../../topics/analysis/bidi` to link to [another page in another topic][Bidi]. Remember that some _topics_ are top level folders (guides, reference, etc.) and some are inside the `topics` folder (topics/analysis, topics/layout, topics/fonts)! Working out the proper extended path from the current file can be tricky.
 
-Here is an example of an external link to the [OpenType Specification](https://www.microsoft.com/typography/otspec/).
-
-Here is a named link to [another section][AI] (level 2 or 3) on this page.
-
-Here is a named link to [another page in this topic by ../slug][Glossary].
-
-Here is a named link to [another page in another topic by ../../topic/slug][Bidi].
-
-Here is an example of a named external link to the [OpenType Specification][OTSpec].
+Use a full URL for [external links][OTSpec].
 
 [AI]: #ai-use
 [Glossary]: ../glossary
 [Bidi]: ../../topics/analysis/bidi
 [OTSpec]: https://www.microsoft.com/typography/otspec/
 
-Note on paths to topics
+```
+Use the hash (`#ai-use`) to link to [another section on the same page][AI] (level 2 or 3).
+
+Use `../filename` without the `.md` extension to link to [another page in the same topic][Glossary]. Yes, that's not quite a standard relative path!
+
+Use an extended path link `../../topics/analysis/bidi` to link to [another page in another topic][Bidi]. Remember that some _topics_ are top level folders (guides, reference, etc.) and some are inside the `topics` folder (topics/analysis, topics/layout, topics/fonts)! Working out the proper extended path from the current file can be tricky.
+
+Use a full URL for [external links][OTSpec].
+
+[AI]: #ai-use
+[Glossary]: ../glossary
+[Bidi]: ../../topics/analysis/bidi
+[OTSpec]: https://www.microsoft.com/typography/otspec/
+```
+
+[WSBP]: ../../guides/writing-systems-best-practice
+
 
 ### Blocks
 
