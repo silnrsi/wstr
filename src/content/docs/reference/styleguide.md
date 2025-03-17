@@ -259,6 +259,21 @@ Here is a link to [another page in this topic by ../slug](../glossary).
 
 Here is a link to [another page in another topic by ../../topic/slug](../../analysis/bidi).
 
+Here is an example of an external link to the [OpenType Specification](https://www.microsoft.com/typography/otspec/).
+
+Here is a named link to [another section][AI] (level 2 or 3) on this page.
+
+Here is a named link to [another page in this topic by ../slug][Glossary].
+
+Here is a named link to [another page in another topic by ../../topic/slug][Bidi].
+
+Here is an example of a named external link to the [OpenType Specification][OTSpec].
+
+[AI]: #ai-use
+[Glossary]: ../glossary
+[Bidi]: ../../analysis/bidi
+[OTSpec]: https://www.microsoft.com/typography/otspec/
+
 ### Blocks
 
 Code blocks begin and end with three backticks ` ``` `. Syntax formatting including Expressive Code features are available - see [Code blocks](https://starlight.astro.build/guides/authoring-content/#code-blocks).
