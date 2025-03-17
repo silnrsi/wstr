@@ -222,16 +222,14 @@ To place an image on a page use this format:
 Here is an example of an image reference:
 
 ![This is alt text](images/9800-full-image.png)
-Here is an image caption with no special styling.
 
 ```
-![AltText](images/9800-full-image.png)
+![This is alt text](images/9800-full-image.png)
 ```
 
 You can also reference smaller images:
 
 ![This is alt text](images/9800-small-image.png)
-<caption>Here is an image caption within an HTML caption element</caption>
 
 ```
 ![This is alt text](images/9800-small-image.png)
@@ -249,7 +247,7 @@ Inline images are not supported.
 
 Image references should not be broken over multiple lines. They may still work, however the Decap system does not support them.
 
-There is currently no special support or styling for image captions, although we hope to add that.
+There is currently no special support or styling for image captions, although it would be a nice addition. To add a caption add the caption text on the next line with no blank line in between.
 
 ### Links
 
