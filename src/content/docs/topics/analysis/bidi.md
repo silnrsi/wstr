@@ -3,6 +3,7 @@ title: The Unicode Bidirectional Algorithm
 description: The "bidi" algorithm describes how software should process text that contains both left-to-right and right-to-left sequences of characters.
 sidebar:
     order: 7120
+    label: Unicode Bidi Algorithm
 lastUpdated: 2024-11-11
 ---
 

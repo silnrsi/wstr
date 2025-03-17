@@ -38,7 +38,7 @@ Dates should generally be formatted as _yyyy-mm-dd_ (e.g. 2025-02-27) to avoid c
 
 ## Referencing
 
-(to be added)
+(to be added later based on further discussion)
 
 ## AI use
 
@@ -222,7 +222,6 @@ To place an image on a page use this format:
 Here is an example of an image reference:
 
 ![This is alt text](images/9800-full-image.png)
-<figcaption>This is a test of figcaption</figcaption>
 
 ```
 ![This is alt text](images/9800-full-image.png)
@@ -252,8 +251,27 @@ There is currently no special support or styling for image captions, although it
 
 ### Links
 
-(to be added)
+_Note that link formats are not yet firm and may change depending on what decisions are made regarding general referencing._
 
+Here is a link to [another section][#ai-use] (level 2 or 3) on this page.
+
+Here is a link to [Bidi page by Title][The Unicode Bidirectional Algorithm].
+
+Here is a link to [Bidi page by Sidebar Label][Unicode Bidi Algorithm].
+
+Here is a link to [Bidi page by filename no extension][bidi].
+
+Here is a link to [Bidi page by filename and path no extension](../analysis/bidi).
+
+Here is a link to [Bidi page by filename and path .md extension](../analysis/bidi.md).
+
+Here is a link to [Bidi page by filename and path .html extension](../analysis/bidi.html).
+
+Here is a link to [another page in this topic by Title][Glossary].
+
+Here is a link to [another page in this topic by lowercase title][glossary].
+
+Here is a link to [another page in this topic by slug][glossary].
 
 ### Blocks
 
