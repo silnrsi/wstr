@@ -253,9 +253,11 @@ There is currently no special support or styling for image captions, although it
 
 _Note that link formats are not yet firm and may change depending on what decisions are made regarding general referencing._
 
-It is generally preferred that links use named references. Rather than use the basic `[text](completefilereference)` format in text it is better to use `[text][refname]` (note use of brackets rather than parentheses), then define the `[refname]` later in the document. For most shorter pages the reference definitions should be at the end of the page, but for longer docs such as [Writing Systems Best Practice][WSBP] the reference definitions could be clustered at the end of each section. They aren't rendered on the page so their location can vary.
+It is generally preferred that links use named references. Rather than use the basic `[text](completefilereference)` format in text it is better to use `[text][refname]`, then define each `[refname]` on a separate line later in the document. _Note use of brackets rather than parentheses!_
 
-Use the hash (`#ai-use`) to link to [another section on the same page][AI] (level 2 or 3).
+For most shorter pages the reference definitions should be at the end of the page, but for longer docs such as [Writing Systems Best Practice][WSBP] the reference definitions could be clustered at the end of each section. They aren't rendered on the page so their location can vary.
+
+Use the hash `#ai-use` to link to [another section on the same page][AI] (level 2 or 3).
 
 Use `../filename` without the `.md` extension to link to [another page in the same topic][Glossary]. Yes, that's not quite a standard relative path!
 
@@ -269,7 +271,7 @@ Use a full URL for [external links][OTSpec].
 [OTSpec]: https://www.microsoft.com/typography/otspec/
 
 ```
-Use the hash (`#ai-use`) to link to [another section on the same page][AI] (level 2 or 3).
+Use the hash `#ai-use` to link to [another section on the same page][AI] (level 2 or 3).
 
 Use `../filename` without the `.md` extension to link to [another page in the same topic][Glossary]. Yes, that's not quite a standard relative path!
 
@@ -284,7 +286,6 @@ Use a full URL for [external links][OTSpec].
 ```
 
 [WSBP]: ../../guides/writing-systems-best-practice
-
 
 ### Blocks
 
