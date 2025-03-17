@@ -222,6 +222,7 @@ To place an image on a page use this format:
 Here is an example of an image reference:
 
 ![This is alt text](images/9800-full-image.png)
+<figcaption>This is a test of figcaption</figcaption>
 
 ```
 ![This is alt text](images/9800-full-image.png)
