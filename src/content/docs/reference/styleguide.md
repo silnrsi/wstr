@@ -24,11 +24,11 @@ When providing guidance regarding best practice try to provide some indication o
 
 Content should mainly be in English, however, that is not a rule, and content in other languages is welcome. If there is a need for multiple versions of a page in different languages we may wish to install extensions that make it easier to author and navigate between content languages.
 
-English spelling may be American, International, or British to reflect the diversity and personal style of team members. It should, however, remain consistent throughout a page or pages of interrelated content. British text should use Oxford spelling, with the _-ize_ ending for words such as _organize_, _realize_, and _privatize_, but with words ending in _-yse_ retaining the _s_, as in _analyse_ and _catalyse_ etc_.
+English spelling may be American, International, or British to reflect the diversity and personal style of team members. It should, however, remain consistent throughout a page or pages of interrelated content. British text should use Oxford spelling, with the _-ize_ ending for words such as _organize_, _realize_, and _privatize_, but with words ending in _-yse_ retaining the _s_, as in _analyse_ and _catalyse_ etc.
 
 Punctuation should follow general guidelines:
 
-- Quotations can use either single (British) or double (American) quotes as long as they are consistent throughout a page. Place punctuation marks outside of quotation marks unless the punctuation is part of the quotation itself. This practice is sometimes referred to as 'logical punctuation'. Source files can use either straight or 'curly' quotes—rendered pages will convert them to typographic ones.
+- Quotations can use either single (British) or double (American) quotes as long as they are consistent throughout a pag, although single quotes are slightly preferred. Place punctuation marks outside of quotation marks unless the punctuation is part of the quotation itself. This practice is sometimes referred to as 'logical punctuation'. Source files can use either straight or 'curly' quotes—rendered pages will convert them to typographic ones.
 - Comma-separated lists should use the 'Oxford comma' to provide clarity, as in: _The design process involves initiating, experimenting, forming, harmonizing, and adapting_.
 - Ampersands should only be used when they are part of a name or title or heading, such as _Scripts & Languages_.
 - The copyright symbol © should be used rather than (c) except in quotations or examples.
@@ -42,7 +42,7 @@ Dates should generally be formatted as _yyyy-mm-dd_ (e.g. 2025-02-27) to avoid c
 
 ## AI use
 
-Although in some cases it may be difficult to avoid encountering AI-generated content when researching content for this site, it may only be used for reference purposes and never to directly prepare text or image content. All content must be authored and edited by one of the site's authors. Use of AI should also reflect SIL's [AI Ethics Statement](https://www.sil.org/ai-ethics-statement).
+Although in some cases it may be difficult to avoid encountering AI-generated content when researching and authoring content for this site, it may only be used for reference purposes and never to directly prepare text or image content. All content must be authored and edited by one of the site's authors. Use of AI should also reflect SIL's [AI Ethics Statement](https://www.sil.org/ai-ethics-statement).
 
 ## Page metadata
 
@@ -76,7 +76,7 @@ Here are details, with required fields in **bold**.
 
 Page sources need to use the flavor of Markdown supported by Starlight as documented in [Authoring Content in Markdown](https://starlight.astro.build/guides/authoring-content/). Additional markdown reference material can be found at the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
 
-Examples intended as a reference but also to test all the elements with the site CSS:
+The following examples intended as a reference but also to test all the elements with the site CSS. _If you use markdown elements that are not documented here please add them to this page. This enables us to adjust the CSS in the future and quickly see the impact it may have on page layout._
 
 ### Text formatting
 
@@ -88,7 +88,7 @@ Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`. Note that f
 
 ### Headings
 
-Heading 1 is only used by the page title. Anchors are automatically generated for all level 2 `<h2>` and 3 `<h3>` headings. The heading title can be added to the page URL with a hash, replacing spaces with hyphens, and making it all lowercase. A heading of 'AI use' would become `#ai-use`.
+Heading 1 is only used by the page title. Anchors are automatically generated for all level 2 `<h2>` and level 3 `<h3>` headings. The heading title can be added to the page URL with a hash, replacing spaces with hyphens, and making it all lowercase. A heading of 'AI use' would become `#ai-use`.
 
 ## Heading 2 - main headings on a page
 
