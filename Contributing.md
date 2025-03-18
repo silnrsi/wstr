@@ -1,4 +1,6 @@
+
 # Contributing to WSTR (Writing Systems Technical Resources)
+
 A step-by-step guide to the recommended WSTR contributor workflow
 
 You have two ways to contribute to WSTR: either directly from your browser in a hosted editor, or by using a local text editor and then pushing to the git repository manually. In both cases, contributors are authenticated via their GitHub account. It's recommended to stick with one approach per entry and not mix the two.
@@ -15,7 +17,7 @@ To contribute or modify an entry:
 - Click on the **Login with GitHub** button
 - Authorize your GitHub account to be used for Decap
 
-In the admin interface, you will see a **Contents tab** to the left with the various sections called "collections". These represent the major topics. You can browse through the existing entries available under the different sections. 
+In the admin interface, you will see a **Contents tab** to the left with the various sections called "collections". These represent the major topics. You can browse through the existing entries available under the different sections.
 
 **Clicking on an entry** will bring up the content in edit mode.
 
@@ -43,14 +45,15 @@ To contribute or modify an entry:
 - make sure you have a full local checkout (clone) of the WSTR git repository
 - open the local repository with VScode by typing:
 
-```
+```bash
 cd ~/repositories/wstr (or wherever you checked it out)
 
 code .
 ```
 
 VScode with then show you a dialog box in the bottom righ-hand corner indicating *"Folder contains a Dev Container file, Reopen folder to develop in a container"*. Press the **Reopen in Container** button. Click on the Terminal tab, then type:
-```
+
+```bash
 nxp astro dev --host
 ```
 
@@ -60,4 +63,4 @@ Now, all the changes you make to the various documents under `src/content/docs/`
 
 When you are happy with the changes you made to the Markdown files directly, you can commit and push them to git in the usual way. GitHub Actions will then pick up your commits, generate the whole again and publish everything to [https://silnrsi.github.io/wstr-sample-site/](https://silnrsi.github.io/wstr-sample-site/)
 
-Note: You might like to run a linter in VSCode to help you catch potential Markdown errors.
+Note: You might like to run a linter in VSCode like Markdownlint to help you catch potential Markdown errors. Your problems tab will reveal issues but you can also close it if it becomes too noisy.
