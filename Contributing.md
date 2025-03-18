@@ -1,7 +1,7 @@
 
 # Contributing to WSTR (Writing Systems Technical Resources)
 
-A step-by-step guide to the recommended WSTR contributor workflow
+A step-by-step guide to the recommended WSTR contributor workflow. *(This guide is intended only for WSTech, specifically contributors with write access to the [WSTR git repository](https://github.com/silnrsi/wstr-sample-site)).*
 
 You have two ways to contribute to WSTR: either directly from your browser in a hosted editor, or by using a local text editor and then pushing to the git repository manually. In both cases, contributors are authenticated via their GitHub account. It's recommended to stick with one approach per entry and not mix the two.
 
@@ -36,7 +36,7 @@ Bear in mind that the **View Live link** on the top right may not yet show all y
 
 ## Contributing via your text editor (with local preview and git)
 
-The beauty of Markdown is that you can use your preferred editor to author and modify it. You can also have a local preview that is faster than waiting for the whole site to be rebuilt.
+The beauty of Markdown is that you can use your preferred editor to author and modify it. You can also have a local preview that is faster than waiting for the whole site to be rebuilt. You can preview the entry you are currently working on directly or you can build the whole site locally and see your entry full integrated with the rest of the content like it would on the live version.
 
 In this guide we are using VScode with a markdown preview extension.
 
@@ -51,16 +51,20 @@ cd ~/repositories/wstr (or wherever you checked it out)
 code .
 ```
 
-VScode with then show you a dialog box in the bottom righ-hand corner indicating *"Folder contains a Dev Container file, Reopen folder to develop in a container"*. Press the **Reopen in Container** button. Click on the Terminal tab, then type:
+VScode will then show you a dialog box in the bottom right-hand corner indicating *"Folder contains a Dev Container file, Reopen folder to develop in a container"*.
+
+Press the **Reopen in Container** button.
+
+Click on the Terminal tab, then type:
 
 ```bash
 nxp astro dev --host
 ```
 
-Then click on the link to point your browser to the local instance of WSTR running in a container. Bear in mind the search facility at the top is not active for a local container.
+Then click on the link to point your browser to the local instance of WSTR running in a container. Now, all the changes you make to the various documents under `src/content/docs/` will be updated live in your browser. *Bear in mind the search facility at the top is not active for a local container.*
 
-Now, all the changes you make to the various documents under `src/content/docs/` will be updated live in your browser.
+**IMPORTANT: you don't have to run the local container if you don't want to**. You can just edit the Markdown fles and see your changes previewed locally within your editor. In VSCode simply decline to click **Reopen in Container** in the dialog box, then open and modify the files with your preferred Markdown editor and previewer. This won't give you the full integration with the rest of the website but it's still useful for checking your changes before contributing.
 
-When you are happy with the changes you made to the Markdown files directly, you can commit and push them to git in the usual way. GitHub Actions will then pick up your commits, generate the whole again and publish everything to [https://silnrsi.github.io/wstr-sample-site/](https://silnrsi.github.io/wstr-sample-site/)
+When you are happy with the changes you made to the Markdown files, you can commit and push them to git in the usual way. GitHub Actions will then pick up your commits, generate the whole website again and publish everything to [https://silnrsi.github.io/wstr-sample-site/](https://silnrsi.github.io/wstr-sample-site/)
 
-Note: You might like to run a linter in VSCode like Markdownlint to help you catch potential Markdown errors. Your problems tab will reveal issues but you can also close it if it becomes too noisy.
+Note: You might like to run a linter in VSCode like Markdownlint to help you catch potential Markdown errors. Your Poblems tab will reveal issues but you can also close it if it becomes too noisy.
