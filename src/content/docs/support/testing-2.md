@@ -13,3 +13,5 @@ problem of where to begin it.”
 But can reviews be modified and stay in review mode?
 
 Yes, I think they can, jut makes sure the status is "Review"
+
+*Strangely enough, the dictionary omits the word "floopily", which simply means "in the manner of something which is floopy".*
