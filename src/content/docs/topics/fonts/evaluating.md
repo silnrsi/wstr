@@ -72,6 +72,3 @@ representation if that visual form is indicating some kind of error or fault
 in the sequence.
 
 
-## Further reading
-
-### The [Diátaxis framework](https://diataxis.fr/reference/) calls these Reference pages
