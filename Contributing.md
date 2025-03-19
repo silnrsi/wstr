@@ -23,20 +23,20 @@ In the admin interface, you will see a **Contents tab** to the left with the var
 
 Push the slider to the right (from Rich Text to Markdown) to be able to see the markdown source and to edit it directly. You can review and modify existing entries. (Markdown is the preferred option rather than Rich Text).
 
-The **Workflow tab** allows you to see the statuses of the various entries currently being worked on. There are only three statuses: **Draft, In Review and Ready** and you can switch from back and forth as needed. Once you click on an entry, you can switch to edit mode.
+The **Workflow tab** allows you to see the statuses of the various entries currently being worked on. There are only three statuses: **Draft, In Review and Ready** and you can switch back and forth as needed. Once you click on an entry, you will be in edit mode.
 
 The required frontmatter fields are **title, description and sidebar/order**, others are optional. The Order number corresponds to the WSTR classification from 1000 to 9999. See the WSTR classification spreadsheet.
 
 Once you have made the desired changes to the entry, you can use the buttons at the top to save your changes or go back to other entries. Currently the workflow does not enforce a moderation step or require a review from someone else.
 
 To publish your changes you need to change the status to Ready, then click on **Publish -> Publish Now**.
-(If you press Publish-> Publish Now while still in draft, it will tell you need to change the status to In Review.) After confirming, your entry is now in **status Published**.
+(If you press Publish-> Publish Now while still in draft, it will tell you that you need to change the status to In Review.) After confirming, your entry is now in **status Published**.
 
-Bear in mind that the **View Live link** on the top right may not yet show all your modifications because the fresh changes are still being generated. This workflow relies on git branches and PRs done in the background. When automatically merged back to the main branch, changes to the content get rebuilt by GitHub Actions and are published to the website at [https://silnrsi.github.io/wstr-sample-site/](https://silnrsi.github.io/wstr-sample-site/). It may take up to a minute for all the content to be published. It will be probably a bit longer as we add more content, so it's not instant but not too long either.
+Bear in mind that the **View Live link** on the top right may not yet show all your modifications because fresh changes are still being generated. This workflow relies on git branches and PRs done in the background. When automatically merged back to the main branch, changes to the content get rebuilt by GitHub Actions and published to the website at [https://silnrsi.github.io/wstr-sample-site/](https://silnrsi.github.io/wstr-sample-site/). It may take up to a minute for all the content to be published. It will probably get a bit longer as we add more content, so it's not instant but not too long either.
 
 ## Contributing via your text editor (with local preview and git)
 
-The beauty of Markdown is that you can use your preferred editor to author and modify it. You can also have a local preview that is faster than waiting for the whole site to be rebuilt. You can preview the entry you are currently working on directly or you can build the whole site locally and see your entry full integrated with the rest of the content like it would on the live version.
+The beauty of Markdown is that you can use your preferred editor to author and modify it. You can also have a local preview that is faster than waiting for the whole site to be rebuilt. You can preview the entry you are currently working on directly or you can build the whole site locally and see your entry full integrated with the rest of the content like it would be on the live version.
 
 In this guide we are using VScode with a markdown preview extension.
 
@@ -51,6 +51,8 @@ cd ~/repositories/wstr (or wherever you checked it out)
 code .
 ```
 
+Or you could do File -> Open Folder from VScode directly and browse to your local WSTR git repository. 
+
 VScode will then show you a dialog box in the bottom right-hand corner indicating *"Folder contains a Dev Container file, Reopen folder to develop in a container"*.
 
 Press the **Reopen in Container** button.
@@ -63,8 +65,8 @@ nxp astro dev --host
 
 Then click on the link to point your browser to the local instance of WSTR running in a container. Now, all the changes you make to the various documents under `src/content/docs/` will be updated live in your browser. *Bear in mind the search facility at the top is not active for a local container.*
 
-**IMPORTANT: you don't have to run the local container if you don't want to**. You can just edit the Markdown fles and see your changes previewed locally within your editor. In VSCode simply decline to click **Reopen in Container** in the dialog box, then open and modify the files with your preferred Markdown editor and previewer. This won't give you the full integration with the rest of the website but it's still useful for checking your changes before contributing.
+**IMPORTANT: you don't have to run the local container if you don't want to**. You can just edit the Markdown fles and see your changes previewed locally within your editor. In VSCode simply decline to click **Reopen in Container** in the dialog box, then open and modify the files with your editor and previewer. This won't give you the full integration with the rest of the website but it's still useful for checking your changes before contributing.
 
 When you are happy with the changes you made to the Markdown files, you can commit and push them to git in the usual way. GitHub Actions will then pick up your commits, generate the whole website again and publish everything to [https://silnrsi.github.io/wstr-sample-site/](https://silnrsi.github.io/wstr-sample-site/)
 
-Note: You might like to run a linter in VSCode like Markdownlint to help you catch potential Markdown errors. Your Poblems tab will reveal issues but you can also close it if it becomes too noisy.
+Note: You might like to run a linter in VSCode like Markdownlint to help you catch potential Markdown errors. Your Problems tab will reveal issues but you can also close it if it becomes too noisy.
