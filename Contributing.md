@@ -60,6 +60,7 @@ Press the **Reopen in Container** button.
 Click on the Terminal tab, then type:
 
 ```bash
+npm install 
 npx astro dev --host --open
 ```
 
