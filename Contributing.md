@@ -60,7 +60,7 @@ Press the **Reopen in Container** button.
 Click on the Terminal tab, then type:
 
 ```bash
-npx astro dev --host
+npx astro dev --host --open
 ```
 
 Then click on the link to point your browser to the local instance of WSTR running in a container. Now, all the changes you make to the various documents under `src/content/docs/` will be updated live in your browser. *Bear in mind the search facility at the top is not active for a local container.*
