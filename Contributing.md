@@ -51,7 +51,7 @@ cd ~/repositories/wstr (or wherever you checked it out)
 code .
 ```
 
-Or you could do File -> Open Folder from VScode directly and browse to your local WSTR git repository. 
+Or you could do **File -> Open Folder** from VScode directly and browse to your local WSTR git repository. You should only add or modify files in `src/content/docs/`.
 
 VScode will then show you a dialog box in the bottom right-hand corner indicating *"Folder contains a Dev Container file, Reopen folder to develop in a container"*.
 
