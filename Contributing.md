@@ -23,7 +23,7 @@ In the admin interface, you will see a **Contents tab** to the left with the var
 
 Push the slider to the right (from Rich Text to Markdown) to be able to see the markdown source and to edit it directly. You can review and modify existing entries. (Markdown is the preferred option rather than Rich Text).
 
-The **Workflow tab** allows you to see the statuses of the various entries currently being worked on. There are only three statuses: **Draft, In Review and Ready** and you can switch back and forth as needed. Once you click on an entry, you will be in edit mode.
+The **Workflow tab** allows you to see the statuses of the various entries currently being worked on. There are only three statuses: **Draft, In Review** and **Ready** and you can switch back and forth as needed. Once you click on an entry, you will be in edit mode.
 
 The required frontmatter fields are **title, description and sidebar/order**, others are optional. The Order number corresponds to the WSTR classification from 1000 to 9999. See the WSTR classification spreadsheet.
 
@@ -65,7 +65,7 @@ Or you could do **File -> Open Folder** from VScode directly and browse to your 
 
 VScode will then show you a dialog box in the bottom right-hand corner indicating *"Folder contains a Dev Container file, Reopen folder to develop in a container"*.
 
-Press the **Reopen in Container** button.
+Press the **Reopen in Container** button. This will build the container and automatically install various components inside. It takes a moment but it will tell you when it's done.
 
 Click on the Terminal tab, then type:
 
