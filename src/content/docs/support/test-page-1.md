@@ -8,6 +8,8 @@ Now is the time for all good **men** to come to the aid of their country
 
 The quick brown *fox* jumped over the lazy dog
 
+A third line added after status changed to "In review" using an editor and git
+
 > This is a quote
 
 * list item one
