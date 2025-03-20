@@ -36,13 +36,17 @@ Punctuation should follow general guidelines:
 
 Dates should generally be formatted as _yyyy-mm-dd_ (e.g. 2025-02-27) to avoid confusion. Use specific dates where known. Avoid terms that assume the present time, such as 'ten years ago' or 'currently'.  
 
+## AI use
+
+Although in some cases it may be difficult to avoid encountering AI-generated content when researching and authoring content for this site, it may only be used for reference purposes and never to directly prepare text or image content. All content must be authored and edited by one of the site's authors. Use of AI should also reflect SIL's [AI Ethics Statement](https://www.sil.org/ai-ethics-statement).
+
 ## Referencing
 
 (to be added later based on further discussion)
 
-## AI use
+## Figures & Illustrations
 
-Although in some cases it may be difficult to avoid encountering AI-generated content when researching and authoring content for this site, it may only be used for reference purposes and never to directly prepare text or image content. All content must be authored and edited by one of the site's authors. Use of AI should also reflect SIL's [AI Ethics Statement](https://www.sil.org/ai-ethics-statement).
+(to be added later based on further discussion)
 
 ## Page metadata
 
