@@ -28,7 +28,7 @@ English spelling may be American, International, or British to reflect the diver
 
 Punctuation should follow general guidelines:
 
-- Quotations can use either single (British) or double (American) quotes as long as they are consistent throughout a pag, although single quotes are slightly preferred. Place punctuation marks outside of quotation marks unless the punctuation is part of the quotation itself. This practice is sometimes referred to as 'logical punctuation'. Source files can use either straight or 'curly' quotes—rendered pages will convert them to typographic ones.
+- Quotations can use either single (British) or double (American) quotes as long as they are consistent throughout a page, although single quotes are slightly preferred. Place punctuation marks outside of quotation marks unless the punctuation is part of the quotation itself. This practice is sometimes referred to as 'logical punctuation'. Source files can use either straight or 'curly' quotes—rendered pages will convert them to typographic ones.
 - Comma-separated lists should use the 'Oxford comma' to provide clarity, as in: _The design process involves initiating, experimenting, forming, harmonizing, and adapting_.
 - Ampersands should only be used when they are part of a name or title or heading, such as _Scripts & Languages_.
 - The copyright symbol © should be used rather than (c) except in quotations or examples.
