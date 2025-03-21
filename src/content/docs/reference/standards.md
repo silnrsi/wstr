@@ -5,7 +5,7 @@ sidebar:
   order: 9200
 lastUpdated: 2024-11-11
 ---
-Many of the pages on this site will reference different standards. Below we list links to the various standards mentioned
+Many of the pages on this site will reference different standards. Below we list links to the various standards mentioned.
 
 ## Encoding
 
