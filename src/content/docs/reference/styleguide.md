@@ -80,7 +80,7 @@ Here are details, with required fields in **bold**.
 
 Page sources need to use the flavor of Markdown supported by Starlight as documented in [Authoring Content in Markdown](https://starlight.astro.build/guides/authoring-content/). Additional markdown reference material can be found at the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
 
-The following examples intended as a reference but also to test all the elements with the site CSS. _If you use markdown elements that are not documented here please add them to this page. This enables us to adjust the CSS in the future and quickly see the impact it may have on page layout._
+The following examples are intended as a reference but also to test all the elements with the site CSS. _If you use markdown elements that are not documented here please add them to this page. This enables us to adjust the CSS in the future and quickly see the impact it may have on page layout._
 
 ### Text formatting
 
