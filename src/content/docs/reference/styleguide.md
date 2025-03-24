@@ -44,9 +44,11 @@ Although in some cases it may be difficult to avoid encountering AI-generated co
 
 (to be added later based on further discussion)
 
-## Figures & Illustrations
+## Figures & illustrations
 
-(to be added later based on further discussion)
+Original or SIL-owned figures, illustrations, and images do not require captions or figure numbers if the in-text reference to it is close to the image and the reference is obvious. Figure numbering can be used if helpful, although it can make later page maintenance more difficult. Numbering should start at '1' on each page and not be carried over to other pages, even if the content is related. There is no existing or planned system for automated figure numbering.
+
+If the image is not original, the source of the image and by what permission it can be used must be included in a caption or in the text. Captions do not have any special handling but can be used - see [Images][#images]. Captions can contain any kind of information, including links, and do not require use of figure numbering.
 
 ## Page metadata
 
@@ -209,7 +211,7 @@ Image filenames should follow the format `pppp[-n]-shortname.png` where
 - _n_ is an optional counter if you have multiple images on a page
 - _shortname_ can be whatever you want (it-can-even-have-multiple-hyphens) but should be all lowercase
 
-There should be no spaces. Use hyphens, not underscores.
+There should be no spaces. Use hyphens, not underscores. The optional counter is not required and does not need to relate to any figure numbering.
 
 If you want to reuse an image on multiple pages within the same topic name it with the topic number of one page and then reference it on another.
 
@@ -293,7 +295,7 @@ Use a full URL for [external links][OTSpec].
 
 ### Blocks
 
-Code blocks begin and end with three backticks ` ``` `. Syntax formatting including Expressive Code features are available - see [Code blocks](https://starlight.astro.build/guides/authoring-content/#code-blocks).
+Code blocks begin and end with three backticks ` ``` `. Syntax formatting including _Expressive Code_ features are available - see [Code blocks](https://starlight.astro.build/guides/authoring-content/#code-blocks).
 
 > Blockquotes use a `>` at the start of each line.
 
@@ -343,8 +345,22 @@ Here is an example of a footnote[^1] that will appear at the very bottom[^anytex
 
 ## Markdown extensions
 
+The following extensions to markdown support may be useful in the future but are not currently activated. They would require activating MDX file support and using the `.mdx` file format rather than `.md`.
+
+### Badges
+
+See [Starlight docs - Badges][starlight-badges].
+
+### Steps
+
+See [Starlight docs - Steps][starlight-steps].
+
+### Caption styling
+
 (to be added)
 
 ---
 
 [^anytext]: Footnote references can also be text but will still get numbered correctly. The references can be placed at the bottom of the markdown page.
+[starlight-badges]: https://starlight.astro.build/components/badges/
+[starlight-steps]: https://starlight.astro.build/components/steps/
