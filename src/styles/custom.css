@@ -2,7 +2,7 @@
     /* color of glyphs in SIL logo */
     --sl-color-accent-high: hsl(205, 65%, 65%);
     /* reduce default line height of headings */
-    --sl-line-height-headings: 1.0;
+    --sl-line-height-headings: 0.7;
     }
 
 :root[data-theme='light'] {
