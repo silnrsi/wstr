@@ -2,7 +2,7 @@
     /* color of glyphs in SIL logo */
     --sl-color-accent-high: hsl(205, 65%, 65%);
     /* reduce default line height of headings */
-    --sl-line-height-headings: 0.7;
+    --sl-line-height-headings: 1.0;
     /* reduce default size of h3 headings to increase contrast with h2 */
     --sl-text-2xl: 1.375rem; /* 22px */
     }
