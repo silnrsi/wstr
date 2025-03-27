@@ -33,8 +33,13 @@ Punctuation should follow general guidelines:
 - Ampersands should only be used when they are part of a name or title or heading, such as _Scripts & Languages_.
 - The copyright symbol © should be used rather than (c) except in quotations or examples.
 
-
 Dates should generally be formatted as _yyyy-mm-dd_ (e.g. 2025-02-27) to avoid confusion. Use specific dates where known. Avoid terms that assume the present time, such as 'ten years ago' or 'currently'.  
+
+## Capitalization
+
+Page titles should use [English title case][wikipedia-title-case], in which first, last, and any major words are capitalized, but not minor words (conjunctions, prepositions, articles).
+
+All other headings should use sentence case, in which only the first word is capitalized except for names and proper nouns.
 
 ## AI use
 
@@ -69,7 +74,7 @@ draft: true
 ```
 Here are details, with required fields in **bold**. 
 
-- **`title`** - required by system, should be unique
+- **`title`** - required by system, should be unique, should use Title Case
 - `subtitle` - optional
 - **`description`** - required by us, but not normally shown to viewers
 - **`sidebar: order`** - required by us, use topic # from the WSTR Classification

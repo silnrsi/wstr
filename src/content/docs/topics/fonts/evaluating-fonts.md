@@ -1,5 +1,5 @@
 ---
-title: Evaluating fonts
+title: Evaluating Fonts
 sidebar:
     order: 5120
 lastUpdated: 2025-03-24

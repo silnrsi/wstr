@@ -1,5 +1,5 @@
 ---
-title: Font licensing
+title: Font Licensing
 description: Font licensing, including the OFL
 sidebar:
   order: 5170

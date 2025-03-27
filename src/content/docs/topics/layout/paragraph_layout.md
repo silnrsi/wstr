@@ -1,5 +1,5 @@
 ---
-title: Paragraph layout
+title: Paragraph Layout
 sidebar:
     order: 6400
 ---

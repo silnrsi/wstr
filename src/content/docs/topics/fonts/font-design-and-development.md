@@ -1,5 +1,5 @@
 ---
-title: Font design & development
+title: Font Design & Development
 description: Font development, design, structures, metadata, and production
 sidebar:
   order: 5200
@@ -33,7 +33,7 @@ Font sources are stored in a variety of formats. These are not installable fonts
 
 We recommend that font projects use UFO (version 3) and avoid proprietary formats. UFO is a public, platform-neutral, human-readable, text-based source format for storing font source data. It is used by many foundries, including Adobe, as their primary source format. See the [FDBP][fdbp-ufo] for more information on using UFO.
 
-The second most common source format, Glyphs, is well-supported but tends to constantly change and does not have an well-maintained public standard. The [glyphsLib][glyphslib] project provides a bridge between the Glyphs and UFO formats.
+Another common source format, Glyphs, is well-supported but tends to constantly change and does not have an well-maintained public standard. The [glyphsLib][glyphslib] project provides a bridge between the Glyphs and UFO formats.
 
 ## Font naming, versioning, metrics, and metadata
 

@@ -1,5 +1,5 @@
 ---
-title: Finding & using fonts
+title: Finding & Using Fonts
 description: Font finding, evaluation, installation, and licensing
 sidebar:
   order: 5100

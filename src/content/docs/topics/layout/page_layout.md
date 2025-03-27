@@ -1,5 +1,5 @@
 ---
-title: Page layout
+title: Page Layout
 sidebar:
     order: 6500
 ---

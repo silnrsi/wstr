@@ -1,5 +1,5 @@
 ---
-title: Line spacing
+title: Line Spacing
 sidebar:
     order: 6300
 ---

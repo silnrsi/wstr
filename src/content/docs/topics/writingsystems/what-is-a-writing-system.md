@@ -1,5 +1,5 @@
 ---
-title: What is a writing system?
+title: What is a Writing System?
 description: Basic definition of writing systems from WSI Guidelines
 sidebar:
     order: 1100
