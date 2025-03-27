@@ -80,7 +80,7 @@ When set horizontally, Chinese is typically LTR as seen in Figure 15, but Figure
 
 ## Paragraph breaks
 
-Some scripts do not break paragraphs as in Roman scripts. For example, ancient Ethiopic uses a paragraph separater mark (&#x1368;) rather than beginning the next paragraph on a new line.
+Some scripts do not break paragraphs as in Roman scripts. For example, ancient Ethiopic uses a paragraph separator mark (&#x1368;) rather than beginning the next paragraph on a new line.
 
 ## Baseline
 
