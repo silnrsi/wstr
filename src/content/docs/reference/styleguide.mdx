@@ -114,7 +114,7 @@ Heading 1 is only used by the page title. Anchors are automatically generated fo
 
 ###### Heading 6
 
-```
+```md
 ## Heading 2 - main headings on a page
 
 ### Heading 3
@@ -134,7 +134,7 @@ Heading 1 is only used by the page title. Anchors are automatically generated fo
     - Another
 - Third item
 
-```
+```md
 - First item
 - Second item
     - Sub item
@@ -146,7 +146,7 @@ Heading 1 is only used by the page title. Anchors are automatically generated fo
 2. Second item
 3. Third item
 
-```
+```md
 1. First item
 2. Second item
 3. Third item
@@ -159,7 +159,7 @@ Heading 1 is only used by the page title. Anchors are automatically generated fo
 | Header | Title |
 | Paragraph | Text |
 
-```
+```md
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
@@ -172,7 +172,7 @@ Unicode block | Font support
 C0 Controls and Basic Latin|U+0020..U+007E
 C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
 
-```
+```md
 Unicode block | Font support
 ------------- | ------------
 C0 Controls and Basic Latin|U+0020..U+007E
@@ -186,7 +186,7 @@ Unicode block | Characters | Long explanation
 C0 Controls and Basic Latin|U+0020..U+007E|This is a longer text to describe the basic Latin block
 C1 Controls and Latin-1 Supplement|U+00A0..U+00FF|
 
-```
+```md
 Unicode block | Characters | Long explanation
 ------------- | ---- | -----------------------------
 C0 Controls and Basic Latin|U+0020..U+007E|This is a longer text to describe the basic Latin block
@@ -200,7 +200,7 @@ Left-aligned | Centered | Right-aligned
 This is a longer text to describe the basic Latin block|C0 Controls and Basic Latin|U+0020..U+007E
 More left-aligned text|C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
 
-```
+```md
 Left-aligned | Centered | Right-aligned 
 :------------- | :------------: | -------------:
 This is a longer text to describe the basic Latin block|C0 Controls and Basic Latin|U+0020..U+007E
@@ -292,7 +292,7 @@ Use a full URL for [external links][OTSpec].
 [Bidi]: ../../topics/analysis/bidi
 [OTSpec]: https://www.microsoft.com/typography/otspec/
 
-```
+```md
 Use the hash `#ai-use` to link to [another section on the same page][AI] (level 2 or 3).
 
 Use `../filename` without the `.md` extension to link to [another page in the same topic][Glossary]. Yes, that's not quite a standard relative path!
@@ -407,6 +407,27 @@ See [Starlight docs - Badges][starlight-badges] for details. Here are some examp
 
 See [Starlight docs - Steps][starlight-steps]. for details. Here is the **Steps** element that produced the steps at the beginning of this section:
 
+```
+<Steps>
+
+1. Rename the file to have an `.mdx` extension. 
+
+2. Import the component you want to use by adding an `import` to the top of your file, just after the frontmatter. For example, this will import the **Badge** component: 
+
+   ```js
+   import { Badge } from '@astrojs/starlight/components';
+   ```
+
+3. Add the special element (in this case, **Badge**) to your page whereever you would like it.
+
+   ```js
+   <Badge text="Note" variant="note" />
+   ```
+
+</Steps>
+
+```
+
 ### Caption styling
 
 (to be added)
@@ -414,5 +435,6 @@ See [Starlight docs - Steps][starlight-steps]. for details. Here is the **Steps*
 ---
 
 [^anytext]: Footnote references can also be text but will still get numbered correctly. The references can be placed at the bottom of the markdown page.
+
 [starlight-badges]: https://starlight.astro.build/components/badges/
 [starlight-steps]: https://starlight.astro.build/components/steps/
