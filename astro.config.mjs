@@ -13,7 +13,7 @@ export default defineConfig({
 				src: './src/assets/logo.svg',
 				replacesTitle: false,
 			  },
-			favicon: './public/favicon.ico',
+			favicon: 'favicon.ico',
 			social: {
 				github: 'https://github.com/silnrsi/wstr-sample-site',
 			},
