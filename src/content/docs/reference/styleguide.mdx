@@ -62,7 +62,7 @@ If the image is not original, the source of the image and by what permission it 
 
 Metadata is defined in the YAML header of each page. Here is a complete example including all optional fields. Note that formatting and indentation is very important, particularly for sidebar.
 
-```
+```yaml
 ---
 title: Page Title
 subtitle: Page subtitle
@@ -96,7 +96,7 @@ The following examples are intended as a reference but also to test all the elem
 
 Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`. Note that for clarity please use double asterisks for bold and single underscores for italic.
 
-```
+```md
 Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`. Note that for clarity please use double asterisks for bold and single underscores for italic.
 ```
 
@@ -231,13 +231,15 @@ Images can be any size, but those intended to fill the main content column shoul
 
 To place an image on a page use this format:
 
-```![AltText](images/picname.png)```
+```md
+![AltText](images/picname.png)
+```
 
 Here is an example of an image reference:
 
 ![This is alt text](images/9800-full-image.png)
 
-```
+```md
 ![This is alt text](images/9800-full-image.png)
 ```
 
@@ -245,7 +247,7 @@ You can reference images wider than 720 pixels wide and they will be scaled down
 
 ![This is alt text](images/9800-scriptsworldno1040ortext.png)
 
-```
+```md
 ![This is alt text](images/9800-scriptsworldno1040ortext.png)
 ```
 
@@ -253,7 +255,7 @@ You can also reference smaller images:
 
 ![This is alt text](images/9800-small-image.png)
 
-```
+```md
 ![This is alt text](images/9800-small-image.png)
 ```
 
@@ -261,7 +263,7 @@ Or an external image:
 
 ![An illustration of planets and stars featuring the word “astro”](https://raw.githubusercontent.com/withastro/docs/main/public/default-og-image.png)
 
-```
+```md
 ![An illustration of planets and stars featuring the word “astro”](https://raw.githubusercontent.com/withastro/docs/main/public/default-og-image.png)
 ```
 
@@ -315,7 +317,7 @@ Code blocks begin and end with three backticks ` ``` `. Syntax formatting includ
 
 > Blockquotes use a `>` at the start of each line.
 
-```
+```md
 > Blockquotes use a `>` at the start of each line.
 ```
 
@@ -327,7 +329,7 @@ Paragraph before horizontal rule - note blank line after
 
 Paragraph after horizontal rule - note blank line before
 
-```
+```md
 Paragraph before horizontal rule - note blank line after
 
 ---
@@ -341,7 +343,7 @@ Paragraph after horizontal rule - note blank line before
 This is an aside. Details and options can be found in the [Starlight docs](https://starlight.astro.build/guides/authoring-content/#asides).
 :::
 
-```
+```md
 :::note
 This is an aside. Details and options can be found in the [Starlight docs](https://starlight.astro.build/guides/authoring-content/#asides).
 :::
@@ -353,7 +355,7 @@ Here is an example of a footnote[^1] that will appear at the very bottom[^anytex
 
 [^1]: Here is an example of how the footnote text is indicated. This example reference is in the text.
 
-```
+```md
 Here is an example of a footnote[^1] that will appear at the very bottom[^anytext] of the page. Footnotes will automatically be numbered sequentially when rendered.
 
 [^1]: Here is an example of how the footnote text is indicated. This example reference is in the text.
@@ -383,10 +385,9 @@ To use these extensions:
 
 </Steps>
 
-
 ### Badges
 
-See [Starlight docs - Badges][starlight-badges] for details. Here are some examples:
+See the [Starlight docs - Badges][starlight-badges] for details. Here are some examples:
 
 <Badge text="Note" variant="note" />
 <Badge text="Success" variant="success" />
@@ -402,20 +403,9 @@ See [Starlight docs - Badges][starlight-badges] for details. Here are some examp
 
 <Badge text="Custom" variant="success" style={{ fontStyle: 'italic' }} />
 
-
 ### Steps
 
-See [Starlight docs - Steps][starlight-steps]. for details. Here is the **Steps** element that produced the steps at the beginning of this section:
-
-```
-<Steps>
-
-1. Rename the file to have an `.mdx` extension. 
-
-2. Import the component you want to use by adding an `import` to the top of your file, just after the frontmatter. For example, this will import the **Badge** component: 
-
-</Steps>
-```
+See the [Starlight docs - Steps][starlight-steps] (or the source for this `mdx` file) for details and examples. 
 
 ### Caption styling
 
