@@ -238,6 +238,14 @@ Here is an example of an image reference:
 ![This is alt text](images/9800-full-image.png)
 ```
 
+You can reference images wider than 720 pixels wide and they will be scaled down:
+
+![This is alt text](images/9800-scriptsworldno1040ortext.png)
+
+```
+![This is alt text](images/9800-scriptsworldno1040ortext.png)
+```
+
 You can also reference smaller images:
 
 ![This is alt text](images/9800-small-image.png)
