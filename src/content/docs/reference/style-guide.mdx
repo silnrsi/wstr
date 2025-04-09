@@ -46,7 +46,7 @@ All other headings should use sentence case, in which only the first word is cap
 
 ## AI use
 
-Although in some cases it may be difficult to avoid encountering AI-generated content when researching and authoring content for this site, it may only be used for reference purposes and never to directly prepare text or image content. All content must be authored and edited by one of the site's authors. Use of AI should also reflect SIL's [AI Ethics Statement](https://www.sil.org/ai-ethics-statement).
+Although in some cases it may be difficult to avoid encountering AI-generated content when researching and authoring content for this site, it may only be used for reference purposes and never to directly prepare text or image content. All content must be authored and edited by one of the site's authors. Use of AI should also reflect SIL's [AI Ethics Statement][sil-ai-ethics].
 
 ## Referencing
 
@@ -56,7 +56,20 @@ Although in some cases it may be difficult to avoid encountering AI-generated co
 
 Original or SIL-owned figures, illustrations, and images do not require captions or figure numbers if the in-text reference to it is close to the image and the reference is obvious. Figure numbering can be used if helpful, although it can make later page maintenance more difficult. Numbering should start at '1' on each page and not be carried over to other pages, even if the content is related. There is no existing or planned system for automated figure numbering.
 
-If the image is not original, the source of the image and by what permission it can be used must be included in a caption or in the text. Captions do not have any special handling but can be used - see [Images][#images]. Captions can contain any kind of information, including links, and do not require use of figure numbering.
+If the image is not original, the source of the image and by what permission it can be used must be included in a caption or in the text. Captions do not have any special handling but can be used - see [Images](#images). Captions can contain any kind of information, including links, and do not require use of figure numbering.
+
+## Filenames
+
+Page filenames should be:
+
+- all lowercase
+- with no spaces or underscores
+- using real words (not abbreviations) separated by hyphens
+- that represents the page title (or a short version of it)
+
+as in: `font-licensing.md` or `style-guide.mdx`.
+
+_There is current pending discussion regarding whether to prepend the topic number to the filename, as in `5710-font-licensing.md`._
 
 ## Page metadata
 
@@ -83,12 +96,12 @@ Here are details, with required fields in **bold**.
 - **`sidebar: order`** - required by us, use topic # from the WSTR Classification
 - `sidebar: label` - optional, replaces title in sidebar only, useful if page title is too long for sidebar
 - `sidebar: hidden` - optional, keeps page from being listed in sidebar
-- `lastUpdated` - optional, use yyyy-mm-dd format, only needed if it makes sense for a page to display it
+- `lastUpdated` - optional, use yyyy-mm-dd format, only needed if it makes sense for a page to display it, although growing team opinion is that it should be required
 - `draft` - optional, hides page from production builds, not currently recommended
 
 ## Markdown use
 
-Page sources need to use the flavor of Markdown supported by Starlight as documented in [Authoring Content in Markdown](https://starlight.astro.build/guides/authoring-content/). Additional markdown reference material can be found at the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
+Page sources need to use the flavor of Markdown supported by Starlight as documented in [Authoring Content in Markdown][starlight-authoring-content]. Additional markdown reference material can be found at the [Markdown Cheat Sheet][markdown-cheat-sheet].
 
 The following examples are intended as a reference but also to test all the elements with the site CSS. _If you use markdown elements that are not documented here please add them to this page. This enables us to adjust the CSS in the future and quickly see the impact it may have on page layout._
 
@@ -279,41 +292,41 @@ _Note that link formats are not yet firm and may change depending on what decisi
 
 It is generally preferred that links use named references. Rather than use the basic `[text](completefilereference)` format in text it is better to use `[text][refname]`, then define each `[refname]` on a separate line later in the document. _Note use of brackets rather than parentheses!_
 
-For most shorter pages the reference definitions should be at the end of the page, but for longer docs such as [Writing Systems Best Practice][WSBP] the reference definitions could be clustered at the end of each section. They aren't rendered on the page so their location can vary.
+For most shorter pages the reference definitions should be at the end of the page, but for longer docs such as [Writing Systems Best Practice][wsbp] the reference definitions could be clustered at the end of each section. They aren't rendered on the page so their location can vary.
 
-Use the hash `#ai-use` to link to [another section on the same page][AI] (level 2 or 3).
+Use the hash `#ai-use` to link to [another section on the same page][ai] (level 2 or 3).
 
-Use `../filename` without the `.md` extension to link to [another page in the same topic][Glossary]. Yes, that's not quite a standard relative path!
+Use `../filename` without the `.md` extension to link to [another page in the same topic][glossary]. Yes, that's not quite a standard relative path!
 
-Use an extended path link `../../topics/analysis/bidi` to link to [another page in another topic][Bidi]. Remember that some _topics_ are top level folders (guides, reference, etc.) and some are inside the `topics` folder (topics/analysis, topics/layout, topics/fonts)! Working out the proper extended path from the current file can be tricky.
+Use an extended path link `../../topics/analysis/bidi` to link to [another page in another topic][bidi]. Remember that some _topics_ are top level folders (guides, reference, etc.) and some are inside the `topics` folder (topics/analysis, topics/layout, topics/fonts)! Working out the proper extended path from the current file can be tricky.
 
-Use a full URL for [external links][OTSpec].
+Use a full URL for [external links][otspec].
 
-[AI]: #ai-use
-[Glossary]: ../glossary
-[Bidi]: ../../topics/analysis/bidi
-[OTSpec]: https://www.microsoft.com/typography/otspec/
+[ai]: #ai-use
+[glossary]: ../glossary
+[bidi]: ../../topics/analysis/bidi
+[otspec]: https://www.microsoft.com/typography/otspec/
 
 ```md
-Use the hash `#ai-use` to link to [another section on the same page][AI] (level 2 or 3).
+Use the hash `#ai-use` to link to [another section on the same page][ai] (level 2 or 3).
 
-Use `../filename` without the `.md` extension to link to [another page in the same topic][Glossary]. Yes, that's not quite a standard relative path!
+Use `../filename` without the `.md` extension to link to [another page in the same topic][glossary]. Yes, that's not quite a standard relative path!
 
-Use an extended path link `../../topics/analysis/bidi` to link to [another page in another topic][Bidi]. Remember that some _topics_ are top level folders (guides, reference, etc.) and some are inside the `topics` folder (topics/analysis, topics/layout, topics/fonts)! Working out the proper extended path from the current file can be tricky.
+Use an extended path link `../../topics/analysis/bidi` to link to [another page in another topic][bidi]. Remember that some _topics_ are top level folders (guides, reference, etc.) and some are inside the `topics` folder (topics/analysis, topics/layout, topics/fonts)! Working out the proper extended path from the current file can be tricky.
 
-Use a full URL for [external links][OTSpec].
+Use a full URL for [external links][otspec].
 
-[AI]: #ai-use
-[Glossary]: ../glossary
-[Bidi]: ../../topics/analysis/bidi
-[OTSpec]: https://www.microsoft.com/typography/otspec/
+[ai]: #ai-use
+[glossary]: ../glossary
+[bidi]: ../../topics/analysis/bidi
+[otspec]: https://www.microsoft.com/typography/otspec/
 ```
 
-[WSBP]: ../../guides/writing-systems-best-practice
+[wsbp]: ../../guides/writing-systems-best-practice
 
 ### Blocks
 
-Code blocks begin and end with three backticks ` ``` `. Syntax formatting including _Expressive Code_ features are available - see [Code blocks](https://starlight.astro.build/guides/authoring-content/#code-blocks).
+Code blocks begin and end with three backticks ` ``` `. Syntax formatting including _Expressive Code_ features are available - see [Code blocks][starlight-code-blocks].
 
 > Blockquotes use a `>` at the start of each line.
 
@@ -340,12 +353,12 @@ Paragraph after horizontal rule - note blank line before
 ### Asides
 
 :::note
-This is an aside. Details and options can be found in the [Starlight docs](https://starlight.astro.build/guides/authoring-content/#asides).
+This is an aside. Details and options can be found in the [Starlight docs][starlight-asides].
 :::
 
 ```md
 :::note
-This is an aside. Details and options can be found in the [Starlight docs](https://starlight.astro.build/guides/authoring-content/#asides).
+This is an aside. Details and options can be found in the [Starlight docs][starlight-asides].
 :::
 ```
 
@@ -377,7 +390,7 @@ To use these extensions:
    import { Badge } from '@astrojs/starlight/components';
    ```
 
-3. Add the special element (in this case, **Badge**) to your page whereever you would like it.
+3. Add the special element (in this case, **Badge**) to your page wherever you would like it.
 
    ```js
    <Badge text="Note" variant="note" />
@@ -415,5 +428,11 @@ See the [Starlight docs - Steps][starlight-steps] (or the source for this `mdx` 
 
 [^anytext]: Footnote references can also be text but will still get numbered correctly. The references can be placed at the bottom of the markdown page.
 
+[markdown-cheat-sheet]: https://www.markdownguide.org/cheat-sheet/
+[sil-ai-ethics]: https://www.sil.org/ai-ethics-statement
+[starlight-asides]: https://starlight.astro.build/guides/authoring-content/#asides
+[starlight-authoring-content]: https://starlight.astro.build/guides/authoring-content/
 [starlight-badges]: https://starlight.astro.build/components/badges/
+[starlight-code-blocks]: https://starlight.astro.build/guides/authoring-content/#code-blocks
 [starlight-steps]: https://starlight.astro.build/components/steps/
+[wikipedia-title-case]: https://en.wikipedia.org/wiki/Title_case
