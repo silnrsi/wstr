@@ -1,7 +1,7 @@
 ---
 title: Language Tagging
 description: Definition and use of langauge tags
-slug: language-tags
+slug: /topics/computing/language-tags
 sidebar:
     order: 1410
 lastUpdated: 2025-03-24
