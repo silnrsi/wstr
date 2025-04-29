@@ -52,7 +52,7 @@ When this font is used with another font that it will often be used with
 (for example a non Latin font used with a Latin font), are the characters in
 this font of an appropriate size? Are all the characters in this font
 appropriately sized in relation to each other? For example Latin digits in a
-non###Latin font?
+non-Latin font?
 
 ## Technical
 
@@ -63,13 +63,13 @@ given and how easy the font is to use.
 
 Does the font have the necessary alternatives and features needed for the
 languages being written with it? Are the default settings for these features
-ppropriate?
+appropriate?
 
 ### Uniqueness
 
 No two different sequences that are not officially canonically equivalent
 should render to the same correct visual representation. For example if two
-on###interacting diacritics are stored in different orders then they should
+non-interacting diacritics are stored in different orders then they should
 not render the same, unless Unicode says those sequences are canonically
 equivalent. Generally one of the sequences should look different in some
 way, for example with the insertion of a dotted circle.
@@ -77,5 +77,4 @@ way, for example with the insertion of a dotted circle.
 It is not a problem if two sequences render to the same visual
 representation if that visual form is indicating some kind of error or fault
 in the sequence.
-
 
