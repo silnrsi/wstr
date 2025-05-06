@@ -59,7 +59,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   deploy-aws:
-    if: github.event_name == 'push'
+    # if: github.event_name == 'push'
     needs: build
     runs-on: ubuntu-latest
     environment:
