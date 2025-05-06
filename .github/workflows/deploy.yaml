@@ -50,12 +50,10 @@ jobs:
     steps:
       - name: Dowload static site artifact
         uses: actions/download-artifact@v4.3.0
-        with:
-          path: dist/
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "dist/"
+          path: "artifact/"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
@@ -76,8 +74,6 @@ jobs:
           aws-region: us-east-1
       - name: Dowload static site artifact
         uses: actions/download-artifact@v4.3.0
-        with:
-          path: dist/
       - name: Deploy to S3
-        run: aws s3 sync --acl public-read dist/ s3://${{secrets.AWS_BUCKET}} --delete
+        run: aws s3 sync --acl public-read artifact/ s3://${{secrets.AWS_BUCKET}} --delete
 
