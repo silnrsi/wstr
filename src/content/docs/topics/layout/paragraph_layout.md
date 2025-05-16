@@ -26,7 +26,7 @@ In Christian biblical typesetting, there is the question of how to display verse
 
 ## “Marginal” verse numbers
 
-It is fairly unusual to see [“marginal” verse numbers](https://silnrsi.github.io/wstr-sample-site/reference/glossary#marginal) in Roman scriptures today, they are commonly used in non-Roman scriptures. Although their use remains popular in Myanmar. Marginal verse numbers are never easy to implement, whether in Roman or in non-Roman typesetting. The Lao New Testament in Figure 10 uses hanging chapter and verse numbers (which appear down the far left of the page). Another instance of hanging verse numbers is seen in Figure 11 (the small digits at the top of the page).
+It is fairly unusual to see [“marginal” verse numbers](/reference/glossary#marginal) in Roman scriptures today, they are commonly used in non-Roman scriptures. Although their use remains popular in Myanmar. Marginal verse numbers are never easy to implement, whether in Roman or in non-Roman typesetting. The Lao New Testament in Figure 10 uses hanging chapter and verse numbers (which appear down the far left of the page). Another instance of hanging verse numbers is seen in Figure 11 (the small digits at the top of the page).
 
 ![Figure 10. Marginal verse numbers in LTR text (Lao)](images/6400-10-Lao.png)
 
