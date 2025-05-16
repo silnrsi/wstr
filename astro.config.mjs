@@ -15,7 +15,7 @@ export default defineConfig({
 			  },
 			favicon: 'favicon.ico',
 			social: {
-				github: 'https://github.com/silnrsi/wstr-sample-site',
+				github: 'https://github.com/silnrsi/wstr',
 			},
 			sidebar: [
 				{

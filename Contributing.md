@@ -1,7 +1,7 @@
 
 # Contributing to WSTR (Writing Systems Technical Resources)
 
-A step-by-step guide to the recommended WSTR contributor workflow. *(This guide is intended only for WSTech, specifically contributors with write access to the [WSTR git repository](https://github.com/silnrsi/wstr-sample-site)).*
+A step-by-step guide to the recommended WSTR contributor workflow. *(This guide is intended only for WSTech, specifically contributors with write access to the [WSTR git repository](https://github.com/silnrsi/wstr)).*
 
 You have two ways to contribute to WSTR: either directly from your browser in a hosted editor, or by using a local text editor and then pushing to the git repository manually. In both cases, contributors are authenticated via their GitHub account. It's recommended to stick with one approach per entry and not mix the two.
 
@@ -9,7 +9,7 @@ You have two ways to contribute to WSTR: either directly from your browser in a 
 
 ## Contributing or modifying an entry using your browser
 
-WSTR is using Decap, a [headless web-based editor](https://decapcms.org/) configured to work with a [shared public git repository](https://github.com/silnrsi/wstr-sample-site) and the [Starlight documentation theme](https://starlight.astro.build/) built on the [Astro framework](https://astro.build/). It's designed to run directly in your browser to help you add or modify existing entries.
+WSTR is using Decap, a [headless web-based editor](https://decapcms.org/) configured to work with a [shared public git repository](https://github.com/silnrsi/wstr) and the [Starlight documentation theme](https://starlight.astro.build/) built on the [Astro framework](https://astro.build/). It's designed to run directly in your browser to help you add or modify existing entries.
 
 To contribute or modify an entry:
 

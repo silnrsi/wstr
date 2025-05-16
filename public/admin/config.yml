@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: silnrsi/wstr-sample-site # Path to your GitHub repository
+  repo: silnrsi/wstr # Path to your GitHub repository
   branch: main
   use_graphql: true
   base_url: https://wstr.api.languagetechnology.org/
