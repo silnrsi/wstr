@@ -5,7 +5,7 @@ A step-by-step guide to the recommended WSTR contributor workflow. *(This guide 
 
 You have two ways to contribute to WSTR: either directly from your browser in a hosted editor, or by using a local text editor and then pushing to the git repository manually. In both cases, contributors are authenticated via their GitHub account. It's recommended to stick with one approach per entry and not mix the two.
 
-*The [Style Guide](https://silnrsi.github.io/wstr-sample-site/reference/styleguide/) is useful no matter which approach you use. Remember that, although we have not advertised the URL very widely, this is a public website, and ongoing drafts are also stored in public branches. So you must not draft or publish private information and you must credit your sources and honor existing copyright and licensing statements.*
+*The [Style Guide](https://writingsystems.info/reference/styleguide/) is useful no matter which approach you use. Remember that, although we have not advertised the URL very widely, this is a public website, and ongoing drafts are also stored in public branches. So you must not draft or publish private information and you must credit your sources and honor existing copyright and licensing statements.*
 
 ## Contributing or modifying an entry using your browser
 
@@ -13,7 +13,7 @@ WSTR is using Decap, a [headless web-based editor](https://decapcms.org/) config
 
 To contribute or modify an entry:
 
-- Go to the [WSTR admin interface at https://silnrsi.github.io/wstr-sample-site/admin]( https://silnrsi.github.io/wstr-sample-site/admin)
+- Go to the [WSTR admin interface at https://writingsystems.info/admin]( https://writingsystems.info/admin)
 - Click on the **Login with GitHub** button
 - Authorize your GitHub account to be used for Decap
 
@@ -32,7 +32,7 @@ Once you have made the desired changes to the entry, you can use the buttons at 
 To publish your changes you need to change the status to Ready, then click on **Publish -> Publish Now**.
 (If you press Publish-> Publish Now while still in draft, it will tell you that you need to change the status to In Review.) After confirming, your entry is now in **status Published**.
 
-Bear in mind that the **View Live link** on the top right may not yet show all your modifications because fresh changes are still being generated. This workflow relies on git branches and PRs done in the background. When automatically merged back to the main branch, changes to the content get rebuilt by GitHub Actions and published to the website at [https://silnrsi.github.io/wstr-sample-site/](https://silnrsi.github.io/wstr-sample-site/). It may take up to a minute for all the content to be published. It will probably get a bit longer as we add more content, so it's not instant but not too long either.
+Bear in mind that the **View Live link** on the top right may not yet show all your modifications because fresh changes are still being generated. This workflow relies on git branches and PRs done in the background. When automatically merged back to the main branch, changes to the content get rebuilt by GitHub Actions and published to the website at [https://writingsystems.info/](https://writingsystems.info/). It may take up to a minute for all the content to be published. It will probably get a bit longer as we add more content, so it's not instant but not too long either.
 
 ## Contributing via your text editor (with local preview and git)
 
@@ -84,6 +84,6 @@ You can stop the service by typing Ctrl-D (or Ctrl-C).
 
 
 
-When you are happy with the changes you made to the Markdown files, you can commit and push them to git in the usual way. GitHub Actions will then pick up your commits, generate the whole website again and publish everything to [https://silnrsi.github.io/wstr-sample-site/](https://silnrsi.github.io/wstr-sample-site/)
+When you are happy with the changes you made to the Markdown files, you can commit and push them to git in the usual way. GitHub Actions will then pick up your commits, generate the whole website again and publish everything to [https://writingsystems.info/](https://writingsystems.info/)
 
 Note: You might like to run a linter in VSCode like Markdownlint to help you catch potential Markdown errors. Your Problems tab will reveal issues but you can also close it if it becomes too noisy.
