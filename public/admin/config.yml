@@ -13,7 +13,7 @@ media_folder: src/assets
 public_folder: src/assets
 publish_mode: editorial_workflow
 
-site_url: https://silnrsi.github.io/wstr-sample-site/
+site_url: https://writingsystems.info/
 
 collections:
 - label: Frontmatter
