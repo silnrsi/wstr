@@ -1,10 +1,5 @@
 # WSTR (Writing Systems Technical Resources)
 
-Welcome to the **WSTR** minimal viable project website.
+Welcome to the [writingsystems.info](https://writingsystems.info/). source code repo.
 
-We are now ready for team members to add and flesh out the content in
-```src/content/docs/```.
-
-You can browse the generated website at [writingsystems.info](https://writingsystems.info/).
-
-More details coming soon.
+This houses the site geneerator config and articles for the WSTR knowledge capture project.
