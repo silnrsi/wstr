@@ -1,9 +1,29 @@
 :root {
     /* color of glyphs in SIL logo */
     --sl-color-accent-high: hsl(205, 65%, 65%);
+    /* reduce default line height */
+    --sl-line-height: 1.5;
+    /* reduce default line height of headings */
+    --sl-line-height-headings: 1.0;
+    /* reduce default size of h3 headings to increase contrast with h2 */
+    --sl-text-h3: 1.625rem; /* 26px */
     }
+
+.sl-markdown-content h2:not(:where(.not-content *)) {
+    margin-top: 1.4rem !important; 
+}
+
+.sl-markdown-content h3:not(:where(.not-content *)) {
+    margin-top: 1.2rem !important; 
+}
+
+.sl-markdown-content h4:not(:where(.not-content *)) {
+    margin-top: 1.2rem !important; 
+}
 
 :root[data-theme='light'] {
     /* color of main SIL logo */
     --sl-color-accent: hsl(210.16, 100%, 36.27%);
+    /* set color of body text to black */
+    --sl-color-text: hsl(255, 0%, 0%);
     }

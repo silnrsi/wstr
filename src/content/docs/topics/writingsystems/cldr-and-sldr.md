@@ -35,7 +35,7 @@ Information most commonly found within SLDR-only files includes:
 - Collation
 - Font and Keyboard Data
 
-Font and keyboard data is a datapoint unique to the SLDR which provides recommenations of fonts and keyboards that best serve that locale. Since this information is not natively included in the CLDR, the SLDR appends this data to imported CLDR files as well. 
+Font and keyboard data is a datapoint unique to the SLDR which provides recommendations of fonts and keyboards that best serve that locale. Since this information is not natively included in the CLDR, the SLDR appends this data to imported CLDR files as well. 
 
 Other data beyond the scope of the list above may also be included in an SLDR file if the information has been made available, but unless an effort is being made to bring a specific locale up to CLDR standards for submission, those other elements are not typically a priority.
 
@@ -59,7 +59,7 @@ Here are some examples of how the LDML API is used:
 - https://ldml.api.sil.org/lld will return the lld.xml file from the Release version of the SLDR
 - https://ldml.api.sil.org/lld?staging=1 will return the lld.xml file from the yet-unreleased staging version of the SLDR. 
   - This is used to test upcoming versions of SLDR prior to a new release. Typically, devs are given notice at least 2 weeks prior to release via the SIL LangTech Slack channel. 
-- https://ldml.api.sil.org/langtags.json  returns the entirity of langtag.json from the release branch, while https://ldml.api.sil.org/langtags.json?staging=1 returns the staging version.
+- https://ldml.api.sil.org/langtags.json  returns the entirety of langtag.json from the release branch, while https://ldml.api.sil.org/langtags.json?staging=1 returns the staging version.
 
 Since `langtags.json` is an important element of the LDML API, it is good practice for new versions of the SLDR and Langtags repositories to release simultaneously in order to avoid conflicts between them in output of the LDML API. 
 

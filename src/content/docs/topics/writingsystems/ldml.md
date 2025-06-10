@@ -160,8 +160,8 @@ Here are a few good rules of thumb to determine if a character should be in the 
 - The character cannot be typed using the default keyboards used in this locale.
 - The character is not taught or represented in primers or other literacy material.
 - The loanwords using this character have alternate spellings that replace the character for one in the main exemplar (e.g. "facade" and "naive" are both acceptable English spellings of "façade" and "naïve").
-- The character is an alternative codepoint used interchangably with a codepoint already featured in the main exemplar.
-  - This most often occurs with word-forming apostrophes, which are often used to represent the glottal stop sound ⟨ʔ⟩ and are NOT punctuation. Different apostrophe shapes are often used interchangably by different writers of the language, often using whichever is most easily typed on their local keyboard. For example, different people might use `'` (U+0027) and `’` (U+2019) and `ꞌ` (U+A78C) and `ʼ` (U+02BC) to mean the same thing, not realizing that the computer sees them all as completely different. The main exemplar shouldn't contain multiple versions of the same character, so alternative versions are sometimes placed in the auxiliary instead. 
+- The character is an alternative codepoint used interchangeably with a codepoint already featured in the main exemplar.
+  - This most often occurs with word-forming apostrophes, which are often used to represent the glottal stop sound ⟨ʔ⟩ and are NOT punctuation. Different apostrophe shapes are often used interchangeably by different writers of the language, often using whichever is most easily typed on their local keyboard. For example, different people might use `'` (U+0027) and `’` (U+2019) and `ꞌ` (U+A78C) and `ʼ` (U+02BC) to mean the same thing, not realizing that the computer sees them all as completely different. The main exemplar shouldn't contain multiple versions of the same character, so alternative versions are sometimes placed in the auxiliary instead. 
 
 ***Index***
 
@@ -183,7 +183,7 @@ The "numbers exemplar" is fairly self-explanatory; it contains the characters us
 
 As the name implies, the "punctuation exemplar" contains the characters used for punctuation in the locale. This is the exemplar that is most likely to need careful escaping (see "escaping" in "Text Formatting Tips" below).
 
-While this may overlap with the numbers exemplar, it CANNOT overlap with any of the other exemplars. This is again important for languages that use word-forming apostrophes to represent the glottal stop sound. Thankfully, most languages that do use an apostrophe in this way will distinguish its punctuation apostrophes with a different shape or format entirely, but unfortunatly not all of them do so. 
+While this may overlap with the numbers exemplar, it CANNOT overlap with any of the other exemplars. This is again important for languages that use word-forming apostrophes to represent the glottal stop sound. Thankfully, most languages that do use an apostrophe in this way will distinguish its punctuation apostrophes with a different shape or format entirely, but unfortunately not all of them do so. 
 
 #### Dates
 
@@ -201,7 +201,7 @@ For more information on how vocabulary is entered into a calendar element, see t
 
 The most complicated part of a calendar element are the "formats". These describe the conventions of writing out a date or time in different contexts. For example, is January 30th, 2025 written with the month first as 01/30/2025 or with the day first as 30/01/2025? Is the time two hours before midnight written as 10:00pm or 22:00? 
 
-The way these date and time patterns are notated in an LDML file is described in the [Date Format Patterns section of UTS#35](https://unicode.org/reports/tr35/tr35-dates.html#Date_Format_Patterns). That page contains a [substancial table](https://unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table) describing what each piece of shorthand means. For a sneak peek at how month patterns might be notated:
+The way these date and time patterns are notated in an LDML file is described in the [Date Format Patterns section of UTS#35](https://unicode.org/reports/tr35/tr35-dates.html#Date_Format_Patterns). That page contains a [substantial table](https://unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table) describing what each piece of shorthand means. For a sneak peek at how month patterns might be notated:
 - M means writing the month using the minimum number of digits, such as using '9' for September
 - MM means writing the month using two digits no matter what, such as using '09' for September
 - MMM means using the abbreviated form of the month's name, such as using 'Sep' for September
@@ -278,7 +278,7 @@ current draft (haha) of this section is very messy word dump but it gets the inf
 
 You have the big boy whole file draft attribute at the top in the sil:identity thingy. this determines the default draft attribute for everything on the file. If an element has no draft attribute, it is considered to be the same draft attribute as the draft attribute here. if there is no draft attribute in the sil:identity thingy, it defaults to... ummm... "approved" i think. lemme double check that. 
 
-In the CLDR there are the draft layers "contributed", "provisional", and "unconfirmed". In the SLDR there are also the draft layers "proposed", "tentative" and "generated". as we speak i'm working on getting confirmation of what each actually means before add nicer-sounding specifics to this section.  for context of sldr the important ones are approved tentative/unconfirmed and generated. I've been using tentative and unconfirmed interchangably sometimes which is probs not ideal, not sure? 
+In the CLDR there are the draft layers "contributed", "provisional", and "unconfirmed". In the SLDR there are also the draft layers "proposed", "tentative" and "generated". as we speak i'm working on getting confirmation of what each actually means before add nicer-sounding specifics to this section.  for context of sldr the important ones are approved tentative/unconfirmed and generated. I've been using tentative and unconfirmed interchangeably sometimes which is probs not ideal, not sure? 
 
 If a file has "generated" in its sil:identity draft attribute, and you make a manual edit to the data within that file, you need to add a draft attribute to the element you've edited that is a rank ABOVE generated. This can be "tentative" or "unconfirmed". Otherwise, your manual edits will be overwritten the next time the file is generated from whatever source it comes from (most likely the DBL). The "tentative"/"unconfirmed" draft attribute tells the file generation to prioritize the existing data rather than generate new stuff, since the manually-entered data is considered more likely to be correct than the generated data. 
 

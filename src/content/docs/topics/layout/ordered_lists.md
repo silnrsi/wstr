@@ -1,5 +1,5 @@
 ---
-title: Ordered lists
+title: Ordered Lists
 sidebar:
     order: 6410
 ---

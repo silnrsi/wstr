@@ -1,28 +1,11 @@
 ---
-title: What is a writing system?
-subtitle: This is a subtitle
-description: Main definition of writing systems
+title: What is a Writing System?
+description: Basic definition of writing systems from WSI Guidelines
 sidebar:
     order: 1100
-lastUpdated: 2024-10-22
+lastUpdated: 2025-03-27
 ---
 
-Basic definition of a writing system as script + language.
+Language is primarily a spoken means of communication. _Writing systems_ (also called _orthographies_) are ways of communicating on printed or visual media, and are usually, but not always, based on spoken languages. A _script_, sometimes referred to using terms such as _alphabet_ and _syllabary_, is a collection of symbols (typically with accompanying rules of behavior) that forms the basis for writing many languages.
 
-Here is an example an external link to the [OpenType Specification][OTSpec].
-
-Here is an example of a link to [another page][Another] in this topic.
-
-Here is an example of a link to [a page somewhere else on this site][Somewhere].
-
-This refers to a footnote [^1] below.
-
-Here is the familiar map to demonstrate how images work:
-
-![Scripts Around the World](../../../../assets/scriptsworldno1040ortext.png)
-
-[^1]: This is the footnote text.
-
-[OTSpec]: https://www.microsoft.com/typography/otspec/
-[Another]: ../another-writing-systems-page
-[Somewhere]: ../../fonts/example
+This leads to a basic definition of a _writing system_: **the use of one or more scripts to form a complete system for writing a particular language**. Note that a writing system is unique to a specific language, or language family. Although Russian and Ukrainian share the same Cyrillic script, they represent two distinct writing systems.

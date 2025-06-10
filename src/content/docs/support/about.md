@@ -2,7 +2,7 @@
 title: About
 description: About
 sidebar:
-    order: 9920
+  order: 9920
 ---
 
 About WSTR, WSTech, SIL

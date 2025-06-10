@@ -1,5 +1,5 @@
 ---
-title: Document layout
+title: Document Layout
 sidebar:
     order: 6600
 ---

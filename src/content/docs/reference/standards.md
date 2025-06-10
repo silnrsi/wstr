@@ -2,10 +2,9 @@
 title: Standards
 description: Standards
 sidebar:
-    order: 9200
+  order: 9200
 lastUpdated: 2024-11-11
 ---
-
 Many of the pages on this site will reference different standards. Below we list links to the various standards mentioned.
 
 ## Encoding
@@ -15,7 +14,6 @@ Many of the pages on this site will reference different standards. Below we list
 [The Unicode Standard](https://www.unicode.org/main.html) -- the standards body for the internationalization of software and services. 
 
 [ISO/IEC TR 15285](https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html) -- information on glyphs and their relationship to characters.
-
 
 ## Languages
 
@@ -29,7 +27,7 @@ Many of the pages on this site will reference different standards. Below we list
 
 ## Scripts
 
-<a id='15924'></a>[ISO 15924](https://unicode.org/iso15924/iso15924-codes.html) -- ISO has appointed the Unicode Consortium as the Registration Authority for International Standard, _Codes for the representation of names of scripts_. These script codes are used in language tagging.
+<a id='15924'></a>[ISO 15924](https://unicode.org/iso15924/iso15924-codes.html) -- ISO has appointed the Unicode Consortium as the Registration Authority for International Standard, *Codes for the representation of names of scripts*. These script codes are used in language tagging.
 
 ## Regions
 

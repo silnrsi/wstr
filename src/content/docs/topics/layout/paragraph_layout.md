@@ -1,5 +1,5 @@
 ---
-title: Paragraph layout
+title: Paragraph Layout
 sidebar:
     order: 6400
 ---
@@ -20,51 +20,67 @@ RTL behavior needs to be properly implemented with regards to bullets (see Figur
 
 **Figure 9. Right indented paragraph in RTL text (Arabic)**
 
+## Verse numbers
+
+In Christian biblical typesetting, there is the question of how to display verse numbers. There are three main approaches. Inline verse numbers insert the verse number, usually as a superscript number, before the text in the verse. Marginal verse numbers move the verse numbers out into the margin. Hanging verse numbers hang them off the following text. We describe these last two approaches.
+
+## “Marginal” verse numbers
+
+It is fairly unusual to see [“marginal” verse numbers](/reference/glossary#marginal) in Roman scriptures today, they are commonly used in non-Roman scriptures. Although their use remains popular in Myanmar. Marginal verse numbers are never easy to implement, whether in Roman or in non-Roman typesetting. The Lao New Testament in Figure 10 uses hanging chapter and verse numbers (which appear down the far left of the page). Another instance of hanging verse numbers is seen in Figure 11 (the small digits at the top of the page).
+
+![Figure 10. Marginal verse numbers in LTR text (Lao)](images/6400-10-Lao.png)
+
+**Figure 10. Marginal verse numbers in LTR text (Lao)**
+
+![Figure 11. Marginal verse numbers in top-to-bottom RTL text (Chinese)](images/6400-11-Chinese.png)
+
+**Figure 11. Marginal verse numbers in top-to-bottom RTL text (Chinese)**
+
 ## “Hanging” verse numbers
 
-In Christian biblical typesetting, it is fairly unusual to see [“hanging” verse numbers](https://silnrsi.github.io/wstr-sample-site/reference/glossary#hanging) in Roman scriptures today, they are commonly used in non-Roman scriptures. Hanging verse numbers are never easy to implement, whether in Roman or in non-Roman typesetting. The Lao New Testament in Figure 10 uses hanging chapter and verse numbers (which appear down the far left of the page). Another instance of hanging verse numbers is seen in Figure 11 (the small digits at the top of the page).
+Hanging verse numbers are often used in poetry contexts where the position of the start of the text is fixed and the verse numbers hangs off to the left (in LTR text) and may be of variable width. In the two examples below compare the position of the start of each line of text and the start of the verse number.
 
-![Figure 10. Hanging verse numbers in LTR text (Lao)](images/6400-10-Lao.png)
+![Figure 12. Non hanging verse numbers in LTR text (English)](images/6400-21-NonHanging.png)
 
-**Figure 10. Hanging verse numbers in LTR text (Lao)**
+**Figure 12. Non hanging verse numbers in LTR text (English)**
 
-![Figure 11. Hanging verse numbers in top-to-bottom RTL text (Chinese)](images/6400-11-Chinese.png)
+![FIgure 13. Hanging verse numbers in LTR text (English)](images/6400-22-Hanging.png)
 
-**Figure 11. Hanging verse numbers in top-to-bottom RTL text (Chinese)**
+**Figure 13. Hanging verse numbers in LTR text (English)**
 
 ## Mixed direction
 
 Mixed direction text can be especially interesting. LTR behavior of numbers in Arabic text is seen in Figure 12. Figure 13 shows justification problems the application had when RTL text was at the beginning of a LTR line (but at the end of the RTL text – note the undesirable extra white space at the left edge of lines 4 and 6 and at the right edge of lines 3 and 5). Figure 14 illustrates how Roman text is set vertically with Mongolian. It appears to be standard in Chinese, Japanese and Mongolian to rotate the Roman text 90 degrees rather than stack letters vertically. There are texts which are stacked rather than rotated but these are generally only with very short runs of Roman text (3-4 glyphs).
 
-![Figure 12. LTR numbers in RTL text (Arabic)](images/6400-12-Arab.png)
+![Figure 14. LTR numbers in RTL text (Arabic)](images/6400-12-Arab.png)
 
-**Figure 12. LTR numbers in RTL text (Arabic)**
+**Figure 14. LTR numbers in RTL text (Arabic)**
 
-![Figure 13. LTR text (Cyrillic) with RTL words (Arabic). Uneven line spacing with mixed scripts.](images/6400-13-Arab.png)
+![Figure 15. LTR text (Cyrillic) with RTL words (Arabic). Uneven line spacing with mixed scripts.](images/6400-13-Arab.png)
 
-**Figure 13. LTR text (Cyrillic) with RTL words (Arabic)**
+**Figure 15. LTR text (Cyrillic) with RTL words (Arabic)**
 
-![Figure 14. top-to-bottom-LTR script (Mongolian) containing text normally written horizontally (Roman)](images/6400-14-MongLatn.png)
+![Figure 16. top-to-bottom-LTR script (Mongolian) containing text normally written horizontally (Roman)](images/6400-14-MongLatn.png)
 
-**Figure 14. top-to-bottom-LTR script (Mongolian) containing text normally written horizontally (Roman)**
+**Figure 16. top-to-bottom-LTR script (Mongolian) containing text normally written horizontally (Roman)**
 
 When set horizontally, Chinese is typically LTR as seen in Figure 15, but Figure 16 has Chinese set RTL as a result of the RTL behavior of Qazaq, written with Arabic script. A Chinese text which is set LTR with IPA and Mongolian “in line” is seen in Figure 17.
 
-![Figure 15. LTR (Chinese/Roman) and RTL (Arabic)](images/6400-15-LTR-RTL.png)
+![Figure 17. LTR (Chinese/Roman) and RTL (Arabic)](images/6400-15-LTR-RTL.png)
 
-**Figure 15. LTR (Chinese/Roman) and RTL (Arabic)**
+**Figure 17. LTR (Chinese/Roman) and RTL (Arabic)**
 
-![Figure 16. Text normally set LTR (Chinese) is set RTL because of RTL paragraph (Arabic)](images/6400-16-ChineseArab.png)
+![Figure 18. Text normally set LTR (Chinese) is set RTL because of RTL paragraph (Arabic)](images/6400-16-ChineseArab.png)
 
-**Figure 16. Text normally set LTR (Chinese) is set RTL because of RTL paragraph (Arabic)**
+**Figure 18. Text normally set LTR (Chinese) is set RTL because of RTL paragraph (Arabic)**
 
-![Figure 17. Mongolian, Chinese, and IPA all written LTR](images/6400-17-MongChineseIPA.png)
+![Figure 19. Mongolian, Chinese, and IPA all written LTR](images/6400-17-MongChineseIPA.png)
 
-**Figure 17. Mongolian, Chinese, and IPA all written LTR**
+**Figure 19. Mongolian, Chinese, and IPA all written LTR**
 
 ## Paragraph breaks
 
-Some scripts do not break paragraphs as in Roman scripts. For example, ancient Ethiopic uses a paragraph separater mark (&#x1368;) rather than beginning the next paragraph on a new line.
+Some scripts do not break paragraphs as in Roman scripts. For example, ancient Ethiopic uses a paragraph separator mark (&#x1368;) rather than beginning the next paragraph on a new line.
 
 ## Baseline
 
@@ -76,13 +92,13 @@ The type of baseline will also affect underlining of text: if the baseline is ha
 
 In the Tibetan example in Figure 18, there appears to be a wavy underline almost as far down as the top of the next line. Without knowing the rules of the writing system one cannot know the purpose of it. The small circles under several of the glyphs actually represent something similar to underlining in Roman typography, thus the wavy underline most likely represents some other form of emphasis. It is important to check this out rather than making assumptions based on design guidelines one is most familiar with. Figure 19 shows another example of underlining. One can see in both the Lanna (left) and Thai (right) titles the underline does not cross the descenders. Although technically more difficult, this is more aesthetically appealing than if the underline crossed the descenders or was set below them.
 
-![Figure 18. Wavy “underlining” with long descenders (Tibetan)](images/6400-18-Tibt.png)
+![Figure 20. Wavy “underlining” with long descenders (Tibetan)](images/6400-18-Tibt.png)
 
-**Figure 18. Wavy “underlining” with long descenders (Tibetan). Line spacing is increased for long descenders.**
+**Figure 20. Wavy “underlining” with long descenders (Tibetan). Line spacing is increased for long descenders.**
 
-![Figure 19. Underlining with long descenders (Lanna/Thai)](images/6400-19-NorthernThai.png)
+![Figure 21. Underlining with long descenders (Lanna/Thai)](images/6400-19-NorthernThai.png)
 
-**Figure 19. Underlining with long descenders (Lanna/Thai). Lanna line spacing is crowded with long ascenders and descenders.**
+**Figure 21. Underlining with long descenders (Lanna/Thai). Lanna line spacing is crowded with long ascenders and descenders.**
 
 ## Point size and Line spacing
 
@@ -100,9 +116,9 @@ Other methods of highlighting information, creating contrasts and emphasis are n
 
 One would also need to study whether certain typefaces are only used with specific types of literature (for example, used only when talking about certain events), or whether they can be used anywhere. It would be important to know whether certain fonts (such as more ornate fonts) would be used in sacred writings, in newspapers, novels, etc.
 
-![Figure 20. Use of title fonts in a vertical text (Chinese)](images/6400-20-Chinese.png)
+![Figure 22. Use of title fonts in a vertical text (Chinese)](images/6400-20-Chinese.png)
 
-**Figure 20. Use of title fonts in a vertical text (Chinese)**
+**Figure 22. Use of title fonts in a vertical text (Chinese)**
 
 ## Figures
 

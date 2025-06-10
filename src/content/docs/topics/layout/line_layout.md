@@ -1,5 +1,5 @@
 ---
-title: Line layout
+title: Line Layout
 sidebar:
     order: 6200
 ---

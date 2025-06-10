@@ -4,8 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://silnrsi.github.io',
-	base: 'wstr-sample-site',
+	site: process.env.ASTRO_SITE,
+	base: process.env.ASTRO_BASE,
 	integrations: [
 		starlight({
 			title: 'Writing Systems Technical Resources',
@@ -13,8 +13,9 @@ export default defineConfig({
 				src: './src/assets/logo.svg',
 				replacesTitle: false,
 			  },
+			favicon: 'favicon.ico',
 			social: {
-				github: 'https://github.com/silnrsi/wstr-sample-site',
+				github: 'https://github.com/silnrsi/wstr',
 			},
 			sidebar: [
 				{
@@ -25,13 +26,13 @@ export default defineConfig({
 					label: 'Topics',
 					items: [
 						//{ slug: 'topics/writingsystems/writing-systems' },
-						{ label: 'Writing Systems', autogenerate: { directory: 'topics/writingsystems' } },
-						{ label: 'Computing Support', autogenerate: { directory: 'topics/computing' } },
-						{ label: 'Encoding', autogenerate: { directory: 'topics/encoding' } },
-						{ label: 'Input', autogenerate: { directory: 'topics/input' } },
-						{ label: 'Fonts', autogenerate: { directory: 'topics/fonts' } },
-						{ label: 'Layout', autogenerate: { directory: 'topics/layout' } },
-						{ label: 'Analysis', autogenerate: { directory: 'topics/analysis' } },
+						{ label: 'Writing Systems', collapsed: true, autogenerate: { directory: 'topics/writingsystems' } },
+						{ label: 'Computing Support', collapsed: true, autogenerate: { directory: 'topics/computing' } },
+						{ label: 'Encoding', collapsed: true, autogenerate: { directory: 'topics/encoding' } },
+						{ label: 'Input', collapsed: true, autogenerate: { directory: 'topics/input' } },
+						{ label: 'Fonts', collapsed: true, autogenerate: { directory: 'topics/fonts' } },
+						{ label: 'Layout', collapsed: true, autogenerate: { directory: 'topics/layout' } },
+						{ label: 'Analysis', collapsed: true, autogenerate: { directory: 'topics/analysis' } },
 				],
 				},
 				{
