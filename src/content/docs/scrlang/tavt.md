@@ -16,8 +16,8 @@ _"Mr. Countless Warts", recorded 1969-70 by B.Q., transcribed by Jay and Dorothy
 **Family** | Mainland Southeast Asian           | **Contextual forms** | yes |
 **Direction** | LTR                             | **Contextual positioning** | yes |
 **Baseline** | bottom                           | **Reordering** | yes |
-**White space** | discretionary                 | **Split graphs** | yes |
-**Case** | no                                   | **Ligatures** | required |
+**Case** | no                                   | **Split graphs** | yes |
+**White space** | discretionary                 | **Ligatures** | required |
 **ISO 15924 Code / Key** | Tavt / 359 (alphasyllabic) | **OpenType tag** | tavt |
 **Status** | current | | |
 
@@ -34,10 +34,10 @@ Please note that, although the Tai Viet script does exhibit reordering behaviour
 
 ## Writing systems that use this script (5)
 
-Name | Code | Language
----- | ---- | --------
-Tai Daeng written with Tai Viet script | tyr-Tavt | Tai Daeng
-Tai Dam written with Tai Viet script | blt-Tavt | Tai Dam
-Tai Dón written with Tai Viet script | twh-Tavt | Tai Dón
-Tày Tac written with Tai Viet script | tyt-Tavt | Tày Tac
-Thai Song written with Tai Viet script | soa-Tavt | Thai Song
+Language | Writing system Code | Status | CLDR Locale |
+-------- | ------------------- | ------ | ------------ |
+Tai Daeng | tyr-Tavt | in use | |
+Tai Dam | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) |
+Tai Dón | twh-Tavt | in use |
+Tày Tac | tyt-Tavt | in use |
+Thai Song | soa-Tavt | in use |
