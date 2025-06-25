@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-06-25
 ---
 
-!["Mr. Countless Warts", recorded 1969-70 by B.Q., transcribed by Jay and Dorothy Fippinger](images/tavt_sample.png)
+!["Mr. Countless Warts", recorded 1969-70 by B.Q., transcribed by Jay and Dorothy Fippinger](images/tavt-sample.png)
 
 # Script Features
 
