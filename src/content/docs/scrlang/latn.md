@@ -35,16 +35,18 @@ Digits from 0-9 are used. These can be combined to represent larger numbers.
 
 Note that some of the languages listed are unwritten but would likely use Latin script if a writing system were developed.
 
-Language | Writing system Code | Status | SLDR/CLDR<br>Locale | Subtags |
--------- | ------------------- | ------ | ---------------- | ------- |
-Aari | aiw-Latn | in use | | aiw-Latn-ET |
-Aasáx | aas-Latn | unwritten | | aas-Latn-TZ |
-Abadi | kbt-Latn | in use | | kbt_Latn-PG |
-Abai<br>Sungai | abf-Latn | in use | | abf-Latn-MY |
+Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
+-------- | ---------------------- | ------ | ------------------- | -------------------- |
+Aari | aiw-Latn | in use | | aiw-Latn-ET (Ethiopia) |
+Aasáx | aas-Latn | unwritten | | aas-Latn-TZ (Tanzania) |
+Abadi | kbt-Latn | in use | | kbt_Latn-PG (PNG) |
+Abai Sungai | abf-Latn | in use | | abf-Latn-MY (Malaysia) |
 Abanglekuo | bzy-Latn | unwritten | | bzy-Latn-NG |
-Abaza | abq-Latn | in use | abq_Latn (SLDR) | abq-Latn-TR |
-Achang | acn-Latn | in use | | ach-Latn-CN<br>ach-Bogs-XY<br>ach-Mnop-RR |
+Abaza | abq-Latn | in use | abq_Latn (SLDR) | abq-Latn-TR (Turkey) |
+Aceh | ace-Latn | in use | | ace-Latn-ID (Indonesia)|
+Achang | acn-Latn | in use | | ach-Latn-CN (China)<br>ach-Latn-MM (Myanmar)<br>ach-Latn-ZZ (Zimland) |
+Adara | kad-Latn | inuse | kad (SLDR) | kad-Latn-NG (Nigeria) |
 Adele | ade-Latn | in use | ade (SLDR) | ade-Latn-TG |
-Afar [aar] | aa-latn | in use | [aa \[Afar\]](https://unicode.org/cldr/charts/47/summary/aa+.html) | |
+Afar [aar] | aa-latn | in use | [aa \[Afar\]](https://unicode.org/cldr/charts/47/summary/aa.html) | |
 Aguano | aga-Latn | unwritten| | aga-Latn-PG |
-_etc_ | | |
+_etc._ | | |

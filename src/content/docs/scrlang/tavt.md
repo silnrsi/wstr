@@ -34,10 +34,10 @@ Please note that, although the Tai Viet script does exhibit reordering behaviour
 
 ## Writing systems that use this script (5)
 
-Language | Writing system Code | Status | CLDR Locale |
--------- | ------------------- | ------ | ------------ |
-Tai Daeng | tyr-Tavt | in use | |
-Tai Dam | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) |
-Tai Dón | twh-Tavt | in use |
-Tày Tac | tyt-Tavt | in use |
-Thai Song | soa-Tavt | in use |
+Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
+-------- | ---------------------- | ------ | ------------------- | -------------------- |
+Tai Daeng | tyr-Tavt | in use | | tyr-Tavt-VN (Vietnam) |
+Tai Dam | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Vietnam) |
+Tai Dón | twh-Tavt | in use | | twh-Tavt-VN (Vietnam) |
+Tày Tac | tyt-Tavt | in use | | tyt-Tavt-VN (Vietnam) |
+Thai Song | soa-Tavt | in use | | soa-Tavt-VN (Vietnam) |
