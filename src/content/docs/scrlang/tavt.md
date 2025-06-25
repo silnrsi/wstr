@@ -6,20 +6,24 @@ sidebar:
 lastUpdated: 2025-06-25
 ---
 
-!["Mr. Countless Warts", recorded 1969-70 by B.Q., transcribed by Jay and Dorothy Fippinger](images/tavt-sample.png)
+![Tai Viet sample](images/tavt-sample.png)
 
-# Script Features
+"Mr. Countless Warts", recorded 1969-70 by B.Q., transcribed by Jay and Dorothy Fippinger
 
-**Script type** | abugida |                     | **Diacritics** | yes
-**Family** | Mainland Southeast Asian |         | **Contextual forms** | yes
-**Direction** | LTR |                           | **Contextual positioning** | yes
-**Baseline** | bottom |                         | **Reordering** | yes
-**White space** | discretionary |               | **Split graphs** | yes
-**Case** | no |                                 | **Ligatures** | required
-**ISO 15924 Code / Key** | Tavt / 359 (alphasyllabic) | | **OpenType tag** | tavt
+## Script Features
+
+Feature name | value                            | Feature name | value
+------------ | -----                            | ------------ | -----
+**Script type** | abugida                       | **Diacritics** | yes
+**Family** | Mainland Southeast Asian           | **Contextual forms** | yes
+**Direction** | LTR                             | **Contextual positioning** | yes
+**Baseline** | bottom                           | **Reordering** | yes
+**White space** | discretionary                 | **Split graphs** | yes
+**Case** | no                                   | **Ligatures** | required
+**ISO 15924 Code / Key** | Tavt / 359 (alphasyllabic) | **OpenType tag** | tavt
 **Status** | current
 
-# Script Description
+## Script Description
 
 The Tai Viet script is used for writing the Tai Dam, Tai Dón, Tai Daeng, Thai Song and Tày Tac languages spoken in Vietnam, Laos, China and Thailand. Speakers of these languages are also found in the United States, Australia and France. There is significant variation in the orthographic conventions of the Tai languages, as well as in their phonologies, which in turn impacts the orthography. However, a unified, standardized version of the script, with an agreed upon core set of characters, was developed at a UNESCO-sponsored workshop in 2006, and subsequently accepted for encoding in The Unicode Standard.
 
@@ -30,7 +34,7 @@ Little is known about the origin of the Tai Viet script. It appears to have been
 
 Please note that, although the Tai Viet script does exhibit reordering behaviour, that reordering is not typically reflected in software implementations. See Syllable Structure and Reordering in Tai Viet or Reordering and Data Storage Order for more details.
 
-# Writing systems that use this script (5)
+## Writing systems that use this script (5)
 
 Name | Code | Language
 ---- | ---- | --------
