@@ -8,20 +8,18 @@ lastUpdated: 2025-06-25
 
 ![Tai Viet sample](images/tavt-sample.png)
 
-"Mr. Countless Warts", recorded 1969-70 by B.Q., transcribed by Jay and Dorothy Fippinger
+_"Mr. Countless Warts", recorded 1969-70 by B.Q., transcribed by Jay and Dorothy Fippinger_
 
-## Script Features
-
-Feature name | value                            | Feature name | value
------------- | -----                            | ------------ | -----
-**Script type** | abugida                       | **Diacritics** | yes
-**Family** | Mainland Southeast Asian           | **Contextual forms** | yes
-**Direction** | LTR                             | **Contextual positioning** | yes
-**Baseline** | bottom                           | **Reordering** | yes
-**White space** | discretionary                 | **Split graphs** | yes
-**Case** | no                                   | **Ligatures** | required
-**ISO 15924 Code / Key** | Tavt / 359 (alphasyllabic) | **OpenType tag** | tavt
-**Status** | current
+**Script Features**                                                        |
+---------------------------------------------------------------------- |
+**Script type** | abugida                       | **Diacritics** | yes |
+**Family** | Mainland Southeast Asian           | **Contextual forms** | yes |
+**Direction** | LTR                             | **Contextual positioning** | yes |
+**Baseline** | bottom                           | **Reordering** | yes |
+**White space** | discretionary                 | **Split graphs** | yes |
+**Case** | no                                   | **Ligatures** | required |
+**ISO 15924 Code / Key** | Tavt / 359 (alphasyllabic) | **OpenType tag** | tavt |
+**Status** | current | | |
 
 ## Script Description
 
