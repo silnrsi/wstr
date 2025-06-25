@@ -39,14 +39,14 @@ Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>v
 -------- | ---------------------- | ------ | ------------------- | -------------------- |
 Aari | aiw-Latn | in use | | aiw-Latn-ET (Ethiopia) |
 Aasáx | aas-Latn | unwritten | | aas-Latn-TZ (Tanzania) |
-Abadi | kbt-Latn | in use | | kbt_Latn-PG (PNG) |
+Abadi | kbt-Latn | in use | | kbt_Latn-PG (Papua New Guinea) |
 Abai Sungai | abf-Latn | in use | | abf-Latn-MY (Malaysia) |
-Abanglekuo | bzy-Latn | unwritten | | bzy-Latn-NG |
+Abanglekuo | bzy-Latn | unwritten | | bzy-Latn-NG (Nigeria) |
 Abaza | abq-Latn | in use | abq_Latn (SLDR) | abq-Latn-TR (Turkey) |
 Aceh | ace-Latn | in use | | ace-Latn-ID (Indonesia)|
-Achang | acn-Latn | in use | | ach-Latn-CN (China)<br>ach-Latn-MM (Myanmar)<br>ach-Latn-ZZ (Zimland) |
+Achang | acn-Latn | in use | | ach-Latn-CN (China)<br>ach-Latn-MM (Myanmar)|
 Adara | kad-Latn | inuse | kad (SLDR) | kad-Latn-NG (Nigeria) |
-Adele | ade-Latn | in use | ade (SLDR) | ade-Latn-TG |
-Afar [aar] | aa-latn | in use | [aa \[Afar\]](https://unicode.org/cldr/charts/47/summary/aa.html) | |
-Aguano | aga-Latn | unwritten| | aga-Latn-PG |
+Adele | ade-Latn | in use | ade (SLDR) | ade-Latn-TG (Togo) |
+Afar [aar] | aa-latn | in use | [aa \[Afar\]](https://unicode.org/cldr/charts/47/summary/aa.html) | aa-Latn-DJ (Djibouti)<br>aa-Latn-ER (Eritrea)<br>aa-Latn-ET (Ethiopia)|
+Aguano | aga-Latn | unwritten| | aga-Latn-PG (Papua New Guinea) |
 _etc._ | | |
