@@ -1,5 +1,5 @@
 ---
-title: Tai Viet [tavt]
+title: Tai Viet [Tavt]
 description: Script page for Tai Viet
 sidebar:
     order: 8100
