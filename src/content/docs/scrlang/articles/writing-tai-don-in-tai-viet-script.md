@@ -20,5 +20,5 @@ There is considerable variation in orthographic conventions between speakers of 
 
 Links:
 
-* [Tai Viet](https://writingsystems.info/scrlang/script-tavt)
-* <u>Tai Dón</u>
+* [Tai Viet script](https://writingsystems.info/scrlang/script-tavt)
+* <u>Tai Dón language</u>
