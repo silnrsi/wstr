@@ -1,7 +1,8 @@
 ---
 title: Latin [Latn]
 description: Script page for Latin
-sidebar: hidden
+sidebar:
+    order: hidden
 lastUpdated: 2025-06-25
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Tai Viet [Tavt]
 description: Script page for Tai Viet
-sidebar: hidden
+sidebar:
+    order: hidden
 lastUpdated: 2025-06-25
 ---
 
