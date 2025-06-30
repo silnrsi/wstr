@@ -1,8 +1,7 @@
 ---
 title: Tai Viet [Tavt]
 description: Script page for Tai Viet
-sidebar:
-    order: 8100
+sidebar: hidden
 lastUpdated: 2025-06-25
 ---
 
@@ -47,9 +46,13 @@ Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>v
 [Writing Tai Don in the Tai Viet Script](writingsystems.info/scrlang/articles/writing-tai-don-in-tai-viet-script)
 
 [ScriptSource: Non-alphabetic symbols in the Tai Viet script](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=c8hc999bc3)
+
 [ScriptSource: Reordering and data storage](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=l5bvp27v3r)
+
 [ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=67379a5c7f)
+
 [ScriptSource: Sort order of Tai Viet characters](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=526eb6gcce)
+
 [ScriptSource: Tone Marking in Tai Viet](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=gd75e3bb44)
 
 ## Resources for this script

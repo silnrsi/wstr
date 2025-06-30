@@ -1,6 +1,6 @@
 ---
-title: Writing Tai Dón in the Tai Viet Script
-description: Description of how Tai Dón is written using Tai Viet Script
+title: Writing the Tai Dam Language
+description: 
 sidebar:
     order: 8100
 lastUpdated: 2009-02-07
@@ -12,7 +12,7 @@ The Tai Dam language is written in three scripts. This facilitates reading by sp
 
 Links:
 
-[Tai Viet](writingsystems.info/scrlang/script-tavt)
-[Lao](writingsystems.info/scrlang/script-laoo)
-[Latin](writingsystems.info/scrlang/script-latn)
-[Tai Dam](writingsystems.info/scrlang/lang-blt)
+* [Tai Viet](writingsystems.info/scrlang/script-tavt)
+* <u>[Lao]</u>
+* [Latin](writingsystems.info/scrlang/script-latn)
+* [Tai Dam](writingsystems.info/scrlang/lang-blt)

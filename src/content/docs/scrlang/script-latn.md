@@ -1,8 +1,7 @@
 ---
 title: Latin [Latn]
 description: Script page for Latin
-sidebar:
-    order: 8100
+sidebar: hidden
 lastUpdated: 2025-06-25
 ---
 
@@ -37,23 +36,24 @@ Note that some of the languages listed are unwritten but would likely use Latin 
 
 Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
 -------- | ---------------------- | ------ | ------------------- | -------------------- |
-Aari | aiw-Latn | in use | | aiw-Latn-ET (Ethiopia) |
-Aasáx | aas-Latn | unwritten | | aas-Latn-TZ (Tanzania) |
-Abadi | kbt-Latn | in use | | kbt_Latn-PG (Papua New Guinea) |
-Abai Sungai | abf-Latn | in use | | abf-Latn-MY (Malaysia) |
-Abanglekuo | bzy-Latn | unwritten | | bzy-Latn-NG (Nigeria) |
-Abaza | abq-Latn | in use | abq_Latn (SLDR) | abq-Latn-TR (Turkey) |
-Aceh | ace-Latn | in use | | ace-Latn-ID (Indonesia)|
-Achang | acn-Latn | in use | | ach-Latn-CN (China)<br>ach-Latn-MM (Myanmar)|
-Adara | kad-Latn | inuse | kad (SLDR) | kad-Latn-NG (Nigeria) |
-Adele | ade-Latn | in use | ade (SLDR) | ade-Latn-TG (Togo) |
-Afar \[aar\] | aa-latn | in use | [aa \[Afar\]](https://unicode.org/cldr/charts/47/summary/aa.html) | aa-Latn-DJ (Djibouti)<br>aa-Latn-ER (Eritrea)<br>aa-Latn-ET (Ethiopia)|
-Aguano | aga-Latn | unwritten| | aga-Latn-PG (Papua New Guinea) |
+<u>Aari</u> | aiw-Latn | in use | | aiw-Latn-ET (Ethiopia) |
+<u>Aasáx</u> | aas-Latn | unwritten | | aas-Latn-TZ (Tanzania) |
+<u>Abadi</u> | kbt-Latn | in use | | kbt_Latn-PG (Papua New Guinea) |
+<u>Abai Sungai</u> | abf-Latn | in use | | abf-Latn-MY (Malaysia) |
+<u>Abanglekuo</u> | bzy-Latn | unwritten | | bzy-Latn-NG (Nigeria) |
+<u>Abaza</u> | abq-Latn | in use | abq_Latn (SLDR) | abq-Latn-TR (Turkey) |
+<u>Aceh</u> | ace-Latn | in use | | ace-Latn-ID (Indonesia)|
+<u>Achang</u> | acn-Latn | in use | | ach-Latn-CN (China)<br>ach-Latn-MM (Myanmar)|
+<u>Adara</u> | kad-Latn | inuse | kad (SLDR) | kad-Latn-NG (Nigeria) |
+<u>Adele</u> | ade-Latn | in use | ade (SLDR) | ade-Latn-TG (Togo) |
+<u>Afar</u> \[aar\] | aa-latn | in use | [aa \[Afar\]](https://unicode.org/cldr/charts/47/summary/aa.html) | aa-Latn-DJ (Djibouti)<br>aa-Latn-ER (Eritrea)<br>aa-Latn-ET (Ethiopia)|
+<u>Aguano</u> | aga-Latn | unwritten| | aga-Latn-PG (Papua New Guinea) |
 _etc._ | | |
 
 ## Articles about this script
 
 [ScriptSource: Where do upper- and lower-case come from? (Part 1 of 2)](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=a5aqyqlztp)
+
 [ScriptSource: Where do upper- and lower-case come from? (Part 2 of 2)](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=d8mn7ztlj4)
 
 ## Resources for this script
