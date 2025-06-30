@@ -58,3 +58,26 @@ _etc._ | | |
 [ScriptSource: Where do upper- and lower-case come from? (Part 2 of 2)](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=d8mn7ztlj4)
 
 ## Resources for this script
+
+**Alphabets of Africa**
+
+Hartell, Rhonda L., ed., _Alphabets of Africa_ (Dakar, Sengal: UNESCO and Summer Institute of Linguistics: 1993)
+
+This book seeks to make accessible to a wider public a sample of some 200 alphabets of the languages of Africa, especially those alphabets developed in the last 20 years. These alphabets should give a broad display of the linguistic richness of African languages.
+
+Another purpose of this volume is to show what solutions have been adopted in various African countries for the difficult questions of special characters, writing tone, making word breaks, etc. We want to help developers of new alphabets make the wisest choices and to assist revisors make existing alphabets more practically useful. Hopefully it will also encourage the use of hitherto untapped resources.
+
+[**Notes on Scripts, Orthographics and Characters, Lists of Terms**](https://r12a.github.io/scripts/#scriptnotes)
+
+This page selects a few items that attempt to explain how scripts work in a way that is accessible to both the beginner and the script expert. The information includes tables of orthography descriptions, character notes and Unicode character apps.
+
+Richard Ishida's site also has [filterable lists of terms](https://r12a.github.io/scripts/index.html#termbases) that can be used for finding examples or testing for letter combinations. Many terms are accompanied by meaning, IPA and other transcriptions, and for all it is possible to see the sequence of characters used.
+
+[**Omniglot - Latin**](http://www.omniglot.com/writing/latin.htm)
+
+Succinct article charting the progression of the Latin alphabet from the 7th century BC until modern times, with a number of links to other relevant pages.
+
+[**On Diacritics**](http://ilovetypography.com/2009/01/24/on-diacritics/)
+
+Article about the importance of Latin diacritics, and the challenges faced by type designers who want to include them in their fonts. The issues of weight and size, placement, stylistic harmony, and fitting / kerning are summarized, and particular mention is made of the caron.
+
