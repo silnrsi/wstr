@@ -32,19 +32,19 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 ## Resources for this language
 
-**[SIL Language and Culture Archives]**(http://www.sil.org/resources/search/language/blt)
-
-There are approximately 17 resources in the sil.org archives for this language.
-
-**Tai Dam-Engish English-Tai Dam Vocabulary Book**
-
-TODO: turn this into a proper bibliographic reference
-
 **Keyman keyboards for Tai Dam**
 
 * [Tai Dam (SIL)](https://keyman.com/keyboards/sil_tai_dam)
 * [Tai Dam Lao (SIL)](https://keyman.com/keyboards/sil_tai_dam_lao)
 * [Tai Dam Latin (SIL)](https://keyman.com/keyboards/sil_tai_dam_latin)
 * [Tai Dam Typewriter (SIL)](https://keyman.com/keyboards/sil_tai_dam_typewriter)
+
+**[SIL Language and Culture Archives]**(http://www.sil.org/resources/search/language/blt)
+
+There are approximately 17 resources in the sil.org archives for this language.
+
+**Tai Dam-Engish English-Tai Dam Vocabulary Book**
+
+Baccan Don, Baccam Hung, Baccam Faluang, Dorothy Fippinger, _Tai Dam-English English-Tai Dam Vocabulary Book_ (Decorah, IA: The Anundsen Publishing Company: 1989).
 
 [**UDHR in XML**](http://efele.net/udhr/d/udhr_blt.txt)
