@@ -1,8 +1,8 @@
 ---
 title: Tai Viet Character Block
-description: Character block page for Tai Viet
+description: Tai Viet characters
 sidebar: hidden
-lastUpdated: 2025-06-30
+lastUpdated: 2025-06-25
 ---
 
 ## Characters
