@@ -2,7 +2,7 @@
 title: Latin [Latn]
 description: Script page for Latin
 sidebar:
-    order: hidden
+    hidden: true
 lastUpdated: 2025-06-25
 ---
 

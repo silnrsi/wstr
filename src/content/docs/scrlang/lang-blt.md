@@ -2,7 +2,7 @@
 title: Tai Dam [blt]
 description: Language page for Tai Dam
 sidebar:
-    order: hidden
+    hidden: true
 lastUpdated: 2025-06-25
 ---
 
