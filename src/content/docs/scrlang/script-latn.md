@@ -31,7 +31,7 @@ The Latin script is bicameral; it is written using both upper- and lower-case le
 
 Digits from 0-9 are used. These can be combined to represent larger numbers.
 
-## Writing systems that use this script (989,345,165)
+## Writing systems that use this script (6431)
 
 Note that some of the languages listed are unwritten but would likely use Latin script if a writing system were developed.
 
@@ -47,6 +47,13 @@ Aceh | ace-Latn | in use | | ace-Latn-ID (Indonesia)|
 Achang | acn-Latn | in use | | ach-Latn-CN (China)<br>ach-Latn-MM (Myanmar)|
 Adara | kad-Latn | inuse | kad (SLDR) | kad-Latn-NG (Nigeria) |
 Adele | ade-Latn | in use | ade (SLDR) | ade-Latn-TG (Togo) |
-Afar [aar] | aa-latn | in use | [aa \[Afar\]](https://unicode.org/cldr/charts/47/summary/aa.html) | aa-Latn-DJ (Djibouti)<br>aa-Latn-ER (Eritrea)<br>aa-Latn-ET (Ethiopia)|
+Afar \[aar\] | aa-latn | in use | [aa \[Afar\]](https://unicode.org/cldr/charts/47/summary/aa.html) | aa-Latn-DJ (Djibouti)<br>aa-Latn-ER (Eritrea)<br>aa-Latn-ET (Ethiopia)|
 Aguano | aga-Latn | unwritten| | aga-Latn-PG (Papua New Guinea) |
 _etc._ | | |
+
+## Articles about this script
+
+[ScriptSource: Where do upper- and lower-case come from? (Part 1 of 2)](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=a5aqyqlztp)
+[ScriptSource: Where do upper- and lower-case come from? (Part 2 of 2)](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=d8mn7ztlj4)
+
+## Resources for this script

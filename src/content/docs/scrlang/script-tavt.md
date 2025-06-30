@@ -32,12 +32,38 @@ Little is known about the origin of the Tai Viet script. It appears to have been
 
 Please note that, although the Tai Viet script does exhibit reordering behaviour, that reordering is not typically reflected in software implementations. See Syllable Structure and Reordering in Tai Viet or Reordering and Data Storage Order for more details.
 
-## Writing systems that use this script (5)
+## Languages that use this script (5)
 
 Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
 -------- | ---------------------- | ------ | ------------------- | -------------------- |
-Tai Daeng | tyr-Tavt | in use | | tyr-Tavt-VN (Vietnam) |
-Tai Dam | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Vietnam) |
-Tai Dón | twh-Tavt | in use | | twh-Tavt-VN (Vietnam) |
-Tày Tac | tyt-Tavt | in use | | tyt-Tavt-VN (Vietnam) |
-Thai Song | soa-Tavt | in use | | soa-Tavt-VN (Vietnam) |
+<u>Tai Daeng</u> | tyr-Tavt | in use | | tyr-Tavt-VN (Viet Nam) |
+[Tai Dam](writingsystems.info/scrlang/lang-blt) | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Viet Nam) |
+<u>Tai Dón</u> | twh-Tavt | in use | | twh-Tavt-VN (Viet Nam) |
+<u>Tày Tac</u> | tyt-Tavt | in use | | tyt-Tavt-VN (Viet Nam) |
+<u>Thai Song</u> | soa-Tavt | in use | | soa-Tavt-VN (Viet Nam) |
+
+## Articles about this script
+
+[Writing Tai Don in the Tai Viet Script](writingsystems.info/scrlang/articles/writing-tai-don-in-tai-viet-script)
+
+[ScriptSource: Non-alphabetic symbols in the Tai Viet script](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=c8hc999bc3)
+[ScriptSource: Reordering and data storage](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=l5bvp27v3r)
+[ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=67379a5c7f)
+[ScriptSource: Sort order of Tai Viet characters](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=526eb6gcce)
+[ScriptSource: Tone Marking in Tai Viet](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=gd75e3bb44)
+
+## Resources for this script
+
+**[Script comparison table](https://r12a.github.io/scripts/script-features/)**
+
+Richard Ishida has created a Script comparison table to show which features (for example, combining characters, ligatures, case, baseline etc.) apply to a number of scripts. The characteristics described are based on the data in Unicode character blocks. The chart is intended to give a basic idea of which writing systems require what types of feature support.
+
+**Tai Dam-Engish English-Tai Dam Vocabulary Book**
+
+TODO: turn this into a proper bibliographic reference
+
+**[Unicode character pickers](https://r12a.github.io/pickers/)**
+
+The Unicode character apps allow you to produce, analyse and manipulate runs of text for a given language or script. Character apps are especially useful for people who don't know a script well, as characters are displayed in ways that aid identification and input (unlike a regular character map). The apps are written in HTML and JavaScript, so no need to download anything – just use any browser.
+
+You can easily cut and paste text between the apps and your own document. The apps are just as useful for analysing text copied from other locations as they are for creating text.
