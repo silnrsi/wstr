@@ -1,6 +1,6 @@
 ---
 title: Writing the Tai Dam Language
-description: 
+description: how to write the Tai Dam language
 sidebar:
     order: 8100
 lastUpdated: 2009-02-07
