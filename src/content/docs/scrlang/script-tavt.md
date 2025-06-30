@@ -37,14 +37,14 @@ Please note that, although the Tai Viet script does exhibit reordering behaviour
 Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
 -------- | ---------------------- | ------ | ------------------- | -------------------- |
 <u>Tai Daeng</u> | tyr-Tavt | in use | | tyr-Tavt-VN (Viet Nam) |
-[Tai Dam](writingsystems.info/scrlang/lang-blt) | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Viet Nam) |
+[Tai Dam](https://writingsystems.info/scrlang/lang-blt) | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Viet Nam) |
 <u>Tai Dón</u> | twh-Tavt | in use | | twh-Tavt-VN (Viet Nam) |
 <u>Tày Tac</u> | tyt-Tavt | in use | | tyt-Tavt-VN (Viet Nam) |
 <u>Thai Song</u> | soa-Tavt | in use | | soa-Tavt-VN (Viet Nam) |
 
 ## Articles about this script
 
-[Writing Tai Don in the Tai Viet Script](writingsystems.info/scrlang/articles/writing-tai-don-in-tai-viet-script)
+[Writing Tai Don in the Tai Viet Script](https://writingsystems.info/scrlang/articles/writing-tai-don-in-tai-viet-script)
 
 [ScriptSource: Non-alphabetic symbols in the Tai Viet script](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=c8hc999bc3)
 
@@ -64,7 +64,7 @@ Richard Ishida has created a Script comparison table to show which features (for
 
 **Tai Dam-Engish English-Tai Dam Vocabulary Book**
 
-TODO: turn this into a proper bibliographic reference
+Baccan Don, Baccam Hung, Baccam Faluang, Dorothy Fippinger, _Tai Dam-English English-Tai Dam Vocabulary Book_ (Decorah, IA: The Anundsen Publishing Company: 1989).
 
 **[Unicode character pickers](https://r12a.github.io/pickers/)**
 

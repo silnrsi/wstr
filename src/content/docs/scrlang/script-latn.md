@@ -31,7 +31,7 @@ The Latin script is bicameral; it is written using both upper- and lower-case le
 
 Digits from 0-9 are used. These can be combined to represent larger numbers.
 
-## Writing systems that use this script (6431)
+## Languages that use this script (6431)
 
 Note that some of the languages listed are unwritten but would likely use Latin script if a writing system were developed.
 
