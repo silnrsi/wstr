@@ -42,7 +42,7 @@ typically think: "I just want English, so `en`".
 
 The extensions mechanism for language tags also allow tags to be extended to
 specify such things as sort orders, transcription orthographies, etc. These are
-beyong the scope of langtags.json, but can have considerable impact. For
+beyond the scope of langtags.json, but can have considerable impact. For
 example, `en-Latn-US-t-wsg` indicates that the text is in English but is derived
 from Ghondi, for example via automated (or manual) translation. The text is
 still English (so `en` would be sufficient), but the tagger wanted to accentuate
