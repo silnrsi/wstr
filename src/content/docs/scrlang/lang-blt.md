@@ -39,9 +39,9 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 * [Tai Dam Latin (SIL)](https://keyman.com/keyboards/sil_tai_dam_latin)
 * [Tai Dam Typewriter (SIL)](https://keyman.com/keyboards/sil_tai_dam_typewriter)
 
-**[SIL Language and Culture Archives]**(http://www.sil.org/resources/search/language/blt)
+**SIL Language and Culture Archives**
 
-There are approximately 17 resources in the sil.org archives for this language.
+There are approximately 17 resources in the [SIL Language and Culture Archives](https://www.sil.org/resources/search/language/blt) for this language.
 
 **Tai Dam-Engish English-Tai Dam Vocabulary Book**
 
