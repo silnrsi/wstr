@@ -1,6 +1,4 @@
 ---
-import type { Props } from '@astrojs/starlight/props';
-
 import EditLink from 'virtual:starlight/components/EditLink';
 import LastUpdated from 'virtual:starlight/components/LastUpdated';
 import Pagination from 'virtual:starlight/components/Pagination';
@@ -10,11 +8,11 @@ import { Icon } from '@astrojs/starlight/components';
 
 <footer class="sl-flex">
 	<div class="meta sl-flex">
-		<EditLink {...Astro.props} />
-		<LastUpdated {...Astro.props} />
+		<EditLink />
+		<LastUpdated />
         <p>Copyright © 2001-2025 SIL Global and released under the Creative Commons Attribution-ShareAlike 4.0 International license <a href="https://creativecommons.org/licenses/by-sa/4.0/">(CC BY-SA 4.0)</a> unless noted otherwise. <a href="https://writingsystems.info/support/policies/">Terms of Service, Terms of Use, and Privacy Policy.</a></p>
 	</div>
-	<Pagination {...Astro.props} />
+	<Pagination />
 
 	{
 		config.credits && (

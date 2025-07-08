@@ -9,14 +9,22 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Writing Systems Technical Resources',
+			markdown: {
+				// TODO: Turn this on to test out if we want automatic
+				// heading links. If so remove it as `true` is the new default.
+				headingLinks: false,
+				shikiConfig: {				// TODO: Check if Expressive Code
+					theme: 'css-variables', // block render has been disable
+				},							// and remove if it's not required.
+			},
 			logo: {
 				src: './src/assets/logo.svg',
 				replacesTitle: false,
-			  },
-			favicon: 'favicon.ico',
-			social: {
-				github: 'https://github.com/silnrsi/wstr',
 			},
+			favicon: 'favicon.ico',
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/silnrsi/wstr' },
+			],
 			sidebar: [
 				{
 					label: 'Guides',
