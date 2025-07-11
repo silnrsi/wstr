@@ -1,7 +1,9 @@
 ---
 title: Paragraph Layout
+description: Issues in paragraph layout
 sidebar:
     order: 6400
+lastUpdated: 2025-07-11
 ---
 
 ## Bullets and Indents

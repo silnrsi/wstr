@@ -1,7 +1,9 @@
 ---
 title: Punctuation
+description: Description and examples of punctuation
 sidebar:
     order: 6250
+lastUpdated: 2025-07-11
 ---
 
 At this point the reader will not be surprised to hear that punctuation behaviors vary between scripts as well.

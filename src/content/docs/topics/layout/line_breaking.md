@@ -1,7 +1,9 @@
 ---
 title: Line Breaking
+description: Issues in line breaking
 sidebar:
     order: 6210
+lastUpdated: 2025-07-11
 ---
 
 **Summary:** In typesetting with Roman script, text is justified on a line by first seeing how much fits on a line, then checking to see if there is a word break there (for example, a space), next checking to see if a word can be broken (hyphenated) at that point, then adding space between words and finally (although strongly deprecated!) between letters to fill out the line.

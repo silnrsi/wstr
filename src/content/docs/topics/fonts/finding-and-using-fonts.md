@@ -3,7 +3,7 @@ title: Finding & Using Fonts
 description: Font finding, evaluation, installation, and licensing
 sidebar:
   order: 5100
-lastUpdated: 2025-03-24
+lastUpdated: 2025-07-11
 ---
 
-(finding and using fonts)
+Placeholder: Basic sources for fonts and ways of finding appropriate ones for a language.

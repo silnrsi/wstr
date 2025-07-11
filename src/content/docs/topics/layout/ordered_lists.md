@@ -1,7 +1,9 @@
 ---
 title: Ordered Lists
+description: Formatting of ordered lists
 sidebar:
     order: 6410
+lastUpdated: 2025-07-11
 ---
 
 Most of the behaviors mentioned in this section will be based on the national standard for a particular script. This type of behavior won’t reside in the font though, and the typesetting application will need to be customized to follow national standards.

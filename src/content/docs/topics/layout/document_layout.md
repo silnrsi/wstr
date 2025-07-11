@@ -1,7 +1,9 @@
 ---
 title: Document Layout
+description: Issues in document layout
 sidebar:
     order: 6600
+lastUpdated: 2025-07-11
 ---
 
 Although possibly not technically challenging for software developers, there are design differences in non-Roman scripts of which the typesetter must be aware. Many design issues are related to readability. The author and graphic designer, of course, want to have their manuscripts read. Emphasis, cultural design issues, optimum line length for a particular typeface and point size, leading, kerning and word spacing are all important in contributing to readability and will be different for each writing system.

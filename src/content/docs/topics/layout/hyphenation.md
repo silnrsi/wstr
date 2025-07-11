@@ -3,7 +3,9 @@ title: Hyphenation
 description: Summary article on hyphenation
 sidebar:
   order: 6230
+lastUpdated: 2025-07-11
 ---
+
 Hyphenation is often required because text is justified. The two are closely tied together.
 
 Hyphenation is another tool used in Roman typesetting but is not always allowed in other writing systems. Since Arabic does not allow hyphenation, another method for justification is needed: *kashidas* are used to stretch the line. The *kashida* (or tatweel) is typeface-dependent and varies for each kind of Arabic script. Thus, the rules for inserting the *kashida* will be in the font, and the publishing application would need to have the capability of using the font (Milo 2001).

@@ -1,7 +1,9 @@
 ---
 title: Justification
+description: Description and examples of layout direction
 sidebar:
     order: 6220
+lastUpdated: 2025-07-11
 ---
 
 Tibetan does not have visible word breaks and so the only variable white space is after the _shad_ (&#x0F0D;). In Figure 1 one can see that lines four, five and six are “completed” (or justified) with a series of syllable markers (&#x0F0B;) while the other lines are justified via the variable space after each _shad_.

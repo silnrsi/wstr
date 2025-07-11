@@ -1,5 +1,6 @@
 ---
 title: Evaluating Fonts
+description: Guidance on how to evaluate a font
 sidebar:
     order: 5120
 lastUpdated: 2025-03-24

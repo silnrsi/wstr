@@ -1,7 +1,9 @@
 ---
 title: Page Layout
+description: Issues in page layout
 sidebar:
     order: 6500
+lastUpdated: 2025-07-11
 ---
 
 ## Overall design

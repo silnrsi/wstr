@@ -1,7 +1,9 @@
 ---
 title: Layout Overview
+description: Challenges in the typesetting of complex scripts
 sidebar:
     order: 6001
+lastUpdated: 2025-07-11
 ---
 
 There are a number of challenges in the typesetting of complex scripts. These include problems of interaction between the font and typesetting system, problems of very large character sets, and considerations of typesetting the particular script. Happily, the advent of new computer technology has considerably lessened some of these problems.

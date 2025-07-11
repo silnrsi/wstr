@@ -1,8 +1,9 @@
 ---
-title: ScriptSource
-description: Links to ScriptSource and other resources for specific writing systems.
+title: Scripts
+description: Main page listing scripts
 sidebar:
-    order: 8000
+    order: 8100
+lastUpdated: 2025-07-11
 ---
 
 For information on specific scripts, languages, and writing systems see [ScriptSource](https://scriptsource.org/).
