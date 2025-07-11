@@ -1,6 +1,6 @@
 ---
 title: Writing Systems Computing Model
-description: Description of the NRSI Writing Systems model from WSIG
+description: Description of the NRSI Writing Systems Computing Model from WSIG
 sidebar:
     order: 2100
     label: WS Computing Model
