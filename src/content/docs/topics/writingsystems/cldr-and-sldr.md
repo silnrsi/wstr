@@ -1,7 +1,9 @@
 ---
 title: CLDR and SLDR
+description: Main page on the CLDR and SLDR collections 
 sidebar:
     order: 1510
+lastUpdated: 2025-07-11
 ---
 
 ### What is the CLDR?
@@ -94,7 +96,7 @@ For more information on CLDR coverage levels and minimum data requirements, see 
 [sldrissues]: https://github.com/silnrsi/sldr/issues
 [scrsourcontr]: https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=tx7kq3wgzd
 [ldmlapi]: https://ldml.api.sil.org/
-[langtag]: ../lang_tag
+[langtag]: ../language-tagging
 [lff]: https://github.com/silnrsi/langfontfinder/tree/main
 [cldrspec]: https://cldr.unicode.org/index/cldr-spec
 [ethnologue]: https://www.ethnologue.com/

@@ -1,7 +1,7 @@
 ---
-title: Language Tagging
+title: Language Tags
 sidebar:
-    order: 2330
+    order: 2599
 ---
 
 ## Introduction

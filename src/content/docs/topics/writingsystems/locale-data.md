@@ -1,7 +1,9 @@
 ---
 title: Locale Data
+description: Definition of locale data
 sidebar:
     order: 1500
+lastUpdated: 2025-07-11
 ---
 
 ### What is a Locale?
@@ -37,7 +39,7 @@ While many companies such as Meta and Microsoft often have their own internal sy
 
 - [UTR #35: "What is a Locale?"][unicodelocaledef]
 
-[langtag]: ../lang_tag
+[langtag]: ../language-tagging
 [BCP 47]: https://www.rfc-editor.org/rfc/bcp/bcp47.txt
 [cldr and sldr]: ../cldr-and-sldr
 [ldml]: ../ldml

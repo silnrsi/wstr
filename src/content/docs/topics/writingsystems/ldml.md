@@ -1,7 +1,9 @@
 ---
 title: LDML
+description: Description of LDML
 sidebar:
-    order: 1510
+    order: 1520
+lastUpdated: 2025-07-11
 ---
 
 !!!! UNFINISHED. also some of the links dont work yet do not be alarmed by that !!!
