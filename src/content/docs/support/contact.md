@@ -1,8 +1,8 @@
 ---
-title: About
-description: About
+title: Contact
+description: Contact info and form
 sidebar:
-  order: 9920
+  order: 9960
 lastUpdated: 2025-07-11
 ---
 
