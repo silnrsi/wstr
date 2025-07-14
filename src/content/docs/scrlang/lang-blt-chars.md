@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-07-14
 ---
 
-## <a id="blt-Tavt">Tai Dam written with Tai Viet script
+## <a id="blt-Tavt"></a>Tai Dam written with Tai Viet script
 
 _Data status: CLDR_
 
@@ -25,6 +25,12 @@ AA86 | ꪆ | TAI VIET LETTER LOW GO
 AA87 | ꪇ | TAI VIET LETTER HIGH GO
 AA88 | ꪈ | TAI VIET LETTER LOW NGO
 AA89 | ꪉ | TAI VIET LETTER HIGH NGO
+AA8A | ꪊ | TAI VIET LETTER LOW CO
+AA8B | ꪋ | TAI VIET LETTER HIGH CO 
+AA8C | ꪌ | TAI VIET LETTER LOW CHO
+AA8D | ꪍ | TAI VIET LETTER HIGH CHO
+AA8E | ꪎ | TAI VIET LETTER LOW SO
+AA8F | ꪏ | TAI VIET LETTER HIGH SO 
 _etc._ ||
 
 ### Punctuation symbols (partial)
@@ -35,7 +41,7 @@ _etc._ ||
 AADE | ꫞ | TAI VIET SYMBOL HO HOI
 AADF | ꫟ | TAI VIET SYMBOL KOI KOI
 
-## <a id="blt-Latn">Tai Dam written with Latin script
+## <a id="blt-Latn" />Tai Dam written with Latin script
 
 _Data status: SLDR_
 
