@@ -24,6 +24,12 @@ Script | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>var
 [Latin](https://writingsystems.info/scrlang/script-latn) | blt-Latn | in use | | blt-Latn-VN (Viet Nam) |
 Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
+## Characters used by this language
+
+[Tai Dam written with Tai Viet script](https://writingsystems.info/scrlang/articles/lang-blt-chars#blt-Tavt)
+
+[Tai Dam written with Latin script](https://writingsystems.info/scrlang/articles/lang-blt-chars#blt-Latn)
+
 ## Articles about this language
 
 [Writing the Tai Dam language](https://writingsystems.info/scrlang/articles/writing-tai-dam-language)

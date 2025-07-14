@@ -1,0 +1,112 @@
+---
+title: Character list for Tai Dam
+description: Character lists from SLDR / CLDR
+sidebar:
+    hidden: true
+lastUpdated: 2025-07-14
+---
+
+## <a id="blt-Tavt">Tai Dam written with Tai Viet script
+
+_Data status: CLDR_
+
+### Main characters
+
+**USV** | **Character** | **Name**
+------- | ------------- | --------
+AABF |  ꪿ | TAI VIET TONE MAI EK
+AAC1 |  ꫁ | TAI VIET TONE MAI THO
+AADD | ꫝ | TAI VIET SYMBOL SAM 
+AA80 | ꪀ | TAI VIET LETTER LOW KO
+AA81 | ꪁ | TAI VIET LETTER HIGH KO
+AA84 | ꪄ | TAI VIET LETTER LOW KHHO
+AA85 | ꪅ | TAI VIET LETTER HIGH KHHO
+AA86 | ꪆ | TAI VIET LETTER LOW GO
+AA87 | ꪇ | TAI VIET LETTER HIGH GO
+AA88 | ꪈ | TAI VIET LETTER LOW NGO
+AA89 | ꪉ | TAI VIET LETTER HIGH NGO
+_etc._ ||
+
+### Punctuation symbols (partial)
+
+**USV** | **Character** | **Name**
+------- | ------------- | --------
+002E | . | FULL STOP
+AADE | ꫞ | TAI VIET SYMBOL HO HOI
+AADF | ꫟ | TAI VIET SYMBOL KOI KOI
+
+## <a id="blt-Latn">Tai Dam written with Latin script
+
+_Data status: SLDR_
+
+### Main characters
+
+**USV** | **Character** | **Name**
+------- | ------------- | --------
+0061 | a | LATIN SMALL LETTER A
+0103 | ă | LATIN SMALL LETTER A WITH BREVE
+0062 | b | LATIN SMALL LETTER B
+0063 | c | LATIN SMALL LETTER C
+<0063, 0068> | ch | LATIN SMALL LETTER C H
+0064 | d | LATIN SMALL LETTER D
+0111 | đ | LATIN SMALL LETTER D WITH STROKE
+0065 | e | LATIN SMALL LETTER E
+00EA | ê | LATIN SMALL LETTER E WITH CIRCUMFLEX
+0067 | g | LATIN SMALL LETTER G
+0068 | h | LATIN SMALL LETTER H
+0069 | i | LATIN SMALL LETTER I
+006B | k | LATIN SMALL LETTER K
+<006B, 0068> | kh | LATIN SMALL LETTER K H
+006C | l | LATIN SMALL LETTER L
+_etc._ ||
+
+### Auxiliary characters
+
+**USV** | **Character** | **Name**
+------- | ------------- | --------
+0300 | ̀  | COMBINING GRAVE ACCENT
+0303 | ~ | COMBINING TILDE
+00E0 | à | LATIN SMALL LETTER A WITH GRAVE
+1EB1 | ã | LATIN SMALL LETTER A WITH TILDE
+1EB5 | ằ | LATIN SMALL LETTER A WITH BREVE AND GRAVE
+00E2 | â | LATIN SMALL LETTER A WITH CIRCUMFLEX
+1EA7 | ầ | LATIN SMALL LETTER A WITH CIRCUMFLEX AND GRAVE
+1EA9 | ẩ | LATIN SMALL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE
+1EAB | ẫ | LATIN SMALL LETTER A WITH CIRCUMFLEX AND TILDE
+1EA5 | ấ | LATIN SMALL LETTER a WITH CIRCUMFLEX AND ACUTE
+1EAD | ậ | LATIN SMALL LETTER A WITH CIRCUMFLEX AND DOT BELOW
+00E8 | è | LATIN SMALL LETTER E WITH GRAVE
+_etc._ ||
+
+### Index characters
+
+**USV** | **Character** | **Name**
+------- | ------------- | --------
+0041 | ̀A | LATIN CAPITAL LETTER A
+0042 | B | LATIN CAPITAL LETTER B
+0043 | C | LATIN CAPITAL LETTER C
+<0043, 0048> | CH | LATIN CAPITAL LETTER C H
+0044 | D | LATIN CAPITAL LETTER D
+0110 | Đ | LATIN CAPITAL LETTER D WITH STROKE
+0045 | E | LATIN CAPITAL LETTER E
+_etc._ ||
+
+### Punctuation symbols
+
+**USV** | **Character** | **Name**
+------- | ------------- | --------
+2011 | ̀‑ | NON-BREAKING HYPHEN
+002C | , | COMMA
+003A | : | COLON
+0021 | ! | EXCLAMATION MARK
+003F | ? | QUESTION MARK
+002E | . | FULL STOP
+0028 | ( | LEFT PARENTHESIS
+0029 | ) | RIGHT PARENTHESIS
+005B | [ | LEFT SQUARE BRACKET
+005D | ] | RIGHT SQUARE BRACKET
+0023 | # | NUMBER SIGN
+201C | “ | LEFT DOUBLE QUOTATION MARK
+2018 | ‘ | LEFT SINGLE QUOTATION MARK
+201D | ” | RIGHT DOUBLE QUOTATION MARK
+2019 | ’ | RIGHT SINGLE QUOTATION MARK
