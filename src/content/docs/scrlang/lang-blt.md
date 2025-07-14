@@ -34,6 +34,8 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 [Writing the Tai Dam language](https://writingsystems.info/scrlang/articles/writing-tai-dam-language)
 
+<hr style="color:gray">
+
 [ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=67379a5c7f)
 
 ## Resources for this language
