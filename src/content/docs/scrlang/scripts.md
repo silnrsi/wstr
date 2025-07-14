@@ -15,7 +15,7 @@ Adlm | <u>Adlam</u> | current | African | alphabet | RTL |
 Afak | <u>Afaka</u> | current | American | syllabary | LTR |
 Ahom | <u>Ahom</u> | current | M. SE Asian | abugida | LTR |
 | | <u>Akkha</u> | current | American | syllabary | LTR |
-Hluw | <u>Anatolian</u> Hieroglyphs | historical | Middle Eastern | logo-syllabary | boustrophedon |
+Hluw | <u>Anatolian Hieroglyphs</u> | historical | Middle Eastern | logo-syllabary | boustrophedon |
 Arab | <u>Arabic</u> | current | Middle Eastern | abjad | RTL bidirectional |
 Armn | <u>Armenian</u> | current | European | alphabet | LTR |
 Avst | <u>Avestan</u> | historical | Middle Eastern | alphabet | RTL |

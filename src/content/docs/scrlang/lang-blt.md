@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-06-25
 ---
 
-**Language Features** |     |
+**<span style="font-size: 29px">Language Features</span>** |     |
 --------------------- | --- |
 **Local name** | ꪼꪕꪒꪾ, ꞌTáy, ꞌTáy Ðăm    
 **Alternate names** | Black Tai, Hei Dai, Jinping Dai, Tai Do, Tai Noir, Tailam, Tailon, Thai Den, Thái Den, ꞌTáy, ꞌTáy Ðăm |
