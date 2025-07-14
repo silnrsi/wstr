@@ -1,5 +1,5 @@
 ---
-title: Character list for Tai Dam
+title: Character lists for Tai Dam
 description: Character lists from SLDR / CLDR
 sidebar:
     hidden: true
@@ -41,7 +41,7 @@ _etc._ ||
 AADE | ꫞ | TAI VIET SYMBOL HO HOI
 AADF | ꫟ | TAI VIET SYMBOL KOI KOI
 
-## <a id="blt-Latn" />Tai Dam written with Latin script
+## <a id="blt-Latn"></a>Tai Dam written with Latin script
 
 _Data status: SLDR_
 
