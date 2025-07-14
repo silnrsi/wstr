@@ -30,3 +30,5 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 * 2022-12-16 Proposal to encode additional Tai Viet characters for the Jinping Dai — Kushim Jiang [L2/23-023](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-023)
 
 _Recommendations to UTC #174 January 2023 on Script Proposals [L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012) (See point B.19.)_
+
+[Back to Tai Viet script](https://writingsystems.info/scrlang/script-tavt)
