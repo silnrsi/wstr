@@ -44,7 +44,13 @@ Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>v
 <u>Tày Tac</u> | tyt-Tavt | in use | | tyt-Tavt-VN (Viet Nam) |
 <u>Thai Song</u> | soa-Tavt | in use | | soa-Tavt-VN (Viet Nam) |
 
-## [Unicode Status](https://writingsystems.info/scrlang/articles/tavt-unicode-status)
+## Unicode information
+
+Character Block | Character Range | Added in Unicode Version | Unicode Chart |
+--------------- | --------------- | ------------------------ | ------------- |
+Tai Viet | AA80..AADF | 5.2 | [UAA80.pdf](http://www.unicode.org/charts/PDF/UAA80.pdf) |
+
+[Full Unicode status](https://writingsystems.info/scrlang/articles/tavt-unicode-status)
 
 ## Articles about this script
 
