@@ -34,10 +34,7 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 **Keyman keyboards for Tai Dam**
 
-* [Tai Dam (SIL)](https://keyman.com/keyboards/sil_tai_dam)
-* [Tai Dam Lao (SIL)](https://keyman.com/keyboards/sil_tai_dam_lao)
-* [Tai Dam Latin (SIL)](https://keyman.com/keyboards/sil_tai_dam_latin)
-* [Tai Dam Typewriter (SIL)](https://keyman.com/keyboards/sil_tai_dam_typewriter)
+(https://keyman.com/keyboards?q=Tai%20Dam)
 
 **SIL Language and Culture Archives**
 
