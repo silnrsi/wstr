@@ -116,3 +116,5 @@ _etc._ ||
 2018 | ‘ | LEFT SINGLE QUOTATION MARK
 201D | ” | RIGHT DOUBLE QUOTATION MARK
 2019 | ’ | RIGHT SINGLE QUOTATION MARK
+
+<a href="scrlang/lang-blt" class="astro-u215gyhi"><span class="astro-u215gyhi">" Back "<br> class="astro-u215gyhi"><span class="">Tai Dam</span></span></a>
