@@ -3,23 +3,25 @@ title: Tai Viet [Tavt]
 description: Script page for Tai Viet
 sidebar:
     hidden: true
-lastUpdated: 2025-06-25
+lastUpdated: 2025-07-14
 ---
 
 ![Tai Viet sample](images/tavt-sample.png)
 
 _"Mr. Countless Warts", recorded 1969-70 by B.Q., transcribed by Jay and Dorothy Fippinger_
 
-**Script Features** |     |     |     |
-------------------- | --- | --- | --- |
-**Script type** | abugida                       | **Diacritics** | yes |
-**Family** | Mainland Southeast Asian           | **Contextual forms** | yes |
-**Direction** | LTR                             | **Contextual positioning** | yes |
-**Baseline** | bottom                           | **Reordering** | yes |
-**Case** | no                                   | **Split graphs** | yes |
-**White space** | discretionary                 | **Ligatures** | required |
-**ISO 15924 Code / Key** | Tavt / 359 (alphasyllabic) | **OpenType tag** | tavt |
-**Status** | current | | |
+**Script Features** |     |
+------------------- | --- |
+**Script type** | abugida |   
+**Family** | Mainland Southeast Asian |
+**Status** | currently in use |
+**Direction** | LTR |
+**Baseline** | bottom |
+**Case** | no |        
+**White space** | discretionary |
+**Complex behaviors** | diacritics, contextualization, reordering, split graphs, ligatures |
+**ISO 15924 Code / Key** | Tavt / 359 (alphasyllabic) |
+**OpenType tag** | tavt |
 
 ## Script Description
 
@@ -42,9 +44,17 @@ Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>v
 <u>Tày Tac</u> | tyt-Tavt | in use | | tyt-Tavt-VN (Viet Nam) |
 <u>Thai Song</u> | soa-Tavt | in use | | soa-Tavt-VN (Viet Nam) |
 
+## [Unicode Status](https://writingsystems.info/scrlang/articles/tavt-unicode-status)
+
 ## Articles about this script
 
 [Writing Tai Don in the Tai Viet Script](https://writingsystems.info/scrlang/articles/writing-tai-don-in-tai-viet-script)
+
+[ScriptSource: Tai Viet Consonants](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=lbwpkrqk7b)
+
+[ScriptSource: Tai Viet Consonants: Final Forms](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=wf6hxndwyv)
+
+[ScriptSource: Punctuation in Tai Viet](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=cgb457356b)
 
 [ScriptSource: Non-alphabetic symbols in the Tai Viet script](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=c8hc999bc3)
 
@@ -58,16 +68,35 @@ Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>v
 
 ## Resources for this script
 
-**[Script comparison table](https://r12a.github.io/scripts/script-features/)**
-
-Richard Ishida has created a Script comparison table to show which features (for example, combining characters, ligatures, case, baseline etc.) apply to a number of scripts. The characteristics described are based on the data in Unicode character blocks. The chart is intended to give a basic idea of which writing systems require what types of feature support.
-
 **Tai Dam-Engish English-Tai Dam Vocabulary Book**
+
+[Google Noto Fonts](https://www.google.com/get/noto/)
+
+Google has been developing a font family called Noto, which aims to support all languages with a harmonious look and feel. Noto is Google’s answer to tofu. The name Noto is to convey the idea that Google’s goal is to see “no more tofu” (tofu being the nickname for the small square boxes displayed when characters are missing from a font). Noto has multiple styles and weights, and is freely available to all.
+
+[SEAsite Tai Dam Font](http://www.seasite.niu.edu/tai/TaiDam/)
+
+The Center for Southeast Asian Studies (SEAsite) at Northern Illinois University has released two legacy fonts for displaying text in the Thai Song (Tai Song Dam) and Tai Dón (White Tai) languages. These can be freely downloaded in TTF format. They also post, under the name SIL Tai Dam, the legacy Tai Heritage font, but we recommend using the Unicode encoded  Tai Heritage Pro from SIL instead.
+
+[SIL Tai Dam (custom-encoded) Fonts](http://scripts.sil.org/SILTD_home)
+
+The SIL Tai Dam fonts are regular and bold versions of the traditional Tai Dam script (now referred to as Tai Viet) and are closely based on handwritten letters. The fonts are available for both Macintosh and Windows systems and include keyboard definitions.
+Please note, these fonts are not Unicode encoded.  Tai Heritage Pro is a Unicode-encoded typeface based on the SIL Tai Dam fonts.
+
+[Tai Heritage Pro Font](http://software.sil.org/taiheritage/)
+
+Tai Heritage Pro is a Unicode encoded font, designed to reflect the traditional hand-written style of the Tai Viet script. This is a sample paragraph showing the font in use.
+
+![Tai Heritage sample](images/tavt-THPSample.png)
 
 Baccan Don, Baccam Hung, Baccam Faluang, Dorothy Fippinger, _Tai Dam-English English-Tai Dam Vocabulary Book_ (Decorah, IA: The Anundsen Publishing Company: 1989).
 
+## General resources
+
+**[Script comparison table](https://r12a.github.io/scripts/script-features/)**
+
 **[Unicode character pickers](https://r12a.github.io/pickers/)**
 
-The Unicode character apps allow you to produce, analyse and manipulate runs of text for a given language or script. Character apps are especially useful for people who don't know a script well, as characters are displayed in ways that aid identification and input (unlike a regular character map). The apps are written in HTML and JavaScript, so no need to download anything – just use any browser.
+**[Creating and supporting OpenType fonts for the Universal Shaping Engine](http://www.microsoft.com/typography/OpenTypeDev/USE/intro.htm)**
 
-You can easily cut and paste text between the apps and your own document. The apps are just as useful for analysing text copied from other locations as they are for creating text.
+**[Notes on Scripts, Orthographies and Characters, Lists of Terms](https://r12a.github.io/scripts/#scriptnotes)**

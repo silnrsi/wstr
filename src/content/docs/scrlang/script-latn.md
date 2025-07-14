@@ -17,7 +17,7 @@ lastUpdated: 2025-06-25
 **Case** | yes                        | **Split graphs** | no |
 **White space** | discretionary       | **Ligatures** | optional |
 **ISO 15924 Code / Key** | Latn / 215 (left=to-right alphabetic) | **OpenType tag** | latn |
-**Status** | current | | |
+**Status** | currently in use| | |
 
 ## Script Description
 
