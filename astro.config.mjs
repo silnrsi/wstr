@@ -45,7 +45,12 @@ export default defineConfig({
 				},
 				{
 					label: 'Scripts & Languages',
-					autogenerate: { directory: 'scrlang' },
+					//autogenerate: { directory: 'scrlang' },
+					items: [
+						'scrlang/scripts',
+						{ label: 'Articles', collapsed: true, autogenerate: { directory: 'scrlang/articles' } },
+						'scrlang/other-resources',
+					]
 				},
 				{
 					label: 'Reference',
