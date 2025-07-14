@@ -26,9 +26,9 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 ## Characters used by this language
 
-[Tai Dam written with Tai Viet script](https://writingsystems.info/scrlang/articles/lang-blt-chars#blt-Tavt)
+[Tai Dam written with Tai Viet script](https://writingsystems.info/scrlang/lang-blt-chars#blt-Tavt)
 
-[Tai Dam written with Latin script](https://writingsystems.info/scrlang/articles/lang-blt-chars#blt-Latn)
+[Tai Dam written with Latin script](https://writingsystems.info/scrlang/lang-blt-chars#blt-Latn)
 
 ## Articles about this language
 

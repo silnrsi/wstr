@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-07-14
 ---
 
-## <a id="blt-Tavt"></a>Tai Dam written with Tai Viet script
+## <a id="blt-Tavt" />Tai Dam written with Tai Viet script
 
 _Data status: CLDR_
 
@@ -41,7 +41,7 @@ _etc._ ||
 AADE | ꫞ | TAI VIET SYMBOL HO HOI
 AADF | ꫟ | TAI VIET SYMBOL KOI KOI
 
-## <a id="blt-Latn"></a>Tai Dam written with Latin script
+## <a id="blt-Latn" />Tai Dam written with Latin script
 
 _Data status: SLDR_
 
