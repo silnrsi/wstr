@@ -295,36 +295,31 @@ For most shorter pages the reference definitions should be at the end of the pag
 
 Use the hash plus heading (`#ai-use`) to link to [another section on the same page][ai] (level 2 or 3).
 
-For internal links use only explicit paths from the `src/content/docs` base directory without the `.md` extension. Do not use relative paths like `./filename` or `../filename`. Examples of good links:
-
-- `/reference/glossary`
-- `/topics/analysis/unicode-bidi-algorithm`
-- `/topics/layout/justification`
-- `/scrlang/script-tavt`
+For internal links use only explicit paths from the `src/content/docs` base directory without the `.md` extension. Do not use relative paths like `./filename` or `../filename`. 
 
 Use a full URL for [external links][otspec].
 
 [ai]: #ai-use
-[glossary]: ../glossary
-[bidi]: ../../topics/analysis/unicode-bidi-algorithm
+[glossary]: /reference/glossary
+[bidi]: /topics/analysis/unicode-bidi-algorithm
+[scrtavt]: /scrlang/script-tavt
 [otspec]: https://www.microsoft.com/typography/otspec/
 
 ```md
 Use the hash plus heading (`#ai-use`) to link to [another section on the same page][ai] (level 2 or 3).
 
-Use `../filename` without the `.md` extension to link to [another page in the same topic][glossary]. Yes, that's not quite a standard relative path!
-
-Use an extended path link `../../topics/analysis/unicode-bidi-algorithm` to link to [another page in another topic][bidi]. Remember that some _topics_ are top level folders (guides, reference, etc.) and some are inside the `topics` folder (topics/analysis, topics/layout, topics/fonts)! Working out the proper extended path from the current file can be tricky.
+For internal links use only explicit paths from the `src/content/docs` base directory without the `.md` extension. Do not use relative paths like `./filename` or `../filename`. 
 
 Use a full URL for [external links][otspec].
 
 [ai]: #ai-use
-[glossary]: ../glossary
-[bidi]: ../../topics/analysis/unicode-bidi-algorithm
+[glossary]: /reference/glossary
+[bidi]: /topics/analysis/unicode-bidi-algorithm
+[scrtavt]: /scrlang/script-tavt
 [otspec]: https://www.microsoft.com/typography/otspec/
 ```
 
-[wsbp]: ../../guides/writing-systems-best-practice
+[wsbp]: /guides/writing-systems-best-practice
 
 ### Blocks
 
