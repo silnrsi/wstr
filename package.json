@@ -8,7 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "linkcheck": "CHECK_LINKS=true astro build"
+    "linkcheck": "CHECK_LINKS=true ASTRO_SITE=https://writingsystems.info astro build"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
