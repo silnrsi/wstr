@@ -12,7 +12,7 @@ The Tai Dam language is written in three scripts. This facilitates reading by sp
 
 Links:
 
-* [Tai Viet script](https://writingsystems.info/scrlang/script-tavt)
+* [Tai Viet script](/scrlang/script-tavt)
 * <u>Lao script</u>
-* [Latin script](https://writingsystems.info/scrlang/script-latn)
-* [Tai Dam language](https://writingsystems.info/scrlang/lang-blt)
+* [Latin script](/scrlang/script-latn)
+* [Tai Dam language](/scrlang/lang-blt)

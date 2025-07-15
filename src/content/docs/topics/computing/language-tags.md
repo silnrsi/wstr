@@ -9,11 +9,11 @@ sidebar:
 Language tags are standardised identifier for language information. They are
 used to identify the orthography of a text, locale information, languages, etc.
 A good overview on how to create a tag may be found here:
-[https://github.com/silnrsi/langtags/blob/master/doc/tagging.md](tagging.md).
+[tagging.md](https://github.com/silnrsi/langtags/blob/master/doc/tagging.md).
 The technical specification for the structure of a language tag is
-[https://www.rfc-editor.org/bcp/bcp47.txt](BCP47). BCP47 makes reference to the
-[https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry](IANA
-Language Subtag registry) that contains basic definitions for all the language
+[BCP47](https://www.rfc-editor.org/bcp/bcp47.txt). BCP47 makes reference to the
+[IANALanguage Subtag registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
+that contains basic definitions for all the language
 tag subcomponents that require registering.
 
 Since a language tag is designed around tagging text, it is best to think of a
@@ -21,12 +21,12 @@ language tag as an orthography tag. At the orthography level, multiple tags may
 refer to the same thing. Thus `en`, `en-Latn`, `en-US`, and `en-Latn-US` can all
 be considered equivalent. It is difficult to work out what these equivalences
 are. For this there is a json file available here:
-[https://ldml.api.sil.org/langtags.json](https://ldml.api.sil.org/langtags.json)
+https://ldml.api.sil.org/langtags.json
 which groups tags into tag sets based on their orthographic equivalence. A
 description of the fields is given here:
-[https://github.com/silnrsi/langtags/blob/master/doc/langtags.md](langtags.md).
+[langtags.md](https://github.com/silnrsi/langtags/blob/master/doc/langtags.md).
 There is also a python module given as a reference implementation
-[https://github.com/silnrsi/langtags/blob/master/lib/langtag/__init__.py](here),
+[here](https://github.com/silnrsi/langtags/blob/master/lib/langtag/__init__.py),
 which is available as langtag on pypi.
 
 ## Using Language Tags

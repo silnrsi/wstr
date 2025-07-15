@@ -39,8 +39,8 @@ While many companies such as Meta and Microsoft often have their own internal sy
 
 - [UTR #35: "What is a Locale?"][unicodelocaledef]
 
-[langtag]: ../language-tagging
+[langtag]: /topics/writingsystems/language-tagging
 [BCP 47]: https://www.rfc-editor.org/rfc/bcp/bcp47.txt
-[cldr and sldr]: ../cldr-and-sldr
-[ldml]: ../ldml
+[cldr and sldr]: /topics/writingsystems/cldr-and-sldr
+[ldml]: /topics/writingsystems/ldml
 [unicodelocaledef]: https://unicode.org/reports/tr35/#Locale

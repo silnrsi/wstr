@@ -40,7 +40,7 @@ Please note that, although the Tai Viet script does exhibit reordering behaviour
 Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
 -------- | ---------------------- | ------ | ------------------- | -------------------- |
 <u>Tai Daeng</u> | tyr-Tavt | in use | | tyr-Tavt-VN (Viet Nam) |
-[Tai Dam](https://writingsystems.info/scrlang/lang-blt) | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Viet Nam) |
+[Tai Dam](/scrlang/lang-blt) | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Viet Nam) |
 <u>Tai Dón</u> | twh-Tavt | in use | | twh-Tavt-VN (Viet Nam) |
 <u>Tày Tac</u> | tyt-Tavt | in use | | tyt-Tavt-VN (Viet Nam) |
 <u>Thai Song</u> | soa-Tavt | in use | | soa-Tavt-VN (Viet Nam) |
@@ -51,27 +51,27 @@ Character Block | Character Range | Added in Unicode Version | Unicode Chart |
 --------------- | --------------- | ------------------------ | ------------- |
 Tai Viet | AA80..AADF | 5.2 | [UAA80.pdf](http://www.unicode.org/charts/PDF/UAA80.pdf) |
 
-[Full Unicode status](https://writingsystems.info/scrlang/articles/tavt-unicode-status)
+[Full Unicode status](/scrlang/articles/tavt-unicode-status)
 
 ## Articles about this script
 
-[Writing Tai Don in the Tai Viet Script](https://writingsystems.info/scrlang/articles/writing-tai-don-in-tai-viet-script)
+[Writing Tai Don in the Tai Viet Script](/scrlang/articles/writing-tai-don-in-tai-viet-script)
 
-[ScriptSource: Tai Viet Consonants](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=lbwpkrqk7b)
+[ScriptSource: Tai Viet Consonants](https://scriptsource.org/entry/lbwpkrqk7b)
 
-[ScriptSource: Tai Viet Consonants: Final Forms](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=wf6hxndwyv)
+[ScriptSource: Tai Viet Consonants: Final Forms](https://scriptsource.org/entry/wf6hxndwyv)
 
-[ScriptSource: Punctuation in Tai Viet](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=cgb457356b)
+[ScriptSource: Punctuation in Tai Viet](https://scriptsource.org/entry/cgb457356b)
 
-[ScriptSource: Non-alphabetic symbols in the Tai Viet script](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=c8hc999bc3)
+[ScriptSource: Non-alphabetic symbols in the Tai Viet script](https://scriptsource.org/entry/c8hc999bc3)
 
-[ScriptSource: Reordering and data storage](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=l5bvp27v3r)
+[ScriptSource: Reordering and data storage](https://scriptsource.org/entry/l5bvp27v3r)
 
-[ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=67379a5c7f)
+[ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/entry/67379a5c7f)
 
-[ScriptSource: Sort order of Tai Viet characters](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=526eb6gcce)
+[ScriptSource: Sort order of Tai Viet characters](https://scriptsource.org/entry/526eb6gcce)
 
-[ScriptSource: Tone Marking in Tai Viet](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=gd75e3bb44)
+[ScriptSource: Tone Marking in Tai Viet](https://scriptsource.org/entry/gd75e3bb44)
 
 ## Resources for this script
 
@@ -81,7 +81,7 @@ Google has been developing a font family called Noto, which aims to support all 
 
 <hr style="color:gray">
 
-[SEAsite Tai Dam Font](http://www.seasite.niu.edu/tai/TaiDam/)
+[SEAsite Tai Dam Font](https://seasite.niu.edu/tai/TaiDam/)
 
 The Center for Southeast Asian Studies (SEAsite) at Northern Illinois University has released two legacy fonts for displaying text in the Thai Song (Tai Song Dam) and Tai Dón (White Tai) languages. These can be freely downloaded in TTF format. They also post, under the name SIL Tai Dam, the legacy Tai Heritage font, but we recommend using the Unicode encoded  Tai Heritage Pro from SIL instead.
 

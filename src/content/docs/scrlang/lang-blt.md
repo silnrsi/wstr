@@ -20,21 +20,23 @@ lastUpdated: 2025-06-25
 
 Script | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
 -------- | ---------------------- | ------ | ------------------- | -------------------- |
-[Tai Viet](https://writingsystems.info/scrlang/script-tavt) | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Viet Nam) |
-[Latin](https://writingsystems.info/scrlang/script-latn) | blt-Latn | in use | | blt-Latn-VN (Viet Nam) |
+[Tai Viet](/scrlang/script-tavt) | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Viet Nam) |
+[Latin](/scrlang/script-latn) | blt-Latn | in use | | blt-Latn-VN (Viet Nam) |
 Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 ## Characters used by this language
 
-[Tai Dam written with Tai Viet script](https://writingsystems.info/scrlang/lang-blt-chars#blt-Tavt)
+[Tai Dam written with Tai Viet script](/scrlang/lang-blt-chars#blt-Tavt)
 
-[Tai Dam written with Latin script](https://writingsystems.info/scrlang/lang-blt-chars#blt-Latn)
+[Tai Dam written with Latin script](/scrlang/lang-blt-chars#blt-Latn)
 
 ## Articles about this language
 
-[Writing the Tai Dam language](https://writingsystems.info/scrlang/articles/writing-tai-dam-language)
+[Writing the Tai Dam language](/scrlang/articles/writing-tai-dam-language)
 
-[ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=67379a5c7f)
+<hr style="color:gray">
+
+[ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/entry/67379a5c7f)
 
 ## Resources for this language
 

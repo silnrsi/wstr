@@ -117,4 +117,4 @@ _etc._ ||
 201D | ” | RIGHT DOUBLE QUOTATION MARK
 2019 | ’ | RIGHT SINGLE QUOTATION MARK
 
-<a href="scrlang/lang-blt" class="astro-u215gyhi"><span class="astro-u215gyhi"> Back <br class="astro-u215gyhi"><span class="link-title astro-u215gyhi">Tai Dam</span></span></a>
+[Tai Dam](/scrlang/lang-blt)
