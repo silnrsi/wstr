@@ -8,7 +8,7 @@ lastUpdated: 2025-06-25
 
 ![Latin sample](images/latn-sample.png)
 
-<span style="font-size:20px; font-weight:600">Script Features</span> | |
+<span style="font-size:20px; font-weight:600">Script Features</span> | | | |
 ------------------- | --- | --- | --- |
 **Script type** | alphabet            | **Diacritics** | yes |
 **Family** | European                 | **Contextual forms** | no |
@@ -67,15 +67,21 @@ This book seeks to make accessible to a wider public a sample of some 200 alphab
 
 Another purpose of this volume is to show what solutions have been adopted in various African countries for the difficult questions of special characters, writing tone, making word breaks, etc. We want to help developers of new alphabets make the wisest choices and to assist revisors make existing alphabets more practically useful. Hopefully it will also encourage the use of hitherto untapped resources.
 
+<hr style="color:#C1C3C8">
+
 [**Notes on Scripts, Orthographics and Characters, Lists of Terms**](https://r12a.github.io/scripts/#scriptnotes)
 
 This page selects a few items that attempt to explain how scripts work in a way that is accessible to both the beginner and the script expert. The information includes tables of orthography descriptions, character notes and Unicode character apps.
 
 Richard Ishida's site also has [filterable lists of terms](https://r12a.github.io/scripts/index.html#termbases) that can be used for finding examples or testing for letter combinations. Many terms are accompanied by meaning, IPA and other transcriptions, and for all it is possible to see the sequence of characters used.
 
+<hr style="color:#C1C3C8">
+
 [**Omniglot - Latin**](http://www.omniglot.com/writing/latin.htm)
 
 Succinct article charting the progression of the Latin alphabet from the 7th century BC until modern times, with a number of links to other relevant pages.
+
+<hr style="color:#C1C3C8">
 
 [**On Diacritics**](http://ilovetypography.com/2009/01/24/on-diacritics/)
 

@@ -31,6 +31,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 _Recommendations to UTC #174 January 2023 on Script Proposals [L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012) (See point B.19.)_
 
-<hr style="color:gray">
+<hr style="color:#C1C3C8">
 
 [Back to Tai Viet script](/scrlang/script-tavt)

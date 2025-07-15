@@ -34,7 +34,7 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 [Writing the Tai Dam language](/scrlang/articles/writing-tai-dam-language)
 
-<hr style="color:gray">
+<hr style="color:#C1C3C8">
 
 [ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/entry/67379a5c7f)
 
@@ -44,13 +44,13 @@ Keyman keyboards for Tai Dam
 
 (https://keyman.com/keyboards?q=Tai%20Dam)
 
-<hr style="color:gray">
+<hr style="color:#C1C3C8">
 
 SIL Language and Culture Archives
 
 There are approximately 17 resources in the [archive](https://www.sil.org/resources/search/language/blt) for this language.
 
-<hr style="color:gray">
+<hr style="color:#C1C3C8">
 
 Tai Dam-Engish English-Tai Dam Vocabulary Book
 
