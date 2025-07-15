@@ -8,7 +8,7 @@ lastUpdated: 2025-07-15
 
 _This is an exmaple of a minimal language page._
 
-<span style="font-size: 29px; font-weight: 600">Language Features</span> ||
+<span style="font-size: 24px; font-weight: 600">Language Features</span> ||
 --------------------- | --- |
 **Local name** | |
 **Alternate names** | |

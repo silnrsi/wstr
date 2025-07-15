@@ -10,8 +10,7 @@ lastUpdated: 2025-07-14
 
 _"Mr. Countless Warts", recorded 1969-70 by B.Q., transcribed by Jay and Dorothy Fippinger_
 
-## Script Features
-
+<span style="font-size:24 px; font-weight: 600">Script Features</span> | |     |     |
 --------------- | -------- |
 **Script type** | abugida |   
 **Family** | Mainland Southeast Asian |

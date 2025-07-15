@@ -12,12 +12,12 @@ Scripts:
 * [Scripts Index](/scrlang/scripts)
 * [Tai Viet](/scrlang/script-tavt)
     * [Unicode status](scrlang/articles/tavt-unicode-status)
-* [Latin] (/scrlang/script-latn)
+* [Latin](/scrlang/script-latn)
 
 Languages:
 * [Tai Dam](/scrlang/lang-blt)
     * [Tai Dam character lists](/scrlang/lang-blt-chars)
-* [Baetora] (/scrlang/lang-btr) - minimal language page
+* [Baetora](/scrlang/lang-btr) - minimal language page
 
 Blocks:
 * [Tai Viet](/scrlang/block-tai-viet)
