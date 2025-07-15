@@ -50,6 +50,7 @@ export default defineConfig({
 						'scrlang/scripts',
 						{ label: 'Articles', collapsed: true, autogenerate: { directory: 'scrlang/articles' } },
 						'scrlang/other-resources',
+						'scrlang/test-index',
 					]
 				},
 				{

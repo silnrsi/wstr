@@ -6,8 +6,8 @@ sidebar:
 lastUpdated: 2025-06-25
 ---
 
-**<span style="font-size: 29px">Language Features</span>** |     |
---------------------- | --- |
+<span style="font-size: 29px; font-weight: 600">Language Features</span> ||
+--------------------- ||
 **Local name** | ꪼꪕꪒꪾ, ꞌTáy, ꞌTáy Ðăm    
 **Alternate names** | Black Tai, Hei Dai, Jinping Dai, Tai Do, Tai Noir, Tailam, Tailon, Thai Den, Thái Den, ꞌTáy, ꞌTáy Ðăm |
 **Dialects** | |
@@ -34,22 +34,36 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 [Writing the Tai Dam language](https://writingsystems.info/scrlang/articles/writing-tai-dam-language)
 
-<hr style="color:gray">
-
 [ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=67379a5c7f)
 
 ## Resources for this language
 
-**Keyman keyboards for Tai Dam**
+Keyman keyboards for Tai Dam
 
 (https://keyman.com/keyboards?q=Tai%20Dam)
 
-**SIL Language and Culture Archives**
+<hr style="color:gray">
 
-There are approximately 17 resources in the [SIL Language and Culture Archives](https://www.sil.org/resources/search/language/blt) for this language.
+SIL Language and Culture Archives
 
-**Tai Dam-Engish English-Tai Dam Vocabulary Book**
+There are approximately 17 resources in the [archive](https://www.sil.org/resources/search/language/blt) for this language.
+
+<hr style="color:gray">
+
+Tai Dam-Engish English-Tai Dam Vocabulary Book
 
 Baccan Don, Baccam Hung, Baccam Faluang, Dorothy Fippinger, _Tai Dam-English English-Tai Dam Vocabulary Book_ (Decorah, IA: The Anundsen Publishing Company: 1989).
 
-[**UDHR in XML**](http://efele.net/udhr/d/udhr_blt.txt)
+## Links
+
+[Ethnologue](http://www.ethnologue.com/language/blt)
+
+[ISO 639-3 page for Tai Dam](http://iso639-3.sil.org/code/blt)
+
+[Open Language Archives Community](http://www.language-archives.org/language/blt)
+
+[Glottolog entry for Tai Dam](http://www.glottolog.org/glottolog?iso=blt)
+
+[SIL Language and Culture Archives](http://www.sil.org/resources/search/language/blt)
+
+[Universal Declaration of Human Rights in Tai Dam](http://efele.net/udhr/d/udhr_blt.txt)
