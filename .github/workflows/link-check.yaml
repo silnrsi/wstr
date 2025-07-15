@@ -13,9 +13,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment:
-      name: aws-s3-static
-      url: http://writingsystems.info
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
