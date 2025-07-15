@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightLinksValidator from 'starlight-links-validator';
 import astroBrokenLinksChecker from 'astro-broken-links-checker';
+import rehypeFigureTitle from 'rehype-figure-title';
 
 // https://astro.build/config
 export default defineConfig({
@@ -83,4 +84,7 @@ export default defineConfig({
     	  checkExternalLinks: false			// Optional: check external links (currently, caching to disk is not supported, and it is slow )
     	}),
 	],
+ 	markdown: {
+    	rehypePlugins: [rehypeFigureTitle],
+  	},
 });
