@@ -48,4 +48,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
           aws-region: us-east-1
       - name: Deploy to S3
-        run: aws s3 sync --acl public-read dist/ s3://${{env.AWS_BUCKET}} --delete
+        run: aws s3 sync --acl public-read dist/ s3://${{vars.AWS_BUCKET}} --delete
