@@ -89,14 +89,14 @@ For more information on CLDR coverage levels and minimum data requirements, see 
 
 
 [uts35]: https://www.unicode.org/reports/tr35/
-[ldml]: ../ldml
+[ldml]: /topics/writingsystems/ldml
 [sldrrepo]: https://github.com/silnrsi/sldr
 [scriptsource]: https://scriptsource.org
 [dbl]: https://thedigitalbiblelibrary.org/ 
 [sldrissues]: https://github.com/silnrsi/sldr/issues
 [scrsourcontr]: https://scriptsource.org/entry/tx7kq3wgzd
 [ldmlapi]: https://ldml.api.sil.org/
-[langtag]: ../language-tagging
+[langtag]: /topics/writingsystems/language-tagging
 [lff]: https://github.com/silnrsi/langfontfinder/tree/main
 [cldrspec]: https://cldr.unicode.org/index/cldr-spec
 [ethnologue]: https://www.ethnologue.com/

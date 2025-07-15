@@ -332,9 +332,9 @@ An escaped symbol in a collation is surrounded in single quotation marks/apostro
 
 Multigraphs do not need brackets to mark them as a single unit in a collation sequence, as every unit in a collation sequence is already separated by sets of arrows. Note in the example LDML file above, the various iterations of 'LL' do not have any additional markings surrounding them. 
 
-[normalization]: ../../encoding/normalization 
+[normalization]: /topics/encoding/normalization 
 <!--- not actually a page yet, link may change :P --->
-[collation]: ../collation
+[collation]: /topics/encoding/collation
 <!--- not actually a page yet, link may change :P --->
 [uts35]: https://www.unicode.org/reports/tr35/ 
 [uts35gen]: https://unicode.org/reports/tr35/tr35-general.html
