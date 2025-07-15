@@ -1,6 +1,6 @@
 ---
 title: Tai Viet [Tavt]
-description: Script page for Tai Viet
+description: Main script page
 sidebar:
     hidden: true
 lastUpdated: 2025-07-14

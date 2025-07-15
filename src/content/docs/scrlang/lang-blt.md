@@ -1,6 +1,6 @@
 ---
 title: Tai Dam [blt]
-description: Language page for Tai Dam
+description: Main language page
 sidebar:
     hidden: true
 lastUpdated: 2025-06-25

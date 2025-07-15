@@ -1,6 +1,6 @@
 ---
 title: Latin [Latn]
-description: Script page for Latin
+description: Main script page
 sidebar:
     hidden: true
 lastUpdated: 2025-06-25
@@ -17,7 +17,7 @@ lastUpdated: 2025-06-25
 **Case** | yes                        | **Split graphs** | no |
 **White space** | discretionary       | **Ligatures** | optional |
 **ISO 15924 Code / Key** | Latn / 215 (left=to-right alphabetic) | **OpenType tag** | latn |
-**Status** | currently in use| | |
+**Status** | currently in use | | |
 
 ## Script Description
 
@@ -47,9 +47,24 @@ Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>v
 <u>Achang</u> | acn-Latn | in use | | ach-Latn-CN (China)<br>ach-Latn-MM (Myanmar)|
 <u>Adara</u> | kad-Latn | inuse | kad (SLDR) | kad-Latn-NG (Nigeria) |
 <u>Adele</u> | ade-Latn | in use | ade (SLDR) | ade-Latn-TG (Togo) |
-<u>Afar</u> \[aar\] | aa-latn | in use | [aa \[Afar\]](https://unicode.org/cldr/charts/47/summary/aa.html) | aa-Latn-DJ (Djibouti)<br>aa-Latn-ER (Eritrea)<br>aa-Latn-ET (Ethiopia)|
-<u>Aguano</u> | aga-Latn | unwritten| | aga-Latn-PG (Papua New Guinea) |
 _etc._ | | |
+
+[See complete list](/scrlang/script-latn-langs)
+
+## Unicode information
+
+The Latin script was first encoded in The Unicode Standard version 1.0. Since that time the encoding has undergone a number of modifications; the script is now encoded in the following blocks:
+
+Blocks | Character Range | Added in Unicode Version | Unicode Chart |
+------ | --------------- | ------------------------ | ------------- |
+Basic Latin | 0000..007F | 1.0 | [U0000.pdf](http://www.unicode.org/charts/PDF/U0000.pdf) |
+Latin-1 Supplement | 0080..00FF | 1.0 | [U0080.pdf](http://www.unicode.org/charts/PDF/U0080.pdf) |
+Latin Extended-A | 0100..024F | 1.0 | [U0100.pdf](http://www.unicode.org/charts/PDF/U0100.pdf) |
+Latin Extended-B | 0180..02AF | 1.0 | [U0180.pdf](http://www.unicode.org/charts/PDF/U0180.pdf) |
+IPA Extensions | 0250..02AF | 1.0 | [U0250.pdf](http://www.unicode.org/charts/PDF/U0250.pdf) |
+_etc._ | | | |
+
+[Full Unicode status](/scrlang/script-latn-unicode)
 
 ## Articles about this script
 
@@ -87,3 +102,12 @@ Succinct article charting the progression of the Latin alphabet from the 7th cen
 
 Article about the importance of Latin diacritics, and the challenges faced by type designers who want to include them in their fonts. The issues of weight and size, placement, stylistic harmony, and fitting / kerning are summarized, and particular mention is made of the caron.
 
+## General resources
+
+**[Script comparison table](https://r12a.github.io/scripts/script-features/)**
+
+**[Unicode character pickers](https://r12a.github.io/pickers/)**
+
+**[Creating and supporting OpenType fonts for the Universal Shaping Engine](http://www.microsoft.com/typography/OpenTypeDev/USE/intro.htm)**
+
+**[Notes on Scripts, Orthographies and Characters, Lists of Terms](https://r12a.github.io/scripts/#scriptnotes)**

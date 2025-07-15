@@ -1,12 +1,10 @@
 ---
 title: Unicode Status of the Tai Viet Script
-description: Links to Unicode proposal docs
+description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-07-14
+lastUpdated: 2025-07-15
 ---
-
-_Author: SIL staff_
 
 In The Unicode Standard, Tai Viet script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam.](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G59747)
 

@@ -1,6 +1,6 @@
 ---
 title: Baetora [btr]
-description: Language page for Baetora
+description: Main language page
 sidebar:
     hidden: true
 lastUpdated: 2025-07-15
