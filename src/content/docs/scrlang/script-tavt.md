@@ -39,7 +39,7 @@ Please note that, although the Tai Viet script does exhibit reordering behaviour
 Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
 -------- | ---------------------- | ------ | ------------------- | -------------------- |
 <u>Tai Daeng</u> | tyr-Tavt | in use | | tyr-Tavt-VN (Viet Nam) |
-[Tai Dam](https://writingsystems.info/scrlang/lang-blt) | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Viet Nam) |
+[Tai Dam](/scrlang/lang-blt) | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Viet Nam) |
 <u>Tai Dón</u> | twh-Tavt | in use | | twh-Tavt-VN (Viet Nam) |
 <u>Tày Tac</u> | tyt-Tavt | in use | | tyt-Tavt-VN (Viet Nam) |
 <u>Thai Song</u> | soa-Tavt | in use | | soa-Tavt-VN (Viet Nam) |
@@ -50,11 +50,11 @@ Character Block | Character Range | Added in Unicode Version | Unicode Chart |
 --------------- | --------------- | ------------------------ | ------------- |
 Tai Viet | AA80..AADF | 5.2 | [UAA80.pdf](http://www.unicode.org/charts/PDF/UAA80.pdf) |
 
-[Full Unicode status](https://writingsystems.info/scrlang/articles/tavt-unicode-status)
+[Full Unicode status](/scrlang/articles/tavt-unicode-status)
 
 ## Articles about this script
 
-[Writing Tai Don in the Tai Viet Script](https://writingsystems.info/scrlang/articles/writing-tai-don-in-tai-viet-script)
+[Writing Tai Don in the Tai Viet Script](/scrlang/articles/writing-tai-don-in-tai-viet-script)
 
 [ScriptSource: Tai Viet Consonants](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=lbwpkrqk7b)
 

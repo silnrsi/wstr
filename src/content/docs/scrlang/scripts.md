@@ -22,11 +22,11 @@ Avst | <u>Avestan</u> | historical | Middle Eastern | alphabet | RTL |
 ... | | | | | |
 | | <u>Lahnda</u> | current | Indic | abugida | LTR | 
 Laoo | <u>Lao</u> | current | M. SE Asian | abugida | LTR |
-Latn | [Latin](https://writingsystems.info/scrlang/script-latn) | current | European | alphabet | LTR |
+Latn | [Latin](/scrlang/script-latn) | current | European | alphabet | LTR |
 Leke | <u>Leke</u> | current | M. SE Asian | unspecified | LTR |
 ... | | | | | |
 Lana | <u>Tai Tham (Lanna)</u> | current | M. SE Asian | abugida | LTR |
-Tavt | [Tai Viet](https://writingsystems.info/scrlang/script-tavt) | current | M. SE Asian | abugida | LTR |
+Tavt | [Tai Viet](/scrlang/script-tavt) | current | M. SE Asian | abugida | LTR |
 Tayo | <u>Tay Yo</u> | unclear | M. SE Asian | abugida | vertical (RTL) |
 Takr | <u>Takri</u> | historical | Indic | abugida | LTR |
 Telu | <u>Telugu</u> | current | Indic | abugida | LTR |
