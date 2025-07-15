@@ -49,9 +49,13 @@ Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>v
 <u>Adamorobe Sign Language</u> | ads-Latn | unwritten | | ads-Latn-GH (Ghana) |
 <u>Adang</u> | adn-Latn | in use | | adn-Latn-ID (Indonesia) |
 <u>Adangbe</u> | adq-Latn | in use | | adq-Latn-GH (Ghana) |
-<u>Adara</u> | kad-Latn | inuse | kad (SLDR) | kad-Latn-NG (Nigeria) |
+<u>Adara</u> | kad-Latn | in use | kad (SLDR) | kad-Latn-NG (Nigeria) |
 <u>Adasen</u> | tiu-Latn | in use | | tiu-Latn-PH (Philipines) |
 <u>Adele</u> | ade-Latn | in use | ade (SLDR) | ade-Latn-TG (Togo) |
-<u>Afar</u> \[aar\] | aa-latn | in use | [aa \[Afar\]](https://unicode.org/cldr/charts/47/summary/aa.html) | aa-Latn-DJ (Djibouti)<br>aa-Latn-ER (Eritrea)<br>aa-Latn-ET (Ethiopia)|
+<u>Afar</u> \[aar\] | aa-Latn | in use | [aa](https://unicode.org/cldr/charts/47/summary/aa.html) (CLDR) | aa-Latn-DJ (Djibouti)<br>aa-Latn-ER (Eritrea)<br>aa-Latn-ET (Ethiopia)|
 <u>Aguano</u> | aga-Latn | unwritten | | aga-Latn-PG (Papua New Guinea) |
 _etc._ | | |
+
+<hr style="color:#C1C3C8">
+
+[Back to Latn script](/scrlang/script-Latn)

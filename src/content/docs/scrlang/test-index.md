@@ -15,7 +15,7 @@ Scripts:
 * [Latin](/scrlang/script-latn) - large script page
     * [Unicode status](/scrlang/script-latn-unicode)
     * [Languages](/scrlang/script-latn-langs)
-* [Chisoi](/scrlang/script-chis)
+* [Chisoi](/scrlang/script-chis) - minimal script page
 
 Languages:
 * [Tai Dam](/scrlang/lang-blt) - fully developed language page

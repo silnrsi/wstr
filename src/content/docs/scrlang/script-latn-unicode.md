@@ -50,6 +50,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 * 1998-09-02 Proposal to add the letters LATIN SMALL / CAPITAL LETTER A WITH DOT ABOVE to the BMP — Mark Davis (WG2 N0838.doc (not online),  [WG2 N1838mrk.htm](https://www.unicode.org/wg2/docs/n1838mrk.htm), L2/98-357 (not online))
 * _etc._
 
-<hr style="color:#C1C3C8">
+<hr style="border-bottom-color:#C1C3C8">
 
-[Back to Tai Viet script](/scrlang/script-tavt)
+[Back to Latn script](/scrlang/script-Latn)

@@ -25,11 +25,9 @@ The script is written from left to right. The script consists of eight vowels, t
 
 ## Languages that use this script (1)
 
-Note that some of the languages listed are unwritten but would likely use Latin script if a writing system were developed.
-
 Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
 -------- | ---------------------- | ------ | ------------------- | -------------------- |
-<u>Kadmali</u> | kyw-Latn | in use | | kyw-Latn-IN (India) |
+<u>Kadmali</u> | kyw-Chis | in use | | kyw-Chis-IN (India) |
 
 ## Unicode information
 
