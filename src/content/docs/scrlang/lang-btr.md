@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-07-15
 ---
 
-_This is an exmaple of a minimal language page._
+_This is an example of a minimal language page._
 
 <span style="font-size: 24px; font-weight: 600">Language Features</span> ||
 --------------------- | --- |
@@ -20,7 +20,9 @@ _This is an exmaple of a minimal language page._
 
 Script | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
 ------ | ---------------------- | ------ | ------------------- | -------------------- |
-[Latin](https://writingsystems.info/scrlang/script-latn) | blt-Latn | unwritten | | btr-Latn-VU (Vanuatu) |
+[Latin](https://writingsystems.info/scrlang/script-latn) | blt-Latn | unwritten* | | btr-Latn-VU (Vanuatu) |
+
+*No writing system currently exists for this language, but any to be developed would likely be based on the Latin script.
 
 ## Links
 

@@ -11,11 +11,11 @@ Here are some pages that have been put together as initial design experiments.
 Scripts:
 * [Scripts Index](/scrlang/scripts)
 * [Tai Viet](/scrlang/script-tavt)
-    * [Unicode status](scrlang/articles/tavt-unicode-status)
+    * [Unicode status](/scrlang/articles/tavt-unicode-status)
 * [Latin](/scrlang/script-latn)
 
 Languages:
-* [Tai Dam](/scrlang/lang-blt)
+* [Tai Dam](/scrlang/lang-blt) - fully developed language page
     * [Tai Dam character lists](/scrlang/lang-blt-chars)
 * [Baetora](/scrlang/lang-btr) - minimal language page
 
