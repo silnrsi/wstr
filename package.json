@@ -7,13 +7,15 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "linkcheck": "CHECK_LINKS=true astro build"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/starlight": "^0.34.4",
     "astro": "^5.11.0",
     "sharp": "^0",
+    "starlight-links-validator": "^0.17.0",
     "typescript": "^5"
   }
 }
