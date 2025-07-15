@@ -11,7 +11,7 @@ Here are some pages that have been put together as initial design experiments.
 Scripts:
 * [Scripts Index](/scrlang/scripts)
 * [Tai Viet](/scrlang/script-tavt)
-    * [Unicode status](/scrlang/articles/tavt-unicode-status)
+    * [Unicode status](/scrlang/script-tavt-unicode)
 * [Latin](/scrlang/script-latn)
 
 Languages:
