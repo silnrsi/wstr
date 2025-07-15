@@ -74,7 +74,6 @@ export default defineConfig({
 				'./src/styles/custom.css',
 			],
 			plugins: process.env.CHECK_LINKS ? [starlightLinksValidator({
-				errorOnRelativeLinks: false,
 				sameSitePolicy: 'error',
 			})] : [],
 		}),
