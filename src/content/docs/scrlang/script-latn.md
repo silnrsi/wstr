@@ -53,9 +53,9 @@ _etc._ | | |
 
 ## Articles about this script
 
-[ScriptSource: Where do upper- and lower-case come from? (Part 1 of 2)](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=a5aqyqlztp)
+[ScriptSource: Where do upper- and lower-case come from? (Part 1 of 2)](https://scriptsource.org/entry/a5aqyqlztp)
 
-[ScriptSource: Where do upper- and lower-case come from? (Part 2 of 2)](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=d8mn7ztlj4)
+[ScriptSource: Where do upper- and lower-case come from? (Part 2 of 2)](https://scriptsource.org/entry/d8mn7ztlj4)
 
 ## Resources for this script
 

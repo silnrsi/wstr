@@ -94,7 +94,7 @@ For more information on CLDR coverage levels and minimum data requirements, see 
 [scriptsource]: https://scriptsource.org
 [dbl]: https://thedigitalbiblelibrary.org/ 
 [sldrissues]: https://github.com/silnrsi/sldr/issues
-[scrsourcontr]: https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=tx7kq3wgzd
+[scrsourcontr]: https://scriptsource.org/entry/tx7kq3wgzd
 [ldmlapi]: https://ldml.api.sil.org/
 [langtag]: ../language-tagging
 [lff]: https://github.com/silnrsi/langfontfinder/tree/main

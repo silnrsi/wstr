@@ -36,7 +36,7 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 <hr style="color:gray">
 
-[ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=67379a5c7f)
+[ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/entry/67379a5c7f)
 
 ## Resources for this language
 

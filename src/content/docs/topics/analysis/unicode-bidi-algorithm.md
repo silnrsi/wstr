@@ -13,15 +13,15 @@ The [Unicode Bidirectional Algorithm (UAX#9)](http://www.unicode.org/reports/tr9
 
 These blog posts were written by Sharon Correll:
 
-- [The Unicode Bidirectional Algorithm: a gentle introduction](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=hunvb5t7qm)
+- [The Unicode Bidirectional Algorithm: a gentle introduction](https://scriptsource.org/entry/hunvb5t7qm)
 
-- [The Bidi Algorithm, Part 2: Paragraph direction and flow](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=vab3lazcpq)
+- [The Bidi Algorithm, Part 2: Paragraph direction and flow](https://scriptsource.org/entry/vab3lazcpq)
 
-- [The Bidi Algorithm, Part 3: Directionality codes](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=mpqae8jhn4)
+- [The Bidi Algorithm, Part 3: Directionality codes](https://scriptsource.org/entry/mpqae8jhn4)
 
-- [The Bidi Algorithm, Part 4: Mirroring](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=snz6lq9tz3)
+- [The Bidi Algorithm, Part 4: Mirroring](https://scriptsource.org/entry/snz6lq9tz3)
 
-- [The Bidi Algorithm, Part 5: Overrides and embedding](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=rxyc24q835)
+- [The Bidi Algorithm, Part 5: Overrides and embedding](https://scriptsource.org/entry/rxyc24q835)
 
 ## Unicode
 

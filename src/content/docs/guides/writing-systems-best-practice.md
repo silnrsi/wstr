@@ -210,9 +210,9 @@ Resource:
 
 
 
-* [IETF BCP 47]([https://codehivetx.us/en/posts/2024-bcp47.html](https://codehivetx.us/en/posts/2024-bcp47.html))
-* [IETF BCP 47 extensions]([https://codehivetx.us/en/posts/2024-bcp47-extensions.html](https://codehivetx.us/en/posts/2024-bcp47-extensions.html))
-* [Language Tagging]([https://github.com/silnrsi/langtags/blob/master/doc/tagging.md](https://github.com/silnrsi/langtags/blob/master/doc/tagging.md))
+* [IETF BCP 47](https://codehivetx.us/en/posts/2024-bcp47.html)
+* [IETF BCP 47 extensions](https://codehivetx.us/en/posts/2024-bcp47-extensions.html)
+* [Language Tagging](https://github.com/silnrsi/langtags/blob/master/doc/tagging.md)
 
 Ref: 
 
@@ -290,7 +290,7 @@ SIL developed its own smart-font system called Graphite, which is supported by a
 
 Resources:
 
-[Examples of Complex Rendering](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=lu6terdg9u)
+[Examples of Complex Rendering](https://scriptsource.org/entry/lu6terdg9u)
 
 [Reordering and Data Storage Order](https://scriptsource.org/entry/l5bvp27v3r)
 
@@ -333,9 +333,9 @@ Resources:
 
 [Keyboard for Windows Installation](http://support.microsoft.com/kb/258824)
 
-[How to install a keyboard on a Mac](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=vudwjrw2dm)
+[How to install a keyboard on a Mac](https://scriptsource.org/entry/vudwjrw2dm)
 
-[Microsoft Keyboard Layout Creator (MSKLC)](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=m98qmxx7dx)
+[Microsoft Keyboard Layout Creator (MSKLC)](https://scriptsource.org/entry/m98qmxx7dx)
 
 [Smart Fonts and Keyboards](https://scriptsource.org/entry/yqlnylcbwk)
 
@@ -370,7 +370,7 @@ When accepting input for searching, it is essential to normalize the search item
 
 Different languages sort words in different orders. Strictly speaking, in computing, "sorting" is about the algorithm that puts things into order as quickly as possible, while "collation" is about the comparison of two strings to say which should sort earlier and which later. For text processing, therefore, we are more concerned with this later collation question. Since different languages collate in different ways, there needs to be ways for software to use language specific collation. This again calls for the system to know what language the text is in.
 
-Resource: [Unicode Sort Tailoring: Tutorial](https://scriptsource.org/entry/pnrnlhkrq9) and [Resources](https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=lcepuup9ga)
+Resource: [Unicode Sort Tailoring: Tutorial](https://scriptsource.org/entry/pnrnlhkrq9) and [Resources](https://scriptsource.org/entry/lcepuup9ga)
 
 
 ### Searching
