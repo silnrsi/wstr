@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightLinksValidator from 'starlight-links-validator';
+import astroBrokenLinksChecker from 'astro-broken-links-checker';
 
 // https://astro.build/config
 export default defineConfig({
@@ -77,5 +78,9 @@ export default defineConfig({
 				sameSitePolicy: 'error',
 			})] : [],
 		}),
+		astroBrokenLinksChecker({
+	      logFilePath: 'broken-links.log', 	// Optional: specify the log file path
+    	  checkExternalLinks: false			// Optional: check external links (currently, caching to disk is not supported, and it is slow )
+    	}),
 	],
 });
