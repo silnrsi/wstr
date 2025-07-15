@@ -1,0 +1,31 @@
+name: Check site links
+
+on:
+  schedule:
+  # Run daily at midnight
+  - cron: '0 0 * * *'
+  workflow_dispatch:
+
+# Allow this job to clone the repo and create a page deployment
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: aws-s3-static
+      url: http://writingsystems.info
+    steps:
+      - name: Checkout your repository using git
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: package-lock.json
+      - name: Install
+        run: npm install
+      - name: Check Internal links
+        run: npm run linkcheck
