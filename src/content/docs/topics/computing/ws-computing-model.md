@@ -12,9 +12,9 @@ Successful writing system implementations (WSIs) depend on a wide variety of sof
 
 ### Model
 
-![SIL Writing Systems Computing Model](images/2100-ws-computing-model.png "SIL Writing Systems Computing Model")
+The following model encompasses text input, storage, processing, and output.
 
-This model encompasses text input, storage, processing, and output.
+![SIL Writing Systems Computing Model](images/2100-ws-computing-model.png "SIL Writing Systems Computing Model")
 
 #### Encoding
 
