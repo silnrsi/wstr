@@ -21,6 +21,12 @@
     margin-top: 1.2rem !important; 
 }
 
+.sl-markdown-content figcaption:not(:where(.not-content *)) {
+    font-style: italic !important;
+    font-size: var(--sl-text-sm) !important;
+    margin-top: 0.5rem !important; 
+}
+
 :root[data-theme='light'] {
     /* color of main SIL logo */
     --sl-color-accent: hsl(210.16, 100%, 36.27%);
