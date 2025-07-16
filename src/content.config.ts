@@ -8,6 +8,7 @@ export const collections = {
     schema: docsSchema({
       extend: z.object({
         subtitle: z.string().optional(),
+        authors: z.string().optional(),
       }),
     }),
   }),
