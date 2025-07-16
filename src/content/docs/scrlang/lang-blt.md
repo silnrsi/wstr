@@ -34,25 +34,35 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 [Writing the Tai Dam language](/scrlang/articles/writing-tai-dam-language)
 
-<hr style="color:#C1C3C8">
+[ScriptSource: Geographic Use of the Tai Viet Script](https://scriptsource.org/entry/hg7bh64873)
 
 [ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/entry/67379a5c7f)
 
+[ScriptSource: Tai Viet Consonants](https://scriptsource.org/entry/lbwpkrqk7b)
+
+[ScriptSource: Tai Viet Vowels](https://scriptsource.org/entry/lbwpkrqk7b)
+
 ## Resources for this language
 
-Keyman keyboards for Tai Dam
+### Keyman keyboards for Tai Dam
 
 (https://keyman.com/keyboards?q=Tai%20Dam)
 
-<hr style="color:#C1C3C8">
+### SEAsite Tai Dam Fonts
 
-SIL Language and Culture Archives
+(http://www.seasite.niu.edu/tai/TaiDam/)
 
-There are approximately 17 resources in the [archive](https://www.sil.org/resources/search/language/blt) for this language.
+The Center for Southeast Asian Studies (SEAsite) at Northern Illinois University has released two legacy fonts for displaying text in the Thai Song (Tai Song Dam) and Tai Dón (White Tai) languages. These can be freely downloaded in TTF format. They also post, under the name SIL Tai Dam, the legacy Tai Heritage font, but we recommend using the Unicode encoded  Tai Heritage Pro from SIL instead.
 
-<hr style="color:#C1C3C8">
+### Tai Heritage Pro font
 
-Tai Dam-Engish English-Tai Dam Vocabulary Book
+Tai Heritage Pro is a Unicode encoded font, designed to reflect the traditional hand-written style of the Tai Viet script. This is a sample paragraph of the font in use.
+
+![](/scrlang/images/tavt-THPSample.png)
+
+[Tai Heritage Pro](http://software.sil.org/taiheritage/)
+
+### Tai Dam-Engish English-Tai Dam Vocabulary Book
 
 Baccan Don, Baccam Hung, Baccam Faluang, Dorothy Fippinger, _Tai Dam-English English-Tai Dam Vocabulary Book_ (Decorah, IA: The Anundsen Publishing Company: 1989).
 
