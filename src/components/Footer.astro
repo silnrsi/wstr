@@ -4,12 +4,18 @@ import LastUpdated from 'virtual:starlight/components/LastUpdated';
 import Pagination from 'virtual:starlight/components/Pagination';
 import config from 'virtual:starlight/user-config';
 import { Icon } from '@astrojs/starlight/components';
+const { authors } = Astro.locals.starlightRoute.entry.data;
 ---
 
 <footer class="sl-flex">
 	<div class="meta sl-flex">
 		<EditLink />
 		<LastUpdated />
+	{
+		authors && (
+		<p class="authors">Authors: {authors}</p>
+		)
+	}
         <p>Copyright © 2001-2025 SIL Global and released under the Creative Commons Attribution-ShareAlike 4.0 International license <a href="https://creativecommons.org/licenses/by-sa/4.0/">(CC BY-SA 4.0)</a> unless noted otherwise. <a href="https://writingsystems.info/support/policies/">Terms of Service, Terms of Use, and Privacy Policy.</a></p>
 	</div>
 	<Pagination />
