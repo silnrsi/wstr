@@ -37,5 +37,5 @@ Table with no-break space headers
 
 ### Normal h3 heading
 
-### [h3 heading that's also a link](test)
+### [h3 heading that's also a link](/reference/style-guide)
 
