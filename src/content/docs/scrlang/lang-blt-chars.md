@@ -117,6 +117,6 @@ _etc._ ||
 201D | ” | RIGHT DOUBLE QUOTATION MARK
 2019 | ’ | RIGHT SINGLE QUOTATION MARK
 
-<hr style="color:#C1C3C8">
+<hr style="border-bottom-color:#C1C3C8">
 
 [Back to Tai Dam](/scrlang/lang-blt)

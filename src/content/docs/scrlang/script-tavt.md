@@ -78,20 +78,20 @@ Tai Viet | AA80..AADF | 5.2 | [UAA80.pdf](http://www.unicode.org/charts/PDF/UAA8
 
 Google has been developing a font family called Noto, which aims to support all languages with a harmonious look and feel. Noto is Google’s answer to tofu. The name Noto is to convey the idea that Google’s goal is to see “no more tofu” (tofu being the nickname for the small square boxes displayed when characters are missing from a font). Noto has multiple styles and weights, and is freely available to all.
 
-<hr style="color:#C1C3C8">
+<hr>
 
 [SEAsite Tai Dam Font](https://seasite.niu.edu/tai/TaiDam/)
 
 The Center for Southeast Asian Studies (SEAsite) at Northern Illinois University has released two legacy fonts for displaying text in the Thai Song (Tai Song Dam) and Tai Dón (White Tai) languages. These can be freely downloaded in TTF format. They also post, under the name SIL Tai Dam, the legacy Tai Heritage font, but we recommend using the Unicode encoded  Tai Heritage Pro from SIL instead.
 
-<hr style="color:#C1C3C8">
+<hr>
 
 [SIL Tai Dam (custom-encoded) Fonts](http://scripts.sil.org/SILTD_home)
 
 The SIL Tai Dam fonts are regular and bold versions of the traditional Tai Dam script (now referred to as Tai Viet) and are closely based on handwritten letters. The fonts are available for both Macintosh and Windows systems and include keyboard definitions.
 Please note, these fonts are not Unicode encoded.  Tai Heritage Pro is a Unicode-encoded typeface based on the SIL Tai Dam fonts.
 
-<hr style="color:#C1C3C8">
+<hr>
 
 [Tai Heritage Pro Font](http://software.sil.org/taiheritage/)
 
@@ -99,7 +99,7 @@ Tai Heritage Pro is a Unicode encoded font, designed to reflect the traditional 
 
 ![Tai Heritage sample](images/tavt-THPSample.png)
 
-<hr style="color:#C1C3C8">
+<hr>
 
 **Tai Dam-Engish English-Tai Dam Vocabulary Book**
 
