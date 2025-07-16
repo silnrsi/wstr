@@ -15,9 +15,17 @@ Testing markdown, plugins, and extensions in a normal .md file
 | Header | Title |
 | Paragraph | Text |
 
+Table with empty headers
+
+| | |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+
+
 <hr>
 
-***
+---
 
-___
 
