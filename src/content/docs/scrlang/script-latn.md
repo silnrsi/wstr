@@ -84,17 +84,17 @@ Another purpose of this volume is to show what solutions have been adopted in va
 
 <hr style="border-bottom-color:#C1C3C8">
 
-[**Notes on Scripts, Orthographics and Characters, Lists of Terms**](https://r12a.github.io/scripts/#scriptnotes)
+[**Coverage of European Languages by ISO Latin Alphabets**](https://jkorpela.fi/8859.html)
 
-This page selects a few items that attempt to explain how scripts work in a way that is accessible to both the beginner and the script expert. The information includes tables of orthography descriptions, character notes and Unicode character apps.
-
-Richard Ishida's site also has [filterable lists of terms](https://r12a.github.io/scripts/index.html#termbases) that can be used for finding examples or testing for letter combinations. Many terms are accompanied by meaning, IPA and other transcriptions, and for all it is possible to see the sequence of characters used.
+This document shows which of the Latin alphabets No. 1 through 10 (as defined by ISO 8859) are necessary in order to cover all the required characters for a number of European languages.
 
 <hr style="border-bottom-color:#C1C3C8">
 
-[**Omniglot - Latin**](http://www.omniglot.com/writing/latin.htm)
+[**Problems of Diacritic Design for Latin Script Text Faces**](http://www.sil.org/~gaultney/ProbsOfDiacDesignLowRes.pdf)
 
-Succinct article charting the progression of the Latin alphabet from the 7th century BC until modern times, with a number of links to other relevant pages.
+This essay focuses on the challenges associated with diacritic design, and the techniques designers have used to address them. After a review of the definition, origin and classification of diacritics, each major problem is identified and analysed, with an emphasis on how they have been, or could be, overcome. The analysis concludes with a review of remaining problems, some recommendations for the type design community, and comments on the future of diacritic design.
+
+_Please note, this paper is originally hosted at [Victor Gaultney's research page](http://www.sil.org/~gaultney/research.html). Clicking the link below starts a direct download of the paper in PDF format._
 
 <hr style="border-bottom-color:#C1C3C8">
 
