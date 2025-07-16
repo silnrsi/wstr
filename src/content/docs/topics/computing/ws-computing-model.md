@@ -10,13 +10,13 @@ lastUpdated: 2025-07-16
 
 Successful writing system implementations (WSIs) depend on a wide variety of software, including operating systems, standalone applications, fonts, conversion tools and other utilities. Some of these, such as the underlying operating systems themselves, are outside the control of most WSI developers, and cannot be altered. Others are fully in the hands of independent companies and individuals. Despite these differences, it is possible to construct a general architectural model for WSIs.
 
-### Model
+## Model
 
 The following model encompasses text input, storage, processing, and output.
 
 ![SIL Writing Systems Computing Model](images/2100-ws-computing-model.png "SIL Writing Systems Computing Model")
 
-#### Encoding
+### Encoding
 
 The model begins with _data encoding_—how language information is stored. Information is given a digital representation, encoded in terms of binary numerical values. For text data, the encoding refers to a set of rules by which the sequence of characters that make up a text are represented in terms of a sequence of numbers.
 
@@ -31,7 +31,7 @@ Examples of encoding components:
 - A set of Unicode codepoints defined for a given script that includes all needed characters (letters).
 - A storage format that allows data to be encoded according to Unicode.
 
-#### Input
+### Input
 
 Data needs to be entered into the computer or device somehow. This process involves _input_, whether by a physical or virtual keyboard or through some other input method. The technical process of keyboarding involves translating keystroke sequences into character data in some given encoding. Since most keyboard layouts are designed around the entry of Latin-script data, the routines needed to interpret keystrokes into language data for other scripts can be very complex, and are commonly built directly into computer operating systems.
 
@@ -43,7 +43,7 @@ Examples of keyboarding components:
 - A complex keyboard definition created for use with the Keyman program, that could be installed on a variety of systems.
 - A mobile device input system with predictive text. 
 
-#### Rendering
+### Rendering
 
 _Rendering_ takes stored text in a given encoding and presents it visibly on a screen or printed page. If the stored data exactly parallels the individual letters in a line of text, this is a simple process: one code per letter. Even in this situation it is important that the letter be shaped correctly, and harmonize with the rest of the alphabet. Font design is a subtle but important process. See [Font Design and Development][font-design-and-development] .
 
@@ -55,7 +55,7 @@ Examples of rendering components:
 - An OpenType font that has ‘smart’ code in order to display typographic ligatures required for fine Latin-script typesetting.
 - A Devanagari font that includes complex rules for conjunct formation.
 
-#### Analysis
+### Analysis
 
 Many WSIs include _analysis_ components. This refers to a variety of actions in which data is processed or analyzed so that:
 
@@ -72,7 +72,7 @@ Examples of analysis components:
 - Systems that turn text into a series of phonemes for speech synthesis.
 - A Spanish spell-checking module.
 
-#### Conversion
+### Conversion
 
 Basic _conversion_ components transform data from one encoding into another. Until the advent of Unicode, WSIs used hundreds of different encodings for their data. Some of these encodings were official standards, but others were proprietary and unique to a specific application program. Any time more than one encoding exists for a given language, there needs to be conversion routines and tools as a ‘bridge’ between them. This is especially relevant in the transition from older encodings to Unicode. Without reliable conversion, users were hesitant to migrate their data to newer systems.
 
@@ -83,7 +83,7 @@ Examples of conversion components:
 - A small program that converts text files back and forth between two encodings (such as the old MacRoman encoding and Unicode).
 - Definition files that document the differences and correspondences between encodings, and that could serve as input for a conversion tool.
 
-### Example
+## Example
 
 (add example of a script that needs all 5 components)
 

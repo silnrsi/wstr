@@ -19,8 +19,8 @@ The following sections address topics of [writing system identification][languag
 
 ### Additional resources
 
-- [Writing system (Wikipedia)][wiki-writingsystem]
-- [Types of writing system (Omniglot)][omni-typesofws]
+- [Writing system (Wikipedia)][wiki-writing-system]
+- [Types of writing system (Omniglot)][omni-types-of-ws]
 - [On the Typology of Writing Systems][fedorova2020]
 - [Orthography development][sil-orthography-dev]
 
@@ -29,8 +29,8 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 [fedorova2020]: https://www.fluxus-editions.fr/gla5-fedo.pdf
 [language-tagging]: /topics/writingsystems/language-tagging
 [locale-data]: /topics/writingsystems/locale-data
-[omni-typesofws]: https://www.omniglot.com/writing/types.htm
+[omni-types-of-ws]: https://www.omniglot.com/writing/types.htm
 [sil-orthography-dev]: https://www.sil.org/literacy-and-education/orthography-development
-[wiki-writingsystem]: https://en.wikipedia.org/wiki/Writing_system
+[wiki-writing-system]: https://en.wikipedia.org/wiki/Writing_system
 [ws-computing-model]: /topics/computing/ws-computing-model
 [wsig]: https://scripts.sil.org/wsi_guidelines.html

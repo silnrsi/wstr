@@ -3,7 +3,7 @@ title: Font Design & Development
 description: Font development, design, structures, metadata, and production
 sidebar:
   order: 5200
-lastUpdated: 2025-03-24
+lastUpdated: 2025-07-16
 ---
 
 Font development involves both graphic design and technical engineering. Here are some useful resources.
@@ -12,17 +12,17 @@ Font development involves both graphic design and technical engineering. Here ar
 
 [Font Development Best Practice (FDBP)][fdbp] provides detailed technical guidance on font development. We plan to eventually migrate the contents of FDBP to this site. The information below is only a small portion of that available in FDBP.
 
-[Fonts and Layout for Global Scripts][flgscozens] has some excellent foundational material on font concepts and a detailed introduction to the complexities of OpenType.
+[Fonts and Layout for Global Scripts][cozens-flgs] has some excellent foundational material on font concepts and a detailed introduction to the complexities of OpenType.
 
-The [Google Fonts Guide][gf-guide] contains information for font developers wishing to submit their fonts to the [Google Fonts service][google-fonts]. Although some of the guidance is unique to Google Fonts, much of it is generally good practice.
+The [Google Fonts Guide][gf-guide] contains information for font developers wishing to submit their fonts to the [Google Fonts service][gf]. Although some of the guidance is unique to Google Fonts, much of it is generally good practice.
 
 The documentation for font design tools, such as [Glyphs][glyphs] and [FontLab][fontlab] is also a rich source of information.
 
 ## Formats
 
-The most common format for fonts used on desktop computers is [OpenType][wikipedia-opentype]. There are two primary _flavors_ of OpenType fonts, TrueType (.ttf) and CFF (.otf). The primary difference between them is how glyph outlines are defined. Both offer the same advanced typograpic features. Font design tools happily read, write, and convert between them. The older [TrueType ][wikipedia-truetype] (only) format, which confusingly shares the same file extension (.ttf), did not offer advanced features.
+The most common format for fonts used on desktop computers is [OpenType][wiki-opentype]. There are two primary _flavors_ of OpenType fonts, TrueType (.ttf) and CFF (.otf). The primary difference between them is how glyph outlines are defined. Both offer the same advanced typograpic features. Font design tools happily read, write, and convert between them. The older [TrueType ][wiki-truetype] (only) format, which confusingly shares the same file extension (.ttf), did not offer advanced features.
 
-Web fonts have also had a variety of _flavors_ (WOFF, SVG, EOT, and others), however the growing standard is [WOFF/WOFF2][wikipedia-woff], which repackages OpenType fonts into a highly compressed and efficient file. All font design tools and current web browsers support WOFF.
+Web fonts have also had a variety of _flavors_ (WOFF, SVG, EOT, and others), however the growing standard is [WOFF/WOFF2][wiki-woff], which repackages OpenType fonts into a highly compressed and efficient file. All font design tools and current web browsers support WOFF.
 
 Font sources are stored in a variety of formats. These are not installable fonts:
 
@@ -61,10 +61,10 @@ Font design tools can export fonts in common formats (.ttf, .otf, .woff) but the
 See the [SIL Font Development Guide][silfontdev] for detailed guidance on how to build, modify, and contribute to [SIL font projects][silfonts].
 
 
+[cozens-flgs]: https://simoncozens.github.io/fonts-and-layout/
 [fdbp]: https://silnrsi.github.io/FDBP/en-US/index.html
 [fdbp-metadata]: https://silnrsi.github.io/FDBP/en-US/Font_Metadata.html
 [fdbp-ufo]: https://silnrsi.github.io/FDBP/en-US/UFO.html
-[flgscozens]: https://simoncozens.github.io/fonts-and-layout/
 [font-bakery]: https://github.com/fonttools/fontbakery
 [fontforge]: https://fontforge.org/
 [fontlab]: https://www.fontlab.com/
@@ -74,13 +74,13 @@ See the [SIL Font Development Guide][silfontdev] for detailed guidance on how to
 [gf-guide]: https://googlefonts.github.io/gf-guide/
 [glyphs]: https://glyphsapp.com/
 [glyphslib]: https://github.com/googlefonts/glyphsLib
-[google-fonts]: https://fonts.google.com/
+[gf]: https://fonts.google.com/
 [pysilfont]: https://github.com/silnrsi/pysilfont
 [robofont]: https://robofont.com/
 [silfontdev]: https://silnrsi.github.io/silfontdev/en-US/index.html
 [silfonts]: https://software.sil.org/fonts/
 [smith]: https://github.com/silnrsi/smith
 [ufo]: https://unifiedfontobject.org/
-[wikipedia-opentype]: https://en.wikipedia.org/wiki/OpenType
-[wikipedia-truetype]: https://en.wikipedia.org/wiki/TrueType
-[wikipedia-woff]: https://en.wikipedia.org/wiki/Web_Open_Font_Format
+[wiki-opentype]: https://en.wikipedia.org/wiki/OpenType
+[wiki-truetype]: https://en.wikipedia.org/wiki/TrueType
+[wiki-woff]: https://en.wikipedia.org/wiki/Web_Open_Font_Format
