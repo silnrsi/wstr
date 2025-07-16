@@ -1,5 +1,5 @@
 ---
-title: Markdown testing non-MDX
+title: Markdown testing
 description: Testing markdown plugins and extensions in a normal .md file
 sidebar:
   order: 9800.2
