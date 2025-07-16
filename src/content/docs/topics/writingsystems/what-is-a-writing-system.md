@@ -15,7 +15,22 @@ A _writing system implementation_ (WSI) refers to **a set of software components
 
 Common examples of WSIs would be those computer systems found in newspaper publishing houses around the world. WSIs can be very simple, such as for English, for which only a simple font is needed. They can also be complex and include expensive, dedicated software applications. For instance, to use Chinese on a computer requires a combination of fonts, input systems, and publishing software that can write both horizontally and vertically.
 
+The following sections address topics of [writing system identification][language-tagging] and [locale data][locale-data]. For more information on writing system implementations, see the [writing systems computing model][ws-computing-model]
+
+### Additional resources
+
+- [Writing system (Wikipedia)][wiki-writingsystem]
+- [Types of writing system (Omniglot)][omni-typesofws]
+- [On the Typology of Writing Systems][fedorova2020]
+- [Orthography development][sil-orthography-dev]
 
 _Portions of this content first appeared in [Guidelines for Writing System Support][wsig], copyright © 2003 UNESCO and SIL International._
 
+[fedorova2020]: https://www.fluxus-editions.fr/gla5-fedo.pdf
+[language-tagging]: /topics/writingsystems/language-tagging
+[locale-data]: /topics/writingsystems/locale-data
+[omni-typesofws]: https://www.omniglot.com/writing/types.htm
+[sil-orthography-dev]: https://www.sil.org/literacy-and-education/orthography-development
+[wiki-writingsystem]: https://en.wikipedia.org/wiki/Writing_system
+[ws-computing-model]: /topics/computing/ws-computing-model
 [wsig]: https://scripts.sil.org/wsi_guidelines.html
