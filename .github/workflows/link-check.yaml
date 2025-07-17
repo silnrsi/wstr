@@ -26,7 +26,9 @@ jobs:
         run: npm install
       - name: Check Internal links
         run: |
+          npm run linkcheck 1>linkcheck.log 2>&1; RES=$?
           echo '### Link check Report' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          npm run linkcheck 2>&1 | sed -r '/ validating links /,/^$/!d' >> $GITHUB_STEP_SUMMARY
+          sed '/ validating links /,/^$/!d' linkcheck.log >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
+          exit $RES
