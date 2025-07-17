@@ -44,7 +44,7 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 ## Resources for this language
 
-* [Keyman keyboards for Tai Dam](https://keyman.com/keyboards?q=Tai%20Dam)
+* [**Keyman keyboards for Tai Dam**](https://keyman.com/keyboards?q=Tai%20Dam)
 
 * [**SEAsite Tam Dam fonts**](http://seasite.niu.edu/tai/TaiDam/): The Center for Southeast Asian Studies (SEAsite) at Northern Illinois University has released two legacy fonts for displaying text in the Thai Song (Tai Song Dam) and Tai Dón (White Tai) languages. These can be freely downloaded in TTF format. They also post, under the name SIL Tai Dam, the legacy Tai Heritage font, but we recommend using the Unicode encoded Tai Heritage Pro from SIL instead.
 

@@ -6,9 +6,7 @@ sidebar:
 lastUpdated: 2025-07-14
 ---
 
-![Tai Viet sample](images/tavt-sample.png)
-
-_"Mr. Countless Warts", recorded 1969-70 by B.Q., transcribed by Jay and Dorothy Fippinger_
+![Tai Viet sample](images/tavt-sample.png "Mr. Countless Warts", recorded 1969-70 by B.Q., transcribed by Jay and Dorothy Fippinger)
 
 <span style="font-size:24px; font-weight:600">Script Features</span> | |
 --------------- | -------- |
