@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  link-check:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
@@ -24,5 +24,13 @@ jobs:
           cache-dependency-path: package-lock.json
       - name: Install
         run: npm install
-      - name: Check Internal links
-        run: npm run linkcheck
+      - name: Check internal links
+        run: npm run linkcheck 1>linkcheck.log 2>&1
+      - name: Generate Report
+        if: ${{ failure() }}
+        run: |
+          echo '### Link check Report' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          sed '/ validating links /,/^$/!d' linkcheck.log >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
