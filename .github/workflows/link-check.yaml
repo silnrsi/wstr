@@ -11,9 +11,8 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  link-check:
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
