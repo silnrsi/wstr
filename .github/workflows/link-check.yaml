@@ -28,5 +28,5 @@ jobs:
         run: |
           echo '### Link check Report' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          npm run linkcheck 2>&1 | sed -r '/ validating links /,/^$/!d'
+          npm run linkcheck 2>&1 | sed -r '/ validating links /,/^$/!d' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
