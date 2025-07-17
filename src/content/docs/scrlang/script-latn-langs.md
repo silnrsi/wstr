@@ -56,6 +56,6 @@ Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>v
 <u>Aguano</u> | aga-Latn | unwritten | | aga-Latn-PG (Papua New Guinea) |
 _etc._ | | |
 
-<hr style="border-bottom-color:#C1C3C8">
+<hr>
 
 [Back to Latn script](/scrlang/script-Latn)

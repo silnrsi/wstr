@@ -8,7 +8,9 @@ lastUpdated: 2025-06-25
 
 ![Latin sample](images/latn-sample.png)
 
-<span style="font-size:20px; font-weight:600">Script Features</span> | | | |
+## Script Features
+
+| | | |
 ------------------- | --- | --- | --- |
 **Script type** | alphabet            | **Diacritics** | yes |
 **Family** | European                 | **Contextual forms** | no |
@@ -82,13 +84,13 @@ This book seeks to make accessible to a wider public a sample of some 200 alphab
 
 Another purpose of this volume is to show what solutions have been adopted in various African countries for the difficult questions of special characters, writing tone, making word breaks, etc. We want to help developers of new alphabets make the wisest choices and to assist revisors make existing alphabets more practically useful. Hopefully it will also encourage the use of hitherto untapped resources.
 
-<hr style="border-bottom-color:#C1C3C8">
+<hr>
 
 [**Coverage of European Languages by ISO Latin Alphabets**](https://jkorpela.fi/8859.html)
 
 This document shows which of the Latin alphabets No. 1 through 10 (as defined by ISO 8859) are necessary in order to cover all the required characters for a number of European languages.
 
-<hr style="border-bottom-color:#C1C3C8">
+<hr>
 
 [**Problems of Diacritic Design for Latin Script Text Faces**](http://www.sil.org/~gaultney/ProbsOfDiacDesignLowRes.pdf)
 
@@ -96,11 +98,17 @@ This essay focuses on the challenges associated with diacritic design, and the t
 
 _Please note, this paper is originally hosted at [Victor Gaultney's research page](http://www.sil.org/~gaultney/research.html). Clicking the link below starts a direct download of the paper in PDF format._
 
-<hr style="border-bottom-color:#C1C3C8">
+<hr>
 
 [**On Diacritics**](http://ilovetypography.com/2009/01/24/on-diacritics/)
 
 Article about the importance of Latin diacritics, and the challenges faced by type designers who want to include them in their fonts. The issues of weight and size, placement, stylistic harmony, and fitting / kerning are summarized, and particular mention is made of the caron.
+
+<hr>
+
+[**Script change in Azerbaijan: acts of identity**](http://dx.doi.org/10.1515/IJSL.2008.038)
+
+This article describes the history of script change in the Azeri (Azerbaijani) language.
 
 ## General resources
 
