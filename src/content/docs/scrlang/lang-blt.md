@@ -26,25 +26,25 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 ## Characters used by this language
 
-[Tai Dam written with Tai Viet script](/scrlang/lang-blt-chars#blt-Tavt)
+* [Tai Dam written with Tai Viet script](/scrlang/lang-blt-chars#blt-Tavt)
 
-[Tai Dam written with Latin script](/scrlang/lang-blt-chars#blt-Latn)
+* [Tai Dam written with Latin script](/scrlang/lang-blt-chars#blt-Latn)
 
 ## Articles about this language
 
-[Writing the Tai Dam language](/scrlang/articles/writing-tai-dam-language)
+* [Writing the Tai Dam language](/scrlang/articles/writing-tai-dam-language)
 
-[ScriptSource: Geographic Use of the Tai Viet Script](https://scriptsource.org/entry/hg7bh64873)
+* [ScriptSource: Geographic Use of the Tai Viet Script](https://scriptsource.org/entry/hg7bh64873)
 
-[ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/entry/67379a5c7f)
+* [ScriptSource: Sociolinguistic background of the Tai Viet script](https://scriptsource.org/entry/67379a5c7f)
 
-[ScriptSource: Tai Viet Consonants](https://scriptsource.org/entry/lbwpkrqk7b)
+* [ScriptSource: Tai Viet Consonants](https://scriptsource.org/entry/lbwpkrqk7b)
 
-[ScriptSource: Tai Viet Vowels](https://scriptsource.org/entry/lbwpkrqk7b)
+* [ScriptSource: Tai Viet Vowels](https://scriptsource.org/entry/lbwpkrqk7b)
 
 ## Resources for this language
 
-[Keyman keyboards for Tai Dam](https://keyman.com/keyboards?q=Tai%20Dam)
+* [Keyman keyboards for Tai Dam](https://keyman.com/keyboards?q=Tai%20Dam)
 
 * [**SEAsite Tam Dam fonts**](http://seasite.niu.edu/tai/TaiDam/): The Center for Southeast Asian Studies (SEAsite) at Northern Illinois University has released two legacy fonts for displaying text in the Thai Song (Tai Song Dam) and Tai Dón (White Tai) languages. These can be freely downloaded in TTF format. They also post, under the name SIL Tai Dam, the legacy Tai Heritage font, but we recommend using the Unicode encoded Tai Heritage Pro from SIL instead.
 
@@ -56,14 +56,14 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 ## Links
 
-[Ethnologue](http://www.ethnologue.com/language/blt)
+* [Ethnologue](http://www.ethnologue.com/language/blt)
 
-[ISO 639-3 page for Tai Dam](http://iso639-3.sil.org/code/blt)
+* [ISO 639-3 page for Tai Dam](http://iso639-3.sil.org/code/blt)
 
-[Open Language Archives Community](http://www.language-archives.org/language/blt)
+* [Open Language Archives Community](http://www.language-archives.org/language/blt)
 
-[Glottolog entry for Tai Dam](http://www.glottolog.org/glottolog?iso=blt)
+* [Glottolog entry for Tai Dam](http://www.glottolog.org/glottolog?iso=blt)
 
-[SIL Language and Culture Archives](http://www.sil.org/resources/search/language/blt)
+* [SIL Language and Culture Archives](http://www.sil.org/resources/search/language/blt)
 
-[Universal Declaration of Human Rights in Tai Dam](http://efele.net/udhr/d/udhr_blt.txt)
+* [Universal Declaration of Human Rights in Tai Dam](http://efele.net/udhr/d/udhr_blt.txt)
