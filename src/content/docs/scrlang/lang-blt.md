@@ -44,27 +44,15 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 ## Resources for this language
 
-### Keyman keyboards
-
 [Keyman keyboards for Tai Dam](https://keyman.com/keyboards?q=Tai%20Dam)
 
-### SEAsite fonts
+* [**SEAsite Tam Dam fonts**](http://seasite.niu.edu/tai/TaiDam/): The Center for Southeast Asian Studies (SEAsite) at Northern Illinois University has released two legacy fonts for displaying text in the Thai Song (Tai Song Dam) and Tai Dón (White Tai) languages. These can be freely downloaded in TTF format. They also post, under the name SIL Tai Dam, the legacy Tai Heritage font, but we recommend using the Unicode encoded Tai Heritage Pro from SIL instead.
 
-The Center for Southeast Asian Studies (SEAsite) at Northern Illinois University has released two legacy fonts for displaying text in the Thai Song (Tai Song Dam) and Tai Dón (White Tai) languages. These can be freely downloaded in TTF format. They also post, under the name SIL Tai Dam, the legacy Tai Heritage font, but we recommend using the Unicode encoded Tai Heritage Pro from SIL instead.
-
-[SEAsite Tam Dam fonts](http://seasite.niu.edu/tai/TaiDam/)
-
-### Tai Heritage Pro font
-
-Tai Heritage Pro is a Unicode encoded font, designed to reflect the traditional hand-written style of the Tai Viet script. This is a sample paragraph of the font in use.
+* [**Tai Heritage Pro**](http://software.sil.org/taiheritage/): Tai Heritage Pro is a Unicode encoded font, designed to reflect the traditional hand-written style of the Tai Viet script. This is a sample paragraph of the font in use.
 
 ![](images/tavt-THPSample.png)
 
-[Tai Heritage Pro](http://software.sil.org/taiheritage/)
-
-### Tai Dam-Engish English-Tai Dam Vocabulary Book
-
-Baccan Don, Baccam Hung, Baccam Faluang, Dorothy Fippinger, _Tai Dam-English English-Tai Dam Vocabulary Book_ (Decorah, IA: The Anundsen Publishing Company: 1989).
+* **Tai Dam-Engish English-Tai Dam Vocabulary Book**: Baccan Don, Baccam Hung, Baccam Faluang, Dorothy Fippinger, _Tai Dam-English English-Tai Dam Vocabulary Book_ (Decorah, IA: The Anundsen Publishing Company: 1989).
 
 ## Links
 
