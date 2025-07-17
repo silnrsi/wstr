@@ -16,9 +16,6 @@ export default defineConfig({
 				// TODO: Turn this on to test out if we want automatic
 				// heading links. If so remove it as `true` is the new default.
 				headingLinks: false,
-				shikiConfig: {				// TODO: Check if Expressive Code
-					theme: 'css-variables', // block render has been disable
-				},							// and remove if it's not required.
 			},
 			logo: {
 				src: './src/assets/logo.svg',
