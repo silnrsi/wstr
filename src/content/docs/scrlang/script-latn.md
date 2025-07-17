@@ -10,7 +10,7 @@ lastUpdated: 2025-06-25
 
 ## Script Features
 
-| | | |
+| | | | |
 ------------------- | --- | --- | --- |
 **Script type** | alphabet            | **Diacritics** | yes |
 **Family** | European                 | **Contextual forms** | no |

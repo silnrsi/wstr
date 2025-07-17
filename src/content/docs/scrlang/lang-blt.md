@@ -7,6 +7,7 @@ lastUpdated: 2025-06-25
 ---
 
 ## Language Features
+
 | | |
 ------------------- | -- |
 **Local name** | ꪼꪕꪒꪾ, ꞌTáy, ꞌTáy Ðăm    
