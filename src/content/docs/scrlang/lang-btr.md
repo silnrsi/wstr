@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-07-15
 ---
 
-<span style="background-color:yellow>_This is an example of a minimal language page._</span>
+<span style="background-color:yellow">_This is an example of a minimal language page._</span>
 
 ## Language Features
 

@@ -6,9 +6,11 @@ sidebar:
 lastUpdated: 2025-07-15
 ---
 
-<span style="background-color:yellow>_This is an example of a minimal script page._</span>
+<span style="background-color:yellow">_This is an example of a minimal script page._</span>
 
-<span style="font-size:20px; font-weight:600">Script Features</span> | | | |
+## Script Features
+
+| | |
 ------------------- | --- | --- | --- |
 **Script type** | alphabet            | **Diacritics** | yes |
 **Family** | Indic                    | **Contextual forms** | [unknown] |

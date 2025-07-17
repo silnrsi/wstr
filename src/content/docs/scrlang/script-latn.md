@@ -8,7 +8,9 @@ lastUpdated: 2025-06-25
 
 ![Latin sample](images/latn-sample.png)
 
-<span style="font-size:20px; font-weight:600">Script Features</span> | | | |
+## Script Features
+
+| | | |
 ------------------- | --- | --- | --- |
 **Script type** | alphabet            | **Diacritics** | yes |
 **Family** | European                 | **Contextual forms** | no |
