@@ -1,7 +1,5 @@
 ---
 const { scrproptest1 } = Astro.locals.starlightRoute.entry.data;
-const { scrpropRegion } = Astro.locals.startlightRoute.entry.data;
-const { scrpropStatus } = Astro.locals.startlightRoute.entry.data;
 ---
 
 <div>
@@ -19,11 +17,11 @@ const { scrpropStatus } = Astro.locals.startlightRoute.entry.data;
 		</tr>
 		<tr>
 			<td><strong>Script region</strong></td>
-			<td>{scrpropRegion}</td>
+			<td>{Astro.locals.starlightRoute.entry.data.scrpropRegion}</td>
 		</tr>
 		<tr>
 			<td><strong>Script status</strong></td>
-			<td>{scrpropStatus}</td>
+			<td>{Astro.locals.starlightRoute.entry.data.scrpropStatus}</td>
 		</tr>
 	</tbody>
 	</table>
