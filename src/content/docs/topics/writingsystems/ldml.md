@@ -77,7 +77,7 @@ Note that I also added the traditional separated 'LL' back into this example for
 
 ### The Building Blocks of LDML
 
-This page will assume you know how XML files work. If you are unfamiliar with this filetype, INSERT A REFERENCE HERE is an excellent place to start. 
+This page will assume you understand how to write and use XML files. If you are unfamiliar with this markup language, [W3Schools' XML Tutorial](https://www.w3schools.com/xml/xml_whatis.asp) is an excellent place to start.
 
 The list of elements, their child elements, and attributes used in an LDML file is found in the `ldml.dtd`. The SLDR has its own `sil.dtd` with some additional SLDR-specific elements, which are listed under "special". Both of these files can be found in the [auxdata][dtds] folder of the SLDR. 
 
@@ -244,7 +244,7 @@ The "features" attribute lists any font features that should be active by defaul
 
 Finally, the "lang" attribute is used to set "language features" used primarily with Arabic fonts to reflect the differences in character shaping between different Arabic-script languages. For example, Scheherazade New supports Urdu, Kurdish, Kyrgyz, Sindhi, Rohingya, and Wolof, and these parameters are set using the "lang" attribute instead of listing several different codes under the "features" attribute. To see differences within the same font using different "lang" attributes, look at the examples on the [Font Features page for the Scheherazade New font][sch features].
 
-In addition, each font entry contains an `sil:url` child element containing the URL for that font. If that font is an SIL font, the link comes from the Language Font Finder (LFF) API. Otherwise, the link comes from the source of the font, such as the Google Fonts GitHub repository for the various Noto fonts. 
+In addition, each font entry contains an `sil:url` child element containing the URL for that font. Most of these links, including all SIL fonts, direct to the Language Font Finder (LFF) API. In some cases, however, the link directs to the source of the font, such as the Google Fonts GitHub repository for several Noto fonts. 
 
 ***Keyboards***
 
@@ -288,7 +288,35 @@ Make sure the draft attribute for a collation element is located in the \<cr> pa
 
 ### Inheritance
 
-A placeholder bc it occurred to me that this might need a section. Because it's not always intuitive. Not sure. 
+An individual LDML file may not contain all of the information relevant to that locale, if that information is already described in that file's "parent" locale. LDML files will "inherit" data from other files in the CLDR or SLDR. This allows for LDML files to only contain data unique to that locale. 
+
+For example, the file `en.xml` (English in the United States) is the parent locale for any LDML files concerning English spoken in other countries. An LDML file for `en_GB.xml` (English spoken in Great Britain) would be considerably shorter than `en.xml` because it assumes that the file should "inherit" any missing information from the base `en.xml` file. Since English in Great Britain uses the same characters as English in the US, there would be nothing listed for the Characters element, and the file would inherit that information from `en.xml`. However, unlike the United States, Great Britain formats dates with the day before the month (e.g. 31/12/2025 instead of 12/31/2025). As a result, the `en_GB.xml` file would include that information in the Dates element, overriding the information that would have otherwise been inherited from `en.xml`.
+
+At minimum, every locale has at least one parent in the form of `root.xml`. This file is a generic locale that attempts to be as language and territory neutral as possible. Many of the fields within this file are empty or placeholders, such as calling the first month "M01" or listing the main exemplar as "[]" (AKA, an empty regex). Due to the nature of the global technical landscape, many of the placeholder values in `root.xml` are in English. As a result, the base file for English, `en.xml`, actually contains less data than many other base language files, as it can inherit much of the information from `root.xml` without needing any changes. 
+
+Due to the existence of `root.xml`, many files have to chain through multiple parents to inherit all of their information. For example, the file for `en_GB.xml` (English spoken in Great Britain) must first fall back to `en.xml`, which in turn falls back to `root.xml`. The information at the top of the chain has priority, but if no data is given for a field by the end of the chain, it all goes back to root. 
+
+Note that, while the SLDR, elements to be inherited from a parent locale are simply absent from the child locale, the CLDR indicates that an element should inherit data from its parent with three upward-pointing arrows in the element's field, such as:
+``` 
+    <exemplarCharacters>↑↑↑</excemplarCharacters>
+```
+This is a visual reminder of the inheritance process for human ease-of-use, and is not required.
+
+***Non-Standard Parent Locales***
+
+Unfortunately, identifying a parent file for inheritance is not always as simple as "remove the extra parts of a langtag". Most notably, files do NOT fall back to the file for the base language if they use a different script. For example, the file `ru.xml` (Russian) uses Cyrillic script. The file `ru_Latn.xml` uses Latin script. If `ru_Latn.xml` were to inherit from `ru.xml`, the flattened form of `ru_Latn.xml` would contain inherited data written in Cyrillic, which is not correct. Therefore, `ru_Latn.xml` falls back directly to `root.xml`. 
+
+There is no official term for these unique fallback chains, but for the puroses of this page, I will be refering to them as "non-standard" parent locales. 
+
+There are other reasons for non-standard parent locales beyond script differences. Some files need to fall back to a specific region before the base file, such as the files for Spanish spoken in any Latin American country, which need to first fall back to `es_412.xml` (Spanish spoken in Latin America) before that file falls back to `es.xml` (Spanish spoken in Spain). Some files even fall back to a file using the same script and/or region for a different language: `hi_Latn.xml` (Hindi using Latin Script) falls back to `en_IN.xml` (English spoken in India) instead of `hi.xml` (Hindi spoken in India), while `ht.xml` (Haitain Creole) falls back to `fr_HT.xml` (French spoken in Haiti) instead of inheriting directly from `root.xml`.
+
+The CLDR stores the rules for non-standard parent locales in their supplemental data file, which is described on [page 6 of UTS#35](https://unicode-org.github.io/cldr/ldml/tr35-info.html#Parent_Locales). 
+
+***Flattening***
+
+Regardless of the complexity of the inheritance chain, when referencing an LDML file, it's important to either "flatten" the file or ensure that the parent files are also included in that reference process. "Flattening" an LDML file refers to creating a substancially larger version of a file that explicitly contains any information that is inherited from its parents, rather than leaving those spots empty. 
+
+Full details on inheritance can be found on page 1 of UTS#35, under the heading [Locale Inheritance and Matching](https://unicode-org.github.io/cldr/ldml/tr35.html#Locale_Inheritance).
 
 ### Text Formatting Tips
 
