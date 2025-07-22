@@ -51,8 +51,8 @@ The specifications for LDML structure are described in [Unicode Technical Standa
     </collations>
     <special>
         <sil:external-resources>
-            <sil:font name="Charis SIL" types="default" features="ss04=1 cv43=2 cv68=1 cv77=1 cv90=1">
-                <sil:url>https://lff.api.languagetechnology.org/family/charissil</sil:url>
+            <sil:font name="Charis" types="default" features="ss04=1 cv43=2 cv68=1 cv77=1 cv90=1">
+                <sil:url>https://lff.api.languagetechnology.org/family/charis</sil:url>
             </sil:font>
             <sil:font name="Noto Sans">
                 <sil:url>https://github.com/googlefonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf</sil:url>
@@ -71,15 +71,13 @@ The specifications for LDML structure are described in [Unicode Technical Standa
 </ldml>
 ```
 
-This is not an all-inclusive list of the potential elements that could be included in an LDML file, nor a complete representation of the actual file for Spanish in the CLDR. Rather, it is an example of the formatting and some of the more easily-recognized information within, such as names of languages in said language (locale display names), an alphabet (exemplar characters), and sort order (collation). 
+This is not an all-inclusive list of the potential elements that could be included in an LDML file, nor a complete representation of the actual file for Spanish in the CLDR or SLDR. Rather, it is an example of the formatting and some of the more easily-recognized information within, such as names of languages in said language (locale display names), an alphabet (exemplar characters), sort order (collation), and special elements unique to the SLDR. 
 
 Note that I also added the traditional separated 'LL' back into this example for the purpose of demonstration. It is no longer present as a separate multigraph in the current version of the CLDR. 
 
 ### The Building Blocks of LDML
 
-!!!!!!!!!! THIS BIT IS UNFINISHED BTW THIS IS A PLACEHOLDER !!!!!!!!!
-
-This page will assume you know how XML files work, otherwise this will become a novel. 
+This page will assume you know how XML files work. If you are unfamiliar with this filetype, INSERT A REFERENCE HERE is an excellent place to start. 
 
 The list of elements, their child elements, and attributes used in an LDML file is found in the `ldml.dtd`. The SLDR has its own `sil.dtd` with some additional SLDR-specific elements, which are listed under "special". Both of these files can be found in the [auxdata][dtds] folder of the SLDR. 
 
@@ -233,8 +231,8 @@ The special element holds a child element called `sil:external-resources`, which
 An `sil:font` element can contain a variety of attributes, but the most important ones are "name", "types", "features", and "lang".
 
 ```
-<sil:font name="Charis SIL" types="default" features="ss04=1 cv43=2 cv68=1 cv77=1 cv90=1">
-    <sil:url>https://lff.api.languagetechnology.org/family/charissil</sil:url>
+<sil:font name="Charis" types="default" features="ss04=1 cv43=2 cv68=1 cv77=1 cv90=1">
+    <sil:url>https://lff.api.languagetechnology.org/family/charis</sil:url>
 </sil:font>
 ```
 
@@ -306,7 +304,7 @@ Information about regexes can be found online in a number of places, though not 
 
 Escaping in a regex is done by adding a backslash immediately before the character that needs escaping. You can see examples of this in the punctuation exemplar in the example above: the very first character, a hyphen (`\-`), is escaped in this way. Similarly, the backslash listed as a punctuation mark in this list is also escaped by adding a second backslash (`\\`). 
 
-Finally, a handful of characters require the whole character to be replaced with an HTML character reference, such as the ampersand, which is indicated as `\&amp;`. Notice that the escaping backslash is still present. The other two commonly-used character references are `&lt` and `&gt`, aka 'less than' (<) and 'greater than' (>). These do need to be written as their character references in an LDML file, but they do not need to be escaped. 
+Finally, a handful of characters require the whole character to be replaced with an HTML character reference, such as the ampersand, which is indicated as `\&amp;`. Notice that the escaping backslash is still present. The other two commonly-used character references are `&lt` and `&gt`, aka 'less than' (<) and 'greater than' (>). These do need to be written as their character references in an LDML file, but they do not need to be preceded by an escaping backslash like the ampersand. 
 
 A third situation that uses escaping is Unicode codepoints. If, for whatever reason, it is preferable to reference a character by its Unicode codepoint instead of by typing the actual character, it is written as `\uXXXX`, where 'X' indicates one of the characters in the 4-digit hex code. If the hex code is less than 4 digits long, zeros (0) should be used at the beginning to fill the remaining spaces. If the hex code is longer than 4 digits, it should instead be written as `\UXXXXXXXX`, with 8 total digits, once again with zeros filling in any empty spaces. While the initial 'u' after the backslash is case-sensitive, the characters of the hex code itself are not; `\u00E1` and `\u00e1` are the same. 
 
@@ -316,9 +314,9 @@ This is most commonly used when the character will not display nicely when displ
 
 ***Multigraphs and Combining Diacritics***
 
-Multigraphs are an orthographic phenomenon in which two characters put together are treated as one single unit. In an LDML file, these are denoted by surrounding the grouped characters in curly brackets, such as the {LL} in the example above. This is important because the spaces between individual characters are only in these lists for human convenience; they do not indicate anything on a codified scale, nor are they required for the LDML file to function properly. To a computer, [s t] and [st] mean the same thing, so if you want to specifically indicate that "st" is a multigraph, you need to enter it as [{st}].  
+Multigraphs are an orthographic phenomenon in which two characters put together are treated as one single unit. In an LDML file, these are denoted by surrounding the grouped characters in curly brackets, such as the {LL} in the example at the top of this page. This is important because the spaces between individual characters are only in these lists for human convenience; they do not indicate anything on a codified scale, nor are they required for the LDML file to function properly. To a computer, [s t] and [st] mean the same thing, so if you want to specifically indicate that "st" is a multigraph, you need to enter it as [{st}].  
 
-Note that this is also required for any characters that use combining diacritics. This gets into the territory of Normalization, which is described in far greater detail [here][normalization]. Essentially, some characters with diacritics have their own unique codepoint that is separate from the two individual codepoints for the character and combining diacritic. For example, 'á' is codepoint U+00E1, while 'a' is U+0061 and the combining acute accent is U+0301. In this case, since 'á' has a single codepoint, no brackets are needed. However, in cases where there is no single codepoint for a specific character-diacritic combination, brackets are needed to ensure that the diacritic remains "attached" to its respective character. 
+Note that this is also required for any characters that use combining diacritics. This gets into the territory of Normalization, which is described in far greater detail in [Unicode Technical Standard #15][normalization]. Essentially, some characters with diacritics have their own unique codepoint that is separate from the two individual codepoints for the character and combining diacritic. For example, 'á' is codepoint U+00E1, while 'a' is U+0061 and the combining acute accent is U+0301. In this case, since 'á' has a single codepoint, no brackets are needed. However, in cases where there is no single codepoint for a specific character-diacritic combination, brackets are needed to ensure that the diacritic remains "attached" to its respective character. 
 
 For example, there is no single codepoint for 'a̱'. It consists of 'a' (U+0061) and the combining macron below (U+0331). If left without brackets in an exemplar list, the regex would assume that 'a' and the macron were two separate letters of the alphabet. Written with brackets as '{a̱}', however, causes the regex to treat it as a single unit, just as it would act with 'á'. 
 
@@ -326,16 +324,14 @@ A good rule of thumb if you aren't sure if a diacritic is part of the same codep
 
 #### Formatting Text in Collation
 
-Collation and Sorting is a complex enough topic to require a separate page on this site, found [here][collation]. However, for the sake of this article, it should be noted that tailored coalition follows different formatting rules than most other data found within the text sections of an XML file, particularly in regard to escaping and multigraphs. 
+Tailored coalition follows different formatting rules than most other data found within the text sections of an XML file, particularly in regard to escaping and multigraphs. 
 
 An escaped symbol in a collation is surrounded in single quotation marks/apostrophes, such as `'-'`, with the exception of an apostrophe itself, which is simply denoted by two apostrophes back to back: `''`. 
 
 Multigraphs do not need brackets to mark them as a single unit in a collation sequence, as every unit in a collation sequence is already separated by sets of arrows. Note in the example LDML file above, the various iterations of 'LL' do not have any additional markings surrounding them. 
 
-[normalization]: /topics/encoding/normalization 
-<!--- not actually a page yet, link may change :P --->
-[collation]: /topics/encoding/collation
-<!--- not actually a page yet, link may change :P --->
+[normalization]: https://unicode.org/reports/tr15/
+<!--- Eventually, the links that direct to UTS15 may link to a dedicated normalization page --->
 [uts35]: https://www.unicode.org/reports/tr35/ 
 [uts35gen]: https://unicode.org/reports/tr35/tr35-general.html
 [dtds]: https://github.com/silnrsi/sldr/tree/master/auxdata
