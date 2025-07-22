@@ -10,6 +10,7 @@ export const collections = {
         subtitle: z.string().optional(),
         authors: z.string().optional(),
         scrpropCode: z.string().optional(),
+        scrpropName: z.string().optional(),
         scrpropRegion: z.string().optional(),
         scrpropStatus: z.string().optional(),
       }),
