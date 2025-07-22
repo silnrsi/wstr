@@ -1,5 +1,6 @@
 ---
 const { scrpropCode } = Astro.locals.starlightRoute.entry.data;
+const { scrpropStatus } = Astro.locals.starlightRoute.entry.data;
 ---
 
 <div>
@@ -21,7 +22,7 @@ const { scrpropCode } = Astro.locals.starlightRoute.entry.data;
 		</tr>
 		<tr>
 			<td><strong>Script status</strong></td>
-			<td>How do I read this?</td>
+			<td>{scrpropStatus}</td>
 		</tr>
 	</tbody>
 	</table>
