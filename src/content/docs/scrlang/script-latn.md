@@ -3,25 +3,27 @@ title: Latin [Latn]
 description: Main script page
 sidebar:
     hidden: true
-lastUpdated: 2025-06-25
+lastUpdated: 2025-07-22
 ---
 
 ![Latin sample](images/latn-sample.png)
 
-## Script Features
+## Script features
 
-| | | | |
-------------------- | --- | --- | --- |
-**Script type** | alphabet            | **Diacritics** | yes |
-**Family** | European                 | **Contextual forms** | no |
-**Direction** | LTR                   | **Complex positioning** | yes |
-**Baseline** | bottom                 | **Reordering** | no |
-**Case** | yes                        | **Split graphs** | no |
-**White space** | discretionary       | **Ligatures** | optional |
-**ISO 15924 Code / Key** | Latn / 215 (left=to-right alphabetic) | **OpenType tag** | latn |
-**Status** | currently in use | | |
+| | |
+--- | --- |
+**Script type** | alphabet
+**Region** | European |
+**Direction** | LTR  |
+**Baseline** | bottom |
+**Case** | yes |
+**White space** | discretionary |
+**Complex behaviors** | diacritics, complex positioning, optional ligatures |
+**ISO 15924 Code / Key** | Latn / 215 (left=to-right alphabetic) |
+**OpenType tag** | latn |
+**Status** | currently in use |
 
-## Script Description
+## Script description
 
 The Latin script (also called the Roman script) is the most widely used writing system in the world, being the script of the English language, spoken by over 300,000,000 people worldwide. It is also the script used for writing a number of Romance, Germanic, Baltic and non-Indo-European languages, as well as the [International Phonetic Alphabet (IPA)](https://scriptsource.org/entry/ucgb77fkvh).
 
@@ -33,7 +35,7 @@ The Latin script is bicameral; it is written using both upper- and lower-case le
 
 Digits from 0-9 are used. These can be combined to represent larger numbers.
 
-## Languages that use this script (6431)
+## Languages that use this script
 
 Note that some of the languages listed are unwritten but would likely use Latin script if a writing system were developed.
 
@@ -68,49 +70,9 @@ _etc._ | | | |
 
 [Full Unicode status](/scrlang/script-latn-unicode)
 
-## Articles about this script
+## Resources
 
-[ScriptSource: Where do upper- and lower-case come from? (Part 1 of 2)](https://scriptsource.org/entry/a5aqyqlztp)
-
-[ScriptSource: Where do upper- and lower-case come from? (Part 2 of 2)](https://scriptsource.org/entry/d8mn7ztlj4)
-
-## Resources for this script
-
-**Alphabets of Africa**
-
-Hartell, Rhonda L., ed., _Alphabets of Africa_ (Dakar, Sengal: UNESCO and Summer Institute of Linguistics: 1993)
-
-This book seeks to make accessible to a wider public a sample of some 200 alphabets of the languages of Africa, especially those alphabets developed in the last 20 years. These alphabets should give a broad display of the linguistic richness of African languages.
-
-Another purpose of this volume is to show what solutions have been adopted in various African countries for the difficult questions of special characters, writing tone, making word breaks, etc. We want to help developers of new alphabets make the wisest choices and to assist revisors make existing alphabets more practically useful. Hopefully it will also encourage the use of hitherto untapped resources.
-
-<hr>
-
-[**Coverage of European Languages by ISO Latin Alphabets**](https://jkorpela.fi/8859.html)
-
-This document shows which of the Latin alphabets No. 1 through 10 (as defined by ISO 8859) are necessary in order to cover all the required characters for a number of European languages.
-
-<hr>
-
-[**Problems of Diacritic Design for Latin Script Text Faces**](http://www.sil.org/~gaultney/ProbsOfDiacDesignLowRes.pdf)
-
-This essay focuses on the challenges associated with diacritic design, and the techniques designers have used to address them. After a review of the definition, origin and classification of diacritics, each major problem is identified and analysed, with an emphasis on how they have been, or could be, overcome. The analysis concludes with a review of remaining problems, some recommendations for the type design community, and comments on the future of diacritic design.
-
-_Please note, this paper is originally hosted at [Victor Gaultney's research page](http://www.sil.org/~gaultney/research.html). Clicking the link below starts a direct download of the paper in PDF format._
-
-<hr>
-
-[**On Diacritics**](http://ilovetypography.com/2009/01/24/on-diacritics/)
-
-Article about the importance of Latin diacritics, and the challenges faced by type designers who want to include them in their fonts. The issues of weight and size, placement, stylistic harmony, and fitting / kerning are summarized, and particular mention is made of the caron.
-
-<hr>
-
-[**Script change in Azerbaijan: acts of identity**](http://dx.doi.org/10.1515/IJSL.2008.038)
-
-This article describes the history of script change in the Azeri (Azerbaijani) language.
-
-## General resources
+**[ScriptSource page for Latin](https://scriptsource.org/scr/Latn)**
 
 **[Script comparison table](https://r12a.github.io/scripts/script-features/)**
 

@@ -3,15 +3,17 @@ title: Baetora [btr]
 description: Main language page
 sidebar:
     hidden: true
+langCode: btr
+langStatus: Living
 lastUpdated: 2025-07-15
 ---
 
 <span style="background-color:yellow">_This is an example of a minimal language page._</span>
 
-## Language Features
+## Language features
 
 | | |
---------------------- | --- |
+--- | --- |
 **Local name** | |
 **Alternate names** | |
 **Dialects** | |
@@ -28,10 +30,12 @@ Script | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>var
 
 ## Links
 
-[Ethnologue](http://www.ethnologue.com/language/btr)
+**[Ethnologue](http://www.ethnologue.com/language/btr)**
 
-[ISO 639-3 page for Tai Dam](http://iso639-3.sil.org/code/btr)
+**[ISO 639-3 page for Tai Dam](http://iso639-3.sil.org/code/btr)**
 
-[Open Language Archives Community](http://www.language-archives.org/language/btr)
+**[ScriptSource page for Baetora](https://scriptsource.org/lang/btr)**
 
-[Glottolog entry for Tai Dam](http://www.glottolog.org/glottolog?iso=btr)
+**[Open Language Archives Community](http://www.language-archives.org/language/btr)**
+
+**[Glottolog entry for Tai Dam](http://www.glottolog.org/glottolog?iso=btr)**

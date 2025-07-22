@@ -3,31 +3,33 @@ title: Chisoi [Chis]
 description: Main script page
 sidebar:
     hidden: true
-lastUpdated: 2025-07-15
+lastUpdated: 2025-07-22
 ---
 
 <span style="background-color:yellow">_This is an example of a minimal script page._</span>
 
-## Script Features
+## Script features
 
-| | | | |
-------------------- | --- | --- | --- |
-**Script type** | alphabet            | **Diacritics** | yes |
-**Family** | Indic                    | **Contextual forms** | [unknown] |
-**Direction** | LTR                   | **Complex positioning** | [unknown] |
-**Baseline** | bottom                 | **Reordering** | no |
-**Case** | no                         | **Split graphs** | no |
-**White space** | between words       | **Ligatures** | none |
-**ISO 15924 Code / Key** | Chis / 21987 (left=to-right alphabetic) | **OpenType tag** | [none] |
-**Status** | currently in use | | |
+| | |
+--- | --- |
+**Script type** | alphabet |
+**Family** | Indic |
+**Direction** | LTR |
+**Baseline** | bottom |
+**Case** | no |
+**White space** | between words |
+**Complex behaviors** | diacritics |
+**ISO 15924 Code / Key** | Chis / 21987 (left=to-right alphabetic) |
+**OpenType tag** | [none] |
+**Status** | currently in use |
 
-## Script Description
+## Script description
 
 Chisoi is used in West Bengal, Odisha and Jharkhand for writing the Kurmali / Kudmali language. Since 2009 the script has been taught in more than 50 schools in West Bengal.
 
 The script is written from left to right. The script consists of eight vowels, twenty consonants, two linguistic signs and ten digits. Vowels are written as full letters, but consonants may have an inherent vowel. The script has no regular system of conjuncts. There are no attested ligatures.
 
-## Languages that use this script (1)
+## Languages that use this script
 
 Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
 -------- | ---------------------- | ------ | ------------------- | -------------------- |
@@ -45,7 +47,9 @@ A number of documents towards its inclusion have been submitted to the Unicode T
     * _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point A.III.4.)_
     * _UTC #174 Minutes ([L2/23-005](http://www.unicode.org/L2/L2023/23005.htm)) (See D.1. Section III.4 for decision and action items)_
 
-## General resources
+## Resources
+
+**[ScriptSource page for Chisoi](https://scriptsource.org/scr/Chis)**
 
 **[Script comparison table](https://r12a.github.io/scripts/script-features/)**
 
