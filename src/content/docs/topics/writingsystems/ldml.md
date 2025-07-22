@@ -3,10 +3,10 @@ title: LDML
 description: Description of LDML
 sidebar:
     order: 1520
-lastUpdated: 2025-07-11
+lastUpdated: 2025-07-22
 ---
 
-!!!! UNFINISHED. also some of the links dont work yet do not be alarmed by that !!!
+!!!! UNFINISHED. Still needs section on collation and draft attributes !!!
 
 ### What is LDML?
 
