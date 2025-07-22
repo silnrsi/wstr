@@ -58,4 +58,4 @@ _etc._ | | |
 
 <hr>
 
-[Back to Latn script](/scrlang/script-Latn)
+[Back to Latn script](/scrlang/script-latn)

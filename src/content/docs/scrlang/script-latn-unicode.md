@@ -52,4 +52,4 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 <hr>
 
-[Back to Latn script](/scrlang/script-Latn)
+[Back to Latn script](/scrlang/script-latn)
