@@ -1,0 +1,15 @@
+---
+const { scrpropName } = Astro.locals.starlightRoute.entry.data;
+const { scrpropCode } = Astro.locals.starlightRoute.entry.data;
+---
+
+<div>
+	<ul>
+		<li><a href='https://scriptsource.org/scr/{scrpropCode}'>ScriptSource page for {scrpropName}</a> - all about scripts, languages, and writing systems</li>
+		<li><a href='https://wikipedia.org/wiki/{scrpropName}'>Wikipedia page for {scrpropName}</a> - this link probably doesn't work</li>
+	</ul>
+</div>
+
+<style>
+</style>
+
