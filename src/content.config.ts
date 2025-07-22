@@ -9,7 +9,9 @@ export const collections = {
       extend: z.object({
         subtitle: z.string().optional(),
         authors: z.string().optional(),
-        scrproptest: z.string().optional(),
+        scrpropCode: z.string().optional(),
+        scrpropRegion: z.string().optional(),
+        scrpropStatus: z.string().optional(),
       }),
     }),
   }),
