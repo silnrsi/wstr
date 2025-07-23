@@ -1,12 +1,13 @@
 ---
-const { scrpropName } = Astro.locals.starlightRoute.entry.data;
-const { scrpropCode } = Astro.locals.starlightRoute.entry.data;
+const { scrpropname, scrpropcode } = Astro.locals.starlightRoute.entry.data;
+const ssurl = `https://scriptsource.org/scr/${scrpropcode}`;
+const wikiurl = `https://wikipedia.org/wiki/${scrpropname}`;
 ---
 
 <div>
 	<ul>
-		<li><a href='https://scriptsource.org/scr/{scrpropCode}'>ScriptSource page for {scrpropName}</a> - all about scripts, languages, and writing systems</li>
-		<li><a href='https://wikipedia.org/wiki/{scrpropName}'>Wikipedia page for {scrpropName}</a> - this link probably doesn't work</li>
+		<li><a href={ssurl}>ScriptSource page for {scrpropname}</a> - all about scripts, languages, and writing systems</li>
+		<li><a href={wikiurl}>Wikipedia page for {scrpropname}</a> - this link probably doesn't work</li>
 	</ul>
 </div>
 
