@@ -1,0 +1,25 @@
+---
+import testdatasimple from '../../data/testdatasimple.json';	
+
+export function getStaticPaths() {
+
+    return testdatasimple.map((lang) => ({
+        params: { lang: lang.code },
+    }));
+
+}
+
+const { lang } = Astro.params;
+
+const thislang = testdatasimple.find((tl) => tl.code === lang);
+
+if (!thislang) {
+  throw new Error(`Language with code ${lang} not found`);
+}
+
+const { code, name, region } = thislang;
+
+---
+
+<h2>Language: {name}</h2>
+<p>is from region: {region}</p>

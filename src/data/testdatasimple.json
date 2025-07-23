@@ -1,0 +1,12 @@
+[
+    {
+        "code": "fr",
+        "name": "French",
+        "region": "Europe"
+    },
+    {
+        "code": "hi",
+        "name": "Hindi",
+        "region": "South Asia"
+    }
+]
