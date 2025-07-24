@@ -44,7 +44,7 @@ The specifications for LDML structure are described in [Unicode Technical Standa
     <collations>
         <collation type="standard">
             <cr><![CDATA[
-                &L < ll <<< lL <<< Ll <<< LL
+                &L < ll <<< Ll <<< LL
                 &N < ñ <<< Ñ
             ]]></cr>
         </collation>
@@ -220,7 +220,93 @@ The timeZoneNames element, as the name implies, contains vocabulary used to desc
 
 #### Collations
 
-oh boy collation 
+Collation is the process of defining the sort order used for strings of characters within a given locale. For example, English collations sorts A, then B, then C, etc. 
+
+A "tailored" collation is a sort order that differs from the [Default Unicode Collation Element Table (DUCET)](https://www.unicode.org/reports/tr10/#Default_Unicode_Collation_Element_Table) inherited from `root.xml` (see the section on Inheritance below). An LDML file uses the Collation element to note the differences between the sorting rules of its locale. 
+
+In order to tailor a collation, arrows are used to "insert" specific characters or multigraphs after other characters. For example:
+
+```
+    <collations>
+        <collation type="standard">
+            <cr><![CDATA[
+                &L < ll <<< Ll <<< LL
+                &N < ñ <<< Ñ
+            ]]></cr>
+        </collation>
+    </collations>
+```
+
+In the collation above, "ll" now comes after "L" and "ñ" now comes after "N". Note that, for the multigraph "ll", this means that any instances of "ll" will be sorted as if it were a distinct letter from "l"; i.e. the word "llamar" would be sorted after the word "luna". 
+
+There are three levels of collation tailoring, as described in [Unicode Technical Report #10](https://www.unicode.org/reports/tr10/#Tailoring). Each level is marked with the number of arrows between two sets of characters. Level 1 collation is what comes to mind when one thinks of sort order, and is marked with one arrow (`&A < b`). Level 3 is used for capitalization, with lowercase before uppercase, and is marked with three arrows (`&A < b <<< B`). Level 2 is used for characters that are often left unsorted as part of the character that they follow, usually used for diacritics. For example, `&A << ä` means that "ä" is not sorted separately from "a" most of the time, but if someone *wanted* to also sort these diacritic marks, they could use the secondary sort strength to do so. 
+
+If a multigraph is in a tailored collation, it is good practice to include the full lowercase, titlecase, and full uppercase combinations in your level 3 tailoring. For example, the multigraph "NGB" would look like `&N < ngb <<< Ngb <<< NGB`. Other combinations of upper and lowercase are not necessary, as they are unlikely to appear in practical use. 
+
+A line of tailored collation can be as long as needed, so long as the next "jump" is on a new line. For example, this is a tentative collation written for `avu.xml` (Avokaya):
+
+```
+    <collations>
+		<collation type="standard">
+			<cr draft="tentative"><![CDATA[
+				&B < ꞌB <<< ꞌb
+				&D < ꞌd <<< ꞌD < dr <<< Dr <<< DR
+				&G < gb <<< Gb <<< GB
+				&K < kp <<< Kp <<< KP
+				&M < mb <<< Mb <<< MB < mv <<< Mv <<< MV
+				&N < nd <<< Nd <<< ND < ndr <<< Ndr <<< NDR < ng <<< Ng <<< NG < ngb <<< Ngb <<< NGB < nj <<< Nj <<< NJ < ny <<< Ny <<< NY < ŋ <<< Ŋ
+				&T < tr <<< Tr <<< TR
+				&W < ꞌw <<< ꞌW
+				&Y < ꞌy <<< ꞌY
+				&Z < ꞌ
+			]]></cr>
+		</collation>
+	</collations>
+```
+
+Note that multiple additions after N are listed in the same line, since they all follow in a sequence. There is no reason to make a new line stating `&ND < ndr` when "ND" is already listed at the end of the previous line. 
+
+For more information, see the [Unicode Sort Tailoring: Tutorial](https://scriptsource.org/entry/pnrnlhkrq9) and [Resources](https://scriptsource.org/entry/lcepuup9ga) on ScriptSource.
+
+***Simple Collations***
+SLDR files may also include an element under collation called `special/sil:simple`. This is the format in which sort order is managed for Paratext projects, but they may not always be correct. The SLDR converts these simple collations into the format used in the Unicode Standard, as described above. 
+
+A simple collation looks like the following:
+```
+    <special>
+        <sil:simple>a/A á/Á â/Â ã/Ã 
+        b/B
+        c/C
+        d/D
+        e/E é/É ê/Ê ẽ/Ẽ
+        f/F
+        g/G
+        h/H
+        i/I í/Í î/Î ĩ/Ĩ
+        j/J
+        k/K
+        l/L
+        m/M
+        n/N 
+        ŋ/Ŋ
+        o/O ó/Ó ô/Ô õ/Õ
+        p/P
+        q/Q
+        r/R
+        s/S
+        t/T
+        u/U ú/Ú û/Û ũ/Ũ
+        v/V
+        w/W
+        x/X
+        y/Y
+        z/Z
+        ꞌ</sil:simple>
+    </special>
+```
+As you can see, a simple collation contains a full list of all characters used in the locale. Primary/Level 1 sort levels are indicated by new lines, secondary/Level 2 sort levels are listed in the same line, and teritary/Level 3 (casing) sort levels are marked with a forward slash. 
+
+If a simple collation is included in an SLDR file, it is used for internal reference only. SLDR files do not need a simple collation, nor are they ever written by individuals managing the SLDR. Rather, they are imported from other datasets and used to generate the main collation element or kept for reference. If a simple collation does not match the tailored collation in an LDML file, that likely means that the simple data is being kept "just in case", but that the tailored collation is more likely to be correct. 
 
 #### Special
 
