@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-07-11
 ---
 
-### What is a Locale?
+## What is a Locale?
 
 Locale, in the context of computing, is a collection of parameters that affect how information is expressed or presented within a particular group of users, generally distinguished from one another on the basis of language or location (usually country). 
 
@@ -16,7 +16,7 @@ For example, English in the United States using Latin Script is a different loca
 
 Locales are identified with a key called a [Language Tag][langtag]. This is a three-part key defined by [BCP 47][BCP 47], which consists of the language, script, and region. For example, English in the United States using Latin Script would have a full tag of en-Latn-US. For the purposes of this page, it is enough to be able to recognize a tag; for more information on Language Tags themselves, see the [Language Tagging][langtag] page on this site.
 
-### What is Locale Data?
+## What is Locale Data?
 
 Locale Data refers to the data needed to present a user from a specific locale with information that would be familiar to them. This includes, but is not limited to:
 - Important vocabulary 
@@ -30,12 +30,12 @@ Locale Data refers to the data needed to present a user from a specific locale w
 
 While many companies such as Meta and Microsoft often have their own internal systems for defining locale data, this site will primarily focus on the CLDR and SLDR. These repositories contain files written in LDML (Locale Data Markup Language) that define locale data for a wide range of locales. 
 
-### More on this site: 
+## More on this site: 
 
 - [CLDR and SLDR][cldr and sldr]
 - [LDML][ldml]
 
-### More from External Sources:
+## More from External Sources:
 
 - [UTR #35: "What is a Locale?"][unicodelocaledef]
 

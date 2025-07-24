@@ -8,7 +8,7 @@ lastUpdated: 2025-07-24
 
 !!!! UNFINISHED. Still need to clean up the section draft attributes !!!
 
-### What is LDML?
+## What is LDML?
 
 Locale Data Markup Language (LDML) is an XML format used for locale data. The most prolific user of LDML is the CLDR. 
 
@@ -75,7 +75,7 @@ This is not an all-inclusive list of the potential elements that could be includ
 
 Note that I also added the traditional separated 'LL' back into this example for the purpose of demonstration. It is no longer present as a separate multigraph in the current version of the CLDR. 
 
-### The Building Blocks of LDML
+## The Building Blocks of LDML
 
 This page will assume you understand how to write and use XML files. If you are unfamiliar with this markup language, [W3Schools' XML Tutorial](https://www.w3schools.com/xml/xml_whatis.asp) is an excellent place to start.
 
@@ -107,7 +107,7 @@ This next section will not explain in-detail all of the different elements of an
 
 Of the elements listed above, a handful benefit from a more in-depth description on this site:
 
-#### Identity
+### Identity
 
 The "identity" element contains information about the locale described in the LDML file. The most important child elements are "language", "script", "territory", "variant", and the SLDR-specific "special/sil:identity". 
 
@@ -115,7 +115,7 @@ Not all of these elements are required. Only the elements used in the locale's m
 
 The sil:identity element is the child of a "special" element within the identity element. It contains attributes for the script and region of the locale, regardless of their inclusion in the previous elements. In addition, it contains a "source" attribute that indicates whether the file was imported from the CLDR. If there is no "source" attribute in the sil:identity element, the file is unique to the SLDR. Finally, an optional "draft" attribute will indicate the draft status of the file, which is explained in more depth in the "Draft Attributes" section of this page. 
 
-#### Locale Display Names
+### Locale Display Names
 
 Locale Display Names are translations of words related to displaying information about a locale. Specifically, these are translations of the names of languages, countries, regions, language variants, number systems, calendar systems, and measurement systems. It also contains vocabulary used to describe the information contained within an LDML file, such as words for "language", "script", "territory", "collation", "currency", etc. 
 
@@ -135,7 +135,7 @@ Many SLDR files also have a child element under Locale Display Names, called `sp
 </special>
 ```
 
-#### Characters
+### Characters
 
 The Characters element primarily consists of multiple child elements called "exemplarCharacters", often simply called "Exemplars". These exemplars are lists of characters used for different contexts in the locale. These contexts are "main" (sometimes also called "standard", it's the exemplar without a 'type' attribute), "auxiliary", "index", "numbers", and "punctuation". 
 
@@ -185,7 +185,7 @@ As the name implies, the "punctuation exemplar" contains the characters used for
 
 While this may overlap with the numbers exemplar, it CANNOT overlap with any of the other exemplars. This is again important for languages that use word-forming apostrophes to represent the glottal stop sound. Thankfully, most languages that do use an apostrophe in this way will distinguish its punctuation apostrophes with a different shape or format entirely, but unfortunately not all of them do so. 
 
-#### Dates
+### Dates
 
 The Dates element contains the vocabulary and patterns used to speak about time and date. It consists of three main child elements: calendars, fields, and timeZoneNames. 
 
@@ -218,7 +218,7 @@ The fields element contains vocabulary describing parts of a calendar and other 
 
 The timeZoneNames element, as the name implies, contains vocabulary used to describe different time zones. This includes names that change based on daylight savings time ("Pacific Standard Time" for UTC-8 versus "Pacific Daylight Time" for UTC-7), the generic name ("Pacific Time"), abbreviations for all three terms ("PST", "PDT", "PT"), and an example city used as a reference point ("San Francisco"). For more information, see the [section on Time Zone Names in UTS #35](https://unicode.org/reports/tr35/tr35-dates.html#Time_Zone_Names).
 
-#### Collations
+### Collations
 
 Collation is the process of defining the sort order used for strings of characters within a given locale. For example, English collations sorts A, then B, then C, etc. 
 
@@ -308,7 +308,7 @@ As you can see, a simple collation contains a full list of all characters used i
 
 If a simple collation is included in an SLDR file, it is used for internal reference only. SLDR files do not need a simple collation, nor are they ever written by individuals managing the SLDR. Rather, they are imported from other datasets and used to generate the main collation element or kept for reference. If a simple collation does not match the tailored collation in an LDML file, that likely means that the simple data is being kept "just in case", but that the tailored collation is more likely to be correct. 
 
-#### Special
+### Special
 
 The special element holds a child element called `sil:external-resources`, which contains data that is unique to the SLDR. The SLDR uses this space for external resources related to the locale, such as fonts, keyboards, sample texts, spell-checking, transforms, and wordlists. Of these, fonts, keyboards, and sample texts are the most common, with fonts being a required element of every non-redundant SLDR file. 
 
@@ -358,7 +358,7 @@ The `sil:sampletext` element contains links to official examples of texts writte
 
 The "type" attribute lists the category of sample text contained in the link. As of February 2025, all of the sample texts in the SLDR are translated portions of the UDHR (Universal Declaration of Human Rights) and therefore all have the type "udhr". 
 
-### Draft Attributes
+## Draft Attributes
 
 current draft (haha) of this section is very messy word dump but it gets the information down until i double check and clean it up
 
@@ -372,7 +372,7 @@ Technically you only need to do this for data that would get generated from a db
 
 Make sure the draft attribute for a collation element is located in the \<cr> part of the element, and not one of its children. Otherwise it won't work. 
 
-### Inheritance
+## Inheritance
 
 An individual LDML file may not contain all of the information relevant to that locale, if that information is already described in that file's "parent" locale. LDML files will "inherit" data from other files in the CLDR or SLDR. This allows for LDML files to only contain data unique to that locale. 
 
@@ -404,11 +404,11 @@ Regardless of the complexity of the inheritance chain, when referencing an LDML 
 
 Full details on inheritance can be found on page 1 of UTS#35, under the heading [Locale Inheritance and Matching](https://unicode-org.github.io/cldr/ldml/tr35.html#Locale_Inheritance).
 
-### Text Formatting Tips
+## Text Formatting Tips
 
 For those who are primarily interacting with the SLDR and the data within, here are some useful tips about text formatting when manually entering and modifying data in an LDML file.
 
-#### Formatting Text in an Exemplar:
+### Formatting Text in an Exemplar:
 
 For the most part, the contents of an LDML file follow the standard rules of an XML file. With the exception of collation (see below), the contents within the square brackets (including the square brackets themselves) are Regular Expressions (regexes).
 
@@ -436,7 +436,7 @@ For example, there is no single codepoint for 'a̱'. It consists of 'a' (U+0061)
 
 A good rule of thumb if you aren't sure if a diacritic is part of the same codepoint or not: hit the backspace after typing/copying the character. If the diacritic disappears, but the base character remains, the combined character is made of multiple codepoints. If both the base character and diacritic disappear simultaneously, they are already a single unique codepoint. Feel free to try it out with 'á' and 'a̱' right now, if you'd like. Just be sure you understand [normalization][normalization] and ensure that you are using the most composed version of the character possible (i.e. if there is a codepoint such as U+00E1 that combines the character and diacritic, prioritize using the composed one instead of placing two codepoints inside of the curly brackets). 
 
-#### Formatting Text in Collation
+### Formatting Text in Collation
 
 Tailored coalition follows different formatting rules than most other data found within the text sections of an XML file, particularly in regard to escaping and multigraphs. 
 
