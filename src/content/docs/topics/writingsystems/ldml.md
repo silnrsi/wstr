@@ -3,10 +3,10 @@ title: LDML
 description: Description of LDML
 sidebar:
     order: 1520
-lastUpdated: 2025-07-22
+lastUpdated: 2025-07-24
 ---
 
-!!!! UNFINISHED. Still needs section on collation and draft attributes !!!
+!!!! UNFINISHED. Still need to clean up the section draft attributes !!!
 
 ### What is LDML?
 
@@ -81,7 +81,7 @@ This page will assume you understand how to write and use XML files. If you are 
 
 The list of elements, their child elements, and attributes used in an LDML file is found in the `ldml.dtd`. The SLDR has its own `sil.dtd` with some additional SLDR-specific elements, which are listed under "special". Both of these files can be found in the [auxdata][dtds] folder of the SLDR. 
 
-This next section will not explain in-detail the different elements of an LDML file. Rather, it will link to the specific sections of UTS #35 that explain each element for your own reference. 
+This next section will not explain in-detail all of the different elements of an LDML file. Rather, it will link to the specific sections of UTS #35 that explain each element for your own reference. 
 
 - [Identity](https://unicode.org/reports/tr35/#Identity_Elements)
 - [Locale Display Names](https://unicode.org/reports/tr35/tr35-general.html#Display_Name_Elements)
