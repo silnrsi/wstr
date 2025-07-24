@@ -137,7 +137,7 @@ Many SLDR files also have a child element under Locale Display Names, called `sp
 
 ### Characters
 
-The Characters element primarily consists of multiple child elements called "exemplarCharacters", often simply called "Exemplars". These exemplars are lists of characters used for different contexts in the locale. These contexts are "main" (sometimes also called "standard", it's the exemplar without a 'type' attribute), "auxiliary", "index", "numbers", and "punctuation". 
+The Characters element primarily consists of multiple child elements called "exemplarCharacters", often simply called "Exemplars". These exemplars are lists of characters used for different contexts in the locale. These contexts are "main" (sometimes also called "standard"; it's the exemplar without a 'type' attribute), "auxiliary", "index", "numbers", and "punctuation". 
 
 While there are other child elements contained within the "Characters" element, these are the most important, and will be the focus of this section. 
 
@@ -149,7 +149,7 @@ Ideally, every character-diacritic combination possible should be listed individ
 
 Similarly, multigraphs, such as the Spanish "ll", are sometimes included as separate entries, but this is not always consistent. Some files only list separate multigraphs that contain characters that do not appear by themselves. For example, many languages do not use "h" except for in the multigraph "ch". Ideally, {ch} would be listed in the main exemplar, while the solo "h" would be left out of the main and listed in the "auxiliary" exemplar instead. Some of these files do simply list "h" as an entry in the main exemplar anyway, but, like with diacritics, the other method is considered "better practice".  
 
-The above two practices regarding combining diacritics and multigraphs is ignored in cases where there are a huge amount of potential combinations, such as with Indic mantras. In those cases, they are listed separately. 
+The above two practices regarding combining diacritics and multigraphs are ignored in cases where there are a huge amount of potential combinations, such as with Indic mantras. In those cases, they are listed separately. 
 
 ***Auxiliary***
 
@@ -167,7 +167,7 @@ Here are a few good rules of thumb to determine if a character should be in the 
 
 The "index exemplar" is the list of characters one might use to categorize and sort an indexed list, such as a dictionary or glossary. Unlike the other exemplars, the index exemplar MUST be in the correct alphabetical order. 
 
-All characters in the index exempar must be uppercase versions of characters that appeared in the main or auxiliary exemplars, but not every character in the main exemplar necessarily belongs in the index exemplar. For example, Spanish dictionaries typically do not separate "a" from "á", so while "á appears in the main exemplar, "Á" does not appear in the index exemplar. 
+All characters in the index exempar must be uppercase versions of characters that appeared in the main or auxiliary exemplars, but not every character in the main exemplar necessarily belongs in the index exemplar. For example, Spanish dictionaries typically do not separate "a" from "á", resulting in "á appearing in the main exemplar, but "Á" being absent from the index exemplar. 
 
 On the other hand, a character from the auxiliary exemplar may need to be represented in the index as well. For example, if "v" is technically a loan character that only appears twice, but those two instances happen to be the first letter of the word (e.g. "vino" (wine) appears in a lot of languages in areas with a history of Spanish colonialism that otherwise don't use "v"), then that "v" from the auxiliary exemplar needs to be listed in the index exemplar as "V". 
 
@@ -220,11 +220,9 @@ The timeZoneNames element, as the name implies, contains vocabulary used to desc
 
 ### Collations
 
-Collation is the process of defining the sort order used for strings of characters within a given locale. For example, English collations sorts A, then B, then C, etc. 
+Collation is the process of defining the sort order used for strings of characters within a given locale. For example, English collations sorts A, then B, then C, etc. The collations element defines these rules within an LDML file. 
 
-A "tailored" collation is a sort order that differs from the [Default Unicode Collation Element Table (DUCET)](https://www.unicode.org/reports/tr10/#Default_Unicode_Collation_Element_Table) inherited from `root.xml` (see the section on Inheritance below). An LDML file uses the Collation element to note the differences between the sorting rules of its locale. 
-
-In order to tailor a collation, arrows are used to "insert" specific characters or multigraphs after other characters. For example:
+A "tailored" collation is a sort order that differs from the [Default Unicode Collation Element Table (DUCET)](https://www.unicode.org/reports/tr10/#Default_Unicode_Collation_Element_Table) inherited from `root.xml` (see the section on Inheritance below). In order to tailor a collation, arrows are used to "insert" specific characters or multigraphs after other characters. For example:
 
 ```
     <collations>
@@ -269,7 +267,8 @@ Note that multiple additions after N are listed in the same line, since they all
 For more information, see the [Unicode Sort Tailoring: Tutorial](https://scriptsource.org/entry/pnrnlhkrq9) and [Resources](https://scriptsource.org/entry/lcepuup9ga) on ScriptSource.
 
 ***Simple Collations***
-SLDR files may also include an element under collation called `special/sil:simple`. This is the format in which sort order is managed for Paratext projects, but they may not always be correct. The SLDR converts these simple collations into the format used in the Unicode Standard, as described above. 
+
+SLDR files may also include an element under collation called `special/sil:simple`. This is the format in which sort order is managed for Paratext and Toolbox projects, but they may not always be correct. The SLDR converts these simple collations into the format used in the Unicode Standard, as described above. 
 
 A simple collation looks like the following:
 ```
@@ -374,7 +373,7 @@ Make sure the draft attribute for a collation element is located in the \<cr> pa
 
 ## Inheritance
 
-An individual LDML file may not contain all of the information relevant to that locale, if that information is already described in that file's "parent" locale. LDML files will "inherit" data from other files in the CLDR or SLDR. This allows for LDML files to only contain data unique to that locale. 
+An individual LDML file may not contain all of the information relevant to that locale if that information is already described in that file's "parent" locale. LDML files will "inherit" data from other files in the CLDR or SLDR. This allows for LDML files to only contain data unique to that locale. 
 
 For example, the file `en.xml` (English in the United States) is the parent locale for any LDML files concerning English spoken in other countries. An LDML file for `en_GB.xml` (English spoken in Great Britain) would be considerably shorter than `en.xml` because it assumes that the file should "inherit" any missing information from the base `en.xml` file. Since English in Great Britain uses the same characters as English in the US, there would be nothing listed for the Characters element, and the file would inherit that information from `en.xml`. However, unlike the United States, Great Britain formats dates with the day before the month (e.g. 31/12/2025 instead of 12/31/2025). As a result, the `en_GB.xml` file would include that information in the Dates element, overriding the information that would have otherwise been inherited from `en.xml`.
 
@@ -408,7 +407,7 @@ Full details on inheritance can be found on page 1 of UTS#35, under the heading 
 
 For those who are primarily interacting with the SLDR and the data within, here are some useful tips about text formatting when manually entering and modifying data in an LDML file.
 
-### Formatting Text in an Exemplar:
+### Formatting Text in an Exemplar
 
 For the most part, the contents of an LDML file follow the standard rules of an XML file. With the exception of collation (see below), the contents within the square brackets (including the square brackets themselves) are Regular Expressions (regexes).
 
