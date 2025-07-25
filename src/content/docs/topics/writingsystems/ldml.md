@@ -109,7 +109,7 @@ The "identity" element contains information about the locale described in the LD
 
 Not all of these elements are required. Only the elements used in the locale's minimal langtag are included. For example, in the file `enq.xml`, only the language element will be included. In the file `sat_Deva_IN`, the language ("sat"), script ("Deva"), and territory ("IN") elements will all be included. 
 
-The sil:identity element is the child of a "special" element within the identity element. It contains attributes for the script and region of the locale, regardless of their inclusion in the previous elements. In addition, it contains a "source" attribute that indicates whether the file was imported from the CLDR. If there is no "source" attribute in the sil:identity element, the file is unique to the SLDR. Finally, an optional "draft" attribute will indicate the draft status of the file, which is explained in more depth in the "Draft Attributes" section of this page. 
+The sil:identity element is the child of a "special" element within the identity element. It contains attributes for the script and region of the locale, regardless of their inclusion in the previous elements. In addition, it contains a "source" attribute that indicates whether the file was imported from the CLDR. If there is no "source" attribute in the sil:identity element, the file is unique to the SLDR. Finally, an optional "draft" attribute will indicate the draft status of the file, which is explained in more depth in the ["Draft Attributes"](https://writingsystems.info/topics/writingsystems/ldml/#draft-attributes) section of this page. 
 
 ### Locale Display Names
 
@@ -177,7 +177,7 @@ The "numbers exemplar" is fairly self-explanatory; it contains the characters us
 
 ***Punctuation***
 
-As the name implies, the "punctuation exemplar" contains the characters used for punctuation in the locale. This is the exemplar that is most likely to need careful escaping (see the sub-section "Escaping" under "Formatting Text in an Exemplar" below).
+As the name implies, the "punctuation exemplar" contains the characters used for punctuation in the locale. This is the exemplar that is most likely to need careful escaping (see the sub-section "Escaping" under ["Formatting Text in an Exemplar"][escaping] below).
 
 While this may overlap with the numbers exemplar, it CANNOT overlap with any of the other exemplars. This is again important for languages that use word-forming apostrophes to represent the glottal stop sound. Thankfully, most languages that do use an apostrophe in this way will distinguish its punctuation apostrophes with a different shape or format entirely, but unfortunately not all of them do so. 
 
@@ -218,7 +218,7 @@ The timeZoneNames element, as the name implies, contains vocabulary used to desc
 
 Collation is the process of defining the sort order used for strings of characters within a given locale. For example, English collations sorts A, then B, then C, etc. The collations element defines these rules within an LDML file. 
 
-A "tailored" collation is a sort order that differs from the [Default Unicode Collation Element Table (DUCET)](https://www.unicode.org/reports/tr10/#Default_Unicode_Collation_Element_Table) inherited from `root.xml` (see the section on Inheritance below). In order to tailor a collation, arrows are used to "insert" specific characters or multigraphs after other characters. For example:
+A "tailored" collation is a sort order that differs from the [Default Unicode Collation Element Table (DUCET)](https://www.unicode.org/reports/tr10/#Default_Unicode_Collation_Element_Table) inherited from `root.xml` (see the section on [Inheritance][inheritance] below). In order to tailor a collation, arrows are used to "insert" specific characters or multigraphs after other characters. For example:
 
 ```
     <collations>
@@ -365,13 +365,13 @@ Draft attributes are attributes that can be added to any element in an LDML file
 - Generated (SLDR only)
 - Suspect (SLDR only)
 
-CLDR draft attributes, as defined in the section ["Attribute draft" on page 1 of UTS #35](https://www.unicode.org/reports/tr35/#Attribute_draft), listed from least to greatest level of vetting, are "unconfirmed", "provisional", "contributed", and "approved". These are determined through the CLDR's Survey Tool, using the [CLDR Data Submission and Vetting Process](https://cldr.unicode.org/index/process). "Unconfirmed" means that there has been no official vetting done via the Survey Tool for this data. "Provisional" means that there has been some vetting, but not enough for official confirmation. In leu of other data, a locale may choose to use elements labeled as "provisional" until higher-level data is added. "Contributed" is often referred to as "minimally/partially approved" by the CLDR technical committee, while "Approved" means that the information has been completely vetted to the CLDR's standards. If a draft attribute is not indicated anywhere on an element, nor inherited from the file or a parent locale (see Inheritance below), the draft attribute is assumed to be "Approved".  This is not a perfect system, but it helps the CLDR to make changes while maintaining data stability. 
+CLDR draft attributes, as defined in the section ["Attribute draft" on page 1 of UTS #35](https://www.unicode.org/reports/tr35/#Attribute_draft), listed from least to greatest level of vetting, are "unconfirmed", "provisional", "contributed", and "approved". These are determined through the CLDR's Survey Tool, using the [CLDR Data Submission and Vetting Process](https://cldr.unicode.org/index/process). "Unconfirmed" means that there has been no official vetting done via the Survey Tool for this data. "Provisional" means that there has been some vetting, but not enough for official confirmation. In leu of other data, a locale may choose to use elements labeled as "provisional" until higher-level data is added. "Contributed" is often referred to as "minimally/partially approved" by the CLDR technical committee, while "Approved" means that the information has been completely vetted to the CLDR's standards. If a draft attribute is not indicated anywhere on an element, nor inherited from the file or a parent locale (see [Inheritance][inheritance] below), the draft attribute is assumed to be "Approved".  This is not a perfect system, but it helps the CLDR to make changes while maintaining data stability. 
 
 The SLDR adds three additional levels of vetting. From least to greatest level of confidence, these values are "suspect", "generated", "tentative", and "proposed". The difference between "tentative" and "proposed" is ambiguous, and as a result, these draft attributes are instead often left unused in favor of the CLDR's lowest level "unconfirmed". "Generated", as the name implies, refers to data generated using a primary text, usually a Bible translation project from the Digital Bible Library (DBL), and is automatically assigned to the appropriate elements during the data generation process. "Suspect" is also applied to data that has been generated, but from a process that is less refined and more likely to include errors. This lowest draft level is rarely used anymore, but is preserved for the files that contain old data with this attribute. 
 
 As described in the ["Valid Data" section on page 1 of UST #35](https://unicode.org/reports/tr35/tr35.html#Valid_Data), elements can inherit the draft attributes of parent elements. However, it is considered best practice in the CLDR to specifically list the draft attribute in the leaf/lowest child node, rather than leaving it to inherit from a higher node. 
 
-In the SLDR, a similar concept is applied. All draft attributes must appear in the leaf/lowest child nodes, or else they will disappear during the file normalization process. However, a draft attribute for the entire file can be assigned in the `identity\special\sil:identity` element, described in the "Identity" section earlier in this page. Below is an example of this element with a draft attribute:
+In the SLDR, a similar concept is applied. All draft attributes must appear in the leaf/lowest child nodes, or else they will disappear during the file normalization process. However, a draft attribute for the entire file can be assigned in the `identity\special\sil:identity` element, described in the ["Identity"](https://writingsystems.info/topics/writingsystems/ldml/#formatting-text-in-collation) section earlier in this page. Below is an example of this element with a draft attribute:
 
 ```
     <identity>
@@ -428,7 +428,7 @@ For those who are primarily interacting with the SLDR and the data within, here 
 
 ### Formatting Text in an Exemplar
 
-For the most part, the contents of an LDML file follow the standard rules of an XML file. With the exception of collation (see below), the contents within the square brackets (including the square brackets themselves) are Regular Expressions (regexes).
+For the most part, the contents of an LDML file follow the standard rules of an XML file. With the exception of collation (see the section on [Formatting Test in a Collation](https://writingsystems.info/topics/writingsystems/ldml/#formatting-text-in-collation) below), the contents within the square brackets (including the square brackets themselves) are Regular Expressions (regexes).
 
 Information about regexes can be found online in a number of places, though not all of it will be relevant to an LDML file. The most important things to know are how to escape non-ASCII characters and how to notate multigraphs and combining diacritics. 
 
@@ -469,3 +469,5 @@ Multigraphs do not need brackets to mark them as a single unit in a collation se
 [dtds]: https://github.com/silnrsi/sldr/tree/master/auxdata
 [fonts]: https://software.sil.org/fonts/
 [sch features]: https://software.sil.org/scheherazade/features/
+[inheritance]: https://writingsystems.info/topics/writingsystems/ldml/#inheritance
+[escaping]: https://writingsystems.info/topics/writingsystems/ldml/#formatting-text-in-an-exemplar
