@@ -2,7 +2,7 @@
 title: Private Use Area
 description: Definition of PUA and link to SIL's registry
 sidebar:
-    order: 3700
+    order: 3400
 lastUpdated: 2025-07-11
 ---
 
