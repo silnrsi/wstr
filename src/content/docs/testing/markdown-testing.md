@@ -2,7 +2,7 @@
 title: Markdown testing
 description: Testing markdown plugins and extensions in a normal .md file
 sidebar:
-  order: 9800.2
+  hidden: false
 lastUpdated: 2025-07-15
 ---
 
