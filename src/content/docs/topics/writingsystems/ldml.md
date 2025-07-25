@@ -1,14 +1,10 @@
 ---
 title: LDML
-description: Description of LDML
+description: Description of LDML as used in the CLDR and SLDR
 sidebar:
     order: 1520
-lastUpdated: 2025-07-24
+lastUpdated: 2025-07-25
 ---
-
-!!!! UNFINISHED. Still need to clean up the section draft attributes !!!
-
-## What is LDML?
 
 Locale Data Markup Language (LDML) is an XML format used for locale data. The most prolific user of LDML is the CLDR. 
 
@@ -245,21 +241,21 @@ A line of tailored collation can be as long as needed, so long as the next "jump
 
 ```
     <collations>
-		<collation type="standard">
-			<cr draft="tentative"><![CDATA[
-				&B < ꞌB <<< ꞌb
-				&D < ꞌd <<< ꞌD < dr <<< Dr <<< DR
-				&G < gb <<< Gb <<< GB
-				&K < kp <<< Kp <<< KP
-				&M < mb <<< Mb <<< MB < mv <<< Mv <<< MV
-				&N < nd <<< Nd <<< ND < ndr <<< Ndr <<< NDR < ng <<< Ng <<< NG < ngb <<< Ngb <<< NGB < nj <<< Nj <<< NJ < ny <<< Ny <<< NY < ŋ <<< Ŋ
-				&T < tr <<< Tr <<< TR
-				&W < ꞌw <<< ꞌW
-				&Y < ꞌy <<< ꞌY
-				&Z < ꞌ
-			]]></cr>
-		</collation>
-	</collations>
+        <collation type="standard">
+            <cr draft="tentative"><![CDATA[
+                &B < ꞌB <<< ꞌb
+                &D < ꞌd <<< ꞌD < dr <<< Dr <<< DR
+                &G < gb <<< Gb <<< GB
+                &K < kp <<< Kp <<< KP
+                &M < mb <<< Mb <<< MB < mv <<< Mv <<< MV
+                &N < nd <<< Nd <<< ND < ndr <<< Ndr <<< NDR < ng <<< Ng <<< NG < ngb <<< Ngb <<< NGB < nj <<< Nj <<< NJ < ny <<< Ny <<< NY < ŋ <<< Ŋ
+                &T < tr <<< Tr <<< TR
+                &W < ꞌw <<< ꞌW
+                &Y < ꞌy <<< ꞌY
+                &Z < ꞌ
+            ]]></cr>
+        </collation>
+    </collations>
 ```
 
 Note that multiple additions after N are listed in the same line, since they all follow in a sequence. There is no reason to make a new line stating `&ND < ndr` when "ND" is already listed at the end of the previous line. 
@@ -268,7 +264,7 @@ For more information, see the [Unicode Sort Tailoring: Tutorial](https://scripts
 
 ***Simple Collations***
 
-SLDR files may also include an element under collation called `special/sil:simple`. This is the format in which sort order is managed for Paratext and Toolbox projects, but they may not always be correct. The SLDR converts these simple collations into the format used in the Unicode Standard, as described above. 
+SLDR files may also include an element under collation called `special/sil:simple`. This is the format in which sort order is managed for Paratext, Toolbox, and older Flex projects, but they may not always be correct. The SLDR converts these simple collations into the format used in the Unicode Standard, as described above. 
 
 A simple collation looks like the following:
 ```
@@ -359,17 +355,39 @@ The "type" attribute lists the category of sample text contained in the link. As
 
 ## Draft Attributes
 
-current draft (haha) of this section is very messy word dump but it gets the information down until i double check and clean it up
+Draft attributes are attributes that can be added to any element in an LDML file, and are used to define the level of vetting and confidence given to the data contained within an LDML element. There are two categories of draft attributes: those from the CLDR, and those added for the SLDR. In order, from highest to lowest confidence, they are:
+- Approved
+- Contributed
+- Provisional
+- Unconfirmed
+- Proposed (SLDR only)
+- Tentative (SLDR only)
+- Generated (SLDR only)
+- Suspect (SLDR only)
 
-You have the big boy whole file draft attribute at the top in the sil:identity thingy. this determines the default draft attribute for everything on the file. If an element has no draft attribute, it is considered to be the same draft attribute as the draft attribute here. if there is no draft attribute in the sil:identity thingy, it defaults to... ummm... "approved" i think. lemme double check that. 
+CLDR draft attributes, as defined in the section ["Attribute draft" on page 1 of UTS #35](https://www.unicode.org/reports/tr35/#Attribute_draft), listed from least to greatest level of vetting, are "unconfirmed", "provisional", "contributed", and "approved". These are determined through the CLDR's Survey Tool, using the [CLDR Data Submission and Vetting Process](https://cldr.unicode.org/index/process). "Unconfirmed" means that there has been no official vetting done via the Survey Tool for this data. "Provisional" means that there has been some vetting, but not enough for official confirmation. In leu of other data, a locale may choose to use elements labeled as "provisional" until higher-level data is added. "Contributed" is often referred to as "minimally/partially approved" by the CLDR technical committee, while "Approved" means that the information has been completely vetted to the CLDR's standards. If a draft attribute is not indicated anywhere on an element, nor inherited from the file or a parent locale (see Inheritance below), the draft attribute is assumed to be "Approved".  This is not a perfect system, but it helps the CLDR to make changes while maintaining data stability. 
 
-In the CLDR there are the draft layers "contributed", "provisional", and "unconfirmed". In the SLDR there are also the draft layers "proposed", "tentative" and "generated". as we speak i'm working on getting confirmation of what each actually means before add nicer-sounding specifics to this section.  for context of sldr the important ones are approved tentative/unconfirmed and generated. I've been using tentative and unconfirmed interchangeably sometimes which is probs not ideal, not sure? 
+The SLDR adds three additional levels of vetting. From least to greatest level of confidence, these values are "suspect", "generated", "tentative", and "proposed". The difference between "tentative" and "proposed" is ambiguous, and as a result, these draft attributes are instead often left unused in favor of the CLDR's lowest level "unconfirmed". "Generated", as the name implies, refers to data generated using a primary text, usually a Bible translation project from the Digital Bible Library (DBL), and is automatically assigned to the appropriate elements during the data generation process. "Suspect" is also applied to data that has been generated, but from a process that is less refined and more likely to include errors. This lowest draft level is rarely used anymore, but is preserved for the files that contain old data with this attribute. 
 
-If a file has "generated" in its sil:identity draft attribute, and you make a manual edit to the data within that file, you need to add a draft attribute to the element you've edited that is a rank ABOVE generated. This can be "tentative" or "unconfirmed". Otherwise, your manual edits will be overwritten the next time the file is generated from whatever source it comes from (most likely the DBL). The "tentative"/"unconfirmed" draft attribute tells the file generation to prioritize the existing data rather than generate new stuff, since the manually-entered data is considered more likely to be correct than the generated data. 
+As described in the ["Valid Data" section on page 1 of UST #35](https://unicode.org/reports/tr35/tr35.html#Valid_Data), elements can inherit the draft attributes of parent elements. However, it is considered best practice in the CLDR to specifically list the draft attribute in the leaf/lowest child node, rather than leaving it to inherit from a higher node. 
 
-Technically you only need to do this for data that would get generated from a dbl import, aka exemplars and collation and maybe a few other things i need to double check. however in theory someday there might be other things we generate in which case other elements might need these draft attributes too. 
+In the SLDR, a similar concept is applied. All draft attributes must appear in the leaf/lowest child nodes, or else they will disappear during the file normalization process. However, a draft attribute for the entire file can be assigned in the `identity\special\sil:identity` element, described in the "Identity" section earlier in this page. Below is an example of this element with a draft attribute:
 
-Make sure the draft attribute for a collation element is located in the \<cr> part of the element, and not one of its children. Otherwise it won't work. 
+```
+    <identity>
+        <special>
+            <sil:identity script="Latn" defaultRegion="ID" draft="generated"/>
+        </special>
+    </identity>
+```
+
+In the example above, the `sil:identity` has a draft attribute of "generated". This means that the entire file was likely created during a process such as the DBL Import, and all elements within this LDML file should also be considered "generated" unless otherwise marked. All other draft attributes in this file will only need to be marked if they differ from "generated."
+
+It is especially important to note the draft attribute of an SLDR file when making manual changes to the data within. If you make a manual edit to one of these files, you must change the draft attribute of element containing that new data to a higher draft level, such as "unconfirmed". Similarly, if changing an element with a "generated" draft attribute in a file that is otherwise a higher draft level, it is important that one removes the "generated" draft attribute after making manual edits. 
+
+These steps are necessary to prevent future import processes from overriding any changes made to the files. For example, if the DBL import creates a main exemplar from a half-finished Bible translation in 2020, then finds slightly different characters when running the DBL import on the finished text in 2025, one would obviously want the newer, more up-to-date characters to override the older ones. However, if an SLDR curator did manual research and found data describing the new orthography and added it manually in 2024, complete with diacritic combinations, multigraphs, and other details that a simple character counter might not catch, all of that work would be overwritten if they do not mark those changes with a higher draft level. All import processes will not override any data with a draft level above "generated". 
+
+The most common elements to contain a variety of draft attributes in the SLDR are character exemplars and collations. For the latter, make sure that the draft attribute is located in the \<cr> part of the element, and not one of its children, as this is an exception to the "lowest child/leaf node" rule. 
 
 ## Inheritance
 
@@ -382,8 +400,9 @@ At minimum, every locale has at least one parent in the form of `root.xml`. This
 Due to the existence of `root.xml`, many files have to chain through multiple parents to inherit all of their information. For example, the file for `en_GB.xml` (English spoken in Great Britain) must first fall back to `en.xml`, which in turn falls back to `root.xml`. The information at the top of the chain has priority, but if no data is given for a field by the end of the chain, it all goes back to root. 
 
 Note that, while in the SLDR, elements to be inherited from a parent locale are simply absent from the child locale, the CLDR indicates that an element should inherit data from its parent with three upward-pointing arrows in the element's field, such as:
+
 ``` 
-    <exemplarCharacters>↑↑↑</excemplarCharacters>
+<exemplarCharacters>↑↑↑</excemplarCharacters>
 ```
 This is a visual reminder of the inheritance process for human ease-of-use, and is not required.
 
