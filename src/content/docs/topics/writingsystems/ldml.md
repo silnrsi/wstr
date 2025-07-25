@@ -177,7 +177,7 @@ The "numbers exemplar" is fairly self-explanatory; it contains the characters us
 
 ***Punctuation***
 
-As the name implies, the "punctuation exemplar" contains the characters used for punctuation in the locale. This is the exemplar that is most likely to need careful escaping (see "escaping" in "Text Formatting Tips" below).
+As the name implies, the "punctuation exemplar" contains the characters used for punctuation in the locale. This is the exemplar that is most likely to need careful escaping (see the sub-section "Escaping" under "Formatting Text in an Exemplar" below).
 
 While this may overlap with the numbers exemplar, it CANNOT overlap with any of the other exemplars. This is again important for languages that use word-forming apostrophes to represent the glottal stop sound. Thankfully, most languages that do use an apostrophe in this way will distinguish its punctuation apostrophes with a different shape or format entirely, but unfortunately not all of them do so. 
 
