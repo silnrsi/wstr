@@ -243,7 +243,7 @@ A line of tailored collation can be as long as needed, so long as the next "jump
     <collations>
         <collation type="standard">
             <cr draft="tentative"><![CDATA[
-                &B < ꞌB <<< ꞌb
+                &B < ꞌb <<< ꞌB
                 &D < ꞌd <<< ꞌD < dr <<< Dr <<< DR
                 &G < gb <<< Gb <<< GB
                 &K < kp <<< Kp <<< KP
