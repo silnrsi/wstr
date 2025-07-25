@@ -264,7 +264,7 @@ For more information, see the [Unicode Sort Tailoring: Tutorial](https://scripts
 
 ***Simple Collations***
 
-SLDR files may also include an element under collation called `special/sil:simple`. This is the format in which sort order is managed for Paratext, Toolbox, and older Flex projects, but they may not always be correct. The SLDR converts these simple collations into the format used in the Unicode Standard, as described above. 
+SLDR files may also include an element under collation called `special/sil:simple`. This is the format in which sort order is managed for Paratext, Toolbox, and Flex projects, but they may not always be correct. The SLDR converts these simple collations into the format used in the Unicode Standard, as described above. 
 
 A simple collation looks like the following:
 ```
