@@ -61,6 +61,10 @@ export default defineConfig({
 					label: 'Support',
 					autogenerate: { directory: 'support' },
 				},
+				{
+					label: 'Testing',
+					autogenerate: { directory: 'testing' },
+				},
 			],
 			components: {
 				// Override the default Footer component
