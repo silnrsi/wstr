@@ -24,7 +24,7 @@ Unless noted otherwise all content on this site is Copyright © 2001-2025 SIL Gl
 
 Fair use, fair dealing, and other limitations and exceptions to copyright differ between countries and legal systems. This website does not define these uses for content on this web site. You are responsible for knowing the rules and limitations of these within your legal jurisdictions. Generally it is far better to operate within the terms of the individual content licenses than to make any assumptions regarding fair use or fair dealing. SIL does not accept any responsibility for improper use of copyrighted material by users of this website.
 
-Unless noted otherwise the authors are current and former members of the [SIL Writing Systems Technology team][wstech].
+For information on authorship and details of content used by permission see [Acknowledgements][acknowledgements].
 
 ## Privacy
 
@@ -36,6 +36,5 @@ We reserve the right to change these policies at any time.
 
 If you have feedback, questions or concerns please contact us.
 
-
+[acknowledgements]: /support/acknowledgements
 [ccbysa4]: https://creativecommons.org/licenses/by-sa/4.0/
-[wstech]: https://software.sil.org/wstech/
