@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-07-25
 ---
 
-Locale Data Markup Language (LDML) is an XML format used for locale data. The most prolific user of LDML is the CLDR. 
+Locale Data Markup Language (LDML) is an XML format used for locale data. The most prolific user of LDML is the CLDR, which is described on the [CLDR and SLDR][cldr and sldr] page on this site. 
 
 The specifications for LDML structure are described in [Unicode Technical Standard #35][uts35], though that documentation is quite dense. For that reason, an abridged example of the LDML file  `es.xml` (Spanish) is depicted below for reference:
 
@@ -216,7 +216,7 @@ The timeZoneNames element, as the name implies, contains vocabulary used to desc
 
 ### Collations
 
-Collation is the process of defining the sort order used for strings of characters within a given locale. For example, English collations sorts A, then B, then C, etc. The collations element defines these rules within an LDML file. 
+Collation is the process of defining the sort order used for strings of characters within a given locale. For example, English collation sorts A, then B, then C, etc. The collations element defines these rules within an LDML file. 
 
 A "tailored" collation is a sort order that differs from the [Default Unicode Collation Element Table (DUCET)](https://www.unicode.org/reports/tr10/#Default_Unicode_Collation_Element_Table) inherited from `root.xml` (see the section on [Inheritance][inheritance] below). In order to tailor a collation, arrows are used to "insert" specific characters or multigraphs after other characters. For example:
 
@@ -367,7 +367,7 @@ Draft attributes are attributes that can be added to any element in an LDML file
 
 CLDR draft attributes, as defined in the section ["Attribute draft" on page 1 of UTS #35](https://www.unicode.org/reports/tr35/#Attribute_draft), listed from least to greatest level of vetting, are "unconfirmed", "provisional", "contributed", and "approved". These are determined through the CLDR's Survey Tool, using the [CLDR Data Submission and Vetting Process](https://cldr.unicode.org/index/process). "Unconfirmed" means that there has been no official vetting done via the Survey Tool for this data. "Provisional" means that there has been some vetting, but not enough for official confirmation. In leu of other data, a locale may choose to use elements labeled as "provisional" until higher-level data is added. "Contributed" is often referred to as "minimally/partially approved" by the CLDR technical committee, while "Approved" means that the information has been completely vetted to the CLDR's standards. If a draft attribute is not indicated for an element, it is assumed to be "Approved".  This is not a perfect system, but it helps the CLDR to make changes while maintaining data stability. 
 
-The SLDR adds three additional levels of vetting. From least to greatest level of confidence, these values are "suspect", "generated", "tentative", and "proposed". The difference between "tentative" and "proposed" is ambiguous, and as a result, these draft attributes are instead often left unused in favor of the CLDR's lowest level "unconfirmed". "Generated", as the name implies, refers to data generated using a primary text, usually a Bible translation project from the Digital Bible Library (DBL), and is automatically assigned to the appropriate elements during the data generation process. "Suspect" is also applied to data that has been generated, but from a process that is less refined and more likely to include errors. This lowest draft level is rarely used anymore, but is preserved for the files that contain old data with this attribute. 
+The SLDR adds four additional levels of vetting. From least to greatest level of confidence, these values are "suspect", "generated", "tentative", and "proposed". The difference between "tentative" and "proposed" is ambiguous, and as a result, these draft attributes are instead often left unused in favor of the CLDR's lowest level "unconfirmed". "Generated", as the name implies, refers to data generated using a primary text, usually a Bible translation project from the [Digital Bible Library (DBL)][dbl], and is automatically assigned to the appropriate elements during the data generation process. "Suspect" is also applied to data that has been generated, but from a process that is less refined and more likely to include errors. This lowest draft level is rarely used anymore, but is preserved for the files that contain old data with this attribute. 
 
 As described in the ["Valid Data" section on page 1 of UST #35](https://unicode.org/reports/tr35/tr35.html#Valid_Data), elements can inherit the draft attributes of parent elements. However, it is considered best practice in the CLDR to specifically list the draft attribute in the leaf/lowest child node, rather than leaving it to inherit from a higher node. 
 
@@ -383,7 +383,7 @@ In the SLDR, a similar concept is applied. All draft attributes must appear in t
 
 In the example above, the `sil:identity` has a draft attribute of "generated". This means that the entire file was likely created during a process such as the DBL Import, and all elements within this LDML file should also be considered "generated" unless otherwise marked. All other draft attributes in this file will only need to be marked if they differ from "generated."
 
-It is especially important to note the draft attribute of an SLDR file when making manual changes to the data within. If you make a manual edit to one of these files, you must change the draft attribute of element containing that new data to a higher draft level, such as "unconfirmed". Similarly, if changing an element with a "generated" draft attribute in a file that is otherwise a higher draft level, it is important that one removes the "generated" draft attribute after making manual edits. 
+It is especially important to note the draft attribute of an SLDR file when making manual changes to the data within. If you make a manual edit to one of these files, you must change the draft attribute of element containing that new data to a higher draft level, such as "unconfirmed". Similarly, if changing an element with a "generated" draft attribute in a file that is otherwise a higher draft level, it is important to remove the "generated" draft attribute after making manual edits. 
 
 These steps are necessary to prevent future import processes from overriding any changes made to the files. For example, if the DBL import creates a main exemplar from a half-finished Bible translation in 2020, then finds slightly different characters when running the DBL import on the finished text in 2025, one would obviously want the newer, more up-to-date characters to override the older ones. However, if an SLDR curator did manual research and found data describing the new orthography and added it manually in 2024, complete with diacritic combinations, multigraphs, and other details that a simple character counter might not catch, all of that work would be overwritten if they do not mark those changes with a higher draft level. All import processes will not override any data with a draft level above "generated". 
 
@@ -471,3 +471,5 @@ Multigraphs do not need brackets to mark them as a single unit in a collation se
 [sch features]: https://software.sil.org/scheherazade/features/
 [inheritance]: https://writingsystems.info/topics/writingsystems/ldml/#inheritance
 [escaping]: https://writingsystems.info/topics/writingsystems/ldml/#formatting-text-in-an-exemplar
+[dbl]: https://thedigitalbiblelibrary.org/ 
+[cldr and sldr]: /topics/writingsystems/cldr-and-sldr
