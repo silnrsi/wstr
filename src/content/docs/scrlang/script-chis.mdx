@@ -4,24 +4,31 @@ description: Main script page
 sidebar:
     hidden: true
 lastUpdated: 2025-07-22
+scrpropcode: Tavt
+scrpropname: Chisoi
+scrpropregion: Indic
+scrpropstatus: currently in use
+scrproptype: alphabet
+scrpropdir:  LTR
+scrpropbaseline: bottom
+scrpropcase: no
+scrproprwspace: between words
+scrpropbehavior: diacritics
+scrpropisocode: Chis / 21987 (left=to-right alphabetic)
+scrpropotcode: [none]
 ---
+
+import ScriptInfo from '../../../components/ScriptInfo.astro';
+import ScriptRemoteLinks from '../../../components/ScriptRemoteLinks.astro';
 
 <span style="background-color:yellow">_This is an example of a minimal script page._</span>
 
 ## Script features
 
-| | |
---- | --- |
-**Script type** | alphabet |
-**Family** | Indic |
-**Direction** | LTR |
-**Baseline** | bottom |
-**Case** | no |
-**White space** | between words |
-**Complex behaviors** | diacritics |
-**ISO 15924 Code / Key** | Chis / 21987 (left=to-right alphabetic) |
-**OpenType tag** | [none] |
-**Status** | currently in use |
+<details>
+<summary> See all script properties: code, region, status and more</summary>
+<ScriptInfo />
+</details>
 
 ## Script description
 
@@ -31,7 +38,7 @@ The script is written from left to right. The script consists of eight vowels, t
 
 ## Languages that use this script
 
-Language | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
+Language | Writing system<br/>code | Status | SLDR/CLDR<br/>locale | Regional<br/>variants |
 -------- | ---------------------- | ------ | ------------------- | -------------------- |
 <u>Kadmali</u> | kyw-Chis | in use | | kyw-Chis-IN (India) |
 
@@ -49,12 +56,4 @@ A number of documents towards its inclusion have been submitted to the Unicode T
 
 ## Resources
 
-**[ScriptSource page for Chisoi](https://scriptsource.org/scr/Chis)**
-
-**[Script comparison table](https://r12a.github.io/scripts/script-features/)**
-
-**[Unicode character pickers](https://r12a.github.io/pickers/)**
-
-**[Creating and supporting OpenType fonts for the Universal Shaping Engine](http://www.microsoft.com/typography/OpenTypeDev/USE/intro.htm)**
-
-**[Notes on Scripts, Orthographies and Characters, Lists of Terms](https://r12a.github.io/scripts/#scriptnotes)**
+<ScriptRemoteLinks />
