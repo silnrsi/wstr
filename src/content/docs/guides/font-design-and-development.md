@@ -69,7 +69,7 @@ _Font testing is not currenty covered in this guide, but will be in the future._
 
 ## Building and modifying SIL fonts
 
-See the [SIL Font Development Guide][silfontdev] for detailed guidance on how to build, modify, and contribute to [SIL font projects][sil=fonts].
+See the [SIL Font Development Guide][silfontdev] for detailed guidance on how to build, modify, and contribute to [SIL font projects][sil-fonts].
 
 
 [adobe-glyph-list]: /topics/font/adobe-glyph-list
