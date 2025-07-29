@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-07-21
 ---
 
-## Installable production formats
+## Production formats
 
 The most common format for fonts used on computers and mobile devices is [OpenType][wiki-opentype]. There are two primary _flavors_ of OpenType fonts, TrueType (.ttf) and CFF (.otf). The primary difference between them is how glyph outlines are defined. Both offer the same advanced typograpic features. Font design tools happily read, write, and convert between them. The older [TrueType ][wiki-truetype] (only) format, which confusingly shares the same file extension (.ttf), did not offer advanced features.
 

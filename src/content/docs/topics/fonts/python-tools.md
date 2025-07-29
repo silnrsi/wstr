@@ -1,5 +1,5 @@
 ---
-title: Tools
+title: Python Tools
 description: Font development tools and utilities
 sidebar:
   order: 5610
@@ -12,6 +12,7 @@ Python has been the standard for such scripting, and there are several python-ba
 
 - [Fonttools][fonttools] - a library for manipulating fonts, written in Python.
 - [Pysilfont][pysilfont] - a growing collection of tools for font development and building.
+- [FontParts][fontparts] - python-based API for creating and editing parts of fonts
 - [Fontforge][fontforge] - as well as being a font editor, FontForge comes with a python object library that can work with FontForge’s own format (.sfd), as well as with UFOs and ttf files.
 
 Both Glyphs and FontLab font editors also support python scripting within their application.

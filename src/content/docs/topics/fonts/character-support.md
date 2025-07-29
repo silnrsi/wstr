@@ -1,5 +1,5 @@
 ---
-title: Character support
+title: Character Support
 description: Choosing which characters should be supported
 sidebar:
   order: 5350

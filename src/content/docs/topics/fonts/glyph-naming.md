@@ -1,5 +1,5 @@
 ---
-title: Glyph naming
+title: Glyph Naming
 description: Standards and conventions for glyph names
 sidebar:
   order: 5420

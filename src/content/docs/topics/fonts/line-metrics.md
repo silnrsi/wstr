@@ -1,5 +1,5 @@
 ---
-title: Line metrics
+title: Line Metrics
 description: Shaping engines and smart font rendering systems
 sidebar:
   order: 5340

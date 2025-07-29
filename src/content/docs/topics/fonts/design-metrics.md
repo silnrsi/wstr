@@ -1,5 +1,5 @@
 ---
-title: Design metrics
+title: Design Metrics
 description: Setting a font's basic size and relative dimensions
 sidebar:
   order: 5330
