@@ -3,9 +3,18 @@ title: Tai Viet [Tavt]
 description: Main script page
 sidebar:
     hidden: true
-scriptCode: Tavt
-scriptType: abugida
-scriptDir:  LTR
+scrpropcode: Tavt
+scrpropname: Tai Viet
+scrpropregion: Mainland SE Asia
+scrpropstatus: currently in use
+scrproptype: abugida
+scrpropdir:  LTR
+scrpropbaseline: bottom
+scrpropcase: no
+scrproprwspace: discretionary
+scrpropbehavior: diacritics, contextualization, reordering, split graphs, ligatures
+scrpropisocode: Tavt / 359 (alphasyllablic)
+scrpropotcode: tavt
 lastUpdated: 2025-07-22
 ---
 
@@ -13,18 +22,7 @@ lastUpdated: 2025-07-22
 
 ## Script Features
 
-| | |
---- | --- |
-**Script type** | abugida |   
-**Region** | Mainland Southeast Asian |
-**Status** | currently in use |
-**Direction** | LTR |
-**Baseline** | bottom |
-**Case** | no |        
-**White space** | discretionary |
-**Complex behaviors** | diacritics, contextualization, reordering, split graphs, ligatures |
-**ISO 15924 Code / Key** | Tavt / 359 (alphasyllabic) |
-**OpenType tag** | tavt |
+<ScriptInfo />
 
 ## Script description
 
@@ -57,12 +55,5 @@ Tai Viet | AA80..AADF | 5.2 | [UAA80.pdf](http://www.unicode.org/charts/PDF/UAA8
 
 ## Resources
 
-**[ScriptSource page for Tai Viet](https://scriptsource.org/scr/Tavt)**
+<ScriptRemoteLinks />
 
-**[Script comparison table](https://r12a.github.io/scripts/script-features/)**
-
-**[Unicode character pickers](https://r12a.github.io/pickers/)**
-
-**[Creating and supporting OpenType fonts for the Universal Shaping Engine](http://www.microsoft.com/typography/OpenTypeDev/USE/intro.htm)**
-
-**[Notes on Scripts, Orthographies and Characters, Lists of Terms](https://r12a.github.io/scripts/#scriptnotes)**
