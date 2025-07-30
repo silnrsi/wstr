@@ -3,8 +3,9 @@ import wsdata from '../data/script_ws.json';
 
 const { thisscript } = Astro.props;
 const scriptObj = wsdata.find(s => s.Script === thisscript);
+const wsCount = scriptObj ? scriptObj.WrSys.length : 0;
+const seeMore = wsCount > 5 ? `See complete list` : '';
 ---
-
 {scriptObj && (
 	<div>
 		<table>
@@ -25,6 +26,11 @@ const scriptObj = wsdata.find(s => s.Script === thisscript);
 				<td>{wsObj.Locale}</td>
 			</tr>
 		))}
+		{wsCount > 5 && (
+			<tr>
+				<td colspan="4"><a href={`/scrlang/script_${thisscript}_langs`}>{seeMore}</a></td>
+			</tr>
+		)}
 		</tbody>
 		</table>
 	</div>
