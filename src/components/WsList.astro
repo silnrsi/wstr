@@ -1,11 +1,15 @@
 ---
+import WsVarList from '../../../components/WsVarList.astro';
+
 import wsdata from '../data/script_ws.json';
 
 const { thisscript } = Astro.props;
+
 const scriptObj = wsdata.find(s => s.Script === thisscript);
 const wsCount = scriptObj ? scriptObj.WrSys.length : 0;
-const seeMore = wsCount > 5 ? `See complete list` : '';
+const scriptTagLC = thisscript.toLowerCase();
 ---
+
 {scriptObj && (
 	<div>
 		<table>
@@ -15,6 +19,7 @@ const seeMore = wsCount > 5 ? `See complete list` : '';
 				<th>Writing System<br/>Code</th>
 				<th>Status</th>
 				<th>SLDR/CLDR<br>locale</th>
+				<th>Regional<br/>variants</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -24,11 +29,12 @@ const seeMore = wsCount > 5 ? `See complete list` : '';
 				<td>{wsObj.WsCode}</td>
 				<td>{wsObj.Status}</td>
 				<td>{wsObj.Locale}</td>
+				<WsVarList/>
 			</tr>
 		))}
 		{wsCount > 5 && (
 			<tr>
-				<td colspan="4"><a href={`/scrlang/script_${thisscript}_langs`}>{seeMore}</a></td>
+				<td colspan="4"><a href={`/scrlang/script_${scriptTagLC}_langs`}>See complete list</a></td>
 			</tr>
 		)}
 		</tbody>

@@ -1,0 +1,12 @@
+---
+import wsdata from '../data/script_ws.json';
+
+const { thisscript } = Astro.props;
+const scriptObj = wsdata.find(s => s.Script === thisscript);
+---
+
+			<td>variant list for {thisscript}</td>
+
+<style>
+</style>
+
