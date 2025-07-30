@@ -4,24 +4,25 @@ import wsdata from '../data/script_ws.json';
 
 {	wsdata.map((scriptX) => (
 	<div>
-	<table>
-	<thead>
-		<tr>
-			<th><em>{scriptX.Script}</em></th>
-			<th></th>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-	{scriptX.WrSys.map((wsM) => (
-		<tr>
-			<td>{wsM.LangName}</td>
-			<td>{wsM.WsCode}</td>
-			<td>{wsM.Status}</td>
-		</tr>
-	))}
-	</tbody>
-	</table>
+		<p>Current script is <em>{Astro.props.thisscript}</em>.</p>
+		<table>
+		<thead>
+			<tr>
+				<th><em>{scriptX.Script}</em></th>
+				<th></th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+		{scriptX.WrSys.map((wsM) => (
+			<tr>
+				<td>{wsM.LangName}</td>
+				<td>{wsM.WsCode}</td>
+				<td>{wsM.Status}</td>
+			</tr>
+		))}
+		</tbody>
+		</table>
 	</div>
 ))
 }
