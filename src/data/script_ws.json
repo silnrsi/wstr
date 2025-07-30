@@ -1,24 +1,5 @@
 [
     {
-        "Script": "Latn",
-        "WrSys": [
-            {
-                "LangCode": "aiw",
-                "LangName": "Aari",
-                "WsCode":   "aiw-Latn",
-                "Status":   "in use",
-                "Locale":   "none"
-            },
-            {
-                "LangCode": "aas",
-                "LangName": "Aasáx",
-                "WsCode":   "aas-Latn",
-                "Status":   "unwritten",
-                "Locale":   "none"
-            }
-        ]
-    },
-    {
         "Script":   "Chis",
         "WrSys": [
             {
@@ -26,7 +7,62 @@
                 "LangName": "Kadmali",
                 "WsCode":   "kyw-Chis",
                 "Status":   "in use",
-                "Locale":   "none"
+                "Locale":     "none",
+                "Variants": [ { "code": "kwy-Chis-IN", "country": "India" } ]
+            }
+        ]
+    },
+    {
+        "Script": "Latn",
+        "WrSys": [
+            {
+                "LangCode": "aiw",
+                "LangName": "Aari",
+                "WsCode":   "aiw-Latn",
+                "Status":   "in use",
+                "Locale":   "none",
+                "Variants": [ { "code": "aiw-Latn-ET", "country": "Ethiopia" } ]
+            },
+            {
+                "LangCode": "aas",
+                "LangName": "Aasáx",
+                "WsCode":   "aas-Latn",
+                "Status":   "unwritten",
+                "Locale":   "none",
+                "Variants": [ { "code": "aas-Latn-TZ", "country": "Tanzania" } ]
+            },
+            {
+                "LangCode": "kbt",
+                "LangName": "Abadi",
+                "WsCode":   "kbt-Latn",
+                "Status":   "in use",
+                "Locale":   "none",
+                "Variants": [ { "code": "kbt-Latn-PG", "country": "Papua New Guinea" } ]
+            },
+            {
+                "LangCode": "abq",
+                "LangName": "Abaza",
+                "WsCode":   "abq-Latn",
+                "Status":   "in use",
+                "Locale":   "abq_Latn",
+                "localeStatus": "draft",
+                "Variants": [ { "code": "abq-Latn-TR", "country": "Turkey" } ]
+            },
+            {
+                "LangCode": "ace",
+                "LangName": "Aceh",
+                "WsCode":   "ace-Latn",
+                "Status":   "in use",
+                "Locale":   "none",
+                "Variants": [ { "code": "ace-Latn-ID", "country": "Indonesia" } ]
+            },
+            {
+                "LangCode": "kad",
+                "LangName": "Adara",
+                "WsCode":   "kad-Latn",
+                "Status":   "in use",
+                "Locale":   "kad",
+                "Variants": [ { "code": "kad-Latn-NG", "country": "Nigeria" } ]
             }
         ]
     },
@@ -39,7 +75,7 @@
                 "WsCode":   "byr-Tavt",
                 "Status":   "in use",
                 "Locale":   "none",
-                "variants": [ { "Code": "tyr-Tavt-VN", "Country": "Viet Nam" } ]
+                "Variants": [ { "code": "tyr-Tavt-VN", "country": "Viet Nam" } ]
             },
             {
                 "LangCode": "blt",
@@ -48,7 +84,31 @@
                 "Status":   "in use",
                 "Locale":   "blt",
                 "LocaleStatus": "CLDR",
-                "Variants": [ { "Code": "blt-Tavt-VN", "Country": "Viet Nam" } ]
+                "Variants": [ { "code": "blt-Tavt-VN", "country": "Viet Nam" } ]
+            },
+            {
+                "LangCode": "twh",
+                "LangName": "Tai Dón",
+                "WsCode":   "twh-Tavt",
+                "Status":   "in use",
+                "Locale":   "none",
+                "Variants": [ { "code": "twh-Tavt-VN", "country": "Viet Nam" } ]
+            },
+            {
+                "LangCode": "tyt",
+                "LangName": "Tày Tac",
+                "WsCode":   "tyt-Tavt",
+                "Status":   "in use",
+                "Locale":   "none",
+                "Variants": [ { "code": "tyt-Tavt-VN", "country": "Viet Nam" } ]
+            },
+            {
+                "LangCode": "soa",
+                "LangName": "Thai Song",
+                "WsCode":   "soa-Tavt",
+                "Status":   "in use",
+                "Locale":   "none",
+                "Variants": [ { "code": "soa-Tavt-VN", "country": "Viet Nam" } ]
             }
         ]
     }

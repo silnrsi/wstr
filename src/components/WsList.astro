@@ -7,21 +7,22 @@ const scriptObj = wsdata.find(s => s.Script === thisscript);
 
 {scriptObj && (
 	<div>
-		<p>Current script is <em>{thisscript}</em>.</p>
 		<table>
 		<thead>
 			<tr>
-				<th><em>{scriptObj.Script}</em></th>
-				<th></th>
-				<th></th>
+				<th>Language</th>
+				<th>Writing System<br/>Code</th>
+				<th>Status</th>
+				<th>SLDR/CLDR<br>locale</th>
 			</tr>
 		</thead>
 		<tbody>
-		{scriptObj.WrSys.map((wsM) => (
+		{scriptObj.WrSys.map((wsObj) => (
 			<tr>
-				<td>{wsM.LangName}</td>
-				<td>{wsM.WsCode}</td>
-				<td>{wsM.Status}</td>
+				<td>{wsObj.LangName}</td>
+				<td>{wsObj.WsCode}</td>
+				<td>{wsObj.Status}</td>
+				<td>{wsObj.Locale}</td>
 			</tr>
 		))}
 		</tbody>
