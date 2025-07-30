@@ -1,9 +1,10 @@
 ---
+const { thisscript, wsObj } = Astro.props;
 
-const { thisscript } = Astro.props;
+const wsCount = wsObj ? wsObj.WrSys.length : 0;
 ---
 
-			<td>variant list for this script</td>
+			<td>variant list for {thisscript}: {wsCount}</td>
 
 <style>
 </style>
