@@ -5,11 +5,11 @@ import wsdata from '../data/script_ws.json';
 
 import WsVarList from './WsVarList.astro';
 
-const { thisscript } = Astro.props;
+const { script, wsMax = 10000 } = Astro.props;
 
-const scriptObj = wsdata.find(s => s.Script === thisscript);
+const scriptObj = wsdata.find(s => s.Script === script);
 const wsCount = scriptObj ? scriptObj.WrSys.length : 0;
-const scriptTagLC = thisscript.toLowerCase();
+const scriptTagLC = script.toLowerCase();
 ---
 
 {scriptObj && (
@@ -25,16 +25,16 @@ const scriptTagLC = thisscript.toLowerCase();
 			</tr>
 		</thead>
 		<tbody>
-		{scriptObj.WrSys.slice(0,5).map((wsObj) => (
+		{scriptObj.WrSys.slice(0,wsMax).map((wsObj) => (
 			<tr>
 				<td>{wsObj.LangName}</td>
 				<td>{wsObj.WsCode}</td>
 				<td>{wsObj.Status}</td>
 				<td>{wsObj.Locale}</td>
-				<WsVarList script={thisscript} ws={wsObj.WsCode}/>
+				<WsVarList script={script} ws={wsObj.WsCode}/>
 			</tr>
 		))}
-		{wsCount > 5 && (
+		{wsCount > wsMax && (
 			<tr>
 				<td colspan="4"><a href={`/scrlang/script-${scriptTagLC}-langs`}>See complete list</a></td>
 			</tr>
