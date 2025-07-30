@@ -8,11 +8,11 @@ const wsCode = wsObj ? wsObj.WsCode : 'NO WS';
 const varCount = wsObj ? wsObj.Variants.length : 10000;
 ---
 
-			<td>
-			{wsObj.Variants.map((varObj) => (
-				{varObj.Code} ({varObj.Country})<br/>
-			))}
-			</td>
+				<td>
+				{wsObj.Variants.map((varObj) => (
+					{varObj.Code}<br/>
+				))}
+				</td>
 
 <style>
 </style>
