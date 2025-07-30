@@ -1,20 +1,23 @@
 ---
-import wsdata from '../data/script_ws.json';	
+import wsdata from '../data/script_ws.json';
+
+const { thisscript } = Astro.props;
+const scriptObj = wsdata.find(s => s.Script === thisscript);
 ---
 
-{	wsdata.map((scriptX) => (
+{scriptObj && (
 	<div>
-		<p>Current script is <em>{Astro.props.thisscript}</em>.</p>
+		<p>Current script is <em>{thisscript}</em>.</p>
 		<table>
 		<thead>
 			<tr>
-				<th><em>{scriptX.Script}</em></th>
+				<th><em>{scriptObj.Script}</em></th>
 				<th></th>
 				<th></th>
 			</tr>
 		</thead>
 		<tbody>
-		{scriptX.WrSys.map((wsM) => (
+		{scriptObj.WrSys.map((wsM) => (
 			<tr>
 				<td>{wsM.LangName}</td>
 				<td>{wsM.WsCode}</td>
@@ -24,8 +27,7 @@ import wsdata from '../data/script_ws.json';
 		</tbody>
 		</table>
 	</div>
-))
-}
+)}
 
 <style>
 </style>
