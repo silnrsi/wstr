@@ -1,6 +1,6 @@
 [
     {
-        "Script":   "Chis",
+        "Script": "Chis",
         "WrSys": [
             {
                 "LangCode": "kyw",
@@ -55,6 +55,35 @@
                 "Status":   "in use",
                 "Locale":   "none",
                 "Variants": [ { "code": "ace-Latn-ID", "country": "Indonesia" } ]
+            },
+            {
+                "LangCode": "aca",
+                "LangName": "Acheron",
+                "WsCode":   "aca-Latn",
+                "Status":   "in use",
+                "Locale":   "none",
+                "Variants": [ { "code": "aca-Latn-SD", "country": "Sudan" } ]
+            },
+            {
+                "LangCode": "acr",
+                "LangName": "Achi",
+                "WsCode":   "acr-Latn",
+                "Status":   "in use",
+                "Locale":   "none",
+                "Variants": [
+                    { "code": "acr-Latn-GT", "country": "Guatemala" },
+                    { "code": "acr-Latn-GT-x-cubulco" },
+                    { "code": "acr-Latn-GT-x-rabinal" },
+                    { "code": "acr-Latn-GT-x-trabinal" }
+                ]
+            },
+            {
+                "LangCode": "acr",
+                "LangName": "Acholi",
+                "WsCode":   "acr-Latn",
+                "Status":   "in use",
+                "Locale":   "none",
+                "Variants": [ { "code": "acr-Latn-UG", "country": "Uganda" } ]
             },
             {
                 "LangCode": "kad",

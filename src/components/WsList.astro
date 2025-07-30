@@ -17,7 +17,7 @@ const scriptObj = wsdata.find(s => s.Script === thisscript);
 			</tr>
 		</thead>
 		<tbody>
-		{scriptObj.WrSys.map((wsObj) => (
+		{scriptObj.slice(0,5).WrSys.map((wsObj) => (
 			<tr>
 				<td>{wsObj.LangName}</td>
 				<td>{wsObj.WsCode}</td>
