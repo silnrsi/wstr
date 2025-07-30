@@ -3,11 +3,14 @@ import wsdata from '../data/script_ws.json';
 
 const { script, ws } = Astro.props;
 const scriptObj = wsdata.find(s => s.Script === script);
-const wsCount = scriptObj ? scriptObj.WrSys.length : 0;
+const wsObj = scriptObj ? scriptObj.WrSys.find(w => w.WsCode === ws) : null;
+const wsCode = wsObj ? wsObj.WsCode : 'NO WS';
+const varCount = wsObj ? wsObj.Variants.length : 10000;
+
 
 ---
 
-			<td>variant list for {script} ({wsCount})</td>
+			<td>variant list for {ws}|{wsCode} ({varCount})</td>
 
 <style>
 </style>
