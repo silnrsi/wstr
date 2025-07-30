@@ -3,6 +3,8 @@
 
 import wsdata from '../data/script_ws.json';
 
+import WsVarList from '.WsVarList.astro';
+
 const { thisscript } = Astro.props;
 
 const scriptObj = wsdata.find(s => s.Script === thisscript);
@@ -29,7 +31,7 @@ const scriptTagLC = thisscript.toLowerCase();
 				<td>{wsObj.WsCode}</td>
 				<td>{wsObj.Status}</td>
 				<td>{wsObj.Locale}</td>
-				<WsVarList var2="hello"/>
+				<WsVarList />
 			</tr>
 		))}
 		{wsCount > 5 && (
