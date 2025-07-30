@@ -17,5 +17,17 @@
                 "Locale":   "none"
             }
         ]
+    },
+    {
+        "Script":   "Chis",
+        "WrSys": [
+            {
+                "LangCode": "kyw",
+                "LangName": "Kadmali",
+                "WsCode":   "kyw-Chis",
+                "Status":   "in use",
+                "Locale":     "none",
+            }
+        ]
     }
 ]
