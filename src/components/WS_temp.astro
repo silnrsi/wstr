@@ -2,12 +2,12 @@
 import wsdata from '../data/script_ws.json';	
 ---
 
-{	wsdata.map((script_map) => (
+{	wsdata.map((script) => (
 	<div>
-		<h3>{script_map.script}</h3>
+		<h3>{script.Script}</h3>
 		<ul>
-			{script_map.wrSys.map((ws_map) => (
-				<li>{ws_map.wsCode}</li>
+			{script.WrSys.map((item) => (
+				<li>{item.WsCode}</li>
 			))}
 		</ul>
 	</div>
