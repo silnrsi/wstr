@@ -31,7 +31,7 @@ const scriptTagLC = thisscript.toLowerCase();
 				<td>{wsObj.WsCode}</td>
 				<td>{wsObj.Status}</td>
 				<td>{wsObj.Locale}</td>
-				<WsVarList script="{thisscript}" ws="{wsObj.WsCode}"/>
+				<WsVarList script={thisscript} ws={wsObj.WsCode}/>
 			</tr>
 		))}
 		{wsCount > 5 && (
