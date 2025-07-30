@@ -8,7 +8,7 @@
                 "WsCode":   "kyw-Chis",
                 "Status":   "in use",
                 "Locale":     "none",
-                "Variants": [ { "code": "kwy-Chis-IN", "country": "India" } ]
+                "Variants": [ { "Code": "kwy-Chis-IN", "Country": "India" } ]
             }
         ]
     },
@@ -21,7 +21,7 @@
                 "WsCode":   "aiw-Latn",
                 "Status":   "in use",
                 "Locale":   "none",
-                "Variants": [ { "code": "aiw-Latn-ET", "country": "Ethiopia" } ]
+                "Variants": [ { "Code": "aiw-Latn-ET", "Country": "Ethiopia" } ]
             },
             {
                 "LangCode": "aas",
@@ -29,7 +29,7 @@
                 "WsCode":   "aas-Latn",
                 "Status":   "unwritten",
                 "Locale":   "none",
-                "Variants": [ { "code": "aas-Latn-TZ", "country": "Tanzania" } ]
+                "Variants": [ { "Code": "aas-Latn-TZ", "Country": "Tanzania" } ]
             },
             {
                 "LangCode": "kbt",
@@ -37,7 +37,7 @@
                 "WsCode":   "kbt-Latn",
                 "Status":   "in use",
                 "Locale":   "none",
-                "Variants": [ { "code": "kbt-Latn-PG", "country": "Papua New Guinea" } ]
+                "Variants": [ { "Code": "kbt-Latn-PG", "Country": "Papua New Guinea" } ]
             },
             {
                 "LangCode": "abq",
@@ -46,7 +46,7 @@
                 "Status":   "in use",
                 "Locale":   "abq_Latn",
                 "localeStatus": "draft",
-                "Variants": [ { "code": "abq-Latn-TR", "country": "Turkey" } ]
+                "Variants": [ { "Code": "abq-Latn-TR", "Country": "Turkey" } ]
             },
             {
                 "LangCode": "ace",
@@ -54,7 +54,7 @@
                 "WsCode":   "ace-Latn",
                 "Status":   "in use",
                 "Locale":   "none",
-                "Variants": [ { "code": "ace-Latn-ID", "country": "Indonesia" } ]
+                "Variants": [ { "Code": "ace-Latn-ID", "Country": "Indonesia" } ]
             },
             {
                 "LangCode": "aca",
@@ -62,7 +62,7 @@
                 "WsCode":   "aca-Latn",
                 "Status":   "in use",
                 "Locale":   "none",
-                "Variants": [ { "code": "aca-Latn-SD", "country": "Sudan" } ]
+                "Variants": [ { "Code": "aca-Latn-SD", "Country": "Sudan" } ]
             },
             {
                 "LangCode": "acr",
@@ -71,10 +71,10 @@
                 "Status":   "in use",
                 "Locale":   "none",
                 "Variants": [
-                    { "code": "acr-Latn-GT", "country": "Guatemala" },
-                    { "code": "acr-Latn-GT-x-cubulco" },
-                    { "code": "acr-Latn-GT-x-rabinal" },
-                    { "code": "acr-Latn-GT-x-trabinal" }
+                    { "Code": "acr-Latn-GT", "Country": "Guatemala" },
+                    { "Code": "acr-Latn-GT-x-cubulco" },
+                    { "Code": "acr-Latn-GT-x-rabinal" },
+                    { "Code": "acr-Latn-GT-x-trabinal" }
                 ]
             },
             {
@@ -83,7 +83,7 @@
                 "WsCode":   "acr-Latn",
                 "Status":   "in use",
                 "Locale":   "none",
-                "Variants": [ { "code": "acr-Latn-UG", "country": "Uganda" } ]
+                "Variants": [ { "Code": "acr-Latn-UG", "Country": "Uganda" } ]
             },
             {
                 "LangCode": "kad",
@@ -91,7 +91,7 @@
                 "WsCode":   "kad-Latn",
                 "Status":   "in use",
                 "Locale":   "kad",
-                "Variants": [ { "code": "kad-Latn-NG", "country": "Nigeria" } ]
+                "Variants": [ { "Code": "kad-Latn-NG", "Country": "Nigeria" } ]
             }
         ]
     },
@@ -104,7 +104,7 @@
                 "WsCode":   "byr-Tavt",
                 "Status":   "in use",
                 "Locale":   "none",
-                "Variants": [ { "code": "tyr-Tavt-VN", "country": "Viet Nam" } ]
+                "Variants": [ { "Code": "tyr-Tavt-VN", "Country": "Viet Nam" } ]
             },
             {
                 "LangCode": "blt",
@@ -113,7 +113,7 @@
                 "Status":   "in use",
                 "Locale":   "blt",
                 "LocaleStatus": "CLDR",
-                "Variants": [ { "code": "blt-Tavt-VN", "country": "Viet Nam" } ]
+                "Variants": [ { "Code": "blt-Tavt-VN", "Country": "Viet Nam" } ]
             },
             {
                 "LangCode": "twh",
@@ -121,7 +121,7 @@
                 "WsCode":   "twh-Tavt",
                 "Status":   "in use",
                 "Locale":   "none",
-                "Variants": [ { "code": "twh-Tavt-VN", "country": "Viet Nam" } ]
+                "Variants": [ { "Code": "twh-Tavt-VN", "Country": "Viet Nam" } ]
             },
             {
                 "LangCode": "tyt",
@@ -129,7 +129,7 @@
                 "WsCode":   "tyt-Tavt",
                 "Status":   "in use",
                 "Locale":   "none",
-                "Variants": [ { "code": "tyt-Tavt-VN", "country": "Viet Nam" } ]
+                "Variants": [ { "Code": "tyt-Tavt-VN", "Country": "Viet Nam" } ]
             },
             {
                 "LangCode": "soa",
@@ -137,7 +137,7 @@
                 "WsCode":   "soa-Tavt",
                 "Status":   "in use",
                 "Locale":   "none",
-                "Variants": [ { "code": "soa-Tavt-VN", "country": "Viet Nam" } ]
+                "Variants": [ { "Code": "soa-Tavt-VN", "Country": "Viet Nam" } ]
             }
         ]
     }
