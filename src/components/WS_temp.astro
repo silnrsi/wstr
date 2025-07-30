@@ -1,0 +1,19 @@
+---
+import wsdata from '../content/docs/scrlang/data/script_ws.json';	
+---
+
+{	wsdata.map((script_map) => (
+	<div>
+		<h3>{script_map.script}</h3>
+		<ul>
+			{script_map.wrSys.map((ws_map) => (
+				<li>{ws_map.wsCode}</li>
+			))}
+		</ul>
+	</div>
+))
+}
+
+<style>
+</style>
+
