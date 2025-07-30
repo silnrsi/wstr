@@ -6,11 +6,12 @@ const scriptObj = wsdata.find(s => s.Script === script);
 const wsObj = scriptObj ? scriptObj.WrSys.find(w => w.WsCode === ws) : null;
 const wsCode = wsObj ? wsObj.WsCode : 'NO WS';
 const varCount = wsObj ? wsObj.Variants.length : 10000;
-
-
 ---
 
-			<td>variant list for {ws}|{wsCode} ({varCount})</td>
+			<td>{varCount}: wsObj.Variants.map((varObj) => (
+				{varObj.Code} ({varObj.Country})<br/>
+			))}</td>
+
 
 <style>
 </style>

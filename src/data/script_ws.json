@@ -21,7 +21,14 @@
                 "WsCode":   "aiw-Latn",
                 "Status":   "in use",
                 "Locale":   "none",
-                "Variants": [ { "Code": "aiw-Latn-ET", "Country": "Ethiopia" } ]
+                "Variants": [
+                    { "Code": "aiw-Latn-ET", "Country": "Ethiopia" },
+                    { "Code": "aiw-Latn-EG", "Country": "Egypt" },
+                    { "Code": "aiw-Latn-KE", "Country": "Kenya" },
+                    { "Code": "aiw-Latn-SD", "Country": "Sudan" },
+                    { "Code": "aiw-Latn-TZ", "Country": "Tanzania" },
+                    { "Code": "aiw-Latn-UG", "Country": "Uganda" }
+                ]
             },
             {
                 "LangCode": "aas",
