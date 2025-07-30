@@ -29,5 +29,27 @@
                 "Locale":   "none"
             }
         ]
+    },
+    {
+        "Script": "Tavt",
+        "WrSys": [
+            {
+                "LangCode": "tyr",
+                "LangName": "Tai Daeng",
+                "WsCode":   "byr-Tavt",
+                "Status":   "in use",
+                "Locale":   "none",
+                "variants": [ { "Code": "tyr-Tavt-VN", "Country": "Viet Nam" } ]
+            },
+            {
+                "LangCode": "blt",
+                "LangName": "Tai Dam",
+                "WsCode":   "blt-Tavt",
+                "Status":   "in use",
+                "Locale":   "blt",
+                "LocaleStatus": "CLDR",
+                "Variants": [ { "Code": "blt-Tavt-VN", "Country": "Viet Nam" } ]
+            }
+        ]
     }
 ]
