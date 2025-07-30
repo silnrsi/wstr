@@ -47,7 +47,7 @@ The specifications for LDML structure are described in [Unicode Technical Standa
     </collations>
     <special>
         <sil:external-resources>
-            <sil:font name="Charis" types="default" features="ss04=1 cv43=2 cv68=1 cv77=1 cv90=1">
+            <sil:font name="Charis" types="default=2" features="ss04=1 cv43=2 cv68=1 cv77=1 cv90=1">
                 <sil:url>https://lff.api.languagetechnology.org/family/charis</sil:url>
             </sil:font>
             <sil:font name="Noto Sans">
@@ -312,7 +312,7 @@ The special element holds a child element called `sil:external-resources`, which
 An `sil:font` element can contain a variety of attributes, but the most important ones are "name", "types", "features", and "lang".
 
 ```
-<sil:font name="Charis" types="default" features="ss04=1 cv43=2 cv68=1 cv77=1 cv90=1">
+<sil:font name="Charis" types="default=2" features="ss04=1 cv43=2 cv68=1 cv77=1 cv90=1">
     <sil:url>https://lff.api.languagetechnology.org/family/charis</sil:url>
 </sil:font>
 ```
@@ -320,6 +320,8 @@ An `sil:font` element can contain a variety of attributes, but the most importan
 The "name" attribute holds the name of the font. 
 
 The "types" attribute lists the context in which the font would be used. Currently, only one value is in use in the "types" attribute: "default", meaning this should be the de-facto font choice if the end user doesn't want to be given multiple options. Multiple fonts can be listed as "default", in which case the first font listed (usually the one with the name that appears earliest in the alphabet) would be treated as the true default by the LFF API.  
+
+The "types" attribute consists of a series of roles describing the context in which the font would be used, and the level of priority that font should be given in that context when compared to other listed fonts. Priority is indicated by a positive integer, with the highest values carrying the highest priority. A font with type="default=10" is a higher priority than a font with type="default=3", at least for the "default" role. A font can have multiple roles with individual priority values, such as "default=3 ui=5". The numbers themselves carry no meaning except as a way to compare the fonts in a list. If there are two fonts, and one has a priority value of 3, it does not matter if a higher priority font has a priority of 4 or 200, so long as it is a higher number. The lowest priority possible is 1, and if no value is assigned to a role, that value is assumed to be 1. For example, a font with type="default=3" also has an implied "ui" value of 1.
 
 The "features" attribute lists any font features that should be active by default when using this font in this locale. For details on what each code means, find the font on the [SIL Font Catalogue][fonts] and click the link for "font features" to see a full list of features supported by that font. Not every font will have features. 
 
