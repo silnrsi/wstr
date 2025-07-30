@@ -1,5 +1,5 @@
 ---
-import WsVarList from '../../../components/WsVarList.astro';
+import WsVarList from 'WsVarList.astro';
 
 import wsdata from '../data/script_ws.json';
 
@@ -29,7 +29,7 @@ const scriptTagLC = thisscript.toLowerCase();
 				<td>{wsObj.WsCode}</td>
 				<td>{wsObj.Status}</td>
 				<td>{wsObj.Locale}</td>
-				<WsVarList/>
+				<WsVarList var2="hello"/>
 			</tr>
 		))}
 		{wsCount > 5 && (
