@@ -10,7 +10,7 @@ const varCount = wsObj ? wsObj.Variants.length : 10000;
 
 				<td>
 				{wsObj.Variants.map((varObj) => (
-					<span>{varObj.Code}; </span>
+					<span>{varObj.Code} ({varObj.Country})<br/></span>
 				))}</td>
 
 <style>
