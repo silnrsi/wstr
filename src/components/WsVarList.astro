@@ -1,0 +1,18 @@
+---
+import wsdata from '../data/script_ws.json';
+
+const { script, ws } = Astro.props;
+const scriptObj = wsdata.find(s => s.Script === script);
+const wsObj = scriptObj ? scriptObj.WrSys.find(w => w.WsCode === ws) : null;
+const wsCode = wsObj ? wsObj.WsCode : 'NO WS';
+const varCount = wsObj ? wsObj.Variants.length : 10000;
+---
+
+				<td>
+				{wsObj.Variants.map((varObj) => (
+					<span>{varObj.Code} ({varObj.Country})<br/></span>
+				))}</td>
+
+<style>
+</style>
+

@@ -1,0 +1,115 @@
+[
+    {
+        "script":   "Chis",
+        "wrsys": [
+            {
+                "langCode": "kyw",
+                "langName": "Kadmali",
+                "wsCode":   "kyw-Chis",
+                "status":   "in use",
+                "locale":     "none",
+                "variants": [ { "code": "kwy-Chis-IN", "country": "India" } ]
+            }
+        ]
+    },
+    {
+        "script": "Latn",
+        "wrsys": [
+            {
+                "langCode": "aiw",
+                "langName": "Aari",
+                "wsCode":   "aiw-Latn",
+                "status":   "in use",
+                "locale":   "none",
+                "variants": [ { "code": "aiw-Latn-ET", "country": "Ethiopia" } ]
+            },
+            {
+                "langCode": "aas",
+                "langName": "Aasáx",
+                "wsCode":   "aas-Latn",
+                "status":   "unwritten",
+                "locale":   "none",
+                "variants": [ { "code": "aas-Latn-TZ", "country": "Tanzania" } ]
+            },
+            {
+                "langCode": "kbt",
+                "langName": "Abadi",
+                "wsCode":   "kbt-Latn",
+                "status":   "in use",
+                "locale":   "none",
+                "variants": [ { "code": "kbt-Latn-PG", "country": "Papua New Guinea" } ]
+            },
+            {
+                "langCode": "abq",
+                "langName": "Abaza",
+                "wsCode":   "abq-Latn",
+                "status":   "in use",
+                "locale":   "abq_Latn",
+                "localeStatus": "draft",
+                "variants": [ { "code": "abq-Latn-TR", "country": "Turkey" } ]
+            },
+            {
+                "langCode": "ace",
+                "langName": "Aceh",
+                "wsCode":   "ace-Latn",
+                "status":   "in use",
+                "locale":   "none",
+                "variants": [ { "code": "ace-Latn-ID", "country": "Indonesia" } ]
+            },
+            {
+                "langCode": "kad",
+                "langName": "Adara",
+                "wsCode":   "kad-Latn",
+                "status":   "in use",
+                "locale":   "kad",
+                "variants": [ { "code": "kad-Latn-NG", "country": "Nigeria" } ]
+            }
+        ]
+    },
+    {
+        "script": "Tavt",
+        "wrsys": [
+            {
+                "langCode": "tyr",
+                "langName": "Tai Daeng",
+                "wsCode":   "byr-Tavt",
+                "status":   "in use",
+                "locale":   "none",
+                "variants": [ { "code": "tyr-Tavt-VN", "country": "Viet Nam" } ]
+            },
+            {
+                "langCode": "blt",
+                "langName": "Tai Dam",
+                "wsCode":   "blt-Tavt",
+                "status":   "in use",
+                "locale":   "blt",
+                "localeStatus": "CLDR",
+                "variants": [ { "code": "blt-Tavt-VN", "country": "Viet Nam" } ]
+            },
+            {
+                "langCode": "twh",
+                "langName": "Tai Dón",
+                "wsCode":   "twh-Tavt",
+                "status":   "in use",
+                "locale":   "none",
+                "variants": [ { "code": "twh-Tavt-VN", "country": "Viet Nam" } ]
+            },
+            {
+                "langCode": "tyt",
+                "langName": "Tày Tac",
+                "wsCode":   "tyt-Tavt",
+                "status":   "in use",
+                "locale":   "none",
+                "variants": [ { "code": "tyt-Tavt-VN", "country": "Viet Nam" } ]
+            },
+            {
+                "langCode": "soa",
+                "langName": "Thai Song",
+                "wsCode":   "soa-Tavt",
+                "status":   "in use",
+                "locale":   "none",
+                "variants": [ { "code": "soa-Tavt-VN", "country": "Viet Nam" } ]
+            }
+        ]
+    }
+]
