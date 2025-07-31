@@ -1,0 +1,15 @@
+---
+const { locale, localeStatus } = Astro.props;
+const localelink = 
+	locale
+	? ( ( localeStatus && localeStatus === "CLDR") 
+		? `<a href='https://unicode.org/cldr/charts/47/summary/${locale}.html' target='_blank'>${locale} (CLDR)</a>` 
+		: `${locale} (SLDR)` )
+	: '';
+---
+
+			<span>{localeLink}</span>
+
+<style>
+</style>
+

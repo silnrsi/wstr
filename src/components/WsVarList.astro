@@ -1,7 +1,8 @@
 ---
 import wsdata from '../data/script_ws.json';
 
-import CountryParens from './CountryParens.astro';
+
+import WsCountryParens from './WsCountryParens.astro';
 
 const { script, ws } = Astro.props;
 const scriptObj = wsdata.find(s => s.Script === script);
@@ -12,7 +13,7 @@ const varCount = wsObj ? wsObj.Variants.length : 10000;
 
 				<td>
 				{wsObj.Variants.map((varObj) => (
-					<span>{varObj.Code} <CountryParens country={varObj.Country} />><br/></span>
+					<span>{varObj.Code} <WsCountryParens country={varObj.Country} /></span><br/>
 				))}</td>
 
 <style>
