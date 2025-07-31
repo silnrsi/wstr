@@ -2,7 +2,7 @@
 const { locale, localeStatus } = Astro.props;
 const localeText     = (locale && locale !== "none") ? `${locale} (SLDR)` : '';
 const localeTextCLDR = (locale && locale !== "none") ? `${locale} (CLDR)` : '';
-const localeLink = (localeStatus === "CLDR") ? `<a href='https://unicode.org/cldr/charts/47/summary/${locale}.html' target="_blank">${localeTextCLDR}</a>` : localeText;
+const localeLink = (localeStatus === "CLDR") ? <a href=`https://unicode.org/cldr/charts/47/summary/${locale}.html` target='_blank'>${localeTextCLDR}</a> : localeText;
 ---
 
 			<td>{localeLink}</td>
