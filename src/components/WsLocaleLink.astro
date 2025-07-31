@@ -1,6 +1,6 @@
 ---
 const { locale, localeStatus } = Astro.props;
-const localeText = (locale || ${locale} === "none") ? `${locale} (${localeStatus})` : '';
+const localeText = (locale || locale === "none") ? `${locale} - ${localeStatus}` : '';
 ---
 
 			<td>{localeText}</td>
