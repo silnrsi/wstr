@@ -47,6 +47,23 @@
                 "Variants": [ { "Code": "kbt-Latn-PG", "Country": "Papua New Guinea" } ]
             },
             {
+                "LangCode": "abf",
+                "LangName": "Abai Sungai",
+                "WsCode":   "abq-Latn",
+                "Status":   "in use",
+                "Locale":   "abf",
+                "localeStatus": "draft",
+                "Variants": [ { "Code": "abf-Latn-MY", "Country": "Malaysia" } ]
+            },
+            {
+                "LangCode": "bzy",
+                "LangName": "Abanglekuo",
+                "WsCode":   "abq-Latn",
+                "Status":   "unwritten",
+                "Locale":   "bzy",
+                "Variants": [ { "Code": "bzy-Latn-NG", "Country": "Nigeria" } ]
+            },
+            {
                 "LangCode": "abq",
                 "LangName": "Abaza",
                 "WsCode":   "abq-Latn",
@@ -54,6 +71,74 @@
                 "Locale":   "abq_Latn",
                 "localeStatus": "draft",
                 "Variants": [ { "Code": "abq-Latn-TR", "Country": "Turkey" } ]
+            },
+            {
+                "LangCode": "aba",
+                "LangName": "Abé",
+                "WsCode":   "abq-Latn",
+                "Status":   "in use",
+                "Locale":   "",
+                "Variants": [ { "Code": "aba-Latn-CI", "Country": "Côte d’Ivoire" } ]
+            },
+            {
+                "LangCode": "abp",
+                "LangName": "Abellen Ayta",
+                "WsCode":   "abp-Latn",
+                "Status":   "in use",
+                "Locale":   "",
+                "Variants": [ { "Code": "abp-Latn-PH", "Country": "Phillipines" } ]
+            },
+            {
+                "LangCode": "abi",
+                "LangName": "Abidji",
+                "WsCode":   "abi-Latn",
+                "Status":   "in use",
+                "Locale":   "",
+                "Variants": [ { "Code": "abi-Latn-CI", "Country": "Côte d’Ivoire" } ]
+            },
+            {
+                "LangCode": "bsa",
+                "LangName": "Abinomn",
+                "WsCode":   "bsa-Latn",
+                "Status":   "in use",
+                "Locale":   "",
+                "Variants": [ { "Code": "bsa-Latn-ID", "Country": "Indonesia" } ]
+            },
+            {
+                "LangCode": "axb",
+                "LangName": "Abipon",
+                "WsCode":   "axb-Latn",
+                "Status":   "unwritten",
+                "Locale":   "",
+                "Variants": [ { "Code": "axb-Latn-AR", "Country": "Argentina" } ]
+            },
+            {
+                "LangCode": "pcn",
+                "LangName": "Abishi",
+                "WsCode":   "pcn-Latn",
+                "Status":   "unwritten",
+                "Locale":   "",
+                "Variants": [ { "Code": "pcn-Latn-NG", "Country": "Nigeria" } ]
+            },
+            {
+                "LangCode": "ab",
+                "LangName": "Abkhaz",
+                "WsCode":   "ab-Latn",
+                "Status":   "unwritten",
+                "Locale":   "",
+                "Variants": [ { "Code": "ab-Latn-TR", "Country": "Turkey" } ]
+            },
+
+
+
+            {
+                "LangCode": "tpx",
+                "LangName": "Acatepec Me’phaa",
+                "WsCode":   "tpx-Latn",
+                "Status":   "in use",
+                "Locale":   "tpx",
+                "LocaleStatus": "draft",
+                "Variants": [ { "Code": "tpx-Latn-MX", "Country": "Mexico" } ]
             },
             {
                 "LangCode": "ace",
@@ -85,12 +170,12 @@
                 ]
             },
             {
-                "LangCode": "acr",
+                "LangCode": "ach",
                 "LangName": "Acholi",
-                "WsCode":   "acr-Latn",
+                "WsCode":   "ach-Latn",
                 "Status":   "in use",
                 "Locale":   "none",
-                "Variants": [ { "Code": "acr-Latn-UG", "Country": "Uganda" } ]
+                "Variants": [ { "Code": "ach-Latn-UG", "Country": "Uganda" } ]
             },
             {
                 "LangCode": "kad",

@@ -31,12 +31,12 @@ const scriptTagLC = script.toLowerCase();
 				<td>{wsObj.WsCode}</td>
 				<td>{wsObj.Status}</td>
 				<td>{wsObj.Locale}</td>
-				<WsVarList script={script} ws={wsObj.WsCode}/>
+				<WsVarList script={script} ws={wsObj.WsCode} />
 			</tr>
 		))}
 		{wsCount > wsMax && (
 			<tr>
-				<td colspan="4"><a href={`/scrlang/script-${scriptTagLC}-langs`}>See complete list</a></td>
+				<td colspan="5"><a href={`/scrlang/script-${scriptTagLC}-langs`}>See complete list</a></td>
 			</tr>
 		)}
 		</tbody>
