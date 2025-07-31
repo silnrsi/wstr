@@ -7,7 +7,7 @@
                 "LangName": "Kadmali",
                 "WsCode":   "kyw-Chis",
                 "Status":   "in use",
-                "Locale":     "none",
+                "Locale":     "",
                 "Variants": [ { "Code": "kwy-Chis-IN", "Country": "India" } ]
             }
         ]
@@ -20,7 +20,8 @@
                 "LangName": "Aari",
                 "WsCode":   "aiw-Latn",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "aiw",
+                "LocaleStatus": "CLDR",
                 "Variants": [
                     { "Code": "aiw-Latn-ET", "Country": "Ethiopia" },
                     { "Code": "aiw-Latn-EG", "Country": "Egypt" },
@@ -43,7 +44,7 @@
                 "LangName": "Abadi",
                 "WsCode":   "kbt-Latn",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "kbt-Latn-PG", "Country": "Papua New Guinea" } ]
             },
             {
@@ -145,7 +146,7 @@
                 "LangName": "Aceh",
                 "WsCode":   "ace-Latn",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "ace-Latn-ID", "Country": "Indonesia" } ]
             },
             {
@@ -153,7 +154,7 @@
                 "LangName": "Acheron",
                 "WsCode":   "aca-Latn",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "aca-Latn-SD", "Country": "Sudan" } ]
             },
             {
@@ -161,7 +162,7 @@
                 "LangName": "Achi",
                 "WsCode":   "acr-Latn",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [
                     { "Code": "acr-Latn-GT", "Country": "Guatemala" },
                     { "Code": "acr-Latn-GT-x-cubulco" },
@@ -174,7 +175,7 @@
                 "LangName": "Acholi",
                 "WsCode":   "ach-Latn",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "ach-Latn-UG", "Country": "Uganda" } ]
             },
             {
@@ -195,7 +196,7 @@
                 "LangName": "Tai Daeng",
                 "WsCode":   "byr-Tavt",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "tyr-Tavt-VN", "Country": "Viet Nam" } ]
             },
             {
@@ -212,7 +213,7 @@
                 "LangName": "Tai Dón",
                 "WsCode":   "twh-Tavt",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "twh-Tavt-VN", "Country": "Viet Nam" } ]
             },
             {
@@ -220,7 +221,7 @@
                 "LangName": "Tày Tac",
                 "WsCode":   "tyt-Tavt",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "tyt-Tavt-VN", "Country": "Viet Nam" } ]
             },
             {
@@ -228,7 +229,7 @@
                 "LangName": "Thai Song",
                 "WsCode":   "soa-Tavt",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "soa-Tavt-VN", "Country": "Viet Nam" } ]
             }
         ]
