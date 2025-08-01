@@ -41,8 +41,8 @@ It describes other keyboard input methods (and tries to indicate which ones are 
 In particular, one of the character picker options may be an acceptible solution
 for typing rarely used characters.
 
-[wsig7](https://scripts.sil.org/wsi_guidelines_sec_7.html)
-[keyman](https://keyman.com)
-[from-keystokes-to-codepoints](/topics/input/from-keystokes-to-codepoints)
-[keymandeveloper](https://keyman.com/developer/)
-[ssart](https://scriptsource.org/entry/ytr8g8n6sw)
+[wsig7]: https://scripts.sil.org/wsi_guidelines_sec_7.html
+[keyman]: https://keyman.com
+[from-keystokes-to-codepoints]: /topics/input/from-keystokes-to-codepoints
+[keymandeveloper]: https://keyman.com/developer/
+[ssart]: https://scriptsource.org/entry/ytr8g8n6sw
