@@ -6,15 +6,10 @@ const localeTextCLDR = (locale && locale !== "none") ? `${locale} (CLDR)` : '';
 
 			<td>
                 {localeStatus === "CLDR" ? (
-
                     <a href={`https://unicode.org/cldr/charts/47/summary/${locale}.html`} target="_blank">{localeTextCLDR}</a>
-
                 ) : (
-
                     localeText
-
                 )}
-
             </td>
 
 <style>

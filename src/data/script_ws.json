@@ -185,7 +185,28 @@
                 "Status":   "in use",
                 "Locale":   "kad",
                 "Variants": [ { "Code": "kad-Latn-NG", "Country": "Nigeria" } ]
-            }
+            },
+            {
+                "LangCode": "aa",
+                "LangName": "Afar",
+                "WsCode":   "aa-Latn",
+                "Status":   "in use",
+                "Locale":   "aa",
+                "LocaleStatus": "CLDR",
+                "Variants": [
+                    { "Code": "aa-Latn-DJ", "Country": "Djibouti" },
+                    { "Code": "aa-Latn-ER", "Country": "Eritrea" },
+                    { "Code": "aa-Latn-ET", "Country": "Ethiopia" }
+                ]
+            },
+            {
+                "LangCode": "aga",
+                "LangName": "Aguano",
+                "WsCode":   "aga-Latn",
+                "Status":   "unwritten",
+                "Locale":   "none",
+                "Variants": [ { "Code": "aga-Latn-PG", "Country": "Papua New Guinea" } ]
+            }            
         ]
     },
     {
