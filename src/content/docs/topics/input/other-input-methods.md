@@ -3,7 +3,7 @@ title: Other Input Methods
 description: Review of other input methods
 sidebar:
     order: 4800
-lastUpdated: 2025-07-11
+lastUpdated: 2025-07-31
 ---
 
 Although a keyboard (either a physical keyboard or a touch screen keyboard)
@@ -43,6 +43,6 @@ Text produced in this manner needs to be verified for accuracy.
 
 See [Optical character recognition][OCR] for more details.
 
-[speechrecognition](https://en.wikipedia.org/wiki/Speech_recognition)
-[handwritingrecognition](https://en.wikipedia.org/wiki/Handwriting_recognition)
-[OCR](https://en.wikipedia.org/wiki/Optical_character_recognition)
+[speechrecognition]: https://en.wikipedia.org/wiki/Speech_recognition
+[handwritingrecognition]: https://en.wikipedia.org/wiki/Handwriting_recognition
+[OCR]: https://en.wikipedia.org/wiki/Optical_character_recognition
