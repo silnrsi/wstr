@@ -3,7 +3,7 @@ title: Other Input Methods
 description: Review of other input methods
 sidebar:
     order: 4800
-lastUpdated: 2025-07-11
+lastUpdated: 2025-07-31
 ---
 
 Although a keyboard (either a physical keyboard or a touch screen keyboard)
