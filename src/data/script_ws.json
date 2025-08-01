@@ -7,7 +7,7 @@
                 "LangName": "Kadmali",
                 "WsCode":   "kyw-Chis",
                 "Status":   "in use",
-                "Locale":     "none",
+                "Locale":     "",
                 "Variants": [ { "Code": "kwy-Chis-IN", "Country": "India" } ]
             }
         ]
@@ -20,7 +20,8 @@
                 "LangName": "Aari",
                 "WsCode":   "aiw-Latn",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "aiw",
+                "LocaleStatus": "CLDR",
                 "Variants": [
                     { "Code": "aiw-Latn-ET", "Country": "Ethiopia" },
                     { "Code": "aiw-Latn-EG", "Country": "Egypt" },
@@ -43,8 +44,25 @@
                 "LangName": "Abadi",
                 "WsCode":   "kbt-Latn",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "kbt-Latn-PG", "Country": "Papua New Guinea" } ]
+            },
+            {
+                "LangCode": "abf",
+                "LangName": "Abai Sungai",
+                "WsCode":   "abq-Latn",
+                "Status":   "in use",
+                "Locale":   "abf",
+                "localeStatus": "draft",
+                "Variants": [ { "Code": "abf-Latn-MY", "Country": "Malaysia" } ]
+            },
+            {
+                "LangCode": "bzy",
+                "LangName": "Abanglekuo",
+                "WsCode":   "abq-Latn",
+                "Status":   "unwritten",
+                "Locale":   "bzy",
+                "Variants": [ { "Code": "bzy-Latn-NG", "Country": "Nigeria" } ]
             },
             {
                 "LangCode": "abq",
@@ -56,11 +74,79 @@
                 "Variants": [ { "Code": "abq-Latn-TR", "Country": "Turkey" } ]
             },
             {
+                "LangCode": "aba",
+                "LangName": "Abé",
+                "WsCode":   "abq-Latn",
+                "Status":   "in use",
+                "Locale":   "",
+                "Variants": [ { "Code": "aba-Latn-CI", "Country": "Côte d’Ivoire" } ]
+            },
+            {
+                "LangCode": "abp",
+                "LangName": "Abellen Ayta",
+                "WsCode":   "abp-Latn",
+                "Status":   "in use",
+                "Locale":   "",
+                "Variants": [ { "Code": "abp-Latn-PH", "Country": "Phillipines" } ]
+            },
+            {
+                "LangCode": "abi",
+                "LangName": "Abidji",
+                "WsCode":   "abi-Latn",
+                "Status":   "in use",
+                "Locale":   "",
+                "Variants": [ { "Code": "abi-Latn-CI", "Country": "Côte d’Ivoire" } ]
+            },
+            {
+                "LangCode": "bsa",
+                "LangName": "Abinomn",
+                "WsCode":   "bsa-Latn",
+                "Status":   "in use",
+                "Locale":   "",
+                "Variants": [ { "Code": "bsa-Latn-ID", "Country": "Indonesia" } ]
+            },
+            {
+                "LangCode": "axb",
+                "LangName": "Abipon",
+                "WsCode":   "axb-Latn",
+                "Status":   "unwritten",
+                "Locale":   "",
+                "Variants": [ { "Code": "axb-Latn-AR", "Country": "Argentina" } ]
+            },
+            {
+                "LangCode": "pcn",
+                "LangName": "Abishi",
+                "WsCode":   "pcn-Latn",
+                "Status":   "unwritten",
+                "Locale":   "",
+                "Variants": [ { "Code": "pcn-Latn-NG", "Country": "Nigeria" } ]
+            },
+            {
+                "LangCode": "ab",
+                "LangName": "Abkhaz",
+                "WsCode":   "ab-Latn",
+                "Status":   "unwritten",
+                "Locale":   "",
+                "Variants": [ { "Code": "ab-Latn-TR", "Country": "Turkey" } ]
+            },
+
+
+
+            {
+                "LangCode": "tpx",
+                "LangName": "Acatepec Me’phaa",
+                "WsCode":   "tpx-Latn",
+                "Status":   "in use",
+                "Locale":   "tpx",
+                "LocaleStatus": "draft",
+                "Variants": [ { "Code": "tpx-Latn-MX", "Country": "Mexico" } ]
+            },
+            {
                 "LangCode": "ace",
                 "LangName": "Aceh",
                 "WsCode":   "ace-Latn",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "ace-Latn-ID", "Country": "Indonesia" } ]
             },
             {
@@ -68,7 +154,7 @@
                 "LangName": "Acheron",
                 "WsCode":   "aca-Latn",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "aca-Latn-SD", "Country": "Sudan" } ]
             },
             {
@@ -76,7 +162,7 @@
                 "LangName": "Achi",
                 "WsCode":   "acr-Latn",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [
                     { "Code": "acr-Latn-GT", "Country": "Guatemala" },
                     { "Code": "acr-Latn-GT-x-cubulco" },
@@ -85,12 +171,12 @@
                 ]
             },
             {
-                "LangCode": "acr",
+                "LangCode": "ach",
                 "LangName": "Acholi",
-                "WsCode":   "acr-Latn",
+                "WsCode":   "ach-Latn",
                 "Status":   "in use",
-                "Locale":   "none",
-                "Variants": [ { "Code": "acr-Latn-UG", "Country": "Uganda" } ]
+                "Locale":   "",
+                "Variants": [ { "Code": "ach-Latn-UG", "Country": "Uganda" } ]
             },
             {
                 "LangCode": "kad",
@@ -110,7 +196,7 @@
                 "LangName": "Tai Daeng",
                 "WsCode":   "byr-Tavt",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "tyr-Tavt-VN", "Country": "Viet Nam" } ]
             },
             {
@@ -127,7 +213,7 @@
                 "LangName": "Tai Dón",
                 "WsCode":   "twh-Tavt",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "twh-Tavt-VN", "Country": "Viet Nam" } ]
             },
             {
@@ -135,7 +221,7 @@
                 "LangName": "Tày Tac",
                 "WsCode":   "tyt-Tavt",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "tyt-Tavt-VN", "Country": "Viet Nam" } ]
             },
             {
@@ -143,7 +229,7 @@
                 "LangName": "Thai Song",
                 "WsCode":   "soa-Tavt",
                 "Status":   "in use",
-                "Locale":   "none",
+                "Locale":   "",
                 "Variants": [ { "Code": "soa-Tavt-VN", "Country": "Viet Nam" } ]
             }
         ]
