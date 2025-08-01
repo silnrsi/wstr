@@ -58,3 +58,5 @@ These three issues need consideration in the planning, development and evaluatio
 
 
 _Portions of this content first appeared in [Guidelines for Writing System Support][wsig], copyright © 2003 UNESCO and SIL International._
+
+[wsig]: https://scripts.sil.org/wsi_guidelines.html
