@@ -32,13 +32,13 @@ The user can, on the site, try the keyboard online and download a keyboard packa
 If no suitable keyboard exists, a user can download the [Keyman Developer][keymandeveloper]
 tool and create a suitable keyboard layout.
 Users who create such a keyboard are encouraged to submit it to the Keyman keyboards repository
-so that others can benifit from having that keyboard freely available.
+so that others can benefit from having that keyboard freely available.
 
 ## Other input methods
 
 This [Keyboard Systems Overview article][ssart] was originally written in 2012 and updated in 2025.
 It describes other keyboard input methods (and tries to indicate which ones are no longer viable).
-In particular, one of the character picker options may be an acceptible solution
+In particular, one of the character picker options may be an acceptable solution
 for typing rarely used characters.
 
 [wsig7]: https://scripts.sil.org/wsi_guidelines_sec_7.html

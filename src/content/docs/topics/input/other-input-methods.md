@@ -20,7 +20,7 @@ With voice recognition (also known as speech-to-text),
 a person speaks into the microphone of a computer or phone.
 The device then analyzes the recorded sounds and matches them to information
 about a particular language, attempting to produce the corresponding text.
-Because this method may require large amounts of written text and correspoinding recordings,
+Because this method may require large amounts of written text and corresponding recordings,
 it may not be feasible for a language that is relatively new in the digital space.
 Text produced in this manner needs to be verified for accuracy.
 

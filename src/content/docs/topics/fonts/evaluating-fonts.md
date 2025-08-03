@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-07-25
 ---
 
-Here are some visual and technical aspects of a font that can affect how well it serves a partiocular langauge or writing system.
+Here are some visual and technical aspects of a font that can affect how well it serves a particular language or writing system.
 
 ## Visual
 

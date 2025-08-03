@@ -412,7 +412,7 @@ This is a visual reminder of the inheritance process for human ease-of-use, and 
 
 Unfortunately, identifying a parent file for inheritance is not always as simple as "remove the extra parts of a langtag". Most notably, files do NOT fall back to the file for the base language if they use a different script. For example, the file `ru.xml` (Russian) uses Cyrillic script. The file `ru_Latn.xml` uses Latin script. If `ru_Latn.xml` were to inherit from `ru.xml`, the flattened form of `ru_Latn.xml` would contain inherited data written in Cyrillic, which is not correct. Therefore, `ru_Latn.xml` falls back directly to `root.xml`. 
 
-There is no official term for these unique fallback chains, but for the puroses of this page, I will be refering to them as "non-standard" parent locales. 
+There is no official term for these unique fallback chains, but for the purposes of this page, I will be referring to them as "non-standard" parent locales. 
 
 There are other reasons for non-standard parent locales beyond script differences. Some files need to fall back to a specific region before the base file, such as the files for Spanish spoken in any Latin American country, which need to first fall back to `es_412.xml` (Spanish spoken in Latin America) before that file falls back to `es.xml` (Spanish spoken in Spain). Some files even fall back to a file using the same script and/or region for a different language: `hi_Latn.xml` (Hindi using Latin Script) falls back to `en_IN.xml` (English spoken in India) instead of `hi.xml` (Hindi spoken in India), while `ht.xml` (Haitain Creole) falls back to `fr_HT.xml` (French spoken in Haiti) instead of inheriting directly from `root.xml`.
 

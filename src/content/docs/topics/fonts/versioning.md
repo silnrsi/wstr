@@ -8,7 +8,7 @@ lastUpdated: 2025-07-18
 
 A version number in a font is useful in (at least) two situations:
 
-- Operating systems can determine when to update a package containing a font by lookling at the version number.
+- Operating systems can determine when to update a package containing a font by looking at the version number.
 - If users are having difficulty with a font you have created, they can let you know what version of the font they have, and then you can figure out if the installed version of the font is outdated, or has known problems.
 
 **We recommend using a version number in the form of x.yyy (that is, three places past the decimal point).** For example, use a version number such as `1.500`, not `1.5`. This will help the version number to be correctly understood in a variety of environments.
@@ -91,6 +91,4 @@ Here is a summary of where to set version numbers and version strings:
 
 [otspec]: https://www.microsoft.com/en-us/Typography/OpenTypeSpecification.aspx
 [semver]: https://semver.org/
-
-
 

@@ -49,3 +49,4 @@ The following are known limitations that are due to be addressed in the future:
 [pysilfont-docs]: https://github.com/silnrsi/pysilfont/blob/master/docs/docs.md
 [pysilfont]: https://github.com/silnrsi/pysilfont
 [unified-font-objects-ufo-normalization]: /topics/fonts/unified-font-objects-ufo#ufo-normalization
+[fontparts]: https://github.com/robotools/fontParts
