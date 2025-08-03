@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-07-25
 ---
 
-Fonts that support specific scripts and writing systems come from a variety of sources: those distributed with an operating system or application, freely-licensed fonts available from websites, and commercial fonts licensed though foundry websites and ecommerce platforms. It is important to determine whether the font is truly suitable for the writing system and intended use.
+Fonts that support specific scripts and writing systems come from a variety of sources: those distributed with an operating system or application, freely-licensed fonts available from websites, and commercial fonts licensed though foundry websites and e-commerce platforms. It is important to determine whether the font is truly suitable for the writing system and intended use.
 
 - _Does it support all the needed characters and shaping rules?_
 - _Does it meet the necessary visual and technical requirements (see [Evaluating Fonts][evaluating-fonts])?_
@@ -18,10 +18,10 @@ Fonts that support specific scripts and writing systems come from a variety of s
 It would be impossible to list all the sources for commercially-licensed fonts, so the focus here is mainly on fonts that are licensed using free and open licenses such as the [SIL Open Font License][ofl]. Here are a few sources:
 
 - [SIL Global][sil-fonts] creates fonts for over 25 scripts that support thousands of languages around the world.
-- [Google Fonts][gf] is a high-performance, global webfont service that also provides over 1000 fonts for download for self-hosting, desktop use and app bundling. These fonts, including the full Noto families, support over 100 writing systems.
+- [Google Fonts][gf] is a high-performance, global webfont service that also provides over 1700 fonts for download for self-hosting, desktop use and app bundling. These fonts, including the full Noto families, support over 100 writing systems.
 - [Adobe][adobe-open-source] provides many of the same fonts as Google Fonts, but also has notable open source projects that support multiple scripts, such as [Source Sans][adobe-source-sans].
 
-A longer list of sources and projects is available on the [OFL site][ofl-fonts].
+A longer list of sources and projects is available on the [OFL website showcase][ofl-fonts].
 
 ## Finding fonts for a specific language or writing system
 
