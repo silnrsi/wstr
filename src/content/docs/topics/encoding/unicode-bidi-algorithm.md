@@ -159,6 +159,8 @@ As was previously mentioned, it is possible to adjust the behavior of bidirectio
 
 - [Unicode Webinar on Bidirectional Text (Part 2): Delving into Bidi][unicode-webinar-bidi-2] -- This second Bidi event gives three bidi experts an opportunity to share more information, including on UI, as well as answer more user specific questions.
 
+- [Unicode Webinar on Bidirectional Text (Part 3): Mastering Bidirectional Content for Translators and Localizers][unicode-webinar-bidi-3] -- Focuses on common issues encountered in handling right-to-left text, especially those impacting translators working in right-to-left scripts.
+
 
 [uax9]: http://www.unicode.org/reports/tr9/
 [xetex]: http://xetex.sourceforge.net/
@@ -169,3 +171,4 @@ As was previously mentioned, it is possible to adjust the behavior of bidirectio
 [graphite-description-language]: http://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_devFont
 [unicode-webinar-bidi-1]: https://www.youtube.com/watch?v=mVHuTkdKw8Q
 [unicode-webinar-bidi-2]: https://www.youtube.com/watch?v=_gZUK-CJYDc
+[unicode-webinar-bidi-3]: https://www.youtube.com/watch?v=rBK9CNIZWLY
