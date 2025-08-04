@@ -6,8 +6,13 @@ sidebar:
 lastUpdated: 2025-07-25
 ---
 
-***(add brief prose introduction to OpenType and useful external links)***
+OpenType is a [smart-font](/reference/glossary#smartfont) technology that was developed by Microsoft and Adobe. It is the mostly widely-supoorted such system available today (less common systems are Graphite and AAT).
 
+OpenType defines a set of font tables that include _rules_ to perform transformations on the stream of glyphs representing the text stream to be rendered. The rules are grouped into _lookups_ and the lookups are organized in terms of _features_.
+
+Here are some general resources about OpenType:
+* [Microsoft documentation](https://learn.microsoft.com/en-us/typography/opentype/)
+* [Wikipedia overview](https://en.wikipedia.org/wiki/OpenType)
 
 ## Features
 
@@ -44,9 +49,9 @@ Note that only substitution type lookups are allowed in Stylistic Set and Charac
 ## Lookup Orders
 
 The OpenType specification suggests that software should:
-> assemble all lookups from the set of chosen features, and apply the lookups in the order given in the LookupList table.
+> assemble all lookups from the set of chosen features, and apply the lookups in the order given in the LookupList table. 
 
-However in actual implementations this isn't how it is usually done. Instead, features are divided into sets, and the sets are processed in a specific order. Within a set, all the lookups associated with the included features are executed (in lookup order) before moving on to the next set of features.
+However in actual implementations this isn't how it is usually done. Instead, features are divided into sets, and the sets are processed in a specific order. Within a set, all the lookups associated with the included features are executed (in lookup order, which is the order the lookups are defined in the file) before moving on to the next set of features.
 
 It is important, therefore, that font developers know how features are divided into sets, and the order in which these sets are executed. To complicate matters, this is:
 - not always consistent among shaping engines

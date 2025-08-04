@@ -1,8 +1,6 @@
 ---
 import wsdata from '../data/script_ws.json';
 
-// import WsCountryParens from './WsCountryParens.astro';
-
 const { script, ws } = Astro.props;
 const scriptObj = wsdata.find(s => s.Script === script);
 const wsObj = scriptObj ? scriptObj.WrSys.find(w => w.WsCode === ws) : null;
@@ -23,4 +21,3 @@ const varCount = wsObj ? wsObj.Variants.length : 10000;
 
 <style>
 </style>
-
