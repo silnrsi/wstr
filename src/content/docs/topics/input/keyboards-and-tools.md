@@ -20,7 +20,7 @@ The following sections provide more recent information.
 and also for Android and iOS touch devices (such as phones and tablets).
 A Keyman keyboard package provides a remapping of the keys of the physical keyboard
 (and optionally of touch devices),
-as described in the [From keystrokes to codepoints][from-keystokes-to-codepoints] section.
+as described in the [From keystrokes to codepoints][from-keystrokes-to-codepoints] section.
 The same keyboard package can be used on any supported platform
 that has the Keyman "engine" for that platform installed.
 There is no charge for using Keyman or for downloading keyboards from the Keyman site.
@@ -43,6 +43,6 @@ for typing rarely used characters.
 
 [wsig7]: https://scripts.sil.org/wsi_guidelines_sec_7.html
 [keyman]: https://keyman.com
-[from-keystokes-to-codepoints]: /topics/input/from-keystokes-to-codepoints
+[from-keystrokes-to-codepoints]: /topics/input/from-keystrokes-to-codepoints
 [keymandeveloper]: https://keyman.com/developer/
 [ssart]: https://scriptsource.org/entry/ytr8g8n6sw

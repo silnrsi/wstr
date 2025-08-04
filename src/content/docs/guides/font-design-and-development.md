@@ -82,12 +82,12 @@ _Font testing is not currently covered in this guide, but will be in the future.
 
 See the [SIL Font Development Guide][silfontdev] for detailed guidance on how to build, modify, and contribute to [SIL font projects][sil-fonts].
 
-[adobe-glyph-list]: /topics/font/adobe-glyph-list
-[character-support]: /topics/font/character-support
+[adobe-glyph-list]: /topics/fonts/adobe-glyph-list
+[character-support]: /topics/fonts/character-support
 [characters-codepoints-glyphs]: /topics/encoding/characters-codepoints-glyphs
 [copyright-and-licensing]: /topics/fonts/copyright-and-licensing
 [cozens-flgs]: https://simoncozens.github.io/fonts-and-layout/
-[design-metrics]: /topics/font/design-metrics
+[design-metrics]: /topics/fonts/design-metrics
 [design-with-fontforge]: http://designwithfontforge.com
 [font-and-style-naming]: /topics/fonts/font-and-style-naming
 [fonteng-notes]: https://rsheeter.github.io/
@@ -99,11 +99,11 @@ See the [SIL Font Development Guide][silfontdev] for detailed guidance on how to
 [gf]: https://fonts.google.com/
 [gf-guide]: https://googlefonts.github.io/gf-guide/
 [gf-knol]: https://fonts.google.com/knowledge
-[glyph-naming]: /topics/font/glyph-naming
+[glyph-naming]: /topics/fonts/glyph-naming
 [glyphs]: https://glyphsapp.com/
 [glyphs-learn]: https://glyphsapp.com/learn
 [iws-c8]: http://scripts.sil.org/IWS-Chapter08
-[line-metrics]: /topics/font/line-metrics
+[line-metrics]: /topics/fonts/line-metrics
 [ofl]: https://openfontlicense.org
 [ofl-faq]: https://openfontlicense.org/ofl-faq
 [opentype]: /topics/fonts/opentype

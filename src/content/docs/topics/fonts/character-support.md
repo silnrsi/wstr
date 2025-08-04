@@ -22,7 +22,7 @@ You may also need to consider alternate glyphs for special purposes, and create 
 
 **Non-Latin fonts should also contain a basic set of Latin glyphs.** For technical reasons, the font is less likely to cause problems in certain operating systems and environments if a basic Latin set is present. Our recommendation is that you support the following list: [Basic Set of characters needed in a Non-Roman font][pysilfont-req-chars]. Some characters from that list may only be needed if the font supports right-to-left text - See the [legend][pysilfont-req-chars-legend].
 
-If you don't want to draw all of these Latin glyphs yourself, and are making a font that will be released freely under the [SIL Open Font License](ofl), you can get the glyphs from some other OFL font as long as you acknowledge the source and follow the conditions of the OFL.
+If you don't want to draw all of these Latin glyphs yourself, and are making a font that will be released freely under the [SIL Open Font License][ofl], you can get the glyphs from some other OFL font as long as you acknowledge the source and follow the conditions of the OFL.
 
 ### Avoid encoding characters below U+0020 SPACE
 
