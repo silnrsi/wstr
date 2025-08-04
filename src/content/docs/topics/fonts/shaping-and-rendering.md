@@ -8,8 +8,7 @@ lastUpdated: 2025-08-01
 
 Shaping and rendering refers to the process of choosing [glyphs](/reference/glossary) to represent the characters in the text stream and positioning them properly according to the rules and conventions of the script.
 
-* [State of Text Rendering 2024 paper][txtrendering2024] by Behdad Esfabod.
-* [txtrendering2024](https://behdad.org/text2024/)
+* [State of Text Rendering 2024 paper](https://behdad.org/text2024/) by Behdad Esfabod.
 
 The following are technologies that interact with application software to provide rendering support:
 * Harfbuzz
@@ -25,6 +24,7 @@ The following are technologies that interact with application software to provid
   * [Wikipedia](https://en.wikipedia.org/wiki/Core_Text)
 
 The following are smart-font systems that define font table formats and provide an engine to perform rendering:
-* [OpenType](https://learn.microsoft.com/en-us/typography/opentype/)
+* [OpenType][opentype];
+  * [Microsoft documentation](https://learn.microsoft.com/en-us/typography/opentype/)
 * [Graphite](https://graphite.sil.org/)
 * [AAT](https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6AATIntro.html)
