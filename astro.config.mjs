@@ -48,6 +48,7 @@ export default defineConfig({
 					//autogenerate: { directory: 'scrlang' },
 					items: [
 						'scrlang/scripts',
+						'scrlang/languages',
 						{ label: 'Articles', collapsed: true, autogenerate: { directory: 'scrlang/articles' } },
 						'scrlang/other-resources',
 						'scrlang/test-index',
