@@ -1,7 +1,7 @@
 ---
 const { scrpropname, scrpropcode, detailSummary="seemore" } = Astro.locals.starlightRoute.entry.data;
 const ssurl = scrpropcode ? `https://scriptsource.org/scr/${scrpropcode}` : "https://scriptsource.org";
-const wikiurl = scrpropname ? `https://wikipedia.org/wiki/${scrpropname}` ? "https://en.wikipedia.org/wiki/Script_(Unicode)";
+const wikiurl = scrpropname ? `https://wikipedia.org/wiki/${scrpropname}` : "https://en.wikipedia.org/wiki/Script_(Unicode)";
 const label4script = scrpropname ? ` for ${scrpropname}` : '';
 ---
 
