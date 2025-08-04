@@ -1,0 +1,32 @@
+---
+import ScriptGenResourceLinks from "./ScriptGenResourceLinks.astro";
+
+const { scrpropname, scrpropcode } = Astro.locals.starlightRoute.entry.data;
+const { detailSummary} = Astro.props;
+const ssurl = scrpropcode ? `https://scriptsource.org/scr/${scrpropcode}` : "https://scriptsource.org";
+const wikiurl = scrpropname ? `https://wikipedia.org/wiki/${scrpropname}` : "https://en.wikipedia.org/wiki/Script_(Unicode)";
+const label4script = scrpropname ? ` for ${scrpropname}` : '';
+---
+
+<p>Summary type = {detailSummary}.</p>
+
+<ul>
+	<li><a href={ssurl} target="_blank">ScriptSource page{label4script}</a> - all about scripts, languages, and writing systems</li>
+
+{detailSummary === "seemore" ? (
+	</ul>
+	<details>
+		<summary>See more...</summary>
+		<ul>
+			<ScriptGenResourceLinks label4script={label4script} wikiurl={wikiurl} />
+		</ul>
+	</details>
+
+) : (
+		<ScriptGenResourceLinks label4script={label4script} wikiurl={wikiurl} />
+	</ul>
+)}
+
+<style>
+</style>
+
