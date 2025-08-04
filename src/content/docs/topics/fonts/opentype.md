@@ -11,8 +11,8 @@ OpenType is a [smart-font](/reference/glossary#smartfont) technology that was de
 OpenType defines a set of font tables that include _rules_ to perform transformations on the stream of glyphs representing the text stream to be rendered. The rules are grouped into _lookups_ and the lookups are organized in terms of _features_.
 
 Here are some general resources about OpenType:
-* [Microsoft documentation](https://learn.microsoft.com/en-us/typography/opentype/)
-* [Wikipedia overview](https://en.wikipedia.org/wiki/OpenType)
+* [Microsoft documentation][opentype-ms-documentation]
+* [Wikipedia overview][wikipedia-opentype]
 
 ## Features
 
@@ -145,6 +145,9 @@ This includes Arabic, Mongolian, N'Ko, Syriac, and several other connected or cu
 ----
 [^1]: The Harfbuzz source is maintained [on Github][harfbuzz], and the pertinent information gleaned from the  `collect_features` methods of the various shaper modules (`hb-ot-shape.cc`, `hb-ot-shape-complex-arabic.cc`, `hb-ot-shape-complex-arabic.cc`, etc.)
 
+
+[opentype-ms-documentation]: https://learn.microsoft.com/en-us/typography/opentype/
+[wikipedia-opentype]: https://en.wikipedia.org/wiki/OpenType
 [harfbuzz]: https://github.com/harfbuzz/harfbuzz/tree/master/src
 [otspec-cv]: https://www.microsoft.com/typography/otspec/features_ae.htm#cv01-cv99
 [otspec-ss]: https://www.microsoft.com/typography/otspec/features_pt.htm#ssxx

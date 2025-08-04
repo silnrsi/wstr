@@ -14,26 +14,31 @@ The following are technologies that interact with application software to provid
 * Harfbuzz
   * [GitHub project][harfbuzz-github]
   * [Wikipedia][harfbuzz-wikipedia]
-  * [ManPagez](https://www.manpagez.com/html/harfbuzz/harfbuzz-8.4.0/what-is-harfbuzz.php)
+  * [ManPagez][harfbuzz-manpagez]
   * [SourceForce][harfbuzz-sourceforce]
 * DirectWrite
-  * [Microsoft Ignite](https://learn.microsoft.com/en-us/windows/win32/directwrite/direct-write-portal)
-  * [Wikipedia](https://en.wikipedia.org/wiki/DirectWrite)
+  * [Microsoft Ignite][directwrite-ms-ignite]
+  * [Wikipedia][directwrite-wikipedia]
 * CoreText
-  * [Apple Developer overview](https://developer.apple.com/library/archive/documentation/StringsTextFonts/Conceptual/CoreText_Programming/Overview/Overview.html)
+  * [Apple Developer overview][coretext-apple-developer]
   * [Wikipedia][coretext-wikipedia]
 
 The following are smart-font systems that define font table formats and provide an engine to perform rendering:
 * [OpenType][opentype]
-  * [OT Microsoft documentation](https://learn.microsoft.com/en-us/typography/opentype/)
+  * [OT Microsoft documentation][opentype-ms-documentation]
 * [Graphite]
 * [AAT]
 
 [text-rendering-2024]: https://behdad.org/text2024/
 [harfbuzz-github]: https://github.com/harfbuzz/harfbuzz/wiki
-[harfbuzz-wikipedia]: https://en.wikipedia.org/wiki/HarfBuzz
+[harfbuzz-wiki]: https://en.wikipedia.org/wiki/HarfBuzz
+[harfbuzz-manpagez]: https://www.manpagez.com/html/harfbuzz/harfbuzz-8.4.0/what-is-harfbuzz.php
 [harfbuzz-sourceforce]: https://sourceforge.net/projects/harfbuzz.mirror/
+[directwrite-ms-ignite]: https://learn.microsoft.com/en-us/windows/win32/directwrite/direct-write-portal
+[directwrite-wikipedia]:https://en.wikipedia.org/wiki/DirectWrite
+[coretext-apple-developer]: https://developer.apple.com/library/archive/documentation/StringsTextFonts/Conceptual/CoreText_Programming/Overview/Overview.html
 [coretext-wikipedia]: https://en.wikipedia.org/wiki/Core_Text
 [opentype]: /topics/fonts/opentype
+[opentype-ms-documentation]: https://learn.microsoft.com/en-us/typography/opentype/
 [Graphite]: https://graphite.sil.org/
 [AAT]: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6AATIntro.html

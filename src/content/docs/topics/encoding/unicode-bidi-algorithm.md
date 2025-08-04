@@ -7,7 +7,7 @@ sidebar:
 lastUpdated: 2024-11-11
 ---
 
-The [Unicode Bidirectional Algorithm (UAX#9)](http://www.unicode.org/reports/tr9/), often called the "bidi algorithm," describes specifications for the positioning of characters in text containing characters flowing from right to left, such as Arabic or Hebrew. 
+The [Unicode Bidirectional Algorithm (UAX#9)][uax9], often called the "bidi algorithm," describes specifications for the positioning of characters in text containing characters flowing from right to left, such as Arabic or Hebrew. 
 
 ## A gentle introduction
 
@@ -114,7 +114,7 @@ So okay, we'll be well-behaved citizens of Unicode Land and make sure to use U+0
 
 This "something" is a process called _mirroring_, which replaces the shape of the character with the one appropriate for the directional flow of the text.
 
-A tricky thing about mirroring is that applications are not consistent with regard to when the bidi algorithm is run. Sometimes the application itself does very low-level rendering, including running the bidi algorithm. An application like [XeTeX](http://xetex.sourceforge.net/), for instance, which aims to achieve a very high quality of typography, breaks the text to be rendered into very small units and runs the bidi algorithm over them. This sort of application might want to handle the mirroring itself, or even give the user control over it.
+A tricky thing about mirroring is that applications are not consistent with regard to when the bidi algorithm is run. Sometimes the application itself does very low-level rendering, including running the bidi algorithm. An application like [XeTeX][xetex], for instance, which aims to achieve a very high quality of typography, breaks the text to be rendered into very small units and runs the bidi algorithm over them. This sort of application might want to handle the mirroring itself, or even give the user control over it.
 
 But most applications expect the rendering to take care of both the bidi algorithm and mirroring. So both processes are most often handled by the smart-font rendering software. Notice, though, that if the application performs mirroring itself, the font rendering must _not_ do mirroring, or it will have the effect of turning the shapes back to what they were originally!
 
@@ -126,11 +126,11 @@ However, there is no such thing as a "closing square root sign" to borrow the sh
 
 ### OpenType and mirroring
 
-Most applications use OpenType to perform smart rendering. Fortunately in recent years [OpenType has standardized its approach to mirroring](http://www.microsoft.com/typography/otspec/TTOCHAP1.htm#ltrrtl). It performs mirroring for pairs of characters in a canonical list (the [OpenType Mirroring Pairs List](http://dev.bowdenweb.com/css/fonts/opentype-specification/ompl.txt)), based on its knowledge of the pairs. For other characters that need mirroring but are not in this list, it marks them with the ['rtlm'](http://www.microsoft.com/typography/otspec/features_pt.htm#rtlm) feature which will cause the font - if it is implemented correctly - to substitute the mirrored form.
+Most applications use OpenType to perform smart rendering. Fortunately in recent years [OpenType has standardized its approach to mirroring][opentype-standardized-mirroring]. It performs mirroring for pairs of characters in a canonical list (the [OpenType Mirroring Pairs List][opentype-mirroring-pairs], based on its knowledge of the pairs. For other characters that need mirroring but are not in this list, it marks them with the ['rtlm'][ms-rtlm] feature which will cause the font - if it is implemented correctly - to substitute the mirrored form.
 
 ### Graphite and mirroring
 
- [Graphite](http://graphite.sil.org/) is an alternate smart-font rendering technology specifically designed to meet the needs of lesser-known (and less standardized) languages. The current Graphite engine, Graphite2, will perform both the bidi algorithm and mirroring, according to the specifications of the font (the [GDL language](http://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_devFont) provides mechanisms to override the default directionality and mirroring properties of characters). However, it is possible for applications (like possibly XeTeX) to send a flag to to the Graphite engine indicating that it has already performed mirroring so that Graphite will not do it again - which would cancel out the effect of the first mirroring!
+ [Graphite][graphite] is an alternate smart-font rendering technology specifically designed to meet the needs of lesser-known (and less standardized) languages. The current Graphite engine, Graphite2, will perform both the bidi algorithm and mirroring, according to the specifications of the font (the [GDL language][graphite-description-language] provides mechanisms to override the default directionality and mirroring properties of characters). However, it is possible for applications (like possibly [XeTeX][xetex]) to send a flag to to the Graphite engine indicating that it has already performed mirroring so that Graphite will not do it again - which would cancel out the effect of the first mirroring!
 
 The original Graphite engine does not perform any mirroring.
 
@@ -149,12 +149,23 @@ As was previously mentioned, it is possible to adjust the behavior of bidirectio
     - A sequence of right-to-left letters within left-to-right text is being treated simply as a list of characters rather than as actual text. The LRO character before the right-to-left letters will make them act left-to-right.
         - _Example:_ Some Arabic letters (<LRO>&#x202D;&#x0627;, &#x062F;, &#x0631;, and &#x0648;) only connect cursively on the right side.
     - A chapter/verse range such as those used in Biblical verse references is using a colon as a numerical separator rather than punctuation.
-        - _Example:_ MATTHEW&#x00A0;6<RTL>:9-13; as right-to-left text this would be displayed: 13-9:6&#x00A0;WEHTTAM. Without the RLM it would be displayed: 13-6:9&#x00A0;WEHTTAM.
+        - _Example:_ MATTHEW&#x00A0;6<RTL>:9&#x2011;13; as right-to-left text this would be displayed: 13&#x2011;9:6&#x00A0;WEHTTAM. Without the RLM it would be displayed: 13&#x2011;6:9&#x00A0;WEHTTAM.
  
 - To force punctuation to behave as if it were associated with a certain range of text. For instance, final punctuation on an embedded sentence would take on the direction of the top-level paragraph; to make it use the direction of the embedded sentence instead, an override (RLO or RLM) or embedding character (RLE/PDF) could be used.
 
 # Unicode Links
 
-- [Unicode Webinar on Bidirectional Text: Part 1, The Basics of Bidi](https://www.youtube.com/watch?v=mVHuTkdKw8Q) -- Presentation by Richard Ishida, Questions and Answers by Roozbeh Pournader and Richard Ishida
+- [Unicode Webinar on Bidirectional Text: Part 1, The Basics of Bidi][unicode-webinar-bidi-1] -- Presentation by Richard Ishida, Questions and Answers by Roozbeh Pournader and Richard Ishida
 
-- [Unicode Webinar on Bidirectional Text (Part 2): Delving into Bidi](https://www.youtube.com/watch?v=_gZUK-CJYDc) -- This second Bidi event gives three bidi experts an opportunity to share more information, including on UI, as well as answer more user specific questions.  
+- [Unicode Webinar on Bidirectional Text (Part 2): Delving into Bidi][unicode-webinar-bidi-2] -- This second Bidi event gives three bidi experts an opportunity to share more information, including on UI, as well as answer more user specific questions.
+
+
+[uax9]: http://www.unicode.org/reports/tr9/
+[xetex]: http://xetex.sourceforge.net/
+[opentype-standardized-mirroring]: http://www.microsoft.com/typography/otspec/TTOCHAP1.htm#ltrrtl
+[opentype-mirroring-pairs]: http://dev.bowdenweb.com/css/fonts/opentype-specification/ompl.txt
+[ms-rtlm]: http://www.microsoft.com/typography/otspec/features_pt.htm#rtlm
+[graphite]: http://graphite.sil.org/
+[graphite-description-language]: http://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_devFont
+[unicode-webinar-bidi-1]: https://www.youtube.com/watch?v=mVHuTkdKw8Q
+[unicode-webinar-bidi-2]: https://www.youtube.com/watch?v=_gZUK-CJYDc
