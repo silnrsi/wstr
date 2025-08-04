@@ -15,8 +15,8 @@ The Unicode report mentioned above describes the algorithm in great detail, but 
 
 Bidi processing is needed in two possible situations:
 
-A Semitic script like Hebrew or Arabic that is primarily written from right to left, but with numbers (usually) written from left to right.
-A combination of left-to-right and right-to-left scripts, such as Turkish containing an Arabic quote, or Hebrew that includes German phrases.
+* A Semitic script like Hebrew or Arabic that is primarily written from right to left, but with numbers (usually) written from left to right.
+* A combination of left-to-right and right-to-left scripts, such as Turkish containing an Arabic quote, or Hebrew that includes German phrases.
 
 ### Intra-script bidirectionality
 
@@ -54,13 +54,13 @@ In both cases there are four segments which alternate between Hebrew and English
 
 But when the paragraph is flowing from right to left (where Hebrew is the primary language), the initial Hebrew appears at the right side of the paragraph.
 
-![Right-to-left paragraph](images/3500-4-rtl-para "Hebrew paragraph containing some English")
+![Right-to-left paragraph](images/3500-4-rtl-para.png "Hebrew paragraph containing some English")
 
 ### Punctuation
 
 You'll also notice that the punctuation at the end of the sentences is not necessarily in the place you might expect it. Where the primary language is English, the punctuation at the end of the Hebrew sentence is written to the right of the Hebrew. In other words, its directionality is left-to-right. Similarly, where the primary language is Hebrew, the English punctuation is written to the left of the English; its directionality is right-to-left.
 
-![Pargraph with punctuation](images/3500-5-para-punct "The direction of punctuation that occurs at the "edges" of directional segments takes its directionality from the overall paragraph direction.")
+![Paragraph with punctuation](images/3500-5-para-punct.png "The direction of punctuation that occurs at the 'edges' of directional segments takes its directionality from the overall paragraph direction.")
 
 Punctuation has "weak" directionality, meaning that its direction is influenced by the surrounding text. But in these cases the punctuation occurs between segments that are in different directions, so to break the tie, the direction of the punctuation is taken from the direction of the paragraph as a whole.
 
@@ -72,15 +72,15 @@ The main approach of the Unicode bidi algorithm involves assigning a directional
 
 Here are some of the most important bidi codes:
 
-L = left to right: used for the basic characters of left-to-right scripts (strong)
-R = right-to-left: used for the basic characters of Hebrew and non-bidi RTL scripts (e.g., N'Ko, Mende, Tifinagh) (strong)
-AL = right-to-left Arabic: basic characters and punctuation of Arabic and similar scripts (strong)
-EN = European Number: Latin numbers (1, 2, 3...) and other numbers that behave similarly (weak)
-AN = Arabic Number: &#x0661;, &#x0662;, &#x0663;, etc. (weak)
-ES = European Number Separator: plus and minus (weak)
-ET = European Number Terminator: degree sign, percent sign, number sign (#), currency symbols (weak)
-WS = Whitespace: spaces (neutral)
-ON = Other Neutrals: displayable characters that don't have any directionality associated with them - e.g., parentheses, underscore, equals sign (neutral)
+- L = left to right: used for the basic characters of left-to-right scripts (strong)
+- R = right-to-left: used for the basic characters of Hebrew and non-bidi RTL scripts (e.g., N'Ko, Mende, Tifinagh) (strong)
+- AL = right-to-left Arabic: basic characters and punctuation of Arabic and similar scripts (strong)
+- EN = European Number: Latin numbers (1, 2, 3...) and other numbers that behave similarly (weak)
+- AN = Arabic Number: &#x0661;, &#x0662;, &#x0663;, etc. (weak)
+- ES = European Number Separator: plus and minus (weak)
+- ET = European Number Terminator: degree sign, percent sign, number sign (#), currency symbols (weak)
+- WS = Whitespace: spaces (neutral)
+- ON = Other Neutrals: displayable characters that don't have any directionality associated with them - e.g., parentheses, underscore, equals sign (neutral)
 
 A note on terminology: you might be used to referring to the numbers that are used with the Latin script (1, 2, 3) as "Arabic numbers", but this term is ambiguous, since Arabic script has its own set of numbers. So the bidi algorithm uses the term "European numbers" to refer to these characters. The numbers that are used with the Arabic script are often called "Arabic-Indic digits", but this is also somewhat ambiguous as there is a set of "eastern" Arabic-Indic numbers that behave somewhat differently!
 
@@ -104,13 +104,13 @@ Immediately you'll see something quite odd! The appearance of the parentheses is
 
 The first thing you might be tempted to do is to just use the opposite character in your data - in other words use U+0029  for the opening parenthesis and U+0028  for the closing one. But that is not recommended, and it might not even be possible. For instance, if your text string is being constructed from various sources (e.g., fields in a database) you wouldn't necessarily know which kind of parenthesis is needed until the very last minute.
 
-![Hebrew with inserted title](images/3500-6-hebrew-inserted-title "If the title and author are taken from a database, there is no way for the larger page context to know which parenthesis shape should be used.")
+![Hebrew with inserted title](images/3500-6-hebrew-inserted-title.png "If the title and author are taken from a database, there is no way for the larger page context to know which parenthesis shape should be used.")
 
 Most importantly, though, a key principle of Unicode is that characters should be used consistently according to the "meanings" assigned to them by the Unicode Standard.
 
 (Now if you are savvy about Unicode, you might be aware that the name of the  character is in fact LEFT PARENTHESIS, which would seem to justify using it as a closing parenthesis in right-to-left text! The name is really incorrect, however: the semantics of the character indicate that it should only be used as an opening parenthesis.)
 
-So okay, we'll be well-behaved citizens of Unicode Land and make sure to use U+0028 ( consistently for the opening parenthesis and U+0029 ) for the closing parenthesis. But this means that _something_ needs to be responsible for changing the shape of the parenthesis where appropriate. And that "something" can't do its work until after the bidi algorithm has run, because only then is the directionality of all the characters known for sure.
+So okay, we'll be well-behaved citizens of Unicode Land and make sure to use U+0028 '(' consistently for the opening parenthesis and U+0029 ')' for the closing parenthesis. But this means that _something_ needs to be responsible for changing the shape of the parenthesis where appropriate. And that "something" can't do its work until after the bidi algorithm has run, because only then is the directionality of all the characters known for sure.
 
 This "something" is a process called _mirroring_, which replaces the shape of the character with the one appropriate for the directional flow of the text.
 
@@ -147,9 +147,9 @@ As was previously mentioned, it is possible to adjust the behavior of bidirectio
     - In a right-to-left script, digits are not serving as numbers per se, but as elements of an ID tag such as a serial number. In this case you might want to force the digits to behave more like letters with regard to the way they are written. The RLO override character would be placed before the digits to make them act like letters.
         - _Example:_ AxT<RLO>139dm; in right-to-left text this would be displayed: md931TxA
     - A sequence of right-to-left letters within left-to-right text is being treated simply as a list of characters rather than as actual text. The LRO character before the right-to-left letters will make them act left-to-right.
-        - _Example:_ Some Arabic letters (<LRO>&#x0627;, &#x062F;, &#x0631;, and &#x0648;) only connect cursively on the right side.
+        - _Example:_ Some Arabic letters (<LRO>&#x202D;&#x0627;, &#x062F;, &#x0631;, and &#x0648;) only connect cursively on the right side.
     - A chapter/verse range such as those used in Biblical verse references is using a colon as a numerical separator rather than punctuation.
-        - _Example:_ MATTHEW 6<RLM>:9-13; as right-to-left text this would be displayed:13-9:6 WEHTTAM. Without the RLM it would be displayed:13-6:9 WEHTTAM.
+        - _Example:_ MATTHEW&#x00A0;6<RTL>:9-13; as right-to-left text this would be displayed: 13-9:6&#x00A0;WEHTTAM. Without the RLM it would be displayed: 13-6:9&#x00A0;WEHTTAM.
  
 - To force punctuation to behave as if it were associated with a certain range of text. For instance, final punctuation on an embedded sentence would take on the direction of the top-level paragraph; to make it use the direction of the embedded sentence instead, an override (RLO or RLM) or embedding character (RLE/PDF) could be used.
 

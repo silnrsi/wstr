@@ -9,7 +9,7 @@ lastUpdated: 2025-08-01
 Shaping and rendering refers to the process of choosing [glyphs](/reference/glossary) to represent the characters in the text stream and positioning them properly according to the rules and conventions of the script.
 
 * [State of Text Rendering 2024 paper][txtrendering2024] by Behdad Esfabod.
-* [txtrendering2024]: https://behdad.org/text2024/
+* [txtrendering2024](https://behdad.org/text2024/)
 
 The following are technologies that interact with application software to provide rendering support:
 * Harfbuzz
