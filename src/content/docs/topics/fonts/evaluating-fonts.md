@@ -46,7 +46,8 @@ Does the font have the necessary alternatives and features needed for the langua
 
 ### Uniqueness
 
-No two different sequences that are not officially canonically equivalent should render to the same correct visual representation. For example if two non-interacting diacritics are stored in different orders then they should not render the same, unless Unicode says those sequences are canonically equivalent. Generally one of the sequences should look different in some way, for example with the insertion of a dotted circle.
+No two different sequences should look the same. If they do, the user may use one over the other and their data will contain both sequences for storing the same content. This is a problem for searching because one string will find one but not the other. So we need different strings to look different so that users can see the difference. There are some exceptions to that rule.
 
-It is not a problem if two sequences render to the same visual representation if that visual form is indicating some kind of error or fault in the sequence.
+- When the strings are canonically equivalent. Since canonically equivalent sequences are required to behave the same, they should look the same.
+- When the string is considered erroneous, e.g. a diacritic follows the wrong kind of base. Different strings may look erroneous in the same way. The important thing is that they look erroneous, e.g. by inserting a dotted circle.
 
