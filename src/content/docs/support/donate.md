@@ -11,4 +11,4 @@ This site is provided at no cost, and contains no advertising or other revenue-g
 [Donate to SIL][sil-donate]
 
 
-[sil-donate]: http://software.sil.org/give
+[sil-donate]: https://software.sil.org/give

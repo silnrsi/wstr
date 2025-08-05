@@ -102,7 +102,7 @@ See the [SIL Font Development Guide][silfontdev] for detailed guidance on how to
 [glyph-naming]: /topics/fonts/glyph-naming
 [glyphs]: https://glyphsapp.com/
 [glyphs-learn]: https://glyphsapp.com/learn
-[iws-c8]: http://scripts.sil.org/IWS-Chapter08
+[iws-c8]: https://scripts.sil.org/IWS-Chapter08
 [line-metrics]: /topics/fonts/line-metrics
 [ofl]: https://openfontlicense.org
 [ofl-faq]: https://openfontlicense.org/ofl-faq

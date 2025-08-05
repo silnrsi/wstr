@@ -331,7 +331,7 @@ Resources:
 
 [Installing a keyboard in order to effectively use a font](https://scriptsource.org/entry/g8m8a3jf5p)
 
-[Keyboard for Windows Installation](http://support.microsoft.com/kb/258824)
+[Keyboard for Windows Installation](https://support.microsoft.com/kb/258824)
 
 [How to install a keyboard on a Mac](https://scriptsource.org/entry/vudwjrw2dm)
 

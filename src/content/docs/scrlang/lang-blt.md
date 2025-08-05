@@ -36,16 +36,16 @@ Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 ## Links
 
-**[Ethnologue](http://www.ethnologue.com/language/blt)**
+**[Ethnologue](https://www.ethnologue.com/language/blt)**
 
-**[ISO 639-3 page for Tai Dam](http://iso639-3.sil.org/code/blt)**
+**[ISO 639-3 page for Tai Dam](https://iso639-3.sil.org/code/blt)**
 
 **[ScriptSource page for Tai Dam](https://scriptsource.org/lang/blt)**
 
-**[Open Language Archives Community](http://www.language-archives.org/language/blt)**
+**[Open Language Archives Community](https://www.language-archives.org/language/blt)**
 
-**[Glottolog entry for Tai Dam](http://www.glottolog.org/glottolog?iso=blt)**
+**[Glottolog entry for Tai Dam](https://glottolog.org/glottolog?iso=blt)**
 
-**[SIL Language and Culture Archives](http://www.sil.org/resources/search/language/blt)**
+**[SIL Language and Culture Archives](https://www.sil.org/resources/search/language/blt)**
 
 **[Universal Declaration of Human Rights in Tai Dam](http://efele.net/udhr/d/udhr_blt.txt)**

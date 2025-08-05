@@ -16,16 +16,16 @@ These sites contain data for all languages:
     - https://scriptsource.org/lang/XXX
 - [ISO 639-3](ihttps://so639-3.sil.org/code/XXX)
     - https://iso639-3.sil.org/code/XXX
-- [Glottolog/Langdoc](https://www.glottolog.org)
-    - http://www.glottolog.org/glottolog?iso=XXX
+- [Glottolog/Langdoc](https://glottolog.org)
+    - https://glottolog.org/glottolog?iso=XXX
 - [Open Language Archives Community](http:/www.language-archives.org)
     - http://www.language-archives.org/language/XXX
 
 These sites do not contain data for all languages:
 
-- [SIL Languages and Culture Archives](http://www.sil.org/resources)
-    - http://www.sil.org/resources/search/language/XXX.
-- [Endangered Languages Catalog](http://www.endangeredlanguages.com)
+- [SIL Languages and Culture Archives](https://www.sil.org/resources)
+    - https://www.sil.org/resources/search/language/XXX.
+- [Endangered Languages Catalog](https://www.endangeredlanguages.com)
     - To find a specific language's information, enter the language name or three-letter code into the search box on the Endangered Languages site.
 - [Universal Declaration of Human Rights](http://efele.net/udhr/index.html)
     - http://efele.net/udhr/d/udhr_XXX.txt

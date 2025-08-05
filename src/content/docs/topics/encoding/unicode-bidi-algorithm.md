@@ -162,13 +162,13 @@ As was previously mentioned, it is possible to adjust the behavior of bidirectio
 - [Unicode Webinar on Bidirectional Text (Part 3): Mastering Bidirectional Content for Translators and Localizers][unicode-webinar-bidi-3] -- Focuses on common issues encountered in handling right-to-left text, especially those impacting translators working in right-to-left scripts.
 
 
-[uax9]: http://www.unicode.org/reports/tr9/
-[xetex]: http://xetex.sourceforge.net/
-[opentype-standardized-mirroring]: http://www.microsoft.com/typography/otspec/TTOCHAP1.htm#ltrrtl
+[uax9]: https://www.unicode.org/reports/tr9/
+[xetex]: https://xetex.sourceforge.net/
+[opentype-standardized-mirroring]: https://www.microsoft.com/typography/otspec/TTOCHAP1.htm#ltrrtl
 [opentype-mirroring-pairs]: http://dev.bowdenweb.com/css/fonts/opentype-specification/ompl.txt
-[ms-rtlm]: http://www.microsoft.com/typography/otspec/features_pt.htm#rtlm
-[graphite]: http://graphite.sil.org/
-[graphite-description-language]: http://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_devFont
+[ms-rtlm]: https://www.microsoft.com/typography/otspec/features_pt.htm#rtlm
+[graphite]: https://graphite.sil.org/
+[graphite-description-language]: https://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_devFont
 [unicode-webinar-bidi-1]: https://www.youtube.com/watch?v=mVHuTkdKw8Q
 [unicode-webinar-bidi-2]: https://www.youtube.com/watch?v=_gZUK-CJYDc
 [unicode-webinar-bidi-3]: https://www.youtube.com/watch?v=rBK9CNIZWLY

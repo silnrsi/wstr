@@ -30,12 +30,12 @@ Script | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>var
 
 ## Links
 
-**[Ethnologue](http://www.ethnologue.com/language/btr)**
+**[Ethnologue](https://www.ethnologue.com/language/btr)**
 
-**[ISO 639-3 page for Tai Dam](http://iso639-3.sil.org/code/btr)**
+**[ISO 639-3 page for Tai Dam](https://iso639-3.sil.org/code/btr)**
 
 **[ScriptSource page for Baetora](https://scriptsource.org/lang/btr)**
 
 **[Open Language Archives Community](http://www.language-archives.org/language/btr)**
 
-**[Glottolog entry for Tai Dam](http://www.glottolog.org/glottolog?iso=btr)**
+**[Glottolog entry for Tai Dam](https://glottolog.org/glottolog?iso=btr)**
