@@ -3,16 +3,14 @@ title: Language Tagging
 description: Definition and use of language tags
 sidebar:
     order: 1410
-lastUpdated: 2025-08-04
+lastUpdated: 2025-08-05
 ---
 
-### Introduction
+Language tags are standardised identifiers for language information. They are primarily used to identify a particular [Locale][locale def], specifically language and script, but can also be used to infer the orthography of a text, locale information, any variant used to write that language, or even that the text is a transcription derived from a different locale.
 
-Language tags are standardised identifiers for language information. They are primarily used to identify a particular [Locale][locale page], specifically language and script, but can also be used to infer the orthography of a text, locale information, any variant used to write that language, or even that the text is a transcription derived from a different locale.
+## Interpreting Language Tags
 
-### Interpreting Language Tags
-
-#### Minimal and Maximal Tag Equivalents
+### Minimal and Maximal Tag Equivalents
 
 There are typically two key equivalent tags, the shortest (minimal) tag and the full (maximal) tag. In the case of English, the shortest tag is `en` and the full tag is `en-Latn-US`. These may be found in a `langtags.json` tag set in the `tag` and `full` fields. Users typically prefer to work with the shortest or minimal tag, while applications value the full tag because it contains all the information they need to do their work. Thus `en-Latn-US` describes all the key information about the locale: its language, script and region. Meanwhile users typically think: "I just want English, so `en`".
 
@@ -22,7 +20,7 @@ Notice how Akha written in Latin script has the minimal tag `ahk`, not `ahk-Latn
 
 The extensions mechanism for language tags also allow tags to be extended to specify such things as sort orders, transcription orthographies, etc. These are beyond the scope of langtags.json, but can have considerable impact. For example, `en-Latn-US-t-wsg` indicates that the text is in English but is derived from Gondi, such as via automated (or manual) translation. The text is still English (so `en` would be sufficient), but the tagger wanted to accentuate the derivative nature of the text from another language.
 
-#### Macrolanguages
+### Macrolanguages
 
 Macrolanguages are a commonly misunderstood element of language tagging. A macrolanguage is a group of similar or related languages, with its own tag separate from the tags of the individual languages it refers to. For example, the macrolanguage `zh` (Chinese) contains nineteen microlanguages, including `cmn` (Mandarin Chinese), `yue` (Yue Chinese/Cantonese), `wuu` (Wu Chinese), `sjc` (Shaojiang Chinese), and more. 
 
@@ -36,7 +34,7 @@ This tag equivalence is an extremely common point of confusion for users and dev
 
 The answer to the latter question is to check `langtags.json` itself. The field "tags" contains a list of every equivalent tag. For example, the entry for `zh-Hans-CH` lists `"cmn", "cmn-CN", "cmn-Hans", "cmn-Hans-CN", "zh", "zh-Hans", "zh-cmn", "zh-cmn-CN", "zh-cmn-Hans", "zh-cmn-Hans-CN"` in the "tags" field. This is the easiest way to check which microlanguage a macrolanguage tag refers to. 
 
-#### Tag Stability Problems
+### Tag Stability Problems
 
 Given the importance of the standard, one might expect language tags to be stable, but this is not the case. If there is an orthography revision, the new orthography often takes over the primary tag set for that orthography, and, in ideal circumstances, another tag will be created for the old orthography. For example, Germany regularly updates its orthography. Thus there is: `de-1901` for the 1901 orthography revision and `de-1996` for the current orthography revision. Thus before 1996, `de` would have been equivalent to `de-1901`, but after 1996, it became equivalent to `de-1996`. Therefore, it is very difficult to ensure the long term future stability of the tagging of many texts. Only when orthographies are officially reformed, allowing for the creation of two separate tags, is there any hope of consistency.
 
@@ -44,7 +42,7 @@ Applications, therefore, need to provide the ability to change the tagging of da
 
 A language tag is particularly unstable while orthographies are in early development. This period lasts until the orthography is officially standardised, which can take decades. For this reason, issues of tag stability should be considered only once there is enough literature or a large enough user community of a particular orthography, whether new or a revision. 
 
-### Methods
+## Methods
 
 SIL maintains a comprehensive list of language tags in the [langtags repository][langtags]. This includes the primary `langtags.json` file and a variety of other tools and useful resources. Much of the information in `langtags.json` is drawn from industry standards, which are listed in the [Standards][langtag standards] section below.
 
@@ -54,7 +52,7 @@ A good overview on how to create a tag may be found here: [langtags descriptions
 
 The technical specification for the structure of a language tag is [BCP47][bcp47]. BCP47 makes reference to the [IANA Language Subtag registry][iana] that contains basic definitions for all the language tag subcomponents that require registering.
 
-#### Standards
+### Standards
 
 - [IANA Language Subtag Registry][iana] - this file is placed in the [sldrtool repo][sldrtool] and is available [here][iana-file].
    - ISO 639-1 (no files are directly used, IANA incorporates the changes)
@@ -70,7 +68,7 @@ The technical specification for the structure of a language tag is [BCP47][bcp47
 - We are in the process of incorporating [ROLV (Registry of Language Varieties) codes][rolv]. At this point these are processed as private subtags.
 - During the build process of `langtags.json`, the SLDR files are also used for testing purposes. Any language tags that are used in the SLDR files should be added to `langtags.csv`. If the SLDR file is incorrect, it should be corrected. For more information on the SLDR, see the [CLDR and SLDR][sldr page] page on this site.
 
-#### Referencing Langtags
+### Referencing Langtags
 
 Since a language tag is designed around tagging text, it is best to think of a language tag as an orthography tag. At the orthography level, multiple tags may refer to the same thing. Thus `en`, `en-Latn`, `en-US`, and `en-Latn-US` can all be considered equivalent. It is difficult to work out what these equivalences are. 
 
