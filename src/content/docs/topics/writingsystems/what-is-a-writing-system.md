@@ -15,7 +15,7 @@ A _writing system implementation_ (WSI) refers to **a set of software components
 
 Common examples of WSIs would be those computer systems found in newspaper publishing houses around the world. WSIs can be very simple, such as for English, for which only a simple font is needed. They can also be complex and include expensive, dedicated software applications. For instance, to use Chinese on a computer requires a combination of fonts, input systems, and publishing software that can write both horizontally and vertically.
 
-The following sections address topics of [writing system identification][language-tagging] and [locale data][locale-data]. For more information on writing system implementations, see the [writing systems computing model][ws-computing-model]
+The following sections address topics of [writing system identification][language-tagging] and [locale data][locale-data]. For more information on writing system implementations, see the [writing systems computing model][ws-computing-model].
 
 ### Additional resources
 
