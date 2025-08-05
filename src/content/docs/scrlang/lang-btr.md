@@ -24,18 +24,18 @@ lastUpdated: 2025-07-15
 
 Script | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
 ------ | ---------------------- | ------ | ------------------- | -------------------- |
-[Latin](https://writingsystems.info/scrlang/script-latn) | btr-Latn | unwritten* | | btr-Latn-VU (Vanuatu) |
+[Latin](/scrlang/script-latn) | btr-Latn | unwritten* | | btr-Latn-VU (Vanuatu) |
 
 *No writing system currently exists for this language, but any to be developed would likely be based on the Latin script.
 
 ## Links
 
-**[Ethnologue](http://www.ethnologue.com/language/btr)**
+**[Ethnologue](https://www.ethnologue.com/language/btr)**
 
-**[ISO 639-3 page for Tai Dam](http://iso639-3.sil.org/code/btr)**
+**[ISO 639-3 page for Tai Dam](https://iso639-3.sil.org/code/btr)**
 
 **[ScriptSource page for Baetora](https://scriptsource.org/lang/btr)**
 
 **[Open Language Archives Community](http://www.language-archives.org/language/btr)**
 
-**[Glottolog entry for Tai Dam](http://www.glottolog.org/glottolog?iso=btr)**
+**[Glottolog entry for Tai Dam](https://glottolog.org/glottolog?iso=btr)**

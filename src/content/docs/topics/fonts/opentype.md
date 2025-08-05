@@ -3,7 +3,7 @@ title: OpenType
 description: Features and lookups
 sidebar:
   order: 5520
-lastUpdated: 2025-07-25
+lastUpdated: 2025-08-05
 ---
 
 OpenType is a [smart-font](/reference/glossary#smartfont) technology that was developed by Microsoft and Adobe. It is the mostly widely-supoorted such system available today (less common systems are Graphite and AAT).
@@ -11,8 +11,10 @@ OpenType is a [smart-font](/reference/glossary#smartfont) technology that was de
 OpenType defines a set of font tables that include _rules_ to perform transformations on the stream of glyphs representing the text stream to be rendered. The rules are grouped into _lookups_ and the lookups are organized in terms of _features_.
 
 Here are some general resources about OpenType:
-* [Microsoft documentation][opentype-ms-documentation]
-* [Wikipedia overview][wikipedia-opentype]
+
+- [Microsoft documentation][opentype-ms-documentation]
+- [Wikipedia overview][wikipedia-opentype]
+- [Opentype Cookbook][otcookbook]
 
 ## Features
 
@@ -149,6 +151,7 @@ This includes Arabic, Mongolian, N'Ko, Syriac, and several other connected or cu
 [opentype-ms-documentation]: https://learn.microsoft.com/en-us/typography/opentype/
 [wikipedia-opentype]: https://en.wikipedia.org/wiki/OpenType
 [harfbuzz]: https://github.com/harfbuzz/harfbuzz/tree/master/src
+[otcookbook]: https://opentypecookbook.com/
 [otspec-cv]: https://www.microsoft.com/typography/otspec/features_ae.htm#cv01-cv99
 [otspec-ss]: https://www.microsoft.com/typography/otspec/features_pt.htm#ssxx
 [sil-fonts-features]: https://software.sil.org/fonts/features/
