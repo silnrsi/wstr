@@ -78,7 +78,7 @@ Egyp | [Egyptian hieroglyphs](/scrlang/script-egyp) | logo-syllabary | African |
 Elba | [Elbasan](/scrlang/script-elba) | alphabet | European | Historical | LTR
 Elym | [Elymaic](/scrlang/script-elym) | abjad | Middle Eastern | Historical | RTL
 Qaag | [Ersu Shaba Picture Writing](/scrlang/script-qaag) | logo-syllabary | East Asian | Unclear | other
-Qaah | [Eshkol-Wachman movement notation system](/qaag/script-qaah) | featural | Signed Language | Current | vertical (LTR) and horizontal (LTR)
+Qaah | [Eshkol-Wachman movement notation system](/scrlang/script-qaah) | featural | Signed Language | Current | vertical (LTR) and horizontal (LTR)
 Qabr | [Eskaya](/scrlang/script-qabr) | syllabary | Insular Southeast Asian | Current | LTR
 Ethi | [Ethiopic (Geʻez)](/scrlang/script-ethi) | syllabary | African | Current | LTR
 Qa01 | [Fula-1 (Dita)](/scrlang/script-qa01) | alphabet | African | Current | [unspecified]

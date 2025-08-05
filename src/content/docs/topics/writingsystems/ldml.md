@@ -471,7 +471,7 @@ Multigraphs do not need brackets to mark them as a single unit in a collation se
 [dtds]: https://github.com/silnrsi/sldr/tree/master/auxdata
 [fonts]: https://software.sil.org/fonts/
 [sch features]: https://software.sil.org/scheherazade/features/
-[inheritance]: /topics/writingsystems/ldml/#Inheritance
+[inheritance]: /topics/writingsystems/ldml/#inheritance
 [escaping]: /topics/writingsystems/ldml/#formatting-text-in-an-exemplar
 [dbl]: https://thedigitalbiblelibrary.org/ 
 [cldr and sldr]: /topics/writingsystems/cldr-and-sldr
@@ -481,7 +481,7 @@ Multigraphs do not need brackets to mark them as a single unit in a collation se
 [locale inheritance]: https://unicode-org.github.io/cldr/ldml/tr35.html#Locale_Inheritance
 [parent locales]: https://unicode-org.github.io/cldr/ldml/tr35-info.html#Parent_Locales
 [collation formatting]: /topics/writingsystems/ldml/#formatting-text-in-collation
-[identity]: /topics/writingsystems/ldml/#Identity
+[identity]: /topics/writingsystems/ldml/#identity
 [valid data]: https://unicode.org/reports/tr35/tr35.html#Valid_Data
 [cldr data submission]: https://cldr.unicode.org/index/process
 [attrib draft]: https://www.unicode.org/reports/tr35/#Attribute_draft
