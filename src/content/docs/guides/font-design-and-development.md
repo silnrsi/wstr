@@ -3,7 +3,7 @@ title: Font Design & Development
 description: Font development, design, structures, metadata, and production
 sidebar:
   order: 5200
-lastUpdated: 2025-07-28
+lastUpdated: 2025-08-05
 ---
 
 Font development involves both creative graphic design and careful technical engineering. This guide and the accompanying articles have been written to document what we think are the best technical practices to use in font development. They are generally the practices we use — or intend on using as soon as practically possible.
@@ -21,13 +21,11 @@ The purpose of these articles is to give helpful guidance to those who want to c
 
 There are also other reliable sources for information on good font development practice. Their guidance may differ slightly from what is here but is generally sound.
 
-[Fonts and Layout for Global Scripts][cozens-flgs] has some excellent foundational material on font concepts and a detailed introduction to the complexities of OpenType. (Even if some sections are still being written).
-
-The [Google Fonts Guide][gf-guide] contains information for font developers wishing to submit their fonts to the [Google Fonts service][gf]. Although some of the guidance is unique to Google Fonts, much of it is generally good practice.
-
-The [Glyphs site][glyphs-learn] has many useful tutorials and technical articles. Most of them focus on using Glyphs, but also document good design techniques.
-
-The [Design With FontForge book][design-with-fontforge] can also be of interest.
+- [Fonts and Layout for Global Scripts][cozens-flgs] has some excellent foundational material on font concepts and a detailed introduction to the complexities of OpenType, even if some sections are still being written.
+- The [Google Fonts Guide][gf-guide] contains information for font developers wishing to submit their fonts to the [Google Fonts service][gf]. Although some of the guidance is unique to Google Fonts, much of it is generally good practice.
+- The [Glyphs site][glyphs-learn] has many useful tutorials and technical articles. Most of them focus on using Glyphs, but also document good design techniques.
+- [Google Font Knowledge][gf-knol] is a knowledge base with various articles around font design and typography.
+- [Design With FontForge][design-with-fontforge] can be helpful, however, the site does not support secure connections.
 
 ## Background knowledge
 
@@ -40,25 +38,22 @@ The most important background knowledge that all those involved in font developm
 There are five primary visual font design tools, each with their particular strengths:
 
 - [Glyphs][glyphs] - The _de facto_ current standard for font design. macOS only.
-- [FontLab][fontlab] - Excellent cross-platform (macOS & Windows) tool with particularly good support for variable font development.
+- [FontLab][fontlab] - Excellent cross-platform (macOS, Windows) tool with particularly good support for variable font development.
 - [Robofont][robofont] - Powerful, flexible, and highly extensible design tool, especially for working with [UFO][unified-font-objects-ufo] sources. macOS only.
-- [Fontra][fontra] - Free and open source cross-platform tool based on web technologies (macOS, Linux and Windows, and any browser really). Designed for collaborative workflows and variable fonts. Provides support for formats used by other editors.
-- [FontForge][fontforge] - Free and open source cross-platform tool (Linux, macOS, and Windows). No longer under active maintenance and can be difficult to use, but continues to be used successfully.
+- [Fontra][fontra] - Free and open source cross-platform tool based on web technologies (browser-based, not limited by OS). Designed for collaborative workflows and variable fonts. Provides support for formats used by other editors.
+- [FontForge][fontforge] - Free and open source cross-platform tool (Linux, macOS, Windows). No longer under active maintenance and can be difficult to use, but continues to be used successfully.
 
-[Python Tools][python-tools] describes some very useful libraries and scripts for font development and production.
+Font development and engineering tools are primarily Python-based, although some are beginning to be written in Rust:
 
-[Opentype Cookbook][otcookbook] is a introduction to OpenType
+- [Python Tools][python-tools] describes some very useful Python libraries and scripts for font development and production.
+- [Font Engineering notes][fonteng-notes] is a series of technical notes by Google font engineers and includes some information on using Rust-based tools.
 
-[Google Font Knowledge][gf-knol] is a knowledge base with various articles around font design and typography
+Font design tools can export fonts in common formats (.ttf, .otf, .woff) but the process can be complex and time consuming for a large font family or portfolio of font families. Foundries often develop their own automated internal font build systems and workflows to produce fonts from Glyphs or UFO sources. These connect a variety of tools to compile and test fonts from the source formats to the final binaries. Two of the openly licensed and publicly-available systems are:
 
-[Font Engineering notes][fonteng-notes] is a series of technical notes by Google font engineers
+- [fontmake][fontmake] - This is the most widely used build system, developed by Google. It provides easy access to fonttools, glyphsLib, and related libraries, although it's only one part of their overall workflow.
+- [Smith][smith] - SIL-developed python framework for building, testing, maintaining, and releasing fonts. It integrates and orchestrates various libraries, scripts, and utilities to make font development easier.
 
-Font design tools can export fonts in common formats (.ttf, .otf, .woff) but the process can be complex and time consuming for a large font family or portfolio of font families. Foundries often develop their own automated internal font build systems and workflows to produce fonts from Glyphs or UFO sources. These connect a variety of tools to compile and test fonts from the sources formats to the final binaries. Two of the openly licensed and publicly-available systems are:
-
-- [fontmake][fontmake] - This is the most widely used build system, developed by Google, it provides easy access to fonttools, glyphsLib and related libraries (although it's only one part of their overall workflow which requires makefiles).
-- [Smith][smith] - SIL-developed python framework for building, testing, maintaining and releasing fonts. It integrates and orchestrates various libraries, scripts and utilities to make font development easier.
-
-Using standardized and predictable toolchains, especially ones using only unencumbered free and open source components, working on source stored in open formats across multiple font projects rather than a bespoke hard-coded one for each single project makes it much easier for CI (Continuous Integration) and QA (Quality Assurance) efforts.
+**We recommend that individual font developers use a consistent and predictable workflow and set of tools for design and production, preferably based on free and open source formats and tools.** This enables greater collaborative efforts and makes it easier to use CI (Continuous Integration) and QA (Quality Assurance) systems.
 
 ## Technical topics
 
@@ -74,7 +69,7 @@ Important font metadata and font family structures are addressed in [Font & Styl
 
 [Shaping & Rendering][shaping-and-rendering] gives links to the main technologies used to implement complex script behaviors. The most important of these is discussed in [OpenType][opentype], with a special focus on custom _stylistic set_ and _character variant_ features and the [User Interface Strings][user-interface-strings] used to describe them to font users.
 
-[Copyright & Licensing][copyright-and-licensing] focuses on how to properly declare copyright for fonts you create and indicate the license used to distribute them. It also gives more information on how to use the [OFL][ofl] (SIL Open Font License) and how to use, modify and distribute open fonts. The [OFL FAQ (Frequently Asked Questions)][ofl-faq] has various practical answers for anyone using, modifying or creating open fonts.
+[Copyright & Licensing][copyright-and-licensing] focuses on how to properly declare copyright for fonts you create and indicate the license used to distribute them. It also gives more information on how to use the SIL Open Font License and how to modify and distribute open fonts.
 
 _Font testing is not currently covered in this guide, but will be in the future._
 
@@ -104,8 +99,6 @@ See the [SIL Font Development Guide][silfontdev] for detailed guidance on how to
 [glyphs-learn]: https://glyphsapp.com/learn
 [iws-c8]: https://scripts.sil.org/IWS-Chapter08
 [line-metrics]: /topics/fonts/line-metrics
-[ofl]: https://openfontlicense.org
-[ofl-faq]: https://openfontlicense.org/ofl-faq
 [opentype]: /topics/fonts/opentype
 [otcookbook]: https://opentypecookbook.com/
 [python-tools]: /topics/fonts/python-tools

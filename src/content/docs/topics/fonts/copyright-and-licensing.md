@@ -4,12 +4,12 @@ description: Font copyright and licensing best practice
 sidebar:
   order: 5170
   label: Copyright & Licensing
-lastUpdated: 2025-07-18
+lastUpdated: 2025-08-05
 ---
 
 Fonts are licensed for use through either proprietary or open licenses chosen by their copyright holder.
 
-Proprietary licenses are usually unique to the font developer or distributor and require some payment for use. Fees for use may be one-time or by subscription, and vary by what uses are allowed. Web fonts often have a completely different fee structure that may depend on the number of visitors. Proprietary licenses rarely allow any sort of modification much less redistribution. 
+Proprietary licenses are usually unique to the font developer or distributor and require some payment for use. Fees for use may be one-time or by subscription, and vary by what uses are allowed. Web fonts often have a completely different fee structure that may depend on the number of visitors. Proprietary licenses rarely allow any sort of modification or redistribution. 
 
 Free and open font licenses require no payment for use, modification, or distribution. Although there are a few different open licenses that have been applied to fonts, the industry standard is the SIL Open Font License (OFL). For more information see the [SIL Open Font License (OFL) site][ofl].
 
@@ -37,7 +37,7 @@ It can be very helpful to add a URL or domain to the copyright holder, as in:
 
 **The copyright statement(s) should be in at least two places in the font package, the font internal copyright field and the separate user documentation.**
 
-The internal copyright field is stored inside the font file, and font design software all provide an interface for entering it, usually in _Font Info_. Technically, this information is stored in the font's `name` table, in the entry with ID = 0.
+The internal copyright field is stored inside the font file, and most font design software provides an interface for entering it, usually in _Font Info_. Technically, this information is stored in the font's `name` table, in the entry with ID = 0.
 
 The same copyright statement(s) should also be in the font documentation, typically in a LICENSE or ReadMe file. **For OFL-licensed fonts this should be at the very top of the OFL.txt file.**
 
@@ -45,7 +45,7 @@ The same copyright statement(s) should also be in the font documentation, typica
 
 **All fonts should contain a license statement that governs use and distribution of the font. We strongly recommend use of well-established licenses, whether free and open or restrictive.** We strongly recommend against using "Public Domain" or "This font may be freely used and distributed", as they have widely varying legal interpretations.
 
-**Fonts that are intended to be distributed and modified freely should use the [SIL Open Font License (OFL) version 1.1][ofl].** This is the standard license in the font industry for such font projects. Please consult the [OFL site][ofl] for detailed information, especially the section [How to use the OFL][how-to-use-the-ofl], and the more complete [OFL FAQ][ofl-faq].
+**Fonts that are intended to be distributed and modified freely should use the [SIL Open Font License (OFL) version 1.1][ofl].** This is the standard license in the font industry for such font projects. Please consult the [OFL site][ofl] for detailed information, especially [How to use the OFL][ofl-how], and the more complete [OFL-FAQ][ofl-faq].
 
 ### Using the OFL
 
@@ -100,5 +100,5 @@ Technically, the Copyright field was intended to be used only for the copyright 
 If you are creating WOFF versions of fonts, be sure that the copyright and license metadata in the WOFF 'wrapper' matches what is in the font.
 
 [ofl]: https://openfontlicense.org
-[how-to-use-the-ofl]: https://openfontlicense.org/how-to-use-the-ofl/
+[ofl-how]: https://openfontlicense.org/how-to-use-the-ofl/
 [ofl-faq]: https://openfontlicense.org/ofl-faq/
