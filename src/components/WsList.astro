@@ -8,7 +8,7 @@ import WsVarList from './WsVarList.astro';
 
 const { script, wsMax = 10000 } = Astro.props;
 
-const scriptObj = wsdata.find(s => s.Script === script);
+const scriptObj = wsdata.find(s => s.ScriptCode === script);
 const wsCount = scriptObj ? scriptObj.WrSys.length : 0;
 const scriptTagLC = script.toLowerCase();
 ---
