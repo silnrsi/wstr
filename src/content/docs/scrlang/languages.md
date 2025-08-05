@@ -14,7 +14,7 @@ These sites contain data for all languages:
     - https://www.ethnologue.com/language/XXX
 - [ScriptSource](https://scriptsource.org)
     - https://scriptsource.org/lang/XXX
-- [ISO 639-3](ihttps://so639-3.sil.org/code/XXX)
+- [ISO 639-3](https://so639-3.sil.org/code/XXX)
     - https://iso639-3.sil.org/code/XXX
 - [Glottolog/Langdoc](https://glottolog.org)
     - https://glottolog.org/glottolog?iso=XXX
