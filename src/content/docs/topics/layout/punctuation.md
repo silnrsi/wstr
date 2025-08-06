@@ -1,6 +1,7 @@
 ---
 title: Punctuation
 description: Description and examples of punctuation
+authors: Lorna Priest
 sidebar:
     order: 6250
 lastUpdated: 2025-08-06
@@ -27,3 +28,9 @@ Punctuation around abbreviated text can be different. There may be space between
 Kolodin, M.Y., O.V. Eterevksy, O.G. Lapko, I.A. Maknovaya. 2000. “‘Russian style’ with LaTeX and Babel: what does it look like and how does it work,” *TUG 2000 Preprints*.
 
 Yacob, Daniel. 1999. *Notes on Ethiopic Localization*. http://abyssiniagateway.net/fidel/l10n/index.uni.html.
+
+<br>
+
+_Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
+
+[iws]: https://scripts.sil.org/iws-toc.html

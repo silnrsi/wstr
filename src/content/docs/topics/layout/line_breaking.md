@@ -1,6 +1,7 @@
 ---
 title: Line Breaking
 description: Issues in line breaking
+authors: Lorna Priest
 sidebar:
     order: 6210
 lastUpdated: 2025-07-25
@@ -46,3 +47,9 @@ For a deeper discussion, here is an outline on this topic
         - How to mitigate them given poorly tagged text
             - What is the range of a ZWSP?
 
+
+<br>
+
+_Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
+
+[iws]: https://scripts.sil.org/iws-toc.html

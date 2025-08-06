@@ -1,6 +1,7 @@
 ---
 title: Ordered Lists
 description: Formatting of ordered lists
+authors: Lorna Priest
 sidebar:
     order: 6410
     hidden: true
@@ -33,3 +34,9 @@ A look through various Thai publications reveals that, as in English, there are 
 ## Figures
 
 1. Pankhueankhat, Ruengdet. 2530 (Buddhist calendar). *Aksorn Thai*, p. 9. Salaya, Thailand: Mahidol University. Institute for the Study of Language and Culture for Rural Development.
+
+<br>
+
+_Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
+
+[iws]: https://scripts.sil.org/iws-toc.html

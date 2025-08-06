@@ -1,6 +1,7 @@
 ---
 title: Justification
 description: Description and examples of layout direction
+authors: Lorna Priest
 sidebar:
     order: 6220
 lastUpdated: 2025-07-11
@@ -16,5 +17,9 @@ Tibetan does not have visible word breaks and so the only variable white space i
 
 1. Minzu Tushuguan bian (Library of Nationalities). 1984. “Zangwen dianji mulu: wenjilei zimu” (Bibliography of Ancient Tibetan books and documents). Vol. 1, p. 1. Chengdu: Sichuan Minority Press.
 
+<br>
 
+_Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
+
+[iws]: https://scripts.sil.org/iws-toc.html
 

@@ -1,6 +1,7 @@
 ---
 title: Document Layout
 description: Issues in document layout
+authors: Lorna Priest
 sidebar:
     order: 6600
 lastUpdated: 2025-07-11
@@ -29,3 +30,9 @@ Placement of illustrations will need to be different. Studies show that in readi
 ## Figures
 
 1. 1998. *The New Testament in Brahui, First Edition*, p. 10. Lahore: Pakistan Bible Society.
+
+<br>
+
+_Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
+
+[iws]: https://scripts.sil.org/iws-toc.html

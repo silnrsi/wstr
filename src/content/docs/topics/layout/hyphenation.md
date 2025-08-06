@@ -1,6 +1,7 @@
 ---
 title: Hyphenation
 description: Summary article on hyphenation
+authors: Lorna Priest
 sidebar:
   order: 6230
 lastUpdated: 2025-07-11
@@ -27,3 +28,9 @@ Interesting hyphenation behaviors also occur in some Roman script use, as in the
 ## References
 
 Milo, Thomas. 2001. *“Creating Solutions for Arabic: A Case Study,”* Eighteenth International Unicode Conference, Pre-Conference Tutorials. TC5:6.
+
+<br>
+
+_Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
+
+[iws]: https://scripts.sil.org/iws-toc.html

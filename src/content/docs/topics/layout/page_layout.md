@@ -1,6 +1,7 @@
 ---
 title: Page Layout
 description: Issues in page layout
+authors: Lorna Priest
 sidebar:
     order: 6500
 lastUpdated: 2025-07-11
@@ -64,3 +65,9 @@ The ability to typeset diglots is also very important. This could take the form 
 5. 1982. *Gurung-Nepali (common language version) New Testament*, p. 148. New Delhi, India: World Home Bible League. Printed at Ambassador Press.
 
 6. Phayomyong, Manee. 2533 (Buddhist calendar). *Learning to Read Lanna Thai* (translation), p. 1. Chiang Mai, Thailand: Chiang Mai University. Printed by Sap Karn Pim.
+
+<br>
+
+_Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
+
+[iws]: https://scripts.sil.org/iws-toc.html

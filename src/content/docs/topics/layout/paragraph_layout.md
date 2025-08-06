@@ -1,6 +1,7 @@
 ---
 title: Paragraph Layout
 description: Issues in paragraph layout
+authors: Lorna Priest
 sidebar:
     order: 6400
 lastUpdated: 2025-07-11
@@ -152,3 +153,9 @@ Dictionary of Idioms), p. 504. Urumqi: Xinjiang Minzu Chubanshe.
 19. Phayomyong, Manee. 2533 (Buddhist calendar). *Learning to Read Lanna Thai (translation)*, p. 1. Chiang Mai, Thailand: Chiang Mai University. Printed by Sap Karn Pim.
 
 20. 7 May 1993. *Dallas Chinese Times*. D:8.
+
+<br>
+
+_Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
+
+[iws]: https://scripts.sil.org/iws-toc.html

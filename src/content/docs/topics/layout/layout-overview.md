@@ -1,6 +1,7 @@
 ---
 title: Layout Overview
 description: Challenges in the typesetting of complex scripts
+authors: Lorna Priest
 sidebar:
     order: 6001
 lastUpdated: 2025-08-06
@@ -15,3 +16,9 @@ It is very important to study the typesetting, printing, and typographic traditi
 Although there may be a typesetting or publishing application already in existence for a particular script, it is unlikely to take into account the differences minority languages will have from the majority language that uses the same script.
 
 This section addresses some specific technical and design challenges which can often be found in publishing of texts using complex scripts. It is by no means exhaustive, but is intended as a starting point for those who are interested in the area of publishing.
+
+<br>
+
+_Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
+
+[iws]: https://scripts.sil.org/iws-toc.html
