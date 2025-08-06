@@ -9,7 +9,7 @@ const varCount = wsObj ? wsObj.Variants.length : 10000;
 ---
 
 				<td>
-				{wsObj.Variants.map((varObj) => (
+				{wsObj && (wsObj.Variants.map((varObj) => (
 					<span>{varObj.Code} 
 					{
 						(varObj.Country && varObj.Country !== 'none') ? (
@@ -17,7 +17,7 @@ const varCount = wsObj ? wsObj.Variants.length : 10000;
 						) : ''
 					}
 					</span><br/>
-				))}</td>
+				)))}</td>
 
 <style>
 </style>
