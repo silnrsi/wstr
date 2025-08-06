@@ -21,7 +21,7 @@ If no suitable keyboard exists, a user can download the [Keyman Developer][keyma
 
 ## Other input methods
 
-This [Keyboard Systems Overview article][ss-keyboard-systems] was originally written in 2012 and updated in 2025. It describes other keyboard input methods (and tries to indicate which ones are no longer viable). In particular, one of the character picker options may be an acceptable solution for typing rarely used characters.
+This [Keyboard Systems Overview article][ss-keyboard-systems] describes other keyboard input methods (and tries to indicate which ones are no longer viable). In particular, one of the character picker options may be an acceptable solution for typing rarely used characters.
 
 [wsig7]: https://scripts.sil.org/wsi_guidelines_sec_7.html
 [keyman]: https://keyman.com
