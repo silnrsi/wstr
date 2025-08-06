@@ -3,7 +3,7 @@ title: Policies
 description: Policy statements regarding terms of service, terms of use, privacy, and licensing
 sidebar:
   order: 9940
-lastUpdated: 2025-03-28
+lastUpdated: 2025-08-06
 ---
 
 ## Terms of Service
@@ -34,7 +34,8 @@ For information on authorship and details of content used by permission see [Ack
 
 We reserve the right to change these policies at any time.
 
-If you have feedback, questions or concerns please contact us.
+If you have feedback, questions or concerns please [contact us][contact].
 
 [acknowledgements]: /support/acknowledgements
+[contact]: /support/contact
 [ccbysa4]: https://creativecommons.org/licenses/by-sa/4.0/
