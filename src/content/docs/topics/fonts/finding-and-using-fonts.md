@@ -3,7 +3,7 @@ title: Finding & Using Fonts
 description: Font finding, evaluation, installation, and licensing
 sidebar:
   order: 5100
-lastUpdated: 2025-07-25
+lastUpdated: 2025-08-06
 ---
 
 Fonts that support specific scripts and writing systems come from a variety of sources: those distributed with an operating system or application, freely-licensed fonts available from websites, and commercial fonts licensed though foundry websites and e-commerce platforms. It is important to determine whether the font is truly suitable for the writing system and intended use.
@@ -27,8 +27,11 @@ A longer list of sources and projects is available on the [OFL website showcase]
 
 Both Adobe and Google allow their font catalogs to be filtered by language or writing system. SIL fonts are grouped by region. However, it can be difficult to find fonts for languages that are not directly listed in any of those catalogs.
 
-(add info on how to use the [LFF][lff] to get language-specific suggestions.)
+[comment]: # (add info on how to use the [LFF][lff] to get language-specific suggestions.)
 
+SIL has developed a "Language Font Finder" service so that software applications can choose a reasonable default font for a specific language code. The service combines information about specific languages, what script a language is likely to use, and what fonts are suitable for specific scripts. The returned value is a JSON object with information about a font (or fonts) suitable for the language. The [LFF][lff] service documents the API access.
+
+[comment]: # (As of Aug 2025, there's no end user interface to LFF.)
 
 [adobe-open-source]: https://fonts.adobe.com/foundries/open-source
 [adobe-source-sans]: https://github.com/adobe-fonts/source-sans
