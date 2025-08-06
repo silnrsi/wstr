@@ -3,7 +3,7 @@ title: Punctuation
 description: Description and examples of punctuation
 sidebar:
     order: 6250
-lastUpdated: 2025-07-25
+lastUpdated: 2025-08-06
 ---
 
 Punctuation behaviors vary between scripts, and even between writing systems that share the same script (e.g. French and English). Most of these differences in punctuation, such as variations in quotation marks, are fairly straightforward and addressed by using different Unicode characters. In some cases, language-specific punctuation can be adjusted with OpenType features.
@@ -14,9 +14,9 @@ Each writing system may have specific punctuation conventions that need to be su
 
 Although the reader’s eye may not register it, good Latin script typography adds a small amount of extra space between a full stop and the next word than between other words. This is usually accomplished by adding width to the full stop. A simple difference in Cyrillic is that full stops don’t have any more extra space after them than between words (Kolodin et al, 2000), thus it might be useful to be able to disable that additional spacing, possibly with OpenType.
 
-Tibetan (&#x0F0D;), Devanagari (&#x0964;), and Ethiopic (&#x1362;) all have different symbols for sentence ending, each with differing amounts of space before and after the marker. Some Ethiopic languages use a different question mark (&#x1367;) than the more standard Roman style.
+Tibetan (&#x0F0D;), Devanagari (&#x0964;), and Ethiopic (&#x1362;) all have different symbols for sentence ending, each with differing amounts of space before and after the marker. Some Ethiopic languages use a different question mark (&#x1367;) than the more standard Latin style.
 
-Some Latin-script languages (such as Spanish) use an opening and closing mark for questions and exclamations. If a non-Roman script did this, that would need to be implemented as well.
+Some Latin-script languages (such as Spanish) use an opening and closing mark for questions and exclamations. If another script did this, that would need to be implemented as well.
 
 ## Abbreviated text
 
