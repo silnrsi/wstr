@@ -15,7 +15,7 @@ export const collections = {
         scrproptype: z.string().optional(),
         scrpropregion: z.string().optional(),
         scrpropstatus: z.string().optional(),
-        scrpropdir: z.string().optional(),
+        scrpropdirection: z.string().optional(),
         scrpropbaseline: z.string().optional(),
         scrpropcase: z.string().optional(),
         scrproprwspace: z.string().optional(),

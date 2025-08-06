@@ -3,33 +3,47 @@ title: Languages
 description: Main page listing all scripts
 sidebar:
     order: 8400
-lastUpdated: 2025-08-04
+lastUpdated: 2025-08-06
 ---
 
 The following are sites that have information on many different languages. For most of these sites, you can access information on a specific language by including that language's three-letter code in the URL as indicated.
 
-These sites contain data for all languages:
+## Lists of languages
 
-- [Ethnologue](ethnologue.com)
-    - ethnologue.com/language/XXX
-- [ScriptSource](scriptsource.org)
-    - scriptsource.org/lang/XXX
-- [ISO 639-3](iso639-3.sil.org/code/XXX)
-    - iso639-3.sil.org/code/XXX
-- [Glottolog/Langdoc](www.glottolog.org)
-    - www.glottolog.org/glottolog?iso=XXX
-- [Open Language Archives Community](http:/www.language-archives.org)
-    - www.language-archives.org/language/XXX
+- [Ethnologue]
+    - <code>https://ethnologue.com/language/XXX</code>
+- [ISO 639-3[iso-639-3]
+    - <code>https://iso639-3.sil.org/code/XXX</code>
+- [ScriptSource]
+    - <code>https://scriptsource.org/lang/XXX</code>
+- [Glottolog/Langdoc][glottolog]
+    - <code>https://www.glottolog.org/glottolog?iso=XXX</code>
 
-These sites do not contain data for all languages:
+## Language resoures and texts
 
-- [SIL Languages and Culture Archives](http://www.sil.org/resources)
-    - www.sil.org/resources/search/language/XXX.
-- [Endangered Languages Catalog](http://www.endangeredlanguages.com)
+- [Open Language Archives Community][olac]
+    - <code>http://www.language-archives.org/language/XXX</code>
+- [SIL Languages and Culture Archives][sil-archive]
+    - <code>https://www.sil.org/resources/search/language/XXX</code>
+- [Endangered Languages Catalog][endangered-lang-cat]
     - To find a specific language's information, enter the language name or three-letter code into the search box on the Endangered Languages site.
-- [Universal Declaration of Human Rights](http://efele.net/udhr/index.html)
-    - efele.net/udhr/d/udhr_XXX.txt
-- [Keyman](keyman.com)
-   - To find a keyboard resources for a specific language, enter the language name into the search box on the Keyman site.
-- [Wikipedia](wikipedia.org/)
+- [Universal Declaration of Human Rights][udhr]
+    - <code>http://efele.net/udhr/d/udhr_XXX.txt</code>
+- [Wikipedia]
     - To find a specific language's information, enter the language name into the search box.
+    
+## Keyboards
+
+- [Keyman]
+   - To find a keyboard resources for a specific language, enter the language name into the search box on the Keyman site.
+
+[Ethnologue]: ethnologue.com
+[iso-639-3]: iso639-3.sil.org
+[ScriptSource]: scriptsource.org
+[glottolog]: www.glottolog.org
+[olac]: http:/www.language-archives.org
+[sil-archive]: http://www.sil.org/resources
+[endangered-lang-cat]: http://www.endangeredlanguages.com
+[udhr]: http://efele.net/udhr/index.html
+[Wikipedia]: wikipedia.org
+[Keyman]: keyman.com
