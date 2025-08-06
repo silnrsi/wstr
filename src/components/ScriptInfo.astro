@@ -1,5 +1,5 @@
 ---
-const { scrpropregion, scrpropstatus, scrproptype, scrpropdir, scrpropbaseline, scrpropcase, scrproprwspace, scrpropbehavior, scrpropisocode, scrpropotcode } = Astro.locals.starlightRoute.entry.data;
+const { scrpropcode, scrproptype, scrpropregion, scrpropstatus, scrpropdirection, scrpropbaseline, scrpropcase, scrproprwspace, scrpropbehavior, scrpropisocode, scrpropotcode } = Astro.locals.starlightRoute.entry.data;
 ---
 
 <div>
@@ -25,7 +25,7 @@ const { scrpropregion, scrpropstatus, scrproptype, scrpropdir, scrpropbaseline, 
 		</tr>
 		<tr>
 			<td><strong>Direction</strong></td>
-			<td>{scrpropdir}</td>
+			<td>{scrpropdirection}</td>
 		</tr>
 		<tr>
 			<td><strong>Baseline</strong></td>
