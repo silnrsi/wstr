@@ -16,4 +16,8 @@ In writing systems where digraphs such as 'gb' are regarded as a unit, users may
 
 See section 5.3 of [Guidelines for Writing System Support][wsig5-3] for a more detailed discussion.
 
+See [Keyboards and Tools][keyboards-and-tools] for information on available keyboarding utilities. Input methods other than keyboards are covered in [Other Input Methods][other-input-methods]. 
+
 [wsig5-3]: https://scripts.sil.org/wsi_guidelines_sec_5_3.html
+[keyboards-and-tools]: topics/input/keyboards-and-tools
+[other-input-methods]: topics/input/other-input-methods
