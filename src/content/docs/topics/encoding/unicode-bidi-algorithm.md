@@ -2,9 +2,9 @@
 title: The Unicode Bidirectional Algorithm
 description: The "bidi" algorithm describes how software should process text that contains both left-to-right and right-to-left sequences of characters.
 sidebar:
-    order: 7120
+    order: 3500
     label: Unicode Bidi Algorithm
-lastUpdated: 2024-11-11
+lastUpdated: 2024-08-06
 ---
 
 The [Unicode Bidirectional Algorithm (UAX#9)][uax9], often called the "bidi algorithm," describes specifications for the positioning of characters in text containing characters flowing from right to left, such as Arabic or Hebrew. 
@@ -15,8 +15,8 @@ The Unicode report mentioned above describes the algorithm in great detail, but 
 
 Bidi processing is needed in two possible situations:
 
-* A Semitic script like Hebrew or Arabic that is primarily written from right to left, but with numbers (usually) written from left to right.
-* A combination of left-to-right and right-to-left scripts, such as Turkish containing an Arabic quote, or Hebrew that includes German phrases.
+- A Semitic script like Hebrew or Arabic that is primarily written from right to left, but with numbers (usually) written from left to right.
+- A combination of left-to-right and right-to-left scripts, such as Turkish containing an Arabic quote, or Hebrew that includes German phrases.
 
 ### Intra-script bidirectionality
 
@@ -72,15 +72,17 @@ The main approach of the Unicode bidi algorithm involves assigning a directional
 
 Here are some of the most important bidi codes:
 
-- L = left to right: used for the basic characters of left-to-right scripts (strong)
-- R = right-to-left: used for the basic characters of Hebrew and non-bidi RTL scripts (e.g., N'Ko, Mende, Tifinagh) (strong)
-- AL = right-to-left Arabic: basic characters and punctuation of Arabic and similar scripts (strong)
-- EN = European Number: Latin numbers (1, 2, 3...) and other numbers that behave similarly (weak)
-- AN = Arabic Number: &#x0661;, &#x0662;, &#x0663;, etc. (weak)
-- ES = European Number Separator: plus and minus (weak)
-- ET = European Number Terminator: degree sign, percent sign, number sign (#), currency symbols (weak)
-- WS = Whitespace: spaces (neutral)
-- ON = Other Neutrals: displayable characters that don't have any directionality associated with them - e.g., parentheses, underscore, equals sign (neutral)
+| | | |
+| - | ----------------------------------------- | -------- |
+| L  | left to right: used for the basic characters of left-to-right scripts | strong |
+| R  | right-to-left: used for the basic characters of Hebrew and non-bidi RTL scripts (e.g., N'Ko, Mende, Tifinagh) | strong |
+| AL | right-to-left Arabic: basic characters and punctuation of Arabic and similar scripts | strong |
+| EN | European Number: Latin numbers (1, 2, 3...) and other numbers that behave similarly | weak |
+| AN | Arabic Number: &#x0661;, &#x0662;, &#x0663;, etc. | weak |
+| ES | European Number Separator: plus and minus | weak |
+| ET | European Number Terminator: degree sign, percent sign, number sign (#), currency symbols | weak |
+| WS | Whitespace: spaces | neutral |
+| ON | Other Neutrals: displayable characters that don't have any directionality associated with them - e.g., parentheses, underscore, equals sign | neutral |
 
 A note on terminology: you might be used to referring to the numbers that are used with the Latin script (1, 2, 3) as "Arabic numbers", but this term is ambiguous, since Arabic script has its own set of numbers. So the bidi algorithm uses the term "European numbers" to refer to these characters. The numbers that are used with the Arabic script are often called "Arabic-Indic digits", but this is also somewhat ambiguous as there is a set of "eastern" Arabic-Indic numbers that behave somewhat differently!
 
