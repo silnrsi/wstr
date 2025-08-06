@@ -3,7 +3,7 @@ title: From Keystrokes to Codepoints
 description: Explaining the relationship between pressed keys and encoded codepoints
 sidebar:
     order: 4100
-lastUpdated: 2025-07-29
+lastUpdated: 2025-08-06
 ---
 
 Keyboards are often used to input text data. A user touches keys in a certain order, whether depressing actual keys on a physical keyboard or tapping images of keys on a touch keyboard, to communicate to the device what codepoints to store. These codepoints represent the characters the user desires to enter.
