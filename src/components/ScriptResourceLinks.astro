@@ -1,13 +1,14 @@
 ---
-const { label4script, wikiurl } = Astro.props;
+const { label4wiki, wikiurl } = Astro.props;
 ---
 
-			<li><a href={wikiurl} target="_blank">Wikipedia page{label4script}</a></li>
-			<!-- General purpose links -->
-			<li><a href="https://r12a.github.io/scripts/script-features" target="_blank">Richard Ishida's script comparison table</a></li>
-			<li><a href="https://r12a.github.io/pickers" target="_blank">Unicode character pickers</a></li>
-			<li><a href="http://www.microsoft.com/typography/OpenTypeDev/USE/intro.htm" target="_blank">Creating and supporting OpenType fonts for the Universal Shaping Engine</a></li>
-			<li><a href="https://r12a.github.io/scripts/#scriptnotes" target="_blank">Notes on Scripts, Orthographies and Characters, Lists of Terms</a></li>
+			<li><a href={wikiurl} target="_blank">Wikipedia{label4wiki}</a></li>
+			<li>Resources from Richard Ishida</li>
+			<ul>
+				<li><a href="https://r12a.github.io/scripts/script-features" target="_blank">Richard Ishida's script comparison table</a></li>
+				<li><a href="https://r12a.github.io/pickers" target="_blank">Unicode character pickers</a></li>
+				<li><a href="https://r12a.github.io/scripts/#scriptnotes" target="_blank">Orthography descriptions for specific writing systems</a></li>
+			</ul>
 
 <style>
 </style>

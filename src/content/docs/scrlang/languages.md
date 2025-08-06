@@ -12,14 +12,14 @@ The following are sites that have information on many different languages. For m
 
 - [Ethnologue]
     - <code>https://ethnologue.com/language/XXX</code>
-- [ISO 639-3[iso-639-3]
+- [ISO 639-3][iso-639-3]
     - <code>https://iso639-3.sil.org/code/XXX</code>
 - [ScriptSource]
     - <code>https://scriptsource.org/lang/XXX</code>
 - [Glottolog/Langdoc][glottolog]
-    - <code>https://www.glottolog.org/glottolog?iso=XXX</code>
+    - <code>http://www.glottolog.org/glottolog?iso=XXX</code>
 
-## Language resoures and texts
+## Language resources and texts
 
 - [Open Language Archives Community][olac]
     - <code>http://www.language-archives.org/language/XXX</code>
@@ -47,3 +47,4 @@ The following are sites that have information on many different languages. For m
 [udhr]: http://efele.net/udhr/index.html
 [Wikipedia]: wikipedia.org
 [Keyman]: keyman.com
+

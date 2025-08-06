@@ -3,7 +3,7 @@ title: OpenType
 description: Features and lookups
 sidebar:
   order: 5520
-lastUpdated: 2025-08-05
+lastUpdated: 2025-08-06
 ---
 
 OpenType is a [smart-font](/reference/glossary#smartfont) technology that was developed by Microsoft and Adobe. It is the mostly widely-supoorted such system available today (less common systems are Graphite and AAT).
@@ -86,6 +86,8 @@ The following tables attempt to document what the Harfbuzz code indicates for GS
 ||abvs blws haln pres psts BUZZ ccmp locl rlig calt clig liga rclt vert _userfeatures_|
 |GPOS|dist abvm blwm mark mkmk curs kern _userfeatures_|
 
+See also [Creating and supporting OpenType fonts for the Universal Shaping Engine][otdev-use]. 
+
 ### Arabic shaper
 
 This includes Arabic, Mongolian, N'Ko, Syriac, and several other connected or cursive scripts.
@@ -154,5 +156,6 @@ This includes Arabic, Mongolian, N'Ko, Syriac, and several other connected or cu
 [otcookbook]: https://opentypecookbook.com/
 [otspec-cv]: https://www.microsoft.com/typography/otspec/features_ae.htm#cv01-cv99
 [otspec-ss]: https://www.microsoft.com/typography/otspec/features_pt.htm#ssxx
+[otdev-use]: http://www.microsoft.com/typography/OpenTypeDev/USE/intro.htm
 [sil-fonts-features]: https://software.sil.org/fonts/features/
 [sil-fonts-web]: https://software.sil.org/fonts/webfonts/

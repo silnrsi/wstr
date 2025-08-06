@@ -4,20 +4,22 @@ import ScriptResourceLinks from "./ScriptResourceLinks.astro";
 const { scrpropname, scrpropcode } = Astro.locals.starlightRoute.entry.data;
 const { detailSummary } = Astro.props;
 const ssurl = scrpropcode ? `https://scriptsource.org/scr/${scrpropcode}` : "https://scriptsource.org";
+const label4ss = scrpropname ? ` page for ${scrpropname}` : '';
 const wikiurl = scrpropname ? `https://wikipedia.org/wiki/${scrpropname}` : "https://en.wikipedia.org/wiki/Script_(Unicode)";
-const label4script = scrpropname ? ` for ${scrpropname}` : '';
-const seemore = detailSummary === "seemore";
+const label4wiki = scrpropname ? ` article on ${scrpropname}` : ' article on Scripts';
+const seemore = (detailSummary === "seemore");
 ---
 
 <ul>
-	<li><a href={ssurl} target="_blank">ScriptSource page{label4script}</a> - all about scripts, languages, and writing systems</li>
-	{ !seemore && <ScriptResourceLinks label4script={label4script} wikiurl={wikiurl} /> }
+	<li><a href={ssurl} target="_blank">ScriptSource{label4ss}</a> - all about scripts, languages, and writing systems</li>
+	
+	{ !seemore && <ScriptResourceLinks label4wiki={label4wiki} wikiurl={wikiurl} /> }
 </ul>
 { seemore && (
 	<details>
 		<summary>See more...</summary>
 		<ul>
-			<ScriptResourceLinks label4script={label4script} wikiurl={wikiurl} />
+			<ScriptResourceLinks label4wiki={label4wiki} wikiurl={wikiurl} />
 		</ul>
 	</details>
 )}
