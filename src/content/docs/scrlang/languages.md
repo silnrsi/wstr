@@ -11,13 +11,13 @@ The following are sites that have information on many different languages. For m
 ## Lists of languages
 
 - [Ethnologue]
-    - <code>https://ethnologue.com/language/XXX</code>
+    - <code>https://www.ethnologue.com/language/XXX</code>
 - [ISO 639-3][iso-639-3]
     - <code>https://iso639-3.sil.org/code/XXX</code>
 - [ScriptSource]
     - <code>https://scriptsource.org/lang/XXX</code>
 - [Glottolog/Langdoc][glottolog]
-    - <code>http://www.glottolog.org/glottolog?iso=XXX</code>
+    - <code>https://glottolog.org/glottolog?iso=XXX</code>
 
 ## Language resources and texts
 
@@ -37,14 +37,14 @@ The following are sites that have information on many different languages. For m
 - [Keyman]
    - To find a keyboard resources for a specific language, enter the language name into the search box on the Keyman site.
 
-[Ethnologue]: ethnologue.com
-[iso-639-3]: iso639-3.sil.org
-[ScriptSource]: scriptsource.org
-[glottolog]: www.glottolog.org
-[olac]: http:/www.language-archives.org
-[sil-archive]: http://www.sil.org/resources
-[endangered-lang-cat]: http://www.endangeredlanguages.com
+[Ethnologue]: https://www.ethnologue.com/
+[iso-639-3]: https://iso639-3.sil.org/
+[ScriptSource]: https://scriptsource.org
+[glottolog]: https://glottolog.org
+[olac]: http://www.language-archives.org/
+[sil-archive]: https://www.sil.org/resources
+[endangered-lang-cat]: https://www.endangeredlanguages.com
 [udhr]: http://efele.net/udhr/index.html
-[Wikipedia]: wikipedia.org
-[Keyman]: keyman.com
+[Wikipedia]: https://wikipedia.org
+[Keyman]: https://keyman.com
 
