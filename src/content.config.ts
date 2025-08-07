@@ -12,6 +12,7 @@ export const collections = {
 
         scrpropcode: z.string().optional(),
         scrpropname: z.string().optional(),
+        scrpropshortname: z.string().optional(),
         scrproptype: z.string().optional(),
         scrpropregion: z.string().optional(),
         scrpropstatus: z.string().optional(),
