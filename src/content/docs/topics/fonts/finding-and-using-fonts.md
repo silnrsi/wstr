@@ -27,11 +27,9 @@ A longer list of sources and projects is available on the [OFL website showcase]
 
 Both Adobe and Google allow their font catalogs to be filtered by language or writing system. SIL fonts are grouped by region. However, it can be difficult to find fonts for languages that are not directly listed in any of those catalogs.
 
-[comment]: # (add info on how to use the [LFF][lff] to get language-specific suggestions.)
+SIL has developed a "Language Font Finder" service so that software applications can choose a reasonable default font based on the language code. The service combines information about specific languages, what script a language is likely to use, and what fonts may be suitable for individual scripts. The returned value is a JSON object with information about a font (or fonts) suitable for the language. The [LFF][lff] service documents the API access.
 
-SIL has developed a "Language Font Finder" service so that software applications can choose a reasonable default font for a specific language code. The service combines information about specific languages, what script a language is likely to use, and what fonts are suitable for specific scripts. The returned value is a JSON object with information about a font (or fonts) suitable for the language. The [LFF][lff] service documents the API access.
-
-[comment]: # (As of Aug 2025, there's no end user interface to LFF.)
+There is not yet any user-friendly way to use the Language Font Finder outside of supporting applications, however, we hope to provide one in the future. 
 
 [adobe-open-source]: https://fonts.adobe.com/foundries/open-source
 [adobe-source-sans]: https://github.com/adobe-fonts/source-sans

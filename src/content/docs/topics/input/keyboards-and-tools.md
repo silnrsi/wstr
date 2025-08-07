@@ -3,10 +3,8 @@ title: Keyboards and Tools
 description: Keyboard sources and tools
 sidebar:
     order: 4200
-lastUpdated: 2025-08-06
+lastUpdated: 2025-08-07
 ---
-
-[comment]: # (Placeholder: Basic summary and links to various resources and keyboard tools. Link to WSIG 7)
 
 _This section has yet to be completed._
 In the meantime see sections 7.1 to 7.4 of [Guidelines for Writing System Support: Technical Details: Data Entry and Editing][wsig7]. The recommended set of keyboard tools has changed since section 7.5 of that document was written. The following sections provide more recent information.
@@ -21,7 +19,7 @@ If no suitable keyboard exists, a user can download the [Keyman Developer][keyma
 
 ## Other keyboarding solutions
 
-This [Keyboard Systems Overview article][ss-keyboard-systems] describes other keyboard input methods (and tries to indicate which ones are no longer viable). (It also describes other input methods. In particular, one of the character picker options may be an acceptable solution for typing rarely used characters.)
+This [Keyboard Systems Overview article][ss-keyboard-systems] describes other keyboard input methods and tries to indicate which ones are no longer viable. It also describes other input methods. In particular, one of the character picker options may be an acceptable solution for typing rarely used characters.
 
 [wsig7]: https://scripts.sil.org/wsi_guidelines_sec_7.html
 [keyman]: https://keyman.com

@@ -3,27 +3,26 @@ title: Legacy Encodings
 description: Issues regarding non-Unicode encodings
 sidebar:
     order: 3700
-lastUpdated: 2025-08-05
+lastUpdated: 2025-08-07
 ---
 
-The Unicode standard didn't have widespread adoption until the late 1990s. Even today Windows 11 defaults to using "code pages" instead of Unicode. Prior to Unicode, there were many standards. These included:
+The Unicode Standard did not have widespread adoption until the late 1990s. Even today Windows 11 defaults to using "code pages" instead of Unicode. Prior to Unicode, there were many standards. These included:
 
-- ASCII: used 7 bits for each character, and it was designed for American English. It didn't even have accented characters. ASCII could only represent 128 different code points.
-- ANSI (American National Standards Institute) used 8 bits for each character. and other bodies standardized these different encodings. Each ANSI-standard encoding (called a code page) was given a number. ANSI could represent 256 different code points.
+- ASCII: Used 7 bits for each character. Was designed for American English. It didn't even have accented characters. ASCII could only represent 128 different code points.
+- ANSI (American National Standards Institute): Used 8 bits for each character. Other bodies standardized these different encodings. Each ANSI-standard encoding (called a code page) was given a number. ANSI could represent 256 different code points.
 
-In addition to these "standard" encodings, people created their own "custom" encodings by replacing characters they were not using with characters they needed. Without a corresponding "custom" font, the data displayed incorrectly. 
+In addition to these "standard" encodings, people created their own "custom" (also called "hacked") encodings by replacing characters they were not using with characters they needed. Without a corresponding "custom" font, the data displayed incorrectly. 
 
 The result of all this is that the same code points could mean different things on computers in different parts of the world.
 
 ## Unexpected Behaviors
 
-Various problems were encountered when custom encodings were used.
+Various problems were encountered when custom encodings were used. Most of these relate to the default properties associated with individual characters:
 
-- Characters have various properties
-  - Sort order: a, b, c, …, z
-  - Capitalization: a -> A, b -> B, c -> C, … , z -> Z
-  - Letters form words, limiting where lines break.
-  - Punctuation has different line-breaking properties than letters.
+- Sort order: a, b, c, …, z
+- Capitalization: a -> A, b -> B, c -> C, … , z -> Z
+- Letters form words, limiting where lines break.
+- Punctuation has different line-breaking properties than letters.
 
 If &#x00C0; and &#x00C1; were not needed, sometimes &#x014b; and &#x014a; were placed in those positions. The computer's sorting algorythm and capitalization routines would not produce the correct behavior.
 
