@@ -19,9 +19,9 @@ On the [Keyman][keyman] site, a user can type a language name into the search bo
 
 If no suitable keyboard exists, a user can download the [Keyman Developer][keyman-developer] tool and create a suitable keyboard layout. Users who create such a keyboard are encouraged to submit it to the Keyman keyboards repository so that others can benefit from having that keyboard freely available.
 
-## Other input methods
+## Other keyboarding solutions
 
-This [Keyboard Systems Overview article][ss-keyboard-systems] describes other keyboard input methods (and tries to indicate which ones are no longer viable). In particular, one of the character picker options may be an acceptable solution for typing rarely used characters.
+This [Keyboard Systems Overview article][ss-keyboard-systems] describes other keyboard input methods (and tries to indicate which ones are no longer viable). (It also describes other input methods. In particular, one of the character picker options may be an acceptable solution for typing rarely used characters.)
 
 [wsig7]: https://scripts.sil.org/wsi_guidelines_sec_7.html
 [keyman]: https://keyman.com
