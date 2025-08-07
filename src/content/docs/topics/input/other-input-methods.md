@@ -18,11 +18,11 @@ Among these are:
 
 ## Character pickers
 
-Character pickers (either hosted on a web site or on the user's device) present an array of characters and allow the user to select the desired ones. This is generally a slower method for data input than a keyboard, but may be useful for entering small amounts of text.
+Character pickers (either hosted on a web site or on the user's device) present an array of characters and allow the user to select the desired ones. This is generally a slower method for data input than a keyboard, but may be useful for entering small amounts of text. See the "Web-based pickers" and "Character Pickers" sections of this [Keyboard Systems Overview article][ss-keyboard-systems] for further details.
 
 ## USV entry
 
-The computer operating system or a specific software application may offer the possibility of entering a character by typing its Unicode Scalar Value (USV), that is the four-, five-, or six-digit hexadecimal value introduced by "U+". See this [Unicode input](unicode-input) article for additional discussion. This is a slow input method, only suitable for entering occasional characters.
+The computer operating system or a specific software application may offer the possibility of entering a character by typing its Unicode Scalar Value (USV), that is the four-, five-, or six-digit hexadecimal value introduced by "U+". This is a slow input method, only suitable for entering occasional characters. See the "USV entry methods" section of this [Keyboard Systems Overview article][ss-keyboard-systems] for additional discussion.
 
 ## Voice recognition
 
@@ -42,7 +42,7 @@ Optical character recognition (or OCR) involves taking a visual copy of text (us
 
 See [Optical character recognition][OCR] for more details.
 
-[unicode-input]: https://en.wikipedia.org/wiki/Unicode_input
+[ss-keyboard-systems]: https://scriptsource.org/entry/ytr8g8n6sw
 [speechrecognition]: https://en.wikipedia.org/wiki/Speech_recognition
 [handwritingrecognition]: https://en.wikipedia.org/wiki/Handwriting_recognition
 [OCR]: https://en.wikipedia.org/wiki/Optical_character_recognition
