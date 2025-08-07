@@ -30,7 +30,7 @@ jobs:
           cache: npm
           cache-dependency-path: package-lock.json
       - name: Install
-        run: npm install
+        run: npm clean-install
       - name: Build
         run: |
           npx astro build
