@@ -56,7 +56,12 @@ Finally, a WSI needs to be accessible to those who need it. There are a number o
 
 These three issues need consideration in the planning, development and evaluation of WSIs.
 
+## Further resources
+
+[Full Stack Language Enablement](loomis2018) provides another view on what constitutes adequate support for a writing system.
+
 
 _Portions of this content first appeared in [Guidelines for Writing System Support][wsig], copyright © 2003 UNESCO and SIL International._
 
+[loomis2018]: https://srl295.github.io/2017/06/06/full-stack-enablement/
 [wsig]: https://scripts.sil.org/wsi_guidelines.html
