@@ -41,7 +41,7 @@ For details of what capabilities are needed for writing systems see [What is Ade
 
 **Text should be identified with a specific language.** There are a number of text processes that are specific to a language, such as text styling, keyboarding, and sorting. Therefore it is extremely helpful if the computer knows which language text is in. As an example, consider sorting data containing "ö". In Danish, "ö" is sorted as "ø" and comes at the end of the alphabet, after "z" and "æ". In German, "ö" is sorted together with "o". _Without knowing the language, how will you sort the data correctly?_
 
-Language names can be ambiguous. To get around this, the computer industry uses a standard language identification string, or _language tag_, for each language. It includes information, either explicitly or implicitly, about the script (Latin script, Arabic script, Cyrillic script, etc.) and region (most often a two-letter country code, but other codes are possible). Although it is commonly called a language tag (or langtag) it actually identifies a particular writing system or orthography. It is sometimes called a _BCP 47 tag_, based on an [IETF standard][bcp47] and [extensions][bcp47ext].
+Language names can be ambiguous. To get around this, the computer industry uses a standard language identification string, or _language tag_, for each language. It includes information, either explicitly or implicitly, about the script (Latin script, Arabic script, Cyrillic script, etc.) and region (most often a two-letter country code, but other codes are possible). Although it is commonly called a _language tag_ (or _langtag_) it actually identifies a particular writing system or orthography. It is sometimes called a _BCP 47 tag_, based on an [IETF standard][bcp47] and [extensions][bcp47ext].
 
 Note that even though the BCP 47 standard is relatively recent, it is composed of existing standards for identifying language, script, and region which have been in use for much longer. The BCP 47 code for many languages is simply the three-letter ISO 639 code (based on the Ethnologue identification system) that indicates the language, omitting the script and region codes, since those are implied. The BCP 47 information is complex, which is not surprising given the complexity of classifying human language.
 
@@ -52,11 +52,11 @@ A language tag also has a broader use, and corresponds to a particular _locale_ 
 [bcp47]: https://codehivetx.us/en/posts/2024-bcp47.html
 [bcp47ext]: https://codehivetx.us/en/posts/2024-bcp47-extensions.html
 [language-tagging]: /topics/writingsystems/language-tagging
-[locale-data]: topics/writingsystems/locale-data
+[locale-data]: /topics/writingsystems/locale-data
 
 ## Text encodings and Unicode
 
-A computer program operates on data that is stored as numbers. When that data is language text there must be an encoding standard that makes the connection between the number being stored and the character it represents. Thankfully there is a global standard for associating numbers and characters: _Unicode_.
+Applications operate on data that is stored as numbers. When that data is language text there must be an encoding standard that makes the connection between the number being stored and the character it represents. Thankfully there is a global standard for associating numbers and characters: _Unicode_.
 
 Unicode is an encoding standard that aims to support all the world's languages and scripts. It provides the best way to encode language data. **All application data should be stored according to The Unicode Standard.** If you have to deal with data in encodings other than Unicode see [Legacy Encodings][legacy-encodings], however, any data in other encodings should be converted to Unicode for storage and application use.
 
@@ -66,7 +66,7 @@ The article on [Unicode Concepts][unicode-concepts] addresses important topics, 
 
 - _Transformation Formats_ for storing Unicode code points as multiple bytes. **Text should be read and interpreted according to the proper encoding and transformation format.**
 - _Character Properties_ that associate a character with one or more scripts and set basic behavior (direction, casing, combining, and others). **Characters need to be used in ways that are consistent with their properties.**
-- _Normalization Forms_ for handling both _composed_ (NFC) and _decomposed_ (NFD) sequences. **Applications should carefully consider how composition, decomposition and normalization affects both data input and export.**
+- _Normalization Forms_ for handling both _composed_ (NFC) and _decomposed_ (NFD) sequences. **Applications should carefully consider how composition, decomposition and normalization affect both data input and export.**
 - _Glyph Similarities_, _Case Mapping_, _Canonical Ordering_, _Rendering Behaviors_, and other concepts.
 
 Unicode has reserved several blocks of characters for private use. These [Private Use Area (PUA)][private-use-area] characters only have meaning if everyone using that data agrees on it.
@@ -78,7 +78,7 @@ Unicode has reserved several blocks of characters for private use. These [Privat
 
 ## Input and keyboarding
 
-Text is usually input using a physical or on-screen keyboard, but may also be entered through other input methods. Keyboard-based methods are defined through keyboard layouts that may match national standards or reflect a unique language community's preference.
+Text is usually input using a physical or on-screen keyboard, but may also be entered through other input methods. Keyboard-based methods are defined through _keyboard layouts_. These may match national standards or reflect a unique language community's preference.
 
 Operating systems offer a variety of keyboard layouts for major languages. For computers, a layout is often chosen that matches the key labels on the physical keyboard. For lesser resourced languages, a keyboarding solution such as [Keyman][keyman] may be needed to allow text in that language to be typed. 
 
@@ -94,106 +94,59 @@ There are two ways for the association between the right keyboard, the text, and
 [from-keystrokes-to-codepoints]: /topics/input/from-keystrokes-to-codepoints
 [keyman]: https://keyman.com/
 
-## Rendering
+## Shaping, rendering, and layout
 
-When text is displayed on a screen or printed on paper or when a PDF file is created, the Unicode characters of the text are "rendered" using a font that maps Unicode characters to specific glyphs (character shapes) and contains position information about those glyphs. Choosing a different font changes the glyphs used to create the visual representation of the text.
+When text is displayed on a screen or printed on paper or when a PDF file is created, the Unicode characters of the text are _rendered_ using a font that maps Unicode characters to specific glyphs (character shapes) and contains position information about those glyphs. Choosing a different font changes the glyphs used to create the visual representation of the text. The glyphs are then arranged in lines, paragraphs, and pages. The term _rendering_ is used to refer to both the whole process as well as one particular part.
 
-There are two aspects to rendering text: 
+There are three aspects to this process: 
 
+- _Shaping_ - converting character sequences to glyph sequences. This highly specific to an individual script or script family, and may be very simple or highly complex. Shaping systems are provided by operating systems (e.g. Microsoft's DirectWrite) but can also be cross-platform. **We recommend that application developers choose a text framework that supports the Harfbuzz shaping engine.** It is the most versatile shaper and supports multiple platforms. For more information see [Shaping and Rendering][shaping-and-rendering].
+- _Rendering_ - choosing the proper form and position of glyphs based on the chosen font. This involves applying script-specific behaviors such as diacritic positioning and ligature formation, but also user-chosen behaviors and glyph variants (often called _features_) such as small capitals and alternate letterforms. Multiple rendering systems are in use, including SIL's Graphite, however, **applications should focus on fully supporting OpenType, including providing an interface that allows for user control of all feature settings**. These rendering systems are covered in [Shaping and Rendering][shaping-and-rendering] and in the sections below.
+- _Layout_ - forming, formatting, and positioning paragraphs, including sizing, indentation, color, and many other aspects. The various properties of layouts an application supports (styles of indentation, lists, headings, etc.) depends on the purpose of the application. These need to take into account any script-specific conventions that apply to those layout elements. _This is particularly important for applications that intend to support RTL (right-to-left) scripts (e.g. araboc, Hebrew)._ **Applications need to understand and properly support script-specific layout conventions for the layout options they provide to users.** For examples see the articles in the [Layout topic][layout-overview].
 
-
-* **layout** which is concerned with positioning paragraphs, font selection, sizing, indentation, color, etc. and 
-* **shaping** which is about the precise choice of glyphs and their positioning for text within a line in a single font.
-
-
-### Fonts
-
-The font selected to display the text needs to support all the characters in the text, plus any rendering support needed by the language and/or script. If a character is missing, the operating system will try to substitute the corresponding character from another font (which may result in characters of uneven size or design being displayed), or it may just appear as a square box. If the needed rendering information is missing, characters may end up misaligned or malformed. 
-
-
-### Font features and glyph variants
-
-In addition, a particular language may require glyph variants for a character. For example, in African languages, the uppercase eng is typically in the shape of the lowercase eng ('ŋ'), just larger. In North and South American and European languages where the eng is used, the uppercase equivalent is generally in the form of an uppercase 'N' with a hook. The same codepoint is used for both styles. 
-
-An application needs to allow the user to choose glyph variants, either directly or via language tag information (or both). One user-friendly way to support this is to provide a dialog that offers a choice of the variants available in the font. Ideally the choice of variants would only be offered if relevant to the language. 
-
-Where known, information about the preferred glyph variants for a language is stored in the SLDR file for the language tag. That information can be obtained using the LDML API.
-
-Ref: 
-
-5521: OpenType Features
-
-https://software.sil.org/fonts/features/
-
-5541: Fallback
-
-1520: LDML: Font feature information in SLDR files (using SIL extensions to LDML)
-
-
-### Complex Rendering
+### Complex rendering
 
 Those who speak and write European languages often have a very simple concept of rendering, where there is a one-to-one correspondence between characters and glyphs and those glyphs are laid out in a straightforward left-to-right order. But many scripts require much more complexity in the rendering process. Some of these complexities include:
 
+- _Contextual shaping_ - where the shape of the glyph depends on adjacent characters or its position within the word.
+- _Ligatures_ - where two or more characters combine into a single shape. In the Arabic script, for example, when a _lam_ character (ل) is followed by an _alif_ character (ا), the two characters combine to form a single shape (لا).
+- _Complex positioning_ - where diacritics must stack up or be positioned in various ways in order to be readable.
+- _Reordering_ - where glyphs appear to the left or above or below characters that precede them in the data.
+- _Splitting_ - where a single character is displayed using two disjoint glyphs.
+- _Bidirectionality_ - where in some right-to-left scripts, numbers are written left to right.
 
+To achieve these complex behaviors, fonts include rules that are interpreted by rendering engines. The most common of these systems is [OpenType][opentype], which is built into most operating systems and has become the industry standard. SIL developed its own smart-font system called [Graphite][graphite], which provides more flexible support for some complex scripts, but has much less application support. See [Shaping and Rendering][shaping-and-rendering].
 
-* Contextual shaping, where the shape of the glyph depends on adjacent characters or its position within the word.
-* Ligatures, where two or more characters combine into a single shape. In the Arabic script, for example, when a "lam" character (ل) is followed by an "alif" character (ا), the two characters combine to form a single shape (لا).
-* Complex positioning, where diacritics must stack up or be positioned in various ways in order to be readable.
-* Reordering, where glyphs appear to the left or above or below characters that precede them in the data.
-* Splitting, where a single character is displayed using two disjoint glyphs.
-* Bidirectionality, where in some right-to-left scripts, numbers are written left to right.
+For visual examples of these behaviors see [Examples of Complex Rendering][ss-complex-rendering] and [Reordering and Data Storage Order][ss-reordering]. **Developers who wish to support RTL scripts need to understand the [Unicode Bidi Algorithm][unicode-bidi-algorithm].**
 
-To achieve these complex behaviors, “smart fonts” include rules that are interpreted by smart rendering systems. The most common of these systems is OpenType, which is built into most operating systems.
+### Font features and glyph variants
 
-SIL developed its own smart-font system called Graphite, which is supported by a smaller number of applications but may be needed for a few scripts. Currently, special development effort is needed to enable an application to support Graphite rendering.
+The font selected to display the text needs to support all the characters in the text, plus any rendering support needed by the language and/or script. If a character is missing, the operating system will try to substitute the corresponding character from another font (which may result in characters of uneven size or design being displayed), or it may just appear as a square box. If the needed rendering information is missing, characters may end up misaligned or malformed. 
 
-Resources:
+In addition, a language may require particular glyph variants for a character. For example, in African languages, the uppercase _eng_ is typically in the shape of the lowercase _eng_ (ŋ), just larger. In North and South American and European languages where the _eng_ is used, the uppercase equivalent is generally in the form of an uppercase 'N' with a hook. The same codepoint is used for both styles.
 
-[Examples of Complex Rendering](https://scriptsource.org/entry/lu6terdg9u)
+**Applications need to apply these glyph variants when appropriate, based on language tag and locale information and/or through user-controlled features.** This can be done in three ways, and applications should support all three possible scenarios:
 
-[Reordering and Data Storage Order](https://scriptsource.org/entry/l5bvp27v3r)
+- _Font contains language-specific features_ - Some fonts contain features for glyph variants that are automatically turned on when the text is tagged with a specific language tag. This requires interaction between the application and rendering engine, and is unfortunately not well supported in common applications. An example of this type of feature is the [_Serbian Cyrillic alternates_][gentium-langsr] feature in the Charis, Gentium, and Andika fonts.
+- _Font contains user-controlled features_ - These are glyph variant features or behaviors that a user can explicitly choose to apply to the selected text (or style definition). These features may not be simple on/off features and may have multiple options. An example is the [_Eng_][gentium-cv43] feature that offers three glyph variants. **Applications need to provide a good user interface that allows users to control these features.** One user-friendly way to support this is to provide a dialog that offers a choice of the variants available in the font. Ideally the choice of variants would only be offered if relevant to the language.
+- _Application applies appropriate features based on language and locale data_ - In some cases, the locale data for a language contains information on the preferred glyph variant features that should be used. This is stored in the SLDR file for the language tag, and can be obtained using the LDML API. See [Locale Data][locale-data] and related articles.
 
-[Rendering Technologies Overview](https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter07&site_id=nrsi) (OLD)
+For more information on font features see [OpenType][opentype].
 
-[The Unicode Bidi Algorithm: a gentle introduction](https://scriptsource.org/entry/hunvb5t7qm)
+[gentium-cv43]: https://software.sil.org/gentium/features/#cv43
+[gentium-langsr]: https://software.sil.org/gentium/features/#langsr
+[graphite]: https://graphite.sil.org/
+[layout-overview]: /topics/layout/layout-overview
+[opentype]: /topics/fonts/opentype
+[shaping-and-rendering]: /topics/fonts/shaping-and-rendering
+[ss-complex-rendering]: https://scriptsource.org/entry/lu6terdg9u
+[ss-reordering]: https://scriptsource.org/entry/l5bvp27v3r
+[unicode-bidi-algorithm]: /topics/encoding/unicode-bidi-algorithm
 
-[Graphite Web Site](https://graphite.sil.org/)
+## Text analysis and conversion
 
-5500: Rendering systems
+Many features of applications depend on analysis of the text - word and line breaking, sorting, searching, spell-checking - or the conversion (transformation) of the text from one encoding into another. If the text is simple, strictly LTR (left-to-right), with no diacritics or complex shaping behaviors, and straightforward script conventions, there are good, well-established tools and patterns that can be used. However, even common, well-resourced languages (e.g. English) provide some significant challenges. Complex scripts can multiply these challenges.
 
+If your application relies on text analysis for some functions, or needs to convert text between encodings or transformation formats (NFC, NFD, and others), or needs to manage cross-script transliteration, see [Analysis Overview][analysis-overview] for important information.
 
-### Text layout
-
-TBD
-
-Resource: [Challenges in publishing with non-Roman Scripts](https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter09&site_id=nrsi)
-
-
-Ref:
-
-6000: Layout
-
-
-
-
-## Sorting and collation
-
-When accepting input for searching, it is essential to normalize the search item to the same format as the data. Increasingly, this detail is handled by the collation library your programming language provides.
-
-Different languages sort words in different orders. Strictly speaking, in computing, "sorting" is about the algorithm that puts things into order as quickly as possible, while "collation" is about the comparison of two strings to say which should sort earlier and which later. For text processing, therefore, we are more concerned with this later collation question. Since different languages collate in different ways, there needs to be ways for software to use language specific collation. This again calls for the system to know what language the text is in.
-
-Resource: [Unicode Sort Tailoring: Tutorial](https://scriptsource.org/entry/pnrnlhkrq9) and [Resources](https://scriptsource.org/entry/lcepuup9ga)
-
-
-### Searching
-
-Searching is both simple and incredibly complicated. This is not a solved problem. For example, when searching, are we concerned about case? format characters? phonetic equivalence? and so on. Just comparing bytes is one form of search, but often people want more choice over how they search. This is an opportunity to provide a real difference in language support for your software.
-
-
-## Going Deeper
-
-Resources
-
-[Introduction to Text Conversion and Transliteration](https://scriptsource.org/entry/xlzd6n5aqt)
-
-[Unicode conversion of non-breaking hyphens in MS Word](https://scriptsource.org/entry/xvbp4378bg)
+[analysis-overview]: /topics/analysis/analysis-overview
