@@ -32,7 +32,7 @@ While many companies such as Meta and Microsoft often have their own internal sy
 
 ## More on this site: 
 
-- [CLDR and SLDR][cldr and sldr]
+- [CLDR and SLDR][cldr-and-sldr]
 - [LDML][ldml]
 
 ## More from External Sources:
@@ -41,6 +41,6 @@ While many companies such as Meta and Microsoft often have their own internal sy
 
 [langtag]: /topics/writingsystems/language-tagging
 [BCP 47]: https://www.rfc-editor.org/rfc/bcp/bcp47.txt
-[cldr and sldr]: /topics/writingsystems/cldr-and-sldr
+[cldr-and-sldr]: /topics/writingsystems/cldr-and-sldr
 [ldml]: /topics/writingsystems/ldml
 [unicodelocaledef]: https://unicode.org/reports/tr35/#Locale

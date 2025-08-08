@@ -76,6 +76,8 @@ For this purpose, there is a [json file available through the LDML API][json-ldm
 
 There is also a [python module given as a reference implementation][pypi], which is available on langtags on pypi. 
 
+Finally, the Unicode CLDR project has documentation on [Picking the Right Language Modifier][cldr-langtag-picking].
+
 [15924]: https://unicode.org/iso15924/iso15924-codes.html
 [639-3]: https://iso639-3.sil.org/
 [autonyms]: https://github.com/silnrsi/langtags/tree/master/source/autonyms.csv
@@ -95,3 +97,4 @@ There is also a [python module given as a reference implementation][pypi], which
 [locale-def]: /reference/glossary/#locale
 [langtag-standards]: /topics/writingsystems/language-tagging/#standards
 [stability-problems]: /topics/writingsystems/language-tagging/#tag-stability-problems
+[cldr-langtag-picking]:https://cldr.unicode.org/index/cldr-spec/picking-the-right-language-code
