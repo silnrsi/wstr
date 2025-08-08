@@ -4,7 +4,7 @@ description: Guide for software developers
 sidebar:
     order: 2501
     label: App Development Best Practice
-lastUpdated: 2025-08-07
+lastUpdated: 2025-08-08
 ---
 
 ## Introduction
