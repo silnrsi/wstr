@@ -8,7 +8,7 @@ lastUpdated: 2025-07-11
 
 ## What is the CLDR?
 
-From https://cldr.unicode.org/:
+From the [Unicode CLDR Project][unicode-cldr-project] site:
  
 > The Unicode Common Locale Data Repository (CLDR) provides key building blocks for software to support the world’s languages, with the largest and most extensive standard repository of locale data available. This data is used by a [wide spectrum of companies](https://cldr.unicode.org/#who-uses-cldr) for their software internationalization and localization, adapting software to the conventions of different languages for such common software tasks. It includes:
 > 
@@ -106,7 +106,8 @@ For more information on CLDR coverage levels and minimum data requirements, see 
 [ethnologue]: https://www.ethnologue.com/
 [core-data]: https://cldr.unicode.org/index/cldr-spec/core-data-for-new-locales
 [coverage]: https://cldr.unicode.org/index/cldr-spec/coverage-levels
-[scriptsource-example]: https://scriptsource.org/cms/scripts/page.php?item_id=wrSys_detail_sym&uid=rfsnw2cbyd)
+[scriptsource-example]: https://scriptsource.org/cms/scripts/page.php?item_id=wrSys_detail_sym&uid=rfsnw2cbyd
 [langtags-md]: https://github.com/silnrsi/langtags/blob/master/doc/langtags.md
-[sldr-github-issues]:[https://github.com/silnrsi/sldr/issues]
+[sldr-github-issues]: https://github.com/silnrsi/sldr/issues
 [comsite]: https://community.software.sil.org/c/writing-systems/47
+[unicode-cldr-project]: https://cldr.unicode.org/
