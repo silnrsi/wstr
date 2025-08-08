@@ -64,7 +64,7 @@ SLDR information is primarily accessed and utilized by applications via the [LDM
 Here are some examples of how the LDML API is used:
 - https://ldml.api.sil.org/lld will return the lld.xml file from the Release version of the SLDR
 - https://ldml.api.sil.org/lld?staging=1 will return the lld.xml file from the yet-unreleased staging version of the SLDR. 
-  - This is used to test upcoming versions of SLDR prior to a new release. Typically, devs are given notice at least 2 weeks prior to release via the SIL LangTech Slack channel. 
+  - This is used to test upcoming versions of SLDR prior to a new release. Typically, developers are given notice at least 2 weeks prior to release via the SIL LangTech Slack channel. 
 - https://ldml.api.sil.org/langtags.json  returns the entirety of langtag.json from the release branch, while https://ldml.api.sil.org/langtags.json?staging=1 returns the staging version.
 
 Since `langtags.json` is an important element of the LDML API, it is good practice for new versions of the SLDR and Langtags repositories to release simultaneously in order to avoid conflicts between them in output of the LDML API. 
