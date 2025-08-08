@@ -29,6 +29,9 @@ Table with no-break space headers
 | Header | Title |
 | Paragraph | Text |
 
+[external link](https://example.com)
+[local link](/topics/fonts/)
+
 
 <hr>
 

@@ -58,7 +58,7 @@ These three issues need consideration in the planning, development and evaluatio
 
 ## Further resources
 
-[Full Stack Language Enablement](loomis2018) provides another view on what constitutes adequate support for a writing system.
+[Full Stack Language Enablement][loomis2018] provides another view on what constitutes adequate support for a writing system.
 
 
 _Portions of this content first appeared in [Guidelines for Writing System Support][wsig], copyright © 2003 UNESCO and SIL International._
