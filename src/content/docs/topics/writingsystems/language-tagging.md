@@ -3,7 +3,7 @@ title: Language Tagging
 description: Definition and use of language tags
 sidebar:
     order: 1410
-lastUpdated: 2025-08-05
+lastUpdated: 2025-08-08
 ---
 
 Language tags are standardised identifiers for language information. They are primarily used to identify a particular [Locale][locale-def], specifically language and script, but can also be used to infer the orthography of a text, locale information, any variant used to write that language, or even that the text is a transcription derived from a different locale.

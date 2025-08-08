@@ -3,7 +3,7 @@ title: LDML
 description: Description of LDML as used in the CLDR and SLDR
 sidebar:
     order: 1520
-lastUpdated: 2025-07-25
+lastUpdated: 2025-08-08
 ---
 
 Locale Data Markup Language (LDML) is an XML format used for locale data. The most prolific user of LDML is the CLDR, which is described on the [CLDR and SLDR][cldr-and-sldr] page. 

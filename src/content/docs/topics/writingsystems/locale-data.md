@@ -3,7 +3,7 @@ title: Locale Data
 description: Definition of locale data
 sidebar:
     order: 1500
-lastUpdated: 2025-07-11
+lastUpdated: 2025-08-08
 ---
 
 ## What is a Locale?

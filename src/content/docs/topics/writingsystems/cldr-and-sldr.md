@@ -3,7 +3,7 @@ title: CLDR and SLDR
 description: Main page on the CLDR and SLDR collections 
 sidebar:
     order: 1510
-lastUpdated: 2025-07-11
+lastUpdated: 2025-08-08
 ---
 
 ## What is the CLDR?
