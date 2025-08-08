@@ -8,7 +8,7 @@ lastUpdated: 2025-07-11
 
 ## What is a Locale?
 
-Locale, in the context of computing, is a collection of parameters that affect how information is expressed or presented within a particular group of users, generally distinguished from one another on the basis of language or location (usually country). 
+Locale, in the context of computing, is a collection of parameters that affect how information is expressed or presented to a particular group of users, generally distinguished from one another on the basis of language or location (usually country). 
 
 In layman's terms, a locale is a category that is more specific than a language, containing also the script used for writing, the region in which the language is being used, and sometimes, even more specific variants, such as dialect. 
 
@@ -20,15 +20,15 @@ Locales are identified with a key called a [Language Tag][langtag]. This is a th
 
 Locale Data refers to the data needed to present a user from a specific locale with information that would be familiar to them. This includes, but is not limited to:
 - Important vocabulary 
-  - Country, language, and script names, currency, days of the week and months of the year, units of measurement, time zones, etc
+  - Names of countries, languages, scripts, currencies, days of the week, months of the year, units of measurement, time zones, etc.
 - Date and time formatting 
-  - Are dates displayed as Day/Month/Year or Month/Day/Year? Do you use 24 hr time or 12 hr time?
+  - Are dates displayed as Day/Month/Year, Month/Day/Year, etc.? Do you use 24 hr time or 12 hr time?
 - Orthographic Data
   - What characters do you use to write? What order are they sorted in? Are they written right-to-left or left-to-right? When making an index, what characters/combinations of characters would you use for headers? What about punctuation; what type of quotation marks do you use? 
 - Numerical Data
   - What numerical system do you use? Do you mark your decimals with a point, comma, or something else entirely? How do you write currency information? How do you indicate a range? 
 
-While many companies such as Meta and Microsoft often have their own internal systems for defining locale data, this site will primarily focus on the CLDR and SLDR. These repositories contain files written in LDML (Locale Data Markup Language) that define locale data for a wide range of locales. 
+While many companies such as Meta and Microsoft often have their own internal systems for defining locale data, this site will primarily focus on the CLDR and SLDR. Having locale data in the CLDR especially is an essential first step for a language to be recognized in the digital world. These repositories contain files written in LDML (Locale Data Markup Language) that define locale data for a wide range of locales. 
 
 ## More on this site: 
 

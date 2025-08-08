@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-08-05
 ---
 
-Language tags are standardised identifiers for language information. They are primarily used to identify a particular [Locale][locale def], specifically language and script, but can also be used to infer the orthography of a text, locale information, any variant used to write that language, or even that the text is a transcription derived from a different locale.
+Language tags are standardised identifiers for language information. They are primarily used to identify a particular [Locale][locale-def], specifically language and script, but can also be used to infer the orthography of a text, locale information, any variant used to write that language, or even that the text is a transcription derived from a different locale.
 
 ## Interpreting Language Tags
 
@@ -16,7 +16,7 @@ There are typically two key equivalent tags, the shortest (minimal) tag and the 
 
 In the vast majority of cases, the two or three letter language code is sufficient (for example, `aak` for Ankave, a language of Papua New Guinea, rather than `aak-Latn-PG` indicating the Latin script and the country of PNG). Some languages, however, can be written with multiple scripts (for example, `ahk` for Akha, which can be written in Latin, Lao, Thai, or Myanmar scripts) and need multiple language tags (`ahk` for the primary Latin script usage, `ahk-Laoo` for the Lao script as used in Laos, `ahk-Thai` for the Thai script as used in Thailand, and `ahk-Mymr` for the Myanmar script as used in Myanmar).
 
-Notice how Akha written in Latin script has the minimal tag `ahk`, not `ahk-Latn`. When there are multiple scripts used in a language, the most common script is encompassed by the language code on its own. As languages evolve, this designated "primary script" can change, which in turn will change the meaning of the language tag (see the section on [Tag Stability Problems][stability problems] below).
+Notice how Akha written in Latin script has the minimal tag `ahk`, not `ahk-Latn`. When there are multiple scripts used in a language, the most common script is encompassed by the language code on its own. As languages evolve, this designated "primary script" can change, which in turn will change the meaning of the language tag (see the section on [Tag Stability Problems][stability-problems] below).
 
 The extensions mechanism for language tags also allow tags to be extended to specify such things as sort orders, transcription orthographies, etc. These are beyond the scope of langtags.json, but can have considerable impact. For example, `en-Latn-US-t-wsg` indicates that the text is in English but is derived from Gondi, such as via automated (or manual) translation. The text is still English (so `en` would be sufficient), but the tagger wanted to accentuate the derivative nature of the text from another language.
 
@@ -44,7 +44,7 @@ A language tag is particularly unstable while orthographies are in early develop
 
 ## Methods
 
-SIL maintains a comprehensive list of language tags in the [langtags repository][langtags]. This includes the primary `langtags.json` file and a variety of other tools and useful resources. Much of the information in `langtags.json` is drawn from industry standards, which are listed in the [Standards][langtag standards] section below.
+SIL maintains a comprehensive list of language tags in the [langtags repository][langtags]. This includes the primary `langtags.json` file and a variety of other tools and useful resources. Much of the information in `langtags.json` is drawn from industry standards, which are listed in the [Standards][langtag-standards] section below.
 
 In addition, `langtags.csv` is a manually maintained file that also feeds into `langtags.json`. We have close cooperation with the Ethnologue script editor. Any new information on writing systems for a particular language in the Ethnologue is passed on to be included in the `langtags.csv` file and vice-versa. This information is then used to build `langtags.json`. 
 
@@ -66,7 +66,7 @@ The technical specification for the structure of a language tag is [BCP47][bcp47
      - Zzzz is used for unencoded scripts. In those cases a subtag indicates the script name. For example, `dag-Zzzz-GH-x-adinkra` indicates the Dagbani language in Ghana is using an unencoded script called Adinkra.
 - ISO 3166-1 alpha-2 country codes are used. However, these are derived from the Ethnologue `LanguageIndex.tab` file which includes all the regions.
 - We are in the process of incorporating [ROLV (Registry of Language Varieties) codes][rolv]. At this point these are processed as private subtags.
-- During the build process of `langtags.json`, the SLDR files are also used for testing purposes. Any language tags that are used in the SLDR files should be added to `langtags.csv`. If the SLDR file is incorrect, it should be corrected. For more information on the SLDR, see the [CLDR and SLDR][sldr page] page on this site.
+- During the build process of `langtags.json`, the SLDR files are also used for testing purposes. Any language tags that are used in the SLDR files should be added to `langtags.csv`. If the SLDR file is incorrect, it should be corrected. For more information on the SLDR, see the [CLDR and SLDR][sldr-page] page on this site.
 
 ### Referencing Langtags
 
@@ -91,7 +91,7 @@ There is also a [python module given as a reference implementation][pypi], which
 [pypi]: https://github.com/silnrsi/langtags/blob/master/lib/langtag/__init__.py
 [rolv]: https://hisregistries.org/rolv/
 [sldrtool]: https://github.com/silnrsi/sldrtools
-[sldr page]: /topics/writingsystems/cldr-and-sldr
-[locale def]: /reference/glossary/#locale
-[langtag standards]: /topics/writingsystems/language-tagging/#standards
-[stability problems]: /topics/writingsystems/language-tagging/#tag-stability-problems
+[sldr-page]: /topics/writingsystems/cldr-and-sldr
+[locale-def]: /reference/glossary/#locale
+[langtag-standards]: /topics/writingsystems/language-tagging/#standards
+[stability-problems]: /topics/writingsystems/language-tagging/#tag-stability-problems
