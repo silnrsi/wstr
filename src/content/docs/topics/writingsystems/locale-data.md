@@ -14,7 +14,7 @@ In layman's terms, a locale is a category that is more specific than a language,
 
 For example, English in the United States using Latin Script is a different locale from English in Great Britain using Latin Script. Similarly, Hindi in India written in Devanagari script is a different locale from Hindi in India written in Latin script. 
 
-Locales are identified with a key called a [Language Tag][langtag]. This is a three-part key defined by [BCP 47][BCP 47], which consists of the language, script, and region. For example, English in the United States using Latin Script would have a full tag of en-Latn-US. For the purposes of this page, it is enough to be able to recognize a tag; for more information on Language Tags themselves, see the [Language Tagging][langtag] page on this site.
+Locales are identified with a key called a [Language Tag][langtag]. This is a three-part key defined by [BCP 47][bcp47], which consists of the language, script, and region. For example, English in the United States using Latin Script would have a full tag of en-Latn-US. For the purposes of this page, it is enough to be able to recognize a tag; for more information on Language Tags themselves, see the [Language Tagging][langtag] page on this site.
 
 ## What is Locale Data?
 
@@ -40,7 +40,7 @@ While many companies such as Meta and Microsoft often have their own internal sy
 - [UTR #35: "What is a Locale?"][unicodelocaledef]
 
 [langtag]: /topics/writingsystems/language-tagging
-[BCP 47]: https://www.rfc-editor.org/rfc/bcp/bcp47.txt
+[bcp47]: https://www.rfc-editor.org/rfc/bcp/bcp47.txt
 [cldr-and-sldr]: /topics/writingsystems/cldr-and-sldr
 [ldml]: /topics/writingsystems/ldml
 [unicodelocaledef]: https://unicode.org/reports/tr35/#Locale
