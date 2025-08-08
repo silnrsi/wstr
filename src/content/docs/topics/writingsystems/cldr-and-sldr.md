@@ -3,12 +3,12 @@ title: CLDR and SLDR
 description: Main page on the CLDR and SLDR collections 
 sidebar:
     order: 1510
-lastUpdated: 2025-07-11
+lastUpdated: 2025-08-08
 ---
 
 ## What is the CLDR?
 
-From https://cldr.unicode.org/:
+From the [Unicode CLDR Project][unicode-cldr-project] site:
  
 > The Unicode Common Locale Data Repository (CLDR) provides key building blocks for software to support the world’s languages, with the largest and most extensive standard repository of locale data available. This data is used by a [wide spectrum of companies](https://cldr.unicode.org/#who-uses-cldr) for their software internationalization and localization, adapting software to the conventions of different languages for such common software tasks. It includes:
 > 
@@ -64,7 +64,7 @@ SLDR information is primarily accessed and utilized by applications via the [LDM
 Here are some examples of how the LDML API is used:
 - https://ldml.api.sil.org/lld will return the lld.xml file from the Release version of the SLDR
 - https://ldml.api.sil.org/lld?staging=1 will return the lld.xml file from the yet-unreleased staging version of the SLDR. 
-  - This is used to test upcoming versions of SLDR prior to a new release. Typically, devs are given notice at least 2 weeks prior to release via the SIL LangTech Slack channel. 
+  - This is used to test upcoming versions of SLDR prior to a new release. Typically, developers are given notice at least 2 weeks prior to release via the SIL LangTech Slack channel. 
 - https://ldml.api.sil.org/langtags.json  returns the entirety of langtag.json from the release branch, while https://ldml.api.sil.org/langtags.json?staging=1 returns the staging version.
 
 Since `langtags.json` is an important element of the LDML API, it is good practice for new versions of the SLDR and Langtags repositories to release simultaneously in order to avoid conflicts between them in output of the LDML API. 
@@ -106,7 +106,8 @@ For more information on CLDR coverage levels and minimum data requirements, see 
 [ethnologue]: https://www.ethnologue.com/
 [core-data]: https://cldr.unicode.org/index/cldr-spec/core-data-for-new-locales
 [coverage]: https://cldr.unicode.org/index/cldr-spec/coverage-levels
-[scriptsource-example]: https://scriptsource.org/cms/scripts/page.php?item_id=wrSys_detail_sym&uid=rfsnw2cbyd)
+[scriptsource-example]: https://scriptsource.org/cms/scripts/page.php?item_id=wrSys_detail_sym&uid=rfsnw2cbyd
 [langtags-md]: https://github.com/silnrsi/langtags/blob/master/doc/langtags.md
-[sldr-github-issues]:[https://github.com/silnrsi/sldr/issues]
+[sldr-github-issues]: https://github.com/silnrsi/sldr/issues
 [comsite]: https://community.software.sil.org/c/writing-systems/47
+[unicode-cldr-project]: https://cldr.unicode.org/

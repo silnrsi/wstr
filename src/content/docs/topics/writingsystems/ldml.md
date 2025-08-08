@@ -3,7 +3,7 @@ title: LDML
 description: Description of LDML as used in the CLDR and SLDR
 sidebar:
     order: 1520
-lastUpdated: 2025-07-25
+lastUpdated: 2025-08-08
 ---
 
 Locale Data Markup Language (LDML) is an XML format used for locale data. The most prolific user of LDML is the CLDR, which is described on the [CLDR and SLDR][cldr-and-sldr] page. 
@@ -117,7 +117,7 @@ Locale Display Names are translations of words related to displaying information
 
 All of this information allows for someone looking for the correct locale to read and understand it. After all, if you only speak English and are looking for an English setting on a Chinese phone, the word "英语" wouldn't help you to find the English setting! 
 
-It's important that all information within the Locale Display Names element is in the language and script used by the locale in question. For example, the file `ku_Arab.xml` (Kurdish written in Arabic script) would contain the line `<language type="ku">کورمانجی</language>` (AKA the language 'ku' is called "کورمانجی"), rather than "kurdî" as it is spelled by those who use Latin script to write the language. If anything within this element uses a different script or language from the locale the file is named for, something is wrong. 
+It's important that all information within the Locale Display Names element is in the language and script used by the locale in question. For example, the file `ku_Arab.xml` (Kurdish written in Arabic script) would contain the line `<language type="ku">کورمانجی</language>` (that is, the language 'ku' is called "کورمانجی"), rather than "kurdî" as it is spelled by those who use Latin script to write the language. If anything within this element uses a different script or language from the locale the file is named for, something is wrong. 
 
 In the SLDR, the most important piece of information needed for the Locale Display names is the autonym (the name and spelling of the language used by the locale). For example, in the Spanish example above, that would be "Español". 
 
@@ -139,7 +139,7 @@ While there are other child elements contained within the "Characters" element, 
 
 ***Main***
 
-The "main exemplar" is the list of characters used consistently within the locale. For example, the main exemplar in an LDML file for English would contain the standard 26 letters of the English alphabet, a-z, while the one for Spanish would also contain all of the diacritic characters used in Spanish, such as "á", "ñ", etc. Correct alphabetical order technically does not matter, but is HEAVILY encouraged. All characters should be lowercase, with some exceptions for locales such as Turkish featuring a dotless-i. 
+The "main exemplar" is the list of characters used consistently within the locale. For example, the main exemplar in an LDML file for English would contain the standard 26 letters of the English alphabet, a-z, while the one for Spanish would also contain all of the diacritic characters used in Spanish, such as "á", "ñ", etc. Correct alphabetical order technically does not matter, but is HEAVILY encouraged. All characters should be lowercase, with some exceptions (for example, locales such as Turkish featuring a dotless-i  also need the uppercase dotted "İ" in the main exemplar).
 
 Ideally, every character-diacritic combination possible should be listed individually. For example, Spanish should contain "a á e é i í n ñ o ó u ú ü" instead of "a e i n o u \u0301 \u0303 \u0308". This rule is not always consistently reflected within the files of the SLDR and CLDR, but should be considered "good practice". 
 
@@ -173,7 +173,7 @@ The easiest way to find which characters would be featured in an index exemplar 
 
 ***Numbers***
 
-The "numbers exemplar" is fairly self-explanatory; it contains the characters used to write numbers (including percentages) and mathematical equations. This includes digits and basic mathematical symbols, but does NOT include units or currency symbols, which are located elsewhere in an LDML file. There may be some overlap with the "punctuation exemplar". 
+The "numbers exemplar" is fairly self-explanatory; it contains the characters used to write numbers (including percentages and positive/negative symbols). This does NOT include units or currency symbols, which are located elsewhere in an LDML file. There may be some overlap with the "punctuation exemplar". 
 
 ***Punctuation***
 
@@ -218,7 +218,7 @@ The timeZoneNames element, as the name implies, contains vocabulary used to desc
 
 Collation is the process of defining the sort order used for strings of characters within a given locale. For example, English collation sorts A, then B, then C, etc. The collations element defines these rules within an LDML file. 
 
-Note that, in the CLDR, collation is not stored in the main LDML file for a locale. Instead, it is in its own file in a "collations" directory. In the SLDR, however, these collations are added back into the main LDML file, as presented in the example at the top of this page. 
+Note that, in the CLDR, collation is not stored in the main LDML file for a locale. Instead, it is in its own file in a "collations" directory. In the SLDR, however, these collations are incorporated into the main LDML file, as presented in the example at the top of this page. 
 
 A "tailored" collation is a sort order that differs from the [Default Unicode Collation Element Table (DUCET)][ducet] inherited from `root.xml` (see the section on [Inheritance][inheritance] below). In order to tailor a collation, arrows are used to "insert" specific characters or multigraphs after other characters. For example:
 
@@ -403,12 +403,12 @@ At minimum, every locale has at least one parent in the form of `root.xml`. This
 
 Due to the existence of `root.xml`, many files have to chain through multiple parents to inherit all of their information. For example, the file for `en_GB.xml` (English spoken in Great Britain) must first fall back to `en.xml`, which in turn falls back to `root.xml`. The information at the top of the chain has priority, but if no data is given for a field by the end of the chain, it all goes back to root. 
 
-Note that, while in the SLDR, elements to be inherited from a parent locale are simply absent from the child locale, the CLDR indicates that an element should inherit data from its parent with three upward-pointing arrows in the element's field, such as:
+Note that, while in the SLDR, elements to be inherited from a parent locale are simply absent from the child locale, the CLDR repository indicates that an element should inherit data from its parent with three upward-pointing arrows in the element's field, such as:
 
 ``` 
 <exemplarCharacters>↑↑↑</excemplarCharacters>
 ```
-This is a visual reminder of the inheritance process for human ease-of-use, and is not required.
+This is a visual reminder of the inheritance process for human ease-of-use, and is not required. It does not appear in the SLDR, nor the final release of the CLDR. 
 
 ***Non-Default Parent Locales***
 
