@@ -98,7 +98,6 @@ Gukh | [Gurung Khema](/scrlang/script-gukh) | Indic | abugida | LTR| Current
 Hani | [Han (Hanzi, Kanji, Hanja)](/scrlang/script-hani) | East Asian | logo-syllabary | vertical (RTL) and horizontal (LTR)| Current 
 Hans | [Han (Simplified variant)](/scrlang/script-hans) | East Asian | logo-syllabary | vertical (RTL) and horizontal (LTR)| Current 
 Hant | [Han (Traditional variant)](/scrlang/script-hant) | East Asian | logo-syllabary | vertical (RTL) and horizontal (LTR)| Current 
-Hntl | [Han (Traditional variant) with Latin (alias for Hant  Latn)](/scrlang/script-hntl) | East Asian | logo-syllabary | [unspecified]| Current 
 Hanb | [Han with Bopomofo (alias for Han  Bopomofo)](/scrlang/script-hanb) | East Asian | logo-syllabary | [unspecified]| Current 
 Hang | [Hangul](/scrlang/script-hang) | East Asian | featural | vertical (RTL) and horizontal (LTR)| Current 
 Rohg | [Hanifi Rohingya](/scrlang/script-rohg) | Mainland Southeast Asian | alphabet | RTL| Current 
