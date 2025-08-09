@@ -21,7 +21,7 @@ Aran | [Arabic (Nastaliq variant)](/scrlang/script-aran) | Middle Eastern | abja
 Armn | [Armenian](/scrlang/script-armn) | European | alphabet | LTR| Current 
 Avst | [Avestan](/scrlang/script-avst) | Middle Eastern | alphabet | RTL| Historical 
 | | [Aztec Pictograms](/scrlang/script-qa26) | American | logo-syllabary | [unspecified]| Historical 
-| | [B��t��](/scrlang/script-qa00) | African | syllabary | LTR| Current 
+| | [Bété](/scrlang/script-qa00) | African | syllabary | LTR| Current 
 | | [Badaga](/scrlang/script-qabq) | Indic | abugida | LTR| Unclear 
 | | [Bagam (Eghap)](/scrlang/script-qabh) | African | logo-syllabary | LTR| Current 
 Bali | [Balinese](/scrlang/script-bali) | Insular Southeast Asian | abugida | LTR| Current 
@@ -80,7 +80,7 @@ Elym | [Elymaic](/scrlang/script-elym) | Middle Eastern | abjad | RTL| Historica
 | | [Ersu Shaba Picture Writing](/scrlang/script-qaag) | East Asian | logo-syllabary | other| Unclear 
 | | [Eshkol-Wachman movement notation system](/scrlang/script-qaah) | Signed Language | featural | vertical (LTR) and horizontal (LTR)| Current 
 | | [Eskaya](/scrlang/script-qabr) | Insular Southeast Asian | syllabary | LTR| Current 
-Ethi | [Ethiopic (Ge��ez)](/scrlang/script-ethi) | African | syllabary | LTR| Current 
+Ethi | [Ethiopic (Geʻez)](/scrlang/script-ethi) | African | syllabary | LTR| Current 
 | | [Fula-1 (Dita)](/scrlang/script-qa01) | African | alphabet | [unspecified]| Current 
 | | [Fula-2 (Ba)](/scrlang/script-qa02) | African | alphabet | LTR| Current 
 | | [Gangga Malayu](/scrlang/script-qa35) | Mainland Southeast Asian | abugida | [unspecified]| Historical 
@@ -101,7 +101,7 @@ Hant | [Han (Traditional variant)](/scrlang/script-hant) | East Asian | logo-syl
 Hanb | [Han with Bopomofo (alias for Han  Bopomofo)](/scrlang/script-hanb) | East Asian | logo-syllabary | [unspecified]| Current 
 Hang | [Hangul](/scrlang/script-hang) | East Asian | featural | vertical (RTL) and horizontal (LTR)| Current 
 Rohg | [Hanifi Rohingya](/scrlang/script-rohg) | Mainland Southeast Asian | alphabet | RTL| Current 
-Hano | [Hanunoo (Hanun��o)](/scrlang/script-hano) | Insular Southeast Asian | abugida | vertical (LTR)| Current 
+Hano | [Hanunoo (Hanunóo)](/scrlang/script-hano) | Insular Southeast Asian | abugida | vertical (LTR)| Current 
 Hatr | [Hatran](/scrlang/script-hatr) | Middle Eastern | abjad | RTL| Historical 
 Hebr | [Hebrew](/scrlang/script-hebr) | Middle Eastern | abjad | RTL bidirectional| Current 
 Hira | [Hiragana](/scrlang/script-hira) | East Asian | syllabary | vertical (RTL) and horizontal (LTR)| Current 
@@ -144,7 +144,7 @@ Latn | [Latin](/scrlang/script-latn) | European | alphabet | LTR| Current
 Latf | [Latin (Fraktur variant)](/scrlang/script-latf) | European | alphabet | LTR| Current 
 Latg | [Latin (Gaelic variant)](/scrlang/script-latg) | European | alphabet | LTR| Historical 
 Leke | [Leke](/scrlang/script-leke) | Mainland Southeast Asian | [unspecified] | LTR| Current 
-Lepc | [Lepcha (R��ng)](/scrlang/script-lepc) | Central Asian | abugida | LTR| Current 
+Lepc | [Lepcha (Róng)](/scrlang/script-lepc) | Central Asian | abugida | LTR| Current 
 Limb | [Limbu](/scrlang/script-limb) | Indic | abugida | LTR| Current 
 Lina | [Linear A](/scrlang/script-lina) | European | logo-syllabary | LTR| Historical 
 Linb | [Linear B](/scrlang/script-linb) | European | syllabary | boustrophedon| Historical 
@@ -162,7 +162,7 @@ Marc | [Marchen](/scrlang/script-marc) | Indic | abugida | LTR| Historical
 Gonm | [Masaram Gondi](/scrlang/script-gonm) | Indic | abugida | LTR| Current 
 Zmth | [Mathematical notation](/scrlang/script-zmth) | Artificial | [unspecified] | LTR| Current 
 Maya | [Mayan hieroglyphs](/scrlang/script-maya) | American | logo-syllabary | vertical (LTR)| Historical 
-Medf | [Medefaidrin (Oberi Okaime, Oberi ��kaim��)](/scrlang/script-medf) | African | alphabet | LTR| Current 
+Medf | [Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)](/scrlang/script-medf) | African | alphabet | LTR| Current 
 Mtei | [Meitei Mayek](/scrlang/script-mtei) | Indic | abugida | LTR| Current 
 Mend | [Mende Kikakui](/scrlang/script-mend) | African | syllabary | RTL| Current 
 Merc | [Meroitic Cursive](/scrlang/script-merc) | Middle Eastern | alphabet | RTL| Historical 
@@ -176,8 +176,8 @@ Mroo | [Mro](/scrlang/script-mroo) | Indic | alphabet | LTR| Current
 Mult | [Multani](/scrlang/script-mult) | Indic | abjad | [unspecified]| Historical 
 | | [Mwangwego](/scrlang/script-qa54) | African | abugida | LTR| Current 
 Mymr | [Myanmar (Burmese)](/scrlang/script-mymr) | Mainland Southeast Asian | abugida | LTR| Current 
-Nkoo | [N���Ko](/scrlang/script-nkoo) | African | alphabet | RTL| Current 
-Nshu | [N��shu](/scrlang/script-nshu) | East Asian | logo-syllabary | vertical (LTR)| Current 
+Nkoo | [N’Ko](/scrlang/script-nkoo) | African | alphabet | RTL| Current 
+Nshu | [Nüshu](/scrlang/script-nshu) | East Asian | logo-syllabary | vertical (LTR)| Current 
 Nbat | [Nabataean](/scrlang/script-nbat) | Middle Eastern | abjad | RTL| Historical 
 Nagm | [Nag Mundari](/scrlang/script-nagm) | Indic | alphabet | LTR| Current 
 Nand | [Nandinagari](/scrlang/script-nand) | Indic | abugida | LTR| Historical 
@@ -227,7 +227,7 @@ Saur | [Saurashtra](/scrlang/script-saur) | Indic | abugida | LTR| Current
 Shrd | [Sharada](/scrlang/script-shrd) | Indic | abugida | LTR| Current 
 Shaw | [Shavian (Shaw)](/scrlang/script-shaw) | Artificial | alphabet | LTR| Historical 
 Shui | [Shuishu](/scrlang/script-shui) | East Asian | logo-syllabary | vertical (RTL) and horizontal (LTR)| Current 
-Sidd | [Siddham (Siddham��t���k��)](/scrlang/script-sidd) | Indic | abugida | LTR| Historical 
+Sidd | [Siddham (Siddhamātṛkā)](/scrlang/script-sidd) | Indic | abugida | LTR| Historical 
 Sidt | [Sidetic](/scrlang/script-sidt) | [unspecified] | alphabet | RTL| Historical 
 | | [SignFont Notation](/scrlang/script-qaao) | Signed Language | featural | LTR| Current 
 Sgnw | [SignWriting](/scrlang/script-sgnw) | Signed Language | featural | vertical (LTR) and horizontal (LTR)| Current 
