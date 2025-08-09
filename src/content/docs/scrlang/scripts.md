@@ -216,7 +216,7 @@ Phlp | [Psalter Pahlavi](/scrlang/script-phlp) | Middle Eastern | abjad | RTL| H
 | | [Pyu (Tircul)](/scrlang/script-qa48) | Mainland Southeast Asian | [unspecified] | [unspecified]| Historical 
 | | [Raina Kama (Hausa)](/scrlang/script-qa15) | African | alphabet | LTR| Historical 
 Ranj | [Ranjana](/scrlang/script-ranj) | Indic | abugida | LTR| Current 
-Rjng |" [Rejang (Redjang, Kaganga)""](/scrlang/script-rjng) "| Insular Southeast Asian | abugida | LTR| Current 
+Rjng | [Rejang (Redjang, Kaganga)](/scrlang/script-rjng) | Insular Southeast Asian | abugida | LTR| Current 
 Roro | [Rongorongo](/scrlang/script-roro) | Pacific | logo-syllabary | boustrophedon| Historical 
 Runr | [Runic](/scrlang/script-runr) | European | alphabet | LTR| Historical 
 | | [Salifou Hausa](/scrlang/script-qa16) | African | alphabet | [unspecified]| Current 
