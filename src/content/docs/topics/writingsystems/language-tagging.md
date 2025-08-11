@@ -97,4 +97,4 @@ Finally, the Unicode CLDR project has documentation on [Picking the Right Langua
 [locale-def]: /reference/glossary/#locale
 [langtag-standards]: /topics/writingsystems/language-tagging/#standards
 [stability-problems]: /topics/writingsystems/language-tagging/#tag-stability-problems
-[cldr-langtag-picking]:https://cldr.unicode.org/index/cldr-spec/picking-the-right-language-code
+[cldr-langtag-picking]: https://cldr.unicode.org/index/cldr-spec/picking-the-right-language-code
