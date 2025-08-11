@@ -2,11 +2,59 @@
 title: Welcome
 description: Home page
 hero:
-  tagline: Resources and references for implementing writing systems
   image:
     file: ../../assets/homebanner.png
+tableOfContents: false
 ---
 
-Introductory content and key links go here. We will want to use this to point users to ways of using the site and particular guides of interest. Would be good to use some built-in Starlight components like cards.
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Icon } from '@astrojs/starlight/components';
 
-This page will have some custom elements and differ from others. For example there are no previous/next cards.
+**This site is a collection of resources for supporting alphabets, scripts, and writing systems on digital devices and communication platforms.** It is more of a library than an encyclopedia, and is intended for a wide range of people—from beginners to experts. Over time this will become the long-term home for much of the information currently on other SIL Writing Systems Technology sites, including [ScriptSource][ss], [Font Development Best Practices][fdbp], [SIL Font Development Guide][silfontdev], and [scripts.sil.org][sso].
+
+[fdbp]: https://silnrsi.github.io/FDBP/en-US/index.html
+[silfontdev]: https://silnrsi.github.io/silfontdev/en-US/index.html
+[ss]: https://scriptsource.org/
+[sso]: https://scripts.sil.org/
+
+<CardGrid stagger>
+  <Card title="Guides" icon="open-book">
+    [Application Development Best Practice](/guides/app-development-best-practice) is a thorough guide for developers who want their software to be able to handle a wide range of global writing systems.
+
+    [Font Design and Development](/guides/font-development-best-practices) covers many of the tools and technical issues involved in creating fonts, particularly for complex writing systems.
+
+    _What other Guides do you want?_ _[Contact us!](/support/contact)_
+  </Card>
+  <Card title="Featured Articles" icon="star">
+    - [Finding & Using Fonts](/topics/fonts/finding-and-using-fonts)
+    - [What is a Writing System?](/topics/writingsystems/what-is-a-writing-system)
+    - [The Writing Systems Computing Model](/topics/computing/ws-computing-model)
+    - [Language Tagging](/topics/writingsystems/language-tagging)
+    - [Unicode Bidi Algorithm](/topics/encoding/unicode-bidi-algorithm)
+    - [CLDR & SLDR](/topics/encoding/cldr-sldr)
+    - [Line Metrics](/topics/fonts/line-metrics)
+    - [Font & Style Naming](/topics/fonts/font-and-style-naming)
+    - [Copyright & Licensing](/topics/fonts/copyright-and-licensing)
+    - [Unicode Concepts](/topics/encoding/unicode-concepts)
+  </Card>
+  <Card title="Finding Information" icon="magnifier">
+    <Icon name="left-arrow" color="var(--sl-color-accent)" size="2rem" /> Browse the sidebar to discover main articles—click on the Topic names to explore.
+
+    <Icon name="up-arrow" color="var(--sl-color-accent)" size="2rem" /> Use the Search bar at the top of the page.
+
+    <Icon name="list-format" color="var(--sl-color-accent)" size="2rem" /> Look up words and technical terms in the comprehensive [Glossary](/reference/glossary).
+
+    _What information are you looking for?_ _[Contact us!](/support/contact)_
+
+  </Card>
+  <Card title="Scripts & Languages" icon="pencil">
+    Discover information on individual scripts and languages starting with the [Scripts Index](/scrlang/scripts).
+    
+    Individual script pages provide detail on script properties, languages that use the script, Unicode status, relevant articles, and links to the rich collection of information on [ScriptSource](https://scriptsource.org/)
+
+    See [Languages](/scrlang/languages) for links to keyboards and specific language information on the [Ethnologue](https://www.ethnologue.com/) and other websites.
+  </Card>
+  <Card title="Problem Solving" icon="information">
+    Consult the [Troubleshooting Archive](/support/troubleshooting) for tips on solving writing systems computing problems and links to helpful resources.
+  </Card>
+</CardGrid>
