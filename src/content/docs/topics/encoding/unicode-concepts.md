@@ -6,10 +6,6 @@ sidebar:
 lastUpdated: 2025-08-07
 ---
 
-Placeholder: This could be mainly links for now, or portions from the listed Understanding Unicode chapters. 
-
-Here are the main subtopics, some with info copied from WSBP.
-
 **Encoding** refers to the process of representing information in some form. In computer systems, we encode written language by representing the **graphemes** or other **text elements** of the writing system in terms of sequences of **characters**, units of textual information within some system for representing written texts. These characters are in turn represented within a computer in terms of the only means of representation the computer knows how to work with: binary numbers.
 
 A **character set encoding** (or **character encoding**) is such a system for doing this. Any character set encoding involves at least these two components: a set of characters and some system for representing these in terms of the processing units used within the computer. 
@@ -34,57 +30,40 @@ There is another special range of 2,048 codepoints that are reserved, creating a
 
 ## Blocks & Extensions
 
-As has been mentioned, the Basic Multilingual Plane (BMP) is intended for those characters that are most commonly used. This implies that the BMP is primarily for scripts that are currently in use, and that other planes are primarily for scripts that are not in current use. As Unicode has evolved, more and more modern scripts have been encoded in the Supplementary Multilingual Plane (SMP).
-
-When Unicode was first being developed, characters were first taken from existing industry standards. For the most part, those included characters used in writing modern languages, but also included a number of commonly used symbols. As these characters were assigned, they were added to the BMP. Assignments to the BMP were done in an organised manner, with some allowances for possible future additions.
-
-The overall organisation of the BMP is illustrated in [Chapter 2 of the Unicode Standard][bmp].
+Placeholder: 
+- [Script blocks and the organisation of the Unicode character set][script-blocks]
+- [Getting acquainted with Unicode characters and the code charts][characters-code-charts] 
 
 ## Transformation Formats
 
-(Understanding Unicode ch 4, plus the complex annex!)
-
-There are multiple ways that Unicode characters can be stored, or expressed as bytes. Given that a USV may be a number more than 255 (FF hexadecimal), we need a way of representing these bigger numbers in more than one byte. These are called *Unicode transformation formats*. There are advantages and disadvantages to each.
-
-- UTF-32: 32 bits for each character
-    - advantages: each character takes the same amount of space
-    - disadvantages: lots of zero bytes, so uses a lot of room
-- UTF-16: 16 bits for each character
-    - advantages: each character in the BMP takes the same amount of space
-    - disadvantages: characters above the BMP are represented by using two 16-bit "surrogate pairs"
-- UTF-8: a character can take 1, 2, 3 or 4 8-bit bytes
-    - advantages: most compact
-    - disadvantages: variable number of bytes per character
-
-There are well-defined (but non-trivial) algorithms defined for converting data among these formats. In all likelihood the programming language you are using has functions that will do this work.
-
 **All text should be read and interpreted according to the proper encoding and transformation format.**
 
-Resource: [Mapping codepoints to Unicode encoding forms](https://scriptsource.org/source/wynmmq6u9w)
+Placeholder:
+- [Unicode encoding forms and encoding schemes][encoding-forms]
+- [Mapping codepoints to Unicode encoding forms][mapping-code-points]
 
-Online comparison of formats: https://r12a.github.io/app-conversion/
+[Online comparison of formats][code-converter]
 
 ## Principles & Compromises
 
-(Understanding Unicode ch 5 & 6)
+Placeholder:
+- [Which encoding is the right choice?][right-choice]
+- [Byte order: Unicode encoding schemes][byte-order]
 
 ## Character Properties
 
-(Understanding Unicode ch 7)
+Software creates the impression of understanding the behaviours of writing systems by attributing **semantic character properties** to encoded characters. These properties represent parameters that determine how various text processes treat characters. For example, the SPACE character needs to be handled differently by a line-breaking process than, say, the U+002C  COMMA character. Thus, U+0020 SPACE and U+002C COMMA have different properties with respect to line-breaking.
 
-Now that we have all agreed how different characters are encoded, we can start to make assumptions about the text. Unicode does this by giving characters properties: Is a character a non-spacing mark? Lowercase? A digit (there are lots of sets of digits)? Right to left? These properties also have supporting algorithms for some key text processing activities, for example laying out text where some of it is in a right to left script like Arabic or Hebrew.
+One of the distinctive strengths of Unicode is that the Standard not only defines a set of characters, but also defines a number of semantic properties for those characters. Unicode is different from most other character set encoding standards in this regard. In particular, this is one of the key points of difference between Unicode and ISO/IEC 10646.
 
-Every character has properties associated with it. Some scripts (such as Latin, Cyrillic, and Greek) have upper and lowercase characters, and a character’s Unicode property indicates whether it is uppercase, lowercase, or neither. Many scripts (such as Arabic and Devanagari) make no uppercase/lowercase distinction.
+In addition to the semantic properties, Unicode also provides reference algorithms for certain complex processes for which the correct implementation may not be self evident. In this way, the Standard is not only defining semantics properties for characters, but is also guiding how semantics should be interpreted. This has an important benefit for users in that it leads to more consistent behaviour between software implementations. There is also a benefit for software developers who are suddenly faced with supporting a wide variety of languages and writing systems: they are provided with important information regarding how characters in unfamiliar scripts behave.
 
-Other properties include whether a character is a combining character (such as a diacritic), how the character should be handled in a bi-directional display (when there is a mixture of left-to-right and right-to-left text), whether it functions as white space, and more.
+**It is important that characters are used in a way that is consistent with their properties**
 
-Each character has a property indicating what script it belongs to (such as Latin, Arabic, Bengali, etc.) or whether it can be used for multiple scripts.
+Placeholder:
+- [Character semantics and behaviours][semantics]
 
-Some of these properties might be useful in your software, particularly script and case mappings. Low-level libraries called by your program may also make assumptions about characters based upon these properties. 
-
-**It is important that characters are used in a way that is consistent with their properties**: for example, you would not want to mix up U+0410 "А" (with a Cyrillic script property) and U+0041 "A" (with a Latin script property).
-
-Resource: [Unicode Character Properties spreadsheet](https://github.com/silnrsi/unicode-resources/tree/main/ucd-spreadsheet)
+Resource: [Unicode Character Properties spreadsheet][ucd-spreadsheet]
 
 ### Glyph Similarities
 
@@ -94,19 +73,18 @@ The existence of these "confusable" characters also offers the possibility of de
 
 **You will do your users a great service if your software can warn users when they use a character from a different script.**
 
-Resource: [Dotless letters and movable combining marks](https://scriptsource.org/entry/k3fmzy7abd), 
+Resources: 
+- [Dotless letters and movable combining marks][dotless-letters]
+- [Unicode Utilities: Confusables][confusables]
+- [Unicode's Where is my Character?][where]
 
-https://util.unicode.org/UnicodeJsps/confusables.jsp
-
-Ref: Unicode's Where is my Character? site: https://www.unicode.org/standard/where/
 
 ## Case Mappings
 
-(Understanding Unicode ch 7.4)
+Placeholder:
+- [Uppercase, lowercase, titlecase and case mappings][casing]
 
 ## (De)Composition & Normalization
-
-(Understanding Unicode ch 7.5 (& 6? & 10?))
 
 Unicode was originally designed to round trip to many of the smaller standards of the day. This means that some "composed characters" have two ways of being stored in Unicode, either as a single code that can be roundtripped to a smaller standard, or a sequence of a base and diacritic.
 
@@ -119,37 +97,60 @@ They are "canonically equivalent", that is, they both represent the same item an
 
 Unicode defines normalization forms, with specific rules on how to create them. The most common forms are:
 
-* Normalization Form Composed (NFC)
-* Normalization Form Decomposed (NFD)
+- Normalization Form Composed (NFC)
+- Normalization Form Decomposed (NFD)
 
 In NFD, each component has a separate code point. In NFC, components will be combined, provided a composite character exists in Unicode, according to specific algorithms. In the example above, the first sequence is NFC and the second is NFD. 
 
 In many cases, the NFC and NFD forms are identical. For example, U+0254 U+0301 is the "open o" character with an acute accent. Since there is no composite character for "open o with acute" in Unicode, this sequence is already as composed as possible.
 
-NFC often provides the most compact storage. NFD may provide advantages for working with the data, since each component is a separate character. **Applications should not assume any normalization on data input unless it controls the data source, and should generally output data in NFC.** See [To compose or decompose: that is the question](https://scripts.sil.org/cms/scripts/page.php?id=nfc_vs_nfd&site_id=nrsi).
+NFC often provides the most compact storage. NFD may provide advantages for working with the data, since each component is a separate character. **Applications should not assume any normalization on data input unless it controls the data source, and should generally output data in NFC.** See [To compose or decompose: that is the question][compose-decompose].
 
 Resources:
 
-[Precomposed Characters in Unicode](https://scriptsource.org/entry/r8cbwvep6z)
+- [Precomposed Characters in Unicode][precomposed]
+- Video (27min) [Why Determining the Length of a String is More Complicated Than You Think][string-length] (IUC 44, Oct 2020 presentation)
 
-Ref: 
-
-Video (27min) "Why Determining the Length of a String is More Complicated Than You Think" (IUC 44, Oct 2020 presentation) ([https://www.youtube.com/watch?v=wCExnGiMeF0](https://www.youtube.com/watch?v=wCExnGiMeF0))
-
-Ref:
-
-List of library resources for various programming languages.
+Placeholder:
+- [Character decomposition mappings][decomposition]
+- [Normalization][normalization]
 
 ## Rendering Behaviors
 
-(Understanding Unicode ch 8)
+Placeholder:
+- [Rendering behaviours][rendering]
+- [The Unicode Bidirectional Algorithm][unicode-bidi-algorithm]
 
 ## Canonical Ordering
 
-(Understanding Unicode ch 9)
+Placeholder:
+- [Combining marks and canonical ordering][canonical]
 
 ## Deprecation			
 
-[encoding-forms]: https://www.unicode.org/versions/latest/core-spec/chapter-2/#G13708
+Placeholder
 
-[bmp]: https://www.unicode.org/versions/latest/core-spec/chapter-2/#G286747
+_Portions of this content first appeared in [Guidelines for Writing System Support][wsig], copyright © 2003 UNESCO and SIL International._
+
+[encoding-forms]: https://www.unicode.org/versions/latest/core-spec/chapter-2/#G13708
+[script-blocks]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#e2cd27ff
+[characters-code-charts]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#29876e62
+[encoding-forms]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#96f19a02
+[mapping-code-points]: https://scripts.sil.org/cms/scripts/page.php?id=iws-appendixa&site_id=nrsi
+[code-converter]: https://r12a.github.io/app-conversion/
+[right-choice]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#60b9249a
+[byte-order]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#1557eaf6
+[semantics]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#4c028a78
+[ucd-spreadsheet]: https://github.com/silnrsi/unicode-resources/tree/main/ucd-spreadsheet
+[dotless-letters]: https://scriptsource.org/entry/k3fmzy7abd
+[confusables]: https://util.unicode.org/UnicodeJsps/confusables.jsp
+[where]: https://www.unicode.org/standard/where/
+[casing]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#72b37972
+[compose-decompose]: https://scripts.sil.org/cms/scripts/page.php?id=nfc_vs_nfd&site_id=nrsi
+[precomposed]: https://scriptsource.org/entry/r8cbwvep6z
+[string-length]: https://www.youtube.com/watch?v=wCExnGiMeF0
+[decomposition]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#a9054ead
+[normalization]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#170d0d63
+[rendering]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#8390955c
+[canonical]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#6c203953
+[wsig]: https://scripts.sil.org/wsi_guidelines.html
