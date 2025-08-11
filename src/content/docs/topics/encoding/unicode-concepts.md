@@ -10,9 +10,35 @@ Placeholder: This could be mainly links for now, or portions from the listed Und
 
 Here are the main subtopics, some with info copied from WSBP.
 
+**Encoding** refers to the process of representing information in some form. In computer systems, we encode written language by representing the **graphemes** or other **text elements** of the writing system in terms of sequences of **characters**, units of textual information within some system for representing written texts. These characters are in turn represented within a computer in terms of the only means of representation the computer knows how to work with: binary numbers.
+
+A **character set encoding** (or **character encoding**) is such a system for doing this. Any character set encoding involves at least these two components: a set of characters and some system for representing these in terms of the processing units used within the computer. 
+
+Unicode is a standard encoding which is being developed to have a universal character set that covers all of the scripts in the world.
+
+## Codepoints and the Unicode codespace
+
+The Unicode coded character set is coded in terms of integer values, which are referred to in Unicode as Unicode scalar values (USVs). By convention, Unicode codepoints are represented in hexadecimal notation with a minimum of four digits and preceded with “U+”; so, for example, “U+0345”, “U+10345” and “U+20345”. Also by convention, any leading zeroes above four digits are suppressed; thus we would write “U+0456” but not “U+03456”.
+
+Every character in Unicode can be uniquely identified by its codepoint, or also by its name. Unicode character names use only ASCII characters and by convention are written entirely in upper case. Characters are often referred to using both the codepoint and the name; e.g. U+0061 LATIN SMALL LETTER A. In discussions where the actual characters are unimportant or are assumed to be recognisable using only the codepoints, people will often save space and use only the codepoints. Also, in informal contexts where it is clear that Unicode codepoints are involved, people will often suppress the string “U+”. For clarity, this document will continue to use “U+”.
+
+The Unicode codespace ranges from U+0000 to U+10FFFF. Borrowing terminology from ISO/IEC 10646, the codespace is described in terms of 17 **planes** of 64K codepoints each. Thus, Plane 0 includes codepoints U+0000..U+FFFF, Plane 1 includes codepoints U+10000..U+1FFFF, etc.
+
+In the original design of Unicode, all characters were to have codepoints in the range U+0000..U+FFFF. In keeping with this, Plane 0 was set apart as the portion of the codespace in which all of the most commonly used characters were encoded, and is designated the Basic Multilingual Plane (BMP). The remainder of the codespace, Planes 1 to 1610, are referred to collectively as the Supplementary Planes. As space ran out in the BMP, not only ancient scripts, but modern characters and scripts have been encoded in the Supplementary Multilingual Plane (SMP).
+
+There are gaps in the Unicode codespace: codepoints that are permanently unassigned and reserved as non-characters. These include the last two codepoints in each plane, U+*n*FFFE and U+*n*FFFF (where *n* ranges from 0 to 10<sub>16</sub>). These have always been reserved, and characters will never be assigned at these codepoints. One implication of this is that these codepoints are available to software developers to use for proprietary purposes in internal processing. Note, however, that care must be taken not to transmit these codepoints externally.
+
+Unassigned codepoints can be reserved in a similar manner at any time if there is a reason for doing so. This has been done specifically in order to make additional codes available to programmers to use for internal processing purposes. Again, these should never appear in data.
+
+There is another special range of 2,048 codepoints that are reserved, creating an effective gap in the codespace. These occupy the range U+D800..U+DFFF and are reserved due to the mechanism used in the UTF-16 encoding form (see [Chapter 2 of the Unicode Standard][encoding-forms]). In UTF-16, codepoints in the BMP are represented as code units having the same integer value. The code units in the range 0xD800–0xDFFF, serve a special purpose, however. These code units, known as surrogate code units (or simply surrogates), are used in representing codepoints from Planes 1 to 16. As a result, it is not possible to represent the corresponding codepoints in UTF-16. Hence, these codepoints are reserved.
+
 ## Blocks & Extensions
 
-(Understanding Unicode ch 3)
+As has been mentioned, the Basic Multilingual Plane (BMP) is intended for those characters that are most commonly used. This implies that the BMP is primarily for scripts that are currently in use, and that other planes are primarily for scripts that are not in current use. As Unicode has evolved, more and more modern scripts have been encoded in the Supplementary Multilingual Plane (SMP).
+
+When Unicode was first being developed, characters were first taken from existing industry standards. For the most part, those included characters used in writing modern languages, but also included a number of commonly used symbols. As these characters were assigned, they were added to the BMP. Assignments to the BMP were done in an organised manner, with some allowances for possible future additions.
+
+The overall organisation of the BMP is illustrated in [Chapter 2 of the Unicode Standard][bmp].
 
 ## Transformation Formats
 
@@ -124,3 +150,6 @@ List of library resources for various programming languages.
 
 ## Deprecation			
 
+[encoding-forms]: https://www.unicode.org/versions/latest/core-spec/chapter-2/#G13708
+
+[bmp]: https://www.unicode.org/versions/latest/core-spec/chapter-2/#G286747

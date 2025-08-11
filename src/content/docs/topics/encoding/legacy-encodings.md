@@ -24,7 +24,7 @@ Various problems were encountered when custom encodings were used. Most of these
 - Letters form words, limiting where lines break.
 - Punctuation has different line-breaking properties than letters.
 
-If &#x00C0; and &#x00C1; were not needed, sometimes &#x014b; and &#x014a; were placed in those positions. The computer's sorting algorythm and capitalization routines would not produce the correct behavior.
+If &#x00C0; and &#x00C1; were not needed, sometimes &#x014b; and &#x014a; were placed in those positions. The computer's sorting algorithm and capitalization routines would not produce the correct behavior.
 
 If &#x00BD; was reused for a character such as &#x014b;, software would sometimes convert it to `1/2` rather than to the character it had been redefined as. Similarly &#x00A9; was sometimes converted to `(c)`, and &#x00AE; was sometimes converted to `(r)`.
 

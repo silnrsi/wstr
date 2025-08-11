@@ -3,12 +3,12 @@ title: CLDR and SLDR
 description: Main page on the CLDR and SLDR collections 
 sidebar:
     order: 1510
-lastUpdated: 2025-07-11
+lastUpdated: 2025-08-08
 ---
 
 ## What is the CLDR?
 
-From https://cldr.unicode.org/:
+From the [Unicode CLDR Project][unicode-cldr-project] site:
  
 > The Unicode Common Locale Data Repository (CLDR) provides key building blocks for software to support the world’s languages, with the largest and most extensive standard repository of locale data available. This data is used by a [wide spectrum of companies](https://cldr.unicode.org/#who-uses-cldr) for their software internationalization and localization, adapting software to the conventions of different languages for such common software tasks. It includes:
 > 
@@ -20,15 +20,19 @@ From https://cldr.unicode.org/:
 > 
 > CLDR uses the XML format provided by [UTS #35: Unicode Locale Data Markup Language (LDML)][uts35]. LDML is a format used not only for CLDR, but also for general interchange of locale data, such as in Microsoft’s .NET.
 
+Having locale information in the CLDR is an essential first step for a language to be recognized in the digital world. 
+
 ## What is the SLDR?
 
-The SLDR is the [SIL Locale Data Repository][sldrrepo], a repo that builds upon the structure and data of the CLDR with locale data that might not yet meet the minimum requirements for CLDR inclusion. 
+The SLDR is the [SIL Locale Data Repository][sldrrepo], a repository that builds upon the structure and data of the CLDR with locale data that might not yet meet the minimum requirements for CLDR inclusion. 
 
 Like the CLDR, all data within the SLDR uses the LDML (Locale Data Markup Language). For more information, see the [LDML][ldml] page on this site. 
 
 The purpose of the SLDR is to gather information for publication on [ScriptSource][scriptsource], to gather information for submission to the CLDR, and to serve the data to applications that need access to locales absent from the CLDR.
 
-The SLDR imports all files from CLDR into its repository on a regular basis, and makes no changes to the content already within said files. The goal of the SLDR is to build upon data already within the CLDR, not to override it. **All data within the CLDR is also located within the SLDR.** 
+The SLDR imports all LDML files from CLDR into its repository on a regular basis, and makes no changes to the content already within said files. The goal of the SLDR is to build upon data already within the CLDR, not to override it. **All LDML files within the CLDR are also located within the SLDR.** 
+
+The SLDR also rearranges some files found within the CLDR such that all of the data for each locale is located within a single file. For example, the CLDR keeps collations in a file separate from the principal LDML file for a locale, while the SLDR moves that collation data directly into the principal file.  
 
 Information most commonly found within SLDR-only files includes:
 - Autonyms
@@ -37,17 +41,17 @@ Information most commonly found within SLDR-only files includes:
 - Collation
 - Font and Keyboard Data
 
-Font and keyboard data is a datapoint unique to the SLDR which provides recommendations of fonts and keyboards that best serve that locale. Since this information is not natively included in the CLDR, the SLDR appends this data to imported CLDR files as well. 
+The SLDR uses SIL-specific extensions to the LDML standard. Font and keyboard data is one such extention which provides recommendations of fonts and keyboards that best serve that locale. Since this information is not natively included in the CLDR, the SLDR appends this data to imported CLDR files as well. 
 
 Other data beyond the scope of the list above may also be included in an SLDR file if the information has been made available, but unless an effort is being made to bring a specific locale up to CLDR standards for submission, those other elements are not typically a priority.
 
-SLDR data is sourced from manually curated research, data generated (with permission) from the contents of the [Digital Bible Library][dbl], and external submissions via [ScriptSource Contributions][scrsourcontr] and [GitHub Issues][sldrissues]. While the SLDR strives to be as accurate as possible, the data within is not perfect and should not be treated as an unquestionable source of information. Corrections from external sources are extremely welcome.  
+SLDR data is sourced from manually curated research, data generated (with permission) from the contents of the [Digital Bible Library][dbl], and external submissions via [ScriptSource Contributions][scrsourcontr] and [GitHub Issues][sldrissues]. While the SLDR strives to be as accurate as possible, the data within is not perfect and should not be treated as an unquestionable source of information. Corrections from external sources are extremely welcome, and can be submitted via [GitHub Issues][sldr-github-issues] or the [Writing Systems Technology community site][comsite]. 
 
 ## How is the SLDR Used?
 
 ### langtags.json
 
-The `langtags.json` file is generated by the [LangTags repository][langtag] and is used to parse tag equivalence. This is explained in-depth in the [langtags documentation](https://github.com/silnrsi/langtags/blob/master/doc/langtags.md) in the langtags repo. 
+The `langtags.json` file is generated by the [LangTags repository][langtag] and is used to parse tag equivalence. This is explained in-depth in the [langtags documentation][langtags-md] in the langtags repo. 
 
 In addition to using the data from its parent repository, `langtags.json` also pulls autonym data from the SLDR. Specifically, the autonym data from the SLDR is listed under the field "localname" in `langtags.json`. This should not be confused with the field "localnames", which is an array featuring all of the names sourced from the [Ethnologue][ethnologue]. 
 
@@ -60,7 +64,7 @@ SLDR information is primarily accessed and utilized by applications via the [LDM
 Here are some examples of how the LDML API is used:
 - https://ldml.api.sil.org/lld will return the lld.xml file from the Release version of the SLDR
 - https://ldml.api.sil.org/lld?staging=1 will return the lld.xml file from the yet-unreleased staging version of the SLDR. 
-  - This is used to test upcoming versions of SLDR prior to a new release. Typically, devs are given notice at least 2 weeks prior to release via the SIL LangTech Slack channel. 
+  - This is used to test upcoming versions of SLDR prior to a new release. Typically, developers are given notice at least 2 weeks prior to release via the SIL LangTech Slack channel. 
 - https://ldml.api.sil.org/langtags.json  returns the entirety of langtag.json from the release branch, while https://ldml.api.sil.org/langtags.json?staging=1 returns the staging version.
 
 Since `langtags.json` is an important element of the LDML API, it is good practice for new versions of the SLDR and Langtags repositories to release simultaneously in order to avoid conflicts between them in output of the LDML API. 
@@ -75,17 +79,17 @@ The [Language Font Finder API (LFF)][lff] is an API that returns recommended fon
 
 The [ScriptSource site][scriptsource] uses the exemplar data of locales contained within the SLDR to populate the "Symbols & Characters" sections of the pages relating to said locales. 
 
-For example, the ["Symbols & Characters" tab of the "Enga written with Latin script" page](https://scriptsource.org/cms/scripts/page.php?item_id=wrSys_detail_sym&uid=rfsnw2cbyd) contains two lists of characters- main and auxiliary- that are pulled directly from the "main" and "auxiliary" exemplars of the `enq.xml` file in the SLDR. 
+For example, the ["Symbols & Characters" tab of the "Enga written with Latin script" page][scriptsource-example] contains two lists of characters- main and auxiliary- that are pulled directly from the "main" and "auxiliary" exemplars of the `enq.xml` file in the SLDR. 
 
 This is one of the most human-friendly ways that SLDR data can be accessed by the general public, as opposed to the data-driven formats of the SLDR itself and the aforementioned APIs. This is also why ScriptSource contributions are one of the most common methods used by individuals to submit corrections to the SLDR. 
 
 ### CLDR Submissions
 
-If enough data is gathered in an SLDR file that it can fulfill the minimum requirements for CLDR inclusion, the locale will be submitted to the CLDR. 
+If enough data is gathered in an SLDR file that it can fulfill the minimum requirements for CLDR inclusion, the locale would be eligible for submission to the CLDR. 
 
 For more information on CLDR coverage levels and minimum data requirements, see these pages on cldr.unicode.org's [CLDR Specifications][cldrspec] page:
-- [Core Data for New Locales](https://cldr.unicode.org/index/cldr-spec/core-data-for-new-locales): A summary of the minimum reqs for a locale to be submitted to the CLDR.
-- [Coverage Levels](https://cldr.unicode.org/index/cldr-spec/coverage-levels): A summary of all of the coverage tiers within the CLDR, beyond the bare minimum. 
+- [Core Data for New Locales][core-data]: A summary of the minimum reqs for a locale to be submitted to the CLDR.
+- [Coverage Levels][coverage]: A summary of all of the coverage tiers within the CLDR, beyond the bare minimum. 
 
 
 [uts35]: https://www.unicode.org/reports/tr35/
@@ -100,3 +104,10 @@ For more information on CLDR coverage levels and minimum data requirements, see 
 [lff]: https://github.com/silnrsi/langfontfinder/tree/main
 [cldrspec]: https://cldr.unicode.org/index/cldr-spec
 [ethnologue]: https://www.ethnologue.com/
+[core-data]: https://cldr.unicode.org/index/cldr-spec/core-data-for-new-locales
+[coverage]: https://cldr.unicode.org/index/cldr-spec/coverage-levels
+[scriptsource-example]: https://scriptsource.org/cms/scripts/page.php?item_id=wrSys_detail_sym&uid=rfsnw2cbyd
+[langtags-md]: https://github.com/silnrsi/langtags/blob/master/doc/langtags.md
+[sldr-github-issues]: https://github.com/silnrsi/sldr/issues
+[comsite]: https://community.software.sil.org/c/writing-systems/47
+[unicode-cldr-project]: https://cldr.unicode.org/
