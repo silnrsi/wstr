@@ -9,7 +9,6 @@ export const collections = {
       extend: z.object({
         subtitle: z.string().optional(),
         authors: z.string().optional(),
-
         scrpropcode: z.string().optional(),
         scrpropname: z.string().optional(),
         scrpropshortname: z.string().optional(),
@@ -19,7 +18,7 @@ export const collections = {
         scrpropdirection: z.string().optional(),
         scrpropbaseline: z.string().optional(),
         scrpropcase: z.string().optional(),
-        scrproprwspace: z.string().optional(),
+        scrpropwspace: z.string().optional(),
         scrpropbehavior: z.string().optional(),
         scrpropisocode: z.string().optional(),
         scrpropotcode: z.string().optional(),
