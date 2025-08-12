@@ -17,7 +17,7 @@ import { Icon } from '@astrojs/starlight/components';
 [ss]: https://scriptsource.org/
 [sso]: https://scripts.sil.org/
 
-<CardGrid stagger>
+<CardGrid>
   <Card title="Guides" icon="open-book">
     [Application Development Best Practice](/guides/app-development-best-practice) is a thorough guide for developers who want their software to be able to handle a wide range of global writing systems.
 
@@ -38,9 +38,9 @@ import { Icon } from '@astrojs/starlight/components';
     - [Unicode Concepts](/topics/encoding/unicode-concepts)
   </Card>
   <Card title="Finding Information" icon="magnifier">
-    <Icon name="left-arrow" color="var(--sl-color-accent)" size="2rem" /> Browse the sidebar to discover main articles—click on the Topic names to explore.
-
     <Icon name="up-arrow" color="var(--sl-color-accent)" size="2rem" /> Use the Search bar at the top of the page.
+
+    <Icon name="bars" color="var(--sl-color-accent)" size="2rem" /> Browse the sidebar or menu to discover main articles—click on the Topic names to explore.
 
     <Icon name="list-format" color="var(--sl-color-accent)" size="2rem" /> Look up words and technical terms in the comprehensive [Glossary](/reference/glossary).
 
