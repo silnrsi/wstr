@@ -8,7 +8,7 @@ lastUpdated: 2025-08-08
 
 Locale Data Markup Language (LDML) is an XML format used for locale data. The most prolific user of LDML is the CLDR, which is described on the [CLDR and SLDR][cldr-and-sldr] page. 
 
-The specifications for LDML structure are described in [Unicode Technical Standard #35][uts35], though that documentation is quite dense. For that reason, an abridged example of the LDML file  `es.xml` (Spanish) is depicted below for reference:
+The specifications for LDML structure are described in [Unicode Technical Standard #35][uni-utr35], though that documentation is quite dense. For that reason, an abridged example of the LDML file  `es.xml` (Spanish) is depicted below for reference:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -75,29 +75,29 @@ Note that I also added the traditional separated 'LL' back into this example for
 
 This page will assume you understand how to write and use XML files. If you are unfamiliar with this markup language, [W3Schools' XML Tutorial][w3s-xml] is an excellent place to start.
 
-The list of elements, their child elements, and attributes used in an LDML file is found in the `ldml.dtd`. The SLDR has its own `sil.dtd` with some additional SLDR-specific elements, which are listed under "special". Both of these files can be found in the [auxdata][dtds] folder of the SLDR. 
+The list of elements, their child elements, and attributes used in an LDML file is found in the `ldml.dtd`. The SLDR has its own `sil.dtd` with some additional SLDR-specific elements, which are listed under "special". Both of these files can be found in the [auxdata][sldr-dtds] folder of the SLDR. 
 
 This next section will not explain in detail all of the different elements of an LDML file. Rather, it will link to the specific sections of UTS #35 that explain each element for your own reference. 
 
-- [Identity][identity-element]
-- [Locale Display Names][ldn-element]
-- [Layout][layout-element]
-- [Characters][characters-element]
-- [Delimiters][delimiters-element]
-- [Measurement][measurement-element]
-- [Dates][dates-element]
-- [Numbers][numbers-element]
-- [Units][units-element]
-- [List Patterns][list-patterns-element]
-- [Collations][collations-element]
-- [Posix][posix-element]
-- [Character Labels][character-labels-element]
-- [Segmentations][segmentations-element]
-- [Rule-Based Number Formatting][rbnf-element]
-- [Typographic Names][typographic-names-element]
-- [Person Names][person-names-element]
-- [Annotations][annotations-element]
-- [Metadata][metadata-element]
+- [Identity][uni-utr35-identity-element]
+- [Locale Display Names][uni-utr35-ldn-element]
+- [Layout][uni-utr35-layout-element]
+- [Characters][uni-utr35-characters-element]
+- [Delimiters][uni-utr35-delimiters-element]
+- [Measurement][uni-utr35-measurement-element]
+- [Dates][uni-utr35-dates-element]
+- [Numbers][uni-utr35-numbers-element]
+- [Units][uni-utr35-units-element]
+- [List Patterns][uni-utr35-list-patterns-element]
+- [Collations][uni-utr35-collations-element]
+- [Posix][uni-utr35-posix-element]
+- [Character Labels][uni-utr35-character-labels-element]
+- [Segmentations][uni-utr35-segmentations-element]
+- [Rule-Based Number Formatting][uni-utr35-rbnf-element]
+- [Typographic Names][uni-utr35-typographic-names-element]
+- [Person Names][uni-utr35-person-names-element]
+- [Annotations][uni-utr35-annotations-element]
+- [Metadata][uni-utr35-metadata-element]
 - References: Deprecated, but still referenced in the DTDs
 - Special
 
@@ -193,11 +193,11 @@ It's important to note that "gregorian" and "generic" usually contain the same d
 
 Vocabulary in a calendar element is fairly straightforward. Months and quarters are identified with number values (i.e. 1 = January, 2 = February, etc.). However, since there is no universally accepted "start" of the week, days of the week are identified with short strings reflecting their English names (i.e. sun = Sunday, mon = Monday, etc.). Different formats of these terms will also be included, such as abbreviated versions (Sun, Mon, Tue, Wed, Thu, Fri, Sat), narrow single-letter versions (S, M, T, W, T, F, S), short versions that are even shorter than the abbreviated ones (Su, Mo, Tu, We, Th, Fr, Sa), and the wide versions that spell the whole word (Sunday, Monday, etc). 
 
-For more information on how vocabulary is entered into a calendar element, see the [section on Calendar elements in UTS #35][calendar-elements].
+For more information on how vocabulary is entered into a calendar element, see the [section on Calendar elements in UTS #35][uni-utr35-calendar-elements].
 
 The most complicated part of a calendar element are the "formats". These describe the conventions of writing out a date or time in different contexts. For example, is January 30th, 2025 written with the month first as 01/30/2025 or with the day first as 30/01/2025? Is the time two hours before midnight written as 10:00pm or 22:00? 
 
-The way these date and time patterns are notated in an LDML file is described in the [Date Format Patterns section of UTS#35][date-format-pattern]. That page contains a [substantial table][dates-table] describing what each piece of shorthand means. For a sneak peek at how month patterns might be notated:
+The way these date and time patterns are notated in an LDML file is described in the [Date Format Patterns section of UTS#35][uni-utr35-date-format-pattern]. That page contains a [substantial table][uni-utr35-dates-table] describing what each piece of shorthand means. For a sneak peek at how month patterns might be notated:
 - M means writing the month using the minimum number of digits, such as using '9' for September
 - MM means writing the month using two digits no matter what, such as using '09' for September
 - MMM means using the abbreviated form of the month's name, such as using 'Sep' for September
@@ -208,11 +208,11 @@ As you can see, this gets pretty complicated. Time adds an additional layer of c
 
 ***Calendar Fields***
 
-The fields element contains vocabulary describing parts of a calendar and other words or phrases related to describing dates and times, such as "yesterday", "week", "n hour(s) ago", "day after tomorrow", etc. For more information and examples, see the [section on Calendar Fields in UTS #35.][calendar-fields]
+The fields element contains vocabulary describing parts of a calendar and other words or phrases related to describing dates and times, such as "yesterday", "week", "n hour(s) ago", "day after tomorrow", etc. For more information and examples, see the [section on Calendar Fields in UTS #35.][uni-utr35-calendar-fields]
 
 ***Time Zone Names***
 
-The timeZoneNames element, as the name implies, contains vocabulary used to describe different time zones. This includes names that change based on daylight savings time ("Pacific Standard Time" for UTC-8 versus "Pacific Daylight Time" for UTC-7), the generic name ("Pacific Time"), abbreviations for all three terms ("PST", "PDT", "PT"), and an example city used as a reference point ("San Francisco"). For more information, see the [section on Time Zone Names in UTS #35][time-zone-names].
+The timeZoneNames element, as the name implies, contains vocabulary used to describe different time zones. This includes names that change based on daylight savings time ("Pacific Standard Time" for UTC-8 versus "Pacific Daylight Time" for UTC-7), the generic name ("Pacific Time"), abbreviations for all three terms ("PST", "PDT", "PT"), and an example city used as a reference point ("San Francisco"). For more information, see the [section on Time Zone Names in UTS #35][uni-utr35-time-zone-names].
 
 ### Collations
 
@@ -220,7 +220,7 @@ Collation is the process of defining the sort order used for strings of characte
 
 Note that, in the CLDR, collation is not stored in the main LDML file for a locale. Instead, it is in its own file in a "collations" directory. In the SLDR, however, these collations are incorporated into the main LDML file, as presented in the example at the top of this page. 
 
-A "tailored" collation is a sort order that differs from the [Default Unicode Collation Element Table (DUCET)][ducet] inherited from `root.xml` (see the section on [Inheritance][inheritance] below). In order to tailor a collation, arrows are used to "insert" specific characters or multigraphs after other characters. For example:
+A "tailored" collation is a sort order that differs from the [Default Unicode Collation Element Table (DUCET)][uni-utr10-ducet] inherited from `root.xml` (see the section on [Inheritance][inheritance] below). In order to tailor a collation, arrows are used to "insert" specific characters or multigraphs after other characters. For example:
 
 ```
     <collations>
@@ -235,7 +235,7 @@ A "tailored" collation is a sort order that differs from the [Default Unicode Co
 
 In the collation above, "ll" now comes after "L" and "ñ" now comes after "N". Note that, for the multigraph "ll", this means that any instances of "ll" will be sorted as if it were a distinct letter from "l"; i.e. the word "llamar" would be sorted after the word "luna". 
 
-There are three levels of collation tailoring, as described in [Unicode Technical Report #10][tailoring]. Each level is marked with the number of arrows between two sets of characters. Level 1 collation is what comes to mind when one thinks of sort order, and is marked with one arrow (`&A < b`). Level 3 is used for capitalization, with lowercase before uppercase, and is marked with three arrows (`&A < b <<< B`). Level 2 is used for characters that are often left unsorted as part of the character that they follow, usually used for diacritics. For example, `&A << ä` means that "ä" is not sorted separately from "a" most of the time, but if someone *wanted* to also sort these diacritic marks, they could use the secondary sort strength to do so. 
+There are three levels of collation tailoring, as described in [Unicode Technical Report #10][uni-utr10-tailoring]. Each level is marked with the number of arrows between two sets of characters. Level 1 collation is what comes to mind when one thinks of sort order, and is marked with one arrow (`&A < b`). Level 3 is used for capitalization, with lowercase before uppercase, and is marked with three arrows (`&A < b <<< B`). Level 2 is used for characters that are often left unsorted as part of the character that they follow, usually used for diacritics. For example, `&A << ä` means that "ä" is not sorted separately from "a" most of the time, but if someone *wanted* to also sort these diacritic marks, they could use the secondary sort strength to do so. 
 
 If a multigraph is in a tailored collation, it is good practice to include the full lowercase, titlecase, and full uppercase combinations in your level 3 tailoring. For example, the multigraph "NGB" would look like `&N < ngb <<< Ngb <<< NGB`. Other combinations of upper and lowercase are not necessary, as they are unlikely to appear in practical use. 
 
@@ -262,7 +262,7 @@ A line of tailored collation can be as long as needed, so long as the next "jump
 
 Note that multiple additions after N are listed in the same line, since they all follow in a sequence. There is no reason to make a new line stating `&ND < ndr` when "ND" is already listed at the end of the previous line. 
 
-For more information, see the [Unicode Sort Tailoring: Tutorial][MH-collation-tutorial] and [Resources][scriptsource-collation-resources] on ScriptSource.
+For more information, see the [Unicode Sort Tailoring: Tutorial][ss-MH-collation-tutorial] and [Resources][ss-collation-resources] on ScriptSource.
 
 ***Simple Collations***
 
@@ -325,9 +325,9 @@ The "types" attribute lists the context in which the font would be used. Current
 
 The "types" attribute consists of a series of roles describing the context in which the font would be used, and the level of priority that font should be given in that context when compared to other listed fonts. Priority is indicated by an integer, with the highest values carrying the highest priority. A font with type="default=10" is a higher priority than a font with type="default=3", at least for the "default" role. A font can have multiple roles with individual priority values, such as "default=3 ui=5". The numbers themselves carry no meaning except as a way to compare the fonts in a list. If there are two fonts, and one has a priority value of 3, it does not matter if a higher priority font has a priority of 4 or 200, so long as it is a higher number. If a role is listed, but has no priority value, that value is assumed to be 1. 
 
-The "features" attribute lists any font features that should be active by default when using this font in this locale. For details on what each code means, find the font on the [SIL Font Catalogue][fonts] and click the link for "font features" to see a full list of features supported by that font. Not every font will have features. 
+The "features" attribute lists any font features that should be active by default when using this font in this locale. For details on what each code means, find the font on the [SIL Font Catalogue][sil-fonts] and click the link for "font features" to see a full list of features supported by that font. Not every font will have features. 
 
-Finally, the "lang" attribute is used to set "language features" used primarily with Arabic fonts to reflect the differences in character shaping between different Arabic-script languages. For example, Scheherazade New supports Urdu, Kurdish, Kyrgyz, Sindhi, Rohingya, and Wolof, and these parameters are set using the "lang" attribute instead of listing several different codes under the "features" attribute. To see differences within the same font using different "lang" attributes, look at the examples on the [Font Features page for the Scheherazade New font][sch-features].
+Finally, the "lang" attribute is used to set "language features" used primarily with Arabic fonts to reflect the differences in character shaping between different Arabic-script languages. For example, Scheherazade New supports Urdu, Kurdish, Kyrgyz, Sindhi, Rohingya, and Wolof, and these parameters are set using the "lang" attribute instead of listing several different codes under the "features" attribute. To see differences within the same font using different "lang" attributes, look at the examples on the [Font Features page for the Scheherazade New font][sil-sch-features].
 
 In addition, each font entry contains an `sil:url` child element containing the URL for that font. Most of these links, including all SIL fonts, direct to the Language Font Finder (LFF) API. In some cases, however, the link directs to the source of the font, such as the Google Fonts GitHub repository for several Noto fonts. 
 
@@ -369,11 +369,11 @@ Draft attributes are attributes that can be added to any element in an LDML file
 - Generated (SLDR only)
 - Suspect (SLDR only)
 
-CLDR draft attributes, as defined in the section ["Attribute draft" on page 1 of UTS #35][attrib-draft], listed from least to greatest level of vetting, are "unconfirmed", "provisional", "contributed", and "approved". These are determined through the CLDR's Survey Tool, using the [CLDR Data Submission and Vetting Process][cldr-data-submission]. "Unconfirmed" means that there has been no official vetting done via the Survey Tool for this data. "Provisional" means that there has been some vetting, but not enough for official confirmation. In leu of other data, a locale may choose to use elements labeled as "provisional" until higher-level data is added. "Contributed" is often referred to as "minimally/partially approved" by the CLDR technical committee, while "Approved" means that the information has been completely vetted to the CLDR's standards. If a draft attribute is not indicated for an element, it is assumed to be "Approved".  This is not a perfect system, but it helps the CLDR to make changes while maintaining data stability. 
+CLDR draft attributes, as defined in the section ["Attribute draft" on page 1 of UTS #35][uni-utr35-attrib-draft], listed from least to greatest level of vetting, are "unconfirmed", "provisional", "contributed", and "approved". These are determined through the CLDR's Survey Tool, using the [CLDR Data Submission and Vetting Process][uni-cldr-data-submission]. "Unconfirmed" means that there has been no official vetting done via the Survey Tool for this data. "Provisional" means that there has been some vetting, but not enough for official confirmation. In leu of other data, a locale may choose to use elements labeled as "provisional" until higher-level data is added. "Contributed" is often referred to as "minimally/partially approved" by the CLDR technical committee, while "Approved" means that the information has been completely vetted to the CLDR's standards. If a draft attribute is not indicated for an element, it is assumed to be "Approved".  This is not a perfect system, but it helps the CLDR to make changes while maintaining data stability. 
 
 The SLDR adds four additional levels of vetting. From least to greatest level of confidence, these values are "suspect", "generated", "tentative", and "proposed". The difference between "tentative" and "proposed" is ambiguous, and as a result, these draft attributes are instead often left unused in favor of the CLDR's lowest level "unconfirmed". "Generated", as the name implies, refers to data generated using a primary text, usually a Bible translation project from the [Digital Bible Library (DBL)][dbl], and is automatically assigned to the appropriate elements during the data generation process. "Suspect" is also applied to data that has been generated, but from a process that is less refined and more likely to include errors. This lowest draft level is rarely used anymore, but is preserved for the files that contain old data with this attribute. 
 
-As described in the ["Valid Data" section on page 1 of UST #35][valid-data], elements can inherit the draft attributes of parent elements. However, it is considered best practice in the CLDR to specifically list the draft attribute in the leaf/lowest child node, rather than leaving it to inherit from a higher node. 
+As described in the ["Valid Data" section on page 1 of UST #35][uni-utr35-valid-data], elements can inherit the draft attributes of parent elements. However, it is considered best practice in the CLDR to specifically list the draft attribute in the leaf/lowest child node, rather than leaving it to inherit from a higher node. 
 
 In the SLDR, a similar concept is applied. All draft attributes must appear in the leaf/lowest child nodes, or else they will disappear during the file normalization process. However, a draft attribute for the entire file can be assigned in the `identity\special\sil:identity` element, described in the ["Identity"][identity] section earlier in this page. Below is an example of this element with a draft attribute:
 
@@ -418,13 +418,13 @@ There is no official term for these unique fallback chains, but for the purposes
 
 There are other reasons for non-default parent locales beyond script differences. Some files need to fall back to a specific region before the base file, such as the files for Spanish spoken in any Latin American country, which need to first fall back to `es_419.xml` (Spanish spoken in Latin America) before that file falls back to `es.xml` (Spanish spoken in Spain). Some files even fall back to a file using the same script and/or region for a different language: `hi_Latn.xml` (Hindi using Latin Script) falls back to `en_IN.xml` (English spoken in India) instead of `hi.xml` (Hindi spoken in India), while `ht.xml` (Haitain Creole) falls back to `fr_HT.xml` (French spoken in Haiti) instead of inheriting directly from `root.xml`.
 
-The CLDR stores the rules for non-default parent locales in their supplemental data file, which is described on [page 6 of UTS#35][parent-locales]. 
+The CLDR stores the rules for non-default parent locales in their supplemental data file, which is described on [page 6 of UTS#35][uni-utr35-parent-locales]. 
 
 ***Flattening***
 
 Regardless of the complexity of the inheritance chain, when referencing an LDML file, it's important to either "flatten" the file or ensure that the parent files are also included in that reference process. "Flattening" an LDML file refers to creating a substancially larger version of a file that explicitly contains any information that is inherited from its parents, rather than leaving those spots empty. 
 
-Full details on inheritance can be found on page 1 of UTS#35, under the heading [Locale Inheritance and Matching][locale-inheritance].
+Full details on inheritance can be found on page 1 of UTS#35, under the heading [Locale Inheritance and Matching][uni-utr35-locale-inheritance].
 
 ## Text Formatting Tips
 
@@ -432,7 +432,7 @@ For those who are primarily interacting with the SLDR and the data within, here 
 
 ### Formatting Text in an Exemplar
 
-For the most part, the contents of an LDML file follow the standard rules of an XML file. With the exception of collation (see the section on [Formatting Test in a Collation][collation-formatting] below), the contents within the square brackets (including the square brackets themselves) are [Unicode Sets][unicodesets], which in turn are based on Regular Expressions (regexes).
+For the most part, the contents of an LDML file follow the standard rules of an XML file. With the exception of collation (see the section on [Formatting Test in a Collation][collation-formatting] below), the contents within the square brackets (including the square brackets themselves) are [Unicode Sets][uni-utr35-unicodesets], which in turn are based on Regular Expressions (regexes).
 
 Information about regexes can be found online in a number of places, though not all of it will be relevant to Unicode Sets and LDML files. The most important things to know are how to escape certain characters and how to notate multigraphs and combining diacritics. 
 
@@ -454,13 +454,13 @@ This is most commonly used when the character will not display nicely when displ
 
 Multigraphs are an orthographic phenomenon in which two characters put together are treated as one single unit. In an LDML file, these are denoted by surrounding the grouped characters in curly brackets, such as the {LL} in the example at the top of this page. This is important because the spaces between individual characters are only in these lists for human convenience; they do not indicate anything on a codified scale, nor are they required for the LDML file to function properly. To a computer, [s t] and [st] mean the same thing, so if you want to specifically indicate that "st" is a multigraph, you need to enter it as [{st}].  
 
-Note that this is also required for any characters that use combining diacritics. This gets into the territory of Normalization, which is described in far greater detail in [Unicode Technical Standard #15][normalization]. Essentially, some characters with diacritics have their own unique codepoint that is separate from the two individual codepoints for the character and combining diacritic. For example, 'á' is codepoint U+00E1, while 'a' is U+0061 and the combining acute accent is U+0301. In this case, since 'á' has a single codepoint, no brackets are needed. However, in cases where there is no single codepoint for a specific character-diacritic combination, brackets are needed to ensure that the diacritic remains "attached" to its respective character. 
+Note that this is also required for any characters that use combining diacritics. This gets into the territory of Normalization, which is described in far greater detail in [Unicode Technical Standard #15][uni-utr15-normalization]. Essentially, some characters with diacritics have their own unique codepoint that is separate from the two individual codepoints for the character and combining diacritic. For example, 'á' is codepoint U+00E1, while 'a' is U+0061 and the combining acute accent is U+0301. In this case, since 'á' has a single codepoint, no brackets are needed. However, in cases where there is no single codepoint for a specific character-diacritic combination, brackets are needed to ensure that the diacritic remains "attached" to its respective character. 
 
 For example, there is no single codepoint for 'a̱'. It consists of 'a' (U+0061) and the combining macron below (U+0331). If left without brackets in an exemplar list, the regex would assume that 'a' and the macron were two separate letters of the alphabet. Written with brackets as '{a̱}', however, causes the regex to treat it as a single unit, just as it would act with 'á'. 
 
 A good rule of thumb if you aren't sure if a diacritic is part of the same codepoint or not: hit the backspace after typing/copying the character. If the diacritic disappears, but the base character remains, the combined character is made of multiple codepoints. If both the base character and diacritic disappear simultaneously, they are already a single unique codepoint. Feel free to try it out with 'á' and 'a̱' right now, if you'd like. Just know that this does not work 100% of the time, so when in doubt, use the curly brackets. 
 
-Additionally, make sure you understand [normalization][normalization] and use the most composed version of the character possible (i.e. if there is a codepoint such as U+00E1 that combines the character and diacritic, prioritize using the composed one instead of placing two codepoints inside of the curly brackets). 
+Additionally, make sure you understand [normalization][uni-utr15-normalization] and use the most composed version of the character possible (i.e. if there is a codepoint such as U+00E1 that combines the character and diacritic, prioritize using the composed one instead of placing two codepoints inside of the curly brackets). 
 
 ### Formatting Text in Collation
 
@@ -470,51 +470,51 @@ An escaped symbol in a collation is surrounded in single quotation marks/apostro
 
 Multigraphs do not need brackets to mark them as a single unit in a collation sequence, as every unit in a collation sequence is already separated by sets of arrows. Note in the example LDML file above, the various iterations of 'LL' do not have any additional markings surrounding them. 
 
-[annotations-element]: https://unicode.org/reports/tr35/tr35-general.html#Annotations
-[attrib-draft]: https://www.unicode.org/reports/tr35/#Attribute_draft
-[calendar-elements]: https://unicode.org/reports/tr35/tr35-dates.html#Calendar_Elements 
-[calendar-fields]: https://unicode.org/reports/tr35/tr35-dates.html#Calendar_Fields
-[character-labels-element]: https://unicode.org/reports/tr35/tr35-general.html#Character_Labels
-[characters-element]: https://unicode.org/reports/tr35/tr35-general.html#Character_Elements
 [cldr-and-sldr]: /topics/writingsystems/cldr-and-sldr
-[cldr-data-submission]: https://cldr.unicode.org/index/process
 [collation-formatting]: /topics/writingsystems/ldml/#formatting-text-in-collation
-[collations-element]: https://www.unicode.org/reports/tr35/tr35-collation.html
-[date-format-pattern]: https://unicode.org/reports/tr35/tr35-dates.html#Date_Format_Patterns
-[dates-element]: https://unicode.org/reports/tr35/tr35-dates.html#Overview_Dates_Element_Supplemental
-[dates-table]: https://unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table
 [dbl]: https://thedigitalbiblelibrary.org/ 
-[delimiters-element]: https://unicode.org/reports/tr35/tr35-general.html#Delimiter_Elements
 [draft-attributes]: /topics/writingsystems/ldml/#draft-attributes
-[dtds]: https://github.com/silnrsi/sldr/tree/master/auxdata
-[ducet]: https://www.unicode.org/reports/tr10/#Default_Unicode_Collation_Element_Table
 [escaping]: /topics/writingsystems/ldml/#formatting-text-in-an-exemplar
-[fonts]: https://software.sil.org/fonts/
-[identity-element]: https://unicode.org/reports/tr35/#Identity_Elements
 [identity]: /topics/writingsystems/ldml/#identity
 [inheritance]: /topics/writingsystems/ldml/#inheritance
-[layout-element]: https://unicode.org/reports/tr35/tr35-general.html#Layout_Elements
-[ldn-element]: https://unicode.org/reports/tr35/tr35-general.html#Display_Name_Elements
-[list-patterns-element]: https://unicode.org/reports/tr35/tr35-general.html#ListPatterns
-[locale-inheritance]: https://unicode-org.github.io/cldr/ldml/tr35.html#Locale_Inheritance
-[measurement-element]: https://unicode.org/reports/tr35/tr35-general.html#Measurement_System_Data
-[metadata-element]: https://unicode.org/reports/tr35/tr35-info.html#Metadata_Elements
-[MH-collation-tutorial]: https://scriptsource.org/entry/pnrnlhkrq9
-[normalization]: https://unicode.org/reports/tr15/
-[numbers-element]: https://unicode.org/reports/tr35/tr35-numbers.html
-[parent-locales]: https://unicode-org.github.io/cldr/ldml/tr35-info.html#Parent_Locales
-[person-names-element]: https://unicode.org/reports/tr35/tr35-personNames.html
-[posix-element]: https://unicode.org/reports/tr35/tr35-general.html#POSIX_Elements
-[rbnf-element]: https://unicode.org/reports/tr35/tr35-numbers.html#Rule-Based_Number_Formatting
-[sch-features]: https://software.sil.org/scheherazade/features/
-[scriptsource-collation-resources]: https://scriptsource.org/entry/lcepuup9ga
-[segmentations-element]: https://unicode.org/reports/tr35/tr35-general.html#Segmentations
-[tailoring]: https://www.unicode.org/reports/tr10/#Tailoring
-[time-zone-names]: https://unicode.org/reports/tr35/tr35-dates.html#Time_Zone_Names
-[typographic-names-element]: https://unicode.org/reports/tr35/tr35-general.html#Typographic_Names
-[unicodesets]: https://www.unicode.org/reports/tr35/#Unicode_Sets
-[units-element]: https://unicode.org/reports/tr35/tr35-general.html#Unit_Elements
-[uts35]: https://www.unicode.org/reports/tr35/ 
-[uts35gen]: https://unicode.org/reports/tr35/tr35-general.html
-[valid-data]: https://unicode.org/reports/tr35/tr35.html#Valid_Data
+[sil-fonts]: https://software.sil.org/fonts/
+[sil-sch-features]: https://software.sil.org/scheherazade/features/
+[sldr-dtds]: https://github.com/silnrsi/sldr/tree/master/auxdata
+[ss-collation-resources]: https://scriptsource.org/entry/lcepuup9ga
+[ss-MH-collation-tutorial]: https://scriptsource.org/entry/pnrnlhkrq9
+[uni-cldr-data-submission]: https://cldr.unicode.org/index/process
+[uni-utr10-ducet]: https://www.unicode.org/reports/tr10/#Default_Unicode_Collation_Element_Table
+[uni-utr10-tailoring]: https://www.unicode.org/reports/tr10/#Tailoring
+[uni-utr15-normalization]: https://unicode.org/reports/tr15/
+[uni-utr35-annotations-element]: https://unicode.org/reports/tr35/tr35-general.html#Annotations
+[uni-utr35-attrib-draft]: https://www.unicode.org/reports/tr35/#Attribute_draft
+[uni-utr35-calendar-elements]: https://unicode.org/reports/tr35/tr35-dates.html#Calendar_Elements 
+[uni-utr35-calendar-fields]: https://unicode.org/reports/tr35/tr35-dates.html#Calendar_Fields
+[uni-utr35-character-labels-element]: https://unicode.org/reports/tr35/tr35-general.html#Character_Labels
+[uni-utr35-characters-element]: https://unicode.org/reports/tr35/tr35-general.html#Character_Elements
+[uni-utr35-collations-element]: https://www.unicode.org/reports/tr35/tr35-collation.html
+[uni-utr35-date-format-pattern]: https://unicode.org/reports/tr35/tr35-dates.html#Date_Format_Patterns
+[uni-utr35-dates-element]: https://unicode.org/reports/tr35/tr35-dates.html#Overview_Dates_Element_Supplemental
+[uni-utr35-dates-table]: https://unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table
+[uni-utr35-delimiters-element]: https://unicode.org/reports/tr35/tr35-general.html#Delimiter_Elements
+[uni-utr35-gen]: https://unicode.org/reports/tr35/tr35-general.html
+[uni-utr35-identity-element]: https://unicode.org/reports/tr35/#Identity_Elements
+[uni-utr35-layout-element]: https://unicode.org/reports/tr35/tr35-general.html#Layout_Elements
+[uni-utr35-ldn-element]: https://unicode.org/reports/tr35/tr35-general.html#Display_Name_Elements
+[uni-utr35-list-patterns-element]: https://unicode.org/reports/tr35/tr35-general.html#ListPatterns
+[uni-utr35-locale-inheritance]: https://unicode-org.github.io/cldr/ldml/tr35.html#Locale_Inheritance
+[uni-utr35-measurement-element]: https://unicode.org/reports/tr35/tr35-general.html#Measurement_System_Data
+[uni-utr35-metadata-element]: https://unicode.org/reports/tr35/tr35-info.html#Metadata_Elements
+[uni-utr35-numbers-element]: https://unicode.org/reports/tr35/tr35-numbers.html
+[uni-utr35-parent-locales]: https://unicode-org.github.io/cldr/ldml/tr35-info.html#Parent_Locales
+[uni-utr35-person-names-element]: https://unicode.org/reports/tr35/tr35-personNames.html
+[uni-utr35-posix-element]: https://unicode.org/reports/tr35/tr35-general.html#POSIX_Elements
+[uni-utr35-rbnf-element]: https://unicode.org/reports/tr35/tr35-numbers.html#Rule-Based_Number_Formatting
+[uni-utr35-segmentations-element]: https://unicode.org/reports/tr35/tr35-general.html#Segmentations
+[uni-utr35-time-zone-names]: https://unicode.org/reports/tr35/tr35-dates.html#Time_Zone_Names
+[uni-utr35-typographic-names-element]: https://unicode.org/reports/tr35/tr35-general.html#Typographic_Names
+[uni-utr35-unicodesets]: https://www.unicode.org/reports/tr35/#Unicode_Sets
+[uni-utr35-units-element]: https://unicode.org/reports/tr35/tr35-general.html#Unit_Elements
+[uni-utr35-valid-data]: https://unicode.org/reports/tr35/tr35.html#Valid_Data
+[uni-utr35]: https://www.unicode.org/reports/tr35/ 
 [w3s-xml]: https://www.w3schools.com/xml/xml_whatis.asp

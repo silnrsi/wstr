@@ -8,7 +8,7 @@ lastUpdated: 2025-08-08
 
 ## What is the CLDR?
 
-From the [Unicode CLDR Project][unicode-cldr-project] site:
+From the [Unicode CLDR Project][uni-cldr-project] site:
  
 > The Unicode Common Locale Data Repository (CLDR) provides key building blocks for software to support the world’s languages, with the largest and most extensive standard repository of locale data available. This data is used by a [wide spectrum of companies](https://cldr.unicode.org/#who-uses-cldr) for their software internationalization and localization, adapting software to the conventions of different languages for such common software tasks. It includes:
 > 
@@ -24,7 +24,7 @@ Having locale information in the CLDR is an essential first step for a language 
 
 ## What is the SLDR?
 
-The SLDR is the [SIL Locale Data Repository][sldrrepo], a repository that builds upon the structure and data of the CLDR with locale data that might not yet meet the minimum requirements for CLDR inclusion. 
+The SLDR is the [SIL Locale Data Repository][sldr-repo], a repository that builds upon the structure and data of the CLDR with locale data that might not yet meet the minimum requirements for CLDR inclusion. 
 
 Like the CLDR, all data within the SLDR uses the LDML (Locale Data Markup Language). For more information, see the [LDML][ldml] page on this site. 
 
@@ -45,7 +45,7 @@ The SLDR uses SIL-specific extensions to the LDML standard. Font and keyboard da
 
 Other data beyond the scope of the list above may also be included in an SLDR file if the information has been made available, but unless an effort is being made to bring a specific locale up to CLDR standards for submission, those other elements are not typically a priority.
 
-SLDR data is sourced from manually curated research, data generated (with permission) from the contents of the [Digital Bible Library][dbl], and external submissions via [ScriptSource Contributions][scrsourcontr] and [GitHub Issues][sldrissues]. While the SLDR strives to be as accurate as possible, the data within is not perfect and should not be treated as an unquestionable source of information. Corrections from external sources are extremely welcome, and can be submitted via [GitHub Issues][sldrissues] or the [Writing Systems Technology community site][comsite]. 
+SLDR data is sourced from manually curated research, data generated (with permission) from the contents of the [Digital Bible Library][dbl], and external submissions via [ScriptSource Contributions][ss-contrib] and [GitHub Issues][sldr-issues]. While the SLDR strives to be as accurate as possible, the data within is not perfect and should not be treated as an unquestionable source of information. Corrections from external sources are extremely welcome, and can be submitted via [GitHub Issues][sldr-issues] or the [Writing Systems Technology community site][comsite]. 
 
 ## How is the SLDR Used?
 
@@ -59,7 +59,7 @@ Whenever new data is pushed to the SLDR, `langtags.json` is automatically rebuil
 
 ### The LDML API
 
-SLDR information is primarily accessed and utilized by applications via the [LDML API][ldmlapi]. This API also utilizes and distributes `langtags.json`.
+SLDR information is primarily accessed and utilized by applications via the [LDML API][ldml-api]. This API also utilizes and distributes `langtags.json`.
 
 Here are some examples of how the LDML API is used:
 - [https://ldml.api.sil.org/lld][ldml-api-ex] will return the lld.xml file from the Release version of the SLDR
@@ -79,7 +79,7 @@ The [Language Font Finder API (LFF)][lff] is an API that returns recommended fon
 
 The [ScriptSource site][scriptsource] uses the exemplar data of locales contained within the SLDR to populate the "Symbols & Characters" sections of the pages relating to said locales. 
 
-For example, the ["Symbols & Characters" tab of the "Enga written with Latin script" page][scriptsource-example] contains two lists of characters- main and auxiliary- that are pulled directly from the "main" and "auxiliary" exemplars of the `enq.xml` file in the SLDR. 
+For example, the ["Symbols & Characters" tab of the "Enga written with Latin script" page][ss-example] contains two lists of characters- main and auxiliary- that are pulled directly from the "main" and "auxiliary" exemplars of the `enq.xml` file in the SLDR. 
 
 This is one of the most human-friendly ways that SLDR data can be accessed by the general public, as opposed to the data-driven formats of the SLDR itself and the aforementioned APIs. This is also why ScriptSource contributions are one of the most common methods used by individuals to submit corrections to the SLDR. 
 
@@ -87,12 +87,11 @@ This is one of the most human-friendly ways that SLDR data can be accessed by th
 
 If enough data is gathered in an SLDR file that it can fulfill the minimum requirements for CLDR inclusion, the locale would be eligible for submission to the CLDR. 
 
-For more information on CLDR coverage levels and minimum data requirements, see these pages on cldr.unicode.org's [CLDR Specifications][cldrspec] page:
+For more information on CLDR coverage levels and minimum data requirements, see these pages on cldr.unicode.org's [CLDR Specifications][uni-cldr] page:
 - [Core Data for New Locales][core-data]: A summary of the minimum reqs for a locale to be submitted to the CLDR.
 - [Coverage Levels][coverage]: A summary of all of the coverage tiers within the CLDR, beyond the bare minimum. 
 
 
-[cldrspec]: https://cldr.unicode.org/index/cldr-spec
 [comsite]: https://community.software.sil.org/c/writing-systems/47
 [core-data]: https://cldr.unicode.org/index/cldr-spec/core-data-for-new-locales
 [coverage]: https://cldr.unicode.org/index/cldr-spec/coverage-levels
@@ -104,13 +103,14 @@ For more information on CLDR coverage levels and minimum data requirements, see 
 [ldml-api-lt-stg]: https://ldml.api.sil.org/langtags.json?staging=1
 [ldml-api-lt]: https://ldml.api.sil.org/langtags.json
 [ldml-api-stg]: https://ldml.api.sil.org/lld?staging=1
+[ldml-api]: https://ldml.api.sil.org/
 [ldml]: /topics/writingsystems/ldml
-[ldmlapi]: https://ldml.api.sil.org/
 [lff]: https://github.com/silnrsi/langfontfinder/tree/main
-[scriptsource-example]: https://scriptsource.org/cms/scripts/page.php?item_id=wrSys_detail_sym&uid=rfsnw2cbyd
 [scriptsource]: https://scriptsource.org
-[scrsourcontr]: https://scriptsource.org/entry/tx7kq3wgzd
-[sldrissues]: https://github.com/silnrsi/sldr/issues
-[sldrrepo]: https://github.com/silnrsi/sldr
-[unicode-cldr-project]: https://cldr.unicode.org/
+[sldr-issues]: https://github.com/silnrsi/sldr/issues
+[sldr-repo]: https://github.com/silnrsi/sldr
+[ss-contrib]: https://scriptsource.org/entry/tx7kq3wgzd
+[ss-example]: https://scriptsource.org/cms/scripts/page.php?item_id=wrSys_detail_sym&uid=rfsnw2cbyd
+[uni-cldr-project]: https://cldr.unicode.org/
+[uni-cldr]: https://cldr.unicode.org/index/cldr-spec
 [uts35]: https://www.unicode.org/reports/tr35/

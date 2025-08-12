@@ -56,10 +56,10 @@ The technical specification for the structure of a language tag is [BCP47][bcp47
 
 - [IANA Language Subtag Registry][iana] - this file is placed in the [sldrtool repo][sldrtool] and is available [here][iana-file].
    - ISO 639-1 (no files are directly used, IANA incorporates the changes)
-   - [ISO 639-3][639-3] (no files are directly used, IANA incorporates the changes)
+   - [ISO 639-3][iso-639-3] (no files are directly used, IANA incorporates the changes)
 - [Ethnologue][ethnologue-codes] `LanguageIndex.tab` is renamed `langindex.tab` and placed in [langtags/source][langindex].
    - [autonyms.csv][autonyms] is from the Ethnologue, but it is not publicly available for download from the Ethnologue.
-- [ISO 15924][15924] script codes are used. However, no downloaded files are used, the information is manually added to `langtags.csv`.
+- [ISO 15924][uni-iso-15924] script codes are used. However, no downloaded files are used, the information is manually added to `langtags.csv`.
    - A few of the script codes may need to be described.
      - Zyyy is used for when the script is unknown.
      - Zxxx is used for Sign languages.
@@ -76,16 +76,14 @@ For this purpose, there is a [json file available through the LDML API][json-ldm
 
 There is also a [python module given as a reference implementation][pypi], which is available on langtags on pypi. 
 
-Finally, the Unicode CLDR project has documentation on [Picking the Right Language Modifier][cldr-langtag-picking].
+Finally, the Unicode CLDR project has documentation on [Picking the Right Language Modifier][uni-cldr-langtag-picking].
 
-[15924]: https://unicode.org/iso15924/iso15924-codes.html
-[639-3]: https://iso639-3.sil.org/
 [autonyms]: https://github.com/silnrsi/langtags/tree/master/source/autonyms.csv
 [bcp47]: https://www.rfc-editor.org/bcp/bcp47.txt
-[cldr-langtag-picking]: https://cldr.unicode.org/index/cldr-spec/picking-the-right-language-code
 [ethnologue-codes]: https://www.ethnologue.com/codes/
 [iana-file]: https://github.com/silnrsi/sldrtools/blob/master/lib/sldr/language-subtag-registry.txt
 [iana]: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+[iso-639-3]: https://iso639-3.sil.org/
 [json-ldml]: https://ldml.api.sil.org/langtags.json
 [langindex]: https://github.com/silnrsi/langtags/tree/master/source/langindex.tab
 [langtag-standards]: /topics/writingsystems/language-tagging/#standards
@@ -98,3 +96,5 @@ Finally, the Unicode CLDR project has documentation on [Picking the Right Langua
 [sldr-page]: /topics/writingsystems/cldr-and-sldr
 [sldrtool]: https://github.com/silnrsi/sldrtools
 [stability-problems]: /topics/writingsystems/language-tagging/#tag-stability-problems
+[uni-cldr-langtag-picking]: https://cldr.unicode.org/index/cldr-spec/picking-the-right-language-code
+[uni-iso-15924]: https://unicode.org/iso15924/iso15924-codes.html

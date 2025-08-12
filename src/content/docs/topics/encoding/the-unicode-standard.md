@@ -35,7 +35,7 @@ The  Unicode Consortium is a not-for-profit organization that exists to develop 
 
 The work of developing the Standard is done by the Unicode Technical Committee (UTC). Every Full Member organization is eligible to have a voting position on the UTC, though they are not required to participate.
 
-There are other categories of membership including Individual Member, Associate Member, Supporting Member, and Liaison Member. Each of these has increasing levels of privileges. Membership categories are available [here][unicode-membership].
+There are other categories of membership including Individual Member, Associate Member, Supporting Member, and Liaison Member. Each of these has increasing levels of privileges. Membership categories are available [here][uni-membership].
 
 ## Unicode and ISO/IEC 10646
 
@@ -51,34 +51,34 @@ In order to ensure quality standards that facilitate domestic and international 
 
 The Unicode Standard includes different types of information:
 
-- Firstly, there is no longer a printed version of The Unicode Standard (TUS). The [Core Specification][core-spec] is available in both html and pdf formats. The [Character Code Charts][code-charts] are also available online.
-- The Unicode Consortium publishes a variety of documents known as [Unicode Technical Reports (UTRs)][utr] on its Web site. These discuss specific issues relating to implementation of the Standard, and some even become parts of the Standard. A UTR with this status is identified as a Unicode Standard Annex (UAX). These annexes may include documentation of a minor version release, or information concerning specific implementation issues.
-- The Unicode Standard includes a collection of data files that provide detailed information about semantic properties of characters in the Standard that are needed for implementations. The most up-to-date versions are always available from the [Unicode Web site][ucd]. Further information on the data files is available [here][uni-online].
-- [Unicode Technical Notes][utn] are not a formal part of the Unicode Standard. They are provided "as-is" for the convenience of users.
+- Firstly, there is no longer a printed version of The Unicode Standard (TUS). The [Core Specification][uni-core-spec] is available in both html and pdf formats. The [Character Code Charts][uni-code-charts] are also available online.
+- The Unicode Consortium publishes a variety of documents known as [Unicode Technical Reports (UTRs)][uni-utr] on its Web site. These discuss specific issues relating to implementation of the Standard, and some even become parts of the Standard. A UTR with this status is identified as a Unicode Standard Annex (UAX). These annexes may include documentation of a minor version release, or information concerning specific implementation issues.
+- The Unicode Standard includes a collection of data files that provide detailed information about semantic properties of characters in the Standard that are needed for implementations. The most up-to-date versions are always available from the [Unicode Web site][uni-ucd]. Further information on the data files is available [here][uni-online].
+- [Unicode Technical Notes][uni-utn] are not a formal part of the Unicode Standard. They are provided "as-is" for the convenience of users.
 
 ### Additional resources
 
-- [The Unicode Standard][tus]
-- [Everyday Unicode][everyday-unicode]
+- [The Unicode Standard][uni-tus]
+- [Everyday Unicode][ss-everyday-unicode]
 - [Unicode information on ScriptSource][ss-unicode]
 - [Unicode Character Browsing][ss-char-browsing]
 - [Unicode Status in ScriptSource][ss-unicode-status]
-- [Understanding Unicode I][understanding-unicode-i] and [Understanding Unicode II][understanding-unicode-ii]
+- [Understanding Unicode I][ss-understanding-unicode-i] and [Understanding Unicode II][ss-understanding-unicode-ii]
 
-_Portions of this content first appeared in [Guidelines for Writing System Support][wsig], copyright © 2003 UNESCO and SIL International._
+_Portions of this content first appeared in [Guidelines for Writing System Support][sil-wsig], copyright © 2003 UNESCO and SIL International._
 
-[code-charts]: https://www.unicode.org/charts/
-[core-spec]: https://www.unicode.org/versions/latest/core-spec/
-[everyday-unicode]: https://scriptsource.org/entry/mhzqeygkuz
+[sil-wsig]: https://scripts.sil.org/wsi_guidelines.html
 [ss-char-browsing]: https://scriptsource.org/entry/tubkvb6y8f
+[ss-everyday-unicode]: https://scriptsource.org/entry/mhzqeygkuz
+[ss-understanding-unicode-i]: https://scriptsource.org/source/c6rwvqz3gn
+[ss-understanding-unicode-ii]: https://scriptsource.org/source/hqj8q8b4xv
 [ss-unicode-status]: https://scriptsource.org/entry/tn9r6q9euj
 [ss-unicode]: https://scriptsource.org/entry/z3hs8db5ct
-[tus]: https://www.unicode.org/standard/standard.html
-[ucd]: https://www.unicode.org/Public/UNIDATA/
-[understanding-unicode-i]: https://scriptsource.org/source/c6rwvqz3gn
-[understanding-unicode-ii]: https://scriptsource.org/source/hqj8q8b4xv
+[uni-code-charts]: https://www.unicode.org/charts/
+[uni-core-spec]: https://www.unicode.org/versions/latest/core-spec/
+[uni-membership]: https://home.unicode.org/membership/membership-levels/
 [uni-online]: https://www.unicode.org/onlinedat/online.html
-[unicode-membership]: https://home.unicode.org/membership/membership-levels/
-[utn]: http://www.unicode.org/notes/
-[utr]: https://www.unicode.org/reports/
-[wsig]: https://scripts.sil.org/wsi_guidelines.html
+[uni-tus]: https://www.unicode.org/standard/standard.html
+[uni-ucd]: https://www.unicode.org/Public/UNIDATA/
+[uni-utn]: http://www.unicode.org/notes/
+[uni-utr]: https://www.unicode.org/reports/
