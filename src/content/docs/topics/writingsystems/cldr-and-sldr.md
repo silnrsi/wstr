@@ -45,7 +45,7 @@ The SLDR uses SIL-specific extensions to the LDML standard. Font and keyboard da
 
 Other data beyond the scope of the list above may also be included in an SLDR file if the information has been made available, but unless an effort is being made to bring a specific locale up to CLDR standards for submission, those other elements are not typically a priority.
 
-SLDR data is sourced from manually curated research, data generated (with permission) from the contents of the [Digital Bible Library][dbl], and external submissions via [ScriptSource Contributions][scrsourcontr] and [GitHub Issues][sldrissues]. While the SLDR strives to be as accurate as possible, the data within is not perfect and should not be treated as an unquestionable source of information. Corrections from external sources are extremely welcome, and can be submitted via [GitHub Issues][sldr-github-issues] or the [Writing Systems Technology community site][comsite]. 
+SLDR data is sourced from manually curated research, data generated (with permission) from the contents of the [Digital Bible Library][dbl], and external submissions via [ScriptSource Contributions][scrsourcontr] and [GitHub Issues][sldrissues]. While the SLDR strives to be as accurate as possible, the data within is not perfect and should not be treated as an unquestionable source of information. Corrections from external sources are extremely welcome, and can be submitted via [GitHub Issues][sldrissues] or the [Writing Systems Technology community site][comsite]. 
 
 ## How is the SLDR Used?
 
@@ -110,7 +110,6 @@ For more information on CLDR coverage levels and minimum data requirements, see 
 [scriptsource-example]: https://scriptsource.org/cms/scripts/page.php?item_id=wrSys_detail_sym&uid=rfsnw2cbyd
 [scriptsource]: https://scriptsource.org
 [scrsourcontr]: https://scriptsource.org/entry/tx7kq3wgzd
-[sldr-github-issues]: https://github.com/silnrsi/sldr/issues
 [sldrissues]: https://github.com/silnrsi/sldr/issues
 [sldrrepo]: https://github.com/silnrsi/sldr
 [unicode-cldr-project]: https://cldr.unicode.org/
