@@ -39,8 +39,8 @@ Companies that use data from the CLDR may supplement it or incorporate it into t
 
 - [UTR #35: "What is a Locale?"][unicodelocaledef]
 
-[langtag]: /topics/writingsystems/language-tagging
 [bcp47]: https://www.rfc-editor.org/rfc/bcp/bcp47.txt
 [cldr-and-sldr]: /topics/writingsystems/cldr-and-sldr
+[langtag]: /topics/writingsystems/language-tagging
 [ldml]: /topics/writingsystems/ldml
 [unicodelocaledef]: https://unicode.org/reports/tr35/#Locale

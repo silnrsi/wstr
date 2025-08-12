@@ -62,10 +62,10 @@ Whenever new data is pushed to the SLDR, `langtags.json` is automatically rebuil
 SLDR information is primarily accessed and utilized by applications via the [LDML API][ldmlapi]. This API also utilizes and distributes `langtags.json`.
 
 Here are some examples of how the LDML API is used:
-- https://ldml.api.sil.org/lld will return the lld.xml file from the Release version of the SLDR
-- https://ldml.api.sil.org/lld?staging=1 will return the lld.xml file from the yet-unreleased staging version of the SLDR. 
+- [https://ldml.api.sil.org/lld][ldml-api-ex] will return the lld.xml file from the Release version of the SLDR
+- [https://ldml.api.sil.org/lld?staging=1][ldml-api-stg] will return the lld.xml file from the yet-unreleased staging version of the SLDR. 
   - This is used to test upcoming versions of SLDR prior to a new release. Typically, developers are given notice at least 2 weeks prior to release via the SIL LangTech Slack channel. 
-- https://ldml.api.sil.org/langtags.json  returns the entirety of langtag.json from the release branch, while https://ldml.api.sil.org/langtags.json?staging=1 returns the staging version.
+- [https://ldml.api.sil.org/langtags.json][ldml-api-lt]  returns the entirety of langtag.json from the release branch, while [https://ldml.api.sil.org/langtags.json?staging=1][ldml-api-lt-stg] returns the staging version.
 
 Since `langtags.json` is an important element of the LDML API, it is good practice for new versions of the SLDR and Langtags repositories to release simultaneously in order to avoid conflicts between them in output of the LDML API. 
 
@@ -92,22 +92,26 @@ For more information on CLDR coverage levels and minimum data requirements, see 
 - [Coverage Levels][coverage]: A summary of all of the coverage tiers within the CLDR, beyond the bare minimum. 
 
 
-[uts35]: https://www.unicode.org/reports/tr35/
-[ldml]: /topics/writingsystems/ldml
-[sldrrepo]: https://github.com/silnrsi/sldr
-[scriptsource]: https://scriptsource.org
-[dbl]: https://thedigitalbiblelibrary.org/ 
-[sldrissues]: https://github.com/silnrsi/sldr/issues
-[scrsourcontr]: https://scriptsource.org/entry/tx7kq3wgzd
-[ldmlapi]: https://ldml.api.sil.org/
-[langtag]: /topics/writingsystems/language-tagging
-[lff]: https://github.com/silnrsi/langfontfinder/tree/main
 [cldrspec]: https://cldr.unicode.org/index/cldr-spec
-[ethnologue]: https://www.ethnologue.com/
+[comsite]: https://community.software.sil.org/c/writing-systems/47
 [core-data]: https://cldr.unicode.org/index/cldr-spec/core-data-for-new-locales
 [coverage]: https://cldr.unicode.org/index/cldr-spec/coverage-levels
-[scriptsource-example]: https://scriptsource.org/cms/scripts/page.php?item_id=wrSys_detail_sym&uid=rfsnw2cbyd
+[dbl]: https://thedigitalbiblelibrary.org/ 
+[ethnologue]: https://www.ethnologue.com/
+[langtag]: /topics/writingsystems/language-tagging
 [langtags-md]: https://github.com/silnrsi/langtags/blob/master/doc/langtags.md
+[ldml-api-ex]: https://ldml.api.sil.org/lld
+[ldml-api-lt-stg]: https://ldml.api.sil.org/langtags.json?staging=1
+[ldml-api-lt]: https://ldml.api.sil.org/langtags.json
+[ldml-api-stg]: https://ldml.api.sil.org/lld?staging=1
+[ldml]: /topics/writingsystems/ldml
+[ldmlapi]: https://ldml.api.sil.org/
+[lff]: https://github.com/silnrsi/langfontfinder/tree/main
+[scriptsource-example]: https://scriptsource.org/cms/scripts/page.php?item_id=wrSys_detail_sym&uid=rfsnw2cbyd
+[scriptsource]: https://scriptsource.org
+[scrsourcontr]: https://scriptsource.org/entry/tx7kq3wgzd
 [sldr-github-issues]: https://github.com/silnrsi/sldr/issues
-[comsite]: https://community.software.sil.org/c/writing-systems/47
+[sldrissues]: https://github.com/silnrsi/sldr/issues
+[sldrrepo]: https://github.com/silnrsi/sldr
 [unicode-cldr-project]: https://cldr.unicode.org/
+[uts35]: https://www.unicode.org/reports/tr35/
