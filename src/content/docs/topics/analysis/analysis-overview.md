@@ -8,7 +8,7 @@ lastUpdated: 2025-08-08
 
 Placeholder: Basic description of the types of analysis with links to more info
 
-## Segmentation (hypenation, word breaking)
+## Segmentation (hyphenation, word breaking)
 
 [Unicode conversion of non-breaking hyphens in MS Word](https://scriptsource.org/entry/xvbp4378bg)
 
