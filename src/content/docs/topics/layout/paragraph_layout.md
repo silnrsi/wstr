@@ -51,7 +51,7 @@ When set horizontally, Chinese is typically LTR as seen in Figure 6, but Figure 
 
 ## Bullets and Indents
 
-RTL behavior needs to be properly implemented with regards to bullets (see Figure 9) and paragraph indents (see Figure 11). Vertical scripts also need proper bullets (see Figure 10) and paragraph indenting. As with any formatting decisions, the typesetter needs to examine a great variety of examples to see what is considered normal and beautiful. The typesetter who comes from a Roman perspective to typeset Arabic would probably choose to use smaller bullets than those used in Figure 7, but the larger bullets might be considered beautiful to readers of Arabic.
+RTL behavior needs to be properly implemented with regards to bullets (see Figure 9) and paragraph indents (see Figure 11). Vertical scripts also need proper bullets (see Figure 10) and paragraph indenting. As with any formatting decisions, the typesetter needs to examine a great variety of examples to see what is considered normal and beautiful. The typesetter who comes from a Roman perspective to typeset Arabic would probably choose to use smaller bullets than those used in Figure 9, but the larger bullets might be considered beautiful to readers of Arabic.
 
 ![Figure 9. Right aligned bullets in RTL text (Arabic)](images/6400-7-Arab.png "Figure 9. Right aligned bullets in RTL text (Arabic)")
 
