@@ -41,7 +41,7 @@ Information most commonly found within SLDR-only files includes:
 - Collation
 - Font and Keyboard Data
 
-The SLDR uses SIL-specific extensions to the LDML standard. Font and keyboard data is one such extention which provides recommendations of fonts and keyboards that best serve that locale. Since this information is not natively included in the CLDR, the SLDR appends this data to imported CLDR files as well. 
+The SLDR uses SIL-specific extensions to the LDML standard. Font and keyboard data is one such extension which provides recommendations of fonts and keyboards that best serve that locale. Since this information is not natively included in the CLDR, the SLDR appends this data to imported CLDR files as well. 
 
 Other data beyond the scope of the list above may also be included in an SLDR file if the information has been made available, but unless an effort is being made to bring a specific locale up to CLDR standards for submission, those other elements are not typically a priority.
 
