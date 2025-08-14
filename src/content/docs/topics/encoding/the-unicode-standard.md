@@ -35,7 +35,7 @@ The  Unicode Consortium is a not-for-profit organization that exists to develop 
 
 The work of developing the Standard is done by the Unicode Technical Committee (UTC). Every Full Member organization is eligible to have a voting position on the UTC, though they are not required to participate.
 
-There are other categories of membership including Individual Member, Associate Member, Supporting Member, and Liaison Member. Each of these has increasing levels of privileges. Membership categories are available [here][uni-membership].
+There are other categories of membership including Individual Member, Associate Member, Supporting Member, and Liaison Member. Each of these has increasing levels of privileges. Membership categories are available on the [Unicode website][uni-membership].
 
 ## Unicode and ISO/IEC 10646
 
@@ -52,8 +52,8 @@ In order to ensure quality standards that facilitate domestic and international 
 The Unicode Standard includes different types of information:
 
 - Firstly, there is no longer a printed version of The Unicode Standard (TUS). The [Core Specification][uni-core-spec] is available in both html and pdf formats. The [Character Code Charts][uni-code-charts] are also available online.
-- The Unicode Consortium publishes a variety of documents known as [Unicode Technical Reports (UTRs)][uni-utr] on its Web site. These discuss specific issues relating to implementation of the Standard, and some even become parts of the Standard. A UTR with this status is identified as a Unicode Standard Annex (UAX). These annexes may include documentation of a minor version release, or information concerning specific implementation issues.
-- The Unicode Standard includes a collection of data files that provide detailed information about semantic properties of characters in the Standard that are needed for implementations. The most up-to-date versions are always available from the [Unicode Web site][uni-ucd]. Further information on the data files is available [here][uni-online].
+- The Unicode Consortium publishes a variety of documents known as [Unicode Technical Reports (UTRs)][uni-utr] on its website. These discuss specific issues relating to implementation of the Standard, and some even become parts of the Standard. A UTR with this status is identified as a Unicode Standard Annex (UAX). These annexes may include documentation of a minor version release, or information concerning specific implementation issues.
+- The Unicode Standard includes a collection of data files that provide detailed information about semantic properties of characters in the Standard that are needed for implementations. The most up-to-date versions are always available from the [Unicode website][uni-ucd]. Further information on the data files is available on the [Unicode website][uni-online].
 - [Unicode Technical Notes][uni-utn] are not a formal part of the Unicode Standard. They are provided "as-is" for the convenience of users.
 
 ### Additional resources

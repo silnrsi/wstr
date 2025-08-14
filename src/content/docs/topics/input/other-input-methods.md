@@ -18,7 +18,7 @@ Among these are:
 
 ## Character pickers
 
-Character pickers (either hosted on a web site or on the user's device) present an array of characters and allow the user to select the desired ones. This is generally a slower method for data input than a keyboard, but may be useful for entering small amounts of text. See the "Web-based pickers" and "Character Pickers" sections of this [Keyboard Systems Overview article][ss-keyboard-systems] for further details.
+Character pickers (either hosted on a website or on the user's device) present an array of characters and allow the user to select the desired ones. This is generally a slower method for data input than a keyboard, but may be useful for entering small amounts of text. See the "Web-based pickers" and "Character Pickers" sections of this [Keyboard Systems Overview article][ss-keyboard-systems] for further details.
 
 ## USV entry
 
