@@ -30,7 +30,7 @@ Table with no-break space headers
 | Paragraph | Text |
 
 [external link](https://example.com)
-[local link](/topics/fonts/)
+[local link](/topics/fonts/finding-and-using-fonts)
 
 
 <hr>
