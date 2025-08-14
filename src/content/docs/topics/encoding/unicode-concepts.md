@@ -6,9 +6,9 @@ sidebar:
 lastUpdated: 2025-08-07
 ---
 
-**Encoding** refers to the process of representing information in some form. In computer systems, we encode written language by representing the **graphemes** or other **text elements** of the writing system in terms of sequences of **characters**, units of textual information within some system for representing written texts. These characters are in turn represented within a computer in terms of the only means of representation the computer knows how to work with: binary numbers.
+[Encoding][glo-encoding] refers to the process of representing information in some form. In computer systems, we encode written language by representing the [graphemes][glo-grapheme] or other **text elements** of the writing system in terms of sequences of [characters][glo-character], units of textual information within some system for representing written texts. These characters are in turn represented within a computer in terms of the only means of representation the computer knows how to work with: binary numbers.
 
-A **character set encoding** (or **character encoding**) is such a system for doing this. Any character set encoding involves at least these two components: a set of characters and some system for representing these in terms of the processing units used within the computer. 
+A [character set encoding][glo-character-set-encoding] (or **character encoding**) is such a system for doing this. Any character set encoding involves at least these two components: a set of characters and some system for representing these in terms of the processing units used within the computer. 
 
 Unicode is a standard encoding which is being developed to have a universal character set that covers all of the scripts in the world.
 
@@ -18,7 +18,7 @@ The Unicode coded character set is coded in terms of integer values, which are r
 
 Every character in Unicode can be uniquely identified by its codepoint, or also by its name. Unicode character names use only ASCII characters and by convention are written entirely in upper case. Characters are often referred to using both the codepoint and the name; e.g. U+0061 LATIN SMALL LETTER A. In discussions where the actual characters are unimportant or are assumed to be recognisable using only the codepoints, people will often save space and use only the codepoints. Also, in informal contexts where it is clear that Unicode codepoints are involved, people will often suppress the string “U+”. For clarity, this document will continue to use “U+”.
 
-The Unicode codespace ranges from U+0000 to U+10FFFF. Borrowing terminology from ISO/IEC 10646, the codespace is described in terms of 17 **planes** of 64K codepoints each. Thus, Plane 0 includes codepoints U+0000..U+FFFF, Plane 1 includes codepoints U+10000..U+1FFFF, etc.
+The Unicode codespace ranges from U+0000 to U+10FFFF. Borrowing terminology from ISO/IEC 10646, the codespace is described in terms of 17 [planes][glo-plane] of 64K codepoints each. Thus, Plane 0 includes codepoints U+0000..U+FFFF, Plane 1 includes codepoints U+10000..U+1FFFF, etc.
 
 In the original design of Unicode, all characters were to have codepoints in the range U+0000..U+FFFF. In keeping with this, Plane 0 was set apart as the portion of the codespace in which all of the most commonly used characters were encoded, and is designated the Basic Multilingual Plane (BMP). The remainder of the codespace, Planes 1 to 1610, are referred to collectively as the Supplementary Planes. As space ran out in the BMP, not only ancient scripts, but modern characters and scripts have been encoded in the Supplementary Multilingual Plane (SMP).
 
@@ -26,7 +26,7 @@ There are gaps in the Unicode codespace: codepoints that are permanently unassig
 
 Unassigned codepoints can be reserved in a similar manner at any time if there is a reason for doing so. This has been done specifically in order to make additional codes available to programmers to use for internal processing purposes. Again, these should never appear in data.
 
-There is another special range of 2,048 codepoints that are reserved, creating an effective gap in the codespace. These occupy the range U+D800..U+DFFF and are reserved due to the mechanism used in the UTF-16 encoding form (see [Chapter 2 of the Unicode Standard][encoding-forms]). In UTF-16, codepoints in the BMP are represented as code units having the same integer value. The code units in the range 0xD800–0xDFFF, serve a special purpose, however. These code units, known as surrogate code units (or simply surrogates), are used in representing codepoints from Planes 1 to 16. As a result, it is not possible to represent the corresponding codepoints in UTF-16. Hence, these codepoints are reserved.
+There is another special range of 2,048 codepoints that are reserved, creating an effective gap in the codespace. These occupy the range U+D800..U+DFFF and are reserved due to the mechanism used in the UTF-16 encoding form (see [Chapter 2 of the Unicode Standard][uni-encoding-forms]). In UTF-16, codepoints in the BMP are represented as code units having the same integer value. The code units in the range 0xD800–0xDFFF, serve a special purpose, however. These code units, known as surrogate code units (or simply surrogates), are used in representing codepoints from Planes 1 to 16. As a result, it is not possible to represent the corresponding codepoints in UTF-16. Hence, these codepoints are reserved.
 
 ## Blocks & Extensions
 
@@ -75,8 +75,8 @@ The existence of these "confusable" characters also offers the possibility of de
 
 Resources: 
 - [Dotless letters and movable combining marks][dotless-letters]
-- [Unicode Utilities: Confusables][confusables]
-- [Unicode's Where is my Character?][where]
+- [Unicode Utilities: Confusables][uni-confusables]
+- [Unicode's Where is my Character?][uni-where-character]
 
 
 ## Case Mappings
@@ -126,31 +126,40 @@ Placeholder:
 Placeholder:
 - [Combining marks and canonical ordering][canonical]
 
-## Deprecation			
+## Deprecation
 
 Placeholder
 
 _Portions of this content first appeared in [Guidelines for Writing System Support][wsig], copyright © 2003 UNESCO and SIL International._
 
-[encoding-forms]: https://www.unicode.org/versions/latest/core-spec/chapter-2/#G13708
-[script-blocks]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#e2cd27ff
-[characters-code-charts]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#29876e62
-[encoding-forms]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#96f19a02
-[mapping-code-points]: https://scripts.sil.org/cms/scripts/page.php?id=iws-appendixa&site_id=nrsi
-[code-converter]: https://r12a.github.io/app-conversion/
-[right-choice]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#60b9249a
 [byte-order]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#1557eaf6
-[semantics]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#4c028a78
-[ucd-spreadsheet]: https://github.com/silnrsi/unicode-resources/tree/main/ucd-spreadsheet
-[dotless-letters]: https://scriptsource.org/entry/k3fmzy7abd
-[confusables]: https://util.unicode.org/UnicodeJsps/confusables.jsp
-[where]: https://www.unicode.org/standard/where/
-[casing]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#72b37972
-[compose-decompose]: https://scripts.sil.org/cms/scripts/page.php?id=nfc_vs_nfd&site_id=nrsi
-[precomposed]: https://scriptsource.org/entry/r8cbwvep6z
-[string-length]: https://www.youtube.com/watch?v=wCExnGiMeF0
-[decomposition]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#a9054ead
-[normalization]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#170d0d63
-[rendering]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#8390955c
 [canonical]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#6c203953
+[casing]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#72b37972
+[characters-code-charts]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#29876e62
+[code-converter]: https://r12a.github.io/app-conversion/
+[compose-decompose]: https://scripts.sil.org/cms/scripts/page.php?id=nfc_vs_nfd&site_id=nrsi
+[decomposition]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#a9054ead
+[dotless-letters]: https://scriptsource.org/entry/k3fmzy7abd
+[encoding-forms]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#96f19a02
+[glo-character-encoding-form]: /reference/glossary#charencform
+[glo-character-set-encoding]: /reference/glossary#charsetenc
+[glo-character]: /reference/glossary#char
+[glo-grapheme]: /reference/glossary#grapheme
+[glo-encoding]: /reference/glossary#enc
+[glo-grapheme]: /reference/glossary#grapheme
+[glo-plane]: /reference/glossary#plane
+[mapping-code-points]: https://scripts.sil.org/cms/scripts/page.php?id=iws-appendixa&site_id=nrsi
+[normalization]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#170d0d63
+[precomposed]: https://scriptsource.org/entry/r8cbwvep6z
+[rendering]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#8390955c
+[right-choice]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#60b9249a
+[script-blocks]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#e2cd27ff
+[semantics]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04b&site_id=nrsi#4c028a78
+[string-length]: https://www.youtube.com/watch?v=wCExnGiMeF0
+[ucd-spreadsheet]: https://github.com/silnrsi/unicode-resources/tree/main/ucd-spreadsheet
+[unicode-bidi-algorithm]: /topics/encoding/unicode-bidi-algorithm
+[uni-confusables]: https://util.unicode.org/UnicodeJsps/confusables.jsp
+[uni-encoding-forms]: https://www.unicode.org/versions/latest/core-spec/chapter-2/#G13708
+[uni-where-character]: https://www.unicode.org/standard/where/
 [wsig]: https://scripts.sil.org/wsi_guidelines.html
+
