@@ -13,6 +13,29 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Writing Systems Technical Resources',
+			head: [
+				{
+					tag: 'script',
+					attrs: { 
+						async:true,
+						src: 'https://www.googletagmanager.com/gtag/js?id=G-RZ7NPXWX10'
+					}
+				},
+				{
+					tag: 'script',
+					content: `
+						window.dataLayer = window.dataLayer || [];
+  						function gtag(){dataLayer.push(arguments);}
+  						gtag('js', new Date());
+						gtag("consent", "default", {
+							ad_storage: "denied", 
+							ad_user_data: "denied", 
+							ad_personalization: "denied", 
+							analytics_storage: "denied",
+						});
+						gtag('config', 'G-RZ7NPXWX10');`
+				}
+			],
 			markdown: {
 				// TODO: Turn this on to test out if we want automatic
 				// heading links. If so remove it as `true` is the new default.
