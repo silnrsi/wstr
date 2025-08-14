@@ -54,7 +54,7 @@ The technical specification for the structure of a language tag is [BCP47][bcp47
 
 ### Standards
 
-- [IANA Language Subtag Registry][iana] - this file is placed in the [sldrtool repo][sldrtool] and is available [here][iana-file].
+- [IANA Language Subtag Registry][iana] - this file is placed in the [sldrtool repo][sldrtool] and is available from the [SIL GitHub sldrtools repository][iana-file].
    - ISO 639-1 (no files are directly used, IANA incorporates the changes)
    - [ISO 639-3][iso-639-3] (no files are directly used, IANA incorporates the changes)
 - [Ethnologue][ethnologue-codes] `LanguageIndex.tab` is renamed `langindex.tab` and placed in [langtags/source][langindex].
