@@ -159,6 +159,7 @@ Term | Definition
 <a id='hetnm'></a>heteronym|<a href='#homg'>homographs</a> which, although spelled the same way, are pronounced differently and have different meanings. For example, in English, _wind_ (noun, as in _weather_), and _wind_ (verb, to coil something).
 <a id='homg'></a>homograph|one of multiple words having the same spelling but different meanings. They may be pronounced differently, (for example in English _tear: rip_ and _tear: secreted when crying_), in which case they are also <a href='#hetnm'>heteronyms</a>, or they may be pronounced the same, (for example in American English _tire: cause to be fatigued_ and _tire: wheel of a car_), in which case they are also <a href='#homphn'>homophones</a>.
 <a id='homphn'></a>homophone | one of multiple words having the same pronunciation but different meanings. They may be spelled differently, (for example in English _write_ and _right_), in which case they are called heterographs, or the same, (for example in English _bark: on a tree_ and _bark: of a dog_), in which case they are also <a href='#homg'>homographs</a>.
+<a id='hyphen'></a>hyphenation | the process of using a hyphen or another punctuation mark to connect two or more words together to form a compound word, or to split a word across lines of text. Hyphenation can improve improve readability and clarity in writing by either joining syllables or words, or breaking them apart at appropriate points.
 
 
 ## <a id="I"></a>I
@@ -174,7 +175,9 @@ Term | Definition
 
 ## <a id="J"></a>J
 
-None.
+Term | Definition
+---- | ----------
+<a id='justify'></a>justification | the alignment of text along both the left and right margins so that all the lines are the same length. Justification is usually handled by applying <a href='#hyphen'>hyphenation</a>, or by adjusting the spacing between words and characters on each line. 
 
 ## <a id="K"></a>K
 
