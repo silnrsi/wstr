@@ -31,7 +31,7 @@ const scriptTagLC = script.toLowerCase();
 				<td>{wsObj.LangName}</td>
 				<td>{wsObj.WsCode}</td>
 				<td>{wsObj.Status}</td>
-				<WsLocaleLink locale={wsObj.Locale} localeStatus={wsObj.LocaleStatus} />
+				<WsLocaleLink locale={wsObj.Locale} localeStatus={'LocaleStatus' in wsObj ? wsObj.LocaleStatus : {} } />
 				<WsVarList script={script} ws={wsObj.WsCode} />
 			</tr>
 		))}
