@@ -120,7 +120,7 @@ export default defineConfig({
                 type: 'element',
                 tagName: 'img',
                 properties: {
-                  src: 'svgs/external-link.svg',
+                  src: '/svgs/external-link.svg',
                 //title: 'External link',
                 //alt: 'External link',
                 },
