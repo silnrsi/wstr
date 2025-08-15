@@ -5,11 +5,6 @@ sidebar:
   order: 7001
 lastUpdated: 2025-08-15
 ---
-# An Overview of Script Text Analysis
-
-Placeholder: Basic description of the types of analysis with links: Seg, sort, coll, search, spell, cross.
-
-## Introduction
 
 The cry of "I can't type my text" has been heard and a
 [font](topics/fonts/finding-and-using-fonts),
