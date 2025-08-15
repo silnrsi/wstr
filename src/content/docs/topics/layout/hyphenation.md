@@ -9,7 +9,7 @@ lastUpdated: 2025-08-14
 
 [Hyphenation][hyphenation] is the process of using a hyphen or another punctuation mark to connect two or more words together to form a compound word, or to split a word across lines of text. Hyphenation can improve improve readability by either joining syllables or words, or breaking them apart at appropriate points. Hyphenation is often required when text is [justified][justification]. These two concepts are closely tied together.
 
-Interesting hyphenation behaviors occur in some Latin script use, as in the German word “backen” which becomes “bak-ken” when hyphenated (although there are moves for this to be abandoned). Hyphenation rules in the publishing application need to be fully customizable for these types of behaviors.
+Interesting hyphenation behaviors occur in some Latin script use, as in the German word “backen” which becomes “bak-ken” when hyphenated (although there are moves for this to be abandoned). Hyphenation rules in publishing applications need to be fully customizable for these types of behaviors.
 
 Hyphenation is generally a tool used in Latin typesetting, but it is not always allowed in other writing systems. 
 
