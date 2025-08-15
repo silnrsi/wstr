@@ -2,9 +2,9 @@
 title: Application Development Best Practice
 description: Guide for software developers
 sidebar:
-    order: 2501
+    order: 2500
     label: App Development Best Practice
-lastUpdated: 2025-08-08
+lastUpdated: 2025-08-15
 ---
 
 ## Introduction

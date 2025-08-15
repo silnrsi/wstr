@@ -2,9 +2,12 @@
 title: Writing Systems Best Practice
 description: Guide for software developers
 sidebar:
-    order: 2500
+    order: 2509
+    hidden: True
 lastUpdated: 2024-10-31
 ---
+
+## This doc has been deprecated - see [App Dev Best Practice](/guides/app-development-best-practice)
 
 ## Introduction
 
