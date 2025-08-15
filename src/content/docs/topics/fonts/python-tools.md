@@ -28,20 +28,6 @@ In addition to the built-in UFO object library, the framework supports [FontPart
 
 There is further [documentation in GitHub][pysilfont-docs].
 
-### UFO support in Pysilfont
-
-With some limitations, Pysilfont scripts that utilize the built-in UFO library should work with UFO2 or UFO3 source files - and can convert from one format to the other.
-
-Such scripts will output UFOs in a [normalized form][unified-font-objects-ufo-normalization], designed to work with source control systems. Most aspects of the normalization can be set by parameters, so projects are not forced to use Pysilfont’s default normalization.
-
-The simplest script is `psfnormalize`, which will convert between UFO 2 and UFO3 (if `-v` is used to specify the alternative version) or otherwise simply normalize the UFO by ‘converting’ to the existing version.  Note that this same functionality is in most other scripts, so `psfnormalize` is normally only needed after UFOs have been processed by tools that are not using pysilfont's built-in UFO object library.
-
-The following are known limitations:
-
-- UFO 3 specific folders (data and images) are preserved, even if present in a UFO 2 font.
-- Converting from UFO 3 to UFO 2 only handles data that has a place in UFO 2, but does include converting UFO 3 anchors to the standard way of handling them in UFO 2
-- If a project uses non-standard files within the UFO folder, they are deleted
-
 ## fontTools
 
 fontTools is a library useful for manipulating TrueType and OpenType fonts (e.g. `.ttf` files). The project also includes the TTX command-line tool, which can convert TrueType and OpenType fonts (or individual tables within a font) to and from an XML text format (also called TTX). It supports TrueType, OpenType, AFM and, to an extent, Type 1 and some Mac-specific formats.

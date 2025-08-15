@@ -16,7 +16,7 @@ UFO is actually not one single standard. There are multiple versions, or 'flavor
 - *UFO 2* - The most common version (since 2009), with the broadest application support. Only slightly different from UFO 1. Still lacks some basic features, such as explicit glyph anchor elements.
 - *UFO 3* - A much-improved and expanded spec from 2012.
 
-**We currently recommend the UFO3 format.**
+**We currently recommend the UFO3 format.** There is a script - `psfnormalize` - that can convert between UFO 2 and UFO 3 with some limitations. See below for details.
 
 There are [various discussions][ufo-issues] going on concerning future UFO versions beyond 3, by both the original UFO authors and others, but there is no clear successor at this point.
 
@@ -53,7 +53,17 @@ The [pysilfont] project provides one style of UFO normalization through the `psf
 - Review changes via your version control client
 - Commit your changes
 
-The normalization scheme imposed by psfnormalize has been reviewed by many people and although it is not a standard, it is reasonably well accepted by those who care about UFO normalization. **We recommend that any UFO-based font projects stored in version control repositories always store the UFO in normalized form as set by psfnormalize.**
+The normalization scheme imposed by `psfnormalize` has been reviewed by many people and although it is not a standard, it is reasonably well accepted by those who care about UFO normalization. **We recommend that any UFO-based font projects stored in version control repositories always store the UFO in normalized form as set by `psfnormalize`.**
+
+Scripts that use pysilfont's built-in UFO library will automatically normalize UFOs, making a separate run of `psfnormalize` unnecessary.
+
+## UFO conversion
+
+The `psfnormalize` script can also convert between the UFO 2 and UFO 3 formats, normalizing them in the process. For example, `psfnormalize -v 3 ufo2font.ufo` will convert a UFO 2 font to a normalized UFO 3 format. There are known limitations:
+
+- UFO 3 specific folders (data and images) are preserved, even if present in a UFO 2 font.
+- Converting from UFO 3 to UFO 2 only handles data that has a place in UFO 2, but does include converting UFO 3 anchors to the standard way of handling them in UFO 2.
+- If a project uses non-standard files within the UFO folder, they are deleted.
 
 ## Example projects
 
