@@ -37,3 +37,16 @@
     /* set color of body text to black */
     --sl-color-text: hsl(255, 0%, 0%);
     }
+
+.external-link-icon {
+                    display:inline-flex;
+					position:relative;
+                    top:3px;
+					}
+
+.external-link-icon img{
+                    height:1rem;
+					margin:0 0 0 2px;
+					width:1rem;
+}
+
