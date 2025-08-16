@@ -54,9 +54,9 @@ secondary and tertiary order. Strings are then compared at the primary order and
 if there is a difference, then that gives the result. If there is not then the
 strings are compared with their secondary orders and if necessary tertiary
 orders. Unicode has a Default Unicode Collation Element Table (DUCET) that has a set of
-default keys convering every character in Unicode. This default ordering is
+default keys covering every character in Unicode. This default ordering is
 pretty good, but languages often want some difference from that. For this, a
-langauge can provide a tailoring of the default collation order. There is a
+language can provide a tailoring of the default collation order. There is a
 standard syntax for describing this and applications can make use of that.
 
 ## Segmentation
@@ -65,7 +65,7 @@ There are a number of contexts in which text needs to be broken into sub
 strings. For example, when double clicking to select a word, or when line
 breaking. Just breaking on spaces is insufficient. For example, when double
 clicking does one include the initial quotation marks or final period? Then
-there are the many langauges that do not have inter word spaces. How do we
+there are the many languages that do not have inter word spaces. How do we
 decide where to break a line? See [Line Breaking](topics/layout/line_breaking)
 for more details.
 
@@ -77,7 +77,7 @@ of the text changes.
 
 ## Spell Checking
 
-Spell checking involves looking up words in a langauge in a lexicon. A lexicon
+Spell checking involves looking up words in a language in a lexicon. A lexicon
 is a list of possible words in a language, which is much like a dictionary but
 with just the head words and no description. Unfortunately, getting from the
 surface form of a word to its components in the lexicon can be far from trivial.
@@ -102,11 +102,11 @@ cases a converter has to be created for each language.
 
 Linguistic computing is currently undergoing something of a revolution as some
 long standing difficult problems are starting to fall at the feet of large
-langauge models. These include problems like converting text to audible speech
+language models. These include problems like converting text to audible speech
 or the reverse: speech to text. Machine translation is also a task that LLMs
 help with. Given we are at the start of such a revolution, the support is
 particularly weak for what are classed as digitally disadvantaged languages and
-is highly application specific. This means that the general principles of
+is highly application-specific. This means that the general principles of
 description and sharing between applications are yet to be worked out.
 This does not, though, reduce the demand and expectation of users of languages
 that they not be left behind.
