@@ -38,7 +38,7 @@ export default defineConfig({
                             ad_personalization: 'denied', 
                             analytics_storage: 'denied',
                         });
-                        gtag('config', ${googleAnalyticsId});`
+                        gtag('config', '${googleAnalyticsId}');`
                 }
             ],
             markdown: {
