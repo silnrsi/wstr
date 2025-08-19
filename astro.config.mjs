@@ -6,6 +6,8 @@ import astroBrokenLinksChecker from 'astro-broken-links-checker';
 import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
 
+const googleAnalyticsId = 'G-RZ7NPXWX10'
+
 // https://astro.build/config
 export default defineConfig({
     site: process.env.ASTRO_SITE,
@@ -17,23 +19,26 @@ export default defineConfig({
                 {
                     tag: 'script',
                     attrs: { 
-                        async:true,
-                        src: 'https://www.googletagmanager.com/gtag/js?id=G-RZ7NPXWX10'
+                        defer: true,
+                        src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`
                     }
                 },
                 {
                     tag: 'script',
+                    attrs: { 
+                        defer: true 
+                    },
                     content: `
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
-                        gtag("consent", "default", {
-                            ad_storage: "denied", 
-                            ad_user_data: "denied", 
-                            ad_personalization: "denied", 
-                            analytics_storage: "denied",
+                        gtag('consent', 'default', {
+                            ad_storage: 'denied', 
+                            ad_user_data: 'denied', 
+                            ad_personalization: 'denied', 
+                            analytics_storage: 'denied',
                         });
-                        gtag('config', 'G-RZ7NPXWX10');`
+                        gtag('config', ${googleAnalyticsId});`
                 }
             ],
             markdown: {
