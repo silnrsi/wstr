@@ -88,7 +88,7 @@ This is one of the most human-friendly ways that SLDR data can be accessed by th
 If enough data is gathered in an SLDR file that it can fulfill the minimum requirements for CLDR inclusion, the locale would be eligible for submission to the CLDR. 
 
 For more information on CLDR coverage levels and minimum data requirements, see these pages on cldr.unicode.org's [CLDR Specifications][uni-cldr] page:
-- [Core Data for New Locales][core-data]: A summary of the minimum reqs for a locale to be submitted to the CLDR.
+- [Core Data for New Locales][core-data]: A summary of the minimum requirements for a locale to be submitted to the CLDR.
 - [Coverage Levels][coverage]: A summary of all of the coverage tiers within the CLDR, beyond the bare minimum. 
 
 
