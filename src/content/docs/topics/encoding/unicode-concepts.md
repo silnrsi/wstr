@@ -76,11 +76,11 @@ This example is useful as it contains each of the different types of basic eleme
 
 The first line of an entry always shows the Unicode scalar value (without the prefix “U+”), the representative glyph, and the character name.
 
-If a character is also known by other names, these are given next on lines beginning with the equal sign “=”. If there are multiple aliases, they will appear one per line. These are generally given in lower case. In some cases, they will appear in all caps; that indicates that the alternate name was the name used in TUS 1.0, prior to the merger with ISO/IEC 10646.
+If a character is also known by other names, these are given next on lines beginning with the equal sign “=”. If there are multiple aliases, they will appear one per line. These are generally given in lower case. In some cases, they will appear in all caps; that indicates that the [alternate name was the name used in TUS 1.0][uni-ch4.9], prior to the merger with ISO/IEC 10646.
 
 Lines beginning with bullets “&#x00B7;” are informative notes. Generally, these are added to clarify the identity of the character. For example, the note shown above helps to prevent confusion with an over-striking (combining) macron. Informative notes may also be added to point out special properties or behaviour, such as a case mapping that might otherwise not have been expected. Notes are also often added to indicate particular languages for which the given character is used.
 
-Lines that begin with arrows “&#x2192;” are cross-references. The most common purpose of cross-references is to highlight distinct characters with which the given character might easily be confused. For example, U+00AF is similar in appearance to U+02C9, but the two are distinct. Another use of cross-references is to point to other characters that are in some linguistic relationship with the given character, such as the other member of a case pair (see, for instance, U+0272 LATIN SMALL LETTER N WITH LEFT HOOK), or a transliteration (see, for instance, U+045A CYRILLIC SMALL LETTER NJE).
+Lines that begin with arrows “&#x2192;” are cross-references. The most common purpose of cross-references is to highlight distinct characters with which the given character might easily be confused. For example, U+00AF is similar in appearance to U+02C9, but the two are distinct. Another use of cross-references is to point to other characters that are in some linguistic relationship with the given character, such as the other member of a case pair (see, for instance, U+0272 &#x0272; LATIN SMALL LETTER N WITH LEFT HOOK), or a transliteration (see, for instance, U+045A &#x045A; CYRILLIC SMALL LETTER NJE).
 
 Lines that begin with an equivalence sign “≡” or an approximate equality sign “≈” are used to indicate canonical and compatibility decompositions respectively.
 
@@ -92,7 +92,7 @@ As you look through the code charts and the names list, bear in mind that this i
 
 There are additional things you need to know in order to work with the characters in Unicode, particularly if you are trying to determine how the writing-system of a lesser-known language should be represented in Unicode. Before we look further at the details of the Unicode character set, however, we will explore the various encoding forms and encoding schemes used in Unicode.
 
-## Transformation Formats
+## <a id='transformation'></a>Transformation Formats
 
 **All text should be read and interpreted according to the proper encoding and transformation format.**
 
@@ -182,7 +182,7 @@ The question of support for supplementary-plane characters does not necessarily 
 
 In general, when choosing software, you should verify whether it supports the encoding forms you would like to use. For both UTF-8 and UTF-16, you should explicitly verify whether the software is able to support supplementary-plane characters, if that is important to you. 
 
-### Byte order: Unicode encoding schemes
+### <a id='byteorder'></a>Byte order: Unicode encoding schemes
 
 As explained in “[Character set encoding basics][iws-character-encoding-basics]”, 16- and 32-bit encoding forms raise an issue in relation to byte ordering. While code units may be larger than 8-bits, many processes are designed to treat data in 8-bit chunks at some level. For example, a communication system may handle data in terms of bytes, and certainly memory addressing with personal computers is organised in terms of bytes. Because of this, when 16- or 32-bit code units are involved, these may get handled as a set of bytes, and these bytes must get put into a serial order before being transmitted over a wire or stored on a disk.
 
@@ -218,13 +218,57 @@ It should be pointed out that the codepoint U+FEFF has a second interpretation: 
 
 The use of the BOM works in exactly the same way for UTF-32, except that the BOM is encoded as four bytes rather than two.
 
-Note that the BOM is useful for data stored in files or being transmitted, but it is not needed for data in internal memory or passed through software programming interfaces. In those contexts, a specific byte order will generally be assumed.20
+Note that the BOM is useful for data stored in files or being transmitted, but it is not needed for data in internal memory or passed through software programming interfaces. In those contexts, a specific byte order will generally be assumed.
 
 The byte order mark is often considered to have another benefit aside from specifying byte order: that of identifying the character encoding. In most if not all existing legacy encoding standards, the byte sequences 0xFE 0xFF and 0xFF 0xFE are extremely unlikely. Thus, if a file begins with this value, software can infer with a high level of confidence that the data is Unicode, and also be able to deduce the encoding form. This also applies for UTF-32, though in that case the byte sequences would be 0x00 0x00 0xFE 0xFF and 0xFF 0xFE 0x00 0x00. It is also applicable in the case of UTF-8. In that case, the encoded representation of U+FEFF is 0xEF 0xBB 0xBF.
 
 When the BOM is used in this way to identify the character set encoding of the data, it is referred to as an **encoding signature**.
 
+### <a id='char-unification'></a>Compromises in the principle of unification
+
+The first type of duplication we will consider involves a simple violation of unification: Unicode has pairs of characters that are effectively one-for-one duplicates. For instance, U+212A KELVIN SIGN “K” was encoded as a distinct character from U+004B LATIN CAPITAL LETTER K because these were distinguished in some source standard; otherwise, there is no need to distinguish these in shape or in terms of how they are processed. The same situation applies to other pairs, such as U+212B ANGSTROM SIGN versus U+00C5 LATIN CAPITAL LETTER A WITH RING ABOVE, and U+037E GREEK QUESTION MARK versus U+003B SEMICOLON.
+
+In the source legacy standards, the two characters in a pair would have been assumed to have distinct functions. In these cases, however, the distinctions can be considered artificial. For example, in the case of the Kelvin sign and the letter K, there is no distinction in shape or in how they are to be handled by text processes. This is purely a matter of interpretation at a higher level. Distinguishing these would be like distinguishing the character “I” when used as an English pronoun from “I” used as an Italian definite article. This is not the type of distinction that needs to be reflected in a character encoding standard.
+
+In TUS 3.1, there were over 800 exact duplicates for Han ideographs. These are located in the CJK Compatibility Ideographs (U+F900..U+FAFF) and the CJK Compatibility Ideographs Supplement (U+2F800..U+2FA1F) blocks. Note, however, that not every character in the former block is a duplicate. As the characters were being collected from various sources, these were prepared as a group and kept together. There are, in fact, twelve characters in this block that are unique and are not duplicates of any other character, such as U+FA0E &#xFA0E; CJK COMPATIBILITY IDEOGRAPH-FA0E. Thus, you need to pay close attention to details in order to know what the status of any character is. In particular, you cannot assume that a character is a duplicate just because it is in the compatibility area of the BMP (U+F900..U+FFFF) or is from a block that has “compatibility” in the name.
+
+Beyond the duplicate Han characters, there are another 33 of these singleton (one-to-one) duplicates in the lower end of the BMP, most of them in the Greek (U+0370..U+03FF) or Greek Extended (U+1F00..U+1FFF) blocks.
+
+### <a id='char-dynamic-comp'></a>Compromises in the principle of dynamic composition
+
+The second type of duplication we will look at involves cases in which a character duplicates a sequence of characters. As described in [Dynamic Composition][iws-dynamic-composition], a text element may be represented as a combining character sequence. For instance, Latin a-circumflex with dot-below “&#x0061;&#x0323;&#x0302;” can be represented as a sequence <U+0061 LATIN SMALL LETTER A, U+0323 COMBINING DOT BELOW, U+0302 COMBINING CIRCUMFLEX ACCENT>. In such cases, it is assumed that an appropriate rendering technology will be used that can do the glyph processing needed to correctly position the combining marks. In many cases, however, legacy standards encoded precomposed base-plus-diacritic combinations as characters rather than composing these combinations dynamically. As a result, it was necessary to include precomposed characters such as U+1EAD &#x1EAD; LATIN SMALL LETTER A WITH CIRCUMFLEX AND DOT BELOW in Unicode.
+
+Unicode has a very large number of precomposed characters, including 730 for Greek and Latin, and over 11,000 for Korean! Most of the Latin Extended Additional (U+1E00..U+1EFF) and the Greek Extended (U+1F00..U+1FFF) blocks and the entire Hangul Syllables block (U+AC00..U+D7AF) are filled with precomposed characters. There are also over 200 precomposed characters for Japanese, Cyrillic, Hebrew, Arabic and various Indic scripts.
+
+Not all of the precomposed characters are from scripts used in writing human languages. There are a few dozen precomposed mathematical operators; for example, U+2260 NOT EQUAL TO, which can also be represented as the sequence &lt;U+003D EQUALS SIGN, 0338 COMBINING LONG SOLIDUS OVERLAY&gt;. There are also 13 precomposed characters for Western musical symbols in Plane 1; for example U+1D15F MUSICAL SYMBOL QUARTER NOTE, which can also be represented as the sequence &lt;U+1D158 MUSICAL SYMBOL NOTEHEAD BLACK, U+1D165 MUSICAL SYMBOL COMBINING STEM&gt;.
+
+Precomposed characters go against the principle of dynamic composition, but also against the principle that Unicode encodes abstract characters rather than glyphs. In principle, it should be possible for a combining character sequence to be rendered so that the glyphs for the combining marks are correctly positioned in relation to the glyph for the base, or even so that the character sequence is translated into a single precomposed glyph. In these cases, though, that glyph is directly encoded as a distinct character.
+
+There are other cases in which the distinction between characters and glyphs is compromised. Those cases have some significant differences from the ones we have considered thus far. Before continuing, though, there are some important additional points to be covered in relation to the characters described in "<a href='#char-unification'>Compromises in the principle of unification</a>" and "<a href='char-dynamic-comp'>Compromises in the principle of dynamic composition</a>". We will return to look at the remaining areas of compromise in "<a href='#char-glyph'>Compromises in the distinction between characters and glyphs</a>". 
+
+### <a id='char-glyph'></a>Compromises in the distinction between characters and glyphs
+
+Returning to our discussion of compromises in the design principles, the next cases we will look at blur the distinction between characters and glyphs. As explained earlier, Unicode assumes that software will support rendering technologies that are capable of the glyph processing needed to handle selection of contextual forms and ligatures. Such capability was not always available in the past, however. The result is that Unicode includes a number of cases of **presentation forms**—glyphs that are directly encoded as distinct characters but that are really only rendering variants of other characters or combinations of characters. For example, U+FB01 &#xFB01; LATIN SMALL LIGATURE FI encodes a glyph that could otherwise be represented as a sequence of the corresponding Latin characters.
+
+There are five blocks in the compatibility area that primarily encode presentation forms. Two of these are the Arabic Presentation Forms-A block (U+FB50..U+FDFF) and the Arabic Presentation Forms-B block (U+FE70..U+FEFF). These blocks mostly contain characters that correspond to glyphs for Arabic ligatures and contextual shapes that would be found in different connective relationships with other glyphs (initial, medial, final and isolate forms). So, for example, U+FEEC &#xFEEC; ARABIC LETTER HEH MEDIAL FORM encodes the glyph that would be used to present the Arabic letter heh (nominally, the character U+0647 ARABIC LETTER HEH) when it is connected on either side. Unicode includes 730 such characters for Arabic presentation forms.
+
+Characters like this constitute duplicates of other characters. There is a difference between this situation and that described in "<a href='#char-unification'>Compromises in the principle of unification</a>" and "<a href='char-dynamic-comp'>Compromises in the principle of dynamic composition</a>", however. In the case of the singleton duplicates, the two characters were, for all intents and purposes, identical: in principle, they could be exchanged in any situation without any impact on text processing or on users. Likewise for the precomposed characters and the corresponding (fully or partially) decomposed sequences. In the case of the Arabic presentation forms, though, they are equivalent only in certain rendering contexts. For example, U+FEEC could not be considered equivalent to a word-initial occurrence of U+0647. For situations like this, Unicode defines a lesser type of equivalence known as compatibility equivalence: two characters are in some sense duplicates but with some limitations and not necessarily in all contexts. Formally, the compatibility equivalence relationship between two characters is shown in a compatibility decomposition mapping that is part of the Unicode character properties. The relationship between compatibility equivalence and canonical equivalence are discussed in <a href='#decomp'>"(De)Composition & Normalization"</a>.
+
+In general, use of the characters in the Arabic Presentation Forms blocks is best avoided whenever possible. Note, though, that these blocks contain three characters that are unique characters and are not duplicates of any others: U+FD3E &#xFD3E; ORNATE LEFT PARENTHESIS, U+FD3F &#xFD3F; ORNATE RIGHT PARENTHESIS and U+FEFF ZERO WIDTH NO-BREAK SPACE. As we saw earlier, you need to check the details on characters in the Standard before you make assumptions about them.
+
+The other three blocks that contain primarily presentation forms are the Alphabetic Presentation Forms block (U+FB00..U+FB4F), the CJK Compatibility Forms block (U+FE30..U+FE4F), and the Combining Half Marks block (U+FE20..U+FE2F). The first of these contains various Latin, Armenian and Hebrew ligatures, such as the “&#xFB01;” ligature mentioned above. This block also has wide variants of certain Hebrew letters, which were used in some legacy systems for justification of text, and two Hebrew characters that are no more than font variants of existing characters. The CJK Compatibility Forms block contains rotated variants of various punctuation characters for use in vertical text; for example, U+FE35 &#xFE35; PRESENTATION FORM FOR VERTICAL LEFT PARENTHESIS. Finally, the Combining Half Marks block contains presentation forms representing the left and right halves of glyphs for diacritics that span multiple base characters; for example, U+FE22 &#xFE22;  COMBINING DOUBLE TILDE LEFT HALF and U+FE23 &#xFE23; COMBINING DOUBLE TILDE RIGHT HALF. These are not variants of other characters or sequences of characters. Rather, pairs of these are variants of other characters. Unicode does not formally define any type of equivalence that covers such situations.
+
+Outside the compatibility area at the top of the Basic Multilingual Plane, there are no characters for contextual presentation forms (like the Arabic positional variants), and there are but a handful of ligatures, such as U+0587 &#x0587; ARMENIAN SMALL LIGATURE ECH YIWN, and U+0EDC &#x0EDC; LAO HO NO.
+
+### <a id='char-graph'></a>Compromises in the distinction between characters and graphemes
+
+The next category of compromise has to do with the distinction between characters and graphemes. In particular, Unicode includes some characters for Latin digraphs. For example, U+01F2 &#x01F2; LATIN CAPITAL LETTER D WITH SMALL LETTER Z and U+1E9A &#x1E9A; LATIN SMALL LETTER A WITH RIGHT HALF RING. Most of these are to be found in the Latin Extended-B block (U+0180..U+024F). Others are in the Latin Extended-A block (U+0100..U+017F), and there is one (U+1E9A) in the Latin Extended Additional block (U+1E00..U+1EFF).
+
+All of these digraphs are duplicates for sequences involving the corresponding pairs of characters. In each case, Unicode designates the digraph character to be a compatibility equivalent to the corresponding sequence.
+
 ## Character Properties
+
+### Character semantics and behaviours
 
 Software creates the impression of understanding the behaviours of writing systems by attributing **semantic character properties** to encoded characters. These properties represent parameters that determine how various text processes treat characters. For example, the SPACE character needs to be handled differently by a line-breaking process than, say, the U+002C  COMMA character. Thus, U+0020 SPACE and U+002C COMMA have different properties with respect to line-breaking.
 
@@ -233,14 +277,6 @@ One of the distinctive strengths of Unicode is that the Standard not only define
 In addition to the semantic properties, Unicode also provides reference algorithms for certain complex processes for which the correct implementation may not be self evident. In this way, the Standard is not only defining semantics properties for characters, but is also guiding how semantics should be interpreted. This has an important benefit for users in that it leads to more consistent behaviour between software implementations. There is also a benefit for software developers who are suddenly faced with supporting a wide variety of languages and writing systems: they are provided with important information regarding how characters in unfamiliar scripts behave.
 
 **It is important that characters are used in a way that is consistent with their properties**
-
-### Character semantics and behaviours
-
-As explained in “[Character set encoding basics][iws-character-encoding-basics]”, software creates the impression of understanding the behaviours of writing systems by attributing **semantic character properties** to encoded characters. These properties represent parameters that determine how various text processes treat characters. For example, the SPACE character needs to be handled differently by a line-breaking process than, say, the U+002C , COMMA character. Thus, U+0020  SPACE and U+002C , COMMA have different properties with respect to line-breaking.
-
-One of the distinctive strengths of Unicode is that the Standard not only defines a set of characters, but also defines a number of semantic properties for those characters. Unicode is different from most other character set encoding standards in this regard. In particular, this is one of the key points of difference between Unicode and ISO/IEC 10646.
-
-In addition to the semantic properties, Unicode also provides reference algorithms for certain complex processes for which the correct implementation may not be self evident. In this way, the Standard is not only defining semantics properties for characters, but is also guiding how semantics should be interpreted. This has an important benefit for users in that it leads to more consistent behaviour between software implementations. There is also a benefit for software developers who are suddenly faced with supporting a wide variety of languages and writing systems: they are provided with important information regarding how characters in unfamiliar scripts behave.
 
 ### Where the character properties are listed and described
 
@@ -304,9 +340,9 @@ Space does not permit a detailed description of all of these properties. General
 
 The control, format and other special characters are discussed in [Chapter 23][uni-ch23] of TUS. Numbers are described in [Chapter 22][uni-ch22-numerals] and in most of the various sections covering different scripts in Chapters 7–20. Punctuation and spaces are discussed in [Chapter 6][uni-ch6] of TUS. Symbols are the topic of [Chapter 22][uni-ch22] of TUS. Line and paragraph separators are covered in [Chapter 5][uni-ch5.8].
 
-**It will be worth describing letters and case in a little more detail, and we will do so after finishing this general survey of character properties. <a href='#comb-marks'>Combining marks</a> will also be discussed.**
+It will be worth describing letters and case in a little more detail, and we will do so after finishing this general survey of character properties. <a href='#comb-marks'>Combining marks</a> will also be discussed.
 
-Returning to our discussion of the fields in the `UnicodeData.txt` database file, the fourth, fifth and sixth fields contain particularly important properties: the **Canonical Combining Classes**, **Bi-directional Category** and **Decomposition Mapping** properties. Together with the general category properties, these three properties are the most important character properties defined in Unicode. Accordingly, each of these will be given additional discussion. The canonical combining classes are relevant only for combining marks (characters with general category properties of Mn, Mc and Me), and will be described in more detail in <a href='#canonical'>"Canonical Ordering"</a>. The bi-directional categories are used in relation to the bi-directional algorithm, which is specified in [UAX #9][uni-utr9]. I will provide a brief outline of this in <a href='#rendering'>"Rendering Behaviors"</a>. Finally, the character decomposition mappings specify canonical and compatibility equivalence relationships. I will discuss this further in <a href='#decomp'>"(De)Composition & Normalization"</a>.
+Returning to our discussion of the fields in the `UnicodeData.txt` database file, the fourth, fifth and sixth fields contain particularly important properties: the **Canonical Combining Classes**, **Bi-directional Category** and **Decomposition Mapping** properties. Together with the general category properties, these three properties are the most important character properties defined in Unicode. Accordingly, each of these will be given additional discussion. The canonical combining classes are relevant only for combining marks (characters with general category properties of Mn, Mc and Me), and will be described in more detail in <a href='#canonical'>"Canonical Ordering"</a>. The bi-directional categories are used in relation to the bi-directional algorithm, which is specified in [UAX #9][uni-utr9]. I will provide a brief outline of this in <a href='#rendering'>"Rendering Behaviors"</a>. Finally, the character decomposition mappings specify canonical and compatibility equivalence relationships. We will discuss this further in <a href='#decomp'>"(De)Composition & Normalization"</a>.
 
 Most of the next six fields contain properties that are of more limited significance. Fields seven to nine relate to the numeric value of numbers (characters with general category properties (Nd, Nl and No)). These are covered in [Section 4.6 of TUS][uni-ch4.6]. The tenth field contains the **Mirrored** property, which is important for right-to-left scripts, and is described in [Section 4.7 of TUS][uni-ch4.7] and also in [UAX #9][uni-utr9] (the bi-directional algorithm). I will say more about it in <a href='#rendering'>"Rendering Behaviors"</a>. Fields eleven and twelve contain the Unicode 1.0 Name and 10646 properties.
 
@@ -390,7 +426,7 @@ NFC often provides the most compact storage. NFD may provide advantages for work
 
 **Applications should not assume any normalization on data input unless it controls the data source, and should generally output data in NFC.** See [To compose or decompose: that is the question][compose-decompose].
 
-### Character decomposition mappings (merge with above topic)
+### Character decomposition mappings
 
 The notions of canonical and compatibility equivalence were introduced in "<a href='#decomp'>(De)Composition & Normalization</a>." There, we saw cases in which a Unicode character is identical in meaning to a decomposed sequence of one or more characters, and that these two representations are said to be canonically equivalent. We also considered other cases in which a Unicode character duplicates a sequence of one or more characters in some more limited sense: the two representations are equivalent in certain contexts only, or the one character is equivalent to the sequence when supplemented with certain non-textual information. In these cases, the two representations are said to be compatibility equivalent.
 
@@ -461,11 +497,9 @@ Tag|Sample character|Decomposition mapping for sample
 
 _Table 4: Examples of different types of compatibility decomposition mappings_
 
-WORK NEEDED
+Note that the &lt;compat&gt; tag is used for a variety of characters that stand in one of several types of relationship to their corresponding decomposed counterparts. For example, the ligature presentation forms described in "<a href='#char-glyph'>Compromises in the distinction between characters and glyphs</a>" and the digraphs described in "<a href='#char-graph'>Compromises in the distinction between characters and graphemes</a>" use this tag. It is also used for several of the types of compatibility decomposition described in <a href='#appB-compat'>“Appendix B: A review of characters with compatibility decompositions”</a>.
 
-Note that the &lt;compat&gt; tag is used for a variety of characters that stand in one of several types of relationship to their corresponding decomposed counterparts. For example, the ligature presentation forms described in **Section 6.4 (compromises in the distinction between characters and glyphs) and the digraphs described in Section 6.5** use this tag. It is also used for several of the types of compatibility decomposition described in <a href='#appB-compat'>“Appendix B: A review of characters with compatibility decompositions”</a>.
-
-Some cases of equivalence involve one-to-one relationships, for example in the case of the exact character duplicates discussed in **Section 6.1**. Hence, not all of the decomposition mappings contain sequences of two or more characters, as illustrated in the following figure:
+Some cases of equivalence involve one-to-one relationships, for example in the case of the exact character duplicates discussed in "<a href='#char-unification'>Compromises in the principle of unification</a>". Hence, not all of the decomposition mappings contain sequences of two or more characters, as illustrated in the following figure:
 
 ```
 212A;KELVIN SIGN;Lu;0;L;004B;;;;N;DEGREES KELVIN;;;006B;
@@ -513,7 +547,7 @@ Resources:
 
 ## <a id='rendering'></a>Rendering Behaviors
 
-the Unicode character set assumes a design principle of encoding characters but not glyphs. This in turn implies an assumption that applications that use Unicode will incorporate rendering processes that can do the glyph processing required to make text appear the way it should, in accordance with the rules of each given script and writing system. Unicode does not specify in complete detail how the rendering process should be done. There are a number of approaches that an application might utilise to deal with the many details involved, and it is outside the scope of the Unicode Standard to stipulate how such processing should be done.
+The Unicode character set assumes a design principle of encoding characters but not glyphs. This in turn implies an assumption that applications that use Unicode will incorporate rendering processes that can do the glyph processing required to make text appear the way it should, in accordance with the rules of each given script and writing system. Unicode does not specify in complete detail how the rendering process should be done. There are a number of approaches that an application might utilise to deal with the many details involved, and it is outside the scope of the Unicode Standard to stipulate how such processing should be done.
 
 This does not mean that Unicode has nothing to say regarding the rendering process, however. There are some key issues that pertain to the more complex aspects of rendering that require common implementation in order to ensure consistency across all implementations. For example, under certain conditions consonant sequences in Devanagari script can be represented as ligatures, though in certain circumstances the sequence can also be rendered with the first consonant in a reduced “half” form instead. It is considered necessary that this distinction be reflected in plain text, and thus in the encoding of data. It is important that different implementations employ the same mechanisms for controlling this, and so the encoding mechanism is defined as a normative part of the Unicode Standard. One implication of this is that Unicode specifies how that aspect of the rendering of Devanagari script is to be done.
 
@@ -611,7 +645,7 @@ Deprecated characters are encoded characters whose use is strongly discouraged f
 
 ## <a id='mapping-code'></a>Appendix A: Mapping codepoints to Unicode encoding forms
 
-In the section above (“Unicode encoding forms and encoding schemes”), we examined each of the three character encoding forms defined within Unicode. This section describes in detail the mappings from Unicode codepoints to the code unit sequences used in each encoding form.
+In the section above (“<a href='#transformation'>Transformation Formats</a>”), we examined each of the three character encoding forms defined within Unicode. This section describes in detail the mappings from Unicode codepoints to the code unit sequences used in each encoding form.
 
 In this description, the mapping will be expressed in alternate forms, one of which is a mapping of bits between the binary representation of a Unicode scalar value and the binary representation of a code unit. Even though a coded character set encodes characters in terms of numerical values that have no specific computer representation or data type associated with them, for purposes of describing this mapping, we are considering codepoints in the Unicode codespace to have a width of 21 bits. This is the number of bits required for binary representation of the entire numerical range of Unicode scalar values, 0x0 to 0x10FFFF.
 
@@ -788,7 +822,7 @@ Plane 1|991|1|U+1D400..U+1D7FF|100%
 
 _Table B.1. Characters with miscellaneous compatibility decompositions by area of the Unicode character set (this table is probably outdated)_
 
-Note that these numbers do not include the presentation forms and digraphs discussed in **Sections 6.4 and 6.5 of “Understanding Unicode™”**. The only significant impact on Table B.1 of including those additional characters would have been to bring the ratio quoted for the Compatibility area to nearly 80%. These numbers point to the fact that, while there are a large number of these special-case compatibility characters, most of them are in blocks that many users will not be dealing with. There is still a relatively small portion of them that many users will likely have to deal with, though, such as U+00B9 &#x00B9; SUPERSCRIPT ONE or U+0E33 &#x0E33; THAI CHARACTER SARA AM.
+Note that these numbers do not include the presentation forms and digraphs discussed in "<a href='#char-glyph'>Compromises in the distinction between characters and glyphs</a>" and "<a href='#char-graph'>Compromises in the distinction between characters and graphemes</a>". The only significant impact on Table B.1 of including those additional characters would have been to bring the ratio quoted for the Compatibility area to nearly 80%. These numbers point to the fact that, while there are a large number of these special-case compatibility characters, most of them are in blocks that many users will not be dealing with. There is still a relatively small portion of them that many users will likely have to deal with, though, such as U+00B9 &#x00B9; SUPERSCRIPT ONE or U+0E33 &#x0E33; THAI CHARACTER SARA AM.
 
 A significant number of these characters have one thing in common: they come from legacy character set standards defined for East Asia. Typically, those standards were designed for use with encoding systems that were capable of supporting very large character sets, rather larger than the number of characters commonly used for the writing systems of that region. This provided a luxury of being able to encode a wide variety of forms as individual characters, including things that otherwise would require non-trivial formatting and layout controls. Presumably, this was done because it was much easier to encode some complex combination as a single character and use it with software that had few capabilities with regard to formatting and layout control (especially before the days of operating systems that provide sophisticated graphic device support) rather than to develop more sophisticated software systems.
 
@@ -853,6 +887,7 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 [glo-supplement]: /reference/glossary#supplement
 
 [iws-character-encoding-basics]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter03&site_id=nrsi
+[iws-dynamic-composition]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#f4c798b1
 [res-code-converter]: https://r12a.github.io/app-conversion/
 [res-confusables]: https://util.unicode.org/UnicodeJsps/confusables.jsp
 [res-precomposed]: https://scriptsource.org/entry/r8cbwvep6z
@@ -872,7 +907,8 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 [uni-ch4.5]: https://www.unicode.org/versions/latest/core-spec/chapter-4/#G124142
 [uni-ch4]: https://www.unicode.org/versions/latest/core-spec/chapter-4/
 [uni-ch4.6]: https://www.unicode.org/versions/latest/core-spec/chapter-4/#G124206
-[uni-ch4.7]: https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-4/#G30078
+[uni-ch4.7]: https://www.unicode.org/versions/latest/core-spec/chapter-4/#G30078
+[uni-ch4.9]: https://www.unicode.org/versions/latest/core-spec/chapter-4/#G131216
 [uni-ch5.13]: https://www.unicode.org/versions/latest/core-spec/chapter-5/#G1050
 [uni-ch5.8]: https://www.unicode.org/versions/latest/core-spec/chapter-5/#G10213
 [uni-ch5]: https://www.unicode.org/versions/latest/core-spec/chapter-5/
