@@ -69,7 +69,7 @@ The specifications for LDML structure are described in [Unicode Technical Standa
 
 This is not an all-inclusive list of the potential elements that could be included in an LDML file, nor a complete representation of the actual file for Spanish in the CLDR or SLDR. Rather, it is an example of the formatting and some of the more easily-recognized information within, such as names of languages in said language (locale display names), an alphabet (exemplar characters), sort order (collation), and special elements unique to the SLDR. 
 
-Note that I also added the traditional separated 'LL' back into this example for the purpose of demonstration. It is no longer present as a separate multigraph in the current version of the CLDR. 
+Note that the traditional separated 'LL' has also been added back into this example for the purpose of demonstration. It is no longer present as a separate multigraph in the current version of the CLDR. 
 
 ## The Building Blocks of LDML
 
@@ -145,7 +145,7 @@ Ideally, every character-diacritic combination possible should be listed individ
 
 Similarly, multigraphs, such as the Spanish "ll", are sometimes included as separate entries, but this is not always consistent. Some files only list separate multigraphs that contain characters that do not appear by themselves. For example, many languages do not use "h" except for in the multigraph "ch". Ideally, {ch} would be listed in the main exemplar, while the solo "h" would be left out of the main and listed in the "auxiliary" exemplar instead. Some of these files do simply list "h" as an entry in the main exemplar anyway, but, like with diacritics, the other method is considered "better practice".  
 
-The above two practices regarding combining diacritics and multigraphs are ignored in cases where there are a huge amount of potential combinations, such as with Indic mantras. In those cases, they are listed separately. 
+The above two practices regarding combining diacritics and multigraphs are ignored in cases where there is a huge amount of potential combinations, such as with Indic mantras. In those cases, they are listed separately. 
 
 ***Auxiliary***
 
@@ -163,7 +163,7 @@ Here are a few good rules of thumb to determine if a character should be in the 
 
 The "index exemplar" is the list of characters one might use to categorize and sort an indexed list, such as a dictionary or glossary. Unlike the other exemplars, the index exemplar MUST be in the correct alphabetical order. 
 
-All characters in the index exempar must be uppercase (if applicable) versions of characters that appeared in the main or auxiliary exemplars, but not every character in the main exemplar necessarily belongs in the index exemplar. For example, Spanish dictionaries typically do not separate "a" from "á", resulting in "á appearing in the main exemplar, but "Á" being absent from the index exemplar. 
+All characters in the index exempar must be uppercase (if applicable) versions of characters that appeared in the main or auxiliary exemplars, but not every character in the main exemplar necessarily belongs in the index exemplar. For example, Spanish dictionaries typically do not separate "a" from "á", resulting in "á" appearing in the main exemplar, but "Á" being absent from the index exemplar. 
 
 On the other hand, a character from the auxiliary exemplar may need to be represented in the index as well. For example, if "v" is technically a loan character that only appears twice, but those two instances happen to be the first letter of the word (e.g. "vino" (wine) appears in a lot of languages in areas with a history of Spanish colonialism that otherwise don't use "v"), then that "v" from the auxiliary exemplar needs to be listed in the index exemplar as "V". 
 
@@ -321,7 +321,7 @@ An `sil:font` element can contain a variety of attributes, but the most importan
 
 The "name" attribute holds the name of the font. 
 
-The "types" attribute lists the context in which the font would be used. Currently, only one value is in use in the "types" attribute: "default", meaning this should be the de-facto font choice if the end user doesn't want to be given multiple options. Multiple fonts can be listed as "default", in which case the first font listed (usually the one with the name that appears earliest in the alphabet) would be treated as the true default by the LFF API.  
+The "types" attribute lists the context in which the font would be used. Currently, only one value is in use in the "types" attribute: "default", meaning this should be the de-facto font choice if the end user doesn't want to be given multiple options. Multiple fonts can be listed as "default", in which case the first font listed (usually the one with the name that appears earliest in the alphabet) would be treated as the true default by the [Language Font Finder (LFF)][lff] API.  
 
 The "types" attribute consists of a series of roles describing the context in which the font would be used, and the level of priority that font should be given in that context when compared to other listed fonts. Priority is indicated by an integer, with the highest values carrying the highest priority. A font with type="default=10" is a higher priority than a font with type="default=3", at least for the "default" role. A font can have multiple roles with individual priority values, such as "default=3 ui=5". The numbers themselves carry no meaning except as a way to compare the fonts in a list. If there are two fonts, and one has a priority value of 3, it does not matter if a higher priority font has a priority of 4 or 200, so long as it is a higher number. If a role is listed, but has no priority value, that value is assumed to be 1. 
 
@@ -369,7 +369,7 @@ Draft attributes are attributes that can be added to any element in an LDML file
 - Generated (SLDR only)
 - Suspect (SLDR only)
 
-CLDR draft attributes, as defined in the section ["Attribute draft" on page 1 of UTS #35][uni-utr35-attrib-draft], listed from least to greatest level of vetting, are "unconfirmed", "provisional", "contributed", and "approved". These are determined through the CLDR's Survey Tool, using the [CLDR Data Submission and Vetting Process][uni-cldr-data-submission]. "Unconfirmed" means that there has been no official vetting done via the Survey Tool for this data. "Provisional" means that there has been some vetting, but not enough for official confirmation. In leu of other data, a locale may choose to use elements labeled as "provisional" until higher-level data is added. "Contributed" is often referred to as "minimally/partially approved" by the CLDR technical committee, while "Approved" means that the information has been completely vetted to the CLDR's standards. If a draft attribute is not indicated for an element, it is assumed to be "Approved".  This is not a perfect system, but it helps the CLDR to make changes while maintaining data stability. 
+CLDR draft attributes, as defined in the section ["Attribute draft" on page 1 of UTS #35][uni-utr35-attrib-draft], listed from least to greatest level of vetting, are "unconfirmed", "provisional", "contributed", and "approved". These are determined through the CLDR's Survey Tool, using the [CLDR Data Submission and Vetting Process][uni-cldr-data-submission]. "Unconfirmed" means that there has been no official vetting done via the Survey Tool for this data. "Provisional" means that there has been some vetting, but not enough for official confirmation. In lieu of other data, a locale may choose to use elements labeled as "provisional" until higher-level data is added. "Contributed" is often referred to as "minimally/partially approved" by the CLDR technical committee, while "Approved" means that the information has been completely vetted to the CLDR's standards. If a draft attribute is not indicated for an element, it is assumed to be "Approved".  This is not a perfect system, but it helps the CLDR to make changes while maintaining data stability. 
 
 The SLDR adds four additional levels of vetting. From least to greatest level of confidence, these values are "suspect", "generated", "tentative", and "proposed". The difference between "tentative" and "proposed" is ambiguous, and as a result, these draft attributes are instead often left unused in favor of the CLDR's lowest level "unconfirmed". "Generated", as the name implies, refers to data generated using a primary text, usually a Bible translation project from the [Digital Bible Library (DBL)][dbl], and is automatically assigned to the appropriate elements during the data generation process. "Suspect" is also applied to data that has been generated, but from a process that is less refined and more likely to include errors. This lowest draft level is rarely used anymore, but is preserved for the files that contain old data with this attribute. 
 
@@ -406,7 +406,7 @@ Due to the existence of `root.xml`, many files have to chain through multiple pa
 Note that, while in the SLDR, elements to be inherited from a parent locale are simply absent from the child locale, the CLDR repository indicates that an element should inherit data from its parent with three upward-pointing arrows in the element's field, such as:
 
 ``` 
-<exemplarCharacters>↑↑↑</excemplarCharacters>
+<exemplarCharacters>↑↑↑</exemplarCharacters>
 ```
 This is a visual reminder of the inheritance process for human ease-of-use, and is not required. It does not appear in the SLDR, nor the final release of the CLDR. 
 
@@ -442,11 +442,11 @@ Escaping in a Unicode Set, as in a regular expression, is done by adding a backs
 
 Any character with a special meaning in a regex or Unicode Set needs to be escaped. For example, a hyphen is used to represent a range (e.g. "a-z" in a Unicode Set represents every character from a to z) and therefore needs to be escaped to simply represent itself. 
 
-Additionally, handful of characters require the whole character to be replaced with an HTML character reference, such as the ampersand, which is indicated as `\&amp;`. Notice that the escaping backslash is still present. The other two commonly-used character references are `&lt` and `&gt`, aka 'less than' (<) and 'greater than' (>). These do need to be written as their character references in an LDML file, but they do not need to be preceded by an escaping backslash like the ampersand. 
+Additionally, handful of characters require the whole character to be replaced with an HTML character reference, such as the ampersand, which is indicated as `\&amp;`. Notice that the escaping backslash is still present. The other two commonly-used character references are `&lt` and `&gt`, aka "less than" (<) and "greater than" (>). These do need to be written as their character references in an LDML file, but they do not need to be preceded by an escaping backslash like the ampersand. 
 
-A third situation that uses escaping is Unicode codepoints. If, for whatever reason, it is preferable to reference a character by its Unicode codepoint instead of by typing the actual character, it is written as `\uXXXX`, where 'X' indicates one of the characters in the 4-digit hex code. If the hex code is less than 4 digits long, zeros (0) should be used at the beginning to fill the remaining spaces. If the hex code is longer than 4 digits, it should instead be written as `\UXXXXXXXX`, with 8 total digits, once again with zeros filling in any empty spaces. While the initial 'u' after the backslash is case-sensitive, the characters of the hex code itself are not; `\u00E1` and `\u00e1` are the same. 
+A third situation that uses escaping is Unicode codepoints. If, for whatever reason, it is preferable to reference a character by its Unicode codepoint instead of by typing the actual character, it is written as `\uXXXX`, where 'X' indicates one of the characters in the 4-digit hex code. If the hex code is less than 4 digits long, zeros (0) should be used at the beginning to fill the remaining spaces. If the hex code is longer than 4 digits, it should instead be written as `\UXXXXXXXX`, with 8 total digits, once again with zeros filling in any empty spaces. While the initial "u" after the backslash is case-sensitive, the characters of the hex code itself are not; `\u00E1` and `\u00e1` are the same. 
 
-For example, 'A' has the unicode codepoint 'U+41', aka 'U+0041'. Therefore, the codepoint would be written as `\u0041`. Similarly, the Miao letter '𖼃' has the unicode codepoint 'U+16F03', so it would be written as `\U00016F03`.  
+For example, "A" has the unicode codepoint "U+41", aka "U+0041". Therefore, the codepoint would be written as `\u0041`. Similarly, the Miao letter "𖼃" has the unicode codepoint "U+16F03", so it would be written as `\U00016F03`.  
 
 This is most commonly used when the character will not display nicely when displayed in a coding environment, such as combining diacritics or invisible characters. It's also sometimes used when working on non-latin scripts, when the person working on the file doesn't have easy access to a keyboard that types the characters and doesn't want to copy-paste for the entire list. The latter use-case isn't necessarily recommended, but it technically works the same either way. 
 
@@ -454,11 +454,11 @@ This is most commonly used when the character will not display nicely when displ
 
 Multigraphs are an orthographic phenomenon in which two characters put together are treated as one single unit. In an LDML file, these are denoted by surrounding the grouped characters in curly brackets, such as the {LL} in the example at the top of this page. This is important because the spaces between individual characters are only in these lists for human convenience; they do not indicate anything on a codified scale, nor are they required for the LDML file to function properly. To a computer, [s t] and [st] mean the same thing, so if you want to specifically indicate that "st" is a multigraph, you need to enter it as [{st}].  
 
-Note that this is also required for any characters that use combining diacritics. This gets into the territory of Normalization, which is described in far greater detail in [Unicode Technical Standard #15][uni-utr15-normalization]. Essentially, some characters with diacritics have their own unique codepoint that is separate from the two individual codepoints for the character and combining diacritic. For example, 'á' is codepoint U+00E1, while 'a' is U+0061 and the combining acute accent is U+0301. In this case, since 'á' has a single codepoint, no brackets are needed. However, in cases where there is no single codepoint for a specific character-diacritic combination, brackets are needed to ensure that the diacritic remains "attached" to its respective character. 
+Note that this is also required for any characters that use combining diacritics. This gets into the territory of Normalization, which is described in far greater detail in [Unicode Technical Standard #15][uni-utr15-normalization]. Essentially, some characters with diacritics have their own unique codepoint that is separate from the two individual codepoints for the character and combining diacritic. For example, "á" is codepoint U+00E1, while "a" is U+0061 and the combining acute accent is U+0301. In this case, since "á" has a single codepoint, no brackets are needed. However, in cases where there is no single codepoint for a specific character-diacritic combination, brackets are needed to ensure that the diacritic remains "attached" to its respective character. 
 
-For example, there is no single codepoint for 'a̱'. It consists of 'a' (U+0061) and the combining macron below (U+0331). If left without brackets in an exemplar list, the regex would assume that 'a' and the macron were two separate letters of the alphabet. Written with brackets as '{a̱}', however, causes the regex to treat it as a single unit, just as it would act with 'á'. 
+For example, there is no single codepoint for "a̱". It consists of "a" (U+0061) and the combining macron below (U+0331). If left without brackets in an exemplar list, the regex would assume that "a" and the macron were two separate letters of the alphabet. Written with brackets as "{a̱}", however, causes the regex to treat it as a single unit, just as it would act with "á". 
 
-A good rule of thumb if you aren't sure if a diacritic is part of the same codepoint or not: hit the backspace after typing/copying the character. If the diacritic disappears, but the base character remains, the combined character is made of multiple codepoints. If both the base character and diacritic disappear simultaneously, they are already a single unique codepoint. Feel free to try it out with 'á' and 'a̱' right now, if you'd like. Just know that this does not work 100% of the time, so when in doubt, use the curly brackets. 
+A good rule of thumb if you aren't sure if a diacritic is part of the same codepoint or not: hit the backspace after typing/copying the character. If the diacritic disappears, but the base character remains, the combined character is made of multiple codepoints. If both the base character and diacritic disappear simultaneously, they are already a single unique codepoint. Feel free to try it out with "á" and "a̱" right now, if you'd like. Just know that this does not work 100% of the time, so when in doubt, use the curly brackets. 
 
 Additionally, make sure you understand [normalization][uni-utr15-normalization] and use the most composed version of the character possible (i.e. if there is a codepoint such as U+00E1 that combines the character and diacritic, prioritize using the composed one instead of placing two codepoints inside of the curly brackets). 
 
@@ -475,6 +475,7 @@ Multigraphs do not need brackets to mark them as a single unit in a collation se
 [dbl]: https://thedigitalbiblelibrary.org/ 
 [draft-attributes]: /topics/writingsystems/ldml/#draft-attributes
 [escaping]: /topics/writingsystems/ldml/#formatting-text-in-an-exemplar
+[lff]:/reference/glossary#lff
 [identity]: /topics/writingsystems/ldml/#identity
 [inheritance]: /topics/writingsystems/ldml/#inheritance
 [sil-fonts]: https://software.sil.org/fonts/

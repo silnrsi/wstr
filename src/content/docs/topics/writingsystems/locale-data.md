@@ -28,7 +28,7 @@ Locale Data refers to the data needed to present a user from a specific locale w
 - Numerical Data
   - Numerical system used in this locale, decimal marks (point, comma, etc), currency symbols, etc. 
 
-Companies that use data from the CLDR may supplement it or incorporate it into their own systems. This site will primarily focus on the CLDR and SLDR. Having locale data in the CLDR especially is an essential first step for a language to be recognized in the digital world. These repositories contain files written in LDML (Locale Data Markup Language) that define locale data for a wide range of locales. 
+Locale Data is stored within LDML (Local Data Markup Language) files, which are primarily hosted in the Unicode Common Locale Data Repository (CLDR). Companies that use data from the CLDR may supplement it or incorporate it into their own systems. This site will primarily focus on the CLDR and SLDR (SIL Locale Data Respository). Having locale data in the CLDR is an essential first step for a language to be recognized in the digital world. These repositories contain files written in LDML that define locale data for a wide range of locales. 
 
 ## More on this site: 
 
