@@ -39,6 +39,19 @@ export default defineConfig({
                             analytics_storage: 'denied',
                         });
                         gtag('config', '${googleAnalyticsId}');`
+                },
+                {
+                    tag: 'script',
+                    attrs: { 
+                        defer: true 
+                    },
+                    content: `
+                        gtag('consent', 'update', {
+                            ad_storage: 'denied', 
+                            ad_user_data: 'denied', 
+                            ad_personalization: 'denied', 
+                            analytics_storage: 'denied',
+                        });`
                 }
             ],
             markdown: {
