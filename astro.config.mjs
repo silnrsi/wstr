@@ -19,6 +19,21 @@ export default defineConfig({
                 {
                     tag: 'script',
                     attrs: { 
+                        defer: true 
+                    },
+                    content: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('consent', 'default', {
+                            ad_storage: 'denied', 
+                            ad_user_data: 'denied', 
+                            ad_personalization: 'denied', 
+                            analytics_storage: 'denied',
+                        });`
+                },
+                {
+                    tag: 'script',
+                    attrs: { 
                         defer: true,
                         src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`
                     }
@@ -32,12 +47,6 @@ export default defineConfig({
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
-                        gtag('consent', 'default', {
-                            ad_storage: 'denied', 
-                            ad_user_data: 'denied', 
-                            ad_personalization: 'denied', 
-                            analytics_storage: 'denied',
-                        });
                         gtag('config', '${googleAnalyticsId}');`
                 },
                 {
@@ -46,12 +55,10 @@ export default defineConfig({
                         defer: true 
                     },
                     content: `
-                        gtag('consent', 'update', {
-                            ad_storage: 'denied', 
-                            ad_user_data: 'denied', 
-                            ad_personalization: 'denied', 
-                            analytics_storage: 'denied',
-                        });`
+                        gtag('consent', 'update', {ad_storage: 'denied'}); 
+                        gtag('consent', 'update', {ad_user_data: 'denied'});
+                        gtag('consent', 'update', {ad_personalization: 'denied'}); 
+                        gtag('consent', 'update', {analytics_storage: 'denied'});`
                 }
             ],
             markdown: {
