@@ -28,7 +28,8 @@ For information on authorship and details of content used by permission see [Ack
 
 ## Privacy
 
-(to be added based on decisions regarding analytics and cookies)
+We do not collect, or transmit, any personally identifiable information for any purposes, nor use any cookies. We do not run advertising on this site. This site does store a small ammount of local data for maintaining the state of the side bar between visits, which never leaves you browser. We use Google Analytics to anonymously log page views only, with all consent options set to denied by default.
+This site is currently under development, and this policy may change at any time.
 
 ## Feedback
 
