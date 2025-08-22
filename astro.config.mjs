@@ -6,7 +6,7 @@ import astroBrokenLinksChecker from 'astro-broken-links-checker';
 import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
 
-const googleAnalyticsId = 'G-RZ7NPXWX10'
+const googleAnalyticsId = 'G-WHT6CVPT8M'
 
 // https://astro.build/config
 export default defineConfig({
