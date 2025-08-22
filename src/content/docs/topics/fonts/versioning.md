@@ -52,7 +52,7 @@ OpenType does not specify the content of the `head.fontRevision` field, but only
 - first 16 bits = _M_
 - second 16 bits = _int( .mpp * 65536 )_
 
-## Examples of version information:
+## Examples of version information
 
 | M | mpp | `head.fontRevision` | `name` version string |
 | --- | --- | --- | --- |

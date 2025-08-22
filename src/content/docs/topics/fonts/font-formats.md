@@ -27,7 +27,7 @@ Although many font tools can use production formats as source for derivative fon
 - [Unified Font Objects (UFO)][ufo] (.ufo) — for individual glyphs and fonts
 - [Designspace][designspace] (.designspace) - for defining font family structures
 
-UFO is a public, human-readable, text-based source format for storing font source data. It's now being used by many foundries, including Adobe, as their primary source format. [Read more about using UFO][unified-font-objects-ufo]. Designspace is a companion standard that can be use to define both the relationship between source UFOs in a font family and the instances generated from them in the production process.
+UFO is a public, human-readable, text-based source format for storing font source data. It's now being used by many foundries, including Adobe, as their primary source format. [Read more about using UFO][unified-font-objects-ufo]. Designspace is a companion standard that can be used to define both the relationship between source UFOs in a font family and the instances generated from them in the production process.
 
 All main font design and production tools support UFO import/export. The [glyphsLib][glyphslib] project provides a programmatic bridge between Glyphs and UFO formats.
 

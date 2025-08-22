@@ -34,7 +34,7 @@ fontTools is a library useful for manipulating TrueType and OpenType fonts (e.g.
 
 ## FontParts
 
-FontParts is a Python API for programmatically creating and editing parts of fonts during the type design process, and it is application-independent to allow scripts to be portable across multiple applications. 
+FontParts is a python API for programmatically creating and editing parts of fonts during the type design process, and it is application-independent to allow scripts to be portable across multiple applications. 
 
 Some of the Pysilfont scripts use FontParts as an alternative to the built-in UFO object library.
 

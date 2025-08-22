@@ -20,9 +20,9 @@ The most effective font family names (those seen in application menus, etc.) hav
 - They are not references to particular people, such as political leaders or recent cultural heroes. Legendary or historic names are much better, as long as they are not strongly exclusive to a certain subculture.
 - They may include spaces, but not numerals or any punctuation. There are some rare situations in which numbers can cause technical problems.
 
-New fontnames should be checked for conflicts with existing fonts. The easiest way to do that is to search on [namecheck.fontdata.com][namecheck], although a thorough Google search would also be a good idea.
+New font names should be checked for conflicts with existing fonts. The easiest way to do that is to search on [namecheck.fontdata.com][namecheck], although a thorough Google search would also be a good idea.
 
-**Because of technical limits on the combination of family name and style name the combined `Family Name StyleName` should be no more than 30 characters, including any spaces.** Some sources suggest that 27 is a safer limit. If a font family may someday include an `ExtraLightItalic` style, then the family name is effectively limited to 13 characters or less.
+**Because of technical limits on the combination of family name and style name the combined `FamilyName StyleName` should be no more than 30 characters, including any spaces.** Some sources suggest that 27 is a safer limit. If a font family may someday include an `ExtraLightItalic` style, then the family name is effectively limited to 13 characters or less.
 
 ## Font filenames
 
@@ -62,7 +62,7 @@ Within the OpenType font file, the naming table (tag `name`) allows multilingual
 
 ### Platform-specific names
 
-In the early days of TrueType and OpenType, different operating systems needed different encodings for these strings. Apple operating systems needed names stored using "script manager" encodings, while Microsoft operating systems used UCS-2. In those days for a font to work on multiple platforms, each name (e.g., the _family name_ or _style name_) had to be included in the name table multiple times (once for each platform).
+In the early days of TrueType and OpenType, different operating systems needed different encodings for these strings. Apple operating systems needed names stored using "script manager" encodings, while Microsoft operating systems used UCS-2. In those days for a font to work on multiple platforms, each name (e.g., the _family name_ or _style name_) had to be included in the naming table multiple times (once for each platform).
 
 While today's OpenType specification still permits inclusion of multiple platform-specific versions of each name, it is no longer necessary to do so, and they only serve to increase the size of the font file with no benefit. Operating systems generally use the PlatformID 3 (Windows) values.
 
