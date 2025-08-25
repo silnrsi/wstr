@@ -34,6 +34,13 @@ export default defineConfig({
                 {
                     tag: 'script',
                     attrs: { 
+                        defer: true,
+                        src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`
+                    }
+                },
+                {
+                    tag: 'script',
+                    attrs: { 
                         defer: true 
                     },
                     content: `
@@ -45,20 +52,15 @@ export default defineConfig({
                 {
                     tag: 'script',
                     attrs: { 
-                        defer: true,
-                        src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`
-                    }
-                },
-                {
-                    tag: 'script',
-                    attrs: { 
                         defer: true 
                     },
                     content: `
-                        gtag('consent', 'update', {ad_storage: 'denied'}); 
-                        gtag('consent', 'update', {ad_user_data: 'denied'});
-                        gtag('consent', 'update', {ad_personalization: 'denied'}); 
-                        gtag('consent', 'update', {analytics_storage: 'denied'});`
+                        gtag('consent', 'update', {
+                            ad_storage: 'denied', 
+                            ad_user_data: 'denied',
+                            ad_personalization: 'denied',
+                            analytics_storage: 'denied'
+                        });`
                 }
             ],
             markdown: {
