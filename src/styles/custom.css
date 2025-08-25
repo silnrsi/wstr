@@ -31,6 +31,10 @@
     border-bottom: 1px solid var(--sl-color-gray-5) !important;
 }
 
+.sl-markdown-content div.indent:not(:where(.not-content *)) {
+    margin-left: 3rem;
+}
+
 :root[data-theme='light'] {
     /* color of main SIL logo */
     --sl-color-accent: hsl(210.16, 100%, 36.27%);
