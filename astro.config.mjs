@@ -34,13 +34,6 @@ export default defineConfig({
                 {
                     tag: 'script',
                     attrs: { 
-                        defer: true,
-                        src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`
-                    }
-                },
-                {
-                    tag: 'script',
-                    attrs: { 
                         defer: true 
                     },
                     content: `
@@ -48,6 +41,13 @@ export default defineConfig({
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
                         gtag('config', '${googleAnalyticsId}');`
+                },
+                {
+                    tag: 'script',
+                    attrs: { 
+                        defer: true,
+                        src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`
+                    }
                 },
                 {
                     tag: 'script',
