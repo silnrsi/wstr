@@ -14,6 +14,7 @@ In the meantime see sections 7.1 to 7.4 of [Guidelines for Writing System Suppor
 [Keyman][keyman] provides keyboarding solutions for Windows, Mac, and Linux computers and also for Android and iOS touch devices (such as phones and tablets). A Keyman keyboard package provides a remapping of the keys of the physical keyboard (and optionally of touch devices), as described in the [From Keystrokes to Codepoints][from-keystrokes-to-codepoints] section. The same keyboard package can be used on any supported platform that has the Keyman "engine" for that platform installed. There is no charge for using Keyman or for downloading keyboards from the Keyman site.
 
 On the [Keyman][keyman] site, a user can type a language name into the search box to see what existing keyboards support that language. The user can, on the site, try the keyboard online and download a keyboard package to install.
+For example, click on the "Arabic" link and then, under the "Try this keyboard" heading, click in the text box and start typing. Or select the "Full Online Editor" button and, when the new page appears with the keyboard, start typing. Note that some links such as "Amharic" bring up an intermediate page with more choices.
 
 If no suitable keyboard exists, a user can download the [Keyman Developer][keyman-developer] tool and create a suitable keyboard layout. Users who create such a keyboard are encouraged to submit it to the Keyman keyboards repository so that others can benefit from having that keyboard freely available.
 
