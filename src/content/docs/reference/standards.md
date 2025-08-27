@@ -3,7 +3,7 @@ title: Standards
 description: Standards
 sidebar:
   order: 9200
-lastUpdated: 2024-11-11
+lastUpdated: 2025-08-27
 ---
 Many of the pages on this site will reference different standards. Below we list links to the various standards mentioned.
 
@@ -12,8 +12,6 @@ Many of the pages on this site will reference different standards. Below we list
 [ISO/IEC 10646][iso-10646] specifies the Universal Coded Character Set (UCS). It is intended to have the exact repertoire as is in The Unicode Standard. 
 
 [The Unicode Standard][unicode] -- the standards body for the internationalization of software and services. 
-
-[ISO/IEC TR 15285][iso-15285] -- information on glyphs and their relationship to characters.
 
 ## Languages
 
@@ -47,7 +45,6 @@ Many of the pages on this site will reference different standards. Below we list
 [cldr]: https://cldr.unicode.org/
 [ethnologue]: https://www.ethnologue.com/
 [iso-10646]: https://en.wikipedia.org/wiki/Universal_Coded_Character_Set
-[iso-15285]: https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html
 [iso-15924]: https://unicode.org/iso15924/iso15924-codes.html
 [iso-3166-1]: https://en.wikipedia.org/wiki/ISO_3166-1_numeric
 [iso-3166]: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
