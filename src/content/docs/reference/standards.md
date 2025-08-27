@@ -43,16 +43,16 @@ Many of the pages on this site will reference different standards. Below we list
 
 [CLDR (Unicode Common Locale Data Repository)][cldr] -- provides key building blocks for software to support the world’s languages, with the largest and most extensive standard repository of locale data available.
 
-[iso-10646]: https://en.wikipedia.org/wiki/Universal_Coded_Character_Set
-[unicode]: https://www.unicode.org/main.html
-[iso-15285]: https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html
-[iso-639]: http://www.infoterm.info/standardization/iso_639_1_2002.php
-[iso-639-3]: https://iso639-3.sil.org/
-[ethnologue]: https://www.ethnologue.com/
-[rolv]: https://globalrecordings.net/en/rolv
-[iso-15924]: https://unicode.org/iso15924/iso15924-codes.html
-[iso-3166]: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
-[iso-3166-1]: https://en.wikipedia.org/wiki/ISO_3166-1_numeric
 [bcp47]: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-[oltr]: https://learn.microsoft.com/en-us/typography/opentype/spec/ttoreg
 [cldr]: https://cldr.unicode.org/
+[ethnologue]: https://www.ethnologue.com/
+[iso-10646]: https://en.wikipedia.org/wiki/Universal_Coded_Character_Set
+[iso-15285]: https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html
+[iso-15924]: https://unicode.org/iso15924/iso15924-codes.html
+[iso-3166-1]: https://en.wikipedia.org/wiki/ISO_3166-1_numeric
+[iso-3166]: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
+[iso-639-3]: https://iso639-3.sil.org/
+[iso-639]: http://www.infoterm.info/standardization/iso_639_1_2002.php
+[oltr]: https://learn.microsoft.com/en-us/typography/opentype/spec/ttoreg
+[rolv]: https://globalrecordings.net/en/rolv
+[unicode]: https://www.unicode.org/main.html
