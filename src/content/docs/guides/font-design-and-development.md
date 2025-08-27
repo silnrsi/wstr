@@ -10,7 +10,7 @@ Font development involves both creative graphic design and careful technical eng
 
 This is not intended to be a comprehensive encyclopedia of font development information, nor to cover the full range of techniques and options. It will generally offer a single recommended procedure, setting, or tool. However, we encourage adding links to alternatives when appropriate. It is very much a work in progress.
 
-The purpose of these articles is to give helpful guidance to those who want to create fonts that work well in the intended environments. The recommendations may seem at times dogmatic, but that's the nature of recommendations based on well-informed opinion. With each recommendation we've tried to provide some indication of whether it's subjective opinion or objective fact. Recommendations are generally in **bold**, and they fall into four loose types:
+The purpose of these articles is to give helpful guidance to those who want to create fonts that work well in the intended environments. The recommendations may seem at times dogmatic, but that's the nature of recommendations based on experience and a well-informed perspective. With each recommendation we've tried to provide some indication of whether it's subjective opinion or objective fact. Recommendations are generally in **bold**, and they fall into four loose types:
 
 - **"Developers may choose to"** - there is no single good option, and developers should consider various alternatives.
 - **"We recommend that"** - there seems to be one option that is best for most developers, that we ourselves have chosen and that we suggest that others follow.
