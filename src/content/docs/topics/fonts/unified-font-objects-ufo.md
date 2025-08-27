@@ -61,7 +61,7 @@ Scripts that use pysilfont's built-in UFO library will automatically normalize U
 
 The `psfnormalize` script can also convert between the UFO 2 and UFO 3 formats, normalizing them in the process. For example, `psfnormalize -v 3 ufo2font.ufo` will convert a UFO 2 font to a normalized UFO 3 format. There are known limitations:
 
-- UFO 3 specific folders (data and images) are preserved, even if present in a UFO 2 font.
+- Normalizing a UFO 2 font or converting UFO 3 to UFO 2 will not remove UFO 3 specific folders (data and images).
 - Converting from UFO 3 to UFO 2 only handles data that has a place in UFO 2, but does include converting UFO 3 anchors to the standard way of handling them in UFO 2.
 - If a project uses non-standard files within the UFO folder, they are deleted.
 
