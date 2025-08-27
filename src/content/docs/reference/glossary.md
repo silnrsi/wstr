@@ -3,23 +3,24 @@ title: Glossary
 description: Glossary
 sidebar:
   order: 9100
-lastUpdated: 2025-07-24
+lastUpdated: 2025-08-27
 ---
 
 This glossary covers a wide range of terms used for discussing writing systems.
 
 **Note:** Should we reference things like Shoebox, Lingualinks, WorldPad, PERL, SGML, SDF? or is it time to remove them? Some of them are cross referenced like PERL and "Practical Extraction and Reporting Language" so be sure to remove both if we remove them.
 
-**Note:** Decide whether to add these: GlyphsApp, smith, Docker, Container, Image, anvil, WSL, TeamCity, Google Fonts, 
+**Note:** The following terms would be good to add (and may have definitions already in existing docs - a search would find them):
 
-**Note:** Added some words that need definitions added.
-
+- canonical equivalence
+- folding
+- collation
+- segmentation
 
 &#x00A0;  | &#x00A0;  | &#x00A0;  | &#x00A0;  | &#x00A0;  |   |   |   |   |  |   |   | &#x00A0;
 -- | -- | -- | -- | -- | -- | -- | -- | -- | --| -- | -- | --
 <a href='#A'>A</a>|<a href='#B'>B</a>|<a href='#C'>C</a>|<a href='#D'>D</a>|<a href='#E'>E</a>|<a href='#F'>F</a>|<a href='#G'>G</a>|<a href='#H'>H</a>|<a href='#I'>I</a>|<a href='#J'>J</a>|<a href='#K'>K</a>|<a href='#L'>L</a>|<a href='#M'>M</a>
 <a href='#N'>N</a>|<a href='#O'>O</a>|<a href='#P'>P</a>|<a href='#Q'>Q</a>|<a href='#R'>R</a>|<a href='#S'>S</a>|<a href='#T'>T</a>|<a href='#U'>U</a>|<a href='#V'>V</a>|<a href='#W'>W</a>|<a href='#X'>X</a>|<a href='#Y'>Y</a>|<a href='#Z'>Z</a>
-
 
 ## <a id="A"></a>A
 
