@@ -44,7 +44,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 
 
-<hr>
+<hr/>
 
 [Main page for the Batak script](/scrlang/script-batk)
 

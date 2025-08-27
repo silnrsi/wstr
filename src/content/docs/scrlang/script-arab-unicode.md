@@ -1172,7 +1172,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 
 
-<hr>
+<hr/>
 
 [Main page for the Arabic script](/scrlang/script-arab)
 

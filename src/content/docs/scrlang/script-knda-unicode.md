@@ -173,7 +173,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 
 
-<hr>
+<hr/>
 
 [Main page for the Kannada script](/scrlang/script-knda)
 

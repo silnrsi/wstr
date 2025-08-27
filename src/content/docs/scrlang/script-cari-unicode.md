@@ -28,7 +28,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 
 
-<hr>
+<hr/>
 
 [Main page for the Carian script](/scrlang/script-cari)
 
