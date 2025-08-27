@@ -8,8 +8,6 @@ lastUpdated: 2025-08-27
 
 This glossary covers a wide range of terms used for discussing writing systems.
 
-**Note:** Should we reference things like Shoebox, Lingualinks, WorldPad, PERL, SGML, SDF? or is it time to remove them? Some of them are cross referenced like PERL and "Practical Extraction and Reporting Language" so be sure to remove both if we remove them.
-
 **Note:** The following terms would be good to add (and may have definitions already in existing docs - a search would find them):
 
 - canonical equivalence
