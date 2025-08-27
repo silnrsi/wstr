@@ -64,7 +64,7 @@ Within the OpenType font file, the naming table (tag `name`) allows multilingual
 
 In the early days of TrueType and OpenType, different operating systems needed different encodings for these strings. Apple operating systems needed names stored using "script manager" encodings, while Microsoft operating systems used UCS-2. In those days for a font to work on multiple platforms, each name (e.g., the _family name_ or _style name_) had to be included in the naming table multiple times (once for each platform).
 
-While today's OpenType specification still permits inclusion of multiple platform-specific versions of each name, it is no longer necessary to do so, and they only serve to increase the size of the font file with no benefit. Operating systems generally use the PlatformID 3 (Windows) values.
+While today's OpenType specification still permits inclusion of multiple platform-specific versions of each name, it is no longer necessary to do so, and they only serve to increase the size of the font file with no benefit. Operating systems generally use the PlatformID 3 (Windows) and EncodingID 1 (Unicode BMP) values.
 
 **We recommend that OpenType fonts do not include any strings with PlatformID values other than 3 (Windows) in the (`name`) table**, as all modern operating systems will use naming tables constructed in this way.
 
