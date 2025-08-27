@@ -16,6 +16,10 @@ Here are some general resources about OpenType:
 - [Wikipedia overview][wikipedia-opentype]
 - [Opentype Cookbook][otcookbook]
 
+## Standards
+
+***(add references to three OT standards and which to look at when)***)
+
 ## Features
 
 The following information on OpenType features is mainly intended for font and applications developers. For help with using font features in applications see [Using Font Features][sil-fonts-features] and [Using SIL Fonts on Web Pages][sil-fonts-web].
