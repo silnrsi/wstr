@@ -47,6 +47,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #154 January 2018 on Script Proposals ([L2/18-039](http://www.unicode.org/L2/L2018/18039-script-adhoc-rec.pdf)) (See point 6b section 3.)_
 
 
+
 <hr>
 
 [Main page for the Khojki script](/scrlang/script-khoj)

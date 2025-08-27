@@ -172,6 +172,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2020-09-13 Proposal to encode Kannada sign Nakaara Pollu — Srinidhi A, Sridatta A ([L2/20-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-228))
 
 
+
 <hr>
 
 [Main page for the Kannada script](/scrlang/script-knda)

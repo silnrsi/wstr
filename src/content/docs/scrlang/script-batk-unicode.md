@@ -43,6 +43,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2011-03-03 Indonesian and Philippine Scripts and extensions not yet encoded or proposed for encoding in Unicode — Christopher Miller ([L2/11-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-091))
 
 
+
 <hr>
 
 [Main page for the Batak script](/scrlang/script-batk)

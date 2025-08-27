@@ -1,5 +1,5 @@
 ---
-title: Unicode Status of the Arabic Script, Naskh variant
+title: Unicode Status of the Arabic Script
 description: Supplementary script page
 sidebar:
     hidden: true
@@ -1171,7 +1171,8 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 21.)_
 
 
+
 <hr>
 
-[Main page for the Arabic script, Naskh variant](/scrlang/script-arab)
+[Main page for the Arabic script](/scrlang/script-arab)
 
