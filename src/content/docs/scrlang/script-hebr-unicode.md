@@ -151,5 +151,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2020-03-27 Proposal to fix Hebrew in UAX #14 by ruling out LB21a..b — Marcel Schneider ([L2/20-087](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-087))
 
 
+<hr>
+
 [Main page for the Hebrew script](/scrlang/script-hebr)
 

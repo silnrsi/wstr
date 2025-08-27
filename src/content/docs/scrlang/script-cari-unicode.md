@@ -27,5 +27,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2006-01-12 Proposal to encode the Carian script in the SMP of the UCS — Michael Everson ([WG2 N3020](https://www.unicode.org/wg2/docs/n3020.pdf), [L2/05-386](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-386))
 
 
+<hr>
+
 [Main page for the Carian script](/scrlang/script-cari)
 

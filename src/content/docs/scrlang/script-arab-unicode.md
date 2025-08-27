@@ -109,7 +109,7 @@ NB: The following sections include some characters that are not in the Arabic bl
 ##### Additions
 
 |  |  |
-|  |  |
+| --- | --- |
 | <span class='USV'>U+0600</span>&nbsp;<span class='UnicodeCharName'>ARABIC NUMBER SIGN</span> | <span class='USV'>U+0613</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN RADI ALLAHOU ANHU</span> |
 | <span class='USV'>U+0601</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN SANAH</span> | <span class='USV'>U+0614</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN TAKHALLUS</span> |
 | <span class='USV'>U+0602</span>&nbsp;<span class='UnicodeCharName'>ARABIC FOOTNOTE MARKER</span> | <span class='USV'>U+0615</span>&nbsp;<span class='UnicodeCharName'>ARABIC SMALL HIGH TAH</span> |
@@ -142,7 +142,7 @@ HAMZA ON HEH GOAL -&gt; HEH GOAL |
 ##### Additions
 
 |  |  |
-|  |  |
+| --- | --- |
 | <span class='USV'>U+060B</span>&nbsp;<span class='UnicodeCharName'>AFGHANI SIGN</span> | <span class='USV'>U+075B</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER REH WITH STROKE</span> |
 | <span class='USV'>U+061E</span>&nbsp;<span class='UnicodeCharName'>ARABIC TRIPLE DOT PUNCTUATION MARK</span> | <span class='USV'>U+075C</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER SEEN WITH FOUR DOTS ABOVE</span> |
 | <span class='USV'>U+0659</span>&nbsp;<span class='UnicodeCharName'>ARABIC ZWARAKAY</span> | <span class='USV'>U+075D</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER AIN WITH TWO DOTS ABOVE</span> |
@@ -211,7 +211,7 @@ In addition to undoing the Mirroring change introduced in 5.0, version 5.1 made 
 ##### Additions:
 
 |  |  |  |
-|  |  |  |
+| --- | --- | --- |
 | <span class='USV'>U+0606</span>&nbsp;<span class='UnicodeCharName'>ARABIC-INDIC CUBE ROOT</span> | <span class='USV'>U+0770</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER SEEN WITH SMALL ARABIC LETTER TAH AND TWO DOTS</span> |
 | <span class='USV'>U+0607</span>&nbsp;<span class='UnicodeCharName'>ARABIC-INDIC FOURTH ROOT</span> | <span class='USV'>U+0771</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER REH WITH SMALL ARABIC LETTER TAH AND TWO DOTS</span> |
 | <span class='USV'>U+0608</span>&nbsp;<span class='UnicodeCharName'>ARABIC RAY</span> | <span class='USV'>U+0772</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH ABOVE</span> |
@@ -265,7 +265,7 @@ NSM -&gt; ON |
 ##### Additions:
 
 |  |  |  |
-|  |  |  |
+| --- | --- | --- |
 | <span class='USV'>U+0620</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER KASHMIRI YEH</span> | <span class='USV'>U+FBB9</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS BELOW</span> |
 | <span class='USV'>U+065F</span>&nbsp;<span class='UnicodeCharName'>ARABIC WAVY HAMZA BELOW</span> | <span class='USV'>U+FBBA</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL FOUR DOTS ABOVE</span> |
 | <span class='USV'>U+FBB2</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL DOT ABOVE</span> | <span class='USV'>U+FBBB</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL FOUR DOTS BELOW</span> |
@@ -288,7 +288,7 @@ NSM -&gt; ON |
 ##### Additions:
 
 |  |  |
-|  |  |
+| --- | --- |
 | <span class='USV'>U+0604</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN SAMVAT</span> | <span class='USV'>U+1EE47</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED HAH</span> |
 | <span class='USV'>U+08A2</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER JEEM WITH TWO DOTS ABOVE</span> | <span class='USV'>U+1EE49</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED YEH</span> |
 | <span class='USV'>U+08A3</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER TAH WITH TWO DOTS ABOVE</span> | <span class='USV'>U+1EE4B</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED LAM</span> |
@@ -400,7 +400,7 @@ None:
 ##### Additions:
 
 |  |  |
-|  |  |
+| --- | --- |
 | <span class='USV'>U+061C</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER MARK</span> |  |
 
 #### Version 6.3 to 7.0
@@ -412,7 +412,7 @@ None:
 ##### Additions:
 
 |  |  |
-|  |  |
+| --- | --- |
 | <span class='USV'>U+0605</span>&nbsp;<span class='UnicodeCharName'>ARABIC NUMBER MARK ABOVE</span> | <span class='USV'>U+08B0</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER GAF WITH INVERTED STROKE</span> |
 | <span class='USV'>U+08A1</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER BEH WITH HAMZA ABOVE</span> | <span class='USV'>U+08B1</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER STRAIGHT WAW</span> |
 | <span class='USV'>U+08AD</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER LOW ALEF</span> | <span class='USV'>U+08B2</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER ZAIN WITH INVERTED V ABOVE</span> |
@@ -428,7 +428,7 @@ None:
 ##### Additions:
 
 |  |  |
-|  |  |
+| --- | --- |
 | <span class='USV'>U+08B3</span> ARABIC LETTER AIN WITH THREE DOTS BELOW | <span class='USV'>U+08E3</span> ARABIC TURNED DAMMA BELOW |
 | <span class='USV'>U+08B4</span> ARABIC LETTER KAF WITH DOT BELOW |  |
 
@@ -1170,6 +1170,8 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 21.)_
 
+
+<hr>
 
 [Main page for the Arabic script, Naskh variant](/scrlang/script-arab)
 
