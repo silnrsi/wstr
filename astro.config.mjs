@@ -5,6 +5,78 @@ import starlightLinksValidator from 'starlight-links-validator';
 import astroBrokenLinksChecker from 'astro-broken-links-checker';
 import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
+import cookieconsent from "@jop-software/astro-cookieconsent";
+
+const cookieconfig = {
+    guiOptions: {
+        consentModal: {
+            layout: 'box inline',
+            position: 'bottom left',
+        },
+    },
+    categories: {
+        analytics: {
+            enabled: true,
+            services: {
+                ga4: {
+                    label:
+                        '<a href="https://marketingplatform.google.com/about/analytics/terms/us/" target="_blank">Google Analytics 4</a>',
+                    cookies: [
+                        {
+                            name: /^(_ga|gid)/,
+                        },
+                    ],
+                },
+            },
+        },
+    },
+    language: {
+        default: 'en',
+        autoDetect: 'browser',
+        translations: {
+            en: {
+                consentModal: {
+                    title: 'We use analytics cookies',
+                    description:
+                        'Our website uses Google Analytics cookies to understand how you interact with it.\
+                         These will only be enabled if you accept explicitly.',
+                    acceptAllBtn: 'Accept all',
+                    acceptNecessaryBtn: 'Reject all',
+                    showPreferencesBtn: 'Manage preferences',
+                    footer: '<a href="/support/policies/#privacy">Privacy Policy</a>',
+                },
+                preferencesModal: {
+                    title: 'Consent Preferences Center',
+                    acceptAllBtn: 'Accept all',
+                    acceptNecessaryBtn: 'Reject all',
+                    savePreferencesBtn: 'Save preferences',
+                    closeIconLabel: 'Close modal',
+                    serviceCounterLabel: 'Service|Services',
+                    sections: [
+                        {
+                            title: 'Cookie Usage',
+                            description:
+                                'We use cookies strictly for analytics on this site and never for advertising',
+                        },
+                        {
+                            title: 'Analytics',
+                            description:
+                                'We use Google Analytics, configured to never collect, or share user identity information.',
+                            linkedCategory: 'analytics',
+                        },
+                        {
+                            title: 'More information',
+                            description:
+                                'For any query in relation to our policy on\
+                                 cookies and your choices, please\
+                                 <a class="cc__link" href="/support/contact/">contact me</a>.',
+                        },
+                    ],
+                },
+            },
+        },
+    },
+};
 
 const googleAnalyticsId = 'G-WHT6CVPT8M'
 
@@ -28,24 +100,36 @@ export default defineConfig({
                     attrs: { 
                         defer: true 
                     },
-                    content: `
+                    content:`
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
-                        gtag('config', '${googleAnalyticsId}', { debug_mode: true });`
+                        gtag('config', '${googleAnalyticsId}');
+                    `
                 },
                 {
                     tag: 'script',
-                    attrs: { 
-                        defer: true 
+                    attrs: {
+                        defer: true,
+                        type: 'text/plain',
+                        'data-category': 'analytics'
                     },
-                    content: `
-                        gtag('consent', 'update', {
-                            ad_storage: 'denied', 
-                            ad_user_data: 'denied',
-                            ad_personalization: 'denied',
-                            analytics_storage: 'granted'
-                        });`
+                    content:`
+                        gtag('consent', 'update', { analytics_storage: 'granted'});
+                        console.log('granted analytics consent.');
+                    `
+                },
+                {
+                    tag: 'script',
+                    attrs: {
+                        defer: true,
+                        type: 'text/plain',
+                        'data-category': '!analytics'
+                    },
+                    content:`
+                        gtag('consent', 'update', { analytics_storage: 'denied'});
+                        console.log('denied analytics consent.');
+                    `
                 }
             ],
             markdown: {
@@ -120,6 +204,7 @@ export default defineConfig({
           logFilePath: 'broken-links.log',  // Optional: specify the log file path
           checkExternalLinks: false         // Optional: check external links (currently, caching to disk is not supported, and it is slow )
         }),
+        cookieconsent(cookieconfig),
     ],
     markdown: {
         rehypePlugins: [rehypeFigureTitle,
