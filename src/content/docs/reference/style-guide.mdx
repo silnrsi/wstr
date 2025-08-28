@@ -101,6 +101,19 @@ Here are details, with required fields in **bold**.
 - **`lastUpdated`** - required, use yyyy-mm-dd format, should be the date the content is current as of, not the date a minor typo was fixed. This will not be strictly enforced as there may be good reasons for a specific page to not include it. 
 - `draft` - optional, hides page from production builds, not currently recommended
 
+## Use of raw HTML in page content
+
+Raw HTML should be avoided within normal page content. Markdown should be used whenever possible. Specifically:
+
+- `<a>` should not be used to create links or define anchors. Links should always use markdown syntax. Headings are automatically given anchors. See [Headings](#headings). 
+- `<span>` should not be used to set apart text that needs special styling. Use markdown syntax instead. If what is needed is not possible with markdown discuss that with the technical team for guidance. 
+
+There are a few specific situations where raw HTML is appopriate, but they are rare:
+
+- On special pages that require unique styling or functionality, such as the glossary
+- `<details>` and `<summary>` elements used for collapsible content on Script pages
+- `<sup>` and `<sub>` elements for formatting of superscripts and subscripts
+
 ## Markdown use
 
 Page sources need to use the flavor of Markdown supported by Starlight as documented in [Authoring Content in Markdown][starlight-authoring-content]. Additional markdown reference material can be found at the [Markdown Cheat Sheet][markdown-cheat-sheet].
