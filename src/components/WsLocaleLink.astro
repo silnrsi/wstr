@@ -9,7 +9,7 @@ const localeInit = locale[1];
                 {localeStatus === "CLDR" ? (
                     <a href={`https://unicode.org/cldr/charts/47/summary/${locale}.html`} target="_blank">{localeTextCLDR}</a>
                 ) : ( localeStatus === "SLDR" ? (
-                        <a href={`https://github.com/silnrs/sldr/blob/master/sldr/${localeInit}/${locale}.xml`} target="_blank">{localeTextSLDR}</a>
+                        <a href={`https://github.com/silnrs/sldr/blob/master/sldr/${localeInit}/${locale}.xml`} target="_blank">{localeText}</a>
                     ) 
                     : localeText
                 )}
