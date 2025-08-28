@@ -28,7 +28,7 @@ For information on authorship and details of content used by permission see [Ack
 
 ## Privacy
 
-We do not collect, or transmit, any personally identifiable information for any purposes. We do use Google Analytics and store cookies for analytics purposes only, but we do not run advertising on this site, or store any 3rd party cookies for advertising purposes. This site does store a small ammount of local data for maintaining the state of the side bar between visits, which never leaves you browser. We use Google Analytics to anonymously log page metrics, with all consent options except analytics storage set to denied by default.
+We do not collect, or transmit, any personally identifiable information for any purposes. We do use Google Analytics, and store cookies for analytics purposes only, but we do not run advertising on this site, or store any 3rd party cookies for advertising purposes. This site does store a small ammount of local data for maintaining the state of the side bar between visits, which never leaves you browser. We use Google Analytics to anonymously log page metrics, with all consent options except analytics storage set to denied by default. You can change your <a href="" data-cc="show-preferencesModal" class="cc__link">consent preferences</a> at any time.
 This site is currently under development, and this policy may change at any time.
 
 ## Feedback

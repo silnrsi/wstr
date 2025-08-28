@@ -13,6 +13,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/starlight": "^0.34.4",
+    "@jop-software/astro-cookieconsent": "^3.0.1",
     "astro": "^5.11.0",
     "astro-broken-links-checker": "imazen/astro-broken-link-checker",
     "rehype-external-links": "^3.0.0",
@@ -20,6 +21,7 @@
     "sharp": "^0",
     "starlight-links-validator": "^0.17.0",
     "typescript": "^5",
-    "unist-util-visit": "^5.0.0"
+    "unist-util-visit": "^5.0.0",
+    "vanilla-cookieconsent": "^3.1.0"
   }
 }
