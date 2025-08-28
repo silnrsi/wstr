@@ -70,7 +70,7 @@ const cookieconfig = {
                             description:
                                 'For any query in relation to our policy on\
                                  cookies and your choices, please\
-                                 <a class="cc__link" href="/support/contact/">contact us/a>.',
+                                 <a class="cc__link" href="/support/contact/">contact us</a>.',
                         },
                     ],
                 },
