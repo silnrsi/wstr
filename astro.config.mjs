@@ -102,12 +102,8 @@ export default defineConfig({
                         defer: true 
                     },
                     content:`
-                        import * as CookieConsent from 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.esm.js';
-
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
-
-                        gatg('consent', 'update', { analytics_storage: CookieConsent.acceptedCategory('analytics') ? 'granted' : 'denied' });
                         gtag('js', new Date());
                         gtag('config', '${googleAnalyticsId}');
                     `
