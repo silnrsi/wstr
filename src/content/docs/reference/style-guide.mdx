@@ -296,9 +296,55 @@ Image references should not be broken over multiple lines. They may still work, 
 
 ### Links
 
-_Note that link formats are not yet firm and may change depending on what decisions are made regarding general referencing._
+**External links** should always use the full URL using a named referenceas in [this example][otspec].
+```md
+**External links** should always use the full URL using a named reference
+as in [this example][otspec].
 
-It is generally preferred that links use named references. Rather than use the basic `[text](completefilereference)` format in text it is better to use `[text][refname]`, then define each `[refname]` on a separate line later in the document. _Note use of brackets rather than parentheses!_
+[otspec]: https://www.microsoft.com/typography/otspec/
+```
+
+**Internal links** to other pages on this site should also use named references, but defined using explicit paths as in [this internal example][justification]. The path should be relative to the `src/content/docs` base directory without the `.md` extension, as in `/topics/layout/justification`. Do not use relative paths like `./filename` or `../filename`.
+```md
+**Internal links** to other pages on this site should also use named references,
+but defined using explicit paths as in [this internal example][justification].
+The path should be relative to the `src/content/docs` base directory without
+the `.md` extension, as in `/topics/layout/justification`.
+Do not use relative paths like `./filename` or `../filename`.
+
+[justification]: /topics/layout/justification
+```
+
+**Links to headings on the same page** do not need to use named references. They can use a simpler syntax, with parentheses (not brackets) around the anchor name, as in [this direct link to the AI use section](#ai-use). The anchor name format is a hash plus the heading name, lowercased, with spaces replaced by hyphens, and other punctuation removed as in `#ai-use`. There is no need to explicitly define these anchors. All headings are automatically given anchors when the page is built.
+```md
+**Links to headings on the same page** do not need to use named references.
+They can use a simpler syntax, with parentheses (not brackets) around the anchor
+name, as in [this direct link to the AI use section](#ai-use). The anchor name
+format is a hash plus the heading name, lowercased, with spaces replaced by
+hyphens, and other punctuation removed as in `#ai-use`. There is no need to
+explicitly define these anchors. All headings are automatically given anchors
+when the page is built.
+```
+
+**Links to headings on other pages** should use named references like other internal links, with the hash plus heading added to the end, as in  `/support/policies#privacy` and [this link to the Macrolanguages section of the Language Tagging page][macrolangs]. An exception to using named references for this is for links to Glossary entries, which can use the simpler direct syntax: [grapheme](/reference/glossary#grapheme).
+```md
+**Links to headings on other pages** should use named references like other
+internal links, with the hash plus heading added to the end, as in 
+`/support/policies#privacy` and [this link to the Macrolanguages section of
+the Language Tagging page][macrolangs]. An exception to using named references
+for this is for links to Glossary entries, which can use the simpler direct
+syntax: [grapheme](/reference/glossary#grapheme).
+```
+
+Links to places on pages that are not headings is discouraged, as it would require raw HTML.
+
+[justification]: /topics/layout/justification
+[otspec]: https://www.microsoft.com/typography/otspec/
+[macrolangs]: /topics/writingsystems/language-tagging#macrolanguages
+
+#### Using named references in links
+
+It is generally preferred that links use named references. Rather than use the basic `[text](completefilereference)` syntax in text it is better to use `[text][refname]`, then define each `[refname]` on a separate line later in the document. _Note use of brackets rather than parentheses!_
 
 The `refname` format should be reasonably consistent. Suggestions that will make it easier for us to create a more robust referencing system in the future:
 
@@ -324,32 +370,6 @@ The `refname` format should be reasonably consistent. Suggestions that will make
 - Reasonable exceptions to this are frequently used references such as: `[otspec]` and `[wsig]`.
 
 For most shorter pages the reference definitions should be at the end of the page, but for longer docs such as [Application Development Best Practice][adbp] the reference definitions could be clustered at the end of each section. They aren't rendered on the page so their location can vary.
-
-Use the hash plus heading (`#ai-use`) to link to [another section on the same page][ai] (level 2 or 3).
-
-For internal links use only explicit paths from the `src/content/docs` base directory without the `.md` extension, such as `/topics/layout/justification`. Do not use relative paths like `./filename` or `../filename`. 
-
-Use a full URL for [external links][otspec].
-
-[ai]: #ai-use
-[glossary]: /reference/glossary
-[script-tavt]: /scrlang/script-tavt
-[unicode-bidi-algorithm]: /topics/analysis/unicode-bidi-algorithm
-[otspec]: https://www.microsoft.com/typography/otspec/
-
-```md
-Use the hash plus heading (`#ai-use`) to link to [another section on the same page][ai] (level 2 or 3).
-
-For internal links use only explicit paths from the `src/content/docs` base directory without the `.md` extension, such as `/topics/layout/justification`. Do not use relative paths like `./filename` or `../filename`. 
-
-Use a full URL for [external links][otspec].
-
-[ai]: #ai-use
-[glossary]: /reference/glossary
-[script-tavt]: /scrlang/script-tavt
-[unicode-bidi-algorithm]: /topics/analysis/unicode-bidi-algorithm
-[otspec]: https://www.microsoft.com/typography/otspec/
-```
 
 [adbp]: /guides/app-development-best-practice
 
