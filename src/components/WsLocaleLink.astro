@@ -9,12 +9,12 @@ const localeInit = locale[1];
                 {localeStatus === "CLDR" ? (
                     <a href={`https://unicode.org/cldr/charts/47/summary/${locale}.html`}
                             rel="external nofollow" target="_blank">{localeTextCLDR}
-                        <span aria-hidden class=external-link-icon"><img src="/svgs/external-link.svg"></span>
+                        <span aria-hidden class="external-link-icon"><img src="/svgs/external-link.svg"></span>
                     </a>
                 ) : ( localeStatus === "SLDR" ? (
                         <a href={`https://github.com/silnrsi/sldr/blob/master/sldr/${localeInit}/${locale}.xml`} 
                                 rel="external nofollow" target="_blank">{localeText}
-                            <span aria-hidden class=external-link-icon"><img src="/svgs/external-link.svg"></span>
+                            <span aria-hidden class="external-link-icon"><img src="/svgs/external-link.svg"></span>
                         </a>
                     ) 
                     : localeText
