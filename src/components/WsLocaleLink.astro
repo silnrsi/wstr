@@ -2,7 +2,7 @@
 const { locale, localeStatus } = Astro.props;
 const localeText     = (locale && locale !== "none") ? `${locale} (SLDR)` : '';
 const localeTextCLDR = (locale && locale !== "none") ? `${locale} (CLDR)` : '';
-const localeInit = locale[0:1];
+const localeInit = locale[:1].toLowerCase();
 ---
 
 			<td>
