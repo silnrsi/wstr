@@ -2,13 +2,16 @@
 const { locale, localeStatus } = Astro.props;
 const localeText     = (locale && locale !== "none") ? `${locale} (SLDR)` : '';
 const localeTextCLDR = (locale && locale !== "none") ? `${locale} (CLDR)` : '';
+const localeInit = locale[1];
 ---
 
 			<td>
                 {localeStatus === "CLDR" ? (
                     <a href={`https://unicode.org/cldr/charts/47/summary/${locale}.html`} target="_blank">{localeTextCLDR}</a>
-                ) : (
-                    localeText
+                ) : ( localeStatus === "SLDR" ? (
+                        <a href={`https://github.com/silnrs/sldr/blob/master/sldr/${localeInit}/${locale}.xml`} target="_blank">{localeTextSLDR}</a>
+                    ) 
+                    : localeText
                 )}
             </td>
 
