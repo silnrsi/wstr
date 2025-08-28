@@ -7,9 +7,15 @@ const localeInit = locale[1];
 
 			<td>
                 {localeStatus === "CLDR" ? (
-                    <a href={`https://unicode.org/cldr/charts/47/summary/${locale}.html`} target="_blank">{localeTextCLDR}</a>
+                    <a href={`https://unicode.org/cldr/charts/47/summary/${locale}.html`}
+                            rel="external nofollow" target="_blank">{localeTextCLDR}
+                        <span aria-hidden class=external-link-icon"><img src="/svgs/external-link.svg"></span>
+                    </a>
                 ) : ( localeStatus === "SLDR" ? (
-                        <a href={`https://github.com/silnrs/sldr/blob/master/sldr/${localeInit}/${locale}.xml`} target="_blank">{localeText}</a>
+                        <a href={`https://github.com/silnrsi/sldr/blob/master/sldr/${localeInit}/${locale}.xml`} 
+                                rel="external nofollow" target="_blank">{localeText}
+                            <span aria-hidden class=external-link-icon"><img src="/svgs/external-link.svg"></span>
+                        </a>
                     ) 
                     : localeText
                 )}
