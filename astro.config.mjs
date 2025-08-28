@@ -38,8 +38,9 @@ const cookieconfig = {
                 consentModal: {
                     title: 'We use analytics cookies',
                     description:
-                        'Our website uses Google Analytics cookies to understand how you interact with it.\
-                         These will only be enabled if you accept explicitly.',
+                        'Our website uses Google Analytics cookies only to help us understand which information is most useful to you.\
+                         We never use it for advertising and we do not collect or share user identify information.\
+                         These cookies will only be enabled if you agree to accept them.',
                     acceptAllBtn: 'Accept all',
                     acceptNecessaryBtn: 'Reject all',
                     showPreferencesBtn: 'Manage preferences',
@@ -56,12 +57,12 @@ const cookieconfig = {
                         {
                             title: 'Cookie Usage',
                             description:
-                                'We use cookies strictly for analytics on this site and never for advertising',
+                                'We use cookies strictly for analytics on this site and never for advertising.',
                         },
                         {
                             title: 'Analytics',
                             description:
-                                'We use Google Analytics, configured to never collect, or share user identity information.',
+                                'We use Google Analytics, configured to never collect or share user identity information.',
                             linkedCategory: 'analytics',
                         },
                         {
@@ -69,7 +70,7 @@ const cookieconfig = {
                             description:
                                 'For any query in relation to our policy on\
                                  cookies and your choices, please\
-                                 <a class="cc__link" href="/support/contact/">contact me</a>.',
+                                 <a class="cc__link" href="/support/contact/">contact us/a>.',
                         },
                     ],
                 },
