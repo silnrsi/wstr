@@ -3,16 +3,28 @@ title: Unicode Status of the Carian Script
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-08-27
+lastUpdated: 2025-08-28
 ---
 
 In The Unicode Standard, Carian script implementation is discussed in [Chapter 8 Europe-II: Ancient and Other Scripts](http://www.unicode.org/versions/latest/ch08.pdf) (under Anatolian Alphabets).
+
+[comment]: # (end of intro)
+
+[comment]: # (start of blocks)
 
 The Carian script was encoded in The Unicode Standard version 5.1. The script is encoded in the following block:
 
 | Blocks  |  Character Range  |  Added in Unicode Version  |  Unicode Chart  |
 | ------- | ----------------- | -------------------------- | --------------- |
 | Carian  |  102A0..102DF  |  5.1  |  [U102A0.pdf](http://www.unicode.org/charts/PDF/U102A0.pdf)  |
+
+[comment]: # (end of blocks)
+
+[comment]: # (start of chars)
+
+[comment]: # (end of chars)
+
+[comment]: # (start of rest)
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:
 

@@ -3,10 +3,14 @@ title: Unicode Status of the Hebrew Script
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-08-27
+lastUpdated: 2025-08-28
 ---
 
 In The Unicode Standard, Hebrew Script implementation is discussed in [Chapter 9 Middle East-I: Modern and Liturgical Scripts](http://www.unicode.org/versions/latest/ch09.pdf).
+
+[comment]: # (end of intro)
+
+[comment]: # (start of blocks)
 
 Hebrew script was first encoded in The Unicode Standard version 1.0. The script is encoded in the following blocks:
 
@@ -14,6 +18,10 @@ Hebrew script was first encoded in The Unicode Standard version 1.0. The script 
 | ------- | ----------------- | -------------------------- | --------------- |
 | Hebrew  |  0590..05FF  |  1.0  |  [U0590.pdf](http://www.unicode.org/charts/PDF/U0590.pdf)  |
 | Alphabetic Presentation Forms  |  FB10..FB4F |  1.1 |  [UFB00.pdf](http://www.unicode.org/charts/PDF/UFB00.pdf) |
+
+[comment]: # (end of blocks)
+
+[comment]: # (start of chars)
 
 Subsequent to version 1.1, the following characters have been added to the Hebrew script:
 
@@ -29,6 +37,10 @@ Subsequent to version 1.1, the following characters have been added to the Hebre
 | 05EF  |  11.0  |  [L2/16-305](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-305)  |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
+
+[comment]: # (end of chars)
+
+[comment]: # (start of rest)
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:
 

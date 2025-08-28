@@ -3,16 +3,24 @@ title: Unicode Status of the Batak Script
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-08-27
+lastUpdated: 2025-08-28
 ---
 
 In The Unicode Standard, Batak script implementation is discussed in [Chapter 17 Indonesia and Oceania](http://www.unicode.org/versions/latest/ch17.pdf).
+
+[comment]: # (end of intro)
+
+[comment]: # (start of blocks)
 
 The Batak script was encoded in The Unicode Standard version 6.0. The script is encoded in the following block:
 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Batak | 1BC0..1BFF | 6.0 | [U1BC0.pdf](http://www.unicode.org/charts/PDF/U1BC0.pdf) |
+
+[comment]: # (end of blocks)
+
+[comment]: # (start of chars)
 
 Subsequent to version 6.0, the following characters have been added to the Batak script:
 
@@ -21,6 +29,10 @@ Subsequent to version 6.0, the following characters have been added to the Batak
 | 1BFA..1BFB | 6.1 | [n3320.pdf](https://www.unicode.org/wg2/docs/n3320.pdf), [L2/08-011](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-011) |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
+
+[comment]: # (end of chars)
+
+[comment]: # (start of rest)
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:
 

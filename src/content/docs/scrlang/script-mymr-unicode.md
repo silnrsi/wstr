@@ -3,10 +3,14 @@ title: Unicode Status of the Myanmar Script
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-08-27
+lastUpdated: 2025-08-28
 ---
 
 In The Unicode Standard, Myanmar script implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf) and in [Unicode Technical Note #11: Representing Myanmar in Unicode](http://www.unicode.org/notes/tn11/).
+
+[comment]: # (end of intro)
+
+[comment]: # (start of blocks)
 
 The Myanmar script was encoded in The Unicode Standard version 3.0. Since that time the encoding has undergone a number of modifications; the script is now encoded in the following blocks:
 
@@ -15,6 +19,10 @@ The Myanmar script was encoded in The Unicode Standard version 3.0. Since that t
 | Myanmar | 1000..109F | 3.0 | [U1000.pdf](http://www.unicode.org/charts/PDF/U1000.pdf) |
 | Myanmar Extended-B | A9E0..A9FF | 7.0 | [UA9E0.pdf](http://www.unicode.org/charts/PDF/UA9E0.pdf) |
 | Myanmar Extended-A | AA60..AA7F | 5.2 | [UAA60.pdf](http://www.unicode.org/charts/PDF/UAA60.pdf) |
+
+[comment]: # (end of blocks)
+
+[comment]: # (start of chars)
 
 Subsequent to version 3.0, the following characters have been added to the Myanmar script:
 
@@ -38,6 +46,10 @@ Subsequent to version 3.0, the following characters have been added to the Myanm
 | AA7C..AA7F | 7.0 | [WG2 N3976](https://www.unicode.org/wg2/docs/n3976.pdf), [L2/11-130](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-130), [L2/12-012](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-012) |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
+
+[comment]: # (end of chars)
+
+[comment]: # (start of rest)
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:
 

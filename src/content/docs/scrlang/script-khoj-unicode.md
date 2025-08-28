@@ -3,16 +3,24 @@ title: Unicode Status of the Khojki Script
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-08-27
+lastUpdated: 2025-08-28
 ---
 
 In The Unicode Standard, Khojki script implementation is discussed in [Chapter 15 South and Central Asia-IV: Other Historic Scripts](http://www.unicode.org/versions/latest/ch15.pdf).
+
+[comment]: # (end of intro)
+
+[comment]: # (start of blocks)
 
 The Khojki script was encoded in The Unicode Standard version 7.0. The script is now encoded in the following block:
 
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Khojki  | 11200..1124F | 7.0 | [U11200.pdf](http://www.unicode.org/charts/PDF/U11200.pdf) |
+
+[comment]: # (end of blocks)
+
+[comment]: # (start of chars)
 
 Subsequent to version 7.0, the following characters have been added to the script:
 
@@ -21,6 +29,10 @@ Subsequent to version 7.0, the following characters have been added to the scrip
 | 1123E |  9.0  | [WG2 N4575](https://www.unicode.org/wg2/docs/n4575.pdf), [L2/14-133](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-133) |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
+
+[comment]: # (end of chars)
+
+[comment]: # (start of rest)
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:
 

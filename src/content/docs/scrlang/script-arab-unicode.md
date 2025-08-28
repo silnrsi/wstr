@@ -3,10 +3,14 @@ title: Unicode Status of the Arabic Script
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-08-27
+lastUpdated: 2025-08-28
 ---
 
 In The Unicode Standard, Arabic Script implementation is discussed in [Chapter 9 Middle East-I: Modern and Liturgical Scripts](http://www.unicode.org/versions/latest/ch09.pdf). The _Arabic (Nastaliq variant)_ script uses characters from the Arabic script Unicode blocks.
+
+[comment]: # (end of intro)
+
+[comment]: # (start of blocks)
 
 Arabic script was first encoded in The Unicode Standard version 1.0. Since that time the encoding has undergone a number of modifications; the script is now encoded in the following blocks:
 
@@ -19,6 +23,10 @@ Arabic script was first encoded in The Unicode Standard version 1.0. Since that 
 | [Arabic Presentation Forms-B](https://scriptsource.org/block/FE70)  |  FE70..FEFF  |  1.1  |  [UFE70.pdf](http://www.unicode.org/charts/PDF/UFE70.pdf)  |
 | [Rumi Numeral Symbols](https://scriptsource.org/block/10E60) | 10E60..10E7F  |  5.2  | [U10E60.pdf](http://www.unicode.org/charts/PDF/U10E60.pdf)  |
 | [Arabic Mathematical Alphabetic Symbols](https://scriptsource.org/block/1EE00)  |  1EE00..1EEFF  |  6.1  |  [U1EE00.pdf](http://www.unicode.org/charts/PDF/U1EE00.pdf)  |
+
+[comment]: # (end of blocks)
+
+[comment]: # (start of chars)
 
 Subsequent to version 1.1, the following characters have been added to the Arabic script:
 
@@ -431,6 +439,10 @@ None:
 | --- | --- |
 | <span class='USV'>U+08B3</span> ARABIC LETTER AIN WITH THREE DOTS BELOW | <span class='USV'>U+08E3</span> ARABIC TURNED DAMMA BELOW |
 | <span class='USV'>U+08B4</span> ARABIC LETTER KAF WITH DOT BELOW |  |
+
+[comment]: # (end of chars)
+
+[comment]: # (start of rest)
 
 ### Proposals and Documents
 

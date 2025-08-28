@@ -3,10 +3,14 @@ title: Unicode Status of the Kannada Script
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-08-27
+lastUpdated: 2025-08-28
 ---
 
 In The Unicode Standard, Kannada script implementation is discussed in [Chapter 12 South and Central Asia-I: Official Scripts of India](http://www.unicode.org/versions/latest/ch12.pdf).
+
+[comment]: # (end of intro)
+
+[comment]: # (start of blocks)
 
 The Kannada script was first encoded in The Unicode Standard version 1.0. Since that time the encoding has undergone a small number of modifications; the script is encoded in the following block:
 
@@ -15,6 +19,10 @@ The Kannada script was first encoded in The Unicode Standard version 1.0. Since 
 | Kannada  |  0C80..0CFF  |  1.0  |  [U0C80.pdf](http://www.unicode.org/charts/PDF/U0C80.pdf)  |
 
 [Vedic Extensions](https://scriptsource.org/entry/nb2xvfymgv) may be used with the Kannada script as well as many other Indic scripts.
+
+[comment]: # (end of blocks)
+
+[comment]: # (start of chars)
 
 Subsequent to version 1.0, the following characters have been added to the Kannada script:
 
@@ -28,6 +36,10 @@ Subsequent to version 1.0, the following characters have been added to the Kanna
 | 0CF1..0CF2  |  5.0  |  [n2860.pdf](https://www.unicode.org/wg2/docs/n2860.pdf)/[L2/04-364](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-364)  |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
+
+[comment]: # (end of chars)
+
+[comment]: # (start of rest)
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:
 
