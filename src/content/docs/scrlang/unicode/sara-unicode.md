@@ -1,0 +1,30 @@
+---
+title: Unicode Status of the Sarati Script
+description: Supplementary script page
+sidebar:
+    hidden: true
+lastUpdated: 2025-08-29
+---
+
+The Sarati script is not yet in Unicode. The script is listed in the [Not the Roadmap](http://www.unicode.org/roadmaps/not-the-roadmap/) page. The explanation given is "Known scripts, with enough information, but insufficient reason to provide pre-allocation."
+
+[comment]: # (end of intro)
+
+[comment]: # (start of blocks)
+
+[comment]: # (end of blocks)
+
+[comment]: # (start of chars)
+
+[comment]: # (end of chars)
+
+[comment]: # (start of rest)
+
+
+
+
+
+<hr/>
+
+[Main page for the Sarati script](/scrlang/scripts/sara)
+
