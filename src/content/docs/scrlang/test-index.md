@@ -9,13 +9,13 @@ lastUpdated: 2025-07-15
 Here are some pages that have been put together as initial design experiments.
 
 Scripts:
-* [Scripts Index](/scrlang/scripts)
-* [Tai Viet](/scrlang/script-tavt) - well-developed script page
-    * [Unicode status](/scrlang/script-tavt-unicode)
-* [Latin](/scrlang/script-latn) - large script page
-    * [Unicode status](/scrlang/script-latn-unicode)
-    * [Languages](/scrlang/script-latn-langs)
-* [Chisoi](/scrlang/script-chis) - minimal script page
+* [Scripts Index](/scrlang/scripts-index)
+* [Tai Viet](/scrlang/scripts/tavt) - well-developed script page
+    * [Unicode status](/scrlang/unicode/tavt-unicode)
+* [Latin](/scrlang/scripts/latn) - large script page
+    * [Unicode status](/scrlang/unicode/latn-unicode)
+    * [Languages](/scrlang/langlist/latn-langs)
+* [Chisoi](/scrlang/scripts/chis) - minimal script page
 
 Languages:
 * [Tai Dam](/scrlang/lang-blt) - fully developed language page

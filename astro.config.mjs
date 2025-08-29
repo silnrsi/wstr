@@ -168,7 +168,7 @@ export default defineConfig({
                     label: 'Scripts & Languages',
                     //autogenerate: { directory: 'scrlang' },
                     items: [
-                        'scrlang/scripts',
+                        'scrlang/scripts-index',
                         'scrlang/languages',
                         'scrlang/other-resources',
                         'scrlang/test-index',
