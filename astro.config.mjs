@@ -7,78 +7,6 @@ import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
 import cookieconsent from "@jop-software/astro-cookieconsent";
 
-const cookieconfig = {
-    guiOptions: {
-        consentModal: {
-            layout: 'box inline',
-            position: 'bottom left',
-        },
-    },
-    categories: {
-        analytics: {
-            enabled: true,
-            services: {
-                ga4: {
-                    label:
-                        '<a href="https://marketingplatform.google.com/about/analytics/terms/us/" target="_blank">Google Analytics 4</a>',
-                    cookies: [
-                        {
-                            name: /^(_ga|gid)/,
-                        },
-                    ],
-                },
-            },
-        },
-    },
-    language: {
-        default: 'en',
-        autoDetect: 'browser',
-        translations: {
-            en: {
-                consentModal: {
-                    title: 'We use analytics cookies',
-                    description:
-                        'Our website uses Google Analytics cookies only to help us understand which information is most useful to you.\
-                         We never use it for advertising and we do not collect or share user identify information.\
-                         These cookies will only be enabled if you agree to accept them.',
-                    acceptAllBtn: 'Accept all',
-                    acceptNecessaryBtn: 'Reject all',
-                    showPreferencesBtn: 'Manage preferences',
-                    footer: '<a href="/support/policies/#privacy">Privacy Policy</a>',
-                },
-                preferencesModal: {
-                    title: 'Consent Preferences Center',
-                    acceptAllBtn: 'Accept all',
-                    acceptNecessaryBtn: 'Reject all',
-                    savePreferencesBtn: 'Save preferences',
-                    closeIconLabel: 'Close modal',
-                    serviceCounterLabel: 'Service|Services',
-                    sections: [
-                        {
-                            title: 'Cookie Usage',
-                            description:
-                                'We use cookies strictly for analytics on this site and never for advertising.',
-                        },
-                        {
-                            title: 'Analytics',
-                            description:
-                                'We use Google Analytics, configured to never collect or share user identity information.',
-                            linkedCategory: 'analytics',
-                        },
-                        {
-                            title: 'More information',
-                            description:
-                                'For any query in relation to our policy on\
-                                 cookies and your choices, please\
-                                 <a class="cc__link" href="/support/contact/">contact us</a>.',
-                        },
-                    ],
-                },
-            },
-        },
-    },
-};
-
 const googleAnalyticsId = 'G-WHT6CVPT8M'
 
 // https://astro.build/config
@@ -205,7 +133,83 @@ export default defineConfig({
           logFilePath: 'broken-links.log',  // Optional: specify the log file path
           checkExternalLinks: false         // Optional: check external links (currently, caching to disk is not supported, and it is slow )
         }),
-        cookieconsent(cookieconfig),
+        cookieconsent({
+            guiOptions: {
+                consentModal: {
+                    layout: 'box inline',
+                    position: 'bottom left',
+                },
+                preferencesModal: {
+                    layout: 'box',
+                    position: 'right',
+                    equalWeightButtons: true,
+                    flipButtons: false,
+                }
+            },
+            categories: {
+                analytics: {
+                    enabled: true,
+                    services: {
+                        ga4: {
+                            label:
+                                '<a href="https://marketingplatform.google.com/about/analytics/terms/us/" target="_blank">Google Analytics 4</a>',
+                            cookies: [
+                                {
+                                    name: /^(_ga|gid)/,
+                                },
+                            ],
+                        },
+                    },
+                },
+            },
+            language: {
+                default: 'en',
+                autoDetect: 'browser',
+                translations: {
+                    en: {
+                        consentModal: {
+                            title: 'We use analytics cookies',
+                            description:
+                                'Our website uses Google Analytics cookies only to help us understand which information is most useful to you.\
+                                We never use it for advertising and we do not collect or share user identify information.\
+                                These cookies will only be enabled if you agree to accept them.',
+                            acceptAllBtn: 'Accept all',
+                            acceptNecessaryBtn: 'Reject all',
+                            showPreferencesBtn: 'Manage preferences',
+                            footer: '<a href="/support/policies/#privacy">Privacy Policy</a>',
+                        },
+                        preferencesModal: {
+                            title: 'Consent Preferences Center',
+                            acceptAllBtn: 'Accept all',
+                            acceptNecessaryBtn: 'Reject all',
+                            savePreferencesBtn: 'Save preferences',
+                            closeIconLabel: 'Close modal',
+                            serviceCounterLabel: 'Service|Services',
+                            sections: [
+                                {
+                                    title: 'Cookie Usage',
+                                    description:
+                                        'We use cookies strictly for analytics on this site and never for advertising.',
+                                },
+                                {
+                                    title: 'Analytics',
+                                    description:
+                                        'We use Google Analytics, configured to never collect or share user identity information.',
+                                    linkedCategory: 'analytics',
+                                },
+                                {
+                                    title: 'More information',
+                                    description:
+                                        'For any query in relation to our policy on\
+                                        cookies and your choices, please\
+                                        <a class="cc__link" href="/support/contact/">contact us</a>.',
+                                },
+                            ],
+                        },
+                    },
+                },
+            },
+        }),
     ],
     markdown: {
         rehypePlugins: [rehypeFigureTitle,
