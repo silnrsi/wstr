@@ -49,7 +49,7 @@ Let us briefly outline the organization of the supplementary planes. As just men
 
 In any of the planes, characters are assigned in named ranges referred to as **blocks**. Each block occupies a contiguous range of codepoints, and generally contains characters that are somehow related. Typically, a block contains characters for a given script. For example, the Thaana block occupies the range U+0780..U+07BF and contains all of the characters of the Thaana script.
 
-The Unicode Standard includes a collection of data files that provide detailed information about semantic properties of characters in the Standard that are needed for implementations. These data files are always available from the Unicode Web site. These can be found online: [Unicode Character Database][uni-UCD]. Further information on the [data files is also available on the Unicode web site][uni-data-files].
+The Unicode Standard includes a collection of data files that provide detailed information about semantic properties of characters in the Standard that are needed for implementations. These data files are always available from the Unicode Web site. These can be found online: [Unicode Character Database][uni-ucd]. Further information on the [data files is also available on the Unicode web site][uni-data-files].
 
 One of these data files, [Blocks.txt][uni-blocks], lists all of the assigned blocks in Unicode, giving the name and range for each.
 
@@ -150,7 +150,7 @@ It is also useful to know about two additional encoding forms that are allowed i
 
 UCS-2 is a 16-bit encoding form that can be used to encode only the Basic Multilingual Plane. It is essentially equivalent to UTF-16 but without surrogate pairs, and is comparable to what was available in TUS 1.1. References to UCS-2 are much less frequently encountered than was true in the past. You may still come across the term, though, so it is helpful to know. Also, it can be useful in describing the level of support for Unicode that certain software products may provide.
 
-Resource: [Online comparison of formats][res-code-converter]
+Further resource: A [Code Converter][res-code-converter] that enables online comparison of formats
 
 ## Principles & Compromises
 
@@ -285,7 +285,7 @@ In addition to the semantic properties, Unicode also provides reference algorith
 
 The character properties and behaviours are listed and explained in various places, including the [Unicode Core Specification][uni-core-spec], some of the [technical reports and annexes][uni-utr], and in [online data files][uni-data-files]. An obvious starting point for information on character properties is [Chapter 4 of TUS][uni-ch4]. That chapter describes or lists some of the properties directly, and otherwise indicates the place in which many other character properties are covered. 
 
-The complete listing of character properties is given in the data files that comprise the Unicode Character Database (UCD). These [data files][uni-data-files] are available online. A complete reference regarding the files that make up the UCD and the place in which each is described is provided in the document at [UnicodeCharacterDatabase.html][uni-UCD-html].
+The complete listing of character properties is given in the data files that comprise the Unicode Character Database (UCD). These [data files][uni-data-files] are available online. A complete reference regarding the files that make up the UCD and the place in which each is described is provided in the document at [UnicodeCharacterDatabase.html][uni-ucd-html].
 
 The original file that contained the character properties is `UnicodeData.txt`. This is considered the main file in the UCD and is one that is perhaps most commonly referred to. It is just one of several, however. This file was first included as part of the Standard in Version 1.1.5. Like all of the data files, it is a machine readable text database. As new properties were defined, additional files were created. This was done rather than adding new fields to the original file in order to remain compatible with software implementations designed to read that file. 
 
@@ -301,7 +301,7 @@ For some properties, it may also be considered inappropriate to impose particula
 
 It is also inappropriate to impose normative requirements in the case of properties for which the status of some characters is controversial or simply unclear. For example, a set of case-related properties exist that specify the effective case of letter-like symbols. For instance, U+24B6 &#x24B6; CIRCLED LATIN CAPITAL LETTER A is assigned the **Other_Uppercase** property. For some symbols, however, it is unclear what effective case they should be considered to have. The character U+2121 &#x2121; TELEPHONE SIGN, for instance, has been realized using a variety of glyphs. Some glyphs use small caps while others use all caps. It is difficult to have any confidence in making a property such as Other_Uppercase normative when the status of some characters in relation to that property is unclear.
 
-The normative and informative distinction applies to the specification of behaviours as well as to character properties. For example, [UAX #9][uni-utr9] describes behaviour with regard to the layout of bi-directional text (the “bi-directional algorithm”) and that behaviour is a normative part of the Standard. Likewise, the properties in `ArabicShaping.txt` (described in [The Unicode Core Specification, Chapter 9][uni-ch9-arabic]) that describe the cursive shaping behaviour of Arabic and Syriac characters are also normative. On the other hand, [UAX #14][uni-utr14] describes an algorithm for processing the line breaking properties, but that algorithm is not normative. Similarly, [Section 5.13 of TUS][uni-ch5.13] discusses the handling of non-spacing combining marks in relation to processes such as keyboard input, but the guidelines it presents are informative only.
+The normative and informative distinction applies to the specification of behaviours as well as to character properties. For example, [UAX #9][uni-utr9] describes behaviour with regard to the layout of bi-directional text (the “bi-directional algorithm”) and that behaviour is a normative part of the Standard. Likewise, the properties in `ArabicShaping.txt` (described in [The Unicode Core Specification, Chapter 9][uni-ch9-arabic]) that describe the cursive shaping behaviour of Arabic and Syriac characters are also normative. On the other hand, [UAX #14][uni-utr14] describes an algorithm for processing the line breaking properties, but that algorithm is not normative. Similarly, [Section 5.12 of TUS][uni-ch5.12] discusses the handling of non-spacing combining marks in relation to processes such as keyboard input, but the guidelines it presents are informative only.
 
 There is one other point that is important to note in relation to the distinction between normative and informative properties: the fact that a property is normative does not imply that it can never change. Likewise, the fact that a property is informative does not imply that it is open to change. For example, the Unicode 1.0 Names property is informative but is not subject to change. On the other hand, several changes were made in TUS 3.0 to the **Bi-directional Category**, **Canonical Combining Class** and other normative properties in order to correct errors and refine the specification of behaviours. As a rule, though, it is the case that changes to normative properties are avoided, and that some informative properties can be more readily changed.
 
@@ -343,13 +343,13 @@ Space does not permit a detailed description of all of these properties. General
 
 The control, format and other special characters are discussed in [Chapter 23][uni-ch23] of TUS. Numbers are described in [Chapter 22][uni-ch22-numerals] and in most of the various sections covering different scripts in Chapters 7–20. Punctuation and spaces are discussed in [Chapter 6][uni-ch6] of TUS. Symbols are the topic of [Chapter 22][uni-ch22] of TUS. Line and paragraph separators are covered in [Chapter 5][uni-ch5.8].
 
-It will be worth describing letters and case in a little more detail, and we will do so after finishing this general survey of character properties. <a href='#comb-marks'>Combining marks</a> will also be discussed.
+It will be worth describing letters and case in a little more detail, and we will do so after finishing this general survey of character properties. [Combining marks](#stacking-of-non-spacing-combining-marks) will also be discussed.
 
-Returning to our discussion of the fields in the `UnicodeData.txt` database file, the fourth, fifth and sixth fields contain particularly important properties: the **Canonical Combining Classes**, **Bi-directional Category** and **Decomposition Mapping** properties. Together with the general category properties, these three properties are the most important character properties defined in Unicode. Accordingly, each of these will be given additional discussion. The canonical combining classes are relevant only for combining marks (characters with general category properties of Mn, Mc and Me), and will be described in more detail in <a href='#canonical'>"Canonical Ordering"</a>. The bi-directional categories are used in relation to the bi-directional algorithm, which is specified in [UAX #9][uni-utr9]. A brief outline of this is provided in <a href='#rendering'>"Rendering Behaviors"</a>. Finally, the character decomposition mappings specify canonical and compatibility equivalence relationships. We will discuss this further in <a href='#decomp'>"(De)Composition & Normalization"</a>.
+Returning to our discussion of the fields in the `UnicodeData.txt` database file, the fourth, fifth and sixth fields contain particularly important properties: the **Canonical Combining Classes**, **Bi-directional Category** and **Decomposition Mapping** properties. Together with the general category properties, these three properties are the most important character properties defined in Unicode. Accordingly, each of these will be given additional discussion. The canonical combining classes are relevant only for combining marks (characters with general category properties of Mn, Mc and Me), and will be described in more detail in [Canonical Ordering](#canonical-ordering). The bi-directional categories are used in relation to the bi-directional algorithm, which is specified in [UAX #9][uni-utr9]. A brief outline of this is provided in [Rendering Behaviors](#rendering-behaviours). Finally, the character decomposition mappings specify canonical and compatibility equivalence relationships. We will discuss this further in [(De)Composition and Normalization](#decomposition-and-normalization).
 
-Most of the next six fields contain properties that are of more limited significance. Fields seven to nine relate to the numeric value of numbers (characters with general category properties (Nd, Nl and No)). These are covered in [Section 4.6 of TUS][uni-ch4.6]. The tenth field contains the **Mirrored** property, which is important for right-to-left scripts, and is described in [Section 4.7 of TUS][uni-ch4.7] and also in [UAX #9][uni-utr9] (the bi-directional algorithm). I will say more about it in <a href='#rendering'>"Rendering Behaviors"</a>. Fields eleven and twelve contain the Unicode 1.0 Name and 10646 properties.
+Most of the next six fields contain properties that are of more limited significance. Fields seven to nine relate to the numeric value of numbers (characters with general category properties (Nd, Nl and No)). These are covered in [Section 4.6 of TUS][uni-ch4.6]. The tenth field contains the **Mirrored** property, which is important for right-to-left scripts, and is described in [Section 4.7 of TUS][uni-ch4.7] and also in [UAX #9][uni-utr9] (the bi-directional algorithm). I will say more about it in [Rendering Behaviors](#rendering-behaviours). Fields eleven and twelve contain the Unicode 1.0 Name and 10646 properties.
 
-The last three fields contain case mapping properties: **Uppercase Mapping**, **Lowercase Mapping**, and **Titlecase mapping**. These are considered further in <a href='#case'>"Case Mappings"</a>.
+The last three fields contain case mapping properties: **Uppercase Mapping**, **Lowercase Mapping**, and **Titlecase mapping**. These are considered further in [Case Mappings](#case-mappings).
 
 As mentioned earlier, `UnicodeData.txt` is a semicolon-delimited text database. Now that each of the fields have been described, here are some examples:
 
@@ -370,7 +370,7 @@ The character U+0061 has a general category of “Ll” (lowercase letter), a co
 
 Finally, looking at the last entry, we see that U+0407 has a general category of “Lu” (uppercase letter), a combining class of 0, a bi-directional category of “L”, and a mirrored property of “N”. It also has a canonical decomposition mapping to < U+0406, U+0308 >, a 10646 comment of “Ukrainian”, and a lowercase mapping to U+0457.
 
-`UnicodeData.txt` has been described the main file in the Unicode character database in some detail. There are a number of other files listing character properties in the Unicode character database. Some of the more significant files have been mentioned in earlier sections. Of the rest, it would be beyond the scope of an introduction to explain every one, and all of them are described in [UAX #44][uni-utr44]. More details are give below on those that are most significant. In particular, additional properties related to case are discussed in <a href='#case'>"Case Mappings"</a> together with a fuller discussion of the case-related properties mentioned in this section; and the properties listed in the `ArabicShaping.txt` and `BidiMirroring.txt` files will be described in <a href='#rendering'>"Rendering Behaviors"</a>, together with further details on the mirrored property mentioned here.
+`UnicodeData.txt` has been described the main file in the Unicode character database in some detail. There are a number of other files listing character properties in the Unicode character database. Some of the more significant files have been mentioned in earlier sections. Of the rest, it would be beyond the scope of an introduction to explain every one, and all of them are described in [UAX #44][uni-utr44]. More details are give below on those that are most significant. In particular, additional properties related to case are discussed in [Case Mappings](#case-mappings) together with a fuller discussion of the case-related properties mentioned in this section; and the properties listed in the `ArabicShaping.txt` and `BidiMirroring.txt` files will be described in [Rendering Behaviors](#rendering-behaviours), together with further details on the mirrored property mentioned here.
 
 ### Glyph Similarities
 
@@ -380,15 +380,15 @@ The existence of these "confusable" characters also offers the possibility of de
 
 **You will do your users a great service if your software can warn users when they use a character from a different script.**
 
-Resources: 
+Additional resources: 
 - [Dotless letters and movable combining marks][dotless-letters]
 - [Unicode Utilities: Confusables][res-confusables]
 - [Unicode's Where is my Character?][uni-where-character]
 - [Unicode Character Properties spreadsheet][ucd-spreadsheet]
 
-## <a id='case'></a>Case Mappings
+## Case Mappings
 
-Case is an important property for characters in Latin, Greek, Cyrillic, Armenian, Georgianm and a few other scripts. For these scripts, both upper- and lowercase characters are encoded. Because some Latin and Greek digraphs were included in Unicode, it was necessary to add additional case forms to deal with the situation in which a string has an initial uppercase character. Thus, for these digraphs there are upper-, lower- and titlecase characters; for example, U+01CA Ǌ LATIN CAPITAL LETTER NJ, U+01CB ǋ LATIN CAPITAL LETTER N WITH SMALL LETTER J, and U+01CC ǌ LATIN SMALL LETTER NJ. Likewise, there are properties giving uppercase, lowercase and title case mappings for characters. Thus, U+01CA has a lowercase mapping of U+01CC and a titlecase mapping of U+01CB.
+Case is an important property for characters in Latin, Greek, Cyrillic, Armenian, Georgian and a few other scripts. For these scripts, both upper- and lowercase characters are encoded. Because some Latin and Greek digraphs were included in Unicode, it was necessary to add additional case forms to deal with the situation in which a string has an initial uppercase character. Thus, for these digraphs there are upper-, lower- and titlecase characters; for example, U+01CA Ǌ LATIN CAPITAL LETTER NJ, U+01CB ǋ LATIN CAPITAL LETTER N WITH SMALL LETTER J, and U+01CC ǌ LATIN SMALL LETTER NJ. Likewise, there are properties giving uppercase, lowercase and title case mappings for characters. Thus, U+01CA has a lowercase mapping of U+01CC and a titlecase mapping of U+01CB.
 
 Case has been indicated in Unicode by means of the general category properties “Ll”, “Lu” and “Lt”. These have always been normative character properties. Prior to TUS 3.1, however, case mappings were always informative properties. The reason was that, for some characters, case mappings are not constant across all languages. For example, U+0069 i LATIN SMALL LETTER I is always lower case, no matter what writing system it is used for, but not all writing systems consider the corresponding uppercase character to be U+0049 I LATIN CAPITAL LETTER I. In Turkish and Azeri, for instance, the uppercase equivalent to “i” is U+0130 İ LATIN CAPITAL LETTER I WITH DOT ABOVE. The exceptional cases such as Turkish and Azeri were handled by special casing properties that were listed in a file created for that purpose: `SpecialCasing.txt`.
 
@@ -400,7 +400,7 @@ In TUS 3.1, case mappings were changed from being informative to normative. The 
 
 Note that `UnicodeData.txt` indicates the case of characters by means of the general categories “Ll”, “Lu” and “Lt”, and not by case properties that are independent of the “letter” category. There are instances, however, in which a character that does not have one of these properties should be treated as having case or as having case mappings. This applies, for example, to U+24D0 ⓐ CIRCLED LATIN SMALL LETTER A, which has an uppercase mapping of U+24B6 Ⓐ CIRCLED LATIN CAPITAL LETTER A but does not have a case property since it has a general category of “So” (other symbol). As an accident of history in the way that the general category was developed, case was applied to characters that are categorized as **letters**, but not to characters categorized as **symbols**. This made case incompatible with being categorized as a symbol, even though case properties should be logically independent of the letter/symbol categories.
 
-To deal with such situations, extended properties **Other_Lowercase** and **Other_Uppercase** have been defined. These are two of various extended properties that are listed in the file `PropList.txt` (described in PropList.htm). Furthermore, derived properties Lowercase and Uppercase have been defined (described in DerivedProperties.htm) that combine characters with the general categories “Ll” and “Lu” together with characters that have the **Other_Lowercase** and **Other_Uppercase** properties. Thus, the lowercase property (as listed in `DerivedCoreProperties.txt`) can be thought of as identifying all characters that can be deemed to be lowercase, regardless of their general category. This may be useful for certain types of processing. Note, however, that these extended and derived case-related properties are as yet only informative, not normative.
+To deal with such situations, extended properties **Other_Lowercase** and **Other_Uppercase** have been defined. These are two of various extended properties that are listed in the file `PropList.txt` (described in `PropList.htm`). Furthermore, derived properties Lowercase and Uppercase have been defined (described in `DerivedProperties.htm`) that combine characters with the general categories “Ll” and “Lu” together with characters that have the **Other_Lowercase** and **Other_Uppercase** properties. Thus, the lowercase property (as listed in `DerivedCoreProperties.txt`) can be thought of as identifying all characters that can be deemed to be lowercase, regardless of their general category. This may be useful for certain types of processing. Note, however, that these extended and derived case-related properties are as yet only informative, not normative.
 
 For some types of processing, there may be additional issues related to case that need to be considered. See the Unicode Standard sections [Default Case Algorithms][uni-dflt-case-algorithms], [Case][uni-case-normative], and [Case Mappings][uni-case-mappings] for further discussion of case-related issues.
 
@@ -414,7 +414,7 @@ For instance, the following are two ways of representing the same data:
 - á U+00E1 - LATIN SMALL LETTER A WITH ACUTE
 - a U+0061 - LATIN SMALL LETTER A  +  ́ U+0301 - COMBINING ACUTE ACCENT
 
-They are "canonically equivalent", that is, they both represent the same item and your software should treat them as identical (for example, when searching text). Fortunately most programming languages have functions available to convert between these forms.
+They are _canonically equivalent_, that is, they both represent the same item and your software should treat them as identical (for example, when searching text). Fortunately most programming languages have functions available to convert between these forms.
 
 Unicode defines normalization forms, with specific rules on how to create them. The most common forms are:
 
@@ -431,7 +431,7 @@ NFC often provides the most compact storage. NFD may provide advantages for work
 
 ### Character decomposition mappings
 
-The notions of canonical and compatibility equivalence were introduced in "<a href='#decomp'>(De)Composition & Normalization</a>." There, we saw cases in which a Unicode character is identical in meaning to a decomposed sequence of one or more characters, and that these two representations are said to be canonically equivalent. We also considered other cases in which a Unicode character duplicates a sequence of one or more characters in some more limited sense: the two representations are equivalent in certain contexts only, or the one character is equivalent to the sequence when supplemented with certain non-textual information. In these cases, the two representations are said to be compatibility equivalent.
+In the previous section we saw cases in which a Unicode character is identical in meaning to a decomposed sequence of one or more characters, and that these two representations are said to be canonically equivalent. We also considered other cases in which a Unicode character duplicates a sequence of one or more characters in some more limited sense: the two representations are equivalent in certain contexts only, or the one character is equivalent to the sequence when supplemented with certain non-textual information. In these cases, the two representations are said to be _compatibility equivalent_.
 
 For both types of equivalence, the relationship between two encoded representations is formally expressed by means of a decomposition mapping. These mappings are given in the sixth field of `UnicodeData.txt`. So, for example, the character U+1EA1 &#x1EA1; LATIN SMALL LETTER A WITH DOT BELOW is canonically equivalent to the combining sequence &lt;U+0061 LATIN SMALL LETTER A, U+0323 COMBINING DOT BELOW&gt;. This relationship is indicated by the decomposition mapping given in the entry in `UnicodeData.txt` for U+1EA1:
 
@@ -441,7 +441,7 @@ For both types of equivalence, the relationship between two encoded representati
 
 _Decomposition mapping in UnicodeData.txt entry for U+1EA1_
 
-The same field in `UnicodeData.txt` is used to list both canonical and compatibility decomposition mappings. The two types of equivalence do need to be distinguished, however. As noted, characters with compatibility decompositions typically have some additional non-character element of meaning or some specific contextual associations. Accordingly, when giving a decomposition mapping for such a character, it makes sense also to indicate what this additional element of meaning is. This is precisely what is done: in compatibility decomposition mappings, the mapping includes the decomposed character sequence as well as a tag that indicates the additional non-character information contained in the compatibility character. This is illustrated in the figure below:
+The same field in `UnicodeData.txt` is used to list both canonical and compatibility decomposition mappings. The two types of equivalence do need to be distinguished, however. As noted, characters with compatibility decompositions typically have some additional non-character element of meaning or some specific contextual associations. Accordingly, when giving a decomposition mapping for such a character, it makes sense also to indicate what this additional element of meaning is. This is precisely what is done: in compatibility decomposition mappings, the mapping includes the decomposed character sequence as well as a tag that indicates the additional non-character information contained in the compatibility character. This is illustrated below:
 
 ```
 02B0;MODIFIER LETTER SMALL H;Lm;0;L;<super> 0068;;;;N;;;;;
@@ -500,15 +500,15 @@ Tag|Sample character|Decomposition mapping for sample
 
 _Table 4: Examples of different types of compatibility decomposition mappings_
 
-Note that the &lt;compat&gt; tag is used for a variety of characters that stand in one of several types of relationship to their corresponding decomposed counterparts. For example, the ligature presentation forms described in "<a href='#char-glyph'>Compromises in the distinction between characters and glyphs</a>" and the digraphs described in "<a href='#char-graph'>Compromises in the distinction between characters and graphemes</a>" use this tag. It is also used for several of the types of compatibility decomposition described in <a href='#appB-compat'>“Appendix B: A review of characters with compatibility decompositions”</a>.
+Note that the &lt;compat&gt; tag is used for a variety of characters that stand in one of several types of relationship to their corresponding decomposed counterparts. For example, the ligature presentation forms described in [Compromises in the distinction between characters and glyphs](#compromises-in-the-distinction-between-characters-and-glyphs) and the digraphs described in [Compromises in the distinction between characters and graphemes](#compromises-in-the-distinction-between-characters-and-graphemes) use this tag. It is also used for several of the types of compatibility decomposition described in [Appendix B: A review of characters with compatibility decompositions](#appendix-b-a-review-of-characters-with-compatibility-decompositions).
 
-Some cases of equivalence involve one-to-one relationships, for example in the case of the exact character duplicates discussed in "<a href='#char-unification'>Compromises in the principle of unification</a>". Hence, not all of the decomposition mappings contain sequences of two or more characters, as illustrated in the following figure:
+Some cases of equivalence involve one-to-one relationships, for example in the case of the exact character duplicates discussed in [Compromises in the principle of unification](#compromises-in-the-principle-of-unification). Hence, not all of the decomposition mappings contain sequences of two or more characters, as illustrated in the following example:
 
 ```
 212A;KELVIN SIGN;Lu;0;L;004B;;;;N;DEGREES KELVIN;;;006B;
 ```
 
-_Figure: Single-character decomposition mapping in the entry for U+212A_
+_Single-character decomposition mapping in the entry for U+212A_
 
 Compatibility decomposition mappings always gives the completely decomposed representation. This is illustrated by the entry for U+3315:
 
@@ -516,7 +516,7 @@ Compatibility decomposition mappings always gives the completely decomposed repr
 3315;SQUARE KIROGURAMU;So;0;L;<square> 30AD 30ED 30B0 30E9 30E0;;;; N;SQUARED KIROGURAMU;;;;
 ```
 
-_Figure: Multiple-character compatibility decomposition mapping_
+_Multiple-character compatibility decomposition mapping_
 
 As a consequence of this, it should be noted that an instance of compatibility equivalence always involved exactly two representations: the compatibility character and the corresponding decomposed representation given in the mapping.
 
@@ -528,11 +528,11 @@ For canonical decompositions, the decomposition mapping lists a sequence of one 
 1F61;GREEK SMALL LETTER OMEGA WITH DASIA;Ll;0;L;03C9 0314;;;;N;;; 1F69;;1F69
 ```
 
-_Figure: Decomposition of precomposed characters with multiple diacritics_
+_Decomposition of precomposed characters with multiple diacritics_
 
 In principle, it would be possible for Unicode to include a precomposed character involving multiple diacritics but not to include any precomposed character involving some subset of those diacritics. In such a situation, the character would decompose directly into the fully decomposed combining sequence, meaning that the decomposition mapping includes more than two characters. In practice, though, this situation does not occur in the Unicode character set. Furthermore, the Unicode Consortium has given an explicit guarantee that canonical decompositions will never involve mapping to more than two characters.
 
-The fact that a precomposed character with multiple diacritics has a decomposition involving partially composed forms means that there may be several canonically equivalent representations for a given text element (see figure below). Canonical equivalence is a transitive relationship, and so we intuitively know that all of the representations are canonically equivalent. Software processes cannot rely on such intuition, however. Software requires explicit and efficient algorithms that let it know that all of these representations are canonically equivalent. This is accomplished by means of normalization, which was discussed in the above section on "<a href='#decomp'>(De)Composition & Normalization</a>."
+The fact that a precomposed character with multiple diacritics has a decomposition involving partially composed forms means that there may be several canonically equivalent representations for a given text element (see examples below). Canonical equivalence is a transitive relationship, and so we intuitively know that all of the representations are canonically equivalent. Software processes cannot rely on such intuition, however. Software requires explicit and efficient algorithms that let it know that all of these representations are canonically equivalent. This is accomplished by means of normalization, which was discussed in the section on [(De)Composition and Normalization](#decomposition-and-normalization).
 
 Text element | Representations
 --| --
@@ -543,12 +543,12 @@ Text element | Representations
 
 _Equivalent precomposed, decomposed, and partially composed representations_
 
-Resources:
+Additional resources:
 
 - [Precomposed Characters in Unicode][res-precomposed]
 - Video (27min) [Why Determining the Length of a String is More Complicated Than You Think][res-string-length] (IUC 44, Oct 2020 presentation)
 
-## <a id='rendering'></a>Rendering Behaviors
+## Rendering Behaviours
 
 The Unicode character set assumes a design principle of encoding characters but not glyphs. This in turn implies an assumption that applications that use Unicode will incorporate rendering processes that can do the glyph processing required to make text appear the way it should, in accordance with the rules of each given script and writing system. Unicode does not specify in complete detail how the rendering process should be done. There are a number of approaches that an application might utilize to deal with the many details involved, and it is outside the scope of the Unicode Standard to stipulate how such processing should be done.
 
@@ -901,8 +901,8 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 [res-string-length]: https://www.youtube.com/watch?v=wCExnGiMeF0
 [ucd-spreadsheet]: https://github.com/silnrsi/unicode-resources/tree/main/ucd-spreadsheet
 
-[uni-UCD-html]: http://www.unicode.org/Public/UNIDATA/UnicodeCharacterDatabase.html
-[uni-UCD]: https://www.unicode.org/Public/UNIDATA/
+[uni-ucd-html]: http://www.unicode.org/Public/UNIDATA/UnicodeCharacterDatabase.html
+[uni-ucd]: https://www.unicode.org/Public/UNIDATA/
 [uni-blocks]: https://www.unicode.org/Public/UNIDATA/Blocks.txt
 [uni-bmp]: https://www.unicode.org/roadmaps/bmp/
 [uni-case-mappings]: https://www.unicode.org/versions/latest/core-spec/chapter-5/#G21180
@@ -917,7 +917,7 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 [uni-ch4.6]: https://www.unicode.org/versions/latest/core-spec/chapter-4/#G124206
 [uni-ch4.7]: https://www.unicode.org/versions/latest/core-spec/chapter-4/#G30078
 [uni-ch4.9]: https://www.unicode.org/versions/latest/core-spec/chapter-4/#G131216
-[uni-ch5.13]: https://www.unicode.org/versions/latest/core-spec/chapter-5/#G1050
+[uni-ch5.12]: https://www.unicode.org/versions/latest/core-spec/chapter-5/#G1050
 [uni-ch5.8]: https://www.unicode.org/versions/latest/core-spec/chapter-5/#G10213
 [uni-ch5]: https://www.unicode.org/versions/latest/core-spec/chapter-5/
 [uni-ch6]: https://www.unicode.org/versions/latest/core-spec/chapter-6/
