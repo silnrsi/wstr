@@ -558,15 +558,15 @@ There are three major areas in which Unicode specifies the rendering behaviour o
 
 Those three areas are of particular significance because they affect important scripts in rather pervasive ways; one simply cannot render Arabic script, for example, without addressing the issues of bi-directionality and cursive connection. There are some other less significant rendering-related issues that Unicode addresses. These are described briefly.
 
-### <a id='bidi'></a>Bi-directional text and the bi-directional algorithm
+### Bi-directional text and the bi-directional algorithm
 
 There are two issues that need to be dealt with in relation to bi-directional text. The bigger issue is the mixing of text with different directionality. The other has to do with certain characters that require glyphs for right-to-left contexts that are mirror images of those required for left-to-right contexts. Both of these issues are dealt with in Unicode by the [Unicode Bidirectional Algorithm][wstr-unicode-bidi-algorithm].
 
 ### Cursive connections
 
-Certain scripts, such as Arabic and Syriac, have a distinctive characteristic of being strictly cursive: they are never written in non-cursive styles. The implication is that characters typically have at least four shapes corresponding to initial, medial, final and isolated (non-connected) contexts. Not all characters connect in all contexts, however. Thus, some characters connect to characters on both sides, others connect only on one side, and other never connect. Ultimately, the joining behaviour of a character depends upon the properties of that character as well as the properties of the characters adjacent to it.
+Certain scripts, such as Arabic and Syriac, have a distinctive characteristic of being strictly cursive: they are never written in non-cursive styles. The implication is that characters typically have at least four shapes corresponding to initial, medial, final and isolated (non-connected) contexts. Not all characters connect in all contexts, however. Thus, some characters connect to characters on both sides, others connect only on one side, and other never connect. Ultimately, the _joining_ behaviour of a character depends upon the properties of that character as well as the properties of the characters adjacent to it.
 
-Another behaviour that is closely associated with cursive writing is ligature formation. Both Arabic and Syriac scripts make use of a number of ligatures, many of which are optional, though some are obligatory in all uses of those scripts.
+Another behaviour that is closely associated with cursive writing is _ligature formation_. Both Arabic and Syriac scripts make use of a number of ligatures, many of which are optional, though some are obligatory in all uses of those scripts.
 
 Unicode assigns normative properties to characters in the Arabic and Syriac blocks that specify their joining behaviour. These are described and listed in the Unicode chapter on [Middle East][uni-middle-east] scripts, and are also listed in machine-readable form in the `ArabicShaping.txt` data file. Explicit rules for interpreting the joining properties, as well as rules specifying the formation of obligatory ligatures in Arabic are also discussed. For most of the rules, the action of the rule is essentially predictable from the meaning of the character properties involved. For example,
 
@@ -590,9 +590,9 @@ The fact that the joining properties of characters are normative can have an imp
 
 ### Indic shaping behaviour
 
-Resource: [An Introduction to Indic Scripts][uni-utn10]
+Primary resource: [An Introduction to Indic Scripts][uni-utn10]
 
-### <a id='comb-marks'></a>Stacking of non-spacing combining marks
+### Stacking of non-spacing combining marks
 
 When multiple non-spacing combining marks are applied to a single base character, the different marks might each have the same default position in relation to the base character. For example, there may be a pair of marks that would be centred directly over the base character if they occurred on their own. When they occur together, however, they would not both occur in exactly the same position. That would lead to an illegible result. In these situations, the usual way in which this is handled is to have the combining marks stack vertically outward from the base character, with the marks that are nearest after the base character in the data corresponding to the glyphs that are positioned most closely to the glyph of the base. This can be seen in the following example:
 
@@ -606,13 +606,13 @@ Note that this is not followed in all writing systems, however. In some situatio
 
 Unicode includes some special control characters known as **variation selectors**. The purpose of these characters is to control the actual shape of a graphic character where the choice is not required by the context or otherwise determined by the behaviours for that script as a whole. The kind of variation this might be designed to deal with might be comparable to a change between similar font designs, such as between selecting between a handwritten “&#x0251;” and “&#x0061;”, yet for certain reasons it is decided in the given instances that this should be controlled by a character-based mechanism. Note however, that these variation selector characters are not open to free use by users or font vendors as they might determine. When Unicode adds a variation selector to the standard, it is done on the basis that it has only a local effect, operating on a single character and not a run of text, and that it can be used only with specific characters and only with specific effects, both of which are specified in the Standard.
 
-The variation selectors for Mongolian are describe in "[Encoding and Shaping of the Mongolian Script][uni-utn57]."
+The variation selectors for Mongolian are described in "[Encoding and Shaping of the Mongolian Script][uni-utn57]."
 
 ### Control of ligature formation
 
 It was mentioned above that a script may have obligatory ligatures that are always required, such as the _lam-alef_ ligature in Arabic. Many scripts have discretionary ligatures, which can be added as the user considers appropriate by applying font formatting properties in rich-text data. In certain circumstances, however, it may be necessary for the choice of ligatures to be preserved in plain text, implying the need for a character-based control mechanism.
 
-The semantics of U+200C ZERO WIDTH NON-JOINER and of U+200D ZERO WIDTH JOINER were extended in TUS 3.1 in order to control ligature formation as well as their original functions of controlling the shaping behaviour of cursively-connected characters. Specifically, ZWJ can be used to request a ligature form, and ZWNJ can be used to prevent a ligature form. For example, a ligature for “” would not typically be expected in text, but it could be requested by encoding the sequence &lt;U+0063 LATIN SMALL LETTER C, U+200D ZERO WIDTH JOINER, U+0074 LATIN SMALL LETTER T&gt;. Similarly, the “” ligature is relatively common, but one could ensure that the ligature is avoided by encoding the sequence &lt;U+0066 LATIN SMALL LETTER F, U+200C ZERO WIDTH NON-JOINER, U+0069 LATIN SMALL LETTER I&gt;.
+The semantics of U+200C ZERO WIDTH NON-JOINER and of U+200D ZERO WIDTH JOINER were extended in TUS 3.1 in order to control ligature formation as well as their original functions of controlling the shaping behaviour of cursively-connected characters. Specifically, ZWJ can be used to request a ligature form, and ZWNJ can be used to prevent a ligature form. For example, a ligature for “ct” would not typically be expected in text, but it could be requested by encoding the sequence &lt;U+0063 LATIN SMALL LETTER C, U+200D ZERO WIDTH JOINER, U+0074 LATIN SMALL LETTER T&gt;. Similarly, the “fi” ligature is relatively common, but one could ensure that the ligature is avoided by encoding the sequence &lt;U+0066 LATIN SMALL LETTER F, U+200C ZERO WIDTH NON-JOINER, U+0069 LATIN SMALL LETTER I&gt;.
 
 It is important to note that this use of ZWJ does not require conformant implementations to produce ligatures; it merely requests that a ligature be used if possible. Thus, older fonts that do not support this behaviour are not considered non-conformant. At the same time, font developers should take note of this new mechanism in order to provide support for it in fonts. Because of the nature of ligatures and the mechanism for using ZWNJ to block ligatures, however, it should not require any special steps in order to make it work, as long as an instance of ZWNJ in data does not result in the display of a visible glyph.
 
@@ -622,11 +622,11 @@ See the Unicode Core Specification for more details on controlling ligature form
 
 ### Other rendering behaviours
 
-The previous sections focused focused on particular rendering behaviours because they are likely to be highly important for many implementations, because they involve important issues that apply in a number of situations, or in the last two cases, because they are specialised behaviours that may be unfamiliar. There are a number of other rendering behaviours that are relevant to other situations, but which are not being described in any detail here. Some of these do not involve normative behaviours defined by the Standard. For example, there are different preferences for the shapes of Han ideographs in different locales. This is an important issue for certain implementations, but it is not a normative behaviour that is specified by Unicode. Also, some of these other rendering behaviours would be of less importance to many implementations. For example, the details for rendering Khmer script that differ from the common patterns described for Indic scripts in general are fairly particular to that script.
+The previous sections focused focused on particular rendering behaviours because they are likely to be highly important for many implementations, because they involve important issues that apply in a number of situations, or in the last two cases, because they are specialized behaviours that may be unfamiliar. There are a number of other rendering behaviours that are relevant to other situations, but which are not being described in any detail here. Some of these do not involve normative behaviours defined by the Standard. For example, there are different preferences for the shapes of Han ideographs in different locales. This is an important issue for certain implementations, but it is not a normative behaviour that is specified by Unicode. Also, some of these other rendering behaviours would be of less importance to many implementations. For example, the details for rendering Khmer script that differ from the common patterns described for Indic scripts in general are fairly particular to that script.
 
 Even for the groups of scripts that pertain to the rendering behaviours described above, only a summary has been given. Thus, for any script, the reader is advised to read the appropriate section within [Chapters 7–20][uni-core-spec] of TUS to learn about the complete details that relate to that particular script.
 
-## <a id='canonical'></a>Canonical Ordering
+## Canonical Ordering
 
 When multiple combining marks occur with a single base, those combining marks may or may not interact typographically. If they don’t, then the order in which they occur in the file doesn’t correspond to any change in appearance, and therefore doesn’t correspond to any meaningful difference. This results in another way in which a given text element can have different encoded representations in Unicode.
 
@@ -638,11 +638,11 @@ Canonical ordering is a process that puts combining marks into a specific order.
 
 The possibility of equivalent sequences of combining marks occurring in different orders can have implications for other processes. For example, a sorting specification or a rendering system might be configured assuming a particular order. As a result, it is important that such processes allow for alternate equivalent orderings, or that canonical ordering be included in a pre-processing stage. Processes should be designed anticipating different but equally valid possibilities in the data.
 
-Canonical ordering is an important part of normalization which is discussed next.
+Canonical ordering can also be an important factor in normalization.
 
 ## Deprecation
 
-Deprecated characters are encoded characters whose use is strongly discouraged for either architectural reasons, or because they may cause implementation problems. They remain in the standard for data to remain comformant, but they should not be used. Unicode code charts explicitly indicated in the annotations.  
+Deprecated characters are encoded characters whose use is strongly discouraged for either architectural reasons, or because they may cause implementation problems. They remain in the standard for data to remain comformant, but they should not be used. Unicode code charts explicitly indicate this in the annotations.  
 
 ---
 
