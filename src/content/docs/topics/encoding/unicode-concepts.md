@@ -4,7 +4,7 @@ description: Fundamental ideas and definitions for understanding Unicode
 sidebar:
     order: 3300
 authors: Peter Constable, Lorna Evans
-lastUpdated: 2025-08-27
+lastUpdated: 2025-09-02
 ---
 
 [Encoding][glo-encoding] refers to the process of representing information in some form. In computer systems, we encode written language by representing the [graphemes][glo-grapheme] or other **text elements** of the writing system in terms of sequences of [characters][glo-character], units of textual information within some system for representing written texts. These characters are in turn represented within a computer in terms of the only means of representation the computer knows how to work with: binary numbers.
@@ -248,6 +248,47 @@ Not all of the precomposed characters are from scripts used in writing human lan
 Precomposed characters go against the principle of dynamic composition, but also against the principle that Unicode encodes abstract characters rather than glyphs. In principle, it should be possible for a combining character sequence to be rendered so that the glyphs for the combining marks are correctly positioned in relation to the glyph for the base, or even so that the character sequence is translated into a single precomposed glyph. In these cases, though, that glyph is directly encoded as a distinct character.
 
 There are other cases in which the distinction between characters and glyphs is compromised. Those cases have some significant differences from the ones we have considered thus far. Before continuing, though, there are some important additional points to be covered in relation to the characters described in [Compromises in the principle of unification](#compromises-in-the-principle-of-unification) and [Compromises in the principle of dynamic composition](#compromises-in-the-principle-of-dynamic-composition). We will return to look at the remaining areas of compromise in [Compromises in the distinction between characters and glyphs](#compromises-in-the-distinction-between-characters-and-glyphs). 
+
+### Canonical equivalence and the principle of equivalent sequences
+
+There are thousands of instances of the situations described in [Compromises in the principle of unification](#compromises-in-the-principle-of-unification) and [Compromises in the principle of dynamic composition](#compromises-in-the-principle-of-dynamic-composition). In each of these cases, Unicode provides alternate representations for a given text element. For singleton duplicates, what this means is that there are two codepoints that are effectively equivalent and mean the same thing:
+
+![_Characters with exact duplicates](images/3300-chars-with-duplicates.png "Characters with exact duplicates")
+
+Likewise in the case of each precomposed character, there is a dynamically composed sequence that is equivalent and means the same thing as the precomposed character:
+
+![Precomposed characters and equivalent dynamically composed sequences](images/3300-precomposed-characters.png "Precomposed characters and equivalent dynamically composed sequences")
+
+This type of ambiguity is far from ideal, but was a necessary price of maintaining backward compatibility with source standards and, specifically, the round-trip rule. In view of this, one of the original design principles of Unicode was to allow for a text element to be represented by two or more different but equivalent character sequences.
+
+In these situations, Unicode formally defines a relationship of **canonical equivalence** between the two representations. Essentially, this means that the two representations should generally be treated as if they were identical, though this is slightly overstated. 
+
+In precise terms, the Unicode Standard defines a conformance requirement in relation to canonically equivalent pairs that must be observed by software that claims to conform to the Standard:
+
+> **Conformance requirement 9**. A process shall not assume that the interpretations of two canonical-equivalent character sequences are distinct.
+
+In other words, software can treat the two representations as though they were identical, but it is also allowed to distinguish between them; it just cannot _always_ treat them as distinct.
+
+Since the different sequences are supposed to be equal representations of exactly the same thing, it might seem that this requirement is stated somewhat weakly, and that it ought to be appropriate to make a much stronger requirement: _software must always treat canonical-equivalent sequences identically_. Most of the time, it does make sense for software to do that, but there may be certain situations in which it is valid to distinguish them. For example, you may want to inspect a set of data to determine if any precomposed characters are used. You could not do that if precomposed characters are never distinguished from the corresponding dynamically composed sequence.
+
+At this point, we can introduce some convenient terminology that is conventionally used. Whereas a character like U+1EAD LATIN SMALL LETTER A WITH CIRCUMFLEX AND DOT BELOW is referred to as a precomposed character, the corresponding combining character sequence &lt;U+0061 LATIN SMALL LETTER A, U+0323 COMBINING DOT BELOW, U+0302 COMBINING CIRCUMFLEX ACCENT&gt; is often referred to as a **decomposed representation** or a **decomposed character sequence**. The formal relationship between a precomposed character and the equivalent decomposed sequence is formally known as **canonical decomposition**. These mappings are specified as part of the semantic character properties contained in the online data files that were mentioned in [Where the character properties are listed and described](#where-the-character-properties-are-listed-and-described) is said to be the canonical decomposition of U+212B ANGSTROM SIGN.
+
+In some cases a text element can be represented as either fully composed or fully decomposed sequences. In many cases, however, there will be more than just these two representations. In particular, this can occur if there is a precomposed character that corresponds to a partial representation of another text element. For example, a text element a-ring-acute “&#x01FA;” can be represented in Unicode using fully composed or fully decomposed representation, but also using a partially decomposed representation:
+
+![Equivalent precomposed, decomposed and partially composed representations](images/3300-equivalent-precomposed.png "Equivalent precomposed, decomposed and partially composed representations")
+
+Thus, in this example, there are four possible representations that are all canonically equivalent to one another. We will look at the possibility of having multiple equivalent representations further in [Stacking of non-spacing combining marks](stacking-of-non-spacing-combining-marks).
+
+There is more to be explained regarding the relationship between canonical-equivalent sequences, and we will be looking at further details in [Other rendering behaviours](#other-rendering-behaviours), [Combining marks and canonical ordering](#combining-marks-and-canonical-ordering), [Normalization](#normalization), and [Deciding how to encode data](#deciding-how-to-encode-data). Before returning to discuss ways in which Unicode design principles have been compromised, there are some specific points worth mentioning regarding certain characters for vowels in Indic scripts.
+
+Indic scripts have combining vowel marks that can be written above, below, to the left or to the right of the syllable-initial consonant. In many Indic scripts, certain vowel sounds are written using a combination of these marks, as illustrated in the figure below:
+
+![Tamil vowel written before and after consonant](images/3300-tamil-vowel.png "Tamil vowel written before and after consonant")
+
+Such combinations are especially typical in representing the sounds “o” and “au” using combinations of vowel marks corresponding to “e”, “i” and “a”.
+
+What is worth noting is that these vowels are not handled in the same way in Unicode for all Indic scripts. In a number of cases, Unicode includes characters for the precomposed vowel combination in addition to the individual vowel signs. This happens for Bengali, Oriya, Tamil, Telugu, Kannada, Malayalam, Sinhala, Tibetan and Myanmar scripts. Thus, for example, in Tamil one can use U+0BCA &#x0BCA; TAMIL VOWEL SIGN O or the sequence &lt;U+0BC6 TAMIL VOWEL SIGN E, U+0BBE TAMIL VOWEL SIGN AA&gt;. On the other hand, in Thai and Lao, the corresponding vowel sounds can only be represented using the individual component vowel signs. Thus in Thai, the syllable “kau” can only be represented as &lt;U+0E40 THAI CHARACTER SARA E, U+0E01 THAI CHARACTER KO KAI, U+0E32 THAI CHARACTER SARA AA&gt;. Then again, in Khmer, only precomposed characters can be used. Thus in Khmer, the corresponding vowel is represented using U+17C5 &#x17C5; KHMER VOWEL SIGN AU; Unicode does not include characters for both of the component marks, and so there is no alternate representation. If you need to encode data, therefore, for a language that uses an Indic script, pay close attention to how that particular script is supported in Unicode.
+
 
 ### Compromises in the distinction between characters and glyphs
 
@@ -626,7 +667,9 @@ The previous sections focused focused on particular rendering behaviours because
 
 Even for the groups of scripts that pertain to the rendering behaviours described above, only a summary has been given. Thus, for any script, the reader is advised to read the appropriate section within [Chapters 7–20][uni-core-spec] of TUS to learn about the complete details that relate to that particular script.
 
-## Canonical Ordering
+## Combining marks and canonical ordering
+
+>Yet to be written. This section will discuss the relationship between combining marks that interact typographically versus those that do not, and the significance with regard to the semantic significance of combining character sequences. It will be shown that combining character sequences that differ only in the ordering of combining marks can be equivalent sequences. The role of combining classes and the canonical ordering algorithm in neutralising the distinctions between equivalent sequences will be explained. A synopsis follows:
 
 When multiple combining marks occur with a single base, those combining marks may or may not interact typographically. If they don’t, then the order in which they occur in the file doesn’t correspond to any change in appearance, and therefore doesn’t correspond to any meaningful difference. This results in another way in which a given text element can have different encoded representations in Unicode.
 
@@ -639,6 +682,24 @@ Canonical ordering is a process that puts combining marks into a specific order.
 The possibility of equivalent sequences of combining marks occurring in different orders can have implications for other processes. For example, a sorting specification or a rendering system might be configured assuming a particular order. As a result, it is important that such processes allow for alternate equivalent orderings, or that canonical ordering be included in a pre-processing stage. Processes should be designed anticipating different but equally valid possibilities in the data.
 
 Canonical ordering can also be an important factor in normalization.
+
+## Normalization
+
+>Yet to be written. This section will briefly explain the various Unicode normalization forms that can be used solve the problem of needing to recognise equivalent sequences as being equivalent. A synopsis follows:
+
+In [Canonical equivalence and the principle of equivalent sequences](#canonical-equivalence-and-the-principle-of-equivalent-sequences) and [Combining marks and canonical ordering](#combining-marks-and-canonical-ordering), we saw various reasons why a given text element may be represented in Unicode in multiple ways: precomposed characters are canonically equivalent to their full or partial decompositions. Also, different orderings of combining marks may not be semantically significant, again resulting in different sequences that are canonically equivalent.
+
+Software processes need a way to determine whether or not any two arbitrary strings are equivalent or not. The way in which this is done is to fold the strings into a normalized form; that is, remove the differences that are not significant. For example, by putting strings into canonical order, the distinctions that result from different orderings of combining marks is removed.
+
+Unicode defines different normalization forms for software processes to use in string comparisons. One of these, NFD, utilises the maximally decomposed sequence as the reference representation for comparison purposes. There is a second, NFC, that uses a maximally composed representation (following special rules for how the composition is done). In both cases, canonical ordering is applied.
+
+There are two other normalization forms that have been defined: NFKD and NFKC. These use maximally decomposed and maximally composed representations as above. The difference is that these normalization forms also fold the compatibility character distinctions: e.g. the distinction between n and superscript n is removed. Because the compatibility characters carry additional information that may be significant in some situations, these normalization forms must be used with care.
+
+>There is no general requirement that data must be represented in any one normal form. On the other hand, one may be the preference in certain contexts, or one may be imposed in some software implementations.
+
+## Deciding how to encode data
+
+>Yet to be written. This section will discuss various issues related to choices in how data can be encoded. This includes: deciding when to follow decomposed or composed normalisation forms; deciding whether or not to use compatibility characters / characters with compatibility decompositions; distinguishing between characters that appear to be similar, or equating glyph variants; the importance of semantics in deciding when to distinguish or unify characters. There will also be some discussion as to what can be done when a character simply is not yet supported in Unicode.
 
 ## Deprecation
 
