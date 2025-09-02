@@ -171,8 +171,8 @@ export default defineConfig({
                             title: 'We use analytics cookies',
                             description:
                                 'Our website uses Google Analytics cookies only to help us understand which information is most useful to you.\
-                                We never use it for advertising and we do not collect or share user identify information.\
-                                These cookies will only be enabled if you agree to accept them.',
+                                These cookies will only be enabled if you agree to accept them.\
+                                We never use them for advertising and we do not collect or share user identity information.',
                             acceptAllBtn: 'Accept all',
                             acceptNecessaryBtn: 'Reject all',
                             showPreferencesBtn: 'Manage preferences',
