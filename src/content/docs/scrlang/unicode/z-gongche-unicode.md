@@ -6,11 +6,7 @@ sidebar:
 lastUpdated: 2025-09-02
 ---
 
-The Gongche script is not yet in Unicode. 
-
-One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:
-
-- 2017-04-03 Proposal to encode characters for Gongche Notation in SMP — Eiso Chan, Wáng Xiǎolěi, Hóu Lè, Jerry You ([L2/17-087](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-087))
+The Gongche script is not yet in Unicode.
 
 [comment]: # (end of intro)
 
@@ -28,4 +24,6 @@ One proposal for its inclusion has been submitted to the Unicode Technical Commi
 
 [comment]: # (start of rest)
 
+One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:
 
+- 2017-04-03 Proposal to encode characters for Gongche Notation in SMP — Eiso Chan, Wáng Xiǎolěi, Hóu Lè, Jerry You ([L2/17-087](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-087))

@@ -6,7 +6,23 @@ sidebar:
 lastUpdated: 2025-09-02
 ---
 
-The Cypro-Minoan script is not yet in Unicode. The script has a tentative allocation at U+12700..U+1278F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
+The Cypro-Minoan script is not yet in Unicode. The script has a tentative allocation at U+12700..U+1278F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+[comment]: # (end of intro)
+
+[comment]: # (start of blocks)
+
+
+
+[comment]: # (end of blocks)
+
+[comment]: # (start of chars)
+
+
+
+[comment]: # (end of chars)
+
+[comment]: # (start of rest)
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:
 
@@ -45,21 +61,3 @@ One proposal for its inclusion has been submitted to the Unicode Technical Commi
 - _UTC #164 Minutes ([L2/20-172](https://www.unicode.org/L2/L2020/20172.htm)) (See B.1 for decision and action items)_
 
 2020-07 Considerations regarding a normalized Cypro-Minoan reference font — Michael Everson / SEI (WG2 N5137, [L2/20-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-156)) (Link not active at time of publication)
-
-[comment]: # (end of intro)
-
-[comment]: # (start of blocks)
-
-
-
-[comment]: # (end of blocks)
-
-[comment]: # (start of chars)
-
-
-
-[comment]: # (end of chars)
-
-[comment]: # (start of rest)
-
-
