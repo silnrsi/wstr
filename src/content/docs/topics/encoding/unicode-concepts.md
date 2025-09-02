@@ -185,7 +185,7 @@ The question of support for supplementary-plane characters does not necessarily 
 
 In general, when choosing software, you should verify whether it supports the encoding forms you would like to use. For both UTF-8 and UTF-16, you should explicitly verify whether the software is able to support supplementary-plane characters, if that is important to you. 
 
-### <a id='byteorder'></a>Byte order: Unicode encoding schemes
+### Byte order: Unicode encoding schemes
 
 As explained in “[Character set encoding basics][iws-character-encoding-basics]”, 16- and 32-bit encoding forms raise an issue in relation to byte ordering. While code units may be larger than 8-bits, many processes are designed to treat data in 8-bit chunks at some level. For example, a communication system may handle data in terms of bytes, and certainly memory addressing with personal computers is organized in terms of bytes. Because of this, when 16- or 32-bit code units are involved, these may get handled as a set of bytes, and these bytes must get put into a serial order before being transmitted over a wire or stored on a disk.
 
@@ -648,7 +648,7 @@ Deprecated characters are encoded characters whose use is strongly discouraged f
 
 ## Appendix A: Mapping codepoints to Unicode encoding forms
 
-In the section above (“<a href='#transformation'>Transformation Formats</a>”), we examined each of the three character encoding forms defined within Unicode. This section describes in detail the mappings from Unicode codepoints to the code unit sequences used in each encoding form.
+In [Transformation Formats](#transformation-formats), we examined each of the three character encoding forms defined within Unicode. This section describes in detail the mappings from Unicode codepoints to the code unit sequences used in each encoding form.
 
 In this description, the mapping will be expressed in alternate forms, one of which is a mapping of bits between the binary representation of a Unicode scalar value and the binary representation of a code unit. Even though a coded character set encodes characters in terms of numerical values that have no specific computer representation or data type associated with them, for purposes of describing this mapping, we are considering codepoints in the Unicode codespace to have a width of 21 bits. This is the number of bits required for binary representation of the entire numerical range of Unicode scalar values, 0x0 to 0x10FFFF.
 
@@ -664,7 +664,7 @@ Codepoint range|Unicode scalar value (binary)|Code units (binary)
 ---|---|---
 U+0000..U+D7FF, U+E000..U+10FFFF|xxxxxxxxxxxxxxxxxxxxx|00000000000xxxxxxxxxxxxxxxxxxxxx
 
-_<a id='table1'></a>Table A.1: UTF-32 USV to code unit mapping_
+_Table A.1: UTF-32 USV to code unit mapping_
 
 ### UTF-16
 
@@ -672,9 +672,9 @@ The UTF-16 encoding form was formally incorporated into Unicode as part of TUS 2
 
 >U = (C<sub>H</sub> – D800<sub>16</sub>) * 400<sub>16</sub> + (C<sub>L</sub> – DC00<sub>16</sub>) + 10000<sub>16</sub>
 
-Likewise, determining the high and low surrogate values for a given Unicode scalar value is fairly straightforward. Assuming the variables CH, CL and U as above, and that U is in the range U+10000..U+10FFFF,
+Likewise, determining the high and low surrogate values for a given Unicode scalar value is fairly straightforward. Assuming the variables C<sub>H</sub>, C<sub>L</sub> and U as above, and that U is in the range U+10000..U+10FFFF,
 
->C<sub>H</sub> = (U – 10000<sub>16</sub>) 400<sub>16</sub> + D800<sub>16</sub>
+>C<sub>H</sub> = (U – 10000<sub>16</sub>) &#x005C; 400<sub>16</sub> + D800<sub>16</sub>
 
 >C<sub>L</sub> = (U – 10000<sub>16</sub>) mod 400<sub>16</sub> + DC00<sub>16</sub>
 
@@ -687,7 +687,7 @@ Codepoint range|Unicode scalar value (binary)|Code units (binary)
 U+0000..U+D7FF, U+E000..U+EFFF|00000xxxxxxxxxxxxxxxx|xxxxxxxxxxxxxxxx
 U+10000..U+10FFFF|Uuuuuxxxxxxyyyyyyyyyy|110110wwwwxxxxxx 110111yyyyyyyyyy (where uuuuu = wwww + 1)
 
-_<a id='table2'></a>Table A.2: UTF-16 USV to code unit mapping_
+_Table A.2: UTF-16 USV to code unit mapping_
 
 ### UTF-8
 
@@ -695,7 +695,7 @@ The UTF-8 encoding form was formally incorporated into Unicode as part of TUS 2.
 
 Let us consider first the relationship between bits in the binary representation of codepoints and code units. This is shown for UTF-8 below:
 
-<a id='table3'></a>Codepoint range|Scalar value (binary)|Byte 1|Byte 2|Byte 3|Byte 4
+Codepoint range|Scalar value (binary)|Byte 1|Byte 2|Byte 3|Byte 4
 ---|---|---|---|----|----
 U+0000..U+007F|00000000000000xxxxxxx|0xxxxxxx|||
 U+0080..U+07FF|0000000000yyyyyxxxxxx|110yyyyy|10xxxxxx||
@@ -708,9 +708,9 @@ _Table A.3: UTF-8 USV to code unit mapping_
 
 As mentioned, UTF-8 byte sequences have certain interesting properties. These can be seen from the table above. Firstly, note the high-order bits in non-initial bytes as opposed to sequence-initial bytes. By looking at the first two bits, you can immediately determine whether a code unit is an initial byte in a sequence or is a following byte. Secondly, by looking at the number of non-zero high-order bits of the first byte in the sequence, you can immediately tell how long the sequence is: if no high-order bits are set to one, then the sequence contains exactly one byte. Otherwise, the number of non-zero high-order bits is equal to the total number of bytes in the sequence.
 
-<a href='#table3'>Table A.3</a> also reveals the other interesting characteristic of UTF-8 that was described above. Note that characters in the range U+0000..U+007F are represented using a single byte. The characters in this range match ASCII codepoint for codepoint. Thus, any data encoded in ASCII is automatically also encoded in UTF-8.
+Table A.3 also reveals the other interesting characteristic of UTF-8 that was described above. Note that characters in the range U+0000..U+007F are represented using a single byte. The characters in this range match ASCII codepoint for codepoint. Thus, any data encoded in ASCII is automatically also encoded in UTF-8.
 
-Having seen how the bits compare, let us consider how code units can be calculated from scalar values, and vice versa. If **U** represents the value of a Unicode scalar value and C<sub>1</sub>, C<sub>2</sub>, C<sub>3</sub> and C<sub>4</sub> represent bytes in a UTF-8 byte sequence (in order), then the value of a Unicode scalar value **U** can be calculated as follows:
+Having seen how the bits compare, let us consider how code units can be calculated from scalar values, and vice versa. If U represents the value of a Unicode scalar value and C<sub>1</sub>, C<sub>2</sub>, C<sub>3</sub> and C<sub>4</sub> represent bytes in a UTF-8 byte sequence (in order), then the value of a Unicode scalar value U can be calculated as follows:
 
 ---
 If a sequence has one byte, then
@@ -733,7 +733,7 @@ End if
 
 ---
 
-Going the other way, given a Unicode scalar value **U**, then the UTF-8 byte sequence can be calculated as follows:
+Going the other way, given a Unicode scalar value U, then the UTF-8 byte sequence can be calculated as follows:
 
 ---
 
@@ -771,7 +771,7 @@ End if
 
 where “&#x005c;” represents integer division (returns only integer portion, rounded down), and “mod” represents the modulo operator.
 
-If you examine the mapping in <a href='#table3'>Table A.3</a> carefully, you may notice that by ignoring the range constraints in the left-hand column, certain codepoints can potentially be represented in more than one way. For example, substituting U+0041 LATIN CAPITAL LETTER A into the table gives the following possibilities:
+If you examine the mapping in Table A.3 carefully, you may notice that by ignoring the range constraints in the left-hand column, certain codepoints can potentially be represented in more than one way. For example, substituting U+0041 LATIN CAPITAL LETTER A into the table gives the following possibilities:
 
 Codepoint|Pattern|Byte 1|Byte 2|Byte 3|Byte 4
 ---|---|---|---|---|---
@@ -780,9 +780,9 @@ Codepoint|Pattern|Byte 1|Byte 2|Byte 3|Byte 4
 000000000000001000001|00000zzzzyyyyyyxxxxxx|11100000|10000001|10000001|
 000000000000001000001|uuuzzzzzzyyyyyyxxxxxx|11110000|10000000|10000001|10000001
 
-_<a id='table4'></a>Table A.4 “UTF-8” non-shortest sequences for U+0041_
+_Table A.4 “UTF-8” non-shortest sequences for U+0041_
 
-Obviously, having these alternate encoded representations for the same character is not desirable. Accordingly, the UTF-8 specification stipulates that the shortest possible representation must be used. In TUS, this was made more explicitly clear by specifying exactly what UTF-8 byte sequences are or are not legal. Thus, in the example above, each of the sequences other than the first is an illegal code unit sequence.
+Obviously, having these alternate encoded representations for the same character is not desirable. Accordingly, the UTF-8 specification stipulates that the shortest possible representation must be used. In TUS, this was made more explicitly clear by specifying exactly what UTF-8 byte sequences are or are not legal. Thus, in the example above, each of the sequences other than the first is an **illegal code unit sequence**.
 
 Similarly, a supplementary-plane character can be encoded directly into a four-byte UTF-8 sequence, but someone might (possibly from misunderstanding) choose to map the codepoint into a UTF-16 surrogate pair, and then apply the UTF-8 mapping to each of the surrogate code units to get a pair of three-byte sequences. To illustrate, consider the following:
 
@@ -795,27 +795,27 @@ UTF-16 surrogate pair|0xD800 0xDC11
 
 _Table A.5: UTF-8-via-surrogates representation of supplementary-plane character_
 
-Again, the Unicode Standard expects the shortest representation to be used for UTF-8. For certain reasons, non-shortest representations of supplementary-plane characters are referred to as irregular code unit sequences rather than illegal code unit sequences. The distinction here is subtle: software that conforms to the Unicode Standard is allowed to interpret these irregular sequences as the corresponding supplementary-plane characters, but is not allowed to generate these irregular sequences. In certain situations, though, software will want to reject such irregular UTF-8 sequences (for instance, where these might otherwise be used to avoid security systems), and in these cases the Standard allows conformant software to ignore or reject these sequences, or remove them from a data stream.
+Again, the Unicode Standard expects the shortest representation to be used for UTF-8. For certain reasons, non-shortest representations of supplementary-plane characters are referred to as **irregular code unit sequences** rather than illegal code unit sequences. The distinction here is subtle: software that conforms to the Unicode Standard is allowed to _interpret_ these irregular sequences as the corresponding supplementary-plane characters, but is not allowed to _generate_ these irregular sequences. In certain situations, though, software will want to reject such irregular UTF-8 sequences (for instance, where these might otherwise be used to avoid security systems), and in these cases the Standard allows conformant software to ignore or reject these sequences, or remove them from a data stream.
 
-The main motivation for making the distinction and for considering these 6-byte sequences to be irregular rather than illegal is this: suppose a process is re-encoding a data stream from UTF-16 to UTF-8, and suppose that the source data stream had been interrupted so that it ended with the beginning of a surrogate pair. It may be that this segment of the data will later be re-united with the remainder of the data, it also having been re-encoded in UTF-8. So, we are assuming that there are two segments of data out there: one ending with an unpaired high surrogate, and one beginning with an unpaired low surrogate.
+The main motivation for making the distinction and for considering these 6-byte sequences to be _irregular_ rather than _illegal_ is this: suppose a process is re-encoding a data stream from UTF-16 to UTF-8, and suppose that the source data stream had been interrupted so that it ended with the beginning of a surrogate pair. It may be that this segment of the data will later be re-united with the remainder of the data, it also having been re-encoded in UTF-8. So, we are assuming that there are two segments of data out there: one ending with an unpaired high surrogate, and one beginning with an unpaired low surrogate.
 
 Now, as each segment of the data is being trans-coded from UTF-16 to UTF-8, the question arises as to what should be done with the unpaired surrogate code units. If they are ignored, then the result after the data is reassembled will be that a character has been lost. A more graceful way to deal with the data would be for the trans-coding process to translate the unpaired surrogate into a corresponding 3-byte UTF-8 sequence, and then leave it up to a later receiving process to decide what to do with it. Then, if the receiving process gets the data segments assembled again, that character will still be part of the information content of the data. The only problem is that now it is in a 6-byte pseudo-UTF-8 sequence. Defining these as irregular rather than illegal is intended to allow that character to be retained over the course of this overall process in a form that conformant software is allowed to interpret, even if it would not be allowed to generate it that way.
 
-## <a id='appB-compat'></a>Appendix B: A review of characters with compatibility decompositions
+## Appendix B: A review of characters with compatibility decompositions
 
 _This appendix was written at the time of Unicode 3.1. The list of characters is quite likely incomplete. However, the concepts remain relevant._
 
-The section on"<a href='#decomp'>(De)Composition & Normalization</a> provided an overview of some main groups of characters that have canonical or compatibility decompositions. That discussion covered all of the characters in Unicode that have canonical decompositions. Among those with compatibility decompositions, we looked at presentation forms that would otherwise be handled as glyphs by complex rendering technology, and combinations that correspond to digraphs in certain writing systems. Those two groupings only covered a portion of the characters with compatibility decompositions, however. There are over 2,300 others that were not covered. Many of these might possibly be construed as ligatures or as multi-graphs, except for the fact that they generally appear to be not as simple to explain as the cases in the above section. Whereas those characters are compromising primarily just one or another of the Unicode design principles, many of these remaining characters compromise several principles at once. The only way to classify them is into ad hoc groups.
+The section on [(De)Composition and Normalization](#decomposition-and-normalization) provided an overview of some main groups of characters that have canonical or compatibility decompositions. That discussion covered all of the characters in Unicode that have canonical decompositions. Among those with compatibility decompositions, we looked at presentation forms that would otherwise be handled as glyphs by complex rendering technology, and combinations that correspond to digraphs in certain writing systems. Those two groupings only covered a portion of the characters with compatibility decompositions, however. There are over 2,300 others that were not covered. Many of these might possibly be construed as ligatures or as multi-graphs, except for the fact that they generally appear to be not as simple to explain as the cases in the above section. Whereas those characters are compromising primarily just one or another of the Unicode design principles, many of these remaining characters compromise several principles at once. The only way to classify them is into ad hoc groups.
 
 For many users, most of these characters are likely to be unimportant. Some of them can be rather puzzling for someone who is still early on in learning about Unicode, however. It is also easier to find information on well-behaved characters than on all the oddities. In a number of cases, the notes printed in the name lists that accompany the code charts give you what you need to understand how or whether to use a given compatibility-decomposable character. More often, though, the explanation is buried in the text of the Standard within the descriptions of the script blocks (Chapters 7-20). For a number of characters, no background information is provided at all.
 
 This discussion is by no means a thorough explanation of all of these characters or a substitute for the content in the Standard. Everything mentioned here is also mentioned somewhere in the Standard. The Standard is large, though, and many readers may not notice the details because they are overwhelmed by the size. This appendix is intended, therefore, to provide an introduction to this set of characters, which constitute perhaps the least principled elements of the Standard.
 
-Note that this Appendix is not intended for readers who are still at the beginner stage. There are a number of detailed references to characters and blocks within the character set that a beginner might find confusing. If you have just read the earlir sections of Unicode Concepts for the first time, you might want to just skim this Appendix. If you do want to follow it closely, it is recommended that you do so with the [code charts][uni-charts] at your side.
+Note that this Appendix is not intended for readers who are still at the beginner stage. There are a number of detailed references to characters and blocks within the character set that a beginner might find confusing. If you have just read the earlier sections of Unicode Concepts for the first time, you might want to just skim this Appendix. If you do want to follow it closely, it is recommended that you do so with the [code charts][uni-charts] at your side.
 
 A large portion of these miscellaneous compatibility-decomposable characters are found in a limited number of blocks within the Standard. The following table shows their locations broken down by major areas within the character set. In order to reflect that most of these characters are concentrated within a few small ranges, the table also shows the number of blocks within each region that contain these characters, the contiguous range of those blocks, and the ratio of the number of these characters in that range to the total number of characters in that range.
 
-Area|characters w/ comp. decompositions|# of blocks|Contiguous range of blocks|Ratio to total # of characters in range
+Area|Characters with compatibility decompositions|# of blocks|Contiguous range of blocks|Ratio to total # of characters in range
 ---|---|---|---|---
 General Scripts|56|8|U+0000.. U+1FFF|1%
 Symbols & Punctuation|271|7|U+2000..U+24FF|21%
@@ -823,19 +823,19 @@ East Asian|813|8|U+2E80..U+33FF|58%
 Compatibility|256|3|U+FE30..U+FFEF|57%
 Plane 1|991|1|U+1D400..U+1D7FF|100%
 
-_Table B.1. Characters with miscellaneous compatibility decompositions by area of the Unicode character set (this table is probably outdated)_
+_Table B.1. Characters with miscellaneous compatibility decompositions by area of the Unicode character set (Note: this table is outdated)_
 
-Note that these numbers do not include the presentation forms and digraphs discussed in "<a href='#char-glyph'>Compromises in the distinction between characters and glyphs</a>" and "<a href='#char-graph'>Compromises in the distinction between characters and graphemes</a>". The only significant impact on Table B.1 of including those additional characters would have been to bring the ratio quoted for the Compatibility area to nearly 80%. These numbers point to the fact that, while there are a large number of these special-case compatibility characters, most of them are in blocks that many users will not be dealing with. There is still a relatively small portion of them that many users will likely have to deal with, though, such as U+00B9 &#x00B9; SUPERSCRIPT ONE or U+0E33 &#x0E33; THAI CHARACTER SARA AM.
+Note that these numbers do not include the presentation forms and digraphs discussed in [Compromises in the distinction between characters and glyphs](#compromises-in-the-distinction-between-characters-and-glyphs) and  [Compromises in the distinction between characters and graphemes](#compromises-in-the-distinction-between-characters-and-graphemes). The only significant impact on Table B.1 of including those additional characters would have been to bring the ratio quoted for the Compatibility area to nearly 80%. These numbers point to the fact that, while there are a large number of these special-case compatibility characters, most of them are in blocks that many users will not be dealing with. There is still a relatively small portion of them that many users will likely have to deal with, though, such as U+00B9 &#x00B9; SUPERSCRIPT ONE or U+0E33 &#x0E33; THAI CHARACTER SARA AM.
 
 A significant number of these characters have one thing in common: they come from legacy character set standards defined for East Asia. Typically, those standards were designed for use with encoding systems that were capable of supporting very large character sets, rather larger than the number of characters commonly used for the writing systems of that region. This provided a luxury of being able to encode a wide variety of forms as individual characters, including things that otherwise would require non-trivial formatting and layout controls. Presumably, this was done because it was much easier to encode some complex combination as a single character and use it with software that had few capabilities with regard to formatting and layout control (especially before the days of operating systems that provide sophisticated graphic device support) rather than to develop more sophisticated software systems.
 
 For example, there are 88 characters in the CJK Compatibility block (U+3300..U+33FF) that represent words spelled in Katakana and arranged in a square so as to fill a single em-square display cell. For instance, the character U+3315 &#x3315; SQUARE KIROGURAMU corresponds to a Japanese transliteration of “kilogram”, but presented in a square cell. The same block contains 100 other squared characters that correspond to Latin abbreviations for units of measure, such as U+33AF &#x33AF; SQUARE RAD OVER S SQUARED, and some for certain Japanese terms involving multiple Kanji, such as U+337F &#x337F; SQUARE CORPORATION (meaning ‘incorporated’). The remainder of this block constitutes characters for combinations of numbers and ideographs designating hours of the day and days of the month, such as U+3367 &#x3367; IDEOGRAPHIC TELEGRAPH SYMBOL FOR HOUR FIFTEEN.
 
-The Enclosed Alphanumerics (U+2460..U+24FF) and Enclosed CJK Letters and Months (U+3200..U+32FF) blocks contain another 340 characters that are similar in nature.1 These include combinations for months of the year (like the series for hours and days mentioned above), and over 300 characters for things like numbers and letters enclosed within circles, within parentheses, or punctuated with a full stop. For example, U+2499 &#x2499; NUMBER EIGHTEEN FULL STOP, and U+32D5 &#x32D5; CIRCLED KATAKANA KA. There is one other enclosed form in another block: U+3036 &#x3036; CIRCLED POSTAL MARK.
+The Enclosed Alphanumerics (U+2460..U+24FF) and Enclosed CJK Letters and Months (U+3200..U+32FF) blocks contain another 340 characters that are similar in nature. These include combinations for months of the year (like the series for hours and days mentioned above), and over 300 characters for things like numbers and letters enclosed within circles, within parentheses, or punctuated with a full stop. For example, U+2499 &#x2499; NUMBER EIGHTEEN FULL STOP, and U+32D5 &#x32D5; CIRCLED KATAKANA KA. There is one other enclosed form in another block: U+3036 &#x3036; CIRCLED POSTAL MARK.
 
 The 36 Roman numerals in the Number Forms block (U+2150..U+218F) also came from East Asian standards. Four of them, such as U+2181 &#x2181; ROMAN NUMERAL FIVE THOUSAND, are unique and do not duplicate any other characters in Unicode. The rest, though, such as U+2166 &#x2166; ROMAN NUMERAL SEVEN, do have compatibility decompositions.
 
-There are another handful of characters representing special combinations taken from East Asian standards2 in the Letterlike Symbols block (U+2100..U+214F), such as U+2100 &#x2100; ACCOUNT OF.
+There are another handful of characters representing special combinations taken from East Asian standards in the Letterlike Symbols block (U+2100..U+214F), such as U+2100 &#x2100; ACCOUNT OF.
 
 All of these 630 or so East Asian characters are compatibility equivalents to other character sequences, most with additional layout or formatting applied. These all go against several of Unicode’s design principles at once. They blur the distinctions between characters and glyphs, between characters and graphemes or higher-level linguistic units, and between plain text and rich text or higher-level layout-control protocols. They violate the principle of unification, and many of them very much fly in the face of the basic notion that text is encoded in terms of dynamically composed sequences of characters rather than encoding entire strings as a single unit. Nevertheless, they were considered expedient for certain systems in the past and so made their way into national standards, and as a result have found their way into Unicode today. Unless you are working with East Asian legacy data or systems, however, you would not be likely to have any need for them. Certainly someone writing technical documents in English should not consider using a character like U+3392 &#x3392; SQUARE MHZ as a convenient way to represent the abbreviation for “megahertz”!
 
