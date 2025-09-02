@@ -14118,7 +14118,7 @@
         ]
     },
     {
-        "ScriptName": "Egyptian demotic",
+        "ScriptName": "Egyptian Demotic",
         "ScriptCode": "Egyd",
         "WrSys": []
     },
@@ -124456,11 +124456,6 @@
                 ]
             }
         ]
-    },
-    {
-        "ScriptName": "Inscriptional Parthian",
-        "ScriptCode": "Prti",
-        "WrSys": []
     },
     {
         "ScriptName": "Proto-Sinaitic",

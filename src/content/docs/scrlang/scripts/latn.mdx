@@ -3,7 +3,7 @@ title: Latin
 description: Top-level script page
 sidebar:
     hidden: true
-lastUpdated: 2025-08-25
+lastUpdated: 2025-09-02
 scrpropcode: Latn
 scrproptype: alphabet
 scrpropname: Latin
@@ -15,33 +15,24 @@ scrpropbaseline: bottom
 scrpropcase: yes
 scrpropwspace: between words
 scrpropbehavior: diacritics, complex positioning, optional ligatures
-scrpropisocode: 215 (left-to-right alphabetic)
+scrpropisonumkey: 215 (left-to-right alphabetic)
 scrpropotcode: latn
 ---
 
-<span style='background-color:yellow'>_This page is a work in progress._</span>
-
-import ScriptInfo from '../../../../components/ScriptInfo.astro';
+import ScriptDetails from '../../../../components/ScriptDetails.astro';
 import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
 
-## Script features
+## Script details
 
-<details>
-<summary> See all script properties: code, region, status and more</summary>
-<ScriptInfo />
-</details>
-
-## Languages that use this script
-
-<WsList script='Latn' wsMax='5' />
+<ScriptDetails />
 
 ## Script description
 
 The Latin script (also called the Roman script) is the most widely used writing system in the world, being the script of the English language, spoken by over 300,000,000 people worldwide.
 
 <details>
-<summary>Read the full description...'</summary>It is also the script used for writing a number of Romance, Germanic, Baltic and non-Indo-European languages, as well as the [International Phonetic Alphabet (IPA)](https://scriptsource.org/entry/ucgb77fkvh).
+<summary>Read the full description...</summary>It is also the script used for writing a number of Romance, Germanic, Baltic and non-Indo-European languages, as well as the [International Phonetic Alphabet (IPA)](https://scriptsource.org/entry/ucgb77fkvh).
 
 The script was derived from the Western variant of the Greek alphabet. The earliest extant inscription, an engraved brooch now in the ‘Museo Nazionale Preistorico Etnografico Luigi Pigorini’ in Rome, has been dated to the 7th century BC. The script developed slowly over the next thousand years, and by the 4th century AD many of the modern forms had been developed, and writing had settled into a consistent left to right direction. The Latin script was disseminated throughout western, northern and central Europe and the Baltic countries along with the Christian religion. However it was not until the colonization of the Americas, Australia, and parts of Asia, Africa and the Pacific that the script began to spread outside of Europe, carried by the English, Spanish, Portuguese, French, and Dutch languages.
 
@@ -54,11 +45,25 @@ Digits from 0-9 are used. These can be combined to represent larger numbers.
 
 ## Languages that use this script
 
+:::note
+Languages listed as _unwritten_ would likely use Latin script if a writing system were developed. A status of _obsolete_ indicates that the writing system is no longer in use for that language; the language may still be spoken.
+:::
+
 <WsList script='Latn' wsMax='5' />
 
-## Unicode information
+## Unicode status
 
-_To be completed..._
+In The Unicode Standard, Latin script implementation is discussed in {link:http://www.unicode.org/versions/latest/ch07.pdf Chapter 7 Europe-I: Modern and Liturgical Scripts}.
+
+- [Full Unicode status for Latin](/scrlang/unicode/latn-unicode.md)
+
+Other:
+
+- [Unicode status for Modifier letters](/scrlang/unicode/x-mod-letters-unicode.md)
+- [Unicode status for General Punctuation](/scrlang/unicode/x-gen-punct-unicode.md)
+- [Unicode status for Currency](/scrlang/unicode/x-currency-unicode.md)
+- [Unicode status for Combining marks](/scrlang/unicode/x-comb-marks-unicode.md)
+
 
 ## Resources
 

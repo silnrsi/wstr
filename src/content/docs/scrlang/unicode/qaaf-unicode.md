@@ -1,9 +1,9 @@
 ---
-title: Unicode Status of the Duota Script
+title: Unicode Status for Duota
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-08-29
+lastUpdated: 2025-09-02
 ---
 
 As of version 6.0 of the Unicode Standard, no proposal has been submitted for encoding the Duota script in the Standard.
@@ -12,19 +12,16 @@ As of version 6.0 of the Unicode Standard, no proposal has been submitted for en
 
 [comment]: # (start of blocks)
 
+
+
 [comment]: # (end of blocks)
 
 [comment]: # (start of chars)
+
+
 
 [comment]: # (end of chars)
 
 [comment]: # (start of rest)
 
-
-
-
-
-<hr/>
-
-[Main page for the Duota script](/scrlang/scripts/qaaf)
 

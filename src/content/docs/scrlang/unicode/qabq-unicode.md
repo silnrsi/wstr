@@ -1,30 +1,27 @@
 ---
-title: Unicode Status of the Badaga Script
+title: Unicode Status for Badaga
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-08-29
+lastUpdated: 2025-09-02
 ---
 
-The Badaga script is not yet in Unicode. It is not yet in the Roadmap for the Unicode Standard. The [Script Encoding Initiative](http://www.linguistics.berkeley.edu/sei/) includes this script in their list of “Scripts Not Yet Encoded”. Contributions here may support their efforts.
+The Badaga script is not yet in Unicode. It is not yet in the Roadmap for the Unicode Standard. The {link:http://www.linguistics.berkeley.edu/sei/ Script Encoding Initiative} includes this script in their list of “Scripts Not Yet Encoded”. Contributions here may support their efforts.
 
 [comment]: # (end of intro)
 
 [comment]: # (start of blocks)
 
+
+
 [comment]: # (end of blocks)
 
 [comment]: # (start of chars)
+
+
 
 [comment]: # (end of chars)
 
 [comment]: # (start of rest)
 
-
-
-
-
-<hr/>
-
-[Main page for the Badaga script](/scrlang/scripts/qabq)
 

@@ -1,9 +1,9 @@
 ---
-title: Unicode Status of the SignWriting
+title: Unicode Status for SignWriting
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-08-29
+lastUpdated: 2025-09-02
 ---
 
 
@@ -12,19 +12,16 @@ lastUpdated: 2025-08-29
 
 [comment]: # (start of blocks)
 
+
+
 [comment]: # (end of blocks)
 
 [comment]: # (start of chars)
+
+
 
 [comment]: # (end of chars)
 
 [comment]: # (start of rest)
 
-
-
-
-
-<hr/>
-
-[Main page for the SignWriting](/scrlang/scripts/sgnw)
 

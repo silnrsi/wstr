@@ -3,7 +3,7 @@ title: Tai Viet
 description: Top-level script page
 sidebar:
     hidden: true
-lastUpdated: 2025-08-25
+lastUpdated: 2025-09-02
 scrpropcode: Tavt
 scrproptype: abugida
 scrpropname: Tai Viet
@@ -15,33 +15,24 @@ scrpropbaseline: bottom
 scrpropcase: no
 scrpropwspace: discretionary
 scrpropbehavior: diacritics, contextual forms, complex positioning, reordering, split graphs, required ligatures
-scrpropisocode: 359 (alphasyllabic)
+scrpropisonumkey: 359 (alphasyllabic)
 scrpropotcode: unspecified
 ---
 
-<span style='background-color:yellow'>_This page is a work in progress._</span>
-
-import ScriptInfo from '../../../../components/ScriptInfo.astro';
+import ScriptDetails from '../../../../components/ScriptDetails.astro';
 import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
 
-## Script features
+## Script details
 
-<details>
-<summary> See all script properties: code, region, status and more</summary>
-<ScriptInfo />
-</details>
-
-## Languages that use this script
-
-<WsList script='Tavt' wsMax='5' />
+<ScriptDetails />
 
 ## Script description
 
 The Tai Viet script is used for writing the Tai Dam, Tai Dón, Tai Daeng, Thai Song and Tày Tac languages spoken in Vietnam, Laos, China and Thailand.
 
 <details>
-<summary>Read the full description...'</summary>Speakers of these languages are also found in the United States, Australia and France. There is significant variation in the orthographic conventions of the Tai languages, as well as in their phonologies, which in turn impacts the orthography. However, a unified, standardized version of the script, with an agreed upon core set of characters, was developed at a UNESCO-sponsored workshop in 2006, and subsequently accepted for encoding in The Unicode Standard.
+<summary>Read the full description...</summary>Speakers of these languages are also found in the United States, Australia and France. There is significant variation in the orthographic conventions of the Tai languages, as well as in their phonologies, which in turn impacts the orthography. However, a unified, standardized version of the script, with an agreed upon core set of characters, was developed at a UNESCO-sponsored workshop in 2006, and subsequently accepted for encoding in The Unicode Standard.
 
 The script is an abugida. Consonants do not contain an inherent vowel; vowels must be written explicitly. Vowel marks may appear above, below, before or after a syllable's initial consonant. A written syllable therefore consists minimally of a consonant and a vowel. Optionally it may also contain a final consonant. There are two series of consonants, indicating high and low tone class. The Tai Viet script employs Latin punctuation as well as three non-alphabetic signs to indicate word repetition or a section break. It also uses two ligatures which may serve to disambiguate between homophonous words.
 
@@ -56,9 +47,13 @@ Please note that, although the Tai Viet script does exhibit reordering behaviour
 
 <WsList script='Tavt' wsMax='5' />
 
-## Unicode information
+## Unicode status
 
-_To be completed..._
+In The Unicode Standard, Tai Viet script implementation is discussed in {link:http://www.unicode.org/versions/latest/ch16.pdf Chapter 16 Southeast Asia}.
+
+- [Full Unicode status for Tai Viet](/scrlang/unicode/tavt-unicode.md)
+
+
 
 ## Resources
 
