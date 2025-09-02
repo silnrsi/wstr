@@ -26,4 +26,4 @@ The Veso Bey script (also called Gjirokastër) is not yet in Unicode.
 
 One document towards its inclusion has been submitted to the Unicode Technical Committee:
 
-indent:2009-09-30 Old Albanian Scripts — Deborah Anderson, Jason Glavy ({link:http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-328 L2/09-328})
+- 2009-09-30 Old Albanian Scripts — Deborah Anderson, Jason Glavy ([L2/09-328](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-328))

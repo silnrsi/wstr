@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-02
 ---
 
-The Beria script is not yet in Unicode. The script has a tentative allocation at U+1E5D0..U+1E5FF in the {link:http://www.unicode.org/roadmaps/smp/ Roadmap to the SMP} for the Unicode Standard.
+The Beria script is not yet in Unicode. The script has a tentative allocation at U+1E5D0..U+1E5FF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 [comment]: # (end of intro)
 
@@ -26,4 +26,4 @@ The Beria script is not yet in Unicode. The script has a tentative allocation at
 
 A preliminary proposal for its inclusion has been submitted to the Unicode Technical Committee:
 
-indent:2008-07-29 Preliminary proposal to encode Beria Giray Erfe (or Beria Branding Script) — Lorna Priest ({link:http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-265 L2/08-265})
+- 2008-07-29 Preliminary proposal to encode Beria Giray Erfe (or Beria Branding Script) — Lorna Priest ([L2/08-265](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-265))

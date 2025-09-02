@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-02
 ---
 
-The Badaga script is not yet in Unicode. It is not yet in the Roadmap for the Unicode Standard. The {link:http://www.linguistics.berkeley.edu/sei/ Script Encoding Initiative} includes this script in their list of “Scripts Not Yet Encoded”. Contributions here may support their efforts.
+The Badaga script is not yet in Unicode. It is not yet in the Roadmap for the Unicode Standard. The [Script Encoding Initiative](http://www.linguistics.berkeley.edu/sei/) includes this script in their list of “Scripts Not Yet Encoded”. Contributions here may support their efforts.
 
 [comment]: # (end of intro)
 

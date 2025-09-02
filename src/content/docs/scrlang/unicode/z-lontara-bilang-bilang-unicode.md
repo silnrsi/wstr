@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-02
 ---
 
-The Lontara bilang-bilang script is not yet in Unicode. The script has a tentative allocation at U+16D80..U+16DBF in the {link:http://www.unicode.org/roadmaps/smp/ Roadmap to the SMP} for the Unicode Standard.
+The Lontara bilang-bilang script is not yet in Unicode. The script has a tentative allocation at U+16D80..U+16DBF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 [comment]: # (end of intro)
 

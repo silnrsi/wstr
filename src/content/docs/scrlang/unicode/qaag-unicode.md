@@ -10,9 +10,9 @@ Ersu Hieroglyphs (or Ersu Shaba Picture Writing) is not yet in Unicode. It is al
 
 Two documents toward encoding the script have been submitted to the UTC:
 
-indent:2016-09-22 Preliminary Proposal for encoding Primitive Scripts in Southwest China in the SMP of the UCS — Liming Zhao ({link:http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-262 L2/16-262})
+- 2016-09-22 Preliminary Proposal for encoding Primitive Scripts in Southwest China in the SMP of the UCS — Liming Zhao ([L2/16-262](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-262))
 
-2017-09-24 Preliminary Proposal on Encoding Ersu Hieroglyphs — Zhao Liming, Wang Yihua ({link:http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-341 L2/17-341})
+- 2017-09-24 Preliminary Proposal on Encoding Ersu Hieroglyphs — Zhao Liming, Wang Yihua ([L2/17-341](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-341))
 
 [comment]: # (end of intro)
 

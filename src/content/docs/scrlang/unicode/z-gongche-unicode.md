@@ -10,7 +10,7 @@ The Gongche script is not yet in Unicode.
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:
 
-indent:2017-04-03 Proposal to encode characters for Gongche Notation in SMP — Eiso Chan, Wáng Xiǎolěi, Hóu Lè, Jerry You ({link:http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-087 L2/17-087})
+- 2017-04-03 Proposal to encode characters for Gongche Notation in SMP — Eiso Chan, Wáng Xiǎolěi, Hóu Lè, Jerry You ([L2/17-087](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-087))
 
 [comment]: # (end of intro)
 

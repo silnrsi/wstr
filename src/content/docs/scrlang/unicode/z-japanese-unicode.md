@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-02
 ---
 
-Han is discussed on the {link:http://scriptsource.org/entry/tsps57x35g Unicode Status (Han)} page, Hiragana is discussed on the {link:http://scriptsource.org/entry/ly5dbxtthx Unicode Status (Hiragana)} page and Katakana is discussed on the {link:http://scriptsource.org/entry/c9ppe854f7 Unicode Status (Katakana)} page.
+Han is discussed on the [Unicode Status (Han)](https://scriptsource.org/entry/tsps57x35g) page, Hiragana is discussed on the [Unicode Status (Hiragana)](https://scriptsource.org/entry/ly5dbxtthx) page and Katakana is discussed on the [Unicode Status (Katakana)](https://scriptsource.org/entry/c9ppe854f7) page.
 
 [comment]: # (end of intro)
 
