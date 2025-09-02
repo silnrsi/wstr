@@ -277,7 +277,7 @@ In some cases a text element can be represented as either fully composed or full
 
 ![Equivalent precomposed, decomposed and partially composed representations](images/3300-equivalent-precomposed.png "Equivalent precomposed, decomposed and partially composed representations")
 
-Thus, in this example, there are four possible representations that are all canonically equivalent to one another. We will look at the possibility of having multiple equivalent representations further in [Stacking of non-spacing combining marks](stacking-of-non-spacing-combining-marks).
+Thus, in this example, there are four possible representations that are all canonically equivalent to one another. We will look at the possibility of having multiple equivalent representations further in [Stacking of non-spacing combining marks](#stacking-of-non-spacing-combining-marks).
 
 There is more to be explained regarding the relationship between canonical-equivalent sequences, and we will be looking at further details in [Other rendering behaviours](#other-rendering-behaviours), [Combining marks and canonical ordering](#combining-marks-and-canonical-ordering), [Normalization](#normalization), and [Deciding how to encode data](#deciding-how-to-encode-data). Before returning to discuss ways in which Unicode design principles have been compromised, there are some specific points worth mentioning regarding certain characters for vowels in Indic scripts.
 
