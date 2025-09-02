@@ -23,7 +23,7 @@ jobs:
           cache: npm
           cache-dependency-path: package-lock.json
       - name: Install
-        run: npm install
+        run: npm clean-install
       - name: Check internal links
         run: npm run linkcheck 1>linkcheck.log 2>&1
       - name: Generate Report
