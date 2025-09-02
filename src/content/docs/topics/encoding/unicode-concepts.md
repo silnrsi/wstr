@@ -669,8 +669,6 @@ Even for the groups of scripts that pertain to the rendering behaviours describe
 
 ## Combining marks and canonical ordering
 
->Yet to be written. This section will discuss the relationship between combining marks that interact typographically versus those that do not, and the significance with regard to the semantic significance of combining character sequences. It will be shown that combining character sequences that differ only in the ordering of combining marks can be equivalent sequences. The role of combining classes and the canonical ordering algorithm in neutralising the distinctions between equivalent sequences will be explained. A synopsis follows:
-
 When multiple combining marks occur with a single base, those combining marks may or may not interact typographically. If they don’t, then the order in which they occur in the file doesn’t correspond to any change in appearance, and therefore doesn’t correspond to any meaningful difference. This results in another way in which a given text element can have different encoded representations in Unicode.
 
 If the combining marks do interact typographically, however, then different orders do correspond to different appearance—typically the diacritics are stacked out from the base. This will represent a difference in meaning to the user. Thus, there are some cases in which differently ordered sequences are semantically different, and other cases in which they should be considered equivalent.
@@ -683,9 +681,9 @@ The possibility of equivalent sequences of combining marks occurring in differen
 
 Canonical ordering can also be an important factor in normalization.
 
-## Normalization
+More information is available in The Unicode Standard on [Combining Characters][uni-ch2-combining].
 
->Yet to be written. This section will briefly explain the various Unicode normalization forms that can be used solve the problem of needing to recognise equivalent sequences as being equivalent. A synopsis follows:
+## Normalization
 
 In [Canonical equivalence and the principle of equivalent sequences](#canonical-equivalence-and-the-principle-of-equivalent-sequences) and [Combining marks and canonical ordering](#combining-marks-and-canonical-ordering), we saw various reasons why a given text element may be represented in Unicode in multiple ways: precomposed characters are canonically equivalent to their full or partial decompositions. Also, different orderings of combining marks may not be semantically significant, again resulting in different sequences that are canonically equivalent.
 
@@ -697,9 +695,11 @@ There are two other normalization forms that have been defined: NFKD and NFKC. T
 
 >There is no general requirement that data must be represented in any one normal form. On the other hand, one may be the preference in certain contexts, or one may be imposed in some software implementations.
 
+More information is available in The Unicode Standard on [Normalization][uni-ch2-normalization].
+
 ## Deciding how to encode data
 
->Yet to be written. This section will discuss various issues related to choices in how data can be encoded. This includes: deciding when to follow decomposed or composed normalisation forms; deciding whether or not to use compatibility characters / characters with compatibility decompositions; distinguishing between characters that appear to be similar, or equating glyph variants; the importance of semantics in deciding when to distinguish or unify characters. There will also be some discussion as to what can be done when a character simply is not yet supported in Unicode.
+Resource: [To compose or decompose, that is the question][compose-decompose].
 
 ## Deprecation
 
@@ -968,7 +968,9 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 [uni-bmp]: https://www.unicode.org/roadmaps/bmp/
 [uni-case-mappings]: https://www.unicode.org/versions/latest/core-spec/chapter-5/#G21180
 [uni-case-normative]: https://www.unicode.org/versions/latest/core-spec/chapter-4/#G124722
+[uni-ch2-combining]: https://www.unicode.org/versions/latest/core-spec/chapter-2/#G1708
 [uni-ch2-encoding-forms]: https://www.unicode.org/versions/latest/core-spec/chapter-2/#G13708
+[uni-ch2-normalization]: https://www.unicode.org/versions/latest/core-spec/chapter-2/#G26623
 [uni-ch22-numerals]: https://www.unicode.org/versions/latest/core-spec/chapter-22/#G12146
 [uni-ch22]: https://www.unicode.org/versions/latest/core-spec/chapter-22/
 [uni-ch23]: https://www.unicode.org/versions/latest/core-spec/chapter-23/
