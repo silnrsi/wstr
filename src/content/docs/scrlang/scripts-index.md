@@ -28,7 +28,6 @@ Bhks | [Bhaiksuki](/scrlang/scripts/bhks) | Indic | abugida | LTR | Historical
 Blis | [Blissymbols](/scrlang/scripts/blis) | Artificial | logo-syllabary | LTR | Historical 
 Phlv | [Book Pahlavi](/scrlang/scripts/phlv) | Middle Eastern | abjad | RTL | Historical 
 Bopo | [Bopomofo](/scrlang/scripts/bopo) | East Asian | syllabary | LTR | Current 
-(LTR) | Unclear 
 Brah | [Brahmi](/scrlang/scripts/brah) | Indic | abugida | LTR | Historical 
 Brai | [Braille](/scrlang/scripts/brai) | Artificial | alphabet | LTR | Current 
 Bugi | [Buginese](/scrlang/scripts/bugi) | Insular Southeast Asian | abugida | LTR | Current 
@@ -61,7 +60,6 @@ Egyh | [Egyptian hieratic](/scrlang/scripts/egyh) | African | logo-syllabary | L
 Egyp | [Egyptian hieroglyphs](/scrlang/scripts/egyp) | African | logo-syllabary | LTR | Historical 
 Elba | [Elbasan](/scrlang/scripts/elba) | European | alphabet | LTR | Historical 
 Elym | [Elymaic](/scrlang/scripts/elym) | Middle Eastern | abjad | RTL | Historical 
-(LTR) and horizontal (LTR) | Current 
 Ethi | [Ethiopic (Geʻez)](/scrlang/scripts/ethi) | African | syllabary | LTR | Current 
 Gara | [Garay](/scrlang/scripts/gara) | African | alphabet | RTL | Current 
 Geor | [Georgian (Mkhedruli and Mtavruli)](/scrlang/scripts/geor) | European | alphabet | LTR | Current 
@@ -136,7 +134,6 @@ Mend | [Mende Kikakui](/scrlang/scripts/mend) | African | syllabary | RTL | Curr
 Merc | [Meroitic Cursive](/scrlang/scripts/merc) | Middle Eastern | alphabet | RTL | Historical 
 Mero | [Meroitic Hieroglyphs](/scrlang/scripts/mero) | Middle Eastern | alphabet | vertical (RTL)| Historical 
 Plrd | [Miao (Pollard)](/scrlang/scripts/plrd) | East Asian | syllabary | LTR | Current 
-Historical 
 Modi | [Modi](/scrlang/scripts/modi) | Indic | abugida | LTR | Current 
 Mong | [Mongolian](/scrlang/scripts/mong) | Central Asian | alphabet | vertical (LTR) | Current 
 Moon |" [Moon""](/scrlang/scripts/moon) "| Artificial | alphabet | LTR | Current 
@@ -171,7 +168,6 @@ Osma | [Osmanya](/scrlang/scripts/osma) | African | alphabet | LTR | Historical
 Hmng | [Pahawh Hmong](/scrlang/scripts/hmng) | East Asian | alphabet | LTR | Current 
 Palm | [Palmyrene](/scrlang/scripts/palm) | Middle Eastern | abjad | RTL | Historical 
 Pauc | [Pau Cin Hau](/scrlang/scripts/pauc) | Mainland Southeast Asian | alphabet | LTR | Current 
-Current 
 Phag | [Phags-pa](/scrlang/scripts/phag) | Central Asian | abugida | vertical (RTL)| Historical 
 Phnx | [Phoenician](/scrlang/scripts/phnx) | Middle Eastern | abjad | RTL | Historical 
 Pcun | [Proto-Cuneiform](/scrlang/scripts/pcun) | Middle Eastern | logo-syllabary | unspecified | Historical 
