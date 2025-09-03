@@ -233,4 +233,3 @@ Wole | [Woleai](/scrlang/scripts/wole) | Pacific | syllabary | LTR | Historical
 Yezi | [Yezidi](/scrlang/scripts/yezi) | Middle Eastern | alphabet | RTL | Current 
 Yiii | [Yi](/scrlang/scripts/yiii) | East Asian | syllabary | vertical (RTL) and horizontal (LTR) | Current 
 Zanb | [Zanabazar Square](/scrlang/scripts/zanb) | Central Asian | abugida | LTR | Historical 
-another | | | | |

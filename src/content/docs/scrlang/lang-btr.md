@@ -24,7 +24,7 @@ lastUpdated: 2025-07-15
 
 Script | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
 ------ | ---------------------- | ------ | ------------------- | -------------------- |
-[Latin](/scrlang/script-latn) | btr-Latn | unwritten* | | btr-Latn-VU (Vanuatu) |
+[Latin](/scrlang/scripts/latn) | btr-Latn | unwritten* | | btr-Latn-VU (Vanuatu) |
 
 *No writing system currently exists for this language, but any to be developed would likely be based on the Latin script.
 
