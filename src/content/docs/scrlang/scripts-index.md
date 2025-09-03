@@ -10,7 +10,6 @@ For more information on specific scripts, languages, and writing systems see [Sc
 
 **ISO** | **Name** | **Region** | **Type** | **Direction** | **Status** |
 ------------ | -------- | ---------- | ----------------- | -------- | ------------- |
-Seal | [(Small) Seal](/scrlang/scripts/seal) | East Asian | logo-syllabary | unspecified | Historical 
 Adlm | [Adlam](/scrlang/scripts/adlm) | African | alphabet | RTL | Current 
 Afak | [Afaka](/scrlang/scripts/afak) | American | syllabary | LTR | Current 
 Ahom | [Ahom](/scrlang/scripts/ahom) | Mainland Southeast Asian | abugida | LTR | Current 
@@ -193,6 +192,7 @@ Sidd | [Siddham (Siddhamātṛkā)](/scrlang/scripts/sidd) | Indic | abugida | L
 Sidt | [Sidetic](/scrlang/scripts/sidt) | unspecified | alphabet | RTL | Historical 
 Sgnw | [SignWriting](/scrlang/scripts/sgnw) | Signed Language | featural | vertical (LTR) and horizontal (LTR) | Current 
 Sinh | [Sinhala](/scrlang/scripts/sinh) | Indic | abugida | LTR | Current 
+Seal | [(Small) Seal](/scrlang/scripts/seal) | East Asian | logo-syllabary | unspecified | Historical 
 Sogd | [Sogdian](/scrlang/scripts/sogd) | Middle Eastern | abjad | RTL | Historical 
 Sora | [Sora Sompeng](/scrlang/scripts/sora) | Indic | abugida | LTR | Current 
 Soyo | [Soyombo](/scrlang/scripts/soyo) | Indic | abugida | LTR | Current 
@@ -237,4 +237,4 @@ Wole | [Woleai](/scrlang/scripts/wole) | Pacific | syllabary | LTR | Historical
 Yezi | [Yezidi](/scrlang/scripts/yezi) | Middle Eastern | alphabet | RTL | Current 
 Yiii | [Yi](/scrlang/scripts/yiii) | East Asian | syllabary | vertical (RTL) and horizontal (LTR) | Current 
 Zanb | [Zanabazar Square](/scrlang/scripts/zanb) | Central Asian | abugida | LTR | Historical 
-
+another | | | | |
