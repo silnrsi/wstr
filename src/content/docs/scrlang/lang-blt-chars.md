@@ -119,4 +119,4 @@ _etc._ ||
 
 <hr>
 
-[Back to Tai Dam](/scrlang/scripts/lang-blt)
+[Back to Tai Dam](/scrlang/lang-blt)

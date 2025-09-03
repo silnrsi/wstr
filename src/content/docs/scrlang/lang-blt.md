@@ -24,8 +24,8 @@ lastUpdated: 2025-06-25
 
 Script | Writing system<br>code | Status | SLDR/CLDR<br>locale | Regional<br>variants |
 -------- | ---------------------- | ------ | ------------------- | -------------------- |
-[Tai Viet](/scrlang/script-tavt) | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Viet Nam) |
-[Latin](/scrlang/script-latn) | blt-Latn | in use | | blt-Latn-VN (Viet Nam) |
+[Tai Viet](/scrlang/scripts/tavt) | blt-Tavt | in use | [blt \[Tai Dam\]](https://unicode.org/cldr/charts/47/summary/blt.html) | blt-Tavt-VN (Viet Nam) |
+[Latin](/scrlang/scripts/latn) | blt-Latn | in use | | blt-Latn-VN (Viet Nam) |
 Lao | blt-Laoo | in use | | blt-Laoo-LA (Laos) |
 
 ## Characters used by this language
