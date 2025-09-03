@@ -3,7 +3,7 @@ title: Unicode Status for Arabic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-03
 ---
 
 In The Unicode Standard, Arabic Script implementation is discussed in [Chapter 9 Middle East-I: Modern and Liturgical Scripts](http://www.unicode.org/versions/latest/ch09.pdf). The _Arabic (Nastaliq variant)_ script uses characters from the Arabic script Unicode blocks.
@@ -143,11 +143,7 @@ NB: The following sections include some characters that are not in the Arabic bl
 | <span class='USV'>U+002D</span>&nbsp;<span class='UnicodeCharName'>HYPHEN-MINUS</span> | BIDI Class | ET -&gt; ES |
 | <span class='USV'>U+002F</span>&nbsp;<span class='UnicodeCharName'>SOLIDUS</span> | BIDI Class | ES -&gt; CS |
 | <span class='USV'>U+00AD</span>&nbsp;<span class='UnicodeCharName'>SOFT HYPHEN</span> | BIDI Class | ON -&gt; BN |
-| <span class='USV'>U+06C2</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER HEH GOAL WITH HAMZA ABOVE</span> | Joining Type
-
-Joining Group | Right -&gt; Dual
-
-HAMZA ON HEH GOAL -&gt; HEH GOAL |
+| <span class='USV'>U+06C2</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER HEH GOAL WITH HAMZA ABOVE</span> | Joining Type<br/>Joining Group | Right -&gt; Dual<br/>HAMZA ON HEH GOAL -&gt; HEH GOAL |
 | <span class='USV'>U+200B</span>&nbsp;<span class='UnicodeCharName'>ZERO WIDTH SPACE</span> | General Category | Zs -&gt; Cf |
 | <span class='USV'>U+202F</span>&nbsp;<span class='UnicodeCharName'>NARROW NO-BREAK SPACE</span> | BIDI Class | WS -&gt; CS |
 
@@ -268,11 +264,7 @@ None.
 | Character: | What changed: | Change: |
 | ---------- | ------------- | ------- |
 | <span class='USV'>U+06C3</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER TEH MARBUTA GOAL</span> | Joining Group | HAMZA ON HEH GOAL -&gt; TEH MARBUTA GOAL |
-| <span class='USV'>U+06DE</span>&nbsp;<span class='UnicodeCharName'>ARABIC START OF RUB EL HIZB</span> | General Category
-
-BIDI Class | ME -&gt; So
-
-NSM -&gt; ON |
+| <span class='USV'>U+06DE</span>&nbsp;<span class='UnicodeCharName'>ARABIC START OF RUB EL HIZB</span> | General Category<br/>BIDI Class | ME -&gt; So<br/>NSM -&gt; ON |
 
 ##### Additions:
 
