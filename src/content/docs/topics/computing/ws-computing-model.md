@@ -83,9 +83,6 @@ Examples of conversion components:
 - A small program that converts text files back and forth between two encodings (such as the old MacRoman encoding and Unicode).
 - Definition files that document the differences and correspondences between encodings, and that could serve as input for a conversion tool.
 
-## Example
-
-(add example of a script that needs all 5 components)
 
 _Portions of this content first appeared in [Guidelines for Writing System Support][wsig], copyright © 2003 UNESCO and SIL International._
 
