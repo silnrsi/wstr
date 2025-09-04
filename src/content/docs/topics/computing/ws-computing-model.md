@@ -20,7 +20,7 @@ The following model encompasses text input, storage, processing, and output.
 
 The model begins with _data encoding_—how language information is stored. Information is given a digital representation, encoded in terms of binary numerical values. For text data, the encoding refers to a set of rules by which the sequence of characters that make up a text are represented in terms of a sequence of numbers.
 
-All WSIs are based upon an encoding, whether public or private. An adequate encoding needs to store all the information needed to represent the text in a given writing system. For example, an encoding for English needs to maintain a difference between capital A and lowercase a, because capitalization is an important writing system feature.
+All WSIs are based on an encoding, whether public or private. An adequate encoding needs to store all the information needed to represent the text in a given writing system. For example, an encoding for English needs to maintain a difference between capital A and lowercase a, because capitalization is an important writing system feature.
 
 The international standard for text encoding is [Unicode][the-unicode-standard], a system with almost unanimous support from software companies and government bodies. This standard assigns a distinct numerical range to individual scripts, and unique numeric identifiers to each character of each script. This allows data in a variety of languages to be stored together without confusion. It can be assumed that any adequate WSI stores its data according to The Unicode Standard.
 
@@ -33,7 +33,7 @@ Examples of encoding components:
 
 ### Input
 
-Data needs to be entered into the computer or device somehow. This process involves _input_, whether by a physical or virtual keyboard or through some other input method. The technical process of keyboarding involves translating keystroke sequences into character data in some given encoding. Since most keyboard layouts are designed around the entry of Latin-script data, the routines needed to interpret keystrokes into language data for other scripts can be very complex, and are commonly built directly into computer operating systems.
+Data needs to be entered into the computer or device somehow. This process involves _input_, whether by a physical or virtual keyboard or through some other input method (e.g. text to speech or OCR). The technical process of keyboarding involves translating keystroke sequences into character data in some given encoding. Since most keyboard layouts are designed around the entry of Latin-script data, the routines needed to interpret keystrokes into language data for other scripts can be very complex, and are commonly built directly into computer operating systems.
 
 For more information on keyboarding and other input systems see [From Keystrokes to Codepoints][from-keystrokes-to-codepoints].
 
@@ -45,7 +45,7 @@ Examples of keyboarding components:
 
 ### Rendering
 
-_Rendering_ takes stored text in a given encoding and presents it visibly on a screen or printed page. If the stored data exactly parallels the individual letters in a line of text, this is a simple process: one code per letter. Even in this situation it is important that the letter be shaped correctly, and harmonize with the rest of the alphabet. Font design is a subtle but important process. See [Font Design and Development][font-design-and-development] .
+_Rendering_ takes stored text in a given encoding and presents it visibly on a screen or printed page. If the stored data exactly parallels the individual letters in a line of text, this is a simple process: one code per letter. Even in this situation it is important that the letters be shaped correctly, and harmonize with the rest of the alphabet. Font design is a subtle but important process. See [Font Design and Development][font-design-and-development] .
 
 In complex Latin and most other scripts, however, data must be interpreted to display or print properly. Users want to view their data in an easy, trouble-free manner that accurately reflects the spelling and word formation rules of their writing system. This can require ‘smart’ rendering components that perform sophisticated interpretations of the data before sending it to the computer screen. See [Shaping and Rendering][shaping-and-rendering].
 
@@ -74,7 +74,7 @@ Examples of analysis components:
 
 ### Conversion
 
-Basic _conversion_ components transform data from one encoding into another. Until the advent of Unicode, WSIs used hundreds of different encodings for their data. Some of these encodings were official standards, but others were proprietary and unique to a specific application program. Any time more than one encoding exists for a given language, there needs to be conversion routines and tools as a ‘bridge’ between them. This is especially relevant in the transition from older encodings to Unicode. Without reliable conversion, users were hesitant to migrate their data to newer systems.
+Basic _conversion_ components transform data from one encoding into another. Until the advent of Unicode, WSIs used hundreds of different encodings for their data. Some of these encodings were official standards, but others were proprietary and unique to a specific program or font. Any time more than one encoding exists for a given language, there needs to be conversion routines and tools as a ‘bridge’ between them. This is especially relevant in the transition from older encodings to Unicode. Without reliable conversion, users were hesitant to migrate their data to newer systems.
 
 Current applications almost universally use Unicode, although there are millions of old documents that may have data in old ‘legacy’ encodings. It is important that conversion tools, scripts, and mappings remain available to access this archival data.
 
