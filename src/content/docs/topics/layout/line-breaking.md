@@ -7,7 +7,7 @@ sidebar:
 lastUpdated: 2025-08-15
 ---
 
-In typesetting the Latin script, text is [justified][glossary-justification] on a line by first seeing how much fits on a line, then checking to see if there is a word break there (for example, a space), next checking to see if a word can be broken (hyphenated) at that point, then adding space between words and finally (although strongly deprecated!) between letters to fill out the line.
+In typesetting the Latin script, text is [justified][glo-justification] on a line by first seeing how much fits on a line, then checking to see if there is a word break there (for example, a space), next checking to see if a word can be broken (hyphenated) at that point, then adding space between words and finally (although strongly deprecated!) between letters to fill out the line.
 
 Line breaking becomes more difficult if scripts do not have word breaks, as in Tibetan and Thai, or if the word break is represented by a character rather than a space, as with the [Ethiopic _Hulet Neteb_ (&#x1361;)][hyphenation]. See [Justification][justification] and [Hyphenation][hyphenation] for details on those aspects of line breaking.
 The basic algorithm for modern line breaking is to assess a text for the
@@ -15,20 +15,20 @@ possible line breaking positions and then to use those to guide the text layout
 engine in its choice of actual line breaks. This article is about how to
 determine those possible line break positions.
 
-There are three general methods used by applications to determine line breaking: character category based, hyphenation, and dictionary based.
+There are three general methods used by applications to determine line breaking: character category based, [hyphenation][glo-hyphenation], and dictionary based.
 
 ## Character category based
 
 The Unicode Consortium has created a standard that describes how to do
 algorithmic line breaking. Characters are categorised by their line breaking
 properties, and from these, rules decide where a line break may occur. Or in the
-case of UAX#14 (the Unicode specification), more commonly, where line breaks may
+case of [UAX #14: Unicode Line Breaking Algorithm][uni-utr14], more commonly, where line breaks may
 not occur. This algorithm handles languages that use inter word spaces very
 well. It handles punctuation, digits, hyphens, etc. Languages that do not have
 inter word spaces may use zero width spaces to mark word boundaries and then use
 this algorithm.
 
-A common library for doing line breaking is ICU and it has the capability to
+A common library for doing line breaking is [ICU][uni-icu] and it has the capability to
 tailor the line breaking rules according to the needs of a particular language.
 It also has limited support for hyphenation and dictionary based line breaking.
 
@@ -49,6 +49,8 @@ Inserting soft hyphens is hard work and gets in the way of other processes like
 searching. Most typesetting engines therefore, allow for a more automated
 approach whereby they use either a word list or some other language specific
 algorithms to decide on hyphenation points when such a decision is needed.
+
+See also [Hyphenation][hyphenation].
 
 ## Dictionary 
 
@@ -77,7 +79,7 @@ The ideal solution is perfect matching in which the dictionary has other
 information (e.g. grammatical) by which the choice as to the best way to break
 the text into words can be achieved. Unfortunately, there is no way to do
 absolutely perfect matching without a full understanding of the discourse of the
-text. Perhaps some LLMs can get close.
+text. Perhaps some [LLMs][glo-llm] can get close.
 
 ### Maximal Match
 
@@ -96,21 +98,24 @@ dictionary. If all text were marked with its language, and marked correctly,
 there would be no problem. This is particularly a problem for minority
 languages. For majority languages, of which there is usually only one per
 script, the assumption that text in a particular script is in that language, is
-usually correct. And so libraries like ICU identify the language based on the
+usually correct. And so libraries like [ICU][uni-icu] identify the language based on the
 script and then break the text according to the dictionary of that language.
 This is fine for users of that language but causes problems for users of a
-minority language since dictionary is wrong.
+minority language since the dictionary is wrong.
 
-One approach for minority language users is to use ZWSP to identify the words in
+One approach for minority language users is to use ZWSP (ZERO WIDTH SPACE) to identify the words in
 the text and then somehow to tell the line breaking engine not to use dictionary
-breaking. Either that or the text must be appropriate marked for its language
+breaking. Either that or the text must be appropriately marked for its language
 and the line breaking engine to be given a dictionary to use for the line
 breaking of text in that language.
 
 _Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
 
+[glo-hyphenation]: /reference/glossary#hyphen
+[glo-justification]: /reference/glossary#justify
+[glo-llm]: /reference/glossary#llm
 [iws]: https://scripts.sil.org/iws-toc.html
-[glossary-hyphenation]: /reference/glossary#hyphen
-[glossary-justification]: /reference/glossary#justify
 [justification]: /topics/layout/justification
 [hyphenation]: /topics/layout/hyphenation
+[uni-utr14]: https://www.unicode.org/reports/tr14/
+[uni-icu]: https://icu.unicode.org/
