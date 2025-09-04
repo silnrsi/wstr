@@ -9,7 +9,8 @@ lastUpdated: 2025-08-15
 
 In typesetting the Latin script, text is [justified][glo-justification] on a line by first seeing how much fits on a line, then checking to see if there is a word break there (for example, a space), next checking to see if a word can be broken (hyphenated) at that point, then adding space between words and finally (although strongly deprecated!) between letters to fill out the line.
 
-Line breaking becomes more difficult if scripts do not have word breaks, as in Tibetan and Thai, or if the word break is represented by a character rather than a space, as with the [Ethiopic _Hulet Neteb_ (&#x1361;)][hyphenation]. See [Justification][justification] and [Hyphenation][hyphenation] for details on those aspects of line breaking.
+Line breaking becomes more difficult if scripts do not have word breaks, as in Khmer or Thai, or if the word break is represented by a character rather than a space, as with the Tibetan Tsheg (&#x0F0B;) or Ethiopic _Hulet Neteb_ (&#x1361;). See [Justification][justification] and [Hyphenation][hyphenation] for details.
+
 The basic algorithm for modern line breaking is to assess a text for the
 possible line breaking positions and then to use those to guide the text layout
 engine in its choice of actual line breaks. This article is about how to
@@ -19,10 +20,10 @@ There are three general methods used by applications to determine line breaking:
 
 ## Character category based
 
-The Unicode Consortium has created a standard that describes how to do
+The Unicode Consortium has created a [standard][uax-14] that describes how to do
 algorithmic line breaking. Characters are categorised by their line breaking
 properties, and from these, rules decide where a line break may occur. Or in the
-case of [UAX #14: Unicode Line Breaking Algorithm][uni-utr14], more commonly, where line breaks may
+case of [UAX #14: Unicode Line Breaking Algorithm][uax-14], more commonly, where line breaks may
 not occur. This algorithm handles languages that use inter word spaces very
 well. It handles punctuation, digits, hyphens, etc. Languages that do not have
 inter word spaces may use zero width spaces to mark word boundaries and then use
@@ -34,23 +35,11 @@ It also has limited support for hyphenation and dictionary based line breaking.
 
 ## Hyphenation
 
-Hyphenation is used as a refinement to normal line breaking in that it gives
+[Hyphenation][hyphenation] is used as a refinement to normal line breaking in that it gives
 more line break opportunities, and thus allows a layout engine to make justified
 text look more balanced without excessively wide inter word spaces. It also
 provides a second level of line breaking in terms that hyphenation points are
 considered secondary to the primary inter word line break.
-
-Hyphenation points can be inserted into a text manually through the use of the
-soft hyphen character (SHY U+00AD). This character disappears unless at the end
-of a line when it becomes a hyphen, and it also tells a line breaking engine
-that this is a hyphen point.
-
-Inserting soft hyphens is hard work and gets in the way of other processes like
-searching. Most typesetting engines therefore, allow for a more automated
-approach whereby they use either a word list or some other language specific
-algorithms to decide on hyphenation points when such a decision is needed.
-
-See also [Hyphenation][hyphenation].
 
 ## Dictionary 
 
@@ -109,6 +98,15 @@ breaking. Either that or the text must be appropriately marked for its language
 and the line breaking engine to be given a dictionary to use for the line
 breaking of text in that language.
 
+## Line Breaking Algorithms
+
+In laying out a paragraph, there are various algorithms used to choose where
+lines are broken. The simplest is to fit as much text on a line as possible and
+then go on to the next line and repeat until the paragraph is complete. Other
+algorithms try to balance the look of the paragraph including whether one line
+has been shrunk followed by another line being stretched. The [TeX][texbook] line breaking
+algorithm is in such a class.
+
 _Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
 
 [glo-hyphenation]: /reference/glossary#hyphen
@@ -117,5 +115,6 @@ _Portions of this content first appeared in [Implementing Writing Systems][iws],
 [iws]: https://scripts.sil.org/iws-toc.html
 [justification]: /topics/layout/justification
 [hyphenation]: /topics/layout/hyphenation
-[uni-utr14]: https://www.unicode.org/reports/tr14/
 [uni-icu]: https://icu.unicode.org/
+[uax-14]: https://www.unicode.org/reports/tr14/
+[texbook]: https://books.google.co.uk/books?id=zqgQAQAAMAAJ

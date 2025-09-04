@@ -11,7 +11,19 @@ lastUpdated: 2025-08-14
 
 Interesting hyphenation behaviors occur in some Latin script use, as in the German word “backen” which becomes “bak-ken” when hyphenated (although there are moves for this to be abandoned). Hyphenation rules in publishing applications need to be fully customizable for these types of behaviors.
 
-Hyphenation is generally a tool used in Latin typesetting, but it is not always allowed in other writing systems. 
+Hyphenation is generally a tool used in Latin typesetting, since it is not always allowed in other writing systems. 
+
+Hyphenation points can be inserted into a text manually through the use of the
+soft hyphen character (SHY U+00AD). This character disappears unless at the end
+of a line when it becomes a hyphen, and it also tells a line breaking engine
+that this is a hyphen point.
+
+Inserting soft hyphens is hard work and gets in the way of other processes like
+searching. Most typesetting engines therefore, allow for a more automated
+approach whereby they use either a word list or some other language specific
+algorithms to decide on hyphenation points when such a decision is needed.
+
+## Ethiopic
 
 One interesting case of different hyphenation methods is Ethiopic. Because Ethiopic was traditionally written using the *Hulet Neteb* there was no need for a hyphenation character. If a line broke at the end of a word the *Hulet Neteb* or other punctuation would be used. However, if a line broke in the middle of the word, the reader just saw the word break with no hyphen. In Figure 1, line two is “hyphenated,” line one is not.
 
@@ -21,7 +33,6 @@ One interesting case of different hyphenation methods is Ethiopic. Because Ethio
 
 The difficulty now arises that although word breaking still sometimes occurs this way but, with software limitations encouraging the use of white space between words (rather than the *Hulet Neteb*), it is difficult to know if there is a complete word at the end of a line or if it is a “broken” word (compare Figure 2 with Figure 1).
 
-<br>
 
 _Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
 

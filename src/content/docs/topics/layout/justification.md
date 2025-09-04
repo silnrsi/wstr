@@ -7,11 +7,15 @@ sidebar:
 lastUpdated: 2025-08-14
 ---
 
-[Justification][justification] is the alignment of text along both the left and right margins so that all the lines are the same length. In Latin and other similar scripts, justification is usually handled by applying [hyphenation][hyphenation], or by adjusting the spacing between words and characters on each line. However, not all scripts can use hyphenation. Two examples are the Tibetan and Arabic scripts.
+[Justification][justification] is the alignment of text along both the left and right margins so that all the lines are the same length. After the line break has been chosen and the line is broken, it needs to be stretched to align the margins. Most commonly this is done by inserting extra space between words or even letters. Other strategies include glyph stretching where the line is made wider by make the glyphs on the line non-noticably wider. Not all scripts stretch the line using space. Some typesetting systems even choose a better line break by shrinking the space between words or the width of glyphs.
+
+## Tibetan
 
 Tibetan does not have visible word breaks and so the only variable white space is after the _shad_ (&#x0F0D;). In Figure 1 one can see that lines four, five and six are “completed” (or justified) with a series of syllable markers (&#x0F0B;) while the other lines are justified via the variable space after each _shad_.
 
 ![Minzu Tushuguan bian (Library of Nationalities). 1984. “Zangwen dianji mulu: wenjilei zimu” (Bibliography of Ancient Tibetan books and documents). Vol. 1, p. 1. Chengdu: Sichuan Minority Press.](images/6220-1-Tibt.png "Figure 1. Syllable markers help “justify” the line (Tibetan)")
+
+## Arabic
 
 Another interesting example is Arabic. Since Arabic does not allow hyphenation, another method for justification is needed: *kashidas* are used to stretch the line. The *kashida* (or tatweel) is typeface-dependent and varies for each kind of Arabic script. Thus, the rules for inserting the *kashida* will be in the font, and the publishing application requires the capability of using the font.
 
