@@ -28,7 +28,7 @@ The Old Hungarian script was encoded in The Unicode Standard version 8.0. The sc
 
 [comment]: # (start of rest)
 
-A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2<span class='footnote_ref'><a href='#footnote_1' name='_ftnref_1'>1</a></span>:
+A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2[^1]:
 
 - 1998-01-18 Draft proposal to encode Old Hungarian in Plane 1 of ISO/IEC 10646 — Michael Everson ([WG2 N1686](https://www.unicode.org/wg2/docs/n1686/n1686.htm), [WG2 N1686b](https://www.unicode.org/wg2/docs/n1686b.htm),[WG2 N1686c](https://www.unicode.org/wg2/docs/n1686c.htm), [L2/98-033](http://www.unicode.org/L2/L1998/98033.pdf))
 
@@ -142,14 +142,11 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 
 
-region:end_matter
-
-<hr align='left' class='footnote_rule'><table>
-<tr>
-<td class='footnote_number' align='top'><a href='#_ftnref_1' name='footnote_1'>1</a></td>
-<td class=footnote_text>As can be seen from the multiple proposals and discussion documents, the road to encoding this script was not straightforward. The Unicode Technical Committee accepted Old Hungarian for encoding at the point when L2/11-242 (WG2=n4110) was discussed.</td>
-</tr>
-</table>
 
 
-region-end:end_matter
+[^1]: As can be seen from the multiple proposals and discussion documents, the road to encoding this script was not straightforward. The Unicode Technical Committee accepted Old Hungarian for encoding at the point when L2/11-242 (WG2=n4110) was discussed.
+
+
+
+
+
