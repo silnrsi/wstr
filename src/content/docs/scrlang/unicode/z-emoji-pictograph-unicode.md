@@ -3,12 +3,12 @@ title: Unicode Status for Emoji & Pictograph Symbols
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Emoji implementation is discussed in [Chapter 22 Symbols](http://www.unicode.org/versions/latest/ch22.pdf).
 
-[Unicode Technical Report #51](http://unicode.org/reports/tr51/) discusses Unicode Emoji, and there are strict guidelines on which characters might be accepted in the future: [[[http://unicode.org/emoji/selection.html]]]([[http://unicode.org/emoji/selection.html]]).
+[Unicode Technical Report #51](http://unicode.org/reports/tr51/) discusses Unicode Emoji, and there are strict guidelines on which characters might be accepted in the future: [http://unicode.org/emoji/selection.html](http://unicode.org/emoji/selection.html).
 
 [comment]: # (end of intro)
 

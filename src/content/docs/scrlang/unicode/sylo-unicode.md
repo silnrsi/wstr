@@ -3,7 +3,7 @@ title: Unicode Status for Syloti Nagri
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Syloti Nagri script implementation is discussed in [Chapter 15 South and Central Asia-IV](http://www.unicode.org/versions/latest/ch15.pdf).

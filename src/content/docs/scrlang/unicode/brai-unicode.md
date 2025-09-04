@@ -3,7 +3,7 @@ title: Unicode Status for Braille
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Braille Patterns implementation is discussed in [Chapter 21 Notational Systems: Shorthands, Braille, Musical Symbols](http://www.unicode.org/versions/latest/ch21.pdf).

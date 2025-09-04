@@ -3,7 +3,7 @@ title: Unicode Status for Bengali
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Bengali script implementation is discussed in [Chapter 12 South and Central Asia-I](http://www.unicode.org/versions/latest/ch12.pdf).

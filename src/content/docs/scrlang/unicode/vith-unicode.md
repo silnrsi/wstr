@@ -3,7 +3,7 @@ title: Unicode Status for Vithkuqi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 The Vithkuqi (Veqilharxhi or Büthakukye) script is not yet in Unicode. The script has a tentative allocation at U+10570..U+105BF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.

@@ -3,7 +3,7 @@ title: Unicode Status for Vedic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 The Vedic Extensions block was first encoded in The Unicode Standard version 5.2. Vedic Extensions are discussed in [Chapter 12 South and Central Asia-I: Official Scripts of India](http://www.unicode.org/versions/latest/ch12.pdf) in the Devanagari Extended section. Vedic Extensions may be used with many Indic scripts. Unicode Status pages for scripts that use the Vedic Extensions are found here: [Bengali](https://scriptsource.org/entry/f8jrlqwbac), [Devanagari](https://scriptsource.org/entry/b6c6j63sf5), [Grantha](https://scriptsource.org/entry/qzhwzbsvm7), [Gujarati](https://scriptsource.org/entry/yqug2kbjjr), [Gurmukhi](https://scriptsource.org/entry/fd27tquj5j), [Kannada](https://scriptsource.org/entry/ur8y3qj6yk), [Malayalam](https://scriptsource.org/entry/ypvmjurtyg), [Newa](https://scriptsource.org/entry/y53lggbts6), [Oriya](https://scriptsource.org/entry/znkmblg693), [Sharada](https://scriptsource.org/entry/spnpfarl4t), [Tamil](https://scriptsource.org/entry/zw5nedjarb) and [Telugu](https://scriptsource.org/entry/sjrwm9ppr3).

@@ -3,7 +3,7 @@ title: Unicode Status for Greek
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Greek script implementation is discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts](http://www.unicode.org/versions/latest/ch07.pdf). 

@@ -3,7 +3,7 @@ title: Unicode Status for Small Seal
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 The Small Seal script is not yet in Unicode. The script has a tentative allocation at U+30000..U+3291F in the [Roadmap to the TIP](http://www.unicode.org/roadmaps/tip/) for the Unicode Standard.

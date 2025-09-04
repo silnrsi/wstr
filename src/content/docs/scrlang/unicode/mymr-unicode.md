@@ -3,7 +3,7 @@ title: Unicode Status for Myanmar
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Myanmar script implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf) and in [Unicode Technical Note #11: Representing Myanmar in Unicode](http://www.unicode.org/notes/tn11/).

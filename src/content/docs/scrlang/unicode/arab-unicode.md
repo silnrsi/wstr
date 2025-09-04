@@ -3,7 +3,7 @@ title: Unicode Status for Arabic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-03
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Arabic Script implementation is discussed in [Chapter 9 Middle East-I: Modern and Liturgical Scripts](http://www.unicode.org/versions/latest/ch09.pdf). The _Arabic (Nastaliq variant)_ script uses characters from the Arabic script Unicode blocks.
@@ -44,7 +44,7 @@ Subsequent to version 1.1, the following characters have been added to the Arabi
 | 0615  |  4.0  |  [n2413-4](https://www.unicode.org/wg2/docs/n2413-4.pdf) [L2/02-163](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-163), [n2453](https://www.unicode.org/wg2/docs/n2453.pdf) [L2/02-372](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-372)  |
 | 0616  |  5.1  |  [n3180r](https://www.unicode.org/wg2/docs/n3180.pdf) [L2/06-345](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-345)  |
 | 0617..061A  |  5.1  |  [n3185r](https://www.unicode.org/wg2/docs/n3185.pdf) [L2/06-358](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-358)  |
-| 061C  |  6.3  |  [n4180](https://www.unicode.org/wg2/docs/n4180.pdf) [[L2/11-432](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-432)R](http://www.unicode.org/L2/L2011/11432r-n4180r-alm-form.pdf)  |
+| 061C  |  6.3  |  [n4180](https://www.unicode.org/wg2/docs/n4180.pdf) [[L2/11-432R](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-432) ](http://www.unicode.org/L2/L2011/11432r-n4180r-alm-form.pdf) |
 | 061E  |  4.1  |  [n2598](https://www.unicode.org/wg2/docs/n2598.pdf) [L2/03-159](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-159)  |
 | 0620  |  6.0  |   [n3673](https://www.unicode.org/wg2/docs/n3673.pdf) [L2/09-215](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-215)  |
 | 063B..063F  |  5.1  |  [n3180r](https://www.unicode.org/wg2/docs/n3180.pdf) [L2/06-345](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-345), [L2/07-221](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-221)  |

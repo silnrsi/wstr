@@ -3,7 +3,7 @@ title: Unicode Status for Psalter Pahlavi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Psalter Pahlavi script implementation is discussed in [Chapter 10 Middle East-II](http://www.unicode.org/versions/latest/ch10.pdf).

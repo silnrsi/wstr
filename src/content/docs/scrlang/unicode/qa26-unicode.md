@@ -3,7 +3,7 @@ title: Unicode Status for Aztec Pictograms
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 The Aztec Pictograms are not yet in Unicode. The script has a tentative allocation at U+15C00..U+15FFF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.

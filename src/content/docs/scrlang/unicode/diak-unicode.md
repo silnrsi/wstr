@@ -3,7 +3,7 @@ title: Unicode Status for Dives Akuru
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Dives Akuru script implementation is discussed in [Chapter 15 South and Central Asia-IV: Other Historic Scripts](http://www.unicode.org/versions/latest/ch15.pdf).

@@ -3,7 +3,7 @@ title: Unicode Status for Sumero-Akkadian Cuneiform
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, implementation of Sumero-Akkadian Cuneiform is discussed in [Chapter 11 Cuneiform and Hieroglyphs](http://www.unicode.org/versions/latest/ch11.pdf).

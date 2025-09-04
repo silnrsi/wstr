@@ -3,7 +3,7 @@ title: Unicode Status for Cher Vang Hmong
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 The Cher Vang Hmong script is not yet in Unicode.

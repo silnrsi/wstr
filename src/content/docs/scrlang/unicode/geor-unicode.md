@@ -3,7 +3,7 @@ title: Unicode Status for Georgian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Georgian script implementation is discussed in [Chapter 7 Europe-I](http://www.unicode.org/versions/latest/ch07.pdf).

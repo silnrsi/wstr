@@ -3,7 +3,7 @@ title: Unicode Status for Znamenny Musical Notation
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 The Znamenny Musical Notation has been accepted into a future version of Unicode. The script has a allocation at U+1CF00..U+1CFCF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.

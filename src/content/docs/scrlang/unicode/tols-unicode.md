@@ -3,7 +3,7 @@ title: Unicode Status for Tolong Siki
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 The Tolong Siki script is not yet in Unicode. The script has a tentative allocation at U+11B80..U+11BBF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.

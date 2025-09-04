@@ -3,7 +3,7 @@ title: Unicode Status for Jurchen
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 The Jurchen script is not yet in Unicode. The script has a tentative allocation at U+19600..U+19B5F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.

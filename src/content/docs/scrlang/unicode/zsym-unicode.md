@@ -3,7 +3,7 @@ title: Unicode Status for Symbols
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In the Unicode Standard there are characters that are considered Symbols, but they are associated with certain scripts. The characters listed here are Symbols (Math_Symbol, Currency_Symbol, Modifier_Symbol, Other_Symbol), but they are in the "Common" category rather than associated with a particular script.
@@ -14,7 +14,7 @@ In The Unicode Standard, Symbols are discussed in [Chapter 22 Symbols](http://ww
 
 [comment]: # (start of blocks)
 
-There are also Emoji Symbols (which have a different script code) referenced here: [[[https://scriptsource.org/entry/empm9fneyr]]]([[https://scriptsource.org/entry/empm9fneyr]]).
+There are also Emoji Symbols (which have a different script code) referenced here: [https://scriptsource.org/entry/empm9fneyr](https://scriptsource.org/entry/empm9fneyr).
 
 | Blocks | Character Range | Block Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------------ | ------------- |

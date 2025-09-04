@@ -3,7 +3,7 @@ title: Unicode Status for Amaragannada
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 The Amaragannada scripts are not yet in Unicode. The scripts are not yet in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.

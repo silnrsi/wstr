@@ -3,7 +3,7 @@ title: Unicode Status for Marchen
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Marchen script implementation is discussed in [Chapter 14 South and Central Asia-III: <br />

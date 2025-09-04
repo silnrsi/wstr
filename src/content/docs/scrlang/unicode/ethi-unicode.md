@@ -3,7 +3,7 @@ title: Unicode Status for Ethiopic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Ethiopic script implementation is discussed in [Chapter 19 Africa](http://www.unicode.org/versions/latest/ch19.pdf).

@@ -3,7 +3,7 @@ title: Unicode Status for Proto-Sinaitic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 Proto-Sinaitic was originally investigated and rejected as unsuitable for encoding. That status has now changed. 

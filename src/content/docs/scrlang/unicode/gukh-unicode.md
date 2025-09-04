@@ -3,7 +3,7 @@ title: Unicode Status for Khe Phri
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 The Khe Phri (Gurung) script is not yet in Unicode. The script has a tentative allocation at U+16140..U+1617F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.

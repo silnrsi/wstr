@@ -3,7 +3,7 @@ title: Unicode Status for Chorasmian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard,Chorasmian script implementation is discussed in [Chapter 10 Middle East: Ancient Scripts](http://www.unicode.org/versions/latest/ch10.pdf).

@@ -3,7 +3,7 @@ title: Unicode Status for Han
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Han implementation is discussed in [Chapter 18 East Asia](http://www.unicode.org/versions/latest/ch18.pdf).
@@ -22,7 +22,7 @@ Han was first encoded in The Unicode Standard version 1.0. The script is now enc
 | CJK Unified Ideographs Extension A  |  3400..4DBF  |  3.0  |  [U3400](http://www.unicode.org/charts/PDF/U3400.pdf)  |
 | CJK Unified Ideographs  |  4E00..9FFF  |  1.1  |  [U4E00](http://www.unicode.org/charts/PDF/U4E00.pdf)  |
 | CJK Compatibility Ideographs  |  F900..FAFF  |  1.1  |  [UF900](http://www.unicode.org/charts/PDF/UF900.pdf)  |
-| Enclosed Ideographic Supplement  |  1F200..1F2FF  |  5.2  |  [U1F200](www.unicode.org/charts/PDF/U1F200.pdf)  |
+| Enclosed Ideographic Supplement  |  1F200..1F2FF  |  5.2  |  [U1F200](http://www.unicode.org/charts/PDF/U1F200.pdf)  |
 | CJK Unified Ideographs Extension B  |  20000..2A6DF  |  3.1  |  [U20000](http://www.unicode.org/charts/PDF/U20000.pdf)  |
 | CJK Unified Ideographs Extension C  |  2A700..2B73F  |  5.2  |  [U2A700](http://www.unicode.org/charts/PDF/U2A700.pdf)  |
 | CJK Unified Ideographs Extension D  |  2B740..2B81F  |  6.0  |  [U2B740](http://www.unicode.org/charts/PDF/U2B740.pdf)  |

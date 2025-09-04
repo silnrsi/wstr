@@ -3,7 +3,7 @@ title: Unicode Status for Sogdian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Sogdian script implementation is discussed in [Chapter 14 South and Central Asia-III](http://www.unicode.org/versions/latest/ch14.pdf).

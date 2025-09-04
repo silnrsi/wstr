@@ -3,7 +3,7 @@ title: Unicode Status for Latin
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Latin script implementation is discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts](http://www.unicode.org/versions/latest/ch07.pdf).
@@ -17,7 +17,7 @@ The Latin script was first encoded in The Unicode Standard version 1.0. Since th
 | Blocks | Character Range | Added in Unicode Version | Documentation |
 | ------ | --------------- | ------------------------ | ------------- |
 | Basic Latin | 0000..007F | 1.0 | [U0000.pdf](http://www.unicode.org/charts/PDF/U0000.pdf) |
-| Latin-1 Supplement | 0080..00FF | 1.0 | [U0080.pdf]({link:http://www.unicode.org/charts/PDF/U0080.pdf) |
+| Latin-1 Supplement | 0080..00FF | 1.0 | [U0080.pdf](http://www.unicode.org/charts/PDF/U0080.pdf) |
 | Latin Extended-A | 0100..017F | 1.0 | [U0100.pdf](http://www.unicode.org/charts/PDF/U0100.pdf) |
 | Latin Extended-B | 0180..024F | 1.0 | [U0180.pdf](http://www.unicode.org/charts/PDF/U0180.pdf) |
 | IPA Extensions | 0250..02AF | 1.0 | [U0250.pdf](http://www.unicode.org/charts/PDF/U0250.pdf) |

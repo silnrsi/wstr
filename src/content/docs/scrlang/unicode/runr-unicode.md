@@ -3,7 +3,7 @@ title: Unicode Status for Runic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Runic script implementation is discussed in [Chapter 8 Europe-II: Ancient and Other Scripts](http://www.unicode.org/versions/latest/ch08.pdf).

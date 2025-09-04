@@ -3,7 +3,7 @@ title: Unicode Status for Unified Canadian Aboriginal Syllabics
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Unified Canadian Aboriginal Syllabics implementation is discussed in [Chapter 20 Americas](http://www.unicode.org/versions/latest/ch20.pdf).

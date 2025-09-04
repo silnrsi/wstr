@@ -3,7 +3,7 @@ title: Unicode Status for Balinese
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-02
+lastUpdated: 2025-09-04
 ---
 
 In The Unicode Standard, Balinese script implementation is discussed in [Chapter 17 Indonesia and Oceania](http://www.unicode.org/versions/latest/ch17.pdf).
@@ -94,7 +94,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
   - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.27.)_
 
-- 2024-02-28 Unicode Standard version 15.0.0 chapter 17 — Aditya Bayu Perdana ([[[https://www.unicode.org/review/pri497/feedback.html#ID20240228052730]]]([[https://www.unicode.org/review/pri497/feedback.html#ID20240228052730]]))
+- 2024-02-28 Unicode Standard version 15.0.0 chapter 17 — Aditya Bayu Perdana ([https://www.unicode.org/review/pri497/feedback.html#ID20240228052730](https://www.unicode.org/review/pri497/feedback.html#ID20240228052730))
 
   - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.VIII.19.)_
 
