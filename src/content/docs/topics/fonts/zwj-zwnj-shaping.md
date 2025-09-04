@@ -1,0 +1,56 @@
+---
+title: ZWJ & ZWNJ
+description: Handling Zero Width Join and Zero Width Non Joiner
+sidebar:
+    order: 5526.1
+lastUpdated: 2025-08-19
+---
+
+The zero width joiner (ZWJ, U+200D) and zero width non joiner (ZWNJ, U+200C) are
+special format control characters that may be included in a character sequence
+to impact the creation of ligatures. They are often referred to in the same
+breath but they are treated somewhat differently when it comes to text
+processing.
+
+The general category of ZWJ and ZWNJ is format character (Cf). This implies that
+they can be ignored for many processes like sorting and searching. But this is
+not always the case. It depends on the process being applied and how that
+interacts with the script of the text. For example, in Indic scripts, ZWJ and
+ZWNJ are merely guides to fonts as to how to create conjuncts, whereas in Khmr
+they are part of the spelling of a word since they control whether a shifter is
+downshifted or not. For the most part it is advisable not to ignore them unless
+you are looking for a relaxed matching scheme.
+
+## Opentype
+
+Since the handling of ZWJ and ZWNJ are somewhat script dependent the rules as to
+whether they are ignored or not are somewhat complex. Details are only given for
+Harfbuzz since most shapers are closed source and not well enough documented in
+this area.
+
+### Harfbuzz
+
+In Harfbuzz, ZWJ influences ligation while ZWNJ inhibits it. Thus in GPOS ZWNJ
+is always ignored, even if the table implies otherwise, while ZWJ is treated the same as it is in GSUB.
+In GSUB. Harbuzz has two modes in which it scans glyphs. The first is when matching for
+replacement and the second is when matching a context string. The basic
+treatment is:
+
+| Character | Replacement | Context  |
+| --------- | ----------- | -------- |
+| ZWJ       | Ignore      | Keep     |
+| ZWNJ      | Keep        | Ignore   |
+
+Characters which are to be ignored are not ignored and are kept in the
+following feature contexts:
+
+| Shaper  | Features                                     | Notes     |
+| ------- | ---------------------------------------------| --------- |
+| Khmr    | pref, blwf, abvf, pstf, cfar, pres, abvs, blws, psts |  |
+| Indic   | * | |
+| Arab    | ccmp, locl, rlig, calt, liga, clig, cswh, mset | ZWJ only |
+| USE     | akhn, rphf, pref, rkrf, abvf, blwf, half, pstf, vatu, cjct, abvs, blws,
+haln, pres, psts | ZWJ only |
+| *       | mark, mkmk | ZWJ only |
+
+
