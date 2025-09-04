@@ -1,12 +1,12 @@
 ---
 title: ZWJ & ZWNJ
-description: Handling Zero Width Join and Zero Width Non Joiner
+description: Handling Zero Width Joiner and Zero Width Non-Joiner
 sidebar:
     order: 5526.1
-lastUpdated: 2025-08-19
+lastUpdated: 2025-09-04
 ---
 
-The zero width joiner (ZWJ, U+200D) and zero width non joiner (ZWNJ, U+200C) are
+The ZWJ (U+200D ZERO WIDTH JOINER) and ZWNJ (U+200C ZERO WIDTH NON-JOINER) are
 special format control characters that may be included in a character sequence
 to impact the creation of ligatures. They are often referred to in the same
 breath but they are treated somewhat differently when it comes to text
@@ -16,7 +16,7 @@ The general category of ZWJ and ZWNJ is format character (Cf). This implies that
 they can be ignored for many processes like sorting and searching. But this is
 not always the case. It depends on the process being applied and how that
 interacts with the script of the text. For example, in Indic scripts, ZWJ and
-ZWNJ are merely guides to fonts as to how to create conjuncts, whereas in Khmr
+ZWNJ are merely guides to fonts as to how to create conjuncts, whereas in Khmer
 they are part of the spelling of a word since they control whether a shifter is
 downshifted or not. For the most part it is advisable not to ignore them unless
 you are looking for a relaxed matching scheme.
@@ -25,7 +25,7 @@ you are looking for a relaxed matching scheme.
 
 Since the handling of ZWJ and ZWNJ are somewhat script dependent the rules as to
 whether they are ignored or not are somewhat complex. Details are only given for
-Harfbuzz since most shapers are closed source and not well enough documented in
+[Harfbuzz][glo-harfbuzz] since most shapers are closed source and not well enough documented in
 this area.
 
 ### Harfbuzz
@@ -49,8 +49,10 @@ following feature contexts:
 | Khmr    | pref, blwf, abvf, pstf, cfar, pres, abvs, blws, psts |  |
 | Indic   | * | |
 | Arab    | ccmp, locl, rlig, calt, liga, clig, cswh, mset | ZWJ only |
-| USE     | akhn, rphf, pref, rkrf, abvf, blwf, half, pstf, vatu, cjct, abvs, blws,
+| [USE][glo-use]     | akhn, rphf, pref, rkrf, abvf, blwf, half, pstf, vatu, cjct, abvs, blws,
 haln, pres, psts | ZWJ only |
 | *       | mark, mkmk | ZWJ only |
 
 
+[glo-harfbuzz]: /reference/glossary#harfbuzz
+[glo-use]: /reference/glossary#use
