@@ -1,10 +1,10 @@
 ---
 title: Line Breaking
 description: Issues in line breaking
-authors: Lorna Priest
+authors: Martin Hosken and Lorna Priest
 sidebar:
     order: 6210
-lastUpdated: 2025-08-15
+lastUpdated: 2025-09-05
 ---
 
 In typesetting the Latin script, text is [justified][glo-justification] on a line by first seeing how much fits on a line, then checking to see if there is a word break there (for example, a space), next checking to see if a word can be broken (hyphenated) at that point, then adding space between words and finally (although strongly deprecated!) between letters to fill out the line.
@@ -87,7 +87,7 @@ dictionary. If all text were marked with its language, and marked correctly,
 there would be no problem. This is particularly a problem for minority
 languages. For majority languages, of which there is usually only one per
 script, the assumption that text in a particular script is in that language, is
-usually correct. And so libraries like [ICU][uni-icu] identify the language based on the
+usually correct. Libraries like [ICU][uni-icu] identify the language based on the
 script and then break the text according to the dictionary of that language.
 This is fine for users of that language but causes problems for users of a
 minority language since the dictionary is wrong.
@@ -97,6 +97,8 @@ the text and then somehow to tell the line breaking engine not to use dictionary
 breaking. Either that or the text must be appropriately marked for its language
 and the line breaking engine to be given a dictionary to use for the line
 breaking of text in that language.
+
+See also: [Language Tagging][langtag].
 
 ## Line Breaking Algorithms
 
@@ -112,9 +114,10 @@ _Portions of this content first appeared in [Implementing Writing Systems][iws],
 [glo-hyphenation]: /reference/glossary#hyphen
 [glo-justification]: /reference/glossary#justify
 [glo-llm]: /reference/glossary#llm
+[hyphenation]: /topics/layout/hyphenation
 [iws]: https://scripts.sil.org/iws-toc.html
 [justification]: /topics/layout/justification
-[hyphenation]: /topics/layout/hyphenation
-[uni-icu]: https://icu.unicode.org/
-[uax-14]: https://www.unicode.org/reports/tr14/
+[langtag]: /topics/writingsystems/language-tagging
 [texbook]: https://books.google.co.uk/books?id=zqgQAQAAMAAJ
+[uax-14]: https://www.unicode.org/reports/tr14/
+[uni-icu]: https://icu.unicode.org/
