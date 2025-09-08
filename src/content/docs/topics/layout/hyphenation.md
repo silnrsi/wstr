@@ -7,21 +7,13 @@ sidebar:
 lastUpdated: 2025-08-14
 ---
 
-[Hyphenation][hyphenation] is the process of using a hyphen or another punctuation mark to connect two or more words together to form a compound word, or to split a word across lines of text. Hyphenation can improve improve readability by either joining syllables or words, or breaking them apart at appropriate points. Hyphenation is often required when text is [justified][justification]. These two concepts are closely tied together.
+[Hyphenation][hyphenation] is the process of using a hyphen or another punctuation mark to connect two or more words together to form a compound word, or to split a word across lines of text. It can improve improve readability by either joining syllables or words, or breaking them apart at appropriate points. Hyphenation is often required when text is [justified][justification]. These two concepts are closely tied together.
 
-Interesting hyphenation behaviors occur in some Latin script use, as in the German word “backen” which becomes “bak-ken” when hyphenated (although there are moves for this to be abandoned). Hyphenation rules in publishing applications need to be fully customizable for these types of behaviors.
+Hyphenation is generally a tool used in Latin typesetting, since it is not always allowed in other writing systems. Interesting behaviors occur in some Latin script use, as in the German word “backen” which becomes “bak-ken” when hyphenated (although there are moves for this to be abandoned). Hyphenation rules in publishing applications need to be fully customizable for these types of behaviors.
 
-Hyphenation is generally a tool used in Latin typesetting, since it is not always allowed in other writing systems. 
+Hyphenation points can be inserted into a text manually through the use of the soft hyphen character (U+00AD SHY). This character disappears unless at the end of a line when it becomes a hyphen, and it also tells a line breaking engine that this is a hyphenation point.
 
-Hyphenation points can be inserted into a text manually through the use of the
-soft hyphen character (SHY U+00AD). This character disappears unless at the end
-of a line when it becomes a hyphen, and it also tells a line breaking engine
-that this is a hyphen point.
-
-Inserting soft hyphens is hard work and gets in the way of other processes like
-searching. Most typesetting engines therefore, allow for a more automated
-approach whereby they use either a word list or some other language specific
-algorithms to decide on hyphenation points when such a decision is needed.
+Inserting soft hyphens manually is hard work. The resulting changes in the text can also get in the way of other processes, like searching. Most typesetting engines allow for a more automated approach whereby they use either a word list or some other language specific algorithms to decide on hyphenation points when such a decision is needed.
 
 ## Ethiopic
 

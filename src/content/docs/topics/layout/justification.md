@@ -7,7 +7,7 @@ sidebar:
 lastUpdated: 2025-08-14
 ---
 
-[Justification][justification] is the alignment of text along both the left and right margins so that all the lines are the same length. After the line break has been chosen and the line is broken, it needs to be stretched to align the margins. Most commonly this is done by inserting extra space between words or even letters. Other strategies include glyph stretching where the line is made wider by make the glyphs on the line non-noticably wider. Not all scripts stretch the line using space. Some typesetting systems even choose a better line break by shrinking the space between words or the width of glyphs.
+[Justification][justification] is the alignment of text along both the left and right margins so that all the lines are the same length. After the line break has been chosen and the line is broken, it needs to be stretched to align the margins. Most commonly this is done by inserting extra space between words or even letters. Other strategies include glyph stretching where the line is made wider by making the glyphs on the line non-noticably wider. Not all scripts stretch the line using space. Some typesetting systems even choose a better line break by shrinking the space between words or the width of glyphs.
 
 ## Tibetan
 
