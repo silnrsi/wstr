@@ -18,7 +18,6 @@ The following describes information and values that are shown in the Script Deta
     - [logosyllabary](/reference/glossary#logosyl)
     - [syllabary](/reference/glossary#syllabary)
 
-
 - **Region** - possible values include:
     - African
     - American
@@ -33,14 +32,12 @@ The following describes information and values that are shown in the Script Deta
     - Pacific
     - Signed Language
 
-
 - **Status** - possible values are:
     - Current - currently in use for currently-spoken languages
     - Historical - used in the past
     - Academic - developed for academic purposes
     - Fictional - developed for use in books, TV shows, etc.
     - Unclear
-
 
 - **Direction** - possible values are:
     - LTR - written horizontally left to right
@@ -54,7 +51,6 @@ The following describes information and values that are shown in the Script Deta
     - vertical (RTL) and horizontal (RTL) - may be written with either approach
     - [boustrophedon](/reference/glossary#boust) - written LTR and RTL on alternating lines
     - other
-
 
 - **Baseline** - possible values are:
     - hanging - glyphs are aligned at the top as if hanging from a "clothesline"
@@ -72,7 +68,6 @@ The following describes information and values that are shown in the Script Deta
     - discretionary - white space may be used to enhance readability
     - none - white space is never used
 
-
 - **Complex behaviors** - describes complexities such as 
     - contextual shaping - the shape of glyphs may change depending on neighboring characters
     - complex positioning - the position of glyphs may change
@@ -82,6 +77,7 @@ The following describes information and values that are shown in the Script Deta
     
     See [_complex script_](/reference/glossary#complexscript)
 
-- **ISO 15924 Code / Key** - _to be completed when Lorna explains to me what it is used for_
+- **OpenType code** - defined by the [OpenType](/reference/glossary#opentype) font system for indicating script-specific behaviors
 
-- **OpenType code** - defined by the [OpenType](/reference/glossary#opentype) font system for indicating script-specific behaviors.
+- **ISO 15924 Numeric Code / Key** - a technical field that can be used to sort scripts by type
+
