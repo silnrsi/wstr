@@ -14,17 +14,11 @@ const seemore = (detailSummary === "seemore");
 	<li><a href={ssurl} rel="external nofollow" target="_blank">ScriptSource{label4ss}
 			<span aria-hidden class="external-link-icon"><img src="/svgs/external-link.svg"></span>
 		</a> - all about scripts, languages, and writing systems</li>
-	
-	{ !seemore && <ScriptResourceLinks label4wiki={label4wiki} wikiurl={wikiurl} /> }
+	<li><a href={wikiurl} rel="external nofollow" target="_blank">Wikipedia{label4wiki}
+		<span aria-hidden class="external-link-icon"><img src="/svgs/external-link.svg"></span>
+		</a></li>
 </ul>
-{ seemore && (
-	<details>
-		<summary>See more...</summary>
-		<ul>
-			<ScriptResourceLinks label4wiki={label4wiki} wikiurl={wikiurl} />
-		</ul>
-	</details>
-)}
+
 
 <style>
 </style>
