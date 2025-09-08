@@ -3,7 +3,7 @@ title: Analysis Overview
 description: Types of analysis related to writing systems
 sidebar:
   order: 7001
-lastUpdated: 2025-08-27
+lastUpdated: 2025-09-08
 ---
 
 Even after the basic needs for an [encoding][characters-codepoints-glyphs], [keyboard][from-keystrokes-to-codepoints], and [font][finding-and-using-fonts] are met, people understandably want more. They want to be able to do things with their text. There are a number of processes which fall under the label _analysis_. The purpose of this article is to introduce these various processes and some of the terms used in describing them.
@@ -12,7 +12,7 @@ Even after the basic needs for an [encoding][characters-codepoints-glyphs], [key
 
 Computers are great at searching mounds of data. The core activity in searching is the comparison of two strings as to whether they are equal or not. The simplest approach to this is simply to do a binary comparison of the two strings, but that will often miss many good matches. The issues involved in searching include:
 
-- _Canonical equivalence_ where two different strings are required to be considered equal, according to the Unicode standard.
+- _Canonical equivalence_ where two different strings are required to be considered equal, according to The Unicode Standard.
 - _Foldings_ where different characters are considered equal. For example, a caseless search where lower and uppercase are considered equal to each other.
 - _Ignored characters_ such as ZWNJ or ZWSP or even spaces. This is where certain characters may occur anywhere in the string but should be ignored for comparison.
 
