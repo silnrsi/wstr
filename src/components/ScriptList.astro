@@ -1,0 +1,42 @@
+---
+import sdata from '../data/scripts.json';
+
+// If you want to sort the array `sdata` by an arbitrary field, e.g., 'script_name':
+const sortedSdata = [...sdata].sort((a, b) => a.script_sortName.localeCompare(b.script_sortName));
+---
+
+<div>
+	<table>
+	<thead>
+		<tr>
+			<th>ISO</th>
+			<th>Name</th>
+			<th>Region</th>
+			<th>Type</th>
+			<th>Direction</th>
+			<th>Status</th>
+		</tr>
+	</thead>
+	<tbody>
+	{sortedSdata.map((sObj) => {
+		if (sObj.script_code.charAt(0) !== 'Q') {
+			return (
+				<tr>
+					<td>{sObj.script_code}</td>
+					<td><a href={`/scrlang/scripts/${sObj.script_code.toLowerCase()}`}>{sObj.script_name}</a></td>
+					<td>{sObj.script_family}</td>
+					<td>{sObj.script_type}</td>
+					<td>{sObj.script_direction}</td>
+					<td>{sObj.script_status}</td>
+				</tr>
+			);
+		}
+		return null;
+	})}
+	</tbody>
+	</table>
+</div>
+
+<style>
+</style>
+
