@@ -32,7 +32,7 @@
 }
 
 .sl-markdown-content ul > li:not(:where(.not-content *)) {
-    margin-top: 0.25rem !important; 
+    margin-top: 0.15rem !important; 
 }
 
 :root[data-theme='light'] {
