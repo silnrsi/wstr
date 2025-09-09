@@ -70,7 +70,7 @@ Press the **Reopen in Container** button. This will build the container and auto
 Click on the Terminal tab, then type:
 
 ```bash
-npm install
+npm clean-install
 npx astro dev --host --open
 ```
 
