@@ -3,7 +3,7 @@ title: Adobe Glyph List
 description: Details of AGL compliance
 sidebar:
   order: 5421
-lastUpdated: 2025-07-25
+lastUpdated: 2025-09-08
 ---
 
 In the [previous article][glyph-naming] we recommended that glyphs should be named in accordance with the standard set and maintained by Adobe. What is this standard and how does it work?
@@ -30,7 +30,8 @@ There are actually number of components involved, specifying:
 
 **At the minimum, to conform to AGL requirements, a glyph name:**
 
-- can be no longer than 31 characters, and
+- can be no longer than 63 characters, and
+- with the exception of `.notdef` must not start with a digit or period (`.`), and
 - must consist only of characters from the following set:
   - A–Z
   - a–z
@@ -38,14 +39,14 @@ There are actually number of components involved, specifying:
   - . (period, U+002E FULL STOP)
   - _ (underscore, U+005F LOW LINE)
 
-In a font project, _working glyph names_ should at least meet these two minimum requirements.
+In a font project, _working glyph names_ should at least meet these minimum requirements.
 
 ## General format
 
 Glyph names can be thought of as having two parts, which we will call _basename_ and _suffix_. These parts are identified as follows:
 
 - If the glyph name does not contain a period (`.`) then the entire name is the basename.
-- If the glyph name contains at least one period (`.`), then the _first_ period is the separator: everything before it is the basename and everything after it is the suffix.
+- If the glyph name contains at least one period (`.`), then the _first_ period is the separator: everything before it is the basename while the period and everything after it is the suffix.
 
 #### Suffix
 
@@ -65,7 +66,9 @@ What if a needed basename is not included in the AGLFN? In this case a special n
 
 Characters in Unicode's Basic Multilingual Plane (BMP) may be represented by either of the formats `u<CODE>` or `uni<CODE>`. Characters in Unicode's supplemental planes may be represented only by the format `u<CODE>`. \<CODE\> is the Unicode Scalar Value of the character, an uppercase hexadecimal number four to six digits long. There must be no leading zeros, unless the code value would have fewer than four hexadecimal digits, in which case it must be padded to four digits. Surrogate code values (U+D800 to U+DFFF, inclusive) and the two noncharacter code values (U+FFFE and U+FFFF) are prohibited.  
 
-**Caution:** while both the `uni<CODE>` and `u<CODE>` notations are likely to be supported in all modern tools, there may be older applications that do not recognize the `u<CODE>` names. For that reason, for BMP characters, we recommend using `uni<CODE>`
+**Caution:** while both the `uni<CODE>` and `u<CODE>` notations are likely to be supported in all modern tools, there may be older applications that do not recognize the `u<CODE>` names. For that reason, **we recommend `u<CODE>` be used only for glyphs representing characters outside of the BMP, i.e., characters whose hexadecimal USV is longer than 4 digits.**
+
+#### Basename for ligature glyphs representing multiple Unicode Characters
 
 Ligature or other decomposition sequences that contain only BMP characters may be represented by either of the following formats:
 
@@ -74,9 +77,8 @@ Ligature or other decomposition sequences that contain only BMP characters may b
 
 Ligature or other decomposition sequences that contain a supplemental character may be represented only by the underscore-separated format. For example: `u12345_u102345`, `a_u12345`.
 
-No two glyph names in a font should yield the same (non-variant) Unicode character on analysis. If they do (e.g. `u1234` and `uni1234`), the results are unspecified.
 
-Examples:
+#### Basename Examples
 
 |Glyph name|Unicode characters(s)|
 |----------|---------------------|

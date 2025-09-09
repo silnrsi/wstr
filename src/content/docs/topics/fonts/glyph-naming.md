@@ -3,14 +3,16 @@ title: Glyph Naming
 description: Standards and conventions for glyph names
 sidebar:
   order: 5420
-lastUpdated: 2025-07-25
+lastUpdated: 2025-09-08
 ---
 
 For various reasons (historical, technical, convenience) most font development tools and formats provide mechanisms to name glyphs with human-readable strings (as opposed to just index numbers, for example). This article documents conventions, restrictions, and best practices for glyph naming.
 
-## Why use glyph names?
+**We recommend that all glyphs in _released_ fonts have names that are _AGL-compliant_.** Because of their original association with Adobe PostScript, glyph names are often referred to as *PostScript names* or sometimes, more simply, *psnames*. 
 
-**We recommend that all glyphs in released fonts have names that are _AGL-compliant_.** Because of their original association with Adobe PostScript, glyph names are often referred to as *PostScript names* or sometimes, more simply, *psnames*.
+_Glyph names used in development can differ from those used in released fonts and do not necessarily need to follow Adobe standards completely. See [Working names vs production names](#working-names-vs-production-names)._
+
+## Why use glyph names?
 
 Given the ubiquitous support for TrueType/OpenType fonts, one might ask _why do we even have glyph names?_ Nothing _inside_ an OpenType font requires glyphs to have names—complex layout tables `GSUB` and `GPOS`, for example, do all their work in terms of glyph indexes. Even for the `post` table itself (where glyph names are stored), one of the allowed forms, called Version 3, is one that has no names. So one might reasonably ask: _if functional fonts can be produced without glyph names, why have them at all?_
 
@@ -20,17 +22,18 @@ Going even further, some software packages are able to infer certain properties 
 
 All of this can work, however, only if the glyphs have been correctly named—meaning named according to Adobe standards.
 
-_Glyph names used in development can differ from those used in released fonts and do not necessarily need to follow Adobe standards. See [Working names vs production names](#working-names-vs-production-names)._
-
 ## Glyph name limitations
 
-According to the [Adobe Glyph List Specification (AGL)][adobe-agl] specification, glyph names, whether working names or production names, **should be no longer than 31 characters, must be entirely composed of characters from the following set: A–Z, a–z, 0–9, . (period, U+002E FULL STOP) and _ (underscore, U+005F LOW LINE), and must not start with a digit**. It also specifies how those names should be chosen and constructed. For more details see the article on the [Adobe Glyph List][adobe-glyph-list].
+According to the [Adobe Glyph List Specification (AGL)][adobe-agl], glyph names, whether working names or production names, **should be:**
+- **no longer than 63 characters**, 
+- **entirely composed of characters from the following set: A–Z, a–z, 0–9, . (period, U+002E FULL STOP) and _ (underscore, U+005F LOW LINE)**,
+- **and, with the exception of `.notdef`, must not start with a period or digit**. 
 
-Some tools and standards have more restrictive limitations:
+**AGL also specifies how those names should be chosen and constructed. For more details see the article on the [Adobe Glyph List][adobe-glyph-list]**.
 
-- THe Adobe Font Development Kit (AFDKO) [Feature File Specification][adobe-fea] allows name length up to 63 but requires that names, with the exception of `.notdef`, must not start with a digit or a period. 
-- [ISO/IEC 14496-22 "Open Font Format"][iso-open-font-format] recommends that names, with the exception of `.notdef` and `.null`, must start with a letter. This is not a strict requirement. For example, it is common for glyphs that are only used as components of composite glyphs to have names that start with an underscore, as in `_dot`.
-- Various font tools may have other restrictions but such are not derived from any official font specifications.
+The Adobe Font Development Kit (AFDKO) [Feature File Specification][adobe-fea] reiterates these same constraints though actual implementations accept more relaxed naming.
+
+The [ISO/IEC 14496-22 Open Font Format][iso-open-font-format] (Fourth edition 2019-01) allows an additional exception of `.null` but does not permit glyph names starting with underscore.  This is counter to current common practice wherein glyphs that are used only as components of composite glyphs typically have names that start with an underscore, as in `_dot`.
 
 ## Working names vs production names
 
@@ -44,7 +47,11 @@ As an example, the acceptable *production name* for a glyph representing U+0628 
 
 However, as none of these is particularly memorable, designers might, for example, choose a *working name* of `beh`.
 
-The use of working and production glyph names is common enough that at least one modern font format (the UFO format) provides a mechanism to manage both glyph names, and font editing applications can automatically convert names from working to production during export. [Glyphs even provides an internal working names system][glyphs-nice-names] that they call _nice names_.
+The use of working and production glyph names is common enough that at least one modern font format (the UFO format) provides a mechanism to manage both sets of glyph names, and font editing applications can automatically convert names from working to production during export. [Glyphs even provides an internal working names system][glyphs-nice-names] that they call _nice names_.
+
+Because working names are not present in shipping fonts, some of the Adobe AGL constraints can be relaxed. In particular:
+- The basenames of glyphs need not be restricted to the [Adobe Glyph List for New Fonts (AGLFN)][adobe-aglfn]. 
+- The list of characters that are legal in a glyph name can be expanded. Glyphs, for example, utilizes a hyphen (`-`, U+002D) to append a script code to its [nice names][glyphs-nice-names], for example the Arabic `beh-ar`.
 
 ### Not all glyphs need production names
 
@@ -54,7 +61,7 @@ For example, many letters in the Arabic script are distinguished from each other
 
 [adobe-agl]: https://github.com/adobe-type-tools/agl-specification
 [adobe-aglfn]: https://github.com/adobe-type-tools/agl-aglfn
-[adobe-fea]: https://cdn.rawgit.com/adobe-type-tools/afdko/master/FDK/Technical%20Documentation/OpenTypeFeatureFileSpecification.html#2.f.i
+[adobe-fea]: https://github.com/adobe-type-tools/afdko/blob/develop/docs/OpenTypeFeatureFileSpecification.md
 [adobe-glyph-list]: /topics/fonts/adobe-glyph-list
 [glyphs-nice-names]: https://glyphsapp.com/learn/getting-your-glyph-names-right
 [iso-open-font-format]: https://standards.iso.org/ittf/PubliclyAvailableStandards/c066391_ISO_IEC_14496-22_2015.zip
