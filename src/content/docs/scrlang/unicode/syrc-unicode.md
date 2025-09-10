@@ -3,10 +3,10 @@ title: Unicode Status for Syriac
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Syriac Script implementation is discussed in [Chapter 9 Middle East-I: Modern and Liturgical Scripts](http://www.unicode.org/versions/latest/ch09.pdf). The Unicode Syriac block combines all three main script variants (Estrangelo, Eastern and Western) in a single set of character codes.
+In The Unicode Standard, Syriac Script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G13005) and in [UTN 52: Christian Palestinian Aramaic (CPA) Encoding](https://www.unicode.org/notes/tn52/). The Unicode Syriac block combines all three main script variants (Estrangelo, Eastern and Western) in a single set of character codes.
 
 [comment]: # (end of intro)
 
@@ -51,7 +51,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 - 1998-03-06 Proposal to Encode Syriac in ISO/IEC 10646 — Paul Nelson, George Anton Kiraz, Sargon Hasso (WG2 N1718 (not online), ([L2/98-050](http://www.unicode.org/L2/L1998/98050-syriac-proposal.pdf))
 
-- 1998-05-05 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 27: Syriac — WG2 ([WG2 N1827syriac](https://www.unicode.org/wg2/docs/n1827syriac.pdf))
+- 1998-05-05 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 27: Syriac — WG2 ([WG2 N1827syriac](https://www.unicode.org/wg2/docs/n1827syriac.doc))
 
 - 2000-02-15 Scripts from the Past in Future Versions of Unicode — Carl-Martin Bunz ([L2/00-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-128))
 
@@ -98,3 +98,9 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #162 January 2020 on Script Proposals ([L2/20-046](http://www.unicode.org/L2/L2020/20046-script-adhoc-rept.pdf)) (See point 6.)_
 
   - _UTC #162 Minutes ([L2/20-015](http://www.unicode.org/L2/L2020/20015.htm)) (See C.9 for decision and action items)_
+
+- 2022-07-20 _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 30.)_
+
+- 2023-12-22 UTN#52: Christian Palestinian Aramaic Encoding — Claire Clivaz and Alain J. Desreumaux ([UTN#52](https://www.unicode.org/notes/tn52/))
+
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.30.)_

@@ -3,10 +3,10 @@ title: Unicode Status for Sora Sompeng
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Sora Sompeng script implementation is discussed in [Chapter 15 South and Central Asia-IV](http://www.unicode.org/versions/latest/ch15.pdf).
+In The Unicode Standard, Sora Sompeng script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G95556).
 
 [comment]: # (end of intro)
 

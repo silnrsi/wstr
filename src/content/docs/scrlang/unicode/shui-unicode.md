@@ -3,7 +3,7 @@ title: Unicode Status for Shuishu
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
 The Shuishu script (also called Sui script) is not yet in Unicode. The Shuishu Logograms have a tentative allocation at U+1B300..U+1B5FF  in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.

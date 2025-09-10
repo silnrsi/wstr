@@ -3,10 +3,10 @@ title: Unicode Status for Buhid
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Buhid script implementation is discussed in [Chapter 17 Indonesia and Oceania](http://www.unicode.org/versions/latest/ch17.pdf) under Philippine scripts.
+In The Unicode Standard, Buhid script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G26439).
 
 [comment]: # (end of intro)
 

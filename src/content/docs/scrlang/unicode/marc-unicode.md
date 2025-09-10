@@ -3,11 +3,10 @@ title: Unicode Status for Marchen
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Marchen script implementation is discussed in [Chapter 14 South and Central Asia-III: <br />
-Ancient Scripts](http://www.unicode.org/versions/latest/ch14.pdf).
+In The Unicode Standard, Marchen script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G38187).
 
 [comment]: # (end of intro)
 

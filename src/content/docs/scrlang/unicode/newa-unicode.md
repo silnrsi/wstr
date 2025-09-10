@@ -3,10 +3,10 @@ title: Unicode Status for Newa
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Newa script implementation is discussed in [Chapter 13: South and Central Asia-II: Other Modern Scripts](http://www.unicode.org/versions/latest/ch13.pdf).
+In The Unicode Standard, Newa script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G31609).
 
 [comment]: # (end of intro)
 

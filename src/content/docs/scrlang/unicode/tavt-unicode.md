@@ -3,10 +3,10 @@ title: Unicode Status for Tai Viet
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Tai Viet script implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf).
+In The Unicode Standard, Tai Viet script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G59747).
 
 [comment]: # (end of intro)
 
@@ -47,3 +47,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2010-09-17 Proposal to change UAX#29 in response to Thai, Lao, Tai Dam user needs — Martin Hosken ([L2/10-460](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-460))
 
 - 2011-04-18 Proposal to change grapheme extending properties of various characters — Martin Hosken ([L2/11-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-114))
+
+- 2022-12-16 Proposal to encode additional Tai Viet characters for the Jinping Dai — Kushim Jiang ([L2/23-023](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-023))
+
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point B.19.)_

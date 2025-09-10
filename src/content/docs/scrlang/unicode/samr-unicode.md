@@ -3,10 +3,10 @@ title: Unicode Status for Samaritan
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Samaritan script implementation is discussed in [Chapter 9 Middle East-I](http://www.unicode.org/versions/latest/ch09.pdf).
+In The Unicode Standard, Samaritan script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G34422).
 
 [comment]: # (end of intro)
 

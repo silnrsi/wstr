@@ -3,10 +3,10 @@ title: Unicode Status for Nyiakeng Puachue Hmong
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Nyiakeng Puachue Hmong script implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf).
+In The Unicode Standard, Nyiakeng Puachue Hmong script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G81876).
 
 [comment]: # (end of intro)
 

@@ -3,10 +3,10 @@ title: Unicode Status for Telugu
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Telugu script implementation is discussed in [Chapter 12 South and Central Asia-I: Official Scripts of India](http://www.unicode.org/versions/latest/ch12.pdf).
+In The Unicode Standard, Telugu script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G81985).
 
 [comment]: # (end of intro)
 
@@ -190,3 +190,17 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 17a.)_
 
   - _UTC #164 Minutes ([L2/20-172](https://www.unicode.org/L2/L2020/20172.htm)) (See B.1 for decision and action items)_
+
+- 2021-12-23 Proposal to encode ARCHAIC SHRII in Kannada and Telugu — Srinidhi A, Sridatta A ([L2/22-006](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-006))
+
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 9.)_
+
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 SECTION 9 for decision and action items)_
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2022-07-20 Nonalphabetic bindus (beta feedback) _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 27.)_
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1.27 for decision and action items)_

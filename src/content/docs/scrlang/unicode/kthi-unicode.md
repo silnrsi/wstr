@@ -3,10 +3,10 @@ title: Unicode Status for Kaithi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Kaithi script implementation is discussed in [Chapter 15 South and Central Asia-IV](http://www.unicode.org/versions/latest/ch15.pdf).
+In The Unicode Standard, Kaithi script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G69704).
 
 [comment]: # (end of intro)
 
@@ -62,7 +62,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 2009-02-02 Details on Kaithi punctuation (based on N3389) — Deborah Anderson ([WG2 N3520](https://www.unicode.org/wg2/docs/n3520.pdf), [L2/09-071](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-071))
 
-- 2009-02-10 Proposal to Encode Section Marks for Kaithi in ISO/IEC 10646 — Anshuman Pandey ([WG2 N3574](https://www.unicode.org/wg2/docs/N3574.pdf), [L2/09-089](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-089))
+- 2009-02-10 Proposal to Encode Section Marks for Kaithi in ISO/IEC 10646 — Anshuman Pandey ([WG2 N3574](https://www.unicode.org/wg2/docs/n3574.pdf), [L2/09-089](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-089))
 
 - 2009-08-05 Kaithi Decomposition Questions for Unicode 5.2 — Deborah Anderson ([L2/09-270](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-270))
 
@@ -77,3 +77,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 12.)_
 
   - _UTC #164 Minutes ([L2/20-172](https://www.unicode.org/L2/L2020/20172.htm)) (See B.1 for decision and action items)_
+
+- 2022-07-20 Nonalphabetic bindus (beta feedback) _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 27.)_
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1.27 for decision and action items)_

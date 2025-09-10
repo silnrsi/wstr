@@ -3,10 +3,10 @@ title: Unicode Status for Devanagari
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Devanagari script implementation is discussed in [Chapter 12 South and Central Asia-I: Official Scripts of India](http://www.unicode.org/versions/latest/ch12.pdf).
+In The Unicode Standard, Devanagari script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G12284).
 
 [comment]: # (end of intro)
 
@@ -18,6 +18,7 @@ The Devanagari script was first encoded in The Unicode Standard version 1.0.  Th
 | ------ | --------------- | ------------------------ | -------------- |
 | Devanagari  |  0900..097F  |  1.0  |  [U0900](http://www.unicode.org/charts/PDF/U0900.pdf)  |
 | Devanagari Extended  |  A8E0..A8FF  |  5.2  |  [UA8E0](http://www.unicode.org/charts/PDF/UA8E0.pdf)  |
+| Devanagari Extended-A  |  11B00..11B5F  |  15.0  |  [U11B00](http://www.unicode.org/charts/PDF/U11B00.pdf)  |
 
 [Vedic Extensions](https://scriptsource.org/entry/nb2xvfymgv) may be used with the Devanagari script as well as many other Indic scripts.
 
@@ -249,6 +250,58 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
   - _Recommendations to UTC #156 July 2018 on Script Proposals ([L2/18-241](http://www.unicode.org/L2/L2018/18241-script-ad-hoc.pdf)) (See point 6.)_
 
-2018-05-28 Feedback on pushpika — Deborah Anderson ([L2/18-232](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/18-232))
+- 2018-05-28 Feedback on pushpika — Deborah Anderson ([L2/18-232](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/18-232))
 
-- _Recommendations to UTC #156 July 2018 on Script Proposals ([L2/18-241](http://www.unicode.org/L2/L2018/18241-script-ad-hoc.pdf)) (See point 6.)_
+  - _Recommendations to UTC #156 July 2018 on Script Proposals ([L2/18-241](http://www.unicode.org/L2/L2018/18241-script-ad-hoc.pdf)) (See point 6.)_
+
+- 2020-08-25 Issues in Devanagari cluster validation — Norbert Lindenberg ([L2/21-112](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-112))
+
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 7a.)_
+
+- 2021-03-20 On the sequence of Avagraha followed by Anusvara or Visarga — Srinidhi A, Sridatta A ([L2/21-113](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-113))
+
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 7a.)_
+
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+
+- 2021-05-21 Proposal for representing the Devanagari 'bhale mīṇḍu' in Unicode — Anshuman Pandey ([L2/21-102](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-102))
+
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 7b.)_
+
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 7.)_
+
+  - _UTC #169 Minutes ([L2/21-167](https://www.unicode.org/L2/L2021/21167.htm)) (See B.1 SECTION 7 for decision and action items)_
+
+- 2021-10-04 Proposal to encode the Devanagari letter Rajasthani SA in Unicode — Biswajit Mandal ([L2/21-240](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-240))
+
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 8.)_
+
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 SECTION 8 for decision and action items)_
+
+- 2022-06-07 Proposal to Add Data for Pairs of Identical sequences — Asmus Freytag ([L2/22-108](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-108))
+
+- 2022-06-07 Proposal to Add Data for Pairs of Confusable sequences — Asmus Freytag ([L2/22-107](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-107))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2024-12-12 Proposal to encode the Devanagari letter Sindhi DDDA in Unicode — Biswajit Mandal ([L2/25-022](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-022))
+
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 1.3.)_
+
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 1.3 for decision and action items)_
+
+- 2024-12-15 Proposal to encode the Devanagari Vowel Sign AAO in Unicode — Biswajit Mandal ([L2/25-021](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-021))
+
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 1.4 and 5.2.)_
+
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 1.4 and D.1 5.2 for decision and action items)_
+
+- 2025-03-02 Proposal to encode JIHVAMULIYA and UPADHMANIYA in Devanagari — Srinidhi A, Sridatta A ([L2/25-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-121))
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.4.)_

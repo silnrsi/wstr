@@ -3,10 +3,10 @@ title: Unicode Status for Manichaean
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Manichaean script implementation is discussed in [Chapter 10 Middle East-II](http://www.unicode.org/versions/latest/ch10.pdf).
+In The Unicode Standard, Manichaean script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G27561).
 
 [comment]: # (end of intro)
 

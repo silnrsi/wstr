@@ -3,10 +3,10 @@ title: Unicode Status for Old South Arabian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Old South Arabian script implementation is discussed in [Chapter 10 Middle East-II: Ancient Scripts](http://www.unicode.org/versions/latest/ch10.pdf).
+In The Unicode Standard, Old South Arabian script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G29209).
 
 [comment]: # (end of intro)
 
@@ -32,7 +32,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 - 1992-10-29 Epigraphic South Arabian — Rick McGowan ([Unicode Technical Report #3 R2](http://www.unicode.org/reports/tr3-2/))   
 
-- 1998-01-18 Proposal to encode South Arabian in Plane 1 of ISO/IEC 10646 — Michael Everson ([WG2 N1689.htm](https://www.unicode.org/wg2/docs/n1689/n1689.htm), [   L2/98-036](http://www.unicode.org/L2/L1998/98036.pdf))
+- 1998-01-18 Proposal to encode South Arabian in Plane 1 of ISO/IEC 10646 — Michael Everson (WG2 N1689.htm (not online), [   L2/98-036](http://www.unicode.org/L2/L1998/98036.pdf))
 
 - 1999-07-23 Comments on proposals for the Universal Multiple-Octed Coded Character Set — Dr. W. Röllig (xlat. Küster)      ([L2/99-224](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/99-224))
 

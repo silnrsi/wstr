@@ -3,10 +3,10 @@ title: Unicode Status for Sharada
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Sharada script implementation is discussed in [Chapter 15 South and Central Asia-IV](http://www.unicode.org/versions/latest/ch15.pdf).
+In The Unicode Standard, Sharada script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G81154).
 
 [comment]: # (end of intro)
 
@@ -130,3 +130,23 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #154 Minutes ([L2/18-007](http://www.unicode.org/L2/L2018/18007.htm)) (See D.13 for decision and action items)_
 
   - _Recommendations to UTC #155 April-May 2018 on Script Proposals ([L2/18-168](http://www.unicode.org/L2/L2018/18168-script-rec.pdf)) (See point 3 section 1.)_
+
+- 2022-09-11 Use of Fractions and Rupee Mark in Sharada script — Srinidhi A, Sridatta A ([   L2/22-213](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-213))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point A 6.)_
+
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.8 for decision and action items)_
+
+- 2023-01-17 _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point A.III.5.)_
+
+  - _UTC #174 Minutes ([L2/23-005](http://www.unicode.org/L2/L2023/23005.htm)) (See D.1 Section III.5 for decision and action items)_
+
+- 2023-03-26 _Comments on Public Review Issues (January 5 - April 5, 2023)_ — Eduardo Marin Silva ([https://www.unicode.org/L2/L2023/23078-pubrev.html](https://www.unicode.org/L2/L2023/23078-pubrev.html)) _(See Feedback to SAH)_
+
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.iv.9.)_
+
+- 2023-05-05 Proposal to Encode Kashmiri Sharada Characters in Unicode — Vinodh Rajan ([L2/23-122](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-122))
+
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.V.6.)_
+
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 6 for decision and action items)_

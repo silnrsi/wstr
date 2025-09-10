@@ -3,10 +3,10 @@ title: Unicode Status for Phags-pa
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Phags-pa script implementation is discussed in [Chapter 14 South and Central Asia-III: Ancient Scripts](http://www.unicode.org/versions/latest/ch14.pdf).
+In The Unicode Standard, Phags-pa script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G40430).
 
 [comment]: # (end of intro)
 
@@ -103,3 +103,5 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2018-08-30 Discussion of 'Glyph Error of 'Phags-pa Alternate YA' — Andrew West (WG2 N5012, [L2/18-280](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/18-280))
 
   - _UTC #157 Minutes ([L2/18-272](http://www.unicode.org/L2/L2018/18272.htm)) (See C.5.1 for decision and action items)_
+
+- 2022-07-20 _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 28.)_

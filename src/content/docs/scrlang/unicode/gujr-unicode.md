@@ -3,10 +3,10 @@ title: Unicode Status for Gujarati
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Gujarati script implementation is discussed in [Chapter 12 South and Central Asia-I](http://www.unicode.org/versions/latest/ch12.pdf).
+In The Unicode Standard, Gujarati script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G34334).
 
 [comment]: # (end of intro)
 
@@ -98,3 +98,11 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2015-03-30 Revised Proposal to Encode Gujarati Signs for the Transliteration of Arabic (replaces L2/14-131) — Anshuman Pandey ([L2/15-103](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/15-103))
 
 - 2017-01-23 Preliminary analysis of ZWNJ and ZWJ's usage in Indic scripts (XLSX spreadsheet) — Liang Hai ([L2/17-046](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-046))
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2022-10-17 Canonical combining class for nukta characters — Norbert Lindenberg ([L2/22-250](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-250))
+
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.10 for decision and action items)_

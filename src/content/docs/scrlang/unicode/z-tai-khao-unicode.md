@@ -3,7 +3,7 @@ title: Unicode Status for Tai Khao
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
 The Tai Khao script is not yet in Unicode. The script is not yet in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.

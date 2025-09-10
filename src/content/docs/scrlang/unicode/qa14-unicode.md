@@ -3,7 +3,7 @@ title: Unicode Status for Pau Cin Hau Syllabary
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
 The Pau Cin Hau Syllabary is not yet in Unicode. The script was previously called the Pau Cin Hau Logographs. The script has a tentative allocation at U+19E00..U+1A2FF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 

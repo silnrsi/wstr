@@ -3,10 +3,10 @@ title: Unicode Status for Syloti Nagri
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Syloti Nagri script implementation is discussed in [Chapter 15 South and Central Asia-IV](http://www.unicode.org/versions/latest/ch15.pdf).
+In The Unicode Standard, Syloti Nagri script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G59104).
 
 [comment]: # (end of intro)
 
@@ -81,3 +81,31 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
   - _Recommendations to UTC #158 January 2019 on Script Proposals ([L2/19-047](https://www.unicode.org/L2/L2019/19047-script-adhoc-recs.pdf)) (See point 12.)_
 
   - _UTC #158 Minutes ([L2/19-008](https://www.unicode.org/L2/L2019/19008.htm)) (See D.3.3 for decision and action items)_
+
+- 2021-06-09 Proposal to Encode Syloti Nagri Sign Candrabindu — Biswajit Mandal ([L2/21-138](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-138))
+
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 12a.)_
+
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+
+- 2021-06-24 Proposal to Encode the Sylheti Nagri Numerals in the UCS — Harris Mowbray ([L2/21-140](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-140))
+
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 12b.)_
+
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+
+- 2021-09-04 PROPOSAL TO ENCODE SYLOTI NAGRI NUMERALS — Biswajit Mandal, Harris Mowbray ([L2/21-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-187))
+
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 10.)_
+
+- 2022-07-12 PROPOSAL TO ENCODE SYLOTI NAGRI NUMERALS — Biswajit Mandal ([L2/22-212](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-212))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 22.)_
+
+- 2022-10-02 Supportive letter for Syloti Numerals — Md Islam ([L2/22-225](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-225))
+
+- 2022-10-27 Comments on Public Review Issues (July 11 - October 27, 2022) — Rick McGowan ([L2/22-243)](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-243)
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point A 10.)_
+
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.12 for decision and action items)_

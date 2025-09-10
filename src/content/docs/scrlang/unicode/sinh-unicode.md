@@ -3,10 +3,10 @@ title: Unicode Status for Sinhala
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Sinhala script implementation is discussed in [Chapter 13 South and Central Asia-II: Other Modern Scripts](http://www.unicode.org/versions/latest/ch13.pdf).
+In The Unicode Standard, Sinhala script implementation is discussed in [Chapter 13 South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G26561).
 
 [comment]: # (end of intro)
 
@@ -48,7 +48,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 1997-07-01 Results of Sinhala ad hoc - Sri Lanka, U.S. Ireland, Unicode (WG2 N1613 (not online), L2/97-158 (not online))
 
-- 1998-10-23 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 21: Sinhala — WG2 ([WG2 N1896](https://www.unicode.org/wg2/docs/n1896.pdf), [WG2 N1896_02n3190_fpdam21_sinhala](https://www.unicode.org/wg2/docs/n1896_02n3190_fpdam21_sinhala.pdf))
+- 1998-10-23 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 21: Sinhala — WG2 ([L2/98-02n3190](https://www.unicode.org/L2/L1998/02n3190.pdf))
 
 - 2004-03-09 Indic scripts collation grouping; CTT suggestion — Kent Karlsson ([WG2 2716.doc](https://www.unicode.org/wg2/docs/n2716.doc), [L2/04-109](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-109))
 
@@ -119,3 +119,19 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 15.)_
 
   - _UTC #164 Minutes ([L2/20-172](https://www.unicode.org/L2/L2020/20172.htm)) (See B.1 for decision and action items)_
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2022-09-11 Use of ARDHAVISARGA in Malayalam and Sinhala — Srinidhi A, Sridatta A ([L2/22-214](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-214))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point A 4.)_
+
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.6 for decision and action items)_
+
+- 2022-10-26 Response to L2/22-214, Use of ARDHAVISARGA in Malayalam and Sinhala — Gihan Dias ([L2/22-269](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-269))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point A 4.)_
+
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.6 for decision and action items)_

@@ -3,10 +3,10 @@ title: Unicode Status for Lisu
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Lisu script implementation is discussed in [Chapter 18 East Asia](http://www.unicode.org/versions/latest/ch18.pdf).
+In The Unicode Standard, Lisu script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G44587).
 
 [comment]: # (end of intro)
 

@@ -3,10 +3,10 @@ title: Unicode Status for Ogham
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Ogham script implementation is discussed in [Chapter 8 Europe-II: Ancient and Other Scripts](http://www.unicode.org/versions/latest/ch08.pdf).
+In The Unicode Standard, Ogham script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G29182).
 
 [comment]: # (end of intro)
 
@@ -40,7 +40,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 - 1997-09-22 Text for combined PDAM registration and FPDAM ballot on ISO/IEC 19646-1/Amendment 20 - Ogham — Michael Everson (L2/97-230 (not online))
 
-- 1998-03-23 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 20: Ogham — WG2 ([WG2 N1772](https://www.unicode.org/wg2/docs/n1772.pdf), L2/98-109 (not online))
+- 1998-03-23 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 20: Ogham — WG2 (WG2 N1772 (not online), L2/98-109 (not online))
 
 - 1999-12-07 Registration #208 – Ogham — Michael Everson ([L2/99-377](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/99-377))
 

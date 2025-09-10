@@ -3,10 +3,10 @@ title: Unicode Status for Tifinagh
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Tifinagh script implementation is discussed in [Chapter 19 Africa](http://www.unicode.org/versions/latest/ch19.pdf).
+In The Unicode Standard, Tifinagh script implementation is discussed in [Chapter 19 Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G43184) and in [UTN 59: Representing Tifinagh in Unicode](https://www.unicode.org/notes/tn59/).
 
 [comment]: # (end of intro)
 
@@ -89,3 +89,21 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
   - _Recommendations to UTC #162 January 2020 on Script Proposals ([L2/20-046](http://www.unicode.org/L2/L2020/20046-script-adhoc-rept.pdf)) (See point 13a.)_
 
   - _UTC #162 Minutes ([L2/20-015](http://www.unicode.org/L2/L2020/20015.htm)) (See B.10.17.1.6 for decision and action items)_
+
+- 2022-03-03 Update on implementation status of African scripts — Charles L. Riley     ([L2/22-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-073))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 28.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 28 for decision and action items)_
+
+- 2023-09-08 Update on Usage and Implementation Status of African Scripts — Oreen Yousuf, Charles Riley, Daniel Yacob, Neil Patel, Tim Brookes ([L2/23-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-203))
+
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.26.)_
+
+- 2024-05-23 Submission Dossier for the Libyc Script to Unicode — Société d'Histoire Nord-Africaine (SHNA) ([L2/24-247](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-247))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 8.)_
+
+- 2024-11-01 Tifinagh and Combining Diacritics _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 4.2.)_
+
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 4.2 for decision and action items)_

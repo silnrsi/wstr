@@ -3,10 +3,10 @@ title: Unicode Status for Lao
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Lao script implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf).
+In The Unicode Standard, Lao script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G10988).
 
 [comment]: # (end of intro)
 
@@ -36,7 +36,7 @@ _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and U
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:
 
-- 1998-02-27 KIP SIGN - Laotian Currency Sign — V.S. Umamaheswaran ([WG2 N1720.doc](https://www.unicode.org/wg2/docs/n1720.doc), [WG2 N1720](https://www.unicode.org/wg2/docs/n1720.pdf), [L2/98-061](http://www.unicode.org/L2/L1998/98061.pdf))
+- 1998-02-27 KIP SIGN - Laotian Currency Sign — V.S. Umamaheswaran (WG2 N1720.doc, [L2/98-061](http://www.unicode.org/L2/L1998/98061.pdf))
 
 - 2000-01-06 Row 0E – LAO (collection 26) — Sato,  WG2 ([WG2 N2162.doc](https://www.unicode.org/wg2/docs/n2162.doc), [L2/00-054](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-054))
 
@@ -69,3 +69,23 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
   - _UTC #152 Minutes ([L2/17-222](http://www.unicode.org/L2/L2017/17222.htm)) (See D.4 for decision and action items)_
 
 - 2017-08-02 Comments on the encoding of Lao Letters Pali JHA and NYA — Weizhe Zheng, Yihua Wang ([L2/17-285](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-285))
+
+- 2021-04-21 Proposal to Encode Lao Yamakkan — Vinodh Rajan, Jayasāro Bhikkhu ([L2/21-093](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-093))
+
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 11.)_
+
+  - _UTC #167 Minutes ([L2/21-067](https://www.unicode.org/L2/L2021/21066.htm)) (See B.1 for decision and action items)_
+
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 16a.)_
+
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+
+- 2021-07-14 Response to Comments on Lao Yamakkan — Vinodh Rajan ([L2/21-143](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-143))
+
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 16b.)_
+
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_

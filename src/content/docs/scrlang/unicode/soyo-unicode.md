@@ -3,10 +3,10 @@ title: Unicode Status for Soyombo
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Soyombo script implementation is discussed in [Chapter 14 South and Central Asia-III: Ancient Scripts](http://www.unicode.org/versions/latest/ch14.pdf).
+In The Unicode Standard, Soyombo script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G41941).
 
 [comment]: # (end of intro)
 
@@ -83,3 +83,15 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #152 July-August 2017 on Script Proposals ([L2/17-255](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-255)) (See point 18.)_
 
   - _UTC #152 Minutes ([L2/17-222](http://www.unicode.org/L2/L2017/17222.htm)) (See D.5 for decision and action items)_
+
+- 2024-08-27 On the Indic_Syllabic_Category of vowel carriers — Robin Leroy ([L2/24-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-203))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 4.6.)_
+
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 4.6 for decision and action items)_
+
+- 2025-04-04 Indic Categories for Zanabazar and Soyombo RAs — Jan Kučera, Liang Hai, Roozbeh Pournader ([L2/25-119](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-119))
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 3.2.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 3.2 for decision and action items)_

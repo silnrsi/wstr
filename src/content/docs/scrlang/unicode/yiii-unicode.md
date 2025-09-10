@@ -3,10 +3,10 @@ title: Unicode Status for Yi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Yi script implementation is discussed in [Chapter 18 East Asia](http://www.unicode.org/versions/latest/ch18.pdf).
+In The Unicode Standard, Yi script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G13042).
 
 [comment]: # (end of intro)
 
@@ -32,7 +32,7 @@ Subsequent to version 3.0, the following characters have been added to the Yi sc
 | A4C1 | 3.2 | [n2207.pdf](https://www.unicode.org/wg2/docs/n2207.pdf) |
 | A4C5 | 3.2 | [n2207.pdf](https://www.unicode.org/wg2/docs/n2207.pdf) |
 
-_Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
+_Documentation refers to ISO Working Group and Unicode proposals_
 
 [comment]: # (end of chars)
 
@@ -56,11 +56,11 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 1998-04-15 Comments on Text for Yi PDAM #14 — Ken Whistler ([L2/98-142](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/98-142))
 
-- 1998-06-08 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 14: Yi Syllables and Yi Radicals — WG2 ([WG2 N1831](https://www.unicode.org/wg2/docs/n1831.pdf))
+- 1998-06-08 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 14: Yi Syllables and Yi Radicals — WG2 ([WG2 N1831](https://www.unicode.org/wg2/docs/n1831.htm))
 
-- 1998-07-26 Revised Proposal for Yi Characters and Yi Radicals — China N.B. ([WG2 N1814.htm](https://www.unicode.org/wg2/docs/n1814.htm), [WG2 N1814.doc](https://www.unicode.org/wg2/docs/n1814.doc), [WG2 N1814w97.doc](https://www.unicode.org/wg2/docs/n1814w97.doc), [WG2 N1814dkuug.doc](https://www.unicode.org/wg2/docs/n1814dkuug.doc), [WG2 N1814dkuugw97.doc](https://www.unicode.org/wg2/docs/n1814dkuugw97.doc), [WG2 N1814.zip](https://www.unicode.org/wg2/docs/n1814.zip), [WG2 N1818.doc](https://www.unicode.org/wg2/docs/n1818.doc), [WG2 N1818w.doc](https://www.unicode.org/wg2/docs/n1818w.doc))
+- 1998-07-26 Revised Proposal for Yi Characters and Yi Radicals — China N.B. ([WG2 N1814.htm](https://www.unicode.org/wg2/docs/n1814.htm), [WG2 N1814.doc](https://www.unicode.org/wg2/docs/n1814.doc), [WG2 N1814w97.doc](https://www.unicode.org/wg2/docs/n1814w97.doc), [WG2 N1814dkuug.doc](https://www.unicode.org/wg2/docs/n1814dkuug.doc), [WG2 N1814dkuugw97.doc](https://www.unicode.org/wg2/docs/n1814dkuugw97.doc), [WG2 N1814.zip](https://www.unicode.org/wg2/docs/n1814.zip), [WG2 N1818.pdf](https://www.unicode.org/wg2/docs/n1818.pdf)) 
 
-- 1999-03-23 Ad-hoc report on Yi radicals from the Fukuoka meeting (1999-03-15), with subsequent addendum (1999-03-23) — Yi ad hoc group ([WG2 N1945](https://www.unicode.org/wg2/docs/n1945r.pdf), [L2/99-165](http://www.unicode.org/L2/L1999/n1945r.pdf))
+- 1999-03-23 Ad-hoc report on Yi radicals from the Fukuoka meeting (1999-03-15), with subsequent addendum (1999-03-23) — Yi ad hoc group ([L2/99-165](http://www.unicode.org/L2/L1999/n1945r.pdf))
 
 - 2000-03-18 Request for five Yi radicals missing from the UCS — Michael Everson ([WG2 N2207](https://www.unicode.org/wg2/docs/n2207.pdf))
 
@@ -68,6 +68,16 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 2004-08-03 Yi Syllable Foldings — Andrew C. West ([L2/04-325](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-325))
 
-- 2007-02-15 Preliminary proposal to encode Classical Yi characters — China N.B. ([WG2 N3288](https://www.unicode.org/wg2/docs/n3288.pdf), [L2/08-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-193))
+- 2007-02-15 Preliminary proposal to encode Classical Yi characters — China N.B. ([L2/08-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-193))
 
-- 2009-04-30 Proposal to redefine the scope of Ideographic Description Sequences and to encode four additional Ideographic Description Characters — Andrew C West ([WG2 N3643](https://www.unicode.org/wg2/docs/n3643.pdf), [L2/09-171](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-171))
+- 2009-04-30 Proposal to redefine the scope of Ideographic Description Sequences and to encode four additional Ideographic Description Characters — Andrew C West ([L2/09-171](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-171))
+
+- 2022-07-31 Introduction to encode Yi Ideographs in UCS — Kushim Jiang ([L2/22-183](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-183))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 27.)_
+
+- 2024-04-02 Proposal to add Sichuan Yi (ii) indexing to Unicode — Dennis Walters ([L2/24-096](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-096))
+
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point B.28.)_
+
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See E.1 Section 40 for decision and action items)_

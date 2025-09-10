@@ -3,10 +3,10 @@ title: Unicode Status for Bengali
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Bengali script implementation is discussed in [Chapter 12 South and Central Asia-I](http://www.unicode.org/versions/latest/ch12.pdf).
+In The Unicode Standard, Bengali script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G664195).
 
 [comment]: # (end of intro)
 
@@ -50,15 +50,15 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 1998-02-25 Draft Response to Bengali Proposal WG2 N1634 — Michael Everson  (WG2 N1634 (not online), L2/98-058 (not online))
 
-- 1998-03-18 Bengali encoding in ISO/IEC 10646 and BSD 1520 — Michael Everson  ([WG2 N1714](https://www.unicode.org/wg2/docs/n1714r.pdf), [       L2/02-108 (L2/98-091)](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-108))
+- 1998-03-18 Bengali encoding in ISO/IEC 10646 and BSD 1520 — Michael Everson  (WG2 N1714 (not online), [       L2/02-108 (L2/98-091)](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-108))
 
 - 1998-04-16 Response to WG2 N1634, Incorporation of Bangla (Bengali) Coded Character Set in ISO/IEC 10646 — Aliprand ([L2/98-145](http://www.unicode.org/L2/L1998/98145.htm))
 
-- 2000-07-25 Bangladesh Standard: Specification for Bangla Coded for Information Interchange — Bangladesh ([WG2 N2261-2](https://www.unicode.org/wg2/docs/n2261/n2261-2.pdf), [L2/00-305](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-305))
+- 2000-07-25 Bangladesh Standard: Specification for Bangla Coded for Information Interchange — Bangladesh (WG2 N2261-2 (not online), [L2/00-305](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-305))
 
-- 2000-08-23 Proposal Summary Form for character U+09BA, KHANDATA — Bangladesh ([WG2 N2261-1](https://www.unicode.org/wg2/docs/n2261/n2261-1.pdf), [L2/00-304](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-304))
+- 2000-08-23 Proposal Summary Form for character U+09BA, KHANDATA — Bangladesh (WG2 N2261-1 (not online), [L2/00-304](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-304))
 
-- 2000-08-23 Incorporation of Bangla (Bangladesh) coded character set in 10646 -1 — Bangladesh ([WG2 N2261](https://www.unicode.org/wg2/docs/n2261/n2261.pdf), [L2/00-303](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-303))
+- 2000-08-23 Incorporation of Bangla (Bangladesh) coded character set in 10646 -1 — Bangladesh ([WG2 N2261](https://www.unicode.org/wg2/docs/n2261.pdf), [L2/00-303](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-303))
 
 - 2000-11-15 Unicode representation of Indian Scripts — M.N. Cooper ([L2/00-417](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-417))
 
@@ -251,3 +251,27 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2020-01-03 Proposal for changing the Composition-Exclusions of Bangla Characters (Bengali) — Mohammad Mamun Or Rashid ([L2/20-002](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-002))
 
   - _UTC #162 Minutes ([L2/20-015](http://www.unicode.org/L2/L2020/20015.htm)) (See B.13.2 for decision and action items)_
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2022-07-27 Proposal to Encode Alternate BA for the Bengali Language — Vinodh Rajan, Deepro Chakraborty ([L2/22-268](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-268))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 13.)_
+
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point A.III.3.)_
+
+  - _UTC #174 Minutes ([L2/23-005](http://www.unicode.org/L2/L2023/23005.htm)) (See D.1 Section III.3 for decision and action items)_
+
+- 2022-10-27 Usages of Bengali Letter Alternate BA for Pali language — Srinidhi A, Sridatta A ([L2/22-278](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-278))
+
+- 2024-05-23 Proposal to encode Bengali Sign Combining Anusvara Above — Jan Kučera, Charles Li ([L2/24-153](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-153))
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.IV.8.)_
+
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 8 for decision and action items)_
+
+- 2024-10-24 Top Right Spacing Anusvara in Bengali/Assamese — Jan Kučera, Charles Li ([L2/24-240](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-240))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 7.2.)_

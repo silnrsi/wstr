@@ -3,10 +3,10 @@ title: Unicode Status for Old Turkic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Old Turkic script implementation is discussed in [Chapter 14 South and Central Asia-III: Ancient Scripts](http://www.unicode.org/versions/latest/ch14.pdf).
+In The Unicode Standard, Old Turkic script implementation is discussed in [Chapter 14 South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G41975).
 
 [comment]: # (end of intro)
 
@@ -45,3 +45,23 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #159 April-May 2019 on Script Proposals ([L2/19-173](http://www.unicode.org/L2/L2019/19173-script-adhoc-recs.pdf)) (See point 16.)_
 
   - _UTC #159 Minutes ([L2/19-122](http://www.unicode.org/L2/L2019/19122.htm)) (See C.8 for decision and action items)_
+
+- 2021-04-21 Application for Adding Letters to Old Turkish Alphabet — Gökbey Uluç ([L2/21-081](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-081))
+
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 8.)_
+
+  - _UTC #167 Minutes ([L2/21-067](https://www.unicode.org/L2/L2021/21066.htm)) (See B.1 Action Item 167-A34 for decision and action items)_
+
+- 2021-08-24 Proposal to revise the glyph of one Old Turkic character — Michael Everson, Andrew West (WG2 N5164, [L2/21-153](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-153))
+
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 8.)_
+
+  - _UTC #169 Minutes ([L2/21-167](https://www.unicode.org/L2/L2021/21167.htm)) (See B.1 SECTION 8 for decision and action items)_
+
+- 2022-04-14 Comments on Public Review Issues (Jan 18, 2022 - April 11, 2022) Regarding to “2021-04-21 Application for Adding Letters to Old Turkish Alphabet — Gökbey Uluç” — Tuğrul Çavdar ([L2/22-063](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-063))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 24.)_
+
+- 2024-02-06 Proposal to Include Punctuation of Old Turkic — Yazga ([L2/24-132](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-132))
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point B.28.)_

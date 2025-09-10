@@ -3,10 +3,10 @@ title: Unicode Status for Ugaritic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Ugaritic script implementation is discussed in [Chapter 11 Cuneiform and Hieroglyphs](http://www.unicode.org/versions/latest/ch11.pdf).
+In The Unicode Standard, Ugaritic script implementation is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G26461).
 
 [comment]: # (end of intro)
 
@@ -32,7 +32,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 1992-10-29 Ugaritic Cuneiform — Rick McGowan ([Unicode Technical Report #3 R2](http://www.unicode.org/reports/tr3-2/))
 
-- 1997-09-18 Proposal to encode Ugaritic Cuneiform in Plane 1 of ISO/IEC 10646-2 — Michael Everson ([WG2 N1640.htm](https://www.unicode.org/wg2/docs/n1640/n1640.htm), L2/97-270 (not online))
+- 1997-09-18 Proposal to encode Ugaritic Cuneiform in Plane 1 of ISO/IEC 10646-2 — Michael Everson (WG2 N1640.htm, L2/97-270 (neither online))
 
 - 1999-09-24 Comments on proposals for the Universal Multiple-Octed Coded Character Set — Dr. W. Röllig (xlat. Küster) ([WG2 N2097](https://www.unicode.org/wg2/docs/n2097.pdf), [L2/99-224](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/99-224))
 

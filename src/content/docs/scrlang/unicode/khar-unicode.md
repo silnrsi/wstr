@@ -3,10 +3,10 @@ title: Unicode Status for Kharoshthi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Kharoshthi script implementation is discussed in [Chapter 14 South and Central Asia-III: Ancient Scripts](http://www.unicode.org/versions/latest/ch14.pdf).
+In The Unicode Standard, Kharoshthi script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G38474).
 
 [comment]: # (end of intro)
 
@@ -64,3 +64,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #162 January 2020 on Script Proposals ([L2/20-046](http://www.unicode.org/L2/L2020/20046-script-adhoc-rept.pdf)) (See point 13a.)_
 
   - _UTC #162 Minutes ([L2/20-015](http://www.unicode.org/L2/L2020/20015.htm)) (See B.10.17.1.6 for decision and action items)_
+
+- 2022-10-17 Canonical combining class for nukta characters — Norbert Lindenberg ([L2/22-250](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-250))
+
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.10 for decision and action items)_
