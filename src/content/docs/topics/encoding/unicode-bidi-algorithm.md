@@ -4,7 +4,7 @@ description: The "bidi" algorithm describes how software should process text tha
 sidebar:
     order: 3500
     label: Unicode Bidi Algorithm
-lastUpdated: 2024-08-06
+lastUpdated: 2024-09-10
 ---
 
 The [Unicode Bidirectional Algorithm (UAX#9)][uax9], often called the "bidi algorithm," describes specifications for the positioning of characters in text containing characters flowing from right to left, such as Arabic or Hebrew. 
@@ -141,17 +141,17 @@ The original Graphite engine does not perform any mirroring.
 As was previously mentioned, it is possible to adjust the behavior of bidirectional text by including override characters in the text. Here are some situations where you might want to do this:
 
 - To indicate the embedded structure of the text. For instance, if you have a Spanish article that includes Hebrew sentences and those Hebrew sentences include English phrases, you need embedding codes to make the various levels clear. To achieve this you would use RLE/PDF around the Hebrew and LRE/PDF around the English.
-    - _Example:_ este artículo está escrito en español. &#x2039;RLE&#x203A;HERE IS A HEBREW SENTENCE WITH AN &#x2039;LRE&#x203A;english phrase&#x2039;PDF&#x203A; INSIDE. AND THIS IS ANOTHER HEBREW SENTENCE THAT CONTAINS &#x2039;LRE&#x203A;more english &#x2039;PDF&#x203A; WORDS. &#x2039;PDF&#x203A; volvemos ahora al español.
+    - _Example:_ este artículo está escrito en español. \<RLE\>HERE IS A HEBREW SENTENCE WITH AN \<LRE\>english phrase\<PDF\> INSIDE. AND THIS IS ANOTHER HEBREW SENTENCE THAT CONTAINS \<LRE\>more english \<PDF\> WORDS. \<PDF\> volvemos ahora al español.
 
 ![Multi-level embedded structure](images/3500-8-embedded-structure.png "Display of three levels of embedded structure using RLE, LRE, and PDF. Lower-case indicates left-to-right text and upper-case indicates right-to-left.")
 
 - To use the characters differently from the way they were intended. Some examples:
     - In a right-to-left script, digits are not serving as numbers per se, but as elements of an ID tag such as a serial number. In this case you might want to force the digits to behave more like letters with regard to the way they are written. The RLO override character would be placed before the digits to make them act like letters.
-        - _Example:_ AxT&#x2039;RLO&#x203A;139dm; in right-to-left text this would be displayed: md931TxA
+        - _Example:_ AxT\<RLO\>139dm\<PDF\>; in right-to-left text this would be displayed: md931TxA
     - A sequence of right-to-left letters within left-to-right text is being treated simply as a list of characters rather than as actual text. The LRO character before the right-to-left letters will make them act left-to-right.
-        - _Example:_ Some Arabic letters (&#x2039;LRO&#x203A;&#x202D;&#x0627;, &#x062F;, &#x0631;, and &#x0648;) only connect cursively on the right side.
+        - _Example:_ Some Arabic letters (\<LRO\>&#x202D;&#x0627;, &#x062F;, &#x0631;, and &#x0648;\<PDF\>&#x202C;) only connect cursively on the right side.
     - A chapter/verse range such as those used in Biblical verse references is using a colon as a numerical separator rather than punctuation.
-        - _Example:_ MATTHEW&#x00A0;6&#x2039;RTL&#x203A;:9&#x2011;13; as right-to-left text this would be displayed: 13&#x2011;9:6&#x00A0;WEHTTAM. Without the RLM it would be displayed: 13&#x2011;6:9&#x00A0;WEHTTAM.
+        - _Example:_ MATTHEW&#x00A0;6\<RTL\>:9&#x2011;13; as right-to-left text this would be displayed: 13&#x2011;9:6&#x00A0;WEHTTAM. Without the RLM it would be displayed: 13&#x2011;6:9&#x00A0;WEHTTAM.
  
 - To force punctuation to behave as if it were associated with a certain range of text. For instance, final punctuation on an embedded sentence would take on the direction of the top-level paragraph; to make it use the direction of the embedded sentence instead, an override (RLO or RLM) or embedding character (RLE/PDF) could be used.
 
