@@ -3,10 +3,10 @@ title: Unicode Status for Khojki
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Khojki script implementation is discussed in [Chapter 15 South and Central Asia-IV: Other Historic Scripts](http://www.unicode.org/versions/latest/ch15.pdf).
+In The Unicode Standard, Khojki script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G81423).
 
 [comment]: # (end of intro)
 
@@ -57,3 +57,27 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2017-12-11 Changes to ScriptExtensions.txt for Indic characters for Unicode 11.0 — Srinidhi A, Sridatta A ([L2/17-424](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-424))
 
   - _Recommendations to UTC #154 January 2018 on Script Proposals ([L2/18-039](http://www.unicode.org/L2/L2018/18039-script-adhoc-rec.pdf)) (See point 6b section 3.)_
+
+- 2021-05-21 Proposal to encode the Khojki letter QA in Unicode — Anshuman Pandey ([L2/21-103](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-103))
+
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 10b.)_
+
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+
+- 2021-05-21 Proposal to encode the Khojki letter SHORT I in Unicode — Anshuman Pandey ([L2/21-104](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-104))
+
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 10c.)_
+
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+
+- 2021-05-25 Proposal to encode the Khojki vowel sign VOCALIC R in Unicode Anshuman Pandey ([L2/21-110](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-110))
+
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 10a.)_
+
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+
+- 2022-03-30 Khojki Confusable Sequences — Peter Constable ([L2/22-083](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-083))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 22.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 22 for decision and action items)_

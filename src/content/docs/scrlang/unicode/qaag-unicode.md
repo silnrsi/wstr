@@ -3,7 +3,7 @@ title: Unicode Status for Ersu
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
 Ersu Hieroglyphs (or Ersu Shaba Picture Writing) is not yet in Unicode. It is also not yet in the Roadmap to the UCS.

@@ -3,10 +3,10 @@ title: Unicode Status for Cyrillic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Cyrillic script implementation is discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts ](http://www.unicode.org/versions/latest/ch07.pdf).
+In The Unicode Standard, Cyrillic script implementation is discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts ](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G10850), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), and in [UTN 41: Church Slavonic Typography in Unicode](https://www.unicode.org/notes/tn41/).
 
 [comment]: # (end of intro)
 
@@ -22,6 +22,7 @@ The Cyrillic script was first encoded in The Unicode Standard version 1.0. Since
 | Cyrillic Extended-A | 2DE0..2DFF | 5.1 | [U2DE0](http://www.unicode.org/charts/PDF/U2DE0.pdf) |
 | Cyrillic Extended-B | A640..A69F | 5.1 | [UA640](http://www.unicode.org/charts/PDF/UA640.pdf) |
 | Cyrillic Extended-C |  1C80..1C8F  |  9.0  | [U1C80](http://www.unicode.org/charts/PDF/U1C80.pdf) |
+| Cyrillic Extended-D |  1E030..1E08F  |  15.0  | [U1E030](http://www.unicode.org/charts/PDF/U1E030.pdf) |
 
 [comment]: # (end of blocks)
 
@@ -36,10 +37,10 @@ Subsequent to version 1.0, the following characters have been added to the Cyril
 | 0450 | 3.0 |  |
 | 045D | 3.0 |  |
 | 0487 | 5.1 | [n3194.pdf](https://www.unicode.org/wg2/docs/n3194.pdf)/[L2/07-003](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-003) |
-| 0488..0489 | 3.0 | [n1744.pdf](https://www.unicode.org/wg2/docs/n1744.pdf) L2/98-211 (not online) |
+| 0488..0489 | 3.0 | [n1744.pdf](https://www.unicode.org/L2/L1998/98211-n1744.pdf), L2/98-211 (not online) |
 | 048A..048B | 3.2 |  |
-| 048C..048F | 3.0 | [n1744.pdf](https://www.unicode.org/wg2/docs/n1744.pdf) L2/98-211(not online) |
-| 04EC..04ED | 3.0 | [n1744.pdf](https://www.unicode.org/wg2/docs/n1744.pdf) L2/98-211(not online) |
+| 048C..048F | 3.0 | [n1744.pdf](https://www.unicode.org/L2/L1998/98211-n1744.pdf), L2/98-211(not online) |
+| 04EC..04ED | 3.0 | [n1744.pdf](https://www.unicode.org/L2/L1998/98211-n1744.pdf), L2/98-211(not online) |
 | 04C5..04C6 | 3.2 | [n2173](https://www.unicode.org/wg2/docs/n2173.pdf)/[L2/00-082](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-082) |
 | 04C9..04CA | 3.2 | [n2173](https://www.unicode.org/wg2/docs/n2173.pdf)/[L2/00-082](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-082) |
 | 04CD..04CE | 3.2 | [n2173](https://www.unicode.org/wg2/docs/n2173.pdf)/[L2/00-082](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-082) |
@@ -59,11 +60,11 @@ Subsequent to version 1.0, the following characters have been added to the Cyril
 | A640..A65F | 5.1 | [n3194.pdf](https://www.unicode.org/wg2/docs/n3194.pdf)/[L2/07-003](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-003) |
 | A660..A661 | 6.0 | [n3563.pdf](https://www.unicode.org/wg2/docs/n3563.pdf)/[L2/09-020](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-020) |
 | A662..A673 | 5.1 | [n3194.pdf](https://www.unicode.org/wg2/docs/n3194.pdf)/[L2/07-003](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-003) |
-| A674..A67B | 6.1 | [n3748.pdf](https://www.unicode.org/wg2/docs/n3748.pdf)/[L2/10-002](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-002) |
+| A674..A67B | 6.1 | [n3748.pdf](https://unicode.org/L2/L2010/10002-n3748-cyrillic-superscripts.pdf)/[L2/10-002](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-002) |
 | A67C..A697 | 5.1 | [n3194.pdf](https://www.unicode.org/wg2/docs/n3194.pdf)/[L2/07-003](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-003) |
 | A698..A69D | 7.0 | [WG2 N3974](https://www.unicode.org/wg2/docs/n3974.pdf), [L2/10-394](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-394), [ n3772.pdf](https://www.unicode.org/wg2/docs/n3772.pdf)/[L2/09-310](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-310) |
 | A69E |  8.0  | [WG2 N4390](https://www.unicode.org/wg2/docs/n4390.pdf), [L2/13-008](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-008) |
-| A69F | 6.1 | [n3748.pdf](https://www.unicode.org/wg2/docs/n3748.pdf)/[L2/10-002](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-002) |
+| A69F | 6.1 | [n3748.pdf](https://unicode.org/L2/L2010/10002-n3748-cyrillic-superscripts.pdf)/[L2/10-002](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-002) |
 | FE2E..FE2F |  8.0  | [WG2 N4475](https://www.unicode.org/wg2/docs/n4475.pdf), [L2/13-139](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-139) |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
@@ -76,7 +77,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 1997-06-30 Repertoire proposal for 10 additional Cyrillic characters for Kildin Sami — Norway (WG2 N1590 (not online), L2/97-146 (not online)
 
-- 1998-05-25 Additional Cyrillic characters for the UCS — Michael Everson ([WG2 N1744](https://www.unicode.org/wg2/docs/n1744.pdf), L2/98-211 (not online))
+- 1998-05-25 Additional Cyrillic characters for the UCS — Michael Everson ([WG2 N1744](https://www.unicode.org/L2/L1998/98211-n1744.pdf), L2/98-211 (not online))
 
 - 1998-06-09 Proposal to add 10 Kildin Sámi Cyrillic characters to ISO 10646 — Trosterud, Everson (L2/98-258  (not online))
 
@@ -174,7 +175,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 2009-08-18 Proposal to Encode the Typikon Symbols in Unicode — Yuri Shardt, Aleksandr Andreev ([WG2 N3772](https://www.unicode.org/wg2/docs/n3772.pdf), [L2/09-310](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-310))
 
-- 2010-01-21 Proposal to encode nine Cyrillic characters for Slavonic — Michael Everson, Victor Baranov, Heinz Miklas, Achim Rabus ([WG2 N3748](https://www.unicode.org/wg2/docs/n3748.pdf), [L2/10-002](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-002))
+- 2010-01-21 Proposal to encode nine Cyrillic characters for Slavonic — Michael Everson, Victor Baranov, Heinz Miklas, Achim Rabus ([WG2 N3748](https://unicode.org/L2/L2010/10002-n3748-cyrillic-superscripts.pdf), [L2/10-002](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-002))
 
 - 2010-02-05 Proposed additions to ISO/IEC 10646:2003 — INCITS/L2 ([WG2 N3810](https://www.unicode.org/wg2/docs/n3810.pdf), [L2/10-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-068))
 
@@ -247,3 +248,79 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2015-07-20 Suggested Responses to Suggestions re Cyrillic in L2/15-014 — Ken Whistler ([L2/15-182](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/15-182))
 
 - 2015-07-29 Proposal to Encode some Additional Symbols used in Church Slavonic Text — Aleksandr Andreev, Yuri Shardt, Nikita Simmons ([L2/15-173](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/15-173))
+
+- 2021-06-07 Unicode request for Cyrillic modifier letters — Kirk Miller ([L2/21-107](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-107))
+
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 1a.)_
+
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+
+- 2021-06-25 Addendum to L2/21-107, Cyrillic modifier letters — Kirk Miller ([L2/21-142](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-142))
+
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 1b.)_
+
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+
+- 2022-01-07 Addendum II to L2/21-107, Cyrillic modifier letters — Kirk Miller ([L2/22-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-010))
+
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 1b.)_
+
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 SECTION 1b for decision and action items)_
+
+- 2022-01-09 Proposal to revise the glyph of CYRILLIC LETTER MULTIOCULAR O — Michael Everson (WG2 N5170, [L2/22-002](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-002))
+
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 1a.)_
+
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 SECTION 1a for decision and action items)_
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2022-06-16 Proposal to encode Cyrillic letter Khanty Tje — Nikita Manulov        ([L2/22-119](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-119))
+
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 1a.)_
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 SECTION 1a for decision and action items)_
+
+- 2022-06-25 Proposal to encode 18 Cyrillic characters for old Bashkir — Nikita Manulov        ([L2/22-154](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-154))
+
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 1b.)_
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 SECTION 1b for decision and action items)_
+
+- 2022-07-20 _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 26.)_
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2022-08-24 Proposal to encode missing Cyrillic case pair for old Udmurt — Nikita Manulov ([L2/22-217](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-217))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 16b.)_
+
+- 2022-09-18 Proposal to encode 23 Cyrillic characters for old Uslar's Caucasian Alphabets — Nikita Manulov ([L2/22-262](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-262))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 16a.)_
+
+- 2022-09-16 Proposal to encode Cyrillic letter Che With Hook — Nikita Manulov ([L2/22-280](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-280))
+
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point B.12.)_
+
+- 2022-12-29 Comments on CYRILLIC CHE WITH HOOK’s use in Khanty and Tofa (Tofalar) (L2/22-280) — Deborah Anderson ([L2/23-015](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-015))
+
+- 2024-03-30 Annotation for Cyrillic Tje — Nikita Manulov ([L2/24-104](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-104))
+
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.II.3.)_
+
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section II-3 for decision and action items)_
+
+- 2024-04-15 Proposal to include transitional Cyrillic characters invented by I.H. Rădulescu in his proposal of the 19th Century Romanian Transitional Script and other unique characters — Marc Frincu, Marius E. Penteliuc, Simina Frincu, Manuela Zanescu ([L2/24-215](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-215))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 2.1.)_
+
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 2.1 for decision and action items)_
+
+- 2025-04-04 Unicode request for Cyrillic letter jeru with connecting bar — Kirk Miller ([L2/25-112](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-112))
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.5.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.5 for decision and action items)_

@@ -3,10 +3,10 @@ title: Unicode Status for Pitman Shorthand
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-Pitman Shorthand is not yet in Unicode. The script has a tentative allocation at U+1BCB0..U+1BCDF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+Pitman Shorthand is not yet in Unicode. The script has a tentative allocation at U+1BCB0..U+1BCFF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 [comment]: # (end of intro)
 

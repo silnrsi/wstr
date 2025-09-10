@@ -3,16 +3,20 @@ title: Unicode Status for Old Uyghur
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-The Old Uyghur script is not yet in Unicode. The script has a tentative allocation at U+10F70..U+10FAF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+In The Unicode Standard, Old Uyghur script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G58161).
 
 [comment]: # (end of intro)
 
 [comment]: # (start of blocks)
 
+The Old Uyghur script was encoded in The Unicode Standard version 14.0. The script is now encoded in the following block:
 
+| Blocks | Character Range | Added in Unicode Version | Unicode chart |
+| ------ | --------------- | ------------------------ | ------------- |
+| Old Uyghur  | 10F70..10FAF | 14.0 | [U10F70.pdf](http://www.unicode.org/charts/PDF/U10F70.pdf) |
 
 [comment]: # (end of blocks)
 
@@ -57,5 +61,9 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 14.)_
 
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 12.)_
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 14.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 14 for decision and action items)_
 
 - 2020-07-29 Endorsement of the Old Uyghur encoding proposal L2/20-191 — Nicholas Kontovas ([L2/20-199](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-199))

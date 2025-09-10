@@ -3,10 +3,10 @@ title: Unicode Status for Hangul
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Hangul implementation is discussed in [Chapter 18 East Asia](http://www.unicode.org/versions/latest/ch18.pdf).
+In The Unicode Standard, Hangul implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G31028).
 
 [comment]: # (end of intro)
 
@@ -51,7 +51,7 @@ _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and U
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:
 
-- 1993-10-28 Adding two Bangjeom characters (old Hangul tone marks) to UCS-2 — Kyongsok Kim ([WG2 N935](https://www.unicode.org/wg2/docs/n0935.pdf), L2/97-015 (not online))
+- 1993-10-28 Adding two Bangjeom characters (old Hangul tone marks) to UCS-2 — Kyongsok Kim (WG2 N0935 (not online), L2/97-015 (not online))
 
 - 1993-10-29 A draft proposal on adding Gugyeol characters to UCS-2 — Kyongsok Kim    (WG2 N936 (not online), L2/97-016 (not online))
 
@@ -173,7 +173,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 2009-04-20 A response to AI-53-9-a and AI-53-9-b — Korea NB / Kyongsok Kim  ([WG2 N3611](https://www.unicode.org/wg2/docs/n3611.pdf), [L2/09-159](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-159))
 
-- 2010-01-25 A solution proposed by R.O.Korea for incorrectly mapped compatibility chars — Korea N.B.  ([WG2 N3747](https://www.unicode.org/wg2/docs/n3747.pdf), [L2/10-087](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-087))
+- 2010-01-25 A solution proposed by R.O.Korea for incorrectly mapped compatibility chars — Korea N.B.  ([L2/10-087](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-087))
 
 - 2010-09-20 R. O. Korea's Response to AI 55-2-a RE: K2 ~ K5 and M55.18 (Missing documents for Korean source references K2 to K5) — Korea N.B.  ([WG2 N3898](https://www.unicode.org/wg2/docs/n3898.pdf), [L2/10-366](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-366))
 
@@ -228,3 +228,11 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2019-07-02 My idea about the comments of 2 Drs. (hangul jamos) — Obayashi Muneaki  ([L2/19-253](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/19-253))
 
 - 2019-07-03 Comments on L2/19-253 (hangul jamos) — Jaemin Chung  ([L2/19-255](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/19-255))
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2022-06-30 Feedback on Hangul Strokes — Kyongsok Kim ([L2/22-137](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-137))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See E.1 14 for decision and action items)_

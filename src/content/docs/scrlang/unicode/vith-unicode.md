@@ -3,16 +3,20 @@ title: Unicode Status for Vithkuqi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-The Vithkuqi (Veqilharxhi or Büthakukye) script is not yet in Unicode. The script has a tentative allocation at U+10570..U+105BF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+In The Unicode Standard, Vithkuqi (Veqilharxhi or Büthakukye) script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G40863).
 
 [comment]: # (end of intro)
 
 [comment]: # (start of blocks)
 
+The Vithkuqi script was encoded in The Unicode Standard version 14.0. The script is now encoded in the following block:
 
+| Blocks | Character Range | Added in Unicode Version | Unicode chart |
+| ------ | --------------- | ------------------------ | ------------- |
+| Vithkuqi | 10570..105BF | 14.0 | [U10570.pdf](http://www.unicode.org/charts/PDF/U10570.pdf) |
 
 [comment]: # (end of blocks)
 
@@ -41,3 +45,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 3.)_
 
   - _UTC #165 Minutes ([L2/20-237](https://www.unicode.org/L2/L2020/20237.htm)) (See B.1 for decision and action items)_
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 5.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 5 for decision and action items)_

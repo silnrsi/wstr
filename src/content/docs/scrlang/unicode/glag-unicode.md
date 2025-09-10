@@ -3,10 +3,10 @@ title: Unicode Status for Glagolitic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Glagolitic script implementation is discussed in [Chapter 7 Europe-I](http://www.unicode.org/versions/latest/ch07.pdf).
+In The Unicode Standard, Glagolitic script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G15862).
 
 [comment]: # (end of intro)
 
@@ -45,7 +45,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 - 1996-12-15 Glagolitic coded character set for bibliographic information interchange ([L2/98-190](http://www.unicode.org/L2/L1998/98190-6861.pdf))
 
-- 1997-12-08 Proposal to encode Glagolitic in ISO/IEC 10646 — Michael Everson ([WG2 N1659.htm](https://www.unicode.org/wg2/docs/n1659.htm), L2/98-023 (not online))
+- 1997-12-08 Proposal to encode Glagolitic in ISO/IEC 10646 — Michael Everson (WG2 N1659.htm, L2/98-023 (neither online))
 
 - 1998-11-24 Revised proposal for encoding the Glagolitic script in the UCS — Michael Everson ([WG2 N1931](https://www.unicode.org/wg2/docs/n1931.pdf), [L2/99-012](http://www.unicode.org/L2/L1999/n1931.pdf))
 

@@ -3,10 +3,10 @@ title: Unicode Status for Inscriptional Parthian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Inscriptional Parthian script implementation is discussed in [Chapter 10 Middle East-II: Ancient Scripts](http://www.unicode.org/versions/latest/ch10.pdf).
+In The Unicode Standard, Inscriptional Parthian script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G28759).
 
 [comment]: # (end of intro)
 

@@ -3,7 +3,7 @@ title: Unicode Status for Kaktovik
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
 The Kaktovik numerals are not yet in Unicode. The script has a tentative allocation at U+1D2C0..U+1D2DF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 

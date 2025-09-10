@@ -3,7 +3,7 @@ title: Unicode Status for Symbols
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
 In the Unicode Standard there are characters that are considered Symbols, but they are associated with certain scripts. The characters listed here are Symbols (Math_Symbol, Currency_Symbol, Modifier_Symbol, Other_Symbol), but they are in the "Common" category rather than associated with a particular script.
@@ -510,3 +510,15 @@ A number of proposals for various Symbols have been submitted to the Unicode Tec
   - _Recommendations to UTC #148 August 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu, and Lisa Moore ([L2/16-216](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-216)) (See section 15 for recommendations)_
 
   - _UTC #148 Minutes ([L2/16-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-203)) (See E.5 for decision and action items)_
+
+- 2023-01-29 Proposal to Encode a Hungarian Forint Symbol in the Unicode Standard — Vacek Nules ([L2/23-060](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-060))
+
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.iii.6.)_
+
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.6 for decision and action items)_
+
+- 2023-04-28 Revised designs of the alchemical symbols block — Kirk Miller ([L2/23-069](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-069))
+
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.iii.5.)_
+
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.5 for decision and action items)_

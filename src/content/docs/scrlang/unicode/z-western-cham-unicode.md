@@ -3,7 +3,7 @@ title: Unicode Status for Western Cham
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
 The Western Cham script is not yet in Unicode. The script has a tentative allocation at U+1E200..U+1E26F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
@@ -63,6 +63,24 @@ Several documents toward encoding the script have been submitted to WG2 and the 
 - 2020-07-09 Outstanding Western Cham Issues (based on 25 May 2020 version of proposal by Martin Hosken) — Deborah Anderson ([L2/20-186](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-186))
 
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 21.)_
+
+- 2020-11-15 Comments on Final Proposal to encode Western Cham (L2/20-061) — Leb Ke ([L2/20-285](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-285))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 20.)_
+
+- 2022-02-07 Western Cham Resolution Meeting — Martin Hosken ([L2/22-049](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-049))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 13.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 13 for decision and action items)_
+
+- 2022-02-12 Proposal to Encode Western Cham 2021-- Alberto Pérez Pereiro, Leb Ke, Jorge López Cortina, Andrew Cunningham        ([L2/22-095](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-095))
+
+- 2022-02-23 Response to L2/22-049, on Western Cham Resolution Meeting — Jorge López Cortina ([L2/22-050](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-050))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 13.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 13 for decision and action items)_
 
 [comment]: # (end of intro)
 

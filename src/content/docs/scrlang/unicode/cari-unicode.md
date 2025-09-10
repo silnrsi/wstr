@@ -3,10 +3,10 @@ title: Unicode Status for Carian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Carian script implementation is discussed in [Chapter 8 Europe-II: Ancient and Other Scripts](http://www.unicode.org/versions/latest/ch08.pdf) (under Anatolian Alphabets).
+In The Unicode Standard, Carian script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G26509).
 
 [comment]: # (end of intro)
 

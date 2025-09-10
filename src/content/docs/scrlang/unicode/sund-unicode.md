@@ -3,10 +3,10 @@ title: Unicode Status for Sundanese
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Sundanese script implementation is discussed in [Chapter 17 Indonesia and Oceania](http://www.unicode.org/versions/latest/ch17.pdf).
+In The Unicode Standard, Sundanese script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G27244).
 
 [comment]: # (end of intro)
 
@@ -60,3 +60,9 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 19.)_
 
   - _UTC #164 Minutes ([L2/20-172](https://www.unicode.org/L2/L2020/20172.htm)) (See B.1 for decision and action items)_
+
+- 2021-09-28 Wrong Identities of Three Historical Sundanese Character — Ilham Nurwansah ([   L2/21-221](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-221))
+
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 13.)_
+
+  - _UTC #169 Minutes ([L2/21-167](https://www.unicode.org/L2/L2021/21167.htm)) (See B.1 Section 13 for decision and action items)_

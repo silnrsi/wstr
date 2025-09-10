@@ -3,10 +3,10 @@ title: Unicode Status for New Tai Lue
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, New Tai Lue script implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf).
+In The Unicode Standard, New Tai Lue script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G65706).
 
 [comment]: # (end of intro)
 
@@ -37,7 +37,7 @@ _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and U
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:
 
-- 1994-10-10 The Motion on the Coding of Old Xishuang Banna Dai Writing Entering into BMP of ISO/IEC 10646 — China N.B. ([WG2 N1099.doc](https://www.unicode.org/wg2/docs/n1099typed.doc), [WG2 N1099](https://www.unicode.org/wg2/docs/n1099.pdf))
+- 1994-10-10 The Motion on the Coding of Old Xishuang Banna Dai Writing Entering into BMP of ISO/IEC 10646 — China N.B. (WG2 N1099.doc (not online))
 
 - 1999-08-13 On encoding New Tai Lue — Michael Everson ([WG2 N2044](https://www.unicode.org/wg2/docs/n2044.pdf), [L2/99-247](http://www.unicode.org/L2/L1999/n2044.pdf))
 
@@ -74,3 +74,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2014-07-28 Recommendations to UTC #140 August 2014 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Laurentiu Iancu ([L2/14-170](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-170))
 
 - 2014-08-05 Data on the usage of left-side spacing marks in New Tai Lue — Roozbeh Pournader ([L2/14-195](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-195))
+
+- 2022-05-11 Annotations for New Tai Lue block — Eiso Chan ([L2/22-105](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-105))
+
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 10.)_

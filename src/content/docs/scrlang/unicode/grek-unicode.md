@@ -3,10 +3,10 @@ title: Unicode Status for Greek
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Greek script implementation is discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts](http://www.unicode.org/versions/latest/ch07.pdf). 
+In The Unicode Standard, Greek script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G10832). 
 
 Prior to version 4.1 of The Unicode Standard, the Coptic script was considered a stylistic variant of the Greek script, and a unified Greek and Coptic block contained the Coptic characters which could not arguably be written with Greek letters. However, subsequent discussion determined that the two scripts would be better encoded separately, so version 4.1 added a Coptic block which contained characters needed for accurately processing Coptic text. Coptic characters already encoded in the Greek block remain there for use in the Coptic script.
 
@@ -43,18 +43,18 @@ Subsequent to version 1.1, the following characters have been added to the Greek
 | 037B..037D | 5.0 |  [n2990.pdf](https://www.unicode.org/wg2/docs/n2990.pdf)  |
 | 037F |  7.0  |  [n3997.pdf](https://www.unicode.org/wg2/docs/n3997.pdf)/[L2/10-474](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-474) |
 | 03CF | 5.1 |  [n3122.pdf](https://www.unicode.org/wg2/docs/n3122.pdf)/[L2/06-266](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-266) |
-| 03D7 | 3.0 |  [n1743.pdf](https://www.unicode.org/wg2/docs/n1743.pdf)/L2/98-210 (not online) |
+| 03D7 | 3.0 |  [n1743.pdf](https://www.unicode.org/L2/L1998/98210-n1743.pdf)/L2/98-210 (not online) |
 | 03D8..03D9 | 3.2 |   |
-| 03DB | 3.0 |  [n1743.pdf](https://www.unicode.org/wg2/docs/n1743.pdf)/L2/98-210 (not online) |
-| 03DD | 3.0 |  [n1743.pdf](https://www.unicode.org/wg2/docs/n1743.pdf)/L2/98-210 (not online) |
+| 03DB | 3.0 |  [n1743.pdf](https://www.unicode.org/L2/L1998/98210-n1743.pdf)/L2/98-210 (not online) |
+| 03DD | 3.0 |  [n1743.pdf](https://www.unicode.org/L2/L1998/98210-n1743.pdf)/L2/98-210 (not online) |
 | 03DF | 3.0 |   |
-| 03E1 | 3.0 |   [n1743.pdf](https://www.unicode.org/wg2/docs/n1743.pdf)/L2/98-210 (not online) |
+| 03E1 | 3.0 |   [n1743.pdf](https://www.unicode.org/L2/L1998/98210-n1743.pdf)/L2/98-210 (not online) |
 | 03F4..03F5 | 3.1 |   |
 | 03F6 | 3.2 |   |
 | 03F7..03F8 | 4.0 |  [n2411.pdf](https://www.unicode.org/wg2/docs/n2411.pdf)/[L2/02-056](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-056)  |
 | 03F9 | 4.0 |  [n2512.pdf](https://www.unicode.org/wg2/docs/n2512.pdf)/[L2/02-314](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-314)  |
 | 03FA..03FB | 4.0 |  [n2522.pdf](https://www.unicode.org/wg2/docs/n2522.pdf)/[L2/02-313](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-313)  |
-| 03FC | 4.1 | [n2612-5.pdf](https://www.unicode.org/wg2/docs/n2612/n2612-5.pdf)/[L2/03-188](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-188) |
+| 03FC | 4.1 | [n2612-5.pdf](https://www.unicode.org/wg2/docs/n2612-5.pdf)/[L2/03-188](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-188) |
 | 03FD..03FF | 4.1 |  [n2642.pdf](https://www.unicode.org/wg2/docs/n2642.pdf)/[L2/03-324](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-324)  |
 | AB65 | 7.0 | [WG2 N4307](https://www.unicode.org/wg2/docs/n4307.pdf), [L2/12-266](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-266) |
 | 10140..1018A | 4.1 |  |
@@ -75,13 +75,13 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 1984-11-01 Greek alphabet coded character set for bibliographic information interchange — The following 13 standards were provided by Randall Barry (LoC) for synchronization with ISO/IEC 19646 (L2/98-187 (not online))
 
-- 1995-01-11 Clarify character shape of 03DE (GREEK LETTER KOPPA) — Japan NB ([WG2 N1141.doc](https://www.unicode.org/wg2/docs/n1141.doc))
+- 1995-01-11 Clarify character shape of 03DE (GREEK LETTER KOPPA) — Japan NB (WG2 N1141.doc (not online))
 
 - 1997-07-29 Ancient Greek Akrophonic Characters — Bruce Robertson (L2/97-202 (not online))
 
 - 1998-02-03 Titlecase mappings for GREEK SYMBOLs — John Cowan ([L2/98-263](http://www.unicode.org/L2/L1998/98263.pdf))
 
-- 1998-05-25 Additional Greek characters for the UCS — Michael Everson ([WG2 N1743](https://www.unicode.org/wg2/docs/n1743.pdf), L2/98-210 (not online))
+- 1998-05-25 Additional Greek characters for the UCS — Michael Everson ([WG2 N1743](https://www.unicode.org/L2/L1998/98210-n1743.pdf), L2/98-210 (not online))
 
 - 1998-09-12 Responses to NCITS/L2 and Unicode Consortium comments on numerous proposals — Michael Everson ([WG2 N1847](https://www.unicode.org/wg2/docs/n1847.pdf))
 
@@ -133,21 +133,21 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 2003-05-19 Additional Beta Code Characters not in Unicode (WIP) — Maria Pantelia / TLG ([L2/03-157](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-157))
 
-- 2003-06-11 Proposal to encode Greek Numerical characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-2](https://www.unicode.org/wg2/docs/n2612/n2612-2.pdf), [L2/03-158](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-158))
+- 2003-06-11 Proposal to encode Greek Numerical characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-2](https://www.unicode.org/wg2/docs/n2612-2.pdf), [L2/03-158](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-158))
 
-- 2003-06-11 Proposal to encode Greek Acrophonic characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-3](https://www.unicode.org/wg2/docs/n2612/n2612-3.pdf), [L2/03-075](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-075))
+- 2003-06-11 Proposal to encode Greek Acrophonic characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-3](https://www.unicode.org/wg2/docs/n2612-3.pdf), [L2/03-075](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-075))
 
-- 2003-06-11 Proposal to encode one additional combining diacritic in the UCS — Maria Pantelia / TLG ([WG2 N2612-4](https://www.unicode.org/wg2/docs/n2612/n2612-4.pdf), [L2/03-186](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-186))
+- 2003-06-11 Proposal to encode one additional combining diacritic in the UCS — Maria Pantelia / TLG ([WG2 N2612-4](https://www.unicode.org/wg2/docs/n2612-4.pdf), [L2/03-186](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-186))
 
-- 2003-06-11 Proposal to encode the Greek Rho with Stroke Symbol in the UCS — Maria Pantelia / TLG ([WG2 N2612-5](https://www.unicode.org/wg2/docs/n2612/n2612-5.pdf), [L2/03-188](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-188))
+- 2003-06-11 Proposal to encode the Greek Rho with Stroke Symbol in the UCS — Maria Pantelia / TLG ([WG2 N2612-5](https://www.unicode.org/wg2/docs/n2612-5.pdf), [L2/03-188](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-188))
 
-- 2003-06-11 Proposal to encode ancient Greek mathematical characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-6](https://www.unicode.org/wg2/docs/n2612/n2612-6.pdf), [L2/03-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-187))
+- 2003-06-11 Proposal to encode ancient Greek mathematical characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-6](https://www.unicode.org/wg2/docs/n2612-6.pdf), [L2/03-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-187))
 
 - 2003-06-11 Proposal to encode Ancient Greek Musical Symbols in the UCS — Maria Pantelia / TLG ([WG2 N2547](https://www.unicode.org/wg2/docs/n2547.pdf), [L2/02-316](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-316))
 
-- 2003-06-11 Proposal to encode additional Punctuation Characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-7](https://www.unicode.org/wg2/docs/n2612/n2612-7.pdf), [L2/03-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-193))
+- 2003-06-11 Proposal to encode additional Punctuation Characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-7](https://www.unicode.org/wg2/docs/n2612-7.pdf), [L2/03-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-193))
 
-- 2003-06-11 Proposal to encode New Testament editorial characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-1](https://www.unicode.org/wg2/docs/n2612/n2612-1.pdf), [L2/03-074](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-074))
+- 2003-06-11 Proposal to encode New Testament editorial characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-1](https://www.unicode.org/wg2/docs/n2612-1.pdf), [L2/03-074](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-074))
 
 - 2003-10-06 Proposal to encode additional Greek editorial and punctuation characters in the UCS — Maria Pantelia / TLG ([WG2 N2642](https://www.unicode.org/wg2/docs/n2642.pdf), [L2/03-324](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-324))
 
@@ -218,3 +218,31 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2014-07-30 Proposal to change glyph for small GREEK LETTER YOT — Michael Bobeck ([L2/14-185](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-185))
 
 - 2014-10-20 Feedback on L2/14-185 Proposal to change glyph for small GREEK LETTER YOT — Deborah Anderson ([L2/14-255](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-255))
+
+- 2023-03-02 Add Simple_Case_Folding mappings for three existing characters — Markus Scherer ([L2/23-062](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-062))
+
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See F.1 Section 2.1 for decision and action items)_
+
+- 2024-06-04 Unicode request for Greek letters with palatal hook — Kirk Miller ([L2/24-146](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-146))
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.V.14.)_
+
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section V Section 14 for decision and action items)_
+
+- 2024-06-24 Unicode request for modifier psi and omega (revised) — Kirk Miller ([L2/24-145](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-145))
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.V.13.)_
+
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section V Section 13 for decision and action items)_
+
+- 2024-08-17 Phonetic characters: Greek and Latin? — Denis Moyogo Jacquerye ([L2/24-202](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-202))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See points 4.7 and 6.5.)_
+
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 4.7 and 6.5 for decision and action items)_
+
+- 2024-12-26 On the decision to rename and change the glyphs of Greek phonetic letters (revised) — Eduardo Marin Silva ([L2/25-043](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-043))
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.11.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 5 for decision and action items)_

@@ -3,7 +3,7 @@ title: Unicode Status for Naxi Dongba
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
 The Naxi Dongba Pictographic script is not yet in Unicode. The script has a tentative allocation at U+1A800..U+1ACFF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. There seems to be disagreement on whether Naxi Dongba and Nakhi Geba should be considered the same script (see also the [Unicode Status (Nakhi Geba)](https://scriptsource.org/entry/k8fj7hdpny) entry).
@@ -38,9 +38,9 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 - 2010-11-05 Comments on “Revised Proposal for Encoding Naxi Dongba Pictograph in the SMP” (WG2 N3935) — INCITS/L2 (US national body) ([WG2 N3965](https://www.unicode.org/wg2/docs/n3965.pdf), [L2/10-462](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-462))
 
-- 2011-05-10 Revised Proposal for Encoding Naxi Dongba Pictographic Script in the SMP of the UCS — China N.B. ([WG2 N4043](https://www.unicode.org/wg2/docs/N4043.pdf), [L2/11-178](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-178))
+- 2011-05-10 Revised Proposal for Encoding Naxi Dongba Pictographic Script in the SMP of the UCS — China N.B. ([WG2 N4043](https://www.unicode.org/wg2/docs/n4043.pdf), [L2/11-178](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-178))
 
-- 2011-05-13 Comments on Proposal for encoding Naxi Dongba Pictographic script (N4043) — U.S. National Body ([WG2 N4060](https://www.unicode.org/wg2/docs/N4060.pdf), [L2/11-197](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-197))
+- 2011-05-13 Comments on Proposal for encoding Naxi Dongba Pictographic script (N4043) — U.S. National Body ([WG2 N4060](https://www.unicode.org/wg2/docs/n4060.pdf), [L2/11-197](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-197))
 
 - 2011-06-06 Response to US Comments in N4060 on Naxi Dongba — China N.B. ([WG2 N4097](https://www.unicode.org/wg2/docs/n4097.pdf))
 

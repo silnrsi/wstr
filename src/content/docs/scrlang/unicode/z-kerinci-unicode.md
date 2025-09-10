@@ -3,10 +3,10 @@ title: Unicode Status for Kerinci
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-The Kerinci script is not yet in Unicode. The script has a tentative allocation at U+15B40..U+15B6F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Kerinci script is not yet in Unicode. The script has a tentative allocation at U+1E740..U+1E76F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. It is also discussed in [UTN 35: Indonesian and Philippine Scripts and extensions](https://www.unicode.org/notes/tn35/).
 
 Two documents towards inclusion in Unicode have been submitted to the Unicode Technical Committee:
 

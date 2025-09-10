@@ -12,12 +12,52 @@
                 "LangCode": "ful",
                 "Variants": [
                     {
+                        "Code": "ff-Adlm-BF",
+                        "Country": "Burkina Faso"
+                    },
+                    {
+                        "Code": "ff-Adlm-CM",
+                        "Country": "Cameroon"
+                    },
+                    {
+                        "Code": "ff-Adlm-GM",
+                        "Country": "Gambia"
+                    },
+                    {
+                        "Code": "ff-Adlm-GH",
+                        "Country": "Ghana"
+                    },
+                    {
                         "Code": "ff-Adlm-GN",
                         "Country": "Guinea"
                     },
                     {
+                        "Code": "ff-Adlm-GW",
+                        "Country": "Guinea-Bissau"
+                    },
+                    {
+                        "Code": "ff-Adlm-LR",
+                        "Country": "Liberia"
+                    },
+                    {
                         "Code": "ff-Adlm-MR",
                         "Country": "Mauritania"
+                    },
+                    {
+                        "Code": "ff-Adlm-NE",
+                        "Country": "Niger"
+                    },
+                    {
+                        "Code": "ff-Adlm-NG",
+                        "Country": "Nigeria"
+                    },
+                    {
+                        "Code": "ff-Adlm-SN",
+                        "Country": "Senegal"
+                    },
+                    {
+                        "Code": "ff-Adlm-SL",
+                        "Country": "Sierra Leone"
                     }
                 ]
             },
@@ -241,7 +281,7 @@
                 "Variants": [
                     {
                         "Code": "amj-Arab-TD",
-                        "Country": "Chad"
+                        "Country": ""
                     }
                 ]
             },
@@ -556,14 +596,14 @@
                 ]
             },
             {
-                "WsCode": "aju-Arab",
+                "WsCode": "jrb-Arab",
                 "Status": "in use",
                 "Locale": "",
                 "LangName": "Arabic, Judeo-Moroccan",
                 "LangCode": "aju",
                 "Variants": [
                     {
-                        "Code": "aju-Arab-MA",
+                        "Code": "jrb-Arab-MA",
                         "Country": "Morocco"
                     }
                 ]
@@ -578,7 +618,7 @@
                 "Variants": [
                     {
                         "Code": "apc-Arab-JO",
-                        "Country": "Jordan"
+                        "Country": ""
                     },
                     {
                         "Code": "apc-Arab-SY",
@@ -830,7 +870,7 @@
                 "Variants": [
                     {
                         "Code": "sjg-Arab-TD",
-                        "Country": "Chad"
+                        "Country": ""
                     }
                 ]
             },
@@ -1866,7 +1906,7 @@
                 "Variants": [
                     {
                         "Code": "gho-Arab-MA",
-                        "Country": "Morocco"
+                        "Country": ""
                     }
                 ]
             },
@@ -2299,7 +2339,7 @@
                 "Variants": [
                     {
                         "Code": "jum-Arab-SD",
-                        "Country": "Sudan"
+                        "Country": ""
                     }
                 ]
             },
@@ -2958,7 +2998,7 @@
                 "Variants": [
                     {
                         "Code": "lez-Arab-AZ",
-                        "Country": "Azerbaijan"
+                        "Country": ""
                     }
                 ]
             },
@@ -3050,7 +3090,7 @@
                 "Variants": [
                     {
                         "Code": "mdh-Arab-PH",
-                        "Country": "Philippines"
+                        "Country": ""
                     }
                 ]
             },
@@ -3076,7 +3116,7 @@
                 "Variants": [
                     {
                         "Code": "mgh-Arab-MZ",
-                        "Country": "Mozambique"
+                        "Country": ""
                     }
                 ]
             },
@@ -3130,7 +3170,7 @@
                 "Variants": [
                     {
                         "Code": "ms-Arab-BN",
-                        "Country": "Brunei"
+                        "Country": ""
                     },
                     {
                         "Code": "ms-Arab-CC",
@@ -3181,7 +3221,7 @@
                 "Variants": [
                     {
                         "Code": "msi-Arab-MY",
-                        "Country": "Malaysia"
+                        "Country": ""
                     }
                 ]
             },
@@ -3234,12 +3274,12 @@
                 "LangCode": "man",
                 "Variants": [
                     {
-                        "Code": "man-Arab-GN",
-                        "Country": "Guinea"
+                        "Code": "man-Arab-SN",
+                        "Country": ""
                     },
                     {
-                        "Code": "man-Arab-SN",
-                        "Country": "Senegal"
+                        "Code": "man-Arab-GN",
+                        "Country": "Guinea"
                     }
                 ]
             },
@@ -3252,7 +3292,7 @@
                 "Variants": [
                     {
                         "Code": "mnk-Arab-GN",
-                        "Country": "Guinea"
+                        "Country": ""
                     }
                 ]
             },
@@ -3304,7 +3344,7 @@
                 "Variants": [
                     {
                         "Code": "mgb-Arab-TD",
-                        "Country": "Chad"
+                        "Country": ""
                     }
                 ]
             },
@@ -3315,6 +3355,10 @@
                 "LangName": "Marwari",
                 "LangCode": "mve",
                 "Variants": [
+                    {
+                        "Code": "mve-Arab-PK",
+                        "Country": ""
+                    },
                     {
                         "Code": "mve-Arab-PK-x-sindhi",
                         "Country": "Pakistan"
@@ -4513,7 +4557,7 @@
                 "Variants": [
                     {
                         "Code": "thz-Arab-NE",
-                        "Country": "Niger"
+                        "Country": ""
                     }
                 ]
             },
@@ -5313,7 +5357,7 @@
                 "Variants": [
                     {
                         "Code": "kaw-Bali-ID",
-                        "Country": "Indonesia"
+                        "Country": ""
                     },
                     {
                         "Code": "kaw-Bali-MY",
@@ -5721,7 +5765,7 @@
                 "Variants": [
                     {
                         "Code": "kru-Beng-BD",
-                        "Country": "Bangladesh"
+                        "Country": ""
                     }
                 ]
             },
@@ -5747,7 +5791,7 @@
                 "Variants": [
                     {
                         "Code": "rmz-Beng-BD",
-                        "Country": "Bangladesh"
+                        "Country": ""
                     }
                 ]
             },
@@ -6068,7 +6112,7 @@
         ]
     },
     {
-        "ScriptName": "Beria (Erfe)",
+        "ScriptName": "Beria Erfe",
         "ScriptCode": "Berf",
         "WrSys": []
     },
@@ -6342,7 +6386,7 @@
                 "Variants": [
                     {
                         "Code": "ak-Brai-GH",
-                        "Country": "Ghana"
+                        "Country": ""
                     }
                 ]
             },
@@ -6446,7 +6490,7 @@
                 "Variants": [
                     {
                         "Code": "eu-Brai-ES",
-                        "Country": "Spain"
+                        "Country": ""
                     }
                 ]
             },
@@ -6511,7 +6555,7 @@
                 "Variants": [
                     {
                         "Code": "bs-Brai-BA",
-                        "Country": "Bosnia and Herzegovina"
+                        "Country": ""
                     }
                 ]
             },
@@ -6550,7 +6594,7 @@
                 "Variants": [
                     {
                         "Code": "ca-Brai-ES",
-                        "Country": "Spain"
+                        "Country": ""
                     }
                 ]
             },
@@ -6654,7 +6698,7 @@
                 "Variants": [
                     {
                         "Code": "dga-Brai-GH",
-                        "Country": "Ghana"
+                        "Country": ""
                     }
                 ]
             },
@@ -6680,7 +6724,7 @@
                 "Variants": [
                     {
                         "Code": "dob-Brai-PG",
-                        "Country": "Papua New Guinea"
+                        "Country": ""
                     }
                 ]
             },
@@ -6706,7 +6750,7 @@
                 "Variants": [
                     {
                         "Code": "dz-Brai-BT",
-                        "Country": "Bhutan"
+                        "Country": ""
                     }
                 ]
             },
@@ -6732,7 +6776,7 @@
                 "Variants": [
                     {
                         "Code": "eo-Brai-PL",
-                        "Country": "Poland"
+                        "Country": ""
                     }
                 ]
             },
@@ -6758,7 +6802,7 @@
                 "Variants": [
                     {
                         "Code": "fo-Brai-FO",
-                        "Country": "Faroe Islands"
+                        "Country": ""
                     }
                 ]
             },
@@ -6797,7 +6841,7 @@
                 "Variants": [
                     {
                         "Code": "gaa-Brai-GH",
-                        "Country": "Ghana"
+                        "Country": ""
                     }
                 ]
             },
@@ -6810,7 +6854,7 @@
                 "Variants": [
                     {
                         "Code": "gl-Brai-ES",
-                        "Country": "Spain"
+                        "Country": ""
                     }
                 ]
             },
@@ -6823,7 +6867,7 @@
                 "Variants": [
                     {
                         "Code": "lg-Brai-UG",
-                        "Country": "Uganda"
+                        "Country": ""
                     }
                 ]
             },
@@ -6888,7 +6932,7 @@
                 "Variants": [
                     {
                         "Code": "kl-Brai-GL",
-                        "Country": "Greenland"
+                        "Country": ""
                     }
                 ]
             },
@@ -6901,7 +6945,7 @@
                 "Variants": [
                     {
                         "Code": "gn-Brai-PY",
-                        "Country": "Paraguay"
+                        "Country": ""
                     }
                 ]
             },
@@ -6940,7 +6984,7 @@
                 "Variants": [
                     {
                         "Code": "haw-Brai-US",
-                        "Country": "United States"
+                        "Country": ""
                     }
                 ]
             },
@@ -6992,7 +7036,7 @@
                 "Variants": [
                     {
                         "Code": "hui-Brai-PG",
-                        "Country": "Papua New Guinea"
+                        "Country": ""
                     }
                 ]
             },
@@ -7018,7 +7062,7 @@
                 "Variants": [
                     {
                         "Code": "is-Brai-IS",
-                        "Country": "Iceland"
+                        "Country": ""
                     }
                 ]
             },
@@ -7031,7 +7075,7 @@
                 "Variants": [
                     {
                         "Code": "ig-Brai-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -7070,7 +7114,7 @@
                 "Variants": [
                     {
                         "Code": "ik-Brai-US",
-                        "Country": "United States"
+                        "Country": ""
                     }
                 ]
             },
@@ -7083,7 +7127,7 @@
                 "Variants": [
                     {
                         "Code": "ga-Brai-IE",
-                        "Country": "Ireland"
+                        "Country": ""
                     }
                 ]
             },
@@ -7148,7 +7192,7 @@
                 "Variants": [
                     {
                         "Code": "kqn-Brai-ZM",
-                        "Country": "Zambia"
+                        "Country": ""
                     }
                 ]
             },
@@ -7200,7 +7244,7 @@
                 "Variants": [
                     {
                         "Code": "km-Brai-KH",
-                        "Country": "Cambodia"
+                        "Country": ""
                     }
                 ]
             },
@@ -7252,7 +7296,7 @@
                 "Variants": [
                     {
                         "Code": "ksd-Brai-PG",
-                        "Country": "Papua New Guinea"
+                        "Country": ""
                     }
                 ]
             },
@@ -7265,7 +7309,7 @@
                 "Variants": [
                     {
                         "Code": "ky-Brai-KG",
-                        "Country": "Kyrgyzstan"
+                        "Country": ""
                     }
                 ]
             },
@@ -7278,7 +7322,7 @@
                 "Variants": [
                     {
                         "Code": "lo-Brai-LA",
-                        "Country": "Laos"
+                        "Country": ""
                     }
                 ]
             },
@@ -7304,7 +7348,7 @@
                 "Variants": [
                     {
                         "Code": "lt-Brai-LT",
-                        "Country": "Lithuania"
+                        "Country": ""
                     }
                 ]
             },
@@ -7317,7 +7361,7 @@
                 "Variants": [
                     {
                         "Code": "loz-Brai-ZM",
-                        "Country": "Zambia"
+                        "Country": ""
                     }
                 ]
             },
@@ -7330,7 +7374,7 @@
                 "Variants": [
                     {
                         "Code": "lun-Brai-ZM",
-                        "Country": "Zambia"
+                        "Country": ""
                     }
                 ]
             },
@@ -7343,7 +7387,7 @@
                 "Variants": [
                     {
                         "Code": "lue-Brai-ZM",
-                        "Country": "Zambia"
+                        "Country": ""
                     }
                 ]
             },
@@ -7356,7 +7400,7 @@
                 "Variants": [
                     {
                         "Code": "lb-Brai-LU",
-                        "Country": "Luxembourg"
+                        "Country": ""
                     }
                 ]
             },
@@ -7434,7 +7478,7 @@
                 "Variants": [
                     {
                         "Code": "mi-Brai-NZ",
-                        "Country": "New Zealand"
+                        "Country": ""
                     }
                 ]
             },
@@ -7486,7 +7530,7 @@
                 "Variants": [
                     {
                         "Code": "mfq-Brai-TG",
-                        "Country": "Togo"
+                        "Country": ""
                     }
                 ]
             },
@@ -7564,7 +7608,7 @@
                 "Variants": [
                     {
                         "Code": "se-Brai-NO",
-                        "Country": "Norway"
+                        "Country": ""
                     }
                 ]
             },
@@ -7577,7 +7621,7 @@
                 "Variants": [
                     {
                         "Code": "no-Brai-NO",
-                        "Country": "Norway"
+                        "Country": ""
                     }
                 ]
             },
@@ -7590,7 +7634,7 @@
                 "Variants": [
                     {
                         "Code": "nb-Brai-NO",
-                        "Country": "Norway"
+                        "Country": ""
                     }
                 ]
             },
@@ -7603,7 +7647,7 @@
                 "Variants": [
                     {
                         "Code": "nn-Brai-NO",
-                        "Country": "Norway"
+                        "Country": ""
                     }
                 ]
             },
@@ -7668,7 +7712,7 @@
                 "Variants": [
                     {
                         "Code": "fa-Brai-IR",
-                        "Country": "Iran"
+                        "Country": ""
                     }
                 ]
             },
@@ -7746,7 +7790,7 @@
                 "Variants": [
                     {
                         "Code": "sm-Brai-WS",
-                        "Country": "Samoa"
+                        "Country": ""
                     }
                 ]
             },
@@ -7772,7 +7816,7 @@
                 "Variants": [
                     {
                         "Code": "gd-Brai-GB",
-                        "Country": "United Kingdom"
+                        "Country": ""
                     }
                 ]
             },
@@ -7798,7 +7842,7 @@
                 "Variants": [
                     {
                         "Code": "tn-Brai-ZA",
-                        "Country": "South Africa"
+                        "Country": ""
                     }
                 ]
             },
@@ -7876,7 +7920,7 @@
                 "Variants": [
                     {
                         "Code": "st-Brai-ZA",
-                        "Country": "South Africa"
+                        "Country": ""
                     }
                 ]
             },
@@ -7915,7 +7959,7 @@
                 "Variants": [
                     {
                         "Code": "sw-Brai-TZ",
-                        "Country": "Tanzania"
+                        "Country": ""
                     }
                 ]
             },
@@ -7928,7 +7972,7 @@
                 "Variants": [
                     {
                         "Code": "ss-Brai-ZA",
-                        "Country": "South Africa"
+                        "Country": ""
                     }
                 ]
             },
@@ -7967,7 +8011,7 @@
                 "Variants": [
                     {
                         "Code": "tg-Brai-TJ",
-                        "Country": "Tajikistan"
+                        "Country": ""
                     }
                 ]
             },
@@ -8006,7 +8050,7 @@
                 "Variants": [
                     {
                         "Code": "kdh-Brai-TG",
-                        "Country": "Togo"
+                        "Country": ""
                     }
                 ]
             },
@@ -8032,7 +8076,7 @@
                 "Variants": [
                     {
                         "Code": "bo-Brai-CN",
-                        "Country": "China"
+                        "Country": ""
                     }
                 ]
             },
@@ -8045,7 +8089,7 @@
                 "Variants": [
                     {
                         "Code": "tpi-Brai-PG",
-                        "Country": "Papua New Guinea"
+                        "Country": ""
                     }
                 ]
             },
@@ -8058,7 +8102,7 @@
                 "Variants": [
                     {
                         "Code": "toi-Brai-ZM",
-                        "Country": "Zambia"
+                        "Country": ""
                     }
                 ]
             },
@@ -8097,7 +8141,7 @@
                 "Variants": [
                     {
                         "Code": "tk-Brai-TM",
-                        "Country": "Turkmenistan"
+                        "Country": ""
                     }
                 ]
             },
@@ -8110,7 +8154,7 @@
                 "Variants": [
                     {
                         "Code": "uk-Brai-UA",
-                        "Country": "Ukraine"
+                        "Country": ""
                     }
                 ]
             },
@@ -8356,7 +8400,7 @@
                 "Variants": [
                     {
                         "Code": "fil-Buhd-PH",
-                        "Country": "Philippines"
+                        "Country": ""
                     }
                 ]
             },
@@ -8424,12 +8468,12 @@
                 "LangCode": "lez",
                 "Variants": [
                     {
-                        "Code": "lez-Aghb-AZ",
-                        "Country": "Azerbaijan"
+                        "Code": "lez-Aghb-RU",
+                        "Country": ""
                     },
                     {
-                        "Code": "lez-Aghb-RU",
-                        "Country": "Russian Federation"
+                        "Code": "lez-Aghb-AZ",
+                        "Country": "Azerbaijan"
                     }
                 ]
             },
@@ -8555,7 +8599,7 @@
                 "Variants": [
                     {
                         "Code": "kyw-Chis-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             }
@@ -8639,7 +8683,7 @@
                 "Variants": [
                     {
                         "Code": "ak-Zzzz-GH-x-adinkra",
-                        "Country": "Ghana"
+                        "Country": ""
                     }
                 ]
             },
@@ -8678,7 +8722,7 @@
                 "Variants": [
                     {
                         "Code": "bm-Zzzz-ML-x-masaba",
-                        "Country": "Mali"
+                        "Country": ""
                     }
                 ]
             },
@@ -8717,7 +8761,7 @@
                 "Variants": [
                     {
                         "Code": "dag-Zzzz-GH-x-adinkra",
-                        "Country": "Ghana"
+                        "Country": ""
                     }
                 ]
             },
@@ -8730,7 +8774,7 @@
                 "Variants": [
                     {
                         "Code": "luo-Zzzz-KE-x-lakeside",
-                        "Country": "Kenya"
+                        "Country": ""
                     }
                 ]
             },
@@ -8769,7 +8813,7 @@
                 "Variants": [
                     {
                         "Code": "gaa-Zzzz-GH-x-adinkra",
-                        "Country": "Ghana"
+                        "Country": ""
                     }
                 ]
             },
@@ -8782,7 +8826,7 @@
                 "Variants": [
                     {
                         "Code": "ha-Zzzz-NG-x-zanan",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -8795,7 +8839,37 @@
                 "Variants": [
                     {
                         "Code": "zkd-Zzzz-MM-x-kadu",
-                        "Country": "Myanmar"
+                        "Country": ""
+                    }
+                ]
+            },
+            {
+                "WsCode": "kyw-Chis",
+                "Status": "in use",
+                "Locale": "",
+                "LangName": "Kudmali",
+                "LangCode": "kyw",
+                "Variants": [
+                    {
+                        "Code": "kyw-Chis-IN",
+                        "Country": ""
+                    }
+                ]
+            },
+            {
+                "WsCode": "lah-Zzzz",
+                "Status": "in use",
+                "Locale": "",
+                "LangName": "Lahnda",
+                "LangCode": "lah",
+                "Variants": [
+                    {
+                        "Code": "lah-Zzzz-PK-x-landa",
+                        "Country": ""
+                    },
+                    {
+                        "Code": "lah-Zzzz-PK",
+                        "Country": "Pakistan"
                     }
                 ]
             },
@@ -8852,19 +8926,6 @@
                 ]
             },
             {
-                "WsCode": "lah-Zzzz",
-                "Status": "in use",
-                "Locale": "",
-                "LangName": "Punjabi, Western",
-                "LangCode": "pnb",
-                "Variants": [
-                    {
-                        "Code": "lah-Zzzz-PK",
-                        "Country": "Pakistan"
-                    }
-                ]
-            },
-            {
                 "WsCode": "tpo-Zzzz",
                 "Status": "in use",
                 "Locale": "",
@@ -8872,21 +8933,12 @@
                 "LangCode": "tpo",
                 "Variants": [
                     {
+                        "Code": "tpo-Zzzz-LA",
+                        "Country": ""
+                    },
+                    {
                         "Code": "tpo-Zzzz-LA-x-laipao",
                         "Country": "Laos"
-                    }
-                ]
-            },
-            {
-                "WsCode": "tcy-Zzzz",
-                "Status": "in use",
-                "Locale": "",
-                "LangName": "Tulu",
-                "LangCode": "tcy",
-                "Variants": [
-                    {
-                        "Code": "tcy-Zzzz-IN-x-tulu",
-                        "Country": "India"
                     }
                 ]
             },
@@ -8912,7 +8964,7 @@
                 "Variants": [
                     {
                         "Code": "ee-Zzzz-GH-x-adinkra",
-                        "Country": "Ghana"
+                        "Country": ""
                     }
                 ]
             }
@@ -8922,19 +8974,6 @@
         "ScriptName": "Code for undetermined script",
         "ScriptCode": "Zyyy",
         "WrSys": [
-            {
-                "WsCode": "okz-Zyyy",
-                "Status": "unknown",
-                "Locale": "",
-                "LangName": null,
-                "LangCode": null,
-                "Variants": [
-                    {
-                        "Code": "okz-Zyyy-XX",
-                        "Country": ""
-                    }
-                ]
-            },
             {
                 "WsCode": "apq-Zyyy",
                 "Status": "unwritten",
@@ -9283,6 +9322,19 @@
                     {
                         "Code": "ams-Zyyy-JP",
                         "Country": "Japan"
+                    }
+                ]
+            },
+            {
+                "WsCode": "ami-Zyyy",
+                "Status": "unknown",
+                "Locale": "",
+                "LangName": "Amis",
+                "LangCode": "ami",
+                "Variants": [
+                    {
+                        "Code": "ami-Zyyy-TW",
+                        "Country": "China–Taiwan"
                     }
                 ]
             },
@@ -10310,6 +10362,19 @@
                     {
                         "Code": "ych-Zyyy-CN",
                         "Country": "China"
+                    }
+                ]
+            },
+            {
+                "WsCode": "cty-Zyyy",
+                "Status": "unknown",
+                "Locale": "",
+                "LangName": "Chetti, Moundadan",
+                "LangCode": "cty",
+                "Variants": [
+                    {
+                        "Code": "cty-Zyyy-IN",
+                        "Country": "India"
                     }
                 ]
             },
@@ -12857,7 +12922,7 @@
                 "Variants": [
                     {
                         "Code": "lbc-Zyyy-CN",
-                        "Country": "China"
+                        "Country": ""
                     }
                 ]
             },
@@ -14526,19 +14591,6 @@
                 ]
             },
             {
-                "WsCode": "ami-Zyyy",
-                "Status": "unknown",
-                "Locale": "",
-                "LangName": "Nataoran Amis",
-                "LangCode": "ais",
-                "Variants": [
-                    {
-                        "Code": "ami-Zyyy-TW",
-                        "Country": "China–Taiwan"
-                    }
-                ]
-            },
-            {
                 "WsCode": "ncz-Zyyy",
                 "Status": "unwritten",
                 "Locale": "",
@@ -15046,6 +15098,19 @@
                 ]
             },
             {
+                "WsCode": "okz-Zyyy",
+                "Status": "unknown",
+                "Locale": "",
+                "LangName": "Old Khmer",
+                "LangCode": "okz",
+                "Variants": [
+                    {
+                        "Code": "okz-Zyyy-XX",
+                        "Country": ""
+                    }
+                ]
+            },
+            {
                 "WsCode": "oko-Zyyy",
                 "Status": "unknown",
                 "Locale": "",
@@ -15068,10 +15133,6 @@
                     {
                         "Code": "omy-Zyyy-XX",
                         "Country": ""
-                    },
-                    {
-                        "Code": "omy-Zyyy-MY",
-                        "Country": "Malaysia"
                     }
                 ]
             },
@@ -15171,7 +15232,7 @@
                 "Status": "unknown",
                 "Locale": "",
                 "LangName": "Oy",
-                "LangCode": "jeg",
+                "LangCode": "oyb",
                 "Variants": [
                     {
                         "Code": "oyb-Zyyy-LA",
@@ -16774,7 +16835,7 @@
                 "Variants": [
                     {
                         "Code": "xso-Zyyy-MX",
-                        "Country": "Mexico"
+                        "Country": ""
                     },
                     {
                         "Code": "xso-Zyyy-US",
@@ -17303,30 +17364,12 @@
                 ]
             },
             {
-                "WsCode": "txh-Zyyy",
-                "Status": "unknown",
-                "Locale": "",
-                "LangName": "Thracian",
-                "LangCode": "txh",
-                "Variants": [
-                    {
-                        "Code": "txh-Zyyy-XX",
-                        "Country": ""
-                    }
-                ]
-            },
-            {
                 "WsCode": "thw-Zyyy",
                 "Status": "unwritten",
                 "Locale": "",
                 "LangName": "Thudam",
                 "LangCode": "thw",
-                "Variants": [
-                    {
-                        "Code": "thw-Zyyy-NP",
-                        "Country": "Nepal"
-                    }
-                ]
+                "Variants": []
             },
             {
                 "WsCode": "tcn-Zyyy",
@@ -17624,10 +17667,6 @@
                     {
                         "Code": "tta-Zyyy-XX",
                         "Country": ""
-                    },
-                    {
-                        "Code": "tta-Zyyy-CA",
-                        "Country": "Canada"
                     }
                 ]
             },
@@ -18442,8 +18481,8 @@
                 "LangCode": "ajs",
                 "Variants": [
                     {
-                        "Code": "ajs-Zxxx-IL",
-                        "Country": "Israel"
+                        "Code": "ajs-Zxxx-DZ",
+                        "Country": ""
                     }
                 ]
             },
@@ -19028,7 +19067,7 @@
                 "Variants": [
                     {
                         "Code": "lgs-Zxxx-GW",
-                        "Country": "Guinea-Bissau"
+                        "Country": ""
                     }
                 ]
             },
@@ -19547,8 +19586,8 @@
                 "LangCode": "dsz",
                 "Variants": [
                     {
-                        "Code": "dsz-Zxxx-TR",
-                        "Country": "Turkey"
+                        "Code": "dsz-Zxxx-TK",
+                        "Country": ""
                     }
                 ]
             },
@@ -20862,19 +20901,6 @@
                 ]
             },
             {
-                "WsCode": "xss-Cyrl",
-                "Status": "unwritten",
-                "Locale": "",
-                "LangName": "Assan",
-                "LangCode": "xss",
-                "Variants": [
-                    {
-                        "Code": "xss-Cyrl-RU",
-                        "Country": "Russian Federation"
-                    }
-                ]
-            },
-            {
                 "WsCode": "aii-Cyrl",
                 "Status": "in use",
                 "Locale": "",
@@ -20981,6 +21007,10 @@
                 "Variants": [
                     {
                         "Code": "be-Cyrl-BY-tarask",
+                        "Country": ""
+                    },
+                    {
+                        "Code": "be-Cyrl-BY",
                         "Country": "Belarus"
                     }
                 ]
@@ -21651,7 +21681,7 @@
                 "Variants": [
                     {
                         "Code": "ykh-Cyrl-MN",
-                        "Country": "Mongolia"
+                        "Country": ""
                     }
                 ]
             },
@@ -22223,7 +22253,7 @@
                 "Variants": [
                     {
                         "Code": "rmc-Cyrl-UA",
-                        "Country": "Ukraine"
+                        "Country": ""
                     }
                 ]
             },
@@ -23089,7 +23119,7 @@
                 "Variants": [
                     {
                         "Code": "hop-Dsrt-US",
-                        "Country": "United States"
+                        "Country": ""
                     }
                 ]
             }
@@ -23241,7 +23271,7 @@
                 "Variants": [
                     {
                         "Code": "vjk-Deva-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -23463,7 +23493,7 @@
                 "Variants": [
                     {
                         "Code": "bix-Deva-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -23620,7 +23650,7 @@
                 "Variants": [
                     {
                         "Code": "cdn-Deva-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -24001,7 +24031,7 @@
                 "Variants": [
                     {
                         "Code": "goj-Deva-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -24320,7 +24350,7 @@
                 "Variants": [
                     {
                         "Code": "kfu-Deva-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -24451,7 +24481,7 @@
                 "Variants": [
                     {
                         "Code": "kwx-Deva-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -24661,7 +24691,7 @@
                 "LangCode": "kfy",
                 "Variants": [
                     {
-                        "Code": "kfy-Deva-IN",
+                        "Code": "kfy-Deva-IN-x-soriyali",
                         "Country": "India"
                     }
                 ]
@@ -24705,7 +24735,7 @@
                 "Variants": [
                     {
                         "Code": "kxv-Deva-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -24772,7 +24802,7 @@
                 "LangCode": "lif",
                 "Variants": [
                     {
-                        "Code": "lif-Deva-NP",
+                        "Code": "lif-Deva-NP-x-phedappe",
                         "Country": "Nepal"
                     }
                 ]
@@ -25305,7 +25335,7 @@
                 "LangCode": "kfx",
                 "Variants": [
                     {
-                        "Code": "kfx-Deva-IN",
+                        "Code": "kfx-Deva-IN-x-mandi",
                         "Country": "India"
                     }
                 ]
@@ -26024,7 +26054,7 @@
                 "Variants": [
                     {
                         "Code": "ttz-Deva-NP",
-                        "Country": "Nepal"
+                        "Country": ""
                     }
                 ]
             },
@@ -26360,7 +26390,7 @@
         "WrSys": []
     },
     {
-        "ScriptName": "Egyptian Demotic",
+        "ScriptName": "Egyptian demotic",
         "ScriptCode": "Egyd",
         "WrSys": []
     },
@@ -26420,7 +26450,7 @@
                 "Variants": [
                     {
                         "Code": "aii-Elym-IQ",
-                        "Country": "Iraq"
+                        "Country": ""
                     }
                 ]
             },
@@ -26725,7 +26755,7 @@
                 "Variants": [
                     {
                         "Code": "gez-Ethi-ER",
-                        "Country": "Eritrea"
+                        "Country": ""
                     },
                     {
                         "Code": "gez-Ethi-ET",
@@ -26944,7 +26974,7 @@
                 "Variants": [
                     {
                         "Code": "mvz-Ethi-ET",
-                        "Country": "Ethiopia"
+                        "Country": ""
                     }
                 ]
             },
@@ -27151,7 +27181,7 @@
                 "Variants": [
                     {
                         "Code": "wle-Ethi-ET",
-                        "Country": "Ethiopia"
+                        "Country": ""
                     }
                 ]
             },
@@ -27240,7 +27270,7 @@
         "WrSys": []
     },
     {
-        "ScriptName": "Garay (Wolof)",
+        "ScriptName": "Garay",
         "ScriptCode": "Gara",
         "WrSys": [
             {
@@ -27252,7 +27282,7 @@
                 "Variants": [
                     {
                         "Code": "wo-Gara-SN",
-                        "Country": "Senegal"
+                        "Country": ""
                     }
                 ]
             }
@@ -27412,7 +27442,7 @@
                 "Variants": [
                     {
                         "Code": "sr-Glag-RS",
-                        "Country": "Serbia"
+                        "Country": ""
                     }
                 ]
             },
@@ -27812,7 +27842,7 @@
                 "Variants": [
                     {
                         "Code": "yej-Grek-GR",
-                        "Country": "Greece"
+                        "Country": ""
                     },
                     {
                         "Code": "yej-Grek-IL",
@@ -27887,7 +27917,7 @@
                 "Variants": [
                     {
                         "Code": "dho-Gujr-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -28063,7 +28093,7 @@
                 "Variants": [
                     {
                         "Code": "gon-Gong-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             }
@@ -28116,7 +28146,7 @@
         ]
     },
     {
-        "ScriptName": "Gurung",
+        "ScriptName": "Gurung Khema",
         "ScriptCode": "Gukh",
         "WrSys": [
             {
@@ -28128,7 +28158,7 @@
                 "Variants": [
                     {
                         "Code": "gvr-Gukh-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             }
@@ -28509,6 +28539,10 @@
                 "LangCode": "zho",
                 "Variants": [
                     {
+                        "Code": "zh-Hans-MY",
+                        "Country": ""
+                    },
+                    {
                         "Code": "zh-Hans-CN",
                         "Country": "China"
                     },
@@ -28519,10 +28553,6 @@
                     {
                         "Code": "zh-Hans-MO",
                         "Country": "China–Macao"
-                    },
-                    {
-                        "Code": "zh-Hans-MY",
-                        "Country": "Malaysia"
                     },
                     {
                         "Code": "zh-Hans-SG",
@@ -28604,7 +28634,7 @@
                 "Variants": [
                     {
                         "Code": "luh-Hans-CN",
-                        "Country": "China"
+                        "Country": ""
                     }
                 ]
             },
@@ -28643,7 +28673,7 @@
                 "Variants": [
                     {
                         "Code": "sjc-Hans-CN",
-                        "Country": "China"
+                        "Country": ""
                     }
                 ]
             },
@@ -28709,7 +28739,7 @@
                 "Variants": [
                     {
                         "Code": "hnm-Hans-CN",
-                        "Country": "China"
+                        "Country": ""
                     }
                 ]
             },
@@ -28832,6 +28862,10 @@
                 "LangCode": "zho",
                 "Variants": [
                     {
+                        "Code": "zh-Hant-ES",
+                        "Country": ""
+                    },
+                    {
                         "Code": "zh-Hant-AU",
                         "Country": "Australia"
                     },
@@ -28850,10 +28884,6 @@
                     {
                         "Code": "zh-Hant-TW",
                         "Country": "China–Taiwan"
-                    },
-                    {
-                        "Code": "zh-Hant-CX",
-                        "Country": "Christmas Island"
                     },
                     {
                         "Code": "zh-Hant-GF",
@@ -28878,10 +28908,6 @@
                     {
                         "Code": "zh-Hant-PH",
                         "Country": "Philippines"
-                    },
-                    {
-                        "Code": "zh-Hant-ES",
-                        "Country": "Spain"
                     },
                     {
                         "Code": "zh-Hant-SR",
@@ -28992,7 +29018,7 @@
                 "Variants": [
                     {
                         "Code": "sjc-Hant-CN",
-                        "Country": "China"
+                        "Country": ""
                     }
                 ]
             },
@@ -29117,6 +29143,11 @@
         ]
     },
     {
+        "ScriptName": "Han (Traditional variant) with Latin (alias for Hant + Latn)",
+        "ScriptCode": "Hntl",
+        "WrSys": []
+    },
+    {
         "ScriptName": "Han with Bopomofo (alias for Han + Bopomofo)",
         "ScriptCode": "Hanb",
         "WrSys": [
@@ -29192,6 +29223,10 @@
                 "LangName": "Rohingya",
                 "LangCode": "rhg",
                 "Variants": [
+                    {
+                        "Code": "rhg-Rohg-BD",
+                        "Country": ""
+                    },
                     {
                         "Code": "rhg-Rohg-MM",
                         "Country": "Myanmar"
@@ -29372,7 +29407,7 @@
                 "Variants": [
                     {
                         "Code": "ar-Hebr-SY",
-                        "Country": "Syria"
+                        "Country": ""
                     }
                 ]
             },
@@ -29411,7 +29446,7 @@
                 "Variants": [
                     {
                         "Code": "cld-Hebr-IQ",
-                        "Country": "Iraq"
+                        "Country": ""
                     }
                 ]
             },
@@ -29876,7 +29911,7 @@
                 "Variants": [
                     {
                         "Code": "id-Java-ID",
-                        "Country": "Indonesia"
+                        "Country": ""
                     }
                 ]
             },
@@ -29902,7 +29937,7 @@
                 "Variants": [
                     {
                         "Code": "kaw-Java-ID",
-                        "Country": "Indonesia"
+                        "Country": ""
                     }
                 ]
             },
@@ -29915,7 +29950,7 @@
                 "Variants": [
                     {
                         "Code": "mad-Java-ID",
-                        "Country": "Indonesia"
+                        "Country": ""
                     }
                 ]
             },
@@ -29941,7 +29976,7 @@
                 "Variants": [
                     {
                         "Code": "sas-Java-ID",
-                        "Country": "Indonesia"
+                        "Country": ""
                     }
                 ]
             },
@@ -30120,7 +30155,7 @@
                 "Variants": [
                     {
                         "Code": "kok-Knda-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -30315,7 +30350,7 @@
                 "Variants": [
                     {
                         "Code": "kaw-Kawi-ID",
-                        "Country": "Indonesia"
+                        "Country": ""
                     }
                 ]
             },
@@ -30328,7 +30363,7 @@
                 "Variants": [
                     {
                         "Code": "omy-Kawi-MY",
-                        "Country": "Malaysia"
+                        "Country": ""
                     }
                 ]
             },
@@ -30506,7 +30541,7 @@
         "WrSys": []
     },
     {
-        "ScriptName": "Khitan large script",
+        "ScriptName": "Khitan Large script",
         "ScriptCode": "Kitl",
         "WrSys": [
             {
@@ -30895,7 +30930,7 @@
                 "Variants": [
                     {
                         "Code": "bap-Krai-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             }
@@ -30934,7 +30969,7 @@
                 "Variants": [
                     {
                         "Code": "ko-Kore-CN",
-                        "Country": "China"
+                        "Country": ""
                     },
                     {
                         "Code": "ko-Kore-KP",
@@ -31050,15 +31085,11 @@
                 "Variants": [
                     {
                         "Code": "hnj-Laoo-CN",
-                        "Country": "China"
+                        "Country": ""
                     },
                     {
                         "Code": "hnj-Laoo-LA",
                         "Country": "Laos"
-                    },
-                    {
-                        "Code": "hnj-Laoo-TH",
-                        "Country": "Thailand"
                     }
                 ]
             },
@@ -31217,7 +31248,7 @@
                 "Variants": [
                     {
                         "Code": "oyb-Laoo-LA",
-                        "Country": "Laos"
+                        "Country": ""
                     }
                 ]
             },
@@ -31751,6 +31782,10 @@
                 "Variants": [
                     {
                         "Code": "acr-Latn-GT-x-trabinal",
+                        "Country": ""
+                    },
+                    {
+                        "Code": "acr-Latn-GT",
                         "Country": "Guatemala"
                     }
                 ]
@@ -33293,7 +33328,7 @@
                 "Variants": [
                     {
                         "Code": "aes-Latn-US",
-                        "Country": "United States"
+                        "Country": ""
                     }
                 ]
             },
@@ -35111,7 +35146,7 @@
                 "Variants": [
                     {
                         "Code": "arv-Latn-ET",
-                        "Country": "Ethiopia"
+                        "Country": ""
                     }
                 ]
             },
@@ -36008,15 +36043,15 @@
                 ]
             },
             {
-                "WsCode": "ato-Latn",
-                "Status": "unwritten",
+                "WsCode": "aot-Latn",
+                "Status": "in use",
                 "Locale": "",
                 "LangName": "Atong",
-                "LangCode": "ato",
+                "LangCode": "aot",
                 "Variants": [
                     {
-                        "Code": "ato-Latn-CM",
-                        "Country": "Cameroon"
+                        "Code": "aot-Latn-IN",
+                        "Country": "India"
                     }
                 ]
             },
@@ -38002,7 +38037,7 @@
                 "Variants": [
                     {
                         "Code": "bgp-Latn-PK",
-                        "Country": "Pakistan"
+                        "Country": ""
                     }
                 ]
             },
@@ -39160,7 +39195,7 @@
                 "Variants": [
                     {
                         "Code": "btd-Latn-ID",
-                        "Country": "Indonesia"
+                        "Country": ""
                     }
                 ]
             },
@@ -39898,7 +39933,7 @@
                 "Variants": [
                     {
                         "Code": "bn-Latn-NP",
-                        "Country": "Nepal"
+                        "Country": ""
                     }
                 ]
             },
@@ -40188,6 +40223,19 @@
                     {
                         "Code": "btb-Latn-CM",
                         "Country": "Cameroon"
+                    }
+                ]
+            },
+            {
+                "WsCode": "bht-Latn",
+                "Status": "in use",
+                "Locale": "",
+                "LangName": "Bhattiyali",
+                "LangCode": "bht",
+                "Variants": [
+                    {
+                        "Code": "bht-Latn-IN",
+                        "Country": ""
                     }
                 ]
             },
@@ -42144,7 +42192,7 @@
                 "LangCode": "pcc",
                 "Variants": [
                     {
-                        "Code": "pcc-Latn-CN",
+                        "Code": "pcc-Latn-CN-x-western",
                         "Country": "China"
                     }
                 ]
@@ -42544,7 +42592,11 @@
                 "LangCode": "buu",
                 "Variants": [
                     {
-                        "Code": "buu-Latn-CD-x-bafwa",
+                        "Code": "buu-Latn-CD-x-koya",
+                        "Country": ""
+                    },
+                    {
+                        "Code": "buu-Latn-CD-x-ineta",
                         "Country": "Democratic Republic of the Congo"
                     }
                 ]
@@ -42771,7 +42823,7 @@
                 "Variants": [
                     {
                         "Code": "uly-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -44379,12 +44431,12 @@
                 "LangCode": "caj",
                 "Variants": [
                     {
-                        "Code": "caj-Latn-AR",
-                        "Country": "Argentina"
+                        "Code": "caj-Latn-BO",
+                        "Country": ""
                     },
                     {
-                        "Code": "caj-Latn-BO",
-                        "Country": "Bolivia"
+                        "Code": "caj-Latn-AR",
+                        "Country": "Argentina"
                     }
                 ]
             },
@@ -44505,7 +44557,7 @@
                 "Variants": [
                     {
                         "Code": "cxh-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -45524,7 +45576,7 @@
                 "Variants": [
                     {
                         "Code": "sjc-Latn-CN",
-                        "Country": "China"
+                        "Country": ""
                     }
                 ]
             },
@@ -46398,7 +46450,7 @@
                 "LangCode": "crn",
                 "Variants": [
                     {
-                        "Code": "crn-Latn-MX-x-corapeno",
+                        "Code": "crn-Latn-MX-x-rosarito",
                         "Country": "Mexico"
                     }
                 ]
@@ -46632,12 +46684,8 @@
                 "LangCode": "cuy",
                 "Variants": [
                     {
-                        "Code": "cuy-Latn-XX",
-                        "Country": ""
-                    },
-                    {
                         "Code": "cuy-Latn-MX",
-                        "Country": "Mexico"
+                        "Country": ""
                     }
                 ]
             },
@@ -47220,7 +47268,7 @@
                 "LangCode": "dnj",
                 "Variants": [
                     {
-                        "Code": "dnj-Latn-CI",
+                        "Code": "dnj-Latn-CI-x-yakouba",
                         "Country": "Côte d’Ivoire"
                     },
                     {
@@ -47548,7 +47596,7 @@
                 "Variants": [
                     {
                         "Code": "dzd-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -47964,6 +48012,10 @@
                 "Variants": [
                     {
                         "Code": "dhg-Latn-AU-x-wangurri",
+                        "Country": ""
+                    },
+                    {
+                        "Code": "dhg-Latn-AU",
                         "Country": "Australia"
                     }
                 ]
@@ -48400,7 +48452,7 @@
                 "Variants": [
                     {
                         "Code": "nzr-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -49054,7 +49106,7 @@
                 "Variants": [
                     {
                         "Code": "dsk-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -49892,7 +49944,7 @@
                 "Variants": [
                     {
                         "Code": "dyr-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -50742,7 +50794,7 @@
                 "LangCode": "eng",
                 "Variants": [
                     {
-                        "Code": "en-Latn-UM",
+                        "Code": "en-Latn-ID",
                         "Country": ""
                     },
                     {
@@ -50902,10 +50954,6 @@
                         "Country": "India"
                     },
                     {
-                        "Code": "en-Latn-ID",
-                        "Country": "Indonesia"
-                    },
-                    {
                         "Code": "en-Latn-IE",
                         "Country": "Ireland"
                     },
@@ -50952,10 +51000,6 @@
                     {
                         "Code": "en-Latn-MY",
                         "Country": "Malaysia"
-                    },
-                    {
-                        "Code": "en-Latn-MV",
-                        "Country": "Maldives"
                     },
                     {
                         "Code": "en-Latn-MT",
@@ -51326,7 +51370,7 @@
                 "Variants": [
                     {
                         "Code": "ers-Latn-CN",
-                        "Country": "China"
+                        "Country": ""
                     }
                 ]
             },
@@ -51566,7 +51610,7 @@
                 "Variants": [
                     {
                         "Code": "eud-Latn-MX",
-                        "Country": "Mexico"
+                        "Country": ""
                     }
                 ]
             },
@@ -54402,7 +54446,7 @@
                 "Variants": [
                     {
                         "Code": "gho-Latn-MA",
-                        "Country": "Morocco"
+                        "Country": ""
                     }
                 ]
             },
@@ -55183,7 +55227,7 @@
                 "Variants": [
                     {
                         "Code": "grc-Latn-GR",
-                        "Country": "Greece"
+                        "Country": ""
                     }
                 ]
             },
@@ -56313,7 +56357,7 @@
                 "Variants": [
                     {
                         "Code": "pgd-Latn-PK",
-                        "Country": "Pakistan"
+                        "Country": ""
                     }
                 ]
             },
@@ -56443,7 +56487,7 @@
                 "Variants": [
                     {
                         "Code": "hnm-Latn-CN",
-                        "Country": "China"
+                        "Country": ""
                     }
                 ]
             },
@@ -56967,7 +57011,7 @@
                 "Variants": [
                     {
                         "Code": "he-Latn-IL",
-                        "Country": "Israel"
+                        "Country": ""
                     }
                 ]
             },
@@ -56980,7 +57024,7 @@
                 "Variants": [
                     {
                         "Code": "hbo-Latn-IL",
-                        "Country": "Israel"
+                        "Country": ""
                     }
                 ]
             },
@@ -57650,6 +57694,10 @@
                 "LangCode": "hre",
                 "Variants": [
                     {
+                        "Code": "hre-Latn-VN-x-1968",
+                        "Country": ""
+                    },
+                    {
                         "Code": "hre-Latn-VN",
                         "Country": "Viet Nam"
                     }
@@ -57704,7 +57752,11 @@
                 "LangCode": "hus",
                 "Variants": [
                     {
-                        "Code": "hus-Latn-MX",
+                        "Code": "hus-Latn-MX-x-potosino",
+                        "Country": ""
+                    },
+                    {
+                        "Code": "hus-Latn-MX-x-central",
                         "Country": "Mexico"
                     }
                 ]
@@ -58711,7 +58763,7 @@
                 "Variants": [
                     {
                         "Code": "ikh-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -59272,12 +59324,12 @@
                 "LangCode": "iku",
                 "Variants": [
                     {
-                        "Code": "iu-Latn-CA",
-                        "Country": "Canada"
+                        "Code": "iu-Latn-US",
+                        "Country": ""
                     },
                     {
-                        "Code": "iu-Latn-US",
-                        "Country": "United States"
+                        "Code": "iu-Latn-CA",
+                        "Country": "Canada"
                     }
                 ]
             },
@@ -59964,7 +60016,11 @@
                 "LangCode": "ixl",
                 "Variants": [
                     {
-                        "Code": "ixl-Latn-GT",
+                        "Code": "ixl-Latn-GT-x-nebaj",
+                        "Country": ""
+                    },
+                    {
+                        "Code": "ixl-Latn-GT-x-cotzal",
                         "Country": "Guatemala"
                     }
                 ]
@@ -60243,7 +60299,7 @@
                 "LangCode": "jaa",
                 "Variants": [
                     {
-                        "Code": "jaa-Latn-BR",
+                        "Code": "jaa-Latn-BR-x-jarawara",
                         "Country": "Brazil"
                     }
                 ]
@@ -61238,7 +61294,7 @@
                 "LangCode": "dtp",
                 "Variants": [
                     {
-                        "Code": "dtp-Latn-MY",
+                        "Code": "dtp-Latn-MY-x-central",
                         "Country": "Malaysia"
                     }
                 ]
@@ -61853,6 +61909,10 @@
                 "LangName": "Kalagan",
                 "LangCode": "kqe",
                 "Variants": [
+                    {
+                        "Code": "kqe-Latn-PH-x-east",
+                        "Country": ""
+                    },
                     {
                         "Code": "kqe-Latn-PH",
                         "Country": "Philippines"
@@ -63116,7 +63176,7 @@
                 "LangCode": "cak",
                 "Variants": [
                     {
-                        "Code": "cak-Latn-GT-x-central",
+                        "Code": "cak-Latn-GT-x-xenacoj",
                         "Country": "Guatemala"
                     }
                 ]
@@ -63750,7 +63810,7 @@
                 "Variants": [
                     {
                         "Code": "xsm-Latn-BF",
-                        "Country": "Burkina Faso"
+                        "Country": ""
                     },
                     {
                         "Code": "xsm-Latn-GH",
@@ -64096,7 +64156,7 @@
                 "Variants": [
                     {
                         "Code": "cbs-Latn-BR",
-                        "Country": "Brazil"
+                        "Country": ""
                     },
                     {
                         "Code": "cbs-Latn-PE",
@@ -65088,7 +65148,7 @@
                 "Variants": [
                     {
                         "Code": "kca-Latn-RU",
-                        "Country": "Russian Federation"
+                        "Country": ""
                     }
                 ]
             },
@@ -65392,7 +65452,7 @@
                 "Variants": [
                     {
                         "Code": "kwy-Latn-AO",
-                        "Country": "Angola"
+                        "Country": ""
                     },
                     {
                         "Code": "kwy-Latn-CD",
@@ -65449,7 +65509,7 @@
                 "LangCode": "kia",
                 "Variants": [
                     {
-                        "Code": "kia-Latn-TD",
+                        "Code": "kia-Latn-TD-x-kosop",
                         "Country": "Chad"
                     }
                 ]
@@ -65981,7 +66041,7 @@
                 "LangCode": "kiw",
                 "Variants": [
                     {
-                        "Code": "kiw-Latn-PG",
+                        "Code": "kiw-Latn-PG-x-urama",
                         "Country": "Papua New Guinea"
                     }
                 ]
@@ -66035,7 +66095,7 @@
                 "Variants": [
                     {
                         "Code": "izm-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -66177,6 +66237,10 @@
                 "LangName": "Kobon",
                 "LangCode": "kpw",
                 "Variants": [
+                    {
+                        "Code": "kpw-Latn-PG-x-minimib",
+                        "Country": ""
+                    },
                     {
                         "Code": "kpw-Latn-PG",
                         "Country": "Papua New Guinea"
@@ -66680,6 +66744,10 @@
                 "LangCode": "xbi",
                 "Variants": [
                     {
+                        "Code": "xbi-Latn-PG-x-western",
+                        "Country": ""
+                    },
+                    {
                         "Code": "xbi-Latn-PG",
                         "Country": "Papua New Guinea"
                     }
@@ -66904,7 +66972,7 @@
                 "Variants": [
                     {
                         "Code": "kok-Latn-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -67169,12 +67237,12 @@
                 "LangCode": "bqv",
                 "Variants": [
                     {
-                        "Code": "bqv-Latn-CI",
-                        "Country": "Côte d’Ivoire"
+                        "Code": "bqv-Latn-NG",
+                        "Country": ""
                     },
                     {
-                        "Code": "bqv-Latn-NG",
-                        "Country": "Nigeria"
+                        "Code": "bqv-Latn-CI",
+                        "Country": "Côte d’Ivoire"
                     }
                 ]
             },
@@ -67647,7 +67715,7 @@
                 "Variants": [
                     {
                         "Code": "kpe-Latn-GN",
-                        "Country": "Guinea"
+                        "Country": ""
                     },
                     {
                         "Code": "kpe-Latn-LR",
@@ -68441,8 +68509,8 @@
                 "LangCode": "qwm",
                 "Variants": [
                     {
-                        "Code": "qwm-Latn-HU",
-                        "Country": "Hungary"
+                        "Code": "qwm-Latn-RU",
+                        "Country": ""
                     }
                 ]
             },
@@ -69838,7 +69906,7 @@
                 "LangCode": "quc",
                 "Variants": [
                     {
-                        "Code": "quc-Latn-GT",
+                        "Code": "quc-Latn-GT-x-western",
                         "Country": "Guatemala"
                     }
                 ]
@@ -70609,15 +70677,15 @@
                 ]
             },
             {
-                "WsCode": "laj-Latn",
+                "WsCode": "lgo-Latn",
                 "Status": "in use",
                 "Locale": "",
                 "LangName": "Lango",
-                "LangCode": "laj",
+                "LangCode": "lgo",
                 "Variants": [
                     {
-                        "Code": "laj-Latn-UG",
-                        "Country": "Uganda"
+                        "Code": "lgo-Latn-SS",
+                        "Country": "South Sudan"
                     }
                 ]
             },
@@ -71517,7 +71585,7 @@
                 "Variants": [
                     {
                         "Code": "lez-Latn-RU",
-                        "Country": "Russian Federation"
+                        "Country": ""
                     }
                 ]
             },
@@ -73223,7 +73291,7 @@
                 "Variants": [
                     {
                         "Code": "lvl-Latn-CD",
-                        "Country": "Democratic Republic of the Congo"
+                        "Country": ""
                     }
                 ]
             },
@@ -74636,7 +74704,7 @@
                 "LangCode": "pse",
                 "Variants": [
                     {
-                        "Code": "pse-Latn-ID",
+                        "Code": "pse-Latn-ID-x-serawai",
                         "Country": "Indonesia"
                     }
                 ]
@@ -74769,7 +74837,7 @@
                 "Variants": [
                     {
                         "Code": "mfa-Latn-TH",
-                        "Country": "Thailand"
+                        "Country": ""
                     }
                 ]
             },
@@ -75033,7 +75101,11 @@
                 "LangCode": "mam",
                 "Variants": [
                     {
-                        "Code": "mam-Latn-GT",
+                        "Code": "mam-Latn-GT-x-central",
+                        "Country": ""
+                    },
+                    {
+                        "Code": "mam-Latn-GT-x-western",
                         "Country": "Guatemala"
                     }
                 ]
@@ -75419,20 +75491,16 @@
                 "LangCode": "man",
                 "Variants": [
                     {
+                        "Code": "man-Latn-ML",
+                        "Country": ""
+                    },
+                    {
                         "Code": "man-Latn-GM",
                         "Country": "Gambia"
                     },
                     {
                         "Code": "man-Latn-GN",
                         "Country": "Guinea"
-                    },
-                    {
-                        "Code": "man-Latn-ML",
-                        "Country": "Mali"
-                    },
-                    {
-                        "Code": "man-Latn-SN",
-                        "Country": "Senegal"
                     }
                 ]
             },
@@ -75445,7 +75513,7 @@
                 "Variants": [
                     {
                         "Code": "mnk-Latn-GM",
-                        "Country": "Gambia"
+                        "Country": ""
                     }
                 ]
             },
@@ -76245,7 +76313,7 @@
                 "Variants": [
                     {
                         "Code": "mr-Latn-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -76992,7 +77060,7 @@
                 "Variants": [
                     {
                         "Code": "wtb-Latn-TZ",
-                        "Country": "Tanzania"
+                        "Country": ""
                     }
                 ]
             },
@@ -78409,7 +78477,7 @@
                 "Variants": [
                     {
                         "Code": "mni-Latn-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -79557,7 +79625,7 @@
                 "Variants": [
                     {
                         "Code": "xmf-Latn-GE",
-                        "Country": "Georgia"
+                        "Country": ""
                     }
                 ]
             },
@@ -79570,7 +79638,7 @@
                 "LangCode": "aai",
                 "Variants": [
                     {
-                        "Code": "aai-Latn-PG-x-northern-suboro",
+                        "Code": "aai-Latn-PG-x-suboro",
                         "Country": "Papua New Guinea"
                     }
                 ]
@@ -81207,7 +81275,7 @@
                 "Variants": [
                     {
                         "Code": "mdf-Latn-RU",
-                        "Country": "Russian Federation"
+                        "Country": ""
                     }
                 ]
             },
@@ -81666,7 +81734,7 @@
                 "Variants": [
                     {
                         "Code": "rrm-Latn-NZ",
-                        "Country": "New Zealand"
+                        "Country": ""
                     }
                 ]
             },
@@ -82854,7 +82922,7 @@
                 "LangCode": "tuc",
                 "Variants": [
                     {
-                        "Code": "tuc-Latn-PG",
+                        "Code": "tuc-Latn-PG-x-tuam",
                         "Country": "Papua New Guinea"
                     }
                 ]
@@ -83490,7 +83558,7 @@
                 "Variants": [
                     {
                         "Code": "nxk-Latn-MM",
-                        "Country": "Myanmar"
+                        "Country": ""
                     }
                 ]
             },
@@ -84156,6 +84224,10 @@
                 "LangName": "Nahuatl, Isthmus-Mecayapan",
                 "LangCode": "nhx",
                 "Variants": [
+                    {
+                        "Code": "nhx-Latn-MX-x-tatahui",
+                        "Country": ""
+                    },
                     {
                         "Code": "nhx-Latn-MX",
                         "Country": "Mexico"
@@ -85842,16 +85914,12 @@
                 "LangCode": "yrl",
                 "Variants": [
                     {
+                        "Code": "yrl-Latn-VE",
+                        "Country": ""
+                    },
+                    {
                         "Code": "yrl-Latn-BR",
                         "Country": "Brazil"
-                    },
-                    {
-                        "Code": "yrl-Latn-CO",
-                        "Country": "Colombia"
-                    },
-                    {
-                        "Code": "yrl-Latn-VE",
-                        "Country": "Venezuela"
                     }
                 ]
             },
@@ -86877,7 +86945,7 @@
                 "Variants": [
                     {
                         "Code": "nue-Latn-CF",
-                        "Country": "Central African Republic"
+                        "Country": ""
                     },
                     {
                         "Code": "nue-Latn-CD",
@@ -87863,6 +87931,10 @@
                 "LangName": "Northern Straits Salish",
                 "LangCode": "str",
                 "Variants": [
+                    {
+                        "Code": "str-Latn-CA-x-lekwungn",
+                        "Country": ""
+                    },
                     {
                         "Code": "str-Latn-CA",
                         "Country": "Canada"
@@ -89293,12 +89365,12 @@
                 "LangCode": "oci",
                 "Variants": [
                     {
-                        "Code": "oc-Latn-FR",
-                        "Country": "France"
+                        "Code": "oc-Latn-ES",
+                        "Country": ""
                     },
                     {
-                        "Code": "oc-Latn-ES",
-                        "Country": "Spain"
+                        "Code": "oc-Latn-FR",
+                        "Country": "France"
                     }
                 ]
             },
@@ -90555,6 +90627,10 @@
                 "LangName": "Orokaiva",
                 "LangCode": "okv",
                 "Variants": [
+                    {
+                        "Code": "okv-Latn-PG-x-kokoda",
+                        "Country": ""
+                    },
                     {
                         "Code": "okv-Latn-PG",
                         "Country": "Papua New Guinea"
@@ -92132,6 +92208,10 @@
                 "LangCode": "gfk",
                 "Variants": [
                     {
+                        "Code": "gfk-Latn-PG-x-hinsaal",
+                        "Country": ""
+                    },
+                    {
                         "Code": "gfk-Latn-PG",
                         "Country": "Papua New Guinea"
                     }
@@ -92436,7 +92516,7 @@
                 "Variants": [
                     {
                         "Code": "pze-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -93451,7 +93531,7 @@
                 "LangCode": "poh",
                 "Variants": [
                     {
-                        "Code": "poh-Latn-GT",
+                        "Code": "poh-Latn-GT-x-western",
                         "Country": "Guatemala"
                     }
                 ]
@@ -93917,7 +93997,7 @@
                 "Variants": [
                     {
                         "Code": "puq-Latn-BO",
-                        "Country": "Bolivia"
+                        "Country": ""
                     },
                     {
                         "Code": "puq-Latn-PE",
@@ -95047,7 +95127,7 @@
                 "Variants": [
                     {
                         "Code": "rki-Latn-MM",
-                        "Country": "Myanmar"
+                        "Country": ""
                     }
                 ]
             },
@@ -95672,7 +95752,7 @@
                 "Variants": [
                     {
                         "Code": "rsw-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -96070,7 +96150,7 @@
                 "LangCode": "cla",
                 "Variants": [
                     {
-                        "Code": "cla-Latn-NG-x-bokkos",
+                        "Code": "cla-Latn-NG-x-monguna",
                         "Country": "Nigeria"
                     }
                 ]
@@ -96458,7 +96538,7 @@
                 "Variants": [
                     {
                         "Code": "sma-Latn-NO",
-                        "Country": "Norway"
+                        "Country": ""
                     },
                     {
                         "Code": "sma-Latn-SE",
@@ -97388,7 +97468,7 @@
                 "Variants": [
                     {
                         "Code": "sa-Latn-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -98392,7 +98472,7 @@
                 "LangCode": "seh",
                 "Variants": [
                     {
-                        "Code": "seh-Latn-MZ",
+                        "Code": "seh-Latn-MZ-x-podzu",
                         "Country": "Mozambique"
                     }
                 ]
@@ -99265,7 +99345,7 @@
                 "LangCode": "snp",
                 "Variants": [
                     {
-                        "Code": "snp-Latn-PG-x-lambau",
+                        "Code": "snp-Latn-PG-x-ona",
                         "Country": "Papua New Guinea"
                     }
                 ]
@@ -99929,7 +100009,7 @@
                 "Variants": [
                     {
                         "Code": "siz-Latn-EG",
-                        "Country": "Egypt"
+                        "Country": ""
                     }
                 ]
             },
@@ -101074,7 +101154,7 @@
                 "Variants": [
                     {
                         "Code": "xsj-Latn-TZ",
-                        "Country": "Tanzania"
+                        "Country": ""
                     }
                 ]
             },
@@ -101947,7 +102027,7 @@
                 "LangCode": "knv",
                 "Variants": [
                     {
-                        "Code": "knv-Latn-PG",
+                        "Code": "knv-Latn-PG-x-flyriver",
                         "Country": "Papua New Guinea"
                     }
                 ]
@@ -102683,7 +102763,7 @@
                 "LangCode": "thv",
                 "Variants": [
                     {
-                        "Code": "thv-Latn-DZ",
+                        "Code": "thv-Latn-DZ-x-ahaggar",
                         "Country": "Algeria"
                     }
                 ]
@@ -102818,7 +102898,7 @@
                 "Variants": [
                     {
                         "Code": "ta-Latn-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -103002,7 +103082,7 @@
                 "Variants": [
                     {
                         "Code": "tnv-Latn-BD",
-                        "Country": "Bangladesh"
+                        "Country": ""
                     }
                 ]
             },
@@ -104705,7 +104785,7 @@
                 "LangCode": "tew",
                 "Variants": [
                     {
-                        "Code": "tew-Latn-US-x-sanclara",
+                        "Code": "tew-Latn-US-x-sanjuan",
                         "Country": "United States"
                     }
                 ]
@@ -105588,7 +105668,7 @@
                 "LangCode": "ood",
                 "Variants": [
                     {
-                        "Code": "ood-Latn-US",
+                        "Code": "ood-Latn-US-x-pima",
                         "Country": "United States"
                     }
                 ]
@@ -106505,7 +106585,7 @@
                 "Variants": [
                     {
                         "Code": "cra-Latn-ET",
-                        "Country": "Ethiopia"
+                        "Country": ""
                     }
                 ]
             },
@@ -106769,7 +106849,7 @@
                 "LangCode": "mjg",
                 "Variants": [
                     {
-                        "Code": "mjg-Latn-CN",
+                        "Code": "mjg-Latn-CN-x-minhe",
                         "Country": "China"
                     }
                 ]
@@ -106809,12 +106889,12 @@
                 "LangCode": "tuo",
                 "Variants": [
                     {
-                        "Code": "tuo-Latn-BR",
-                        "Country": "Brazil"
+                        "Code": "tuo-Latn-CO",
+                        "Country": ""
                     },
                     {
-                        "Code": "tuo-Latn-CO",
-                        "Country": "Colombia"
+                        "Code": "tuo-Latn-BR",
+                        "Country": "Brazil"
                     }
                 ]
             },
@@ -106984,7 +107064,7 @@
                 "Variants": [
                     {
                         "Code": "tvi-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -107664,7 +107744,7 @@
                 "LangCode": "tzh",
                 "Variants": [
                     {
-                        "Code": "tzh-Latn-MX",
+                        "Code": "tzh-Latn-MX-x-tenejapa",
                         "Country": "Mexico"
                     }
                 ]
@@ -107678,7 +107758,7 @@
                 "LangCode": "tzo",
                 "Variants": [
                     {
-                        "Code": "tzo-Latn-MX-x-zinacntn",
+                        "Code": "tzo-Latn-MX-x-venus",
                         "Country": "Mexico"
                     }
                 ]
@@ -107692,7 +107772,7 @@
                 "LangCode": "tzj",
                 "Variants": [
                     {
-                        "Code": "tzj-Latn-GT",
+                        "Code": "tzj-Latn-GT-x-western",
                         "Country": "Guatemala"
                     }
                 ]
@@ -108283,7 +108363,7 @@
                 "LangCode": "ubu",
                 "Variants": [
                     {
-                        "Code": "ubu-Latn-PG-x-nopenge",
+                        "Code": "ubu-Latn-PG-x-andelale",
                         "Country": "Papua New Guinea"
                     }
                 ]
@@ -108653,7 +108733,7 @@
                 "LangCode": "upv",
                 "Variants": [
                     {
-                        "Code": "upv-Latn-VU",
+                        "Code": "upv-Latn-VU-x-wala",
                         "Country": "Vanuatu"
                     }
                 ]
@@ -109355,7 +109435,7 @@
                 "LangCode": "vie",
                 "Variants": [
                     {
-                        "Code": "vi-Latn-VN",
+                        "Code": "vi-Latn-VN-x-subdn",
                         "Country": "Viet Nam"
                     }
                 ]
@@ -111380,6 +111460,10 @@
                 "LangCode": "wed",
                 "Variants": [
                     {
+                        "Code": "wed-Latn-PG-x-topura",
+                        "Country": ""
+                    },
+                    {
                         "Code": "wed-Latn-PG",
                         "Country": "Papua New Guinea"
                     }
@@ -111974,7 +112058,7 @@
                 "Variants": [
                     {
                         "Code": "wle-Latn-ET",
-                        "Country": "Ethiopia"
+                        "Country": ""
                     }
                 ]
             },
@@ -112897,7 +112981,7 @@
                 "Variants": [
                     {
                         "Code": "sah-Latn-RU",
-                        "Country": "Russian Federation"
+                        "Country": ""
                     }
                 ]
             },
@@ -113098,7 +113182,7 @@
                 "Variants": [
                     {
                         "Code": "ynb-Latn-PG",
-                        "Country": "Papua New Guinea"
+                        "Country": ""
                     }
                 ]
             },
@@ -114010,7 +114094,7 @@
                 "Variants": [
                     {
                         "Code": "ycr-Latn-TW",
-                        "Country": "China–Taiwan"
+                        "Country": ""
                     }
                 ]
             },
@@ -114272,8 +114356,8 @@
                 "LangCode": "yol",
                 "Variants": [
                     {
-                        "Code": "yol-Latn-IE",
-                        "Country": "Ireland"
+                        "Code": "yol-Latn-GB",
+                        "Country": ""
                     }
                 ]
             },
@@ -115621,7 +115705,7 @@
                 "Variants": [
                     {
                         "Code": "zwa-Latn-ET",
-                        "Country": "Ethiopia"
+                        "Country": ""
                     }
                 ]
             },
@@ -115689,7 +115773,7 @@
                 "Variants": [
                     {
                         "Code": "zem-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -116071,7 +116155,7 @@
                 "Variants": [
                     {
                         "Code": "zlu-Latn-NG",
-                        "Country": "Nigeria"
+                        "Country": ""
                     }
                 ]
             },
@@ -117395,7 +117479,7 @@
                 "LangCode": "hmd",
                 "Variants": [
                     {
-                        "Code": "hmd-Plrd-CN",
+                        "Code": "hmd-Plrd-CN-x-normal",
                         "Country": "China"
                     }
                 ]
@@ -117559,7 +117643,7 @@
                 "Variants": [
                     {
                         "Code": "cmg-Mong-MN",
-                        "Country": "Mongolia"
+                        "Country": ""
                     }
                 ]
             },
@@ -117668,7 +117752,7 @@
                 "Variants": [
                     {
                         "Code": "sa-Mong-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -117681,7 +117765,7 @@
                 "Variants": [
                     {
                         "Code": "bo-Mong-CN",
-                        "Country": "China"
+                        "Country": ""
                     }
                 ]
             },
@@ -117943,12 +118027,12 @@
                 "LangCode": "ksw",
                 "Variants": [
                     {
-                        "Code": "ksw-Mymr-MM",
-                        "Country": "Myanmar"
+                        "Code": "ksw-Mymr-TH",
+                        "Country": ""
                     },
                     {
-                        "Code": "ksw-Mymr-TH",
-                        "Country": "Thailand"
+                        "Code": "ksw-Mymr-MM",
+                        "Country": "Myanmar"
                     }
                 ]
             },
@@ -118105,8 +118189,8 @@
                 "LangCode": "omx",
                 "Variants": [
                     {
-                        "Code": "omx-Mymr-MM",
-                        "Country": "Myanmar"
+                        "Code": "omx-Mymr-XX",
+                        "Country": ""
                     }
                 ]
             },
@@ -118225,7 +118309,7 @@
                 "Variants": [
                     {
                         "Code": "rhg-Mymr-MM",
-                        "Country": "Myanmar"
+                        "Country": ""
                     }
                 ]
             },
@@ -118635,7 +118719,12 @@
                 "LocaleStatus": "CLDR",
                 "LangName": "Hmong Njua",
                 "LangCode": "hnj",
-                "Variants": []
+                "Variants": [
+                    {
+                        "Code": "hnj-Hmnp-LA",
+                        "Country": ""
+                    }
+                ]
             }
         ]
     },
@@ -118855,7 +118944,7 @@
                 "Variants": [
                     {
                         "Code": "unr-Onao-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             }
@@ -119129,7 +119218,7 @@
                 "LangCode": "oui",
                 "Variants": [
                     {
-                        "Code": "oui-Ougr-XX",
+                        "Code": "oui-Ougr-143",
                         "Country": ""
                     }
                 ]
@@ -119820,7 +119909,7 @@
         "WrSys": []
     },
     {
-        "ScriptName": "Ranjana (Lantsa, Wartu)",
+        "ScriptName": "Ranjana",
         "ScriptCode": "Ranj",
         "WrSys": [
             {
@@ -120001,8 +120090,8 @@
                 "LangCode": "qwm",
                 "Variants": [
                     {
-                        "Code": "qwm-Runr-HU",
-                        "Country": "Hungary"
+                        "Code": "qwm-Runr-RU",
+                        "Country": ""
                     }
                 ]
             },
@@ -120118,8 +120207,8 @@
                 "LangCode": "sxu",
                 "Variants": [
                     {
-                        "Code": "sxu-Runr-DE",
-                        "Country": "Germany"
+                        "Code": "sxu-Runr-001",
+                        "Country": ""
                     }
                 ]
             },
@@ -120414,10 +120503,6 @@
                     {
                         "Code": "sog-Sogd-XX",
                         "Country": ""
-                    },
-                    {
-                        "Code": "sog-Sogd-UZ",
-                        "Country": "Uzbekistan"
                     }
                 ]
             },
@@ -120481,7 +120566,7 @@
                 "Variants": [
                     {
                         "Code": "sa-Soyo-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -120494,7 +120579,7 @@
                 "Variants": [
                     {
                         "Code": "bo-Soyo-CN",
-                        "Country": "China"
+                        "Country": ""
                     }
                 ]
             }
@@ -120613,12 +120698,12 @@
                 "LangCode": "ara",
                 "Variants": [
                     {
-                        "Code": "ar-Syrc-SA",
-                        "Country": "Saudi Arabia"
+                        "Code": "ar-Syrc-SY",
+                        "Country": ""
                     },
                     {
-                        "Code": "ar-Syrc-SY",
-                        "Country": "Syria"
+                        "Code": "ar-Syrc-SA",
+                        "Country": "Saudi Arabia"
                     }
                 ]
             },
@@ -121191,7 +121276,7 @@
                 "Variants": [
                     {
                         "Code": "tyj-Tayo-VN",
-                        "Country": "Viet Nam"
+                        "Country": ""
                     }
                 ]
             }
@@ -122188,7 +122273,7 @@
                 "Variants": [
                     {
                         "Code": "ksw-Thai-TH",
-                        "Country": "Thailand"
+                        "Country": ""
                     }
                 ]
             },
@@ -122214,7 +122299,7 @@
                 "Variants": [
                     {
                         "Code": "eky-Thai-TH",
-                        "Country": "Thailand"
+                        "Country": ""
                     }
                 ]
             },
@@ -122705,7 +122790,7 @@
                 "Variants": [
                     {
                         "Code": "bkk-Tibt-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             },
@@ -122716,6 +122801,10 @@
                 "LangName": "Bumthangkha",
                 "LangCode": "kjz",
                 "Variants": [
+                    {
+                        "Code": "kjz-Tibt-BT",
+                        "Country": ""
+                    },
                     {
                         "Code": "kjz-Tibt-BT-x-uchen",
                         "Country": "Bhutan"
@@ -122913,6 +123002,10 @@
                 "LangCode": "kbg",
                 "Variants": [
                     {
+                        "Code": "kbg-Tibt-IN",
+                        "Country": ""
+                    },
+                    {
                         "Code": "kbg-Tibt-IN-x-hingna",
                         "Country": "India"
                     }
@@ -122925,6 +123018,10 @@
                 "LangName": "Khengkha",
                 "LangCode": "xkf",
                 "Variants": [
+                    {
+                        "Code": "xkf-Tibt-BT",
+                        "Country": ""
+                    },
                     {
                         "Code": "xkf-Tibt-BT-x-uchen",
                         "Country": "Bhutan"
@@ -122966,7 +123063,7 @@
                 "Variants": [
                     {
                         "Code": "kgy-Tibt-NP",
-                        "Country": "Nepal"
+                        "Country": ""
                     }
                 ]
             },
@@ -123451,7 +123548,7 @@
                 "Variants": [
                     {
                         "Code": "gho-Tfng-MA",
-                        "Country": "Morocco"
+                        "Country": ""
                     }
                 ]
             },
@@ -123491,7 +123588,7 @@
                 "Variants": [
                     {
                         "Code": "siz-Tfng-LY",
-                        "Country": "Libya"
+                        "Country": ""
                     }
                 ]
             },
@@ -123739,7 +123836,7 @@
                 "Variants": [
                     {
                         "Code": "sq-Todr-AL",
-                        "Country": "Albania"
+                        "Country": ""
                     }
                 ]
             }
@@ -123758,7 +123855,7 @@
                 "Variants": [
                     {
                         "Code": "kru-Tols-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             }
@@ -123796,7 +123893,7 @@
                 "Variants": [
                     {
                         "Code": "tcy-Tutg-IN",
-                        "Country": "India"
+                        "Country": ""
                     }
                 ]
             }
@@ -124238,8 +124335,8 @@
                 "WsCode": "ku-Yezi",
                 "Status": "in use",
                 "Locale": "",
-                "LangName": "Kurdish, Northern",
-                "LangCode": "kmr",
+                "LangName": "Kurdish",
+                "LangCode": "kur",
                 "Variants": [
                     {
                         "Code": "ku-Yezi-GE",
@@ -124451,7 +124548,7 @@
                 "Variants": [
                     {
                         "Code": "cmg-Zanb-MN",
-                        "Country": "Mongolia"
+                        "Country": ""
                     }
                 ]
             }

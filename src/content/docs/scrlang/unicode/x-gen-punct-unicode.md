@@ -3,7 +3,7 @@ title: Unicode Status for General Punctuation
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
 In The Unicode Standard, Punctuation marks are discussed in [Chapter 6 Writing Systems and Punctuation](http://www.unicode.org/versions/latest/ch06.pdf). Punctuation marks can generally be used across scripts. They tend to be scattered across various blocks in Unicode. Some scripts have punctuation marks which are specific to that script and those are generally encoded with the script block(s).
@@ -51,7 +51,7 @@ Subsequent to version 1.1, the following characters have been added to common pu
 | 205F  |  3.2  |    |
 | 2060..2063  |  3.2  |    |
 | 2064  |  5.1  |  [n3198.pdf](https://www.unicode.org/wg2/docs/n3198.pdf) L2/07-011R2  |
-| 2E00..2E0C  |  4.1  |  [n2612-1.pdf](https://www.unicode.org/wg2/docs/n2612/n2612-1.pdf) L2/03-074 R2  |
+| 2E00..2E0C  |  4.1  |  [n2612-1.pdf](https://www.unicode.org/wg2/docs/n2612-1.pdf) L2/03-074 R2  |
 | 2E0D  |  4.1  |  [n2675.pdf](https://www.unicode.org/wg2/docs/n2675.pdf)  |
 | 2E0E..2E16  |  4.1  |  [n2642.pdf](https://www.unicode.org/wg2/docs/n2642.pdf) L2/03-324 |
 | 2E17  |  4.1  |  [n2647.pdf](https://www.unicode.org/wg2/docs/n2647.pdf) L2/03-338  |
@@ -124,7 +124,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 - 2003-01-30 Response to "UTC Agenda Item: Scope of Enclosing Marks" — Asmus Freytag ([L2/03-028](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-028))
 
-- 2003-06-11 Proposal to encode additional Punctuation Characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-7](https://www.unicode.org/wg2/docs/n2612/n2612-7.pdf), [L2/03-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-193))
+- 2003-06-11 Proposal to encode additional Punctuation Characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-7](https://www.unicode.org/wg2/docs/n2612-7.pdf), [L2/03-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-193))
 
 - 2003-08-21 ZWJ/ZWNJ proposed general category change — Kent Karlsson ([L2/03-276](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-276))
 

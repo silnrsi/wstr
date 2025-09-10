@@ -3,10 +3,10 @@ title: Unicode Status for Kayah Li
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Kayah Li script implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf).
+In The Unicode Standard, Kayah Li script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G61902).
 
 [comment]: # (end of intro)
 
@@ -39,3 +39,9 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2008-03-02 Criteria for the encoding of script-specific dandas — Unicode and US National Body ([WG2 N3457](https://www.unicode.org/wg2/docs/n3457.pdf), [L2/08-118](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-118))
 
 - 2013-06-26 Proposal to Change Script and Script_Extensions properties for U+A92E — Lorna Evans ([L2/13-137](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-137))
+
+- 2022-04-11 Comments on Public Review Issues (Jan 18, 2022 - April 11, 2022) — David Corbett ([L2/22-063](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-063))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 21.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 6 for decision and action items)_

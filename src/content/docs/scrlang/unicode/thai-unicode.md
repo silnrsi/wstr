@@ -3,10 +3,10 @@ title: Unicode Status for Thai
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Thai script implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf).
+In The Unicode Standard, Thai script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G46485).
 
 [comment]: # (end of intro)
 
@@ -75,3 +75,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #156 Minutes ([L2/18-183](http://www.unicode.org/L2/L2018/18183.htm)) (See D.6.1 for decision and action items)_
 
 - 2018-07-23 Rendering of and Prescriptions for Marks in the Multilingual Thai Script — Richard Wordingham ([L2/18-248](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/18-248))
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_

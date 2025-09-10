@@ -3,10 +3,10 @@ title: Unicode Status for Tikamuli
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-The Tikamuli script is not yet in Unicode. The script has a tentative allocation at U+16D00..U+16D3F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Tikamuli script is not yet in Unicode. The script has a tentative allocation at U+16C80..U+16CBF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 [comment]: # (end of intro)
 

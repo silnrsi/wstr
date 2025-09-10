@@ -1,12 +1,12 @@
 ---
-title: Unicode Status for Oriya/Odia
+title: Unicode Status for Oriya (Odia
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Odia (formerly Oriya) script implementation is discussed in [Chapter 12 South and Central Asia-I: Official Scripts of India](http://www.unicode.org/versions/latest/ch12.pdf).
+In The Unicode Standard, Odia (formerly Oriya) script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G10153).
 
 [comment]: # (end of intro)
 
@@ -113,3 +113,13 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #160 July 2019 on Script Proposals ([L2/19-286](https://www.unicode.org/L2/L2019/19286-script-recs.pdf)) (See point 9.)_
 
   - _UTC #160 Minutes ([L2/19-270](https://www.unicode.org/L2/L2019/19270.htm)) (See D.9 for decision and action items)_
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2024-04-25 Request to encode DOT ABOVE characters for the ORIYA/ODIA script in the UCS — Lorna Priest Evans ([L2/24-106](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-106))
+
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.V.8.)_
+
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section V-8 for decision and action items)_

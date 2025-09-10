@@ -3,10 +3,10 @@ title: Unicode Status for Tibetan
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Tibetan script implementation is discussed in [Chapter 13 South and Central Asia-II: Other Modern Scripts](http://www.unicode.org/versions/latest/ch13.pdf).
+In The Unicode Standard, Tibetan script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G31615).
 
 [comment]: # (end of intro)
 
@@ -46,15 +46,15 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 1992 The Tibetan proposal is a revision of the one in Unicode 1.0, Vol 1. ([Unicode Technical Report #2](http://www.unicode.org/reports/tr2.html))
 
-- 1995-06-21 Tibetan in ISO/IEC 10646-1 — Lloyd Anderson ([WG2 N1227](https://www.unicode.org/wg2/docs/n1227.doc))
+- 1995-06-21 Tibetan in ISO/IEC 10646-1 — Lloyd Anderson (WG2 N1227 (not online))
 
-- 1995-09-18 On the complexity of Tibetan character names — Michael Everson ([WG2 N1263.txt](https://www.unicode.org/wg2/docs/n1263.txt))
+- 1995-09-18 On the complexity of Tibetan character names — Michael Everson (WG2 N1263.txt (not online))
 
-- 1997-12-08 Proposal to encode Tibetan Extensions in ISO/IEC 10646 — China, Ireland, United Kingdom ([WG2 N1660.htm](https://www.unicode.org/wg2/docs/n1660.htm), L2/98-024 (not online))
+- 1997-12-08 Proposal to encode Tibetan Extensions in ISO/IEC 10646 — China, Ireland, United Kingdom (WG2 N1660.htm (not online), L2/98-024 (not online))
 
-- 1998-05-27 Proposal for Tibetan extensions to the UCS — Lloyd Anderson, Robert Chilton, Tony Duff, Michael Everson, Christopher Fynn, Rick McGowan, Sam Sirlin, Kenneth Whistler, Валерий Умаков ([WG2 N1756](https://www.unicode.org/wg2/docs/n1756.pdf), [L2/98-218](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/98-218))
+- 1998-05-27 Proposal for Tibetan extensions to the UCS — Lloyd Anderson, Robert Chilton, Tony Duff, Michael Everson, Christopher Fynn, Rick McGowan, Sam Sirlin, Kenneth Whistler, Валерий Умаков (WG2 N1756 (not online), [L2/98-218](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/98-218))
 
-- 1999-10-01 ISO 10646-1, Amd. #31 – Tibetan with correct code charts — SC2/WG2 ([WG2 N2130](https://www.unicode.org/wg2/docs/n2130.pdf), [L2/99-352](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/99-352))
+- 1999-10-01 ISO 10646-1, Amd. #31 – Tibetan with correct code charts — SC2/WG2 (WG2 N2130 (not online), [L2/99-352](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/99-352))
 
 - 2000-01-31 Note on the script name "Tibetan" — The Orient Foundation ([WG2 N2218.doc](https://www.unicode.org/wg2/docs/n2218.doc), [L2/00-106](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-106))
 
@@ -153,3 +153,25 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
   - _Recommendations to UTC #161 October 2019 on Script Proposals ([L2/19-343](http://www.unicode.org/L2/L2019/19343-script-adhoc-recs.pdf)) (See point 13.)_
 
   - _UTC #161 Minutes ([L2/19-323](https://www.unicode.org/L2/L2019/19323.htm)) (See D.4 for decision and action items)_
+
+- 2021-09-07 Feedback on IRGN2492 and the preliminary encoding method of early Chinese organic chemical character, Sanskrit transcription, Tibetan transcription, Tangut transcription and Jianzi Musical Notation (IRGN 2492) — Eiso Chan ([L2/21-165](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-165))
+
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 14.)_
+
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 SECTION 14 for decision and action items)_
+
+- 2022-03-03 Comments on Public Review Issues (Jan 18, 2022 - April 11, 2022) Unhelpful advice about U+0F35 and U+0F37 — David Corbett ([L2/22-063](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-063))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 26.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 26 for decision and action items)_
+
+- 2022-03-03 Comments on Public Review Issues (Jan 18, 2022 - April 11, 2022) How to encode multiple Tibetan vowels at the same height? — David Corbett ([L2/22-063](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-063))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 27.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 27 for decision and action items)_
+
+- 2022-07-20 Nonalphabetic bindus (beta feedback) _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 27.)_
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1.27 for decision and action items)_

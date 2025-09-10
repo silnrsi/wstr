@@ -3,10 +3,10 @@ title: Unicode Status for Khmer
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Khmer script implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf).
+In The Unicode Standard, Khmer script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G64642).
 
 [comment]: # (end of intro)
 
@@ -43,9 +43,9 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 - 1997-01-22 Proposal for encoding the Khmer script in ISO 10646 — Michael Everson ([(Unofficial HTML version of WG2 N1524)](http://www.evertype.com/standards/km/km.html), L2/97-040  (not online))
 
-- 1998-03-17 Khmer and Burmese Ad-Hoc Meeting Report — SC2/WG2 ([WG2 N1729](https://www.unicode.org/wg2/docs/n1729.pdf), L2/98-101 (not online))
+- 1998-03-17 Khmer and Burmese Ad-Hoc Meeting Report — SC2/WG2 (WG2 N1729, L2/98-101 (neither online))
 
-- 1998-05-05 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 25: Khmer — WG2 ([WG2 N1825khmer](https://www.unicode.org/wg2/docs/n1825khmer.pdf))
+- 1998-05-05 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 25: Khmer — WG2 ([WG2 N1825.doc](https://www.unicode.org/wg2/docs/n1825.doc), [WG2 N1825khmer.doc](https://www.unicode.org/wg2/docs/n1825khmer.doc))
 
 - 1999-01-27 Soft Space in Indic scripts — Maurice Bauhahn ([L2/99-037](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/99-037))
 
@@ -120,3 +120,33 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2020-07-02 Comments on Public Review Issues (April 20 - July 20, 2020) KHMER CONSONANT SIGN COENG DA should look like KHMER LETTER DA, not like KHMER LETTER TA  — Kent Karlsson  ([L2/20-174](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-174))
 
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 16.)_
+
+- 2021-11-20 Khmer Encoding Structure — Martin Hosken ([L2/21-241](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-241))
+
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 13.)_
+
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 SECTION 13 for decision and action items)_
+
+- 2022-06-07 Proposal to Add Data for Pairs of Identical sequences — Asmus Freytag ([L2/22-108](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-108))
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2022-11-16 Khmer Encoding Structure (Nov 2022) — Martin Hosken, Norbert Lindenberg, Makara Sok ([L2/22-290](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-290))
+
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point B.13.)_
+
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point C.13.)_
+
+- 2023-01-06 Preliminary Proposal to Update Properties for Two Khmer Characters — Steven Loomis ([L2/23-018](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-018))
+
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point B.13.)_
+
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See F.1 Section 5.3 for decision and action items)_
+
+- 2023-01-12 Khmer orthographic syllables — Norbert Lindenberg ([L2/23-025](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-025))
+
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point C.13.)_
+
+- 2023-01-12 Confusables in Khmer — Martin Hosken, Makara Sok, Hour Kaing, Lyheang Ung, Diethelm Kanjahn, Norbert Lindenberg ([L2/23-026](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-026))

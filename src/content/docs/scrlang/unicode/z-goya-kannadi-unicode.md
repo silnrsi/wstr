@@ -3,7 +3,7 @@ title: Unicode Status for Goya Kannadi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
 The Goya Kannadi script is not yet in Unicode. It is not yet in the Roadmap for the Unicode Standard.

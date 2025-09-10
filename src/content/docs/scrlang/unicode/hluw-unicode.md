@@ -3,10 +3,10 @@ title: Unicode Status for Anatolian Hieroglyphs
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Anatolian Hieroglyphs script implementation is discussed in [Chapter 11 Cuneiform and Hieroglyphs](http://www.unicode.org/versions/latest/ch11.pdf).
+In The Unicode Standard, Anatolian Hieroglyphs script implementation is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G27920).
 
 [comment]: # (end of intro)
 

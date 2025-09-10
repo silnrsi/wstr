@@ -3,10 +3,11 @@ title: Unicode Status for Latin
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Latin script implementation is discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts](http://www.unicode.org/versions/latest/ch07.pdf).
+In The Unicode Standard, Latin script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G4321), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), <br />
+[UTN 29: The Use of Phonetic and Other Symbols in Dictionaries: A Brief Survey](https://www.unicode.org/notes/tn29/), and in [UTN 44: Medieval Latin Character Recommendations](https://www.unicode.org/notes/tn44/).
 
 [comment]: # (end of intro)
 
@@ -33,6 +34,8 @@ The Latin script was first encoded in The Unicode Standard version 1.0. Since th
 | Latin Extended-E | AB30..AB6F | 7.0 | [UAB30.pdf](http://www.unicode.org/charts/PDF/UAB30.pdf) |
 | Alphabetic Presentation Forms | FB00..FB4F | 1.1 | [UFB00.pdf](http://www.unicode.org/charts/PDF/UFB00.pdf) |
 | Halfwidth and Fullwidth Forms | FF00..FFEF | 1.0 | [UFF00.pdf](http://www.unicode.org/charts/PDF/UFF00.pdf) |
+| Latin Extended-F | 10780..107BF | 14.0 | [U10780.pdf](http://www.unicode.org/charts/PDF/U10780.pdf) |
+| Latin Extended-G | 1DF00..1DFFF | 14.0 | [U1DF00.pdf](http://www.unicode.org/charts/PDF/U1DF00.pdf) |
 
 See also entries for [Unicode Status (Combining marks)](https://scriptsource.org/entry/ktxptbccph) and [Unicode Status (Modifier letters)](https://scriptsource.org/entry/bz9qgqqjfe)
 
@@ -48,8 +51,8 @@ Subsequent to version 1.1, the following characters have been added to the Latin
 | 0218..021F | 3.0 |  |
 | 0220 | 3.2 | [n2306r.pdf](https://www.unicode.org/wg2/docs/n2306r.pdf), [L2/00-423](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-423) |
 | 0221 | 4.0 | [n2366.pdf](https://www.unicode.org/wg2/docs/n2366.pdf), [L2/01-272](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-272) |
-| 0222..0225 | 3.0 | [n1741.pdf](https://www.unicode.org/wg2/docs/n1741.pdf) |
-| 0226..0229 | 3.0 | [n1838.doc](https://www.unicode.org/wg2/docs/N1838.doc) |
+| 0222..0225 | 3.0 |  n1741.pdf (not online) |
+| 0226..0229 | 3.0 | [n1838.doc](https://www.unicode.org/wg2/docs/n1838.doc) |
 | 022A..0233 | 3.0 | [n1884.pdf](https://www.unicode.org/wg2/docs/n1884.pdf) |
 | 0234..0236 | 4.0 | [n2366r.pdf](https://www.unicode.org/wg2/docs/n2366r.pdf), [L2/01-272](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-272) |
 | 0237 | 4.1 | [n2590.pdf](https://www.unicode.org/wg2/docs/n2590.pdf) |
@@ -61,7 +64,7 @@ Subsequent to version 1.1, the following characters have been added to the Latin
 | 0241 | 4.1 | [n2789.pdf](https://www.unicode.org/wg2/docs/n2789.pdf), [L2/04-224](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-224), [n2962.pdf](https://www.unicode.org/wg2/docs/n2962.pdf), [L2/05-194](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-194) and [n2942.doc](https://www.unicode.org/wg2/docs/n2942.doc) |
 | 0242 | 5.0 | [n2962.pdf](https://www.unicode.org/wg2/docs/n2962.pdf), [L2/05-194](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-194) |
 | 0243..024F | 5.0 | [n2906.pdf](https://www.unicode.org/wg2/docs/n2906.pdf), [L2/04-246](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-246) |
-| 02A9..02AD | 3.0 | [n1742.pdf](https://www.unicode.org/wg2/docs/n1742.pdf) and [n1845.pdf](https://www.unicode.org/wg2/docs/n1845.pdf) |
+| 02A9..02AD | 3.0 | n1742.pdf (not online) and [n1845.pdf](https://www.unicode.org/wg2/docs/n1845.pdf) |
 | 02AE..02AF | 4.0 | [n2366r.pdf](https://www.unicode.org/wg2/docs/n2366r.pdf), [L2/01-272](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-272) |
 | 1D00..1D6A | 4.0 | [n2419.pdf](https://www.unicode.org/wg2/docs/n2419.pdf), [L2/02-141](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-141) |
 | 1D6B | 4.0 | [n2514.pdf](https://www.unicode.org/wg2/docs/n2514.pdf), [L2/02-421](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-421) |
@@ -81,7 +84,7 @@ Subsequent to version 1.1, the following characters have been added to the Latin
 | 2095..209C | 6.0 | [n3571.pdf](https://www.unicode.org/wg2/docs/n3571.pdf), [L2/09-028](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-028) |
 | 214E | 5.0 | [n2960.pdf](https://www.unicode.org/wg2/docs/n2960.pdf), [L2/05-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-193) |
 | 214F | 5.1 | [n3217.pdf](https://www.unicode.org/wg2/docs/n3217.pdf), [L2/06-245](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-245) |
-| 2183 | 3.0 | [n2942.doc](https://www.unicode.org/wg2/docs/n2942.doc), [n1748.pdf](https://www.unicode.org/wg2/docs/n1748.pdf), L2/98-215 and [n2960.pdf](https://www.unicode.org/wg2/docs/n2960.pdf), [L2/05-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-193) |
+| 2183 | 3.0 | [n2942.doc](https://www.unicode.org/wg2/docs/n2942.doc), n1748.pdf (not online), L2/98-215 and [n2960.pdf](https://www.unicode.org/wg2/docs/n2960.pdf), [L2/05-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-193) |
 | 2184 | 5.0 | [n2960.pdf](https://www.unicode.org/wg2/docs/n2960.pdf), [L2/05-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-193) |
 | 2185..2188 | 5.1 | [n3218.pdf](https://www.unicode.org/wg2/docs/n3218.pdf), [L2/06-269](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-269) |
 | 2C60..2C64 | 5.0 | [n2847.pdf](https://www.unicode.org/wg2/docs/n2847.pdf), [L2/04-372](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-372) |
@@ -130,7 +133,7 @@ Subsequent to version 1.1, the following characters have been added to the Latin
 | AB60 |  8.0  | [L2/11-340](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-340) |
 | AB61..AB63 |  8.0  | [L2/11-340](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-340) |
 | AB64 | 7.0 | [WG2 N4307](https://www.unicode.org/wg2/docs/n4307.pdf), [L2/12-266](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-266) |
-| FB1D | 3.0 | [n1557.doc](https://www.unicode.org/wg2/docs/N1557.DOC) |
+| FB1D | 3.0 | n1557.doc (not online) |
 | FF5F..FF60 | 3.2 | [n3193.pdf](https://www.unicode.org/wg2/docs/n3193.pdf), [L2/07-004](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-004) |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
@@ -143,17 +146,17 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 - 1997-07-01 Proposal to add 2 Latin Characters to ISO/IEC 10646 — Erkki Kolehmainen, Klaas Ruppel (WG2 N1619 (not online), L2/97-164 (not online), [L2/98-062](http://www.unicode.org/L2/L1998/98062.pdf))
 
-- 1998-03-18 Comment on N 1593 - Proposal to add Latin characters by Latinized Taiwanese languages — TCA ([WG2 N1712](https://www.unicode.org/wg2/docs/n1712r.rtf), L2/98-089 (not online))
+- 1998-03-18 Comment on N 1593 - Proposal to add Latin characters by Latinized Taiwanese languages — TCA (WG2 N1712 (not online), L2/98-089 (not online))
 
-- 1998-05-25 Additional Latin characters for the UCS — Michael Everson ([WG2 N1741](https://www.unicode.org/wg2/docs/n1741.pdf), L2/98-208 (not online))
+- 1998-05-25 Additional Latin characters for the UCS — Michael Everson (WG2 N1741 (not online), L2/98-208 (not online))
 
-- 1998-05-25 Contraction characters for the UCS — Michael Everson ([WG2 N1747](https://www.unicode.org/wg2/docs/n1747.pdf), L2/98-214 (not online))
+- 1998-05-25 Contraction characters for the UCS — Michael Everson (WG2 N1747 (not online), L2/98-214 (not online))
 
-- 1998-05-25 Additional IPA characters for the UCS — Michael Everson ([WG2 N1742](https://www.unicode.org/wg2/docs/n1742.pdf)) 
+- 1998-05-25 Additional IPA characters for the UCS — Michael Everson (WG2 N1742 (not online)) 
 
-- 1998-09-02 Proposal to add the letters LATIN SMALL / CAPITAL LETTER A WITH DOT ABOVE to the BMP — Mark Davis ([WG2 N0838.doc](https://www.unicode.org/wg2/docs/n0838.doc), [WG2 N1838mrk.htm](https://www.unicode.org/wg2/docs/n1838mrk.htm), L2/98-357 (not online))
+- 1998-09-02 Proposal to add the letters LATIN SMALL / CAPITAL LETTER A WITH DOT ABOVE to the BMP — Mark Davis (WG2 N0838.doc (not online), [WG2 N1838mrk.htm](https://www.unicode.org/wg2/docs/n1838mrk.htm), L2/98-357 (not online))
 
-- 1998-09-08 Additional IPA "disturbed speech" characters for the UCS — Michael Everson ([WG2 N18xx-ipa](https://www.unicode.org/wg2/docs/n18xx-ipa.pdf), [WG2 N1845-ipa](https://www.unicode.org/wg2/docs/n1845-ipa.pdf), [WG2 N1845](https://www.unicode.org/wg2/docs/n1845.pdf), L2/98-299 (not online))
+- 1998-09-08 Additional IPA "disturbed speech" characters for the UCS — Michael Everson (WG2 N18xx-ipa (not online), [WG2 N1845-ipa](https://www.unicode.org/wg2/docs/n1845-ipa.pdf), [WG2 N1845](https://www.unicode.org/wg2/docs/n1845.pdf), L2/98-299 (not online))
 
 - 1998-09-12 Responses to NCITS/L2 and Unicode Consortium comments on numerous proposals — Michael Everson ([WG2 N1847](https://www.unicode.org/wg2/docs/n1847.pdf))
 
@@ -907,6 +910,12 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
   - _UTC #163 Minutes ([L2/20-102](https://www.unicode.org/L2/L2020/20102.htm)) (See B.1 for decision and action items)_
 
+- 2020-07-10 Prime Proposal: Modifier Letter Heavy Prime — Erik Carvalhal Miller ([L2/20-286](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-286))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3o.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3o for decision and action items)_
+
 - 2020-07-11 Unicode request for Harrington diacritic — Kirk Miller, Timothy Henry-Rodriguez ([L2/20-182](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-182))
 
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 3e.)_
@@ -921,22 +930,564 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 
 - 2020-09-25 Unicode request for modifier Latin capital letters — Kirk Miller, Craig Cornelius ([L2/20-251](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-251))
 
-- 2020-09-25 Unicode request for IPA modifier-letters (a), pulmonic — Kirk Miller, Michael Ashby ([L2/20-252](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-252))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3e.)_
 
-- 2020-09-25 Unicode request for IPA modifier letters (b), non-pulmonic — Kirk Miller, Michael Ashby ([L2/20-253](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-253))
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3e for decision and action items)_
 
 - 2020-10-01 Revised proposal to add two characters for Middle Scots to the UCS — Michael Everson (WG2 N5144, [L2/20-267](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-267))
 
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3n.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3n for decision and action items)_
+
 - 2020-10-01 Proposal to add two SIGMOID S characters for mediaeval palaeography to the UCS — Michael Everson (WG2 N5146, [L2/20-269](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-269))
 
-- 2020-10-03 Consolidated code chart including proposed phonetic and medieval characters — Michael Everson, Kirk Miller (WG2 N5148, [L2/20-266](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-266))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3m.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3m for decision and action items)_
+
+- 2020-10-05 Revised proposal to add ten characters for Middle English to the UCS — Michael Everson (WG2 N5145, [L2/20-268](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-268))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3l.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3l for decision and action items)_
+
+- 2020-10-20 Comment on L2/20-270 regarding two puncti — Fredrick R. Brennan ([L2/20-278](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-278))
+
+- 2020-11-08 Unicode request for IPA modifier-letters (a), pulmonic — Kirk Miller, Michael Ashby ([L2/20-252](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-252))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3b.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3b for decision and action items)_
+
+- 2020-11-08 Unicode request for IPA modifier letters (b), non-pulmonic — Kirk Miller, Michael Ashby ([L2/20-253](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-253))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3c.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3c for decision and action items)_
+
+- 2020-11-09 Consolidated code chart including proposed phonetic and medieval characters — Michael Everson, Kirk Miller (WG2 N5148, [L2/20-266](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-266))
 
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 1.)_
 
   - _UTC #165 Minutes ([L2/20-237](https://www.unicode.org/L2/L2020/20237.htm)) (See B.1 for decision and action items)_
 
-- 2020-10-05 Revised proposal to add ten characters for Middle English to the UCS — Michael Everson (WG2 N5145, [L2/20-268](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-268))
+- 2020-11-10 Proposal to add two mediaeval punctuation characters to the UCS — Michael Everson (WG2, N5147, [L2/20-270](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-270))
 
-- 2020-10-05 Proposal to add two mediaeval punctuation characters to the UCS — Michael Everson (WG2, N5147, [L2/20-270](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-270))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3k.)_
 
-- 2020-10-    Preliminary proposal to add LATIN THETA (WG2 N5149) — Michael Everson (WG2, N5149, [L2/20-271](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-271)) (not online at this time)
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3k for decision and action items)_
+
+- 2020-12-07 Reference doc numbers for L2/20-266R "Consolidated code chart of proposed phonetic characters" and IPA etc. code point and name changes — Deborah Anderson / SEI ([L2/21-021](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-021))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3a.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3a for decision and action items)_
+
+- 2020-12-07 Addendum to Unicode requests for IPA modifier letters, L2/20-252 pulmonic and L2/20-253 non-pulmonic — Kirk Miller ([L2/21-040](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-040))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3d.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3d for decision and action items)_
+
+- 2021-01-03 Unicode request for dezh with retroflex hook — Kirk Miller, Michael Everson ([L2/21-004](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-004))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3i.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3i for decision and action items)_
+
+- 2021-01-11 Unicode request for additional para-IPA letters — Kirk Miller ([L2/21-041](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-041))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3h.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3h for decision and action items)_
+
+- 2021-01-11 Unicode request for phonetic punctuation &amp; diacritics — Kirk Miller ([L2/21-042](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-042))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3g.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3g for decision and action items)_
+
+- 2021-01-11 Unicode request for subscript modifier-letter support — Kirk Miller ([L2/21-043](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-043))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3f.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3f for decision and action items)_
+
+- 2021-01-12 Proposal to add the OBLIQUE HYPHEN to the UCS — Michael Everson (WG2 N5152,     [L2/21-036](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-036))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3p.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3p for decision and action items)_
+
+- 2021-01-12 Proposal to include the letter 'Old Polish O' — Daniel Bunčić ([L2/21-039](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-039))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 3j.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 3j for decision and action items)_
+
+- 2021-02-03 Proposal to provide the glyphs of Latin letter tone six — Kushim Jiang ([L2/21-083](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-083))
+
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 1a.)_
+
+  - _UTC #167 Minutes ([L2/21-067](https://www.unicode.org/L2/L2021/21066.htm)) (See B.1 for decision and action items)_
+
+- 2021-02-11 Unicode request for modifier capital letters — Kirk Miller ([L2/21-089](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-089))
+
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 1b)_
+
+  - _UTC #167 Minutes ([L2/21-067](https://www.unicode.org/L2/L2021/21066.htm)) (See B.1 for decision and action items)_
+
+- 2021-04-16 Suggested improvements to the code chart annotations of "C0 Controls and Basic Latin" and "C1 Controls and Latin-1 Supplement" — Eduardo Marín Silva ([L2/21-079](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-079))
+
+- 2021-05-16 Exploratory document on a problematic casing pair used by some African orthographies — Eduardo Marín Silva ([L2/21-229](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-229))
+
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 2b.)_
+
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 Section 2a for decision and action items)_
+
+- 2021-07-16 Unicode request for legacy Malayalam — Kirk Miller, Neil Rees ([L2/21-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-156))
+
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 1d.)_
+
+  - _UTC #169 Minutes ([L2/21-167](https://www.unicode.org/L2/L2021/21167.htm)) (See B.1 for decision and action items)_
+
+- 2021-07-26 Proposal to add capital rams horn — Denis Moyogo Jacquerye ([L2/21-205](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-205))
+
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 1b.)_
+
+- 2021-08-16 Unicode request for Latin subscript letters — Kirk Miller ([L2/21-207](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-207))
+
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 1c.)_
+
+- 2021-08-18 Proposal to encode additional Latin letters for languages of Argentina, Canada and the USA — Denis Moyogo Jacquerye ([L2/21-206](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-206))
+
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 1a.)_
+
+- 2021-09-10 On the 1978 version of the African Reference Alphabet — Eduardo Marín Silva ([L2/21-231](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-231))
+
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 2a.)_
+
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 Section 2a for decision and action items)_
+
+- 2021-09-20 Glyph Corrections for U+AD70 LATIN CAPITAL LETTER CLOSED INSULAR G and U+AD71 LATIN SMALL LETTER CLOSED INSULAR G — Peter S. Baker ([L2/21-242](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-242))
+
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 2c.)_
+
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 Section 2c for decision and action items)_
+
+- 2021-11-19 Feedback on African Reference Alphabet (L2/21-231) — Denis Jacquerye ([L2/21-247](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-247))
+
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 2a.)_
+
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 Section 2a for decision and action items)_
+
+- 2021-12-07 Comment on “On the glyph of LATIN LETTER CLOSED INSULAR G” by M. Everson and A. West — Peter S. Baker ([L2/21-243](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-243))
+
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 2c.)_
+
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 Section 2c for decision and action items)_
+
+- 2022-01-09 On the glyph of LATIN LETTER CLOSED INSULAR G — Michael Everson (WG2 N5172, [L2/22-004](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-004))
+
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 2c.)_
+
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 Section 2c for decision and action items)_
+
+- 2022-02-23 Proposal to add capital rams horn — Denis Moyogo Jacquerye ([   L2/22-045](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-045))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 1a.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 1a for decision and action items)_
+
+- 2022-03-03 Update on implementation status of African scripts — Charles L. Riley     ([L2/22-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-073))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 28.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 28 for decision and action items)_
+
+- 2022-02-15 Comments on Public Review Issues (Jan 18, 2022 - April 11, 2022) — Denis Moyogo Jacquerye ([PRI #442](https://www.unicode.org/review/pri442/))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 23.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 23 for decision and action items)_
+
+- 2022-03-16 Proposal to revise the glyphs of LATIN SMALL LETTER CLOSED OPEN E and LATIN SMALL LETTER CLOSED REVERSED OPEN E — Denis Moyogo Jacquerye ([L2/22-071](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-071))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 1c.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 1c for decision and action items)_
+
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 2d.)_
+
+- 2022-04-12 Proposal to add the currency sign for the POLISH ZŁOTY — National Bank of Poland ([L2/22-092](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-092))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 14.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 14 for decision and action items)_
+
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 21.)_
+
+- 2022-04-13 On LATIN SMALL LETTER TURNED O OPEN-O and LATIN SMALL LETTER TURNED O OPEN-O WITH STROKE — Denis Moyogo Jacquerye ([L2/22-097](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-097))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 1b.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 1b for decision and action items)_
+
+- 2022-05-02 Request for consideration to add 4 sequences used for Chinese Pinyin to NamedSequences.txt — Eiso Chan ([L2/22-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-100))
+
+- 2022-05-09 Proposal to encode LATIN SMALL LIGATURE VE — Erol Çitci ([L2/22-106](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-106))
+
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 2e.)_
+
+- 2022-06-10 On TURNED O OPEN-O and TURNED O OPEN-O WITH STROKE — Michael Everson ([L2/22-109](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-109))
+
+- 2022-06-14 Proposal to revise the glyph of LATIN SMALL LETTER BARRED A — Denis Moyogo Jacquerye ([L2/22-101](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-101))
+
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 2c.)_
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 for decision and action items)_
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2022-06-27 On LATIN CAPITAL LETTER F WITH STROKE — Denis Moyogo Jacquerye ([L2/22-196](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-196))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point A 1a.)_
+
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.1 for decision and action items)_
+
+- 2022-06-27 On LATIN SMALL LETTER Y WITH SHORT RIGHT LEG — Denis Moyogo Jacquerye ([L2/22-199](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-199))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point A 1b.)_
+
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.2 for decision and action items)_
+
+- 2022-07-09 Unicode request for two BMP Latin characters (revised) — Kirk Miller ([L2/22-113](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-113))
+
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 2b.)_
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 Section 2b for decision and action items)_
+
+- 2022-07-18 Proposal to Encode Latin characters for old Adyghian — Nikita Manulov ([L2/22-216](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-216))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 18c.)_
+
+- 2022-07-23 Proposal to encode Latin Capital and Small letter I with Bowl (revised) — Nikita Manulov ([L2/22-118](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-118))
+
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 2a.)_
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 Section 2a for decision and action items)_
+
+- 2022-07-29 Proposal to encode missing Latin letters from Benjamin Franklin's phonetic alphabet — Nikita Manulov ([L2/22-215](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-215))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 18b.)_
+
+- 2022-08-19 On LATIN SMALL LETTER BLACKLETTER O WITH STROKE — Denis Moyogo Jacquerye ([L2/22-198](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-198))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point A 1c.)_
+
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.3 for decision and action items)_
+
+- 2022-08-28 Suggested improvements to the code chart annotations of many Latin extensions — Eduardo Marín Silva ([L2/22-252](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-252))
+
+- 2022-08-28 Suggested improvements to the code chart annotations of all Latin blocks — Eduardo Marín Silva ([L2/24-169](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-169))
+
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See C.2 for decision and action items)_
+
+- 2022-10-28 On LATIN SMALL LETTER TURNED O OPEN-O and LATIN SMALL LETTER TURNED O OPEN-O WITH STROKE (revised) — Denis Moyogo Jacquerye ([L2/22-271](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-271))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 18a.)_
+
+- 2022-11-12 Proposal to Encode Latin characters for Initial Teaching Alphabet — Nikita Manulov ([L2/22-286](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-286))
+
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point B.14.)_
+
+- 2023-03-02 Add Simple_Case_Folding mappings for three existing characters — Markus Scherer ([L2/23-062](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-062))
+
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See F.1 Section 2.1 for decision and action items)_
+
+- 2023-03-13 Unicode request for Initial Teaching Alphabet — Kirk Miller ([L2/23-102](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-102))
+
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point C 14a.)_
+
+- 2023-03-17 Proposal to Encode Slovene Metelko Alphabet 2022 — Nikita Manulov ([L2/23-074](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-074))
+
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point C 14b.)_
+
+- 2023-04-17 Initial Teaching Alphabet (L2/23-159 Public feedback, ID20230417171214) — David Corbett ([L2/23-159](https://www.unicode.org/L2/L2023/23159-pubrev.html))
+
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.VIII.11.)_
+
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 11 for decision and action items)_
+
+- 2023-05-08 Addition of eighteen Latin characters for Somali — Omer Aden ([WG2 N5220](https://www.unicode.org/wg2/docs/n5220-SOMALI-proposal.pdf))
+
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point B.22.)_
+
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 22 for decision and action items)_
+
+- 2023-05-12 Core Spec note on click letters — Kirk Miller ([L2/23-119](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-119))
+
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point C.28.)_
+
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 28 for decision and action items)_
+
+- 2023-05-31 Revised proposal for the addition of LATIN CAPITAL LETTER TURNED W to the UCS (WG2 N5224) — Michael Everson ([L2/23-134](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-134))
+
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point B.21.)_
+
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 21 for decision and action items)_
+
+- 2023-06-01 Revised proposal to add two characters for Middle English to the UCS (WG2 N5225) — Michael Everson, Andrew West ([L2/23-135](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-135))
+
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.II.2b.)_
+
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 2b for decision and action items)_
+
+- 2023-06-06 Proposal to encode CID+15910 in Adobe-Japan1 as Latin small letter theta — Nozomu Katō ([L2/23-129](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-129))
+
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point D.)_
+
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point B.22.)_
+
+- 2023-06-16 Revised proposal to add the combining overcurl to the UCS (WG2 N5227) — Michael Everson, Nicholas Williams, Alan M. Kent ([L2/23-137](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-137))
+
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point B.19.)_
+
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 19 for decision and action items)_
+
+- 2023-07-16 Unicode request for compound tone diacritics — Kirk Miller ([L2/23-188](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-188))
+
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.VI.7.)_
+
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 7 for decision and action items)_
+
+- 2023-07-17 Unicode request for IPA compound tone diacritic — Kirk Miller ([L2/23-189](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-189))
+
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point B.18.)_
+
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 18 for decision and action items)_
+
+- 2023-07-17 Proposal to Encode 3 Additional Latin Characters for Wakashan and Salishan Languages to the Unicode Standard — Robyn Humchitt, Denis Jacquerye, Kevin King ([L2/23-191](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-191))
+
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.II.2a.)_
+
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 2a for decision and action items)_
+
+- 2023-07-18 Proposal to add two Latin pharyngeal voiced fricative characters — Denis Moyogo Jacquerye ([L2/23-219](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-219))
+
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.II.2b.)_
+
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 2b for decision and action items)_
+
+- 2023-08-07 Three Latin Lambdas for version 16.0 Request — Kevin King ([L2/23-197](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-197))
+
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.II.2a.)_
+
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 2a for decision and action items)_
+
+- 2023-10-13 Unicode request for letters with overstruck tilde — Kirk Miller ([L2/23-262](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-262))
+
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point B.21.)_
+
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.2 Section 20 for decision and action items)_
+
+- 2024-01-01 Unicode support for historical and para-IPA letters — IPA ([L2/24-049](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-049))
+
+- 2024-01-07 Annotation for U+A71D — Kirk Miller ([L2/24-087](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-087))
+
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.VI.11.)_
+
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section VI-11 for decision and action items)_
+
+- 2024-01-30 Unicode request for modifier capital S — Kirk Miller ([L2/24-081](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-081))
+
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.VI.17.)_
+
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section VI-17 for decision and action items)_
+
+- 2024-02-21 Unicode request for affricate ligatures — Kirk Miller ([L2/24-051](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-051))
+
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.VI.10.)_
+
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section VI-10 for decision and action items)_
+
+- 2024-03-28 Unicode request for letters with palatal hook — Kirk Miller ([L2/24-050](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-050))
+
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.VI.15.)_
+
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section VI-15 for decision and action items)_
+
+- 2024-04-26 Unicode request for modifier pre-Kiel click letters (revised) — Kirk Miller ([L2/24-052](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-052))
+
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.VI.16.)_
+
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section VI-16 for decision and action items)_
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.V.10.)_
+
+- 2024-04-30 Unicode request for modifier letters with palatal hook — Kirk Miller ([L2/24-144](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-144))
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.V.12.)_
+
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section V Section 12 for decision and action items)_
+
+- 2024-06-04 Unicode request for Greek letters with palatal hook — Kirk Miller ([L2/24-146](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-146))
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.V.14.)_
+
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section V Section 14 for decision and action items)_
+
+- 2024-06-05 Fourth Revised Proposal to encode characters for the English Phonotypic Alphabet (EPA) — Karl Pentzlin ([L2/24-136](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-136))
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point B.30.)_
+
+- 2024-06-06 Miscellaneous historical and para-IPA modifier letters — Kirk Miller ([L2/24-171](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-171))
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.V.16.)_
+
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section V Section 16 for decision and action items)_
+
+- 2024-06-14 Modifier Sinological extensions to the IPA — Kirk Miller ([L2/24-147](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-147))
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.V.15.)_
+
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section V Section 15 for decision and action items)_
+
+- 2024-06-15 Unicode request for modifier voiceless implosive letters (revised) — Kirk Miller ([L2/24-130](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-130))
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.V.11.)_
+
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section V Section 11 for decision and action items)_
+
+- 2024-06-24 Unicode request for modifier psi and omega (revised) — Kirk Miller ([L2/24-145](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-145))
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.V.13.)_
+
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section V Section 13 for decision and action items)_
+
+- 2024-08-10 Changing Latin script r glyphs and adding their capital characters — Denis Moyogo Jacquerye ([L2/24-243](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-243))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 2.3.)_
+
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 2.3 for decision and action items)_
+
+- 2024-08-17 Phonetic characters: Greek and Latin? — Denis Moyogo Jacquerye ([L2/24-202](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-202))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 4.7 and 6.5.)_
+
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 4.7 for decision and action items)_
+
+- 2024-09-04 Unicode request for ExtIPA cartouche (revised) — Kirk Miller, Martin Ball ([L2/24-182](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-182))
+
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point B.29.)_
+
+- 2024-10-18 Unicode request for subscript w y z and ɣ — Kirk Miller ([L2/24-219](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-219))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 2.8.)_
+
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 2.8 for decision and action items)_
+
+- 2024-10-18 Unicode request for modifier small capital P — Kirk Miller, Denis Moyogo Jacquerye ([L2/24-231](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-231))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 2.9.)_
+
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 2.9 for decision and action items)_
+
+- 2024-10-18 Unicode request for compound tone diacritics — Kirk Miller ([L2/24-232](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-232))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 2.7.)_
+
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 2.7 for decision and action items)_
+
+- 2024-10-30 Capital r with long leg (revised) — Denis Moyogo Jacquerye ([L2/24-237](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-237))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 2.2.)_
+
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 2.2 for decision and action items)_
+
+- 2024-11-13 Unicode request for barred letters (revised) — Kirk Miller, Timothy Usher, Denis Moyogo Jacquerye ([L2/24-234](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-234))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 2.6.)_
+
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 2.6 for decision and action items)_
+
+- 2024-11-15 Unicode request for letters of the RFE phonetic alphabet — Kirk Miller ([L2/25-016](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-016))
+
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 1.7.)_
+
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 1.7 for decision and action items)_
+
+- 2024-12-11 Fifth Revised Proposal to encode characters for the English Phonotypic Alphabet (EPA) in the UCS — Karl Pentzlin ([L2/24-277](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-277))
+
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 1.6.)_
+
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 1.6 for decision and action items)_
+
+- 2024-12-13 Unicode request for lezh with curl — Kirk Miller ([L2/24-272](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-272))
+
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 1.8.)_
+
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 1.8 for decision and action items)_
+
+- 2024-12-13 Unicode request for Initial Teaching Alphabet — Kirk Miller ([L2/24-273](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-273))
+
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 1.5.)_
+
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 1.5 for decision and action items)_
+
+- 2024-12-26 On the decision to rename and change the glyphs of Greek phonetic letters (revised) — Eduardo Marin Silva ([L2/25-043](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-043))
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.11.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 5 for decision and action items)_
+
+- 2025-02-05 Annotation request for Vietnamese apex — Minh Nguyen, Kirk Miller ([L2/25-066](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-066))
+
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 4.3.)_
+
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 4.3 for decision and action items)_
+
+- 2025-02-06 A note on U+1AB3 combining downwards arrow — Kirk Miller ([L2/25-019](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-019))
+
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 3.3.)_
+
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 3.3 for decision and action items)_
+
+- 2025-02-14 Unicode request for compound stress mark — Kirk Miller ([L2/25-061](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-061))
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.7.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.7 for decision and action items)_
+
+- 2025-02-14 Unicode request for annotations to Ƀ ƀ, Đ đ and Ǥ ǥ — Kirk Miller, Timothy Usher ([L2/25-067](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-067))
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 4.2.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 4.2 for decision and action items)_
+
+- 2025-02-25 Unicode request for w with palatal hook — Denis Moyogo Jacquerye, Kirk Miller ([L2/25-077](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-077))
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.6.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.6 for decision and action items)_
+
+- 2025-02-28 Unicode request for Vietnamese apex — Minh Nguyen, Kirk Miller ([L2/25-130](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-130))
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.10.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 5 for decision and action items)_
+
+- 2025-03-03 Response to feedback on the names of phonetic characters in L2/24-234R and L2/25-016 — Kirk Miller ([L2/25-097](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-097))
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 3.6.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 3.6 for decision and action items)_
+
+- 2025-04-04 Unicode request for letters with double tilde overlay — Kirk Miller ([L2/25-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-114))
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.8.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.8 for decision and action items)_

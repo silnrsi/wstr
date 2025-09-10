@@ -3,10 +3,10 @@ title: Unicode Status for Malayalam
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Malayalam script implementation is discussed in [Chapter 12 South and Central Asia-I: Official Scripts of India](http://www.unicode.org/versions/latest/ch12.pdf).
+In The Unicode Standard, Malayalam script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G22346).
 
 [comment]: # (end of intro)
 
@@ -412,3 +412,29 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #161 Minutes ([L2/19-323](https://www.unicode.org/L2/L2019/19323.htm)) (See D.3.1 for decision and action items)_
 
 - 2019-10-06 Response to L2/19-345: Alternative encodings for Malayalam "nta" — Cibu C Johny ([L2/19-348](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/19-348))
+
+- 2020-12-25 Clarification Request on Malayalam /ṉṯa/ Conjunct Specification Proposed in L2/19-345r2 — Cibu C Johny ([L2/20-294](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-294))
+
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 6.)_
+
+  - _UTC #167 Minutes ([L2/21-067](https://www.unicode.org/L2/L2021/21066.htm)) (See F.2 for decision and action items)_
+
+- 2022-06-07 Proposal to Add Data for Pairs of Confusable sequences — Asmus Freytag ([L2/22-107](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-107))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+
+- 2022-09-11 Use of ARDHAVISARGA in Malayalam and Sinhala — Srinidhi A, Sridatta A ([L2/22-214](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-214))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point A 4.)_
+
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.6 for decision and action items)_
+
+- 2022-10-26 Response to L2/22-214, Use of ARDHAVISARGA in Malayalam and Sinhala — Gihan Dias ([L2/22-269](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-269))
+
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point A 4.)_
+
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.6 for decision and action items)_

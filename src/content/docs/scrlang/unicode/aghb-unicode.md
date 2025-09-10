@@ -3,10 +3,10 @@ title: Unicode Status for Caucasian Albanian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Caucasian Albanian implementation is discussed in [Chapter 8 Europe-II](http://www.unicode.org/versions/latest/ch08.pdf).
+In The Unicode Standard, Caucasian Albanian implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G32223).
 
 [comment]: # (end of intro)
 

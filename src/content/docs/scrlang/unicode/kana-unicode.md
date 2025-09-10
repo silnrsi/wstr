@@ -3,10 +3,10 @@ title: Unicode Status for Katakana
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Katakana implementation is discussed in [Chapter 18 East Asia](http://www.unicode.org/versions/latest/ch18.pdf).
+In The Unicode Standard, Katakana implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G12058).
 
 [comment]: # (end of intro)
 
@@ -77,3 +77,31 @@ A number of documents have been submitted to the Unicode Technical Committee and
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 22.)_
 
   - _UTC #164 Minutes ([L2/20-172](https://www.unicode.org/L2/L2020/20172.htm)) (See B.1 for decision and action items)_
+
+- 2020-11-09 A Proposal to Encode Taiwanese Kana in the UCS — Fredrick R. Brennan ([L2/20-280](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-280))
+
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 22.)_
+
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 22 for decision and action items)_
+
+- 2025-01-13 Request to Change VO for some Small Kana Letters and Bopomofo Letters — CheonHyeong Sim ([L2/25-035](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-035))
+
+- 2025-01-15 Proposal to Encode One Small Kana Letter — CheonHyeong Sim ([L2/25-036](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-036))
+
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 6.8.)_
+
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 6.8 and E.1 Section 21 for decision and action items)_
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.8.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 5 for decision and action items)_
+
+- 2025-01-15 Proposal to add Katakana Letter Small Ne — Kentaro Bimbatti ([L2/25-042](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-042))
+
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.9.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See E.1 Section 22 for decision and action items)_
+
+- 2025-02-20 Addendum to Proposal to add Katakana Letter Small Ne to Unicode — Kentaro Bimbatti ([L2/25-060](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-060))
+
+- 2025-04-22 Katakana and Hiragana digraphs annotations _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 4.3.)_

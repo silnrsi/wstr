@@ -3,10 +3,10 @@ title: Unicode Status for Bamum
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Bamum script implementation is discussed in [Chapter 19 Africa](http://www.unicode.org/versions/latest/ch19.pdf).
+In The Unicode Standard, Bamum script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G45398).
 
 [comment]: # (end of intro)
 
@@ -52,3 +52,17 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2009-03-28 Proposal for encoding additional Bamum characters in the SMP of the UCS — Michael Everson, Charles Riley, Konrad Tuchscherer ([WG2 N3597](https://www.unicode.org/wg2/docs/n3597.pdf), [L2/09-102](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-102))
 
 - 2009-04-22 Report to JTC1 Chair and JTC1/SC2 Chair Regarding Resolution 34 on African Languages — Deborah Anderson ([WG2 N3641](https://www.unicode.org/wg2/docs/n3641.pdf), [L2/09-285](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-285))
+
+- 2022-03-03 Update on implementation status of African scripts — Charles L. Riley     ([L2/22-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-073))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 28.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 28 for decision and action items)_
+
+- 2023-09-08 Update on Usage and Implementation Status of African Scripts — Oreen Yousuf, Charles Riley, Daniel Yacob, Neil Patel, Tim Brookes ([L2/23-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-203))
+
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.26.)_
+
+- 2025-04-22 Bamum Name Corrections (16.0 Beta Feedback) _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 3.9.)_
+
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 3.9 for decision and action items)_

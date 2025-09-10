@@ -3,10 +3,10 @@ title: Unicode Status for Javanese
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-In The Unicode Standard, Javanese script implementation is discussed in [Chapter 17 Indonesia and Oceania](http://www.unicode.org/versions/latest/ch17.pdf).
+In The Unicode Standard, Javanese script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G27153) and in [UTN 47: Implementing Javanese](https://www.unicode.org/notes/tn47/).
 
 [comment]: # (end of intro)
 
@@ -87,3 +87,13 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 19.)_
 
   - _UTC #164 Minutes ([L2/20-172](https://www.unicode.org/L2/L2020/20172.htm)) (See B.1 for decision and action items)_
+
+- 2022-02-14 Javanese orthographic syllables — Norbert Lindenberg ([L2/22-041](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-041))
+
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 9.)_
+
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 9 for decision and action items)_
+
+- 2022-04-15 Line breaking at orthographic syllable boundaries (revised) — Norbert Lindenberg, et al ([L2/22-080](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-080))
+
+- 2023-01-14 Confusables in Balinese, Javanese, and Kawi — Norbert Lindenberg ([L2/23-027](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-027))

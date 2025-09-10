@@ -3,10 +3,10 @@ title: Unicode Status for HamNoSys
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-10
 ---
 
-As of version 8.0 of the Unicode Standard, HamNoSys has not been encoded in the Standard.
+HamNoSys is not yet in Unicode. The script has not yet been added to the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 [comment]: # (end of intro)
 
