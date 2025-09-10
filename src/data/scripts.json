@@ -6094,13 +6094,13 @@
         "script_reordering": "no",
         "script_splitGraphs": "no",
         "script_ligatures": "required",
-        "script_sample": "a:8:{s:9:\"file_name\";s:16:\"Shavian-crop.png\";s:14:\"file_MIME_type\";s:9:\"image\/png\";s:9:\"file_type\";s:3:\"png\";s:10:\"is_package\";b:0;s:7:\"caption\";s:94:\"Excerpt from from Kingsley Read's \"Suggestions for Writing\". See Use and History subject area.\";s:6:\"author\";s:0:\"\";s:9:\"copyright\";s:0:\"\";s:5:\"notes\";s:0:\"\";}",
+        "script_sample": "a:8:{s:9:\"file_name\";s:16:\"Shavian-crop.png\";s:14:\"file_MIME_type\";s:9:\"image\/png\";s:9:\"file_type\";s:3:\"png\";s:10:\"is_package\";b:0;s:7:\"caption\";s:60:\"Excerpt from from Kingsley Read's \"Suggestions for Writing\".\";s:6:\"author\";s:0:\"\";s:9:\"copyright\";s:0:\"\";s:5:\"notes\";s:0:\"\";}",
         "__display_name": "Shavian (Shaw) [Shaw]",
         "script_displayCode": "Shaw",
         "script_openTypeTags": "shaw",
         "script_status": "Historical",
         "script_numericCodePlus": "281 (left-to-right alphabetic)",
-        "script_sortName": "Shavian (Shaw)",
+        "script_sortName": "Shavian Shaw",
         "script_shortName": "Shavian script"
     },
     {
