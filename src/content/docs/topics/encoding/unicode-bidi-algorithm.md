@@ -84,6 +84,8 @@ Here are some of the most important bidi codes:
 | WS | Whitespace: spaces | neutral |
 | ON | Other Neutrals: displayable characters that don't have any directionality associated with them - e.g., parentheses, underscore, equals sign | neutral |
 
+(For the complete list of these codes, see [Bidirectional Class Values][unicode-bidi-class-values])
+
 A note on terminology: you might be used to referring to the numbers that are used with the Latin script (1, 2, 3) as "Arabic numbers", but this term is ambiguous, since Arabic script has its own set of numbers. So the bidi algorithm uses the term "European numbers" to refer to these characters. The numbers that are used with the Arabic script are often called "Arabic-Indic digits", but this is also somewhat ambiguous as there is a set of "eastern" Arabic-Indic numbers that behave somewhat differently!
 
 The reason for distinguishing between Arabic and Hebrew, as well as European and Arabic numbers, is in order to properly handle the differences between the way European and Arabic numbers interact with certain symbols. For instance, in Hebrew using European numbers, the sequence "123-456+78" would be considered an expression that would be treated as a left-to-right unit, while in Arabic script, each number in the expression is treated as a unit (eg, &#x0661;&#x0662;&#x0663;-&#x0664;&#x0665;&#x0666;+&#x0667;&#x0668; which would be rendered right-to-left as &#x0667;&#x0668;+&#x0664;&#x0665;&#x0666;-&#x0661;&#x0662;&#x0663;). In addition, a terminator such as a degree symbol or percent sign is displayed to the right of a number in Hebrew, but to the left in Arabic.
@@ -153,9 +155,47 @@ As was previously mentioned, it is possible to adjust the behavior of bidirectio
     - A chapter/verse range such as those used in Biblical verse references is using a colon as a numerical separator rather than punctuation.
         - _Example:_ MATTHEW&#x00A0;6\<RTL\>:9&#x2011;13; as right-to-left text this would be displayed: 13&#x2011;9:6&#x00A0;WEHTTAM. Without the RLM it would be displayed: 13&#x2011;6:9&#x00A0;WEHTTAM.
  
-- To force punctuation to behave as if it were associated with a certain range of text. For instance, final punctuation on an embedded sentence would take on the direction of the top-level paragraph; to make it use the direction of the embedded sentence instead, an override (RLO or RLM) or embedding character (RLE/PDF) could be used.
+- To force punctuation to behave as if it were associated with a certain range of text. For instance, final punctuation on an embedded sentence would take on the direction of the top-level paragraph; to make it use the direction of the embedded sentence instead, an override (RLO/PDF or RLM) or embedding character (RLE/PDF) could be used.
 
-# Unicode Links
+# Unicode recommendations
+
+Most directional formatting characters, specifically: 
+- U+061C: ARABIC LETTER MARK
+- U+200E: LEFT-TO-RIGHT MARK
+- U+200F: RIGHT-TO-LEFT MARK
+- U+202A: LEFT-TO-RIGHT EMBEDDING
+- U+202B: RIGHT-TO-LEFT EMBEDDING
+- U+202C: POP DIRECTIONAL FORMATTING
+- U+202D: LEFT-TO-RIGHT OVERRIDE
+- U+202E: RIGHT-TO-LEFT OVERRIDE
+
+have been in Unicode since version 1.1 of the standard. Starting with Unicode 6.3, four additional directional formatting characters were added:
+- U+2066: LEFT-TO-RIGHT ISOLATE
+- U+2067: RIGHT-TO-LEFT ISOLATE
+- U+2068: FIRST STRONG ISOLATE
+- U+2069: POP DIRECTIONAL ISOLATE
+
+UAX#9 has a number of recommendations about the use of these formatting characters.
+
+## Embedding vs Isolates
+
+Quoting [UAX#9: 2 Directional Formatting Characters][unicode-directional-formatting-characters]:
+
+> Although the term embedding is used for some explicit formatting characters, the text within the scope of the embedding formatting characters is not independent of the surrounding text. Characters within an embedding can affect the ordering of characters outside, and vice versa. 
+> 
+>Directional isolate characters were introduced in Unicode 6.3 after it became apparent that directional embeddings usually have too strong an effect on their surroundings and are thus unnecessarily difficult to use. The new characters were introduced instead of changing the behavior of the existing ones because doing so might have had an undesirable effect on those existing documents that do rely on the old behavior. **Nevertheless, the use of the directional isolates instead of embeddings is encouraged in new documents – once target platforms are known to support them.** _(emphasis added)_
+
+## Overrides
+
+Because of security concerns, **Unicode discourages use of direction overrides (LRO, RLO) wherever possible**; see [UAX#9: 2.2 Explicit Directional Overrides][unicode-direction-overrides].
+
+## Alternatives to direction control characters
+
+Adding explicit direction control characters to texts just to get the correct display essentially "dirties" the text in question. Further, some of the direction control characters essentially add state into stored text, making editing or excerpting text error-prone.
+
+Because of this, **Unicode encourages the use, wherever available, of markup-based protocols instead of explicit direction control characters**. A chart showing HTML5 and CSS3 markup equivalents of direction control characters can be found in [UAX#9: 2.7 Markup and Formatting Characters][unicode-direction-markup].
+
+# Additional resources
 
 - [Unicode Webinar on Bidirectional Text: Part 1, The Basics of Bidi][unicode-webinar-bidi-1] -- Presentation by Richard Ishida, Questions and Answers by Roozbeh Pournader and Richard Ishida
 
@@ -165,12 +205,16 @@ As was previously mentioned, it is possible to adjust the behavior of bidirectio
 
 
 [uax9]: https://www.unicode.org/reports/tr9/
+[unicode-bidi-class-values]: https://www.unicode.org/reports/tr44/#Bidi_Class_Values
 [xetex]: https://xetex.sourceforge.net/
 [opentype-standardized-mirroring]: https://www.microsoft.com/typography/otspec/TTOCHAP1.htm#ltrrtl
-[opentype-mirroring-pairs]: http://dev.bowdenweb.com/css/fonts/opentype-specification/ompl.txt
+[opentype-mirroring-pairs]: https://learn.microsoft.com/en-us/typography/opentype/spec/ompl
 [ms-rtlm]: https://www.microsoft.com/typography/otspec/features_pt.htm#rtlm
 [graphite]: https://graphite.sil.org/
 [graphite-description-language]: https://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_devFont
+[unicode-directional-formatting-characters]: https://www.unicode.org/reports/tr9/#Directional_Formatting_Characters
+[unicode-direction-overrides]: https://www.unicode.org/reports/tr9/#Explicit_Directional_Overrides
+[unicode-direction-markup]: https://www.unicode.org/reports/tr9/#Markup_And_Formatting
 [unicode-webinar-bidi-1]: https://www.youtube.com/watch?v=mVHuTkdKw8Q
 [unicode-webinar-bidi-2]: https://www.youtube.com/watch?v=_gZUK-CJYDc
 [unicode-webinar-bidi-3]: https://www.youtube.com/watch?v=rBK9CNIZWLY
