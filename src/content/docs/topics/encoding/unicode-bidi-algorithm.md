@@ -157,7 +157,7 @@ As was previously mentioned, it is possible to adjust the behavior of bidirectio
  
 - To force punctuation to behave as if it were associated with a certain range of text. For instance, final punctuation on an embedded sentence would take on the direction of the top-level paragraph; to make it use the direction of the embedded sentence instead, an override (RLO/PDF or RLM) or embedding character (RLE/PDF) could be used.
 
-# Unicode recommendations
+## Unicode recommendations
 
 Most directional formatting characters, specifically: 
 - U+061C: ARABIC LETTER MARK
@@ -175,9 +175,9 @@ have been in Unicode since version 1.1 of the standard. Starting with Unicode 6.
 - U+2068: FIRST STRONG ISOLATE
 - U+2069: POP DIRECTIONAL ISOLATE
 
-UAX#9 has a number of recommendations about the use of these formatting characters.
+UAX#9 has a number of recommendations about the use of these formatting characters:
 
-## Embedding vs Isolates
+### Embedding vs Isolates
 
 Quoting [UAX#9: 2 Directional Formatting Characters][unicode-directional-formatting-characters]:
 
@@ -185,17 +185,17 @@ Quoting [UAX#9: 2 Directional Formatting Characters][unicode-directional-formatt
 > 
 >Directional isolate characters were introduced in Unicode 6.3 after it became apparent that directional embeddings usually have too strong an effect on their surroundings and are thus unnecessarily difficult to use. The new characters were introduced instead of changing the behavior of the existing ones because doing so might have had an undesirable effect on those existing documents that do rely on the old behavior. **Nevertheless, the use of the directional isolates instead of embeddings is encouraged in new documents – once target platforms are known to support them.** _(emphasis added)_
 
-## Overrides
+### Overrides
 
 Because of security concerns, **Unicode discourages use of direction overrides (LRO, RLO) wherever possible**; see [UAX#9: 2.2 Explicit Directional Overrides][unicode-direction-overrides].
 
-## Alternatives to direction control characters
+### Alternatives to direction control characters
 
 Adding explicit direction control characters to texts just to get the correct display essentially "dirties" the text in question. Further, some of the direction control characters essentially add state into stored text, making editing or excerpting text error-prone.
 
 Because of this, **Unicode encourages the use, wherever available, of markup-based protocols instead of explicit direction control characters**. A chart showing HTML5 and CSS3 markup equivalents of direction control characters can be found in [UAX#9: 2.7 Markup and Formatting Characters][unicode-direction-markup].
 
-# Additional resources
+## Additional resources
 
 - [Unicode Webinar on Bidirectional Text: Part 1, The Basics of Bidi][unicode-webinar-bidi-1] -- Presentation by Richard Ishida, Questions and Answers by Roozbeh Pournader and Richard Ishida
 
