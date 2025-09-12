@@ -9,6 +9,6 @@ export async function getStaticPaths() {
     }));
 }
 
-export const GET: APIRoute = ({ params, props, request, redirect }) => {
-    return redirect(props.url, 302);
+export const GET: APIRoute = ({ params, props, redirect }) => {
+    return redirect(props.url, 303);
 };
