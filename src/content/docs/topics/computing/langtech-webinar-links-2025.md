@@ -1,5 +1,5 @@
 ---
-title: Language Technology Webinar 2025 Links
+title: LangTech Webinar 2025 Links
 description: List of links from content in the LT Webinar Sep 2025
 authors: Victor Gaultney
 slug: ltweb25
@@ -9,4 +9,53 @@ sidebar:
 lastUpdated: 2025-09-12
 ---
 
-(to be written)
+Here are links to information and resources mentioned in the Language Technology Webinar in September 20-25.
+
+## Font Resources
+
+- [Font Help Guides][sil-fonts-help]
+- [Using Axis-Based Font Families][sil-fonts-axis]
+- [OpenType and Font Features][opentype]
+- [Accessing Font Features in Applications][sil-fonts-features]
+- [Using SIL Fonts on Web Pages][sil-fonts-web]
+- [Google Fonts][google-fonts]
+- [Variable Fonts][google-variable-fonts]
+- [SIL Fonts FAQ][sil-fonts-faq]
+- [Full list of SIL fonts][sil-fonts]
+- [Charis][charis], [Gentium][gentium], [Andika][andika], and [Doulos SIL][doulossil]
+- [TypeTuner][typetuner]
+- [SIL Open Font License][ofl]
+
+## Language Tags and Locale Data
+
+
+## Other help and information
+
+- [ScriptSource][scriptsource]
+- [Archive of scripts.sil.org][sso]
+
+## Ways to contact us
+
+- [Language Technology Community Writing Systems forum][community-ws-forum]
+- [Contact form on the Language Technology site][sil-software-contact]
+
+[andika]: https://software.sil.org/andika
+[charis]: https://software.sil.org/charis
+[community-ws-forum]: https://community.software.sil.org/c/writing-systems
+[doulossil]: https://software.sil.org/doulossil
+[gentium]: https://software.sil.org/gentium
+[google-fonts]: https://fonts.google.com/
+[google-variable-fonts]: https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
+[ofl]: https://openfontlicense.org
+[opentype]: /topics/fonts/opentype
+[scriptsource]: https://scriptsource.org
+[sil-fonts-axis]: https://software.sil.org/fonts/axis-based-fonts
+[sil-fonts-faq]: https://software.sil.org/fonts/faq
+[sil-fonts-features]: https://software.sil.org/fonts/features
+[sil-fonts-help]: https://software.sil.org/fonts/guides
+[sil-fonts-web]: https://software.sil.org/fonts/webfonts
+[sil-fonts]: https://software.sil.org/fonts
+[sil-software-contact]: https://software.sil.org/about/contact
+[sso]: https://scripts.sil.org
+[typetuner]: https://typetunerweb.languagetechnology.org/ttw/fonts2go.cgi
+
