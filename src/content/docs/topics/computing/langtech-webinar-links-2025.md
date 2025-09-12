@@ -42,7 +42,7 @@ Here are links to information and resources mentioned in the Language Technology
 [andika]: https://software.sil.org/andika
 [charis]: https://software.sil.org/charis
 [community-ws-forum]: https://community.software.sil.org/c/writing-systems
-[doulossil]: https://software.sil.org/doulossil
+[doulossil]: https://software.sil.org/doulos
 [gentium]: https://software.sil.org/gentium
 [google-fonts]: https://fonts.google.com/
 [google-variable-fonts]: https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
