@@ -28,6 +28,9 @@ Here are links to information and resources mentioned in the Language Technology
 
 ## Language Tags and Locale Data
 
+- [Langtags.json][langtags-json]
+- [Langtags Fields][langtags-fields]
+- [LDML API (http://ldml.api.sil.org/[langtag])][ldmlapi]
 
 ## Other help and information
 
@@ -46,6 +49,9 @@ Here are links to information and resources mentioned in the Language Technology
 [gentium]: https://software.sil.org/gentium
 [google-fonts]: https://fonts.google.com/
 [google-variable-fonts]: https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
+[langtags-fields]: https://github.com/silnrsi/langtags/blob/master/doc/langtags.md
+[langtags-json]: https://ldml.api.sil.org/langtags.json
+[ldmlapi]:http://ldml.api.sil.org/
 [ofl]: https://openfontlicense.org
 [opentype]: /topics/fonts/opentype
 [scriptsource]: https://scriptsource.org
