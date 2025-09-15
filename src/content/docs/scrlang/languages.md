@@ -10,11 +10,11 @@ The following are sites that have information on many different languages. For m
 
 ## Lists of languages
 
-- [Ethnologue]
+- [Ethnologue][ethnologue]
     - <code>https://www.ethnologue.com/language/XXX</code>
 - [ISO 639-3][iso-639-3]
     - <code>https://iso639-3.sil.org/code/XXX</code>
-- [ScriptSource]
+- [ScriptSource][scriptsource]
     - <code>https://scriptsource.org/lang/XXX</code>
 - [Glottolog/Langdoc][glottolog]
     - <code>https://glottolog.org/glottolog?iso=XXX</code>
@@ -29,22 +29,22 @@ The following are sites that have information on many different languages. For m
     - To find a specific language's information, enter the language name or three-letter code into the search box on the Endangered Languages site.
 - [Universal Declaration of Human Rights][udhr]
     - <code>http://efele.net/udhr/d/udhr_XXX.txt</code>
-- [Wikipedia]
+- [Wikipedia][wikipedia]
     - To find a specific language's information, enter the language name into the search box.
     
 ## Keyboards
 
-- [Keyman]
+- [Keyman][keyman]
    - To find a keyboard resources for a specific language, enter the language name into the search box on the Keyman site.
 
-[Ethnologue]: https://www.ethnologue.com/
+[ethnologue]: https://www.ethnologue.com/
 [iso-639-3]: https://iso639-3.sil.org/
-[ScriptSource]: https://scriptsource.org
+[scriptSource]: https://scriptsource.org
 [glottolog]: https://glottolog.org
 [olac]: http://www.language-archives.org/
-[sil-archive]: https://www.sil.org/resources
+[sil-archive]: https://www.sil.org/resources/language-culture-archives
 [endangered-lang-cat]: https://www.endangeredlanguages.com
 [udhr]: http://efele.net/udhr/index.html
-[Wikipedia]: https://wikipedia.org
-[Keyman]: https://keyman.com
+[wikipedia]: https://wikipedia.org
+[keyman]: https://keyman.com
 

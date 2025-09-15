@@ -1,5 +1,5 @@
 ---
-title: Scripts Details Key
+title: Scripts Details Explanation
 description: Documentation of the script detail items
 sidebar:
     hidden: true
