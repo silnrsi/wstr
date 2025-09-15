@@ -62,7 +62,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 2004-06-07 Projet de norme marocaine; Jeux de caractères, Alphabet tifinaghe — Patrick Andries ([L2/04-195](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-195))
 
-- 2004-06-22 Report of the ad-hoc committee on Tifinagh — Patrick Andries ([WG2 N2828.doc](ftp://std.dkuug.dk/jtc1/SC2/wg2/docs/n2828.doc)), [L2/04-274](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-274))
+- 2004-06-22 Report of the ad-hoc committee on Tifinagh — Patrick Andries ([L2/04-274](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-274))
 
 - 2005-01-26 Tifinagh Name Annotations — Michel Suignard ([WG2 N2926](https://www.unicode.org/wg2/docs/n2926.pdf))
 

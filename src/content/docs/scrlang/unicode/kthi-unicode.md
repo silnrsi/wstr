@@ -50,7 +50,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 
 - 2007-10-14 Changes in L2/07-354 North Indic Number Forms (vs. L2/07-139) — Deborah Anderson ([L2/07-390](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-390))
 
-- 2007-12-13 Proposal to Encode the Kaithi Script in Plane 1 of ISO/IEC 10646 — Anshuman Pandey ([WG2 N3389](ftp://std.dkuug.dk/JTC1/SC2/wg2/docs/n3389.pdf), [L2/07-418](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-418), [L2/08-194](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-194))
+- 2007-12-13 Proposal to Encode the Kaithi Script in Plane 1 of ISO/IEC 10646 — Anshuman Pandey ([L2/07-418](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-418), [L2/08-194](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-194))
 
 - 2008-04-11 Request for removal of digits from Kaithi proposal (N3389) — Deborah Anderson, Anshuman Pandey ([WG2 N3438](https://www.unicode.org/wg2/docs/n3438.pdf), [L2/08-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-156))
 
