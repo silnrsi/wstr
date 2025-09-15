@@ -51,10 +51,10 @@ Here are links to information and resources mentioned in the Language Technology
 [gentium]: https://software.sil.org/gentium
 [google-fonts]: https://fonts.google.com/
 [google-variable-fonts]: https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
-[macrolanguages]: /topics/writingsystems/language-tagging.md#macrolanguages
+[macrolanguages]: /topics/writingsystems/language-tagging#macrolanguages
 [langtags-fields]: https://github.com/silnrsi/langtags/blob/master/doc/langtags.md
 [langtags-json]: https://ldml.api.sil.org/langtags.json
-[ldml]: /topics/writingsystems/ldml.md
+[ldml]: /topics/writingsystems/ldml
 [ldmlapi]:http://ldml.api.sil.org/
 [ofl]: https://openfontlicense.org
 [opentype]: /topics/fonts/opentype
