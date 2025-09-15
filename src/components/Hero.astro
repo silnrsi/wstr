@@ -2,7 +2,7 @@
 import { Image } from 'astro:assets';
 
 const { data } = Astro.locals.starlightRoute.entry;
-const { title = data.title, tagline, image, /* actions = [] */ } = data.hero || {};
+const { title = data.title, tagline, image, actions = [] } = data.hero || {};
 
 const imageAttrs = {
 	loading: 'eager' as const,
