@@ -6,10 +6,10 @@ slug: ltweb25
 sidebar:
     order: 2901
     hidden: True
-lastUpdated: 2025-09-12
+lastUpdated: 2025-09-15
 ---
 
-Here are links to information and resources mentioned in the Language Technology Webinar in September 20-25.
+Here are links to information and resources mentioned in the Language Technology Webinar in September 2025.
 
 ## Font Resources
 
