@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Kannada script implementation is discussed in [Chapter 12 South and Central Asia-I: Official Scripts of India](http://www.unicode.org/versions/latest/ch12.pdf).
+In The Unicode Standard, Kannada script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G38298).
 
 ## Blocks
 
@@ -106,3 +106,27 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2020-08-24 Preliminary Proposal to Encode Kannada Sign Combining Anusvara Right Top — Shashank Shenoy Basty ([L2/20-260](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-260))
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 11.)_
 - 2020-09-13 Proposal to encode Kannada sign Nakaara Pollu — Srinidhi A, Sridatta A ([L2/20-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-228))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 12.)_
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 for decision and action items)_
+- 2021-03-20 On the sequence of Avagraha followed by Anusvara or Visarga — Srinidhi A, Sridatta A ([L2/21-113](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-113))
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 7a.)_
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+- 2021-05-10 Proposal to Encode Kannada Sign Combining Anusvara Above Right — Shashank Shenoy Basty ([L2/21-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-114))
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 9.)_
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+- 2021-12-23 Proposal to encode ARCHAIC SHRII in Kannada and Telugu — Srinidhi A, Sridatta A ([L2/22-006](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-006))
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 9.)_
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 SECTION 9 for decision and action items)_
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See B.1.1 for decision and action items)_
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+- 2022-07-20 _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 24.)_
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 SECTION 24 for decision and action items)_
+- 2023-07-02 Revised request to change glyphs of four Kannada characters — Srinidhi A, Sridatta A ([L2/23-216](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-216))
+  - _Recommendations to UTC #178 January 2024 on Script Proposals ([L2/24-013](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-013)) (See point C.)_
+- 2023-11-26 Addition of Kannada to Script Extensions of U+1CD3 VEDIC SIGN NIHSHVASA — Srinidhi A, Sridatta A ([L2/24-024](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-024))
+  - _Recommendations to UTC #178 January 2024 on Script Proposals ([L2/24-013](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-013)) (See point A.IV.7.)_
+  - _UTC #178 Minutes ([L2/24-006](https://www.unicode.org/L2/L2024/24006.htm)) (See D.1 Section 7 for decision and action items)_
+- 2023-11-30 Feedback on request to change glyphs of Kannada Vocalic L/LL — Shriramana Sharma ([L2/24-054](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-054))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.V.7.)_
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section V-7 for decision and action items)_

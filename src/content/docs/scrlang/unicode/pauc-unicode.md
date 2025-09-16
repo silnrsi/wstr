@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Pau Cin Hau alphabet implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf).
+In The Unicode Standard, Pau Cin Hau alphabet implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G68308).
 
 ## Blocks
 

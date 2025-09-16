@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Hiragana implementation is discussed in [Chapter 18 East Asia](http://www.unicode.org/versions/latest/ch18.pdf).
+In The Unicode Standard, Hiragana implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G22344).
 
 ## Blocks
 

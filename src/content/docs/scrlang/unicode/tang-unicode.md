@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Tangut script implementation is discussed in [Chapter 18 East Asia](http://www.unicode.org/versions/latest/ch18.pdf).
+In The Unicode Standard, Tangut script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G43635) and in [UTN 42: Tangut Character Additions and Glyph Corrections](https://www.unicode.org/notes/tn42/).
 
 ## Blocks
 
@@ -108,3 +108,50 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2020-07-07 Tangut Glyph Modifications and Corrections — Andrew West, Viacheslav Zaytsev ([L2/20-166](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-166))
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 23.)_
   - _UTC #164 Minutes ([L2/20-172](https://www.unicode.org/L2/L2020/20172.htm)) (See B.1 for decision and action items)_
+- 2020-12-18 Feedback on L2/20-166 Tangut Glyph Modifications and Corrections — Sun Bojun, et al ([L2/21-034](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-034))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 24.)_
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 24 for decision and action items)_
+- 2021-09-07 Feedback on IRGN2492 and the preliminary encoding method of early Chinese organic chemical character, Sanskrit transcription, Tibetan transcription, Tangut transcription and Jianzi Musical Notation (IRGN 2492) — Eiso Chan ([L2/21-165](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-165))
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 14.)_
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 Section 14 for decision and action items)_
+- 2023-03-01 Glyph Corrections for Eight Tangut Ideographs — Andrew West ([L2/23-066](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-066))
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.ii.4.)_
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.4 for decision and action items)_
+- 2023-05-31 Proposal to encode 2 Tangut components and 29 Tangut ideographs (WG2 N5217) — Andrew West ([L2/23-149](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-149))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.IV.5.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 5 for decision and action items)_
+- 2023-05-31 Proposal to encode 114 Tangut components (WG2 N5218) — Andrew West ([L2/23-150](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-150))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.IV.5.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 5 for decision and action items)_
+- 2023-06-21 Glyph corrections for four Tangut ideographs (WG2 N5237) — Andrew West ([L2/23-148](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-148))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point B.25.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 25 for decision and action items)_
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.IV.5a.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 5a for decision and action items)_
+- 2023-06-28 Evidence for Glyph Forms of U+17121 and U+17C51 — Andrew West ([L2/23-155](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-155))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point B.25.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 25 for decision and action items)_
+- 2023-10-02 Proposal to encode 2 Tangut components and 28 Tangut ideographs — Andrew West (WG2 N5217R2 [L2/23-246](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-246))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.IV.5c.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 5c for decision and action items)_
+- 2023-10-02 Proposal to encode 114 Tangut components — Andrew West (WG2 N5218R2, [L2/23-247](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-247))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.IV.5b.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 5b for decision and action items)_
+- 2024-01-29 Review of Proposal to encode 114 Tangut components — Andrew West ([L2/24-048](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-048))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.IV.6.)_
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section IV-6 for decision and action items)_
+- 2024-10-14 Proposal to encode two Tangut ideographs (WG2 N5286) — Eiso Chan, Jerry You, Viacheslav Zaytsev ([L2/24-236](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-236))
+- 2024-11-11 Feedback on L2/24-236 — Andrew West ([L2/25-040](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-040))
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 2.5.)_
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 2.5 for decision and action items)_
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 3.1.)_
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 3.1 for decision and action items)_
+- 2025-02-03 Proposal on adding kTangutNumeric property to UAX #60 — Eiso Chan ([L2/25-055](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-055))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 6.)_
+- 2025-03-25 Tangut Radical/Stroke Corrections — Andrew West ([L2/25-120](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-120))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 3.3, 3.4, and 3.5.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 3.3, D.1 3.4, and D.1 3.5 for decision and action items)_
+- 2025-03-28 Proposal to encode one Tangut ideograph — Andrew West, Viacheslav Zaytsev ([L2/25-144](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-144))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.4.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.4 for decision and action items)_
+- 2025-04-18 Glyph changes for 18 Tangut ideographs and 1 Tangut Component — Andrew West, Viacheslav Zaytsev ([L2/25-143](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-143))

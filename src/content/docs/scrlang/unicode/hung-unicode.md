@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Old Hungarian script implementation is discussed in [Chapter 8 Europe-II](http://www.unicode.org/versions/latest/ch08.pdf).
+In The Unicode Standard, Old Hungarian script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G33926).
 
 ## Blocks
 
@@ -19,7 +19,7 @@ The Old Hungarian script was encoded in The Unicode Standard version 8.0. The sc
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2[^1]:
-- 1998-01-18 Draft proposal to encode Old Hungarian in Plane 1 of ISO/IEC 10646 — Michael Everson ([WG2 N1686](https://www.unicode.org/wg2/docs/n1686/n1686.htm), [WG2 N1686b](https://www.unicode.org/wg2/docs/n1686b.htm),[WG2 N1686c](https://www.unicode.org/wg2/docs/n1686c.htm), [L2/98-033](http://www.unicode.org/L2/L1998/98033.pdf))
+- 1998-01-18 Draft proposal to encode Old Hungarian in Plane 1 of ISO/IEC 10646 — Michael Everson (WG2 N1686, N1686b,N1686c (none online), [L2/98-033](http://www.unicode.org/L2/L1998/98033.pdf))
 - 1998-05-02 On encoding the Old Hungarian rovásírás in the UCS — Michael Everson ([WG2 N1758](https://www.unicode.org/wg2/docs/n1758.pdf), L2/98-220 (not online))
 - 2008-08-04 Preliminary proposal to encoding the Old Hungarian script in the UCS — Michael Everson, André Szabolcs Szelp — ([WG2 N3483](https://www.unicode.org/wg2/docs/n3483.pdf), [L2/08-268](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-268))
 - 2008-09-30 Proposal for encoding the Native Hungarian script in the UCS — Bakonyi Gábor ([WG2 N3526](https://www.unicode.org/wg2/docs/n3526.pdf), [L2/08-353](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-353))
@@ -74,6 +74,19 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2013-03-07 Declaration for declining the “Hungarian” block of the DAM — Jeno Demeczky, Lajos Ivanyos, Gábor Hosszú, Tamás Rumi, László Sípos, Erzsébet Zelliger ([WG2 N4422](https://www.unicode.org/wg2/docs/n4422.pdf), [L2/13-049](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-049))
 - 2013-05-05 Declaration in support of the encoding of Hungarian — Miklos Szondi ([WG2 N4420](https://www.unicode.org/wg2/docs/n4420.pdf))
 - 2013-10-26 Declaration for removing the "Old Hungarian" block from DAM — Jeno Demeczky, Lajos Ivanyos, Gábor Hosszú, Tamás Rumi, László Sípos, Tamás Somfai, Erzsébet Zelliger ([WG2 N4492](https://www.unicode.org/wg2/docs/n4492.pdf), [L2/13-218](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-218))
+- 2021-04-12 Proposal for modifying the Old Hungarian block (range 10C80-10CFF) — Bence FEHÉR, József Álmos KATONA ([L2/21-115](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-115))
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 2.)_
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+- 2021-08-30 Proposal for a compromise of the recent Old Hungarian proposal — Eduardo Marín Silva ([L2/21-246](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-246))
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 21d.)_
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 SECTION 21d for decision and action items)_
+- 2022-11-08 Proposal for a compromise of the recent Old Hungarian proposal — Viktor Kovács ([L2/22-285](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-285))
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point B.16.)_
+- 2023-03-09 Article on Old Hungarian letters for Q, X, Y — Viktor Kovács ([L2/23-067](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-067))
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See section D, page 17)_
+- 2023-12-21 Additional comments on L2/21-115 (Proposal for modifying the Old Hungarian block) — Deborah Anderson, Viktor Kovács        ([L2/24-003](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-003))
+  - _Recommendations to UTC #178 January 2024 on Script Proposals ([L2/24-013](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-013)) (See point B.21.)_
+  - _UTC #178 Minutes ([L2/24-006](https://www.unicode.org/L2/L2024/24006.htm)) (See D.1 Section 21 for decision and action items)_
 
 
 

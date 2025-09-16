@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Cham script implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf).
+In The Unicode Standard, Cham script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G55659).
 
 ## Blocks
 
@@ -29,3 +29,4 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2016-04-25 Proposal to encode seven Cham characters in the BMP of the UCS — Michael Everson, Andrew Cunningham (WG2 N4711, [L2/16-082](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-082))
   - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 11 for recommendations)_
   - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See C.9 for decision and action items)_
+- 2022-04-15 Line breaking at orthographic syllable boundaries (revised) — Norbert Lindenberg, et al ([L2/22-080](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-080))

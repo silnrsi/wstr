@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Dives Akuru script implementation is discussed in [Chapter 15 South and Central Asia-IV: Other Historic Scripts](http://www.unicode.org/versions/latest/ch15.pdf).
+In The Unicode Standard, Dives Akuru script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G108027).
 
 ## Blocks
 
@@ -27,3 +27,5 @@ A number of proposals towards its inclusion were submitted to the Unicode Techni
   - _Recommendations to UTC #154 January 2018 on Script Proposals ([L2/18-039](http://www.unicode.org/L2/L2018/18039-script-adhoc-rec.pdf)) (See point 10.)_
 - 2018-01-23 Proposal to encode Dives Akuru (revised; replaces L2/17-417) — Anshuman Pandey ([L2/18-016](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/18-016))
   - _UTC #154 Minutes ([L2/18-007](http://www.unicode.org/L2/L2018/18007.htm)) (See D.7 for decision and action items)_
+- 2022-07-20 _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 22.)_
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 for decision and action items)_

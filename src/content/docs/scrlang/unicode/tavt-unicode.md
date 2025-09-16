@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Tai Viet script implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf).
+In The Unicode Standard, Tai Viet script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G59747).
 
 ## Blocks
 
@@ -28,3 +28,5 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2008-05-09 Writing Tai Don - Additional characters needed for the Tai Viet script — Jim Brase ([L2/08-217](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-217))
 - 2010-09-17 Proposal to change UAX#29 in response to Thai, Lao, Tai Dam user needs — Martin Hosken ([L2/10-460](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-460))
 - 2011-04-18 Proposal to change grapheme extending properties of various characters — Martin Hosken ([L2/11-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-114))
+- 2022-12-16 Proposal to encode additional Tai Viet characters for the Jinping Dai — Kushim Jiang ([L2/23-023](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-023))
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point B.19.)_

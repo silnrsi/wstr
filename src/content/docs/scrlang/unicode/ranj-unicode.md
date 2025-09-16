@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-The Ranjana script is not yet in Unicode. The script has a tentative allocation at U+11500..U+1157F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Ranjana script is slated to go into Unicode 14.0. The script has an allocation at U+11500..U+1157F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Proposals and documents
 
@@ -20,3 +20,5 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2014-09-23 Comparison between Ranjana proposals — Deborah Anderson ([L2/14-221](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-221))
 - 2016-01-06 Towards an encoding for the Ranjana and Lantsa scripts — Anshuman Pandey ([L2/16-015](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-015))
   - _UTC #146 Minutes ([L2/16-004](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-004)) (See D.14 for decision and action items)_
+- 2023-01-05 Preliminary proposal to encode Ranjana in Unicode — Anshuman Pandey ([L2/23-028](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-028))
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point B.17.)_

@@ -24,3 +24,8 @@ A number of documents toward its inclusion have been submitted to the Unicode Te
   - _Recommendations to UTC #148 August 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu, and Lisa Moore ([L2/16-216](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-216)) (See section 4 for recommendations)_
   - _UTC #148 Minutes ([L2/16-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-203)) (See C.2.1 for decision and action items)_
 - 2020-02-05 Report on progress with African scripts in Unicode and their implementations — Charles L. Riley ([L2/20-067](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-067))
+- 2022-03-03 Update on implementation status of African scripts — Charles L. Riley ([L2/22-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-073))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 28.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 28 for decision and action items)_
+- 2023-09-08 Update on Usage and Implementation Status of African Scripts — Oreen Yousuf, Charles Riley, Daniel Yacob, Neil Patel, Tim Brookes ([L2/23-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-203))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.26.)_

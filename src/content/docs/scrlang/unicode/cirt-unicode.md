@@ -11,4 +11,4 @@ The Cirth script is not yet in Unicode. The script has a tentative allocation at
 ## Proposals and documents
 
 One proposal for its inclusion was submitted to the Unicode Technical Committee and WG2:
-- 1997-09-18 Proposal to encode Cirth Plane 1 — Michael Everson ([WG2 N1642.htm](https://www.unicode.org/wg2/docs/n1642/n1642.htm), L2/97-272 (not online))
+- 1997-09-18 Proposal to encode Cirth Plane 1 — Michael Everson (WG2 N1642.htm (not online), L2/97-272 (not online))

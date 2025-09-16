@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Mandaic script implementation is discussed in [Chapter 9 Middle East-I](http://www.unicode.org/versions/latest/ch09.pdf).
+In The Unicode Standard, Mandaic script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G46613).
 
 ## Blocks
 
@@ -32,3 +32,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #162 Minutes ([L2/20-015](http://www.unicode.org/L2/L2020/20015.htm)) (See C.11.1 for decision and action items)_
 - 2020-01-10 Mandaic KAD — Ardwan Al-Sabti ([L2/20-049](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-049))
   - _UTC #162 Minutes ([L2/20-015](http://www.unicode.org/L2/L2020/20015.htm)) (See C.11.3 for decision and action items)_
+- 2024-05-17 On the future of MANDAIC LETTER KAD — Ben Joeng (Yang) ([L2/24-133](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-133))
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 5.2.)_
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 5.2 for decision and action items)_

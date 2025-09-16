@@ -25,3 +25,9 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2020-05-08 Response to 'Next steps on Book Pahlavi' (L2/20-135) — Arash Zeini ([L2/20-141](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-141))
 - 2020-09-07 Teeth and bellies: a proposed model for encoding Book Pahlavi — Roozbeh Pournader ([L2/20-246](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-246))
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 6.)_
+- 2021-04-23 Advancing the encoding model for Book Pahlavi letters — Anshuman Pandey ([L2/21-090](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-090))
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 5.)_
+  - _UTC #167 Minutes ([L2/21-067](https://www.unicode.org/L2/L2021/21066.htm)) (See B.1 for decision and action items)_
+- 2024-01-16 Revised proposal to encode Book Pahlavi in Unicode — Anshuman Pandey ([L2/24-040](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-040))
+- 2024-02-06 Feedback on Book Pahlavi proposal — Eduardo Marín Silva ([https://www.unicode.org/L2/L2024/24063-pubrev.html#ID20240206154504](https://www.unicode.org/L2/L2024/24063-pubrev.html#ID20240206154504))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.VIII.23.)_

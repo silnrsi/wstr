@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-The Tikamuli script is not yet in Unicode. The script has a tentative allocation at U+16D00..U+16D3F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Tikamuli script is not yet in Unicode. The script has a tentative allocation at U+16C80..U+16CBF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Proposals and documents
 

@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Brahmi script implementation is discussed in [Chapter 14 South and Central Asia-III: Ancient Scripts](http://www.unicode.org/versions/latest/ch14.pdf).
+In The Unicode Standard, Brahmi script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G39063).
 
 ## Blocks
 
@@ -30,7 +30,7 @@ _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and U
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:
 - 1992-10-30 Brahmi and Other Scripts of India — Rick McGowan ([Unicode Technical Report #3 R2](http://www.unicode.org/reports/tr3-2/))
-- 1998-01-18 Proposal to encode Brahmi in Plane 1 of ISO/IEC 10646 — Michael Everson ([WG2 N1685.htm](https://www.unicode.org/wg2/docs/n1685.htm), [WG2 N1685/N1685.htm](https://www.unicode.org/wg2/docs/n1685/n1685.htm), [L2/98-032](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/98-032))
+- 1998-01-18 Proposal to encode Brahmi in Plane 1 of ISO/IEC 10646 — Michael Everson ([L2/98-032](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/98-032))
 - 2000-02-15 Scripts from the Past in Future Versions of Unicode — Carl-Martin Bunz                 ([L2/00-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-128))
 - 2000-04-26 Further comments on historic scripts — Carl-Martin Bunz ([L2/00-153](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-153))
 - 2002-11-02 Note for the UTC on the encoding of Brahmi in Unicode — Stefan Baums, Andrew Glass ([L2/02-397](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-397))
@@ -84,3 +84,8 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 10.)_
 - 2020-04-21 Comments on L2/20-069: Encoding of Tamil Brahmi Virama (U+11070) — Naga Ganesan ([L2/20-129](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-129))
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 10.)_
+- 2022-04-13 Specification updates for orthographic syllables and line breaking — Norbert Lindenberg, et al ([L2/22-086](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-086))
+- 2022-04-15 Line breaking at orthographic syllable boundaries (revised) — Norbert Lindenberg, et al ([L2/22-080](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-080))
+  - 2022-07-20 _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 19.)_
+- 2022-08-07 Proposal to encode MINIMIZING VIRAMA in Brahmi script — Srinidhi A, Sridatta A ([L2/22-219](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-219))
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 14.)_

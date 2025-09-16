@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Tamil script implementation is discussed in [Chapter 12 South and Central Asia-I: Official Scripts of India](http://www.unicode.org/versions/latest/ch12.pdf).
+In The Unicode Standard, Tamil script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G10162).
 
 ## Blocks
 
@@ -201,3 +201,8 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #159 Minutes ([L2/19-122](http://www.unicode.org/L2/L2019/19122.htm)) (See D.4 for decision and action items)_
 - 2019-04-29 Response to L2/19-117 on Tamil annotations — Shriramana Sharma ([L2/19-184](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/19-184))
   - _UTC #159 Minutes ([L2/19-122](http://www.unicode.org/L2/L2019/19122.htm)) (See D.4 for decision and action items)_
+- 2022-02-07 Comments on Public Review Issues (Jan 18, 2022 - April 11, 2022) ScriptExtensions.txt — Elango Cheran ([L2/22-063](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-063))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 25.)_
+- 2022-06-07 Proposal to Add Data for Pairs of Identical sequences — Asmus Freytag ([L2/22-108](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-108))
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_

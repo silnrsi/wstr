@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Arabic Script implementation is discussed in [Chapter 9 Middle East-I: Modern and Liturgical Scripts](http://www.unicode.org/versions/latest/ch09.pdf). The _Arabic (Nastaliq variant)_ script uses characters from the Arabic script Unicode blocks.
+In The Unicode Standard, Arabic Script implementation is discussed in [Chapter 9 Middle East-I: Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G20596), in [UAX 53 Unicode Arabic Mark Rendering](https://www.unicode.org/reports/tr53/), and in [UTN 46 Rendering the Allah Ligature](https://www.unicode.org/notes/tn46/). The _Arabic (Nastaliq variant)_ script uses characters from the Arabic script Unicode blocks.
 
 ## Blocks
 
@@ -16,10 +16,12 @@ Arabic script was first encoded in The Unicode Standard version 1.0. Since that 
 | ------- | ----------------- | -------------------------- | ---------------- |
 | [Arabic](https://scriptsource.org/block/0600)  |  0600..06FF  |  1.0  |  [U0600.pdf](http://www.unicode.org/charts/PDF/U0600.pdf)  |
 | [Arabic Supplement](https://scriptsource.org/block/0750)  |  0750..077F  |  4.1  |  [U0750.pdf](http://www.unicode.org/charts/PDF/U0750.pdf)  |
+| [Arabic Extended-B](https://scriptsource.org/block/0870)  |  0870..089F  |  14.0  |  [U0870.pdf](http://www.unicode.org/charts/PDF/U0870.pdf)  |
 | [Arabic Extended-A](https://scriptsource.org/block/08A0)  |  08A0..08FF  |  6.1  |  [U08A0.pdf](http://www.unicode.org/charts/PDF/U08A0.pdf)  |
 | [Arabic Presentation Forms-A](https://scriptsource.org/block/FB50)  |  FB50..FDFF  |  1.1  |  [UFB50.pdf](http://www.unicode.org/charts/PDF/UFB50.pdf)  |
 | [Arabic Presentation Forms-B](https://scriptsource.org/block/FE70)  |  FE70..FEFF  |  1.1  |  [UFE70.pdf](http://www.unicode.org/charts/PDF/UFE70.pdf)  |
 | [Rumi Numeral Symbols](https://scriptsource.org/block/10E60) | 10E60..10E7F  |  5.2  | [U10E60.pdf](http://www.unicode.org/charts/PDF/U10E60.pdf)  |
+| [Arabic Extended-C](https://scriptsource.org/block/10EC0)  |  10EC0..10EFF  |  15.0  |  [U10EC0.pdf](http://www.unicode.org/charts/PDF/U10EC0.pdf)  |
 | [Arabic Mathematical Alphabetic Symbols](https://scriptsource.org/block/1EE00)  |  1EE00..1EEFF  |  6.1  |  [U1EE00.pdf](http://www.unicode.org/charts/PDF/U1EE00.pdf)  |
 
 ## Characters
@@ -29,18 +31,18 @@ Subsequent to version 1.1, the following characters have been added to the Arabi
 | Characters  |  Unicode Version  |  Documentation  |
 | ----------- | ----------------- | --------------- |
 | 0600..0602  |  4.0  |  [L2/02-061](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-061)  |
-| 0603  |  4.0  |  [n2413-4](https://www.unicode.org/wg2/docs/n2413-4.pdf) [L2/02-163](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-163), [n2453](https://www.unicode.org/wg2/docs/n2453.pdf) [L2/02-372](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-372)   |
+| 0603  |  4.0  |  [L2/02-163](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-163), [n2453](https://www.unicode.org/wg2/docs/n2453.pdf) [L2/02-372](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-372)   |
 | 0604  |  6.1  |  [n3734](https://www.unicode.org/wg2/docs/n3734.pdf) [L2/09-144](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-144)  |
 | 0605  |  7.0  |  [n3990](https://www.unicode.org/wg2/docs/n3990.pdf) [L2/11-062](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-062)  |
 | 0606..060A  |  5.1  |  [n3086-1](https://www.unicode.org/wg2/docs/n3086-1.pdf) [L2/06-125](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-125)  |
 | 060B  |  4.1 |  [n2640](https://www.unicode.org/wg2/docs/n2640.pdf) [L2/03-330](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-330)  |
 | 060D..060E  |  4.0  |  [L2/02-061](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-061)  |
-| 060F  |  4.0  |  [n2413-4](https://www.unicode.org/wg2/docs/n2413-4.pdf) [L2/02-163](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-163), [n2453](https://www.unicode.org/wg2/docs/n2453.pdf) [L2/02-372](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-372)  |
+| 060F  |  4.0  |  [L2/02-163](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-163), [n2453](https://www.unicode.org/wg2/docs/n2453.pdf) [L2/02-372](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-372)  |
 | 0610..0614  |  4.0  |  [L2/02-061](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-061)  |
-| 0615  |  4.0  |  [n2413-4](https://www.unicode.org/wg2/docs/n2413-4.pdf) [L2/02-163](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-163), [n2453](https://www.unicode.org/wg2/docs/n2453.pdf) [L2/02-372](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-372)  |
+| 0615  |  4.0  |  [L2/02-163](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-163), [n2453](https://www.unicode.org/wg2/docs/n2453.pdf) [L2/02-372](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-372)  |
 | 0616  |  5.1  |  [n3180r](https://www.unicode.org/wg2/docs/n3180.pdf) [L2/06-345](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-345)  |
 | 0617..061A  |  5.1  |  [n3185r](https://www.unicode.org/wg2/docs/n3185.pdf) [L2/06-358](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-358)  |
-| 061C  |  6.3  |  [n4180](https://www.unicode.org/wg2/docs/n4180.pdf) [[L2/11-432R](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-432) ](http://www.unicode.org/L2/L2011/11432r-n4180r-alm-form.pdf) |
+| 061C  |  6.3  |  [n4180](https://www.unicode.org/wg2/docs/n4180.pdf) [L2/11-432r](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-432)  |
 | 061E  |  4.1  |  [n2598](https://www.unicode.org/wg2/docs/n2598.pdf) [L2/03-159](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-159)  |
 | 0620  |  6.0  |   [n3673](https://www.unicode.org/wg2/docs/n3673.pdf) [L2/09-215](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-215)  |
 | 063B..063F  |  5.1  |  [n3180r](https://www.unicode.org/wg2/docs/n3180.pdf) [L2/06-345](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-345), [L2/07-221](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-221)  |
@@ -88,7 +90,7 @@ Subsequent to version 1.1, the following characters have been added to the Arabi
 | 08F4..08FE  |  6.1  |  [n3882](https://www.unicode.org/wg2/docs/n3882.pdf) [L2/10-288](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-288)  |
 | 08FF  |  7.0  |  [n3989](https://www.unicode.org/wg2/docs/n3989.pdf) [L2/11-033](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-033) |
 | FBB2..FBC1  |  6.0  |  [n3460](https://www.unicode.org/wg2/docs/n3460.pdf) [L2/08-159](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-159), [n3575](https://www.unicode.org/wg2/docs/n3575.pdf),  [n3606](https://www.unicode.org/wg2/docs/n3606.pdf)  |
-| FDFD  |  4.0  |  [n2413-4](https://www.unicode.org/wg2/docs/n2413-4.pdf) [L2/02-163](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-163), [n2453](https://www.unicode.org/wg2/docs/n2453.pdf) [L2/02-372](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-372)   |
+| FDFD  |  4.0  |  [L2/02-163](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-163), [n2453](https://www.unicode.org/wg2/docs/n2453.pdf) [L2/02-372](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-372)   |
 | FE73  |  3.2  |   |
 | 1EE00..1EEFF (various)  |  6.1  |   [n3799](https://www.unicode.org/wg2/docs/n3799.pdf) [L2/10-105](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-105) |
 
@@ -104,8 +106,8 @@ NB: The following sections include some characters that are not in the Arabic bl
 
 ##### Changes
 
-| Character: | What changed: | Change: |
-| ---------- | ------------- | ------- |
+| Character | What changed | Change |
+| --------- | ------------ | ------ |
 | <span class='USV'>U+00AD</span>&nbsp;<span class='UnicodeCharName'>SOFT HYPHEN</span> | General Category | Pd -&gt;Cf |
 | <span class='USV'>U+06DD</span>&nbsp;<span class='UnicodeCharName'>ARABIC END OF AYAH</span> | Joining Type | none -&gt; U |
 | <span class='USV'>U+200C</span>&nbsp;<span class='UnicodeCharName'>ZERO WIDTH NON-JOINER</span> | Joining Type | none -&gt; U |
@@ -129,8 +131,8 @@ NB: The following sections include some characters that are not in the Arabic bl
 
 ##### Changes
 
-| Character: | What changed: | Change: |
-| ---------- | ------------- | ------- |
+| Character | What changed | Change |
+| --------- | ------------ | ------ |
 | <span class='USV'>U+002B</span>&nbsp;<span class='UnicodeCharName'>PLUS SIGN</span> | BIDI Class | ET -&gt; ES |
 | <span class='USV'>U+002D</span>&nbsp;<span class='UnicodeCharName'>HYPHEN-MINUS</span> | BIDI Class | ET -&gt; ES |
 | <span class='USV'>U+002F</span>&nbsp;<span class='UnicodeCharName'>SOLIDUS</span> | BIDI Class | ES -&gt; CS |
@@ -169,8 +171,8 @@ NB: The following sections include some characters that are not in the Arabic bl
 
 Unfortunately, Unicode 5.0 introduced a change that adversely affected a lot of existing right-to-left data:
 
-| Character: | What changed: | Change: |
-| ---------- | ------------- | ------- |
+| Character | What changed | Change |
+| --------- | ------------ | ------ |
 | <span class='USV'>U+2018</span>&nbsp;<span class='UnicodeCharName'>LEFT SINGLE QUOTATION MARK</span> | BIDI Mirrored | N -&gt; Y |
 | <span class='USV'>U+2019</span>&nbsp;<span class='UnicodeCharName'>RIGHT SINGLE QUOTATION MARK</span> | BIDI Mirrored | N -&gt; Y |
 | <span class='USV'>U+201A</span>&nbsp;<span class='UnicodeCharName'>SINGLE LOW-9 QUOTATION MARK</span> | BIDI Mirrored | N -&gt; Y |
@@ -182,18 +184,18 @@ Unfortunately, Unicode 5.0 introduced a change that adversely affected a lot of 
 
 After the problem was discovered, Unicode issued [Corrigendum #6](http://www.unicode.org/versions/corrigendum6.html) to undo the above changes. This corrigendum was subsequently incorporated into Unicode 5.1.
 
-##### Additions:
+##### Additions
 
 None.
 
 ### Version 5.0 to 5.1
 
-##### Changes:
+##### Changes
 
 In addition to undoing the Mirroring change introduced in 5.0, version 5.1 made a fundamental change to the Arabic subtending marks so they would reorder properly with digits that followed them.
 
-| Character: | What changed: | Change: |
-| ---------- | ------------- | ------- |
+| Character | What changed | Change |
+| --------- | ------------ | ------ |
 | <span class='USV'>U+0600</span>&nbsp;<span class='UnicodeCharName'>ARABIC NUMBER SIGN</span> | BIDI Class | AL -&gt; AN |
 | <span class='USV'>U+0601</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN SANAH</span> | BIDI Class | AL -&gt; AN |
 | <span class='USV'>U+0602</span>&nbsp;<span class='UnicodeCharName'>ARABIC FOOTNOTE MARKER</span> | BIDI Class | AL -&gt; AN |
@@ -208,7 +210,7 @@ In addition to undoing the Mirroring change introduced in 5.0, version 5.1 made 
 | <span class='USV'>U+201E</span>&nbsp;<span class='UnicodeCharName'>DOUBLE LOW-9 QUOTATION MARK</span> | BIDI Mirrored | Y -&gt; N |
 | <span class='USV'>U+201F</span>&nbsp;<span class='UnicodeCharName'>DOUBLE HIGH-REVERSED-9 QUOTATION MARK</span> | BIDI Mirrored | Y -&gt; N |
 
-##### Additions:
+##### Additions
 
 |  |  |  |
 | --- | --- | --- |
@@ -232,10 +234,10 @@ In addition to undoing the Mirroring change introduced in 5.0, version 5.1 made 
 
 ### Version 5.1 to 5.2
 
-##### Changes:
+##### Changes
 
-| Character: | What changed: | Change: |
-| ---------- | ------------- | ------- |
+| Character | What changed | Change |
+| --------- | ------------ | ------ |
 | <span class='USV'>U+063D</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH INVERTED V</span> | Joining Group | YEH -&gt; FARSI YEH |
 | <span class='USV'>U+063E</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE</span> | Joining Group | YEH -&gt; FARSI YEH |
 | <span class='USV'>U+063F</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE</span> | Joining Group | YEH -&gt; FARSI YEH |
@@ -245,20 +247,20 @@ In addition to undoing the Mirroring change introduced in 5.0, version 5.1 made 
 | <span class='USV'>U+0775</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE</span> | Joining Group | YEH -&gt; FARSI YEH |
 | <span class='USV'>U+0776</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE</span> | Joining Group | YEH -&gt; FARSI YEH |
 
-##### Additions:
+##### Additions
 
 None.
 
 ### Version 5.2 to 6.0
 
-##### Changes:
+##### Changes
 
-| Character: | What changed: | Change: |
-| ---------- | ------------- | ------- |
+| Character | What changed | Change |
+| --------- | ------------ | ------ |
 | <span class='USV'>U+06C3</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER TEH MARBUTA GOAL</span> | Joining Group | HAMZA ON HEH GOAL -&gt; TEH MARBUTA GOAL |
 | <span class='USV'>U+06DE</span>&nbsp;<span class='UnicodeCharName'>ARABIC START OF RUB EL HIZB</span> | General Category<br/>BIDI Class | ME -&gt; So<br/>NSM -&gt; ON |
 
-##### Additions:
+##### Additions
 
 |  |  |  |
 | --- | --- | --- |
@@ -274,14 +276,14 @@ None.
 
 ### Version 6.0 to 6.1
 
-##### Changes:
+##### Changes
 
-| Character: | What changed: | Change: |
-| ---------- | ------------- | ------- |
+| Character | What changed | Change |
+| --------- | ------------ | ------ |
 | <span class='USV'>U+00A7</span>&nbsp;<span class='UnicodeCharName'>SECTION SIGN</span> | General Category | So -&gt; Po |
 | <span class='USV'>U+00B6</span>&nbsp;<span class='UnicodeCharName'>PILCROW SIGN</span> | General Category | So -&gt; Po |
 
-##### Additions:
+##### Additions
 
 |  |  |
 | --- | --- |
@@ -379,21 +381,21 @@ None.
 
 ### Version 6.1 to 6.2
 
-##### Changes:
+##### Changes
 
-None:
+None.
 
-##### Additions:
+##### Additions
 
-None:
+None.
 
 ### Version 6.2 to 6.3
 
-##### Changes:
+##### Changes
 
-None:
+None.
 
-##### Additions:
+##### Additions
 
 |  |  |
 | --- | --- |
@@ -401,11 +403,11 @@ None:
 
 ### Version 6.3 to 7.0
 
-##### Changes:
+##### Changes
 
-None:
+None.
 
-##### Additions:
+##### Additions
 
 |  |  |
 | --- | --- |
@@ -417,11 +419,11 @@ None:
 
 ### Version 7.0 to 8.0
 
-##### Changes:
+##### Changes
 
-None:
+None.
 
-##### Additions:
+##### Additions
 
 |  |  |
 | --- | --- |
@@ -431,8 +433,8 @@ None:
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:
-- 1995-05-16 Response to document SC2/WG2 N1144 - Additions to Arabic Script as proposed by Hugh Ross — Alaa Ghoneim ([WG2 N1213.doc](https://www.unicode.org/wg2/docs/n1213.doc))
-- 1995-08-28 Comments on Chinese proposal for the Ughur, Kasakh, and Kirghiz languages — Khaled Sherif ([WG2 N1246.doc](https://www.unicode.org/wg2/docs/n1246.doc), [WG2 N1246.txt](https://www.unicode.org/wg2/docs/n1246.txt))
+- 1995-05-16 Response to document SC2/WG2 N1144 - Additions to Arabic Script as proposed by Hugh Ross — Alaa Ghoneim (WG2 N1213.doc (not online))
+- 1995-08-28 Comments on Chinese proposal for the Ughur, Kasakh, and Kirghiz languages — Khaled Sherif (WG2 N1246.doc (not online), WG2 N1246.txt (not online))
 - 1996-12-15 Extension of the Arabic coded character set for bibliographic information interchange — ISO 11822 ([L2/01-239](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-239))
 - 1998-12-01 Proposal to add 25 Arabic characters to the BMP — Mark Davis, Kamal Mansour ([L2/98-274, L2/98-409](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/98-409))
 - 1999-01-12 Some comments on the Arabic block in Unicode — Thomas Milo ([L2/01-329](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-329))
@@ -458,15 +460,15 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2001-11-01 Proposal to add Parkari letters to Arabic block — Jonathan Kew ([WG2 N2481](https://www.unicode.org/wg2/docs/n2481.pdf), [L2/01-427](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-427))
 - 2001-11-02 Year-sign example — Thomas Milo ([L2/01-439](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-439))
 - 2002-01-10 Urdu Computing Standards (Charts) — Hussain &amp; Afzal ([L2/02-005](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-005))
-- 2002-01-10 Towards Unicode Standard for Urdu — Khaver Zia ([WG2 N2413-1](https://www.unicode.org/wg2/docs/n2413-1.pdf)) — [L2/02-006](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-006))
+- 2002-01-10 Towards Unicode Standard for Urdu — Khaver Zia ([L2/02-006](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-006))
 - 2002-01-15 Comments on L2/02-006: Towards Unicode Standard for Urdu — Jonathan Kew ([L2/02-011](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-011))
 - 2002-01-17 Proposal to amend Arabic repertoire — Mark Davis, Kamal Mansour ([L2/02-021](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-021))
-- 2002-01-23 Proposal for Incorporation of Urdu in ISO/IEC 10646 and Unicode — Pakistan ([WG2 N2413.htm](https://www.unicode.org/wg2/docs/n2413.htm))
+- 2002-01-23 Proposal for Incorporation of Urdu in ISO/IEC 10646 and Unicode — Pakistan (within [WG2 N2413.zip](https://www.unicode.org/wg2/docs/n2413.zip))
 - 2002-01-29 Bidi committee consensus on Arabic additions from L2/01-425 — Jonathan Kew ([WG2 N2482](https://www.unicode.org/wg2/docs/n2482.pdf), [L2/02-061](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-061))
-- 2002-03-08 Urdu Computing Standards: Development of Urdu Zabta Takhti - WG2 N2413-2 - SC2 N3589-2(UZT) 1.01 — Muhammad Afzal, Sarmad Hussain ([WG2 N2413-2](https://www.unicode.org/wg2/docs/n2413-2.pdf), [L2/02-003](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-003))
-- 2002-03-08 Urdu Computing Standards: Urdu Zabta Takhti (UZT) 1.01 - WG2 N2413-3 / SC2 N3589-3 — Sarmad Hussain, Muhammad Afzal ([WG2 N2413-3](https://www.unicode.org/wg2/docs/n2413-3.pdf), [L2/02-004](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-004))
+- 2002-03-08 Urdu Computing Standards: Development of Urdu Zabta Takhti - WG2 N2413-2 - SC2 N3589-2(UZT) 1.01 — Muhammad Afzal, Sarmad Hussain ([L2/02-003](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-003))
+- 2002-03-08 Urdu Computing Standards: Urdu Zabta Takhti (UZT) 1.01 - WG2 N2413-3 / SC2 N3589-3 — Sarmad Hussain, Muhammad Afzal ([L2/02-004](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-004))
 - 2002-04-26 Progress Report on L2/02-21 (amend Arabic repertoire) — Kamal  Mansour ([L2/02-161](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-161))
-- 2002-04-30 Proposal to add Marks and Digits in Arabic Code Block (for Urdu) — WG2 / Pakistan ([WG2 N2413-4.doc](https://www.unicode.org/wg2/docs/n2413-4.doc), [WG2 N2413-4](https://www.unicode.org/wg2/docs/n2413-4.pdf), [L2/02-163](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-163))
+- 2002-04-30 Proposal to add Marks and Digits in Arabic Code Block (for Urdu) — WG2 / Pakistan ([L2/02-163](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-163))
 - 2002-05-21 Proposal to add 16 Arabic characters (summary form to go with L2/02-061, L2/01-427, L2/01-425) — US ([WG2 N2487.doc](https://www.unicode.org/wg2/docs/n2487.doc), [L2/02-227](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-227))
 - 2002-07-16 Proposal for extensions to the Arabic block — Jonathan Kew ([L2/02-274](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-274))
 - 2002-08-02 Proposal for Koranic alternate marks — Jonathan Kew ([L2/02-275](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-275))
@@ -798,3 +800,177 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #165 Minutes ([L2/20-237](https://www.unicode.org/L2/L2020/20237.htm)) (See B.1 for decision and action items)_
 - 2020-09-23 Proposal to encode Persian Siyaq Numbers in Unicode — Anshuman Pandey ([L2/20-249](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-249))
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 21.)_
+- 2020-12-07 Request for annotations for Sindhi and Behdini Kurdish-- Lorna Priest Evans ([L2/20-288](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-288))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 11b.)_
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 11b for decision and action items)_
+- 2020-12-07 Request for glyph changes and annotations for Kazakh, Kyrgyz, and Uyghur — Lorna Priest Evans        ([L2/20-289](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-289))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 11a.)_
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 11a for decision and action items)_
+- 2020-12-11 Proposal to encode Damma over Damma used in Quran published in Tunisia — Lateef Sagar Shaikh        ([L2/20-292](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-292))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 11c.)_
+- 2020-12-21 U+0641 information for Uyghur, Kazakh and Kyrgyz — Eiso Chan, Kushim Jiang, Kwat Ulan        ([L2/20-293](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-293))
+- 2021-02-06 Missing Urdu digits 4, 6 and 7 — Aleem Qureshi ([L2/21-080](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-080))
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 4d.)_
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 for decision and action items)_
+- 2021-02-19 On the Arabic Letters Feh &amp; Qaf — Kamal Mansour ([L2/21-051](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-051))
+- 2021-04-09 Response to China NB comments on WG2 N5155 (UTC document L2/21-050) — Peter Constable (WG2 N5162, [L2/21-098](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-098))
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 4b.)_
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 for decision and action items)_
+- 2021-04-20 Response from Lateef Sagar on SAH Comments re: Damma Over Damma — Deborah Anderson / SEI ([L2/21-085](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-085))
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 4a.)_
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 for decision and action items)_
+- 2021-04-20 Regarding the Behdini Kurdish Heh — Lorna Priest Evans ([L2/21-087](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-087))
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 4c.)_
+  - _UTC #167 Minutes ([L2/21-067](https://www.unicode.org/L2/L2021/21066.htm)) (See B.1 for decision and action items)_
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 4a.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 4a for decision and action items)_
+- 2021-06-24 Proposal to encode Quranic marks used in Turkey — Lateef Sagar Shaikh ([L2/21-133](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-133))
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 6a.)_
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+- 2021-05-21 Proposal to encode Persian Siyaq Numbers in Unicode — Anshuman Pandey ([L2/21-105](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-105))
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 22.)_
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+- 2021-07-06 Regarding the Sindhi Heh — Lorna Priest Evans ([L2/22-052](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-052))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 43.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 4d for decision and action items)_
+- 2021-07-25 Proposal to unify the Diwani Siyaq numerals with the Ottoman Siyaq numerals — Eduardo Marín Silva ([L2/21-186](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-186))
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 16.)_
+- 2021-08-11 Proposal to encode Quranic Superscript Alef Motahafar used in Quran published in Libya — Lateef Sagar Shaikh ([L2/21-204](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-204))
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 4b.)_
+- 2021-08-25 Allocating Arabic Extended-C in SMP and Arabic code point changes — Roozbeh Pournader ([L2/21-181](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-181))
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 4a.)_
+  - _UTC #169 Minutes ([L2/21-167](https://www.unicode.org/L2/L2021/21167.htm)) (See B.1 Section 4a for decision and action items)_
+- 2021-09-15 Response to SAH re: Proposal to add four new Arabic characters for Balochi language (L2/19-<br />
+320) — Qazi Rehan ([L2/21-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-238))
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 6b.)_
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 Section 6b for decision and action items)_
+- 2021-10-17 Comments on L2/21-204 Quranic Superscript Alef Motahafar used in Quran<br />
+published in Libya — M. van Putte ([   L2/21-239](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-239))
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 6e.)_
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 Section 6e for decision and action items)_
+- 2021-10-19 Clarification on spelling of lam-alef ligatures for al-Dani — Lorna Priest Evans ([L2/22-025](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-025))
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 6d.)_
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 Section 6d for decision and action items)_
+- 2021-12-19 Proposal to encode Arabic Alef with Right Hamza used in Quran published in Iran — Lateef Sagar Shaikh     ([L2/22-035](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-035))
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 6a.)_
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 Section 6a for decision and action items)_
+- 2022-01-11 Proposal to Encode ARABIC LETTER THREE QUARTER HIGH HAMZA for Jawi — Ahmad Ali A. Karim, (Tun) Suzana (Tun) Othman, Dr. Hasanuddin Yusof ([L2/22-051](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-051))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 4c.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 4b for decision and action items)_
+- 2022-02-15 Proposal to encode Arabic Combining Alef Overlay used in Quran published in Libya — Lateef Sagar Shaikh    ([L2/22-047](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-047))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 4b.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 4b for decision and action items)_
+- 2022-02-17 Sindhi Heh — Kamal Mansour ([L2/22-053](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-053))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 43.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 4d for decision and action items)_
+- 2022-03-03 Update on implementation status of African scripts — Charles L. Riley     ([L2/22-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-073))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 28.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 28 for decision and action items)_
+- 2022-03-08 UTN #46: Rendering the Allah Ligature — Lorna Evans, Bob Hallissy ([TN46](https://www.unicode.org/notes/tn46/))
+- 2022-04-11 Comments on Public Review Issues (Jan 18, 2022 - April 11, 2022) — Halbast Abdullah ([L2/22-063](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-063))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 15.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 Section 15 for decision and action items)_
+- 2022-05-19 Fixing the name and glyph for U+0616 — Roozbeh Pournader ([L2/22-104](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-104))
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 4a.)_
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 Section 4a for decision and action items)_
+- 2022-05-22 Proposal to Encode Four Pegon Characters — Rikza F. Sh. ([L2/22-116](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-116))
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 4b.)_
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 Section 4b for decision and action items)_
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+- 2022-06-23 Disposition of comments on CDAM1.2 to ISO/IEC 10646 6th edition — Michel Suignard ([WG2 N5194](https://unicode.org/wg2/docs/n5194-CDAM19-2-DispositionOfComments.pdf))
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 34.)_
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 Section 34 for decision and action items)_
+- 2022-07-07 Proposal to Encode Three Quranic Arabic Characters — Rikza F. Sh. ([L2/22-153](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-153))
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 4c.)_
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 Section 4c for decision and action items)_
+- 2022-09-11 On ARABIC LETTER KAF WITH DOT BELOW — Febri Muhammad Nasrullah ([L2/22-221](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-221))
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point A 3.)_
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.5 for decision and action items)_
+- 2022-10-06 Proposal for extensions to the Arabic block — Mohamed Naji ([L2/22-261](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-261))
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 11.)_
+- 2022-10-17 List of Unencoded Arabic Characters — Rikza F. Sh. ([L2/22-284](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-284))
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point A.II.2.2b.)_
+  - _UTC #174 Minutes ([L2/23-005](http://www.unicode.org/L2/L2023/23005.htm)) (See D.1 Section II.2.2b for decision and action items)_
+- 2022-10-17 Proposal to Encode Two Quranic Arabic Characters (Replaces L2/22-153) (revised) — Rikza F. Sh. ([L2/22-281](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-281))
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point A.II.2.2a.)_
+  - _UTC #174 Minutes ([L2/23-005](http://www.unicode.org/L2/L2023/23005.htm)) (See D.1 Section II.2.2a for decision and action items)_
+- 2022-10-18 Review of some Arabic additions for Quranic orthographies — Salim Al Mandhari ([L2/22-251](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-251))
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point B.11.)_
+- 2023-02-15 Request to replace "start" with "star" in the name for U+06DE — Kamal Mansour ([L2/23-061](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-061))
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.iv.7.)_
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.7 for decision and action items)_
+- 2023-03-10 Left-to-right directionality in Arabic numeric expressions — Kamal Mansour ([L2/23-064](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-064))
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point D)_
+- 2023-04-07 Proposal for ARABIC BIBLICAL END OF VERSE — Lorna Priest Evans ([L2/23-103](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-103))
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.i.1.)_
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.1 for decision and action items)_
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point C.26.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 26 and F.1 Section 3 for decision and action items)_
+- 2023-04-20 Proposal to encode Arabic Letter Thin Noon — Khaled Hosny, Mostafa Jbire ([L2/23-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-121))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.III.3a.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 3a for decision and action items)_
+- 2023-05-10 Handling of the Heh in Sindhi Text — Kamal Mansour ([L2/23-117](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-117))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point B.16.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 16 for decision and action items)_
+- 2023-05-15 Dot behavior for U+06CC ARABIC LETTER FARSI YEH followed by U+0654 ARABIC HAMZA ABOVE — Lorna Evans ([L2/23-120](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-120))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.III.3c.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 3c for decision and action items)_
+- 2023-08-02 ([Proposed Update UTR #53, Unicode Arabic Mark Rendering](https://www.unicode.org/review/pri479/) — Roozbeh Pournader, Bob Hallissy, Lorna Evans
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.III.3b.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.2 PRI #479 and D.1 Section 3b for decision and action items)_
+- 2023-08-02 Proposed Update UTR #53, Unicode Arabic Mark Rendering (HTML version) — Roozbeh Pournader, Bob Hallissy, Lorna Evans ([L2/23-266](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-266))
+- 2023-09-26 Proposal to encode Arabic Double Vertical Bar Below — Lateef Sagar Shaikh ([L2/23-248](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-248))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.III.3a.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 3a for decision and action items)_
+- 2023-10-02 Recommendation for UTR #53 to become a UAX — Roozbeh Pournader, Ken Whistler, Lorna Evans, Bob Hallissy     ([L2/23-210](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-210))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.III.3c.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.2 PRI #479 and D.1.1 Section 3c for decision and action items)_
+- 2023-10-16 Annotations for Kashmiri Yeh — Manish Goregaokar (मनीष गोरेगांवकर) ([L2/23-241](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-241))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.III.3b.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 3b for decision and action items)_
+- 2023-11-03 Proposal to encode eight more Arabic honorifics — Roozbeh Pournader, Rikza F. Sh., Amir Mahdi Moslehi ([L2/24-002](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-002))
+  - _Recommendations to UTC #178 January 2024 on Script Proposals ([L2/24-013](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-013)) (See point A.II.3a.)_
+  - _UTC #178 Minutes ([L2/24-006](https://www.unicode.org/L2/L2024/24006.htm)) (See D.1 Section 3a for decision and action items)_
+- 2023-11-20 Proposed Update UAX #53, Unicode Arabic Mark Rendering (HTML version) — Roozbeh Pournader, Bob Hallissy, Lorna Evans ([L2/24-029](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-029))
+  - _UTC #178 Minutes ([L2/24-006](https://www.unicode.org/L2/L2024/24006.htm)) (See D.2 PRI #487 for decision and action items)_
+- 2023-12-26 Proposal to include Shughni/Roshani Alphabet — Habib Zohoori ([L2/24-108](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-108))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point D.)_
+- 2024-01-01 Report on Kashmiri Yeh (revised) — Manish Goregaokar ([L2/23-273](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-273))
+  - _Recommendations to UTC #178 January 2024 on Script Proposals ([L2/24-013](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-013)) (See point A.II.3b.)_
+  - _UTC #178 Minutes ([L2/24-006](https://www.unicode.org/L2/L2024/24006.htm)) (See D.1 Section 3b for decision and action items)_
+- 2024-02-11 Proposal to add Arabic letter for Swahili — Denis Moyogo Jacquerye ([L2/24-055](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-055))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.III.4b.)_
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section III-4b for decision and action items)_
+- 2024-02-16 Proposal to encode ARABIC LETTER NOON WITH RING ABOVE in the UCS — Lorna Priest Evans ([L2/24-046](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-046))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.III.4a.)_
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section III 4a for decision and action items)_
+- 2024-03-18 Proposal to encode twenty-five more Arabic honorifics — Roozbeh Pournader, Rikza F. Sh., Amir Mahdi Moslehi ([L2/24-077](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-077))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.III.4c.)_
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section III-4c for decision and action items)_
+- 2024-04-11 Preliminary proposal to encode Arabic Crown Letters (30MB) — Manish Goregaokar, Khaled Hosny, Ben Yang, Mohamed Hasan ([L2/24-110](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-110))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point D.)_
+- 2024-04-17 Proposed Update UAX #53, Unicode Arabic Mark Rendering (HTML version) — Roozbeh Pournader, Bob Hallissy, Lorna Evans ([L2/24-118](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-118))
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.2 for decision and action items)_
+- 2024-05-04 Proposal to encode Arabic Crown Letters Manish Goregaokar, Khaled Hosny, Ben Yang, Mohamed Hasan ([L2/24-131](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-131))
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.II.3a.)_
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 3a for decision and action items)_
+- 2024-06-05 PROPOSAL TO ENCODE SIXTEEN QURANIC ARABIC CHARACTERS — Rikza F. Sh. ([L2/24-178](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-178))
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.II.3d.)_
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 3d for decision and action items)_
+- 2024-06-23 Fixing the Kashmiri Yeh — Manish Goregaokar, Roozbeh Pournader ([L2/24-152](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-152))
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.II.3b.)_
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 3b for decision and action items)_
+- 2024-07-18 Misspellings in some honorific character names _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.II.3c.)_
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 3c for decision and action items)_
+- 2024-12-17 Preliminary Proposal for Yeh Barree With Small V — Roozbeh Pournader ([L2/25-023](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-023))
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 6.1.)_
+- 2024-12-18 DoNotEmit for Arabic tashkil — Roozbeh Pournader ([L2/25-025](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-025))
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 4.1.)_
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 4.1 for decision and action items)_
+- 2025-01-16 Feedback on the names of Arabic Honorifics — Dalia Al-Shahrabi, Jan Kučera ([L2/25-041](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-041))
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 3.4.)_
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 3.4 for decision and action items)_
+- 2025-04-07 Proposal to encode Superscript digits used in Quran published in Pakistan — Lateef Sagar Shaikh ([L2/25-115](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-115))
+- 2025-04-22 Arabic Crown letters _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 3.1.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 3.1 for decision and action items)_

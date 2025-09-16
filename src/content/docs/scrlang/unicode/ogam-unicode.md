@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Ogham script implementation is discussed in [Chapter 8 Europe-II: Ancient and Other Scripts](http://www.unicode.org/versions/latest/ch08.pdf).
+In The Unicode Standard, Ogham script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G29182).
 
 ## Blocks
 
@@ -24,7 +24,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 1997-03-27 Proposed pDAM text for Ogham — Michael Everson (WG2 N1543 (not online) L2/97-049 (not online))
 - 1997-07-02 Ogham updated during meeting 33 — Michael Everson      (WG2 N1610 (not online) L2/97-155 (not online)
 - 1997-09-22 Text for combined PDAM registration and FPDAM ballot on ISO/IEC 19646-1/Amendment 20 - Ogham — Michael Everson (L2/97-230 (not online))
-- 1998-03-23 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 20: Ogham — WG2 ([WG2 N1772](https://www.unicode.org/wg2/docs/n1772.pdf), L2/98-109 (not online))
+- 1998-03-23 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 20: Ogham — WG2 (WG2 N1772 (not online), L2/98-109 (not online))
 - 1999-12-07 Registration #208 – Ogham — Michael Everson ([L2/99-377](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/99-377))
 - 2000-02-15 Scripts from the Past in Future Versions of Unicode — Carl-Martin Bunz ([     L2/00-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-128))
 - 2000-04-26 Further comments on historic scripts — Carl-Martin Bunz  ([   L2/00-153](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-153))

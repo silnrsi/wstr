@@ -6,7 +6,8 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Ethiopic script implementation is discussed in [Chapter 19 Africa](http://www.unicode.org/versions/latest/ch19.pdf).
+In The Unicode Standard, Ethiopic script implementation is discussed in [Chapter 19 Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G14116), [UTN 49: A Review of Shifts in Gurage Orthography](https://www.unicode.org/notes/tn49/), and in <br />
+[UTN 55: Application of the Zero Width Joiner Mark for Selective Ethiopic Ligation](https://www.unicode.org/notes/tn55/).
 
 ## Blocks
 
@@ -18,6 +19,7 @@ Ethiopic script was first encoded in The Unicode Standard version 3.0. Since tha
 | Ethiopic Supplement | 1380..139F | 4.1 | [U1380](http://www.unicode.org/charts/PDF/U1380.pdf) |
 | Ethiopic Extended |  2D80..2DDF | 4.1 | [U2D80](http://www.unicode.org/charts/PDF/U2D80.pdf) |
 | Ethiopic Extended-A | AB00..AB2F | 6.0 | [UAB00](http://www.unicode.org/charts/PDF/UAB00.pdf) |
+| Ethiopic Extended-B | 1E7E0..1E7FF | 14.0 | [U1E7E0](http://www.unicode.org/charts/PDF/U1E7E0.pdf) |
 
 ## Characters
 
@@ -59,7 +61,7 @@ _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and U
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:
 - 1992-11-25 Unicode Technical Report #1 — Joe Becker ([TR1](http://www.unicode.org/reports/tr1.html))
 - 1997-01-28 Combined PDAM registration and ballot for FPDAM 10: Ethiopic script — Bruce Paterson (L2/97-003 (not online))
-- 1997-12-01 Report on JTC1/SC2 letter ballot on FPDAM No. 10 to ISO/IEC 10646-1 (Ethiopic Script) — SC2/WG2 ([WG2 N1630.doc](https://www.unicode.org/wg2/docs/n1630.doc), L2/97-276 (not online))
+- 1997-12-01 Report on JTC1/SC2 letter ballot on FPDAM No. 10 to ISO/IEC 10646-1 (Ethiopic Script) — SC2/WG2 (WG2 N1630.doc, L2/97-276 (neither online))
 - 1998-09-11 Proposal to encode Ethiopic Extensions in the BMP of ISO/IEC 10646 (was distributed as L2/98-300) — Ethiopia, Ireland ([WG2 N1846](https://www.unicode.org/wg2/docs/n1846.pdf), [L2/98-300, L2/00-081](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-081))
 - 1999-03-31 Ordering labio-velar characters in Ethiopic — John Clews ([L2/99-122](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/99-122))
 - 2000-08-25 Proposed glyph fixes for Ethiopic pages in ISO/IEC 10646-1:2000 — Michael Everson ([L2/00-282](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-282))
@@ -74,6 +76,16 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2017-08-10 About script names in the code charts — Eduardo Marin Silva ([L2/17-293](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-293))
   - _Recommendations to UTC #153 October 2017 on Script Proposals ([L2/17-384](http://www.unicode.org/L2/L2017/17384-script-ad-hoc-recs.pdf)) (See point 1.)_
   - _UTC #153 Minutes ([L2/17-362](http://www.unicode.org/L2/L2017/17362.htm)) (See B.14 for decision and action items)_
+- 2021-01-11 Modern Gurage Orthography Additions to Ethiopic Script — Fekeda Menuta, Feidu Akmel Gobena, Daniel Yacob ([L2/21-037](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-037))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 9.)_
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 9 for decision and action items)_
+- 2022-03-03 Update on implementation status of African scripts — Charles L. Riley     ([L2/22-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-073))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 28.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 28 for decision and action items)_
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+- 2023-09-08 Update on Usage and Implementation Status of African Scripts — Oreen Yousuf, Charles Riley, Daniel Yacob, Neil Patel, Tim Brookes ([L2/23-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-203))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.26.)_
 
 Other documents related to Ethiopic and Unicode:
 - 1999/Sept [A Roadmap to the Extension of the Ethiopic Writing System Standard Under Unicode and ISO-10646](http://yacob.org/papers/DanielYacob-IUC15.pdf) — Asteraye Tsigie, Berhanu Beyene, Daniel Aberra, Daniel Yacob (IUC15)

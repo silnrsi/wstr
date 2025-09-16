@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard,Chorasmian script implementation is discussed in [Chapter 10 Middle East: Ancient Scripts](http://www.unicode.org/versions/latest/ch10.pdf).
+In The Unicode Standard,Chorasmian script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G43165).
 
 ## Blocks
 
@@ -30,3 +30,4 @@ A number of proposals towards its inclusion were submitted to the Unicode Techni
 - 2018-07-26 Proposal to encode the Chorasmian script in Unicode — Anshuman Pandey ([L2/18-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/18-164))
   - _Recommendations to UTC #156 July 2018 on Script Proposals ([L2/18-241](http://www.unicode.org/L2/L2018/18241-script-ad-hoc.pdf)) (See point 8.)_
   - _UTC #156 Minutes ([L2/18-183](http://www.unicode.org/L2/L2018/18183.htm)) (See D.9 and B.15.3 for decision and action items, search for second instance)_
+- 2022-07-20 _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 20.)_

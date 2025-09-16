@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Currency symbols are discussed in [Chapter 22 Symbols](http://www.unicode.org/versions/latest/ch22.pdf). Currency symbols generally have an inherited script property rather than a specific script property.
+In The Unicode Standard, Currency symbols are discussed in [Chapter 22: Symbols](https://www.unicode.org/versions/latest/core-spec/chapter-22/#G13244). Currency symbols generally have an inherited script property rather than a specific script property.
 
 ## Blocks
 
@@ -42,8 +42,8 @@ Subsequent to version 1.1, the following Currency characters have been added:
 | 0BF9 | 4.0 |  |
 | 17DB | 3.0 |  |
 | 20AB | 2.0 |  |
-| 20AC | 2.1 | [WG2 N1566.html](https://www.unicode.org/wg2/docs/n1566.html), L2/97-081 (not online) |
-| 20AD | 3.0 | [WG2 N1720.doc](https://www.unicode.org/wg2/docs/n1720.doc), [WG2 N1720](https://www.unicode.org/wg2/docs/n1720.pdf), [L2/98-061](http://www.unicode.org/L2/L1998/98061.pdf) |
+| 20AC | 2.1 | WG2 N1566.html, L2/97-081 (neither online) |
+| 20AD | 3.0 | WG2 N1720.doc, [L2/98-061](http://www.unicode.org/L2/L1998/98061.pdf) |
 | 20AE | 3.0 | WG2 N1857 (not online), L2/98-360 (not online) |
 | 20AF | 3.0 | [WG2 N1946](https://www.unicode.org/wg2/docs/n1946.pdf), [WG2 N1946_drachma](https://www.unicode.org/wg2/docs/n1946_drachma.pdf), [L2/99-025](http://www.unicode.org/L2/L1999/n1946.pdf), [WG2 N3866](https://www.unicode.org/wg2/docs/n3866.pdf), [L2/10-253](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-253) |
 | 20B0 | 3.2 | [WG2 N2188](https://www.unicode.org/wg2/docs/n2188.pdf), L2/98-309 (not available online), [L2/00-092](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-092) |
@@ -68,8 +68,8 @@ _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and U
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:
-- 1997-06-23 Proposal for addition of a new character: EURO SIGN — National bodies of Canada, Finland, Iceland, US, the Unicode Consortium and V.S. Umamaheswaran (expert) ([WG2 N1566.html](https://www.unicode.org/wg2/docs/n1566.html), L2/97-081 (not online))
-- 1998-02-27 KIP SIGN - Laotian Currency Sign — V.S. Umamaheswaran ([WG2 N1720.doc](https://www.unicode.org/wg2/docs/n1720.doc), [WG2 N1720](https://www.unicode.org/wg2/docs/n1720.pdf), [L2/98-061](http://www.unicode.org/L2/L1998/98061.pdf))
+- 1997-06-23 Proposal for addition of a new character: EURO SIGN — National bodies of Canada, Finland, Iceland, US, the Unicode Consortium and V.S. Umamaheswaran (expert) (WG2 N1566.html, L2/97-081 (neither online))
+- 1998-02-27 KIP SIGN - Laotian Currency Sign — V.S. Umamaheswaran (WG2 N1720, [L2/98-061](http://www.unicode.org/L2/L1998/98061.pdf))
 - 1998-09-10 Proposal to encode the "German Penny Symbol" — Elmar Dünßer ([WG2 N2188](https://www.unicode.org/wg2/docs/n2188.pdf), L2/98-309 (not available online))
 - 1998-09 Addition of the RIAL sign on ISO 10646 — Japan (WG2 N1856 (not online), L2/98-359 (not online))
 - 1998-09 Addition of Tugrik sign on ISO 10646 — Japan (WG2 N1857 (not online), L2/98-360 (not online)
@@ -133,3 +133,34 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2020-07-10 Proposal to add the currency sign for the KYRGYZ SOM to the UCS — Nat'l Bank of Kyrgyz Rep. ([L2/20-261](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-261))
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 19.)_
   - _UTC #165 Minutes ([L2/20-237](https://www.unicode.org/L2/L2020/20237.htm)) (See B.1 for decision and action items — search for SOM SIGN)_
+- 2022-04-12 Proposal to add the currency sign for the POLISH ZŁOTY — National Bank of Poland ([L2/22-092](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-092))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 14.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 14 for decision and action items)_
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 21.)_
+- 2024-08-19 Proposal to Encode a Pridnestrovian Ruble Sign (revised) — Ivan Adrianov ([L2/24-134](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-134))
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 3.1.)_
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 3.1 for decision and action items)_
+- 2024-12-26 Request for SC2 member comments on proposal to encode Ruble sign with double vertical stem — Peter Constable ([L2/24-271](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-271))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.1.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.1 for decision and action items)_
+- 2025-01-06 Feedback on L2/24-134 Proposal to Encode a Pridnestrovian Ruble Sign — Andrew West ([L2/25-024](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-024))
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 6.5.)_
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 6.5 for decision and action items)_
+- 2025-01-09 Feedback on L2/24-134 Proposal to Encode a Pridnestrovian Ruble Sign in response to L2/24-271 and L2/25-024 — Karl Pentzlin ([L2/25-030](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-030))
+- 2025-02-20 Proposal to Encode the New Saudi Riyal Symbol — Saleh Saeed Alkatheri ([L2/25-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-073))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.1.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.1 for decision and action items)_
+- 2025-02-21 Proposal to Update the Shape of the Saudi Riyal Symbol (U+FDFC) — Sultan Maqtari ([L2/25-074](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-074))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.1.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.1 for decision and action items)_
+- 2025-02-24 Unicode request for Saudi riyal sign — Kirk Miller ([L2/25-072](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-072))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.1.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.1 for decision and action items)_
+- 2025-03-07 Proposal to add the currency sign for the SAUDI RIYAL to the UCS — Saudi Arabian Central Bank ([L2/25-075](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-075))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.1.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.1 for decision and action items)_
+- 2025-03-10 SEW Recommendations on Encoding the Saudi Riyal Currency Symbol — SEW / Roozbeh Pournader, et al ([L2/25-076](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-076))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.1.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.1 for decision and action items)_
+- 2025-03-10 Proposal to encode Maldivian Rufiyaa Sign in the Unicode Standard — Naail Abdul Rahman, Abdulla Shafeeu ([L2/25-122](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-122))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.1.)_

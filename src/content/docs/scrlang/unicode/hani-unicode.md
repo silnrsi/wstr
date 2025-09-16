@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Han implementation is discussed in [Chapter 18 East Asia](http://www.unicode.org/versions/latest/ch18.pdf).
+In The Unicode Standard, Han implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G29086).
 
 ## Blocks
 
@@ -25,8 +25,10 @@ Han was first encoded in The Unicode Standard version 1.0. The script is now enc
 | CJK Unified Ideographs Extension C  |  2A700..2B73F  |  5.2  |  [U2A700](http://www.unicode.org/charts/PDF/U2A700.pdf)  |
 | CJK Unified Ideographs Extension D  |  2B740..2B81F  |  6.0  |  [U2B740](http://www.unicode.org/charts/PDF/U2B740.pdf)  |
 | CJK Unified Ideographs Extension E  |  2B820..2CEAF  |  8.0  |  [U2B820](http://www.unicode.org/charts/PDF/U2B820.pdf)  |
-| CJK Unified Ideographs Extension F  |  2CEB0..2CEBF |  10.0  |  [U2CEB0](http://www.unicode.org/charts/PDF/U2CEB0.pdf)  |  |
+| CJK Unified Ideographs Extension F  |  2CEB0..2CEBF |  10.0  |  [U2CEB0](http://www.unicode.org/charts/PDF/U2CEB0.pdf)  |
 | CJK Compatibility Ideographs Supplement  |  2F800..2FA1F  |  3.1  | [U2F800](http://www.unicode.org/charts/PDF/U2F800.pdf)  |
+| CJK Unified Ideographs Extension G  |  30000..3134F |  14.0  |  [U30000](http://www.unicode.org/charts/PDF/U30000.pdf)  |
+| CJK Unified Ideographs Extension H  |  31350..323AF |  15.0  |  [U31350](http://www.unicode.org/charts/PDF/U31350.pdf)  |
 
 ## Characters
 

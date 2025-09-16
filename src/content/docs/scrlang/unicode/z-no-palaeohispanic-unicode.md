@@ -36,3 +36,8 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2020-01-01 Proposal to encode the Northern Palaeohispanic script — Joan Ferrer i Jané, Noemí Moncunill, Javier Velaza, Deborah Anderson ([L2/20-047](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-047))
   - _Recommendations to UTC #162 January 2020 on Script Proposals ([L2/20-046](http://www.unicode.org/L2/L2020/20046-script-adhoc-rept.pdf)) (See point 2.)_
   - _UTC #162 Minutes ([L2/20-015](http://www.unicode.org/L2/L2020/20015.htm)) (See C.10.1 for decision and action items)_
+- 2021-09-06 Proposal to encode the Northern Palaeohispanic script — Joan Ferrer i Jané, Noemí Moncunill, Javier Velaza, Deborah Anderson ([L2/22-146](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-146))
+- 2021-09-06 Proposal to encode the Southern Palaeohispanic script — Joan Ferrer i Jané, Noemí Moncunill, Javier Velaza, Deborah Anderson ([L2/22-147](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-147))
+- 2021-09-11 Re: Palaeohispanic o — Joan Ferrer i Jané ([L2/22-148](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-148))
+- 2022-05-16 Responses from experts on Palaeohispanic — Deborah Anderson ([L2/22-149](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-149))
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 3.)_

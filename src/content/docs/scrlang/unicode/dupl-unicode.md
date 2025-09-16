@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Duployan Shorthand implementation is discussed in [Chapter 21 Notational Systems: Shorthands, Braille, Musical Symbols](http://www.unicode.org/versions/latest/ch21.pdf).
+In The Unicode Standard, Duployan Shorthand implementation is discussed in [Chapter 21: Notational Systems](https://www.unicode.org/versions/latest/core-spec/chapter-21/#G27643) and in [UTN 37: Duployan Shorthand Rendering Model](https://www.unicode.org/notes/tn37/).
 
 ## Blocks
 
@@ -37,3 +37,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2011-05-30 Resolving chart and collation order for the Duployan script — Van Anderson, Michael Everson ([WG2 N4088](https://www.unicode.org/wg2/docs/n4088.pdf), [L2/11-215](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-215))
 - 2011-07-19 Proposal to include Duployan Shorthands and Chinook script and Shorthand Format Controls in UCS, as approved by WG2 — Van Anderson ([L2/11-303](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-303))
 - 2012-10-15 Duployan Letter Kk representative glyph change — Van Anderson ([L2/12-329](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-329))
+- 2023-07-03 Duployan (L2/23-159 Public feedback, ID20230703124220), ID20230703125212) — Little Miss MOSFET ([L2/23-159](https://www.unicode.org/L2/L2023/23159-pubrev.html))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.VIII.10.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 10 for decision and action items)_

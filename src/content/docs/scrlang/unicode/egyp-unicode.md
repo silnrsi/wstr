@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, implementation of Egyptian Hieroglyphs is discussed in [Chapter 11 Cuneiform and Hieroglyphs](http://www.unicode.org/versions/latest/ch11.pdf).
+In The Unicode Standard, implementation of Egyptian Hieroglyphs is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G26607), [UTN 32: Mapping Between Manuel de Codage and Unicode Egyptian Hieroglyphs](https://www.unicode.org/notes/tn32/), and in [Unicode Egyptian Hieroglyph Database (Unikemet)](https://www.unicode.org/reports/tr57/).
 
 ## Blocks
 
@@ -16,6 +16,7 @@ The Egyptian Hieroglyphs were encoded in The Unicode Standard version 5.2. The s
 | ------- | ----------------- | -------------------------- | --------------- |
 | Egyptian Hieroglyphs  |  13000..1342F  |  5.2  |  [U13000 ](http://www.unicode.org/charts/PDF/U13000.pdf) |
 | Egyptian Hieroglyph Format Controls  |  13430..1343F  |  12.0  |  [U13430 ](https://www.unicode.org/charts/PDF/U13430.pdf) |
+| Egyptian Hieroglyphs Extended-A  |  13460..1355F  |  16.0  |  [U13460 ](https://www.unicode.org/charts/PDF/U13460.pdf) |
 
 ## Characters
 
@@ -31,8 +32,8 @@ _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and U
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:
 - 1992-10-30 Ancient Egyptian (Hieroglyphic) — Rick McGowan ([Unicode Technical Report #3 R2](http://www.unicode.org/reports/tr3-2/))
-- 1997-08-25 Encoding Egyptian Hieroglyphs in ISO/IEC 10646-2 — Michael Everson ([WG2 N1636.htm](https://www.unicode.org/wg2/docs/n1636/n1636.htm), [L2/97-266](http://www.unicode.org/L2/L1997/97266-n1636.pdf))
-- 1997-09-18 Proposal to encode Basic Egyptian Hieroglyphs in Plane 1 — Michael Everson ([WG2 N1637.htm](https://www.unicode.org/wg2/docs/n1637/n1637.htm), [L2/97-267](http://www.unicode.org/L2/L1997/97267-n1637.pdf))
+- 1997-08-25 Encoding Egyptian Hieroglyphs in ISO/IEC 10646-2 — Michael Everson (WG2 N1636.htm (not online), [L2/97-266](http://www.unicode.org/L2/L1997/97266-n1636.pdf))
+- 1997-09-18 Proposal to encode Basic Egyptian Hieroglyphs in Plane 1 — Michael Everson (WG2 N1637.htm (not online), [L2/97-267](http://www.unicode.org/L2/L1997/97267-n1637.pdf))
 - 1999-01-09 Encoding Egyptian Hieroglyphs in Plane 1 of the UCS — Michael Everson ([WG2 N1944](https://www.unicode.org/wg2/docs/n1944.pdf), [L2/99-008](http://www.unicode.org/L2/L1999/N1944.pdf))
 - 1999-07-22 Comments on encoding Egyptian hieroglyphs in the UCS — Prof. Schenkel ([L2/99-223](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/99-223))
 - 1999-07-24 On the apostrophe and quotation mark, with a note on Egyptian transliteration characters — Michael Everson ([WG2 N2043](https://www.unicode.org/wg2/docs/n2043.pdf), [L2/99-246](http://www.unicode.org/L2/L1999/n2043.pdf))
@@ -135,3 +136,96 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2020-07-20 Cluster model for Egyptian Hieroglyphic Quadrats — Andrew Glass ([L2/20-176](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-176))
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 7.)_
   - _UTC #164 Minutes ([L2/20-172](https://www.unicode.org/L2/L2020/20172.htm)) (See B.1 for decision and action items)_
+- 2020-12-17 Summary from Zoom calls on Egyptian Hieroglyphs — Deborah Anderson, Andrew Glass        ([L2/21-035](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-035))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 8c.)_
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 8c for decision and action items)_
+- 2021-01-04 Proposal to add one column to the Egyptian Hieroglyph Format Controls block — Andrew Glass        ([L2/21-005](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-005))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 8b.)_
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 8b for decision and action items)_
+- 2021-01-07 Glyph changes to Egyptian Hieroglyphs for Unicode 14.0 with proposed annotations — Deborah Anderson, Michel Suignard ([L2/21-028](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-028))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 8a.)_
+  - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 8a for decision and action items)_
+- 2021-04-20 Egyptian Hieroglyphs: Summary of Script Ad Hoc Discussion, April 2021 — Deborah Anderson / SEI ([L2/21-096](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-096))
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 3.)_
+  - _UTC #167 Minutes ([L2/21-067](https://www.unicode.org/L2/L2021/21066.htm)) (See B.1 for decision and action items)_
+- 2021-06-14 Consideration for the encoding of an extended Egyptian Hieroglyphs repertoire — Michel Suignard (WG2 N5163, [L2/21-108](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-108))
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 5.)_
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+- 2021-08-11 Additional control characters for Ancient Egyptian hieroglyphic texts — Andrew Glass, Jorke Grotenhuis, Mark-Jan Nederhof,<br />
+Stéphane Polis, Serge Rosmorduc, Daniel A. Werning ([L2/21-208](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-208))
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 2a.)_
+- 2021-09-06 Thoughts on the Unicode sign list of Ancient Egyptian hieroglyphs — Jorke Grotenhuis, Mark-Jan Nederhof, Stéphane<br />
+Polis, Serge Rosmorduc ([L2/21-190](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-190))
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 2b.)_
+- 2021-12-22 Additional control characters for Ancient Egyptian hieroglyphic texts — Andrew Glass, Jorke Grotenhuis, Mark-Jan Nederhof, Stéphane Polis, Serge Rosmorduc, Daniel A. Werning ([L2/21-248](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-248))
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 4a.)_
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 SECTION 4a for decision and action items)_
+- 2022-01-05 Rotations of Egyptian Hieroglyphs to be Registered in Unicode — Daniel A. Werning ([L2/22-012](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-012))
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 4b.)_
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 SECTION 4b for decision and action items)_
+- 2022-02-28 [Public Review Issues](https://www.unicode.org/review/pri442/) — Charlotte Buff 
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 16.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 16 for decision and action items)_
+- 2022-03-03 Update on implementation status of African scripts — Charles L. Riley     ([L2/22-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-073))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 28.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 28 for decision and action items)_
+- 2022-07-20 _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 23.)_
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 SECTION 23 for decision and action items)_
+- 2022-10-24 Considerations concerning Egyptian Hieroglyphs extension — Michel Suignard ([L2/22-265](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-265))
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point A 2.)_
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.4 for decision and action items)_
+- 2023-04-18 Draft encoding proposal for an extended Egyptian Hieroglyphs repertoire (41MB data file [HERE](https://www.unicode.org/L2/L2023/23109-n5215-database.pdf)) — Michel Suignard, et al ([L2/23-109](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-109))
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point C.11.)_
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.3 for decision and action items)_
+- 2023-07-13 Encoding proposal for an extended Egyptian Hieroglyphs repertoire (WG2 N5240) (Sign Database [pdf 38MB]) — Michel Suignard ([L2/23-181](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-181))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.I.1.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 1 for decision and action items)_
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.I.1b.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 1b for decision and action items)_
+  - _Recommendations to UTC #178 January 2024 on Script Proposals ([L2/24-013](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-013)) (See point A.I.2a.)_
+  - _UTC #178 Minutes ([L2/24-006](https://www.unicode.org/L2/L2024/24006.htm)) (See D.1.1 Section 3a for decision and action items)_
+- 2023-07-27 Encoding proposal for two arrow symbols used in Egyptology — Michel Suignard ([L2/23-185](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-185))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.VII.9.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 9 for decision and action items)_
+- 2023-09-08 Update on Usage and Implementation Status of African Scripts — Oreen Yousuf, Charles Riley, Daniel Yacob, Neil Patel, Tim Brookes ([L2/23-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-203))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.26.)_
+- 2023-10-14 Working draft of Proposed Draft Unicode Standard Annex #57: Egyptian Hieroglyph Database — Michel Suignard ([L2/23-253](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-253))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.I.1a.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 1 for decision and action items)_
+- 2023-12-26 Proposed Draft UAX #57, Unicode Egyptian Hieroglyph Database (Unikemet) (HTML version) — Michel Suignard ([L2/24-035](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-035))
+  - _Recommendations to UTC #178 January 2024 on Script Proposals ([L2/24-013](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-013)) (See point A.I.2b.)_
+  - _UTC #178 Minutes ([L2/24-006](https://www.unicode.org/L2/L2024/24006.htm)) (See D.1.1 Section 2b for decision and action items)_
+- 2023-11-10 Rotations for Ancient Egyptian - a critical analysis — Mark-Jan Nederhof ([L2/24-045](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-045))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point B.25.)_
+- 2023-11-10 Additional lost signs for Ancient Egyptian hieroglyphic text — Mark-Jan Nederhof ([L2/24-093](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-093))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point B.24.)_
+- 2024-02-06 Draft UAX #57, Unicode Egyptian Hieroglyph Database (Unikemet) — Michel Suignard ([L2/24-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-121))
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.4 for decision and action items)_
+- 2024-02-17 Notes on the control characters for Ancient Egyptian in Unicode 15 — Mark-Jan Nederhof ([L2/24-079](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-079))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point C.30.)_
+- 2024-02-21 On the name of the newly proposed arrows for Egyptology — Eduardo Marín Silva ([L2/24-088](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-088))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.VIII.21.)_
+- 2024-06-02 3-tier system for Ancient Egyptian hieroglyphs — Mark-Jan Nederhof, Peter Dils, Andrew Glass, Jorke Grotenhuis, Svenja Gülden, Stéphane Polis, Daniel A. Werning ([L2/24-176](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-176))
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.I.1c.)_
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 1c for decision and action items)_
+- 2024-06-15 Rationale for commenting out the variation sequence U+1333B U+FE00 for Ancient Egyptian — Peter Dils, Andrew Glass, Jorke Grotenhuis, Svenja Gülden, Mark-Jan Nederhof, Stéphane Polis,<br />
+Daniel A. Werning ([L2/24-175](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-175))
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.I.1a.)_
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 1a for decision and action items)_
+- 2024-06-28 Additional Variation Selectors as Substitutes for Legacy v5.2 v15 Hieroglyphs — Daniel A. Werning, Peter Dils, Jorke Grotenhuis, Svenja Gülden, and Stéphane Polis ([L2/24-177](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-177))
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.I.1a.)_
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 1a for decision and action items)_
+- 2024-07-01 Draft UAX #57, Unicode Egyptian Hieroglyph Database (Unikemet) — Michel Suignard ([L2/24-198](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-198))
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.VII.21.)_
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 21 for decision and action items)_
+- 2024-07-15 Comments on Public Review Issues (April 3 - July 2, 2024) — Rick McGowan ([L2/24-161](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-161))
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.I.1b.)_
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 1b for decision and action items)_
+- 2024-07-15 Comments on Public Review Issues (April 3 - July 2, 2024) — Rick McGowan ([L2/24-161](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-161))
+- 2024-10-10 Additional Variation Selectors for Rotations of Ancient Egyptian Hieroglyphic Texts — Daniel A. Werning ([L2/24-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-238))
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 5.1.)_
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 5.1 for decision and action items)_
+- 2025-01-23 Proposed Update Unicode® Standard Annex #57 Unicode Egyptian Hieroglyph Database (Unikemet) (revised) — Michel Suignard ([L2/25-051](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-051))
+- 2025-02-14 Proposed Update UAX #57, Unicode Egyptian Hieroglyph Database (Unikemet) — Michel Suignard ([L2/25-108](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-108))
+- 2025-04-16 Considerations about Egyptian Hieroglyph legacy characters — Michel Suignard ([L2/25-110](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-110))
+- 2025-04-22 Changes to Unikemet properties between 16.0 and 17.0β — Robin Leroy ([L2/25-139](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-139))

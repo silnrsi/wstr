@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Coptic script implementation  is discussed in [Chapter 7 Europe-I](http://www.unicode.org/versions/latest/ch07.pdf). 
+In The Unicode Standard, Coptic script implementation  is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G16256). 
 
 Prior to version 4.1 of The Unicode Standard, the Coptic script was considered a stylistic variant of the Greek script, and a unified Greek and Coptic block in the range U+03E2..U+03EF contained the Coptic characters which could not arguably be written with Greek letters. However, subsequent discussion determined that the two scripts would be better encoded separately, so version 4.1 added a Coptic block which contained characters needed for accurately processing Coptic text.
 
@@ -36,7 +36,7 @@ _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and U
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:
-- 1997-12-08 Proposal to encode Coptic in ISO/IEC 10646 — Michael Everson ([WG2 N1658.htm](https://www.unicode.org/wg2/docs/n1658.htm), L2/98-022 (not online))
+- 1997-12-08 Proposal to encode Coptic in ISO/IEC 10646 — Michael Everson (WG2 N1658.htm, L2/98-022 (neither online))
 - 2000-02-15 Scripts from the Past in Future Versions of Unicode — Carl-Martin Bunz ([L2/00-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-128))
 - 2000-04-26 Further comments on historic scripts — Carl-Martin Bunz ([L2/00-153](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-153))
 - 2000-10-05 Coptic – resolutions from the meeting in Leiden, September 2, 2000 — Prof. Stephen Emmel ([L2/00-411](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-411))
@@ -62,3 +62,8 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2011-01-08 Opposition about encode Coptic Epact numeral system in the Unicode Standard and ISO/IEC10646 — Azzeddine Lazrek ([L2/11-035](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-035))
 - 2011-02-09 Comparison of Coptic Epact vs. Rumi digits — Deborah Anderson ([L2/11-065](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-065))
 - 2011-02-14 Final Proposal to Encode Coptic Epact Numbers — Anshuman Pandey ([WG2 N3990](https://www.unicode.org/wg2/docs/n3990.pdf), [L2/11-062](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-062))
+- 2022-03-03 Update on implementation status of African scripts — Charles L. Riley     ([L2/22-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-073))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 28.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 28 for decision and action items)_
+- 2023-09-08 Update on Usage and Implementation Status of African Scripts — Oreen Yousuf, Charles Riley, Daniel Yacob, Neil Patel, Tim Brookes ([L2/23-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-203))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.26.)_

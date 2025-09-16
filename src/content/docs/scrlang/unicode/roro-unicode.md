@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-The Rongorongo script is not yet in Unicode. The script has a tentative allocation at U+1CA80..U+1CDBF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Rongorongo script is not yet in Unicode.  At one point the script had a tentative allocation in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. However, it is no longer in the roadmap.
 
 ## Proposals and documents
 

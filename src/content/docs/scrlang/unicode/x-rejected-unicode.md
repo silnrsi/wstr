@@ -22,5 +22,5 @@ Jindai has been investigated and rejected as unsuitable for encoding. It is uncl
 ### Klingon
 
 Klingon has been investigated and rejected as unsuitable for encoding. Documents submitted for encoding were:
-- 1997-09-18 Proposal to encode Klingon in Plane 1 of ISO/IEC 10646-2 — Michael Everson ([WG2 N1643.htm](https://www.unicode.org/wg2/docs/n1643/n1643.htm), L2/97-273 (not online))
+- 1997-09-18 Proposal to encode Klingon in Plane 1 of ISO/IEC 10646-2 — Michael Everson (WG2 N1643.htm, L2/97-273 (neither online))
 - 2001-05-18 Proposal to Formally Reject Klingon for Encoding — Rick McGowan ([L2/01-212](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-212))

@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-The Proto-Cuneiform script is not yet in Unicode. The script has a tentative allocation at U+12580..U+126CF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Proto-Cuneiform script is not yet in Unicode. The script has a tentative allocation at U+12580..U+12ECF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Proposals and documents
 
@@ -21,3 +21,10 @@ A number of proposals toward encoding the script have been submitted to the WG2 
   - _Recommendations to UTC #160 July 2019 on Script Proposals ([L2/19-286](https://www.unicode.org/L2/L2019/19286-script-recs.pdf)) (See point 5.)_
 - 2020-09-21 Preliminary proposal to encode ProtoCuneiform in Unicode (45MB) — Anshuman Pandey ([L2/20-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-193))
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 7.)_
+- 2021-08-31 Proto-Cuneiform: Comparison of Sign Images and Glyphs — Anshuman Pandey ([L2/21-184](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-184))
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 5.)_
+- 2022-10-10 Revised proposal to encode Proto-Cuneiform in Unicode — Anshuman Pandey ([L2/22-239](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-239))
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 20.)_
+- 2023-07-11 Revised proposal to encode Proto-Cuneiform in Unicode — Anshuman Pandey ([L2/23-190](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-190))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point B.23.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 23 for decision and action items)_

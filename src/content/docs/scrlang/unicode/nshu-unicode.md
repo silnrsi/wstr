@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Nüshu script implementation is discussed in [Chapter 18 East Asia](http://www.unicode.org/versions/latest/ch18.pdf).
+In The Unicode Standard, Nüshu script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G42061).
 
 ## Blocks
 
@@ -61,3 +61,12 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2020-03-05 Updates for 8 values for 4 Nushu characters in UCD — Eiso Chan, Kushim Jiang ([L2/20-075](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-075))
   - _Recommendations to UTC #163 April-May 2020 on Script Proposals ([L2/20-105](https://www.unicode.org/L2/L2020/20105-script-adhoc-rept.pdf)) (See point 13.)_
   - _UTC #163 Minutes ([L2/20-102](https://www.unicode.org/L2/L2020/20102.htm)) (See B.1 for decision and action items)_
+- 2020-12-30 Updates for 3 values for 3 Nushu characters in UCD — Eiso Chan, Kushim Jiang ([L2/21-024](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-024))
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 13.)_
+  - _UTC #167 Minutes ([L2/21-067](https://www.unicode.org/L2/L2021/21066.htm)) (See B.1 167-A38 for decision and action items)_
+- 2022-06-26 Proposal to update the reference glyphs in the Nüshu block and the Ideographic Symbols and Punctuation block — Kushim Jiang ([L2/22-138](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-138))
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 13.)_
+- 2022-08-15 Nüshu feedback on L2/22-138 (Proposal to update the reference glyphs in the Nüshu block and the Ideographic Symbols and Punctuation block) — Endo Orie ([L2/22-264](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-264))
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 19.)_
+- 2022-08-16 Feedback to Nushu glyph update proposed by L2/22-138 — Toshiya Suzuki ([L2/22-263](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-263))
+  - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 19.)_

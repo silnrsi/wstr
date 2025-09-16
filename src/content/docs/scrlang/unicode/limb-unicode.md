@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Limbu script implementation is discussed in [Chapter 13 South and Central Asia-II: Other Modern Scripts](http://www.unicode.org/versions/latest/ch13.pdf).
+In The Unicode Standard, Limbu script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G27263).
 
 ## Blocks
 
@@ -50,3 +50,6 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2014-05-08 Improvements requested for Unicode Indic properties — Roozbeh Pournader ([L2/14-126](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-126))
 - 2020-04-10 Changing Indic Syllabic Category of Limbu Kehmphreng — Martin Hosken ([L2/20-184](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-184))
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 13.)_
+- 2024-08-27 On the Indic_Syllabic_Category of vowel carriers — Robin Leroy ([L2/24-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-203))
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 4.6.)_
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 4.6 for decision and action items)_

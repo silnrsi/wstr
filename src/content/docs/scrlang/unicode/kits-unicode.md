@@ -1,16 +1,16 @@
 ---
-title: Unicode Status for Khitan Small
+title: Unicode Status for Khitan Small Script
 description: Supplementary script page
 sidebar:
     hidden: true
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Khitan Small script implementation is discussed in [Chapter 18 East Asia](http://www.unicode.org/versions/latest/ch18.pdf).
+In The Unicode Standard, Khitan Small Script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G59285).
 
 ## Blocks
 
-The Khitan Small script was encoded in The Unicode Standard version 13.0. The script is encoded in the following block:
+The Khitan Small Script was encoded in The Unicode Standard version 13.0. The script is encoded in the following block:
 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
@@ -55,3 +55,15 @@ A number of proposals towards its inclusion were submitted to the Unicode Techni
 - 2018-08-31 Further information on Khitan Small Script clusters — Deborah Anderson ([L2/18-285](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/18-285))
   - _Recommendations to UTC #157 September 2018 on Script Proposals ([L2/18-300](http://www.unicode.org/L2/L2018/18300-script-ad-hoc-rec.pdf)) (See point 9.)_
   - _UTC #157 Minutes ([L2/18-272](http://www.unicode.org/L2/L2018/18272.htm)) (See C.10 for decision and action items)_
+- 2021-08-16 Request to modify U+18CCA glyph in Khitan Small Script block — Eiso Chan, Jerry You, Fitzgerald Yu, Victor Wong ([L2/21-182](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-182))
+  - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 14.)_
+  - _UTC #169 Minutes ([L2/21-167](https://www.unicode.org/L2/L2021/21167.htm)) (See B.1 Section 14 for decision and action items)_
+- 2023-03-01 Proposal to encode a blank character for Khitan Small Script — Andrew West ([L2/23-065](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-065))
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.ii.3.)_
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.3 for decision and action items)_
+- 2023-05-18 Khitan Small Script (L2/23-159 Public feedback, ID20230518114242) — Charlotte Buff ([L2/23-159](https://www.unicode.org/L2/L2023/23159-pubrev.html))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.VIII.12.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 12 for decision and action items)_
+- 2023-07-29 Glyph correction for Khitan Small Script U+18BD2 — Andrew West ([L2/23-199](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-199))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.IV.6.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 6 and D.8 for decision and action items)_

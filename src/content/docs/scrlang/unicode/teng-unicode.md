@@ -11,4 +11,7 @@ The Tengwar script is not yet in Unicode. The script has a tentative allocation 
 ## Proposals and documents
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:
-- 1997-09-18 Proposal to encode Tengwar in Plane 1 of ISO/IEC 10646-2 00 Michael Everson ([WG2 N1641.htm](https://www.unicode.org/wg2/docs/n1641/n1641.htm), L2/97-271 (not online))
+- 1997-09-18 Proposal to encode Tengwar in Plane 1 of ISO/IEC 10646-2 00 Michael Everson (WG2 N1641.htm (not online), L2/97-271 (not online))
+
+The following draft is available online:
+-  2001-03-07 [X.X Tengwar](https://www.evertype.com/standards/iso10646/pdf/tengwar.pdf)

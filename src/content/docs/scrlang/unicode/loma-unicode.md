@@ -23,3 +23,10 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #152 July-August 2017 on Script Proposals ([L2/17-255](http://www.unicode.org/L2/L2017/17255-script-ad-hoc.pdf)) (See point 2.)_
   - _UTC #152 Minutes ([L2/17-222](http://www.unicode.org/L2/L2017/17222.htm)) (See C.6 for decision and action items)_
 - 2020-02-05 Report on progress with African scripts in Unicode and their implementations — Charles L. Riley ([L2/20-067](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-067))
+- 2022-03-03 Update on implementation status of African scripts — Charles L. Riley ([L2/22-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-073))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 28.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 28 for decision and action items)_
+- 2023-07-03 Progress report on Loma language and script activity — Charles L. Riley ([L2/23-215](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-215))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.28.)_
+- 2023-09-08 Update on Usage and Implementation Status of African Scripts — Oreen Yousuf, Charles Riley, Daniel Yacob, Neil Patel, Tim Brookes ([L2/23-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-203))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.26.)_

@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Hebrew Script implementation is discussed in [Chapter 9 Middle East-I: Modern and Liturgical Scripts](http://www.unicode.org/versions/latest/ch09.pdf).
+In The Unicode Standard, Hebrew Script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G6528).
 
 ## Blocks
 
@@ -37,12 +37,12 @@ _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and U
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:
-- 1995-05-21 Further clarifications regarding WG2 N1195 — The Standards Institution of Israel  (SII) ([WG2 N1217.txt](https://www.unicode.org/wg2/docs/n1217.txt))
+- 1995-05-21 Further clarifications regarding WG2 N1195 — The Standards Institution of Israel  (SII) (WG2 N1217 (not online))
 - 1996-12-15 Hebrew alphabet coded character set for bibliographic information interchange — The following 13 standards were provided by Randall Barry (LoC) for synchronization with ISO/IEC 19646 (L2/98-192 (not online))
-- 1997-05-11 Name for the character coded FB1D — The Standards Institution of Israel ([WG2 N1557.doc](https://www.unicode.org/wg2/docs/n1557.doc))
+- 1997-05-11 Name for the character coded FB1D — The Standards Institution of Israel (WG2 N1557 (not online))
 - 1998-02-05 Table of replies to DIS 8859-8 - Latin Hebrew — SC2/WG3 N428 (L2/98-120 (not online))
-- 1998-05-09 Proposal to add the Hebrew Tetragrammaton to ISO/IEC 10646 — Mark E. Shoulson; Michael Everson ([WG2 N1740w97.doc](https://www.unicode.org/wg2/docs/n1740w97.doc), [WG2 n1740\N1740.htm](https://www.unicode.org/wg2/docs/n1740/n1740.htm), [WG2 N1740.htm](https://www.unicode.org/wg2/docs/n1740.htm), L2/98-198 (not online))
-- 1998-05-25 Additional Hebrew cantillation characters for the UCS — Michael Everson ([WG2 N1749](https://www.unicode.org/wg2/docs/n1749.pdf), L2/98-216 (not online))
+- 1998-05-09 Proposal to add the Hebrew Tetragrammaton to ISO/IEC 10646 — Mark E. Shoulson; Michael Everson  (WG2 N1740, N1740w97 (not online), L2/98-198 (not online))
+- 1998-05-25 Additional Hebrew cantillation characters for the UCS — Michael Everson  (WG2 N1749 (not online), L2/98-216 (not online))
 - 1998-07-06 Application for Registration No.219, Hebrew alphabet coded character set for bibliographic information interchange, part 1 — NB Ireland (L2/98-242 (not online))
 - 1998-07-06 Application for Registration No.220,Hebrew alphabet coded character set for bibliographic information interchange, part 2 — NB Ireland (L2/98-243 (not online))
 - 1998-07-07 Israeli Response to the Tetragrammaton Proposal, N 1740 — Jonathan Rosenne ([WG2 N1807](https://www.unicode.org/wg2/docs/n1807.pdf), [WG2 N1807.txt](https://www.unicode.org/wg2/docs/n1807.txt), [WG2 N1807.doc](https://www.unicode.org/wg2/docs/n1807.doc), [WG2 N1807w97.doc](https://www.unicode.org/wg2/docs/n1807w97.doc))  
@@ -96,3 +96,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #159 April-May 2019 on Script Proposals ([L2/19-173](http://www.unicode.org/L2/L2019/19173-script-adhoc-recs.pdf)) (See point 8.)_
   - _UTC #159 Minutes ([L2/19-122](http://www.unicode.org/L2/L2019/19122.htm)) (See C.19 for decision and action items)_
 - 2020-03-27 Proposal to fix Hebrew in UAX #14 by ruling out LB21a..b — Marcel Schneider ([L2/20-087](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-087))
+- 2024-12-05 Proposal to encode Hebrew Point Sheva Na — Jonathan Mosesson ([L2/24-274](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-274))
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 1.2.)_
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 1.2 for decision and action items)_

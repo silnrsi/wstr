@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Myanmar script implementation is discussed in [Chapter 16 Southeast Asia](http://www.unicode.org/versions/latest/ch16.pdf) and in [Unicode Technical Note #11: Representing Myanmar in Unicode](http://www.unicode.org/notes/tn11/).
+In The Unicode Standard, Myanmar script implementation is discussed in [Chapter 16 Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G24999) and in [Unicode Technical Note #11: Representing Myanmar in Unicode](http://www.unicode.org/notes/tn11/).
 
 ## Blocks
 
@@ -17,6 +17,7 @@ The Myanmar script was encoded in The Unicode Standard version 3.0. Since that t
 | Myanmar | 1000..109F | 3.0 | [U1000.pdf](http://www.unicode.org/charts/PDF/U1000.pdf) |
 | Myanmar Extended-B | A9E0..A9FF | 7.0 | [UA9E0.pdf](http://www.unicode.org/charts/PDF/UA9E0.pdf) |
 | Myanmar Extended-A | AA60..AA7F | 5.2 | [UAA60.pdf](http://www.unicode.org/charts/PDF/UAA60.pdf) |
+| Myanmar Extended-C | 116D0..116FF | 16.0 | [U116D0.pdf](http://www.unicode.org/charts/PDF/U116D0.pdf) |
 
 ## Characters
 
@@ -40,6 +41,7 @@ Subsequent to version 3.0, the following characters have been added to the Myanm
 | A9E7..A9FE | 7.0 | [WG2 N3976](https://www.unicode.org/wg2/docs/n3976.pdf), [L2/11-130](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-130), [L2/12-012](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-012) |
 | AA60..AA7B | 5.2 | [n3492.pdf](https://www.unicode.org/wg2/docs/n3492.pdf)/[L2/08-276](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-276) |
 | AA7C..AA7F | 7.0 | [WG2 N3976](https://www.unicode.org/wg2/docs/n3976.pdf), [L2/11-130](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-130), [L2/12-012](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-012) |
+| 116D0..116E3 | 16.0 | [L2/22-046](https://www.unicode.org/L2/L2022/22046-myanmar-numerals.pdf) |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 
@@ -49,8 +51,8 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 1992-11-25 Unicode Technical Report #1 — Andy Daniels ([TR1](http://www.unicode.org/reports/tr1.html))
 - 1997-01-22 Proposal for encoding the Burmese script in ISO 10646 — McGregor Ross, Michael Everson ([Unofficial HTML version of WG2 N1523](http://www.evertype.com/standards/my/my.html), L2/97-039 (not online))
 - 1997-12-10 Revised Proposal for Encoding Burmese in Unicode — Lee Collins ([L2/98-044](http://www.unicode.org/L2/L1998/98044.pdf))
-- 1998-03-17 Khmer and Burmese Ad-Hoc Meeting Report — SC2/WG2 ([WG2 N1729](https://www.unicode.org/wg2/docs/n1729.pdf),  L2/98-101 (not online))
-- 1998-05-05 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 26: Burmese — WG2 ([WG2 N1826burmese](https://www.unicode.org/wg2/docs/n1826burmese.pdf))
+- 1998-03-17 Khmer and Burmese Ad-Hoc Meeting Report — SC2/WG2 (WG2 N1729 (not online),  L2/98-101 (not online))
+- 1998-05-05 Part 1:Architecture and Basic Multilingual Plane AMENDMENT 26: Burmese — WG2 ([WG2 N1826burmese](https://www.unicode.org/wg2/docs/n1826burmese.doc))
 - 1998-09-24 Myanmar (Burmese) Ad-hoc meeting report — WG2 ([WG2 N1883](https://www.unicode.org/wg2/docs/n1883.pdf), L2/98-371 (not online))
 - 1999-02-02 Proposal that Myanmar VOWEL SIGN E be stored in Phonetic Order (i.e. after its consonants) — Joe Becker ([L2/99-036](http://www.unicode.org/L2/L1999/99036.pdf))
 - 2001-08-06 Serious bug in Khmer, Myanmar combining classes — Ken Whistler ([L2/01-307](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-307))
@@ -122,3 +124,13 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2020-08-14 Request for a formal name alias for uniAA6E Khamti HHA — Ben Mitchell ([L2/20-263](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-263))
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 17.)_
   - _UTC #165 Minutes ([L2/20-237](https://www.unicode.org/L2/L2020/20237.htm)) (See B.1 for decision and action items)_
+- 2022-02-21 Proposal to encode numerals for Eastern Pwo Karen and Pa'O — Ben Mitchell ([L2/22-046](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-046))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 11.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 11 for decision and action items)_
+- 2022-06-07 Proposal to Add Data for Pairs of Identical sequences — Asmus Freytag ([L2/22-108](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-108))
+- 2022-06-07 Proposal to Add Data for Pairs of Confusable sequences — Asmus Freytag ([L2/22-107](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-107))
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+- 2022-06-14 Response to PRI 451 — Asmus Freytag ([L2/22-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-114))
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
+- 2022-10-17 Canonical combining class for nukta characters — Norbert Lindenberg ([L2/22-250](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-250))
+  - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.10 for decision and action items)_

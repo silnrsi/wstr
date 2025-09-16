@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Old Persian script implementation is discussed in [Chapter 11 Cuneiform and Hieroglyphs](http://www.unicode.org/versions/latest/ch11.pdf).
+In The Unicode Standard, Old Persian script implementation is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G26474).
 
 ## Blocks
 
@@ -20,7 +20,7 @@ The Old Persian script was encoded in The Unicode Standard version 4.1. The scri
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:
 - 1992-10-20 Old Persian Cuneiform — Rick McGowan ([Unicode Technical Report #3 R2](http://www.unicode.org/reports/tr3-2/))      
-- 1997-09-18 Proposal to encode Old Persian Cuneiform in Plane 1 of ISO/IEC 10646-2 — Michael Everson ([WG2 N1639.htm](https://www.unicode.org/wg2/docs/n1639/n1639.htm), L2/97-269 (not online))
+- 1997-09-18 Proposal to encode Old Persian Cuneiform in Plane 1 of ISO/IEC 10646-2 — Michael Everson ([WG2 N1639.htm](https://titus.fkidg1.uni-frankfurt.de/unicode/iranian/oldpersprop.htm), L2/97-269 (not online))
 - 1999-07-23 Comments on proposals for the Universal Multiple-Octed Coded Character Set — Dr. W. Röllig (xlat. Küster) ([L2/99-224](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/99-224))
 - 1999-10-04 Response to comments on the question of encoding Old Semitic scripts in the UCS (N2097) — Michael Everson ([WG2 N2133.htm](https://www.unicode.org/wg2/docs/n2133.htm))
 - 2000-02-15 Scripts from the Past in Future Versions of Unicode — Carl-Martin Bunz ([L2/00-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-128))

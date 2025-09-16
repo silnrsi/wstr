@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Imperial Aramaic script implementation is discussed in [Chapter 10 Middle East-II: Ancient Scripts](http://www.unicode.org/versions/latest/ch10.pdf).
+In The Unicode Standard, Imperial Aramaic script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G29567).
 
 ## Blocks
 

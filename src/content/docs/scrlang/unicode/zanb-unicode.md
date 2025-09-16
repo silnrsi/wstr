@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Zanabazar Square script implementation is discussed in [Chapter 14 South and Central Asia-III: Ancient Scripts](http://www.unicode.org/versions/latest/ch14.pdf).
+In The Unicode Standard, Zanabazar Square script implementation is discussed in [Chapter 14 South and Central Asia-III: Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G41935).
 
 ## Blocks
 
@@ -48,3 +48,11 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #155 Minutes ([L2/18-115](http://www.unicode.org/L2/L2018/18115.htm)) (See C.14 for decision and action items)_
   - _Recommendations to UTC #156 July 2018 on Script Proposals ([L2/18-241](http://www.unicode.org/L2/L2018/18241-script-ad-hoc.pdf)) (See point 14.)_
   - _UTC #156 Minutes ([L2/18-183](http://www.unicode.org/L2/L2018/18183.htm)) (See C.14 for decision and action items)_
+- 2023-10-12 Issues on Zanabazar Cluster-final Characters — CheonHyeong Sim ([L2/24-094](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-094))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point B.29.)_
+- 2024-08-27 On the Indic_Syllabic_Category of vowel carriers — Robin Leroy ([L2/24-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-203))
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 4.6.)_
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 4.6 for decision and action items)_
+- 2025-04-04 Indic Categories for Zanabazar and Soyombo RAs — Jan Kučera, Liang Hai, Roozbeh Pournader ([L2/25-119](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-119))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 3.2.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 3.2 for decision and action items)_

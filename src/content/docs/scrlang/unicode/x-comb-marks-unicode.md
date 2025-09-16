@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Combining marks implementation is discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts](http://www.unicode.org/versions/latest/ch07.pdf). In general, combining marks inherit script properties from the script being used. They are used in Latin, Cyrillic, Greek and have even been used in Tifinagh, Coptic, Newa and Caucasian Albanian. Other scripts, such as Arabic or most of the Indic scripts, have combining marks which are specific to that script.
+In The Unicode Standard, Combining marks implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G18195). In general, combining marks inherit script properties from the script being used. They are used in Latin, Cyrillic, Greek and have even been used in Tifinagh, Coptic, Newa and Caucasian Albanian. Other scripts, such as Arabic or most of the Indic scripts, have combining marks which are specific to that script.
 
 The Combining marks were first encoded in The Unicode Standard version 1.0. Since that time a number of other combining marks have been encoded. Combining marks are now encoded in the following blocks:
 
@@ -30,7 +30,7 @@ Subsequent to version 1.1, the following characters have been added to the Combi
 | 034F | 3.2 | [n2236.htm](https://www.unicode.org/wg2/docs/n2236.htm) L2/00-274 |
 | 0350..0357 | 4.0 | [n3027.pdf](https://www.unicode.org/wg2/docs/n3027.pdf) L2/06-027 and [n2713.pdf](https://www.unicode.org/wg2/docs/n2713.pdf) L2/04-107 |
 | 0358 | 4.1 | [n2713.pdf](https://www.unicode.org/wg2/docs/n2713.pdf) L2/04-107 |
-| 0359 | 4.1 | [n2612-4.pdf](https://www.unicode.org/wg2/docs/n2612/n2612-4.pdf) L2/03-186 |
+| 0359 | 4.1 | [n2612-4.pdf](https://www.unicode.org/wg2/docs/n2612-4.pdf) L2/03-186 |
 | 035A | 4.1 | [n2524.pdf](https://www.unicode.org/wg2/docs/n2524.pdf) L2/02-203R2 and [n2630.pdf](https://www.unicode.org/wg2/docs/n2630.pdf) L2/02-364 |
 | 035B | 4.1 | [n2597.pdf](https://www.unicode.org/wg2/docs/n2597.pdf) L2/03-219 |
 | 035C | 4.1 | [n2594.pdf](https://www.unicode.org/wg2/docs/n2594.pdf) L2/03-142R |
@@ -38,8 +38,8 @@ Subsequent to version 1.1, the following characters have been added to the Combi
 | 0362 | 3.0 | [n1845.pdf](https://www.unicode.org/wg2/docs/n1845.pdf) L2/98-299 |
 | 0363..036F | 3.2 | [n2266.pdf](https://www.unicode.org/wg2/docs/n2266.pdf) L2/00-330 |
 | 1DC0..1DC1 | 4.1 | [n2642.pdf](https://www.unicode.org/wg2/docs/n2642.pdf) L2/03-324 |
-| 1DC2 | 4.1 | [n2740.pdf](https://www.unicode.org/wg2/docs/n2740.pdf) L2/04-047 and [n2763r.pdf](https://www.unicode.org/wg2/docs/n2763R.pdf) L2/04-171 |
-| 1DC3 | 4.1 | [n2763r.pdf](https://www.unicode.org/wg2/docs/n2763R.pdf) L2/04-171 |
+| 1DC2 | 4.1 | [n2740.pdf](https://www.unicode.org/wg2/docs/n2740.pdf) L2/04-047 and [n2763r.pdf](https://www.unicode.org/wg2/docs/n2763r.pdf) L2/04-171 |
+| 1DC3 | 4.1 | [n2763r.pdf](https://www.unicode.org/wg2/docs/n2763r.pdf) L2/04-171 |
 | 1DC4..1DCA | 5.0 | [n2906.pdf](https://www.unicode.org/wg2/docs/n2906.pdf) L2/04-246R |
 | 1DCB..1DCC | 5.1 | [n3048.pdf](https://www.unicode.org/wg2/docs/n3048.pdf) L2/06-214 |
 | 1DCD..1DE6 | 5.1 | [n3027.pdf](https://www.unicode.org/wg2/docs/n3027.pdf) L2/06-027 |
@@ -48,7 +48,7 @@ Subsequent to version 1.1, the following characters have been added to the Combi
 | 1DFC | 6.0 | [n3571.pdf](https://www.unicode.org/wg2/docs/n3571.pdf) L2/09-028 |
 | 1DFD | 5.2 | [n3447.pdf](https://www.unicode.org/wg2/docs/n3447.pdf) L2/07-334R |
 | 1DFE..1DFF | 5.0 | [n2989.pdf](https://www.unicode.org/wg2/docs/n2989.pdf) L2/05-261 |
-| 20E2..20E3 | 3.0 | [n1668.doc](https://www.unicode.org/wg2/docs/N1668.doc) L2/97-206 |
+| 20E2..20E3 | 3.0 |  n1668.doc, L2/97-206 |
 | 20E4 | 3.2 | [n1941.pdf](https://www.unicode.org/wg2/docs/n1941.pdf) L2/98-056 |
 | 20E5..20E8 | 3.2 | [n2191.pdf](https://www.unicode.org/wg2/docs/n2191.pdf) L2/00-094 |
 | 20E9..20EA | 3.2 | [n2336.pdf](https://www.unicode.org/wg2/docs/n2336.pdf) L2/01-067 |
@@ -74,7 +74,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2002-10-08 Proposal to add one combining diacritic to the UCS — Andrew Glass, Stefan Baums, Richard Salomon ([WG2 N2630](https://www.unicode.org/wg2/docs/n2630.pdf), [L2/02-364](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-364))
 - 2002-10-30 Double Combining Breve Below, Double Combining Macron — Peter Constable ([L2/02-367](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-367))
 - 2003-04-01 Proposal to encode two COMBINING HEART characters in the UCS — Michael Everson, Roozbeh Pournader, John Cowan (WG2 N258A, — [L2/03-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-121))
-- 2003-06-11 Proposal to encode one additional combining diacritic in the UCS — Maria Pantelia / TLG ([WG2 N2612-4](https://www.unicode.org/wg2/docs/n2612/n2612-4.pdf), [L2/03-186](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-186))
+- 2003-06-11 Proposal to encode one additional combining diacritic in the UCS — Maria Pantelia / TLG ([WG2 N2612-4](https://www.unicode.org/wg2/docs/n2612-4.pdf), [L2/03-186](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-186))
 - 2003-06-25 Proposal to encode one combining character in the UCS — Lithuanian Standards Board (LST) ([WG2 N2597](https://www.unicode.org/wg2/docs/n2597.pdf), [L2/03-219](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-219))
 - 2003-07-01 Proposal to encode combining double breve below — Rick McGowan, Peter Constable, Ken Whistler, and Unicode Technical Committee ([WG2 N2594](https://www.unicode.org/wg2/docs/n2594.pdf), [L2/03-142](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-142))
 - 2003-08-23 Additional Mathematical and Letterlike Characters — UTC([WG2 N2590](https://www.unicode.org/wg2/docs/n2590.pdf))
@@ -142,3 +142,49 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 22.)_
 - 2020-09-28 Restrictions on base characters of variation sequences (L2/20-244) — Charlotte Buff ([L2/20-247](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-247))
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 22.)_
+- 2023-06-16 Revised proposal to add the combining overcurl to the UCS (WG2 N5227) — Michael Everson, Nicholas Williams, Alan M. Kent ([L2/23-137](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-137))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point B.19.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 SECTION 19 for decision and action items)_
+- 2023-07-16 Unicode request for compound tone diacritics — Kirk Miller ([L2/23-188](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-188))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.VI.7.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 SECTION 7 for decision and action items)_
+- 2023-07-17 Unicode request for IPA compound tone diacritic — Kirk Miller ([L2/23-189](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-189))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point B.18.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 SECTION 18 for decision and action items)_
+- 2023-09-18 Unicode request for compound tone diacritics II — Kirk Miller ([L2/23-208](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-208))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.VI.9.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 9 for decision and action items)_
+- 2023-09-20 Unicode request for Harrington diacritics (revised) — Yoram Meroz, Kirk Miller, Matthew Vestuto ([L2/23-206](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-206))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.VI.10.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 10 for decision and action items)_
+- 2024-01-01 Unicode support for historical and para-IPA letters — IPA ([L2/24-049](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-049))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point C.)_
+- 2024-02-20 Note on U+1DF8 combining dot above left — Kirk Miller ([L2/24-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-091))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.VI.12.)_
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section VI-12 for decision and action items)_
+- 2024-03-31 Unicode request for IPA diacritics above and one below — Kirk Miller ([L2/24-080](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-080))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.VI.14.)_
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section VI-14 for decision and action items)_
+- 2024-04-05 Annotation request for Vietnamese apex — Minh Nguyen, Kirk Miller ([L2/24-111](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-111))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point D..)_
+- 2024-04-09 Clarification of use and forms of certain combining characters (MUFI response to L2/24-111) — Tarrin Wills ([L2/24-103](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-103))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point D.)_
+- 2024-04-14 Unicode request for double caron — Kirk Miller ([L2/24-105](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-105))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.VI.13.)_
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section VI-13 for decision and action items)_
+- 2024-10-18 Unicode request for compound tone diacritics — Kirk Miller ([L2/24-232](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-232))
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 2.7.)_
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 2.7 for decision and action items)_
+- 2025-02-05 Annotation request for Vietnamese apex — Minh Nguyen, Kirk Miller ([L2/25-066](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-066))
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 4.3.)_
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 4.3 for decision and action items)_
+- 2025-02-06 A note on U+1AB3 combining downwards arrow — Kirk Miller ([L2/25-019](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-019))
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (<br />
+See point 3.3.)_
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 3.3 for decision and action items)_
+- 2025-02-28 Unicode request for Vietnamese apex — Minh Nguyen, Kirk Miller ([L2/25-130](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-130))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.10.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 5 for decision and action items)_
+- 2025-04-04 Unicode request for letters with double tilde overlay — Kirk Miller ([L2/25-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-114))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.8.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.8 for decision and action items)_

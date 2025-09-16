@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Glagolitic script implementation is discussed in [Chapter 7 Europe-I](http://www.unicode.org/versions/latest/ch07.pdf).
+In The Unicode Standard, Glagolitic script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G15862).
 
 ## Blocks
 
@@ -36,7 +36,7 @@ _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and U
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:
 - 1992-10-29 Glagolitic — Joe Becker ([Unicode Technical Report #3 R2](http://www.unicode.org/reports/tr3-2/))
 - 1996-12-15 Glagolitic coded character set for bibliographic information interchange ([L2/98-190](http://www.unicode.org/L2/L1998/98190-6861.pdf))
-- 1997-12-08 Proposal to encode Glagolitic in ISO/IEC 10646 — Michael Everson ([WG2 N1659.htm](https://www.unicode.org/wg2/docs/n1659.htm), L2/98-023 (not online))
+- 1997-12-08 Proposal to encode Glagolitic in ISO/IEC 10646 — Michael Everson (WG2 N1659.htm, L2/98-023 (neither online))
 - 1998-11-24 Revised proposal for encoding the Glagolitic script in the UCS — Michael Everson ([WG2 N1931](https://www.unicode.org/wg2/docs/n1931.pdf), [L2/99-012](http://www.unicode.org/L2/L1999/n1931.pdf))
 - 2002-12-04 Revised proposal for encoding the Glagolitic script in the UCS — Michael Everson, Ralph Cleminson ([WG2 N2555](https://www.unicode.org/wg2/docs/n2555.pdf), [L2/02-448](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-448))
 - 2003-09-04 Final proposal for encoding the Glagolitic script in the UCS — Michael Everson, Ralph Cleminson ([WG2 N2610](https://www.unicode.org/wg2/docs/n2610.pdf), [L2/03-282](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-282))

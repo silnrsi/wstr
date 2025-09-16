@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-The Aztec Pictograms are not yet in Unicode. The script has a tentative allocation at U+15C00..U+15FFF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Aztec Pictograms are not yet in Unicode. At one point the script had a tentative allocation in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. However, it is no longer in the roadmap.
 
 ## Proposals and documents
 

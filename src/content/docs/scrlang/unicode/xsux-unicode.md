@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, implementation of Sumero-Akkadian Cuneiform is discussed in [Chapter 11 Cuneiform and Hieroglyphs](http://www.unicode.org/versions/latest/ch11.pdf).
+In The Unicode Standard, implementation of Sumero-Akkadian Cuneiform is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G26852) and in [UTR 56 Unicode Cuneiform Sign Lists](https://www.unicode.org/reports/tr56/).
 
 ## Blocks
 
@@ -71,3 +71,31 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2012-07-31 Proposal for additions and corrections to Sumero-Akkadian Cuneiform — Michael Everson, Steve Tinney ([WG2 N4277](https://www.unicode.org/wg2/docs/n4277.pdf), [L2/12-207](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-207))
 - 2012-11-08 Duplicate EARLY DYNASTIC CUNEIFORM character: U+124D2 CUNEIFORM SIGN KA TIMES U — Deborah Anderson ([L2/12-389](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-389))
 - 2013-10-28 Request to add one Cuneiform character to the UCS — Michael Everson ([WG2 N4493](https://www.unicode.org/wg2/docs/n4493.pdf), [L2/13-196](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-196))
+- 2023-03-24 Unicode Cuneiform Sign Lists — Robin Leroy ([L2/23-071](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-071))
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.i.2.)_
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.2 for decision and action items)_
+- 2023-07-11 A note on cuneiform ligatures — Robin Leroy ([L2/23-186](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-186))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point A.III.4)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.3 for decision and action items)_
+- 2023-10-14 Proposed changes to PDUTR #56 — Robin Leroy ([L2/23-229](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-229))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.III.4.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 4 for decision and action items)_
+- 2023-10-23 Proposed Draft UTR #56, Unicode Cuneiform Sign Lists (HTML version) — Robin Leroy ([L2/23-267](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-267))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.III.4.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.3 PRI #482 for decision and action items)_
+  - _Recommendations to UTC #178 January 2024 on Script Proposals ([L2/24-013](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-013)) (See point B.22.)_
+  - _UTC #178 Minutes ([L2/24-006](https://www.unicode.org/L2/L2024/24006.htm)) (See D3 PRI #485 and D.1 Section 2 for decision and action items)_
+- 2024-03-16 On cuneiform UN and KALAM — Robin Leroy ([L2/24-074](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-074))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.III.5a.)_
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section III-5a for decision and action items)_
+- 2024-04-14 Comments on L2/23-190 Revised proposal to encode Proto-Cuneiform in Unicode — Steve Tinney ([L2/24-211](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-211))
+- 2024-04-17 Draft UTR #56, Unicode Cuneiform Sign Lists (HTML version) — Robin Leroy ([L2/24-120](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-120))
+  - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.III.5b.)_
+  - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section III-5b for decision and action items)_
+- 2024-10-23 Archaic Cuneiform Numerals — Robin Leroy, Anshuman Pandey, and Steve Tinney ([L2/24-210](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-210))
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 2.4.)_
+  - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 2.4 for decision and action items)_
+- 2024-10-25 Numeric annotations and properties for cuneiform signs — Robin Leroy ([L2/24-239](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-239))
+- 2024-12-17 Twelve cuneiform tenû numerals — Robin Leroy ([L2/24-270](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-270))
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 1.1.)_
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 1.1 for decision and action items)_

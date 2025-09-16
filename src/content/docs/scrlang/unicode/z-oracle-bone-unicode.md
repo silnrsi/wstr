@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-The Oracle Bone script (also called Old Hanzi) is not yet in Unicode. The script has a tentative allocation at U+32A00..U+341FF in the [Roadmap to the TIP](http://www.unicode.org/roadmaps/tip/) for the Unicode Standard.
+The Oracle Bone script (also called Old Hanzi) is not yet in Unicode. The script is referenced, but without an allocation, in the [Roadmap to the TIP](http://www.unicode.org/roadmaps/tip/) for the Unicode Standard.
 
 ## Proposals and documents
 

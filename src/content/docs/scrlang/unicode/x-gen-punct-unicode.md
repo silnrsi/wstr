@@ -47,7 +47,7 @@ Subsequent to version 1.1, the following characters have been added to common pu
 | 205F  |  3.2  |    |
 | 2060..2063  |  3.2  |    |
 | 2064  |  5.1  |  [n3198.pdf](https://www.unicode.org/wg2/docs/n3198.pdf) L2/07-011R2  |
-| 2E00..2E0C  |  4.1  |  [n2612-1.pdf](https://www.unicode.org/wg2/docs/n2612/n2612-1.pdf) L2/03-074 R2  |
+| 2E00..2E0C  |  4.1  |  [n2612-1.pdf](https://www.unicode.org/wg2/docs/n2612-1.pdf) L2/03-074 R2  |
 | 2E0D  |  4.1  |  [n2675.pdf](https://www.unicode.org/wg2/docs/n2675.pdf)  |
 | 2E0E..2E16  |  4.1  |  [n2642.pdf](https://www.unicode.org/wg2/docs/n2642.pdf) L2/03-324 |
 | 2E17  |  4.1  |  [n2647.pdf](https://www.unicode.org/wg2/docs/n2647.pdf) L2/03-338  |
@@ -94,7 +94,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2002-11-27 Note on soft hyphens in 10646/Unicode — Kent Karlsson ([WG2 N2531](https://www.unicode.org/wg2/docs/n2531.pdf), [L2/02-426](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-426))
 - 2002-12-02 Answer to L2/02-426, SC2/WG2 N2531 — Eric Muller ([L2/02-444](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-444))
 - 2003-01-30 Response to "UTC Agenda Item: Scope of Enclosing Marks" — Asmus Freytag ([L2/03-028](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-028))
-- 2003-06-11 Proposal to encode additional Punctuation Characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-7](https://www.unicode.org/wg2/docs/n2612/n2612-7.pdf), [L2/03-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-193))
+- 2003-06-11 Proposal to encode additional Punctuation Characters in the UCS — Maria Pantelia / TLG ([WG2 N2612-7](https://www.unicode.org/wg2/docs/n2612-7.pdf), [L2/03-193](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-193))
 - 2003-08-21 ZWJ/ZWNJ proposed general category change — Kent Karlsson ([L2/03-276](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-276))
 - 2003-10-06 Proposal to encode additional Greek editorial and punctuation characters in the UCS — Maria Pantelia / TLG ([WG2 N2642](https://www.unicode.org/wg2/docs/n2642.pdf), [L2/03-324](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-324))
 - 2003-10-10 Proposal — Symbols used in dictionaries — Asmus Freytag ([WG2 N2655](https://www.unicode.org/wg2/docs/n2655.pdf))

@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Grantha script implementation is discussed in [Chapter 15 South and Central Asia-IV: Other Historic Scripts](http://www.unicode.org/versions/latest/ch15.pdf).
+In The Unicode Standard, Grantha script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G81052).
 
 ## Blocks
 
@@ -170,3 +170,5 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2017-07-28 Letter from Thiru T.K.Ramahandran to Lisa Moore (re Combining Bindu) — Gov't Tamil Nadu ([L2/17-290](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-290))
 - 2017-12-08 Changes to ScriptExtensions.txt for Indic characters for Unicode 11.0 — Srinidhi A, Sridatta A ([L2/17-424](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-424))
   - _Recommendations to UTC #154 January 2018 on Script Proposals ([L2/18-039](http://www.unicode.org/L2/L2018/18039-script-adhoc-rec.pdf)) (See point 6b section 4.)_
+- 2022-04-13 Specification updates for orthographic syllables and line breaking — Norbert Lindenberg, et al ([L2/22-086](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-086))
+- 2022-04-15 Line breaking at orthographic syllable boundaries (revised) — Norbert Lindenberg, et al ([L2/22-080](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-080))

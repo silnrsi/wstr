@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Miao script implementation is discussed in [Chapter 18 East Asia](http://www.unicode.org/versions/latest/ch18.pdf).
+In The Unicode Standard, Miao script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G42236) and in [UTN#56 Representing Miao in Unicode](https://www.unicode.org/notes/tn56/).
 
 ## Blocks
 
@@ -35,3 +35,9 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2018-11-09 Annotation modifications for Miao block — Eiso Chan ([L2/18-326](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/18-326))
   - _Recommendations to UTC #158 January 2019 on Script Proposals ([L2/19-047](https://www.unicode.org/L2/L2019/19047-script-adhoc-recs.pdf)) (See point 18.)_
   - _UTC #158 Minutes ([L2/19-008](https://www.unicode.org/L2/L2019/19008.htm)) (See C.11 for decision and action items)_
+- 2022-05-04 Preliminary proposal for additions for Hei Yi to Miao block — Eiso Chan ([L2/23-198](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-198))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point B.23.)_
+- 2022-07-20 _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 25.)_
+  - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1 SECTION 25 for decision and action items)_
+- _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.III.7.)_
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 7 for decision and action items)_

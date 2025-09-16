@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-The Landa (sometimes called Lahnda) script is not yet in Unicode. The script has a tentative allocation at U+11250..U+1127F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Lahnda (sometimes called Landa) script is not yet in Unicode. The script has a tentative allocation at U+11250..U+1127F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Proposals and documents
 

@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Cypriot syllabary implementation is discussed in [Chapter 8 Europe-II: Ancient and Other Scripts](http://www.unicode.org/versions/latest/ch08.pdf).
+In The Unicode Standard, Cypriot syllabary implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G26417).
 
 ## Blocks
 
@@ -21,7 +21,7 @@ The Cypriot syllabary was encoded in The Unicode Standard version 4.0. The scrip
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:
 - 1997-05-22 Proposal to add Cypriot Syllabary to Unicode/ISO-IEC 10646 — John H. Jenkins ([L2/97-108](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/97-108))
-- 1997-06-10 Overview of the Aegean scripts — John H. Jenkins ([WG2 N1575](https://www.unicode.org/wg2/docs/n1575.pdf), [L2/97-105](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/97-105))
+- 1997-06-10 Overview of the Aegean scripts — John H. Jenkins (WG2 N1575 (not online), [L2/97-105](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/97-105))
 - 2000-02-15 Scripts from the Past in Future Versions of Unicode — Carl-Martin Bunz                 ([L2/00-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-128))
 - 2000-04-26 Further comments on historic scripts — Carl-Martin Bunz ([L2/00-153](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-153))
 - 2001-01-28 Status Report on Aegean Script Proposal (Linear B, Aegean Numbers and Cypriot Syllabary) — Deborah Anderson ([L2/01-084](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-084))

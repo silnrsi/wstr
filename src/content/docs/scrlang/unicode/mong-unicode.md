@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Mongolian script implementation is discussed in [Chapter 13 South and Central Asia-II: Other Modern Scripts](http://www.unicode.org/versions/latest/ch13.pdf).
+In The Unicode Standard, Mongolian script implementation is discussed in [Chapter 13 South and Central Asia-II: Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G27803) and in [UTN 57: Encoding and Shaping of the Mongolian Script](https://www.unicode.org/notes/tn57/).
 
 ## Blocks
 
@@ -170,17 +170,42 @@ Yilei, Zheng Weizhe, Richard Ishida, Debbie Anderson ([L2/17-243](http://www.uni
   - _UTC #162 Minutes ([L2/20-015](http://www.unicode.org/L2/L2020/20015.htm)) (See B.10.19.2 for decision and action items)_
 - 2020-01-23 Proposal to add Mongolian Free Variation Selector Four — Liang Hai ([L2/20-057](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-057))
   - _UTC #162 Minutes ([L2/20-015](http://www.unicode.org/L2/L2020/20015.htm)) (See B.14.3.2 for decision and action items)_
-- 2020-02-14 Preliminary proposal for encoding the Mongolian Usgiin Solution in the SMP of the UCS File No: File-2  – Chuck Namujila ([MWG/4-N4](https://corp.unicode.org/%7Elisa/mongolianwg4docs/mwg4-4PreliminaryProposal-ChuckN_0214.pdf)) 
+- 2020-02-14 Preliminary proposal for encoding the Mongolian Usgiin Solution in the SMP of the UCS File No: File-2  – Chuck Namujila ([MWG/4-N4](https://www.unicode.org/mwg/mwg4docs/mwg4-4PreliminaryProposal-ChuckN_0214.pdf)) 
   - _Recommendations to UTC #163 April-May 2020 on Script Proposals ([L2/20-105](https://www.unicode.org/L2/L2020/20105-script-adhoc-rept.pdf)) (See point 7a.)_
-- 2020-03-09 The Simplified Mongolian Solution - Unicode –  Z Team / Chuck Namujila ([MWG/4-N5](https://corp.unicode.org/%7Elisa/mongolianwg4docs/mwg4-5Slides-ChuckN))
+- 2020-03-09 The Simplified Mongolian Solution - Unicode –  Z Team / Chuck Namujila ([MWG/4-N5](https://www.unicode.org/mwg/mwg4docs/mwg4-5Slides-ChuckN.pdf))
   - _Recommendations to UTC #163 April-May 2020 on Script Proposals ([L2/20-105](https://www.unicode.org/L2/L2020/20105-script-adhoc-rept.pdf)) (See point 7a.)_
-- 2020-03-14 Suggestion about separately allocating code points for the “feminine and masculine characters” – Chuck Namujila ([MWG/4-N6](https://corp.unicode.org/%7Elisa/mongolianwg4docs/mwg4-6CodePointsForFeminine-MasculineCharacters.pdf)) 
+- 2020-03-14 Suggestion about separately allocating code points for the “feminine and masculine characters” – Chuck Namujila ([MWG/4-N6](https://www.unicode.org/mwg/mwg4docs/mwg4-6CodePointsForFeminine-MasculineCharacters.pdf)) 
   - _Recommendations to UTC #163 April-May 2020 on Script Proposals ([L2/20-105](https://www.unicode.org/L2/L2020/20105-script-adhoc-rept.pdf)) (See point 7b.)_
-- 2020-03-22 Proposal for a glyphic encoding for Todo – Minzai ([MWG/4-N3](https://corp.unicode.org/%7Elisa/mongolianwg4docs/mwn4-3GlyphicEncodingforTodo.pdf)) 
+- 2020-03-22 Proposal for a glyphic encoding for Todo – Minzai ([MWG/4-N3](https://www.unicode.org/mwg/mwg4docs/mwn4-3GlyphicEncodingforTodo.pdf)) 
   - _Recommendations to UTC #163 April-May 2020 on Script Proposals ([L2/20-105](https://www.unicode.org/L2/L2020/20105-script-adhoc-rept.pdf)) (See point 7d.)_
-- 2020-03-30 A Proposal to Add Characters to Mongolian Coding – Ma Fuquan ([MWG/4-N7](https://corp.unicode.org/%7Elisa/mongolianwg4docs/mwg4-7Mongolian_MaFuquan.pdf)) 
+- 2020-03-30 A Proposal to Add Characters to Mongolian Coding – Ma Fuquan ([MWG/4-N7](https://www.unicode.org/mwg/mwg4docs/mwg4-7Mongolian_MaFuquan.pdf)) 
   - _Recommendations to UTC #163 April-May 2020 on Script Proposals ([L2/20-105](https://www.unicode.org/L2/L2020/20105-script-adhoc-rept.pdf)) (See point 7c.)_
 
 2020-04-23 Notes on Informal Meeting on Mongolian with Chuck Namujila — Deborah Anderson ([*&nbsp;L2/20-138
 
 ](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-138)*&nbsp;*&nbsp;_UTC #163 Minutes ([L2/20-102](https://www.unicode.org/L2/L2020/20102.htm)) (See A.7 for decision and action items)_
+- 2021-09-23 Proposal to encode 4 Mongolian characters in UCS — Kushim Jiang (姜兆勤) ([L2/21-244](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-244))
+  - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 10.)_
+  - _UTC #170 Minutes ([L2/22-016](https://www.unicode.org/L2/L2022/22016.htm)) (See D.1 SECTION 10 for decision and action items)_
+- 2023-02-17 _Comments on Public Review Issues (January 5 - April 5, 2023)_ — Liang Hai ([https://www.unicode.org/L2/L2023/23078-pubrev.html](https://www.unicode.org/L2/L2023/23078-pubrev.html)) _ (See feedback to EDC)_
+- 2023-04-01 Text representation and shaping manual of the Mongolian script — Kushim Jiang ([L2/23-101](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-101))
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.5 for decision and action items)_
+- 2023-12-29 Proposal to Encode One Manchu Letter — CheonHyeong Sim, et al ([L2/24-025](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-025))
+  - _Recommendations to UTC #178 January 2024 on Script Proposals ([L2/24-013](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-013)) (See point A.IV.8.)_
+  - _UTC #178 Minutes ([L2/24-006](https://www.unicode.org/L2/L2024/24006.htm)) (See D.1.1 Section 8 for decision and action items)_
+- 2024-06-04 Feedback on the Proposal to Revise and Add Manchu Character U+1879 (L2/24-025) — China NB ([L2/24-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-156))
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point B.27.)_
+- 2024-07-01 Preliminary proposal to encode Wagindara letters for the Mongolian script — YEHENARA Jiaxu, Kushim JIANG, TUNGGIYA Uju, LIU Tupo ([L2/24-242](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-242))
+  - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 8.)_
+- 2024-07-13 Proposal to refer to UTN #57 for implementing the Mongolian script — Liang Hai ([L2/24-180](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-180))
+  - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.IV.9.)_
+  - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 9 for decision and action items)_
+- 2025-01-08 Proposal to Add VS3 for Sibe Quotation Marks — CheonHyeong Sim ([L2/25-028](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-028))
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 6.7.)_
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 6.7 for decision and action items)_
+- 2025-02-26 Proposal to Encode One Mongolian Letter — CheonHyeong Sim, Yehenara Jiaxum, Tunggiya Uju, Ziyu Su, Wang Shuo, Jalakū, Jang Johūi ([L2/25-080](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-080))
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 6.2.)_
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 6.2 for decision and action items)_
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.3.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.3 for decision and action items)_
+- 2025-04-23 Progress report on UTN#57: Encoding and Shaping of the Mongolian Script — Kushim Jiang ([L2/25-140](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-140))

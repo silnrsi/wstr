@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Tagalog script implementation is discussed in [Chapter 17 Indonesia and Oceania](http://www.unicode.org/versions/latest/ch17.pdf) under Philippine scripts.
+In The Unicode Standard, Tagalog script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G26433) and in [UTN 35: Indonesian and Philippine Scripts and extensions](https://www.unicode.org/notes/tn35/).
 
 ## Blocks
 
@@ -34,3 +34,6 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2020-10-03 Amended proposal to encode the Tagalog pamudpod — Fredrick R. Brennan ([L2/20-272](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-272))
   - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 14.)_
   - _UTC #165 Minutes ([L2/20-237](https://www.unicode.org/L2/L2020/20237.htm)) (See B.1 for decision and action items)_
+- 2021-05-20 Pamudpod properties (Tagalog and Hanunoo) — Roozbeh Pournader ([L2/21-117](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-117))
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 18.)_
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_

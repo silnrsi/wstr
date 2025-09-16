@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Batak script implementation is discussed in [Chapter 17 Indonesia and Oceania](http://www.unicode.org/versions/latest/ch17.pdf).
+In The Unicode Standard, Batak script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G27226).
 
 ## Blocks
 
@@ -38,3 +38,12 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2008-10-07 Proposal for encoding the Batak script in the UCS — Michael Everson and Uli Kozok ([WG2 N3320](https://www.unicode.org/wg2/docs/n3320.pdf), [L2/08-011](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-011))
 - 2009-01-29 Dialect-Specific Characters in Batak — Deborah Anderson ([L2/09-063](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-063))
 - 2011-03-03 Indonesian and Philippine Scripts and extensions not yet encoded or proposed for encoding in Unicode — Christopher Miller ([L2/11-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-091))
+- 2022-04-13 Specification updates for orthographic syllables and line breaking — Norbert Lindenberg, et al ([L2/22-086](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-086))
+- 2022-04-15 Line breaking at orthographic syllable boundaries (revised) — Norbert Lindenberg, et al ([L2/22-080](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-080))
+- 2022-07-20 Batak _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 8.)_
+- 2023-07-12 Reordering virama — Norbert Lindenberg ([L2/23-205](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-205))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point A.VIII.18.)_
+  - _UTC #177 Minutes ([L2/23-231](https://www.unicode.org/L2/L2023/23231.htm)) (See D.1.1 Section 18 for decision and action items)_
+- 2023-11-16 Proposal to add an annotation to BATAK LETTER KARO BA — Ben Yang ([L2/23-275](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-275))
+  - _Recommendations to UTC #178 January 2024 on Script Proposals ([L2/24-013](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-013)) (See point A.V.9.)_
+  - _UTC #178 Minutes ([L2/24-006](https://www.unicode.org/L2/L2024/24006.htm)) (See D.1.1 Section 9 for decision and action items)_

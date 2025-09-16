@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-The Vedic Extensions block was first encoded in The Unicode Standard version 5.2. Vedic Extensions are discussed in [Chapter 12 South and Central Asia-I: Official Scripts of India](http://www.unicode.org/versions/latest/ch12.pdf) in the Devanagari Extended section. Vedic Extensions may be used with many Indic scripts. Unicode Status pages for scripts that use the Vedic Extensions are found here: [Bengali](https://scriptsource.org/entry/f8jrlqwbac), [Devanagari](https://scriptsource.org/entry/b6c6j63sf5), [Grantha](https://scriptsource.org/entry/qzhwzbsvm7), [Gujarati](https://scriptsource.org/entry/yqug2kbjjr), [Gurmukhi](https://scriptsource.org/entry/fd27tquj5j), [Kannada](https://scriptsource.org/entry/ur8y3qj6yk), [Malayalam](https://scriptsource.org/entry/ypvmjurtyg), [Newa](https://scriptsource.org/entry/y53lggbts6), [Oriya](https://scriptsource.org/entry/znkmblg693), [Sharada](https://scriptsource.org/entry/spnpfarl4t), [Tamil](https://scriptsource.org/entry/zw5nedjarb) and [Telugu](https://scriptsource.org/entry/sjrwm9ppr3).
+The Vedic Extensions block was first encoded in The Unicode Standard version 5.2. Vedic Extensions are discussed in [Chapter 12 South and Central Asia-I: Official Scripts of India](http://www.unicode.org/versions/latest/ch12.pdf) in the Devanagari Extended section. Vedic Extensions may be used with many Indic scripts. Unicode Status pages for scripts that use the Vedic Extensions are found here: [Bengali](/scrlang/scripts/beng), [Devanagari](/scrlang/scripts/deva), [Grantha](/scrlang/scripts/gran), [Gujarati](/scrlang/scripts/gujr), [Gurmukhi](/scrlang/scripts/guru), [Kannada](/scrlang/scripts/knda), [Malayalam](/scrlang/scripts/mlym), [Newa](/scrlang/scripts/newa), [Oriya](/scrlang/scripts/orya), [Sharada](/scrlang/scripts/shrd), [Tamil](/scrlang/scripts/taml) and [Telugu](/scrlang/scripts/telu).
 
 ## Blocks
 
@@ -111,6 +111,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2017-05-02 New categories for Indic characters — Anshuman Pandey ([L2/17-148](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-148))
 - 2017-05-09 Indic Syllabic Category of Javanese Cakra — Roozbeh Pournader ([L2/17-163](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-163))
 - 2017-05-11 Aksara support in UAX #29 (revised) — Mark Davis ([L2/17-167](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-167))
+- 2017-08-06 Encoding model issues with the Vedic gomukha characters — Shriramana Sharma ([L2/18-035](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/18-035))
 - 2017-09-12 Reconsidering the glyph change of Vedic signs Jihvamuliya and Upadhmaniya — Srinidhi A, Sridatta A ([L2/17-319](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-319))
   - _Recommendations to UTC #153 October 2017 on Script Proposals ([L2/17-384](http://www.unicode.org/L2/L2017/17384-script-ad-hoc-recs.pdf)) (See point 9.)_
   - _UTC #153 Minutes ([L2/17-362](http://www.unicode.org/L2/L2017/17362.htm)) (See D.10 for decision and action items)_
@@ -123,3 +124,8 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2018-09-05 Further remarks on the encoding model of Vedic gomukha characters — Shriramana Sharma ([L2/18-287](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/18-287))
   - _Recommendations to UTC #157 September 2018 on Script Proposals ([L2/18-300](http://www.unicode.org/L2/L2018/18300-script-ad-hoc-rec.pdf)) (See point 8.)_
   - _UTC #157 Minutes ([L2/18-272](http://www.unicode.org/L2/L2018/18272.htm)) (See D.5 for decision and action items)_
+- 2020-12-17 ISC assignment for gomukha characters — Andrew Glass, Anshuman Pandey ([L2/21-006](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-006))
+  - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 17.)_
+- 2021-03-13 Interaction of Vedic svara markers with post-base spacing marks — Shriramana Sharma ([L2/21-054](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-054))
+  - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 15.)_
+  - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_

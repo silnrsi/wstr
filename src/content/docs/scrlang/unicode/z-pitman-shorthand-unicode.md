@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-Pitman Shorthand is not yet in Unicode. The script has a tentative allocation at U+1BCB0..U+1BCDF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+Pitman Shorthand is not yet in Unicode. The script has a tentative allocation at U+1BCB0..U+1BCFF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Proposals and documents
 

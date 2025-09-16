@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-The Small Seal script is not yet in Unicode. The script has a tentative allocation at U+30000..U+3291F in the [Roadmap to the TIP](http://www.unicode.org/roadmaps/tip/) for the Unicode Standard.
+The Small Seal script (sometimes called Shuowen) is not yet in Unicode. The Small Seal script has a tentative allocation at U+38000..U+3AB9F in the [Roadmap to the TIP](http://www.unicode.org/roadmaps/tip/) for the Unicode Standard.
 
 ## Proposals and documents
 
@@ -24,3 +24,25 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #160 July 2019 on Script Proposals ([L2/19-286](https://www.unicode.org/L2/L2019/19286-script-recs.pdf)) (See point 16.)_
 - 2019-06-19 Report of Seal Script discussion in WG2 #68 — Toshiya Suzuki (WG2 N5108, [L2/19-245](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/19-245))
   - _Recommendations to UTC #160 July 2019 on Script Proposals ([L2/19-286](https://www.unicode.org/L2/L2019/19286-script-recs.pdf)) (See point 16.)_
+- 2022-02-20 THX correction glyph summary table (WG2 N5190) — TCA / China ([L2/22-142](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-142))
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 15.)_
+- 2022-06-17 About the future extension of other versions of Shuowen Seal (WG2 N5188) — TCA ([L2/22-140](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-140))
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 15.)_
+- 2022-06-17 THX Seal glyph Correction Principles (WG2 N5189) — Selena / TCA ([L2/22-141](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-141))
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 15.)_
+- 2022-06-20 TCA and China Feedback on N5133 (WG2 N5133) — Shouwen Seal Experts from China and TCA ([L2/22-139](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-139))
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 15.)_
+- 2022-06-20 THX Property Table (14.5MB) (WG2 N5191) — TCA / China ([L2/22-143](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-143))
+  - _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 15.)_
+- 2022-11-08 UCS Seal Script Source Mapping Data — Richard Cook ([L2/22-279](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-279))
+  - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point B.20.)_
+  - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point C.15.)_
+  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.2. and E.1 Section 30 for decision and action items)_
+- 2023-07-08 Glyph Image Chart to Review L2/22-279 Mapping (size: 76MB) — Toshiya Suzuki ([L2/23-166](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-166))
+  - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point B.24.)_
+  - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 24 for decision and action items)_
+- 2025-01-26 Considerations concerning the Small Seal encoding initiative (revised) — Michel Suignard ([L2/25-049](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-049))
+  - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.5 for decision and action items)_
+- 2025-03-31 Converging towards a Small Seal encoding proposal — Michel Suignard ([L2/25-111](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-111))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 6.)_
+  - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.4 for decision and action items)_

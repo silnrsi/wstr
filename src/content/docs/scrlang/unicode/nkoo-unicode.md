@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, N’Ko script implementation is discussed in [Chapter 19 Africa](http://www.unicode.org/versions/latest/ch19.pdf).
+In The Unicode Standard, N’Ko script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G18603).
 
 ## Blocks
 
@@ -48,3 +48,10 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2017-08-10 About script names in the code charts — Eduardo Marin Silva ([L2/17-293](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-293))
   - _Recommendations to UTC #153 October 2017 on Script Proposals ([L2/17-384](http://www.unicode.org/L2/L2017/17384-script-ad-hoc-recs.pdf)) (See point 1.)_
   - _UTC #153 Minutes ([L2/17-362](http://www.unicode.org/L2/L2017/17362.htm)) (See B.14 for decision and action items)_
+- 2022-03-03 Update on implementation status of African scripts — Charles L. Riley ([L2/22-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-073))
+  - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 28.)_
+  - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 28 for decision and action items)_
+- 2023-09-08 Update on Usage and Implementation Status of African Scripts — Oreen Yousuf, Charles Riley, Daniel Yacob, Neil Patel, Tim Brookes ([L2/23-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-203))
+  - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.26.)_
+- 2025-02-21 Revised Proposal to Encode N’ko Phonetic Extensions for Malian Languages — Boubacar Diakite, Neil Patel ([L2/25-081](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-081))
+  - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.3.)_

@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-16
 ---
 
-In The Unicode Standard, Georgian script implementation is discussed in [Chapter 7 Europe-I](http://www.unicode.org/versions/latest/ch07.pdf).
+In The Unicode Standard, Georgian script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G3360).
 
 ## Blocks
 
