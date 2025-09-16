@@ -1,12 +1,12 @@
 ---
 import ScriptResourceLinks from "./ScriptResourceLinks.astro";
 
-const { scrpropname, scrpropcode } = Astro.locals.starlightRoute.entry.data;
+const { scrpropname, scrpropcode, scrpropshortname} = Astro.locals.starlightRoute.entry.data;
 const { detailSummary } = Astro.props;
 const ssurl = scrpropcode ? `https://scriptsource.org/scr/${scrpropcode}` : "https://scriptsource.org";
-const label4ss = scrpropname ? ` page for ${scrpropname}` : '';
+const label4ss = scrpropname ? ` page for ${scrpropshortname}` : '';
 const wikiurl = scrpropname ? `https://wikipedia.org/wiki/${scrpropname}` : "https://en.wikipedia.org/wiki/Script_(Unicode)";
-const label4wiki = scrpropname ? ` article on ${scrpropname}` : ' article on Scripts';
+const label4wiki = scrpropname ? ` article on ${scrpropshortname}` : ' article on Scripts';
 const seemore = (detailSummary === "seemore");
 ---
 
