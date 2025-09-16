@@ -8,7 +8,7 @@ lastUpdated: 2025-08-29
 
 The following describes information and values that are shown in the Script Details section of the script pages.
 
-- **Code**: this is defined by the ISO-15924 standard. It consists of four characters.
+- **Code**: this is defined by the [ISO 15924 standard][iso-15924]. It consists of four characters.
 - **Script type** - possible values are:
     - [alphabet](/reference/glossary#alph)
     - [abjad](/reference/glossary#abjad)
