@@ -42,7 +42,7 @@ Here are links to information and resources mentioned in the Language Technology
 ## Ways to contact us
 
 - [Language Technology Community Writing Systems forum][community-ws-forum]
-- [Contact form on the Language Technology site][sil-software-contact]
+- [Contact form on the Language Technology site][sil-wstech-contact]
 
 [andika]: https://software.sil.org/andika
 [charis]: https://software.sil.org/charis
@@ -65,7 +65,7 @@ Here are links to information and resources mentioned in the Language Technology
 [sil-fonts-help]: https://software.sil.org/fonts/guides
 [sil-fonts-web]: https://software.sil.org/fonts/webfonts
 [sil-fonts]: https://software.sil.org/fonts
-[sil-software-contact]: https://software.sil.org/about/contact
+[sil-wstech-contact]: https://software.sil.org/software-products/contact-wstech
 [sso]: https://scripts.sil.org
 [typetuner]: https://typetunerweb.languagetechnology.org/ttw/fonts2go.cgi
 
