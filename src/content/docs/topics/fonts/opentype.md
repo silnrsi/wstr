@@ -3,7 +3,7 @@ title: OpenType
 description: Features and lookups
 sidebar:
   order: 5520
-lastUpdated: 2025-08-06
+lastUpdated: 2025-09-16
 ---
 
 OpenType is a [smart-font](/reference/glossary#smartfont) technology that was developed by Microsoft and Adobe. It is the mostly widely-supported such system available today (less common systems are [Graphite][graphite] and [Apple Advanced Typography][aat]).

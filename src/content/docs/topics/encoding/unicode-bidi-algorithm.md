@@ -4,7 +4,7 @@ description: The "bidi" algorithm describes how software should process text tha
 sidebar:
     order: 3500
     label: Unicode Bidi Algorithm
-lastUpdated: 2024-09-10
+lastUpdated: 2024-09-16
 ---
 
 The [Unicode Bidirectional Algorithm (UAX#9)][uax9], often called the "bidi algorithm," describes specifications for the positioning of characters in text containing characters flowing from right to left, such as Arabic or Hebrew.
