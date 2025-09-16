@@ -3,7 +3,7 @@ title: Unicode Status for Ol Onal
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-10
+lastUpdated: 2025-09-15
 ---
 
 In The Unicode Standard, Ol Onal Script implementation is discussed in [Chapter 13 South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G746334).

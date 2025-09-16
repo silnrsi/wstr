@@ -3,7 +3,7 @@ title: Unicode Status for Kii
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-10
+lastUpdated: 2025-09-15
 ---
 
 The Kii script (Ngamga's Kii) is not yet in Unicode. The script has not yet been added to the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 

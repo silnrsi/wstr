@@ -3,7 +3,7 @@ title: Unicode Status for Kaktovik Numerals
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-10
+lastUpdated: 2025-09-15
 ---
 
 In The Unicode Standard, implementation for Kaktovik Numerals is discussed in [Chapter 22: Symbols](https://www.unicode.org/versions/latest/core-spec/chapter-22/#G83753).
