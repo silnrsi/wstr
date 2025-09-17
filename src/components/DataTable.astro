@@ -2,6 +2,8 @@
 import sqlite3 from 'sqlite3';
 import { open } from 'sqlite';
 
+import { COREDATA_DB_PATH } from '../utils/coredata_access';
+
 const { table, fields, where, orderBy, caption } = Astro.props;
 
 // Ensure `fields` is explicitly typed as a string
@@ -15,7 +17,7 @@ const fieldNames = parsedFields.map(f => f.field).join(', ');
 
 // Open the SQLite database
 const db = await open({
-  filename: '/workspaces/wstr-sample-site/src/data/coredata.sqlite', // Update this path as needed
+  filename: COREDATA_DB_PATH,
   driver: sqlite3.Database
 });
 

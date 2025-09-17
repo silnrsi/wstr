@@ -17,12 +17,15 @@ This page shows a few prototype Astro components to demonstrate inclusion of cor
 ### Syntax
 
 ```html
-<Character usv="XXXX" [options="usv,char,name"]/>
+<Character usv="XXXX"|char="a" [options="usv,char,name"]/>
 ```
+
+Note: Either `usv` or `char` must be provided.
 
 |Property|Description|
 |---|---|
 |usv|The Unicode scalar value of the character to display|
+|char|The character itself|
 |options|A comma-separated list of options to display. Options are `usv`, `char`, and `name`. The default is all three.|
 
 ### Inline

@@ -5,6 +5,7 @@ import { open } from 'sqlite';
 
 // @todo Get db path from environment variable set in .env - currently returning undefined
 const COREDATA_DB_PATH: string = process.env.COREDATA_DB_PATH as string || 'src/data/coredata.sqlite';
+export { COREDATA_DB_PATH };
 // console.log(`Using coredata DB path: '${COREDATA_DB_PATH}'`);
 
 const ERROR_INVALID_USV = '*** NO CHARACTER NAME FOUND FOR THIS USV ***';
