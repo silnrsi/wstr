@@ -4,10 +4,14 @@ description: The "bidi" algorithm describes how software should process text tha
 sidebar:
     order: 3500
     label: Unicode Bidi Algorithm
-lastUpdated: 2024-09-10
+lastUpdated: 2024-09-16
 ---
 
-The [Unicode Bidirectional Algorithm (UAX#9)][uax9], often called the "bidi algorithm," describes specifications for the positioning of characters in text containing characters flowing from right to left, such as Arabic or Hebrew. 
+The [Unicode Bidirectional Algorithm (UAX#9)][uax9], often called the "bidi algorithm," describes specifications for the positioning of characters in text containing characters flowing from right to left, such as Arabic or Hebrew.
+
+:::note
+Be sure to review the [Unicode recommendations](#unicode-recommendations) listed at the bottom of this page.
+:::
 
 ## A gentle introduction
 
@@ -149,7 +153,7 @@ As was previously mentioned, it is possible to adjust the behavior of bidirectio
 
 - To use the characters differently from the way they were intended. Some examples:
     - In a right-to-left script, digits are not serving as numbers per se, but as elements of an ID tag such as a serial number. In this case you might want to force the digits to behave more like letters with regard to the way they are written. The RLO override character would be placed before the digits to make them act like letters.
-        - _Example:_ AxT\<RLO\>139dm\<PDF\>; in right-to-left text this would be displayed: md931TxA
+        - _Example:_ AXT\<RLO\>139DM\<PDF\>; in right-to-left text this would be displayed: MD931TXA
     - A sequence of right-to-left letters within left-to-right text is being treated simply as a list of characters rather than as actual text. The LRO character before the right-to-left letters will make them act left-to-right.
         - _Example:_ Some Arabic letters (\<LRO\>&#x202D;&#x0627;, &#x062F;, &#x0631;, and &#x0648;\<PDF\>&#x202C;) only connect cursively on the right side.
     - A chapter/verse range such as those used in Biblical verse references is using a colon as a numerical separator rather than punctuation.

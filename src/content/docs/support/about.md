@@ -3,11 +3,11 @@ title: About
 description: About WSTR
 sidebar:
   order: 9910
-lastUpdated: 2025-07-28
+lastUpdated: 2025-09-17
 shortcode: aboat
 ---
 
-This site is a collection of articles and information related to supporting writing systems on computers. It is sponsored, developed, and maintained by SIL's _Writing Systems Technology_ team.
+This site is a collection of articles and information related to supporting writing systems on computers and mobile devices. It is sponsored, developed, and maintained by SIL's _Writing Systems Technology_ team.
 
 The goal is to publish useful information for software developers, font developers, and writing system users. In addition to new content, we plan to consolidate and update relevant information previously published on other SIL websites including [scripts.sil.org][sso], [Font Development Best Practices][fdbp], the [SIL Font Development Guide][silfontdev], and [ScriptSource][scriptsource].
 

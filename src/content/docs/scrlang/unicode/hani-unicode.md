@@ -3,14 +3,12 @@ title: Unicode Status for Han
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-10
+lastUpdated: 2025-09-16
 ---
 
 In The Unicode Standard, Han implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G29086).
 
-[comment]: # (end of intro)
-
-[comment]: # (start of blocks)
+## Blocks
 
 Han was first encoded in The Unicode Standard version 1.0. The script is now encoded in the following blocks:
 
@@ -32,9 +30,7 @@ Han was first encoded in The Unicode Standard version 1.0. The script is now enc
 | CJK Unified Ideographs Extension G  |  30000..3134F |  14.0  |  [U30000](http://www.unicode.org/charts/PDF/U30000.pdf)  |
 | CJK Unified Ideographs Extension H  |  31350..323AF |  15.0  |  [U31350](http://www.unicode.org/charts/PDF/U31350.pdf)  |
 
-[comment]: # (end of blocks)
-
-[comment]: # (start of chars)
+## Characters
 
 The following are in the "Common" category, but they do relate to the Han script.
 
@@ -43,9 +39,3 @@ The following are in the "Common" category, but they do relate to the Han script
 | Ideographic Description Characters  |  2FF0..2FFF  |  3.0  |  [U2FF0](http://www.unicode.org/charts/PDF/U2FF0.pdf)  |
 | CJK Strokes  |  31C0..31EF  |  4.1  |  [U31C0](http://www.unicode.org/charts/PDF/U31C0.pdf)  |
 | Enclosed CJK Letters and Months  |  3200..32FF  |  1.0  |  [U3200](http://www.unicode.org/charts/PDF/U3200.pdf)  |
-
-[comment]: # (end of chars)
-
-[comment]: # (start of rest)
-
-

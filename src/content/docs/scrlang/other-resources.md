@@ -6,10 +6,18 @@ sidebar:
 lastUpdated: 2025-09-04
 ---
 
-- [ScriptSource](https://scriptsource.org)
-- [What is a writing system?](/topics/writingsystems/what-is-a-writing-system)
-- [Wikipedia article on scripts](https://en.wikipedia.org/wiki/Script_(Unicode))
+- [ScriptSource][scriptsource]
+- [What is a writing system?][what-is-ws]
+- [Wikipedia article on scripts][wiki-scripts]
 - Resources from Richard Ishida
-  - [Script comparison table](https://r12a.github.io/scripts/script-features)
-  - [Unicode character pickers](https://r12a.github.io/pickers)
-  - [Orthography descriptions for specific writing systems](https://r12a.github.io/scripts/#scriptnotes)
+  - [Script comparison table][script-comparison]
+  - [Unicode character pickers][unicode-char-pickers]
+  - [Orthography descriptions for specific writing systems][orth-descr-for-ws]
+
+
+[scriptsource]: https://scriptsource.org
+[what-is-ws]: /topics/writingsystems/what-is-a-writing-system
+[wiki-scripts]: https://en.wikipedia.org/wiki/Script_(Unicode)
+[script-comparison]: https://r12a.github.io/scripts/script-features
+[unicode-char-pickers]: https://r12a.github.io/pickers
+[orth-descr-for-ws]: https://r12a.github.io/scripts/#scriptnotes

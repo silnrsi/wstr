@@ -3,12 +3,20 @@ title: Policies
 description: Policy statements regarding terms of service, terms of use, privacy, and licensing
 sidebar:
   order: 9940
-lastUpdated: 2025-08-28
+lastUpdated: 2025-09-17
 ---
 
 ## Terms of Service
 
-This website is a service operated by SIL Global (SIL) to serve language communities worldwide. Our postal contact address is SIL Writing Systems Technology, Dept: Key 100, 7500 West Camp Wisdom Road, Dallas, TX 75236, USA. These Terms of Service apply only to what is provided through this website, and not to other services of SIL Global.
+This website is a service operated by SIL Global (SIL) to serve language communities worldwide. Our postal contact address is:
+
+SIL Writing Systems Technology  
+Dept: Key 100  
+7500 West Camp Wisdom Road  
+Dallas, TX 75236  
+USA
+
+These Terms of Service apply only to what is provided through this website, and not to other services or websites of SIL Global.
 
 This website contains technical guidance and information on scripts, characters, languages, and writing systems for use in linguistic research and software development. All content will be presented with clearly identified authorship, copyright, and licensing.
 
@@ -28,7 +36,7 @@ For information on authorship and details of content used by permission see [Ack
 
 ## Privacy
 
-We do not collect, or transmit, any personally identifiable information for any purposes. We do use Google Analytics, and store cookies for analytics purposes only—primarily to anonymously log page metrics. We do not run advertising on this site or store any third party cookies for advertising purposes. This site does store a small amount of local data in your browser for maintaining the state of the navigation sidebar between visits. This information is not transmitted to us—it never leaves your browser. You can change your <a href="/" data-cc="show-preferencesModal" class="cc__link">consent preferences</a> at any time.
+This website does not collect or transmit any personally identifiable information for any purposes. It does use Google Analytics, and stores cookies for analytics purposes only—primarily to anonymously log page metrics. SIL Global does not run advertising or store any third party cookies for advertising purposes on this site. The site does store a small amount of local data in your browser for maintaining the state of the navigation sidebar between visits. This information is not transmitted to us—it never leaves your browser. You can change your consent preferences at any time by following the <a href="/" data-cc="show-preferencesModal" class="cc__link">Manage consent preferences</a> link in the footer of any page.
 
 ## Feedback
 

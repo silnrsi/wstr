@@ -3,16 +3,14 @@ title: Unicode Status for Symbols
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-10
+lastUpdated: 2025-09-16
 ---
 
 In the Unicode Standard there are characters that are considered Symbols, but they are associated with certain scripts. The characters listed here are Symbols (Math_Symbol, Currency_Symbol, Modifier_Symbol, Other_Symbol), but they are in the "Common" category rather than associated with a particular script.
 
 In The Unicode Standard, Symbols are discussed in [Chapter 22 Symbols](http://www.unicode.org/versions/latest/ch22.pdf).
 
-[comment]: # (end of intro)
-
-[comment]: # (start of blocks)
+## Blocks
 
 There are also Emoji Symbols (which have a different script code) referenced here: [https://scriptsource.org/entry/empm9fneyr](https://scriptsource.org/entry/empm9fneyr).
 
@@ -82,9 +80,7 @@ There are also Emoji Symbols (which have a different script code) referenced her
 | Supplemental Arrows-C | 1F800..1F8FF | 7.0 | [U1F800](http://www.unicode.org/charts/PDF/U1F800.pdf) |
 | Supplemental Symbols and Pictographs | 1F900..1F9FF | 8.0 | [U1F900](http://www.unicode.org/charts/PDF/U1F900.pdf) |
 
-[comment]: # (end of blocks)
-
-[comment]: # (start of chars)
+## Characters
 
 The following is a list of all Symbols and which version of Unicode they were added to.
 
@@ -455,70 +451,37 @@ The following is a list of all Symbols and which version of Unicode they were ad
 | 1F985..1F991 | 9.0 |
 | 1F9C0 | 8.0 |
 
-[comment]: # (end of chars)
-
-[comment]: # (start of rest)
+## Proposals and documents
 
 A number of proposals for various Symbols have been submitted to the Unicode Technical Committee and WG2:
-
 - 2016-02-23 Proposal to add the Copyleft Symbol to Unicode — David Faulks ([L2/16-059](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-059))
-
   - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 14 for recommendations)_
-
   - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.2 for decision and action items)_
-
 - 2016-03-03 Astrological Plutos — David Faulks ([L2/16-067](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-067))
-
   - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 13a for recommendations)_
-
   - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.4 for decision and action items)_
-
 - 2016-03-06 Extra Symbols from Uranian Astrology — David Faulks ([L2/16-064](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-064))
-
   - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 13b for recommendations)_
-
   - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.3 for decision and action items)_
-
 - 2016-03-14 Proposal to encode two Western-style tally marks — Ken Lunde, Daisuke Miura     ([L2/16-065](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-065))
-
   - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 15 for recommendations)_
-
   - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.7 for decision and action items)_
-
 - 2016-04-21 Proposal to encode symbols for Go game notation — Andrew West (WG2 N4719, [L2/16-108](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-108))
-
   - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.6 for decision and action items)_
-
 - 2016-05-28 Additional Symbols for Astrology — David Faulks ([L2/16-080](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-080))
-
   - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 13c for recommendations)_
-
   - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.4 for decision and action items)_
-
   - _Recommendations to UTC #148 August 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu, and Lisa Moore ([L2/16-216](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-216)) (See section 16a for recommendations)_
-
   - _UTC #148 Minutes ([L2/16-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-203)) (See E.2 for decision and action items)_
-
 - 2016-06-09 Extra Aspect Symbols for Astrology — David Faulks ([L2/16-174](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-174))
-
 - 2016-06-12 Eris and Sedna Symbols — David Faulks ([L2/16-173](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-173))
-
   - _Recommendations to UTC #148 August 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu, and Lisa Moore ([L2/16-216](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-216)) (See section 16.b for recommendations)_
-
 - 2016-07-11 Proposal to encode symbols for Go game notation — Andrew West (WG2 N4719R, [L2/16-185](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-185))
-
   - _Recommendations to UTC #148 August 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu, and Lisa Moore ([L2/16-216](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-216)) (See section 15 for recommendations)_
-
   - _UTC #148 Minutes ([L2/16-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-203)) (See E.5 for decision and action items)_
-
 - 2023-01-29 Proposal to Encode a Hungarian Forint Symbol in the Unicode Standard — Vacek Nules ([L2/23-060](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-060))
-
   - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.iii.6.)_
-
   - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.6 for decision and action items)_
-
 - 2023-04-28 Revised designs of the alchemical symbols block — Kirk Miller ([L2/23-069](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-069))
-
   - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.iii.5.)_
-
   - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.5 for decision and action items)_
