@@ -16,10 +16,6 @@ The Hanifi Rohingya script was encoded in The Unicode Standard version 11.0. The
 | ------ | --------------- | ------------------------ | ------------- |
 | Hanifi Rohingya | 10D00..10D3F | 11.0 | [U10D00.pdf](http://www.unicode.org/charts/PDF/U10D00.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

@@ -16,10 +16,6 @@ The Masaram Gondi script was first encoded in The Unicode Standard version 10.0.
 | ------ | --------------- | ------------------------ | ------------- |
 | Masaram Gondi  |  11D00..11D5F  |  10.0  |  [U11D00](http://www.unicode.org/charts/PDF/U11D00.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

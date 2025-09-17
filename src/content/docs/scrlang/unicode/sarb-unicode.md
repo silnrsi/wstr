@@ -16,10 +16,6 @@ The Old South Arabian script was encoded in The Unicode Standard version 5.2. Th
 | ------- | ----------------- | -------------------------- | --------------- |
 | Old South Arabian  |  10A60..10A7F  |  5.2  |  [U10A60.pdf](http://www.unicode.org/charts/PDF/U10A60.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

@@ -50,10 +50,6 @@ Several documents toward encoding the script have been submitted to WG2 and the 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

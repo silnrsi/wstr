@@ -15,10 +15,6 @@ An early proposal towards encoding the script is the only document currently ava
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

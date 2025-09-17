@@ -12,10 +12,6 @@ The Sarati script is not yet in Unicode. The script is listed in the [Not the Ro
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

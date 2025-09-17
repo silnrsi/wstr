@@ -12,10 +12,6 @@ At the publication of version 6.0 of the Unicode Standard, no proposal to encode
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

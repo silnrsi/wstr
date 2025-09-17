@@ -16,10 +16,6 @@ Two documents toward encoding the script have been submitted to the UTC:
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

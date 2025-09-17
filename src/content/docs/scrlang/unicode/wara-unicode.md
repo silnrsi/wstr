@@ -16,10 +16,6 @@ The Warang Citi script was encoded in The Unicode Standard version 7.0. The scri
 | ------ | --------------- | ------------------------ | ------------- |
 | Warang Citi | 118A0..118FF | 7.0 | [U118A0.pdf](http://www.unicode.org/charts/PDF/U118A0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

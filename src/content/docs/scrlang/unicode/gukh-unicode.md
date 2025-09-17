@@ -16,10 +16,6 @@ The Gurung Khema script was encoded in The Unicode Standard version 16.0. The sc
 | ------ | --------------- | ------------------------ | ------------- |
 | Gurung Khema | 16100..1613F | 16.0 | [U16100.pdf](http://www.unicode.org/charts/PDF/U16100.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

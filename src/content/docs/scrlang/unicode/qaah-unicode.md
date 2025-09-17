@@ -12,10 +12,6 @@ Eshkol-Wachman Movement Notation has not been submitted for inclusion in the Uni
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

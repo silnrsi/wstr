@@ -16,10 +16,6 @@ The Lanna script was encoded in The Unicode Standard version 5.2, under the name
 | ------ | --------------- | ------------------------ | ------------- |
 | Tai Tham | 1A20..1AAF | 5.2 | [U1A20.pdf](http://www.unicode.org/charts/PDF/U1A20.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

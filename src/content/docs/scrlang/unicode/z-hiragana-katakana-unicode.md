@@ -12,10 +12,6 @@ The two kanas are encoded separately in Unicode, Hiragana is discussed on the [U
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

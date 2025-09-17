@@ -12,10 +12,6 @@ The Shankha (Shell) script is not yet in Unicode, and no proposals have been sub
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

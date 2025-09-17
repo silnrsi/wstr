@@ -16,10 +16,6 @@ The Buginese script was encoded in The Unicode Standard version 4.1. The script 
 | ------ | --------------- | ------------------------ | ------------- |
 | Buginese | 1A00..1A1F | 4.1 | [U1A00.pdf](http://www.unicode.org/charts/PDF/U1A00.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

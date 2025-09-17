@@ -18,10 +18,6 @@ Linear B script was encoded in The Unicode Standard version 4.0. The script is e
 | Linear B Ideograms  |  10080..100FF  |  4.0  |  [U10080](http://www.unicode.org/charts/PDF/U10080.pdf)  |
 | Aegean Numbers | 10100..1013F |  4.0  |  [U10100](http://www.unicode.org/charts/PDF/U10100.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

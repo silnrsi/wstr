@@ -12,10 +12,6 @@ The Lahnda (sometimes called Landa) script is not yet in Unicode. The script has
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

@@ -16,10 +16,6 @@ The Kirat Rai script was encoded in The Unicode Standard version 16.0. The scrip
 | ------ | --------------- | ------------------------ | ------------- |
 | Kirat Rai | 16D40..16D7F | 16.0 | [U16D40.pdf](http://www.unicode.org/charts/PDF/U16D40.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

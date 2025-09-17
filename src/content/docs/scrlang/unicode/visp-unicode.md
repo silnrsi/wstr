@@ -12,10 +12,6 @@ Visible Speech is not part of the Unicode Standard. However the [ConScript Unico
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

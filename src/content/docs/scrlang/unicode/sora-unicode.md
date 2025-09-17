@@ -16,10 +16,6 @@ The Sora Sompeng script was encoded in The Unicode Standard version 6.1. The scr
 | ------ | --------------- | ------------------------ | ------------- |
 | Sora Sompeng | 110D0..110FF | 6.1 | [U110D0.pdf](http://www.unicode.org/charts/PDF/U110D0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

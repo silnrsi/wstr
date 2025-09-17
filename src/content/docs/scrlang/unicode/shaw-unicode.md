@@ -16,10 +16,6 @@ The Shavian (Shaw) script was encoded in The Unicode Standard version 4.0. The s
 | ------ | --------------- | ------------------------ | ------------- |
 | Shavian (Shaw) | 10450..1047F | 4.0 | [U10450.pdf](http://www.unicode.org/charts/PDF/U10450.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

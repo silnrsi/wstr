@@ -16,10 +16,6 @@ The Yezidi script was encoded in The Unicode Standard version 13.0. The script i
 | ------ | --------------- | ------------------------ | ------------- |
 | Yezidi  | 10E80..10EBF | 13.0 | [U10E80.pdf](https://www.unicode.org/charts/PDF/U10E80.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals towards its inclusion were submitted to the Unicode Technical Committee and WG2:

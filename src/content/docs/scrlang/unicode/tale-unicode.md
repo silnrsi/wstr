@@ -16,10 +16,6 @@ The Tai Le script was encoded in The Unicode Standard version 4.0. The script is
 | ------ | --------------- | ------------------------ | ------------- |
 | Tai Le | 1950..197F | 4.0 | [U1950.pdf](http://www.unicode.org/charts/PDF/U1950.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

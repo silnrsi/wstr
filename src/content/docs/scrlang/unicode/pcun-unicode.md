@@ -12,10 +12,6 @@ The Proto-Cuneiform script is not yet in Unicode. The script has a tentative all
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals toward encoding the script have been submitted to the WG2 and the Unicode Technical Committee:

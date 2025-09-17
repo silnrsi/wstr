@@ -16,10 +16,6 @@ The Osmanya script was encoded in The Unicode Standard version 4.0. The script i
 | ------ | --------------- | ------------------------ | ------------- |
 | Osmanya  | 10480..104AF | 4.0 | [U10480.pdf](http://www.unicode.org/charts/PDF/U10480.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

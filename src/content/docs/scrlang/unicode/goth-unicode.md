@@ -16,10 +16,6 @@ The Gothic script was encoded in The Unicode Standard version 3.1. The script is
 | ------- | ----------------- | -------------------------- | --------------- |
 | Gothic |  10330..1034F  |  3.1  |  [U10330.pdf](http://www.unicode.org/charts/PDF/U10330.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

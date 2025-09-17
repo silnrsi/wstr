@@ -16,10 +16,6 @@ The Chorasmian  script was encoded in The Unicode Standard version 13.0. The scr
 | ------ | --------------- | ------------------------ | ------------- |
 | Chorasmian   | 10FB0..10FDF | 13.0 | [U10FB0.pdf](https://www.unicode.org/charts/PDF/U10FB0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals towards its inclusion were submitted to the Unicode Technical Committee and WG2:

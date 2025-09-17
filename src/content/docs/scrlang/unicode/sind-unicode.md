@@ -16,10 +16,6 @@ The Khudawadi script was encoded in The Unicode Standard version 7.0. It has als
 | ------ | --------------- | ------------------------ | ------------- |
 | Khudawadi  | 112B0..112FF | 7.0 | [U112B0.pdf](http://www.unicode.org/charts/PDF/U112B0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

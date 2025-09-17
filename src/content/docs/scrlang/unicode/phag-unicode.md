@@ -16,10 +16,6 @@ The Phags-pa script was encoded in The Unicode Standard version 5.0. The script 
 | ------ | --------------- | ------------------------ | ------------- |
 | Phags-pa | A840..A87F | 5.0 | [UA840.pdf](http://www.unicode.org/charts/PDF/UA840.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

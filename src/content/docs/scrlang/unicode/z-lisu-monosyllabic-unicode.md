@@ -12,10 +12,6 @@ The Lisu Monosyllabic script is not yet in Unicode. The script is not yet in the
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee:

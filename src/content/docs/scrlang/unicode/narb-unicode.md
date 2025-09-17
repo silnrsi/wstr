@@ -16,10 +16,6 @@ The Old North Arabian script was encoded in The Unicode Standard version 7.0. Th
 | ------ | --------------- | ------------------------ | ------------- |
 | Old North Arabian  | 10A80..10A9F | 7.0 | [U10A80.pdf](http://www.unicode.org/charts/PDF/U10A80.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

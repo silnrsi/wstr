@@ -16,10 +16,6 @@ The Dogra script was encoded in The Unicode Standard version 11.0. The script is
 | ------ | --------------- | ------------------------ | ------------- |
 | Dogra | 11800..1184F | 11.0 | [U11800.pdf](http://www.unicode.org/charts/PDF/U11800.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of documents toward encoding the script have been submitted to the Unicode Technical Committee and/or WG2:

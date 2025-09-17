@@ -16,10 +16,6 @@ Samaritan script was first encoded in The Unicode Standard version 5.2.
 | ------- | ----------------- | -------------------------- | --------------- |
 | Samaritan  |  0800..083F  |  5.2  |  [U0800.pdf](http://www.unicode.org/charts/PDF/U0800.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

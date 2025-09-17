@@ -16,10 +16,6 @@ The Dives Akuru script was encoded in The Unicode Standard version 13.0. The scr
 | ------ | --------------- | ------------------------ | ------------- |
 | Dives Akuru  | 11900..1195F | 13.0 | [U11900.pdf](https://www.unicode.org/charts/PDF/U11900.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals towards its inclusion were submitted to the Unicode Technical Committee and WG2:

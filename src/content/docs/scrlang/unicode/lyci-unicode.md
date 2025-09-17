@@ -16,10 +16,6 @@ The Lycian script was encoded in The Unicode Standard version 5.1. The script is
 | ------- | ----------------- | -------------------------- | --------------- |
 | Lycian  |  10280..1029F  |  5.1  |  [U10280.pdf](http://www.unicode.org/charts/PDF/U10280.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

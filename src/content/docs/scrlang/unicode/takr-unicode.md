@@ -16,10 +16,6 @@ The Takri script was encoded in The Unicode Standard version 6.1. The script is 
 | ------ | --------------- | ------------------------ | ------------- |
 | Takri | 11680..116CF | 6.1 | [U11680.pdf](http://www.unicode.org/charts/PDF/U11680.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

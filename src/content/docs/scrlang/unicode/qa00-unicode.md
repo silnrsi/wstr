@@ -12,10 +12,6 @@ The Bété script is not yet in Unicode. The script has not yet been added to th
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of documents have been submitted to the Unicode Technical Committee and WG2:

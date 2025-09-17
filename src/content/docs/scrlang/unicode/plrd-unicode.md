@@ -16,10 +16,6 @@ The Miao script was encoded in The Unicode Standard version 6.1. The script is e
 | ------ | --------------- | ------------------------ | ------------- |
 | Miao | 16F00..16F9F | 6.1 | [U16F00.pdf](http://www.unicode.org/charts/PDF/U16F00.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

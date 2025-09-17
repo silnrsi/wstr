@@ -16,10 +16,6 @@ The Pahawh Hmong script was encoded in The Unicode Standard version 7.0. The scr
 | ------ | --------------- | ------------------------ | ------------- |
 | Pahawh Hmong | 16B00..16B8F | 7.0 | [U16B00.pdf](http://www.unicode.org/charts/PDF/U16B00.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

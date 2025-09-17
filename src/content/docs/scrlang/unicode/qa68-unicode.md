@@ -12,10 +12,6 @@ The Coorgi-Cox alphabet is not yet in Unicode. It is not yet in the Roadmap for 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal towards its inclusion has been submitted to the Unicode Technical Committee and WG2:

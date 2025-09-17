@@ -12,10 +12,6 @@ The Goya Kannadi script is not yet in Unicode. It is not yet in the Roadmap for 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal toward encoding the script has been submitted to the Unicode Technical Committee:

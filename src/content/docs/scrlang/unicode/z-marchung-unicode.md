@@ -14,10 +14,6 @@ The [Script Encoding Initiative](https://sei.berkeley.edu/) includes this script
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

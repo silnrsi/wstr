@@ -12,10 +12,6 @@ The Minim Dag Noore script is not yet in Unicode. The script has not yet been ad
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee:

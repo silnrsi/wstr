@@ -16,10 +16,6 @@ The Palmyrene script was encoded in The Unicode Standard version 7.0. The script
 | ------ | --------------- | ------------------------ | ------------- |
 | Palmyrene  | 10860..1087F | 7.0 | [U10860.pdf](http://www.unicode.org/charts/PDF/U10860.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

@@ -16,10 +16,6 @@ The Ol Chiki script was encoded in The Unicode Standard version 5.1. The script 
 | ------ | --------------- | ------------------------ | ------------- |
 | Ol' Chiki | 1C50..1C7F | 5.1 | [U1C50.pdf](http://www.unicode.org/charts/PDF/U1C50.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

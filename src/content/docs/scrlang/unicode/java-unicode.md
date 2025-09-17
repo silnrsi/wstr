@@ -16,10 +16,6 @@ The Javanese script was encoded in The Unicode Standard version 5.2. The script 
 | ------ | --------------- | ------------------------ | ------------- |
 | Javanese | A980..A9DF | 5.2 | [UA980.pdf](http://www.unicode.org/charts/PDF/UA980.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

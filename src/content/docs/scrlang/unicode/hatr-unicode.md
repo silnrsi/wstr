@@ -16,10 +16,6 @@ The Hatran script was encoded in The Unicode Standard version 8.0. The script is
 | ------ | --------------- | ------------------------ | ------------- |
 | Hatran | 108E0..108FF | 8.0 | [U108E0](http://www.unicode.org/charts/PDF/U108E0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:

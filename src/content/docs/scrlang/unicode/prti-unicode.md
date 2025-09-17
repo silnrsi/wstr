@@ -16,10 +16,6 @@ The Inscriptional Parthian script was encoded in The Unicode Standard version 5.
 | ------- | ----------------- | -------------------------- | --------------- |
 | Inscriptional Parthian  |  10B40..10B5F  |  5.2  |  [U10B40.pdf](http://www.unicode.org/charts/PDF/U10B40.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

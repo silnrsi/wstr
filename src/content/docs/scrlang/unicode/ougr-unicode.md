@@ -16,10 +16,6 @@ The Old Uyghur script was encoded in The Unicode Standard version 14.0. The scri
 | ------ | --------------- | ------------------------ | ------------- |
 | Old Uyghur  | 10F70..10FAF | 14.0 | [U10F70.pdf](http://www.unicode.org/charts/PDF/U10F70.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

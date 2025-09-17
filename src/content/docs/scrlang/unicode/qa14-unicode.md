@@ -20,10 +20,6 @@ A number of background documents for its inclusion have been submitted to the Un
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

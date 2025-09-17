@@ -16,10 +16,6 @@ The Tagbanwa script was encoded in The Unicode Standard version 3.2. The script 
 | ------ | --------------- | ------------------------ | ------------- |
 | Tagbanwa | 1760..177F | 3.2 | [U1760.pdf](http://www.unicode.org/charts/PDF/U1760.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

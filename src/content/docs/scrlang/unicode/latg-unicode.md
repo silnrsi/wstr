@@ -22,10 +22,6 @@ These were encoded in version 5.1 of the Unicode Standard.
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

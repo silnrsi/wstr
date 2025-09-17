@@ -16,10 +16,6 @@ The Old Persian script was encoded in The Unicode Standard version 4.1. The scri
 | ------- | ----------------- | -------------------------- | --------------- |
 | Old Persian  |  103A0..103DF  |  4.1  |  [U103A0](http://www.unicode.org/charts/PDF/U103A0.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

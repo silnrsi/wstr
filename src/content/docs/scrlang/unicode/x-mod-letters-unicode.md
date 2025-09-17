@@ -19,10 +19,6 @@ Spacing Modifier letters were first encoded in The Unicode Standard version 1.0.
 | Phonetic Extensions | 1D00..1D7F | 4.0 | [U1D00.pdf](http://www.unicode.org/charts/PDF/U1D00.pdf) |
 | Phonetic Extensions Supplement | 1D80..1DBF | 4.1 | [U1D80.pdf](http://www.unicode.org/charts/PDF/U1D80.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 In The Unicode Standard, Modifier letters are discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G15832). Modifier letters are generally used next to another character in order to modify the usage of the other character in some way. They are not Combining Marks, they are base characters. They are used in transcription of language in other scripts to the Latin script and they are used in Latin and Cyrillic orthographies. Other scripts have modifier letters which are specific to that script.

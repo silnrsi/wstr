@@ -23,10 +23,6 @@ Additionally, an exploratory code chart and names list is available:
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

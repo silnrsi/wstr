@@ -12,10 +12,6 @@ The Kulitan script is not yet in Unicode. The script has a tentative allocation 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One document toward encoding the script has been submitted to the Unicode Technical Committee:

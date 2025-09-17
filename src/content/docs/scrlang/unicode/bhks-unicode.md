@@ -16,10 +16,6 @@ The Bhaiksuki script was encoded in The Unicode Standard version 9.0. The script
 | ------ | --------------- | ------------------------ | ------------- |
 | Bhaiksuki  | 11C00..11C6F | 9.0 | [U11C00.pdf](http://www.unicode.org/charts/PDF/U11C00.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

@@ -12,10 +12,6 @@ The Cher Vang Hmong script is not yet in Unicode.
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One document towards inclusion in Unicode has been submitted to the Unicode Technical Committee and WG2:

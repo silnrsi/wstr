@@ -12,10 +12,6 @@ The Kui Gaari script is not yet in Unicode. The script has not yet been added to
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One document introducing the script has been submitted to the Unicode Technical Committee:

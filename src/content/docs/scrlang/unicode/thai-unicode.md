@@ -16,10 +16,6 @@ The Thai script was encoded in The Unicode Standard version 1.0. The script is e
 | ------ | --------------- | ------------------------ | ------------- |
 | Thai | 0E00..0E7F | 1.0 | [U0E00.pdf](http://www.unicode.org/charts/PDF/U0E00.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

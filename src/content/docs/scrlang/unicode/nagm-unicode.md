@@ -16,10 +16,6 @@ The Nag Mundari script was encoded in The Unicode Standard version 15.0. The scr
 | ------ | --------------- | ------------------------ | ------------- |
 | Nag Mundari | 1E4D0..1E4FF | 15.0 | [U1E4D0](http://www.unicode.org/charts/PDF/U1E4D0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

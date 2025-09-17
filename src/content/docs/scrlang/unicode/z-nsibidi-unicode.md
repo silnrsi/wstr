@@ -19,10 +19,6 @@ Document that mention the script have been submitted to the Unicode Technical Co
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

@@ -12,10 +12,6 @@ Han is discussed on the [Unicode Status (Han)](https://scriptsource.org/entry/ts
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

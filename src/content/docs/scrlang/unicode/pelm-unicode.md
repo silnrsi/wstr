@@ -12,10 +12,6 @@ The Proto-Elamite script is not yet in Unicode. The script has a tentative alloc
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 Several proposals toward encoding the script have been submitted to the WG2 and the Unicode Technical Committee:

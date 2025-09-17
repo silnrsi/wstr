@@ -16,10 +16,6 @@ The Kayah Li script was encoded in The Unicode Standard version 5.1. The script 
 | ------ | --------------- | ------------------------ | ------------- |
 | Kayah Li | A900..A92F | 5.1 | [UA900](http://www.unicode.org/charts/PDF/UA900.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

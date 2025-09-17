@@ -16,10 +16,6 @@ The Balinese script was encoded in The Unicode Standard version 5.0. The script 
 | ------ | --------------- | ------------------------ | ------------- |
 | Balinese | 1B00..1B7F | 5.0 | [U1B00.pdf](http://www.unicode.org/charts/PDF/U1B00.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

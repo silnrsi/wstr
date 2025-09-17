@@ -16,10 +16,6 @@ The Imperial Aramaic script was encoded in The Unicode Standard version 5.2. The
 | ------- | ----------------- | -------------------------- | --------------- |
 | Imperial Aramaic  |  10840..1085F  |  5.2  |  [U10840.pdf](http://www.unicode.org/charts/PDF/U10840.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

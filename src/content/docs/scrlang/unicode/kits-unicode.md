@@ -16,10 +16,6 @@ The Khitan Small Script was encoded in The Unicode Standard version 13.0. The sc
 | ------ | --------------- | ------------------------ | ------------- |
 | Khitan Small Script  | 18B00..18CFF | 13.0 | [U18B00.pdf](http://www.unicode.org/charts/PDF/U18B00.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals towards its inclusion were submitted to the Unicode Technical Committee and WG2:

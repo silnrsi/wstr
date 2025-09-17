@@ -12,10 +12,6 @@ The Amaragannada scripts are not yet in Unicode. The scripts are not yet in the 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One document towards encoding these scripts has been submitted to the Unicode Technical Committee:

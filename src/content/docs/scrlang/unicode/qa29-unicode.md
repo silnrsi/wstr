@@ -12,10 +12,6 @@ The Byblos script is not yet in Unicode. The script has a tentative allocation a
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A detailed proposal is not yet available.

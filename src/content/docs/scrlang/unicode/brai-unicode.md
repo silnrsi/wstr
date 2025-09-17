@@ -16,10 +16,6 @@ Braille Patterns were encoded in The Unicode Standard version 3.0. It is encoded
 | ------ | --------------- | ------------------------ | ------------- |
 | Braille Patterns  |  2800..28FF  |  3.0  |  [U2800.pdf](http://www.unicode.org/charts/PDF/U2800.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2 (most of the documents leading to the encoding of Braille do not appear to be online):

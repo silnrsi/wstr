@@ -22,10 +22,6 @@ Several documents for its inclusion has been submitted to the Unicode Technical 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

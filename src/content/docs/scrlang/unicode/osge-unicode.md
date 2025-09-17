@@ -16,10 +16,6 @@ The Osage script was encoded in The Unicode Standard version 9.0. The script is 
 | ------ | --------------- | ------------------------ | ------------- |
 | Osage  | 104B0..104FF | 9.0 | [U104B0.pdf](http://www.unicode.org/charts/PDF/U104B0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 At one point there was an intention for the script to be unified with Latin. However, at UTC #140 the decision was made to encode it as a separate script ([L2/14-177](http://www.unicode.org/L2/L2014/14177.htm)).

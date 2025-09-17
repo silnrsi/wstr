@@ -12,10 +12,6 @@ The Veso Bey script (also called Gjirokastër) is not yet in Unicode.
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One document towards its inclusion has been submitted to the Unicode Technical Committee:

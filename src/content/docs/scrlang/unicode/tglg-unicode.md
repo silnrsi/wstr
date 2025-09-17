@@ -16,10 +16,6 @@ The Tagalog script was encoded in The Unicode Standard version 3.2. The script i
 | ------ | --------------- | ------------------------ | ------------- |
 | Tagalog | 1700..171F | 3.2 | [U1700.pdf](http://www.unicode.org/charts/PDF/U1700.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

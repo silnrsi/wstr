@@ -12,10 +12,6 @@ The Kaida script is not yet in Unicode. The script has a tentative allocation at
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A detailed proposal is not yet available. However, there was a discussion on the script on the [Unicode mailing list](http://unicode.org/mail-arch/unicode-ml/y2011-m02/0060.html).

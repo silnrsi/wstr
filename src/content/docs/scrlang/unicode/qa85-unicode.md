@@ -19,10 +19,6 @@ Documents mentioning Borama have been submitted to the Unicode Technical Committ
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

@@ -12,10 +12,6 @@ The Unicode Standard considers Fraktur type to be a font variant of the Latin sc
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

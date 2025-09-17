@@ -16,10 +16,6 @@ One preliminary proposal towards encoding the script has been submitted to UTC:
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

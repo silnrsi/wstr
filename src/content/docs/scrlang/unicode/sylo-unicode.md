@@ -16,10 +16,6 @@ The Syloti Nagri script was encoded in The Unicode Standard version 4.1. The scr
 | ------ | --------------- | ------------------------ | ------------- |
 | Syloti Nagri | A800..A82F | 4.1 | [UA800](http://www.unicode.org/charts/PDF/UA800.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

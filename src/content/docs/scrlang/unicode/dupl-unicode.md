@@ -17,10 +17,6 @@ Duployan Shorthand was encoded in The Unicode Standard version 7.0. The script i
 | Duployan  | 1BC00..1BC9F | 7.0 | [U1BC00.pdf](http://www.unicode.org/charts/PDF/U1BC00.pdf) |
 | Shorthand Format Controls  | 1BCA0..1BCAF | 7.0 | [U1BCA0.pdf](http://www.unicode.org/charts/PDF/U1BCA0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

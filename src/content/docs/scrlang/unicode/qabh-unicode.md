@@ -12,10 +12,6 @@ The Bagam script is not yet in Unicode. The script has a tentative allocation at
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

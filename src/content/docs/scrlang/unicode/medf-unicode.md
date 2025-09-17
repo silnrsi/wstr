@@ -16,10 +16,6 @@ The Medefaidrin script was encoded in The Unicode Standard version 11.0. The scr
 | ------ | --------------- | ------------------------ | ------------- |
 | Medefaidrin | 16E40..16E9F | 11.0 | [U16E40.pdf](http://www.unicode.org/charts/PDF/U16E40.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

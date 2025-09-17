@@ -12,10 +12,6 @@ The Gangga Malayu script is not yet in Unicode. The script is not in the [Roadma
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2. However, these proposals have been withdrawn from consideration pending further study of the script. 

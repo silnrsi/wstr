@@ -12,10 +12,6 @@ The Diteme tsa Dinoko script is not yet in Unicode. The script has not yet been 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One document that mentions the script has been submitted to the Unicode Technical Committee:

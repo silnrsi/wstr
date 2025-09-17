@@ -16,10 +16,6 @@ The Old Turkic script was encoded in The Unicode Standard version 5.2. The scrip
 | ------- | ----------------- | -------------------------- | --------------- |
 | Old Turkic |  10C00..10C4F  |  5.2  |  [U10C00.pdf](http://www.unicode.org/charts/PDF/U10C00.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

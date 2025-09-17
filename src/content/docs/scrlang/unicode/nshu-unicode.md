@@ -17,10 +17,6 @@ The Nüshu script was first encoded in The Unicode Standard version 10.0. The sc
 | Ideographic Symbols and Punctuation  |  16FE1  |  10.0  |  [U16FE0](http://www.unicode.org/charts/PDF/U16FE0.pdf)  |
 | Nushu  |  1B170..1B2FF  |  10.0  |  [U1B170](http://www.unicode.org/charts/PDF/U1B170.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

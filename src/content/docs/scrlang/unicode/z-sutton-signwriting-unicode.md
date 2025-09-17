@@ -12,10 +12,6 @@ lastUpdated: 2025-09-17
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

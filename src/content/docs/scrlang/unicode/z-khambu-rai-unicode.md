@@ -12,10 +12,6 @@ The Khambu Rai script is not yet in Unicode. At one point the script had a tenta
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

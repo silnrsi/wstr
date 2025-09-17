@@ -16,10 +16,6 @@ Meroitic Hieroglyphs were encoded in The Unicode Standard version 6.1. The scrip
 | ------ | --------------- | ------------------------ | ------------- |
 | Meroitic Hieroglyphs | 10980..1099F | 6.1 | [U10980.pdf](http://www.unicode.org/charts/PDF/U10980.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

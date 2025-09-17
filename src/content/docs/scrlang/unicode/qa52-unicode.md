@@ -12,10 +12,6 @@ At the publication of Version 6.0, no proposal had been submitted to include the
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

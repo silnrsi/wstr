@@ -16,10 +16,6 @@ The Tulu-Tigalari script was encoded in The Unicode Standard version 16.0. The s
 | ------ | --------------- | ------------------------ | ------------- |
 | Tulu-Tigalari | 11380..113FF | 16.0 | [U11380.pdf](http://www.unicode.org/charts/PDF/U11380.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

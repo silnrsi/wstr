@@ -12,10 +12,6 @@ The Adinkra script is not yet in Unicode. The script is not yet in the [Roadmap 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of documents towards its inclusion have been submitted to the Unicode Technical Committee and WG2:

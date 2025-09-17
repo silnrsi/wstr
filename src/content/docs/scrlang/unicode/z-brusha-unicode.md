@@ -12,10 +12,6 @@ The Brusha script is not yet in Unicode. The script has a tentative allocation a
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One document towards encoding the script has been submitted to the Unicode Technical Committee:

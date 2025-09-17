@@ -16,10 +16,6 @@ The Nandinagari script was encoded in The Unicode Standard version 12.0. The scr
 | ------ | --------------- | ------------------------ | ------------- |
 | Nandinagari  | 119A0..119FF | 12.0 | [U119A0](http://www.unicode.org/charts/PDF/U119A0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

@@ -16,10 +16,6 @@ The Adlam script was encoded in The Unicode Standard version 9.0. The script is 
 | ------ | --------------- | ------------------------ | ------------- |
 | Adlam  | 1E900..1E95F | 9.0 | [U1E900.pdf](http://www.unicode.org/charts/PDF/U1E900.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

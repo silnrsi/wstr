@@ -16,10 +16,6 @@ The Old Hungarian script was encoded in The Unicode Standard version 8.0. The sc
 | ------ | --------------- | ------------------------ | ------------- |
 | Old Hungarian | 10C80..10CFF | 8.0 | [U10c80](http://www.unicode.org/charts/PDF/U10C80.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2[^1]:

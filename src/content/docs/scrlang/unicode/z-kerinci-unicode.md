@@ -17,10 +17,6 @@ Two documents towards inclusion in Unicode have been submitted to the Unicode Te
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

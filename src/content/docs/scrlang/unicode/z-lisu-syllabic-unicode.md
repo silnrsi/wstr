@@ -12,10 +12,6 @@ The Lisu Syllabic script is not yet in Unicode. The script has a tentative alloc
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:

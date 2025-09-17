@@ -30,10 +30,6 @@ Documents towards its inclusion have been submitted to the Unicode Technical Com
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

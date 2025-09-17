@@ -12,10 +12,6 @@ The Lontara bilang-bilang script is not yet in Unicode. The script has a tentati
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

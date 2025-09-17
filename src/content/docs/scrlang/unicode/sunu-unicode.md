@@ -16,10 +16,6 @@ The Sunuwar  script was encoded in The Unicode Standard version 16.0. The script
 | ------ | --------------- | ------------------------ | ------------- |
 | Sunuwar  | 11BC0..11BFF | 16.0 | [U11BC0.pdf](http://www.unicode.org/charts/PDF/U11BC0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

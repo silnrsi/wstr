@@ -12,10 +12,6 @@ The Khotanese script is not yet in Unicode. The script has a tentative allocatio
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals discussing the script have been submitted to the Unicode Technical Committee:

@@ -12,10 +12,6 @@ The Satavahana script is not yet in Unicode.
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A detailed proposal is not yet available.

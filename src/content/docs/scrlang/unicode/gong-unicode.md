@@ -16,10 +16,6 @@ The Gunjala Gondi script was encoded in The Unicode Standard version 11.0. The s
 | ------ | --------------- | ------------------------ | ------------- |
 | Gunjala Gondi | 11D60..11DAF | 11.0 | [U11D60.pdf](http://www.unicode.org/charts/PDF/U11D60.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

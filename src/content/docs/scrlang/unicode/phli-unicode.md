@@ -16,10 +16,6 @@ The Inscriptional Pahlavi script was encoded in The Unicode Standard version 5.2
 | ------- | ----------------- | -------------------------- | --------------- |
 | Inscriptional Pahlavi  | 10B60..10B7F  |  5.2  |  [U10B60.pdf](http://www.unicode.org/charts/PDF/U10B60.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

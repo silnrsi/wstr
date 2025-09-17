@@ -12,10 +12,6 @@ Micmac hieroglyphs are not yet in Unicode. The script is not in the [Roadmap to 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A detailed proposal is not yet available.

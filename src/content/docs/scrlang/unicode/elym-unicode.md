@@ -16,10 +16,6 @@ The Elymaic script was encoded in The Unicode Standard version 12.0. The script 
 | ------ | --------------- | ------------------------ | ------------- |
 | Elymaic  | 10FE0..10FFF | 12.0 | [U10FE0](http://www.unicode.org/charts/PDF/U10FE0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

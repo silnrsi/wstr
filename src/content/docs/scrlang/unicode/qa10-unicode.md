@@ -22,10 +22,6 @@ Several documents that mention the script have been submitted to the Unicode Tec
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

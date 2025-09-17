@@ -12,10 +12,6 @@ The Iban script is not yet in Unicode. The script is not in the [Roadmap to the 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

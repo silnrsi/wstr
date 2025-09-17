@@ -12,10 +12,6 @@ No proposal for the inclusion of Egyptian Demotic in the Unicode Standard has be
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One document mentioning Egyptian Demotic has been submitted to the Unicode Technical Committee:

@@ -23,10 +23,6 @@ Documents that mention the script have been submitted to the Unicode Technical C
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

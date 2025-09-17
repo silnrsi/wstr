@@ -18,10 +18,6 @@ Several documents towards its inclusion have been submitted to the Unicode Techn
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

@@ -12,10 +12,6 @@ The Tengwar script is not yet in Unicode. The script has a tentative allocation 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:

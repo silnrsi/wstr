@@ -14,10 +14,6 @@ The Palaeohispanic script is being disunified into two scripts: Northern Palaeoh
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

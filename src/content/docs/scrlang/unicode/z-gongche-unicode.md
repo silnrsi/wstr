@@ -12,10 +12,6 @@ The Gongche script is not yet in Unicode.
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:

@@ -12,10 +12,6 @@ The Karani script is not yet in Unicode. It is not yet in the Roadmap for the Un
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

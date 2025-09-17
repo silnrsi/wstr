@@ -29,10 +29,6 @@ Klingon has been investigated and rejected as unsuitable for encoding. Documents
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

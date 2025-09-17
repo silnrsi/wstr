@@ -16,10 +16,6 @@ The Lydian script was encoded in The Unicode Standard version 5.1. The script is
 | ------- | ----------------- | -------------------------- | --------------- |
 | Lydian  |  10920..1093F  |  5.1  |  [U10920.pdf](http://www.unicode.org/charts/PDF/U10920.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

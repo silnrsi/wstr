@@ -12,10 +12,6 @@ The Kapampangang script is not yet in Unicode, and no proposals have been submit
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

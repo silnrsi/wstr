@@ -18,10 +18,6 @@ However, a number of documents, including a recent one, towards its inclusion ha
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

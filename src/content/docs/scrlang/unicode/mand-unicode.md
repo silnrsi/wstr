@@ -16,10 +16,6 @@ The Mandaic script was encoded in The Unicode Standard version 6.0. The script i
 | ------- | ----------------- | -------------------------- | --------------- |
 | Mandaic  |  0840..085F  |  6.0  |  [U0840.pdf](http://www.unicode.org/charts/PDF/U0840.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

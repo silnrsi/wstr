@@ -12,10 +12,6 @@ The Ranjana script is slated to go into Unicode 14.0. The script has an allocati
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

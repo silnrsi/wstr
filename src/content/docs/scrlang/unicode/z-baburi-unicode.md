@@ -12,10 +12,6 @@ The Baburi (also called Khatt-i Baburi) script is not yet in Unicode. The script
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A preliminary proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:

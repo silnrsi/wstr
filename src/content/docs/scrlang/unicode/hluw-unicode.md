@@ -16,10 +16,6 @@ The Anatolian Hieroglyphs were encoded in The Unicode Standard version 8.0. The 
 | ------ | --------------- | ------------------------ | ------------- |
 | Anatolian Hieroglyphs | 14400..1467F | 8.0 | [U14400](http://www.unicode.org/charts/PDF/U14400.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

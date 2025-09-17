@@ -12,10 +12,6 @@ The Gbekoun script is not yet in Unicode. The script has not yet been added to t
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One document that mentions the script has been submitted to the Unicode Technical Committee:

@@ -17,10 +17,6 @@ The Old Lisu script was encoded in The Unicode Standard version 5.2 under the na
 | Lisu | A4D0..A4FF | 5.2 | [UA4D0.pdf](http://www.unicode.org/charts/PDF/UA4D0.pdf) |
 | Lisu Supplement | 11FB0..11FBF | 13.0 | [U11FB0.pdf](http://www.unicode.org/charts/PDF/U11FB0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

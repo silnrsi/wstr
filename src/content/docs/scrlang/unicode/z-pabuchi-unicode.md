@@ -12,10 +12,6 @@ The Pabuchi script is not yet in Unicode. The script does not yet have an alloca
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:

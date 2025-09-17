@@ -16,10 +16,6 @@ The Toto script was encoded in The Unicode Standard version 14.0. The script is 
 | ------ | --------------- | ------------------------ | ------------- |
 | Toto  | 1E290..1E2BF | 14.0 | [U1E290.pdf](http://www.unicode.org/charts/PDF/U1E290.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 Several documents towards its inclusion have been submitted to the Unicode Technical Committee:

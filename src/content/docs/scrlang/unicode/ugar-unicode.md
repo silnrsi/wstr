@@ -16,10 +16,6 @@ The Ugaritic script was encoded in The Unicode Standard version 4.0. The script 
 | ------- | ----------------- | -------------------------- | --------------- |
 | Ugaritic  |  10380..1039F  |  4.0  |  [U10380.pdf](http://www.unicode.org/charts/PDF/U10380.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

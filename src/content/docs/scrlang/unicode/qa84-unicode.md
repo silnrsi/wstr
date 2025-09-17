@@ -12,10 +12,6 @@ The Eebee Hmong script (also called Puaj Txwm) is not yet in Unicode. The script
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:

@@ -16,10 +16,6 @@ The Old Sogdian script was encoded in The Unicode Standard version 11.0. The scr
 | ------ | --------------- | ------------------------ | ------------- |
 | Old Sogdian | 10F00.10F2F | 11.0 | [U10F00.pdf](http://www.unicode.org/charts/PDF/U10F00.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion has been submitted to the Unicode Technical Committee and WG2:

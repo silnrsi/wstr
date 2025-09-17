@@ -16,10 +16,6 @@ The Garay script was encoded in The Unicode Standard version 16.0. The script is
 | ------ | --------------- | ------------------------ | ------------- |
 | Garay | 10D40..10D8F | 16.0 | [U10D40.pdf](http://www.unicode.org/charts/PDF/U10D40.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

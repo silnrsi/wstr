@@ -16,10 +16,6 @@ The Cypro-Minoan script was encoded in The Unicode Standard version 14.0. The sc
 | ------ | --------------- | ------------------------ | ------------- |
 | Cypro-Minoan | 12F90..12FFF | 14.0 | [U12F90.pdf](http://www.unicode.org/charts/PDF/U12F90.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:

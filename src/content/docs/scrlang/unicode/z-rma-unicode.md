@@ -12,10 +12,6 @@ The Rma script is not yet in Unicode. The script is not yet in the [Roadmap to t
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 Several proposals for its inclusion have been submitted to the Unicode Technical Committee:

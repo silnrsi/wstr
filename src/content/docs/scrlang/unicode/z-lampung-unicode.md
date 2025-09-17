@@ -12,10 +12,6 @@ The Lampung script is not yet in Unicode. The script has a tentative allocation 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of documents towards inclusion in Unicode have been submitted to the Unicode Technical Committee:

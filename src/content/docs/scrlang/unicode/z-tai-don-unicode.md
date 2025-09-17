@@ -12,10 +12,6 @@ The Tai Don (sometimes called Tai Khao) script is not yet in Unicode. It is not 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of documents toward its inclusion have been submitted to the Unicode Technical Committee and WG2:

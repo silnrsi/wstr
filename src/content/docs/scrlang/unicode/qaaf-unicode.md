@@ -12,10 +12,6 @@ As of version 6.0 of the Unicode Standard, no proposal has been submitted for en
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

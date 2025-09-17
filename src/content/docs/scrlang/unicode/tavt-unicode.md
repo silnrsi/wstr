@@ -16,10 +16,6 @@ The Tai Viet script was encoded in The Unicode Standard version 5.2. The script 
 | ------ | --------------- | ------------------------ | ------------- |
 | Tai Viet | AA80..AADF | 5.2 | [UAA80.pdf](http://www.unicode.org/charts/PDF/UAA80.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

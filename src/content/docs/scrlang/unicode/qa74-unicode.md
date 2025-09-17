@@ -12,10 +12,6 @@ The Bhujinmol script is not yet in Unicode. Bhujinmol may be considered one of s
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:

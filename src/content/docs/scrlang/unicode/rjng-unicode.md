@@ -16,10 +16,6 @@ The Rejang script was encoded in The Unicode Standard version 5.1. The script is
 | ------ | --------------- | ------------------------ | ------------- |
 | Rejang | A930..A95F | 5.1 | [UA930.pdf](http://www.unicode.org/charts/PDF/UA930.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

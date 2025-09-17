@@ -12,10 +12,6 @@ The Aztec Pictograms are not yet in Unicode. At one point the script had a tenta
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A detailed proposal is not yet available.

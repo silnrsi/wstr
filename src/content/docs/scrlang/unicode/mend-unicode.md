@@ -16,10 +16,6 @@ The Mende Kikakui script was encoded in The Unicode Standard version 7.0. The sc
 | ------ | --------------- | ------------------------ | ------------- |
 | Mende Kikakui  | 1E800..1E8DF | 7.0 | [U1E800.pdf](http://www.unicode.org/charts/PDF/U1E800.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

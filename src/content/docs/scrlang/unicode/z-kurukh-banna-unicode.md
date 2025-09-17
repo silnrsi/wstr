@@ -12,10 +12,6 @@ The Kurukh Banna script (or Kurux Banna) is not yet in Unicode. The script has a
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion has been submitted to the Unicode Technical Committee and WG2:

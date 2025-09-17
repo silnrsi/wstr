@@ -12,10 +12,6 @@ The Shuishu Logograms script (also called Sui script) is not yet in Unicode. The
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of documents towards its inclusion have been submitted to the Unicode Technical Committee and WG2:

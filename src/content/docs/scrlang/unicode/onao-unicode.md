@@ -16,10 +16,6 @@ The Ol Onal script was encoded in The Unicode Standard version 16.0. The script 
 | ------ | --------------- | ------------------------ | ------------- |
 | Ol Onal | 1E5D0..1E5FF | 16.0 | [U1E5D0.pdf](http://www.unicode.org/charts/PDF/U1E5D0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

@@ -12,10 +12,6 @@ The Khitan Large (or Khitan Ideographs) script is not yet in Unicode. The script
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion (and also that of [Khitan Small](https://scriptsource.org/entry/s5y4qyk59q)) have been submitted to the Unicode Technical Committee and WG2:

@@ -12,10 +12,6 @@ The Archaic Miao Square script is not yet in Unicode. It is not yet in the Roadm
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

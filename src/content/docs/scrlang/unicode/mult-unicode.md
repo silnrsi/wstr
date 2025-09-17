@@ -16,10 +16,6 @@ The Multani script was encoded in The Unicode Standard version 8.0. The script i
 | ------ | --------------- | ------------------------ | ------------- |
 | Multani | 11280..112AF | 8.0 | [U11280](http://www.unicode.org/charts/PDF/U11280.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

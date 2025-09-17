@@ -20,10 +20,6 @@ Several documents mentioning the script have been submitted to the Unicode Techn
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

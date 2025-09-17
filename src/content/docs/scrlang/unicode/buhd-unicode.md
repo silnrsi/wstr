@@ -16,10 +16,6 @@ The Buhid script was encoded in The Unicode Standard version 3.2. The script is 
 | ------ | --------------- | ------------------------ | ------------- |
 | Buhid | 1740..175F | 3.2 | [U1740](http://www.unicode.org/charts/PDF/U1740.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

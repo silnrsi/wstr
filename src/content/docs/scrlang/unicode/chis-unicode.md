@@ -12,10 +12,6 @@ The Chisoi script has been accepted for encoding in a future version of the Unic
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of documents towards its inclusion have been submitted to the Unicode Technical Committee and WG2:

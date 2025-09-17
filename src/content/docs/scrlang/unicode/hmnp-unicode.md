@@ -16,10 +16,6 @@ The Nyiakeng Puachue Hmong script was encoded in The Unicode Standard version 12
 | ------ | --------------- | ------------------------ | ------------- |
 | Nyiakeng Puachue Hmong | 1E100..1E14F | 12.0 | [U1E100](http://www.unicode.org/charts/PDF/U1E100.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One proposal for its inclusion has been submitted to the Unicode Technical Committee and WG2:

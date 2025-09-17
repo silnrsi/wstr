@@ -12,10 +12,6 @@ The Dhimal script is not yet in Unicode. It is also not yet in the Roadmap to th
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of documents towards its inclusion have been submitted to the Unicode Technical Committee and WG2:

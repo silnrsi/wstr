@@ -12,10 +12,6 @@ As of version 15.0 of the Unicode Standard, Egyptian Hieratic has not been submi
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One document mentioning Egyptian Hieratic has been submitted to the Unicode Technical Committee:

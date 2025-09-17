@@ -12,10 +12,6 @@ The Rongorongo script is not yet in Unicode.  At one point the script had a tent
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A detailed proposal is not yet available. One document has been submitted to the Unicode Technical Committee:

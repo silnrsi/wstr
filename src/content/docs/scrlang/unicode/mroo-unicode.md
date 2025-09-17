@@ -16,10 +16,6 @@ The Mro script was encoded in The Unicode Standard version 7.0. The script is no
 | ------ | --------------- | ------------------------ | ------------- |
 | Mro  | 16A40..16A6F | 7.0 | [U16A40.pdf](http://www.unicode.org/charts/PDF/U16A40.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

@@ -16,10 +16,6 @@ The Makasar  script was encoded in The Unicode Standard version 11.0. The script
 | ------ | --------------- | ------------------------ | ------------- |
 | Makasar | 11EE0..11EFF | 11.0 | [U11EE0.pdf](http://www.unicode.org/charts/PDF/U11EE0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

@@ -12,10 +12,6 @@ The Dogon pictographs are not yet in Unicode. The script has not yet been added 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 One document that mentions the script has been submitted to the Unicode Technical Committee:

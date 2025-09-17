@@ -12,10 +12,6 @@ The Thai Noi script is not yet in Unicode. It is also not yet in the Roadmap to 
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of documents toward encoding the script have been submitted to WG2 and the UTC:

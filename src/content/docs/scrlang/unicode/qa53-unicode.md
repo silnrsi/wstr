@@ -12,10 +12,6 @@ The Turkestani script is not yet in Unicode. It may be disunified into Tocharian
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A preliminary proposal for its inclusion has been submitted to the Unicode Technical Committee:

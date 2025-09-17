@@ -12,10 +12,6 @@ The Sidetic script has been accepted for a future version of Unicode. The script
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee:

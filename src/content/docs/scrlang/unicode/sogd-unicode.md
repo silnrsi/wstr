@@ -16,10 +16,6 @@ The Sogdian script was encoded in The Unicode Standard version 11.0. The script 
 | ------ | --------------- | ------------------------ | ------------- |
 | Sogdian | 10F30.10F6F | 11.0 | [U10F30.pdf](http://www.unicode.org/charts/PDF/U10F30.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

@@ -16,10 +16,6 @@ The Marchen script was encoded in The Unicode Standard version 9.0. The script i
 | ------ | --------------- | ------------------------ | ------------- |
 | Marchen  | 11C70..11CBF | 9.0 | [U11C70.pdf](http://www.unicode.org/charts/PDF/U11C70.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:

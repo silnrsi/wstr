@@ -12,10 +12,6 @@ HamNoSys is not yet in Unicode. The script has not yet been added to the [Roadma
 
 None.
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 None.

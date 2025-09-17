@@ -16,10 +16,6 @@ The Avestan  script was encoded in The Unicode Standard version 5.2. The script 
 | ------- | ----------------- | -------------------------- | --------------- |
 | Avestan  |  10B00..10B3F  |  5.2  |  [U10B00.pdf](http://www.unicode.org/charts/PDF/U10B00.pdf)  |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:

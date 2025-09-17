@@ -16,10 +16,6 @@ The Kaktovik Numerals were encoded in The Unicode Standard version 15.0. The cha
 | ------ | --------------- | ------------------------ | ------------- |
 | Kaktovik Numerals | 1D2C0..1D2DF | 15.0 | [U1D2C0.pdf](https://www.unicode.org/charts/PDF/U1D2C0.pdf) |
 
-## Characters
-
-None.
-
 ## Proposals and documents
 
 Several documents for its inclusion were submitted to the Unicode Technical Committee and WG2:
