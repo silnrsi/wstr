@@ -1,6 +1,6 @@
 ---
-title: "Core data components: reference"
-description: Documentation on some prototype components for integrating core data
+title: "Coredata components: reference"
+description: Documentation on some prototype components for integrating coredata
 sidebar:
     order: 8001
 ---
@@ -9,8 +9,20 @@ import CharacterTable from '../../../components/CharacterTable.astro';
 import DataTable from '../../../components/DataTable.astro';
 import ScriptTable from '../../../components/ScriptTable.astro';
 
-This page shows a few prototype Astro components to demonstrate inclusion of core data into WSTR pages.
+This page documents the usage of Astro components for inclusion of coredata into WSTR pages.
 
+:::note
+To use them, you need to:
+- ensure your Markdown file has the `.mdx` extension
+- import the components you want to use at the top of your file (but below any frontmatter), using one or more of these declarations:
+```jsx
+import Character from '../../../components/Character.astro';
+import CharacterTable from '../../../components/CharacterTable.astro';
+import DataTable from '../../../components/DataTable.astro';
+import ScriptTable from '../../../components/ScriptTable.astro';
+```
+If your component content doesn't show up on the final page, check it has the `.mdx` extension and that you've imported the component correctly.
+:::
 
 ## `Character` component
 
