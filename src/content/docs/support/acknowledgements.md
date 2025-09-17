@@ -3,7 +3,7 @@ title: Acknowledgements
 description: Acknowledgements
 sidebar:
   order: 9920
-lastUpdated: 2025-07-28
+lastUpdated: 2025-09-17
 ---
 
 The primary authors of and contributors to this site are the members of the [SIL Writing Systems Technology team][wstech]. Where there are specific or additional authors and contributors they are listed at the end of individual articles. This is often the case with material adapted from previous SIL publications and other SIL websites, including [ScriptSource][scriptsource] and [scripts.sil.org][sso].

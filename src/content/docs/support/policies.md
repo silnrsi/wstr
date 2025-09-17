@@ -3,7 +3,7 @@ title: Policies
 description: Policy statements regarding terms of service, terms of use, privacy, and licensing
 sidebar:
   order: 9940
-lastUpdated: 2025-08-28
+lastUpdated: 2025-09-17
 ---
 
 ## Terms of Service
