@@ -8,8 +8,15 @@ lastUpdated: 2025-09-17
 
 ## Terms of Service
 
-This website is a service operated by SIL Global (SIL) to serve language communities worldwide. Our postal contact address is [SIL Writing Systems Technology, Dept: Key 100, 7500 West Camp Wisdom Road, Dallas, TX 75236, USA][address-formating].
-These Terms of Service apply only to what is provided through this website, and not to other services of SIL Global.
+This website is a service operated by SIL Global (SIL) to serve language communities worldwide. Our postal contact address is:
+
+SIL Writing Systems Technology  
+Dept: Key 100  
+7500 West Camp Wisdom Road  
+Dallas, TX 75236  
+USA
+
+These Terms of Service apply only to what is provided through this website, and not to other services or websites of SIL Global.
 
 This website contains technical guidance and information on scripts, characters, languages, and writing systems for use in linguistic research and software development. All content will be presented with clearly identified authorship, copyright, and licensing.
 
@@ -18,8 +25,6 @@ This information is provided as a "best effort" service. We will make a reasonab
 The authors and editors of this site take great care in researching, refining, validating, and organising the content. However, SIL makes no express or implied warranty of any kind to ensure the validity, quality, and accuracy of any content and assumes no responsibility for possible errors or omissions. No liability is assumed for incidental or consequential damages in connection with or arising out of the use of the information or resources provided.
 
 All trademarks and commercial designations belong to their respective owners.
-
-[address-formating]: <> (Consider formating the address in a standard multiline address block)
 
 ## Copyright, License, and Terms of Use
 
@@ -31,7 +36,7 @@ For information on authorship and details of content used by permission see [Ack
 
 ## Privacy
 
-This website does not collect, or transmit, any personally identifiable information for any purposes. It does use Google Analytics, and store cookies for analytics purposes only—primarily to anonymously log page metrics. SIL Global does not run advertising or store any third party cookies for advertising purposes on this site. The site does store a small amount of local data in your browser for maintaining the state of the navigation sidebar between visits. This information is not transmitted to us—it never leaves your browser. You can change your consent preferences at any time by following the <a href="/" data-cc="show-preferencesModal" class="cc__link">Manage consent preferences</a> link in the footer of any page.
+This website does not collect or transmit any personally identifiable information for any purposes. It does use Google Analytics, and stores cookies for analytics purposes only—primarily to anonymously log page metrics. SIL Global does not run advertising or store any third party cookies for advertising purposes on this site. The site does store a small amount of local data in your browser for maintaining the state of the navigation sidebar between visits. This information is not transmitted to us—it never leaves your browser. You can change your consent preferences at any time by following the <a href="/" data-cc="show-preferencesModal" class="cc__link">Manage consent preferences</a> link in the footer of any page.
 
 ## Feedback
 
