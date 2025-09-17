@@ -6,6 +6,9 @@ dist/
 # dependencies
 node_modules/
 
+# this is rebuilt using when needed by `npm run dev/start/build`
+coredata.sqlite
+
 # logs
 npm-debug.log*
 yarn-debug.log*

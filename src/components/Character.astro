@@ -1,0 +1,62 @@
+---
+
+// Character component
+// Display a Unicode character with its Unicode Scalar Value and name
+// The character is displayed as a string, the USV as a hexadecimal number, and the name in small caps
+//
+// Syntax:
+// <Character usv="XXXX" [options="usv,char,name"]/>
+// usv: Unicode Scalar Value (required)
+// options: comma-separated list of options (optional)
+// options: usv, char, name
+
+// Todo: document "char" property
+
+import { getCharacterName, ERROR_INVALID_USV } from '../utils/coredata_access';
+
+const componentName = 'Character';
+const { usv, char, options } = Astro.props;
+// console.debug(`${componentName} component original props:`, { usv, char, options });
+
+// Check that all options are valid
+const validOptions = ['usv', 'char', 'name'];
+
+const optionsArray = options ? options.split(',') : ['char', 'usv', 'name'];
+// console.debug(`${componentName} component props:`, { usv, char, optionsArray });
+optionsArray.forEach((opt: string) => {
+  if (!validOptions.includes(opt.trim())) {
+    throw new Error(`${componentName} component: invalid option "${opt}". Valid options are: ${validOptions.join(', ')}`);
+  }
+});
+
+// Check that either usv or char is provided
+if (!usv && !char) {
+  throw new Error(`${componentName} component: requires either "usv" or "char" property.`);
+}
+
+let usvValue = usv;
+if (char) {
+  usvValue = char.codePointAt(0).toString(16).toUpperCase().padStart(4, '0');
+}
+
+let characterName = await getCharacterName(usvValue);
+const character = characterName !== ERROR_INVALID_USV ? String.fromCodePoint(parseInt(usvValue, 16)) : '[?]';
+if (characterName === ERROR_INVALID_USV) {
+  throw new Error(`${componentName} component: invalid USV "${usvValue}".`);
+}
+// console.debug(`${componentName} component data:`, { usvValue, characterName, character });
+
+---
+
+<style>
+  .small-caps {
+    font-variant: small-caps;
+    font-size: 0.85em;
+  }
+</style>
+
+<span>
+  {optionsArray.includes('usv') && <span class="small-caps">U+{usvValue}</span>}
+  {optionsArray.includes('char') && character && `${character}`}
+  {optionsArray.includes('name') && <span class="small-caps">{characterName}</span>}
+</span>
