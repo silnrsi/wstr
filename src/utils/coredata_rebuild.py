@@ -6,6 +6,7 @@ import sqlite3
 import sys
 import time
 
+# WSTR Core Data Rebuild Script
 # Import CSV files into the coredata.sqlite database
 
 # The TABLES_INFO isn't external to the script because JSON doesn't allow
