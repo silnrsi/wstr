@@ -65,7 +65,7 @@ Here are links to information and resources mentioned in the Language Technology
 [sil-fonts-help]: https://software.sil.org/fonts/guides
 [sil-fonts-web]: https://software.sil.org/fonts/webfonts
 [sil-fonts]: https://software.sil.org/fonts
-[sil-wstech-contact]: https://software.sil.org/software-products/contact-wstech
+[sil-wstech-contact]: https://software.sil.org/wstech/contact-wstech/
 [sso]: https://scripts.sil.org
 [typetuner]: https://typetunerweb.languagetechnology.org/ttw/fonts2go.cgi
 

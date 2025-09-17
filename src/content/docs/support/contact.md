@@ -18,4 +18,4 @@ Please understand that we have very limited staff and may not be able to answer 
 
 [community-forum]: https://community.software.sil.org/c/writing-systems
 [gh-issues]: https://github.com/silnrsi/wstr/issues
-[sil-wstech-contact]: https://software.sil.org/software-products/contact-wstech
+[sil-wstech-contact]: https://software.sil.org/wstech/contact-wstech/
