@@ -3,7 +3,7 @@ title: Unicode Status for Cypro-Minoan
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Cypro-Minoan script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G39686).
@@ -15,6 +15,10 @@ The Cypro-Minoan script was encoded in The Unicode Standard version 14.0. The sc
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Cypro-Minoan | 12F90..12FFF | 14.0 | [U12F90.pdf](http://www.unicode.org/charts/PDF/U12F90.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

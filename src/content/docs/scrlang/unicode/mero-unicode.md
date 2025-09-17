@@ -3,7 +3,7 @@ title: Unicode Status for Meroitic Hieroglyphs
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Meroitic Hieroglyphs implementation is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G26726).
@@ -15,6 +15,10 @@ Meroitic Hieroglyphs were encoded in The Unicode Standard version 6.1. The scrip
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Meroitic Hieroglyphs | 10980..1099F | 6.1 | [U10980.pdf](http://www.unicode.org/charts/PDF/U10980.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

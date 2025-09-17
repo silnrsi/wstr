@@ -3,7 +3,7 @@ title: Unicode Status for Rejected scripts
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 Some scripts have been proposed to Unicode but have either been rejected or there is not sufficient information for encoding.
@@ -24,3 +24,15 @@ Jindai has been investigated and rejected as unsuitable for encoding. It is uncl
 Klingon has been investigated and rejected as unsuitable for encoding. Documents submitted for encoding were:
 - 1997-09-18 Proposal to encode Klingon in Plane 1 of ISO/IEC 10646-2 — Michael Everson (WG2 N1643.htm, L2/97-273 (neither online))
 - 2001-05-18 Proposal to Formally Reject Klingon for Encoding — Rick McGowan ([L2/01-212](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-212))
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
+
+## Proposals and documents
+
+None.

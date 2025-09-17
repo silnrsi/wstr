@@ -3,7 +3,7 @@ title: Unicode Status for Tulu-Tigalari
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Tulu-Tigalari script implementation is discussed in [Chapter 15 South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G746412).
@@ -15,6 +15,10 @@ The Tulu-Tigalari script was encoded in The Unicode Standard version 16.0. The s
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Tulu-Tigalari | 11380..113FF | 16.0 | [U11380.pdf](http://www.unicode.org/charts/PDF/U11380.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

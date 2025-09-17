@@ -3,7 +3,7 @@ title: Unicode Status for Linear B
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Linear B script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G29566).
@@ -17,6 +17,10 @@ Linear B script was encoded in The Unicode Standard version 4.0. The script is e
 | Linear B Syllabary  |  10000..1007F  |  4.0  |  [U10000](http://www.unicode.org/charts/PDF/U10000.pdf)  |
 | Linear B Ideograms  |  10080..100FF  |  4.0  |  [U10080](http://www.unicode.org/charts/PDF/U10080.pdf)  |
 | Aegean Numbers | 10100..1013F |  4.0  |  [U10100](http://www.unicode.org/charts/PDF/U10100.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

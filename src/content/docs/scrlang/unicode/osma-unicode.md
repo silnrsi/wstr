@@ -3,7 +3,7 @@ title: Unicode Status for Osmanya
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Osmanya script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G16914).
@@ -15,6 +15,10 @@ The Osmanya script was encoded in The Unicode Standard version 4.0. The script i
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Osmanya  | 10480..104AF | 4.0 | [U10480.pdf](http://www.unicode.org/charts/PDF/U10480.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

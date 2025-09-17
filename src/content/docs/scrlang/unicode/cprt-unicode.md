@@ -3,7 +3,7 @@ title: Unicode Status for Cypriot syllabary
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Cypriot syllabary implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G26417).
@@ -16,6 +16,10 @@ The Cypriot syllabary was encoded in The Unicode Standard version 4.0. The scrip
 | ------- | ----------------- | -------------------------- | --------------- |
 | Cypriot Syllabary  |  10800..1083F  |  4.0  |  [U10800.pdf](http://www.unicode.org/charts/PDF/U10800.pdf)  |
 | Aegean Numbers  |  10100..1013F |  4.0  |  [U10100.pdf](http://www.unicode.org/charts/PDF/U10100.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

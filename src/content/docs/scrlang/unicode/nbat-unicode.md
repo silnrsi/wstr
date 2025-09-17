@@ -3,7 +3,7 @@ title: Unicode Status for Nabataean
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Nabataean script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G29596).
@@ -15,6 +15,10 @@ The Nabataean script was encoded in The Unicode Standard version 7.0. The script
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Nabataean   | 10880..108AF | 7.0 | [U10880.pdf](http://www.unicode.org/charts/PDF/U10880.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

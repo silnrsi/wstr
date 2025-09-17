@@ -3,7 +3,7 @@ title: Unicode Status for Ol Chiki
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Ol Chiki script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G29195).
@@ -15,6 +15,10 @@ The Ol Chiki script was encoded in The Unicode Standard version 5.1. The script 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Ol' Chiki | 1C50..1C7F | 5.1 | [U1C50.pdf](http://www.unicode.org/charts/PDF/U1C50.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

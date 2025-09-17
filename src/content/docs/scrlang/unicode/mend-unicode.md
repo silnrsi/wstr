@@ -3,7 +3,7 @@ title: Unicode Status for Mende Kikakui
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Mende Kikakui script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G54425).
@@ -15,6 +15,10 @@ The Mende Kikakui script was encoded in The Unicode Standard version 7.0. The sc
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Mende Kikakui  | 1E800..1E8DF | 7.0 | [U1E800.pdf](http://www.unicode.org/charts/PDF/U1E800.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

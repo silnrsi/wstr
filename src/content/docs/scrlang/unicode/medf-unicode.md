@@ -3,7 +3,7 @@ title: Unicode Status for Medefaidrin
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Medefaidrin (also called Oberi Okaime script) script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G58353).
@@ -15,6 +15,10 @@ The Medefaidrin script was encoded in The Unicode Standard version 11.0. The scr
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Medefaidrin | 16E40..16E9F | 11.0 | [U16E40.pdf](http://www.unicode.org/charts/PDF/U16E40.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

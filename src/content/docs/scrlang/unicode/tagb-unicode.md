@@ -3,7 +3,7 @@ title: Unicode Status for Tagbanwa
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Tagbanwa script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G26441).
@@ -15,6 +15,10 @@ The Tagbanwa script was encoded in The Unicode Standard version 3.2. The script 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Tagbanwa | 1760..177F | 3.2 | [U1760.pdf](http://www.unicode.org/charts/PDF/U1760.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

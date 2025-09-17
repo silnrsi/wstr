@@ -3,7 +3,7 @@ title: Unicode Status for Lisu
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Lisu script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G44587).
@@ -16,6 +16,10 @@ The Old Lisu script was encoded in The Unicode Standard version 5.2 under the na
 | ------ | --------------- | ------------------------ | ------------- |
 | Lisu | A4D0..A4FF | 5.2 | [UA4D0.pdf](http://www.unicode.org/charts/PDF/UA4D0.pdf) |
 | Lisu Supplement | 11FB0..11FBF | 13.0 | [U11FB0.pdf](http://www.unicode.org/charts/PDF/U11FB0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

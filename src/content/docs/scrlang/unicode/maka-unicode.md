@@ -3,7 +3,7 @@ title: Unicode Status for Makasar
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Makasar (also called Old Makassarese or Bird script) script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G29334) and in [UTN 35: Indonesian and Philippine Scripts and extensions](https://www.unicode.org/notes/tn35/).
@@ -15,6 +15,10 @@ The Makasar  script was encoded in The Unicode Standard version 11.0. The script
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Makasar | 11EE0..11EFF | 11.0 | [U11EE0.pdf](http://www.unicode.org/charts/PDF/U11EE0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

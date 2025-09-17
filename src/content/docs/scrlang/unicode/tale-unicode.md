@@ -3,7 +3,7 @@ title: Unicode Status for Tai Le
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Tai Le script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G32903).
@@ -15,6 +15,10 @@ The Tai Le script was encoded in The Unicode Standard version 4.0. The script is
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Tai Le | 1950..197F | 4.0 | [U1950.pdf](http://www.unicode.org/charts/PDF/U1950.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

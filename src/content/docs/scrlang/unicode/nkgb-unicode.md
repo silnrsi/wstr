@@ -3,10 +3,18 @@ title: Unicode Status for Naxi Geba
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Naxi Geba script is not yet in Unicode. The script has a tentative allocation at U+1AD00..U+1AFCF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. There seems to be disagreement on whether Naxi Dongba and Nakhi Geba should be considered the same script (see also the [Unicode Status (Naxi Dongba)](https://scriptsource.org/entry/lb7t8h9k6v) entry).
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

@@ -3,7 +3,7 @@ title: Unicode Status for Adlam
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Adlam Script implementation is discussed in [Chapter 19 Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G56860) and in [Evolution of Adlam Characters Since Encoding](https://www.unicode.org/notes/tn58/).
@@ -15,6 +15,10 @@ The Adlam script was encoded in The Unicode Standard version 9.0. The script is 
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Adlam  | 1E900..1E95F | 9.0 | [U1E900.pdf](http://www.unicode.org/charts/PDF/U1E900.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

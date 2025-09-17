@@ -3,7 +3,7 @@ title: Unicode Status for Bhaiksuki
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Bhaiksuki script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G40424).
@@ -15,6 +15,10 @@ The Bhaiksuki script was encoded in The Unicode Standard version 9.0. The script
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Bhaiksuki  | 11C00..11C6F | 9.0 | [U11C00.pdf](http://www.unicode.org/charts/PDF/U11C00.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

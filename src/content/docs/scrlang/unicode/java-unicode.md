@@ -3,7 +3,7 @@ title: Unicode Status for Javanese
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Javanese script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G27153) and in [UTN 47: Implementing Javanese](https://www.unicode.org/notes/tn47/).
@@ -15,6 +15,10 @@ The Javanese script was encoded in The Unicode Standard version 5.2. The script 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Javanese | A980..A9DF | 5.2 | [UA980.pdf](http://www.unicode.org/charts/PDF/UA980.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

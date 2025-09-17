@@ -3,7 +3,7 @@ title: Unicode Status for Sora Sompeng
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Sora Sompeng script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G95556).
@@ -15,6 +15,10 @@ The Sora Sompeng script was encoded in The Unicode Standard version 6.1. The scr
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Sora Sompeng | 110D0..110FF | 6.1 | [U110D0.pdf](http://www.unicode.org/charts/PDF/U110D0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

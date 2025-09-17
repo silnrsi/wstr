@@ -3,7 +3,7 @@ title: Unicode Status for Old Permic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Old Permic script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G31220).
@@ -15,6 +15,10 @@ The Old Permic script was encoded in The Unicode Standard version 7.0. The scrip
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Old Permic  | 10350..1037F | 7.0 | [U10350.pdf](http://www.unicode.org/charts/PDF/U10350.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

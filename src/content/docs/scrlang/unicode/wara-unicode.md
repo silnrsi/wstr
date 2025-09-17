@@ -3,7 +3,7 @@ title: Unicode Status for Warang Citi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Warang Citi script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G27702).
@@ -15,6 +15,10 @@ The Warang Citi script was encoded in The Unicode Standard version 7.0. The scri
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Warang Citi | 118A0..118FF | 7.0 | [U118A0.pdf](http://www.unicode.org/charts/PDF/U118A0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

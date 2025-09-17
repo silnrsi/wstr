@@ -3,7 +3,7 @@ title: Unicode Status for Mahajani
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Mahajani script implementation is discussed in [Chapter 15 South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G89564).
@@ -15,6 +15,10 @@ The Mahajani script was encoded in The Unicode Standard version 7.0. The script 
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Mahajani  | 11150..1117F | 7.0 | [U11150.pdf](http://www.unicode.org/charts/PDF/U11150.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

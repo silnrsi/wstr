@@ -3,10 +3,18 @@ title: Unicode Status for Eebee Hmong
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Eebee Hmong script (also called Puaj Txwm) is not yet in Unicode. The script has a tentative allocation at U+1E150..U+1E1FF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. The [Script Encoding Initiative](https://sei.berkeley.edu/) includes this script in their list of “Scripts Not Yet Encoded”. Contributions here may support their efforts.
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

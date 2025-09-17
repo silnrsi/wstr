@@ -3,7 +3,7 @@ title: Unicode Status for Mro
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Mro script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G27701).
@@ -15,6 +15,10 @@ The Mro script was encoded in The Unicode Standard version 7.0. The script is no
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Mro  | 16A40..16A6F | 7.0 | [U16A40.pdf](http://www.unicode.org/charts/PDF/U16A40.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

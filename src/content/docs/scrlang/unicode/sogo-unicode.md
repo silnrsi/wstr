@@ -3,7 +3,7 @@ title: Unicode Status for Old Sogdian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Old Sogdian script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G49463).
@@ -15,6 +15,10 @@ The Old Sogdian script was encoded in The Unicode Standard version 11.0. The scr
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Old Sogdian | 10F00.10F2F | 11.0 | [U10F00.pdf](http://www.unicode.org/charts/PDF/U10F00.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

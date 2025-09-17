@@ -3,7 +3,7 @@ title: Unicode Status for Buginese
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Buginese script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G26727) and in [UTN 35: Indonesian and Philippine Scripts and extensions](https://www.unicode.org/notes/tn35/).
@@ -15,6 +15,10 @@ The Buginese script was encoded in The Unicode Standard version 4.1. The script 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Buginese | 1A00..1A1F | 4.1 | [U1A00.pdf](http://www.unicode.org/charts/PDF/U1A00.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

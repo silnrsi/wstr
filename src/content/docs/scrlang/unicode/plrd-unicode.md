@@ -3,7 +3,7 @@ title: Unicode Status for Miao
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Miao script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G42236) and in [UTN#56 Representing Miao in Unicode](https://www.unicode.org/notes/tn56/).
@@ -15,6 +15,10 @@ The Miao script was encoded in The Unicode Standard version 6.1. The script is e
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Miao | 16F00..16F9F | 6.1 | [U16F00.pdf](http://www.unicode.org/charts/PDF/U16F00.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

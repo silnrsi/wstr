@@ -3,10 +3,18 @@ title: Unicode Status for Naxi Dongba
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Naxi Dongba Pictographic script is not yet in Unicode. The script has a tentative allocation at U+1A800..U+1ACFF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. There seems to be disagreement on whether Naxi Dongba and Nakhi Geba should be considered the same script (see also the [Unicode Status (Nakhi Geba)](https://scriptsource.org/entry/k8fj7hdpny) entry).
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

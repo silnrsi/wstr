@@ -3,7 +3,7 @@ title: Unicode Status for Linear A
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Linear A implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G27575).
@@ -15,6 +15,10 @@ The Linear A script was encoded in The Unicode Standard version 7.0. The script 
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Linear A | 10600..1077F | 7.0 | [U10600.pdf](http://www.unicode.org/charts/PDF/U10600.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

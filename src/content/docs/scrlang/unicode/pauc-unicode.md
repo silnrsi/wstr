@@ -3,7 +3,7 @@ title: Unicode Status for Pau Cin Hau
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Pau Cin Hau alphabet implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G68308).
@@ -15,6 +15,10 @@ The Pau Cin Hau alphabet was encoded in The Unicode Standard version 7.0. The sc
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Pau Cin Hau  | 11AC0..11AFF | 7.0 | [U11AC0.pdf](http://www.unicode.org/charts/PDF/U11AC0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

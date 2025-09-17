@@ -3,7 +3,7 @@ title: Unicode Status for Masaba
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Masaba script is not yet in Unicode. The script has not yet been added to the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
@@ -17,3 +17,15 @@ Several documents that mention the script have been submitted to the Unicode Tec
   - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.26.)_
 - 2024-09-06 Proposal for encoding the Masaba script — Oreen Yousuf ([L2/24-248](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-248))
   - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 8.)_
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
+
+## Proposals and documents
+
+None.

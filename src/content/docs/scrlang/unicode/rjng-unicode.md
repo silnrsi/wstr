@@ -3,7 +3,7 @@ title: Unicode Status for Rejang
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Rejang script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G27208) and in [UTN 35: Indonesian and Philippine Scripts and extensions](https://www.unicode.org/notes/tn35/).
@@ -15,6 +15,10 @@ The Rejang script was encoded in The Unicode Standard version 5.1. The script is
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Rejang | A930..A95F | 5.1 | [UA930.pdf](http://www.unicode.org/charts/PDF/UA930.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

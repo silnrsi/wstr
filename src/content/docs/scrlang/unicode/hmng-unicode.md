@@ -3,7 +3,7 @@ title: Unicode Status for Pahawh Hmong
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Pahawh Hmong script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G68320).
@@ -15,6 +15,10 @@ The Pahawh Hmong script was encoded in The Unicode Standard version 7.0. The scr
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Pahawh Hmong | 16B00..16B8F | 7.0 | [U16B00.pdf](http://www.unicode.org/charts/PDF/U16B00.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

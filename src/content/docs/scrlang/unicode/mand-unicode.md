@@ -3,7 +3,7 @@ title: Unicode Status for Mandaic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Mandaic script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G46613).
@@ -15,6 +15,10 @@ The Mandaic script was encoded in The Unicode Standard version 6.0. The script i
 | Blocks  |  Character Range  |  Added in Unicode Version  |  Unicode Chart  |
 | ------- | ----------------- | -------------------------- | --------------- |
 | Mandaic  |  0840..085F  |  6.0  |  [U0840.pdf](http://www.unicode.org/charts/PDF/U0840.pdf)  |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

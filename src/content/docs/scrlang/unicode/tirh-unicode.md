@@ -3,7 +3,7 @@ title: Unicode Status for Tirhuta
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Tirhuta script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G95493).
@@ -15,6 +15,10 @@ The Tirhuta script (formerly called Maithili) was encoded in The Unicode Standar
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Tirhuta  | 11480..114DF | 7.0 | [U11480.pdf](http://www.unicode.org/charts/PDF/U11480.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

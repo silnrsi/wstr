@@ -3,7 +3,7 @@ title: Unicode Status for Buhid
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Buhid script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G26439).
@@ -15,6 +15,10 @@ The Buhid script was encoded in The Unicode Standard version 3.2. The script is 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Buhid | 1740..175F | 3.2 | [U1740](http://www.unicode.org/charts/PDF/U1740.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

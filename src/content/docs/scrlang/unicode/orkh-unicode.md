@@ -3,7 +3,7 @@ title: Unicode Status for Old Turkic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Old Turkic script implementation is discussed in [Chapter 14 South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G41975).
@@ -15,6 +15,10 @@ The Old Turkic script was encoded in The Unicode Standard version 5.2. The scrip
 | Blocks  |  Character Range  |  Added in Unicode Version  |  Unicode Chart  |
 | ------- | ----------------- | -------------------------- | --------------- |
 | Old Turkic |  10C00..10C4F  |  5.2  |  [U10C00.pdf](http://www.unicode.org/charts/PDF/U10C00.pdf)  |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

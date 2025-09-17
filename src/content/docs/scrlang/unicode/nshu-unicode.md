@@ -3,7 +3,7 @@ title: Unicode Status for Nüshu
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Nüshu script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G42061).
@@ -16,6 +16,10 @@ The Nüshu script was first encoded in The Unicode Standard version 10.0. The sc
 | ------ | --------------- | ------------------------ | ------------- |
 | Ideographic Symbols and Punctuation  |  16FE1  |  10.0  |  [U16FE0](http://www.unicode.org/charts/PDF/U16FE0.pdf)  |
 | Nushu  |  1B170..1B2FF  |  10.0  |  [U1B170](http://www.unicode.org/charts/PDF/U1B170.pdf)  |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

@@ -3,7 +3,7 @@ title: Unicode Status for Vithkuqi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Vithkuqi (Veqilharxhi or Büthakukye) script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G40863).
@@ -15,6 +15,10 @@ The Vithkuqi script was encoded in The Unicode Standard version 14.0. The script
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Vithkuqi | 10570..105BF | 14.0 | [U10570.pdf](http://www.unicode.org/charts/PDF/U10570.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

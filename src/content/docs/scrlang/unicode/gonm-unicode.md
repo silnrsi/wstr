@@ -3,7 +3,7 @@ title: Unicode Status for Masaram Gondi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Masaram Gondi script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G33278).
@@ -15,6 +15,10 @@ The Masaram Gondi script was first encoded in The Unicode Standard version 10.0.
 | Blocks | Character Range | Added in Unicode Version | Documentation |
 | ------ | --------------- | ------------------------ | ------------- |
 | Masaram Gondi  |  11D00..11D5F  |  10.0  |  [U11D00](http://www.unicode.org/charts/PDF/U11D00.pdf)  |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

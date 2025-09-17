@@ -3,7 +3,7 @@ title: Unicode Status for Kayah Li
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Kayah Li script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G61902).
@@ -15,6 +15,10 @@ The Kayah Li script was encoded in The Unicode Standard version 5.1. The script 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Kayah Li | A900..A92F | 5.1 | [UA900](http://www.unicode.org/charts/PDF/UA900.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

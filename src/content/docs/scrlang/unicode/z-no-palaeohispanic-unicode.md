@@ -3,12 +3,20 @@ title: Unicode Status for Northern Palaeohispanic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Northern Palaeohispanic script (sometimes called Iberian) is not yet in Unicode. The script has a tentative allocation at U+10200..U+1023F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
 
 The Palaeohispanic script is being disunified into two scripts: Northern Palaeohispanic and Southern Palaeohispanic.
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

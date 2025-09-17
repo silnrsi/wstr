@@ -3,10 +3,18 @@ title: Unicode Status for Zou
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Zou script is not yet in Unicode. The script has a tentative allocation at U+11750..U+117AF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

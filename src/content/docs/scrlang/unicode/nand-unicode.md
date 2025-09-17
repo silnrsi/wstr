@@ -3,7 +3,7 @@ title: Unicode Status for Nandinagari
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Nandinagari script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G106413).
@@ -15,6 +15,10 @@ The Nandinagari script was encoded in The Unicode Standard version 12.0. The scr
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Nandinagari  | 119A0..119FF | 12.0 | [U119A0](http://www.unicode.org/charts/PDF/U119A0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

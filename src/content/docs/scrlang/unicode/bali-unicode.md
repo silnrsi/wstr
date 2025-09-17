@@ -3,7 +3,7 @@ title: Unicode Status for Balinese
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Balinese script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G26759).
@@ -15,6 +15,10 @@ The Balinese script was encoded in The Unicode Standard version 5.0. The script 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Balinese | 1B00..1B7F | 5.0 | [U1B00.pdf](http://www.unicode.org/charts/PDF/U1B00.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

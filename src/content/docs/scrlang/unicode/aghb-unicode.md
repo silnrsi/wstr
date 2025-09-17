@@ -3,7 +3,7 @@ title: Unicode Status for Caucasian Albanian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Caucasian Albanian implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G32223).
@@ -15,6 +15,10 @@ The Caucasian Albanian script was encoded in The Unicode Standard version 7.0. T
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Caucasian Albanian | 10530..1056F | 7.0 | [U10530.pdf](http://www.unicode.org/charts/PDF/U10530.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

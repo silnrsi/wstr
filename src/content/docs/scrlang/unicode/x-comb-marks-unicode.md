@@ -3,7 +3,7 @@ title: Unicode Status for Combining marks
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Combining marks implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G18195). In general, combining marks inherit script properties from the script being used. They are used in Latin, Cyrillic, Greek and have even been used in Tifinagh, Coptic, Newa and Caucasian Albanian. Other scripts, such as Arabic or most of the Indic scripts, have combining marks which are specific to that script.

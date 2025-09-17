@@ -3,10 +3,18 @@ title: Unicode Status for Oracle Bone
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Oracle Bone script (also called Old Hanzi) is not yet in Unicode. The script is referenced, but without an allocation, in the [Roadmap to the TIP](http://www.unicode.org/roadmaps/tip/) for the Unicode Standard.
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

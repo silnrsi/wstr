@@ -3,7 +3,7 @@ title: Unicode Status for Imperial Aramaic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Imperial Aramaic script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G29567).
@@ -15,6 +15,10 @@ The Imperial Aramaic script was encoded in The Unicode Standard version 5.2. The
 | Blocks  |  Character Range  |  Added in Unicode Version  |  Unicode Chart  |
 | ------- | ----------------- | -------------------------- | --------------- |
 | Imperial Aramaic  |  10840..1085F  |  5.2  |  [U10840.pdf](http://www.unicode.org/charts/PDF/U10840.pdf)  |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

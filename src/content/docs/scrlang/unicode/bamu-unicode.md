@@ -3,7 +3,7 @@ title: Unicode Status for Bamum
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Bamum script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G45398).
@@ -16,6 +16,10 @@ The Bamum script was encoded in The Unicode Standard version 5.2. Another block 
 | ------ | --------------- | ------------------------ | ------------- |
 | Bamum  | A6AO..A6FF | 5.2 | [UA6A0.pdf](http://www.unicode.org/charts/PDF/UA6A0.pdf) |
 | Bamum Supplement  |  16800..16A3F  |  6.0  |  [U16800.pdf](http://www.unicode.org/charts/PDF/U16800.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

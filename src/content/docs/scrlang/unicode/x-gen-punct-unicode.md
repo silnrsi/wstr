@@ -3,7 +3,7 @@ title: Unicode Status for General Punctuation
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Punctuation marks are discussed in [Chapter 6 Writing Systems and Punctuation](http://www.unicode.org/versions/latest/ch06.pdf). Punctuation marks can generally be used across scripts. They tend to be scattered across various blocks in Unicode. Some scripts have punctuation marks which are specific to that script and those are generally encoded with the script block(s).

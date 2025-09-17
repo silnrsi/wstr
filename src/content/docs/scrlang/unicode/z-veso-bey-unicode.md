@@ -3,10 +3,18 @@ title: Unicode Status for Veso Bey
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Veso Bey script (also called Gjirokastër) is not yet in Unicode.
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

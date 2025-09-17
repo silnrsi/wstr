@@ -3,7 +3,7 @@ title: Unicode Status for Egyptian Hieroglyphs
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, implementation of Egyptian Hieroglyphs is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G26607), [UTN 32: Mapping Between Manuel de Codage and Unicode Egyptian Hieroglyphs](https://www.unicode.org/notes/tn32/), and in [Unicode Egyptian Hieroglyph Database (Unikemet)](https://www.unicode.org/reports/tr57/).

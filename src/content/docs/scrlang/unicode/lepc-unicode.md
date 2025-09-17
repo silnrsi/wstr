@@ -3,7 +3,7 @@ title: Unicode Status for Lepcha
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Lepcha script implementation is discussed in [Chapter 13 South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G27253).
@@ -15,6 +15,10 @@ The Lepcha script was encoded in The Unicode Standard version 5.1. The script is
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Lepcha | 1C00..1C4F | 5.1 | [U1C00.pdf](http://www.unicode.org/charts/PDF/U1C00.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

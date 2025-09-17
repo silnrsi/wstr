@@ -3,10 +3,18 @@ title: Unicode Status for Lisu Syllabic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Lisu Syllabic script is not yet in Unicode. The script has a tentative allocation at U+1B600..U+1B9FF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

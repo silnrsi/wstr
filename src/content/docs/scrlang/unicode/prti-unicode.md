@@ -3,7 +3,7 @@ title: Unicode Status for Inscriptional Parthian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Inscriptional Parthian script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G28759).
@@ -15,6 +15,10 @@ The Inscriptional Parthian script was encoded in The Unicode Standard version 5.
 | Blocks  |  Character Range  |  Added in Unicode Version  |  Unicode Chart  |
 | ------- | ----------------- | -------------------------- | --------------- |
 | Inscriptional Parthian  |  10B40..10B5F  |  5.2  |  [U10B40.pdf](http://www.unicode.org/charts/PDF/U10B40.pdf)  |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

@@ -3,7 +3,7 @@ title: Unicode Status for Old Hungarian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Old Hungarian script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G33926).
@@ -15,6 +15,10 @@ The Old Hungarian script was encoded in The Unicode Standard version 8.0. The sc
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Old Hungarian | 10C80..10CFF | 8.0 | [U10c80](http://www.unicode.org/charts/PDF/U10C80.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

@@ -3,7 +3,7 @@ title: Unicode Status for Bassa Vah
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Bassa Vah script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G54402).
@@ -15,6 +15,10 @@ The Bassa Vah script was encoded in The Unicode Standard version 7.0. The script
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Bassa Vah | 16AD0..16AFF | 7.0 | [U16AD0.pdf](http://www.unicode.org/charts/PDF/U16AD0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

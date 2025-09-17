@@ -3,7 +3,7 @@ title: Unicode Status for Meitei Mayek
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Meitei Mayek script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G27615).
@@ -16,6 +16,10 @@ The Meetei Mayek script was encoded in The Unicode Standard version 5.2. The scr
 | ------ | --------------- | ------------------------ | ------------- |
 | Meetei Mayek | ABC0..ABFF | 5.2 | [UABC0.pdf](http://www.unicode.org/charts/PDF/UABC0.pdf) |
 | Meetei Mayek Extensions | AAE0..AAFF | 6.1 | [UAAE0.pdf](http://www.unicode.org/charts/PDF/UAAE0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

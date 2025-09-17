@@ -3,7 +3,7 @@ title: Unicode Status for Ugaritic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Ugaritic script implementation is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G26461).
@@ -15,6 +15,10 @@ The Ugaritic script was encoded in The Unicode Standard version 4.0. The script 
 | Blocks  |  Character Range  |  Added in Unicode Version  |  Unicode Chart  |
 | ------- | ----------------- | -------------------------- | --------------- |
 | Ugaritic  |  10380..1039F  |  4.0  |  [U10380.pdf](http://www.unicode.org/charts/PDF/U10380.pdf)  |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

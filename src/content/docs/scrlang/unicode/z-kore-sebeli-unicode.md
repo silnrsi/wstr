@@ -3,7 +3,7 @@ title: Unicode Status for Kore Sebeli
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Kore Sebeli script is not yet in Unicode. The script has a tentative allocation at U+15B00..U+15B6F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
@@ -25,3 +25,15 @@ Documents towards its inclusion have been submitted to the Unicode Technical Com
 - 2024-10-28 Proposal for the encoding of « KORE SEBELI » — Mohamed Bentoura Bangoura ([L2/24-246](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-246))
   - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 1.1.)_
   - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 1.1 for decision and action items)_
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
+
+## Proposals and documents
+
+None.

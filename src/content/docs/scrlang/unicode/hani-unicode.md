@@ -3,7 +3,7 @@ title: Unicode Status for Han
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Han implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G29086).
@@ -39,3 +39,7 @@ The following are in the "Common" category, but they do relate to the Han script
 | Ideographic Description Characters  |  2FF0..2FFF  |  3.0  |  [U2FF0](http://www.unicode.org/charts/PDF/U2FF0.pdf)  |
 | CJK Strokes  |  31C0..31EF  |  4.1  |  [U31C0](http://www.unicode.org/charts/PDF/U31C0.pdf)  |
 | Enclosed CJK Letters and Months  |  3200..32FF  |  1.0  |  [U3200](http://www.unicode.org/charts/PDF/U3200.pdf)  |
+
+## Proposals and documents
+
+None.

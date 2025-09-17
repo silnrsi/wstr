@@ -3,7 +3,7 @@ title: Unicode Status for Hatran
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Hatran script implementation is discussed in [Chapter 10 Middle East-II: Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G34825).
@@ -15,6 +15,10 @@ The Hatran script was encoded in The Unicode Standard version 8.0. The script is
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Hatran | 108E0..108FF | 8.0 | [U108E0](http://www.unicode.org/charts/PDF/U108E0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

@@ -3,7 +3,7 @@ title: Unicode Status for Kawi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Kawi script implementation is discussed in [Chapter 17 Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G40419) and in [UTN 48: Implementing Kawi](https://www.unicode.org/notes/tn48/).
@@ -15,6 +15,10 @@ The Kawi script was encoded in The Unicode Standard version 15.0. The script is 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Kawi | 11F00..11F5F | 15.0 | [U11F00.pdf](http://www.unicode.org/charts/PDF/U11F00.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

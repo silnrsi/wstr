@@ -3,7 +3,7 @@ title: Unicode Status for Braille
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Braille Patterns implementation is discussed in [Chapter 21: Notational Systems](https://www.unicode.org/versions/latest/core-spec/chapter-21/#G26597).
@@ -15,6 +15,10 @@ Braille Patterns were encoded in The Unicode Standard version 3.0. It is encoded
 | Blocks | Character Range | Added in Unicode Version | Documentation |
 | ------ | --------------- | ------------------------ | ------------- |
 | Braille Patterns  |  2800..28FF  |  3.0  |  [U2800.pdf](http://www.unicode.org/charts/PDF/U2800.pdf)  |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

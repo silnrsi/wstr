@@ -3,7 +3,7 @@ title: Unicode Status for Arabic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Arabic Script implementation is discussed in [Chapter 9 Middle East-I: Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G20596), in [UAX 53 Unicode Arabic Mark Rendering](https://www.unicode.org/reports/tr53/), and in [UTN 46 Rendering the Allah Ligature](https://www.unicode.org/notes/tn46/). The _Arabic (Nastaliq variant)_ script uses characters from the Arabic script Unicode blocks.

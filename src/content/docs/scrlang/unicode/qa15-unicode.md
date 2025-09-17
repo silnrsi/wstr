@@ -3,7 +3,7 @@ title: Unicode Status for Raina Kama
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Raina Kama (Hausa) script is not yet in Unicode. The script has not yet been added to the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
@@ -18,3 +18,15 @@ Documents mentioning the script have been submitted to the Unicode Technical Com
 
 Additionally, an exploratory code chart and names list is available:
 - 2006-07-01 Exploratory code chart and names list — Michael Everson ([Evertype code chart](http://www.evertype.com/standards/iso10646/pdf/raina-kama-hausa.pdf))
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
+
+## Proposals and documents
+
+None.

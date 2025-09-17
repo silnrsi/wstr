@@ -3,12 +3,20 @@ title: Unicode Status for Southern Palaeohispanic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Southern Palaeohispanic script is not yet in Unicode. The script has a tentative allocation at U+10240..U+1027F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
 
 The Palaeohispanic script is being disunified into two scripts: Northern Palaeohispanic and Southern Palaeohispanic.
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

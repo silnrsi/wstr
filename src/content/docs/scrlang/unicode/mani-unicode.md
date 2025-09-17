@@ -3,7 +3,7 @@ title: Unicode Status for Manichaean
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Manichaean script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G27561).
@@ -15,6 +15,10 @@ The Manichaean script was encoded in The Unicode Standard version 7.0. The scrip
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Manichaean  | 10AC0..10AFF | 7.0 | [U10AC0.pdf](http://www.unicode.org/charts/PDF/U10AC0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

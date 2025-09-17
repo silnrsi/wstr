@@ -3,7 +3,7 @@ title: Unicode Status for Duployan
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Duployan Shorthand implementation is discussed in [Chapter 21: Notational Systems](https://www.unicode.org/versions/latest/core-spec/chapter-21/#G27643) and in [UTN 37: Duployan Shorthand Rendering Model](https://www.unicode.org/notes/tn37/).
@@ -16,6 +16,10 @@ Duployan Shorthand was encoded in The Unicode Standard version 7.0. The script i
 | ------ | --------------- | ------------------------ | ------------- |
 | Duployan  | 1BC00..1BC9F | 7.0 | [U1BC00.pdf](http://www.unicode.org/charts/PDF/U1BC00.pdf) |
 | Shorthand Format Controls  | 1BCA0..1BCAF | 7.0 | [U1BCA0.pdf](http://www.unicode.org/charts/PDF/U1BCA0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

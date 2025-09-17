@@ -3,7 +3,7 @@ title: Unicode Status for Gurung Khema
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Gurung Khema Script implementation is discussed in [Chapter 13 South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G746338).
@@ -15,6 +15,10 @@ The Gurung Khema script was encoded in The Unicode Standard version 16.0. The sc
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Gurung Khema | 16100..1613F | 16.0 | [U16100.pdf](http://www.unicode.org/charts/PDF/U16100.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

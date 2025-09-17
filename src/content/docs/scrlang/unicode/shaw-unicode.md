@@ -3,7 +3,7 @@ title: Unicode Status for Shavian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Shavian (Shaw) script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G27260).
@@ -15,6 +15,10 @@ The Shavian (Shaw) script was encoded in The Unicode Standard version 4.0. The s
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Shavian (Shaw) | 10450..1047F | 4.0 | [U10450.pdf](http://www.unicode.org/charts/PDF/U10450.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

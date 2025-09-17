@@ -3,7 +3,7 @@ title: Unicode Status for Palmyrene
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Palmyrene script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G29599).
@@ -15,6 +15,10 @@ The Palmyrene script was encoded in The Unicode Standard version 7.0. The script
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Palmyrene  | 10860..1087F | 7.0 | [U10860.pdf](http://www.unicode.org/charts/PDF/U10860.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

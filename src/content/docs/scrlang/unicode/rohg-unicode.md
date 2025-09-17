@@ -3,7 +3,7 @@ title: Unicode Status for Hanifi Rohingya
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Hanifi Rohingya script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G73728).
@@ -15,6 +15,10 @@ The Hanifi Rohingya script was encoded in The Unicode Standard version 11.0. The
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Hanifi Rohingya | 10D00..10D3F | 11.0 | [U10D00.pdf](http://www.unicode.org/charts/PDF/U10D00.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

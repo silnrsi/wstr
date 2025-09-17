@@ -3,7 +3,7 @@ title: Unicode Status for Gunjala Gondi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Gunjala Gondi script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G39306).
@@ -15,6 +15,10 @@ The Gunjala Gondi script was encoded in The Unicode Standard version 11.0. The s
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Gunjala Gondi | 11D60..11DAF | 11.0 | [U11D60.pdf](http://www.unicode.org/charts/PDF/U11D60.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

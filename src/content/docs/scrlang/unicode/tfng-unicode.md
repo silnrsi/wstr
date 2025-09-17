@@ -3,7 +3,7 @@ title: Unicode Status for Tifinagh
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Tifinagh script implementation is discussed in [Chapter 19 Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G43184) and in [UTN 59: Representing Tifinagh in Unicode](https://www.unicode.org/notes/tn59/).

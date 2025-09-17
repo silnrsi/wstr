@@ -3,10 +3,18 @@ title: Unicode Status for Sidetic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Sidetic script has been accepted for a future version of Unicode. The script has a tentative allocation at U+10940..U+1095F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

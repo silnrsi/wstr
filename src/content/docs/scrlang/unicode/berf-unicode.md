@@ -3,10 +3,18 @@ title: Unicode Status for Beria Erfe
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Beria Erfe script is not yet in Unicode. The script has a provisional assignment at U+16EA0..U+16EDF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

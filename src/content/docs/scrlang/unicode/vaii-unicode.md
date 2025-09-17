@@ -3,7 +3,7 @@ title: Unicode Status for Vai
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Vai script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G18604).
@@ -15,6 +15,10 @@ The Vai script was encoded in The Unicode Standard version 5.1. The script is en
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Vai | A500..A63F | 5.1 | [UA500](http://www.unicode.org/charts/PDF/UA500.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

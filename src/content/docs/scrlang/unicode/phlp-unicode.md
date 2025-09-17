@@ -3,7 +3,7 @@ title: Unicode Status for Psalter Pahlavi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Psalter Pahlavi script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G28804).
@@ -15,6 +15,10 @@ The Psalter Pahlavi script was encoded in The Unicode Standard version 7.0. The 
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Psalter Pahlavi  | 10B80..10BAF | 7.0 | [U10B80.pdf](http://www.unicode.org/charts/PDF/U10B80.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

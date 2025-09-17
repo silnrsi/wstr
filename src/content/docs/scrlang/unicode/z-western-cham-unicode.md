@@ -3,7 +3,7 @@ title: Unicode Status for Western Cham
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 The Western Cham script is not yet in Unicode. The script has a tentative allocation at U+1E200..U+1E26F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
@@ -45,3 +45,15 @@ Several documents toward encoding the script have been submitted to WG2 and the 
 - 2022-02-23 Response to L2/22-049, on Western Cham Resolution Meeting — Jorge López Cortina ([L2/22-050](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-050))
   - _Recommendations to UTC #171 April 2022 on Script Proposals ([L2/22-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-068)) (See point 13.)_
   - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 13 for decision and action items)_
+
+## Blocks
+
+None.
+
+## Characters
+
+None.
+
+## Proposals and documents
+
+None.

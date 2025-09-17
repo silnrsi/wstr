@@ -3,7 +3,7 @@ title: Unicode Status for Multani
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Multani script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G95487).
@@ -15,6 +15,10 @@ The Multani script was encoded in The Unicode Standard version 8.0. The script i
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Multani | 11280..112AF | 8.0 | [U11280](http://www.unicode.org/charts/PDF/U11280.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

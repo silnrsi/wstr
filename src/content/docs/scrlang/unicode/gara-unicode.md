@@ -3,7 +3,7 @@ title: Unicode Status for Garay
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Garay Script implementation is discussed in [Chapter 19 Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G746355).
@@ -15,6 +15,10 @@ The Garay script was encoded in The Unicode Standard version 16.0. The script is
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Garay | 10D40..10D8F | 16.0 | [U10D40.pdf](http://www.unicode.org/charts/PDF/U10D40.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

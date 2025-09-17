@@ -3,7 +3,7 @@ title: Unicode Status for Phags-pa
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Phags-pa script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G40430).
@@ -15,6 +15,10 @@ The Phags-pa script was encoded in The Unicode Standard version 5.0. The script 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Phags-pa | A840..A87F | 5.0 | [UA840.pdf](http://www.unicode.org/charts/PDF/UA840.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

@@ -3,7 +3,7 @@ title: Unicode Status for Cham
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Cham script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G55659).
@@ -15,6 +15,10 @@ The Cham script was encoded in The Unicode Standard version 5.1. The script is e
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Cham | AA00..AA5F | 5.1 | [UAA00](http://www.unicode.org/charts/PDF/UAA00.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

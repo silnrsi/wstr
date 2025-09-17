@@ -3,7 +3,7 @@ title: Unicode Status for Old North Arabian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Old North Arabian script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G26432).
@@ -15,6 +15,10 @@ The Old North Arabian script was encoded in The Unicode Standard version 7.0. Th
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Old North Arabian  | 10A80..10A9F | 7.0 | [U10A80.pdf](http://www.unicode.org/charts/PDF/U10A80.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

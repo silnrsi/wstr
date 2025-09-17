@@ -3,7 +3,7 @@ title: Unicode Status for Elbasan
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Elbasan script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G27032).
@@ -15,6 +15,10 @@ The Elbasan script was encoded in The Unicode Standard version 7.0. The script i
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Elbasan  |  10500..1052F | 7.0 | [U10500.pdf](http://www.unicode.org/charts/PDF/U10500.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

@@ -3,7 +3,7 @@ title: Unicode Status for Anatolian Hieroglyphs
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Anatolian Hieroglyphs script implementation is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G27920).
@@ -15,6 +15,10 @@ The Anatolian Hieroglyphs were encoded in The Unicode Standard version 8.0. The 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Anatolian Hieroglyphs | 14400..1467F | 8.0 | [U14400](http://www.unicode.org/charts/PDF/U14400.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

@@ -3,7 +3,7 @@ title: Unicode Status for Carian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Carian script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G26509).
@@ -15,6 +15,10 @@ The Carian script was encoded in The Unicode Standard version 5.1. The script is
 | Blocks  |  Character Range  |  Added in Unicode Version  |  Unicode Chart  |
 | ------- | ----------------- | -------------------------- | --------------- |
 | Carian  |  102A0..102DF  |  5.1  |  [U102A0.pdf](http://www.unicode.org/charts/PDF/U102A0.pdf)  |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

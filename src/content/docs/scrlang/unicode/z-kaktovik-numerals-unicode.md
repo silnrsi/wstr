@@ -3,7 +3,7 @@ title: Unicode Status for Kaktovik Numerals
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, implementation for Kaktovik Numerals is discussed in [Chapter 22: Symbols](https://www.unicode.org/versions/latest/core-spec/chapter-22/#G83753).
@@ -15,6 +15,10 @@ The Kaktovik Numerals were encoded in The Unicode Standard version 15.0. The cha
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Kaktovik Numerals | 1D2C0..1D2DF | 15.0 | [U1D2C0.pdf](https://www.unicode.org/charts/PDF/U1D2C0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

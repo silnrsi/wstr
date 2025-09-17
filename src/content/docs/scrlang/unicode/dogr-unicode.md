@@ -3,7 +3,7 @@ title: Unicode Status for Dogra
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Dogra script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G100066).
@@ -15,6 +15,10 @@ The Dogra script was encoded in The Unicode Standard version 11.0. The script is
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Dogra | 11800..1184F | 11.0 | [U11800.pdf](http://www.unicode.org/charts/PDF/U11800.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

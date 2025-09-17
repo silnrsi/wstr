@@ -3,7 +3,7 @@ title: Unicode Status for Khudawadi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Khudawadi script implementation is discussed in [Chapter 15 South and Central Asia-IV](http://www.unicode.org/versions/latest/ch15.pdf).
@@ -15,6 +15,10 @@ The Khudawadi script was encoded in The Unicode Standard version 7.0. It has als
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Khudawadi  | 112B0..112FF | 7.0 | [U112B0.pdf](http://www.unicode.org/charts/PDF/U112B0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

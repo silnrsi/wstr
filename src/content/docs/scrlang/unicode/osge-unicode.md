@@ -3,7 +3,7 @@ title: Unicode Status for Osage
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Osage script implementation is discussed in [Chapter 20: Americas](https://www.unicode.org/versions/latest/core-spec/chapter-20/#G26674).
@@ -15,6 +15,10 @@ The Osage script was encoded in The Unicode Standard version 9.0. The script is 
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Osage  | 104B0..104FF | 9.0 | [U104B0.pdf](http://www.unicode.org/charts/PDF/U104B0.pdf) |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

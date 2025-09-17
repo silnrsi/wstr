@@ -3,7 +3,7 @@ title: Unicode Status for Zanabazar Square
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Zanabazar Square script implementation is discussed in [Chapter 14 South and Central Asia-III: Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G41935).
@@ -15,6 +15,10 @@ The Zanabazar Square script was first encoded in The Unicode Standard version 10
 | Blocks | Character Range | Added in Unicode Version | Documentation |
 | ------ | --------------- | ------------------------ | ------------- |
 | Zanabazar Square   |  11A00..11A4F  |  10.0  |  [U11A00](http://www.unicode.org/charts/PDF/U11A00.pdf)  |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

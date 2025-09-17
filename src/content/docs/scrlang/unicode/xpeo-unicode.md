@@ -3,7 +3,7 @@ title: Unicode Status for Old Persian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Old Persian script implementation is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G26474).
@@ -15,6 +15,10 @@ The Old Persian script was encoded in The Unicode Standard version 4.1. The scri
 | Blocks  |  Character Range  |  Added in Unicode Version  |  Unicode Chart  |
 | ------- | ----------------- | -------------------------- | --------------- |
 | Old Persian  |  103A0..103DF  |  4.1  |  [U103A0](http://www.unicode.org/charts/PDF/U103A0.pdf)  |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 

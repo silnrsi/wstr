@@ -3,7 +3,7 @@ title: Unicode Status for Ogham
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-17
 ---
 
 In The Unicode Standard, Ogham script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G29182).
@@ -15,6 +15,10 @@ The Ogham script was encoded in The Unicode Standard version 3.0. The script is 
 | Blocks  |  Character Range  |  Added in Unicode Version  |  Unicode Chart  |
 | ------- | ----------------- | -------------------------- | --------------- |
 | Ogham  |  1680..169F  |  3.0  |  [U1680](http://www.unicode.org/charts/PDF/U1680.pdf)  |
+
+## Characters
+
+None.
 
 ## Proposals and documents
 
