@@ -21,10 +21,11 @@
     "rehype-figure-title": "^1.0.0",
     "sharp": "^0",
     "sqlite": "^5.1.1",
-    "sqlite3": "npm:sqlite3-offline-next@^5.0.3",
+    "sqlite3": "^5.1.7",
     "starlight-links-validator": "^0.17.0",
     "typescript": "^5",
     "unist-util-visit": "^5.0.0",
     "vanilla-cookieconsent": "^3.1.0"
-  }
+  },
+  "overrides": { "glob": "^11.0.0", "node-gyp": "^10.2.0" }
 }
