@@ -368,10 +368,8 @@ Term | Definition
 
 Term | Definition
 ---- | ----------
-<a id='woff'></a>Web Open Font Format|a font file format for use in web pages.
-<a id=''></a>WOFF|see <a href='#woff'>Web Open Font Format</a>.
-<a id=''></a>WOFF2|see <a href='#woff2'>WOFF File Format 2.0</a>.
-<a id='woff2'></a>WOFF File Format 2.0|a font file format that is a more compressed version of the Web Open Font Format (WOFF).
+<a id='woff'></a>WOFF|the Web Open Font Format—a compressed form of TrueType that has become the most common webfont format.
+<a id='woff2'></a>WOFF2|an alternative webfont format to the Web Open Font Format (WOFF) with greater compression.
 <a id='writingsys'></a>writing system|an implementation of one or more <a href='#script'>scripts</a> to form a complete system for writing a particular language. Most writing systems are based primarily upon a single script; writing systems for Japanese and Korean are notable exceptions. Many languages have multiple writing systems, however, each based on different scripts; e.g. the Mongolian language can be written using Mongolian or Cyrillic scripts. A writing system uses some subset of the characters of the script or scripts on which it is based with most or all of the behaviours typical to that script and possibly certain behaviours that are peculiar to that particular writing system.
 
 ## <a id="X"></a>X
