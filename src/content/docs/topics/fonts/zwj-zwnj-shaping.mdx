@@ -27,12 +27,12 @@ you are looking for a relaxed matching scheme.
 
 Since the handling of ZWJ and ZWNJ are somewhat script dependent the rules as to
 whether they are ignored or not are somewhat complex. Details are only given for
-[Harfbuzz][glo-harfbuzz] since most shapers are closed source and not well enough documented in
+[Harfbuzz][shaping-and-rendering] since most shapers are closed source and not well enough documented in
 this area.
 
 ### Harfbuzz
 
-In Harfbuzz, ZWJ influences ligation while ZWNJ inhibits it. Thus in GPOS ZWNJ
+In [Harfbuzz][shaping-and-rendering], ZWJ influences ligation while ZWNJ inhibits it. Thus in GPOS ZWNJ
 is always ignored, even if the table implies otherwise, while ZWJ is treated the same as it is in GSUB.
 In GSUB. Harbuzz has two modes in which it scans glyphs. The first is when matching for
 replacement and the second is when matching a context string. The basic
@@ -56,5 +56,5 @@ haln, pres, psts | ZWJ only |
 | *       | mark, mkmk | ZWJ only |
 
 
-[glo-harfbuzz]: /reference/glossary#harfbuzz
+[shaping-and-rendering]: /topics/fonts/shaping-and-rendering
 [glo-use]: /reference/glossary#use
