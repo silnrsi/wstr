@@ -3,7 +3,7 @@ title: Unicode Status for Bagam
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 The Bagam script is not yet in Unicode. The script has a tentative allocation at U+1E420..U+1E4CF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.

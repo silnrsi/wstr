@@ -3,7 +3,7 @@ title: Unicode Status for Sharada
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Sharada script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G81154).
@@ -16,7 +16,7 @@ The Sharada script was encoded in The Unicode Standard version 6.1. The script i
 | ------ | --------------- | ------------------------ | ------------- |
 | Sharada | 11180..111DF | 6.1 | [U11180](http://www.unicode.org/charts/PDF/U11180.pdf) |
 
-[Vedic Extensions](https://scriptsource.org/entry/nb2xvfymgv) may be used with the Sharada script as well as many other Indic scripts.
+[Vedic Extensions](/scrlang/unicode/x-vedic-unicode) may be used with the Sharada script as well as many other Indic scripts.
 
 ## Characters
 

@@ -3,7 +3,7 @@ title: Unicode Status for Khitan Small Script
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Khitan Small Script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G59285).

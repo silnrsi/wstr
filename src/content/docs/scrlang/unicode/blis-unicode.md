@@ -3,7 +3,7 @@ title: Unicode Status for Blissymbols
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 Blissymbols are not yet in Unicode. The script has a tentative allocation at U+16200..U+167FF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.

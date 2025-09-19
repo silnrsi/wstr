@@ -3,7 +3,7 @@ title: Unicode Status for Currency
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Currency symbols are discussed in [Chapter 22: Symbols](https://www.unicode.org/versions/latest/core-spec/chapter-22/#G13244). Currency symbols generally have an inherited script property rather than a specific script property.

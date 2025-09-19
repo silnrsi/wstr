@@ -3,7 +3,7 @@ title: Unicode Status for Gaelic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 Unicode largely treats the Gaelic script as a font variant of the Latin alphabet. However, some letters are encoded separately:

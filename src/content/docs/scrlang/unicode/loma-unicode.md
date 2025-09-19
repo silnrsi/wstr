@@ -3,7 +3,7 @@ title: Unicode Status for Loma
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 The Loma script is not yet in Unicode. The script has a tentative allocation at U+1E300..U+1E41F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.

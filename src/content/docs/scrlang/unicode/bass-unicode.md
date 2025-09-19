@@ -3,7 +3,7 @@ title: Unicode Status for Bassa Vah
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Bassa Vah script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G54402).

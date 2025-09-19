@@ -3,7 +3,7 @@ title: Unicode Status for Kanbun
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 The Kanbun script is not yet in Unicode. A Kanbun Extended block (U+16FB0..U+16FDF) has been added to the [Roadmap](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 

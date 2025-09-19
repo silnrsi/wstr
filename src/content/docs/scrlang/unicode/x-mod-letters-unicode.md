@@ -3,7 +3,7 @@ title: Unicode Status for Modifier letters
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Modifier letters are discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G15832). Modifier letters are generally used next to another character in order to modify the usage of the other character in some way. They are not Combining Marks, they are base characters. They are used in transcription of language in other scripts to the Latin script and they are used in Latin and Cyrillic orthographies. Other scripts have modifier letters which are specific to that script.

@@ -3,7 +3,7 @@ title: Unicode Status for Kurukh Banna
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 The Kurukh Banna script (or Kurux Banna) is not yet in Unicode. The script has a tentative allocation at U+16140..U+1618F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
