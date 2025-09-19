@@ -4,10 +4,10 @@ description: Documentation on some prototype components for integrating coredata
 sidebar:
     order: 8001
 ---
-import Character from '../../../components/Character.astro';
-import CharacterTable from '../../../components/CharacterTable.astro';
-import DataTable from '../../../components/DataTable.astro';
-import ScriptTable from '../../../components/ScriptTable.astro';
+import Character from '/src/components/Character.astro';
+import CharacterTable from '/src/components/CharacterTable.astro';
+import DataTable from '/src/components/DataTable.astro';
+import ScriptTable from '/src/components/ScriptTable.astro';
 
 WSTR-specific Astro components for inclusion of coredata into pages.
 
@@ -20,10 +20,10 @@ To use these components, you need to:
 - ensure your Markdown file uses the `.mdx` extension
 - import the components you want to use at the top of your file (but below any frontmatter section), using one or more of these declarations:
 ```jsx
-import Character from '../../../components/Character.astro';
-import CharacterTable from '../../../components/CharacterTable.astro';
-import DataTable from '../../../components/DataTable.astro';
-import ScriptTable from '../../../components/ScriptTable.astro';
+import Character from '/src/components/Character.astro';
+import CharacterTable from '/src/components/CharacterTable.astro';
+import DataTable from '/src/components/DataTable.astro';
+import ScriptTable from '/src/components/ScriptTable.astro';
 ```
 If your component content doesn't show up on the rendered page, check it has the `.mdx` extension and that you've imported the component correctly.
 

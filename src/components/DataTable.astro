@@ -4,7 +4,7 @@ import { open } from 'sqlite';
 
 import { COREDATA_DB_PATH } from '../utils/coredata_access';
 
-const { table, fields, where, orderBy, caption } = Astro.props;
+const { table, fields, filter, order, caption } = Astro.props;
 
 // Ensure `fields` is explicitly typed as a string
 const parsedFields = (fields as string).split(',').map((pair: string) => {
@@ -25,8 +25,8 @@ const db = await open({
 const query = `
   SELECT ${fieldNames}
   FROM ${table}
-  ${where ? `WHERE ${where}` : ''}
-  ${orderBy ? `ORDER BY ${orderBy}` : ''}
+  ${filter ? `WHERE ${filter}` : ''}
+  ${order ? `ORDER BY ${order}` : ''}
 `;
 
 // Execute the query and fetch the results
