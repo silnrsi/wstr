@@ -1,0 +1,73 @@
+---
+import sqlite3 from 'sqlite3';
+import { open } from 'sqlite';
+
+import { COREDATA_DB_PATH } from '../utils/coredata_access';
+
+const { table, fields, where, orderBy, caption } = Astro.props;
+
+// Ensure `fields` is explicitly typed as a string
+const parsedFields = (fields as string).split(',').map((pair: string) => {
+  const [field, title] = pair.split('=').map(str => str.trim());
+  return { field, title: title || field }; // Use the field name as the title if no custom title is provided
+});
+
+// Extract the field names for the SQL query
+const fieldNames = parsedFields.map(f => f.field).join(', ');
+
+// Open the SQLite database
+const db = await open({
+  filename: COREDATA_DB_PATH,
+  driver: sqlite3.Database
+});
+
+// Construct the SQL query
+const query = `
+  SELECT ${fieldNames}
+  FROM ${table}
+  ${where ? `WHERE ${where}` : ''}
+  ${orderBy ? `ORDER BY ${orderBy}` : ''}
+`;
+
+// Execute the query and fetch the results
+const rows = await db.all(query);
+
+// Close the database connection
+await db.close();
+---
+
+<style>
+  .record-count {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    font-style: italic;
+  }
+  .caption {
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: left;
+  }
+</style>
+
+<div>
+  <table>
+    <thead>
+      <tr>
+        {parsedFields.map(({ title }) => (
+          <th>{title}</th>
+        ))}
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map(row => (
+        <tr>
+          {parsedFields.map(({ field }) => (
+            <td>{row[field]}</td>
+          ))}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  {caption && <div class="caption">{caption}</div>}
+  <!-- <div class="record-count">Total records: {rows.length}</div> -->
+</div>
