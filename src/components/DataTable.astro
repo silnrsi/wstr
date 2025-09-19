@@ -1,12 +1,5 @@
 ---
-import { db as db_, eq, lt, gte, lte, sql } from 'astro:db';
-import assert from 'node:assert/strict'
-import sqlite3 from 'sqlite3';
-import { open } from 'sqlite';
-
-import { COREDATA_DB_PATH } from '../utils/coredata_access';
-
-console.log(`DB at ${import.meta.env.ASTRO_DB_REMOTE_URL}`);
+import { db } from 'astro:db';
 
 const { table, fields, filter, order, caption } = Astro.props;
 
@@ -19,12 +12,6 @@ const parsedFields = (fields as string).split(',').map((pair: string) => {
 // Extract the field names for the SQL query
 const fieldNames = parsedFields.map(f => f.field).join(', ');
 
-// Open the SQLite database
-const db = await open({
-  filename: COREDATA_DB_PATH,
-  driver: sqlite3.Database
-});
-
 // Construct the SQL query
 const query = `
   SELECT ${fieldNames}
@@ -34,13 +21,8 @@ const query = `
 `;
 
 // Execute the query and fetch the results
-console.log(query)
-const rows_ = await db_.all(sql.raw(query));
-const rows = await db.all(query);
-assert.deepEqual(rows_, rows);
-
-// Close the database connection
-await db.close();
+const rows: any[] = await db.all(query);
+db.select()
 ---
 
 <style>
