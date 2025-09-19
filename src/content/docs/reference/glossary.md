@@ -238,7 +238,7 @@ Term | Definition
 <a id='onset'></a>onset|the part of a syllable that comes before the <a href='#nucleus'>nucleus</a> e.g. the [b] in [beɪs]
 <a id='ofl'></a>OFL|see Open Font License <a href='#openfontlicense'>Open Font License</a>.
 <a id='openfontlicense'></a>Open Font License|the <a href='https://openfontlicense.org'>SIL Open Font License (OFL)</a> is a widely used, community-approved, free, libre, and open source license specifically designed for fonts and related software: a solid legal framework for worldwide development, sharing, and improvement of fonts and related software in a collaborative manner. Used by a wide variety of individuals and organizations, it provides benefits for both font users and font creators.
-<a id='opentype'></a>OpenType|Can have several different senses: a smart font text [shaping technology](#shapingTechnology) (see [Shaping and Rendering](/topics/fonts/shaping-and-rendering) for details), a font format extended from [TrueType](#truetype) (based on the SFNT format instead of [Adobe Type 1](#psfont) fonts) or the type of curves used to draw the glyphs (cubic instead of quadratic used with TrueType) (see [Font Formats](/topics/fonts/font-formats) for details), or user selectable  font features (see [User Interface Strings](/topics/fonts/user-interface-strings) for details).
+<a id='opentype'></a>OpenType|can have several different senses: a smart font text [shaping technology](#shapingTechnology) (see [Shaping and Rendering](/topics/fonts/shaping-and-rendering)), a font format extended from [TrueType](#truetype) (based on the SFNT format instead of [Adobe Type 1](#psfont) fonts), or a type of user selectable font feature (see [User Interface Strings](/topics/fonts/user-interface-strings)).
 <a id='orthochar'></a>orthographic character|a written symbol that is conventionally perceived as a distinct unit of writing in some <a href='#writingsys'>writing system</a> or orthography.
 
 ## <a id="P"></a>P
@@ -358,7 +358,7 @@ Term | Definition
 Term | Definition
 ---- | ----------
 <a id='vigesimala'></a>vigesimala|a numeral system based on the number twenty (as opposed to a decimal counting system which is based on the number ten). In the context of writing systems this usually means that twenty individual numeral symbols are used. Vigesimal systems are used in many languages in Europe, Asia, South America and Africa.
-<a id='virama'></a>virama|the generic name for a written symbol, particularly common in Brahmic <a href='#abugida'>abugidas</a>, for silencing the inherent vowel that otherwise occurs with every consonant character. The shape of the symbol varies from script to script, but it is often a <a href='#diacritic'>diacritic</a>, written above, below or alongside the consonant that it modifies.
+<a id='virama'></a>virama|a conceptual part of many Sanskrit-related writing systems, particularly common in Brahmic <a href='#abugida'>abugidas</a>, that is used to silence the inherent vowel that otherwise occurs with every consonant character. The shape of the symbol varies from script to script, but it is often a <a href='#diacritic'>diacritic</a> written above, below, or alongside the consonant that it modifies. It may also be unwritten and yet affect nearby consonants.
 <a id='virtualkey'></a>virtual keyboard|a software component that allows a user to enter characters, often characters which cannot be accessed through a standard physical keyboard. Virtual keyboards can be useful for multilingual users who need to switch between different character sets.
 <a id='volt'></a>Visual OpenType Layout Tool (VOLT)|a tool to build <a href='#opentype'>OpenType</a> tables and add them to a <a href='#font'>font</a>.
 <a id='visorder'></a>visual order|a way of storing characters so that the order in which they are stored corresponds to the order in which they appear on the page, as opposed to the order in which they are read. In many cases these are the same, but the distinction is particularly pertinent in <a href='#bidirec'>bidirectional</a> or mixed text, as the order in which the characters appear on the page does not necessarily correspond to the order in which they are pronounced. Older legacy font encodings tended to store characters in visual order, but Unicode-encoded fonts use <a href='#logorder'>logical order</a>.
@@ -368,10 +368,8 @@ Term | Definition
 
 Term | Definition
 ---- | ----------
-<a id='woff'></a>Web Open Font Format|a font file format for use in web pages.
-<a id=''></a>WOFF|see <a href='#woff'>Web Open Font Format</a>.
-<a id=''></a>WOFF2|see <a href='#woff2'>WOFF File Format 2.0</a>.
-<a id='woff2'></a>WOFF File Format 2.0|a font file format that is a more compressed version of the Web Open Font Format (WOFF).
+<a id='woff'></a>WOFF|the Web Open Font Format—a compressed form of TrueType that has become the most common webfont format.
+<a id='woff2'></a>WOFF2|an alternative webfont format to the Web Open Font Format (WOFF) with greater compression.
 <a id='writingsys'></a>writing system|an implementation of one or more <a href='#script'>scripts</a> to form a complete system for writing a particular language. Most writing systems are based primarily upon a single script; writing systems for Japanese and Korean are notable exceptions. Many languages have multiple writing systems, however, each based on different scripts; e.g. the Mongolian language can be written using Mongolian or Cyrillic scripts. A writing system uses some subset of the characters of the script or scripts on which it is based with most or all of the behaviours typical to that script and possibly certain behaviours that are peculiar to that particular writing system.
 
 ## <a id="X"></a>X

@@ -3,7 +3,7 @@ title: Unicode Status for Grantha
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Grantha script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G81052).
@@ -16,7 +16,7 @@ The Grantha script was encoded in The Unicode Standard version 7.0. The script i
 | ------ | --------------- | ------------------------ | ------------- |
 | Grantha  | 11300..1137F | 7.0 | [U11300](http://www.unicode.org/charts/PDF/U11300.pdf) |
 
-[Vedic Extensions](https://scriptsource.org/entry/nb2xvfymgv) may be used with the Grantha script as well as many other Indic scripts.
+[Vedic Extensions](/scrlang/unicode/x-vedic-unicode) may be used with the Grantha script as well as many other Indic scripts.
 
 ## Characters
 

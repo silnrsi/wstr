@@ -8,7 +8,7 @@ lastUpdated: 2025-08-29
 
 The following describes information and values that are shown in the Script Details section of the script pages.
 
-- **Code**: this is defined by the [ISO 15924 standard][iso-15924]. It consists of four characters.
+- **Code**: the _ISO 15924 Alpha-4 Code_ as defined by the [ISO 15924 standard][iso-15924]. It consists of four characters.
 - **Script type** - possible values are:
     - [alphabet](/reference/glossary#alph)
     - [abjad](/reference/glossary#abjad)
@@ -52,7 +52,7 @@ The following describes information and values that are shown in the Script Deta
     - centered - glyphs are aligned at their vertical centers
     - bottom - glyphs are aligned at or near the bottom of the glyphs
     - vertical - glyphs are asligned at their horizontal centers; used for vertical scripts
-    - Also see [_baseline_](/reference/glossary#baseline).
+    - Also see [_baseline_](/reference/glossary#baseline)
 - **Case** - the script includes both upper- and lower-case forms
 - **White space** - possible values are:
     - between words - white space is required between words
@@ -67,6 +67,6 @@ The following describes information and values that are shown in the Script Deta
     - [ligatures](/reference/glossary#ligature) - two or more characters may be rendered with a single glyph
     - Also see [_complex script_](/reference/glossary#complexscript)
 - **OpenType code** - defined by the [OpenType](/reference/glossary#opentype) font system for indicating script-specific behaviors
-- **ISO 15924 Numeric Code / Key** - a technical field that can be used to sort scripts by type; part of the [ISO 15924 standard][iso-15924]
+- **ISO 15924 number** - the _ISO 15924 Numeric Code_ as defined by the [ISO 15924 standard][iso-15924]. It is  used to sort scripts by type.
 
 [iso-15924]: https://www.unicode.org/iso15924/iso15924.txt

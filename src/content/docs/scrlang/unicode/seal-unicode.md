@@ -3,7 +3,7 @@ title: Unicode Status for Small Seal
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 The Small Seal script (sometimes called Shuowen) is not yet in Unicode. The Small Seal script has a tentative allocation at U+38000..U+3AB9F in the [Roadmap to the TIP](http://www.unicode.org/roadmaps/tip/) for the Unicode Standard.

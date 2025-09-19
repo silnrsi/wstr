@@ -3,7 +3,7 @@ title: Unicode Status for Stokoe Notation
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 The Stokoe Notation is not yet in Unicode. The script has not yet been added to the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. It may end up being unified with the Latin script.

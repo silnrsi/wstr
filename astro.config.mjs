@@ -98,7 +98,6 @@ export default defineConfig({
                         'scrlang/scripts-index',
                         'scrlang/languages',
                         'scrlang/other-resources',
-                        'scrlang/test-index',
                     ]
                 },
                 {

@@ -3,7 +3,7 @@ title: Unicode Status for Malayalam
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Malayalam script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G22346).
@@ -16,7 +16,7 @@ The Malayalam script was first encoded in The Unicode Standard version 1.0. The 
 | ------ | --------------- | ------------------------ | ------------- |
 | Malayalam  |  0D00..0D7F  |  1.0  |  [U0D00](http://www.unicode.org/charts/PDF/U0D00.pdf)  |
 
-[Vedic Extensions](https://scriptsource.org/entry/nb2xvfymgv) may be used with the Malayalam script as well as many other Indic scripts.
+[Vedic Extensions](/scrlang/unicode/x-vedic-unicode) may be used with the Malayalam script as well as many other Indic scripts.
 
 ## Characters
 

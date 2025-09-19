@@ -15,7 +15,7 @@ Three primary systems provide complex script shaping support for operating syste
   - [Wikipedia][harfbuzz-wiki]
   - [ManPagez][harfbuzz-manpagez]
   - [SourceForge][harfbuzz-sourceforge]
-- DirectWrite is Microsoft's internal shaping engine for Windows applications.
+- Uniscribe/DirectWrite is Microsoft's shaping engine for Windows applications.
   - [Microsoft][directwrite-ms]
   - [Wikipedia][directwrite-wiki]
 - CoreText is Apple's internal shaping engine.

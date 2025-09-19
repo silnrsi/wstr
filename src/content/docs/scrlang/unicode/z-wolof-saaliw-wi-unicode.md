@@ -3,7 +3,7 @@ title: Unicode Status for Wolof Saaliw Wi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 The Wolof Saaliw Wi (created by Saliou Mbaye) script is not yet in Unicode. The script has not yet been added to the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 

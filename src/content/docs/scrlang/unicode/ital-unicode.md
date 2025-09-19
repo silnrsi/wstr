@@ -3,7 +3,7 @@ title: Unicode Status for Old Italic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Old Italic implementation is discussed in [Chapter 8 Europe-II: Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G27379) and in [UTN 40: Old Italic Glyph Variation](https://www.unicode.org/notes/tn40/). Language-specific fonts are required for processing text, as some of the common glyphs may differ slightly from language to language.

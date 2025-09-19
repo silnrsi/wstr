@@ -3,7 +3,7 @@ title: Unicode Status for Bengali
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Bengali script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G664195).
@@ -16,7 +16,7 @@ The Bengali script was first encoded in The Unicode Standard version 1.0. Since 
 | ------ | --------------- | ------------------------ | ------------- |
 | Bengali | 0980..09FF | 1.0 | [U0980.pdf](http://www.unicode.org/charts/PDF/U0980.pdf) |
 
-[Vedic Extensions](https://scriptsource.org/entry/nb2xvfymgv) may be used with the Bengali script as well as many other Indic scripts.
+[Vedic Extensions](/scrlang/unicode/x-vedic-unicode) may be used with the Bengali script as well as many other Indic scripts.
 
 ## Characters
 

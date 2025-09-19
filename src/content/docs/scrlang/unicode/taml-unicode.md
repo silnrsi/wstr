@@ -3,7 +3,7 @@ title: Unicode Status for Tamil
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Tamil script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G10162).
@@ -17,7 +17,7 @@ The Tamil script was first encoded in The Unicode Standard version 1.0. The scri
 | Tamil  |  0B80..0BFF  |  1.0  |  [U0B80.pdf](http://www.unicode.org/charts/PDF/U0B80.pdf)  |
 | Tamil Supplement  |  11FC0..11FFF  |  12.0  |  [U11FC0.pdf](https://www.unicode.org/charts/PDF/U11FC0.pdf)  |
 
-[Vedic Extensions](https://scriptsource.org/entry/nb2xvfymgv) may be used with the Tamil script as well as many other Indic scripts.
+[Vedic Extensions](/scrlang/unicode/x-vedic-unicode) may be used with the Tamil script as well as many other Indic scripts.
 
 ## Characters
 

@@ -1,9 +1,9 @@
 ---
-title: Unicode Status for Oriya (Odia
+title: Unicode Status for Oriya/Odia
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Odia (formerly Oriya) script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G10153).
@@ -16,7 +16,7 @@ The Odia script was first encoded in The Unicode Standard version 1.0. The scrip
 | ------ | --------------- | ------------------------ | ------------- |
 | Oriya (Odia)  |  0B00..0B7F  |  1.0  |  [U0B00.pdf](http://www.unicode.org/charts/PDF/U0B00.pdf)  |
 
-[Vedic Extensions](https://scriptsource.org/entry/nb2xvfymgv) may be used with the Odia script as well as many other Indic scripts.
+[Vedic Extensions](/scrlang/unicode/x-vedic-unicode) may be used with the Odia script as well as many other Indic scripts.
 
 ## Characters
 

@@ -3,8 +3,10 @@ title: Adobe Glyph List
 description: Details of AGL compliance
 sidebar:
   order: 5421
-lastUpdated: 2025-09-08
+lastUpdated: 2025-09-19
 ---
+
+import Character from '/src/components/Character.astro';
 
 In the [previous article][glyph-naming] we recommended that glyphs should be named in accordance with the standard set and maintained by Adobe. What is this standard and how does it work?
 
@@ -36,8 +38,8 @@ There are actually number of components involved, specifying:
   - A–Z
   - a–z
   - 0–9
-  - . (period, U+002E FULL STOP)
-  - _ (underscore, U+005F LOW LINE)
+  - . (period, <Character usv="002E" options="usv,name"/>)
+  - _ (underscore, <Character usv="005F" options="usv,name"/>)
 
 In a font project, _working glyph names_ should at least meet these minimum requirements.
 
@@ -94,7 +96,7 @@ Ligature or other decomposition sequences that contain a supplemental character 
 |`a_u102345`|U+0061, U+102345|
 |`uni102345106789`|U+1023, U+4510, U+6789|
 |`u102345_u106789`|U+102345, U+106789|
-|`u110000`|UNRECOGNIZED (\<CODE\> must be <= 0x10FFFF)|
+|`u110000`|UNRECOGNIZED (\<CODE\> must be \<= 0x10FFFF)|
 |`u102345106789`|UNRECOGNIZED (use `_` for supp char ligatures)|
 |`uniD800DC00`|UNRECOGNIZED ([uni-surrogates] not allowed)|
 

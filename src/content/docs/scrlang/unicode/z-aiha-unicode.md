@@ -3,7 +3,7 @@ title: Unicode Status for Aiha
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 The Aiha script is not yet in Unicode. The script is in: [Not The Roadmap](http://www.unicode.org/roadmaps/not-the-roadmap/) because it has been considered unsuitable for encoding.

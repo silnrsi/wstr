@@ -3,7 +3,7 @@ title: Unicode Status for Devanagari
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Devanagari script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G12284).
@@ -18,7 +18,7 @@ The Devanagari script was first encoded in The Unicode Standard version 1.0.  Th
 | Devanagari Extended  |  A8E0..A8FF  |  5.2  |  [UA8E0](http://www.unicode.org/charts/PDF/UA8E0.pdf)  |
 | Devanagari Extended-A  |  11B00..11B5F  |  15.0  |  [U11B00](http://www.unicode.org/charts/PDF/U11B00.pdf)  |
 
-[Vedic Extensions](https://scriptsource.org/entry/nb2xvfymgv) may be used with the Devanagari script as well as many other Indic scripts.
+[Vedic Extensions](/scrlang/unicode/x-vedic-unicode) may be used with the Devanagari script as well as many other Indic scripts.
 
 ## Characters
 

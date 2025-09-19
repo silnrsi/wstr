@@ -3,7 +3,7 @@ title: Unicode Status for sitelen pona
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-09-19
 ---
 
 The sitelen pona script, for the Toki Pona constructed language, is not yet in Unicode. The script is not yet in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 

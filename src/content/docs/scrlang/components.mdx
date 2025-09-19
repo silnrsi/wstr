@@ -4,25 +4,28 @@ description: Documentation on some prototype components for integrating coredata
 sidebar:
     order: 8001
 ---
-import Character from '../../../components/Character.astro';
-import CharacterTable from '../../../components/CharacterTable.astro';
-import DataTable from '../../../components/DataTable.astro';
-import ScriptTable from '../../../components/ScriptTable.astro';
+import Character from '/src/components/Character.astro';
+import CharacterTable from '/src/components/CharacterTable.astro';
+import DataTable from '/src/components/DataTable.astro';
+import ScriptTable from '/src/components/ScriptTable.astro';
 
-This page documents the usage of Astro components for inclusion of coredata into WSTR pages.
+WSTR-specific Astro components for inclusion of coredata into pages.
 
 :::note
-To use them, you need to:
-- ensure your Markdown file has the `.mdx` extension
-- import the components you want to use at the top of your file (but below any frontmatter), using one or more of these declarations:
-```jsx
-import Character from '../../../components/Character.astro';
-import CharacterTable from '../../../components/CharacterTable.astro';
-import DataTable from '../../../components/DataTable.astro';
-import ScriptTable from '../../../components/ScriptTable.astro';
-```
-If your component content doesn't show up on the final page, check it has the `.mdx` extension and that you've imported the component correctly.
+Only the `Character` component is stable and ready for use in WSTR content. The others are prototypes for possible future use: their specification is not yet agreed. You are welcome to try them out and give feedback, but be aware that they will likely change.
 :::
+
+## Using the components
+To use these components, you need to:
+- ensure your Markdown file uses the `.mdx` extension
+- import the components you want to use at the top of your file (but below any frontmatter section), using one or more of these declarations:
+```jsx
+import Character from '/src/components/Character.astro';
+import CharacterTable from '/src/components/CharacterTable.astro';
+import DataTable from '/src/components/DataTable.astro';
+import ScriptTable from '/src/components/ScriptTable.astro';
+```
+If your component content doesn't show up on the rendered page, check it has the `.mdx` extension and that you've imported the component correctly.
 
 ## `Character` component
 
@@ -36,8 +39,8 @@ Note: Either `usv` or `char` must be provided.
 
 |Property|Description|
 |---|---|
-|usv|The Unicode scalar value of the character to display|
-|char|The character itself|
+|usv|The USV of the character to display|
+|char|A literal character|
 |options|A comma-separated list of options to display. Options are `usv`, `char`, and `name`. The default is all three.|
 
 ### Inline
@@ -54,12 +57,10 @@ This example uses just `usv` and `char` options:
 ```
 >Result: <Character usv="0634" options="usv,char"/>
 
+### As list items
 
-### As bullets
 - <Character usv="0020"/>
-
 - <Character usv="0635"/>
-
 
 ## `CharacterTable` component
 ### Syntax
@@ -116,10 +117,10 @@ This example uses just `usv` and `char` options:
 ### Syntax
 ```html
 <DataTable 
-  table   = "table_name" 
-  fields  = "field1[=Label1], field2[=Label2], ..." 
-  [filter   = "condition"] 
-  [orderBy = "field1 ASC|DESC, field2 ASC|DESC, ... "] 
+  table    = "table_name" 
+  fields   = "field1[=Label1], field2[=Label2], ..." 
+  [filter  = "condition"] 
+  [order   = "field1 ASC|DESC, field2 ASC|DESC, ... "] 
   [caption = "Caption text"]
 />
 ```
@@ -127,8 +128,8 @@ This example uses just `usv` and `char` options:
 |---|---|
 |table|The name of the table to query. Possible values are `characters`, `scripts`, and `blocks`.|
 |fields|A comma-separated list of fields to display. Each field can optionally be followed by `=Label` to specify a custom column header.|
-|where|An optional SQL WHERE clause to filter the results.|
-|orderBy|An optional SQL ORDER BY clause to sort the results.|
+|filter|An optional SQL WHERE clause to filter the results.|
+|order|An optional SQL ORDER BY clause to sort the results.|
 |caption|An optional caption to display below the table.|
 
 ### Example
@@ -136,8 +137,8 @@ This example uses just `usv` and `char` options:
 <DataTable 
   table   = "characters" 
   fields  = "character_usv=USV, character_name=Character Name" 
-  where   = "character_category = 'Lm' AND character_unicodeVersion = '3.0'" 
-  orderBy = "character_usv ASC" 
+  filter  = "character_category = 'Lm' AND character_unicodeVersion = '3.0'" 
+  order   = "character_usv ASC" 
   caption = "List of Modifier Letters (Lm) added in Unicode 3.0"
 />
 ```
@@ -146,7 +147,7 @@ This example uses just `usv` and `char` options:
 <DataTable 
   table   = "characters" 
   fields  = "character_usv=USV, character_name=Character Name" 
-  where   = "character_category = 'Lm' AND character_unicodeVersion = '3.0'" 
-  orderBy = "character_usv ASC" 
+  filter  = "character_category = 'Lm' AND character_unicodeVersion = '3.0'" 
+  order   = "character_usv ASC" 
   caption = "List of Modifier Letters (Lm) added in Unicode 3.0"
 />
