@@ -3,15 +3,16 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "src/utils/coredata_rebuild.py && astro dev",
-    "start": "src/utils/coredata_rebuild.py && astro dev",
-    "build": "src/utils/coredata_rebuild.py && astro check && astro build",
+    "dev": "src/utils/coredata_rebuild.py && astro dev --remote",
+    "start": "src/utils/coredata_rebuild.py && astro dev --remote",
+    "build": "src/utils/coredata_rebuild.py && astro check && astro build --remote",
     "preview": "astro preview",
     "astro": "astro",
-    "linkcheck": "src/utils/coredata_rebuild.py && CHECK_LINKS=true ASTRO_SITE=https://writingsystems.info astro build"
+    "linkcheck": "src/utils/coredata_rebuild.py && CHECK_LINKS=true ASTRO_SITE=https://writingsystems.info astro build --remote"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/db": "^0.18.0",
     "@astrojs/starlight": "^0.34.4",
     "@jop-software/astro-cookieconsent": "^3.0.1",
     "@types/sqlite3": "^3.1.8",

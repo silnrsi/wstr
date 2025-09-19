@@ -6,8 +6,9 @@ import astroBrokenLinksChecker from 'astro-broken-links-checker';
 import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
 import cookieconsent from "@jop-software/astro-cookieconsent";
+import db from '@astrojs/db';
 
-const googleAnalyticsId = 'G-WHT6CVPT8M'
+const googleAnalyticsId = 'G-WHT6CVPT8M';
 
 // https://astro.build/config
 export default defineConfig({
@@ -27,7 +28,7 @@ export default defineConfig({
                 {
                     tag: 'script',
                     attrs: { 
-                        defer: true 
+                        defer: true
                     },
                     content:`
                         window.dataLayer = window.dataLayer || [];
@@ -88,7 +89,7 @@ export default defineConfig({
                         { label: 'Fonts', collapsed: true, autogenerate: { directory: 'topics/fonts' } },
                         { label: 'Layout', collapsed: true, autogenerate: { directory: 'topics/layout' } },
                         { label: 'Analysis', collapsed: true, autogenerate: { directory: 'topics/analysis' } },
-                ],
+                    ],
                 },
                 {
                     label: 'Scripts & Languages',
@@ -118,7 +119,7 @@ export default defineConfig({
                 Hero: './src/components/Hero.astro',
                 PageTitle: './src/components/PageTitle.astro',
                 Footer: './src/components/Footer.astro',
-            }, 
+            },
             customCss: [
                 // Relative path to your custom CSS file
                 './src/styles/custom.css',
@@ -128,8 +129,8 @@ export default defineConfig({
             })] : [],
         }),
         astroBrokenLinksChecker({
-          logFilePath: 'broken-links.log',  // Optional: specify the log file path
-          checkExternalLinks: false         // Optional: check external links (currently, caching to disk is not supported, and it is slow )
+            logFilePath: 'broken-links.log',  // Optional: specify the log file path
+            checkExternalLinks: false         // Optional: check external links (currently, caching to disk is not supported, and it is slow )
         }),
         cookieconsent({
             guiOptions: {
@@ -208,30 +209,31 @@ export default defineConfig({
                 },
             },
         }),
+        db()
     ],
     markdown: {
-        rehypePlugins: [rehypeFigureTitle,
-          [rehypeExternalLinks,
-            {
-              target: '_blank', // Open external links in a new tab
-              rel: ['external', 'nofollow',], // Add security attributes
-              // Optional: Add content (e.g., an icon) to the end of external links
-              content: {
-                type: 'element',
-                tagName: 'img',
-                properties: {
-                  src: '/svgs/external-link.svg',
-                //title: 'External link',
-                //alt: 'External link',
+        rehypePlugins: [
+            rehypeFigureTitle, [
+                rehypeExternalLinks, {
+                    target: '_blank', // Open external links in a new tab
+                    rel: ['external', 'nofollow',], // Add security attributes
+                    // Optional: Add content (e.g., an icon) to the end of external links
+                    content: {
+                        type: 'element',
+                        tagName: 'img',
+                        properties: {
+                            src: '/svgs/external-link.svg',
+                            //title: 'External link',
+                            //alt: 'External link',
+                        },
+                        children: [],
+                    },
+                    // Optional: Add attributes to the added content
+                    contentProperties: { 'aria-hidden': true, class: 'external-link-icon' },
+                    // Optional: Filter which <a> tags are processed (e.g., exclude links within code blocks)
+                    selectors: 'a:not(pre a):not(code a)',
                 },
-                children: [],
-              },
-              // Optional: Add attributes to the added content
-              contentProperties: { 'aria-hidden': true, class: 'external-link-icon' },
-              // Optional: Filter which <a> tags are processed (e.g., exclude links within code blocks)
-              selectors: 'a:not(pre a):not(code a)',
-            },
-          ],
+            ],
         ],
-      },
-    });
+    },
+});
