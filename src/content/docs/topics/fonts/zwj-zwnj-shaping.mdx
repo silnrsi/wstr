@@ -3,10 +3,12 @@ title: ZWJ & ZWNJ
 description: Handling Zero Width Joiner and Zero Width Non-Joiner
 sidebar:
     order: 5526.1
-lastUpdated: 2025-09-04
+lastUpdated: 2025-09-19
 ---
 
-The ZWJ (U+200D ZERO WIDTH JOINER) and ZWNJ (U+200C ZERO WIDTH NON-JOINER) are
+import Character from '../../../../components/Character.astro';
+
+The ZWJ (<Character usv="200D" options="usv,name"/>) and ZWNJ (<Character usv="200C" options="usv,name"/>) are
 special format control characters that may be included in a character sequence
 to impact the creation of ligatures. They are often referred to in the same
 breath but they are treated somewhat differently when it comes to text

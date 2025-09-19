@@ -3,8 +3,10 @@ title: Glyph Naming
 description: Standards and conventions for glyph names
 sidebar:
   order: 5420
-lastUpdated: 2025-09-08
+lastUpdated: 2025-09-19
 ---
+
+import Character from '../../../../components/Character.astro';
 
 For various reasons (historical, technical, convenience) most font development tools and formats provide mechanisms to name glyphs with human-readable strings (as opposed to just index numbers, for example). This article documents conventions, restrictions, and best practices for glyph naming.
 
@@ -26,7 +28,7 @@ All of this can work, however, only if the glyphs have been correctly named—me
 
 According to the [Adobe Glyph List Specification (AGL)][adobe-agl], glyph names, whether working names or production names, **should be:**
 - **no longer than 63 characters**, 
-- **entirely composed of characters from the following set: A–Z, a–z, 0–9, . (period, U+002E FULL STOP) and _ (underscore, U+005F LOW LINE)**,
+- **entirely composed of characters from the following set: A–Z, a–z, 0–9, . (period, <Character usv="002E" options="usv,name"/>) and _ (underscore, <Character usv="005F" options="usv,name"/>)**,
 - **and, with the exception of `.notdef`, must not start with a period or digit**. 
 
 **AGL also specifies how those names should be chosen and constructed. For more details see the article on the [Adobe Glyph List][adobe-glyph-list]**.
@@ -39,7 +41,7 @@ The [ISO/IEC 14496-22 Open Font Format][iso-open-font-format] (Fourth edition 20
 
 The glyph names that should be in a font when it is shipped (i.e. released) are not necessarily the most friendly and memorable names. Therefore many developers use a different set of glyph names for development purposes and, as a last step of production, change the glyph names to the "official" names. We will call these two sets of glyph names the **working names** and the **production names**, respectively.
 
-As an example, the acceptable *production name* for a glyph representing U+0628 ARABIC LETTER BEH would be one of:
+As an example, the acceptable *production name* for a glyph representing <Character usv='0628'/> would be one of:
 
 - `uni0628`
 - `u0628`
@@ -51,7 +53,7 @@ The use of working and production glyph names is common enough that at least one
 
 Because working names are not present in shipping fonts, some of the Adobe AGL constraints can be relaxed. In particular:
 - The basenames of glyphs need not be restricted to the [Adobe Glyph List for New Fonts (AGLFN)][adobe-aglfn]. 
-- The list of characters that are legal in a glyph name can be expanded. Glyphs, for example, utilizes a hyphen (`-`, U+002D) to append a script code to its [nice names][glyphs-nice-names], for example the Arabic `beh-ar`.
+- The list of characters that are legal in a glyph name can be expanded. Glyphs, for example, utilizes a hyphen (<Character usv="002D"/>) to append a script code to its [nice names][glyphs-nice-names], for example the Arabic `beh-ar`.
 
 ### Not all glyphs need production names
 
