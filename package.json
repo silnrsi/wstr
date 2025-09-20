@@ -2,6 +2,7 @@
   "name": "wstr",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "dev": "src/utils/coredata_rebuild.py && astro dev",
     "start": "src/utils/coredata_rebuild.py && astro dev",
@@ -23,8 +24,7 @@
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7",
     "starlight-links-validator": "^0.18.0",
-    "typescript": "^5",
-    "unist-util-visit": "^5.0.0"
+    "typescript": "^5"
   },
   "overrides": {
     "glob": "^11.0.0",
