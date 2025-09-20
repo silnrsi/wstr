@@ -1,39 +1,20 @@
 ---
-import sqlite3 from 'sqlite3';
-import { open } from 'sqlite';
-
-import { COREDATA_DB_PATH } from '../utils/coredata_access';
-
-const { table, fields, filter, order, caption } = Astro.props;
+import { db, sql } from 'astro:db';
+const { table, filter, order, caption } = Astro.props
 
 // Ensure `fields` is explicitly typed as a string
-const parsedFields = (fields as string).split(',').map((pair: string) => {
+const fields = (Astro.props.fields as string).split(',').map((pair: string) => {
   const [field, title] = pair.split('=').map(str => str.trim());
   return { field, title: title || field }; // Use the field name as the title if no custom title is provided
 });
 
 // Extract the field names for the SQL query
-const fieldNames = parsedFields.map(f => f.field).join(', ');
-
-// Open the SQLite database
-const db = await open({
-  filename: COREDATA_DB_PATH,
-  driver: sqlite3.Database
-});
-
-// Construct the SQL query
-const query = `
-  SELECT ${fieldNames}
-  FROM ${table}
-  ${filter ? `WHERE ${filter}` : ''}
-  ${order ? `ORDER BY ${order}` : ''}
-`;
-
-// Execute the query and fetch the results
-const rows = await db.all(query);
-
-// Close the database connection
-await db.close();
+const selected = Object.fromEntries(fields.map(({field}) => [field, sql.raw(field)]));
+const rows = await db
+  .select(selected)
+  .from(sql.raw(table))
+  .where(sql.raw(filter))
+  .orderBy(sql.raw(order));
 ---
 
 <style>
@@ -53,7 +34,7 @@ await db.close();
   <table>
     <thead>
       <tr>
-        {parsedFields.map(({ title }) => (
+        {fields.map(({ title }) => (
           <th>{title}</th>
         ))}
       </tr>
@@ -61,7 +42,7 @@ await db.close();
     <tbody>
       {rows.map(row => (
         <tr>
-          {parsedFields.map(({ field }) => (
+          {fields.map(({ field }) => (
             <td>{row[field]}</td>
           ))}
         </tr>

@@ -8,6 +8,7 @@ node_modules/
 
 # this is rebuilt using when needed by `npm run dev/start/build`
 coredata.sqlite
+db/coredata.db
 
 # logs
 npm-debug.log*
@@ -15,10 +16,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 broken-links.log
-
-# environment variables
-.env
-.env.production
 
 # macOS-specific files
 .DS_Store
