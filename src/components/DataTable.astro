@@ -1,28 +1,20 @@
 ---
-import { db } from 'astro:db';
-
-const { table, fields, filter, order, caption } = Astro.props;
+import { db, sql } from 'astro:db';
+const { table, filter, order, caption } = Astro.props
 
 // Ensure `fields` is explicitly typed as a string
-const parsedFields = (fields as string).split(',').map((pair: string) => {
+const fields = (Astro.props.fields as string).split(',').map((pair: string) => {
   const [field, title] = pair.split('=').map(str => str.trim());
   return { field, title: title || field }; // Use the field name as the title if no custom title is provided
 });
 
 // Extract the field names for the SQL query
-const fieldNames = parsedFields.map(f => f.field).join(', ');
-
-// Construct the SQL query
-const query = `
-  SELECT ${fieldNames}
-  FROM ${table}
-  ${filter ? `WHERE ${filter}` : ''}
-  ${order ? `ORDER BY ${order}` : ''}
-`;
-
-// Execute the query and fetch the results
-const rows: any[] = await db.all(query);
-db.select()
+const selected = Object.fromEntries(fields.map(({field}) => [field, sql.raw(field)]));
+const rows = await db
+  .select(selected)
+  .from(sql.raw(table))
+  .where(sql.raw(filter))
+  .orderBy(sql.raw(order));
 ---
 
 <style>
@@ -42,7 +34,7 @@ db.select()
   <table>
     <thead>
       <tr>
-        {parsedFields.map(({ title }) => (
+        {fields.map(({ title }) => (
           <th>{title}</th>
         ))}
       </tr>
@@ -50,7 +42,7 @@ db.select()
     <tbody>
       {rows.map(row => (
         <tr>
-          {parsedFields.map(({ field }) => (
+          {fields.map(({ field }) => (
             <td>{row[field]}</td>
           ))}
         </tr>
