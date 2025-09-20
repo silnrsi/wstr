@@ -16,10 +16,10 @@ const characters = {
 
 const languages = {
     columns: {
-        __uid:                    column.text({ optional: true, default: undefined }),
-        __parent_uid:             column.text({ optional: true, default: undefined }),
-        __display_name:           column.text({ optional: true, default: undefined }),
-        __record_type:            column.text({ optional: true, default: undefined }),
+        // __uid:                    column.text({ optional: true, default: undefined }),
+        // __parent_uid:             column.text({ optional: true, default: undefined }),
+        // __display_name:           column.text({ optional: true, default: undefined }),
+        // __record_type:            column.text({ optional: true, default: undefined }),
         language_code:            column.text({ optional: true, default: undefined }),
         language_name:            column.text({ optional: true, default: undefined }),
         language_alternateNames:  column.text(),
@@ -39,9 +39,9 @@ const languages = {
 
 const scripts = {
     columns: {
-      __uid: column.text(),
-      __parent_uid: column.text(),
-      __display_name: column.text(),
+    //   __uid: column.text(),
+    //   __parent_uid: column.text(),
+    //   __display_name: column.text(),
       script_name: column.text(),
       script_code: column.text({ primaryKey: true }),
       script_type: column.text(),
