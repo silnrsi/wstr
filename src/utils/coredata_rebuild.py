@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 import argparse
 import csv
 import os
@@ -25,6 +25,7 @@ EXIT_DB_COMPACT_ERROR = 5
 EXIT_DB_EXECUTE_ERROR = 6
 
 DATA_PATH_PREFIX = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../src/data"))
+DB_PATH_PREFIX = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../db/"))
 TABLES_INFO = [
     {
         "table": "characters",
@@ -103,7 +104,7 @@ TABLES_INFO = [
     }
 ]
 
-DB_FILE = os.path.abspath(os.path.join(DATA_PATH_PREFIX, 'coredata.sqlite'))
+DB_FILE = os.path.abspath(os.path.join(DB_PATH_PREFIX, 'coredata.db'))
 
 # Check all input files exist
 def check_input_files():
@@ -205,7 +206,7 @@ def import_csv_to_table():
         csv_file = info["csv_file"]
         if not os.path.isfile(csv_file):
             print(f"CSV file not found for table: {table}")
-            sys.exit(EXIT_MISSING_FILE)
+            sys.exit(EXIT_CSV_MISSING_FILE)
         try:
             conn = sqlite3.connect(DB_FILE)
             cursor = conn.cursor()
