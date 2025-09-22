@@ -1,11 +1,6 @@
 // Utility functions to access the coredata SQLite database
 import { db, characters as chars, scripts, eq, sql } from 'astro:db';
 
-// @todo Get db path from environment variable set in .env - currently returning undefined
-const COREDATA_DB_PATH: string = process.env.COREDATA_DB_PATH as string || 'src/data/coredata.sqlite';
-export { COREDATA_DB_PATH };
-// console.log(`Using coredata DB path: '${COREDATA_DB_PATH}'`);
-
 const ERROR_INVALID_USV = '*** NO CHARACTER NAME FOUND FOR THIS USV ***';
 
 async function getCharacterName(usv: string): Promise<string> {
