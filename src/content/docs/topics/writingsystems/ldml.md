@@ -478,7 +478,7 @@ Multigraphs do not need brackets to mark them as a single unit in a collation se
 [lff]:/reference/glossary#lff
 [identity]: /topics/writingsystems/ldml/#identity
 [inheritance]: /topics/writingsystems/ldml/#inheritance
-[normalization-def]: reference/glossary#normal
+[normalization-def]: /reference/glossary#normal
 [sil-fonts]: https://software.sil.org/fonts/
 [sil-sch-features]: https://software.sil.org/scheherazade/features/
 [sldr-dtds]: https://github.com/silnrsi/sldr/tree/master/auxdata
