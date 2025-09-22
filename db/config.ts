@@ -16,7 +16,7 @@ const characters = {
 
 const languages = {
     columns: {
-        language_code:            column.text({ optional: true, default: undefined }),
+        language_code:            column.text({ primaryKey: true }),
         language_name:            column.text({ optional: true, default: undefined }),
         language_alternateNames:  column.text(),
         language_dialects:        column.text(),

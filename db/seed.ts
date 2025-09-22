@@ -1,8 +1,7 @@
 import { parse } from 'csv-parse/sync';
 import { readFile, stat } from 'fs/promises';
 import { getTableName, getTableColumns, sql } from 'drizzle-orm';
-import { db, characters, languages, scripts, dbUrl } from 'astro:db';
-import { loadEnv } from 'vite';
+import { db, characters, languages, scripts } from 'astro:db';
 
 const data_dir = 'src/data';
 
@@ -18,21 +17,20 @@ async function convert(table: any) {
 		skip_empty_lines: true,
 		columns: true,
 	});
-	
-	await write_table(table, records);
+
+	await regenerate_table(table, records);
 
 	const n_records  = await db.$count(table);
 	console.log(`\t${name}\t${n_records} records loaded.`)
 }
 
-// current fastest, 5.5s whole db.
-const chunk_size = 256; // Determined emprically at the point where run stopped reducing.
-async function write_table(table, records) {
-	const queries = []
-	while (records.length != 0) {
-		let chunk = records.splice(0, chunk_size)
-		queries.push(db.insert(table).values(chunk));
-	}
+
+function* chunks(array: any[], size: number) {
+	while (array.length > 0) yield array.splice(0, size)
+};
+
+async function regenerate_table(table: any, records: any[]) {
+	const queries: any = chunks(records, 512).map(records => db.insert(table).values(records));
 	await db.delete(table);
 	await db.batch(queries);
 }
