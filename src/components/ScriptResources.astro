@@ -5,9 +5,6 @@ const { scrpropname, scrpropcode, scrpropshortname} = Astro.locals.starlightRout
 const { detailSummary } = Astro.props;
 const ssurl = scrpropcode ? `https://scriptsource.org/scr/${scrpropcode}` : "https://scriptsource.org";
 const label4ss = scrpropname ? ` page for ${scrpropshortname}` : '';
-const wikiurl = scrpropname ? `https://wikipedia.org/wiki/${scrpropname}` : "https://en.wikipedia.org/wiki/Script_(Unicode)";
-const label4wiki = scrpropname ? ` article on ${scrpropshortname}` : ' article on Scripts';
-const seemore = (detailSummary === "seemore");
 ---
 
 <ul>
