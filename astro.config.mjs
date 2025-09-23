@@ -80,7 +80,6 @@ export default defineConfig({
                 {
                     label: 'Topics',
                     items: [
-                        //{ slug: 'topics/writingsystems/writing-systems' },
                         { label: 'Writing Systems', collapsed: true, autogenerate: { directory: 'topics/writingsystems' } },
                         { label: 'Computing Support', collapsed: true, autogenerate: { directory: 'topics/computing' } },
                         { label: 'Encoding & Unicode', collapsed: true, autogenerate: { directory: 'topics/encoding' } },
@@ -106,10 +105,6 @@ export default defineConfig({
                 {
                     label: 'Support',
                     autogenerate: { directory: 'support' },
-                },
-                {
-                    label: 'Testing',
-                    autogenerate: { directory: 'testing' },
                 },
             ],
             components: {
