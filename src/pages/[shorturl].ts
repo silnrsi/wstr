@@ -2,9 +2,9 @@ import type { APIRoute } from "astro";
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-    const entries = await getCollection('docs', (entry) => ('shortcode' in entry.data));
+    const entries = await getCollection('docs', (entry) => ('shorturl' in entry.data));
     return entries.map((entry) => ({
-        params: { shortcode: entry.data.shortcode },
+        params: { shorturl: entry.data.shorturl },
         props: { url: '/' + entry.id },
     }));
 }
