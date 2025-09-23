@@ -3,10 +3,14 @@ title: Unicode Status for Leke
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 The Leke script is not yet in Unicode. The script has a tentative allocation at U+11B80..U+11BBF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+## Blocks
+
+None.
 
 ## Proposals and documents
 

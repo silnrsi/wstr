@@ -3,10 +3,14 @@ title: Unicode Status for Tai Don
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 The Tai Don (sometimes called Tai Khao) script is not yet in Unicode. It is not yet in the [Roadmap for the Unicode Standard](http://www.unicode.org/roadmaps/smp/).
+
+## Blocks
+
+None.
 
 ## Proposals and documents
 

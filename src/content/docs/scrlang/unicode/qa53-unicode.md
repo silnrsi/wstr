@@ -3,10 +3,14 @@ title: Unicode Status for Turkestani
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 The Turkestani script is not yet in Unicode. It may be disunified into Tocharian and Khotanese.
+
+## Blocks
+
+None.
 
 ## Proposals and documents
 

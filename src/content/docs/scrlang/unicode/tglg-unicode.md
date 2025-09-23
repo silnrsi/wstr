@@ -3,7 +3,7 @@ title: Unicode Status for Tagalog
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Tagalog script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G26433) and in [UTN 35: Indonesian and Philippine Scripts and extensions](https://www.unicode.org/notes/tn35/).

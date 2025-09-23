@@ -3,10 +3,14 @@ title: Unicode Status for Proto-Sinaitic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 The Proto-Sinaitic script is not yet in Unicode. The script has a tentative allocation at U+108B0..U+108DF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+## Blocks
+
+None.
 
 ## Proposals and documents
 

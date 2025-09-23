@@ -3,10 +3,14 @@ title: Unicode Status for Chisoi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 The Chisoi script has been accepted for encoding in a future version of the Unicode Standard.. The script has a provisional allocation at U+16D80..U+16DAF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+## Blocks
+
+None.
 
 ## Proposals and documents
 

@@ -28,12 +28,12 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: package-lock.json
+          cache-dependency-path: npm-shrinkwrap.json
       - name: Install
         run: npm clean-install
       - name: Build
         run: |
-          npx astro build
+          npm run build
           if [ -f broken-links.log ]
           then
             echo '### Broken links' >> $GITHUB_STEP_SUMMARY

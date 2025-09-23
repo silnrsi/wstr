@@ -9,15 +9,15 @@
     --sl-text-h3: 1.625rem; /* 26px */
     }
 
-.sl-markdown-content h2:not(:where(.not-content *)) {
+.sl-markdown-content .sl-heading-wrapper.level-h2 {
     margin-top: 1.4rem !important; 
 }
 
-.sl-markdown-content h3:not(:where(.not-content *)) {
+.sl-markdown-content .sl-heading-wrapper.level-h3 {
     margin-top: 1.2rem !important; 
 }
 
-.sl-markdown-content h4:not(:where(.not-content *)) {
+.sl-markdown-content .sl-heading-wrapper.level-h4{
     margin-top: 1.2rem !important; 
 }
 

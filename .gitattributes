@@ -29,6 +29,7 @@
 *.md text eol=lf
 *.mdx text eol=lf
 *.mjs text eol=lf
+*.py text eol=lf
 *.srctext text eol=lf
 *.ts text eol=lf
 *.txt text eol=lf

@@ -3,7 +3,7 @@ title: Unicode Status for Emoji & Pictograph Symbols
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Emoji implementation is discussed in [Chapter 22 Symbols](http://www.unicode.org/versions/latest/ch22.pdf).

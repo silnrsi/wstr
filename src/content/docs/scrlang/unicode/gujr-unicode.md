@@ -3,7 +3,7 @@ title: Unicode Status for Gujarati
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Gujarati script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G34334).
@@ -16,7 +16,7 @@ The Gujarati script was first encoded in The Unicode Standard version 1.0. The s
 | ------ | --------------- | ------------------------ | ------------- |
 | Gujarati  |  0A80..0AFF  |  1.0  |  [U0A80.pdf](http://www.unicode.org/charts/PDF/U0A80.pdf)  |
 
-[Vedic Extensions](https://scriptsource.org/entry/nb2xvfymgv) may be used with the Gujarati script as well as many other Indic scripts.
+[Vedic Extensions](/scrlang/unicode/x-vedic-unicode) may be used with the Gujarati script as well as many other Indic scripts.
 
 ## Characters
 

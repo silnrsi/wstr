@@ -3,7 +3,7 @@ title: Unicode Status for Luo Lakeside
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 The Luo Lakeside script is not yet in Unicode. The script is not yet in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
@@ -13,3 +13,11 @@ Documents that discuss the script have been submitted to the Unicode Technical C
   - _Recommendations to UTC #160 July 2019 on Script Proposals ([L2/19-286](https://www.unicode.org/L2/L2019/19286-script-recs.pdf)) (See point 3.)_
 - 2023-09-08 Update on Usage and Implementation Status of African Scripts — Oreen Yousuf, Charles Riley, Daniel Yacob, Neil Patel, Tim Brookes ([L2/23-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-203))
   - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.26.)_
+
+## Blocks
+
+None.
+
+## Proposals and documents
+
+None.

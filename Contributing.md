@@ -71,7 +71,7 @@ Click on the Terminal tab, then type:
 
 ```bash
 npm clean-install
-npx astro dev --host --open
+npm run dev
 ```
 
 Then click on the link to point your browser to the local instance of WSTR running in the container. Now, all the changes you make to the various documents under `src/content/docs/` will be updated live in your browser. The Terminal panel should show *"watching for file changes..."*

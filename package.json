@@ -2,26 +2,32 @@
   "name": "wstr",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
+    "dev": "src/utils/coredata_rebuild.py && astro dev",
+    "start": "src/utils/coredata_rebuild.py && astro dev",
+    "build": "src/utils/coredata_rebuild.py && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "linkcheck": "CHECK_LINKS=true ASTRO_SITE=https://writingsystems.info astro build"
+    "linkcheck": "src/utils/coredata_rebuild.py && CHECK_LINKS=true ASTRO_SITE=https://writingsystems.info astro build"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/starlight": "^0.34.4",
+    "@astrojs/starlight": "^0.36.0",
     "@jop-software/astro-cookieconsent": "^3.0.1",
-    "astro": "^5.11.0",
+    "@types/sqlite3": "^3.1.8",
+    "astro": "^5.13.9",
     "astro-broken-links-checker": "imazen/astro-broken-link-checker",
     "rehype-external-links": "^3.0.0",
     "rehype-figure-title": "^1.0.0",
-    "sharp": "^0",
-    "starlight-links-validator": "^0.17.0",
-    "typescript": "^5",
-    "unist-util-visit": "^5.0.0",
-    "vanilla-cookieconsent": "^3.1.0"
+    "sharp": "~0.34.4",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "starlight-links-validator": "^0.18.0",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "glob": "^11.0.0",
+    "node-gyp": "^10.2.0"
   }
 }

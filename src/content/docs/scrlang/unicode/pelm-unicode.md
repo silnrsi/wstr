@@ -3,10 +3,14 @@ title: Unicode Status for Proto-Elamite
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 The Proto-Elamite script is not yet in Unicode. The script has a tentative allocation at U+1BD00..U+1C37F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+## Blocks
+
+None.
 
 ## Proposals and documents
 

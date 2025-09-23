@@ -454,13 +454,13 @@ This is most commonly used when the character will not display nicely when displ
 
 Multigraphs are an orthographic phenomenon in which two characters put together are treated as one single unit. In an LDML file, these are denoted by surrounding the grouped characters in curly brackets, such as the {LL} in the example at the top of this page. This is important because the spaces between individual characters are only in these lists for human convenience; they do not indicate anything on a codified scale, nor are they required for the LDML file to function properly. To a computer, [s t] and [st] mean the same thing, so if you want to specifically indicate that "st" is a multigraph, you need to enter it as [{st}].  
 
-Note that this is also required for any characters that use combining diacritics. This gets into the territory of Normalization, which is described in far greater detail in [Unicode Technical Standard #15][uni-utr15-normalization]. Essentially, some characters with diacritics have their own unique codepoint that is separate from the two individual codepoints for the character and combining diacritic. For example, "á" is codepoint U+00E1, while "a" is U+0061 and the combining acute accent is U+0301. In this case, since "á" has a single codepoint, no brackets are needed. However, in cases where there is no single codepoint for a specific character-diacritic combination, brackets are needed to ensure that the diacritic remains "attached" to its respective character. 
+Note that this is also required for any characters that use combining diacritics. This gets into the territory of Normalization, which is described in far greater detail in [Unicode Technical Standard #15][uni-utr15-normalization], as well as [Section 3.11][uni-standard-3.11-normalization] and [Section 5.6][uni-standard-5.6-normalization] of the Unicode Standard. Essentially, some characters with diacritics have their own unique codepoint that is separate from the two individual codepoints for the character and combining diacritic. For example, "á" is codepoint U+00E1, while "a" is U+0061 and the combining acute accent is U+0301. In this case, since "á" has a single codepoint, no brackets are needed. However, in cases where there is no single codepoint for a specific character-diacritic combination, brackets are needed to ensure that the diacritic remains "attached" to its respective character. 
 
 For example, there is no single codepoint for "a̱". It consists of "a" (U+0061) and the combining macron below (U+0331). If left without brackets in an exemplar list, the regex would assume that "a" and the macron were two separate letters of the alphabet. Written with brackets as "{a̱}", however, causes the regex to treat it as a single unit, just as it would act with "á". 
 
 A good rule of thumb if you aren't sure if a diacritic is part of the same codepoint or not: hit the backspace after typing/copying the character. If the diacritic disappears, but the base character remains, the combined character is made of multiple codepoints. If both the base character and diacritic disappear simultaneously, they are already a single unique codepoint. Feel free to try it out with "á" and "a̱" right now, if you'd like. Just know that this does not work 100% of the time, so when in doubt, use the curly brackets. 
 
-Additionally, make sure you understand [normalization][uni-utr15-normalization] and use the most composed version of the character possible (i.e. if there is a codepoint such as U+00E1 that combines the character and diacritic, prioritize using the composed one instead of placing two codepoints inside of the curly brackets). 
+Additionally, make sure you understand [normalization][normalization-def] and use the most composed version of the character possible (i.e. if there is a codepoint such as U+00E1 that combines the character and diacritic, prioritize using the composed one instead of placing two codepoints inside of the curly brackets). 
 
 ### Formatting Text in Collation
 
@@ -478,12 +478,15 @@ Multigraphs do not need brackets to mark them as a single unit in a collation se
 [lff]:/reference/glossary#lff
 [identity]: /topics/writingsystems/ldml/#identity
 [inheritance]: /topics/writingsystems/ldml/#inheritance
+[normalization-def]: /reference/glossary#normal
 [sil-fonts]: https://software.sil.org/fonts/
 [sil-sch-features]: https://software.sil.org/scheherazade/features/
 [sldr-dtds]: https://github.com/silnrsi/sldr/tree/master/auxdata
 [ss-collation-resources]: https://scriptsource.org/entry/lcepuup9ga
 [ss-MH-collation-tutorial]: https://scriptsource.org/entry/pnrnlhkrq9
 [uni-cldr-data-submission]: https://cldr.unicode.org/index/process
+[uni-standard-3.11-normalization]: https://www.unicode.org/versions/latest/core-spec/chapter-3/#G49537
+[uni-standard-5.6-normalization]: https://www.unicode.org/versions/latest/core-spec/chapter-5/#G7889
 [uni-utr10-ducet]: https://www.unicode.org/reports/tr10/#Default_Unicode_Collation_Element_Table
 [uni-utr10-tailoring]: https://www.unicode.org/reports/tr10/#Tailoring
 [uni-utr15-normalization]: https://unicode.org/reports/tr15/

@@ -3,10 +3,14 @@ title: Unicode Status for Egyptian Demotic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 No proposal for the inclusion of Egyptian Demotic in the Unicode Standard has been submitted as of version 15.0 of the Standard.
+
+## Blocks
+
+None.
 
 ## Proposals and documents
 

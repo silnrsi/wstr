@@ -3,10 +3,14 @@ title: Unicode Status for Gongche
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 The Gongche script is not yet in Unicode.
+
+## Blocks
+
+None.
 
 ## Proposals and documents
 

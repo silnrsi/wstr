@@ -62,9 +62,7 @@ export default defineConfig({
                 }
             ],
             markdown: {
-                // TODO: Turn this on to test out if we want automatic
-                // heading links. If so remove it as `true` is the new default.
-                headingLinks: false,
+                headingLinks: true,
             },
             logo: {
                 src: './src/assets/logo.svg',
@@ -99,7 +97,6 @@ export default defineConfig({
                         'scrlang/scripts-index',
                         'scrlang/languages',
                         'scrlang/other-resources',
-                        'scrlang/test-index',
                     ]
                 },
                 {

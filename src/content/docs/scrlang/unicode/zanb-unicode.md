@@ -3,7 +3,7 @@ title: Unicode Status for Zanabazar Square
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Zanabazar Square script implementation is discussed in [Chapter 14 South and Central Asia-III: Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G41935).

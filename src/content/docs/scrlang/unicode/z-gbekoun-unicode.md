@@ -3,10 +3,14 @@ title: Unicode Status for Gbekoun
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 The Gbekoun script is not yet in Unicode. The script has not yet been added to the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+## Blocks
+
+None.
 
 ## Proposals and documents
 

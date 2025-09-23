@@ -1,0 +1,44 @@
+---
+import { getScriptByCode } from '../utils/coredata_access'; // Ensure this function fetches a script by its script_code
+
+const { scriptCode } = Astro.props;
+
+// Fetch the script data from the database
+const script = await getScriptByCode(scriptCode);
+
+if (!script) {
+  throw new Error(`Script with code "${scriptCode}" not found.`);
+}
+
+// Filter out properties that start with an underscore and sort the remaining properties alphabetically
+const scriptProperties = Object.entries(script)
+  .filter(([key]) => !key.startsWith('_')) // Exclude properties starting with "_"
+  .sort(([keyA], [keyB]) => keyA.localeCompare(keyB)); // Sort properties alphabetically
+---
+
+<style>
+  .caption {
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: left;
+  }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    {scriptProperties.map(([key, value]) => (
+      <tr>
+        <td>{key}</td>
+        <td>{value}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+<div class="caption">Properties for {script.script_name} ({script.script_code})</div>

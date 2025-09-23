@@ -3,10 +3,14 @@ title: Unicode Status for Ranjana
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 The Ranjana script is slated to go into Unicode 14.0. The script has an allocation at U+11500..U+1157F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+## Blocks
+
+None.
 
 ## Proposals and documents
 

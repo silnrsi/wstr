@@ -3,7 +3,7 @@ title: Unicode Status for Arabic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 In The Unicode Standard, Arabic Script implementation is discussed in [Chapter 9 Middle East-I: Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G20596), in [UAX 53 Unicode Arabic Mark Rendering](https://www.unicode.org/reports/tr53/), and in [UTN 46 Rendering the Allah Ligature](https://www.unicode.org/notes/tn46/). The _Arabic (Nastaliq variant)_ script uses characters from the Arabic script Unicode blocks.
@@ -108,24 +108,24 @@ NB: The following sections include some characters that are not in the Arabic bl
 
 | Character | What changed | Change |
 | --------- | ------------ | ------ |
-| <span class='USV'>U+00AD</span>&nbsp;<span class='UnicodeCharName'>SOFT HYPHEN</span> | General Category | Pd -&gt;Cf |
-| <span class='USV'>U+06DD</span>&nbsp;<span class='UnicodeCharName'>ARABIC END OF AYAH</span> | Joining Type | none -&gt; U |
-| <span class='USV'>U+200C</span>&nbsp;<span class='UnicodeCharName'>ZERO WIDTH NON-JOINER</span> | Joining Type | none -&gt; U |
+| <Character usv='00AD' options='usv,name' /> | General Category | Pd -&gt;Cf |
+| <Character usv='06DD' options='usv,name' /> | Joining Type | none -&gt; U |
+| <Character usv='200C' options='usv,name' /> | Joining Type | none -&gt; U |
 
 ##### Additions
 
 |  |  |
 | --- | --- |
-| <span class='USV'>U+0600</span>&nbsp;<span class='UnicodeCharName'>ARABIC NUMBER SIGN</span> | <span class='USV'>U+0613</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN RADI ALLAHOU ANHU</span> |
-| <span class='USV'>U+0601</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN SANAH</span> | <span class='USV'>U+0614</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN TAKHALLUS</span> |
-| <span class='USV'>U+0602</span>&nbsp;<span class='UnicodeCharName'>ARABIC FOOTNOTE MARKER</span> | <span class='USV'>U+0615</span>&nbsp;<span class='UnicodeCharName'>ARABIC SMALL HIGH TAH</span> |
-| <span class='USV'>U+0603</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN SAFHA</span> | <span class='USV'>U+0656</span>&nbsp;<span class='UnicodeCharName'>ARABIC SUBSCRIPT ALEF</span> |
-| <span class='USV'>U+060D</span>&nbsp;<span class='UnicodeCharName'>ARABIC DATE SEPARATOR</span> | <span class='USV'>U+0657</span>&nbsp;<span class='UnicodeCharName'>ARABIC INVERTED DAMMA</span> |
-| <span class='USV'>U+060E</span>&nbsp;<span class='UnicodeCharName'>ARABIC POETIC VERSE SIGN</span> | <span class='USV'>U+0658</span>&nbsp;<span class='UnicodeCharName'>ARABIC MARK NOON GHUNNA</span> |
-| <span class='USV'>U+060F</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN MISRA</span> | <span class='USV'>U+06EE</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER DAL WITH INVERTED V</span> |
-| <span class='USV'>U+0610</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN SALLALLAHOU ALAYHE WASSALLAM</span> | <span class='USV'>U+06EF</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER REH WITH INVERTED V</span> |
-| <span class='USV'>U+0611</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN ALAYHE ASSALLAM</span> | <span class='USV'>U+06FF</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER HEH WITH INVERTED V</span> |
-| <span class='USV'>U+0612</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN RAHMATULLAH ALAYHE</span> | <span class='USV'>U+FDFD</span>&nbsp;<span class='UnicodeCharName'>ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM</span> |
+| <Character usv='0600' options='usv,name' /> | <Character usv='0613' options='usv,name' /> |
+| <Character usv='0601' options='usv,name' /> | <Character usv='0614' options='usv,name' /> |
+| <Character usv='0602' options='usv,name' /> | <Character usv='0615' options='usv,name' /> |
+| <Character usv='0603' options='usv,name' /> | <Character usv='0656' options='usv,name' /> |
+| <Character usv='060D' options='usv,name' /> | <Character usv='0657' options='usv,name' /> |
+| <Character usv='060E' options='usv,name' /> | <Character usv='0658' options='usv,name' /> |
+| <Character usv='060F' options='usv,name' /> | <Character usv='06EE' options='usv,name' /> |
+| <Character usv='0610' options='usv,name' /> | <Character usv='06EF' options='usv,name' /> |
+| <Character usv='0611' options='usv,name' /> | <Character usv='06FF' options='usv,name' /> |
+| <Character usv='0612' options='usv,name' /> | <Character usv='FDFD' options='usv,name' /> |
 
 ### Version 4.0 to 4.1
 
@@ -133,37 +133,37 @@ NB: The following sections include some characters that are not in the Arabic bl
 
 | Character | What changed | Change |
 | --------- | ------------ | ------ |
-| <span class='USV'>U+002B</span>&nbsp;<span class='UnicodeCharName'>PLUS SIGN</span> | BIDI Class | ET -&gt; ES |
-| <span class='USV'>U+002D</span>&nbsp;<span class='UnicodeCharName'>HYPHEN-MINUS</span> | BIDI Class | ET -&gt; ES |
-| <span class='USV'>U+002F</span>&nbsp;<span class='UnicodeCharName'>SOLIDUS</span> | BIDI Class | ES -&gt; CS |
-| <span class='USV'>U+00AD</span>&nbsp;<span class='UnicodeCharName'>SOFT HYPHEN</span> | BIDI Class | ON -&gt; BN |
-| <span class='USV'>U+06C2</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER HEH GOAL WITH HAMZA ABOVE</span> | Joining Type<br/>Joining Group | Right -&gt; Dual<br/>HAMZA ON HEH GOAL -&gt; HEH GOAL |
-| <span class='USV'>U+200B</span>&nbsp;<span class='UnicodeCharName'>ZERO WIDTH SPACE</span> | General Category | Zs -&gt; Cf |
-| <span class='USV'>U+202F</span>&nbsp;<span class='UnicodeCharName'>NARROW NO-BREAK SPACE</span> | BIDI Class | WS -&gt; CS |
+| <Character usv='002B' options='usv,name' /> | BIDI Class | ET -&gt; ES |
+| <Character usv='002D' options='usv,name' /> | BIDI Class | ET -&gt; ES |
+| <Character usv='002F' options='usv,name' /> | BIDI Class | ES -&gt; CS |
+| <Character usv='00AD' options='usv,name' /> | BIDI Class | ON -&gt; BN |
+| <Character usv='06C2' options='usv,name' /> | Joining Type<br/>Joining Group | Right -&gt; Dual<br/>HAMZA ON HEH GOAL -&gt; HEH GOAL |
+| <Character usv='200B' options='usv,name' /> | General Category | Zs -&gt; Cf |
+| <Character usv='202F' options='usv,name' /> | BIDI Class | WS -&gt; CS |
 
 ##### Additions
 
 |  |  |
 | --- | --- |
-| <span class='USV'>U+060B</span>&nbsp;<span class='UnicodeCharName'>AFGHANI SIGN</span> | <span class='USV'>U+075B</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER REH WITH STROKE</span> |
-| <span class='USV'>U+061E</span>&nbsp;<span class='UnicodeCharName'>ARABIC TRIPLE DOT PUNCTUATION MARK</span> | <span class='USV'>U+075C</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER SEEN WITH FOUR DOTS ABOVE</span> |
-| <span class='USV'>U+0659</span>&nbsp;<span class='UnicodeCharName'>ARABIC ZWARAKAY</span> | <span class='USV'>U+075D</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER AIN WITH TWO DOTS ABOVE</span> |
-| <span class='USV'>U+065A</span>&nbsp;<span class='UnicodeCharName'>ARABIC VOWEL SIGN SMALL V ABOVE</span> | <span class='USV'>U+075E</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER AIN WITH THREE DOTS POINTING DOWNWARDS ABOVE</span> |
-| <span class='USV'>U+065B</span>&nbsp;<span class='UnicodeCharName'>ARABIC VOWEL SIGN INVERTED SMALL V ABOVE</span> | <span class='USV'>U+075F</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER AIN WITH TWO DOTS VERTICALLY ABOVE</span> |
-| <span class='USV'>U+065C</span>&nbsp;<span class='UnicodeCharName'>ARABIC VOWEL SIGN DOT BELOW</span> | <span class='USV'>U+0760</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FEH WITH TWO DOTS BELOW</span> |
-| <span class='USV'>U+065D</span>&nbsp;<span class='UnicodeCharName'>ARABIC REVERSED DAMMA</span> | <span class='USV'>U+0761</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FEH WITH THREE DOTS POINTING UPWARDS BELOW</span> |
-| <span class='USV'>U+065E</span>&nbsp;<span class='UnicodeCharName'>ARABIC FATHA WITH TWO DOTS</span> | <span class='USV'>U+0762</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER KEHEH WITH DOT ABOVE</span> |
-| <span class='USV'>U+0750</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER BEH WITH THREE DOTS HORIZONTALLY BELOW</span> | <span class='USV'>U+0763</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER KEHEH WITH THREE DOTS ABOVE</span> |
-| <span class='USV'>U+0751</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER BEH WITH DOT BELOW AND THREE DOTS ABOVE</span> | <span class='USV'>U+0764</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER KEHEH WITH THREE DOTS POINTING UPWARDS BELOW</span> |
-| <span class='USV'>U+0752</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER BEH WITH THREE DOTS POINTING UPWARDS BELOW</span> | <span class='USV'>U+0765</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER MEEM WITH DOT ABOVE</span> |
-| <span class='USV'>U+0753</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER BEH WITH THREE DOTS POINTING UPWARDS BELOW AND TWO DOTS ABOVE</span> | <span class='USV'>U+0766</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER MEEM WITH DOT BELOW</span> |
-| <span class='USV'>U+0754</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER BEH WITH TWO DOTS BELOW AND DOT ABOVE</span> | <span class='USV'>U+0767</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER NOON WITH TWO DOTS BELOW</span> |
-| <span class='USV'>U+0755</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER BEH WITH INVERTED SMALL V BELOW</span> | <span class='USV'>U+0768</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER NOON WITH SMALL TAH</span> |
-| <span class='USV'>U+0756</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER BEH WITH SMALL V</span> | <span class='USV'>U+0769</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER NOON WITH SMALL V</span> |
-| <span class='USV'>U+0757</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER HAH WITH TWO DOTS ABOVE</span> | <span class='USV'>U+076A</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER LAM WITH BAR</span> |
-| <span class='USV'>U+0758</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER HAH WITH THREE DOTS POINTING UPWARDS BELOW</span> | <span class='USV'>U+076B</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER REH WITH TWO DOTS VERTICALLY ABOVE</span> |
-| <span class='USV'>U+0759</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER DAL WITH TWO DOTS VERTICALLY BELOW AND SMALL TAH</span> | <span class='USV'>U+076C</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER REH WITH HAMZA ABOVE</span> |
-| <span class='USV'>U+075A</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER DAL WITH INVERTED SMALL V BELOW</span> | <span class='USV'>U+076D</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER SEEN WITH TWO DOTS VERTICALLY ABOVE</span> |
+| <Character usv='060B' options='usv,name' /> | <Character usv='075B' options='usv,name' /> |
+| <Character usv='061E' options='usv,name' /> | <Character usv='075C' options='usv,name' /> |
+| <Character usv='0659' options='usv,name' /> | <Character usv='075D' options='usv,name' /> |
+| <Character usv='065A' options='usv,name' /> | <Character usv='075E' options='usv,name' /> |
+| <Character usv='065B' options='usv,name' /> | <Character usv='075F' options='usv,name' /> |
+| <Character usv='065C' options='usv,name' /> | <Character usv='0760' options='usv,name' /> |
+| <Character usv='065D' options='usv,name' /> | <Character usv='0761' options='usv,name' /> |
+| <Character usv='065E' options='usv,name' /> | <Character usv='0762' options='usv,name' /> |
+| <Character usv='0750' options='usv,name' /> | <Character usv='0763' options='usv,name' /> |
+| <Character usv='0751' options='usv,name' /> | <Character usv='0764' options='usv,name' /> |
+| <Character usv='0752' options='usv,name' /> | <Character usv='0765' options='usv,name' /> |
+| <Character usv='0753' options='usv,name' /> | <Character usv='0766' options='usv,name' /> |
+| <Character usv='0754' options='usv,name' /> | <Character usv='0767' options='usv,name' /> |
+| <Character usv='0755' options='usv,name' /> | <Character usv='0768' options='usv,name' /> |
+| <Character usv='0756' options='usv,name' /> | <Character usv='0769' options='usv,name' /> |
+| <Character usv='0757' options='usv,name' /> | <Character usv='076A' options='usv,name' /> |
+| <Character usv='0758' options='usv,name' /> | <Character usv='076B' options='usv,name' /> |
+| <Character usv='0759' options='usv,name' /> | <Character usv='076C' options='usv,name' /> |
+| <Character usv='075A' options='usv,name' /> | <Character usv='076D' options='usv,name' /> |
 
 ### Version 4.1 to 5.0
 
@@ -173,14 +173,14 @@ Unfortunately, Unicode 5.0 introduced a change that adversely affected a lot of 
 
 | Character | What changed | Change |
 | --------- | ------------ | ------ |
-| <span class='USV'>U+2018</span>&nbsp;<span class='UnicodeCharName'>LEFT SINGLE QUOTATION MARK</span> | BIDI Mirrored | N -&gt; Y |
-| <span class='USV'>U+2019</span>&nbsp;<span class='UnicodeCharName'>RIGHT SINGLE QUOTATION MARK</span> | BIDI Mirrored | N -&gt; Y |
-| <span class='USV'>U+201A</span>&nbsp;<span class='UnicodeCharName'>SINGLE LOW-9 QUOTATION MARK</span> | BIDI Mirrored | N -&gt; Y |
-| <span class='USV'>U+201B</span>&nbsp;<span class='UnicodeCharName'>SINGLE HIGH-REVERSED-9 QUOTATION MARK</span> | BIDI Mirrored | N -&gt; Y |
-| <span class='USV'>U+201C</span>&nbsp;<span class='UnicodeCharName'>LEFT DOUBLE QUOTATION MARK</span> | BIDI  Mirrored | N -&gt; Y |
-| <span class='USV'>U+201D</span>&nbsp;<span class='UnicodeCharName'>RIGHT DOUBLE QUOTATION MARK</span> | BIDI Mirrored | N -&gt; Y |
-| <span class='USV'>U+201E</span>&nbsp;<span class='UnicodeCharName'>DOUBLE LOW-9 QUOTATION MARK</span> | BIDI Mirrored | N -&gt; Y |
-| <span class='USV'>U+201F</span>&nbsp;<span class='UnicodeCharName'>DOUBLE HIGH-REVERSED-9 QUOTATION MARK</span> | BIDI Mirrored | N -&gt; Y |
+| <Character usv='2018' options='usv,name' /> | BIDI Mirrored | N -&gt; Y |
+| <Character usv='2019' options='usv,name' /> | BIDI Mirrored | N -&gt; Y |
+| <Character usv='201A' options='usv,name' /> | BIDI Mirrored | N -&gt; Y |
+| <Character usv='201B' options='usv,name' /> | BIDI Mirrored | N -&gt; Y |
+| <Character usv='201C' options='usv,name' /> | BIDI  Mirrored | N -&gt; Y |
+| <Character usv='201D' options='usv,name' /> | BIDI Mirrored | N -&gt; Y |
+| <Character usv='201E' options='usv,name' /> | BIDI Mirrored | N -&gt; Y |
+| <Character usv='201F' options='usv,name' /> | BIDI Mirrored | N -&gt; Y |
 
 After the problem was discovered, Unicode issued [Corrigendum #6](http://www.unicode.org/versions/corrigendum6.html) to undo the above changes. This corrigendum was subsequently incorporated into Unicode 5.1.
 
@@ -196,41 +196,41 @@ In addition to undoing the Mirroring change introduced in 5.0, version 5.1 made 
 
 | Character | What changed | Change |
 | --------- | ------------ | ------ |
-| <span class='USV'>U+0600</span>&nbsp;<span class='UnicodeCharName'>ARABIC NUMBER SIGN</span> | BIDI Class | AL -&gt; AN |
-| <span class='USV'>U+0601</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN SANAH</span> | BIDI Class | AL -&gt; AN |
-| <span class='USV'>U+0602</span>&nbsp;<span class='UnicodeCharName'>ARABIC FOOTNOTE MARKER</span> | BIDI Class | AL -&gt; AN |
-| <span class='USV'>U+0603</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN SAFHA</span> | BIDI Class | AL -&gt; AN |
-| <span class='USV'>U+06DD</span>&nbsp;<span class='UnicodeCharName'>ARABIC END OF AYAH</span> | BIDI Class | AL -&gt; AN |
-| <span class='USV'>U+2018</span>&nbsp;<span class='UnicodeCharName'>LEFT SINGLE QUOTATION MARK</span> | BIDI Mirrored | Y -&gt; N |
-| <span class='USV'>U+2019</span>&nbsp;<span class='UnicodeCharName'>RIGHT SINGLE QUOTATION MARK</span> | BIDI Mirrored | Y -&gt; N |
-| <span class='USV'>U+201A</span>&nbsp;<span class='UnicodeCharName'>SINGLE LOW-9 QUOTATION MARK</span> | BIDI Mirrored | Y -&gt; N |
-| <span class='USV'>U+201B</span>&nbsp;<span class='UnicodeCharName'>SINGLE HIGH-REVERSED-9 QUOTATION MARK</span> | BIDI Mirrored | Y -&gt; N |
-| <span class='USV'>U+201C</span>&nbsp;<span class='UnicodeCharName'>LEFT DOUBLE QUOTATION MARK</span> | BIDI Mirrored | Y -&gt; N |
-| <span class='USV'>U+201D</span>&nbsp;<span class='UnicodeCharName'>RIGHT DOUBLE QUOTATION MARK</span> | BIDI Mirrored | Y -&gt; N |
-| <span class='USV'>U+201E</span>&nbsp;<span class='UnicodeCharName'>DOUBLE LOW-9 QUOTATION MARK</span> | BIDI Mirrored | Y -&gt; N |
-| <span class='USV'>U+201F</span>&nbsp;<span class='UnicodeCharName'>DOUBLE HIGH-REVERSED-9 QUOTATION MARK</span> | BIDI Mirrored | Y -&gt; N |
+| <Character usv='0600' options='usv,name' /> | BIDI Class | AL -&gt; AN |
+| <Character usv='0601' options='usv,name' /> | BIDI Class | AL -&gt; AN |
+| <Character usv='0602' options='usv,name' /> | BIDI Class | AL -&gt; AN |
+| <Character usv='0603' options='usv,name' /> | BIDI Class | AL -&gt; AN |
+| <Character usv='06DD' options='usv,name' /> | BIDI Class | AL -&gt; AN |
+| <Character usv='2018' options='usv,name' /> | BIDI Mirrored | Y -&gt; N |
+| <Character usv='2019' options='usv,name' /> | BIDI Mirrored | Y -&gt; N |
+| <Character usv='201A' options='usv,name' /> | BIDI Mirrored | Y -&gt; N |
+| <Character usv='201B' options='usv,name' /> | BIDI Mirrored | Y -&gt; N |
+| <Character usv='201C' options='usv,name' /> | BIDI Mirrored | Y -&gt; N |
+| <Character usv='201D' options='usv,name' /> | BIDI Mirrored | Y -&gt; N |
+| <Character usv='201E' options='usv,name' /> | BIDI Mirrored | Y -&gt; N |
+| <Character usv='201F' options='usv,name' /> | BIDI Mirrored | Y -&gt; N |
 
 ##### Additions
 
 |  |  |  |
 | --- | --- | --- |
-| <span class='USV'>U+0606</span>&nbsp;<span class='UnicodeCharName'>ARABIC-INDIC CUBE ROOT</span> | <span class='USV'>U+0770</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER SEEN WITH SMALL ARABIC LETTER TAH AND TWO DOTS</span> |
-| <span class='USV'>U+0607</span>&nbsp;<span class='UnicodeCharName'>ARABIC-INDIC FOURTH ROOT</span> | <span class='USV'>U+0771</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER REH WITH SMALL ARABIC LETTER TAH AND TWO DOTS</span> |
-| <span class='USV'>U+0608</span>&nbsp;<span class='UnicodeCharName'>ARABIC RAY</span> | <span class='USV'>U+0772</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH ABOVE</span> |
-| <span class='USV'>U+0609</span>&nbsp;<span class='UnicodeCharName'>ARABIC-INDIC PER MILLE SIGN</span> | <span class='USV'>U+0773</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER ALEF WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE</span> |
-| <span class='USV'>U+060A</span>&nbsp;<span class='UnicodeCharName'>ARABIC-INDIC PER TEN THOUSAND SIGN</span> | <span class='USV'>U+0774</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER ALEF WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE</span> |
-| <span class='USV'>U+0616</span>&nbsp;<span class='UnicodeCharName'>ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH</span> | <span class='USV'>U+0775</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE</span> |
-| <span class='USV'>U+0617</span>&nbsp;<span class='UnicodeCharName'>ARABIC SMALL HIGH ZAIN</span> | <span class='USV'>U+0776</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE</span> |
-| <span class='USV'>U+0618</span>&nbsp;<span class='UnicodeCharName'>ARABIC SMALL FATHA</span> | <span class='USV'>U+0777</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT FOUR BELOW</span> |
-| <span class='USV'>U+0619</span>&nbsp;<span class='UnicodeCharName'>ARABIC SMALL DAMMA</span> | <span class='USV'>U+0778</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER WAW WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE</span> |
-| <span class='USV'>U+061A</span>&nbsp;<span class='UnicodeCharName'>ARABIC SMALL KASRA</span> | <span class='USV'>U+0779</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER WAW WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE</span> |
-| <span class='USV'>U+063B</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER KEHEH WITH TWO DOTS ABOVE</span> | <span class='USV'>U+077A</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER YEH BARREE WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE</span> |
-| <span class='USV'>U+063C</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER KEHEH WITH THREE DOTS BELOW</span> | <span class='USV'>U+077B</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER YEH BARREE WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE</span> |
-| <span class='USV'>U+063D</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH INVERTED V</span> | <span class='USV'>U+077C</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER HAH WITH EXTENDED ARABIC-INDIC DIGIT FOUR BELOW</span> |
-| <span class='USV'>U+063E</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE</span> | <span class='USV'>U+077D</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER SEEN WITH EXTENDED ARABIC-INDIC DIGIT FOUR ABOVE</span> |
-| <span class='USV'>U+063F</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE</span> | <span class='USV'>U+077E</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER SEEN WITH INVERTED V</span> |
-| <span class='USV'>U+076E</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH BELOW</span> | <span class='USV'>U+077F</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER KAF WITH TWO DOTS ABOVE</span> |
-| <span class='USV'>U+076F</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH AND TWO DOTS</span> |  |
+| <Character usv='0606' options='usv,name' /> | <Character usv='0770' options='usv,name' /> |
+| <Character usv='0607' options='usv,name' /> | <Character usv='0771' options='usv,name' /> |
+| <Character usv='0608' options='usv,name' /> | <Character usv='0772' options='usv,name' /> |
+| <Character usv='0609' options='usv,name' /> | <Character usv='0773' options='usv,name' /> |
+| <Character usv='060A' options='usv,name' /> | <Character usv='0774' options='usv,name' /> |
+| <Character usv='0616' options='usv,name' /> | <Character usv='0775' options='usv,name' /> |
+| <Character usv='0617' options='usv,name' /> | <Character usv='0776' options='usv,name' /> |
+| <Character usv='0618' options='usv,name' /> | <Character usv='0777' options='usv,name' /> |
+| <Character usv='0619' options='usv,name' /> | <Character usv='0778' options='usv,name' /> |
+| <Character usv='061A' options='usv,name' /> | <Character usv='0779' options='usv,name' /> |
+| <Character usv='063B' options='usv,name' /> | <Character usv='077A' options='usv,name' /> |
+| <Character usv='063C' options='usv,name' /> | <Character usv='077B' options='usv,name' /> |
+| <Character usv='063D' options='usv,name' /> | <Character usv='077C' options='usv,name' /> |
+| <Character usv='063E' options='usv,name' /> | <Character usv='077D' options='usv,name' /> |
+| <Character usv='063F' options='usv,name' /> | <Character usv='077E' options='usv,name' /> |
+| <Character usv='076E' options='usv,name' /> | <Character usv='077F' options='usv,name' /> |
+| <Character usv='076F' options='usv,name' /> |  |
 
 ### Version 5.1 to 5.2
 
@@ -238,14 +238,14 @@ In addition to undoing the Mirroring change introduced in 5.0, version 5.1 made 
 
 | Character | What changed | Change |
 | --------- | ------------ | ------ |
-| <span class='USV'>U+063D</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH INVERTED V</span> | Joining Group | YEH -&gt; FARSI YEH |
-| <span class='USV'>U+063E</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE</span> | Joining Group | YEH -&gt; FARSI YEH |
-| <span class='USV'>U+063F</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE</span> | Joining Group | YEH -&gt; FARSI YEH |
-| <span class='USV'>U+06BD</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER NOON WITH THREE DOTS ABOVE</span> | Joining Group | NOON -&gt; NYA |
-| <span class='USV'>U+06CC</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH</span> | Joining Group | YEH -&gt; FARSI YEH |
-| <span class='USV'>U+06CE</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER YEH WITH SMALL V</span> | Joining Group | YEH -&gt; FARSI YEH |
-| <span class='USV'>U+0775</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE</span> | Joining Group | YEH -&gt; FARSI YEH |
-| <span class='USV'>U+0776</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE</span> | Joining Group | YEH -&gt; FARSI YEH |
+| <Character usv='063D' options='usv,name' /> | Joining Group | YEH -&gt; FARSI YEH |
+| <Character usv='063E' options='usv,name' /> | Joining Group | YEH -&gt; FARSI YEH |
+| <Character usv='063F' options='usv,name' /> | Joining Group | YEH -&gt; FARSI YEH |
+| <Character usv='06BD' options='usv,name' /> | Joining Group | NOON -&gt; NYA |
+| <Character usv='06CC' options='usv,name' /> | Joining Group | YEH -&gt; FARSI YEH |
+| <Character usv='06CE' options='usv,name' /> | Joining Group | YEH -&gt; FARSI YEH |
+| <Character usv='0775' options='usv,name' /> | Joining Group | YEH -&gt; FARSI YEH |
+| <Character usv='0776' options='usv,name' /> | Joining Group | YEH -&gt; FARSI YEH |
 
 ##### Additions
 
@@ -257,22 +257,22 @@ None.
 
 | Character | What changed | Change |
 | --------- | ------------ | ------ |
-| <span class='USV'>U+06C3</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER TEH MARBUTA GOAL</span> | Joining Group | HAMZA ON HEH GOAL -&gt; TEH MARBUTA GOAL |
-| <span class='USV'>U+06DE</span>&nbsp;<span class='UnicodeCharName'>ARABIC START OF RUB EL HIZB</span> | General Category<br/>BIDI Class | ME -&gt; So<br/>NSM -&gt; ON |
+| <Character usv='06C3' options='usv,name' /> | Joining Group | HAMZA ON HEH GOAL -&gt; TEH MARBUTA GOAL |
+| <Character usv='06DE' options='usv,name' /> | General Category<br/>BIDI Class | ME -&gt; So<br/>NSM -&gt; ON |
 
 ##### Additions
 
 |  |  |  |
 | --- | --- | --- |
-| <span class='USV'>U+0620</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER KASHMIRI YEH</span> | <span class='USV'>U+FBB9</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS BELOW</span> |
-| <span class='USV'>U+065F</span>&nbsp;<span class='UnicodeCharName'>ARABIC WAVY HAMZA BELOW</span> | <span class='USV'>U+FBBA</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL FOUR DOTS ABOVE</span> |
-| <span class='USV'>U+FBB2</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL DOT ABOVE</span> | <span class='USV'>U+FBBB</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL FOUR DOTS BELOW</span> |
-| <span class='USV'>U+FBB3</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL DOT BELOW</span> | <span class='USV'>U+FBBC</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL DOUBLE VERTICAL BAR BELOW</span> |
-| <span class='USV'>U+FBB4</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL TWO DOTS ABOVE</span> | <span class='USV'>U+FBBD</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL TWO DOTS VERTICALLY ABOVE</span> |
-| <span class='USV'>U+FBB5</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL TWO DOTS BELOW</span> | <span class='USV'>U+FBBE</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL TWO DOTS VERTICALLY BELOW</span> |
-| <span class='USV'>U+FBB6</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL THREE DOTS ABOVE</span> | <span class='USV'>U+FBBF</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL RING</span> |
-| <span class='USV'>U+FBB7</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL THREE DOTS BELOW</span> | <span class='USV'>U+FBC0</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL SMALL TAH ABOVE</span> |
-| <span class='USV'>U+FBB8</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS ABOVE</span> | <span class='USV'>U+FBC1</span>&nbsp;<span class='UnicodeCharName'>ARABIC SYMBOL SMALL TAH BELOW</span> |
+| <Character usv='0620' options='usv,name' /> | <Character usv='FBB9' options='usv,name' /> |
+| <Character usv='065F' options='usv,name' /> | <Character usv='FBBA' options='usv,name' /> |
+| <Character usv='FBB2' options='usv,name' /> | <Character usv='FBBB' options='usv,name' /> |
+| <Character usv='FBB3' options='usv,name' /> | <Character usv='FBBC' options='usv,name' /> |
+| <Character usv='FBB4' options='usv,name' /> | <Character usv='FBBD' options='usv,name' /> |
+| <Character usv='FBB5' options='usv,name' /> | <Character usv='FBBE' options='usv,name' /> |
+| <Character usv='FBB6' options='usv,name' /> | <Character usv='FBBF' options='usv,name' /> |
+| <Character usv='FBB7' options='usv,name' /> | <Character usv='FBC0' options='usv,name' /> |
+| <Character usv='FBB8' options='usv,name' /> | <Character usv='FBC1' options='usv,name' /> |
 
 ### Version 6.0 to 6.1
 
@@ -280,104 +280,104 @@ None.
 
 | Character | What changed | Change |
 | --------- | ------------ | ------ |
-| <span class='USV'>U+00A7</span>&nbsp;<span class='UnicodeCharName'>SECTION SIGN</span> | General Category | So -&gt; Po |
-| <span class='USV'>U+00B6</span>&nbsp;<span class='UnicodeCharName'>PILCROW SIGN</span> | General Category | So -&gt; Po |
+| <Character usv='00A7' options='usv,name' /> | General Category | So -&gt; Po |
+| <Character usv='00B6' options='usv,name' /> | General Category | So -&gt; Po |
 
 ##### Additions
 
 |  |  |
 | --- | --- |
-| <span class='USV'>U+0604</span>&nbsp;<span class='UnicodeCharName'>ARABIC SIGN SAMVAT</span> | <span class='USV'>U+1EE47</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED HAH</span> |
-| <span class='USV'>U+08A2</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER JEEM WITH TWO DOTS ABOVE</span> | <span class='USV'>U+1EE49</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED YEH</span> |
-| <span class='USV'>U+08A3</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER TAH WITH TWO DOTS ABOVE</span> | <span class='USV'>U+1EE4B</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED LAM</span> |
-| <span class='USV'>U+08A4</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER FEH WITH DOT BELOW AND THREE DOTS ABOVE</span> | <span class='USV'>U+1EE4D</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED NOON</span> |
-| <span class='USV'>U+08A5</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER QAF WITH DOT BELOW</span> | <span class='USV'>U+1EE4E</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED SEEN</span> |
-| <span class='USV'>U+08A6</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER LAM WITH DOUBLE BAR</span> | <span class='USV'>U+1EE4F</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED AIN</span> |
-| <span class='USV'>U+08A7</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER MEEM WITH THREE DOTS ABOVE</span> | <span class='USV'>U+1EE51</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED SAD</span> |
-| <span class='USV'>U+08A8</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER YEH WITH TWO DOTS BELOW AND HAMZA ABOVE</span> | <span class='USV'>U+1EE52</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED QAF</span> |
-| <span class='USV'>U+08A9</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER YEH WITH TWO DOTS BELOW AND DOT ABOVE</span> | <span class='USV'>U+1EE54</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED SHEEN</span> |
-| <span class='USV'>U+08AA</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER REH WITH LOOP</span> | <span class='USV'>U+1EE57</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED KHAH</span> |
-| <span class='USV'>U+08AB</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER WAW WITH DOT WITHIN</span> | <span class='USV'>U+1EE59</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED DAD</span> |
-| <span class='USV'>U+08AC</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER ROHINGYA YEH</span> | <span class='USV'>U+1EE5B</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED GHAIN</span> |
-| <span class='USV'>U+08E4</span>&nbsp;<span class='UnicodeCharName'>ARABIC CURLY FATHA</span> | <span class='USV'>U+1EE5D</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED DOTLESS NOON</span> |
-| <span class='USV'>U+08E5</span>&nbsp;<span class='UnicodeCharName'>ARABIC CURLY DAMMA</span> | <span class='USV'>U+1EE5F</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED DOTLESS QAF</span> |
-| <span class='USV'>U+08E6</span>&nbsp;<span class='UnicodeCharName'>ARABIC CURLY KASRA</span> | <span class='USV'>U+1EE61</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED BEH</span> |
-| <span class='USV'>U+08E7</span>&nbsp;<span class='UnicodeCharName'>ARABIC CURLY FATHATAN</span> | <span class='USV'>U+1EE62</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED JEEM</span> |
-| <span class='USV'>U+08E8</span>&nbsp;<span class='UnicodeCharName'>ARABIC CURLY DAMMATAN</span> | <span class='USV'>U+1EE64</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED HEH</span> |
-| <span class='USV'>U+08E9</span>&nbsp;<span class='UnicodeCharName'>ARABIC CURLY KASRATAN</span> | <span class='USV'>U+1EE67</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED HAH</span> |
-| <span class='USV'>U+08EA</span>&nbsp;<span class='UnicodeCharName'>ARABIC TONE ONE DOT ABOVE</span> | <span class='USV'>U+1EE68</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED TAH</span> |
-| <span class='USV'>U+08EB</span>&nbsp;<span class='UnicodeCharName'>ARABIC TONE TWO DOTS ABOVE</span> | <span class='USV'>U+1EE69</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED YEH</span> |
-| <span class='USV'>U+08EC</span>&nbsp;<span class='UnicodeCharName'>ARABIC TONE LOOP ABOVE</span> | <span class='USV'>U+1EE6A</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED KAF</span> |
-| <span class='USV'>U+08ED</span>&nbsp;<span class='UnicodeCharName'>ARABIC TONE ONE DOT BELOW</span> | <span class='USV'>U+1EE6C</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED MEEM</span> |
-| <span class='USV'>U+08EE</span>&nbsp;<span class='UnicodeCharName'>ARABIC TONE TWO DOTS BELOW</span> | <span class='USV'>U+1EE6D</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED NOON</span> |
-| <span class='USV'>U+08EF</span>&nbsp;<span class='UnicodeCharName'>ARABIC TONE LOOP BELOW</span> | <span class='USV'>U+1EE6E</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED SEEN</span> |
-| <span class='USV'>U+08F0</span>&nbsp;<span class='UnicodeCharName'>ARABIC OPEN FATHATAN</span> | <span class='USV'>U+1EE6F</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED AIN</span> |
-| <span class='USV'>U+08F1</span>&nbsp;<span class='UnicodeCharName'>ARABIC OPEN DAMMATAN</span> | <span class='USV'>U+1EE70</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED FEH</span> |
-| <span class='USV'>U+08F2</span>&nbsp;<span class='UnicodeCharName'>ARABIC OPEN KASRATAN</span> | <span class='USV'>U+1EE71</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED SAD</span> |
-| <span class='USV'>U+08F3</span>&nbsp;<span class='UnicodeCharName'>ARABIC SMALL HIGH WAW</span> | <span class='USV'>U+1EE72</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED QAF</span> |
-| <span class='USV'>U+08F4</span>&nbsp;<span class='UnicodeCharName'>ARABIC FATHA WITH RING</span> | <span class='USV'>U+1EE74</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED SHEEN</span> |
-| <span class='USV'>U+08F5</span>&nbsp;<span class='UnicodeCharName'>ARABIC FATHA WITH DOT ABOVE</span> | <span class='USV'>U+1EE75</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED TEH</span> |
-| <span class='USV'>U+08F6</span>&nbsp;<span class='UnicodeCharName'>ARABIC KASRA WITH DOT BELOW</span> | <span class='USV'>U+1EE76</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED THEH</span> |
-| <span class='USV'>U+08F7</span>&nbsp;<span class='UnicodeCharName'>ARABIC LEFT ARROWHEAD ABOVE</span> | <span class='USV'>U+1EE77</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED KHAH</span> |
-| <span class='USV'>U+08F8</span>&nbsp;<span class='UnicodeCharName'>ARABIC RIGHT ARROWHEAD ABOVE</span> | <span class='USV'>U+1EE79</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED DAD</span> |
-| <span class='USV'>U+08F9</span>&nbsp;<span class='UnicodeCharName'>ARABIC LEFT ARROWHEAD BELOW</span> | <span class='USV'>U+1EE7A</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED ZAH</span> |
-| <span class='USV'>U+08FA</span>&nbsp;<span class='UnicodeCharName'>ARABIC RIGHT ARROWHEAD BELOW</span> | <span class='USV'>U+1EE7B</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED GHAIN</span> |
-| <span class='USV'>U+08FB</span>&nbsp;<span class='UnicodeCharName'>ARABIC DOUBLE RIGHT ARROWHEAD ABOVE</span> | <span class='USV'>U+1EE7C</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED DOTLESS BEH</span> |
-| <span class='USV'>U+08FC</span>&nbsp;<span class='UnicodeCharName'>ARABIC DOUBLE RIGHT ARROWHEAD ABOVE WITH DOT</span> | <span class='USV'>U+1EE7E</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL STRETCHED DOTLESS FEH</span> |
-| <span class='USV'>U+08FD</span>&nbsp;<span class='UnicodeCharName'>ARABIC RIGHT ARROWHEAD ABOVE WITH DOT</span> | <span class='USV'>U+1EE80</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED ALEF</span> |
-| <span class='USV'>U+08FE</span>&nbsp;<span class='UnicodeCharName'>ARABIC DAMMA WITH DOT</span> | <span class='USV'>U+1EE81</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED BEH</span> |
-| <span class='USV'>U+1EE00</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL ALEF</span> | <span class='USV'>U+1EE82</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED JEEM</span> |
-| <span class='USV'>U+1EE01</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL BEH</span> | <span class='USV'>U+1EE83</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED DAL</span> |
-| <span class='USV'>U+1EE02</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL JEEM</span> | <span class='USV'>U+1EE84</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED HEH</span> |
-| <span class='USV'>U+1EE03</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DAL</span> | <span class='USV'>U+1EE85</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED WAW</span> |
-| <span class='USV'>U+1EE05</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL WAW</span> | <span class='USV'>U+1EE86</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED ZAIN</span> |
-| <span class='USV'>U+1EE06</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL ZAIN</span> | <span class='USV'>U+1EE87</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED HAH</span> |
-| <span class='USV'>U+1EE07</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL HAH</span> | <span class='USV'>U+1EE88</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED TAH</span> |
-| <span class='USV'>U+1EE08</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAH</span> | <span class='USV'>U+1EE89</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED YEH</span> |
-| <span class='USV'>U+1EE09</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL YEH</span> | <span class='USV'>U+1EE8B</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED LAM</span> |
-| <span class='USV'>U+1EE0A</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL KAF</span> | <span class='USV'>U+1EE8C</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED MEEM</span> |
-| <span class='USV'>U+1EE0B</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LAM</span> | <span class='USV'>U+1EE8D</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED NOON</span> |
-| <span class='USV'>U+1EE0C</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL MEEM</span> | <span class='USV'>U+1EE8E</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED SEEN</span> |
-| <span class='USV'>U+1EE0D</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL NOON</span> | <span class='USV'>U+1EE8F</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED AIN</span> |
-| <span class='USV'>U+1EE0E</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL SEEN</span> | <span class='USV'>U+1EE90</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED FEH</span> |
-| <span class='USV'>U+1EE0F</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL AIN</span> | <span class='USV'>U+1EE91</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED SAD</span> |
-| <span class='USV'>U+1EE10</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL FEH</span> | <span class='USV'>U+1EE92</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED QAF</span> |
-| <span class='USV'>U+1EE11</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL SAD</span> | <span class='USV'>U+1EE93</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED REH</span> |
-| <span class='USV'>U+1EE12</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL QAF</span> | <span class='USV'>U+1EE94</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED SHEEN</span> |
-| <span class='USV'>U+1EE13</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL REH</span> | <span class='USV'>U+1EE95</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED TEH</span> |
-| <span class='USV'>U+1EE14</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL SHEEN</span> | <span class='USV'>U+1EE96</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED THEH</span> |
-| <span class='USV'>U+1EE15</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TEH</span> | <span class='USV'>U+1EE97</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED KHAH</span> |
-| <span class='USV'>U+1EE16</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL THEH</span> | <span class='USV'>U+1EE98</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED THAL</span> |
-| <span class='USV'>U+1EE17</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL KHAH</span> | <span class='USV'>U+1EE99</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED DAD</span> |
-| <span class='USV'>U+1EE18</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL THAL</span> | <span class='USV'>U+1EE9A</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED ZAH</span> |
-| <span class='USV'>U+1EE19</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DAD</span> | <span class='USV'>U+1EE9B</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL LOOPED GHAIN</span> |
-| <span class='USV'>U+1EE1A</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL ZAH</span> | <span class='USV'>U+1EEA1</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK BEH</span> |
-| <span class='USV'>U+1EE1B</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL GHAIN</span> | <span class='USV'>U+1EEA2</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK JEEM</span> |
-| <span class='USV'>U+1EE1C</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOTLESS BEH</span> | <span class='USV'>U+1EEA3</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK DAL</span> |
-| <span class='USV'>U+1EE1D</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOTLESS NOON</span> | <span class='USV'>U+1EEA5</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK WAW</span> |
-| <span class='USV'>U+1EE1E</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOTLESS FEH</span> | <span class='USV'>U+1EEA6</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK ZAIN</span> |
-| <span class='USV'>U+1EE1F</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOTLESS QAF</span> | <span class='USV'>U+1EEA7</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK HAH</span> |
-| <span class='USV'>U+1EE21</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL BEH</span> | <span class='USV'>U+1EEA8</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK TAH</span> |
-| <span class='USV'>U+1EE22</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL JEEM</span> | <span class='USV'>U+1EEA9</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK YEH</span> |
-| <span class='USV'>U+1EE24</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL HEH</span> | <span class='USV'>U+1EEAB</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK LAM</span> |
-| <span class='USV'>U+1EE27</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL HAH</span> | <span class='USV'>U+1EEAC</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK MEEM</span> |
-| <span class='USV'>U+1EE29</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL YEH</span> | <span class='USV'>U+1EEAD</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK NOON</span> |
-| <span class='USV'>U+1EE2A</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL KAF</span> | <span class='USV'>U+1EEAE</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK SEEN</span> |
-| <span class='USV'>U+1EE2B</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL LAM</span> | <span class='USV'>U+1EEAF</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK AIN</span> |
-| <span class='USV'>U+1EE2C</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL MEEM</span> | <span class='USV'>U+1EEB0</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK FEH</span> |
-| <span class='USV'>U+1EE2D</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL NOON</span> | <span class='USV'>U+1EEB1</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK SAD</span> |
-| <span class='USV'>U+1EE2E</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL SEEN</span> | <span class='USV'>U+1EEB2</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK QAF</span> |
-| <span class='USV'>U+1EE2F</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL AIN</span> | <span class='USV'>U+1EEB3</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK REH</span> |
-| <span class='USV'>U+1EE30</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL FEH</span> | <span class='USV'>U+1EEB4</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK SHEEN</span> |
-| <span class='USV'>U+1EE31</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL SAD</span> | <span class='USV'>U+1EEB5</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK TEH</span> |
-| <span class='USV'>U+1EE32</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL QAF</span> | <span class='USV'>U+1EEB6</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK THEH</span> |
-| <span class='USV'>U+1EE34</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL SHEEN</span> | <span class='USV'>U+1EEB7</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK KHAH</span> |
-| <span class='USV'>U+1EE35</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL TEH</span> | <span class='USV'>U+1EEB8</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK THAL</span> |
-| <span class='USV'>U+1EE36</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL THEH</span> | <span class='USV'>U+1EEB9</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK DAD</span> |
-| <span class='USV'>U+1EE37</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL KHAH</span> | <span class='USV'>U+1EEBA</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK ZAH</span> |
-| <span class='USV'>U+1EE39</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL DAD</span> | <span class='USV'>U+1EEBB</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL DOUBLE-STRUCK GHAIN</span> |
-| <span class='USV'>U+1EE3B</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL INITIAL GHAIN</span> | <span class='USV'>U+1EEF0</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL OPERATOR MEEM WITH HAH WITH TATWEEL</span> |
-| <span class='USV'>U+1EE42</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL TAILED JEEM</span> | <span class='USV'>U+1EEF1</span>&nbsp;<span class='UnicodeCharName'>ARABIC MATHEMATICAL OPERATOR HAH WITH DAL</span> |
+| <Character usv='0604' options='usv,name' /> | <Character usv='1EE47' options='usv,name' /> |
+| <Character usv='08A2' options='usv,name' /> | <Character usv='1EE49' options='usv,name' /> |
+| <Character usv='08A3' options='usv,name' /> | <Character usv='1EE4B' options='usv,name' /> |
+| <Character usv='08A4' options='usv,name' /> | <Character usv='1EE4D' options='usv,name' /> |
+| <Character usv='08A5' options='usv,name' /> | <Character usv='1EE4E' options='usv,name' /> |
+| <Character usv='08A6' options='usv,name' /> | <Character usv='1EE4F' options='usv,name' /> |
+| <Character usv='08A7' options='usv,name' /> | <Character usv='1EE51' options='usv,name' /> |
+| <Character usv='08A8' options='usv,name' /> | <Character usv='1EE52' options='usv,name' /> |
+| <Character usv='08A9' options='usv,name' /> | <Character usv='1EE54' options='usv,name' /> |
+| <Character usv='08AA' options='usv,name' /> | <Character usv='1EE57' options='usv,name' /> |
+| <Character usv='08AB' options='usv,name' /> | <Character usv='1EE59' options='usv,name' /> |
+| <Character usv='08AC' options='usv,name' /> | <Character usv='1EE5B' options='usv,name' /> |
+| <Character usv='08E4' options='usv,name' /> | <Character usv='1EE5D' options='usv,name' /> |
+| <Character usv='08E5' options='usv,name' /> | <Character usv='1EE5F' options='usv,name' /> |
+| <Character usv='08E6' options='usv,name' /> | <Character usv='1EE61' options='usv,name' /> |
+| <Character usv='08E7' options='usv,name' /> | <Character usv='1EE62' options='usv,name' /> |
+| <Character usv='08E8' options='usv,name' /> | <Character usv='1EE64' options='usv,name' /> |
+| <Character usv='08E9' options='usv,name' /> | <Character usv='1EE67' options='usv,name' /> |
+| <Character usv='08EA' options='usv,name' /> | <Character usv='1EE68' options='usv,name' /> |
+| <Character usv='08EB' options='usv,name' /> | <Character usv='1EE69' options='usv,name' /> |
+| <Character usv='08EC' options='usv,name' /> | <Character usv='1EE6A' options='usv,name' /> |
+| <Character usv='08ED' options='usv,name' /> | <Character usv='1EE6C' options='usv,name' /> |
+| <Character usv='08EE' options='usv,name' /> | <Character usv='1EE6D' options='usv,name' /> |
+| <Character usv='08EF' options='usv,name' /> | <Character usv='1EE6E' options='usv,name' /> |
+| <Character usv='08F0' options='usv,name' /> | <Character usv='1EE6F' options='usv,name' /> |
+| <Character usv='08F1' options='usv,name' /> | <Character usv='1EE70' options='usv,name' /> |
+| <Character usv='08F2' options='usv,name' /> | <Character usv='1EE71' options='usv,name' /> |
+| <Character usv='08F3' options='usv,name' /> | <Character usv='1EE72' options='usv,name' /> |
+| <Character usv='08F4' options='usv,name' /> | <Character usv='1EE74' options='usv,name' /> |
+| <Character usv='08F5' options='usv,name' /> | <Character usv='1EE75' options='usv,name' /> |
+| <Character usv='08F6' options='usv,name' /> | <Character usv='1EE76' options='usv,name' /> |
+| <Character usv='08F7' options='usv,name' /> | <Character usv='1EE77' options='usv,name' /> |
+| <Character usv='08F8' options='usv,name' /> | <Character usv='1EE79' options='usv,name' /> |
+| <Character usv='08F9' options='usv,name' /> | <Character usv='1EE7A' options='usv,name' /> |
+| <Character usv='08FA' options='usv,name' /> | <Character usv='1EE7B' options='usv,name' /> |
+| <Character usv='08FB' options='usv,name' /> | <Character usv='1EE7C' options='usv,name' /> |
+| <Character usv='08FC' options='usv,name' /> | <Character usv='1EE7E' options='usv,name' /> |
+| <Character usv='08FD' options='usv,name' /> | <Character usv='1EE80' options='usv,name' /> |
+| <Character usv='08FE' options='usv,name' /> | <Character usv='1EE81' options='usv,name' /> |
+| <Character usv='1EE00' options='usv,name' /> | <Character usv='1EE82' options='usv,name' /> |
+| <Character usv='1EE01' options='usv,name' /> | <Character usv='1EE83' options='usv,name' /> |
+| <Character usv='1EE02' options='usv,name' /> | <Character usv='1EE84' options='usv,name' /> |
+| <Character usv='1EE03' options='usv,name' /> | <Character usv='1EE85' options='usv,name' /> |
+| <Character usv='1EE05' options='usv,name' /> | <Character usv='1EE86' options='usv,name' /> |
+| <Character usv='1EE06' options='usv,name' /> | <Character usv='1EE87' options='usv,name' /> |
+| <Character usv='1EE07' options='usv,name' /> | <Character usv='1EE88' options='usv,name' /> |
+| <Character usv='1EE08' options='usv,name' /> | <Character usv='1EE89' options='usv,name' /> |
+| <Character usv='1EE09' options='usv,name' /> | <Character usv='1EE8B' options='usv,name' /> |
+| <Character usv='1EE0A' options='usv,name' /> | <Character usv='1EE8C' options='usv,name' /> |
+| <Character usv='1EE0B' options='usv,name' /> | <Character usv='1EE8D' options='usv,name' /> |
+| <Character usv='1EE0C' options='usv,name' /> | <Character usv='1EE8E' options='usv,name' /> |
+| <Character usv='1EE0D' options='usv,name' /> | <Character usv='1EE8F' options='usv,name' /> |
+| <Character usv='1EE0E' options='usv,name' /> | <Character usv='1EE90' options='usv,name' /> |
+| <Character usv='1EE0F' options='usv,name' /> | <Character usv='1EE91' options='usv,name' /> |
+| <Character usv='1EE10' options='usv,name' /> | <Character usv='1EE92' options='usv,name' /> |
+| <Character usv='1EE11' options='usv,name' /> | <Character usv='1EE93' options='usv,name' /> |
+| <Character usv='1EE12' options='usv,name' /> | <Character usv='1EE94' options='usv,name' /> |
+| <Character usv='1EE13' options='usv,name' /> | <Character usv='1EE95' options='usv,name' /> |
+| <Character usv='1EE14' options='usv,name' /> | <Character usv='1EE96' options='usv,name' /> |
+| <Character usv='1EE15' options='usv,name' /> | <Character usv='1EE97' options='usv,name' /> |
+| <Character usv='1EE16' options='usv,name' /> | <Character usv='1EE98' options='usv,name' /> |
+| <Character usv='1EE17' options='usv,name' /> | <Character usv='1EE99' options='usv,name' /> |
+| <Character usv='1EE18' options='usv,name' /> | <Character usv='1EE9A' options='usv,name' /> |
+| <Character usv='1EE19' options='usv,name' /> | <Character usv='1EE9B' options='usv,name' /> |
+| <Character usv='1EE1A' options='usv,name' /> | <Character usv='1EEA1' options='usv,name' /> |
+| <Character usv='1EE1B' options='usv,name' /> | <Character usv='1EEA2' options='usv,name' /> |
+| <Character usv='1EE1C' options='usv,name' /> | <Character usv='1EEA3' options='usv,name' /> |
+| <Character usv='1EE1D' options='usv,name' /> | <Character usv='1EEA5' options='usv,name' /> |
+| <Character usv='1EE1E' options='usv,name' /> | <Character usv='1EEA6' options='usv,name' /> |
+| <Character usv='1EE1F' options='usv,name' /> | <Character usv='1EEA7' options='usv,name' /> |
+| <Character usv='1EE21' options='usv,name' /> | <Character usv='1EEA8' options='usv,name' /> |
+| <Character usv='1EE22' options='usv,name' /> | <Character usv='1EEA9' options='usv,name' /> |
+| <Character usv='1EE24' options='usv,name' /> | <Character usv='1EEAB' options='usv,name' /> |
+| <Character usv='1EE27' options='usv,name' /> | <Character usv='1EEAC' options='usv,name' /> |
+| <Character usv='1EE29' options='usv,name' /> | <Character usv='1EEAD' options='usv,name' /> |
+| <Character usv='1EE2A' options='usv,name' /> | <Character usv='1EEAE' options='usv,name' /> |
+| <Character usv='1EE2B' options='usv,name' /> | <Character usv='1EEAF' options='usv,name' /> |
+| <Character usv='1EE2C' options='usv,name' /> | <Character usv='1EEB0' options='usv,name' /> |
+| <Character usv='1EE2D' options='usv,name' /> | <Character usv='1EEB1' options='usv,name' /> |
+| <Character usv='1EE2E' options='usv,name' /> | <Character usv='1EEB2' options='usv,name' /> |
+| <Character usv='1EE2F' options='usv,name' /> | <Character usv='1EEB3' options='usv,name' /> |
+| <Character usv='1EE30' options='usv,name' /> | <Character usv='1EEB4' options='usv,name' /> |
+| <Character usv='1EE31' options='usv,name' /> | <Character usv='1EEB5' options='usv,name' /> |
+| <Character usv='1EE32' options='usv,name' /> | <Character usv='1EEB6' options='usv,name' /> |
+| <Character usv='1EE34' options='usv,name' /> | <Character usv='1EEB7' options='usv,name' /> |
+| <Character usv='1EE35' options='usv,name' /> | <Character usv='1EEB8' options='usv,name' /> |
+| <Character usv='1EE36' options='usv,name' /> | <Character usv='1EEB9' options='usv,name' /> |
+| <Character usv='1EE37' options='usv,name' /> | <Character usv='1EEBA' options='usv,name' /> |
+| <Character usv='1EE39' options='usv,name' /> | <Character usv='1EEBB' options='usv,name' /> |
+| <Character usv='1EE3B' options='usv,name' /> | <Character usv='1EEF0' options='usv,name' /> |
+| <Character usv='1EE42' options='usv,name' /> | <Character usv='1EEF1' options='usv,name' /> |
 
 ### Version 6.1 to 6.2
 
@@ -399,7 +399,7 @@ None.
 
 |  |  |
 | --- | --- |
-| <span class='USV'>U+061C</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER MARK</span> |  |
+| <Character usv='061C' options='usv,name' /> |  |
 
 ### Version 6.3 to 7.0
 
@@ -411,11 +411,11 @@ None.
 
 |  |  |
 | --- | --- |
-| <span class='USV'>U+0605</span>&nbsp;<span class='UnicodeCharName'>ARABIC NUMBER MARK ABOVE</span> | <span class='USV'>U+08B0</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER GAF WITH INVERTED STROKE</span> |
-| <span class='USV'>U+08A1</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER BEH WITH HAMZA ABOVE</span> | <span class='USV'>U+08B1</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER STRAIGHT WAW</span> |
-| <span class='USV'>U+08AD</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER LOW ALEF</span> | <span class='USV'>U+08B2</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER ZAIN WITH INVERTED V ABOVE</span> |
-| <span class='USV'>U+08AE</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER DAL WITH THREE DOTS BELOW</span> | <span class='USV'>U+08FF</span>&nbsp;<span class='UnicodeCharName'>ARABIC MARK SIDEWAYS NOON GHUNNA</span> |
-| <span class='USV'>U+08AF</span>&nbsp;<span class='UnicodeCharName'>ARABIC LETTER SAD WITH THREE DOTS BELOW</span> |  |
+| <Character usv='0605' options='usv,name' /> | <Character usv='08B0' options='usv,name' /> |
+| <Character usv='08A1' options='usv,name' /> | <Character usv='08B1' options='usv,name' /> |
+| <Character usv='08AD' options='usv,name' /> | <Character usv='08B2' options='usv,name' /> |
+| <Character usv='08AE' options='usv,name' /> | <Character usv='08FF' options='usv,name' /> |
+| <Character usv='08AF' options='usv,name' /> |  |
 
 ### Version 7.0 to 8.0
 
@@ -427,8 +427,8 @@ None.
 
 |  |  |
 | --- | --- |
-| <span class='USV'>U+08B3</span> ARABIC LETTER AIN WITH THREE DOTS BELOW | <span class='USV'>U+08E3</span> ARABIC TURNED DAMMA BELOW |
-| <span class='USV'>U+08B4</span> ARABIC LETTER KAF WITH DOT BELOW |  |
+| <Character usv='08B3' options='usv' /> ARABIC LETTER AIN WITH THREE DOTS BELOW | <Character usv='08E3' options='usv' /> ARABIC TURNED DAMMA BELOW |
+| <Character usv='08B4' options='usv' /> ARABIC LETTER KAF WITH DOT BELOW |  |
 
 ## Proposals and documents
 

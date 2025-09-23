@@ -3,10 +3,14 @@ title: Unicode Status for Eskaya
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-16
+lastUpdated: 2025-09-19
 ---
 
 The Eskaya script is not yet in Unicode. The script has a tentative allocation at U+1A300..U+1A75F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. It is also discussed in [UTN 35: Indonesian and Philippine Scripts and extensions](https://www.unicode.org/notes/tn35/).
+
+## Blocks
+
+None.
 
 ## Proposals and documents
 
