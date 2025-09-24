@@ -29,7 +29,27 @@ async function getCharacterName(usv: string): Promise<string> {
 export { getCharacterName, ERROR_INVALID_USV };
 
 
-// Implement getScripts function
+// Return a CharacterObject
+async function getCharacter(whereExpression: string = '', orderExpression: string = ''): Promise<any> {
+  const db = await open({
+    filename: COREDATA_DB_PATH,
+    driver: sqlite3.Database
+  });
+
+  // console.debug(`getCharacter called with whereExpression='${whereExpression}', orderExpression='${orderExpression}'`);
+  const whereClause = whereExpression ? `WHERE ${whereExpression}` : '';
+  const orderClause = orderExpression ? `ORDER BY ${orderExpression}` : '';
+  const query = `SELECT * FROM characters ${whereClause} ${orderClause}`;
+  const results = await db.all(query);
+  // console.debug(`getCharacter query: ${query}, result count:`, results.length);
+  await db.close();
+
+  return results.length > 0 ? results[0] : null;
+}
+export { getCharacter };
+
+
+// Return an array of ScriptObjects, optionally filtered and ordered
 async function getScripts(whereExpression: string = '', orderExpression: string = 'script_code'): Promise<any[]> {
   const db = await open({
     filename: COREDATA_DB_PATH,
