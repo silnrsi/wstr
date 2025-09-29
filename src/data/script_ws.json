@@ -29148,7 +29148,7 @@
         "WrSys": []
     },
     {
-        "ScriptName": "Han with Bopomofo (alias for Han + Bopomofo)",
+        "ScriptName": "Han with Bopomofo (alias for Hant + Bopo)",
         "ScriptCode": "Hanb",
         "WrSys": [
             {

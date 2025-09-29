@@ -3,7 +3,7 @@ title: Unicode Status for Cirth
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 The Cirth script is not yet in Unicode. The script has a tentative allocation at U+16000..U+1607F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. The ConScript Unicode Registry has defined the U+E080..U+E0FF range of the Unicode "Private Use Area" for Cirth.

@@ -3,7 +3,7 @@ title: Unicode Status for Rejected scripts
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 Some scripts have been proposed to Unicode but have either been rejected or there is not sufficient information for encoding.

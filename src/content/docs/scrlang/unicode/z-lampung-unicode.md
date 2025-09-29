@@ -3,7 +3,7 @@ title: Unicode Status for Lampung
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 The Lampung script is not yet in Unicode. The script has a tentative allocation at U+1E700..U+1E73F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. It is also discussed in [UTN 35: Indonesian and Philippine Scripts and extensions](https://www.unicode.org/notes/tn35/).
