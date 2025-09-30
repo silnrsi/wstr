@@ -9,7 +9,7 @@ sidebar:
 lastUpdated: 2025-09-25
 ---
 
-Here are links to information and resources mentioned in the Language Technology Webinar in September 2025.
+Here are links to information and resources mentioned in the [Language Technology Webinar][ltwebinar] in September 2025.
 
 ## Font Sources
 
@@ -67,6 +67,7 @@ Here are links to information and resources mentioned in the Language Technology
 [ldml]: /topics/writingsystems/ldml
 [ldmlapi]: https://ldml.api.sil.org/
 [lff]: https://github.com/silnrsi/langfontfinder
+[ltwebinar]: https://vimeo.com/1121931174
 [ofl]: https://openfontlicense.org
 [opentype]: /topics/fonts/opentype
 [scriptsource]: https://scriptsource.org

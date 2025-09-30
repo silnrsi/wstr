@@ -3,7 +3,7 @@ title: Unicode Status for Bhujinmol
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 The Bhujinmol script is not yet in Unicode. Bhujinmol may be considered one of seven documented styles of the [Newar script](/scrlang/scripts/newa) or it may end up being encoded as a separate script.

@@ -3,7 +3,7 @@ title: Unicode Status for Symbols
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 In the Unicode Standard there are characters that are considered Symbols, but they are associated with certain scripts. The characters listed here are Symbols (Math_Symbol, Currency_Symbol, Modifier_Symbol, Other_Symbol), but they are in the "Common" category rather than associated with a particular script.

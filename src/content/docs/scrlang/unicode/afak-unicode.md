@@ -3,7 +3,7 @@ title: Unicode Status for Afaka
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 The Afaka script is not yet in Unicode. The script has a tentative allocation at U+16D00..U+16D3F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
