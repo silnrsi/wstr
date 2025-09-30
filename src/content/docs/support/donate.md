@@ -3,6 +3,7 @@ title: Donate
 description: Donation info and link
 sidebar:
   order: 9970
+shorturl: donate
 lastUpdated: 2025-07-28
 ---
 
