@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+    const entries = await getCollection('docs', (entry) => ('shorturl' in entry.data));
+
+    return entries.map((entry) => ({
+        params: { shorturl: (entry.data.shorturl) },
+        props: { url: '/' + entry.id },
+    }));
+}
+
+const { url } = Astro.props
+---
+<!doctype html><title>Redirecting to: {url}</title><meta http-equiv="refresh" content={`0;url=${url}`}><meta name="robots" content="noindex"><link rel="canonical" href={`${url}`}><body></body>
