@@ -12,4 +12,4 @@ export async function getStaticPaths() {
 
 const { url } = Astro.props
 ---
-<!doctype html><title>Redirecting to: {url}</title><meta http-equiv="refresh" content={`0;url=${url}`}><meta name="robots" content="noindex"><link rel="canonical" href={`${url}`}><body></body>
+<!doctype html><html><head><meta http-equiv="refresh" content={`0;url=${url}`}/><meta name="robots" content="noindex"/><link rel="canonical" href={`${url}`}/></head></html>
