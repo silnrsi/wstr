@@ -12,7 +12,8 @@ async function getCharacterName(usv: string): Promise<string> {
   const [result] = await db
     .select({ character_name: characters.character_name })
     .from(characters)
-    .where(eq(characters.character_usv, usv));
+    .where(eq(characters.character_usv, usv))
+    .limit(1);
 
   return result ? result.character_name : ERROR_INVALID_USV;
 }
@@ -25,7 +26,8 @@ async function getCharacter(whereExpression: string = '', orderExpression: strin
     .select()
     .from(characters)
     .where(sql.raw(whereExpression))
-    .orderBy(sql.raw(orderExpression));
+    .orderBy(sql.raw(orderExpression))
+    .limit(1);
   return result;
 }
 export { getCharacter };
