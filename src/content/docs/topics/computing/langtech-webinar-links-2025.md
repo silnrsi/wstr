@@ -2,14 +2,25 @@
 title: LangTech Webinar 2025 Links
 description: List of links from content in the LT Webinar Sep 2025
 authors: Victor Gaultney
-slug: ltweb25
+shorturl: ltweb25
 sidebar:
     order: 2901
     hidden: True
-lastUpdated: 2025-09-15
+lastUpdated: 2025-09-25
 ---
 
-Here are links to information and resources mentioned in the Language Technology Webinar in September 2025.
+Here are links to information and resources mentioned in the [Language Technology Webinar][ltwebinar] in September 2025.
+
+## Font Sources
+
+- [Full list of SIL fonts][sil-fonts]
+- [Charis][charis], [Gentium][gentium], [Andika][andika], and [Doulos SIL][doulossil]
+- [Language Font Finder (LFF)][lff]
+- [SIL Language Technology Font Collection (Github repo)][gfr]
+- [fonts.languagetechnology.org][flo]
+- [fonts.languagetechnology.org Internal Webfont Service][flo-webfonts]
+- [TypeTuner][typetuner]
+- [Google Fonts][google-fonts]
 
 ## Font Resources
 
@@ -18,12 +29,8 @@ Here are links to information and resources mentioned in the Language Technology
 - [OpenType and Font Features][opentype]
 - [Accessing Font Features in Applications][sil-fonts-features]
 - [Using SIL Fonts on Web Pages][sil-fonts-web]
-- [Google Fonts][google-fonts]
 - [Variable Fonts][google-variable-fonts]
 - [SIL Fonts FAQ][sil-fonts-faq]
-- [Full list of SIL fonts][sil-fonts]
-- [Charis][charis], [Gentium][gentium], [Andika][andika], and [Doulos SIL][doulossil]
-- [TypeTuner][typetuner]
 - [SIL Open Font License][ofl]
 
 ## Language Tags and Locale Data
@@ -48,14 +55,19 @@ Here are links to information and resources mentioned in the Language Technology
 [charis]: https://software.sil.org/charis
 [community-ws-forum]: https://community.software.sil.org/c/writing-systems
 [doulossil]: https://software.sil.org/doulos
+[flo]: https://fonts.languagetechnology.org
+[flo-webfonts]: https://github.com/silnrsi/fonts/blob/main/documentation/webfonts.md
 [gentium]: https://software.sil.org/gentium
+[gfr]: https://github.com/silnrsi/fonts
 [google-fonts]: https://fonts.google.com/
 [google-variable-fonts]: https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
 [macrolanguages]: /topics/writingsystems/language-tagging#macrolanguages
 [langtags-fields]: https://github.com/silnrsi/langtags/blob/master/doc/langtags.md
 [langtags-json]: https://ldml.api.sil.org/langtags.json
 [ldml]: /topics/writingsystems/ldml
-[ldmlapi]:http://ldml.api.sil.org/
+[ldmlapi]: https://ldml.api.sil.org/
+[lff]: https://github.com/silnrsi/langfontfinder
+[ltwebinar]: https://vimeo.com/1121931174
 [ofl]: https://openfontlicense.org
 [opentype]: /topics/fonts/opentype
 [scriptsource]: https://scriptsource.org

@@ -27,6 +27,12 @@
     margin-top: 0.5rem !important; 
 }
 
+.sl-markdown-content .table-caption:not(:where(.not-content *)) {
+    font-style: italic !important;
+    font-size: var(--sl-text-sm) !important;
+    margin-top: 0.5rem !important; 
+}
+
 .sl-markdown-content hr:not(:where(.not-content *)) {
     border-bottom: 1px solid var(--sl-color-gray-5) !important;
 }
@@ -52,5 +58,10 @@
                     height:1rem;
 					margin:0 0 0 2px;
 					width:1rem;
+}
+
+/* Used by Character and CharacterTable components */
+.sl-markdown-content .uni-char-metadata {
+    font-size: var(--sl-text-sm) !important;
 }
 

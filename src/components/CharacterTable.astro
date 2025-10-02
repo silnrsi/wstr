@@ -14,22 +14,6 @@ for (let usvInt = start; usvInt <= end; usvInt++) {
   rows.push({ usv, character, characterName });
 }
 ---
-
-<style>
-  .small-caps {
-    font-variant: small-caps;
-    font-size: 0.8em;
-  }
-  .large-char {
-    font-size: 1.6em;
-  }
-  .caption {
-    font-size: 0.8em;
-    font-style: italic;
-    text-align: left;
-  }
-</style>
-
 <div>
   <table>
     <thead>
@@ -42,12 +26,12 @@ for (let usvInt = start; usvInt <= end; usvInt++) {
     <tbody>
       {rows.map(row => (
         <tr>
-          <td class="small-caps">U+{row.usv}</td>
-          <td class="large-char">{row.character}</td>
-          <td class="small-caps">{row.characterName}</td>
+          <td class="uni-char-metadata">U+{row.usv}</td>
+          <td>{row.character}</td>
+          <td class="uni-char-metadata">{row.characterName}</td>
         </tr>
       ))}
     </tbody>
   </table>
-  {caption && <div class="caption">{caption}</div>}
+  {caption && <div class="table-caption">{caption}</div>}
 </div>

@@ -1,36 +1,38 @@
 ---
-title: "Coredata components: reference"
+title: Component Reference
+subtitle: Reference to WSTR-specific Astro components
 description: Documentation on some prototype components for integrating coredata
 sidebar:
-    order: 8001
+  order: 9810
+  hidden: true
+lastUpdated: 2025-09-24
 ---
 import Character from '/src/components/Character.astro';
 import CharacterTable from '/src/components/CharacterTable.astro';
 import DataTable from '/src/components/DataTable.astro';
 import ScriptTable from '/src/components/ScriptTable.astro';
 
-WSTR-specific Astro components for inclusion of coredata into pages.
-
-:::note
-Only the `Character` component is stable and ready for use in WSTR content. The others are prototypes for possible future use: their specification is not yet agreed. You are welcome to try them out and give feedback, but be aware that they will likely change.
-:::
-
 ## Using the components
 To use these components, you need to:
 - ensure your Markdown file uses the `.mdx` extension
-- import the components you want to use at the top of your file (but below any frontmatter section), using one or more of these declarations:
+- import the component(s) you want to use below the frontmatter section but before any other page content, using a declaration such as:
 ```jsx
 import Character from '/src/components/Character.astro';
-import CharacterTable from '/src/components/CharacterTable.astro';
-import DataTable from '/src/components/DataTable.astro';
-import ScriptTable from '/src/components/ScriptTable.astro';
 ```
 If your component content doesn't show up on the rendered page, check it has the `.mdx` extension and that you've imported the component correctly.
 
-## `Character` component
+Additional examples of using these components can be found in [Component Coredata Examples](/reference/component-coredata-examples).
 
-### Syntax
+## Currently-recommended components
 
+### `Character` component
+
+#### Required import
+```jsx
+import Character from '/src/components/Character.astro';
+```
+
+#### Syntax
 ```html
 <Character usv="XXXX"|char="a" [options="usv,char,name"]/>
 ```
@@ -43,7 +45,7 @@ Note: Either `usv` or `char` must be provided.
 |char|A literal character|
 |options|A comma-separated list of options to display. Options are `usv`, `char`, and `name`. The default is all three.|
 
-### Inline
+#### Inline examples
 
 This example uses the default options, where all three elements appear.
 ```html
@@ -57,13 +59,34 @@ This example uses just `usv` and `char` options:
 ```
 >Result: <Character usv="0634" options="usv,char"/>
 
-### As list items
+#### List example
 
 - <Character usv="0020"/>
 - <Character usv="0635"/>
 
-## `CharacterTable` component
-### Syntax
+### Combining marks
+Combining marks are automatically displayed with a dotted circle to indicate their combining nature.
+```html
+<Character usv="0301"/>
+```
+>Result: <Character usv="0301"/>
+
+---
+
+## Components in development
+
+:::caution
+These components are prototypes for possible future use: their specification is not yet agreed. You are welcome to try them out and give feedback, but be aware that they will likely change.
+:::
+
+### `CharacterTable` component
+
+#### Required import
+```jsx
+import CharacterTable from '/src/components/CharacterTable.astro';
+```
+
+#### Syntax
 ```html
 <CharacterTable startUsv="XXXX" endUsv="XXXX" [caption="..."]/>
 ```
@@ -74,16 +97,23 @@ This example uses just `usv` and `char` options:
 |endUsv|The Unicode scalar value of the last character to display|
 |caption|The caption to display below the table|
 
-### Example
+#### Examples
+
+##### Source
 ```html
 <CharacterTable startUsv="0627" endUsv="0632" caption="Arabic characters 0627-0632"/> 
 ```
-### Result
+##### Result
 <CharacterTable startUsv="0627" endUsv="0632" caption="Arabic characters 0627-0632"/> 
 
+### `ScriptTable` component
 
-## `ScriptTable` component
-### Syntax
+#### Required import
+```jsx
+import ScriptTable from '/src/components/ScriptTable.astro';
+```
+
+#### Syntax
 ```html
 <ScriptTable 
     [filter="key=value,key=value,..."] 
@@ -97,24 +127,28 @@ This example uses just `usv` and `char` options:
 |order|An optional SQL ORDER BY clause to sort the results. Possible fields are `script_name`, `script_code`, `script_type`, `script_family`, `script_direction`, and `script_reordering`.|
 |caption|An optional caption to display below the table.|
 
-### Example
-#### Source
+#### Examples
+##### Source
 ```html
 <ScriptTable filter="script_reordering=yes" order="script_family" caption="Scripts with reordering"/>
 ```
-#### Result
+##### Result
 <ScriptTable filter="script_reordering=yes" order="script_family" caption="Scripts with reordering"/>
-
-#### Source
+##### Source
 ```html
 <ScriptTable filter="script_type=abjad" order="script_name" caption="Abjad scripts"/>
 ```
-### Result
+##### Result
 <ScriptTable filter="script_type=abjad" order="script_name" caption="Abjad scripts"/>
 
+### `DataTable` component
 
-## `DataTable` component
-### Syntax
+#### Required import
+```jsx
+import DataTable from '/src/components/DataTable.astro';
+```
+
+#### Syntax
 ```html
 <DataTable 
   table    = "table_name" 
@@ -132,7 +166,8 @@ This example uses just `usv` and `char` options:
 |order|An optional SQL ORDER BY clause to sort the results.|
 |caption|An optional caption to display below the table.|
 
-### Example
+#### Example
+##### Source
 ```html
 <DataTable 
   table   = "characters" 
@@ -142,8 +177,7 @@ This example uses just `usv` and `char` options:
   caption = "List of Modifier Letters (Lm) added in Unicode 3.0"
 />
 ```
-
-### Result
+##### Result
 <DataTable 
   table   = "characters" 
   fields  = "character_usv=USV, character_name=Character Name" 

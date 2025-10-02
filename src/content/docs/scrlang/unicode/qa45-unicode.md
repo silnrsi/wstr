@@ -3,7 +3,7 @@ title: Unicode Status for Numidian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 The Numidian script is not yet in Unicode. The script has a tentative allocation at U+10960..U+1097F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 

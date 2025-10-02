@@ -3,7 +3,7 @@ title: Unicode Status for Bhaiksuki
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 In The Unicode Standard, Bhaiksuki script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G40424).

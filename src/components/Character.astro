@@ -5,14 +5,9 @@
 // The character is displayed as a string, the USV as a hexadecimal number, and the name in small caps
 //
 // Syntax:
-// <Character usv="XXXX" [options="usv,char,name"]/>
-// usv: Unicode Scalar Value (required)
-// options: comma-separated list of options (optional)
-// options: usv, char, name
+// See https://writingsystems.info/reference/component-reference/#character-component
 
-// Todo: document "char" property
-
-import { getCharacterName, ERROR_INVALID_USV } from '../utils/coredata_access';
+import { getCharacter, getCharacterName, ERROR_INVALID_USV } from '../utils/coredata_access';
 
 const componentName = 'Character';
 const { usv, char, options } = Astro.props;
@@ -35,6 +30,7 @@ if (!usv && !char) {
 }
 
 let usvValue = usv;
+// If the char property is provided, derive usv from it
 if (char) {
   usvValue = char.codePointAt(0).toString(16).toUpperCase().padStart(4, '0');
 }
@@ -46,17 +42,34 @@ if (characterName === ERROR_INVALID_USV) {
 }
 // console.debug(`${componentName} component data:`, { usvValue, characterName, character });
 
+// Decide whether we need to include a dotted circle with combining marks
+const characterInfo = await getCharacter('character_usv = "'.concat(usvValue, '"'));
+// console.debug(`${componentName} component characterInfo:`, characterInfo);
+let characterResult = character;
+if (characterInfo && characterInfo.character_category.startsWith('M') && optionsArray.includes('char')) {
+  // Combining mark, include dotted circle
+  const dottedCircle = String.fromCodePoint(0x25CC);
+  characterResult = `${dottedCircle}${character}`;
+}
+
+// Concatenate the parts based on options, separated by spaces
+const parts = [];
+if (optionsArray.includes('usv')) {
+  parts.push(`<span class="uni-char-metadata">U+${usvValue}</span>`);
+}
+if (optionsArray.includes('char') && characterResult) {
+  parts.push(characterResult);
+}
+if (optionsArray.includes('name')) {
+  parts.push(`<span class="uni-char-metadata">${characterName}</span>`);
+}
+const output = parts.join(' ');
+// console.debug(`${componentName} component output: "${output}"`);
+
 ---
-
 <style>
-  .small-caps {
-    font-variant: small-caps;
-    font-size: 0.85em;
+  .character-component {
+    display: inline;
   }
-</style>
-
-<span>
-  {optionsArray.includes('usv') && <span class="small-caps">U+{usvValue}</span>}
-  {optionsArray.includes('char') && character && `${character}`}
-  {optionsArray.includes('name') && <span class="small-caps">{characterName}</span>}
-</span>
+  </style>
+  <span class='character-component' set:html={output}/>

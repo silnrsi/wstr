@@ -3,7 +3,7 @@ title: Unicode Status for Sheek Bakrii Saphaloo
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 The Sheek Bakrii Saphaloo (sometimes called Oromo) script is not yet in Unicode. The script has a tentative allocation at U+1C800..U+1CB2F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
