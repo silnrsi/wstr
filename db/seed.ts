@@ -1,7 +1,7 @@
-"use strict"
+"use strictest"
 import { srcDir } from 'astro:config/server';
 import { parse } from 'csv-parse/sync';
-import { readFile, copyFile, stat } from 'fs/promises';
+import { readFile } from 'fs/promises';
 import { getTableName } from 'drizzle-orm';
 import { db, characters, languages, scripts, } from 'astro:db';
 
@@ -16,6 +16,7 @@ async function convert(table: any) {
 	const name = getTableName(table);
 	const csv_src = new URL(`${srcDir}data/${name}.csv`);
 
+	let time = performance.now();
 	// Read and parse the file in one go.
 	const records = await readFile(csv_src)
 	.then(content => parse(content, {
@@ -26,13 +27,15 @@ async function convert(table: any) {
 	}));
 
 	await regenerate_table(table, records);
-	console.info(`\t${name}: ${await db.$count(table)} records.`)
+	time = (performance.now() - time);
+	console.info(`\t${name}: ${await db.$count(table)} records in ${time.toFixed(0)} ms.`)
 }
 
 async function regenerate_table(table: any, records: any[]) {
-	const queries: any = chunks(records, 512).map(c => db.insert(table).values(c));
-	await db.delete(table);
-	await db.batch(queries);
+	await db.batch([
+		db.delete(table),
+		...chunks(records, 64).map(c => db.insert(table).values(c))
+	]);
 }
 
 function* chunks(array: any[], size: number) {
