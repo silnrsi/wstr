@@ -1,5 +1,5 @@
 // Utility functions to access the coredata SQLite database
-import { db, characters as chars, scripts, eq, sql } from 'astro:db';
+import { db, characters, scripts, eq, sql } from 'astro:db';
 
 const ERROR_INVALID_USV = '*** NO CHARACTER NAME FOUND FOR THIS USV ***';
 
@@ -10,9 +10,9 @@ async function getCharacterName(usv: string): Promise<string> {
   }
 
   const [result] = await db
-    .select({ character_name: chars.character_name })
-    .from(chars)
-    .where(eq(chars.character_usv, usv));
+    .select({ character_name: characters.character_name })
+    .from(characters)
+    .where(eq(characters.character_usv, usv));
 
   return result ? result.character_name : ERROR_INVALID_USV;
 }
@@ -20,21 +20,13 @@ export { getCharacterName, ERROR_INVALID_USV };
 
 
 // Return a CharacterObject
-async function getCharacter(whereExpression: string = '', orderExpression: string = ''): Promise<any> {
-  const db = await open({
-    filename: COREDATA_DB_PATH,
-    driver: sqlite3.Database
-  });
-
-  // console.debug(`getCharacter called with whereExpression='${whereExpression}', orderExpression='${orderExpression}'`);
-  const whereClause = whereExpression ? `WHERE ${whereExpression}` : '';
-  const orderClause = orderExpression ? `ORDER BY ${orderExpression}` : '';
-  const query = `SELECT * FROM characters ${whereClause} ${orderClause}`;
-  const results = await db.all(query);
-  // console.debug(`getCharacter query: ${query}, result count:`, results.length);
-  await db.close();
-
-  return results.length > 0 ? results[0] : null;
+async function getCharacter(whereExpression: string = '', orderExpression: string = '__uid'): Promise<any> {
+  const [result] = await db
+    .select()
+    .from(characters)
+    .where(sql.raw(whereExpression))
+    .orderBy(sql.raw(orderExpression));
+  return result;
 }
 export { getCharacter };
 
