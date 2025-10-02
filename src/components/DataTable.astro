@@ -4,7 +4,7 @@ const { table, filter, order, caption } = Astro.props
 
 // Ensure `fields` is explicitly typed as a string
 const fields = (Astro.props.fields as string).split(',').map((pair: string) => {
-  const [field, title] = pair.split('=').map(str => str.trim());
+  const [field, title] = pair.split('=',2).map(str => str.trim()) as [string, string?];
   return { field, title: title || field }; // Use the field name as the title if no custom title is provided
 });
 

@@ -12,8 +12,8 @@ const googleAnalyticsId = 'G-WHT6CVPT8M';
 
 // https://astro.build/config
 export default defineConfig({
-    site: process.env.ASTRO_SITE,
-    base: process.env.ASTRO_BASE,
+    site: process.env.ASTRO_SITE || "https://writingsystems.info",
+    base: process.env.ASTRO_BASE || "/",
     integrations: [
         starlight({
             title: 'Writing Systems Technical Resources',

@@ -11,14 +11,14 @@ const { filter, order, caption } = Astro.props;
 let whereExpression = '';
 if (filter) {
   const conditions = filter.split(',').map((pair: string) => {
-    const [key, value] = pair.split('=');
-    if (value.includes('|')) {
+    const [key, value] = pair.split('=', 2) as [string, string?];
+    if (value?.includes('|')) {
       // Handle multiple values (e.g., "value1|value2|value3")
       const values = value.split('|').map((v) => `'${v.trim()}'`).join(', ');
       return `${key.trim()} IN (${values})`;
     } else {
       // Handle single value
-      return `${key.trim()} = '${value.trim()}'`;
+      return `${key.trim()} = '${value?.trim()}'`;
     }
   });
   whereExpression = `${conditions.join(' AND ')}`;
