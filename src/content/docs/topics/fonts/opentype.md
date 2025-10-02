@@ -33,7 +33,7 @@ The following information on OpenType features is mainly intended for font and a
 
 Font features can be thought of as the switches that applications use to enable or disable specific rendering behavior implemented in a given font. OpenType features are identified by a 4-character alpha-numeric tag, and a registry of the agreed-upon tags is maintained within the OpenType specifications, for example [from Microsoft][feature-registry-ms]. For each tag, the registry describes the purpose of the feature and how it is intended to be used.
 
-Font features fall into two broad categories:
+Font features fall into two broad categories: Features utilized by shaping engines for a specific script and optional behavior that the user might want to enable or disable on any run of text.
 
 ### Features utilized by shaping engines for a specific script 
 
@@ -55,7 +55,7 @@ This type of feature can often be recognized in the registry by text similar to:
 
 The Microsoft feature registry currently lists over 60 such discretionary features, so a lot of optional behaviors that font developers need are already covered. But what do font developers do if they want to implement an optional behavior that isn't addressed by the available registered features? This is where  _Stylistic Set_ (`ssXX`) and _Character Variant_ (`cvXX`) features are useful. 
 
-### Stylistic Sets and Character Variants
+#### Stylistic Sets and Character Variants
 
 Feature tags in the range "ss01" to "ss20" are registered as Stylistic Set 1 through 20. Tags in the range "cv01" to "cv99" are registered as Character Variant 1 through 99. The registry does not describe _what_ these features are intended to do — it is up to the font developer to define and document that. 
 

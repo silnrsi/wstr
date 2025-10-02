@@ -3,7 +3,7 @@ title: Unicode Status for Rongorongo
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 The Rongorongo script is not yet in Unicode.  At one point the script had a tentative allocation in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. However, it is no longer in the roadmap.

@@ -3,7 +3,7 @@ title: Unicode Status for Thai Noi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 The Thai Noi script is not yet in Unicode. It is also not yet in the Roadmap to the UCS.

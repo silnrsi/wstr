@@ -9,6 +9,7 @@ export const collections = {
       extend: z.object({
         subtitle: z.string().optional(),
         authors: z.string().optional(),
+        shorturl: z.string().optional(),
         scrpropcode: z.string().optional(),
         scrpropname: z.string().optional(),
         scrpropshortname: z.string().optional(),

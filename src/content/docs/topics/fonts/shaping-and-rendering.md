@@ -3,7 +3,7 @@ title: Shaping and Rendering
 description: Shaping engines and smart font rendering systems
 sidebar:
   order: 5510
-lastUpdated: 2025-08-08
+lastUpdated: 2025-09-24
 ---
 
 Shaping and rendering refers to the process of choosing and ordering [glyphs](/reference/glossary) to represent the characters in the text stream and positioning them properly according to the rules and conventions of the script. Shaping is mainly focused on converting character sequences to glyph sequences, and is highly specific to an individual script or script family. Rendering is more concerned with choosing the proper form and position of glyphs. The boundary between the two is not well-defined, and some systems and tools address both processes.
@@ -15,10 +15,10 @@ Three primary systems provide complex script shaping support for operating syste
   - [Wikipedia][harfbuzz-wiki]
   - [ManPagez][harfbuzz-manpagez]
   - [SourceForge][harfbuzz-sourceforge]
-- Uniscribe/DirectWrite is Microsoft's shaping engine for Windows applications.
+- Uniscribe/DirectWrite is Microsoft's shaping engine on Windows.
   - [Microsoft][directwrite-ms]
   - [Wikipedia][directwrite-wiki]
-- CoreText is Apple's internal shaping engine.
+- CoreText is Apple's shaping engine.
   - [Apple Developer overview][coretext-apple-developer]
   - [Wikipedia][coretext-wikipedia]
 

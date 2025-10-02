@@ -3,7 +3,7 @@ title: Unicode Status for Vedic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 The Vedic Extensions block was first encoded in The Unicode Standard version 5.2. Vedic Extensions are discussed in [Chapter 12 South and Central Asia-I: Official Scripts of India](http://www.unicode.org/versions/latest/ch12.pdf) in the Devanagari Extended section. Vedic Extensions may be used with many Indic scripts. Unicode Status pages for scripts that use the Vedic Extensions are found here: [Bengali](/scrlang/scripts/beng), [Devanagari](/scrlang/scripts/deva), [Grantha](/scrlang/scripts/gran), [Gujarati](/scrlang/scripts/gujr), [Gurmukhi](/scrlang/scripts/guru), [Kannada](/scrlang/scripts/knda), [Malayalam](/scrlang/scripts/mlym), [Newa](/scrlang/scripts/newa), [Oriya](/scrlang/scripts/orya), [Sharada](/scrlang/scripts/shrd), [Tamil](/scrlang/scripts/taml) and [Telugu](/scrlang/scripts/telu).

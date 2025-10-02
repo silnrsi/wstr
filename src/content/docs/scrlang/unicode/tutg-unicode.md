@@ -3,7 +3,7 @@ title: Unicode Status for Tulu-Tigalari
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-19
+lastUpdated: 2025-09-29
 ---
 
 In The Unicode Standard, Tulu-Tigalari script implementation is discussed in [Chapter 15 South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G746412).

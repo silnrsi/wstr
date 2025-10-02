@@ -1,5 +1,5 @@
 // Utility functions to access the coredata SQLite database
-import { db, characters as chars, scripts, eq, sql } from 'astro:db';
+import { db, characters, scripts, eq, sql } from 'astro:db';
 
 const ERROR_INVALID_USV = '*** NO CHARACTER NAME FOUND FOR THIS USV ***';
 
@@ -10,16 +10,30 @@ async function getCharacterName(usv: string): Promise<string> {
   }
 
   const [result] = await db
-    .select({ character_name: chars.character_name })
-    .from(chars)
-    .where(eq(chars.character_usv, usv));
+    .select({ character_name: characters.character_name })
+    .from(characters)
+    .where(eq(characters.character_usv, usv))
+    .limit(1);
 
   return result ? result.character_name : ERROR_INVALID_USV;
 }
 export { getCharacterName, ERROR_INVALID_USV };
 
 
-// Implement getScripts function
+// Return a CharacterObject
+async function getCharacter(whereExpression: string = '', orderExpression: string = '__uid'): Promise<any> {
+  const [result] = await db
+    .select()
+    .from(characters)
+    .where(sql.raw(whereExpression))
+    .orderBy(sql.raw(orderExpression))
+    .limit(1);
+  return result;
+}
+export { getCharacter };
+
+
+// Return an array of ScriptObjects, optionally filtered and ordered
 async function getScripts(whereExpression: string = '', orderExpression: string = 'script_code'): Promise<any[]> {
   const results = await db
     .select()

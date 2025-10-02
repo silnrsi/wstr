@@ -1,27 +1,26 @@
 ---
-title: Coredata examples
-description: A few examples of core data component
+title: Component Coredata Examples
+description: A few examples of core data component use
 sidebar:
-    order: 8002
+  order: 9815
+  hidden: true
+lastUpdated: 2025-09-24
 ---
-import Character from '../../../components/Character.astro';
-import CharacterTable from '../../../components/CharacterTable.astro';
-import DataTable from '../../../components/DataTable.astro';
-import ScriptInfo from '../../../components/ScriptInfo.astro';
-import ScriptTable from '../../../components/ScriptTable.astro';
+import Character from '/src/components/Character.astro';
+import CharacterTable from '/src/components/CharacterTable.astro';
+import DataTable from '/src/components/DataTable.astro';
+import ScriptInfo from '/src/components/ScriptInfo.astro';
+import ScriptTable from '/src/components/ScriptTable.astro';
 
 :::note
 These are just proof-of-concept examples as a basis for discussion.
 :::
-
-
 
 ## Inline USV example #1
 
 Instead of writing "U+0634 ش ARABIC LETTER SHEEN" (and trying to figure out how to type the correct character and find the exact Unicode character name), you can just write `<Character usv="0634"/>` to produce carefully-styled text with USV, character and Unicode character name: <Character usv="0634"/>
 
 You can also specify a character by typing it literally `<Character char="á"/>` to produce: <Character char="á"/>
-
 
 
 ## Inline USV example #2
