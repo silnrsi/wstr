@@ -43,7 +43,7 @@ if (characterName === ERROR_INVALID_USV) {
 // console.debug(`${componentName} component data:`, { usvValue, characterName, character });
 
 // Decide whether we need to include a dotted circle with combining marks
-const characterInfo = await getCharacter(`character_usv = "${usvValue}"`);
+const characterInfo = await getCharacter(`character_usv = '${usvValue}'`);
 // console.debug(`${componentName} component characterInfo:`, characterInfo);
 let characterResult = character;
 if (characterInfo && characterInfo.character_category.startsWith('M') && optionsArray.includes('char')) {
