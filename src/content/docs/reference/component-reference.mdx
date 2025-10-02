@@ -101,10 +101,18 @@ import CharacterTable from '/src/components/CharacterTable.astro';
 
 ##### Source
 ```html
-<CharacterTable startUsv="0627" endUsv="0632" caption="Arabic characters 0627-0632"/> 
+<CharacterTable
+  startUsv = "0627"
+  endUsv   = "0632"
+  caption  = "Arabic characters 0627-0632"
+/>
 ```
 ##### Result
-<CharacterTable startUsv="0627" endUsv="0632" caption="Arabic characters 0627-0632"/> 
+<CharacterTable
+  startUsv = "0627"
+  endUsv   = "0632"
+  caption  = "Arabic characters 0627-0632"
+/>
 
 ### `ScriptTable` component
 
@@ -130,13 +138,21 @@ import ScriptTable from '/src/components/ScriptTable.astro';
 #### Examples
 ##### Source
 ```html
-<ScriptTable filter="script_reordering=yes" order="script_family" caption="Scripts with reordering"/>
+<ScriptTable 
+  filter  = "script_reordering=yes"
+  order   = "script_family"
+  caption = "Scripts with reordering"
+/>
 ```
 ##### Result
 <ScriptTable filter="script_reordering=yes" order="script_family" caption="Scripts with reordering"/>
 ##### Source
 ```html
-<ScriptTable filter="script_type=abjad" order="script_name" caption="Abjad scripts"/>
+<ScriptTable
+  filter  = "script_type=abjad"
+  order   = "script_name"
+  caption = "Abjad scripts"
+/>
 ```
 ##### Result
 <ScriptTable filter="script_type=abjad" order="script_name" caption="Abjad scripts"/>
