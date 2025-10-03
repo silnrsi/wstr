@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "src/utils/coredata_rebuild.py && astro dev --remote",
-    "start": "src/utils/coredata_rebuild.py && astro dev --remote",
+    "dev": "src/utils/coredata_rebuild.py && astro dev --remote --host",
+    "start": "src/utils/coredata_rebuild.py && astro dev --remote --host",
     "build": "src/utils/coredata_rebuild.py && astro check && astro build --remote",
     "preview": "astro preview",
     "astro": "astro",
@@ -14,6 +14,8 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/db": "^0.18.0",
+    "@astrojs/node": "^9.4.4",
+    "@astrojs/react": "^4.4.0",
     "@astrojs/starlight": "^0.36.0",
     "@jop-software/astro-cookieconsent": "^3.0.1",
     "astro": "^5.13.9",

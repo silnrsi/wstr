@@ -7,6 +7,8 @@ import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
 import cookieconsent from "@jop-software/astro-cookieconsent";
 import db from '@astrojs/db';
+import react from '@astrojs/react';
+import node from '@astrojs/node';
 
 const googleAnalyticsId = 'G-WHT6CVPT8M';
 
@@ -14,6 +16,9 @@ const googleAnalyticsId = 'G-WHT6CVPT8M';
 export default defineConfig({
     site: process.env.ASTRO_SITE || "https://writingsystems.info",
     base: process.env.ASTRO_BASE || "/",
+    adapter: node({
+      mode: 'standalone',
+      }),
     integrations: [
         starlight({
             title: 'Writing Systems Technical Resources',
@@ -203,7 +208,8 @@ export default defineConfig({
                 },
             },
         }),
-        db()
+        db(),
+        react(),
     ],
     markdown: {
         rehypePlugins: [
