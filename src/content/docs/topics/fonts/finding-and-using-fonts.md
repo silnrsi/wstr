@@ -29,7 +29,7 @@ Both Adobe and Google allow their font catalogs to be filtered by language or wr
 
 SIL has developed a "Language Font Finder" service so that software applications can choose a reasonable default font based on the language code. The service combines information about specific languages, what script a language is likely to use, and what fonts may be suitable for individual scripts. The returned value is a JSON object with information about a font (or fonts) suitable for the language. The [LFF][lff] service documents the API access.
 
-There is not yet any user-friendly way to use the Language Font Finder outside of supporting applications, however, we hope to provide one in the future. 
+Try out the [prototype of a user-facing LFF front-end](/lff).
 
 [adobe-open-source]: https://fonts.adobe.com/foundries/open-source
 [adobe-source-sans]: https://github.com/adobe-fonts/source-sans
