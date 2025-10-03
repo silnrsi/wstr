@@ -1,0 +1,31 @@
+---
+export const prerender = false
+
+import ApiBrowser from '../components/ApiBrowser.jsx'; 
+
+// TODO
+// autocomplete of the langtags? 
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../src/styles/custom.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LFF front-end prototype</title>
+</head>
+<body>
+  <h1>LFF front-end prototype</h1>
+
+Type in a <a href="https://writingsystems.info/topics/writingsystems/language-tagging">BCP47 language tag (langtag)</a> e.g. <em> nod-Lana-TH, wsg-Gong-IN, shu-Arab-TD, taq-Tfng-ML </em> (using the <em>tag-Script-REGION</em> format) to find corresponding font information. 
+<br>
+
+See the <a href="https://lff.api.languagetechnology.org/docs" target="_blank">LFF service API documentation</a> for more details. 
+
+<br>
+<br>
+  <ApiBrowser client:load />
+</body>
+</html>
+
