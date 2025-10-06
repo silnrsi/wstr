@@ -3,7 +3,7 @@ title: Unicode Status for Hebrew
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 In The Unicode Standard, Hebrew Script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G6528).
@@ -99,3 +99,8 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2024-12-05 Proposal to encode Hebrew Point Sheva Na — Jonathan Mosesson ([L2/24-274](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-274))
   - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 1.2.)_
   - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 1.2 for decision and action items)_
+- 2025-05-05 UTC Doc: Regarding the name “Heavy Sheva” — Ben Denckla ([L2/25-160](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-160))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.17.)_
+- 2025-05-28 Adding dagesh ḥazaq to Hebrew — Ben Denckla ([L2/25-175](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-175))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 1.4.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.4 for decision and action items)_

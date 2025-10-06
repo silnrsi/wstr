@@ -3,7 +3,7 @@ title: Unicode Status for Jurchen
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 The Jurchen script is not yet in Unicode. The script has a tentative allocation at U+18E00..U+191DF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
@@ -39,3 +39,10 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2024-06-12 Proposal to Encode Radicals for the Jurchen Script — Andrew West, Sun Bojun, Michael Everson    (WG2 N5278, [L2/24-140](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-140))
   - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.III.6.)_
   - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 6 for decision and action items)_
+- 2025-05-22 Proposal to encode Jurchen Small Script characters — Viacheslav Zaytsev, Andrew West ([L2/25-152](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-152))
+- 2025-06-10 Technical update on Proposal to encode Jurchen Small Script characters — Viacheslav Zaytsev, Andrew West ([L2/25-164](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-164))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 1.2.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.2 for decision and action items)_
+- 2025-06-24 Request to rename Jurchen to Jurchen Large Script (WG2 N5338) — Viacheslav Zaytsev, Andrew West ([L2/25-171](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-171))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 3.9.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 3.9 for decision and action items)_

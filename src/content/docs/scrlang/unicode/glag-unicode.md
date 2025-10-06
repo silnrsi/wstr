@@ -3,7 +3,7 @@ title: Unicode Status for Glagolitic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 In The Unicode Standard, Glagolitic script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G15862).
@@ -54,3 +54,5 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2019-09-09 Proposal to add a character used in printed Glagolitic works to the UCS — Zoran Vukojević ([L2/19-288](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/19-288))
   - _Recommendations to UTC #161 October 2019 on Script Proposals ([L2/19-343](http://www.unicode.org/L2/L2019/19343-script-adhoc-recs.pdf)) (See point 1.)_
   - _UTC #161 Minutes ([L2/19-323](https://www.unicode.org/L2/L2019/19323.htm)) (See C.13 for decision and action items)_
+- 2025-06-30 ([Feedback: Glagolitic representative glyphs](https://www.unicode.org/L2/L2025/25163-pubrev.html#ID20250502124534))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.7.)_

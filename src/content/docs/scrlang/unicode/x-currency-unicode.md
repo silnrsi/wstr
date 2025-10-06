@@ -3,7 +3,7 @@ title: Unicode Status for Currency
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 In The Unicode Standard, Currency symbols are discussed in [Chapter 22: Symbols](https://www.unicode.org/versions/latest/core-spec/chapter-22/#G13244). Currency symbols generally have an inherited script property rather than a specific script property.
@@ -164,3 +164,9 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.1 for decision and action items)_
 - 2025-03-10 Proposal to encode Maldivian Rufiyaa Sign in the Unicode Standard — Naail Abdul Rahman, Abdulla Shafeeu ([L2/25-122](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-122))
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.1.)_
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 2.2.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 2.2 for decision and action items)_
+- 2025-05-26 Proposal for the Inclusion of the UAE Dirham Currency Sign in ISO/IEC 10646 in the Currency Symbol Block (WG2 N5322) — Central Bank of the U.A.E. ([L2/25-159](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-159))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 2.1.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 2.1 for decision and action items)_
+- 2025-07-14 Proposal to Encode the UAE Dirham Currency Symbol in Unicode — Bram van de Ven ([L2/25-174](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-174))

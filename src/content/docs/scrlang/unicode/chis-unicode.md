@@ -3,7 +3,7 @@ title: Unicode Status for Chisoi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 The Chisoi script has been accepted for encoding in a future version of the Unicode Standard.. The script has a provisional allocation at U+16D80..U+16DAF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
@@ -21,3 +21,6 @@ A number of documents towards its inclusion have been submitted to the Unicode T
   - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 15.)_
   - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point A.III.4.)_
   - _UTC #174 Minutes ([L2/23-005](http://www.unicode.org/L2/L2023/23005.htm)) (SeeD.1. Section III.4 for decision and action items)_
+- 2025-07-18 ([Feedback: Chisoi AAI](https://www.unicode.org/review/pri526/feedback.html#ID20250602131545))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 3.7.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 3.7 for decision and action items)_

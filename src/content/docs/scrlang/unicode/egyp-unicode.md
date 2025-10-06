@@ -3,7 +3,7 @@ title: Unicode Status for Egyptian Hieroglyphs
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 In The Unicode Standard, implementation of Egyptian Hieroglyphs is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G26607), [UTN 32: Mapping Between Manuel de Codage and Unicode Egyptian Hieroglyphs](https://www.unicode.org/notes/tn32/), and in [Unicode Egyptian Hieroglyph Database (Unikemet)](https://www.unicode.org/reports/tr57/).
@@ -229,3 +229,8 @@ Daniel A. Werning ([L2/24-175](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl
 - 2025-02-14 Proposed Update UAX #57, Unicode Egyptian Hieroglyph Database (Unikemet) — Michel Suignard ([L2/25-108](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-108))
 - 2025-04-16 Considerations about Egyptian Hieroglyph legacy characters — Michel Suignard ([L2/25-110](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-110))
 - 2025-04-22 Changes to Unikemet properties between 16.0 and 17.0β — Robin Leroy ([L2/25-139](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-139))
+- 2025-06-26 Corruption of the basic sign list of Egyptian hieroglyphs in Unicode 16 — Mark-Jan Nederhof ([L2/25-172](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-172))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.3.)_
+- 2025-06-09 ([Feedback: Egyptian hieroglyphs](https://www.unicode.org/review/pri526/feedback.html#ID20250609092422))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.2.)_
+- 2025-07-22 Changes to Unikemet properties between 17.0β and 17.0 — Robin Leroy ([L2/25-178](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-178))

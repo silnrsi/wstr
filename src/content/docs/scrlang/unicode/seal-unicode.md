@@ -3,7 +3,7 @@ title: Unicode Status for Small Seal
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 The Small Seal script (sometimes called Shuowen) is not yet in Unicode. The Small Seal script has a tentative allocation at U+38000..U+3AB9F in the [Roadmap to the TIP](http://www.unicode.org/roadmaps/tip/) for the Unicode Standard.
@@ -50,3 +50,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2025-03-31 Converging towards a Small Seal encoding proposal — Michel Suignard ([L2/25-111](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-111))
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 6.)_
   - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.4 for decision and action items)_
+- 2025-07-14 CJK & Unihan Working Group Recommendations for UTC Meeting #184: Seal Script — CJK / Ken Lunde ([L2/25-186](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-186))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 4.1.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 4.1 for decision and action items)_

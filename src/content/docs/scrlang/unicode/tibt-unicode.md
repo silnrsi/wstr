@@ -3,7 +3,7 @@ title: Unicode Status for Tibetan
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 In The Unicode Standard, Tibetan script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G31615).
@@ -103,3 +103,11 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
   - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 27 for decision and action items)_
 - 2022-07-20 Nonalphabetic bindus (beta feedback) _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 27.)_
   - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1.27 for decision and action items)_
+- 2024-10-25 Proposal to clarify the usage of shay in the Core Specification — Kushim Jiang ([L2/25-207](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-207))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.4.)_
+- 2024-12-27 Comments on Tibetan Double Shad — Peter Lofting ([L2/25-208](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-208))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.4.)_
+- 2025-01-03 Response from Peter Lofting to Kushim — Peter Lofting ([L2/25-209](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-209))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.4.)_
+- 2025-06-30 ([Feedback: Tibetan character name typos](https://www.unicode.org/review/pri526/feedback.html#ID20250630202256))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.5.)_

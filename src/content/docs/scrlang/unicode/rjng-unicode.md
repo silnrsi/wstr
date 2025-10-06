@@ -3,7 +3,7 @@ title: Unicode Status for Rejang
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 In The Unicode Standard, Rejang script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G27208) and in [UTN 35: Indonesian and Philippine Scripts and extensions](https://www.unicode.org/notes/tn35/).
@@ -27,3 +27,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2021-02-02 Towards an Encoding for Surat Ulu — M. Mahali Syarifuddin ([L2/21-116](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-116))
   - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 17.)_
   - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+- 2025-06-10 Review on the Rejang Unicode Range A930–A95F — Ariq Syauqi, Sarwit Sarwono ([L2/25-162](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-162))
+- 2025-07-14 Glyph error in U+A93D REJANG LETTER RA — Ariq Syauqi, Sarwit Sarwono ([L2/25-177](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-177))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 3.1.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 3.1 for decision and action items)_

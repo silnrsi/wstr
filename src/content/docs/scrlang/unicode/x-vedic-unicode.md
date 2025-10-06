@@ -3,7 +3,7 @@ title: Unicode Status for Vedic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 The Vedic Extensions block was first encoded in The Unicode Standard version 5.2. Vedic Extensions are discussed in [Chapter 12 South and Central Asia-I: Official Scripts of India](http://www.unicode.org/versions/latest/ch12.pdf) in the Devanagari Extended section. Vedic Extensions may be used with many Indic scripts. Unicode Status pages for scripts that use the Vedic Extensions are found here: [Bengali](/scrlang/scripts/beng), [Devanagari](/scrlang/scripts/deva), [Grantha](/scrlang/scripts/gran), [Gujarati](/scrlang/scripts/gujr), [Gurmukhi](/scrlang/scripts/guru), [Kannada](/scrlang/scripts/knda), [Malayalam](/scrlang/scripts/mlym), [Newa](/scrlang/scripts/newa), [Oriya](/scrlang/scripts/orya), [Sharada](/scrlang/scripts/shrd), [Tamil](/scrlang/scripts/taml) and [Telugu](/scrlang/scripts/telu).
@@ -129,3 +129,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2021-03-13 Interaction of Vedic svara markers with post-base spacing marks — Shriramana Sharma ([L2/21-054](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-054))
   - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 15.)_
   - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
+- 2025-05-26 Updates to Script Extensions properties of Vedic characters — Srinidhi A, Sridatta A ([L2/25-154](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-154))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 3.5.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 3.5 for decision and action items)_

@@ -3,7 +3,7 @@ title: Unicode Status for Katakana
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 In The Unicode Standard, Katakana implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G12058).
@@ -69,3 +69,5 @@ A number of documents have been submitted to the Unicode Technical Committee and
   - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See E.1 Section 22 for decision and action items)_
 - 2025-02-20 Addendum to Proposal to add Katakana Letter Small Ne to Unicode — Kentaro Bimbatti ([L2/25-060](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-060))
 - 2025-04-22 Katakana and Hiragana digraphs annotations _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 4.3.)_
+- 2025-07-05 Proposal on two alternate Katakana letters (revised) — Eiso Chan ([L2/25-151](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-151))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.20.)_

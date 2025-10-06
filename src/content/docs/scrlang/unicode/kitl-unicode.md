@@ -3,7 +3,7 @@ title: Unicode Status for Khitan Large
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-17
+lastUpdated: 2025-10-06
 ---
 
 The Khitan Large (or Khitan Ideographs) script is not yet in Unicode. The script has a tentative allocation at U+18D80..U+195FF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
@@ -31,3 +31,4 @@ A number of proposals for its inclusion (and also that of [Khitan Small](https:/
 - 2014-10-14 Preliminary Review of Proposal on Encoding Khitan Large Script in UCS (N4631) — Andrew West, Viacheslav Zaytsev ([WG2 N4559](https://www.unicode.org/wg2/docs/n4559.pdf), [L2/14-233](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-233))
 - 2016-08-20 Summary of Meeting on Khitan Scripts, 20 August 2016 (Yinchuan, China) - Ad Hoc Report #1 — Deborah Anderson (WG2 N4736, [L2/16-243](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-243))
 - 2016-08-22 Summary of Meeting on Khitan Scripts, 22 August 2016 (Yinchuan, China) - Ad Hoc Report #2 — Deborah Anderson (WG2 N4737, [L2/16-244](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-244))
+- 2025-06-12 Review of Preliminary Proposal on the Khitan Large Script (WG2 N5319) — Andrew West, Viacheslav Zaytsev ([L2/25-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-166))

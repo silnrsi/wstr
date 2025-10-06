@@ -3,7 +3,7 @@ title: Unicode Status for Latin
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 In The Unicode Standard, Latin script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G4321), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), <br />
@@ -811,3 +811,29 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2025-04-04 Unicode request for letters with double tilde overlay — Kirk Miller ([L2/25-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-114))
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.8.)_
   - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.8 for decision and action items)_
+- 2025-04-23 Unicode request for schwa with right hook — Kirk Miller, Neil Rees		[L2/25-155]	(https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-155)
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 1.9.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.9 for decision and action items)_
+- 2025-05-03 Unicode request to add capital U with left hook — Ismael Robles Haloui ([L2/25-176](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-176))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 1.11.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.11 for decision and action items)_
+- 2025-05-06 Unicode request for modifier small-cap W — Kirk Miller, Denis Moyogo Jacquerye ([L2/25-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-158))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.18.)_
+- 2025-05-09 Unicode request for wavy Y — Kirk Miller, Denis Moyogo Jacquerye ([L2/25-145](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-145))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 1.7.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.7 for decision and action items)_
+- 2025-05-09 Unicode request for ɪ with retroflex hook — Kirk Miller ([L2/25-146](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-146))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 1.6.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.6 for decision and action items)_
+- 2025-05-09 Unicode request for open q and x with stroke — Kirk Miller, Ophir Lifshitz, Denis Moyogo Jacquerye ([L2/25-147](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-147))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 1.5.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.5 for decision and action items)_
+- 2025-06-06 Unicode request for old-style IPA pitch and tonetic stress marks (revised) — Kirk Miller, Michael Ashby ([L2/25-156](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-156))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 1.10.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.3 for decision and action items)_
+- 2025-06-06 Unicode request for stacked arrowheads — Kirk Miller ([L2/25-157](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-157))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 1.8.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.8 for decision and action items)_
+- 2025-07-18 ([Feedback: Annotations to Phonetic Extensions](https://www.unicode.org/review/pri526/feedback.html#ID20250623024631))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 3.8.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 3.8 for decision and action items)_

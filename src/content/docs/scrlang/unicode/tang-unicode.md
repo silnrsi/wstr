@@ -3,7 +3,7 @@ title: Unicode Status for Tangut
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-03
+lastUpdated: 2025-10-06
 ---
 
 In The Unicode Standard, Tangut script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G43635) and in [UTN 42: Tangut Character Additions and Glyph Corrections](https://www.unicode.org/notes/tn42/).
@@ -156,3 +156,12 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.4.)_
   - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.4 for decision and action items)_
 - 2025-04-18 Glyph changes for 18 Tangut ideographs and 1 Tangut Component — Andrew West, Viacheslav Zaytsev ([L2/25-143](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-143))
+- 2025-05-26 Proposal to encode one newly-identified Tangut ideograph — Andrew West ([L2/25-165](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-165))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 1.1.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.1 for decision and action items)_
+- 2025-06-05 Evidence for the glyph form of U+17F03 — Andrew West ([L2/25-167](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-167))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 3.2.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.1 for decision and action items)_
+- 2025-07-18 Glyph Change for Tangut ideograph U+18355 (no document).
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 3.3.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.1 for decision and action items)_

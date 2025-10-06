@@ -3,7 +3,7 @@ title: Unicode Status for Syriac
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
 In The Unicode Standard, Syriac Script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G13005) and in [UTN 52: Christian Palestinian Aramaic (CPA) Encoding](https://www.unicode.org/notes/tn52/). The Unicode Syriac block combines all three main script variants (Estrangelo, Eastern and Western) in a single set of character codes.
@@ -65,3 +65,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2022-07-20 _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 30.)_
 - 2023-12-22 UTN#52: Christian Palestinian Aramaic Encoding — Claire Clivaz and Alain J. Desreumaux ([UTN#52](https://www.unicode.org/notes/tn52/))
   - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.30.)_
+- 2025-07-01 ([Feedback: U+0320 in Syriac](https://www.unicode.org/L2/L2025/25163-pubrev.html#ID20250701130021))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 4.3.)_
+  - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 4.3 for decision and action items)_
