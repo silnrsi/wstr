@@ -80,7 +80,7 @@ You can stop the service by typing Ctrl-D (or Ctrl-C).
 
 (If you want to halt, or remove up the container, the easiest is to manage the container via Docker Desktop.)
 
-*Bear in mind that he search facility at the top is not active for a local container.*
+*Bear in mind that the search facility at the top is not active for a local container.*
 
 
 
