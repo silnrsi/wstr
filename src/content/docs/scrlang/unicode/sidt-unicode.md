@@ -3,14 +3,19 @@ title: Unicode Status for Sidetic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-03
 ---
 
-The Sidetic script has been accepted for a future version of Unicode. The script has a tentative allocation at U+10940..U+1095F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+In The Unicode Standard, Sidetic script implementation is discussed in [Chapter 8: Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G27262).
 
 ## Blocks
 
-None.
+The Sidetic script was encoded in The Unicode Standard version 17.0. The script is encoded in the following block:
+
+| Blocks | Character Range | Added in Unicode Version | Unicode Chart |
+| ------ | --------------- | ------------------------ | ------------- |
+| Sidetic   | 10940..1095F | 17.0 | [U10940.pdf](https://www.unicode.org/charts/PDF/U10940.pdf) |
+
 
 ## Proposals and documents
 

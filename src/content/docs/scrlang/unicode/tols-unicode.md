@@ -3,14 +3,18 @@ title: Unicode Status for Tolong Siki
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-03
 ---
 
-The Tolong Siki script is not yet in Unicode. The script has an allocation at U+11DB0..U+11DEF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+In The Unicode Standard, Tolong Siki script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G746342).
 
 ## Blocks
 
-None.
+The Tolong Siki script was encoded in The Unicode Standard version 17.0. The script is encoded in the following block:
+
+| Blocks | Character Range | Added in Unicode Version | Unicode Chart |
+| ------ | --------------- | ------------------------ | ------------- |
+| Tolong Siki   | 11DB0..11DEF | 17.0 | [U11DB0.pdf](https://www.unicode.org/charts/PDF/U11DB0.pdf) |
 
 ## Proposals and documents
 

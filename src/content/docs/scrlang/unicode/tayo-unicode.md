@@ -3,14 +3,18 @@ title: Unicode Status for Tai Yo
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-03
 ---
 
-The Tai Yo  has been accepted for encoding in a future version of the Unicode standard. The script has a provisional allocation at U+1E6C0..U+1E6FF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+In The Unicode Standard, Tai Yo script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G73729).
 
 ## Blocks
 
-None.
+The Tai Yo script was encoded in The Unicode Standard version 17.0. The script is encoded in the following block:
+
+| Blocks | Character Range | Added in Unicode Version | Unicode Chart |
+| ------ | --------------- | ------------------------ | ------------- |
+| Tai Yo   | 1E6C0..1E6FF | 17.0 | [U1E6C0.pdf](https://www.unicode.org/charts/PDF/U1E6C0.pdf) |
 
 ## Proposals and documents
 

@@ -10,7 +10,7 @@ In The Unicode Standard,Chorasmian script implementation is discussed in [Chapte
 
 ## Blocks
 
-The Chorasmian  script was encoded in The Unicode Standard version 13.0. The script is encoded in the following block:
+The Chorasmian script was encoded in The Unicode Standard version 13.0. The script is encoded in the following block:
 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
