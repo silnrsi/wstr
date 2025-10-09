@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "src/utils/coredata_rebuild.py && astro dev --remote --host",
     "start": "src/utils/coredata_rebuild.py && astro dev --remote --host",
-    "build": "src/utils/coredata_rebuild.py && astro check && astro build --remote --host",
-    "preview": "astro preview",
+    "build": "src/utils/coredata_rebuild.py && astro check && astro build --remote",
+    "preview": "astro preview --host",
     "astro": "astro",
-    "linkcheck": "src/utils/coredata_rebuild.py && CHECK_LINKS=true ASTRO_SITE=https://writingsystems.info astro build --remote --host"
+    "linkcheck": "src/utils/coredata_rebuild.py && CHECK_LINKS=true ASTRO_SITE=https://writingsystems.info astro build --remote"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
