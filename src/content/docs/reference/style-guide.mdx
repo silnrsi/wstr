@@ -71,6 +71,16 @@ Page filenames should be:
 
 as in: `font-licensing.md` or `style-guide.mdx`.
 
+## Page URLs and Short URLs
+
+Page URLs (permalinks) are automatically generated from the filename and the folder structure. If you want a page to have a shorter or different URL you can set that in the frontmatter using the custom `shorturl` field. For example, a page with the filename-based path of `/topic/computing/langtech-webinar-links-2025` could have a simpler slug of `ltweb25` by adding this to the frontmatter:
+
+```yaml
+shorturl: ltweb25
+```
+
+This will set up a redirect so that if someone goes to the short URL they will be automatically redirected to the full URL. The page is then accessible at both original and short URLs.
+
 ## Page metadata
 
 Metadata is defined in the YAML header of each page. Here is a complete example including all optional fields. Note that formatting and indentation is very important, particularly for sidebar.
@@ -81,6 +91,7 @@ title: Page Title
 subtitle: Page subtitle
 description: General description
 authors: Authors names
+shorturl: shorturl
 sidebar:
     order: 1234
     label: Alternate sidebar title
@@ -95,11 +106,14 @@ Here are details, with required fields in **bold**.
 - `subtitle` - optional
 - **`description`** - required by us, but not normally shown to viewers
 - `authors` - optional, a single string of text that describes the author(s) and editor(s), normally listed in alphabetical order by last name
+- `shorturl` - optional, a short string that will be used as a redirect to the full URL
 - **`sidebar: order`** - required by us, use topic # from the WSTR Classification
 - `sidebar: label` - optional, replaces title in sidebar only, useful if page title is too long for sidebar
 - `sidebar: hidden` - optional, keeps page from being listed in sidebar
 - **`lastUpdated`** - required, use yyyy-mm-dd format, should be the date the content is current as of, not the date a minor typo was fixed. This will not be strictly enforced as there may be good reasons for a specific page to not include it. 
 - `draft` - optional, hides page from production builds, not currently recommended
+
+There are additional frontmatter fields that are used for special types of pages (e.g. Script pages).
 
 ## Use of raw HTML in page content
 
