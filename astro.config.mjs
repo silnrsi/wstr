@@ -91,6 +91,12 @@ export default defineConfig({
                     ],
                 },
                 {
+                    label: 'Article Library',
+                    items: [
+                        'articlelib/article-index',
+                    ]
+                },
+                {
                     label: 'Scripts & Languages',
                     //autogenerate: { directory: 'scrlang' },
                     items: [
