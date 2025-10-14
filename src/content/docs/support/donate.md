@@ -4,7 +4,7 @@ description: Donation info and link
 sidebar:
   order: 9970
 shorturl: donate
-lastUpdated: 2025-07-28
+lastUpdated: 2025-10-14
 ---
 
 This site is provided at no cost, and contains no advertising or other revenue-generating aspects. Please consider supporting this site and our other efforts to enable language communities to use their writing systems on computers and mobile devices.
@@ -12,4 +12,4 @@ This site is provided at no cost, and contains no advertising or other revenue-g
 [Donate to SIL][sil-donate]
 
 
-[sil-donate]: https://software.sil.org/give
+[sil-donate]: https://give.sil.org/campaign/725115/donate
