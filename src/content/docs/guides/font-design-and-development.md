@@ -104,7 +104,7 @@ See the [SIL Font Development Guide][silfontdev] for detailed guidance on how to
 [python-tools]: /topics/fonts/python-tools
 [robofont]: https://robofont.com/
 [shaping-and-rendering]: /topics/fonts/shaping-and-rendering
-[silfontdev]: https://silnrsi.github.io/silfontdev/en-US/index.html
+[silfontdev]: /topics/fonts/building-and-modifying-sil-fonts
 [sil-fonts]: https://software.sil.org/fonts/
 [smith]: https://github.com/silnrsi/smith
 [unified-font-objects-ufo]: /topics/fonts/unified-font-objects-ufo

@@ -18,7 +18,7 @@ SIL’s [_Writing Systems Technology_][wstech] team provides technical support f
 [keyman]: https://keyman.com
 [scriptsource]: https://scriptsource.org
 [sil]: https://www.sil.org
-[silfontdev]: https://silnrsi.github.io/silfontdev/en-US/index.html
+[silfontdev]: /topics/fonts/building-and-modifying-sil-fonts
 [sil-fonts]: https://software.sil.org/fonts/
 [sso]: https://scripts.sil.org
 [wstech]: https://software.sil.org/wstech/
