@@ -1,8 +1,6 @@
 ---
 title: Possible influence of Cherokee on the Liberian Vai syllabary
 description: A description of the possible influence of Cherokee syllabar on Liberian Vai syllabary
-sidebar:
-    hidden: true 
 tags: ["script-cher", "script-vaii", "script-bass", "syllabary", "writing systems"]
 lastUpdated: 2025-10-16
 ---

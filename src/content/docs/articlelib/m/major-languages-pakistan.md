@@ -1,8 +1,6 @@
 ---
 title: Major Languages of Pakistan
 description: A summary of the major languages of Pakistan
-sidebar:
-    hidden: true 
 tags: ["lang-bcc", "lang-bgn", "lang-brh", "lang-pus", "lang-snd", "lang-pnb", "lang-skr", "lang-khw", "lang-urd", "lang-bgp", "lang-hnd", "lang-phr"]
 lastUpdated: 2025-10-16
 ---
