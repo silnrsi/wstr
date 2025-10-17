@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+const articles = await getCollection('articlelibdocs');
+let uniqueTags  = new Set();
+
+articles.forEach(article => {
+  if (article.data.tags && Array.isArray(article.data.tags)) {
+    article.data.tags.forEach(tag => uniqueTags.add(tag));
+  };
+});
+
+const tagsSorted = Array.from(uniqueTags).sort();
+---
+
+<ul>
+  {tagsSorted.map(tag => (
+    <li>{tag}</li>
+  ))}
+</ul>
