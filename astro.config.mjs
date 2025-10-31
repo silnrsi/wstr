@@ -107,7 +107,13 @@ export default defineConfig({
                 },
                 {
                     label: 'Reference',
-                    autogenerate: { directory: 'reference' },
+                    //autogenerate: { directory: 'reference' },
+                    items: [
+                        'reference/glossary',
+                        'reference/standards',
+                        'reference/style-guide',
+                        'reference/tag-reference',
+                    ],
                 },
                 {
                     label: 'Support',
