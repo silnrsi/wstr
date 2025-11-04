@@ -16,7 +16,9 @@ switch (Astro.props?.filter) {
     filter = (tag: string) => tag.startsWith(prefix)
 };
 
-const tagsSorted = [...new Set(articles.flatMap(article => article.data.tags?.filter(filter)))].sort();
+const tagsSorted = [...new Set(articles.flatMap(
+  article => article.data.tags?.filter(filter)
+))].sort();
 ---
 
 <ul>
