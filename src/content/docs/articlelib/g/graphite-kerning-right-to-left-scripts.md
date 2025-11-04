@@ -2,7 +2,7 @@
 title: Graphite kerning for right-to-left scripts
 description: A description of ways to handle kerning for right-to-left scripts in Graphite
 authors: Sharon Correll
-tags: ["script-arab", "kerning", "graphite", "fonts"]
+tags: [script-arab, kerning, graphite, fonts]
 lastUpdated: 2025-10-20
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Font Information (Sign Writing)
 description: Font information about Sign Writing
-tags: ["script-sgnw"]
+tags: [script-sgnw]
 lastUpdated: 2025-10-16
 ---
 

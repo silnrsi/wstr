@@ -1,7 +1,7 @@
 ---
 title: Archaic form of nna
 description: Visual comparison between the standard and archaic form of U+0923
-tags: ["script-deva", "char-0923"]
+tags: [script-deva, char-0923]
 lastUpdated: 2025-10-16
 ---
 

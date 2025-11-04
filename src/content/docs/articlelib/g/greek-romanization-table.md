@@ -1,7 +1,7 @@
 ---
 title: Greek Romanization Table
 description: A table comparing the three systems used for transliterating the Greek script into the Latin script.
-tags: ["script-grek", "lang-ell", "transliteration", "analysis"]
+tags: [script-grek, lang-ell, transliteration, analysis]
 lastUpdated: 2025-10-20
 ---
 

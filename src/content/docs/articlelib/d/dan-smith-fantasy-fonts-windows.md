@@ -1,7 +1,7 @@
 ---
 title: Dan Smith's Fantasy Fonts for Windows
 description: Information about accessing fantasy fonts created by Dan Smith
-tags: ["script-cirt", "script-runr", "script-teng"]
+tags: [script-cirt, script-runr, script-teng]
 lastUpdated: 2025-10-16
 ---
 
