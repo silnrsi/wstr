@@ -1,9 +1,10 @@
 ---
 title: Font Design & Development
 description: Font development, design, structures, metadata, and production
+shorturl: guides/font-design-and-development
 sidebar:
   order: 5200
-lastUpdated: 2025-08-05
+lastUpdated: 2025-11-05
 ---
 
 Font development involves both creative graphic design and careful technical engineering. This guide and the accompanying articles have been written to document what we think are the best technical practices to use in font development. They are generally the practices we use — or intend on using as soon as practically possible.

@@ -76,7 +76,12 @@ export default defineConfig({
             sidebar: [
                 {
                     label: 'Guides',
-                    autogenerate: { directory: 'guides' },
+                    //autogenerate: { directory: 'guides' },
+                    items: [
+                        'topics/computing/app-development-best-practice',
+                        'topics/fonts/font-design-and-development',
+                        'topics/fonts/building-and-modifying-sil-fonts',
+                    ]
                 },
                 {
                     label: 'Topics',

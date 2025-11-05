@@ -1,10 +1,11 @@
 ---
 title: Application Development Best Practice
 description: Guide for software developers
+shorturl: guides/app-development-best-practice
 sidebar:
     order: 2500
     label: App Development Best Practice
-lastUpdated: 2025-08-15
+lastUpdated: 2025-11-05
 ---
 
 ## Introduction
