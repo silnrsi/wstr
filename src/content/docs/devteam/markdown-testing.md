@@ -1,8 +1,6 @@
 ---
 title: Markdown testing
 description: Testing markdown plugins and extensions in a normal .md file
-sidebar:
-  hidden: false
 lastUpdated: 2025-11-05
 ---
 
