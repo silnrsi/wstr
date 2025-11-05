@@ -3,42 +3,15 @@
 
 A step-by-step guide to the recommended WSTR contributor workflow. *(This guide is intended only for WSTech, specifically contributors with write access to the [WSTR git repository](https://github.com/silnrsi/wstr)).*
 
-You have two ways to contribute to WSTR: either directly from your browser in a hosted editor, or by using a local text editor and then pushing to the git repository manually. In both cases, contributors are authenticated via their GitHub account. It's recommended to stick with one approach per entry and not mix the two.
+You can contribute to WSTR by using a text editor and then pushing to the git repository manually. Contributors are authenticated via their GitHub account.
 
-*The [Style Guide](https://writingsystems.info/reference/styleguide/) is useful no matter which approach you use. Remember that, although we have not advertised the URL very widely, this is a public website, and ongoing drafts are also stored in public branches. So you must not draft or publish private information and you must credit your sources and honor existing copyright and licensing statements.*
+*The [Style Guide in the Devteam section](https://writingsystems.info/devteam/) is useful no matter which approach you use. Remember that, although we have not advertised the URL very widely, this is a public website, and ongoing drafts are also stored in public branches. So you must not draft or publish private information and you must credit your sources and honor existing copyright and licensing statements.*
 
-## Contributing or modifying an entry using your browser
+## Contributing or modifying an entry
 
-WSTR is using Decap, a [headless web-based editor](https://decapcms.org/) configured to work with a [shared public git repository](https://github.com/silnrsi/wstr) and the [Starlight documentation theme](https://starlight.astro.build/) built on the [Astro framework](https://astro.build/). It's designed to run directly in your browser to help you add or modify existing entries.
+WSTR is build from a [shared public git repository](https://github.com/silnrsi/wstr) using the [Starlight documentation theme](https://starlight.astro.build/) and the [Astro framework](https://astro.build/).
 
-To contribute or modify an entry:
-
-- Go to the [WSTR admin interface at https://writingsystems.info/admin]( https://writingsystems.info/admin)
-- Click on the **Login with GitHub** button
-- Authorize your GitHub account to be used for Decap
-
-In the admin interface, you will see a **Contents tab** to the left with the various sections called "collections". These represent the major topics. You can browse through the existing entries available under the different sections.
-
-**Clicking on an entry** will bring up the content in edit mode.
-
-Push the slider to the right (from Rich Text to Markdown) to be able to see the markdown source and to edit it directly. You can review and modify existing entries. (Markdown is the preferred option rather than Rich Text).
-
-The **Workflow tab** allows you to see the statuses of the various entries currently being worked on. There are only three statuses: **Draft, In Review** and **Ready** and you can switch back and forth as needed. Once you click on an entry, you will be in edit mode.
-
-The required frontmatter fields are **title, description and sidebar/order**, others are optional. The Order number corresponds to the WSTR classification from 1000 to 9999. See the WSTR classification spreadsheet.
-
-Once you have made the desired changes to the entry, you can use the buttons at the top to save your changes or go back to other entries. Currently the workflow does not enforce a moderation step or require a review from someone else.
-
-To publish your changes you need to change the status to Ready, then click on **Publish -> Publish Now**.
-(If you press Publish-> Publish Now while still in draft, it will tell you that you need to change the status to In Review.) After confirming, your entry is now in **status Published**.
-
-Bear in mind that the **View Live link** on the top right may not yet show all your modifications because fresh changes are still being generated. This workflow relies on git branches and PRs done in the background. When automatically merged back to the main branch, changes to the content get rebuilt by GitHub Actions and published to the website at [https://writingsystems.info/](https://writingsystems.info/). It may take up to a minute for all the content to be published. It will probably get a bit longer as we add more content, so it's not instant but not too long either.
-
-## Contributing via your text editor (with local preview and git)
-
-The beauty of Markdown is that you can use your preferred editor to author and modify it. You can also have a local preview that is faster than waiting for the whole site to be rebuilt. In this guide we are recommending VScode with a markdown preview extension. You can preview the entry you are currently working on directly or you can build the whole site locally and see your entry full integrated with the rest of the content like it would be on the live version.
-
-To contribute or modify an entry, you have two ways of doing it locally:
+To contribute or modify an entry you simply edit the Mardown sources directly. The beauty of Markdown is that you can use your preferred editor. You can also have a local preview that is faster than waiting for the whole site to be rebuilt. In this guide we are recommending VScode with a markdown preview extension. You can preview the entry you are currently working on directly or you can build the whole site locally and see your entry fully integrated with the rest of the content like it would be on the live version.
 
 ### Using VScode (or any Markdown editor) without the local Docker container
 
@@ -70,9 +43,11 @@ Press the **Reopen in Container** button. This will build the container and auto
 Click on the Terminal tab, then type:
 
 ```bash
-npm clean-install
+npm ci
 npm run dev
 ```
+
+(ci stands for clean-install)
 
 Then click on the link to point your browser to the local instance of WSTR running in the container. Now, all the changes you make to the various documents under `src/content/docs/` will be updated live in your browser. The Terminal panel should show *"watching for file changes..."*
 
@@ -81,8 +56,6 @@ You can stop the service by typing Ctrl-D (or Ctrl-C).
 (If you want to halt, or remove up the container, the easiest is to manage the container via Docker Desktop.)
 
 *Bear in mind that the search facility at the top is not active for a local container.*
-
-
 
 When you are happy with the changes you made to the Markdown files, you can commit and push them to git in the usual way. GitHub Actions will then pick up your commits, generate the whole website again and publish everything to [https://writingsystems.info/](https://writingsystems.info/)
 
