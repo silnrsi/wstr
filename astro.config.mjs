@@ -116,8 +116,6 @@ export default defineConfig({
                     items: [
                         'reference/glossary',
                         'reference/standards',
-                        'reference/style-guide',
-                        'reference/tag-reference',
                     ],
                 },
                 {
