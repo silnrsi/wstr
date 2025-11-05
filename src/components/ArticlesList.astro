@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+const articles = await getCollection('articlelibdocs');
+const { tag } = Astro.props;
+
+let filteredArticles = articles;
+if (tag) {
+  filteredArticles = articles.filter(article => 
+    article.data.tags && Array.isArray(article.data.tags) && article.data.tags.includes(tag)
+  );
+}
+---
+
+<ul>
+  {filteredArticles.map(article => (
+    <li><a href={`/articlelib/${article.id}`}>{article.data.title}</a></li>
+  ))}
+</ul>

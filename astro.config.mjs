@@ -96,6 +96,12 @@ export default defineConfig({
                     ],
                 },
                 {
+                    label: 'Article Library',
+                    items: [
+                        'articlelib/article-index',
+                    ]
+                },
+                {
                     label: 'Scripts & Languages',
                     //autogenerate: { directory: 'scrlang' },
                     items: [
@@ -106,7 +112,13 @@ export default defineConfig({
                 },
                 {
                     label: 'Reference',
-                    autogenerate: { directory: 'reference' },
+                    //autogenerate: { directory: 'reference' },
+                    items: [
+                        'reference/glossary',
+                        'reference/standards',
+                        'reference/style-guide',
+                        'reference/tag-reference',
+                    ],
                 },
                 {
                     label: 'Support',

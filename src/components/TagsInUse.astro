@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import { array } from 'astro:schema';
+const articles = await getCollection('articlelibdocs');
+
+let filter
+switch (Astro.props?.filter) {
+  case undefined: 
+    filter = (_: string) => true;
+    break
+  case "topic":
+    filter = (tag: string) => !tag.includes('-'); 
+    break;
+  default:
+    const prefix = Astro.props.filter + '-'
+    filter = (tag: string) => tag.startsWith(prefix)
+};
+
+const tagsSorted = [...new Set(articles.flatMap(
+  article => article.data.tags?.filter(filter)
+))].sort();
+---
+
+<ul>
+  {tagsSorted.map(tag => (
+    <li>{tag}</li>
+  ))}
+</ul>
+
+<style>
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+</style>
