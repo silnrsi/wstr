@@ -1,7 +1,6 @@
 ---
 title: Font Design & Development
 description: Font development, design, structures, metadata, and production
-shorturl: guides/font-design-and-development
 sidebar:
   order: 5200
 lastUpdated: 2025-11-05

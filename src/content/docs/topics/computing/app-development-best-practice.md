@@ -1,7 +1,6 @@
 ---
 title: Application Development Best Practice
 description: Guide for software developers
-shorturl: guides/app-development-best-practice
 sidebar:
     order: 2500
     label: App Development Best Practice
