@@ -3,7 +3,7 @@ title: Markdown testing
 description: Testing markdown plugins and extensions in a normal .md file
 sidebar:
   hidden: false
-lastUpdated: 2025-07-15
+lastUpdated: 2025-11-05
 ---
 
 Testing markdown, plugins, and extensions in a normal .md file
@@ -40,7 +40,7 @@ Table with no-break space headers
 
 ### Normal h3 heading
 
-### [h3 heading that's also a link](/reference/style-guide)
+### [h3 heading that's also a link](/devteam/style-guide)
 
 Indentation
 
