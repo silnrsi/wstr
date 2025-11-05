@@ -15,6 +15,11 @@ These are links to pages intended for use by the development team.
 - [Component Reference](/devteam/component-reference)
 - [Component Coredata Examples](/devteam/component-coredata-examples)
 
+## Article Library and Tags
+
+- [Tag Reference](/devteam/tag-reference)
+- [Article Index](/articlelib/article-index)
+
 ## Testing
 
 - [Markdown Testing](/devteam/markdown-testing)
