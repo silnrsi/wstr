@@ -5,6 +5,7 @@ authors: Victor Gaultney, Melinda Lyons
 sidebar:
     order: 2100
     label: WS Computing Model
+tags: [analysis, conversion, encoding, fonts, input, layout, rendering]
 lastUpdated: 2025-07-16
 ---
 

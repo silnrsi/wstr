@@ -4,6 +4,7 @@ description: Description and examples of punctuation
 authors: Lorna Priest
 sidebar:
     order: 6250
+tags: [script-cyrl, script-deva, script-ethi, script-tibt]
 lastUpdated: 2025-08-06
 ---
 

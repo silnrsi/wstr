@@ -4,6 +4,7 @@ description: Font naming standards
 sidebar:
   order: 5310
   label: Font & Style Naming
+tags: [naming, opentype]
 lastUpdated: 2025-07-21
 ---
 

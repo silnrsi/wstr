@@ -4,6 +4,7 @@ description: Description and examples of layout direction
 authors: Lorna Priest
 sidebar:
     order: 6100
+tags: [direction, script-arab, script-buhd, script-grek, script-hani, script-hano, script-jpan, script-linb, script-mero, script-mong, script-ogam, script-osma, script-phag, script-phnx, script-roro, script-sgnw, script-sogd, script-thaa]
 lastUpdated: 2025-08-13
 ---
 

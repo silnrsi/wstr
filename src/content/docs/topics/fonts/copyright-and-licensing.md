@@ -4,6 +4,7 @@ description: Font copyright and licensing best practice
 sidebar:
   order: 5170
   label: Copyright & Licensing
+tags: [distribution]
 lastUpdated: 2025-08-05
 ---
 

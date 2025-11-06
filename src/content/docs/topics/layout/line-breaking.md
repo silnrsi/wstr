@@ -1,6 +1,6 @@
 ---
 title: Line Breaking
-description: Issues in line breaking
+description: Methods and tools for line breaking
 authors: Martin Hosken and Lorna Priest
 sidebar:
     order: 6210

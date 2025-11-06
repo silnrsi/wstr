@@ -4,6 +4,7 @@ description: Summary article on hyphenation
 authors: Lorna Priest
 sidebar:
   order: 6230
+tags: [script-ethi]
 lastUpdated: 2025-08-14
 ---
 
