@@ -30,7 +30,7 @@ export const collections = {
     }),
   }),
   articlelibdocs: defineCollection({
-    loader: glob({ pattern: ['articlelib/**/*.md', 'articlelib/**/*.mdx'], base: './src/content/docs' }),
+    loader: glob({ pattern: ['articlelib/**/*.md', 'articlelib/**/*.mdx', '!articlelib/article-index.mdx'], base: './src/content/docs' }),
     schema: docsSchema({
       extend: z.object({
         subtitle: z.string().optional(),
