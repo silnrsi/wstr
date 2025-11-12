@@ -30,7 +30,18 @@ export const collections = {
     }),
   }),
   articlelibdocs: defineCollection({
-    loader: glob({ pattern: ['**/*.md', '**/*.mdx'], base: './src/content/docs/articlelib' }),
+    loader: glob({ pattern: ['articlelib/**/*.md', 'articlelib/**/*.mdx', '!articlelib/article-index.mdx'], base: './src/content/docs' }),
+    schema: docsSchema({
+      extend: z.object({
+        subtitle: z.string().optional(),
+        authors: z.string().optional(),
+        shorturl: z.string().optional(),
+        tags: z.array(z.string()).optional(),
+      }),
+    }), 
+  }),
+  topicsdocs: defineCollection({
+    loader: glob({ pattern: ['topics/**/*.md', 'topics/**/*.mdx'], base: './src/content/docs' }),
     schema: docsSchema({
       extend: z.object({
         subtitle: z.string().optional(),

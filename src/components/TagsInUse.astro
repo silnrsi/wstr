@@ -1,7 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
 import { array } from 'astro:schema';
-const articles = await getCollection('articlelibdocs');
+const articlelibonly = await getCollection('articlelibdocs');
+const topicsonly = await getCollection('topicsdocs');
+const articles = [...articlelibonly, ...topicsonly]; 
 
 let filter
 switch (Astro.props?.filter) {
