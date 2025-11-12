@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-10-06
 ---
 
-In The Unicode Standard, Osmanya script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G16914).
+In The Unicode Standard, Osmanya script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/#G16914).
 
 ## Blocks
 

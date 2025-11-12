@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Braille Patterns implementation is discussed in [Chapter 21: Notational Systems](https://www.unicode.org/versions/latest/core-spec/chapter-21/#G26597).
+In The Unicode Standard, Braille Patterns implementation is discussed in [Chapter 21: Notational Systems](https://www.unicode.org/versions/latest/core-spec/#G26597).
 
 ## Blocks
 

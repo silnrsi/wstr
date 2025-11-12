@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-10-06
 ---
 
-In The Unicode Standard, Katakana implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G12058).
+In The Unicode Standard, Katakana implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G12058).
 
 ## Blocks
 

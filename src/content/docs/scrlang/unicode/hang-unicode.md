@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Hangul implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G31028).
+In The Unicode Standard, Hangul implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G31028).
 
 ## Blocks
 

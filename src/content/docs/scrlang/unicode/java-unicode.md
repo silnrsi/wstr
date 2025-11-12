@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Javanese script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G27153) and in [UTN 47: Implementing Javanese](https://www.unicode.org/notes/tn47/).
+In The Unicode Standard, Javanese script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/#G27153) and in [UTN 47: Implementing Javanese](https://www.unicode.org/notes/tn47/).
 
 ## Blocks
 

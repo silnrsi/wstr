@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-10-06
 ---
 
-The Chisoi script has been accepted for encoding in a future version of the Unicode Standard.. The script has a provisional allocation at U+16D80..U+16DAF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Chisoi script has been accepted for encoding in a future version of the Unicode Standard. The script has a provisional allocation at U+16D80..U+16DAF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Blocks
 

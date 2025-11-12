@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-10-06
 ---
 
-In The Unicode Standard, Tangut script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G43635) and in [UTN 42: Tangut Character Additions and Glyph Corrections](https://www.unicode.org/notes/tn42/).
+In The Unicode Standard, Tangut script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G43635) and in [UTN 42: Tangut Character Additions and Glyph Corrections](https://www.unicode.org/notes/tn42/).
 
 ## Blocks
 

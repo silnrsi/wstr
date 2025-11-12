@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Elymaic script implementation is discussed in [Chapter 10 Middle East II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G41970).
+In The Unicode Standard, Elymaic script implementation is discussed in [Chapter 10 Middle East II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/#G41970).
 
 ## Blocks
 

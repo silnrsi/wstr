@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Cyrillic script implementation is discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts ](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G10850), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), and in [UTN 41: Church Slavonic Typography in Unicode](https://www.unicode.org/notes/tn41/).
+In The Unicode Standard, Cyrillic script implementation is discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts ](https://www.unicode.org/versions/latest/core-spec/#G10850), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), and in [UTN 41: Church Slavonic Typography in Unicode](https://www.unicode.org/notes/tn41/).
 
 ## Blocks
 
