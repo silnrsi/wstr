@@ -3,7 +3,7 @@ title: Unicode Status for Tulu-Tigalari
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-12
 ---
 
 In The Unicode Standard, Tulu-Tigalari script implementation is discussed in [Chapter 15 South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/#G746412).
@@ -125,3 +125,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.5.)_
 - 2025-04-05 Request for Expedited Encoding of Tulu Script — Captain Brijesh Chowta ([L2/25-116](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-116))
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.5.)_
+- 2025-10-17 Proposal to encode Combining Anusvara above in Tulu-Tigalari — Srinidhi A, Sridatta A ([L2/25-244](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-244))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 2.3)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 2.3 for decision and action items)_

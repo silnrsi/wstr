@@ -3,7 +3,7 @@ title: Unicode Status for Proto-Cuneiform
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-12
 ---
 
 The Proto-Cuneiform script is not yet in Unicode. The script has a tentative allocation at U+12580..U+12ECF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
@@ -32,3 +32,6 @@ A number of proposals toward encoding the script have been submitted to the WG2 
 - 2023-07-11 Revised proposal to encode Proto-Cuneiform in Unicode — Anshuman Pandey ([L2/23-190](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-190))
   - _Recommendations to UTC #176 July 2023 on Script Proposals ([L2/23-164](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-164)) (See point B.23.)_
   - _UTC #176 Minutes ([L2/23-157](https://www.unicode.org/L2/L2023/23157.htm)) (See D.1 Section 23 for decision and action items)_
+- 2025-10-07 Proposal to Encode Proto-Cuneiform in Unicode — Steve Tinney, Anshuman Pandey, Robin Leroy" ([L2/25-211](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-211))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 1.1)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 1.1 for decision and action items)_

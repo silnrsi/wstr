@@ -3,7 +3,7 @@ title: Unicode Status for Latin
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-06
+lastUpdated: 2025-11-12
 ---
 
 In The Unicode Standard, Latin script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G4321), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), <br />
@@ -757,6 +757,8 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 4.7 for decision and action items)_
 - 2024-09-04 Unicode request for ExtIPA cartouche (revised) — Kirk Miller, Martin Ball ([L2/24-182](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-182))
   - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point B.29.)_
+- 2024-09-17 Proposal to encode 11 cossic characters — Uwe Mayer, Siegmund Probst, David Rabouin, Elisabeth Rinner,
+Andreas Stötzner, Achim Trunk, Charlotte Wahl([L2/24-244](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-244))
 - 2024-10-18 Unicode request for subscript w y z and ɣ — Kirk Miller ([L2/24-219](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-219))
   - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 2.8.)_
   - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 2.8 for decision and action items)_
@@ -837,3 +839,13 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2025-07-18 ([Feedback: Annotations to Phonetic Extensions](https://www.unicode.org/review/pri526/feedback.html#ID20250623024631))
   - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 3.8.)_
   - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 3.8 for decision and action items)_
+- 2025-10-20 Unicode request for extended IPA tone diacritics — Kirk Miller, Valentin Vydrin, Maksim Fedotov ([L2/25-250](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-250))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 2.8)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 2.8 for decision and action items)_
+- 2025-10-21 Unicode request for Romance dialectology symbols (revised) — Nicolas Datua, Kirk Miller ([L2/25-251](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-251))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 2.4)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 2.4 for decision and action items)_
+- 2025-03-24 Proposal to encode 11 cossic characters — Uwe Mayer, Siegmund Probst, David Rabouin, Elisabeth Rinner, Andreas Stötzner, Achim Trunk, Charlotte Wahl ([L2/25-123](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-123))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 2.7)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 2.7 for decision and action items)_
+- 2025-10-10 Proposal to Update the Uppercase Mapping of LATIN SMALL LETTER SHARP S (U+00DF) to LATIN CAPITAL LETTER SHARP S (U+1E9E) — Luca Rodenhäuser([L2/25-223](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-223))

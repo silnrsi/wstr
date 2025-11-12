@@ -21,7 +21,7 @@ The Bamum script was encoded in The Unicode Standard version 5.2. Another block 
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:
 - 2006-09-21 Report on work with the Bamum script in Cameroon — Charles Riley  ([L2/06-313](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-313))
-- 2007-01-08 Towards the Encoding of the Bamum Script in the UCS — Charles Riley    ([L2/07-023](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-023))
+- 2007-01-08 Towards the Encoding of the Bamum Script in the UCS — Charles Riley ([L2/07-023](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-023))
 - 2007-02-23 Proposed block allocation Cyrillic / Bamum — Asmus Freytag ([     WG2 N3213](https://www.unicode.org/wg2/docs/n3213.pdf), [L2/07-105](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-105))
 - 2007-03-21 Preliminary proposal for encoding the Bamum script in the BMP of the UCS — Michael Everson and Charles Riley ([WG2 N3209](https://www.unicode.org/wg2/docs/n3209.pdf), [L2/07-024](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-024))
 - 2007-07-30 Request to Remove Bamum from Amendment 5 — Deborah Anderson (on behalf of Konrad Tuchscherer) ([WG2 N3298](https://www.unicode.org/wg2/docs/n3298.pdf), [L2/07-239](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-239))

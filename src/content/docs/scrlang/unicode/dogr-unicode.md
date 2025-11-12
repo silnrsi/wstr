@@ -3,7 +3,7 @@ title: Unicode Status for Dogra
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-12
 ---
 
 In The Unicode Standard, Dogra script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/#G100066).
@@ -28,3 +28,6 @@ A number of documents toward encoding the script have been submitted to the Unic
 - 2019-07-14 Representation of conjuncts involving Ra in Dogra script — Srinidhi A, Sridatta A ([L2/19-263](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/19-263))
   - _Recommendations to UTC #161 October 2019 on Script Proposals ([L2/19-343](http://www.unicode.org/L2/L2019/19343-script-adhoc-recs.pdf)) (See point 9.)_
   - _UTC #161 Minutes ([L2/19-323](https://www.unicode.org/L2/L2019/19323.htm)) (See D.6 for decision and action items)_
+- 2025-10-17 Proposal to encode Candrabindu and Avagraha in Dogra — Srinidhi A, Sridatta A ([L2/25-245](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-245))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 2.2)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 2.2 for decision and action items)_
