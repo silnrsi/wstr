@@ -15,9 +15,8 @@ Here are links to information and resources mentioned in the [SIL Locale Data To
 - [Langtags via Github][langtags-github]
 - [SLDR via the LDML API][sldr-api]
 - [SLDR via GitHub][sldr-github]
-- [Langugage Font Finder (LFF) via the LFF API][lff-api]
+- [Language Font Finder (LFF) via the LFF API][lff-api]
 - [Language Font Finder (LFF) via GitHub][lff-github]
-
 
 ### Contact us
 - [Language Technology Community Writing Systems forum][community-ws-forum]
