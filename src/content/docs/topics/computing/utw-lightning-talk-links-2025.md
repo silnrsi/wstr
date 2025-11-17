@@ -9,7 +9,7 @@ sidebar:
 lastUpdated: 2025-11-13
 ---
 
-Here are links to information and resources mentioned in the [SIL Locale Data Tools Lighting Talk][utw-presentation] at the Unicode Technical Workshop in Novemeber 2025.
+Here are links to information and resources mentioned in the [SIL Locale Data Tools Lighting Talk][utw-presentation] at the Unicode Technical Workshop in November 2025.
 
 - [Langtags via the LDML API][langtags-api]
 - [Langtags via Github][langtags-github]
