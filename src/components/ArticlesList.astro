@@ -6,9 +6,6 @@ const topicsonly = await getCollection('topicsdocs');
 
 let articles
 switch (subset) {
-  case undefined: 
-    articles = [...articlelibonly, ...topicsonly];
-    break
   case "articlelibonly":
     articles = [...articlelibonly];
     break;
