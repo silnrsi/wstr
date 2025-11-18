@@ -1,0 +1,133 @@
+---
+title: File Location and Frontmatter Reference
+description: Where to place files, how to name them, and who to set up frontmatter
+lastUpdated: 2025-11-17
+---
+
+:::note
+This is a guidance document for authors, primarily the Writing Systems Technology (WSTech) team.
+:::
+
+## Filenames
+
+**Page** filenames should be:
+
+- all lowercase
+- with no spaces or underscores
+- using real words (not abbreviations) separated by hyphens
+- that represents the page title (or a short version of it)
+
+as in: `font-licensing.md` or `style-guide.mdx`.
+
+**Image** filenames can be flexible in format as long as it includes some hint of which page uses it.
+
+Topic article images could use the format `pppp[-n]-shortname.png` where
+
+- _pppp_ is the topic page order number (suggestion not an absolute requirement)
+- _n_ is an optional counter if you have multiple images on a page
+- _shortname_ can be whatever you want (it-can-even-have-multiple-hyphens) but should be all lowercase
+
+Article Library images could use the format `articlename[-n][-shortname].png` where 
+
+- _articlename_ is the filename of the article using the image
+- _n_ is an optional counter if you have multiple images in an article
+- _shortname_ is optional if you want to add some further info about the image
+
+In all image filenames there should be no spaces. Use hyphens, not underscores. The optional counter is not required and does not need to relate to any figure numbering.
+
+If you want to reuse an image on multiple pages within the same folder, name it based on one page and then reference it on another.
+
+Images can be any size, but those intended to fill the main content column should be at least 720 pixels wide, and any size above that can be used. Astro will adjust the size and optimize the image automatically. There is no need to manually optimize images for a particular size.
+
+## File locations
+
+**New articles** should be placed in the _Articles Library_ folder (`/articlelib`) and in the subfolder that matches the first letter of the filename. Files whose titles (and filenames) begin with a number should be placed in the `0-9` subfolder (`/articlelib/0-9`). Files in the Articles Library do not need any `sidebar:` frontmatter and will not be tracked in the WSTR Classification spreadsheet.
+
+**Topic pages** that _should_ appear in the sidebar **Topics** sections - both old and new - should be placed in the appropriate folder under `/topics`. These do require `sidebar:` frontmatter to specify their order in the sidebar. See the [Frontmatter](#frontmatter) section below for details. There are tracked in the WSTR Classification spreadsheet in order to assign them an appropriate `order`.
+
+**Guides** should be placed in the Topics subfolder that most closely matches their content. They also need to be manually added to the `Guides` sidebar definition in `astro.config.mjs`.
+
+**Images** used on a page should be placed in an `images` folder in the same location as the page. They should normally be .png or .jpg. Other formats may work but are untested.
+
+## Frontmatter
+
+Metadata for each page is defined in the frontmatter - the YAML header of each page. Here is a complete example including all optional fields. Note that formatting and indentation is very important, particularly for sidebar.
+
+```yaml
+---
+title: Page Title
+subtitle: This is a page subtitle 
+description: What this page is about - will be used for article list annotations
+authors: Jane Jones, Adam Smith
+shorturl: slug-for-short-url
+sidebar:
+    order: 1234
+    label: Alternate sidebar title
+    hidden: true
+tags: [tag, another tag]
+lastUpdated: 2025-11-18
+draft: true
+---
+```
+Here are details, with required fields in **bold**. 
+
+- **`title`** - required by system, should be unique, should use Title Case
+- `subtitle` - optional
+- `description` - optional, used for article list annotations and for search summaries
+- `authors` - optional, a single string of text that describes the author(s) and editor(s), normally listed in alphabetical order by last name
+- `shorturl` - optional, a short string that will be used as the 'slug' for an alternate URL that is redirected to the page (see [Page URLs and Short URLs](#page-urls-and-short-urls) section below)
+- `sidebar: order` - required only for Topic pages, use topic # from the WSTR Classification
+- `sidebar: label` - optional, replaces title in sidebar only, useful if page title is too long for sidebar
+- `sidebar: hidden` - optional, keeps page from being listed in sidebar
+- `tags` - strongly recommended but not required, see [Tags](#tags) section below
+- **`lastUpdated`** - required, use yyyy-mm-dd format, should be the date the content is current as of, not the date a minor typo was fixed. This will not be strictly enforced as there may be good reasons for a specific page to not include it. 
+- `draft` - optional, hides page from production builds, not currently recommended
+
+There are additional frontmatter fields (beginning with `scrprop`)that are used for special types of pages (e.g. Script pages).
+
+### Article example
+
+```yaml
+---
+title: Archaic form of nna
+description: Visual comparison between the standard and archaic form of U+0923
+tags: [script-deva, char-0923]
+lastUpdated: 2025-10-16
+---
+```
+
+### Topic page example
+
+```yaml
+---
+title: Application Development Best Practice
+description: Guide for software developers
+sidebar:
+    order: 2500
+    label: App Development Best Practice
+tags: [conversion, encoding, fonts, input, layout, rendering]
+lastUpdated: 2025-11-05
+---
+```
+
+## Page URLs and Short URLs
+
+Page URLs (permalinks) are automatically generated from the filename and the folder structure. If you want a page to have a shorter or different URL you can set that in the frontmatter using the custom `shorturl` field. For example, a page with the filename-based path of `/topics/computing/langtech-webinar-links-2025` could have a simpler slug of `ltweb25` by adding this to the frontmatter:
+
+```yaml
+shorturl: ltweb25
+```
+
+This will set up a redirect so that if someone goes to the short URL they will be automatically redirected to the full URL. The page is then accessible at both original and short URLs.
+
+This should not be used for pages that are moved or renamed - in those cases use proper redirects in `astro.config.mjs` instead.
+
+## Tags
+
+Tags should be included in the frontmatter of most articles and topic pages. They are mainly used to prepare lists of relevant resources for Script pages and Topic 'Related Articles' pages. They will not be shown to users or used as a navigational tool.
+
+Use existing tags where possible - see [Tag Reference][tag-ref]. New tags can be created as needed but should be relevant and not overly specific. Tags should be in lowercase, separated by commas, and can include spaces. The list of tags should be included within square brackets, e.g., `tags: [here is a tag, another tag, script-deva, char-0923]`.
+
+Topic page tags do not need a tag for the topic itself, as that would result in a redundant listing on that topic's Related Articles page.
+
+[tag-ref]: /devteam/tag-reference
