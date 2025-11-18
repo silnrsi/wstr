@@ -3,7 +3,7 @@ title: Unicode Status for Soyombo
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Soyombo script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/#G41941).
@@ -22,6 +22,7 @@ Subsequent to version 10.0, the following characters have been added to the Soyo
 
 | Characters  |  Unicode Version  |  Documentation  |
 | ----------- | ----------------- | --------------- |
+| 11A84..11A85  | 12.0 | _See proposals and documents below_ |
 | 11A9D  |  11.0  | [L2/16-016](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-016)  |
 
 __Pending_ indicates codepoint assignments are not final; _Documentation_ refers to [ISO Working Group](https://www.unicode.org/wg2/) and [Unicode](http://www.unicode.org) proposals_

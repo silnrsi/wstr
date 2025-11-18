@@ -3,7 +3,7 @@ title: Unicode Status for Glagolitic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-06
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Glagolitic script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G15862).
@@ -23,6 +23,8 @@ Subsequent to version 4.1, the following characters have been added to the scrip
 
 | Characters | Unicode Version | Documentation |
 | ---------- | --------------- | ------------- |
+| 2C2F          | 14.0 | _See proposals and documents below_ |
+| 2C5F          | 14.0 | _See proposals and documents below_ |
 | 1E000..1E006 |  9.0  | [WG2 N4608](https://www.unicode.org/wg2/docs/n4608.pdf), [L2/14-087](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-087) |
 | 1E008..1E018 |  9.0  | [WG2 N4608](https://www.unicode.org/wg2/docs/n4608.pdf), [L2/14-087](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-087) |
 | 1E01B..1E021 |  9.0  | [WG2 N4608](https://www.unicode.org/wg2/docs/n4608.pdf), [L2/14-087](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-087) |

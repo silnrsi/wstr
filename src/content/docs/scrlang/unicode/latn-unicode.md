@@ -3,7 +3,7 @@ title: Unicode Status for Latin
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-12
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Latin script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G4321), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), <br />
@@ -62,6 +62,7 @@ Subsequent to version 1.1, the following characters have been added to the Latin
 | 0243..024F | 5.0 | [n2906.pdf](https://www.unicode.org/wg2/docs/n2906.pdf), [L2/04-246](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-246) |
 | 02A9..02AD | 3.0 | n1742.pdf (not online) and [n1845.pdf](https://www.unicode.org/wg2/docs/n1845.pdf) |
 | 02AE..02AF | 4.0 | [n2366r.pdf](https://www.unicode.org/wg2/docs/n2366r.pdf), [L2/01-272](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-272) |
+| 1ABF..1AC0    | 13.0 | _See proposals and documents below_ |
 | 1D00..1D6A | 4.0 | [n2419.pdf](https://www.unicode.org/wg2/docs/n2419.pdf), [L2/02-141](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-141) |
 | 1D6B | 4.0 | [n2514.pdf](https://www.unicode.org/wg2/docs/n2514.pdf), [L2/02-421](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-421) |
 | 1D6C..1D76 | 4.1 | [n2632.pdf](https://www.unicode.org/wg2/docs/n2632.pdf), [L2/03-174](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-174) |
@@ -121,6 +122,21 @@ Subsequent to version 1.1, the following characters have been added to the Latin
 | A7B2 |  8.0  | [WG2 N4332](https://www.unicode.org/wg2/docs/n4332.pdf), [L2/12-320](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-320) |
 | A7B3..A7B7 |  8.0  | [WG2 N4297](https://www.unicode.org/wg2/docs/n4297.pdf), [L2/12-270](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-270) |
 | A7B8..A7B9  |  11.0  | [L2/14-201](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-201),  [L2/16-032](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-032)  |
+| A7BA..A7BF    | 12.0 | _See proposals and documents below_ |
+| A7C0..A7C1    | 14.0 | _See proposals and documents below_ |
+| A7C2..A7C6    | 12.0 | _See proposals and documents below_ |
+| A7C7..A7CA    | 13.0 | _See proposals and documents below_ |
+| A7CB..A7CD    | 16.0 | _See proposals and documents below_ |
+| A7CE..A7CF    | 17.0 | _See proposals and documents below_ |
+| A7D0..A7D1    | 14.0 | _See proposals and documents below_ |
+| A7D2          | 17.0 | _See proposals and documents below_ |
+| A7D3          | 14.0 | _See proposals and documents below_ |
+| A7D4          | 17.0 | _See proposals and documents below_ |
+| A7D5..A7D9    | 14.0 | _See proposals and documents below_ |
+| A7DA..A7DC    | 16.0 | _See proposals and documents below_ |
+| A7F1          | 17.0 | _See proposals and documents below_ |
+| A7F2..A7F4    | 14.0 | _See proposals and documents below_ |
+| A7F5..A7F6    | 13.0 | _See proposals and documents below_ |
 | A7F7 | 7.0 | [WG2 N4030](https://www.unicode.org/wg2/docs/n4030.pdf), [L2/12-082](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-082) |
 | A7F8..A7F9 | 6.1 | [n3846.pdf](https://www.unicode.org/wg2/docs/n3846.pdf), [L2/10-161](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-161) |
 | A7FA | 6.0 | [n3571.pdf](https://www.unicode.org/wg2/docs/n3571.pdf), [L2/09-028](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-028) |
@@ -129,8 +145,15 @@ Subsequent to version 1.1, the following characters have been added to the Latin
 | AB60 |  8.0  | [L2/11-340](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-340) |
 | AB61..AB63 |  8.0  | [L2/11-340](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-340) |
 | AB64 | 7.0 | [WG2 N4307](https://www.unicode.org/wg2/docs/n4307.pdf), [L2/12-266](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-266) |
+| AB66..AB67    | 12.0 | _See proposals and documents below_ |
+| AB68..AB6B    | 13.0 | _See proposals and documents below_ |
 | FB1D | 3.0 | n1557.doc (not online) |
 | FF5F..FF60 | 3.2 | [n3193.pdf](https://www.unicode.org/wg2/docs/n3193.pdf), [L2/07-004](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-004) |
+| 10780..10785  | 14.0 | _See proposals and documents below_ |
+| 10787..107B0  | 14.0 | _See proposals and documents below_ |
+| 107B2..107BA  | 14.0 | _See proposals and documents below_ |
+| 1DF00..1DF1E  | 14.0 | _See proposals and documents below_ |
+| 1DF25..1DF2A  | 15.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

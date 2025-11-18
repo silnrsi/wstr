@@ -3,7 +3,7 @@ title: Unicode Status for Mongolian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Mongolian script implementation is discussed in [Chapter 13 South and Central Asia-II: Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G27803) and in [UTN 57: Encoding and Shaping of the Mongolian Script](https://www.unicode.org/notes/tn57/).
@@ -23,6 +23,7 @@ Subsequent to version 3.0, the following characters have been added to the Mongo
 
 | Characters | Unicode Version | Documentation |
 | ---------- | --------------- | ------------- |
+| 180F          | 14.0 | _See proposals and documents below_ |
 | 1878     |  11.0  |  |
 | 18AA | 5.1 | [n3041.pdf](https://www.unicode.org/wg2/docs/n3041.pdf)/[L2/06-013](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-013) |
 | 11660..1166C |  9.0  | [L2/14-259](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-259) (background documents: [WG2 N4542](https://www.unicode.org/wg2/docs/n4542.pdf) / [L2/14-067](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-067), [WG2 N4547](https://www.unicode.org/wg2/docs/n4547.pdf) / [L2/14-081](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-081), [WG2 N4632](https://www.unicode.org/wg2/docs/n4632.pdf) / [L2/14-240](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-240))  |

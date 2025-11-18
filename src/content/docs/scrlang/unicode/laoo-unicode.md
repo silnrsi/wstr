@@ -3,7 +3,7 @@ title: Unicode Status for Lao
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Lao script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/#G10988).
@@ -18,10 +18,20 @@ The Lao script was encoded in The Unicode Standard version 1.0. The script is en
 
 ## Characters
 
-Subsequent to version 1.0, the following characters have been added to the Lao script:
+Subsequent to version 1.1, the following characters have been added to the Lao script:
 
 | Characters | Unicode Version | Documentation |
 | ---------- | --------------- | ------------- |
+| 0E86          | 12.0 | _See proposals and documents below_ |
+| 0E89          | 12.0 | _See proposals and documents below_ |
+| 0E8C          | 12.0 | _See proposals and documents below_ |
+| 0E8E..0E93    | 12.0 | _See proposals and documents below_ |
+| 0E98          | 12.0 | _See proposals and documents below_ |
+| 0EA0          | 12.0 | _See proposals and documents below_ |
+| 0EA8..0EA9    | 12.0 | _See proposals and documents below_ |
+| 0EAC          | 12.0 | _See proposals and documents below_ |
+| 0EBA          | 12.0 | _See proposals and documents below_ |
+| 0ECE          | 15.0 | _See proposals and documents below_ |
 | 0EDE..0EDF | 6.1 | [n3893R.pdf](https://www.unicode.org/wg2/docs/n3893.pdf)/[L2/10-335](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-335) |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_

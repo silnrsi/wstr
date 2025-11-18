@@ -3,7 +3,7 @@ title: Unicode Status for Devanagari
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Devanagari script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G12284).
@@ -45,6 +45,7 @@ Subsequent to version 1.0, the following characters have been added to the Devan
 | A8FC |  8.0  | [WG2 N4260](https://www.unicode.org/wg2/docs/n4260.pdf), [L2/12-123](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-123) |
 | A8FD |  8.0  | [WG2 N4408](https://www.unicode.org/wg2/docs/n4408.pdf), [L2/13-056](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-056) |
 | A8FE..A8FF  |  11.0  |  [L2/15-335](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/15-335)  |
+| 11B00..11B09  | 15.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

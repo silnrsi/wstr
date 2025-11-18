@@ -3,7 +3,7 @@ title: Unicode Status for Currency
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-06
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Currency symbols are discussed in [Chapter 22: Symbols](https://www.unicode.org/versions/latest/core-spec/#G13244). Currency symbols generally have an inherited script property rather than a specific script property.
@@ -60,6 +60,8 @@ Subsequent to version 1.1, the following Currency characters have been added:
 | 20BD | 7.0 | [WG2 N4512](https://www.unicode.org/wg2/docs/n4512.pdf), [L2/13-235](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-235), [WG2 N4529](https://www.unicode.org/wg2/docs/n4529.pdf), [L2/14-039](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-039) |
 | 20BE | 8.0 | [WG2 N4593](https://www.unicode.org/wg2/docs/n4593.pdf), [L2/14-161](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-161), [L2/15-168](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/15-168) |
 | 20BF  |  10.0  |  [L2/11-129](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-129), [L2/15-229](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/15-229)  |
+| 20C0          | 14.0 | [L2/20-261](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-261) |
+| 20C1          | 17.0 | [L2/25-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-073) |
 | A838 | 5.2 | [WG2 N3334](https://www.unicode.org/wg2/docs/n3334.pdf), [L2/07-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-238), [WG2 N3367](https://www.unicode.org/wg2/docs/n3367.pdf), [L2/07-354](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-354), [L2/07-390](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-390) |
 | FDFC | 3.2 | WG2 N1856 (not online), L2/98-359 (not online), [WG2 N2373](https://www.unicode.org/wg2/docs/n2373.pdf), [L2/01-354](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-354) |
 

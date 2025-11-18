@@ -3,7 +3,7 @@ title: Unicode Status for Unified Canadian Aboriginal Syllabics
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Unified Canadian Aboriginal Syllabics implementation is discussed in [Chapter 20: Americas](https://www.unicode.org/versions/latest/core-spec/#G26630).
@@ -27,6 +27,7 @@ Subsequent to version 3.0, the following characters have been added to the Unifi
 | 1400 | 5.2 | [WG2 N3427](https://www.unicode.org/wg2/docs/n3427.pdf)/[L2/08-132](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-132) and [WG2 N3533](https://www.unicode.org/wg2/docs/n3533.pdf)/[L2/09-018](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-018) |
 | 1677..167F | 5.2 | [WG2 N3427](https://www.unicode.org/wg2/docs/n3427.pdf)/[L2/08-132](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-132) and [WG2 N3533](https://www.unicode.org/wg2/docs/n3533.pdf)/[L2/09-018](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-018) |
 | 18B0..18F5 | 5.2 | [WG2 N3427](https://www.unicode.org/wg2/docs/n3427.pdf)/[ L2/08-132](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-132), [WG2 N3437](https://www.unicode.org/wg2/docs/n3437.pdf)/[L2/08-149](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-149), [WG2 N3507](https://www.unicode.org/wg2/docs/n3507.pdf)/[L2/08-342](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-342) and [WG2 N3533](https://www.unicode.org/wg2/docs/n3533.pdf)/[L2/09-018](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-018) |
+| 11AB0..11ABF  | 14.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

@@ -3,7 +3,7 @@ title: Unicode Status for Chorasmian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard,Chorasmian script implementation is discussed in [Chapter 10 Middle East-II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/#G43165).
@@ -15,6 +15,10 @@ The Chorasmian script was encoded in The Unicode Standard version 13.0. The scri
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Chorasmian   | 10FB0..10FDF | 13.0 | [U10FB0.pdf](https://www.unicode.org/charts/PDF/U10FB0.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

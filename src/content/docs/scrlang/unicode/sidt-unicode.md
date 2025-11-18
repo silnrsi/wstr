@@ -3,7 +3,7 @@ title: Unicode Status for Sidetic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-03
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Sidetic script implementation is discussed in [Chapter 8: Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/#G27262).
@@ -16,6 +16,9 @@ The Sidetic script was encoded in The Unicode Standard version 17.0. The script 
 | ------ | --------------- | ------------------------ | ------------- |
 | Sidetic   | 10940..1095F | 17.0 | [U10940.pdf](https://www.unicode.org/charts/PDF/U10940.pdf) |
 
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

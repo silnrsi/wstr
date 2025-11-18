@@ -3,7 +3,7 @@ title: Unicode Status for Ethiopic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Ethiopic script implementation is discussed in [Chapter 19 Africa](https://www.unicode.org/versions/latest/core-spec/#G14116), [UTN 49: A Review of Shifts in Gurage Orthography](https://www.unicode.org/notes/tn49/), and in <br />
@@ -53,6 +53,10 @@ Subsequent to version 3.0, the following characters have been added to the Ethio
 | AB11..AB16 | 6.0 | [n3572.pdf](https://www.unicode.org/wg2/docs/n3572.pdf)/[L2/09-050](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-050) |
 | AB20..AB26 | 6.0 | [n3572.pdf](https://www.unicode.org/wg2/docs/n3572.pdf)/[L2/09-050](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-050) |
 | AB28..AB2E | 6.0 | [n3572.pdf](https://www.unicode.org/wg2/docs/n3572.pdf)/[L2/09-050](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-050) |
+| 1E7E0..1E7E6  | 14.0 | _See proposals and documents below_ |
+| 1E7E8..1E7EB  | 14.0 | _See proposals and documents below_ |
+| 1E7ED..1E7EE  | 14.0 | _See proposals and documents below_ |
+| 1E7F0..1E7FE  | 14.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

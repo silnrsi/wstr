@@ -3,7 +3,7 @@ title: Unicode Status for Takri
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Takri script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/#G81184).
@@ -15,6 +15,16 @@ The Takri script was encoded in The Unicode Standard version 6.1. The script is 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Takri | 11680..116CF | 6.1 | [U11680.pdf](http://www.unicode.org/charts/PDF/U11680.pdf) |
+
+## Characters
+
+Subsequent to version 6.1, the following characters have been added to the Newa script:
+
+| Characters  |  Unicode Version  |  Documentation  |
+| ----------- | ----------------- | --------------- |
+| 116B8         | 12.0 | _See proposals and documents below_ |
+| 116B9         | 14.0 | _See proposals and documents below_ |
+
 
 ## Proposals and documents
 

@@ -3,7 +3,7 @@ title: Unicode Status for Tangsa
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Tangsa script implementation is discussed in [Chapter 13 South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G51897).
@@ -15,6 +15,10 @@ The Tangsa script was encoded in The Unicode Standard version 14.0. The script i
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Tangsa  | 16A70..16ACF | 14.0 | [U16A70.pdf](http://www.unicode.org/charts/PDF/U16A70.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

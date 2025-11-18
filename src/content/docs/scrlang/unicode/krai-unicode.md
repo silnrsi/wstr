@@ -3,7 +3,7 @@ title: Unicode Status for Kirat Rai
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Kirat Rai Script implementation is discussed in [Chapter 13 South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G746340).
@@ -15,6 +15,10 @@ The Kirat Rai script was encoded in The Unicode Standard version 16.0. The scrip
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Kirat Rai | 16D40..16D7F | 16.0 | [U16D40.pdf](http://www.unicode.org/charts/PDF/U16D40.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

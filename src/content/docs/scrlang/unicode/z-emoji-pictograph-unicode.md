@@ -3,7 +3,7 @@ title: Unicode Status for Emoji & Pictograph Symbols
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Emoji implementation is discussed in [Chapter 22 Symbols](http://www.unicode.org/versions/latest/ch22.pdf).
@@ -23,6 +23,7 @@ Emoji is encoded in the following blocks:
 | Ornamental Dingbats | 1F650..1F67F | 7.0 | [U1F650](http://www.unicode.org/charts/PDF/U1F650.pdf) |
 | Transport and Map Symbols | 1F680..1F6FF | 6.0 | [U1F680](http://www.unicode.org/charts/PDF/U1F680.pdf) |
 | Supplemental Symbols and Pictographs | 1F900..1F9FF | 8.0 | [U1F900](http://www.unicode.org/charts/PDF/U1F900.pdf) |
+| Symbols and Pictographs Extended-A | 1FA70..1FAFF | 12.0 | [U1FA70](http://www.unicode.org/charts/PDF/U1FA70.pdf) |
 
 ## Characters
 
@@ -31,26 +32,97 @@ Subsequent to version 6.0, the following characters have been added to the Emoji
 | Characters | Unicode Version | Documentation |
 | ---------- | --------------- | ------------- |
 | 1F57A  | 9.0 |  |
-| 1F5A4  |  9.0 |  |
-| 1F6D1..1F6D2  |  9.0 |  |
-| 1F6F4..1F6F6  |  9.0 |  |
+| 1F5A4  | 9.0 |  |
+| 1F6D1..1F6D2  | 9.0 |  |
+| 1F6D3..1F6D4  | 10.0 |  |
+| 1F6D5         | 12.0 | _See proposals and documents below_ |
+| 1F6D6..1F6D7  | 13.0 | _See proposals and documents below_ |
+| 1F6FB..1F6FC  | 13.0 | _See proposals and documents below_ |
+| 1F6F4..1F6F6  |  9.0 | _See proposals and documents below_ |
+| 1F6F7..1F6F8  | 10.0 | _See proposals and documents below_ |
+| 1F6F9         | 11.0 | _See proposals and documents below_ |
+| 1F6FA         | 12.0 | _See proposals and documents below_ |
+| 1F90C         | 13.0 | _See proposals and documents below_ |
+| 1F90D..1F90F  | 12.0 | _See proposals and documents below_ |
+| 1F93F         | 12.0 | _See proposals and documents below_ |
+| 1F971         | 12.0 | _See proposals and documents below_ |
+| 1F972         | 13.0 | _See proposals and documents below_ |
+| 1F977..1F978  | 13.0 | _See proposals and documents below_ |
+| 1F97B         | 12.0 | _See proposals and documents below_ |
 | 1F919..1F91E  |  9.0 |  |
+| 1F91F  |  10.0 |  |
 | 1F920..1F927  |  9.0 |  |
+| 1F928..1F92F  |  10.0 |  |
 | 1F930  |  9.0 |  |
+| 1F931..1F932  |  10.0 |  |
 | 1F933..1F93E  |  9.0 |  |
 | 1F940..1F94B  |  9.0 |  |
-| 1F950..1F95E  |  9.0 |  |
-| 1F985..1F991  |  9.0 |  |
-| 1F6D3..1F6D4  |  10.0 |  |
-| 1F6F7..1F6F8  |  10.0 |  |
-| 1F900..1F90B  |  10.0 |  |
-| 1F91F  |  10.0 |  |
-| 1F928..1F92F  |  10.0 |  |
-| 1F931..1F932  |  10.0 |  |
 | 1F94C  |  10.0 |  |
-| 1F95F..1F96B  |  10.0 |  |
-| 1F992..1F997  |  10.0 |  |
-| 1F9D0..1F9E6  |  10.0 |  |
+| 1F950..1F95E  |  9.0 |  |
+| 1F95F..1F96B  | 10.0 |  |
+| 1F985..1F991  |  9.0 |  |
+| 1F900..1F90B  | 10.0 |  |
+| 1F94D..1F94F  | 11.0 | _See proposals and documents below_ |
+| 1F96C..1F970  | 11.0 | _See proposals and documents below_ |
+| 1F973..1F976  | 11.0 | _See proposals and documents below_ |
+| 1F979         | 14.0 | _See proposals and documents below_ |
+| 1F97A         | 11.0 | _See proposals and documents below_ |
+| 1F97C..1F97F  | 11.0 | _See proposals and documents below_ |
+| 1F992..1F997  | 10.0 |  |
+| 1F998..1F9A2  | 11.0 | _See proposals and documents below_ |
+| 1F9A3..1F9A4  | 13.0 | _See proposals and documents below_ |
+| 1F9A5..1F9AA  | 12.0 | _See proposals and documents below_ |
+| 1F9AB..1F9AD  | 13.0 | _See proposals and documents below_ |
+| 1F9AE..1F9AF  | 12.0 | _See proposals and documents below_ |
+| 1F9B0..1F9B9  | 11.0 | _See proposals and documents below_ |
+| 1F9BA..1F9BF  | 12.0 | _See proposals and documents below_ |
+| 1F9C1..1F9C2  | 11.0 | _See proposals and documents below_ |
+| 1F9C3..1F9CA  | 12.0 | _See proposals and documents below_ |
+| 1F9CB         | 13.0 | _See proposals and documents below_ |
+| 1F9CC         | 14.0 | _See proposals and documents below_ |
+| 1F9CD..1F9CF  | 12.0 | _See proposals and documents below_ |
+| 1F9D0..1F9E6  | 10.0 | _See proposals and documents below_ |
+| 1F9E7..1F9FF  | 11.0 | _See proposals and documents below_ |
+| 1FA70..1FA73  | 12.0 | _See proposals and documents below_ |
+| 1FA74         | 13.0 | _See proposals and documents below_ |
+| 1FA75..1FA77  | 15.0 | _See proposals and documents below_ |
+| 1FA78..1FA7A  | 12.0 | _See proposals and documents below_ |
+| 1FA7B..1FA7C  | 14.0 | _See proposals and documents below_ |
+| 1FA80..1FA82  | 12.0 | _See proposals and documents below_ |
+| 1FA83..1FA86  | 13.0 | _See proposals and documents below_ |
+| 1FA87..1FA88  | 15.0 | _See proposals and documents below_ |
+| 1FA89         | 16.0 | _See proposals and documents below_ |
+| 1FA8A         | 17.0 | _See proposals and documents below_ |
+| 1FA8E         | 17.0 | _See proposals and documents below_ |
+| 1FA8F         | 16.0 | _See proposals and documents below_ |
+| 1FA90..1FA95  | 12.0 | _See proposals and documents below_ |
+| 1FA96..1FAA8  | 13.0 | _See proposals and documents below_ |
+| 1FAA9..1FAAC  | 14.0 | _See proposals and documents below_ |
+| 1FAAD..1FAAF  | 15.0 | _See proposals and documents below_ |
+| 1FAB0..1FAB6  | 13.0 | _See proposals and documents below_ |
+| 1FAB7..1FABA  | 14.0 | _See proposals and documents below_ |
+| 1FABB..1FABD  | 15.0 | _See proposals and documents below_ |
+| 1FABE         | 16.0 | _See proposals and documents below_ |
+| 1FABF         | 15.0 | _See proposals and documents below_ |
+| 1FAC0..1FAC2  | 13.0 | _See proposals and documents below_ |
+| 1FAC3..1FAC5  | 14.0 | _See proposals and documents below_ |
+| 1FAC6         | 16.0 | _See proposals and documents below_ |
+| 1FAC8         | 17.0 | _See proposals and documents below_ |
+| 1FACD         | 17.0 | _See proposals and documents below_ |
+| 1FACE..1FACF  | 15.0 | _See proposals and documents below_ |
+| 1FAD0..1FAD6  | 13.0 | _See proposals and documents below_ |
+| 1FAD7..1FAD9  | 14.0 | _See proposals and documents below_ |
+| 1FADA..1FADB  | 15.0 | _See proposals and documents below_ |
+| 1FADC         | 16.0 | _See proposals and documents below_ |
+| 1FADF         | 16.0 | _See proposals and documents below_ |
+| 1FAE0..1FAE7  | 14.0 | _See proposals and documents below_ |
+| 1FAE8         | 15.0 | _See proposals and documents below_ |
+| 1FAE9         | 16.0 | _See proposals and documents below_ |
+| 1FAEA         | 17.0 | _See proposals and documents below_ |
+| 1FAEF         | 17.0 | _See proposals and documents below_ |
+| 1FAF0..1FAF6  | 14.0 | _See proposals and documents below_ |
+| 1FAF7..1FAF8  | 15.0 | _See proposals and documents below_ |
+| 1FBFA         | 17.0 | _See proposals and documents below_ |
 
 ## Proposals and documents
 

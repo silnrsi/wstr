@@ -3,7 +3,7 @@ title: Unicode Status for Tolong Siki
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-03
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Tolong Siki script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G746342).
@@ -15,6 +15,10 @@ The Tolong Siki script was encoded in The Unicode Standard version 17.0. The scr
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Tolong Siki   | 11DB0..11DEF | 17.0 | [U11DB0.pdf](https://www.unicode.org/charts/PDF/U11DB0.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

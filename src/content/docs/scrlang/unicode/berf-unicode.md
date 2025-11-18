@@ -3,7 +3,7 @@ title: Unicode Status for Beria Erfe
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-03
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Beria Erfe script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/#G746359).
@@ -15,6 +15,10 @@ The Beria Erfe script was encoded in The Unicode Standard version 17.0. The scri
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Beria Erfe   | 16EA0..16EDF | 17.0 | [U16EA0.pdf](https://www.unicode.org/charts/PDF/U16EA0.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

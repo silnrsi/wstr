@@ -3,7 +3,7 @@ title: Unicode Status for Brahmi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Brahmi script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/#G39063).
@@ -22,6 +22,7 @@ Subsequent to version 6.0, the following characters have been added to the Brahm
 
 | Characters | Unicode Version | Documentation |
 | ---------- | --------------- | ------------- |
+| 11070..11075  | 14.0 | _See proposals and documents below_ |
 | 1107F | 7.0 | [WG2 N4166](https://www.unicode.org/wg2/docs/n4166.pdf), [L2/11-357](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-357) |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_

@@ -3,7 +3,7 @@ title: Unicode Status for Sunuwar
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Sunuwar script (formerly called Jenticha) implementation is discussed in [Chapter 13 South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G746336).
@@ -15,6 +15,10 @@ The Sunuwar  script was encoded in The Unicode Standard version 16.0. The script
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Sunuwar  | 11BC0..11BFF | 16.0 | [U11BC0.pdf](http://www.unicode.org/charts/PDF/U11BC0.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

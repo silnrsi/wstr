@@ -3,7 +3,7 @@ title: Unicode Status for Nag Mundari
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Nag Mundari script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G112439).
@@ -15,6 +15,10 @@ The Nag Mundari script was encoded in The Unicode Standard version 15.0. The scr
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Nag Mundari | 1E4D0..1E4FF | 15.0 | [U1E4D0](http://www.unicode.org/charts/PDF/U1E4D0.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

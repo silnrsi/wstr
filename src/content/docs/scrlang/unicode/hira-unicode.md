@@ -3,7 +3,7 @@ title: Unicode Status for Hiragana
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Hiragana implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G22344).
@@ -26,7 +26,12 @@ Subsequent to version 1.1, the following characters have been added to the Hirag
 | ---------- | --------------- | ------------- |
 | 3095..3096  |  3.2  |  [n2092.pdf](https://www.unicode.org/wg2/docs/n2092.pdf), [n2195.doc](https://www.unicode.org/wg2/docs/n2195.doc) L2/00-098  |
 | 309F  |  3.2  |  [n2092.pdf](https://www.unicode.org/wg2/docs/n2092.pdf), [n2195.doc](https://www.unicode.org/wg2/docs/n2195.doc) L2/00-098  |
-| 1F23B  |  9.0  |  |
+| 1B000..1B001  | 6.0 | _See proposals and documents below_ |
+| 1B150..1B152  | 12.0 |   [3] HIRAGANA LETTER SMALL WI..HIRAGANA LETTER SMALL WO
+| 1B11F..1B122  | 14.0 |   [4] HIRAGANA LETTER ARCHAIC WU..KATAKANA LETTER ARCHAIC WU
+| 1B132         | 15.0 |       HIRAGANA LETTER SMALL KO
+| 1F200         | _See proposals and documents below_ |
+| 1F23B  |  9.0  | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

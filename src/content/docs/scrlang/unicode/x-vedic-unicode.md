@@ -27,6 +27,7 @@ Subsequent to version 5.2, the following characters have been added to the Vedic
 | 1CF5..1CF6 | 6.1 | [WG2 N3881](https://www.unicode.org/wg2/docs/n3881.pdf), [L2/10-257](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-257) |
 | 1CF7  |  10.0  |  [L2/15-160](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/15-160)  |
 | 1CF8..1CF9 | 7.0 | [WG2 N4134](https://www.unicode.org/wg2/docs/n4134.pdf), [L2/11-267](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-267) |
+| 1CFA          | 12.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

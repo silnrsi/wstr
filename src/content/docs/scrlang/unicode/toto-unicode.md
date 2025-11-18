@@ -3,7 +3,7 @@ title: Unicode Status for Toto
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Toto script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G50178).
@@ -15,6 +15,10 @@ The Toto script was encoded in The Unicode Standard version 14.0. The script is 
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Toto  | 1E290..1E2BF | 14.0 | [U1E290.pdf](http://www.unicode.org/charts/PDF/U1E290.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

@@ -3,7 +3,7 @@ title: Unicode Status for Katakana
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-06
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Katakana implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G12058).
@@ -30,8 +30,14 @@ Subsequent to version 1.1, the following characters have been added to the Katak
 | ---------- | --------------- | ------------- |
 | 30A0  |  3.2  |  [n2195.doc](https://www.unicode.org/wg2/docs/n2195.doc) L2/00-098  |
 | 30FF  |  3.2  |  [n2092.pdf](https://www.unicode.org/wg2/docs/n2092.pdf), [n2195.doc](https://www.unicode.org/wg2/docs/n2195.doc) L2/00-098  |
-| 31F0..31FF  |  3.2  |   |
+| 31F0..31FF  |  3.2  | _See proposals and documents below_ |
+| 1AFF0..1AFF3  | 14.0 | _See proposals and documents below_ |
+| 1AFF5..1AFFB  | 14.0 | _See proposals and documents below_ |
+| 1AFFD..1AFFE  | 14.0 | _See proposals and documents below_ |
 | 1B000..1B001  |  6.0  |  [n3388.pdf](https://www.unicode.org/wg2/docs/n3388.pdf) L2/07-421  |
+| 1B155         | 15.0 | _See proposals and documents below_ |
+| 1B164..1B167  | 12.0 | _See proposals and documents below_ |
+| 1F201..1F202  | 6.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

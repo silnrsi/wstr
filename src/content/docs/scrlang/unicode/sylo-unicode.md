@@ -3,7 +3,7 @@ title: Unicode Status for Syloti Nagri
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Syloti Nagri script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/#G59104).
@@ -15,6 +15,14 @@ The Syloti Nagri script was encoded in The Unicode Standard version 4.1. The scr
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Syloti Nagri | A800..A82F | 4.1 | [UA800](http://www.unicode.org/charts/PDF/UA800.pdf) |
+
+## Characters
+
+Subsequent to version 4.1, the following characters have been added to the script:
+
+| Characters | Unicode Version | Documentation |
+| ---------- | --------------- | ------------- |
+| A82C          | 13.0 | [L2/19-024](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/19-024) |
 
 ## Proposals and documents
 

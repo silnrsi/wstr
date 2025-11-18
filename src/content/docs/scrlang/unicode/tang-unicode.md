@@ -3,7 +3,7 @@ title: Unicode Status for Tangut
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-06
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Tangut script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G43635) and in [UTN 42: Tangut Character Additions and Glyph Corrections](https://www.unicode.org/notes/tn42/).
@@ -27,8 +27,14 @@ Subsequent to version 9.0, the following characters have been added to the Tangu
 | Characters  |  Unicode Version  |  Documentation  |
 | ----------- | ----------------- | --------------- |
 | 187ED..187F1  |  11.0  | WG2 N4724, [L2/16-095](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-095) |
+| 187F2..187F7  | 12.0 | _See proposals and documents below_ |
+| 187F8..187FF  | 17.0 | _See proposals and documents below_ |
+| 18AF3..18CD5  | 13.0 | _See proposals and documents below_ |
+| 18D00..18D08  | 13.0 | _See proposals and documents below_ |
+| 18D09..18D1E  | 17.0 | _See proposals and documents below_ |
+| 18D80..18DF2  | 17.0 | _See proposals and documents below_ |
 
-__Pending_ indicates codepoint assignments are not final; _Documentation_ refers to [ISO Working Group](https://www.unicode.org/wg2/) and [Unicode](http://www.unicode.org) proposals_
+_Documentation_ refers to [ISO Working Group](https://www.unicode.org/wg2/) and [Unicode](http://www.unicode.org) proposals_
 
 ## Proposals and documents
 

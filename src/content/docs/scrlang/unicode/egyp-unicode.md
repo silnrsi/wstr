@@ -3,7 +3,7 @@ title: Unicode Status for Egyptian Hieroglyphs
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-06
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, implementation of Egyptian Hieroglyphs is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/#G26607), [UTN 32: Mapping Between Manuel de Codage and Unicode Egyptian Hieroglyphs](https://www.unicode.org/notes/tn32/), and in [Unicode Egyptian Hieroglyph Database (Unikemet)](https://www.unicode.org/reports/tr57/).
@@ -24,7 +24,11 @@ Subsequent to version 5.2, the following characters have been added to the Egypt
 
 | Characters | Unicode Version | Documentation |
 | ---------- | --------------- | ------------- |
-| 13430..13432  |  pending  |  [L2/16-018](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-018)  |
+| 13430..13438  |  12.0  |  [L2/16-018](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-018)  |
+| 1342F         | 15.0 | _See proposals and documents below_ |
+| 13439..1343F  | 15.0 | _See proposals and documents below_ |
+| 13440..13455  | 15.0 | _See proposals and documents below_ |
+| 13460..143FA  | 16.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

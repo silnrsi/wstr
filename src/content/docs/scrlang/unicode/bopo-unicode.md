@@ -3,7 +3,7 @@ title: Unicode Status for Bopomofo
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Bopomofo implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G22467).
@@ -29,7 +29,8 @@ Subsequent to version 1.1, the following characters have been added to Bopomofo:
 | 312F  |  11.0  |  [L2/16-106](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-106)  |
 | 31A0..31B7  |  3.0  |  WG2 n1713r, L2/98-090  |
 | 31B8..31BA  |  6.0  |  [n3246.pdf](https://www.unicode.org/wg2/docs/n3246.pdf), [L2/07-215](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-215)  |
-| 31BB  |  pending  |  WG2 N4980, [L2/18-255](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/18-255)  |
+| 31BB  |  13.0  |  WG2 N4980, [L2/18-255](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/18-255)  |
+| 31BC..31BF    | 13.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

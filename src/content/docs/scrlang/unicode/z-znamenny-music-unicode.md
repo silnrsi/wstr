@@ -16,6 +16,10 @@ The Znamenny musical notation was encoded in The Unicode Standard version 14.0. 
 | ------ | --------------- | ------------------------ | ------------- |
 | Znamenny musical notation | 1CF00..1CFBF | 14.0 | [U1CF00.pdf](http://www.unicode.org/charts/PDF/U1CF00.pdf) |
 
+## Characters
+
+Since encoding of the script, no new characters have been added.
+
 ## Proposals and documents
 
 One document towards its inclusion has been submitted to the Unicode Technical Committee:

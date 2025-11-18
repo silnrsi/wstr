@@ -3,7 +3,7 @@ title: Unicode Status for Cyrillic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
 In The Unicode Standard, Cyrillic script implementation is discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts ](https://www.unicode.org/versions/latest/core-spec/#G10850), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), and in [UTN 41: Church Slavonic Typography in Unicode](https://www.unicode.org/notes/tn41/).
@@ -50,6 +50,7 @@ Subsequent to version 1.0, the following characters have been added to the Cyril
 | 0526..0527 | 6.0 | [n3481.pdf](https://www.unicode.org/wg2/docs/n3481.pdf)/[L2/08-182](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-182) |
 | 0528..052F | 7.0 | [WG2 N4137](https://www.unicode.org/wg2/docs/n4137.pdf), [L2/11-265](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-265) |
 | 1C80..1C88 |  9.0  |  [WG2 N4607](https://www.unicode.org/wg2/docs/n4607.pdf), [L2/14-196](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-196) |
+| 1C89..1C8A    | 16.0 | _See proposals and documents below_ |
 | 2DE0..2DF5 | 5.1 | [n3097.pdf](https://www.unicode.org/wg2/docs/n3097.pdf)/[L2/06-172](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-172) |
 | 2DF6..2DFF | 5.1 | [n3194.pdf](https://www.unicode.org/wg2/docs/n3194.pdf)/[L2/07-003](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-003) |
 | 2E3A | 5.1 | [n3194.pdf](https://www.unicode.org/wg2/docs/n3194.pdf)/[L2/07-003](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-003) |
@@ -62,6 +63,8 @@ Subsequent to version 1.0, the following characters have been added to the Cyril
 | A69E |  8.0  | [WG2 N4390](https://www.unicode.org/wg2/docs/n4390.pdf), [L2/13-008](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-008) |
 | A69F | 6.1 | [n3748.pdf](https://unicode.org/L2/L2010/10002-n3748-cyrillic-superscripts.pdf)/[L2/10-002](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-002) |
 | FE2E..FE2F |  8.0  | [WG2 N4475](https://www.unicode.org/wg2/docs/n4475.pdf), [L2/13-139](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-139) |
+| 1E030..1E06D  | 15.0 | _See proposals and documents below_ |
+| 1E08F         | 15.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 
