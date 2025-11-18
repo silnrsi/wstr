@@ -5,6 +5,7 @@ authors: Lorna Priest
 sidebar:
     order: 6410
     hidden: true
+tags: [script-thai]
 lastUpdated: 2025-07-25
 ---
 

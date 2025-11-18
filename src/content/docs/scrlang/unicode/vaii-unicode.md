@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Vai script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G18604).
+In The Unicode Standard, Vai script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/#G18604).
 
 ## Blocks
 

@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Bopomofo implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G22467).
+In The Unicode Standard, Bopomofo implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G22467).
 
 ## Blocks
 

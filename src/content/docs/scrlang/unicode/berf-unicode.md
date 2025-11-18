@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-10-03
 ---
 
-In The Unicode Standard, Beria Erfe script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G746359).
+In The Unicode Standard, Beria Erfe script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/#G746359).
 
 ## Blocks
 

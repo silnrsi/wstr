@@ -3,10 +3,10 @@ title: Unicode Status for Telugu
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-12
 ---
 
-In The Unicode Standard, Telugu script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G81985).
+In The Unicode Standard, Telugu script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G81985).
 
 ## Blocks
 
@@ -118,3 +118,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
 - 2022-07-20 Nonalphabetic bindus (beta feedback) _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 27.)_
   - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1.27 for decision and action items)_
+- 2025-10-17 Proposal to encode Telugu Sign Spacing Candrabindu  — Srinidhi A, Sridatta A ([L2/25-246](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-246))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 2.1)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 2.1 for decision and action items)_

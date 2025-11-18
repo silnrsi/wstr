@@ -244,4 +244,8 @@ export default defineConfig({
             ],
         ],
     },
+    redirects: {
+        "/guides/app-development-best-practice": "/topics/computing/app-development-best-practice",
+        "/guides/font-design-and-development": "/topics/fonts/font-design-and-development",
+    }
 });

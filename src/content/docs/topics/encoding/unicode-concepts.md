@@ -4,6 +4,7 @@ description: Fundamental ideas and definitions for understanding Unicode
 sidebar:
     order: 3300
 authors: Peter Constable, Lorna Evans
+tags: [direction, rendering]
 lastUpdated: 2025-09-02
 ---
 

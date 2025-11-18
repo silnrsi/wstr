@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Miao script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G42236) and in [UTN#56 Representing Miao in Unicode](https://www.unicode.org/notes/tn56/).
+In The Unicode Standard, Miao script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G42236) and in [UTN#56 Representing Miao in Unicode](https://www.unicode.org/notes/tn56/).
 
 ## Blocks
 

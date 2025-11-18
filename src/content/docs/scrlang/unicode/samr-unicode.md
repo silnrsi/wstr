@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Samaritan script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G34422).
+In The Unicode Standard, Samaritan script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G34422).
 
 ## Blocks
 

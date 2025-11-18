@@ -1,6 +1,6 @@
 ---
 title: Language Tagging
-description: Definition and use of language tags
+description: Standardized identifiers for language information
 sidebar:
     order: 1410
 lastUpdated: 2025-08-08

@@ -3,10 +3,10 @@ title: Unicode Status for Hebrew
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-06
+lastUpdated: 2025-11-12
 ---
 
-In The Unicode Standard, Hebrew Script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G6528).
+In The Unicode Standard, Hebrew Script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G6528).
 
 ## Blocks
 
@@ -101,6 +101,20 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 1.2 for decision and action items)_
 - 2025-05-05 UTC Doc: Regarding the name “Heavy Sheva” — Ben Denckla ([L2/25-160](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-160))
   - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.17.)_
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 4.1)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 4.1 for decision and action items)_
 - 2025-05-28 Adding dagesh ḥazaq to Hebrew — Ben Denckla ([L2/25-175](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-175))
   - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 1.4.)_
   - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 1.4 for decision and action items)_
+-2025-10-17 Errors in L2/14-056 about QAMATS QATAN — Ben Denckla ([L2/25-237](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-237))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 5.3)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 5.3 for decision and action items)_
+- 2025-10-17 Adding Hebrew stress helper accents — Ben Denckla ([L2/25-242](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-242))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 2.6)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 2.6 for decision and action items)_
+- 2025-10-17 Adding “Paseq not Legarmeh” to Hebrew — Ben Denckla ([L2/25-243](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-243))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 2.5)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 2.5 for decision and action items)_
+- 2025-10-27 Proposal to Encode Characters for the Babylonian Vocalization System of Hebrew — Aleksandr Andreev, Christa Müller-Kessler ([L2/25-268](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-268))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 2.9)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 2.9 for decision and action items)_

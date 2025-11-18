@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-10-06
 ---
 
-In The Unicode Standard, Syriac Script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-9/#G13005) and in [UTN 52: Christian Palestinian Aramaic (CPA) Encoding](https://www.unicode.org/notes/tn52/). The Unicode Syriac block combines all three main script variants (Estrangelo, Eastern and Western) in a single set of character codes.
+In The Unicode Standard, Syriac Script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G13005) and in [UTN 52: Christian Palestinian Aramaic (CPA) Encoding](https://www.unicode.org/notes/tn52/). The Unicode Syriac block combines all three main script variants (Estrangelo, Eastern and Western) in a single set of character codes.
 
 ## Blocks
 

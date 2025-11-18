@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Combining marks implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G18195). In general, combining marks inherit script properties from the script being used. They are used in Latin, Cyrillic, Greek and have even been used in Tifinagh, Coptic, Newa and Caucasian Albanian. Other scripts, such as Arabic or most of the Indic scripts, have combining marks which are specific to that script.
+In The Unicode Standard, Combining marks implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G18195). In general, combining marks inherit script properties from the script being used. They are used in Latin, Cyrillic, Greek and have even been used in Tifinagh, Coptic, Newa and Caucasian Albanian. Other scripts, such as Arabic or most of the Indic scripts, have combining marks which are specific to that script.
 
 The Combining marks were first encoded in The Unicode Standard version 1.0. Since that time a number of other combining marks have been encoded. Combining marks are now encoded in the following blocks:
 

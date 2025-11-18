@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-10-06
 ---
 
-In The Unicode Standard, Glagolitic script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G15862).
+In The Unicode Standard, Glagolitic script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G15862).
 
 ## Blocks
 

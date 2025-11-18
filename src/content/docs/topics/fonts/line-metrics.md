@@ -1,6 +1,6 @@
 ---
 title: Line Metrics
-description: Shaping engines and smart font rendering systems
+description: Setting the default line spacing for a font family
 sidebar:
   order: 5340
 lastUpdated: 2025-07-21

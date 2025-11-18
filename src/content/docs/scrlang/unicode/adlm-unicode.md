@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Adlam Script implementation is discussed in [Chapter 19 Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G56860) and in [Evolution of Adlam Characters Since Encoding](https://www.unicode.org/notes/tn58/).
+In The Unicode Standard, Adlam Script implementation is discussed in [Chapter 19 Africa](https://www.unicode.org/versions/latest/core-spec/#G56860) and in [Evolution of Adlam Characters Since Encoding](https://www.unicode.org/notes/tn58/).
 
 ## Blocks
 

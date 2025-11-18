@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Khitan Small Script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G59285).
+In The Unicode Standard, Khitan Small Script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G59285).
 
 ## Blocks
 

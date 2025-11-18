@@ -3,6 +3,7 @@ title: OpenType
 description: Features and lookups
 sidebar:
   order: 5520
+tags: [numerals, opentype, rendering, script-arab, script-beng, script-deva, script-gujr, script-guru, script-khmr, script-knda, script-mlym, script-mong, script-nkoo, script-orya, script-syrc, script-taml, script-telu]
 lastUpdated: 2025-09-16
 ---
 

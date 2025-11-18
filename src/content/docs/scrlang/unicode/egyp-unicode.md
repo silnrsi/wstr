@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-10-06
 ---
 
-In The Unicode Standard, implementation of Egyptian Hieroglyphs is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G26607), [UTN 32: Mapping Between Manuel de Codage and Unicode Egyptian Hieroglyphs](https://www.unicode.org/notes/tn32/), and in [Unicode Egyptian Hieroglyph Database (Unikemet)](https://www.unicode.org/reports/tr57/).
+In The Unicode Standard, implementation of Egyptian Hieroglyphs is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/#G26607), [UTN 32: Mapping Between Manuel de Codage and Unicode Egyptian Hieroglyphs](https://www.unicode.org/notes/tn32/), and in [Unicode Egyptian Hieroglyph Database (Unikemet)](https://www.unicode.org/reports/tr57/).
 
 ## Blocks
 

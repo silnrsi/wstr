@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-10-06
 ---
 
-In The Unicode Standard, Tibetan script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G31615).
+In The Unicode Standard, Tibetan script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G31615).
 
 ## Blocks
 

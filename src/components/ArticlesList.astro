@@ -1,7 +1,20 @@
 ---
 import { getCollection } from 'astro:content';
-const articles = await getCollection('articlelibdocs');
-const { tag } = Astro.props;
+const { tag, subset } = Astro.props;
+const articlelibonly = await getCollection('articlelibdocs');
+const topicsonly = await getCollection('topicsdocs');
+
+let articles
+switch (subset) {
+  case "articlelibonly":
+    articles = [...articlelibonly];
+    break;
+  case "topicsonly":
+    articles = [...topicsonly];
+    break;
+  default:
+    articles = [...articlelibonly, ...topicsonly];
+};
 
 let filteredArticles = articles;
 if (tag) {
@@ -13,6 +26,6 @@ if (tag) {
 
 <ul>
   {filteredArticles.map(article => (
-    <li><a href={`/articlelib/${article.id}`}>{article.data.title}</a></li>
+    <li><a href={`/${article.id}`}>{article.data.title}</a></li>
   ))}
 </ul>

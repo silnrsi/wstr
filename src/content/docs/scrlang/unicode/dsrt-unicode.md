@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Deseret Alphabet implementation is discussed in [Chapter 20: Americas](https://www.unicode.org/versions/latest/core-spec/chapter-20/#G27507).
+In The Unicode Standard, Deseret Alphabet implementation is discussed in [Chapter 20: Americas](https://www.unicode.org/versions/latest/core-spec/#G27507).
 
 ## Blocks
 

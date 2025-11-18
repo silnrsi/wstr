@@ -4,6 +4,7 @@ description: Guide for software developers
 sidebar:
     order: 2500
     label: App Development Best Practice
+tags: [conversion, encoding, fonts, input, layout, rendering]
 lastUpdated: 2025-11-05
 ---
 

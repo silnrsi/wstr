@@ -3,7 +3,7 @@ title: Unicode Status for Mwangwego
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-12
 ---
 
 The Mwangwego script is not yet in Unicode. The script has a tentative allocation at U+16E00..U+16E3F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
@@ -28,3 +28,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 7.)_
 - 2025-02-28 Final Proposal for Encoding the Mwangwego Script in the UCS — Oreen Yousuf, Daniel Yacob ([L2/25-135](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-135))
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 6.)_
+- 2025-10-22 Feedback on Mwangwego encoding model — Ned Holbrook ([L2/25-260](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-260))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 1.4)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 1.4 for decision and action items)_

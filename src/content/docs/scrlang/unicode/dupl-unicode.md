@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Duployan Shorthand implementation is discussed in [Chapter 21: Notational Systems](https://www.unicode.org/versions/latest/core-spec/chapter-21/#G27643) and in [UTN 37: Duployan Shorthand Rendering Model](https://www.unicode.org/notes/tn37/).
+In The Unicode Standard, Duployan Shorthand implementation is discussed in [Chapter 21: Notational Systems](https://www.unicode.org/versions/latest/core-spec/#G27643) and in [UTN 37: Duployan Shorthand Rendering Model](https://www.unicode.org/notes/tn37/).
 
 ## Blocks
 

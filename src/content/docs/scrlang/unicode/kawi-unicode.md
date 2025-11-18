@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Kawi script implementation is discussed in [Chapter 17 Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G40419) and in [UTN 48: Implementing Kawi](https://www.unicode.org/notes/tn48/).
+In The Unicode Standard, Kawi script implementation is discussed in [Chapter 17 Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/#G40419) and in [UTN 48: Implementing Kawi](https://www.unicode.org/notes/tn48/).
 
 ## Blocks
 

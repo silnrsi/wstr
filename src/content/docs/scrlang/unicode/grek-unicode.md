@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Greek script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G10832). 
+In The Unicode Standard, Greek script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G10832). 
 
 Prior to version 4.1 of The Unicode Standard, the Coptic script was considered a stylistic variant of the Greek script, and a unified Greek and Coptic block contained the Coptic characters which could not arguably be written with Greek letters. However, subsequent discussion determined that the two scripts would be better encoded separately, so version 4.1 added a Coptic block which contained characters needed for accurately processing Coptic text. Coptic characters already encoded in the Greek block remain there for use in the Coptic script.
 

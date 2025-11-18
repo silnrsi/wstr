@@ -3,6 +3,7 @@ title: User Interface Strings
 description: Setting UI strings for OpenType features
 sidebar:
   order: 5525
+tags: [opentype]
 lastUpdated: 2025-07-28
 ---
 

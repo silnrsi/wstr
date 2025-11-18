@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-10-06
 ---
 
-In The Unicode Standard, Currency symbols are discussed in [Chapter 22: Symbols](https://www.unicode.org/versions/latest/core-spec/chapter-22/#G13244). Currency symbols generally have an inherited script property rather than a specific script property.
+In The Unicode Standard, Currency symbols are discussed in [Chapter 22: Symbols](https://www.unicode.org/versions/latest/core-spec/#G13244). Currency symbols generally have an inherited script property rather than a specific script property.
 
 ## Blocks
 

@@ -3,6 +3,7 @@ title: Building & Modifying SIL Fonts
 description: SIL font development guide
 sidebar:
   order: 5800
+tags: [distribution]
 lastUpdated: 2025-10-15
 ---
 

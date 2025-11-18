@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, N’Ko script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G18603).
+In The Unicode Standard, N’Ko script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/#G18603).
 
 ## Blocks
 

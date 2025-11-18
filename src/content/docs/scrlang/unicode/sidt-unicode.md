@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-10-03
 ---
 
-In The Unicode Standard, Sidetic script implementation is discussed in [Chapter 8: Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G27262).
+In The Unicode Standard, Sidetic script implementation is discussed in [Chapter 8: Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/#G27262).
 
 ## Blocks
 

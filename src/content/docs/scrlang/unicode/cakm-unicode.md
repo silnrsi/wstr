@@ -3,10 +3,10 @@ title: Unicode Status for Chakma
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-12
 ---
 
-In The Unicode Standard, Chakma script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G27486).
+In The Unicode Standard, Chakma script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G27486).
 
 ## Blocks
 
@@ -48,3 +48,6 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2019-06-16 Proposal to improve alternative names in the Chakma block — Bivuti Chakma ([L2/19-218](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/19-218))
   - _Recommendations to UTC #160 July 2019 on Script Proposals ([L2/19-286](https://www.unicode.org/L2/L2019/19286-script-recs.pdf)) (See point 7.)_
   - _UTC #160 Minutes ([L2/19-270](https://www.unicode.org/L2/L2019/19270.htm)) (See D.3 for decision and action items)_
+- 2025-10-17 Proposal to Replace the Chakma Code Chart Reference Font — Bivuti Chakma ([L2/25-236](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-236))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 5.4)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 5.4 for decision and action items)_
