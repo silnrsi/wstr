@@ -4,6 +4,7 @@ subtitle: Reference to WSTR-specific Astro components
 description: Documentation on some prototype components for integrating coredata
 lastUpdated: 2025-09-24
 ---
+import ArticlesList from '/src/components/ArticlesList.astro';
 import Character from '/src/components/Character.astro';
 import CharacterTable from '/src/components/CharacterTable.astro';
 import DataTable from '/src/components/DataTable.astro';
@@ -76,6 +77,40 @@ Combining marks are automatically displayed with a dotted circle to indicate the
 These components are prototypes for possible future use: their specification is not yet agreed. You are welcome to try them out and give feedback, but be aware that they will likely change.
 :::
 
+---
+
+### `ArticlesList` component
+
+#### Required import
+```jsx
+import ArticlesList from '/src/components/ArticlesList.astro';
+```
+
+#### Syntax
+```html
+<ArticlesList [tag="..."] [subset="articlelibonly|topicsonly"] />
+```
+
+|Property|Description|
+|---|---|
+|tag|optional tag to filter the articles listed|
+|subset|optional subset of articles to display, either `articlelibonly` or `topicsonly`|
+
+Unless `subset` is defined, the component lists contents from both the Article Library and Topic pages.
+
+#### Example
+
+##### Source
+```html
+<ArticlesList tag="encoding" subset="articlelibonly" />
+```
+
+##### Result
+
+<ArticlesList tag="encoding" subset="articlelibonly" />
+
+---
+
 ### `CharacterTable` component
 
 #### Required import
@@ -111,48 +146,7 @@ import CharacterTable from '/src/components/CharacterTable.astro';
   caption  = "Arabic characters 0627-0632"
 />
 
-### `ScriptTable` component
-
-#### Required import
-```jsx
-import ScriptTable from '/src/components/ScriptTable.astro';
-```
-
-#### Syntax
-```html
-<ScriptTable 
-    [filter="key=value,key=value,..."] 
-    [order="expression"] 
-    [caption="..."]
-/>
-```
-|Property|Description|
-|---|---|
-|filter|A comma-separated list of key=value pairs to filter the scripts. Possible keys are `script_reordering` and `script_direction`. Possible values for `script_reordering` are `yes` and `no`. Possible values for `script_direction` are `ltr`, `rtl`, `ttb`, and `btt`. Multiple values for a key can be separated by `|`.|
-|order|An optional SQL ORDER BY clause to sort the results. Possible fields are `script_name`, `script_code`, `script_type`, `script_family`, `script_direction`, and `script_reordering`.|
-|caption|An optional caption to display below the table.|
-
-#### Examples
-##### Source
-```html
-<ScriptTable 
-  filter  = "script_reordering=yes"
-  order   = "script_family"
-  caption = "Scripts with reordering"
-/>
-```
-##### Result
-<ScriptTable filter="script_reordering=yes" order="script_family" caption="Scripts with reordering"/>
-##### Source
-```html
-<ScriptTable
-  filter  = "script_type=abjad"
-  order   = "script_name"
-  caption = "Abjad scripts"
-/>
-```
-##### Result
-<ScriptTable filter="script_type=abjad" order="script_name" caption="Abjad scripts"/>
+---
 
 ### `DataTable` component
 
@@ -198,3 +192,51 @@ import DataTable from '/src/components/DataTable.astro';
   order   = "character_usv ASC" 
   caption = "List of Modifier Letters (Lm) added in Unicode 3.0"
 />
+
+---
+
+### `ScriptTable` component
+
+#### Required import
+```jsx
+import ScriptTable from '/src/components/ScriptTable.astro';
+```
+
+#### Syntax
+```html
+<ScriptTable 
+    [filter="key=value,key=value,..."] 
+    [order="expression"] 
+    [caption="..."]
+/>
+```
+|Property|Description|
+|---|---|
+|filter|A comma-separated list of key=value pairs to filter the scripts. Possible keys are `script_reordering` and `script_direction`. Possible values for `script_reordering` are `yes` and `no`. Possible values for `script_direction` are `ltr`, `rtl`, `ttb`, and `btt`. Multiple values for a key can be separated by `|`.|
+|order|An optional SQL ORDER BY clause to sort the results. Possible fields are `script_name`, `script_code`, `script_type`, `script_family`, `script_direction`, and `script_reordering`.|
+|caption|An optional caption to display below the table.|
+
+#### Examples
+##### Source
+```html
+<ScriptTable 
+  filter  = "script_reordering=yes"
+  order   = "script_family"
+  caption = "Scripts with reordering"
+/>
+```
+##### Result
+<ScriptTable filter="script_reordering=yes" order="script_family" caption="Scripts with reordering"/>
+##### Source
+```html
+<ScriptTable
+  filter  = "script_type=abjad"
+  order   = "script_name"
+  caption = "Abjad scripts"
+/>
+```
+##### Result
+<ScriptTable filter="script_type=abjad" order="script_name" caption="Abjad scripts"/>
+
+---
+

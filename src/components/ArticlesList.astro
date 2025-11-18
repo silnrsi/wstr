@@ -26,6 +26,6 @@ if (tag) {
 
 <ul>
   {filteredArticles.map(article => (
-    <li><a href={`/${article.id}`}>{article.data.title}</a></li>
+    <li><a href={`/${article.id}`}>{article.data.title}</a> - <em>{article.data.description}</em></li>
   ))}
 </ul>
