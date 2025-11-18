@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import mermaid from 'astro-mermaid';
 import starlightLinksValidator from 'starlight-links-validator';
 import astroBrokenLinksChecker from 'astro-broken-links-checker';
 import rehypeFigureTitle from 'rehype-figure-title';
@@ -212,7 +213,11 @@ export default defineConfig({
                 },
             },
         }),
-        db()
+        db(), 
+        mermaid({
+          theme: 'forest',
+          autoTheme: true
+        })
     ],
     markdown: {
         rehypePlugins: [
