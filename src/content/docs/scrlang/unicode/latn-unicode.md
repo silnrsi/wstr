@@ -96,8 +96,8 @@ Subsequent to version 1.1, the following characters have been added to the Latin
 | 2C77 | 5.0 | [n2989.pdf](https://www.unicode.org/wg2/docs/n2989.pdf), [L2/05-261](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-261) |
 | 2C78..2C7D | 5.1 | [n3028.pdf](https://www.unicode.org/wg2/docs/n3028.pdf), [L2/06-028](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-028) |
 | 2C7E..2C7F | 5.2 | [n3447.pdf](https://www.unicode.org/wg2/docs/n3447.pdf), [L2/07-334](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-334) |
-| 2E4C  |  pending  |  [L2/16-220](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-220)  |
-| 2E4D..2E4E  |  pending  |  [L2/16-219](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-219)  |
+| 2E4C  |  11.0  |  [L2/16-220](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-220)  |
+| 2E4D..2E4E  |  11.0  |  [L2/16-219](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-219)  |
 | A720..A721 | 5.0 | [n2989.pdf](https://www.unicode.org/wg2/docs/n2989.pdf), [L2/05-261](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-261) |
 | A722..A725 | 5.1 | [n2241.pdf](https://www.unicode.org/wg2/docs/n2241.pdf), [L2/00-293](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-293) |
 | A726..A72F | 5.1 | [n3082.pdf](https://www.unicode.org/wg2/docs/n3082.pdf), [L2/06-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-121) |

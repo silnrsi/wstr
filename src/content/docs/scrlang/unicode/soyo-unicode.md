@@ -25,8 +25,6 @@ Subsequent to version 10.0, the following characters have been added to the Soyo
 | 11A84..11A85  | 12.0 | _See proposals and documents below_ |
 | 11A9D  |  11.0  | [L2/16-016](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-016)  |
 
-__Pending_ indicates codepoint assignments are not final; _Documentation_ refers to [ISO Working Group](https://www.unicode.org/wg2/) and [Unicode](http://www.unicode.org) proposals_
-
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:
