@@ -666,7 +666,7 @@ Please [get in touch](/support/contact/) if you have any feedback.
 [designspace]: https://github.com/fonttools/fonttools/tree/main/Doc/source/designspaceLib/index.rst
 [docker]: https://www.docker.com
 [fea]: https://github.com/adobe-type-tools/afdko/blob/develop/docs/OpenTypeFeatureFileSpecification.md
-[feax]: https://github.com/silnrsi/pysilfont/blob/master/docs/feaextensions.md
+[feax]: https://github.com/silnrsi/feax
 [fontdocs]: https://github.com/silnrsi/fontdocs
 [fontforge]: http://www.fontforge.org/
 [fontlab]: https://www.fontlab.com/font-editor/fontlab/
