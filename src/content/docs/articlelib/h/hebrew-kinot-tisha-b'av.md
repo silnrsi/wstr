@@ -1,6 +1,5 @@
 ---
 title: Hebrew Kinot for Tisha B'Av
-description: An image of a Hebrew Kinot for Tisha B'Av
 tags: [script-hebr]
 lastUpdated: 2025-10-16
 ---

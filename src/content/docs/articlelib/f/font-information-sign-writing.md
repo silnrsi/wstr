@@ -1,6 +1,6 @@
 ---
 title: Font Information (Sign Writing)
-description: Font information about Sign Writing
+description: A link to a catalogue of TrueType fonts for Sign Writing 
 tags: [script-sgnw]
 lastUpdated: 2025-10-16
 ---
