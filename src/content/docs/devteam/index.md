@@ -16,6 +16,13 @@ These are links to pages intended for use by the development team.
 - [Component Reference](/devteam/component-reference)
 - [Component Coredata Examples](/devteam/component-coredata-examples)
 
+## Processes
+
+- [Adding and Revising Content](/devteam/adding-and-revising-content)
+- [Datasets](/devteam/datasets)
+    - [Dataset - Characters](/devteam/dataset-characters)
+    - [Dataset - Template](/devteam/dataset-template)
+
 ## Article Library and Tags
 
 - [Tag Reference](/devteam/tag-reference)
