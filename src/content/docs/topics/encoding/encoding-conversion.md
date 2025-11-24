@@ -69,7 +69,7 @@ The [TECkit][teckit] conversion toolkit is included in the SIL Converters packag
 
 The core component is the “TECkit engine”, a library that performs conversions based on mappings. This library is used in the other tools, including SIL Converters. Its mapping tables use multi-pass, context-sensitive rules, which can often be written so that the overall mapping can be used forwards or backwards. The rules are compiled into a binary form which is optimized for speed of conversion.
 
-TECkit includes some command line tools, and, for developers, there are wrappers for C#, perl, python, C and C++.
+TECkit includes some command line tools, and, for developers, there are wrappers for C#, Perl, Python, C and C++.
 
 ## What else?
 
