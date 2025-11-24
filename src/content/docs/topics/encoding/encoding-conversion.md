@@ -90,13 +90,17 @@ This document does not address those issues.
 - [Lexilogos Data Conversion][res-lexilogos]
 - [ISO 15919 TECkit mappings for Indic scripts][res-brahmic-maps]
 - [How to Convert Text to Unicode Codepoints][res-ishida]
+- [Unicode ICU project uses conversion data files][res-icu]
+- [W3C Encoding specification][res-w3c]
 
 [cross-script-article]: /articlelib/t/text-encoding-issues-when-working-with-multiple-scripts
 [lolt]: https://extensions.libreoffice.org/en/extensions/show/99202
 [res-brahmic-maps]: https://github.com/davidmjones/brahmic-maps
+[res-icu]: https://icu.unicode.org/charts/charset
 [res-ishida]: https://rishida.net/tools/conversion
 [res-lexilogos]: https://www.lexilogos.com/keyboard/
 [res-osage]: https://osagelanguagetools.appspot.com/
+[res-w3c]: https://encoding.spec.whatwg.org/
 [rs-to-as]: https://software.sil.org/arabicfonts/rs-to-as-conversion/
 [sil-converters]: https://software.sil.org/silconverters/
 [teckit]: https://software.sil.org/teckit/
