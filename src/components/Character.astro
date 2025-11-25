@@ -65,11 +65,12 @@ if (optionsArray.includes('name')) {
 }
 const output = parts.join(' ');
 // console.debug(`${componentName} component output: "${output}"`);
-
 ---
+
+<span class='character-component' set:html={output}/>
+
 <style>
   .character-component {
     display: inline;
   }
-  </style>
-  <span class='character-component' set:html={output}/>
+</style>
