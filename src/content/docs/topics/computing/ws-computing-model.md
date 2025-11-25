@@ -1,6 +1,5 @@
 ---
 title: Writing Systems Computing Model
-description: Description of the Writing Systems Computing Model
 authors: Victor Gaultney, Melinda Lyons
 sidebar:
     order: 2100
