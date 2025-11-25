@@ -1,0 +1,152 @@
+---
+title: Sources Reference
+description: How to use bibliographic sources and links
+lastUpdated: 2025-11-25
+---
+
+:::note
+This is a guidance document for authors, primarily the Writing Systems Technology (WSTech) team.
+:::
+
+## How to use bibliographic sources
+
+### To add links within text content
+
+### To create a bibliography for a page
+
+### To add a list of links based on tags
+
+## Source types
+
+The data model for WSTR sources is based closely on [BibLaTeX][biblatex-manual], although we are only using a small number of entry types and adding some custom fields. Here are the source types we are using and which fields are appropriate. By convention the `@` symbol is used to indicate entry types.
+
+- **@article** - for articles in journals
+    - Required: _title_, _author_, _journaltitle_, _date_
+    - Optional: _pages_, _volume_, _number_, _issn_
+- **@book** - for books
+    - Required: _title_, _author_ and/or _editor_
+    - Should also have: _date_, _publisher_, _location_ (though not strictly required)
+    - Optional: _series_, _isbn_
+- **@inbook** - for chapters within books
+    - Required: _title_, _author_, _booktitle_, _date_
+    - Should also have: _publisher_, _location_, _pages_ (though not strictly required)
+    - Optional: _editor_, _isbn_
+- **@inproceedings** - for papers or presentations given at conferences and often published in books of "proceedings"
+    - Required: _title_, _author_, _date_, _booktitle_ (which could be the conference title if there are no published procedings)
+    - Optional: _editor_, _isbn_, _publisher_, _location_, _pages_ 
+- **@misc** - for sources that do not fit other types, such as unpublished papers, videos, or presentations
+    - Required: _title_, _author_
+    - Optional: anything that is relevant
+- **@online** - for webpages, websites, and online resources, typically used for links. Do not use this for articles or books that happen to be online; use the appropriate type for those instead and add _url_ and _date_/_urldate_ fields.
+    - Required: _title_, _url_, _date_ and/or _urldate_
+    - Should also have: _author_ and/or _organization_  (though not strictly required)
+    - Optional: _editor_
+
+In addition to these standard fields, WSTR sources must include:
+    - _entrytype_ (one of the above types)
+    - _key_ (a unique identifier for the source)
+    - _keywords_ (a comma-separated list of tags for the source).
+
+There are also some fields that may be applicable to all source types (see section below for details):
+    - _url_
+    - _urldate_
+    - _abstract_
+    - _annotation_
+    - _addendum_
+    - _sortname_
+    - _presort_
+
+## Source fields
+
+    - **abstract** - _not in use except for sources migrated from ScriptSource_   
+    - **addendum** - a brief note about the source that appears in lists of sources, a.k.a. "short annotation", equivalent to article frontmatter `description`.
+        - Ex: `A library to manipulate font files using python`
+    - **annotation** - _not in use except for sources migrated from ScriptSource_ 
+    - **author** - _required for all source types except @online_ - the person or people who wrote or created the work. Use `firstname lastname` format for each author, separated by ` and ` for multiple authors. Commas should not be used to separate authors. Authors who share lastnames should still be written in full.
+        - Ex: `Enya Cohen and Lila Namir and I. M. Schlesinger`
+        - Ex: `John Smith and Mary Smith`
+    - **booktitle** - _for @inbook and @inproceedings_ - the title of the book or proceedings in which the work appears. Alternately can be used for the name of the conference if there are no published proceedings.
+        - Ex: `Proceedings of the 12th International Conference on Font Technologies`
+    - **date** - the date the work was published or made publicly available. Use `yyyy-mm-dd` format where possible, but `yyyy-mm` or just `yyyy` is acceptable if the full date is not known.
+        - Ex: `2023-05-15`
+        - Ex: `2022-11`
+        - Ex: `2019`
+    - **editor** - the person or people who edited the work, see **author**.
+    - **entrytype** - _required_ - the type of source, one of the types listed in the _Source types_ section above.
+        - Ex: `@article`
+    - **isbn** - _for @book, @inbook, and @inproceedings_9, 10, or 13 digit [International Standard Book Number (ISBN)][isbn].
+    - **issn** - _for @article_ - 8 digit [International Standard Serial Number (ISSN)][issn].
+    - **journaltitle** - _for @article_ - the name of the journal or periodical in which the article appears.
+        - Ex: `Journal of Writing Systems Technology`
+    - **key** - _required_ - a unique identifier for the source. See [Choosing source keys](#choosing-source-keys).
+    - **keywords** - _required_ - a comma-separated list of tags for the source, used to group related sources together. See [Tags](/devteam/file-location-and-frontmatter-reference/#tags).
+        - Ex: `rendering, fonts, opentype, script-arab`
+    - **location** - the place where the work was published. If the city is not well known, include the state/province/country as well.
+        - Ex: `Paris`
+        - Ex: `Katsina, Nigeria`
+        - Ex: `St. Peter, MN`
+    - **number** - _for @article_ - the issue number of the journal in which the article appears.
+    - **organization** - _for @online_ - the organization responsible for the content of the webpage or website. Can be a shorthand name rather the full formal name. Will be displayed after **title** in lists of links.
+        - Ex: `Wikipedia`
+        - Ex: `Microsoft`
+        - Ex: `SIL`
+        - Ex: `Eesti Keele Instituut`
+    - **pages** -  _for @article, @inbook, and @inproceedings_ - the page range of the article, chapter, or paper within the larger work. Use `startpage-endpage` format.
+        - Ex: `45-67`
+    - **presort** - a two digit number 10-99 that can be used to influence the sorting order of sources in lists. Lower numbers appear first. Sources with defined presort values appear before those without. Some standard values for certain sites:
+        - `10` - ScriptSource
+        - `15` - software.sil.org
+        - `20` - Wikipedia script pages
+        - `22` - Other Wikipedia
+        - `30` - Omniglot
+    - **publisher** - the name of the publisher of the work.
+        - Ex: `Brill`
+        - Ex: `Minzu Chubanshe 民族出版社`
+        - Ex: `School of Oriental and African Studies, University of London`
+    - **series** - _for @book_ - the name of the series in which the work appears, if applicable.
+        - Ex: `Studies in Semitic Languages and Linguistics `
+    - **sortname** - a name used to influence the sorting order of sources in bibliographies. Typically this is the lastname of the first **author** or **editor**, but can be any string. Sources are sorted alphabetically by **sortname**.
+        - Ex: `Correll`
+    - **title** - _required_ - the title of the work. Capitalization should follow standard [English title case][wiki-title-case] conventions, however sources may not follow this strictly, particularly those migrated from ScriptSource.
+        - Ex: `Understanding Font Technologies`
+    - **url** -  the URL where the work can be found online. This can be used for all source types, not just @online.
+        - Ex: `https://robofont.com/`
+        - Ex: `https://en.wikipedia.org/wiki/Cedilla`
+        - Ex: `https://doi.org/10.1017/S0025100315000444`
+    - **urldate** - the date the URL was last accessed. See **date** for formatting.
+        - Ex: `2025-11-20`
+    - **volume** - _for @article_ - the volume number of the journal in which the article appears, in whatever format is given.
+        - Ex: `12`
+        - Ex: `XIV`
+
+### Choosing source keys
+
+Source keys need to be unique, lowercase, with no spaces or punctuation except for a hyphen. They should follow one of three patterns, although **which style of key you choose is not important as long as it is unique**:
+
+- Formal academic style when author/editor and date are known: `sortnameYYYY[postfix]` where `YYYY` is the year portion of **date**. The optional `postfix` is used if there are multiple works by the same author/editor in the same year, and can be any short string. Applicable to all source types, although @online sources may be more easily identified using one of the other styles.
+    - Ex: `esfabod2024`
+    - Ex: `coulmas2006batak`
+    - Ex: `mafundikwa2004a`
+- Informal style, mostly for @online links to common websites, when there is no clear author or date, or when formal style would be bothersome: `shortorganization-short-title` where `shortorganization` is a brief shorthand name for the website or organization responsible for the content and `short-title` is a brief shorthand name for the page.
+    - Ex: `wiki-macron` (Wikipedia page on the macron diacritic)
+    - Ex: `ss-scr-adlm`  (ScriptSource page on Adlam script)
+    - Ex: `omni-balinese` (Omniglot page on Balinese script)
+    - Ex: `signwriting-transcription-systems`  (SignWriting page on writing the same signs in different transcription systems)
+- Shortcut style, for common links that would be easy to remember and use: `anything-memorable`. We may make a list of these common shortcuts for easy reference.
+    - Ex: `opentype` (current OpenType spec)
+    - Ex: `uni-charts`  (Unicode code charts)
+    - Ex: `icu`  (International Components for Unicode)
+    - Ex: `ss` (Scriptsource main page)
+    - Ex: `keyman`  (Keyman site)
+    - Ex: `ofl`  (SIL Open Font License)
+
+(to be added: info on how to check if a key is unique)
+
+## Source examples
+
+(to be added)
+
+[biblatex-manual]: https://mirror.ox.ac.uk/sites/ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf
+[isbn]: https://en.wikipedia.org/wiki/ISBN
+[issn]: https://en.wikipedia.org/wiki/ISSN
+[wiki-title-case]: https://en.wikipedia.org/wiki/Title_case

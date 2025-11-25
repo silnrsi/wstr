@@ -12,6 +12,7 @@ These are links to pages intended for use by the development team.
 
 - [Style Guide](/devteam/style-guide)
 - [File Location and Frontmatter Reference](/devteam/file-location-and-frontmatter-reference)
+- [Sources Reference](/devteam/sources-reference)
 - [Markdown Reference](/devteam/markdown-reference)
 - [Component Reference](/devteam/component-reference)
 - [Component Coredata Examples](/devteam/component-coredata-examples)
