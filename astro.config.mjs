@@ -7,6 +7,7 @@ import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
 import cookieconsent from "@jop-software/astro-cookieconsent";
 import db from '@astrojs/db';
+import remarkCharacterDirectives from './src/remark-usv-directive';
 
 const googleAnalyticsId = 'G-WHT6CVPT8M';
 
@@ -215,6 +216,9 @@ export default defineConfig({
         db()
     ],
     markdown: {
+        remarkPlugins: [
+            remarkCharacterDirectives
+        ],
         rehypePlugins: [
             rehypeFigureTitle, [
                 rehypeExternalLinks, {
