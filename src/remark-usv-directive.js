@@ -11,7 +11,7 @@ export default function remarkCharacterDirectives() {
                 node.children = []
                 node.attributes = [
                     {  ...value, type: 'mdxJsxAttribute', name: node.name },
-                    { type: 'mdxJsxAttribute', name: 'options', value: `${options}`, position: value.position }
+                    { type: 'mdxJsxAttribute', name: 'options', value: `${options}`, position: value?.position }
                 ]
                 node.data = { _mdxExplicitJsx: true }
                 node.name = 'Character'

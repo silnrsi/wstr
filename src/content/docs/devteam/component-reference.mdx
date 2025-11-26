@@ -10,16 +10,6 @@ import CharacterTable from '/src/components/CharacterTable.astro';
 import DataTable from '/src/components/DataTable.astro';
 import ScriptTable from '/src/components/ScriptTable.astro';
 
-USV and Char directives.........
-```
-:usv[0634]
-:usv[0634]{usv char}
-:char[a]
-```
-:usv[0634]  
-:usv[0634]{usv char}  
-:char[a]  
-
 ## Using the components
 To use these components, you need to:
 - ensure your Markdown file uses the `.mdx` extension
@@ -53,6 +43,28 @@ Note: Either `usv` or `char` must be provided.
 |char|A literal character|
 |options|A comma-separated list of options to display. Options are `usv`, `char`, and `name`. The default is all three.|
 
+#### Directive syntax
+```mdx
+:usv[XXXX]
+:char[a]
+:usv[XXXX]{usv char name}
+:char[a]{usv char name}
+```
+Please note the `:char` directive is a little more limited, and cannot accept
+certain directive meta characters `[`,`]`, `{`,`}`, or whitespace.
+Astro processes directives after smart quote translation, so `:char[']`
+produces `U+2019 ’ RIGHT SINGLE QUOTATION MARK` instead or the expected
+`U+0027 ' APOSTROPHE`.  
+The following attributes are supported which correspond to the component's `options=` attribute.
+
+|Attribute|Description|
+|---|---|
+|usv|Display the USV|
+|char|Display the character|
+|name|Display the Unicode name|
+
+No specified attributes displays all three by default
+
 #### Inline examples
 
 This example uses the default options, where all three elements appear.
@@ -67,10 +79,22 @@ This example uses just `usv` and `char` options:
 ```
 >Result: <Character usv="0634" options="usv,char"/>
 
+```mdx
+:usv[0634] and :usv[0634]{usv char}
+```
+>Result: :usv[0634] and :usv[0634]{usv char}
+
+```mdx
+:char[@] and :char[@]{usv char}
+```
+>Result: :char[@] and :char[@]{usv char}
+
 #### List example
 
 - <Character usv="0020"/>
 - <Character usv="0635"/>
+- :char[']
+- :usv[0635]
 
 ### Combining marks
 Combining marks are automatically displayed with a dotted circle to indicate their combining nature.
