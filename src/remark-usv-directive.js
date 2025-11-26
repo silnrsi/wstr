@@ -7,17 +7,18 @@ export default function remarkCharacterDirectives() {
                 if (node.name !== 'usv' && node.name !== 'char' && length(node.children)==1) return
                 const value = node.children[0]
                 const options = Object.keys(node.attributes || {})
-                node.type = 'mdxJsxFlowElement'
-                node.children = []
-                node.attributes = [
-                    {  ...value, type: 'mdxJsxAttribute', name: node.name },
-                    { type: 'mdxJsxAttribute', name: 'options', value: `${options}`, position: value?.position }
-                ]
-                node.data = { _mdxExplicitJsx: true }
-                node.name = 'Character'
+                Object.assign(node, {
+                    type: 'mdxJsxFlowElement',
+                    name: 'Character',
+                    children: [],
+                    attributes: [
+                        {  ...value, type: 'mdxJsxAttribute', name: node.name },
+                        { type: 'mdxJsxAttribute', name: 'options', value: `${options}`, position: value?.position }
+                    ],
+                    data: { _mdxExplicitJsx: true }
+                })
                 return SKIP
             }
         })
-        // console.log("Dump Tree:" + JSON.stringify(tree))
     }
 }
