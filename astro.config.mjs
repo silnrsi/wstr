@@ -7,7 +7,7 @@ import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
 import cookieconsent from "@jop-software/astro-cookieconsent";
 import db from '@astrojs/db';
-import remarkCharacterDirectives from './src/remark-usv-directive';
+import { remarkCharacterDirectives } from './src/plugins/remark-usv-directive.mts';
 
 const googleAnalyticsId = 'G-WHT6CVPT8M';
 
