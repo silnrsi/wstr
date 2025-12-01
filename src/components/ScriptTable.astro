@@ -2,10 +2,9 @@
 
 // filepath: /workspaces/wstr-sample-site/src/components/ScriptTable.astro
 
-import { getScripts } from '../utils/coredata_access';
+import { getScripts } from '../plugins/coredata.mts';
 
 const { filter, order, caption } = Astro.props;
-// console.log('ScriptTable props:', { filter, order, caption });
 
 // Parse the filter property into SQL WHERE conditions
 let whereExpression = '';
@@ -25,7 +24,6 @@ if (filter) {
 }
 
 // Fetch the filtered scripts from the database
-// console.log('Query:', query);
 const scripts = await getScripts(whereExpression, order);
 if (!scripts || scripts.length === 0) {
   throw new Error('No scripts found matching the filter criteria.');

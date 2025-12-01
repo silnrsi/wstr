@@ -1,9 +1,9 @@
 // Utility functions to access the coredata SQLite database
 import { db, characters, scripts, eq, sql } from 'astro:db';
 
-const ERROR_INVALID_USV = '*** NO CHARACTER NAME FOUND FOR THIS USV ***';
+export const ERROR_INVALID_USV = '*** NO CHARACTER NAME FOUND FOR THIS USV ***';
 
-async function getCharacterName(usv: string): Promise<string> {
+export async function getCharacterName(usv: string): Promise<string> {
   const usvInt = parseInt(usv, 16);
   if (isNaN(usvInt) || usvInt < 0 || usvInt > 0x10FFFF) {
     return ERROR_INVALID_USV;
@@ -17,11 +17,9 @@ async function getCharacterName(usv: string): Promise<string> {
 
   return result ? result.character_name : ERROR_INVALID_USV;
 }
-export { getCharacterName, ERROR_INVALID_USV };
-
 
 // Return a CharacterObject
-async function getCharacter(whereExpression: string = '', orderExpression: string = '__uid'): Promise<any> {
+export async function getCharacter(whereExpression: string = '', orderExpression: string = '__uid'): Promise<any> {
   const [result] = await db
     .select()
     .from(characters)
@@ -30,11 +28,10 @@ async function getCharacter(whereExpression: string = '', orderExpression: strin
     .limit(1);
   return result;
 }
-export { getCharacter };
 
 
 // Return an array of ScriptObjects, optionally filtered and ordered
-async function getScripts(whereExpression: string = '', orderExpression: string = 'script_code'): Promise<any[]> {
+export async function getScripts(whereExpression: string = '', orderExpression: string = 'script_code'): Promise<any[]> {
   const results = await db
     .select()
     .from(scripts)
@@ -43,11 +40,9 @@ async function getScripts(whereExpression: string = '', orderExpression: string 
 
   return results;
 }
-export { getScripts };
-
 
 // Return a ScriptObject for a given script code
-async function getScriptByCode(code: string): Promise<any> {
+export async function getScriptByCode(code: string): Promise<any> {
   const [result] = await db
     .select()
     .from(scripts)
@@ -56,4 +51,3 @@ async function getScriptByCode(code: string): Promise<any> {
 
   return result;
 }
-export { getScriptByCode };
