@@ -9,6 +9,7 @@ export function remarkCharacterDirectives() {
         visit(tree,
             'textDirective', // Only process textDirective nodes.
             (node: TextDirective) => {
+                if (node.name !== 'usv' && node.name !== 'char') return
                 const child = node.children.pop()
                 if (child?.type !== 'text' && child?.type !== 'inlineCode') {
                     file.fail(`Missing value on \`:${node.name}\` directive`, node)
