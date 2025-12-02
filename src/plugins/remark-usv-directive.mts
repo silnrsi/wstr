@@ -5,10 +5,10 @@ import type { VFile } from 'vfile'
 
 export function remarkCharacterDirectives() {
     return (tree: Root, file: VFile) => {
-        visit(tree, (node: Node) => {
-            if (node.type === 'textDirective') {
+        visit(tree,
+            'textDirective', // Only process textDirective nodes.
+            (node: TextDirective) => {
                 const txtdir = node as TextDirective
-                if (!((txtdir.name === 'usv' || txtdir.name === 'char'))) return
                 const value = txtdir.children[0]
                 if (value?.type !== 'text') {
                     console.log(JSON.stringify(file))
@@ -32,6 +32,6 @@ export function remarkCharacterDirectives() {
                 }
                 return SKIP
             }
-        })
+        )
     }
 }
