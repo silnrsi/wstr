@@ -50,8 +50,9 @@ Note: Either `usv` or `char` must be provided.
 :usv[XXXX]{usv char name}
 :char[a]{usv char name}
 ```
-Please note the `:char` directive is a little more limited, and cannot accept
-certain directive meta characters `[`,`]`, `{`,`}`, or whitespace.
+Please note the `:char` directive is a little more limited, and cannot accept any
+whitespace, or certain meta characters without escaping `\[`, `\{`, or wrapping
+in inline code quotes.
 Astro processes directives after smart quote translation, so `:char[']`
 produces `U+2019 ’ RIGHT SINGLE QUOTATION MARK` instead or the expected
 `U+0027 ' APOSTROPHE`.  
@@ -85,9 +86,9 @@ This example uses just `usv` and `char` options:
 >Result: :usv[0635] and :usv[0635]{usv char}
 
 ```mdx
-:char[@] and :char[@]{usv char}
+:char[` `] and :char[@]{name char}
 ```
->Result: :char[@] and :char[@]{usv char}
+>Result: :char[` `] and :char[@]{name char}
 
 #### List example
 
