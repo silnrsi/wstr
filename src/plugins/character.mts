@@ -1,7 +1,7 @@
 // Render a character component to html
 // Convert a USV or Unicode character to a sequence of HTML spans
 
-import { getCharacter, getCharacterName, ERROR_INVALID_USV } from '../plugins/coredata.mts';
+import { getCharacter, getCharacterName, USVNotFound } from '../plugins/coredata.mts';
 import { isUSV, parseUSV, USVtoString, type USV } from './usv.mts';
 
 export type Option = "usv" | "char" | "name"
@@ -35,9 +35,8 @@ export async function htmlFromUSV(src: string, options: Options) {
         throw new RangeError(`invalid USV: "${src}": it must be between 0000 and 10ffff`);
 
     const characterName = await getCharacterName(usv);
-    if (characterName === ERROR_INVALID_USV) {
+    if (characterName === USVNotFound)
         throw new RangeError(`USV not found: "${USVtoString(usv)}": No character data exists.`);
-    }
 
     // Concatenate the parts based on options, separated by spaces
     const parts = []

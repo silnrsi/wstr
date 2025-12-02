@@ -2,16 +2,17 @@
 import { db, characters, scripts, eq, sql } from 'astro:db';
 import { USVtoString, type USV } from './usv.mts'
 
-export const ERROR_INVALID_USV = '*** NO CHARACTER NAME FOUND FOR THIS USV ***';
+export const USVNotFound = 'no-character-data';
+export type USVNotFound = typeof USVNotFound
 
-export async function getCharacterName(usv: USV): Promise<string> {
+export async function getCharacterName(usv: USV): Promise<string | USVNotFound> {
   const [result] = await db
     .select({ character_name: characters.character_name })
     .from(characters)
     .where(eq(characters.character_usv, USVtoString(usv)))
     .limit(1);
 
-  return result ? result.character_name : ERROR_INVALID_USV;
+  return result ? result.character_name : USVNotFound;
 }
 
 // Return a CharacterObject
