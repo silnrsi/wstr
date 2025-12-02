@@ -1,18 +1,14 @@
 // Utility functions to access the coredata SQLite database
 import { db, characters, scripts, eq, sql } from 'astro:db';
+import { USVtoString, type USV } from './usv.mts'
 
 export const ERROR_INVALID_USV = '*** NO CHARACTER NAME FOUND FOR THIS USV ***';
 
-export async function getCharacterName(usv: string): Promise<string> {
-  const usvInt = parseInt(usv, 16);
-  if (isNaN(usvInt) || usvInt < 0 || usvInt > 0x10FFFF) {
-    return ERROR_INVALID_USV;
-  }
-
+export async function getCharacterName(usv: USV): Promise<string> {
   const [result] = await db
     .select({ character_name: characters.character_name })
     .from(characters)
-    .where(eq(characters.character_usv, usv))
+    .where(eq(characters.character_usv, USVtoString(usv)))
     .limit(1);
 
   return result ? result.character_name : ERROR_INVALID_USV;
