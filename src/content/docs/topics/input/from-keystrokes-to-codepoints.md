@@ -55,4 +55,5 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 [keyboards-and-tools]: /topics/input/keyboards-and-tools
 [other-input-methods]: /topics/input/other-input-methods
 [codepoints-glyphs]: /topics/encoding/characters-codepoints-glyphs#codepoints-and-glyphs
+[sil-wsig]: https://scripts.sil.org/wsi_guidelines.html
 

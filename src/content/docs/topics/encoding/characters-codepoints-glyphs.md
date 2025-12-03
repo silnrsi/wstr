@@ -65,7 +65,7 @@ We have talked about graphemes and abstract characters as individual units. We n
 
 Computers store information internally as numbers. A **codepoint** is merely the _number that is used to store an abstract character in the computer_.[^3] When working with text, each abstract character of the text (including control characters) is stored as a number with a unique number assigned to each different character. For example, whenever you enter **SHIFT + F** on an English keyboard, the computer will (on most systems) insert the number 70 at the current position in the data. This is the codepoint that is used on those systems for storing the character LATIN CAPITAL LETTER F.
 
-[^3]:There is more that can be said about codepoints and encoding schemes than we have space to discuss here, particularly concerning multi-byte encodings. For more information regarding encoding schemes, see The Unicode Standard, Version 3.0, and especially Unicode Technical Report #17. For information on multi-byte encodings that are used for East Asian character sets, see Lunde [LUN1999].
+[^3]:There is more that can be said about codepoints and encoding schemes than we have space to discuss here, particularly concerning multi-byte encodings. For more information regarding encoding schemes, see [The Unicode Standard][uni-encoding-schemes], and especially [Unicode Technical Report #17][uni-utr17]. For information on multi-byte encodings that are used for East Asian character sets, see Lunde, Ken. _CJK Information Processing_. Sebastopol, CA: O’Reilly, 1999.
 
 An **encoding** (or **character encoding**) is a system of numbers used to represent a set of characters within a digital information system, such as a computer. There is, in principle, nothing special about the numbers that are used. For instance, in the example above, there is no _a priori_ reason that the number 42 could not have been used to represent LATIN CAPITAL LETTER F. The actual numbers that are used are specified by the encoding designer. There are only two necessary restrictions:
 
@@ -146,5 +146,6 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 
 [glo-character]: /reference/glossary#char
 [glo-grapheme]: /reference/glossary#grapheme
-
-
+[sil-wsig]: https://scripts.sil.org/wsi_guidelines.html
+[uni-utr17]: https://unicode.org/reports/tr17/
+[uni-encoding-schemes]: https://www.unicode.org/versions/latest/core-spec/#G19273
