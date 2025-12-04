@@ -24,7 +24,7 @@ The primary consideration in keyboard design is the layout of the keys. Whether 
 
 ### Mnemonic
 
-The first way is to consider the “ÿ” as two components: “y” + _umlaut_. In this case we would have a special keystroke to add the _umlaut_ on top of the “y”, for example the keystroke **"** following a **y** might add the umlaut. In other words we are using existing information on the keys of a user's keyboard to help the user remember the keying of the character. We use the term **mnemonic keyboard** for this type of keyboard. Mnemonic keyboards are commonly used with Latin-based scripts, since there is a close correspondence between what people want to type and what they see printed on the keyboard in front of them.
+The first way is to consider the “ÿ” as two components: “y” + _umlaut_. In this case we would have a special keystroke to add the _umlaut_ on top of the “y”, for example the keystroke **&#x0022;** following a **y** might add the umlaut. In other words we are using existing information on the keys of a user's keyboard to help the user remember the keying of the character. We use the term **mnemonic keyboard** for this type of keyboard. Mnemonic keyboards are commonly used with Latin-based scripts, since there is a close correspondence between what people want to type and what they see printed on the keyboard in front of them.
 
 ### Positional
 
@@ -56,15 +56,15 @@ The problem is that modifier keys are often used by applications for speed keys 
 
 **Dead keys** are a popular approach to extending the keyboard for Latin keyboards. This approach allows the user to type a single character as a sequence of two or more keys on the keyboard. All but the last key do not result in anything being displayed, but change the state of the keyboard for subsequent keystrokes.
 
-For example, on the International English keyboard, pressing the **'** key results in nothing being displayed. Following that by the **a** key results in “á” being output. If a key, such as **b** were to follow, then “'b” would be output.
+For example, on the International English keyboard, pressing the **&#x0027;** key results in nothing being displayed. Following that by the **a** key results in “á” being output. If a key, such as **b** were to follow, then “'b” would be output.
 
 Dead keys work well where there is a very strong mnemonic relationship between the key being pressed and its function. Dead key sequences should be obvious and short, so the user is less likely to forget where they are. The problem with dead keys is that they easily confuse users since pressing a dead key results in no initial visual feedback.
 
 ### Operator keys
 
-A different approach to dead keys is to place the modifier after the key it modifies. Thus we might type **a** followed by **'** to get “á”. On pressing the **a**, an “a” would be output. Then when the **'** is pressed, the “a” preceding the cursor is replaced by a “á”. This is a very powerful approach in that it allows the user to always have feedback regarding what they are typing.
+A different approach to dead keys is to place the modifier after the key it modifies. Thus we might type **a** followed by **&#x0027;** to get “á”. On pressing the **a**, an “a” would be output. Then when the **&#x0027;** is pressed, the “a” preceding the cursor is replaced by a “á”. This is a very powerful approach in that it allows the user to always have feedback regarding what they are typing.
 
-The major difficulty with this approach is the implementation. You first need a system which can handle complex editing as well as typing. Thus, if I were to click in a document following an “a” and then press  **'**, I would expect that “a” to change. But that might well not be possible, technically. Tools such as [Keyman][keyman] work hard to emulate this behavior, but even then have limitations.
+The major difficulty with this approach is the implementation. You first need a system which can handle complex editing as well as typing. Thus, if I were to click in a document following an “a” and then press  **&#x0027;**, I would expect that “a” to change. But that might well not be possible, technically. Tools such as [Keyman][keyman] work hard to emulate this behavior, but even then have limitations.
 
 Secondly, all intermediate output characters need to be supported by the system. When implementing a keyboard for the International Phonetic Alphabet, which has hundreds of symbols, it may be nice to use combinations that begin with the **;** key to enter certain symbols. Using an operator keys approach, it would be ideal for the system to display an intermediate “;” as the first key is pressed. But the “;” might not exist in the IPA font, and so could not be displayed. Thus, you can only rely on intermediate output for codes that your keyboard needs to generate anyway.
 
