@@ -5,6 +5,7 @@ import starlightLinksValidator from 'starlight-links-validator';
 import astroBrokenLinksChecker from 'astro-broken-links-checker';
 import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
+import rehypeCitation from 'rehype-citation';
 import cookieconsent from "@jop-software/astro-cookieconsent";
 import db from '@astrojs/db';
 
@@ -127,9 +128,9 @@ export default defineConfig({
                 // Relative path to your custom CSS file
                 './src/styles/custom.css',
             ],
-            plugins: process.env.CHECK_LINKS ? [starlightLinksValidator({
-                sameSitePolicy: 'error',
-            })] : [],
+            plugins: process.env.CHECK_LINKS ? [
+                starlightLinksValidator({ sameSitePolicy: 'error' })
+            ] : [],
         }),
         astroBrokenLinksChecker({
             logFilePath: 'broken-links.log',  // Optional: specify the log file path
@@ -216,8 +217,13 @@ export default defineConfig({
     ],
     markdown: {
         rehypePlugins: [
-            rehypeFigureTitle, [
-                rehypeExternalLinks, {
+            [ rehypeCitation, {
+                bibliography: 'refs.bib',
+                path: 'src/data',
+                linkCitations: true,
+            }],
+            rehypeFigureTitle, 
+            [ rehypeExternalLinks, {
                     target: '_blank', // Open external links in a new tab
                     rel: ['external', 'nofollow',], // Add security attributes
                     // Optional: Add content (e.g., an icon) to the end of external links
@@ -235,8 +241,7 @@ export default defineConfig({
                     contentProperties: { 'aria-hidden': true, class: 'external-link-icon' },
                     // Optional: Filter which <a> tags are processed (e.g., exclude links within code blocks)
                     selectors: 'a:not(pre a):not(code a)',
-                },
-            ],
+            }],
         ],
     },
     redirects: {
