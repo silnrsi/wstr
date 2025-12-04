@@ -9,20 +9,27 @@ export function remarkCharacterDirectives() {
         visit(tree,
             'textDirective', // Only process textDirective nodes.
             (node: TextDirective) => {
+                // Ignore other directives.
                 if (node.name !== 'usv' && node.name !== 'char') return
+
+                // Get the child node and validate it.
                 const child = node.children.pop()
-                if (child?.type !== 'text' && child?.type !== 'inlineCode') {
-                    file.fail(`Missing value on \`:${node.name}\` directive`, node)
-                } else if (node.name == 'usv' && !isUSV(parseUSV(child.value))) {
-                    file.fail(`invalid USV: "${child.value}": A USV must be between 0000 and 10ffff`, child)
-                }
+                if (child?.type !== 'text' && child?.type !== 'inlineCode')
+                    file.fail(`Missing value on \`:${node.name}\` directive.`, node, 'CharacterDirectives')
+                else if (node.name == 'usv' && !isUSV(parseUSV(child.value)))
+                    file.fail(`Invalid USV: "${child.value}": A USV must be between 0000 and 10ffff.`, child, 'CharacterDirectives:usv')
+    
+                // Read any attributes and convert to options for the <Character/> component.
                 const options = Object.keys(node.attributes || {}).toString()
+
+                // Replace this directive node with an MDX component node.
                 Object.assign(node, {
                     type: 'mdxJsxFlowElement',
                     name: 'Character',
                     children: [],
                     attributes: [{  ...child, type: 'mdxJsxAttribute', name: node.name }],
                 })
+                // Append an options attribute if required.
                 if (options) {
                     // @ts-expect-error: mutate because it is faster; content model is fine.
                     node.attributes.push(
