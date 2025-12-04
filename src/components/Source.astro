@@ -1,0 +1,46 @@
+---
+// Source component: display a source
+// Used by TaggedSources - and eventually a lot more!
+// Parameters:
+//     key: source Key field
+
+// Types to handle: @article, @book, @inbook, @inproceedings, @online, @misc
+
+const { key } = Astro.props;
+
+// Eventually use the SQL DB:
+//import { getCollection } from 'astro:content';
+//const allSources = await getCollection('sources');
+
+import sdata from '../data/sources.json';
+
+let sObj = sdata.find((s) => s.Key == key);
+
+const stype = sObj?.EntryType;
+
+---
+
+	{	sObj ? (
+			<span>
+				{ (sObj.Author && sObj.Author !== '') ? (
+					<>{sObj.Author}, </>
+				  ) : null
+				}
+
+				{ (stype ==='@online' && sObj.Organization && sObj.Organization !== '' ) ? (
+					<>{sObj.Organization}: </>
+				  ) : null
+				}
+
+				{stype === '@book' ? (
+					<em>{sObj.Title}</em>
+				) : (stype === '@inbook' || stype === '@article' || stype === '@inproceedings') ? (
+					<>&quot;{sObj.Title}&quot;</>
+				) : (stype === '@online' && sObj.Url && sObj.Url !== '' ) ? (
+					<a href={sObj.Url} target="_blank" rel="noopener noreferrer">{sObj.Title}</a>
+				) : (
+					<>{sObj.Title}</>
+				)}
+			</span>
+		) : null 
+	}

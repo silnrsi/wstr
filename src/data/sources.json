@@ -1,0 +1,132 @@
+[
+    {
+        "Key": "aat",
+        "Title": "About Apple Advanced Typography Fonts - TrueType Reference Manual",
+        "SortName": "",
+        "Author": "",
+        "Keywords": ["fonts"],
+        "Organization": "",
+        "Url": "",
+        "EntryType": "@online"
+    },
+    {
+        "Key": "abba2015",
+        "Title": "Ajamization of Knowledge: The Kanuri Experience",
+        "SortName": "Abba",
+        "Author": "Tahir Abba",
+        "Keywords": ["script-arab", "lang-knc", "lang-kau", "lang-nup", "lang-krt", "lang-kby", "lang-bms", "lang-yor", "lang-hau", "lang-fuv"],
+        "Organization": "",
+        "Url": "",
+        "EntryType": "@inproceedings"
+    },
+    {
+        "Key": "abdelhadi2011",
+        "Title": "Perceptual load in the reading of Arabic: Effects of orthographic visual complexity on detection",
+        "SortName": "Abdelhadi",
+        "Author": "Musa D. Abdulahi",
+        "Keywords": ["script-arab"],
+        "Organization": "",
+        "Url": "",
+        "EntryType": "@article"
+    },
+    {
+        "Key": "agl",
+        "Title": "Adobe Glyph List Specification",
+        "SortName": "",
+        "Author": "",
+        "Keywords": ["fonts", "font tools"],
+        "Organization": "",
+        "Url": "",
+        "EntryType": "@online"
+    },
+    {
+        "Key": "al-baba1994",
+        "Title": "Rouh Al-Khatt Al-Arabi",
+        "SortName": "Al-Baba",
+        "Author": "Kamel Al-Baba",
+        "Keywords": ["script-arab"],
+        "Organization": "",
+        "Url": "",
+        "EntryType": "@book"
+    },
+    {
+        "Key": "aronson1990",
+        "Title": "Georgian: A Reading Grammar",
+        "SortName": "Aronson",
+        "Author": "Howard I. Aronson",
+        "Keywords": ["script-geor"],
+        "Organization": "",
+        "Url": "",
+        "EntryType": "@book"
+    },
+    {
+        "Key": "bauer1996",
+        "Title": "Arabic Writing",
+        "SortName": "Bauer",
+        "Author": "Thomas Bauer",
+        "Keywords": ["script-arab"],
+        "Organization": "",
+        "Url": "",
+        "EntryType": "@inbook"
+    },
+    {
+        "Key": "flo",
+        "Title": "SIL Language Technology Font Collection",
+        "SortName": "",
+        "Author": "",
+        "Keywords": ["fonts", "font sources"],
+        "Organization": "",
+        "Url": "",
+        "EntryType": "@online"
+    },
+    {
+        "Key": "gf-variable",
+        "Title": "Introducing Variable Fonts",
+        "SortName": "",
+        "Author": "",
+        "Keywords": ["fonts"],
+        "Organization": "",
+        "Url": "",
+        "EntryType": "@online"
+    },
+    {
+        "Key": "haas1969",
+        "Title": "The Bernard Shaw Alphabet",
+        "SortName": "Haas",
+        "Author": "William Haas",
+        "Keywords": ["script-shaw"],
+        "Organization": "",
+        "Url": "",
+        "EntryType": "@inbook"
+    },
+    {
+        "Key": "hatcher2008",
+        "Title": "Script change in Azerbaijan: acts of identity",
+        "SortName": "Hatcher",
+        "Author": "Lynley Hatcher",
+        "Keywords": ["script-latn", "script-arab", "script-cyrl", "lang-azj", "lang-azb"],
+        "Organization": "",
+        "Url": "",
+        "EntryType": "@article"
+    },
+    {
+        "Key": "omni-arabic",
+        "Title": "Arabic Alphabet",
+        "SortName": "Ager",
+        "Author": "Simon Ager",
+        "Keywords": ["script-arab"],
+        "Organization": "Omniglot",
+        "Url": "http://www.omniglot.com/writing/arabic.htm",
+        "EntryType": "@online"
+    },
+    {
+        "Key": "ss-script-arabic",
+        "Title": "Arabic",
+        "SortName": "10",
+        "Author": "",
+        "Keywords": ["script-arab"],
+        "Organization": "ScriptSource",
+        "Url": "https://scriptsource.org/scr/Arab",
+        "EntryType": "@online"
+    }
+]
