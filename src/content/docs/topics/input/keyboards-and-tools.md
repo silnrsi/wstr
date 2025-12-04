@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-12-03
 ---
 
-_[Characters, Codepoints, Glyphs][characters-codepoints-glyphs] should be read prior to this section._
+_[Characters, Codepoints, Glyphs][characters-codepoints-glyphs] should be read prior to reading this section._
 
 ## Types of data interaction
 
@@ -110,7 +110,11 @@ Just as keyboards can choose which variant of a diacritic to use in a specific c
 
 Here some analysis could be built into the keyboard. It could watch the stream of key presses, analyze the syllable structure, and automatically enter in the breaks. This is not always foolproof, but can be a great help to the entry of text.
 
-## Keyman
+## Keyboard tools
+
+### Cross-platform tools
+
+#### Keyman
 
 [Keyman][keyman] provides keyboarding solutions for Windows, Mac, and Linux computers and also for Android and iOS touch devices (such as phones and tablets). A Keyman keyboard package provides a remapping of the keys of the physical keyboard (and optionally of touch devices), as described in the [From Keystrokes to Codepoints][from-keystrokes-to-codepoints] section. The same keyboard package can be used on any supported platform that has the Keyman "engine" for that platform installed. There is no charge for using Keyman or for downloading keyboards from the Keyman site.
 
@@ -119,14 +123,71 @@ For example, click on the "Arabic" link and then, under the "Try this keyboard" 
 
 If no suitable keyboard exists, a user can download the [Keyman Developer][keyman-developer] tool and create a suitable keyboard layout. Users who create such a keyboard are encouraged to submit it to the Keyman keyboards repository so that others can benefit from having that keyboard freely available.
 
-## Other keyboarding solutions
+#### Keymagic
 
-This [Keyboard Systems Overview article][ss-keyboard-systems] describes other keyboard input methods and tries to indicate which ones are no longer viable. It also describes other input methods. In particular, one of the character picker options may be an acceptable solution for typing rarely used characters.
+[Keymagic][keymagic] is an open source keyboarding system which works on Windows, macOS, and Ubuntu. Whilst similar to KMFL, it uses its own source format rather than Keyman .kmn files. 
 
-[wsig7]: https://scripts.sil.org/wsi_guidelines_sec_7.html
-[glo-ime]: /reference/glossary#ime
-[keyman]: https://keyman.com
-[from-keystrokes-to-codepoints]: /topics/input/from-keystrokes-to-codepoints
+### Windows-only
+
+#### MSKLC (Microsoft Keyboard Layout Creator)
+
+[MSKLC][msklc] is a freeware Microsoft tool for creating new keyboard layouts using the Windows-native keyboard file format, and so gives seamless integration with Windows systems. It can use an existing Windows keyboard as a starting point. However, it is limited in its ability to cope with more complex scripts.
+
+MSKLC is no longer being developed and it is sometimes difficult to install a keyboard on Windows 10 and Windows 11.
+
+### macOS
+
+#### Ukelele
+
+[Ukelele][ukelele] Ukelele is a user-friendly Unicode Keyboard Layout Editor for macOS, making the tedious, error-prone task of editing XML-based keyboard layouts a breeze. 
+
+### Linux (including Ubuntu)
+
+Most standard Linux installations include X Windows and the XKB keyboard manager (see below) which includes many keyboards. In addition, the  iBus input method framework (IME) can be turned on and configured, and more keyboards/IMEs are available through that. So it is worth looking through standard XKB and iBus keyboards prior to considering developing your own.
+
+#### XKB (X windows KeyBoard extension)
+
+XKB is the underlying (pre-installed) keyboard manager for X windows, the standard windows system on Linux (Ubuntu included). This means that a completed keyboard can be submitted for inclusion in all future platforms and devices using X. The user need not install any additional software to use the keyboard.
+
+### Android
+
+Devices running Android provide a choice of languages and input methods. Extra input methods and separate language packs can be installed from the Google Play store.
+
+The [Keyboard App Builder][kab] helps you to create customized keyboard apps for Android smartphones and tablets. These apps allow users to add a system keyboard to their devices, enabling typing in their preferred language across apps such as Gmail, Facebook, and WhatsApp. Whether you need to develop a keyboard for a community language or personal use, Keyboard App Builder simplifies the process, ensuring everyone can access their language digitally. The Keyboard App Builder packages a [Keyman][keyman] keyboard, lexical-model, and fonts into an app which can be easily shared.
+
+[Multiling][multiling] is one of the possible solutions to explore for extending writing systems support.
+
+Note that, as with all systems, for each keyboard there needs to be an appropriate font available; on Android, facilities to add new fonts to be used for all applications are very limited (and currently only possible when rooting/jail-breaking the device). Some applications come bundled with fonts to extend their own functionality, but they will only work within the particular application.
+
+### Historical and no longer used
+
+These are listed in order to document previously used keyboarding systems.
+
+#### InKey
+
+InKey was based on [Autohotkey][autohotkey], an open source macro-creation and automation tool. InKey is no longer available.
+
+#### Ekaya
+
+[Ekaya][ekaya] is an open source keyboarding system that uses the open source [KMFL][kmfl] library to parse the [Keyman][keyman] .kmn files, so keyboards developed with Keyman should work with Ekaya as an alternative to the Keyman client. (This product is no longer being developed and is not recommended for use. Keyman is a good alternative. The keyboards available through ekaya are also available on Keyman.)
+
+#### KMFL (Keyboard Mapping for Linux)
+
+[KMFL][kmfl] is an open source keyboarding system for Linux systems, particularly Ubuntu, which is compatible with Keyman 7 (or earlier) .kmn source files, so brings the power of Keyman keyboarding to a Linux environment. Although designed for Linux/Unix systems in general, full downloads and instructions are currently only available for Ubuntu.
+
+_Portions of this content first appeared in [Guidelines for Writing System Support][wsig7], copyright © 2003 UNESCO and SIL International._
+
+[autohotkey]: http://www.autohotkey.com/
 [characters-codepoints-glyphs]: /topics/encoding/characters-codepoints-glyphs
+[ekaya]: Keymagic
+[from-keystrokes-to-codepoints]: /topics/input/from-keystrokes-to-codepoints
+[glo-ime]: /reference/glossary#ime
+[kab]: https://software.sil.org/keyboardappbuilder/
+[keymagic]: https://keymagic.net/keyboards/
 [keyman-developer]: https://keyman.com/developer/
-[ss-keyboard-systems]: https://scriptsource.org/entry/ytr8g8n6sw
+[keyman]: https://keyman.com
+[kmfl]: https://kmfl.sourceforge.net/
+[msklc]: https://scriptsource.org/entry/m98qmxx7dx
+[multiling]: https://play.google.com/store/apps/details?id=kl.ime.oh
+[ukelele]: https://software.sil.org/ukelele/
+[wsig7]: https://scripts.sil.org/wsi_guidelines_sec_7.html
