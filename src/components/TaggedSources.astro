@@ -13,7 +13,7 @@ const { tag } = Astro.props;
 
 import sdata from '../data/sources.json';
 
-const sortedSdata = [...sdata].sort((a, b) => a.SortName.localeCompare(b.SortName));
+const sortedSdata = [...sdata].sort((a, b) => (a.PreSort.concat(a.SortName)).localeCompare(b.PreSort.concat(b.SortName)));
 
 let filteredSdata;
 if (tag) {
