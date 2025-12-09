@@ -1,7 +1,7 @@
 ---
 // TaggedSources component: list sources related to given tag. If no tag supplied, the list will be empty.
 // Parameters:
-//     tag: eg, 'encoding', 'script-arab', etc.
+//     tag: eg, 'encoding', 'script-arab', 'fonts', etc.
 
 import Source from './Source.astro';
 
@@ -15,12 +15,15 @@ import sdata from '../data/sources.json';
 
 const sortedSdata = [...sdata].sort((a, b) => (a.PreSort.concat(a.SortName)).localeCompare(b.PreSort.concat(b.SortName)));
 
-let filteredSdata;
+let filteredSdata:Array<typeof sdata[0]> = [];
 if (tag) {
   filteredSdata = sortedSdata.filter(sObj => 
     sObj.Keywords && Array.isArray(sObj.Keywords) && sObj.Keywords.includes(tag)
   );
 }
+
+const numFound = filteredSdata?.length;
+
 ---
 
 <ul>

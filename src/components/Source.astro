@@ -49,12 +49,17 @@ let pubString = sObj?.Publisher ?? '';
 let dateString = sObj?.Date ?? '';
 
 let pageString = sObj?.Page ?? '';
-if (pageString !== '') {
+if (pageString !== "") {
 	if (pageString?.includes('-')) {
-		pageString = `pp. ${pageString}`;
+		pageString = "pp. " + pageString;
 	} else {
-		pageString = `p. ${pageString}`;
+		pageString = "p. " + pageString;
 	}
+}
+
+let urlString = sObj?.Url ?? '';
+if (stype == "@online") {
+	urlString = "";		// it will be displayed with the title
 }
 
 ---
@@ -91,7 +96,7 @@ if (pageString !== '') {
 				{	( largerWork != "" ) ? ( 
 					<><em>{largerWork}</em>
 					{	(editorString !== '' || volumeString !== '' || numberString !== '' || pubString !== '' 
-									|| dateString !== '' || pageString !== '') ? (
+									|| dateString !== '' || pageString !== '' || urlString !== '') ? (
 							<>, </>
 						) : null
 					}
@@ -102,7 +107,7 @@ if (pageString !== '') {
 				{	( seriesString != "" ) ? (
 					<>{seriesString}
 					{	(editorString !== '' || volumeString !== '' || numberString !== '' || pubString !== '' 
-									|| dateString !== '' || pageString !== '') ? (
+									|| dateString !== '' || pageString !== '' || urlString !== '') ? (
 							<>, </>
 						) : null
 					}
@@ -113,7 +118,7 @@ if (pageString !== '') {
 				{	( editorString !== '' ) ? ( 
 					<>{editorString}
 					{	(volumeString !== '' || numberString !== '' || pubString !== '' 
-								|| dateString !== '' || pageString !== '') ? (
+								|| dateString !== '' || pageString !== '' || urlString !== '') ? (
 							<>, </>
 						) : null
 					}
@@ -124,7 +129,7 @@ if (pageString !== '') {
 				{	( volumeString !== "" ) ? (
 					<>{volumeString}
 					
-					{	(numberString !== '' || pubString !== '' || dateString !== '' || pageString !== '') ? (
+					{	(numberString !== '' || pubString !== '' || dateString !== '' || pageString !== '' || urlString !== '') ? (
 							<>, </>
 						)	: null
 					}
@@ -133,7 +138,7 @@ if (pageString !== '') {
 
 				{	( numberString !== '' ) ? (
 					<>{numberString}
-					{	(pubString !== '' || dateString !== '' || pageString !== '') ? (
+					{	(pubString !== '' || dateString !== '' || pageString !== '' || urlString !== '') ? (
 							<>, </>
 						)	: null
 					}
@@ -142,7 +147,7 @@ if (pageString !== '') {
 
 				{	( pubString !== '' ) ? (
 					<>{pubString}
-					{	(dateString !== '' || pageString !== '') ? (
+					{	(dateString !== '' || pageString !== '' || urlString !== '') ? (
 							<>, </>
 						)	: null
 					}			
@@ -151,21 +156,31 @@ if (pageString !== '') {
 
 				{	( dateString !== "" ) ? (
 					<>{dateString}
-					{	(pageString !== '') ? (
+					{	(pageString !== '' || urlString !== '') ? (
 							<>, </>
 						)	: null
 					}	
 					</>	) : null
 				}
 
-				{	( pageString !== "" ) ? ( <>{pageString}</>	) : null }
+				{	( pageString !== "" ) ? (
+					<>{pageString}
+					{	(urlString !== '') ? (
+							<>, </>
+						)	: null
+					}	
+					</>	) : null
+				}
+				{	( urlString !== "" ) ? ( 
+						<a href={urlString} target="_blank" rel="noopener noreferrer">{urlString}</a>
+					) : null
+				}
 
 				{	(largerWork !== '' || editorString !== '' || volumeString !== '' || numberString !== '' 
-								|| pubString !== '' || dateString !== '' || pageString !== '') ? (
+							|| pubString !== '' || dateString !== '' || pageString !== '' || urlString !== '') ? (
 						<>.</>
 					)	: null
 				}
-
 
 				<!-- Last-accessed date -->
 				{ (sObj.UrlDate && sObj.UrlDate != "") ? (
