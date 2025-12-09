@@ -109,6 +109,7 @@ export default defineConfig({
                     //autogenerate: { directory: 'reference' },
                     items: [
                         'reference/glossary',
+                        'reference/resources',
                         'reference/standards',
                     ],
                 },
