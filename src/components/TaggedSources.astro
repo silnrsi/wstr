@@ -1,33 +1,35 @@
 ---
 // TaggedSources component: list sources related to given tag. If no tag supplied, the list will be empty.
 // Parameters:
-//     tag: eg, 'encoding', 'script-arab', 'fonts', etc.
+//     tag: eg, 'encoding', 'script-arab', 'fonts', etc. Use 'all' to display the complete list.
 
 import Source from './Source.astro';
 
 const { tag } = Astro.props;
-
-// Eventually use the SQL DB:
-//import { getCollection } from 'astro:content';
-//const allSources = await getCollection('sources');
 
 import sdata from '../data/sources.json';
 
 const sortedSdata = [...sdata].sort((a, b) => (a.PreSort.concat(a.SortName)).localeCompare(b.PreSort.concat(b.SortName)));
 
 let filteredSdata:Array<typeof sdata[0]> = [];
-if (tag) {
+if (tag == "all") {
+  filteredSdata = sortedSdata;
+} else if (tag) {
   filteredSdata = sortedSdata.filter(sObj => 
     sObj.Keywords && Array.isArray(sObj.Keywords) && sObj.Keywords.includes(tag)
   );
 }
 
-const numFound = filteredSdata?.length;
-
 ---
 
-<ul>
-	{filteredSdata.map((sObj) =>
-		<li><Source key={sObj.Key}/></li>
-	)}
-</ul>
+{ (filteredSdata.length == 0) ? (
+		<p>None available.</p>
+	) : (
+		<ul>
+			{filteredSdata.map((sObj) =>
+					<li><Source key={sObj.Key} /></li>
+				)
+			}
+		</ul>
+	)
+}
