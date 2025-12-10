@@ -31,6 +31,11 @@ if (authorString === '' && editorString !== '') {
 	editorString = `edited by ${editorString}`;
 }
 
+let orgStringParen = sObj?.Organization ?? '';
+if (sObj?.EntryType == "@online" && orgStringParen !== '') {
+	orgStringParen = "(" + orgStringParen + ")";
+}
+
 // Only one of these will exist:
 let largerWork = (sObj?.JournalTitle ?? '') + (sObj?.BookTitle ?? '');
 
@@ -58,23 +63,36 @@ if (pageString !== "") {
 }
 
 let urlString = sObj?.Url ?? '';
-if (stype == "@online") {
-	urlString = "";		// it will be displayed with the title
-}
+// if (stype == "@online") {
+// 	urlString = "";		// it will be displayed with the title
+// }
+
+let addendumString = sObj?.Addendum ?? '';
+addendumString = addendumString.replaceAll('[CR][CR]', '<br/>');
+
+let annotationString = sObj?.Annotation ?? '';
+annotationString = annotationString.replaceAll('[CR][CR]', '<br/>');
+
+let abstractString = sObj?.Abstract ?? '';
+abstractString = abstractString.replaceAll('[CR][CR]', '<br/>');
 
 ---
 
-	{	sObj ? (
-			<span>
+<style>
+	.info { font-style: italic; font-size: 92%; }
+</style>
+
+{	sObj ? (
+		<span>
+			{ (stype ==='@online') ? (
+				<><a href={sObj.Url} target="_blank" rel="noopener noreferrer">{sObj.Title}</a>&#x20;{orgStringParen}</>
+
+			) : (
+				<!-- Other types -->
+
 				<!-- First sequence: web site, author title  -->
 
-				{ (stype ==='@online' && sObj.PreSort && sObj.PreSort != ""
-						&& sObj.Organization && sObj.Organization !== '' ) ? (
-					<>{sObj.Organization}: </>
-				  ) : null
-				}
-
-				{ (authorString !== '') ? (
+				{ (authorString !== '' && sObj.PreSort =='') ? (
 					<>{authorString}, </>
 				  ) : null
 				}
@@ -187,6 +205,24 @@ if (stype == "@online") {
 					<> Accessed {sObj.UrlDate}.</span>
 					) : null
 				}
-			</span>
-		) : null 
-	}
+
+				<!-- Comments -->
+				<!--
+				{	(addendumString !== '') ? (
+						<br/><span class="info" set:html={addendumString} />
+					) : null
+				}
+				{	(abstractString !== '') ? (
+						<br/><span class="info" set:html={abstractString} />
+					) : null
+				}
+				{	(annotationString !== '') ? (
+						<br/><span class="info" set:html={annotationString} />
+					) : null
+				}
+				-->
+			)
+			}
+		</span>
+	) : null
+}

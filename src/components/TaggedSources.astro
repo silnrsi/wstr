@@ -1,15 +1,28 @@
 ---
 // TaggedSources component: list sources related to given tag. If no tag supplied, the list will be empty.
 // Parameters:
-//     tag: eg, 'encoding', 'script-arab', 'fonts', etc. Use 'all' to display the complete list.
+//		tag: eg, 'encoding', 'script-arab', 'fonts', etc. Use 'all' to display the complete list.
+//		section: 'external', 'bibliography'
 
 import Source from './Source.astro';
 
 const { tag } = Astro.props;
 
+const { section } = Astro.props;
+
+let header = "";
+if (section == "external") {
+	header = "External links";
+} else if (section == "bibliography") {
+	header = "Bibliography";
+} else {
+	header = "";
+}
+
 import sdata from '../data/sources.json';
 
-const sortedSdata = [...sdata].sort((a, b) => (a.PreSort.concat(a.SortName)).localeCompare(b.PreSort.concat(b.SortName)));
+// PreSort is set up to put links to ScriptSource/Wikipedia/Omniglot first.
+const sortedSdata = [...sdata].sort((a, b) => (a.PreSort.concat(a.SortName).concat(a.Title)).localeCompare(b.PreSort.concat(b.SortName).concat(b.Title)));
 
 let filteredSdata:Array<typeof sdata[0]> = [];
 if (tag == "all") {
@@ -20,13 +33,25 @@ if (tag == "all") {
   );
 }
 
+let sectionSdata:Array<typeof sdata[0]> = [];
+if (section == 'external') {
+	sectionSdata = filteredSdata.filter(sObj =>
+		sObj.EntryType === '@online'
+	)
+} else if (section == 'bibliography') {
+	sectionSdata = filteredSdata.filter(sObj =>
+		sObj.EntryType !== '@online'
+	)
+}
+
 ---
 
-{ (filteredSdata.length == 0) ? (
-		<p>None available.</p>
+{ (sectionSdata.length == 0) ? (
+		null
 	) : (
+		<h3>{header}</h3>
 		<ul>
-			{filteredSdata.map((sObj) =>
+			{sectionSdata.map((sObj) =>
 					<li><Source key={sObj.Key} /></li>
 				)
 			}
