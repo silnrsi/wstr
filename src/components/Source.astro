@@ -8,10 +8,6 @@
 
 const { key } = Astro.props;
 
-// Eventually use the SQL DB:
-//import { getCollection } from 'astro:content';
-//const allSources = await getCollection('sources');
-
 import sdata from '../data/sources.json';
 
 let sObj = sdata.find((s) => s.Key == key);
@@ -83,146 +79,134 @@ abstractString = abstractString.replaceAll('[CR][CR]', '<br/>');
 </style>
 
 {	sObj ? (
-		<span>
-			{ (stype ==='@online') ? (
-				<><a href={sObj.Url} target="_blank" rel="noopener noreferrer">{sObj.Title}</a>&#x20;{orgStringParen}</>
+		<>
+		{ (stype ==='@online') ? (
+			
+			<!-- Simple link  -->
 
-			) : (
-				<!-- Other types -->
+			<><a href={sObj.Url} target="_blank" rel="noopener noreferrer">{sObj.Title}</a>&#x20;{orgStringParen}</>
 
-				<!-- First sequence: web site, author title  -->
+		) : (
+			<!-- Other types -->
 
-				{ (authorString !== '' && sObj.PreSort =='') ? (
-					<>{authorString}, </>
-				  ) : null
-				}
+			<!-- First sequence: author title  -->
 
-				<!-- Title - there should always be one! -->
-				{stype === '@book' ? (
-					<em>{sObj.Title}. </em>
-				) : (stype === '@inbook' || stype === '@article' || stype === '@inproceedings') ? (
-					<>&ldquo;{sObj.Title}.&rdquo; </>
-				) : (stype === '@online' && sObj.Url && sObj.Url !== '' ) ? (
-					<>&ldquo;<a href={sObj.Url} target="_blank" rel="noopener noreferrer">{sObj.Title}</a>.&rdquo; </>
-				) : (
-					<>&ldquo;{sObj.Title}.&rdquo; </>
-					)
-				}
-
-				<!-- Second sequence -->
-
-				{	( largerWork != "" ) ? ( 
-					<><em>{largerWork}</em>
-					{	(editorString !== '' || volumeString !== '' || numberString !== '' || pubString !== '' 
-									|| dateString !== '' || pageString !== '' || urlString !== '') ? (
-							<>, </>
-						) : null
-					}
-					</>
-					) : null
-				}
-				<!-- Alternative to largerWork: -->
-				{	( seriesString != "" ) ? (
-					<>{seriesString}
-					{	(editorString !== '' || volumeString !== '' || numberString !== '' || pubString !== '' 
-									|| dateString !== '' || pageString !== '' || urlString !== '') ? (
-							<>, </>
-						) : null
-					}
-					</>
-					) : null
-				}
-
-				{	( editorString !== '' ) ? ( 
-					<>{editorString}
-					{	(volumeString !== '' || numberString !== '' || pubString !== '' 
-								|| dateString !== '' || pageString !== '' || urlString !== '') ? (
-							<>, </>
-						) : null
-					}
-					</>
-					)	: null
-				}
-
-				{	( volumeString !== "" ) ? (
-					<>{volumeString}
-					
-					{	(numberString !== '' || pubString !== '' || dateString !== '' || pageString !== '' || urlString !== '') ? (
-							<>, </>
-						)	: null
-					}
-					</>	) : null
-				}
-
-				{	( numberString !== '' ) ? (
-					<>{numberString}
-					{	(pubString !== '' || dateString !== '' || pageString !== '' || urlString !== '') ? (
-							<>, </>
-						)	: null
-					}
-					</>	) : null
-				}
-
-				{	( pubString !== '' ) ? (
-					<>{pubString}
-					{	(dateString !== '' || pageString !== '' || urlString !== '') ? (
-							<>, </>
-						)	: null
-					}			
-					</>	) : null
-				}
-
-				{	( dateString !== "" ) ? (
-					<>{dateString}
-					{	(pageString !== '' || urlString !== '') ? (
-							<>, </>
-						)	: null
-					}	
-					</>	) : null
-				}
-
-				{	( pageString !== "" ) ? (
-					<>{pageString}
-					{	(urlString !== '') ? (
-							<>, </>
-						)	: null
-					}	
-					</>	) : null
-				}
-				{	( urlString !== "" ) ? ( 
-						<a href={urlString} target="_blank" rel="noopener noreferrer">{urlString}</a>
-					) : null
-				}
-
-				{	(largerWork !== '' || editorString !== '' || volumeString !== '' || numberString !== '' 
-							|| pubString !== '' || dateString !== '' || pageString !== '' || urlString !== '') ? (
-						<>.</>
-					)	: null
-				}
-
-				<!-- Last-accessed date -->
-				{ (sObj.UrlDate && sObj.UrlDate != "") ? (
-					<> Accessed {sObj.UrlDate}.</span>
-					) : null
-				}
-
-				<!-- Comments -->
-				<!--
-				{	(addendumString !== '') ? (
-						<br/><span class="info" set:html={addendumString} />
-					) : null
-				}
-				{	(abstractString !== '') ? (
-						<br/><span class="info" set:html={abstractString} />
-					) : null
-				}
-				{	(annotationString !== '') ? (
-						<br/><span class="info" set:html={annotationString} />
-					) : null
-				}
-				-->
-			)
+			{ (authorString !== '' && sObj.PreSort =='') ? (
+				<>{authorString}, </>
+				) : null
 			}
-		</span>
+
+			<!-- There should always be a title. -->
+			{stype === '@book' ? (
+				<em>{sObj.Title}. </em>
+			) : (stype === '@inbook' || stype === '@article' || stype === '@inproceedings') ? (
+				<>&ldquo;{sObj.Title}.&rdquo; </>
+			) : (stype === '@online' && sObj.Url && sObj.Url !== '' ) ? (
+				<>&ldquo;<a href={sObj.Url} target="_blank" rel="noopener noreferrer">{sObj.Title}</a>.&rdquo; </>
+			) : (
+				<>&ldquo;{sObj.Title}.&rdquo; </>
+				)
+			}
+
+			<!-- Second sequence -->
+
+			{	( largerWork != "" || seriesString != "" ) ? ( 
+				<>
+				{ (largerWork != "") ? <em>{largerWork}</em> : <>{seriesString}</>}
+				{	(editorString !== '' || volumeString !== '' || numberString !== '' || pubString !== '' 
+								|| dateString !== '' || pageString !== '' || urlString !== '') ? (
+						<>, </>
+					) : <>.</>
+				}
+				</>
+				) : null
+			}
+
+			{	( editorString !== '' ) ? ( 
+				<>{editorString}
+				{	(volumeString !== '' || numberString !== '' || pubString !== '' 
+							|| dateString !== '' || pageString !== '' || urlString !== '') ? (
+						<>, </>
+					) : <>.</>
+				}
+				</>
+				)	: null
+			}
+
+			{	( volumeString !== "" ) ? (
+				<>{volumeString}
+				
+				{	(numberString !== '' || pubString !== '' || dateString !== '' || pageString !== '' || urlString !== '') ? (
+						<>, </>
+					)	: <>.</>
+				}
+				</>	) : null
+			}
+
+			{	( numberString !== '' ) ? (
+				<>{numberString}
+				{	(pubString !== '' || dateString !== '' || pageString !== '' || urlString !== '') ? (
+						<>, </>
+					)	: <>.</>
+				}
+				</>	) : null
+			}
+
+			{	( pubString !== '' ) ? (
+				<>{pubString}
+				{	(dateString !== '' || pageString !== '' || urlString !== '') ? (
+						<>, </>
+					)	: <>.</>
+				}			
+				</>	) : null
+			}
+
+			{	( dateString !== "" ) ? (
+				<>{dateString}
+				{	(pageString !== '' || urlString !== '') ? (
+						<>, </>
+					)	: <>.</>
+				}	
+				</>	) : null
+			}
+
+			{	( pageString !== "" ) ? (
+				<>{pageString}
+				{	(urlString !== '') ? (
+						<>, </>
+					)	: <>.</>
+				}	
+				</>	) : null
+			}
+			{	( urlString !== "" ) ? (
+					<><a href={urlString} target="_blank" rel="noopener noreferrer">{urlString}</a>.</>
+				) : null
+			}
+
+			<!-- Last-accessed date -->
+			{ (sObj.UrlDate && sObj.UrlDate != "") ? (
+				<> Accessed {sObj.UrlDate}.</>
+				) : null
+			}
+
+			<!-- Comments -->
+			<!--
+			{	(addendumString !== '') ? (
+					<br/><span class="info" set:html={addendumString} />
+				) : null
+			}
+			{	(abstractString !== '') ? (
+					<br/><span class="info" set:html={abstractString} />
+				) : null
+			}
+			{	(annotationString !== '') ? (
+					<br/><span class="info" set:html={annotationString} />
+				) : null
+			}
+			-->
+
+		)
+		}
+		</>
 	) : null
 }
