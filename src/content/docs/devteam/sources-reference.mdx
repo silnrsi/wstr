@@ -149,18 +149,20 @@ Source keys need to be unique, lowercase, with no spaces or punctuation except f
 
 The `sources.yaml` file is a YAML file containing all bibliographic sources used on WSTR. Each source is represented as a YAML object with fields corresponding to the source fields described above. Some details:
 
-- For readability each record starts with a new line containing only `-`
-- Indentation is two spaces
-- Empty fields can be omitted but can also be included with no value (e.g., `pages: `)
-- Strings do not need to be quoted unless they contain the special characters `: { } [ ] , & * # ? | - < > = ! % @`
+- Indentation is two spaces.
+- Empty fields can be omitted but can also be included with no value (e.g., `pages: `).
+- Strings do not need to be quoted in block style, or on single line unless they contain the special characters `: { } [ ] , & * # ? | - < > = ! % @`
+- Recommend (but not required): Use folding block flow style (`>-` after the field name) for long values such as the `abstract:` or `annotation:` fields.
 
 ### Example showing all possible fields
 
 ```yaml
--
-  abstract: "Longer abstract (with special characters)"   
+uniquekey:
+  abstract: >-
+    Longer potentially multi-line abstract (with special characters)
   addendum: Description
-  annotation: "Longer annotation (with special characters)"
+  annotation: >-
+    Longer possibly multi-line abstract annotation (with special characters)
   author: John Smith and Mary Smith
   booktitle: Title of Book or Proceedings
   date: 2011-06-24
@@ -170,7 +172,6 @@ The `sources.yaml` file is a YAML file containing all bibliographic sources used
   isbn: 0-19-507993-0
   issn: 1613-3668
   journaltitle: Journal Title
-  key: uniquekey
   keywords: [first, another one]
   location: London
   number: 24
@@ -193,10 +194,9 @@ In the following examples fields are grouped generally by use. The order of fiel
 ```yaml
 # src/data/sources.yaml
 ---
--
-  key: hatcher2008
-  entrytype: @article
-  title: Script change in Azerbaijan: acts of identity
+hatcher2008:
+  entrytype: "@article"
+  title: "Script change in Azerbaijan: acts of identity"
   author: Lynley Hatcher
   sortname: Hatcher
   journaltitle: International Journal of the Sociology of Language
@@ -207,9 +207,8 @@ In the following examples fields are grouped generally by use. The order of fiel
   volume: 2008
   number: 192
   keywords: [script-latn, script-arab, script-cyrl, lang-azj, lang-azb]
--
-  key: mumin2013
-  entrytype: @book
+mumin2013:
+  entrytype: "@book"
   title: The Arabic Script in Africa (Studies in the Use of a Writing System)
   editor: Meikal Mumin and Kees Versteegh
   sortname: Mumin
@@ -219,11 +218,23 @@ In the following examples fields are grouped generally by use. The order of fiel
   publisher: Brill 
   pages: 105-116
   keywords: [script-latn, script-arab, script-cyrl, lang-azj, lang-azb]
-  abstract: "The Arabic script in Africa contains sixteen papers on the past and present use of Arabic script to write African languages. These writing traditions, which are sometimes collectively referred to as Ajami, are discussed for single or multiple languages, with examples from all major linguistic phyla of Africa but one (Khoisan), and from all geographic areas of Africa (North, West, Central, East, and South Africa), as well as a paper on the Ajami heritage in the Americas. The papers analyze (ethno-) historical, literary, (socio-) linguistic, and in particular grammatological aspects of these previously understudied writing traditions and exemplify their range and scope, providing new data for the comparative study of writing systems, literacy in Africa, and the history of (Islam in) Africa."
-  annotation: "This book is relevant for the history of knowledge and literacy in (Islamic) Africa, the linguistic study of writing systems (Grammatology), the socio-linguistics of writing, and orthography development and standardization.[CR][CR]A comprehensive review of this book is also available."
--
-  key: bauer1996
-  entrytype: @inbook
+  abstract: >-
+    The Arabic script in Africa contains sixteen papers on the past and present use of Arabic
+    script to write African languages. These writing traditions, which are sometimes collectively
+    referred to as Ajami, are discussed for single or multiple languages, with examples from all
+    major linguistic phyla of Africa but one (Khoisan), and from all geographic areas of Africa
+    (North, West, Central, East, and South Africa), as well as a paper on the Ajami heritage in the
+    Americas. The papers analyze (ethno-) historical, literary, (socio-) linguistic, and in
+    particular grammatological aspects of these previously understudied writing traditions and
+    exemplify their range and scope, providing new data for the comparative study of writing
+    systems, literacy in Africa, and the history of (Islam in) Africa.
+  annotation: >-
+    This book is relevant for the history of knowledge and literacy in (Islamic) Africa, the
+    linguistic study of writing systems (Grammatology), the socio-linguistics of writing, and
+    orthography development and standardization.[CR][CR]A comprehensive review of this book is
+    also available.
+bauer1996:
+  entrytype: "@inbook"
   title: Arabic Writing
   author: Thomas Bauer
   editor: Peter T. Daniels and William Bright
@@ -235,10 +246,9 @@ In the following examples fields are grouped generally by use. The order of fiel
   location: Oxford
   pages: 559-564
   keywords: [script-arab]
--
-  key: abba2015
-  entrytype: @inproceedings
-  title: Ajamization of Knowledge: The Kanuri Experience
+abba2015:
+  entrytype: "@inproceedings"
+  title: "Ajamization of Knowledge: The Kanuri Experience"
   author: Tahir Abba
   sortname: Abba
   booktitle: Conference of Language and Identity in Africa
@@ -247,23 +257,44 @@ In the following examples fields are grouped generally by use. The order of fiel
   publisher: Cairo University
   location: Cairo
   keywords: [script-arab, lang-knc, lang-kau, lang-nup, lang-krt, lang-kby, lang-bms, lang-yor, lang-hau, lang-fuv]
--
-  key: gulzar2006
-  entrytype: @misc
+gulzar2006:
+  entrytype: "@misc"
   title: Nastaleeq Support in TeX (Omega)
   author: Atif Gulzar
   sortname: Gulzar
   url: http://www.cle.org.pk/Publication/theses/2006/nastaleeq_Support_in_TeX_%28Omega%29.pdf
   date: 2006-12-01
-  isbn:  issn: 
+  isbn:  
+  issn: 
   publisher: National University of Computer & Emerging Sciences
   location: Lahore
   keywords: [script-aran, fonts, rendering]
-  abstract: "With the advent of multi-lingual concept in computer systems, different solution has been proposed and implemented. But most of these are not matured enough or has platform barriers. The most promising solutions are OpenType® by Microsoft and Adobe, and Apple Advanced Typography by Apple Inc. The OpenType® specifications are open source, in spite of that the support of OpenType® on different platforms is not mature and even not consistent among Microsoft and Adobe applications.(CR)(CR)Two different techniques have been adapted to digitize the Nastaleeq script. One is Ligature based approach and other is character based. Both approaches have their own limitations. The most dominating solution is ligature based Nori Nastaleeq font. But this font can only be run in proprietary software InPage®. And this software can only be run in a MS Windows environment. The other promising solution is character based Nafees Nastaleeq font. This font uses OpenType® technology to generate ligatures. OpenType® solution is very slow for Nastaleeq script and has limitations for proportional spacing and justification.(CR)(CR)TeX is a revolutionary typesetting system developed by Donald Knuth in 1980s. It is a defecto standard for many scientific and mathematic publications. TeX was mainly aimed at typesetting mathematics and English text. Omega is an extension of TeX developed by John Plaice and Yannis Haralambous. Its first release, aims primarily at improving TeX's multilingual abilities. Omega allows multiple inputs and output character sets, and uses programmable filters to translate from one encoding to another, to perform contextual analysis. The pixel level control of TeX over glyphs and filtering approach of Omega suits them best for complex scripts like Nastaleeq."
-  annotation: "This thesis goes into great detail about how the Nastaleeq style of Arabic script works. It is a useful read for anyone interested in implementing support for Nastaleeq."
--
-  key: aat
-  entrytype: @online
+  abstract: >- 
+    With the advent of multi-lingual concept in computer systems, different solution has been
+    proposed and implemented. But most of these are not matured enough or has platform barriers.
+    The most promising solutions are OpenType® by Microsoft and Adobe, and Apple Advanced
+    Typography by Apple Inc. The OpenType® specifications are open source, in spite of that the
+    support of OpenType® on different platforms is not mature and even not consistent among
+    Microsoft and Adobe applications.(CR)(CR)Two different techniques have been adapted to digitize
+    the Nastaleeq script. One is Ligature based approach and other is character based. Both
+    approaches have their own limitations. The most dominating solution is ligature based Nori
+    Nastaleeq font. But this font can only be run in proprietary software InPage®. And this
+    software can only be run in a MS Windows environment. The other promising solution is character
+    based Nafees Nastaleeq font. This font uses OpenType® technology to generate ligatures.
+    OpenType® solution is very slow for Nastaleeq script and has limitations for proportional
+    spacing and justification.(CR)(CR)TeX is a revolutionary typesetting system developed by
+    Donald Knuth in 1980s. It is a defecto standard for many scientific and mathematic
+    publications. TeX was mainly aimed at typesetting mathematics and English text. Omega is an
+    extension of TeX developed by John Plaice and Yannis Haralambous. Its first release, aims
+    primarily at improving TeX's multilingual abilities. Omega allows multiple inputs and output
+    character sets, and uses programmable filters to translate from one encoding to another, to
+    perform contextual analysis. The pixel level control of TeX over glyphs and filtering approach
+    of Omega suits them best for complex scripts like Nastaleeq.
+  annotation: >-
+    This thesis goes into great detail about how the Nastaleeq style of Arabic script works. It is a
+    useful read for anyone interested in implementing support for Nastaleeq.
+aat:
+  entrytype: "@online"
   title: About Apple Advanced Typography Fonts - TrueType Reference Manual
   url: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6AATIntro.html
   urldate: 2025-11-19
