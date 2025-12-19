@@ -1,0 +1,197 @@
+aat:
+  entrytype: '@online'
+  title: About Apple Advanced Typography Fonts - TrueType Reference Manual
+  url: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6AATIntro.html
+  urldate: 2025-11-19
+  keywords: [fonts]
+abba2015:
+  entrytype: '@inproceedings'
+  title: 'Ajamization of Knowledge: The Kanuri Experience'
+  author: Tahir Abba
+  sortname: Abba
+  booktitle: Conference of Language and Identity in Africa
+  url: https://www.academia.edu/21905366/Ajamization_of_Knowledge_The_Kanuri_Experience
+  date: 2015-04-05
+  publisher: Cairo University
+  location: Cairo
+  keywords: [script-arab, lang-knc, lang-kau, lang-nup, lang-krt, lang-kby, lang-bms, lang-yor, lang-hau, lang-fuv]
+abdelhadi2011:
+  entrytype: '@article'
+  title: 'Perceptual load in the reading of Arabic: Effects of orthographic visual complexity on detection'
+  author: Souad Abdelhadi and Raphiq Ibrahim and Zohar Eviatar
+  sortname: Abdelhadi
+  journaltitle: Writing Systems Research
+  url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsr014
+  date: "2011"
+  keywords: [script-arab, lang-ara]
+  annotation: >-
+    Previous research has suggested that reading Arabic is slower than reading Hebrew or English,
+    even among native Arabic readers. The authors of this article tested the hypothesis that part
+    of the difficulty in reading Arabic is due to the visual complexity of Arabic orthography. The
+    findings support a perceptual load account of the source of processing difficulty in reading
+    Arabic. In the article, the authors first explain some of the complexities of Arabic writing,
+    then describe the methods they used to test their hypothesis, and finally discuss their
+    findings. Please note that you need to either be a subscriber to this journal, or purchase
+    short term access to this article, in order to read it.
+agl:
+  entrytype: '@online'
+  title: Adobe Glyph List Specification
+  url: https://github.com/adobe-type-tools/agl-specification
+  urldate: 2025-11-19
+  keywords: [fonts, font tools]
+al-baba1994:
+  entrytype: '@book'
+  title: Rouh Al-Khatt Al-Arabi
+  author: Kamel Al-Baba
+  sortname: Al-Baba
+  date: "1994"
+  publisher: Dar El-Ilm Lil Malayin
+  location: Lebanon
+  keywords: [script-arab]
+  annotation: >-
+    Kamel El Baba is widely acknowledged as one of the most accomplished contemporary calligraphers
+    in the Arab world. After retiring from his career as a professional calligrapher, he published
+    "Rouh Al-Khatt Al-Arabi" (The Spirit of Arabic Calligraphy), in which he discusses the art and
+    history of Arabic calligraphy, and displays a collection of exemplary works.
+aronson1990:
+  entrytype: '@book'
+  title: 'Georgian: A Reading Grammar'
+  author: Howard I. Aronson
+  sortname: Aronson
+  url: http://www.seelrc.org:8080/grammar/pdf/stand_alone_georgian.pdf
+  date: "1990"
+  publisher: Slavica Publishers, Inc.
+  location: Bloomington, IN
+  keywords: [script-geor]
+ishida-arabic:
+  entrytype: '@online'
+  title: Arabic character picker
+  author: Richard Ishida
+  sortname: Ishida
+  journaltitle: Writing Systems Research
+  organization: r12a.io
+  url: https://r12a.github.io/pickers/arab-all/
+  urldate: 2025-11-21
+  keywords: [script-arab]
+bauer1996:
+  entrytype: '@inbook'
+  title: Arabic Writing
+  author: Thomas Bauer
+  editor: Peter T. Daniels and William Bright
+  sortname: Bauer
+  booktitle: The World's Writing Systems
+  date: "1996"
+  urldate: 2025-11-19
+  isbn: 0-19-507993-0
+  publisher: Oxford University Press
+  location: Oxford
+  page: 559-564
+  keywords: [script-arab]
+flo:
+  entrytype: '@online'
+  title: SIL Language Technology Font Collection
+  url: https://fonts.languagetechnology.org
+  urldate: 2025-11-19
+  keywords: [fonts, font sources]
+gf-variable:
+  entrytype: '@online'
+  title: Introducing Variable Fonts
+  organization: Google Fonts
+  url: https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
+  urldate: 2025-11-19
+  keywords: [fonts]
+haas1969:
+  entrytype: '@inbook'
+  title: The Bernard Shaw Alphabet
+  author: William Haas
+  sortname: Haas
+  booktitle: Alphabets for English
+  date: "1969"
+  publisher: Manchester University Press
+  location: Manchester, UK
+  page: 105-117
+  keywords: [script-shaw]
+hatcher2008:
+  entrytype: '@article'
+  title: 'Script change in Azerbaijan: acts of identity'
+  author: Lynley Hatcher
+  sortname: Hatcher
+  journaltitle: International Journal of the Sociology of Language
+  url: http://dx.doi.org/10.1515/IJSL.2008.038
+  date: "2008"
+  issn: 1613-3668
+  page: 105-116
+  volume: "2008"
+  number: 192
+  keywords: [script-latn, script-arab, script-cyrl, lang-azj, lang-azb]
+mumin2013:
+  entrytype: '@book'
+  title: The Arabic Script in Africa (Studies in the Use of a Writing System)
+  editor: Meikal Mumin and Kees Versteegh
+  sortname: Mumin
+  series: Studies in Semitic Languages and Linguistics (Book 71)
+  date: "2013"
+  isbn: 978-9-00-425679-8
+  publisher: Brill
+  page: 105-116
+  volume: "2008"
+  number: 192
+  keywords: [script-latn, script-arab, script-cyrl, lang-azj, lang-azb]
+  abstract: >-
+    The Arabic script in Africa contains sixteen papers on the past and present use of Arabic
+    script to write African languages. These writing traditions, which are sometimes collectively
+    referred to as Ajami, are discussed for single or multiple languages, with examples from all
+    major linguistic phyla of Africa but one (Khoisan), and from all geographic areas of Africa
+    (North, West, Central, East, and South Africa), as well as a paper on the Ajami heritage in the
+    Americas. The papers analyze (ethno-) historical, literary, (socio-) linguistic, and in
+    particular grammatological aspects of these previously understudied writing traditions and
+    exemplify their range and scope, providing new data for the comparative study of writing
+    systems, literacy in Africa, and the history of (Islam in) Africa.
+  annotation: >-
+    This book is relevant for the history of knowledge and literacy in (Islamic) Africa, the
+    linguistic study of writing systems (Grammatology), the socio-linguistics of writing, and
+    orthography development and standardization.[CR][CR]A comprehensive review of this book is also
+    available.
+omni-arabic:
+  entrytype: '@online'
+  title: Arabic Alphabet
+  author: Simon Ager
+  sortname: Ager
+  presort: 30
+  organization: Omniglot
+  url: http://www.omniglot.com/writing/arabic.htm
+  urldate: 2010-07-02
+  keywords: [script-arab]
+ss-script-arabic:
+  entrytype: '@online'
+  title: Arabic
+  presort: 10
+  organization: ScriptSource
+  url: https://scriptsource.org/scr/Arab
+  urldate: 2025-11-17
+  keywords: [script-arab]
+wiki-coretext:
+  entrytype: '@online'
+  title: Core Text
+  presort: 22
+  organization: Wikipedia
+  url: https://en.wikipedia.org/wiki/Core_Text
+  urldate: 2025-11-19
+  keywords: [fonts, rendering]
+constable2018:
+  entrytype: '@online'
+  title: Steps Forward in Windows and OpenType
+  author: Peter Constable
+  sortname: Constable
+  organization: Wikipedia
+  url: https://www.youtube.com/watch?v=eVWWAvhzrq8
+  date: 2018-04-15
+  urldate: 2025-11-19
+  keywords: [fonts, rendering, opentype]
+anvil:
+  entrytype: '@online'
+  title: anvil
+  url: https://github.com/silnrsi/anvil
+  urldate: 2025-11-19
+  keywords: [fonts, font tools]
+  addendum: Simple script to help run dockerized smith[CR]More more more
