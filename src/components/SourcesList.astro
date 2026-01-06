@@ -1,23 +1,13 @@
 ---
-// TaggedSources component: list sources related to given tag. If no tag supplied, the list will be empty.
+// SourcesList component: list sources related to given tag. If no tag supplied, the list will be empty.
 // Parameters:
 //		tag: eg, 'encoding', 'script-arab', 'fonts', etc. Use 'all' to display the complete list.
-//		section: 'external', 'bibliography'
+//		header: eg, 'External links'
+//		biblio: true = include bibliographic sources (non-online); default = false
 
 import Source from './Source.astro';
 
-const { tag } = Astro.props;
-
-const { section } = Astro.props;
-
-let header = "";
-if (section == "external") {
-	header = "External links";
-} else if (section == "bibliography") {
-	header = "Bibliography";
-} else {
-	header = "";
-}
+const { tag, header, biblio } = Astro.props;
 
 import sdata from '../data/sources.json';
 
@@ -33,14 +23,10 @@ if (tag == "all") {
   );
 }
 
-let sectionSdata:Array<typeof sdata[0]> = [];
-if (section == 'external') {
+let sectionSdata = filteredSdata;
+if (biblio != true && biblio != "true") {
 	sectionSdata = filteredSdata.filter(sObj =>
 		sObj.EntryType === '@online'
-	)
-} else if (section == 'bibliography') {
-	sectionSdata = filteredSdata.filter(sObj =>
-		sObj.EntryType !== '@online'
 	)
 }
 
@@ -49,12 +35,18 @@ if (section == 'external') {
 { (sectionSdata.length == 0) ? (
 		null
 	) : (
-		<h3>{header}</h3>
-		<ul>
-			{sectionSdata.map((sObj) =>
-					<li><Source key={sObj.Key} /></li>
-				)
+		<>
+			{ (header !== '') ? (
+				<h3>{header}</h3>
+				) : null
 			}
-		</ul>
+			<ul>
+				{sectionSdata.map((sObj) =>
+						<li><Source key={sObj.Key} /></li>
+					)
+				}
+			</ul>
+		</>
 	)
 }
+
