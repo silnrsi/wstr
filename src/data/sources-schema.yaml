@@ -47,9 +47,9 @@ patternProperties:
         description: A short indicator that this record has special use, which allow us to use it as a filter in lists.
         enum: [f]
       isbn:
-        description: For @book, @inbook, and @inproceedings a 10 or 13 digit International Standard Book Number, or 9 digit SBN.
+        description: For @book, @inbook, and @inproceedings a 10 or 13 digit International Standard Book Number, or 9 digit SBN, or CSBN.
         type: string
-        pattern: ^(?=\d{1,5}([^\d]?)\d)(?:97[89]\1)?\d{1,5}\1\d{1,7}\1\d{1,7}\1[\dX]$
+        pattern: ^(?=\d{1,5}([^\d]?)\d)(?:97[89]\1)?\d{1,5}\1\d{1,7}\1\d{1,7}\1[\dX](?:/[A-Z]·\d+)?$
       issn:
         description: "For @article an 8 digit International Standard Serial Number"
         type: string
