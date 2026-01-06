@@ -7,6 +7,7 @@ import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
 import cookieconsent from "@jop-software/astro-cookieconsent";
 import db from '@astrojs/db';
+import yaml from '@rollup/plugin-yaml';
 
 const googleAnalyticsId = 'G-WHT6CVPT8M';
 
@@ -215,6 +216,9 @@ export default defineConfig({
         }),
         db()
     ],
+    vite: { 
+        plugins: [yaml()] 
+    },
     markdown: {
         rehypePlugins: [
             rehypeFigureTitle, [

@@ -23,5 +23,8 @@
     "sharp": "~0.34.4",
     "starlight-links-validator": "^0.18.0",
     "typescript": "^5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-yaml": "^4.1.2"
   }
 }
