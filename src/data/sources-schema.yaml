@@ -69,7 +69,7 @@ patternProperties:
         type: string
       number:
         description: For @article - the issue number of the journal in which the article appears.
-        type: integer
+        type: string
       organization:
         description: >-
           For @online - the organization responsible for the content of the webpage or website. Can
