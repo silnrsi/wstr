@@ -38,7 +38,7 @@ abdelhadi2011:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsr014
   date: '2011'
   volume: '3'
-  number: '2'
+  number: 2
   keywords: [script-arab, lang-ara]
   annotation: >-
     Previous research has suggested that reading Arabic is slower than reading Hebrew or English, even
@@ -383,7 +383,7 @@ bender2008:
   issn: 1613-3668
   pages: 91-103
   volume: '2008'
-  number: '192'
+  number: 192
   keywords: [script-cher, script-latn, lang-chr]
   abstract: >-
     Using illustrations from recent Cherokee literacy practices, this article demonstrates that the
@@ -451,7 +451,7 @@ blood2008:
   issn: 1613-3668
   pages: 45-55
   volume: '2008'
-  number: '192'
+  number: 192
   keywords: [script-cham]
   annotation: >-
     This article focuses on the Eastern Cham of Vietnam. The author and her husband came to the Cham
@@ -495,7 +495,7 @@ bondarev2006b:
   date: '2006'
   pages: 113-140
   volume: '69'
-  number: '1'
+  number: 1
   keywords: [script-arab, lang-knc]
   annotation: >-
     A review of the Bornu manuscripts which were written in the style of Market Editions of Nigeria.
@@ -606,7 +606,7 @@ brigaglia2011:
   issn: 2154-0993
   pages: 51-85
   volume: '2'
-  number: '2'
+  number: 2
   keywords: [script-arab, lang-hau, lang-knc]
   annotation: >-
     In this article, I want to draw attention to the Arabic calligraphic styles used in manuscripts and
@@ -627,7 +627,7 @@ brigaglia2013:
   issn: 2154-0993
   pages: 195-223
   volume: '2'
-  number: '2'
+  number: 2
   keywords: [script-arab, lang-hau, lang-knc]
   annotation: >-
     Develops the reflections started with Part 1. Through an analysis of the Barnawi, argues that the
@@ -669,7 +669,7 @@ brissaud2011:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsr003
   date: '2011'
   volume: '3'
-  number: '2'
+  number: 2
   keywords: [char-00e9, char-0065, lang-fra]
   annotation: >-
     The aim of this article is to give an overview of researches about the acquisition of /E/ verb
@@ -808,7 +808,7 @@ chamberlain2008:
   issn: 1613-3668
   pages: 117-131
   volume: '2008'
-  number: '192'
+  number: 192
   keywords: [script-tibt]
   abstract: >-
     Written development of Tibetan-related languages has seen an increase in recent years. When these
@@ -956,7 +956,7 @@ clement2008:
   issn: 1613-3668
   pages: 171-185
   volume: '2008'
-  number: '192'
+  number: 192
   keywords: [script-cyrl, script-arab, script-latn, lang-tuk]
   abstract: >-
     Like so many societies that emerged from communism at the end of the twentieth century fortifying a
@@ -1103,11 +1103,11 @@ coulmas1999khmer:
   title: "Khmer Writing"
   author: Florian Coulmas
   sortname: Coulmas
-  booktitle: "The Blackwell Encyclopedia of Writing Systems"
+  booktitle: The Blackwell Encyclopedia of Writing Systems
   date: '1999'
   isbn: 0-631-21481-X
   publisher: Blackwell
-  location: "Oxford"
+  location: Oxford
   pages: 268-270
   keywords: [script-khmr]
 coulmas1999korean:
@@ -1336,7 +1336,7 @@ dalby1967:
   date: '1967'
   pages: 1-51
   volume: '8'
-  number: '1'
+  number: 1
   keywords: [script-bass, script-vaii, script-mend, script-loma, script-kpel]
   annotation: >-
     This article presents a review of the invention and form of writing systems native to Liberia and
@@ -1477,7 +1477,7 @@ desilva1969:
   url: http://www.jstor.org/stable/30029227
   date: '1969'
   volume: '11'
-  number: '7'
+  number: 7
   keywords: [script-thaa, lang-div]
   annotation: >-
     This article provides a detailed overview of Maldivian phonology and how that is reflected and
@@ -1583,7 +1583,7 @@ dronjic2011:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsr005
   date: '2011'
   volume: '3'
-  number: '1'
+  number: 1
   keywords: [script-hani, lang-cmn]
   annotation: >-
     This article reviews a number of key linguistic and psycholinguistic findings pertaining to Mandarin
@@ -1606,7 +1606,7 @@ dubelaar1988:
   journaltitle: "New West Indian Guide / Nieuwe West-Indische Gids"
   date: '1988'
   pages: 146-164
-  number: '62'
+  number: 62
   keywords: [script-afak]
 duff2000:
   entrytype: "@misc"
@@ -1633,7 +1633,7 @@ eatough2018:
   url: https://commons.und.edu/sil-work-papers/vol41/iss1/1
   date: 2018-09-11
   volume: '1'
-  number: '41'
+  number: 41
   keywords: [script-yiii, lang-iii]
   abstract: >-
     Liangshan Yi (also known as Nosu, spoken in Sichuan Province, China) has many
@@ -1656,7 +1656,7 @@ edmondson2017:
   issn: 0025-1003
   pages: 87-97
   volume: '47'
-  number: '1'
+  number: 1
   keywords: [script-yiii, lang-iii]
   abstract: >-
     The Nuosu (Nosu) Yi language, or Northern Yi (北部彝语), is spoken by approximately two million people
@@ -1726,7 +1726,7 @@ enwall2008:
   issn: 1613-3668
   pages: 153-169
   volume: '2008'
-  number: '192'
+  number: 192
   keywords: [script-plrd, lang-hmd, lang-mmr, lang-hea, lang-hmq, lang-hnj]
   abstract: >-
     The present article aims at analyzing script choice among the Miao in China from the perspective of
@@ -1951,7 +1951,7 @@ ferlus2006:
   date: '2006'
   pages: 209-239
   volume: '35'
-  number: '2'
+  number: 2
   keywords: [script-tayo]
 ferlus2008:
   entrytype: "@inbook"
@@ -1975,7 +1975,7 @@ feruglio1995:
   date: '1995'
   urldate: 2011-03-30
   volume: '16'
-  number: '3'
+  number: 3
   keywords: [char-00b7, char-0140, lang-cat]
   annotation: >-
     An article in PDF format which proposes typographical rules for standardizing writing in the Catalan
@@ -2174,7 +2174,7 @@ galtier1987:
   date: '1987'
   pages: 255-266
   volume: '57'
-  number: '1'
+  number: 1
   keywords: [script-qa10]
   annotation: >-
     This article (in French) outlines the history of indigenous African writing systems, in particular
@@ -2370,7 +2370,7 @@ gnanadesikan2012:
   date: '2012'
   pages: 91-102
   volume: '4'
-  number: '1'
+  number: 1
   keywords: [script-thaa, script-hira, script-kana, script-hrkt, lang-jpn, lang-div]
   abstract: >-
     Thaana, the script used to write the Maldivian language Dhivehi, represents the segments—the
@@ -2528,7 +2528,7 @@ gulzar2007:
   date: '2007'
   pages: 89-94
   volume: '29'
-  number: '1'
+  number: 1
   keywords: [script-aran, lang-urd, fonts, rendering]
   abstract: >-
     Urdu is the lingua franca as well as the national language of Pakistan. It is based on Arabic
@@ -2755,7 +2755,7 @@ hatcher2008:
   issn: 1613-3668
   pages: 105-116
   volume: '2008'
-  number: '192'
+  number: 192
   keywords: [script-latn, script-arab, script-cyrl, lang-azj, lang-azb]
   abstract: >-
     Each of the three major script changes of the Azeri language in the twentieth century, from
@@ -2796,7 +2796,7 @@ hitch2010:
   url: http://www.sino-platonic.org/complete/spp198_aramaic_script.pdf
   date: 2010-02-01
   pages: 1-18
-  number: '198'
+  number: 198
   keywords: [script-armi]
   abstract: >-
     Concise and informative article by Doug Hitch outlining the 40+ Central Asian scripts which are
@@ -2811,7 +2811,7 @@ hoernle1915:
   date: 1915-07-01
   pages: 487-493
   volume: '2'
-  number: '2'
+  number: 2
   keywords: [script-qa40]
   annotation: >-
     This article focuses on the positioning of the diacritical mark indicating the short u in the
@@ -2837,7 +2837,7 @@ hongkai2009:
   date: '2009'
   pages: 159-186
   volume: '1'
-  number: '1'
+  number: 1
   keywords: [script-qaag]
   annotation: >-
     This is an English translation of a Chinese paper written in 1982 by Hongkai Sun. It was translated
@@ -2868,7 +2868,7 @@ hopkins2008:
   issn: 1613-3668
   pages: 75-89
   volume: '2008'
-  number: '192'
+  number: 192
   keywords: [script-sgnw, script-qaaq]
   abstract: >-
     This article introduces the reader to the sociolinguistic issues surrounding the adoption of a
@@ -3488,7 +3488,7 @@ kandhadai2010:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsq009
   date: '2010'
   volume: '2'
-  number: '2'
+  number: 2
   keywords: [script-deva, lang-hin]
   annotation: >-
     This article presents a study based on the Devanagari script, to examine how segmental awareness is
@@ -3602,14 +3602,14 @@ kirsanov2008:
     book.
 koolhof1999:
   entrytype: "@article"
-  title: "The "La Galigo"; a Bugis encyclopaedia and its growth"
+  title: 'The "La Galigo"; a Bugis encyclopaedia and its growth'
   author: S. Koolhof
   sortname: Koolhof
   journaltitle: "Bijdragen tot de Taal-, Land- en Volkenkunde"
   date: '1999'
   pages: 362-387
   volume: '155'
-  number: '3'
+  number: 3
   keywords: [script-bugi]
 korpela:
   entrytype: "@online"
@@ -3799,7 +3799,7 @@ lewis1958:
   date: '1958'
   pages: 134-156
   volume: '21'
-  number: '1'
+  number: 1
   keywords: [script-qa85, lang-som]
   annotation: >-
     This article discusses an orthography invented nearly 80 years ago by a well-known Gadabuursi
@@ -3832,7 +3832,7 @@ li2011:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsr010
   date: '2011'
   volume: '3'
-  number: '1'
+  number: 1
   keywords: [script-hani, lang-zho]
   annotation: >-
     This article describes a study which was carried out to determine how tone awareness contributes to
@@ -3909,7 +3909,7 @@ luo2011:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsr008
   date: '2011'
   volume: '3'
-  number: '1'
+  number: 1
   keywords: [script-hani, lang-zho]
   annotation: >-
     This article discusses a study investigating young Chinese children’s development of orthographic
@@ -4097,7 +4097,7 @@ massaquoi1911:
   date: '1911'
   pages: 459-466
   volume: '10'
-  number: '40'
+  number: 40
   keywords: [script-vaii]
   annotation: >-
     This article was written in response to an article previously published in the same journal entitled
@@ -4113,7 +4113,7 @@ mclaren1998:
   url: http://intersections.anu.edu.au/issue1/nushu2.html
   date: '1998'
   volume: '1'
-  number: '1'
+  number: 1
   keywords: [script-nshu]
   annotation: >-
     Intersections is a peer-reviewed online journal published by Murdoch University and The Australian
@@ -4234,7 +4234,7 @@ mirdehghan2010:
   date: '2010'
   pages: 9-23
   volume: '2'
-  number: '1'
+  number: 1
   keywords: [script-arab, lang-pst, lang-pbu, lang-pbt, lang-urd, lang-prs, lang-pes]
   abstract: >-
     The writing systems of Persian, Urdu, and Pashto draw from a common script (Arabic) with adaptations
@@ -4364,7 +4364,7 @@ morse2000:
   title: "How Do You Write Lisu?"
   author: David Morse and Thomas Tehan
   sortname: Morse
-  booktitle: "The Fourth International Conference of the Foundation for Endangered Languages:  "Endangered Languages and Literacy""
+  booktitle: 'The Fourth International Conference of the Foundation for Endangered Languages:  "Endangered Languages and Literacy"'
   url: https://www.researchgate.net/publication/255628051_How_Do_You_Write_Lisu
   date: 2000-09-24
   location: "Charlotte, NC"
@@ -4777,7 +4777,7 @@ nag2010:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsq001
   date: '2010'
   volume: '2'
-  number: '1'
+  number: 1
   keywords: [script-knda, lang-kan]
   annotation: >-
     In this article, the authors discuss the ability of a group of Kannada-speaking school children to
@@ -4871,7 +4871,7 @@ noorduyn1993:
   date: '1993'
   pages: 533-570
   volume: '149'
-  number: '3'
+  number: 3
   keywords: [script-bugi]
 obolensky1965:
   entrytype: "@book"
@@ -6114,7 +6114,7 @@ pae2011:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsr002
   date: '2011'
   volume: '3'
-  number: '2'
+  number: 2
   keywords: [script-kore, script-hang, lang-kor, syllabary]
   annotation: >-
     This article argues against the conventional categorisation of Korean Hangul as a syllabic alphabet,
@@ -6303,7 +6303,7 @@ reisenberg1960:
   date: '1960'
   pages: 269-333
   volume: '173'
-  number: '1'
+  number: 1
   keywords: [script-wole]
   annotation: >-
     This paper is one of the most widely-quoted in material concerning the history of the Woleai script.
@@ -6361,7 +6361,7 @@ roberts2010:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsq011
   date: '2010'
   volume: '2'
-  number: '2'
+  number: 2
   keywords: [lang-kbp]
   annotation: >-
     This article uses the example of Kabiye, one of the national languages of Togo, to illustrate the
@@ -6381,7 +6381,7 @@ roberts2014:
   date: '2014'
   pages: 308-314
   volume: '17'
-  number: '2'
+  number: 2
   keywords: [script-arab]
   annotation: >-
     This is an excellent review of the book: The Arabic script in Africa: Studies in the use of a
@@ -6561,7 +6561,7 @@ savage2008:
   issn: 1613-3668
   pages: 5-13
   volume: '2008'
-  number: '192'
+  number: 192
   keywords: [script-arab, script-tfng, script-latn, lang-taq]
   annotation: >-
     An article presenting the three script options - Arabic, Roman or Tifinagh - for writing the Tuareg
@@ -6722,7 +6722,7 @@ sidwell2008:
   issn: 1613-3668
   pages: 15-25
   volume: '2008'
-  number: '192'
+  number: 192
   keywords: [script-zzzz, lang-lbo]
   abstract: >-
     This article describes a previously undescribed script from Laos. The script was used by a political
@@ -6878,7 +6878,7 @@ sliva2008:
   issn: 1613-3668
   pages: 57-74
   volume: '2008'
-  number: '192'
+  number: 192
   keywords: [script-hang, lang-kor]
   abstract: >-
     Soon after their arrival to Korea, Christian missionaries were confronted by decisions regarding how
@@ -6919,7 +6919,7 @@ song2010:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsq010
   date: '2010'
   volume: '2'
-  number: '2'
+  number: 2
   keywords: [script-hang, script-latn, lang-deu, lang-kor]
   annotation: >-
     This article is based on the linguistic theory of optimality, which proposes that language forms
@@ -9196,7 +9196,7 @@ stern1968:
   date: 1968-01-01
   pages: 1-39
   volume: '10'
-  number: '1'
+  number: 1
   keywords: [script-leke, script-mymr, lang-kjp]
   annotation: >-
     While he was engaged in a study of bilingualism among the Karen of western Thailand, the writer
@@ -9295,7 +9295,7 @@ themistocleous2010:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsq008
   date: '2010'
   volume: '2'
-  number: '2'
+  number: 2
   keywords: [lang-ell, script-grek]
   annotation: >-
     Cypriot Greek is rarely written and does not have a standardized orthography of its own. However, a
@@ -9336,7 +9336,7 @@ tiwari2011:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsr013
   date: '2011'
   volume: '3'
-  number: '2'
+  number: 2
   keywords: [script-mlym, lang-mal]
   annotation: >-
     Literature on the acquisition of reading is mainly based on alphabetic orthographies and is largely
@@ -9397,7 +9397,7 @@ tranter2008:
   issn: 1613-3668
   pages: 133-151
   volume: '2008'
-  number: '192'
+  number: 192
   keywords: [script-hira, script-kana, script-hani, lang-jpn]
   abstract: >-
     The complexity and plurality of scripts and writing devices, such as auxiliary text or “ruby,” used
@@ -9428,7 +9428,7 @@ tuchscherer1995:
   date: '1995'
   pages: 169-188
   volume: '8'
-  number: '2'
+  number: 2
   keywords: [script-mend]
 tuchscherer1996:
   entrytype: "@misc"
@@ -9525,7 +9525,7 @@ tzu-jung2011:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsr007
   date: '2011'
   volume: '3'
-  number: '1'
+  number: 1
   keywords: [script-hani, lang-zho]
   annotation: >-
     In written Chinese, words are not separated by spaces, which may make parsing text into words
@@ -9729,7 +9729,7 @@ unseth2008:
   date: 2008-07-01
   pages: 357-371
   volume: '36'
-  number: '3'
+  number: 3
   keywords: [script-perm, script-lisu, script-cans, script-qabg, script-cyrl, script-ethi, script-plrd]
   abstract: >-
     Throughout history and within a number of language communities, orthographies have enabled the
@@ -13079,7 +13079,7 @@ windfuhr1970:
   date: 1970-06-01
   pages: 121-125
   volume: '12'
-  number: '2'
+  number: 2
   keywords: [script-xpeo]
 womack2005:
   entrytype: "@misc"
@@ -13119,7 +13119,7 @@ wyrod2008:
   issn: 1613-3668
   pages: 27-44
   volume: '2008'
-  number: '192'
+  number: 192
   keywords: [script-nkoo]
   abstract: >-
     This article explores the development and spread of the N'ko script among Mande communities in West
@@ -13188,7 +13188,7 @@ yun2011:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsr009
   date: '2011'
   volume: '3'
-  number: '1'
+  number: 1
   keywords: [script-hani, lang-cmn]
   annotation: >-
     This study tested the effects of interword spacing on the speed and comprehension of readers of
@@ -13280,7 +13280,7 @@ zhang2011:
   url: http://www.tandfonline.com/doi/abs/10.1093/wsr/wsr011
   date: '2011'
   volume: '3'
-  number: '1'
+  number: 1
   keywords: [script-hani, script-hans, script-hant, lang-zho]
   annotation: >-
     This article discusses the diversity of Chinese learning environments, and explains how this
@@ -13329,7 +13329,7 @@ zide1999:
   date: '1999'
   pages: 199-232
   volume: '22'
-  number: '2'
+  number: 2
   keywords: [script-sora, script-wara, script-olck]
 zou-script:
   entrytype: "@online"

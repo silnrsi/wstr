@@ -7,123 +7,125 @@ title:
 description:
     A schema describing the YAML format for Writing Systems Info sources
 type: object
-additionalProperties:
-  properties:
-    abstract:
-      description: Longer potentially multi-line abstract (with special characters)
-      type: string
-    addendum:
-      description: A brief note about the source that appears in lists of sources, a.k.a. "short annotation", equivalent to article frontmatter `description`.
-      type: string
-    author: 
-      description: >-
-        The person or people who wrote or created the work. Use `firstname lastname` format for each
-        author, separated by ` and ` for multiple authors. Commas should not be used to separate
-        authors. Authors who share lastnames should still be written in full.
-      type: string
-    annotation:
-      description: Longer possibly multi-line abstract annotation (with special characters)
-      type: string
-    booktitle:
-      description: Title of Book or Proceedings
-      type: string
-    date:
-      $ref: '#/$defs/date'
-    editor:
-      description: "The person or people who edited the work, see 'author:'"
-      type: string
-    entrytype:
-      description: The type of sources
-      enum: 
-      - "@article"
-      - "@book"
-      - "@inbook"
-      - "@inproceedings"
-      - "@misc"
-      - "@online"
-    entrysubtype:
-      description: A short indicator that this record has special use, which allow us to use it as a filter in lists.
-      enum: [f]
-    isbn:
-      description: For @book, @inbook, and @inproceedings a 10 or 13 digit International Standard Book Number, or 9 digit SBN.
-      type: string
-      pattern: ^(?=\d{1,3}([^\d]?)\d)(?:(?:97[89]\1)?\d\1)?\d{2,7}\1\d{1,6}\1\d$
-    issn:
-      description: "For @article an 8 digit International Standard Serial Number"
-      type: string
-      pattern: ^[0-9]{4}-[0-9]{3}[0-9a-zA-Z]$
-    journaltitle:
-      description: For @article - the name of the journal or periodical in which the article appears.
-      type: string
-    keywords:
-      description: A YAML list of tags for the source, used to group related sources together.
-      type: array
-      items: 
+additionalProperties: false
+patternProperties:
+  "[a-z-0-9]+":
+    properties:
+      abstract:
+        description: Longer potentially multi-line abstract (with special characters)
         type: string
-    location:
-      description: >- 
-        The place where the work was published. If the city is not well known, include the
-        state/province/country as well.
-      type: string
-    number:
-      description: For @article - the issue number of the journal in which the article appears.
-      type: integer
-    organization:
-      description: >-
-        For @online - the organization responsible for the content of the webpage or website. Can
-        be a shorthand name rather the full formal name. This will be displayed after the title in
-        lists of links.
-      type: string
-    pages:
-      description: >-
-        For @article, @inbook, and @inproceedings - the page range of the article, chapter, or
-        paper within the larger work. Use startpage-endpage format.
-      type: [string, integer]
-      pattern: ^\d+(-\d+)$
-      minimum: 1
-    presort:
-      description: |-
-        A two digit number 10-99 that can be used to influence the sorting order of sources in
-        lists. Lower numbers appear first. Sources with defined presort values appear before those
-        without. Some standard values for certain sites:
-         10 - ScriptSource
-         15 - software.sil.org
-         20 - Wikipedia script pages
-         22 - Other Wikipedia
-         30 - Omniglot
-      type: integer
-      minimum: 10
-      maximum: 99
-    publisher:
-      description: The name of the publisher of the work.
-      type: string
-    series:
-      description: For @book - the name of the series in which the work appears, if applicable.
-      type: string
-    sortname:
-      description: >-
-        A name used to influence the sorting order of sources in bibliographies. Typically this is
-        the lastname of the first **author** or **editor**, but can be any string.
-        Sources are sorted alphabetically by **sortname**.
-      type: string
-    title:
-      description: >-
-        The title of the work. Capitalization should follow standard English title case conventions,
-        however sources may not follow this strictly, particularly those migrated from ScriptSource.
-      type: string
-    url:
-      description: >-
-        The URL where the work can be found online. 
-        This can be used for all source types, not just @online.
-      type: string
-      format: uri
-    urldate:
-      description: 'The date the URL was last accessed. See date: for formatting.'
-      $ref: '#/$defs/date'
-    volume: 
-      description: For @article - the volume number of the journal in which the article appears, in whatever format is given.
-      type: string
-  required: [title, entrytype, keywords]
+      addendum:
+        description: A brief note about the source that appears in lists of sources, a.k.a. "short annotation", equivalent to article frontmatter `description`.
+        type: string
+      author: 
+        description: >-
+          The person or people who wrote or created the work. Use `firstname lastname` format for each
+          author, separated by ` and ` for multiple authors. Commas should not be used to separate
+          authors. Authors who share lastnames should still be written in full.
+        type: string
+      annotation:
+        description: Longer possibly multi-line abstract annotation (with special characters)
+        type: string
+      booktitle:
+        description: Title of Book or Proceedings
+        type: string
+      date:
+        $ref: '#/$defs/date'
+      editor:
+        description: "The person or people who edited the work, see 'author:'"
+        type: string
+      entrytype:
+        description: The type of sources
+        enum: 
+        - "@article"
+        - "@book"
+        - "@inbook"
+        - "@inproceedings"
+        - "@misc"
+        - "@online"
+      entrysubtype:
+        description: A short indicator that this record has special use, which allow us to use it as a filter in lists.
+        enum: [f]
+      isbn:
+        description: For @book, @inbook, and @inproceedings a 10 or 13 digit International Standard Book Number, or 9 digit SBN.
+        type: string
+        pattern: ^(?=\d{1,5}([^\d]?)\d)(?:97[89]\1)?\d{1,5}\1\d{1,7}\1\d{1,7}\1[\dX]$
+      issn:
+        description: "For @article an 8 digit International Standard Serial Number"
+        type: string
+        pattern: ^[0-9]{4}-[0-9]{3}[0-9a-zA-Z]$
+      journaltitle:
+        description: For @article - the name of the journal or periodical in which the article appears.
+        type: string
+      keywords:
+        description: A YAML list of tags for the source, used to group related sources together.
+        type: array
+        items: 
+          type: string
+      location:
+        description: >- 
+          The place where the work was published. If the city is not well known, include the
+          state/province/country as well.
+        type: string
+      number:
+        description: For @article - the issue number of the journal in which the article appears.
+        type: integer
+      organization:
+        description: >-
+          For @online - the organization responsible for the content of the webpage or website. Can
+          be a shorthand name rather the full formal name. This will be displayed after the title in
+          lists of links.
+        type: string
+      pages:
+        description: >-
+          For @article, @inbook, and @inproceedings - the page range of the article, chapter, or
+          paper within the larger work. Use startpage-endpage format.
+        type: string
+        pattern: ^\d+(-\d+)?$
+        minimum: 1
+      presort:
+        description: |-
+          A two digit number 10-99 that can be used to influence the sorting order of sources in
+          lists. Lower numbers appear first. Sources with defined presort values appear before those
+          without. Some standard values for certain sites:
+          10 - ScriptSource
+          15 - software.sil.org
+          20 - Wikipedia script pages
+          22 - Other Wikipedia
+          30 - Omniglot
+        type: integer
+        minimum: 10
+        maximum: 99
+      publisher:
+        description: The name of the publisher of the work.
+        type: string
+      series:
+        description: For @book - the name of the series in which the work appears, if applicable.
+        type: string
+      sortname:
+        description: >-
+          A name used to influence the sorting order of sources in bibliographies. Typically this is
+          the lastname of the first **author** or **editor**, but can be any string.
+          Sources are sorted alphabetically by **sortname**.
+        type: string
+      title:
+        description: >-
+          The title of the work. Capitalization should follow standard English title case conventions,
+          however sources may not follow this strictly, particularly those migrated from ScriptSource.
+        type: string
+      url:
+        description: >-
+          The URL where the work can be found online. 
+          This can be used for all source types, not just @online.
+        type: string
+        format: uri
+      urldate:
+        description: 'The date the URL was last accessed. See date: for formatting.'
+        $ref: '#/$defs/date'
+      volume: 
+        description: For @article - the volume number of the journal in which the article appears, in whatever format is given.
+        type: string
+    required: [title, entrytype, keywords]
 $defs:
   date:
     description: >-
