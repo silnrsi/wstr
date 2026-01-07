@@ -72,6 +72,7 @@ def convert_csv(inFilePath, outFilePath):
 			
 			outFile.write(row[2] + ":\n")							# ID
 			writeQuoted(outFile,	"entrytype",		row[0])
+			writeString(outFile,	"entrysubtype",		row[1])
 			writeQuoted(outFile,	"title",			row[3])
 			writeString(outFile,	"author",			row[4])
 			writeString(outFile,	"editor",			row[5])

@@ -1,5 +1,6 @@
 aat:
   entrytype: "@online"
+  entrysubtype: f
   title: "About Apple Advanced Typography Fonts - TrueType Reference Manual"
   url: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6AATIntro.html
   urldate: "2025-11-19"
@@ -51,6 +52,7 @@ adobe-open-source:
   keywords: [fonts, font sources]
 adobe-type-tools:
   entrytype: "@online"
+  entrysubtype: f
   title: "Adobe Type Tools"
   url: https://github.com/adobe-type-tools
   urldate: "2025-11-19"
@@ -64,18 +66,21 @@ aeo-hiero:
   keywords: [script-egyp]
 afdko:
   entrytype: "@online"
+  entrysubtype: f
   title: "Adobe Font Development Kit for OpenType"
   url: https://github.com/adobe-type-tools/afdko
   urldate: "2025-11-19"
   keywords: [fonts, font tools, opentype]
 agl:
   entrytype: "@online"
+  entrysubtype: f
   title: "Adobe Glyph List Specification"
   url: https://github.com/adobe-type-tools/agl-specification
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
 agl-aglfn:
   entrytype: "@online"
+  entrysubtype: f
   title: "AGL & AGLFN"
   url: https://github.com/adobe-type-tools/agl-aglfn
   urldate: "2025-11-19"
@@ -136,6 +141,7 @@ anthony2021:
     "An article about efforts to teach the Tangsa Mossang script to members of all the Tangsa sub-tribes in Arunachal Pradesh."
 anvil:
   entrytype: "@online"
+  entrysubtype: f
   title: "anvil"
   url: https://github.com/silnrsi/anvil
   urldate: "2025-11-19"
@@ -273,12 +279,14 @@ bauer1996:
   keywords: [script-arab]
 bcp47:
   entrytype: "@online"
+  entrysubtype: f
   title: "Tags for Identifying Languages (BCP 47)"
   url: https://www.rfc-editor.org/bcp/bcp47.txt
   urldate: "2025-11-19"
   keywords: [writing systems]
 bcp47-loomis:
   entrytype: "@online"
+  entrysubtype: f
   title: "IETF BCP 47"
   author: Steven R. Loomis
   sortname: Loomis
@@ -287,6 +295,7 @@ bcp47-loomis:
   keywords: [writing systems, locale data]
 bcp47ext- loomis:
   entrytype: "@online"
+  entrysubtype: f
   title: "IETF BCP 47 - extensions"
   author: Steven R. Loomis
   sortname: Loomis
@@ -755,6 +764,7 @@ clauson2002:
   keywords: [script-sogd]
 cldr:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unicode CLDR Project"
   organization: Unicode
   url: https://cldr.unicode.org/
@@ -762,6 +772,7 @@ cldr:
   keywords: [writing systems, locale data]
 cldr-langtags:
   entrytype: "@online"
+  entrysubtype: f
   title: "Picking the Right Language Identifier"
   organization: Unicode
   url: https://cldr.unicode.org/index/cldr-spec/picking-the-right-language-code
@@ -769,6 +780,7 @@ cldr-langtags:
   keywords: [writing systems, locale data]
 cldr-spec:
   entrytype: "@online"
+  entrysubtype: f
   title: "CLDR Specifications"
   organization: Unicode
   url: https://cldr.unicode.org/index/cldr-spec
@@ -776,6 +788,7 @@ cldr-spec:
   keywords: [writing systems, locale data]
 cldr-submission:
   entrytype: "@online"
+  entrysubtype: f
   title: "CLDR Process"
   organization: Unicode
   url: https://cldr.unicode.org/index/process
@@ -898,6 +911,7 @@ constable2018:
   keywords: [fonts, rendering, opentype]
 coretext:
   entrytype: "@online"
+  entrysubtype: f
   title: "Core Text Overview"
   url: https://developer.apple.com/library/archive/documentation/StringsTextFonts/Conceptual/CoreText_Programming/Overview/Overview.html
   urldate: "2025-11-19"
@@ -1118,6 +1132,7 @@ cox2023:
     "A formal description of Iceve (Iceve-Maci - 'bec') orthography."
 cozens-flgs:
   entrytype: "@online"
+  entrysubtype: f
   title: "Fonts and Layout for Global Scripts"
   author: Simon Cozens
   sortname: Cozens
@@ -1255,6 +1270,7 @@ dawkins1969:
     "This book is a beginner's course for learning Amharic."
 dbl:
   entrytype: "@online"
+  entrysubtype: f
   title: "The Digital Bible Library"
   url: https://thedigitalbiblelibrary.org/
   urldate: "2025-11-19"
@@ -1333,6 +1349,7 @@ dingxu1996:
   keywords: [script-yiii]
 docker:
   entrytype: "@online"
+  entrysubtype: f
   title: "Docker: Accelerated Container Application Development"
   url: https://www.docker.com
   urldate: "2025-11-19"
@@ -1567,12 +1584,14 @@ ethiopic-keyboards:
     "This page lists and links to a number of Ethiopic keyboard implementations conforming to the Ge'ez Frontier Foundation specification for mnemonic based input methods. Keyboard implementations are provided for Keyman 6 and 7 as well as for the Linux systems SCIM, KMFL, M17N and GTK+."
 ethnologue:
   entrytype: "@online"
+  entrysubtype: f
   title: "Ethnologue"
   url: https://www.ethnologue.com/
   urldate: "2025-11-19"
   keywords: [writing systems]
 ethnologue-codes:
   entrytype: "@online"
+  entrysubtype: f
   title: "Three-letter Codes for Identifying Languages"
   url: https://www.ethnologue.com/codes/
   urldate: "2025-11-19"
@@ -1631,6 +1650,7 @@ evertype-tengwar:
     "This is Michael Everson's page about the Tengwar script, in which he discusses the general principles of the script and the concept of 'modes', and proposes a Unicode encoding for the script. Links are also provided to discussion papers relating to Tengwar numbers and vowels."
 fea:
   entrytype: "@online"
+  entrysubtype: f
   title: "OpenType Feature File Specification"
   organization: Adobe
   url: https://github.com/adobe-type-tools/afdko/blob/develop/docs/OpenTypeFeatureFileSpecification.md
@@ -1638,6 +1658,7 @@ fea:
   keywords: [fonts, rendering, opentype]
 feax:
   entrytype: "@online"
+  entrysubtype: f
   title: "feax"
   url: https://github.com/silnrsi/feax
   urldate: "2025-11-19"
@@ -1764,30 +1785,35 @@ fischer2001b:
   keywords: [script-armi]
 flo:
   entrytype: "@online"
+  entrysubtype: f
   title: "SIL Language Technology Font Collection"
   url: https://fonts.languagetechnology.org
   urldate: "2025-11-19"
   keywords: [fonts, font sources]
 fontdocs:
   entrytype: "@online"
+  entrysubtype: f
   title: "fontdocs"
   url: https://github.com/silnrsi/fontdocs
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
 fontforge:
   entrytype: "@online"
+  entrysubtype: f
   title: "FontForge"
   url: https://fontforge.org/
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
 fontlab:
   entrytype: "@online"
+  entrysubtype: f
   title: "FontLab. Font editors and converters for Mac and Windows."
   url: https://www.fontlab.com/
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
 fontmake:
   entrytype: "@online"
+  entrysubtype: f
   title: "fontmake"
   url: https://github.com/googlefonts/fontmake
   urldate: "2025-11-19"
@@ -1796,18 +1822,21 @@ fontmake:
     "Compile fonts from sources (UFO, Glyphs) to binary (OpenType, TrueType)"
 fontparts:
   entrytype: "@online"
+  entrysubtype: f
   title: "fontParts"
   url: https://github.com/robotools/fontParts
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
 fontra:
   entrytype: "@online"
+  entrysubtype: f
   title: "Fontra"
   url: https://fontra.xyz
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
 fonttools:
   entrytype: "@online"
+  entrysubtype: f
   title: "fontools"
   url: https://github.com/behdad/fonttools
   urldate: "2025-11-19"
@@ -1827,6 +1856,7 @@ franklin2002:
     "pp97-101 of Franklin's book provide a discussion of the early Cyrillic script."
 ftml:
   entrytype: "@online"
+  entrysubtype: f
   title: "ftml"
   url: https://github.com/silnrsi/ftml
   urldate: "2025-11-19"
@@ -1962,6 +1992,7 @@ gewertz2005:
   keywords: [script-armn]
 gf:
   entrytype: "@online"
+  entrysubtype: f
   title: "Browse Fonts"
   organization: Google Fonts
   url: https://fonts.google.com/
@@ -1969,12 +2000,14 @@ gf:
   keywords: [fonts, font sources]
 gf-guide:
   entrytype: "@online"
+  entrysubtype: f
   title: "Google Fonts Guide"
   url: https://googlefonts.github.io/gf-guide/
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
 gf-knol:
   entrytype: "@online"
+  entrysubtype: f
   title: "Fonts Knowledge"
   organization: Google Fonts
   url: https://fonts.google.com/knowledge
@@ -1982,6 +2015,7 @@ gf-knol:
   keywords: [fonts]
 gf-statics:
   entrytype: "@online"
+  entrysubtype: f
   title: "Static fonts specifics"
   organization: Google Fonts
   url: https://googlefonts.github.io/gf-guide/statics.html
@@ -1989,6 +2023,7 @@ gf-statics:
   keywords: [fonts, font tools]
 gf-variable:
   entrytype: "@online"
+  entrysubtype: f
   title: "Introducing variable fonts"
   organization: Google Fonts
   url: https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
@@ -1996,6 +2031,7 @@ gf-variable:
   keywords: [fonts]
 gf-vertical-metrics:
   entrytype: "@online"
+  entrysubtype: f
   title: "Vertical metrics"
   organization: Google Fonts
   url: https://googlefonts.github.io/gf-guide/metrics.html
@@ -2026,30 +2062,35 @@ gippert:
     "This page, from the TITUS project at the University of Hamburg, provides samples of Avestan texts with translations in either German or English."
 git:
   entrytype: "@online"
+  entrysubtype: f
   title: "Git"
   url: https://git-scm.com/
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
 github:
   entrytype: "@online"
+  entrysubtype: f
   title: "Github"
   url: https://github.com/
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
 glyphs:
   entrytype: "@online"
+  entrysubtype: f
   title: "Glyphs"
   url: https://glyphsapp.com/
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
 glyphs-format:
   entrytype: "@online"
+  entrysubtype: f
   title: "Glyphs File Format"
   url: https://github.com/schriftgestalt/GlyphsSDK/tree/Glyphs3/GlyphsFileFormat
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
 glyphs-nice-names:
   entrytype: "@online"
+  entrysubtype: f
   title: "Getting your glyph names right"
   organization: Glyphs
   url: https://glyphsapp.com/learn/getting-your-glyph-names-right
@@ -2057,6 +2098,7 @@ glyphs-nice-names:
   keywords: [fonts, font tools]
 glyphs-vertical-metrics:
   entrytype: "@online"
+  entrysubtype: f
   title: "Vertical metrics"
   organization: Glyphs
   url: https://glyphsapp.com/learn/vertical-metrics
@@ -2064,6 +2106,7 @@ glyphs-vertical-metrics:
   keywords: [fonts, font tools]
 glyphslib:
   entrytype: "@online"
+  entrysubtype: f
   title: "glyphsLib"
   url: https://github.com/googlefonts/glyphsLib
   urldate: "2025-11-19"
@@ -2133,12 +2176,14 @@ govindaraju2009:
   keywords: [script-mlym]
 graphite:
   entrytype: "@online"
+  entrysubtype: f
   title: "Graphite"
   url: https://graphite.sil.org/
   urldate: "2025-11-19"
   keywords: [fonts, font tools, rendering, graphite]
 graphite-gdl:
   entrytype: "@online"
+  entrysubtype: f
   title: "Graphite Description Language"
   url: https://github.com/silnrsi/grcompiler/blob/master/doc/GDL.pdf
   urldate: "2025-11-19"
@@ -2328,24 +2373,28 @@ haralambous1995:
     "Unicode, and other ‘universal’ encodings, have shown the need for adapting resources until now available only for major scripts, to the ‘ethnic’ extensions of these scripts. In this paper we describe such an example: the adaptation of the traditional Arabic typecase to the needs of other languages using the Arabic script."
 harfbuzz:
   entrytype: "@online"
+  entrysubtype: f
   title: "harfbuzz"
   url: https://github.com/harfbuzz/harfbuzz/tree/master/src
   urldate: "2025-11-19"
   keywords: [fonts, rendering, opentype]
 harfbuzz-github:
   entrytype: "@online"
+  entrysubtype: f
   title: "harfbuzz Wiki"
   url: https://github.com/harfbuzz/harfbuzz/wiki
   urldate: "2025-11-19"
   keywords: [fonts, rendering, opentype]
 harfbuzz-manpagez:
   entrytype: "@online"
+  entrysubtype: f
   title: "What is HarfBuzz?"
   url: https://www.manpagez.com/html/harfbuzz/harfbuzz-8.4.0/what-is-harfbuzz.php
   urldate: "2025-11-19"
   keywords: [fonts, rendering, opentype]
 harfbuzz-sourceforge:
   entrytype: "@online"
+  entrysubtype: f
   title: "HarfBuzz"
   organization: SourceForge
   url: https://sourceforge.net/projects/harfbuzz.mirror/
@@ -2566,6 +2615,7 @@ hung-double-acute:
     "An article containing annoted examples of Hungarian writing through the ages, tracing the development of the double acute diacritic."
 hunspell:
   entrytype: "@online"
+  entrysubtype: f
   title: "Hunspell: About"
   url: https://hunspell.github.io
   urldate: "2025-11-19"
@@ -2606,6 +2656,7 @@ iana-subtag-reg:
     "This is a registry of language subtags maintained by the Internet Assigned Numbers Authority."
 icu:
   entrytype: "@online"
+  entrysubtype: f
   title: "ICU - International Components for Unicode"
   organization: Unicode
   url: https://icu.unicode.org/
@@ -2613,12 +2664,14 @@ icu:
   keywords: [computing]
 ipa:
   entrytype: "@online"
+  entrysubtype: f
   title: "International Phonetic Association"
   url: https://www.internationalphoneticassociation.org/
   urldate: "2025-11-19"
   keywords: [encoding]
 ipa-chart:
   entrytype: "@online"
+  entrysubtype: f
   title: "IPA Chart"
   url: https://www.internationalphoneticassociation.org/content/full-ipa-chart
   urldate: "2025-11-19"
@@ -2956,6 +3009,7 @@ ishida-vietnamese:
     "This picker includes characters used for writing Vietnamese. Characters are taken from various Latin Unicode blocks."
 iso15924:
   entrytype: "@online"
+  entrysubtype: f
   title: "ISO 15924 Alphabetical Code List"
   organization: Unicode
   url: https://www.unicode.org/iso15924/iso15924-codes.html
@@ -2963,12 +3017,14 @@ iso15924:
   keywords: [encoding, writing systems]
 iso639-3:
   entrytype: "@online"
+  entrysubtype: f
   title: "ISO 639-3"
   url: https://iso639-3.sil.org/
   urldate: "2025-11-19"
   keywords: [writing systems]
 iws:
   entrytype: "@online"
+  entrysubtype: f
   title: "Implementing Writing Systems"
   url: https://scripts.sil.org/iws-toc.html
   urldate: "2025-11-19"
@@ -3079,12 +3135,14 @@ kettunen2004:
     "Detailed and informative with a well-researched bibliography."
 keyman:
   entrytype: "@online"
+  entrysubtype: f
   title: "Keyman"
   url: https://keyman.com
   urldate: "2025-11-19"
   keywords: [input]
 keyman-developer:
   entrytype: "@online"
+  entrysubtype: f
   title: "Keyman Developer"
   url: https://keyman.com/developer/
   urldate: "2025-11-19"
@@ -3200,18 +3258,21 @@ kuipers2003:
     "A paper focussing on the way Indic scripts function among the people who use them in Insular Southeast Asia."
 langtags:
   entrytype: "@online"
+  entrysubtype: f
   title: "Language Tagging"
   url: https://github.com/silnrsi/langtags/blob/master/doc/tagging.md
   urldate: "2025-11-19"
   keywords: [writing systems, locale data]
 langtags-desc:
   entrytype: "@online"
+  entrysubtype: f
   title: "LangTags"
   url: https://github.com/silnrsi/langtags/blob/master/doc/langtags.md
   urldate: "2025-11-19"
   keywords: [writing systems, locale data]
 langtags-json:
   entrytype: "@online"
+  entrysubtype: f
   title: "Langtags"
   url: https://ldml.api.sil.org/langtags.json
   urldate: "2025-11-19"
@@ -3228,18 +3289,21 @@ lauder1921:
     "This is an online copy of a Micmac Prayer book, reprinted in 1921. It is available for download from the link below."
 ldml:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unicode Locale Data Markup Language (LDML)"
   url: https://www.unicode.org/reports/tr35/
   urldate: "2025-11-19"
   keywords: [writing systems, locale data]
 ldml-api:
   entrytype: "@online"
+  entrysubtype: f
   title: "LDML API"
   url: https://ldml.api.sil.org/
   urldate: "2025-11-19"
   keywords: [writing systems, locale data]
 ldml-collation:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unicode Locale Data Markup Language (LDML) Part 5: Collation"
   url: https://www.unicode.org/reports/tr35/tr35-collation.html
   urldate: "2025-11-19"
@@ -3309,6 +3373,7 @@ lewis1958:
     "This article discusses an orthography invented nearly 80 years ago by a well-known Gadabuursi sheikh. This is likely to be the first description of the script in literature."
 lff:
   entrytype: "@online"
+  entrysubtype: f
   title: "Language Font Finder"
   url: https://github.com/silnrsi/langfontfinder
   urldate: "2025-11-19"
@@ -3812,12 +3877,14 @@ movement-notation:
     "An introduction to the Eshkol-Wachman system of movement notation."
 moz-variable-fonts:
   entrytype: "@online"
+  entrysubtype: f
   title: "Variable Fonts Guide"
   url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
   urldate: "2025-11-19"
   keywords: [fonts]
 ms-directwrite:
   entrytype: "@online"
+  entrysubtype: f
   title: "DirectWrite (DWrite)"
   sortname: Microsoft
   organization: Microsoft
@@ -3826,6 +3893,7 @@ ms-directwrite:
   keywords: [fonts, rendering, opentype]
 ms-feature-registry:
   entrytype: "@online"
+  entrysubtype: f
   title: "Feature tags"
   sortname: Microsoft
   organization: Microsoft
@@ -4081,6 +4149,7 @@ ms-ot-tibetan:
     "This document presents information that will assist font developers in creating fonts for the Tibetan scripts covered by the Unicode Standard 6.0. The Tibetan script is used for writing Tibetan in several countries and regions throughout the Himalayas. It is also used to write Balti, Bumthangkha, Khengkha, and oher languages. It has also been used to transliterate Sanskrit and Chinese. The Tibetan writing system was based on a North Indian form of the Brahmi script and is said to have been developed to bring Buddhism from India to Tibet. Two distinctive styles have emerged: a formal style used for books and inscriptions (called dbu can ‘with a head’) and a cursive or calligraphic style (dbu med ‘acephalous’) commonly used in hand-written contexts. Tibetan script is a parent script of Phags-pa, Limbu, and Lepcha, which have separate encodings and shaping requirements."
 ms-ot-use:
   entrytype: "@online"
+  entrysubtype: f
   title: "Creating and supporting OpenType fonts for the Universal Shaping Engine"
   sortname: Microsoft
   organization: Microsoft
@@ -4089,6 +4158,7 @@ ms-ot-use:
   keywords: [fonts, font tools, rendering, opentype]
 ms-wsl:
   entrytype: "@online"
+  entrysubtype: f
   title: "Windows Subsystem for Linux"
   sortname: Microsoft
   organization: Microsoft
@@ -4147,6 +4217,7 @@ namaranso:
     "Angaataha New Testament has this character"
 namecheck:
   entrytype: "@online"
+  entrysubtype: f
   title: "fontdata: typeface name check"
   url: https://namecheck.fontdata.com
   urldate: "2025-11-19"
@@ -4227,18 +4298,21 @@ obolensky1965:
     "Two volume basic course in Amharic. In order to make best use of the books, the books should be accompanied by the tape recordings."
 ofl:
   entrytype: "@online"
+  entrysubtype: f
   title: "SIL Open Font License"
   url: https://openfontlicense.org
   urldate: "2025-11-19"
   keywords: [fonts, distribution]
 ofl-faq:
   entrytype: "@online"
+  entrysubtype: f
   title: "OFL-FAQ"
   url: https://openfontlicense.org/ofl-faq/
   urldate: "2025-11-19"
   keywords: [fonts, distribution]
 ofl-fonts:
   entrytype: "@online"
+  entrysubtype: f
   title: "OFL fonts"
   url: https://openfontlicense.org/ofl-fonts/
   urldate: "2025-11-19"
@@ -5330,6 +5404,7 @@ omni-thai:
   keywords: [script-thai]
 omni-types:
   entrytype: "@online"
+  entrysubtype: f
   title: "Types of writing systems"
   organization: Omniglot
   presort: 30
@@ -5350,6 +5425,7 @@ omni-varang:
     "This page briefly describes the main features of the Warang Citi (Varang Kshiti) alphabet and includes a graphic showing the letters used to write in the script."
 opentype:
   entrytype: "@online"
+  entrysubtype: f
   title: "OpenType specification"
   sortname: Microsoft
   organization: Microsoft
@@ -5358,6 +5434,7 @@ opentype:
   keywords: [fonts, rendering, opentype]
 opentype-meta:
   entrytype: "@online"
+  entrysubtype: f
   title: "meta — Meta table"
   sortname: Microsoft
   organization: Microsoft
@@ -5366,6 +5443,7 @@ opentype-meta:
   keywords: [fonts, opentype]
 opentype-mirroring:
   entrytype: "@online"
+  entrysubtype: f
   title: "OpenType Mirroring Pairs List (OMPL)"
   sortname: Microsoft
   organization: Microsoft
@@ -5374,6 +5452,7 @@ opentype-mirroring:
   keywords: [fonts, opentype]
 opentype-overview:
   entrytype: "@online"
+  entrysubtype: f
   title: "OpenType overview"
   sortname: Microsoft
   organization: Microsoft
@@ -5382,6 +5461,7 @@ opentype-overview:
   keywords: [fonts, rendering, opentype]
 opentype-post:
   entrytype: "@online"
+  entrysubtype: f
   title: "post — PostScript Table"
   sortname: Microsoft
   organization: Microsoft
@@ -5408,6 +5488,7 @@ osborn2005:
     "This page contains a character chart showing the letters of the alphabet used by the Raina Kama writers' circle."
 otcookbook:
   entrytype: "@online"
+  entrysubtype: f
   title: "Introduction"
   url: https://opentypecookbook.com/
   urldate: "2025-11-19"
@@ -5527,6 +5608,7 @@ price:
     "This is part of an online Hindi language-learning course which is presented in podcast format. This part of the course teaches the correct pronunciation of Devanagari characters for Hindi, with tips on avoiding common orthographic/phonetic pitfalls."
 pysilfont:
   entrytype: "@online"
+  entrysubtype: f
   title: "pysilfont"
   url: https://github.com/silnrsi/pysilfont
   urldate: "2025-11-19"
@@ -5619,6 +5701,7 @@ reisenberg1960:
     "This paper is one of the most widely-quoted in material concerning the history of the Woleai script. At the time of writing, there was a theory that the script was a degenerate relic of an ancient writing method from the Asiatic mainland or Easter Island. Reisenberg and Kaneshiro argue, however, for a partially Latin derivation, a Latin-based script having developed elsewhere in the region as a misunderstood response to brief instruction given by the castaway Alfred Snelling. This was not well-suited to the writing of Woleain, so was abandoned in favour of a second and wholly new syllabary which combined the signs used in Snelling's system with local environmental and cultural symbols."
 rfns:
   entrytype: "@online"
+  entrysubtype: f
   title: "Managing Reserved Font Names (RFNs)"
   url: https://openfontlicense.org/ofl-reserved-font-names/
   urldate: "2025-11-19"
@@ -5686,6 +5769,7 @@ roberts2014:
     "The link below is the official version of the review. However, it does require a subscription. The review is also currently downloadable as a preprint copy available from the reviewers academic website."
 robofont:
   entrytype: "@online"
+  entrysubtype: f
   title: "Robofont"
   url: https://robofont.com/
   urldate: "2025-11-19"
@@ -5714,6 +5798,7 @@ rogers2005tibetan:
   keywords: [script-tibt]
 rolv:
   entrytype: "@online"
+  entrysubtype: f
   title: "Registry of Language Varieties (ROLV)"
   url: https://hisregistries.org/rolv/
   urldate: "2025-11-19"
@@ -5892,12 +5977,14 @@ scripts-sea:
     "This is a rudimentary page presenting the four major Brahmi-derived scripts of South East Asia: Myanmar (Burmese), Lao, Thai, and Khmer. These are presented in chart form arranged by character, so that the letterforms can be compared across scripts. A Latin transcription is provided as a pronunciation guide."
 scriptsource:
   entrytype: "@online"
+  entrysubtype: f
   title: "ScriptSource"
   url: https://scriptsource.org
   urldate: "2025-11-19"
   keywords: [writing systems]
 semver:
   entrytype: "@online"
+  entrysubtype: f
   title: "Semantic Versioning"
   url: https://semver.org/
   urldate: "2025-11-19"
@@ -5998,6 +6085,7 @@ signwriting-transcription-systems:
     "This page presents a small selection of words as represented in SignWriting, Stokoe Notation, and HamNoSys for the purpose of comparison. A photograph of a person signing each word in American Sign Language is also provided."
 sil-fonts:
   entrytype: "@online"
+  entrysubtype: f
   title: "Fonts"
   organization: SIL
   url: https://software.sil.org/fonts
@@ -6005,6 +6093,7 @@ sil-fonts:
   keywords: [fonts, font sources]
 sil-fonts-axis:
   entrytype: "@online"
+  entrysubtype: f
   title: "Using Axis-Based Font Families"
   organization: SIL
   presort: 15
@@ -6013,6 +6102,7 @@ sil-fonts-axis:
   keywords: [fonts, distribution]
 sil-fonts-faq:
   entrytype: "@online"
+  entrysubtype: f
   title: "Font FAQ"
   organization: SIL
   url: https://software.sil.org/fonts/faq
@@ -6020,6 +6110,7 @@ sil-fonts-faq:
   keywords: [fonts]
 sil-fonts-features:
   entrytype: "@online"
+  entrysubtype: f
   title: "Using Font Features"
   organization: SIL
   presort: 15
@@ -6028,6 +6119,7 @@ sil-fonts-features:
   keywords: [fonts, opentype]
 sil-fonts-help:
   entrytype: "@online"
+  entrysubtype: f
   title: "Font Help Guides"
   organization: SIL
   presort: 15
@@ -6036,6 +6128,7 @@ sil-fonts-help:
   keywords: [fonts]
 sil-fonts-web:
   entrytype: "@online"
+  entrysubtype: f
   title: "Using SIL Fonts on Web Pages"
   organization: SIL
   presort: 15
@@ -6044,6 +6137,7 @@ sil-fonts-web:
   keywords: [fonts, distribution]
 sil-pua:
   entrytype: "@online"
+  entrysubtype: f
   title: "SIL's Private Use Area (PUA)"
   author: Lorna Evans
   sortname: Evans
@@ -6055,6 +6149,7 @@ sil-pua:
     "This page contains information about SIL's PUA and about fonts which support characters encoded there."
 sil-wstech-contact:
   entrytype: "@online"
+  entrysubtype: f
   title: "Contact Writing Systems Technology"
   organization: SIL
   url: https://software.sil.org/wstech/contact-wstech/
@@ -6070,6 +6165,7 @@ silabario-woleai:
     "This page (in Spanish) describes the discovery of the Woleai script in the early 20th century, and discusses some of the script's features."
 sile:
   entrytype: "@online"
+  entrysubtype: f
   title: "SILE"
   url: https://sile-typesetter.org/
   urldate: "2025-11-19"
@@ -6108,12 +6204,14 @@ slager2008:
     "The relatively small country of Liberia boasts no fewer than six original scripts, more than any other country in Africa. In this paper Tim Slager describes the development and the distinguishing features of each."
 sldr-repo:
   entrytype: "@online"
+  entrysubtype: f
   title: "SIL Locale Data Repository"
   url: https://github.com/silnrsi/sldr
   urldate: "2025-11-19"
   keywords: [writing systems, locale data]
 sldrtool:
   entrytype: "@online"
+  entrysubtype: f
   title: "SLDR tools"
   url: https://github.com/silnrsi/sldrtools
   urldate: "2025-11-19"
@@ -6136,6 +6234,7 @@ sliva2008:
     "An article on the revaluation of the Hangeul script."
 smith:
   entrytype: "@online"
+  entrysubtype: f
   title: "smith"
   url: https://github.com/silnrsi/smith
   urldate: "2025-11-19"
@@ -6171,6 +6270,7 @@ song2010:
     "Please note that this article requires a subscription to the journal in order to view it in full; if you are not a regular subscriber there is also an option to purchase short-term access to the article."
 sourcetree:
   entrytype: "@online"
+  entrysubtype: f
   title: "Sourcetree"
   url: https://sourcetreeapp.com/
   urldate: "2025-11-19"
@@ -8482,6 +8582,7 @@ swiggers1996lycian:
   keywords: [script-lyci]
 teckit:
   entrytype: "@online"
+  entrysubtype: f
   title: "TECkit"
   organization: SIL
   url: https://software.sil.org/teckit/
@@ -8611,6 +8712,7 @@ tranter2008:
     "The complexity of Japanese writing is discussed in this article."
 truetype:
   entrytype: "@online"
+  entrysubtype: f
   title: "TrueType Reference Manual"
   organization: Apple
   url: https://developer.apple.com/fonts/TrueType-Reference-Manual/index.html
@@ -8690,6 +8792,7 @@ twardoch-ogonek:
     "Written primarily with type designers in mind, this article addresses the correct shaping and positioning of the ogonek, and illustrates correct and incorrect renderings with a range of examples."
 typesupply:
   entrytype: "@online"
+  entrysubtype: f
   title: "typesupply"
   author: Tal Leming
   sortname: Leming
@@ -8698,6 +8801,7 @@ typesupply:
   keywords: [fonts, font tools]
 typetuner:
   entrytype: "@online"
+  entrysubtype: f
   title: "TypeTuner Web"
   url: https://typetunerweb.languagetechnology.org/ttw/fonts2go.cgi
   urldate: "2025-11-19"
@@ -8719,60 +8823,70 @@ tzu-jung2011:
     "Please note that you will need to purchase access to this article, or be a regular subscriber to the journal, in order to access it."
 uax14:
   entrytype: "@online"
+  entrysubtype: f
   title: "UAX #14: Unicode Line Breaking Algorithm"
   url: https://www.unicode.org/reports/tr14/
   urldate: "2025-11-19"
   keywords: [encoding, analysis]
 uax15:
   entrytype: "@online"
+  entrysubtype: f
   title: "UAX #15: Unicode Normalization Forms"
   url: https://www.unicode.org/reports/tr15/
   urldate: "2025-11-19"
   keywords: [encoding]
 uax24:
   entrytype: "@online"
+  entrysubtype: f
   title: "UAX #24: Unicode Script Property"
   url: https://www.unicode.org/reports/tr24/
   urldate: "2025-11-19"
   keywords: [encoding]
 uax29:
   entrytype: "@online"
+  entrysubtype: f
   title: "UAX #29: Unicode Text Segmentation"
   url: https://www.unicode.org/reports/tr29/
   urldate: "2025-11-19"
   keywords: [encoding]
 uax44:
   entrytype: "@online"
+  entrysubtype: f
   title: "UAX #44: Unicode Character Database"
   url: https://www.unicode.org/reports/tr44/
   urldate: "2025-11-19"
   keywords: [encoding]
 uax9:
   entrytype: "@online"
+  entrysubtype: f
   title: "UAX #9: Unicode Bidirectional Algorithm"
   url: https://www.unicode.org/reports/tr9/
   urldate: "2025-11-19"
   keywords: [encoding, direction]
 ubuntu:
   entrytype: "@online"
+  entrysubtype: f
   title: "Ubuntu"
   url: https://www.ubuntu.com/
   urldate: "2025-11-19"
   keywords: [computing]
 ucd-spreadsheet:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unicode Character Database (UCD) spreadsheets"
   url: https://github.com/silnrsi/unicode-resources/tree/main/ucd-spreadsheet
   urldate: "2025-11-19"
   keywords: [encoding]
 ufo:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unified Font Object (UFO)"
   url: https://unifiedfontobject.org/
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
 ufo3:
   entrytype: "@online"
+  entrysubtype: f
   title: "UFO 3"
   url: https://unifiedfontobject.org/versions/ufo3/
   urldate: "2025-11-19"
@@ -8791,12 +8905,14 @@ unesco1990:
     "A \"by Country\" survey of languages using Braille and Braille symbols used by each of those languages."
 uni-blocks:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unicode Data - Blocks"
   url: https://www.unicode.org/Public/UNIDATA/Blocks.txt
   urldate: "2025-11-19"
   keywords: [encoding]
 uni-bmp:
   entrytype: "@online"
+  entrysubtype: f
   title: "Roadmap to the BMP"
   organization: Unicode
   url: https://www.unicode.org/roadmaps/bmp/
@@ -8804,6 +8920,7 @@ uni-bmp:
   keywords: [encoding]
 uni-charts:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unicode Character Code Charts (current)"
   url: https://www.unicode.org/charts/
   urldate: "2025-11-19"
@@ -8816,6 +8933,7 @@ uni-confusables:
   keywords: [encoding]
 uni-core-data:
   entrytype: "@online"
+  entrysubtype: f
   title: "Core Data for New Locales"
   organization: Unicode
   url: https://cldr.unicode.org/index/cldr-spec/core-data-for-new-locales
@@ -8823,12 +8941,14 @@ uni-core-data:
   keywords: [writing systems, locale data]
 uni-core-spec:
   entrytype: "@online"
+  entrysubtype: f
   title: "The Unicode Standard - Core Specification (latest)"
   url: https://www.unicode.org/versions/latest/core-spec
   urldate: "2025-11-19"
   keywords: [encoding]
 uni-coverage:
   entrytype: "@online"
+  entrysubtype: f
   title: "Coverage Levels"
   organization: Unicode
   url: https://cldr.unicode.org/index/cldr-spec/coverage-levels
@@ -8836,6 +8956,7 @@ uni-coverage:
   keywords: [writing systems, locale data]
 uni-data-files:
   entrytype: "@online"
+  entrysubtype: f
   title: "Online Data"
   organization: Unicode
   url: https://www.unicode.org/unicode/onlinedat/online.html
@@ -8843,6 +8964,7 @@ uni-data-files:
   keywords: [encoding]
 uni-membership:
   entrytype: "@online"
+  entrysubtype: f
   title: "Membership Levels"
   organization: Unicode
   url: https://home.unicode.org/membership/membership-levels/
@@ -8850,30 +8972,35 @@ uni-membership:
   keywords: [encoding]
 uni-nameslist:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unicode Data - NamesList"
   url: https://www.unicode.org/Public/UNIDATA/NamesList.txt
   urldate: "2025-11-19"
   keywords: [encoding, naming]
 uni-nameslist-html:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unicode Data - NamesList Format"
   url: https://www.unicode.org/Public/UNIDATA/NamesList.html
   urldate: "2025-11-19"
   keywords: [encoding, naming]
 uni-scripts:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unicode Data - Scripts"
   url: https://www.unicode.org/Public/UNIDATA/Scripts.txt
   urldate: "2025-11-19"
   keywords: [encoding, writing systems]
 uni-tus:
   entrytype: "@online"
+  entrysubtype: f
   title: "The Unicode Standard"
   url: https://www.unicode.org/standard/standard.html
   urldate: "2025-11-19"
   keywords: [encoding]
 uni-ucd:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unicode Data"
   url: https://www.unicode.org/Public/UNIDATA/
   urldate: "2025-11-19"
@@ -8916,12 +9043,14 @@ unseth2008:
     "A journal article on several scripts that were initially devised by Christian Missionaries."
 utn:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unicode Technical Notes"
   url: https://www.unicode.org/notes/
   urldate: "2025-11-19"
   keywords: [encoding]
 utn10:
   entrytype: "@online"
+  entrysubtype: f
   title: "UTN #10: An Introduction to Indic Scripts"
   organization: Unicode
   url: https://www.unicode.org/notes/tn10/
@@ -8929,6 +9058,7 @@ utn10:
   keywords: [encoding, script-beng, script-deva, script- gujr, script-guru, script-knda, script-mlym, script-orya, script-taml, script-telu]
 utn57:
   entrytype: "@online"
+  entrysubtype: f
   title: "UTN #57, Representing Mongolian in Unicode"
   organization: Unicode
   url: https://www.unicode.org/notes/tn57/
@@ -8936,12 +9066,14 @@ utn57:
   keywords: [encoding, script-mong]
 utr:
   entrytype: "@online"
+  entrysubtype: f
   title: "Unicode Technical Reports"
   url: https://www.unicode.org/reports/
   urldate: "2025-11-19"
   keywords: [encoding]
 uts10:
   entrytype: "@online"
+  entrysubtype: f
   title: "UTS #10: Unicode Collation Algorithm"
   url: https://www.unicode.org/reports/tr10/
   urldate: "2025-11-19"
@@ -9547,6 +9679,7 @@ wiki-comma:
     "Wikipedia article about the comma. See section 5 for information about the combining comma diacritic."
 wiki-coretext:
   entrytype: "@online"
+  entrysubtype: f
   title: "Core Text"
   organization: Wikipedia
   presort: 22
@@ -9582,6 +9715,7 @@ wiki-din31635:
     "DIN 31635 is a Deutsches Institut für Normung (DIN) standard for the transliteration of the Arabic alphabet adopted in 1982. It is based on the rules of the Deutsche Morgenländische Gesellschaft (DMG) as modified by the International Orientalist Congress 1935 in Rome. The most important differences from English-based systems were doing away with j, because it stood for /dʒ/ in the English-speaking world and for /j/ in the German-speaking world and the entire absence of digraphs like th, dh, kh, gh, sh. Its acceptance relies less on its official status than on its elegance (one sign for each Arabic letter) and the Geschichte der arabischen Literatur manuscript catalogue of Carl Brockelmann and the dictionary of Hans Wehr. Today it is used in most German-language publications of Arabic and Islamic studies."
 wiki-directwrite:
   entrytype: "@online"
+  entrysubtype: f
   title: "DirectWrite"
   organization: Wikipedia
   presort: 22
@@ -9675,6 +9809,7 @@ wiki-handwriting:
   keywords: [input]
 wiki-harfbuzz:
   entrytype: "@online"
+  entrysubtype: f
   title: "HarfBuzz"
   organization: Wikipedia
   presort: 22
@@ -9719,6 +9854,7 @@ wiki-interpunct:
     "Wikipedia article about the interpunct diacritic, also called the middle dot."
 wiki-ipa:
   entrytype: "@online"
+  entrysubtype: f
   title: "International Phonetic Alphabet"
   organization: Wikipedia
   presort: 22
@@ -9734,6 +9870,7 @@ wiki-irish:
   keywords: [script-latg]
 wiki-iso10646:
   entrytype: "@online"
+  entrysubtype: f
   title: "Universal Coded Character Set"
   organization: Wikipedia
   presort: 22
@@ -9882,6 +10019,7 @@ wiki-nogai:
     "This portion of the Nogai Wikipedia article describes the use of the Arabic, Cyrillic and Latin scripts for writing the Nogai Language."
 wiki-ocr:
   entrytype: "@online"
+  entrysubtype: f
   title: "Optical character recognition"
   organization: Wikipedia
   presort: 22
@@ -9899,6 +10037,7 @@ wiki-ogonek:
     "Wikipedia article about the ogonek."
 wiki-opentype:
   entrytype: "@online"
+  entrysubtype: f
   title: "OpenType"
   organization: Wikipedia
   presort: 22
@@ -9907,6 +10046,7 @@ wiki-opentype:
   keywords: [fonts, rendering, opentype]
 wiki-phonetic:
   entrytype: "@online"
+  entrysubtype: f
   title: "Phonetic symbols in Unicode"
   organization: Wikipedia
   presort: 22
@@ -11891,6 +12031,7 @@ wiki-trema:
     "Wikipedia article about the trema diacritic, also referred to as a diaeresis or umlaut."
 wiki-truetype:
   entrytype: "@online"
+  entrysubtype: f
   title: "TrueType"
   organization: Wikipedia
   presort: 22
@@ -11935,6 +12076,7 @@ wiki-uzbek:
     "This is the section of the Uzbek Wikipedia page which deals with the written form of the language. A brief history of written Uzbek is provided, followed by a chart showing which Latin and Cyrillic letters are used to represent each sound."
 wiki-woff:
   entrytype: "@online"
+  entrysubtype: f
   title: "Web Open Font Format"
   organization: Wikipedia
   presort: 22
@@ -11943,6 +12085,7 @@ wiki-woff:
   keywords: [fonts. distribution]
 wiki-writing-system:
   entrytype: "@online"
+  entrysubtype: f
   title: "Writing system"
   organization: Wikipedia
   presort: 22
@@ -12000,6 +12143,7 @@ wood2011:
     "This website contains various resources pertaining to Unicode and multilingual support in HTML, fonts, Web browsers and other applications.  Information includes Unicode character ranges for different scripts, and the Unicode fonts that support them, tips on creating multilingual web pages, a menu of Unicode applications, and links to the websites of other Unicode proponents."
 wsig:
   entrytype: "@online"
+  entrysubtype: f
   title: "WSI Guidelines"
   url: https://scripts.sil.org/wsi_guidelines.html
   urldate: "2025-11-19"
@@ -12025,6 +12169,7 @@ wyrod2008:
     "An article on the N'ko script and its usage."
 xetex:
   entrytype: "@online"
+  entrysubtype: f
   title: "XeTeX - Unicode-based TeX"
   organization: SourceForge
   url: https://xetex.sourceforge.net/
@@ -12032,6 +12177,7 @@ xetex:
   keywords: [layout]
 xetex-tug:
   entrytype: "@online"
+  entrysubtype: f
   title: "XeTeX"
   organization: TeX Users Group
   url: https://tug.org/xetex/
