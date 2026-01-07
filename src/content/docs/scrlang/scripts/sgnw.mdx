@@ -20,8 +20,10 @@ scrpropotcode: sgnw
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![SignWriting sample](../images/sgnw-sample.png "From signbank.org.")
 
@@ -56,5 +58,9 @@ There are thought to be twenty-seven signed languages which can be written using
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-sgnw' header='Related articles' />
+
+<SourcesList tag='script-sgnw' header='External links' />
+
+<Bibliography tag='script-sgnw' header='Bibliography' />
 

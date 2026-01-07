@@ -20,9 +20,10 @@ scrpropotcode: arab
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
-import ScriptResourcesSection from '../../../../components/ScriptResourcesSection.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Arabic script sample](../images/arab-sample.png "From the Universal Declaration of Human Rights in Arabic.")
 
@@ -71,4 +72,10 @@ Other:
 - [Unicode status for Currency](/scrlang/unicode/x-currency-unicode)
 
 
-<ScriptResourcesSection tag='script-arab' />
+## Resources
+
+<ArticlesList tag='script-arab' header='Related articles' />
+
+<SourcesList tag='script-arab' header='External links' />
+
+<Bibliography tag='script-arab' header='Bibliography' />

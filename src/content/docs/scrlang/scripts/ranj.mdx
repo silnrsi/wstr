@@ -21,8 +21,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Ranjana script sample](../images/ranj-sample.png "Sample supplied by Pat Hall. Original source 'Lipi Pau Monthly'.  tab for details and full image.")
 
@@ -62,5 +64,8 @@ _No Unicode status information is available._
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-ranj' header='Related articles' />
 
+<SourcesList tag='script-ranj' header='External links' />
+
+<Bibliography tag='script-ranj' header='Bibliography' />

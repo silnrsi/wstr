@@ -20,8 +20,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![No sample available](../images/nosample.png)
 
@@ -54,5 +56,9 @@ The Chisoi script has been accepted for encoding in a future version of the Unic
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-chis' header='Related articles' />
+
+<SourcesList tag='script-chis' header='External links' />
+
+<Bibliography tag='script-chis' header='Bibliography' />
 

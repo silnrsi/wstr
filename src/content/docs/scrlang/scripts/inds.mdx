@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Indus script sample](../images/inds-sample.jpg "From Wikipedia.")
 
@@ -56,5 +58,9 @@ The Indus script is not yet in Unicode. The script has a tentative allocation at
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-inds' header='Related articles' />
+
+<SourcesList tag='script-inds' header='External links' />
+
+<Bibliography tag='script-inds' header='Bibliography' />
 

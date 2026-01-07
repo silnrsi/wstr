@@ -20,8 +20,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Arabic script, Nastaliq variant sample](../images/aran-sample.jpg)
 
@@ -60,5 +62,9 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-aran' header='Related articles' />
+
+<SourcesList tag='script-aran' header='External links' />
+
+<Bibliography tag='script-aran' header='Bibliography' />
 

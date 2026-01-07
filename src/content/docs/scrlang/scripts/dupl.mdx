@@ -21,8 +21,10 @@ scrpropotcode: dupl
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Duployan shorthand sample](../images/dupl-sample.png "Van Anderson, 2010.")
 
@@ -62,5 +64,9 @@ In The Unicode Standard, Duployan Shorthand implementation is discussed in [Chap
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-dupl' header='Related articles' />
+
+<SourcesList tag='script-dupl' header='External links' />
+
+<Bibliography tag='script-dupl' header='Bibliography' />
 

@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Visible Speech script sample](../images/visp-sample.jpg "Detail from Visible Speech illustration")
 
@@ -60,5 +62,9 @@ Visible Speech is not part of the Unicode Standard. However the [ConScript Unico
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-visp' header='Related articles' />
+
+<SourcesList tag='script-visp' header='External links' />
+
+<Bibliography tag='script-visp' header='Bibliography' />
 

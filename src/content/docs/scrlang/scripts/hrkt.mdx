@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Hiragana and Katakana scripts sample](../images/hrkt-sample.png "'Katakana' and 'Hiragana' written in their respective scripts.")
 
@@ -60,5 +62,8 @@ The kana scripts can be written either in vertical columns from right to left, o
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-hrkt' header='Related articles' />
 
+<SourcesList tag='script-hrkt' header='External links' />
+
+<Bibliography tag='script-hrkt' header='Bibliography' />

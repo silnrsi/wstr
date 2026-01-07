@@ -19,8 +19,10 @@ scrpropotcode: brai
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Braille script sample](../images/brai-sample.png "Excerpt from Ricci Downard's notes.")
 
@@ -58,5 +60,9 @@ In The Unicode Standard, Braille Patterns implementation is discussed in [Chapte
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-brai' header='Related articles' />
+
+<SourcesList tag='script-brai' header='External links' />
+
+<Bibliography tag='script-brai' header='Bibliography' />
 

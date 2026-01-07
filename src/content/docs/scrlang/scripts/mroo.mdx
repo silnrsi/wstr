@@ -19,8 +19,10 @@ scrpropotcode: mroo
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Mro script sample](../images/mroo-sample.png "Image provided by Tim Brookes.")
 
@@ -60,5 +62,8 @@ In The Unicode Standard, Mro script implementation is discussed in [Chapter 13: 
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-mroo' header='Related articles' />
 
+<SourcesList tag='script-mroo' header='External links' />
+
+<Bibliography tag='script-mroo' header='Bibliography' />

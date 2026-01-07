@@ -20,8 +20,10 @@ scrpropotcode: hani
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Han script sample](../images/hani-sample.png)
 
@@ -67,5 +69,8 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-hani' header='Related articles' />
 
+<SourcesList tag='script-hani' header='External links' />
+
+<Bibliography tag='script-hani' header='Bibliography' />

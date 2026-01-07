@@ -19,8 +19,10 @@ scrpropotcode: hang
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Hangul script sample](../images/hang-sample.png "Hyunwoo Sun, Flickr, 2010.")
 
@@ -60,5 +62,8 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-hang' header='Related articles' />
 
+<SourcesList tag='script-hang' header='External links' />
+
+<Bibliography tag='script-hang' header='Bibliography' />

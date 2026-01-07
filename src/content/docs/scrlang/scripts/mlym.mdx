@@ -20,8 +20,9 @@ scrpropotcode: mlym, mlm2
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
-import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Malayalam script sample](../images/mlym-sample.png "unpodimondo, Flickr, 2010.")
 
@@ -67,5 +68,8 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-mlym' header='Related articles' />
 
+<SourcesList tag='script-mlym' header='External links' />
+
+<Bibliography tag='script-mlym' header='Bibliography' />

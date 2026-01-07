@@ -20,8 +20,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Akkha script sample](../images/qabl-sample.png "Magar Akkha sample text")
 
@@ -50,5 +52,8 @@ _This script is suspected to be one way that the Eastern Magar language is writt
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-qabl' header='Related articles' />
 
+<SourcesList tag='script-qabl' header='External links' />
+
+<Bibliography tag='script-qabl' header='Bibliography' />

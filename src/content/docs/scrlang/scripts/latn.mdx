@@ -20,8 +20,10 @@ scrpropotcode: latn
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Latin script sample](../images/latn-sample.png)
 
@@ -71,5 +73,9 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-latn' header='Related articles' />
+
+<SourcesList tag='script-latn' header='External links' />
+
+<Bibliography tag='script-latn' header='Bibliography' />
 

@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![No sample available](../images/nosample.png)
 
@@ -160,5 +162,9 @@ Scripts on this page are not currently recognized by [ISO 15924](http://www.unic
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-zzzz' header='Related articles' />
+
+<SourcesList tag='script-zzzz' header='External links' />
+
+<Bibliography tag='script-zzzz' header='Bibliography' />
 

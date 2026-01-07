@@ -20,8 +20,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Stokoe Notation sample](../images/qaaq-sample.jpg "From Wikipedia.")
 
@@ -61,5 +63,9 @@ The Stokoe Notation is not yet in Unicode. The script has not yet been added to 
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-qaaq' header='Related articles' />
+
+<SourcesList tag='script-qaaq' header='External links' />
+
+<Bibliography tag='script-qaaq' header='Bibliography' />
 

@@ -20,8 +20,10 @@ scrpropotcode: gran
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Grantha script sample](../images/gran-sample.png "From Wikipedia.")
 
@@ -63,5 +65,8 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-gran' header='Related articles' />
 
+<SourcesList tag='script-gran' header='External links' />
+
+<Bibliography tag='script-gran' header='Bibliography' />

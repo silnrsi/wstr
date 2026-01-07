@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Proto-Sinaitic script sample](../images/psin-sample.jpg "B'alat inscription")
 
@@ -50,5 +52,8 @@ The Proto-Sinaitic script is not yet in Unicode. The script has a tentative allo
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-psin' header='Related articles' />
 
+<SourcesList tag='script-psin' header='External links' />
+
+<Bibliography tag='script-psin' header='Bibliography' />

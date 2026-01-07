@@ -20,8 +20,10 @@ scrpropotcode: kana
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Hiragana script sample](../images/hira-sample.jpg "Shirokazan, Flickr, 2008.")
 
@@ -61,5 +63,8 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-hira' header='Related articles' />
 
+<SourcesList tag='script-hira' header='External links' />
+
+<Bibliography tag='script-hira' header='Bibliography' />

@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![No sample available](../images/nosample.png)
 
@@ -48,5 +50,9 @@ The Small Seal script (sometimes called Shuowen) is not yet in Unicode. The Smal
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-seal' header='Related articles' />
+
+<SourcesList tag='script-seal' header='External links' />
+
+<Bibliography tag='script-seal' header='Bibliography' />
 

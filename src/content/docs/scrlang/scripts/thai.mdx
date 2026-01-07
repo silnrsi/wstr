@@ -20,8 +20,10 @@ scrpropotcode: thai
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Thai script sample](../images/thai-sample.png "madaboutasia via Flickr, 2005.")
 
@@ -69,5 +71,9 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-thai' header='Related articles' />
+
+<SourcesList tag='script-thai' header='External links' />
+
+<Bibliography tag='script-thai' header='Bibliography' />
 

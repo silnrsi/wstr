@@ -20,8 +20,10 @@ scrpropotcode: newa
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Newa script sample](../images/newa-sample.png "Adam Holloway, 2011.")
 
@@ -64,5 +66,9 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-newa' header='Related articles' />
+
+<SourcesList tag='script-newa' header='External links' />
+
+<Bibliography tag='script-newa' header='Bibliography' />
 

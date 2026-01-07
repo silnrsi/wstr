@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![HamNoSys Notation sample](../images/qabn-sample.png "Detail from 'Goldilocks and the Three Bears' in HamNoSys")
 
@@ -64,5 +66,8 @@ HamNoSys is not yet in Unicode. The script has not yet been added to the [Roadma
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-qabn' header='Related articles' />
 
+<SourcesList tag='script-qabn' header='External links' />
+
+<Bibliography tag='script-qabn' header='Bibliography' />

@@ -20,8 +20,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Han, Hiragana, and Katakana scripts sample](../images/jpan-sample.png "Jacqueline Kaga, 2011.")
 
@@ -56,5 +58,8 @@ Spoken Japanese contains a large number of homophones - words which are pronounc
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-jpan' header='Related articles' />
 
+<SourcesList tag='script-jpan' header='External links' />
+
+<Bibliography tag='script-jpan' header='Bibliography' />

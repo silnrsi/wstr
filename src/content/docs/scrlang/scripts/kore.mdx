@@ -19,8 +19,9 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
-import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Hangul and Han scripts sample](../images/kore-sample.png "From the Universal Declaration of Human Rights in Korean.")
 
@@ -62,5 +63,9 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-kore' header='Related articles' />
+
+<SourcesList tag='script-kore' header='External links' />
+
+<Bibliography tag='script-kore' header='Bibliography' />
 

@@ -19,8 +19,9 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
-import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Moon script sample](../images/moon-sample.jpg "Detail from Moon-type-chart")
 
@@ -54,5 +55,8 @@ The Moon script is not yet in Unicode. The script has a tentative allocation at 
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-moon' header='Related articles' />
 
+<SourcesList tag='script-moon' header='External links' />
+
+<Bibliography tag='script-moon' header='Bibliography' />

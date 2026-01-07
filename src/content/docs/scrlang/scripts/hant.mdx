@@ -19,8 +19,9 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
-import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Han script, Traditional variant sample](../images/hant-sample.png "Song Dynasty stone rubbing of calligraphy by Ouyang Xun")
 
@@ -62,5 +63,8 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-hant' header='Related articles' />
 
+<SourcesList tag='script-hant' header='External links' />
+
+<Bibliography tag='script-hant' header='Bibliography' />

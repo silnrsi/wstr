@@ -20,8 +20,10 @@ scrpropotcode: copt
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Coptic script sample](../images/copt-sample.jpg "Eric Olsen, Flickr, 2005.")
 
@@ -60,5 +62,9 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-copt' header='Related articles' />
+
+<SourcesList tag='script-copt' header='External links' />
+
+<Bibliography tag='script-copt' header='Bibliography' />
 

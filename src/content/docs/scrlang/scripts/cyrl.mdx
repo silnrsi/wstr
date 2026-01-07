@@ -19,8 +19,9 @@ scrpropotcode: cyrl
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
-import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Cyrillic script sample](../images/cyrl-sample.png "From Wikipedia.")
 
@@ -66,5 +67,9 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-cyrl' header='Related articles' />
+
+<SourcesList tag='script-cyrl' header='External links' />
+
+<Bibliography tag='script-cyrl' header='Bibliography' />
 

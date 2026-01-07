@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourcesList from '../../../../components/SourcesList.astro';
+import Bibliography from '../../../../components/Bibliography.astro';
 
 ![Egyptian demotic script sample](../images/egyd-sample.png "From Wikipedia.")
 
@@ -52,5 +54,9 @@ No proposal for the inclusion of Egyptian Demotic in the Unicode Standard has be
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-egyd' header='Related articles' />
+
+<SourcesList tag='script-egyd' header='External links' />
+
+<Bibliography tag='script-egyd' header='Bibliography' />
 
