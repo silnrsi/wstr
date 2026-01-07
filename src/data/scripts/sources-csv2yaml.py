@@ -6,16 +6,17 @@ def writeString(outFile, label, value):
 		
 def writeQuoted(outFile, label, value):
 	if value != '':
+		value = value.replace('"', '\\"')
 		outFile.write("  " + label + ": \"" + value + "\"\n")
 		
 def writeNumeric(outFile, label, value):
 	if value != "":
-		if value.isdigit():
-			outFile.write("  " + label + ": '" + value + "'\n")
+		if True:  # value.isdigit() - no, always surround with quotes
+			outFile.write("  " + label + ": \"" + value + "\"\n")	# could use single quote
 		else:
 			writeString(outFile, label, value)
 			
-def wrapText(value):
+def wrapText(value):  # currently unused
 	result = []
 	paras = value.split("\n")
 	for i in range(len(paras)):
@@ -38,10 +39,15 @@ def writeText(outFile, label, value):
 	if value != "":
 		value = value.replace("[CR]", "\n")
 		value = value.replace("(CR)", "\n")
-		valueWrapped = wrapText(value)
+
+		#valueWrapped = wrapText(value)  # not wrapping for now
+
 		outFile.write("  " + label + ": >-\n")
-		for t in valueWrapped:
-			outFile.write("    " + t + "\n")
+		paras = value.split("\n")
+		for i in range(len(paras)):
+			pVal = paras[i]
+			pVal2 = pVal.replace('"', '\\"')  # escape double-quotes
+			outFile.write("    \"" + pVal2 + "\"\n")
 		
 def writeList(outFile, label, value):
 	if value != "":
@@ -64,27 +70,27 @@ def convert_csv(inFilePath, outFilePath):
 			if row[0] == "entrytype" or row[0] == "0":
 				continue
 			
-			outFile.write(row[2] + ":\n")					# ID
+			outFile.write(row[2] + ":\n")							# ID
 			writeQuoted(outFile,	"entrytype",		row[0])
-			writeQuoted(outFile,	"title",				row[3])
-			writeString(outFile,	"author",				row[4])
-			writeString(outFile,	"editor",				row[5])
+			writeQuoted(outFile,	"title",			row[3])
+			writeString(outFile,	"author",			row[4])
+			writeString(outFile,	"editor",			row[5])
 			writeString(outFile,	"sortname",			row[6])
-			writeQuoted(outFile,	"journaltitle",	row[7])
+			writeQuoted(outFile,	"journaltitle",		row[7])
 			writeQuoted(outFile,	"booktitle",		row[8])
-			writeQuoted(outFile,	"series",				row[9])
-			writeString(outFile,	"organization",	row[10])
+			writeQuoted(outFile,	"series",			row[9])
+			writeString(outFile,	"organization",		row[10])
 			writeString(outFile,	"presort",			row[11])
-			writeString(outFile,	"url",					row[12])
-			writeNumeric(outFile,	"date",					row[13])
+			writeString(outFile,	"url",				row[12])
+			writeNumeric(outFile,	"date",				row[13])
 			writeNumeric(outFile,	"urldate",			row[14])
-			writeString(outFile,	"isbn",					row[15])
-			writeString(outFile,	"issn",					row[16])
+			writeString(outFile,	"isbn",				row[15])
+			writeString(outFile,	"issn",				row[16])
 			writeString(outFile,	"publisher",		row[17])
 			writeQuoted(outFile,	"location",			row[18])
-			writeNumeric(outFile,	"pages",				row[19])
-			writeNumeric(outFile,	"volume",				row[20])
-			writeNumeric(outFile,	"number",				row[21])
+			writeNumeric(outFile,	"pages",			row[19])
+			writeNumeric(outFile,	"volume",			row[20])
+			writeNumeric(outFile,	"number",			row[21])
 			writeList(outFile,		"keywords",			row[22])
 			writeText(outFile,		"addendum",			row[23])
 			writeText(outFile,		"abstract",			row[24])
@@ -94,6 +100,6 @@ def convert_csv(inFilePath, outFilePath):
 
 if __name__ == "__main__":
 
-	convert_csv("sources-canonical.csv", "sources.yaml")
+	convert_csv("../sources-canonical.csv", "../sources.yaml")
 
 	print("Done")
