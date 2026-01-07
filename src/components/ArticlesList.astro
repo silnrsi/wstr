@@ -7,7 +7,7 @@
 //     header: eg, 'Related articles'
 
 import { getCollection } from 'astro:content';
-const { tag, subset, sort, header } = Astro.props;
+const { tag, subset, header } = Astro.props;
 const articlelibonly = await getCollection('articlelibdocs');
 const topicsonly = await getCollection('topicsdocs');
 

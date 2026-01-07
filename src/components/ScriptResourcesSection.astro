@@ -1,0 +1,46 @@
+---
+// ScriptResourcesSection component: display the list of resources at the end of a script page.
+// Be smart about the case where there are none to show.
+// Parameters:
+//     tag: script
+
+import ArticlesList from './ArticlesList.astro';
+import SourcesList from './SourcesList.astro';
+import Bibliography from './Bibliography.astro';
+
+import { getCollection } from 'astro:content';
+const { tag } = Astro.props;
+
+const articlelibonly = await getCollection('articlelibdocs');
+const topicsonly = await getCollection('topicsdocs');
+
+import sdata from '../data/sources.json';
+
+let articles = [...articlelibonly, ...topicsonly];
+let filteredArticles = articles;
+if (tag) {
+  filteredArticles = articles.filter(article => 
+    article.data.tags && Array.isArray(article.data.tags) && article.data.tags.includes(tag)
+  );
+}
+
+let filteredSdata = sdata.filter(sObj => 
+    sObj.Keywords && Array.isArray(sObj.Keywords) && sObj.Keywords.includes(tag)
+);
+
+let empty = ((filteredArticles.length == 0) && (filteredSdata.length == 0));
+
+---
+
+<h2>Resources</h2>
+
+{ (empty) ? (
+		<p>None</p>
+	) : (
+		<>
+			<ArticlesList tag={tag} header='Related articles' />
+			<SourcesList tag={tag} header='External links' />
+			<Bibliography tag={tag} header='Bibliography' />
+		</>
+	)
+}
