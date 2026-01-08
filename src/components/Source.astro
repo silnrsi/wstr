@@ -15,6 +15,16 @@ let sObj = sdata.find((s) => s.Key == key);
 const stype = sObj?.EntryType;
 
 let authorString = sObj?.Author ?? '';
+const authorList = authorString.split(" and ");
+const aLen = authorList.length;
+if (aLen > 2) {
+	// convert 'Bob and Martin and Peter' to 'Bob, Martin, and Peter'.
+	let result = authorList[0];
+	for (let i = 1; i < aLen - 1; i++) {
+		result = result.concat(', '.concat(authorList[i]));
+	}
+	authorString = result.concat(', and '.concat(authorList[aLen-1]));
+}
 let editorString = sObj?.Editor ?? '';
 if (authorString === '' && editorString !== '') {
 	if (editorString.includes(' and ')) {
@@ -25,6 +35,19 @@ if (authorString === '' && editorString !== '') {
 	editorString = ``;
 } else if (editorString !== '') {
 	editorString = `edited by ${editorString}`;
+}
+
+// Put last name (sortname) first for the first author/editor:
+let sortNameStr = sObj?.SortName ?? '';
+let spSortName = ' '.concat(sortNameStr);
+if (sortNameStr != '' && authorString.indexOf(spSortName) > 0) {
+	authorString = sortNameStr.concat(', '.concat(authorString.replace(spSortName, '')));
+}
+
+let astrLen = authorString.length;
+if (authorString[astrLen-1] == '.') {
+	// Remove redundant '.'
+	authorString = authorString.substring(0, astrLen-1);
 }
 
 let orgStringParen = sObj?.Organization ?? '';
@@ -92,7 +115,7 @@ abstractString = abstractString.replaceAll('[CR][CR]', '<br/>');
 			<!-- First sequence: author title  -->
 
 			{ (authorString !== '' && sObj.PreSort =='') ? (
-				<>{authorString}, </>
+				<>{authorString}. </>
 				) : null
 			}
 
