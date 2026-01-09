@@ -97,7 +97,7 @@ _aka, English is just another language_
 Generally speaking, authors of fonts have two ways to allow users to select variant or language-specific rendering:
 
 - By setting up a _language table_ (Graphite) or _language systems_ (OpenType) in which language-specific rendering rules are coded.
-- By defining user-selectable features (such as OpenType [Character Variants[otspec-cv] or [Stylistic Sets[otspec-ss]) that trigger specific behavior.
+- By defining user-selectable features (such as OpenType [Character Variants][otspec-cv] or [Stylistic Sets][otspec-ss]) that trigger specific behavior.
 
 In fonts that implement both of these strategies, there is usually a relationship between them, something like _Selecting Language X is equivalent to enabling features A, B, and C._ This raises the question:
 
@@ -109,7 +109,7 @@ Unfortunately, while this generally works for Graphite, it does _not_ work for O
 
 What this means is that any language group other than those covered by the default language behavior in the font are, in a sense, disadvantaged: the default language user can turn all font features on or off, but not so for the users of non-default languages. 
 
-### Recommended approach:
+### Recommended approach
 
 For any language-specific behavior that interacts with user features:
 
