@@ -35,11 +35,11 @@ const keywords = [...new Set(sources.flatMap(
 ))];
 
 const combinedTags = [...tags, ...keywords];
-const uniqueCombinedTags = [...new Set(combinedTags)].sort();
+const uniqueTagsSorted = [...new Set(combinedTags)].sort();
 ---
 
 <ul>
-  {uniqueCombinedTags.map(tag => (
+  {uniqueTagsSorted.map(tag => (
     <li>{tag}</li>
   ))}
 </ul>
