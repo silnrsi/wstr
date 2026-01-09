@@ -1,0 +1,17 @@
+---
+title: Source Keys Reference
+description: Lists of source keys
+lastUpdated: 2026-01-09
+---
+
+import SourceKeysList from '/src/components/SourceKeysList.astro';
+
+:::note
+This page is intended for the development team and is under construction.
+:::
+
+## Commonly used sources
+
+These are sources with entrysubtype = "f" (for "favorite"). Until the Sources.astro component is revised to use the yaml this will only show the source details for keys that are in the text sources.json file. The yaml data is used to gather the source keys, but the json data is used to display the source records.
+
+<SourceKeysList entrysubtype="f" />

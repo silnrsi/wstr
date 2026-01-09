@@ -1,0 +1,42 @@
+---
+// SourceKeysList component: list source keys related to a specific entrysubtype.
+// To be later expanded to allow filtering by other criteria.
+// Parameters:
+//		entrysubtype: e.g., 'f'
+
+import Source from './Source.astro';
+import { getCollection } from 'astro:content';
+const sources = await getCollection('sources');
+
+const { entrysubtype } = Astro.props;
+
+const filteredSources = [...sources].filter(sObj => 
+	sObj.data.entrysubtype === entrysubtype
+);
+
+---
+
+<table>
+	<thead>
+		<tr>
+			<th>Key</th>
+			<th>Source</th>
+		</tr>
+	</thead>
+	<tbody>
+		{filteredSources.map((sObj) =>
+		<tr>
+			<td>{sObj.id}</td>
+			<td><Source key={sObj.id} /></td>
+		</tr>
+		)}
+	</tbody>
+</table>
+
+<style>
+  td, th {
+    padding-top: 0px;
+	padding-bottom: 0px;
+	border-bottom: none;
+  }
+</style>
