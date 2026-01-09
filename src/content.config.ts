@@ -1,5 +1,5 @@
 import { defineCollection, z } from 'astro:content';
-import { glob } from 'astro/loaders';
+import { file, glob } from 'astro/loaders';
 import { docsLoader } from "@astrojs/starlight/loaders";
 import { docsSchema } from '@astrojs/starlight/schema';
 
@@ -50,5 +50,8 @@ export const collections = {
         tags: z.array(z.string()).optional(),
       }),
     }), 
+  }),
+  sources: defineCollection({
+    loader: file("src/data/sources.yaml"),
   }),
 }
