@@ -8,13 +8,19 @@
 
 const { key } = Astro.props;
 
-import sdata from '../data/sources.json';
+import { getCollection } from 'astro:content';
+const sdata = await getCollection('sources');
 
-let sObj = sdata.find((s) => s.Key == key);
+// import sdata from '../data/sources.json';
 
-const stype = sObj?.EntryType;
+let sObj = sdata.find((s) => s.id == key);
 
-let authorString = sObj?.Author ?? '';
+const stype = sObj?.data.entrytype;
+
+const presortStr = (sObj?.data.presort ?? '').toString();
+const omitAuthor = (presortStr !== '');
+
+let authorString = sObj?.data.author ?? '';
 const authorList = authorString.split(" and ");
 const aLen = authorList.length;
 if (aLen > 2) {
@@ -25,7 +31,7 @@ if (aLen > 2) {
 	}
 	authorString = result.concat(', and '.concat(authorList[aLen-1]));
 }
-let editorString = sObj?.Editor ?? '';
+let editorString = sObj?.data.editor ?? '';
 if (authorString === '' && editorString !== '') {
 	if (editorString.includes(' and ')) {
 		authorString = `${editorString}, eds.`;
@@ -38,7 +44,7 @@ if (authorString === '' && editorString !== '') {
 }
 
 // Put last name (sortname) first for the first author/editor:
-let sortNameStr = sObj?.SortName ?? '';
+let sortNameStr = sObj?.data.sortname ?? '';
 let spSortName = ' '.concat(sortNameStr);
 if (sortNameStr != '' && authorString.indexOf(spSortName) > 0) {
 	authorString = sortNameStr.concat(', '.concat(authorString.replace(spSortName, '')));
@@ -50,29 +56,29 @@ if (authorString[astrLen-1] == '.') {
 	authorString = authorString.substring(0, astrLen-1);
 }
 
-let orgStringParen = sObj?.Organization ?? '';
-if (sObj?.EntryType == "@online" && orgStringParen !== '') {
+let orgStringParen = sObj?.data.organization ?? '';
+if (sObj?.data.entrytype == "@online" && orgStringParen !== '') {
 	orgStringParen = "(" + orgStringParen + ")";
 }
 
 // Only one of these will exist:
-let largerWork = (sObj?.JournalTitle ?? '') + (sObj?.BookTitle ?? '');
+let largerWork = (sObj?.data.journaltitle ?? '') + (sObj?.data.booktitle ?? '');
 
-let seriesString = sObj?.Series ?? '';
+let seriesString = sObj?.data.series ?? '';
 
-let volumeString = sObj?.Volume ?? '';
+let volumeString = sObj?.data.volume ?? '';
 if (volumeString !== '') {
 	volumeString = `vol. ${volumeString}`;
 }
-let numberString = sObj?.Number ?? '';
+let numberString = sObj?.data.number ?? '';
 if (numberString !== '') {
 	numberString = `no. ${numberString}`;
 }
 
-let pubString = sObj?.Publisher ?? '';
-let dateString = sObj?.Date ?? '';
+let pubString = sObj?.data.publisher ?? '';
+let dateString = sObj?.data.date ?? '';
 
-let pageString = sObj?.Page ?? '';
+let pageString = sObj?.data.page ?? '';
 if (pageString !== "") {
 	if (pageString?.includes('-')) {
 		pageString = "pp. " + pageString;
@@ -81,18 +87,18 @@ if (pageString !== "") {
 	}
 }
 
-let urlString = sObj?.Url ?? '';
+let urlString = sObj?.data.url ?? '';
 // if (stype == "@online") {
 // 	urlString = "";		// it will be displayed with the title
 // }
 
-let addendumString = sObj?.Addendum ?? '';
+let addendumString = sObj?.data.addendum ?? '';
 addendumString = addendumString.replaceAll('[CR][CR]', '<br/>');
 
-let annotationString = sObj?.Annotation ?? '';
+let annotationString = sObj?.data.annotation ?? '';
 annotationString = annotationString.replaceAll('[CR][CR]', '<br/>');
 
-let abstractString = sObj?.Abstract ?? '';
+let abstractString = sObj?.data.abstract ?? '';
 abstractString = abstractString.replaceAll('[CR][CR]', '<br/>');
 
 ---
@@ -107,27 +113,27 @@ abstractString = abstractString.replaceAll('[CR][CR]', '<br/>');
 			
 			<!-- Simple link  -->
 
-			<><a href={sObj.Url} target="_blank" rel="noopener noreferrer">{sObj.Title}</a>&#x20;{orgStringParen}</>
+			<><a href={sObj.data.url} target="_blank" rel="noopener noreferrer">{sObj.data.title}</a>&#x20;{orgStringParen}</>
 
 		) : (
 			<!-- Other types -->
 
 			<!-- First sequence: author title  -->
 
-			{ (authorString !== '' && sObj.PreSort =='') ? (
+			{ (authorString !== '' && !omitAuthor) ? (
 				<>{authorString}. </>
 				) : null
 			}
 
 			<!-- There should always be a title. -->
 			{stype === '@book' ? (
-				<em>{sObj.Title}. </em>
+				<em>{sObj.data.title}. </em>
 			) : (stype === '@inbook' || stype === '@article' || stype === '@inproceedings') ? (
-				<>&ldquo;{sObj.Title}.&rdquo; </>
-			) : (stype === '@online' && sObj.Url && sObj.Url !== '' ) ? (
-				<>&ldquo;<a href={sObj.Url} target="_blank" rel="noopener noreferrer">{sObj.Title}</a>.&rdquo; </>
+				<>&ldquo;{sObj.data.title}.&rdquo; </>
+			) : (stype === '@online' && urlString !== '' ) ? (
+				<>&ldquo;<a href={urlString} target="_blank" rel="noopener noreferrer">{sObj.data.title}</a>.&rdquo; </>
 			) : (
-				<>&ldquo;{sObj.Title}.&rdquo; </>
+				<>&ldquo;{sObj.data.title}.&rdquo; </>
 				)
 			}
 
@@ -207,8 +213,8 @@ abstractString = abstractString.replaceAll('[CR][CR]', '<br/>');
 			}
 
 			<!-- Last-accessed date -->
-			{ (sObj.UrlDate && sObj.UrlDate != "") ? (
-				<> Accessed {sObj.UrlDate}.</>
+			{ (sObj.data.urlDate && sObj.data.urldate != "") ? (
+				<> Accessed {sObj.data.urldate}.</>
 				) : null
 			}
 

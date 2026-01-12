@@ -1,3 +1,6 @@
+# yaml-language-server: $schema=file:/workspaces/wstr-sample-site/src/data/sources-schema.yaml
+# src/data/sources.yaml
+---
 aat:
   entrytype: "@online"
   entrysubtype: f

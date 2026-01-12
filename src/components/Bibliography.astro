@@ -6,30 +6,31 @@
 //      header: 
 
 import Source from './Source.astro';
+import { getCollection } from 'astro:content';
+const sdata = await getCollection('sources');
 
 const { tag, header } = Astro.props;
 
-import sdata from '../data/sources.json';
-
-// PreSort is set up to put links to ScriptSource/Wikipedia/Omniglot first.
-// TODO: we probably don't need this for bibliographic data.
-const sortedSdata = [...sdata].sort((a, b) => (a.PreSort.concat(a.SortName).concat(a.Title)).localeCompare(b.PreSort.concat(b.SortName).concat(b.Title)));
-
 let filteredSdata:Array<typeof sdata[0]> = [];
 if (tag == "all") {
-  filteredSdata = sortedSdata;
+  filteredSdata = sdata;
 } else if (tag) {
-  filteredSdata = sortedSdata.filter(sObj => 
-    sObj.Keywords && Array.isArray(sObj.Keywords) && sObj.Keywords.includes(tag)
+  filteredSdata = sdata.filter(sObj => 
+    sObj.data.keywords && Array.isArray(sObj.data.keywords) && sObj.data.keywords.includes(tag)
   );
 }
 
 // Only bibliographic sources, ie, not '@online':
-let sectionSdata = filteredSdata.filter(sObj =>	sObj.EntryType !== '@online');
+let sectionSdata = filteredSdata.filter(sObj =>	sObj.data.entrytype !== '@online');
 
+// Presort is set up to put links to ScriptSource/Wikipedia/Omniglot first.
+// We don't want it for bibliographic data, we just used the sortname.
+const sortedSdata = [...sectionSdata].sort((a, b) => 
+	((a.data.sortname ?? '').concat(a.data.title)).localeCompare((b.data.sortname ?? '').concat(b.data.title))
+);
 ---
 
-{ (sectionSdata.length == 0) ? (
+{ (sortedSdata.length == 0) ? (
 		null
 	) : (
 		<>
@@ -38,8 +39,8 @@ let sectionSdata = filteredSdata.filter(sObj =>	sObj.EntryType !== '@online');
 				) : null
 			}
 			<ul>
-				{sectionSdata.map((sObj) =>
-						<li><Source key={sObj.Key} /></li>
+				{sortedSdata.map((sObj) =>
+						<li><Source key={sObj.id} /></li>
 					)
 				}
 			</ul>
