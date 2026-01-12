@@ -37,12 +37,12 @@ patternProperties:
       entrytype:
         description: The type of sources
         enum: 
-        - "@article"
-        - "@book"
-        - "@inbook"
-        - "@inproceedings"
-        - "@misc"
-        - "@online"
+        - "article"
+        - "book"
+        - "inbook"
+        - "inproceedings"
+        - "misc"
+        - "online"
       entrysubtype:
         description: A short indicator that this record has special use, which allow us to use it as a filter in lists.
         enum: [f]
