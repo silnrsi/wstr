@@ -1,0 +1,236 @@
+---
+title: Font and Feature UI
+description: Recommendations for how font and feature UIs should work (support axis-based, both ss & cv)
+sidebar:
+    order: 2540
+    hidden: true
+tags: [opentype, features]
+lastUpdated: 2026-01-09
+---
+
+_This is a work in progress._
+
+## Axis-based fonts
+
+[Axis-based][axis-based] fonts generally go beyond the standard Regular, Italic, Bold, and Bold Italic type faces. They can provide other styles such as Thin, ExtraLight, Light, Medium, SemiBold, ExtraBold, Black, etc.
+
+Some Windows applications will display these other weights as separate font families (except bold). Ideally, an application should see, for example, **Gentium** as one font with ten **faces** rather than as separate fonts.
+
+![Figure: Gentium weights](images/2540-gentium-weights.png "Display one font with ten weights")
+
+ptxPrint handles this appropriately. The source is possibly in [ptsprint.glade][ptx-typeface].
+
+## Variable fonts
+
+Variable fonts are a single font with all the potential weights. They are primarily used in web-based applications, and in that environment they can be more flexible than static fonts. Variable fonts allow for choosing any weight, width, or slant, using sliders or input fields to get the exact style you need.
+
+Standard CSS properties like font-weight, font-style, or font-variation-settings can be used to fine-tune the preferred values.
+
+[Introducing variable fonts][google-vf] gives more details on Variable fonts.
+
+## Feature UI
+
+Fonts can support a wide variety of [OpenType features][ot-features]. User-selectable font features should be exposed to the user in the application UI. Developing a User Interface to access the user-selectable features has long been neglected. 
+
+Features could just all be dumped into one big dialog box, as LibreOffice does below, but it could be easier for the user if they are more organized.
+
+![Figure: LibreOffice](images/2540-libreoffice.png "Most features in one dialog")
+
+Various applications have implemented a User Interface for selecting the user-selectable features in different ways.
+
+* In macOS, many of the user-selectable features are available through a **Typography** menu.
+* In Word, some of the user-selectable features are available through the **Font** menu, and other are available through the **Font / Advanced** menu.
+* In LibreOffice, they are available through the **Character / Font** menu or **Character / Font Effects** menu.
+* InDesign has an **OpenType** menu from which various features can be selected.
+* ptxPrint has provided for selecting them in the **Font** menu.
+
+### Sample UI
+
+This document gives some ideas for developing a fairly compact way to display the user-selectable features, and still allow the user to select the various options.
+
+The “twisty” divisions are somewhat arbitrary. Using the twisties would allow for a fairly compact menu. If a font doesn’t support a particular topic and/or feature it should either not be displayed or grayed out. (The table below shows what should be under each twisty.)
+
+> In the example below, there is no need to include the four-letter feature tag in the UI. It is simply included for the developer to know which OpenType feature is related to the friendly name. 
+
+When one of the twisties is selected you might see either a checkbox (for on and off) in the case of Stylistic Sets, or multiple options for  selection in the case of Character Variants.
+
+Languages are sometimes selected at the bottom of an application window. The following example has language selection in the dialog box, but it could be selected elsewhere. If the font supports language features, then the language choice will also affect the features that are selected.
+
+<table border="2">
+<tr>
+<td colspan="2">
+<details>
+  <summary>Language</summary>
+  
+  * Assyrian (select language tag?)
+  * Spanish
+  * Syriac
+  * etc
+</details>
+</td>
+</tr>
+
+<tr>
+  <td>
+<details>
+  <summary>Effects</summary>
+  
+  * ☐ Subscript [subs]
+  * ☐ Superscript [sups]
+  * ☑ Optical size [size]
+  * ☐ Randomize [rand]
+  * ☐ Ornaments [ornm]
+  * ☐ Left Bounds [lfbd]
+  * ☐ Right Bounds [rtbd]
+</details>
+</td>
+
+<td>
+<details>
+  <summary>Kerning</summary>
+
+  * ☑ Horizontal Kerning [kern] 
+  * ☐ Kerning for Alternate Proportional Widths [apkn]
+
+</details>
+</td>
+</tr>
+
+<tr>
+<td>
+<details>
+  <summary>Ligatures</summary>
+
+  * ☑ Standard Ligatures [liga]
+  * ☑ Contextual Ligatures [clig]
+  * ☐ Discretionary Ligatures [dlig]
+  * ☐ Historical Ligatures [hlig]
+
+</details>
+</td>
+
+<td>
+
+<details>
+  <summary>Alternates</summary>
+
+  * ☐ Access All Alternates [aalt]
+  * ☐ Contextual Alternates [calt]
+  * ☐ Stylistic Alternates [salt]
+  * ☐ Historical Forms [hist]
+  * ☐ Justification Alternates [jalt]
+  * ☐ Slashed Zero [zero]
+  * ☐ Contextual Swash [cswh]
+  * ☐ Swash [swsh]
+  * ☑ Vertical Alternates and Rotation[vr2t]
+  * ☐ Final Glyph on Line Alternates [falt]
+
+</details>  
+</td>
+</tr>
+
+<tr>
+<td>
+<details>
+  <summary>Figures/Fractions</summary>
+
+  * ☐ Proportional Figures [pnum]
+  * ☐ Tabular Figures [tnum]
+  * ☐ Lining Figures [lnum]
+  * ☐ Oldstyle Figures [onum]
+  * ☐ Alternative Fractions [afrc]
+  * ☐ Fractions [frac] (Numerators [numr] should usually be turned on together with frac)
+  * ☐ Ordinals [ordn]
+
+</details>  
+</td>
+
+<td>
+
+<details>
+  <summary>Casing</summary>
+
+  * ☐ Small Capitals [smcp]
+  * ☐ Small Capitals from Capitals [s2sc]
+  * ☐ Case-Sensitive Forms [case]
+  * ☐ Petite Capitals From Capitals [c2pc]
+  * ☐ Petite Capitals [pcap]
+  * ☑ Capital Spacing [cpsp]
+  * ☐ Titling  [titl]
+  * ☐ Unicase [unic]
+
+</details>  
+</td>
+</tr>
+
+<tr>
+<td>
+<details>
+  <summary>Notations</summary>
+
+  * ☐ Mathematical Greek [mgrk]
+  * ☐ Ruby Notation Forms [ruby]
+  * ☐ Scientific Inferiors [sinf]
+
+</details> 
+</td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td>
+<details>
+  <summary>Stylistic Sets (up to 20)</summary>
+
+  * ☐ Single-story a and g
+  * ☐ Barred-bowl forms ᵬ đ ǥ
+
+</details>
+</td>
+
+<td>
+
+<details>
+<summary>Character Variants (up to 99)</summary>
+
+<details>
+<summary><span title="Alternate form of capital H stroke with vertical stroke (Ħ > Ħ)">Capital H stroke</span></summary>
+
+* None
+* Vertical stroke
+
+</details>
+
+<details>
+<summary><span title="Alternate forms of capital Eng  (Ŋ > Ŋ > Ŋ)">Capital Eng</span></summary>
+
+* None
+* Lowercase no descender
+* Capital form
+
+</details>
+
+</details>
+</td>
+</tr>
+
+</table>
+
+
+The full specification for Character Variants allows for tooltips (for example, hover over the Character Variant "Capital H stroke" and see the tooltip). The specification also includes the ability to list the default glyph and each alternate. Although the sample text is extremely small, ptxPrint supports this.
+
+![Figure: ptxPrint](images/2540-ptxprint-tooltips-sample.png "ptxPrint tooltip with sample alternates")
+
+
+### Resources
+
+* [font.py][ptx-font.py] in the ptxprint repo has a list of “OTFeatNames” which I believe are valid ones to display in the feature UI. And “OTInternalFeats” are the ones that shouldn’t be displayed in a UI. “OTLangs” has a list of OpenType language tags which can be used for selecting a language.
+* One implementation for Axis-based font selection is possibly in [ptsprint.glade][ptx-typeface].
+
+[axis-based]: https://software.sil.org/fonts/axis-based-fonts/#application-support
+[google-vf]: https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
+[ot-features]: https://learn.microsoft.com/en-us/typography/opentype/spec/featuretags
+[ptx-font.py]: https://github.com/sillsdev/ptx2pdf/blob/master/python/lib/ptxprint/font.py
+[ptx-typeface]: https://github.com/sillsdev/ptx2pdf/blob/master/python/lib/ptxprint/ptxprint.glade
+
