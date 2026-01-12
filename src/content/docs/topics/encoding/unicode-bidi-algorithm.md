@@ -4,6 +4,7 @@ description: The "bidi" algorithm describes how software should process text tha
 sidebar:
     order: 3500
     label: Unicode Bidi Algorithm
+tags: [direction, opentype, numerals, rendering, script-arab, script-hebr]
 lastUpdated: 2024-09-16
 ---
 

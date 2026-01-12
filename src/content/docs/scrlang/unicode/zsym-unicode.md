@@ -3,7 +3,7 @@ title: Unicode Status for Symbols
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-19
 ---
 
 In the Unicode Standard there are characters that are considered Symbols, but they are associated with certain scripts. The characters listed here are Symbols (Math_Symbol, Currency_Symbol, Modifier_Symbol, Other_Symbol), but they are in the "Common" category rather than associated with a particular script.
@@ -246,8 +246,8 @@ The following is a list of all Symbols and which version of Unicode they were ad
 | 2BBD..2BC8 | 7.0 |
 | 2BCA..2BD1 | 7.0 |
 | 2BEC..2BEF | 8.0 |
-| 2BE8..2BE9 | pending |
-| 2BF0..2BF6 | pending |
+| 2BE8..2BE9 | 11.0 |
+| 2BF0..2BF6 | 11.0 |
 | 2FF0..2FFB | 3.0 |
 | 3004 | 1.1 |
 | 3012..3013 | 1.1 |
@@ -434,7 +434,7 @@ The following is a list of all Symbols and which version of Unicode they were ad
 | 1F6F4..1F6F6 | 9.0 |
 | 1F700..1F773 | 6.0 |
 | 1F780..1F7D4 | 7.0 |
-| 1F7D5..1F7D8 |  pending  |
+| 1F7D5..1F7D8 |  11.0  |
 | 1F800..1F80B | 7.0 |
 | 1F810..1F847 | 7.0 |
 | 1F850..1F859 | 7.0 |

@@ -1,6 +1,6 @@
 ---
 title: Locale Data
-description: Definition of locale data
+description: Contents and use of locale data
 sidebar:
     order: 1500
 lastUpdated: 2025-08-08

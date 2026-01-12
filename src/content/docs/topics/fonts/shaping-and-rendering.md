@@ -3,6 +3,7 @@ title: Shaping and Rendering
 description: Shaping engines and smart font rendering systems
 sidebar:
   order: 5510
+tags: [opentype, rendering]
 lastUpdated: 2025-09-24
 ---
 
@@ -33,16 +34,16 @@ The following technologies provide rendering support, although some also can do 
 For a lengthy and detailed description of the current status of shaping and rendering systems see Behdad Esfabod's [State of Text Rendering 2024][esfabod2024].
 
 
-[esfabod2024]: https://behdad.org/text2024/
-[harfbuzz-github]: https://github.com/harfbuzz/harfbuzz/wiki
-[harfbuzz-wiki]: https://en.wikipedia.org/wiki/HarfBuzz
-[harfbuzz-manpagez]: https://www.manpagez.com/html/harfbuzz/harfbuzz-8.4.0/what-is-harfbuzz.php
-[harfbuzz-sourceforge]: https://sourceforge.net/projects/harfbuzz.mirror/
-[directwrite-ms]: https://learn.microsoft.com/en-us/windows/win32/directwrite/direct-write-portal
-[directwrite-wiki]:https://en.wikipedia.org/wiki/DirectWrite
+[aat]: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6AATIntro.html
 [coretext-apple-developer]: https://developer.apple.com/library/archive/documentation/StringsTextFonts/Conceptual/CoreText_Programming/Overview/Overview.html
 [coretext-wikipedia]: https://en.wikipedia.org/wiki/Core_Text
-[opentype]: /topics/fonts/opentype
-[opentype-ms-documentation]: https://learn.microsoft.com/en-us/typography/opentype/
+[directwrite-ms]: https://learn.microsoft.com/en-us/windows/win32/directwrite/direct-write-portal
+[directwrite-wiki]:https://en.wikipedia.org/wiki/DirectWrite
+[esfabod2024]: https://behdad.org/text2024/
 [graphite]: https://graphite.sil.org/
-[aat]: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6AATIntro.html
+[harfbuzz-github]: https://github.com/harfbuzz/harfbuzz/wiki
+[harfbuzz-manpagez]: https://www.manpagez.com/html/harfbuzz/harfbuzz-8.4.0/what-is-harfbuzz.php
+[harfbuzz-sourceforge]: https://sourceforge.net/projects/harfbuzz.mirror/
+[harfbuzz-wiki]: https://en.wikipedia.org/wiki/HarfBuzz
+[opentype-ms-documentation]: https://learn.microsoft.com/en-us/typography/opentype/
+[opentype]: /topics/fonts/opentype

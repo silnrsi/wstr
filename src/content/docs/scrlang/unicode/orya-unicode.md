@@ -3,10 +3,10 @@ title: Unicode Status for Oriya/Odia
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Odia (formerly Oriya) script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G10153).
+In The Unicode Standard, Odia (formerly Oriya) script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G10153).
 
 ## Blocks
 
@@ -26,6 +26,7 @@ Subsequent to version 1.0, the following characters have been added to the Odia 
 | ---------- | --------------- | ------------- |
 | 0B35  |  4.0 |  [n2425.pdf](https://www.unicode.org/wg2/docs/n2425.pdf)/[L2/02-117](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-117)  |
 | 0B44  |  5.1  |  [n3235.pdf](https://www.unicode.org/wg2/docs/n3235.pdf)/[L2/07-095](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-095)  |
+| 0B55          | 13.0 | _See proposals and documents below_ |
 | 0B62..0B63  |  5.1  |  [n3235.pdf](https://www.unicode.org/wg2/docs/n3235.pdf)/[L2/07-095](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-095)  |
 | 0B71  |  4.0  |  [n2525.pdf](https://www.unicode.org/wg2/docs/n2525.pdf)/[L2/02-425](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-425)  |
 | 0B72..0B77  |  6.0  |  [n3471.pdf](https://www.unicode.org/wg2/docs/n3471.pdf)/[L2/08-199](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-199)  |

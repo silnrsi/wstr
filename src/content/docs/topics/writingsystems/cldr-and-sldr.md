@@ -1,6 +1,6 @@
 ---
 title: CLDR and SLDR
-description: Main page on the CLDR and SLDR collections 
+description: Details of the Unicode Common Locale Data Repository (CLDR) and SIL Locale Data Repository (SLDR)
 sidebar:
     order: 1510
 lastUpdated: 2025-08-08

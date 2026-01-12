@@ -3,10 +3,10 @@ title: Unicode Status for Todhri
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Todhri script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G746332).
+In The Unicode Standard, Todhri script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/#G746332).
 
 ## Blocks
 
@@ -15,6 +15,10 @@ The Todhri script was encoded in The Unicode Standard version 16.0. The script i
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Todhri | 105C0..105FF | 16.0 | [U105C0.pdf](http://www.unicode.org/charts/PDF/U105C0.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

@@ -7,6 +7,7 @@ import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
 import cookieconsent from "@jop-software/astro-cookieconsent";
 import db from '@astrojs/db';
+import { remarkCharacterDirectives } from './src/plugins/remark-usv-directive.mts';
 
 const googleAnalyticsId = 'G-WHT6CVPT8M';
 
@@ -76,7 +77,12 @@ export default defineConfig({
             sidebar: [
                 {
                     label: 'Guides',
-                    autogenerate: { directory: 'guides' },
+                    //autogenerate: { directory: 'guides' },
+                    items: [
+                        'topics/computing/app-development-best-practice',
+                        'topics/fonts/font-design-and-development',
+                        'topics/fonts/building-and-modifying-sil-fonts',
+                    ]
                 },
                 {
                     label: 'Topics',
@@ -101,7 +107,11 @@ export default defineConfig({
                 },
                 {
                     label: 'Reference',
-                    autogenerate: { directory: 'reference' },
+                    //autogenerate: { directory: 'reference' },
+                    items: [
+                        'reference/glossary',
+                        'reference/standards',
+                    ],
                 },
                 {
                     label: 'Support',
@@ -206,6 +216,9 @@ export default defineConfig({
         db()
     ],
     markdown: {
+        remarkPlugins: [
+            remarkCharacterDirectives
+        ],
         rehypePlugins: [
             rehypeFigureTitle, [
                 rehypeExternalLinks, {
@@ -230,4 +243,8 @@ export default defineConfig({
             ],
         ],
     },
+    redirects: {
+        "/guides/app-development-best-practice": "/topics/computing/app-development-best-practice",
+        "/guides/font-design-and-development": "/topics/fonts/font-design-and-development",
+    }
 });

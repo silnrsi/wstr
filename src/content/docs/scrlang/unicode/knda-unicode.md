@@ -3,10 +3,10 @@ title: Unicode Status for Kannada
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Kannada script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G38298).
+In The Unicode Standard, Kannada script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G38298).
 
 ## Blocks
 
@@ -28,8 +28,11 @@ Subsequent to version 1.0, the following characters have been added to the Kanna
 | 0C81 | 7.0 | [WG2 N3964](https://www.unicode.org/wg2/docs/n3964.pdf), [L2/10-392](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-392) |
 | 0C84  |  11.0  |  [L2/16-031](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-031)  |
 | 0CBC..0CBD  |  4.0 |  [n2425.pdf](https://www.unicode.org/wg2/docs/n2425.pdf)/[L2/02-117](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-117)  |
+| 0CDC          | 17.0 | _See proposals and documents below_ |
+| 0CDD          | 14.0 | _See proposals and documents below_ |
 | 0CE2..0CE3  |  5.0  |  [n2860.pdf](https://www.unicode.org/wg2/docs/n2860.pdf)/[L2/04-364](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-364)  |
 | 0CF1..0CF2  |  5.0  |  [n2860.pdf](https://www.unicode.org/wg2/docs/n2860.pdf)/[L2/04-364](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-364)  |
+| 0CF3          | 15.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

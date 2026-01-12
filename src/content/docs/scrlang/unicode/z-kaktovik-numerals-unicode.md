@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, implementation for Kaktovik Numerals is discussed in [Chapter 22: Symbols](https://www.unicode.org/versions/latest/core-spec/chapter-22/#G83753).
+In The Unicode Standard, implementation for Kaktovik Numerals is discussed in [Chapter 22: Symbols](https://www.unicode.org/versions/latest/core-spec/#G83753).
 
 ## Blocks
 

@@ -3,10 +3,10 @@ title: Unicode Status for Tamil
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-19
 ---
 
-In The Unicode Standard, Tamil script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G10162).
+In The Unicode Standard, Tamil script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G10162).
 
 ## Blocks
 
@@ -29,11 +29,9 @@ Subsequent to version 1.0, the following characters have been added to the Tamil
 | 0BD0  |  5.1  |  [n3119.pdf](https://www.unicode.org/wg2/docs/n3119.pdf)/[L2/06-184](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-184)  |
 | 0BE6  |  4.1  |   [n2741.pdf](https://www.unicode.org/wg2/docs/n2741.pdf)/[L2/04-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-073)  |
 | 0BF3..0BFA  |  4.0  |  [n2381r.pdf](https://www.unicode.org/wg2/docs/n2381r.pdf)/[L2/01-375](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/01-375)  |
-| 1133B  |  pending | [L2/15-256](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/15-256)  |
-| 11FC0..11FD0 | pending | [WG2 N4430](https://www.unicode.org/wg2/docs/n4430.pdf), [L2/13-047](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-047) |
-| 11FD1..11FEF | pending | [WG2 N4430](https://www.unicode.org/wg2/docs/n4430.pdf), [L2/13-047](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-047) |
-| 11FF0..11FF5 | pending | [WG2 N4430](https://www.unicode.org/wg2/docs/n4430.pdf), [L2/13-047](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-047) |
-| 11FFF | pending | [WG2 N4430](https://www.unicode.org/wg2/docs/n4430.pdf), [L2/13-047](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-047) |
+| 1133B  |  11.0 | [L2/15-256](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/15-256)  |
+| 11FC0..11FF1 | 12.0 | [WG2 N4430](https://www.unicode.org/wg2/docs/n4430.pdf), [L2/13-047](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-047) |
+| 11FFF | 12.0 | [WG2 N4430](https://www.unicode.org/wg2/docs/n4430.pdf), [L2/13-047](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-047) |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

@@ -3,10 +3,10 @@ title: Unicode Status for Sharada
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Sharada script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G81154).
+In The Unicode Standard, Sharada script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/#G81154).
 
 ## Blocks
 
@@ -15,6 +15,7 @@ The Sharada script was encoded in The Unicode Standard version 6.1. The script i
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Sharada | 11180..111DF | 6.1 | [U11180](http://www.unicode.org/charts/PDF/U11180.pdf) |
+| Sharada Supplement | 11B60..11B7F | 17.0 | [U11B60](http://www.unicode.org/charts/PDF/U11B60.pdf) |
 
 [Vedic Extensions](/scrlang/unicode/x-vedic-unicode) may be used with the Sharada script as well as many other Indic scripts.
 
@@ -27,11 +28,13 @@ Subsequent to version 6.1, the following characters have been added to the Shara
 | 111C9 | 8.0 | [WG2 N4330](https://www.unicode.org/wg2/docs/n4330.pdf), [L2/12-322](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-322) |
 | 111CA..111CC | 8.0 | [WG2 N4265](https://www.unicode.org/wg2/docs/n4265.pdf), [L2/12-124](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-124) |
 | 111CD | 7.0 | [WG2 N4269](https://www.unicode.org/wg2/docs/n4269.pdf), [L2/12-171](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-171) |
+| 111CE..111CF  | 13.0 | _See proposals and documents below_ |
 | 111DA | 7.0 | [WG2 N4158](https://www.unicode.org/wg2/docs/n4158.pdf), [L2/11-430](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-430), [L2/12-216](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-216), [L2/12-285](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-285) |
 | 111DB | 8.0 | [WG2 N4331](https://www.unicode.org/wg2/docs/n4331.pdf), [L2/12-318](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-318) |
 | 111DC | 8.0 | [WG2 N4337](https://www.unicode.org/wg2/docs/n4337.pdf), [L2/12-324](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-324) |
 | 111DD | 8.0 | [WG2 N4329](https://www.unicode.org/wg2/docs/n4329.pdf), [L2/12-319](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-319) |
 | 111DE..111DF | 8.0 | [WG2 N4338](https://www.unicode.org/wg2/docs/n4338.pdf), [L2/12-325](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-325) |
+| 11B60..11B67  | 17.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

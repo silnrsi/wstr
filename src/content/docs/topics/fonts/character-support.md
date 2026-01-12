@@ -27,9 +27,13 @@ If you don't want to draw all of these Latin glyphs yourself, and are making a f
 
 ### Avoid encoding characters below U+0020 SPACE
 
-**We recommend that fonts not encode characters below U+0020 SPACE.** Specifically, the glyphs `.null` (sometimes called `NULL`), `CR` (may be called `nonmarkingreturn`), `tab`, or anything else before the `space` glyph should not be assigned Unicode values. The reason for this is that some applications will try to render any glyph that is encoded, including `CR`, which could affect paragraphs of right-aligned text.
+**We recommend that fonts not encode characters below U+0020 SPACE, nor contain glyphs called `.null`, `CR`, or `tab`.** Specifically, the glyphs `.null` (sometimes called `NULL`), `CR` (may be called `nonmarkingreturn`), `tab` (may be called `TAB`), or anything else encoded before the `space` glyph should not be present.
 
-These Unicode values are typically assigned to glyphs using font design programs, however, be careful that no other tool is overriding them. For example, Microsoft VOLT `.vtp` files can reencode glyphs using `DEF_GLYPH`.
+One reason for this is that some applications will try to render any glyph that is encoded, including `CR`, which could affect paragraphs of right-aligned text.
+
+The only exception is that some early Windows implementations of the COLR table require glyph ID 1 to be the `.null` glyph (with no outline or advance width).
+
+Unicode values are typically assigned to glyphs using font design programs, however, be careful that no other tool is overriding them. For example, Microsoft VOLT `.vtp` files can re-encode glyphs using `DEF_GLYPH`.
 
 ## Indicating which Unicode ranges are supported
 

@@ -1,0 +1,41 @@
+---
+// ArticlesList component: list articles present on the site.
+// They can be limited to just those in the Article Library, just in the main Topics list, or all.
+// Parameters:
+//     subset: 'topicsonly', 'articlelibonly'
+//     tag: eg, 'encoding', 'script-arab', etc.
+
+import { getCollection } from 'astro:content';
+const { tag, subset } = Astro.props;
+const articlelibonly = await getCollection('articlelibdocs');
+const topicsonly = await getCollection('topicsdocs');
+
+let articles
+switch (subset) {
+  case "articlelibonly":
+    articles = [...articlelibonly];
+    break;
+  case "topicsonly":
+    articles = [...topicsonly];
+    break;
+  default:
+    articles = [...articlelibonly, ...topicsonly];
+};
+
+let filteredArticles = articles;
+if (tag) {
+  filteredArticles = articles.filter(article => 
+    article.data.tags && Array.isArray(article.data.tags) && article.data.tags.includes(tag)
+  );
+}
+---
+
+<ul>
+  {filteredArticles.map(article => (
+    article.data.description ? (
+      <li><a href={`/${article.id}`}>{article.data.title}</a> - <em>{article.data.description}</em></li>
+    ) : (
+      <li><a href={`/${article.id}`}>{article.data.title}</a></li>
+    )
+  ))}
+</ul>

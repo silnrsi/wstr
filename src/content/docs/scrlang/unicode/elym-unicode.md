@@ -3,10 +3,10 @@ title: Unicode Status for Elymaic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Elymaic script implementation is discussed in [Chapter 10 Middle East II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-10/#G41970).
+In The Unicode Standard, Elymaic script implementation is discussed in [Chapter 10 Middle East II — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/#G41970).
 
 ## Blocks
 
@@ -15,6 +15,10 @@ The Elymaic script was encoded in The Unicode Standard version 12.0. The script 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Elymaic  | 10FE0..10FFF | 12.0 | [U10FE0](http://www.unicode.org/charts/PDF/U10FE0.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

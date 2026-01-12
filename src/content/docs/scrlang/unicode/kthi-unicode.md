@@ -3,10 +3,10 @@ title: Unicode Status for Kaithi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Kaithi script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G69704).
+In The Unicode Standard, Kaithi script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/#G69704).
 
 ## Blocks
 
@@ -22,6 +22,7 @@ Subsequent to version 5.2, the following characters have been added to Kaithi:
 
 | Characters | Unicode Version | Documentation |
 | ---------- | --------------- | ------------- |
+| 110C2         | 14.0 | _See proposals and documents below_ |
 | 110CD  |  11.0  | [L2/16-097](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-097) |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_

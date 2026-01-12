@@ -3,10 +3,10 @@ title: Unicode Status for Wancho
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Wancho script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G46061).
+In The Unicode Standard, Wancho script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G46061).
 
 ## Blocks
 
@@ -15,6 +15,10 @@ The Wancho script was encoded in The Unicode Standard version 12.0. The script i
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Wancho  | 1E2C0..1E2FF | 12.0 | [U1E2C0](http://www.unicode.org/charts/PDF/U1E2C0.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

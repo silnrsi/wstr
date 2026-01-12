@@ -3,10 +3,10 @@ title: Unicode Status for Dives Akuru
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Dives Akuru script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G108027).
+In The Unicode Standard, Dives Akuru script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/#G108027).
 
 ## Blocks
 
@@ -15,6 +15,10 @@ The Dives Akuru script was encoded in The Unicode Standard version 13.0. The scr
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Dives Akuru  | 11900..1195F | 13.0 | [U11900.pdf](https://www.unicode.org/charts/PDF/U11900.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

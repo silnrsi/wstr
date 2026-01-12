@@ -3,10 +3,10 @@ title: Unicode Status for Newa
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Newa script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G31609).
+In The Unicode Standard, Newa script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G31609).
 
 ## Blocks
 
@@ -23,8 +23,9 @@ Subsequent to version 9.0, the following characters have been added to the Newa 
 | Characters  |  Unicode Version  |  Documentation  |
 | ----------- | ----------------- | --------------- |
 | 1145E     |  11.0  | [L2/16-383](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-383) |
-
-__Pending_ indicates codepoint assignments are not final; _Documentation_ refers to [ISO Working Group](https://www.unicode.org/wg2/) and [Unicode](http://www.unicode.org) proposals_
+| 1145F         | 12.0 | _See proposals and documents below_ |
+| 1145A         | 13.0 | _See proposals and documents below_ |
+| 11460..11461  | 13.0 | _See proposals and documents below_ |
 
 ## Proposals and documents
 

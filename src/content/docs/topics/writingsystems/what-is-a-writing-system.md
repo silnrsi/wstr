@@ -1,6 +1,6 @@
 ---
 title: What is a Writing System?
-description: Basic definition of writing systems from WSI Guidelines
+description: Orthographies, scripts, and writing system types
 authors: Victor Gaultney, Melinda Lyons
 sidebar:
     order: 1100

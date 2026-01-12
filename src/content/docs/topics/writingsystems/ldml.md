@@ -1,6 +1,6 @@
 ---
 title: LDML
-description: Description of LDML as used in the CLDR and SLDR
+description: Description of Locale Data Markup Language (LDML) as used in the CLDR and SLDR
 sidebar:
     order: 1520
 lastUpdated: 2025-08-08

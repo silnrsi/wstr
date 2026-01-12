@@ -1,5 +1,4 @@
 ---
-
 // Character component
 // Display a Unicode character with its Unicode Scalar Value and name
 // The character is displayed as a string, the USV as a hexadecimal number, and the name in small caps
@@ -7,69 +6,58 @@
 // Syntax:
 // See https://writingsystems.info/reference/component-reference/#character-component
 
-import { getCharacter, getCharacterName, ERROR_INVALID_USV } from '../utils/coredata_access';
+import { AstroError } from 'astro/errors';
+import { type Option, htmlFromCharacter, htmlFromUSV, parseOptionsSequence } from '../plugins/character.mts';
 
-const componentName = 'Character';
-const { usv, char, options } = Astro.props;
-// console.debug(`${componentName} component original props:`, { usv, char, options });
+function throwComponentError(name: string, message: string, hint?: string) {
+    var err = new AstroError(message, hint)
+    err.name = name
+    Error.captureStackTrace(err, Astro.self)
+    throw err
+}
 
-// Check that all options are valid
-const validOptions = ['usv', 'char', 'name'];
+interface Props {
+  usv?: string;
+  char?: string;
+  options?: Option[];
+}
 
-const optionsArray = options ? options.split(',') : ['char', 'usv', 'name'];
-// console.debug(`${componentName} component props:`, { usv, char, optionsArray });
-optionsArray.forEach((opt: string) => {
-  if (!validOptions.includes(opt.trim())) {
-    throw new Error(`${componentName} component: invalid option "${opt}". Valid options are: ${validOptions.join(', ')}`);
-  }
-});
+let {
+  usv,
+  char,
+  options = ['usv', 'char', 'name']
+} = Astro.props
 
 // Check that either usv or char is provided
-if (!usv && !char) {
-  throw new Error(`${componentName} component: requires either "usv" or "char" property.`);
+if (!(usv || char)) {
+  throwComponentError('CharacterComponentAttributeError', 
+    'Missing component attribute', 
+    'Character component requires either "usv" or "char" attribute.')
 }
 
-let usvValue = usv;
-// If the char property is provided, derive usv from it
-if (char) {
-  usvValue = char.codePointAt(0).toString(16).toUpperCase().padStart(4, '0');
-}
-
-let characterName = await getCharacterName(usvValue);
-const character = characterName !== ERROR_INVALID_USV ? String.fromCodePoint(parseInt(usvValue, 16)) : '[?]';
-if (characterName === ERROR_INVALID_USV) {
-  throw new Error(`${componentName} component: invalid USV "${usvValue}".`);
-}
-// console.debug(`${componentName} component data:`, { usvValue, characterName, character });
-
-// Decide whether we need to include a dotted circle with combining marks
-const characterInfo = await getCharacter(`character_usv = '${usvValue}'`);
-// console.debug(`${componentName} component characterInfo:`, characterInfo);
-let characterResult = character;
-if (characterInfo && characterInfo.character_category.startsWith('M') && optionsArray.includes('char')) {
-  // Combining mark, include dotted circle
-  const dottedCircle = String.fromCodePoint(0x25CC);
-  characterResult = `${dottedCircle}${character}`;
-}
-
-// Concatenate the parts based on options, separated by spaces
-const parts = [];
-if (optionsArray.includes('usv')) {
-  parts.push(`<span class="uni-char-metadata">U+${usvValue}</span>`);
-}
-if (optionsArray.includes('char') && characterResult) {
-  parts.push(characterResult);
-}
-if (optionsArray.includes('name')) {
-  parts.push(`<span class="uni-char-metadata">${characterName}</span>`);
-}
-const output = parts.join(' ');
-// console.debug(`${componentName} component output: "${output}"`);
-
----
-<style>
-  .character-component {
-    display: inline;
+// Parse the options string.
+if (typeof options === 'string') {
+  try {
+    options = parseOptionsSequence(options)
+  } catch (error) {
+    throwComponentError((error as Error).name, 'Invalid component attribute', (error as Error).message)
   }
-  </style>
-  <span class='character-component' set:html={output}/>
+}
+
+let html
+try {
+  const opts = Object.fromEntries(options.map((k:Option) => [k,true]))
+  if (usv) {
+    html = htmlFromUSV(usv, opts)
+  } else if (char) {
+    html = htmlFromCharacter(char, opts)
+  }
+} catch (error) {
+  throwComponentError((error as Error).name, 'Internal error', (error as Error).message)
+}
+---
+<Fragment set:html={html} />
+
+<style>
+  .character-component { display: inline; }
+</style>

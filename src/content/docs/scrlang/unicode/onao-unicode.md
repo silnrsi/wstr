@@ -3,10 +3,10 @@ title: Unicode Status for Ol Onal
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Ol Onal Script implementation is discussed in [Chapter 13 South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G746334).
+In The Unicode Standard, Ol Onal Script implementation is discussed in [Chapter 13 South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G746334).
 
 ## Blocks
 
@@ -15,6 +15,10 @@ The Ol Onal script was encoded in The Unicode Standard version 16.0. The script 
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Ol Onal | 1E5D0..1E5FF | 16.0 | [U1E5D0.pdf](http://www.unicode.org/charts/PDF/U1E5D0.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Mende Kikakui script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G54425).
+In The Unicode Standard, Mende Kikakui script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/#G54425).
 
 ## Blocks
 

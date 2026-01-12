@@ -3,10 +3,10 @@ title: Unicode Status for Old Uyghur
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Old Uyghur script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-14/#G58161).
+In The Unicode Standard, Old Uyghur script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/#G58161).
 
 ## Blocks
 
@@ -15,6 +15,10 @@ The Old Uyghur script was encoded in The Unicode Standard version 14.0. The scri
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Old Uyghur  | 10F70..10FAF | 14.0 | [U10F70.pdf](http://www.unicode.org/charts/PDF/U10F70.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Znamenny musical notation implementation is discussed in [Chapter 21: Notational Systems](https://www.unicode.org/versions/latest/core-spec/chapter-21/#G35157).
+In The Unicode Standard, Znamenny musical notation implementation is discussed in [Chapter 21: Notational Systems](https://www.unicode.org/versions/latest/core-spec/#G35157).
 
 ## Blocks
 
@@ -15,6 +15,10 @@ The Znamenny musical notation was encoded in The Unicode Standard version 14.0. 
 | Blocks | Character Range | Added in Unicode Version | Unicode chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Znamenny musical notation | 1CF00..1CFBF | 14.0 | [U1CF00.pdf](http://www.unicode.org/charts/PDF/U1CF00.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

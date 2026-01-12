@@ -1,6 +1,6 @@
 ---
 title: Language Tagging
-description: Definition and use of language tags
+description: Standardized identifiers for language information
 sidebar:
     order: 1410
 lastUpdated: 2025-08-08
@@ -22,17 +22,17 @@ The extensions mechanism for language tags also allow tags to be extended to spe
 
 ### Macrolanguages
 
-Macrolanguages are a commonly misunderstood element of language tagging. A macrolanguage is a group of similar or related languages, with its own tag separate from the tags of the individual languages it refers to. For example, the macrolanguage `zh` (Chinese) contains nineteen microlanguages, including `cmn` (Mandarin Chinese), `yue` (Yue Chinese/Cantonese), `wuu` (Wu Chinese), `sjc` (Shaojiang Chinese), and more. 
+Macrolanguages are a commonly misunderstood element of language tagging. A macrolanguage is a grouping of similar or related languages (each of which are called "encompassed languages"), with its own tag separate from the tags of the individual encompassed languages it refers to. For example, the macrolanguage `zh` (Chinese) contains nineteen encompassed languages, including `cmn` (Mandarin Chinese), `yue` (Yue Chinese/Cantonese), `wuu` (Wu Chinese), `sjc` (Shaojiang Chinese), and more. 
 
-However, many users do not know that the general term Chinese is divided into so many microlanguages. As such, they might ask for `zh` (Chinese) without realizing they need to be more specific. How is a program to know which of the 19 microlanguages they want?
+However, many users do not know that the general term Chinese is divided into so many encompassed languages. As such, they might ask for `zh` (Chinese) without realizing they need to be more specific. How is a program to know which of the 19 encompassed languages they want?
 
-To avoid this problem, each macrolanguage has an "encompassed microlanguage" that it defaults to. The microlanguage chosen for this role is usually the one with the most speakers. For this example, `cmn` (Mandarin Chinese) is the "encompassed microlanguage" of `zh`. 
+To avoid this problem, each macrolanguage tag has an "Inheriting Encompassed Language" that it defaults to. The encompassed language chosen for this role is is decided based on a variety of complex factors, including number of speakers, assumptions or associations that users might have, government recognition, and more. For this example, `cmn` (Mandarin Chinese) is the "inheriting encompassed language" of `zh`. 
 
-This means that the tag `zh` and the tag `cmn` are considered canonically equivalent. If someone asks for `zh`, they will specifically receive `cmn`. What's more, the fully minimal tag of an encompassed microlanguage uses the macrolanguage's code. Therefore, the minimal tag of `cmn` is actually `zh`. 
+This means that the tag `zh` and the tag `cmn` are considered canonically equivalent. If someone asks for `zh`, they will specifically receive `cmn`. What's more, the fully minimal tag of an inheriting encompassed language uses the macrolanguage's code. Therefore, the minimal tag of `cmn` is actually `zh`. 
 
-This tag equivalence is an extremely common point of confusion for users and developers alike. Many people ask, "Why can't I find `cmn` in langtags?" because they do not realize that `cmn` is listed as `zh`. Others ask, "How do we know which microlanguage this macrolanguage tag refers to?" 
+This tag equivalence is an extremely common point of confusion for users and developers alike. Many people ask, "Why can't I find `cmn` in langtags?" because they do not realize that `cmn` is listed as `zh`. Others ask, "How do we know which encompassed language this macrolanguage tag refers to?" 
 
-The answer to the latter question is to check `langtags.json` itself. The field "tags" contains a list of every equivalent tag. For example, the entry for `zh-Hans-CH` lists `"cmn", "cmn-CN", "cmn-Hans", "cmn-Hans-CN", "zh", "zh-Hans", "zh-cmn", "zh-cmn-CN", "zh-cmn-Hans", "zh-cmn-Hans-CN"` in the "tags" field. This is the easiest way to check which microlanguage a macrolanguage tag refers to. 
+The answer to the latter question is to check `langtags.json` itself. The field "tags" contains a list of every equivalent tag. For example, the entry for `zh-Hans-CH` lists `"cmn", "cmn-CN", "cmn-Hans", "cmn-Hans-CN", "zh", "zh-Hans", "zh-cmn", "zh-cmn-CN", "zh-cmn-Hans", "zh-cmn-Hans-CN"` in the "tags" field. This is the easiest way to check which encompassed language a macrolanguage tag refers to. 
 
 ### Tag Stability Problems
 
