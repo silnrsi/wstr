@@ -1,5 +1,7 @@
 ---
-import ScriptResourceLinks from "./ScriptResourceLinks.astro";
+// ScriptResources component: show resource links guaranteed to exist for all scripts.
+
+//import ScriptResourceLinks from "./ScriptResourceLinks.astro"; -- obsolete
 
 const { scrpropname, scrpropcode, scrpropshortname} = Astro.locals.starlightRoute.entry.data;
 const { detailSummary } = Astro.props;

@@ -55,6 +55,7 @@ There are also some fields that may be applicable to all source types (see secti
     - _addendum_
     - _sortname_
     - _presort_
+    - _entrysubtype_
 
 ## Source fields
 
@@ -74,6 +75,8 @@ There are also some fields that may be applicable to all source types (see secti
     - **editor** - the person or people who edited the work, see **author**.
     - **entrytype** - _required_ - the type of source, one of the types listed in the _Source types_ section above.
         - Ex: `@article`
+    - **entrysubtype** - a short indicator that this record has special use, which allow us to use it as a filter in lists. Currently only used for:
+        - Ex: `f` (for 'favorite' shortcut-style @online links that are already in use and may be used again)
     - **isbn** - _for @book, @inbook, and @inproceedings_9, 10, or 13 digit [International Standard Book Number (ISBN)][isbn].
     - **issn** - _for @article_ - 8 digit [International Standard Serial Number (ISSN)][issn].
     - **journaltitle** - _for @article_ - the name of the journal or periodical in which the article appears.
@@ -129,7 +132,7 @@ Source keys need to be unique, lowercase, with no spaces or punctuation except f
     - Ex: `mafundikwa2004a`
 - Informal style, mostly for @online links to common websites, when there is no clear author or date, or when formal style would be bothersome: `shortorganization-short-title` where `shortorganization` is a brief shorthand name for the website or organization responsible for the content and `short-title` is a brief shorthand name for the page.
     - Ex: `wiki-macron` (Wikipedia page on the macron diacritic)
-    - Ex: `ss-scr-adlm`  (ScriptSource page on Adlam script)
+    - Ex: `ss-script-adlm`  (ScriptSource page on Adlam script)
     - Ex: `omni-balinese` (Omniglot page on Balinese script)
     - Ex: `signwriting-transcription-systems`  (SignWriting page on writing the same signs in different transcription systems)
 - Shortcut style, for common links that would be easy to remember and use: `anything-memorable`. We may make a list of these common shortcuts for easy reference.

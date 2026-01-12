@@ -1,25 +1,31 @@
 ---
+// TagsInUse component: show a list of tags that are used by articles.
+// Parameter:
+//   filter: indicates which tags to list; 'topic', 'script', 'lang', 'char'
+
 import { getCollection } from 'astro:content';
 import { array } from 'astro:schema';
 const articlelibonly = await getCollection('articlelibdocs');
 const topicsonly = await getCollection('topicsdocs');
 const articles = [...articlelibonly, ...topicsonly]; 
 
-let filter
+// Set up a filter to use to create the list.
+let filterExpr
 switch (Astro.props?.filter) {
   case undefined: 
-    filter = (_: string) => true;
+    filterExpr = (_: string) => true;
     break
   case "topic":
-    filter = (tag: string) => !tag.includes('-'); 
+    filterExpr = (tag: string) => !tag.includes('-'); 
     break;
   default:
     const prefix = Astro.props.filter + '-'
-    filter = (tag: string) => tag.startsWith(prefix)
+    filterExpr = (tag: string) => tag.startsWith(prefix)
 };
 
+// Apply the filter to the list of existing articles.
 const tagsSorted = [...new Set(articles.flatMap(
-  article => article.data.tags?.filter(filter)
+  article => article.data.tags?.filter(filterExpr)
 ))].sort();
 ---
 

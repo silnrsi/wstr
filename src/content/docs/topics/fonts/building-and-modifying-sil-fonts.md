@@ -115,7 +115,7 @@ This is a visual overview of the workflow, see next paragraph for more details o
 ### Workflow steps in greater detail 
 
 - Start up Docker and spin up the container (`anvil up`)
-- Navigate to the project (the folder shared inside the container)
+- Navigate to the source of the font project (the folder shared inside the container)
 - Pull any outstanding changes (others may have made changes to the project)
 - Modify font sources! Some ways to do that:
   - Manually edit files using a text editor
