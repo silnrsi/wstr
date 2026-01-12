@@ -1,27 +1,22 @@
 // Utility functions to access the coredata SQLite database
 import { db, characters, scripts, eq, sql } from 'astro:db';
+import { USVtoString, type USV } from './usv.mts'
 
-const ERROR_INVALID_USV = '*** NO CHARACTER NAME FOUND FOR THIS USV ***';
+export const USVNotFound = 'no-character-data';
+export type USVNotFound = typeof USVNotFound
 
-async function getCharacterName(usv: string): Promise<string> {
-  const usvInt = parseInt(usv, 16);
-  if (isNaN(usvInt) || usvInt < 0 || usvInt > 0x10FFFF) {
-    return ERROR_INVALID_USV;
-  }
-
+export async function getCharacterName(usv: USV): Promise<string | USVNotFound> {
   const [result] = await db
     .select({ character_name: characters.character_name })
     .from(characters)
-    .where(eq(characters.character_usv, usv))
+    .where(eq(characters.character_usv, USVtoString(usv)))
     .limit(1);
 
-  return result ? result.character_name : ERROR_INVALID_USV;
+  return result ? result.character_name : USVNotFound;
 }
-export { getCharacterName, ERROR_INVALID_USV };
-
 
 // Return a CharacterObject
-async function getCharacter(whereExpression: string = '', orderExpression: string = '__uid'): Promise<any> {
+export async function getCharacter(whereExpression: string = '', orderExpression: string = '__uid'): Promise<any> {
   const [result] = await db
     .select()
     .from(characters)
@@ -30,11 +25,10 @@ async function getCharacter(whereExpression: string = '', orderExpression: strin
     .limit(1);
   return result;
 }
-export { getCharacter };
 
 
 // Return an array of ScriptObjects, optionally filtered and ordered
-async function getScripts(whereExpression: string = '', orderExpression: string = 'script_code'): Promise<any[]> {
+export async function getScripts(whereExpression: string = '', orderExpression: string = 'script_code'): Promise<any[]> {
   const results = await db
     .select()
     .from(scripts)
@@ -43,11 +37,9 @@ async function getScripts(whereExpression: string = '', orderExpression: string 
 
   return results;
 }
-export { getScripts };
-
 
 // Return a ScriptObject for a given script code
-async function getScriptByCode(code: string): Promise<any> {
+export async function getScriptByCode(code: string): Promise<any> {
   const [result] = await db
     .select()
     .from(scripts)
@@ -56,4 +48,3 @@ async function getScriptByCode(code: string): Promise<any> {
 
   return result;
 }
-export { getScriptByCode };

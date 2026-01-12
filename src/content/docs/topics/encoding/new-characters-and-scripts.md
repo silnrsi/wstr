@@ -4,7 +4,7 @@ description: Description of the process for adding new characters and scripts to
 sidebar:
     order: 3230
 authors: Peter Constable, Lorna Evans
-lastUpdated: 2025-11-21
+lastUpdated: 2025-12-04
 ---
 
 If a language community wants to have their writing system implemented for use in information technologies, then it will be very much to their advantage to see that the writing system is supported in key industry standards. Doing so will greatly increase the likelihood that the writing system is supported in off-the-shelf products from vendors around the world. In particular, it is important to have the characters of the writing system included in the Unicode Standard.
@@ -77,7 +77,7 @@ Once a proposal has been submitted to either UTC or WG2, they may accept it, the
 
 UTC typically meets quarterly, and WG2, annually. Formal action on proposals is taken during these meetings, but not between. If a proposal is accepted at a given meeting, the new characters are not yet formally part of either Unicode or ISO/IEC 10646. This will not happen in the case of Unicode until the next major or minor [version][uni-version] is released. For ISO/IEC 10646, the new characters must be published as part of an amendment to the international standard, and such amendments require multiple stages of review and balloting by member bodies.
 
-New versions of the Unicode Standard are published a little more frequently than are amendments to ISO/IEC 10646. Depending on timing, it’s conceivable that the span of time from when a proposal is submitted to UTC to the point at which those characters appear in a published version of Unicode could be as little as six months. More typically, though, you should anticipate that this will require 1 1/2 to 2 1/2 years.
+New versions of the Unicode Standard are published a little more frequently than are amendments to ISO/IEC 10646. Depending on timing, it’s conceivable that the span of time from when a proposal is submitted to UTC to the point at which those characters appear in a published version of Unicode could be as little as six months. More typically, though, you should anticipate that this will require 1½ to 2½ years.
 
 ## Preparing a proposal to add new characters or scripts
 

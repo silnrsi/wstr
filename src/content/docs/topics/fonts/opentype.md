@@ -4,7 +4,7 @@ description: Features and lookups
 sidebar:
   order: 5520
 tags: [numerals, opentype, rendering, script-arab, script-beng, script-deva, script-gujr, script-guru, script-khmr, script-knda, script-mlym, script-mong, script-nkoo, script-orya, script-syrc, script-taml, script-telu]
-lastUpdated: 2025-09-16
+lastUpdated: 2026-01-09
 ---
 
 OpenType is a [smart-font](/reference/glossary#smartfont) technology that was developed by Microsoft and Adobe. It is the mostly widely-supported such system available today (less common systems are [Graphite][graphite] and [Apple Advanced Typography][aat]).
@@ -89,6 +89,43 @@ For optional behaviors that a font developer may include, how does the user actu
 In a way similar to how application developers might allow the user to select, for example, a Bold (vs Regular) weight for a run of text, they should provide a way to enable/disable optional behaviors through OpenType features. 
 
 **We strongly encourage application developers to provide User Interface elements to give their users the ability to enable or disable optional behaviors.**  This will involve querying the font to discover the available features and, for Character Variant or Stylistic sets, any descriptive information that the developer may have included within the font. For more information see [User Interface Strings][user-interface-strings].
+
+## Language and feature interactions
+
+_aka, English is just another language_
+
+Generally speaking, authors of fonts have two ways to allow users to select variant or language-specific rendering:
+
+- By setting up a _language table_ (Graphite) or _language systems_ (OpenType) in which language-specific rendering rules are coded.
+- By defining user-selectable features (such as OpenType [Character Variants][otspec-cv] or [Stylistic Sets][otspec-ss]) that trigger specific behavior.
+
+In fonts that implement both of these strategies, there is usually a relationship between them, something like _Selecting Language X is equivalent to enabling features A, B, and C._ This raises the question:
+
+**What if a subgroup of language X users need all the features except for, say feature C?**
+
+Ideally they simply select language X and then turn off feature C.
+
+Unfortunately, while this generally works for Graphite, it does _not_ work for OpenType since setting an OpenType feature to off (or zero) is the same as the feature not being selected at all; i.e., it cannot actually _undo_ the behavior already implemented by the language selection.
+
+What this means is that any language group other than those covered by the default language behavior in the font are, in a sense, disadvantaged: the default language user can turn all font features on or off, but not so for the users of non-default languages. 
+
+### Recommended approach
+
+For any language-specific behavior that interacts with user features:
+
+- Use a Character Variant (rather than Stylistic Set) for the feature. 
+- Implement the Character Variant with an extra feature value that reverts the behavior back to default.
+
+**Example**
+
+Suppose you want a feature that displays an “open” variant of a particular set of characters (whatever “open” means), but there exist some languages that want this as the default shape.
+Implement as follows:
+
+- Choose a CV, say “cv23”
+- Implement the “calt” features for the default and other languages -- some will leave the specific glyphs alone while others will substitute the “open” variants.
+- When implementing cv23, implement two values:
+  - cv23=1 selects the “open” variant
+  - cv23=2 reverts the “open” variant (if present) back to the default (perhaps called “closed”)
 
 ## Lookup Orders
 

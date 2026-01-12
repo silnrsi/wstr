@@ -1,9 +1,5 @@
 ---
-// ScriptInfo component: show a script's properties in a table, as stored in the SQLite DB.
-// The property names displayed are raw, eg, 'script_baseline', rather than e.g. 'Baseline'.
-// CURRENTLY UNUSED
-
-import { getScriptByCode } from '../utils/coredata_access'; // Ensure this function fetches a script by its script_code
+import { getScriptByCode } from '../plugins/coredata.mts'; // Ensure this function fetches a script by its script_code
 
 const { scriptCode } = Astro.props;
 

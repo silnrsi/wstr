@@ -3,7 +3,7 @@ title: Policies
 description: Policy statements regarding terms of service, terms of use, privacy, and licensing
 sidebar:
   order: 9940
-lastUpdated: 2025-09-17
+lastUpdated: 2026-01-05
 ---
 
 ## Terms of Service
@@ -28,7 +28,7 @@ All trademarks and commercial designations belong to their respective owners.
 
 ## Copyright, License, and Terms of Use
 
-Unless noted otherwise all content on this site is Copyright © 2001-2025 SIL Global and released under the _Creative Commons Attribution-ShareAlike 4.0 International_ license ([CC BY-SA 4.0][ccbysa4]). Content that is not copyright SIL is used by permission of the copyright holder(s) according to the license(s) specified for that content. You may not reuse content from this site except according to the terms of these licenses. All content remains the property of the original rights holders. Do not assume any rights are granted if they are not clearly indicated. For further details and permissions you must contact the rights holders directly. SIL is not able to provide additional rights or negotiate agreements on behalf of others for content that is not copyright SIL.
+Unless noted otherwise all content on this site is Copyright © 2001-2026 SIL Global and released under the _Creative Commons Attribution-ShareAlike 4.0 International_ license ([CC BY-SA 4.0][ccbysa4]). Content that is not copyright SIL is used by permission of the copyright holder(s) according to the license(s) specified for that content. You may not reuse content from this site except according to the terms of these licenses. All content remains the property of the original rights holders. Do not assume any rights are granted if they are not clearly indicated. For further details and permissions you must contact the rights holders directly. SIL is not able to provide additional rights or negotiate agreements on behalf of others for content that is not copyright SIL.
 
 Fair use, fair dealing, and other limitations and exceptions to copyright differ between countries and legal systems. This website does not define these uses for content on this web site. You are responsible for knowing the rules and limitations of these within your legal jurisdictions. Generally it is far better to operate within the terms of the individual content licenses than to make any assumptions regarding fair use or fair dealing. SIL does not accept any responsibility for improper use of copyrighted material by users of this website.
 

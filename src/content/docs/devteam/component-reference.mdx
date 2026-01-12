@@ -60,7 +60,7 @@ This example uses just `usv` and `char` options:
 #### List example
 
 - <Character usv="0020"/>
-- <Character usv="0635"/>
+- <Character usv="0636"/>
 
 ### Combining marks
 Combining marks are automatically displayed with a dotted circle to indicate their combining nature.
@@ -76,6 +76,56 @@ Combining marks are automatically displayed with a dotted circle to indicate the
 :::caution
 These components are prototypes for possible future use: their specification is not yet agreed. You are welcome to try them out and give feedback, but be aware that they will likely change.
 :::
+
+---
+#### Directive syntax
+```mdx
+:usv[XXXX]
+:char[a]
+:usv[XXXX]{usv char name}
+:char[a]{usv char name}
+```
+Please note the `:char` directive is a little more limited, and cannot accept any
+whitespace, or certain meta characters without escaping `\[`, `\{`, or wrapping
+in inline code quotes.
+Astro processes directives after smart quote translation, so `:char[']`
+produces `U+2019 ’ RIGHT SINGLE QUOTATION MARK` instead or the expected
+`U+0027 ' APOSTROPHE`.  
+The following attributes are supported which correspond to the component's `options=` attribute.
+
+|Attribute|Description|
+|---|---|
+|usv|Display the USV|
+|char|Display the character|
+|name|Display the Unicode name|
+
+No specified attributes displays all three by default
+
+#### Inline examples
+
+This example uses the default options, where all three elements appear.
+```mdx
+:usv[0634]
+```
+>Result: :usv[0634]
+
+This example uses just `usv` and `char` options:
+```html
+:usv[0635]{usv char}
+```
+>Result: :usv[0635]{usv char}
+
+This example shows the use of `:char`
+```mdx
+:char[` `] and :char[@]{name char}
+```
+>Result: :char[` `] and :char[@]{name char}
+
+#### List example
+
+- :usv[0020]
+- :usv[0636]
+- :char[$]
 
 ---
 
