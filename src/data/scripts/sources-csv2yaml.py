@@ -61,6 +61,10 @@ def convert_csv(inFilePath, outFilePath):
 
 	outFile = open(outFilePath, 'w')
 	outFile.write("")
+
+	outFile.write("# yaml-language-server: $schema=file:/workspaces/wstr-sample-site/src/data/sources-schema.yaml\n")
+	outFile.write("# src/data/sources.yaml\n")
+	outFile.write("---\n")
 	
 	with open(inFilePath, 'r') as inFile:
 		reader = csv.reader(inFile)
