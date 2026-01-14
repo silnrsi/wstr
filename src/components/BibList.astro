@@ -1,0 +1,66 @@
+---
+// BibList component: list bibliographic sources related to given tag. If no tag supplied, 
+// the list will be empty.
+// Parameters:
+//		tag: eg, 'encoding', 'script-arab', 'fonts', etc. Use 'all' to display the complete list.
+//		entrytype: 'book', 'inbook', 'article', 'inproceedings', 'misc', 'online', 'non-online'
+//      header: 
+
+import Source from './Source.astro';
+import { getCollection } from 'astro:content';
+const sdata = await getCollection('sources');
+
+const { tag, entrytype, header } = Astro.props;
+
+let taggedSdata:Array<typeof sdata[0]> = [];
+if (tag == "all") {
+  taggedSdata = sdata;
+} else if (tag) {
+  taggedSdata = sdata.filter(sObj => 
+    sObj.data.keywords && Array.isArray(sObj.data.keywords) && sObj.data.keywords.includes(tag)
+  );
+}
+
+let entrytypes:Array<string> = [];
+if (entrytype == 'non-online') {
+	entrytypes = ['@book', '@inbook', '@article', '@inproceedings', '@misc'];
+} else if (entrytype && entrytype !== '') {
+	entrytypes = entrytype.split(',');
+	entrytypes = entrytypes.map(t => "@".concat(t.trim()));
+}
+
+let typedSdata:Array<typeof sdata[0]> = [];
+if (!entrytype || entrytype == '' || entrytype == 'all') {
+	typedSdata = taggedSdata;
+} else {
+	typedSdata = taggedSdata.filter(sObj => entrytypes.includes(sObj.data.entrytype));
+}
+
+// Only bibliographic sources, ie, not '@online':
+// let sectionSdata = typedSdata.filter(sObj => sObj.data.entrytype !== '@online');
+
+// Presort is set up to put links to ScriptSource/Wikipedia/Omniglot first.
+// We don't want it for bibliographic data, we just used the sortname.
+const sortedSdata = [...typedSdata].sort((a, b) => 
+	((a.data.sortname ?? (a.data.author ?? '')).concat(a.data.title)).localeCompare((b.data.sortname ?? (a.data.author ?? '')).concat(b.data.title))
+);
+---
+
+{ (sortedSdata.length == 0) ? (
+		null
+	) : (
+		<>
+			{ (header !== '') ? (
+				<h3>{header}</h3>
+				) : null
+			}
+			<ul>
+				{sortedSdata.map((sObj) =>
+						<li><Source key={sObj.id} /></li>
+					)
+				}
+			</ul>
+		</>
+	)
+}
+

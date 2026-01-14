@@ -9,7 +9,7 @@ lastUpdated: 2026-01-07
 
 import ArticlesList from '../../../../components/ArticlesList.astro';
 import SourcesList from '../../../../components/SourcesList.astro';
-import Bibliography from '../../../../components/Bibliography.astro';
+import BibList from '../../../../components/BibList.astro';
 
 :::note
 This page is currently under development and may not be complete.
@@ -17,6 +17,6 @@ This page is currently under development and may not be complete.
 
 <ArticlesList tag='input' header='Related articles' />
 
-<SourcesList tag='input' header='External links' />
+<SourcesList tag='input' header='External links' entrytype='non-online' />
 
-<Bibliography tag='input' header='Bibliography' />
+<BibList tag='input' header='Bibliography' entrytype='non-online' />

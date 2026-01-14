@@ -22,7 +22,7 @@ import ScriptDetails from '../../../../components/ScriptDetails.astro';
 import WsList from '../../../../components/WsList.astro';
 import ArticlesList from '../../../../components/ArticlesList.astro';
 import SourcesList from '../../../../components/SourcesList.astro';
-import Bibliography from '../../../../components/Bibliography.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Hiragana and Katakana scripts sample](../images/hrkt-sample.png "'Katakana' and 'Hiragana' written in their respective scripts.")
 
@@ -64,6 +64,6 @@ The kana scripts can be written either in vertical columns from right to left, o
 
 <ArticlesList tag='script-hrkt' header='Related articles' />
 
-<SourcesList tag='script-hrkt' header='External links' />
+<SourcesList tag='script-hrkt' header='External links' entrytype='non-online' />
 
-<Bibliography tag='script-hrkt' header='Bibliography' />
+<BibList tag='script-hrkt' header='Bibliography' entrytype='non-online' />

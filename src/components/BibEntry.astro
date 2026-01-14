@@ -1,8 +1,10 @@
 ---
-// Source component: display a single source, eg, a bibliographic entry
-// Used by SourcesList and Bibliography - and eventually a lot more!
+// BibEntry component: display a single source, eg, a bibliographic entry, in a formal format.
+// Used by the BibList component.
 // Parameters:
 //     key: record id in YAML file
+
+// TODO: rework online items.
 
 // Types to handle: @article, @book, @inbook, @inproceedings, @online, @misc
 
@@ -25,6 +27,7 @@ const authorList = authorString.split(" and ");
 const aLen = authorList.length;
 if (aLen > 2) {
 	// convert 'Bob and Martin and Peter' to 'Bob, Martin, and Peter'.
+	// TODO: change to 'Bob, et al.' as required by MLA
 	let result = authorList[0];
 	for (let i = 1; i < aLen - 1; i++) {
 		result = result.concat(', '.concat(authorList[i]));
