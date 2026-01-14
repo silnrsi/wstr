@@ -105,6 +105,6 @@ def convert_csv(inFilePath, outFilePath):
 
 if __name__ == "__main__":
 
-	convert_csv("../sources-canonical.csv", "../sources.yaml")
+	convert_csv("../sources-initial.csv", "../sources.yaml")
 
 	print("Done")
