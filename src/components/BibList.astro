@@ -38,8 +38,9 @@ if (!entrytype || entrytype == '' || entrytype == 'all') {
 
 // Sort by sortname (or author) + title. The sortname *should* always be present, in theory.
 const sortedSdata = [...typedSdata].sort((a, b) => 
-	((a.data.sortname ?? (a.data.author ?? '')).concat(a.data.title)).localeCompare((b.data.sortname ?? (a.data.author ?? '')).concat(b.data.title))
+	((a.data.sortname ?? (a.data.author ?? '')).concat(a.data.title)).localeCompare((b.data.sortname ?? (b.data.author ?? '')).concat(b.data.title))
 );
+
 ---
 
 { (sortedSdata.length == 0) ? (
