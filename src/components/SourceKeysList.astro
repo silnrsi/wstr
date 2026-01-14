@@ -4,7 +4,7 @@
 // Parameters:
 //		entrysubtype: e.g., 'f'
 
-import Source from './Source.astro';
+import SourceLink from './SourceLink.astro';
 import { getCollection } from 'astro:content';
 const sources = await getCollection('sources');
 
@@ -27,7 +27,7 @@ const filteredSources = [...sources].filter(sObj =>
 		{filteredSources.map((sObj) =>
 		<tr>
 			<td>{sObj.id}</td>
-			<td><Source key={sObj.id} /></td>
+			<td><SourceLink key={sObj.id} /></td>
 		</tr>
 		)}
 	</tbody>

@@ -34,6 +34,10 @@ let sortedArticles = filteredArticles.sort((a, b) => a.data.title.localeCompare(
 
 ---
 
+<style>
+	.descr { font-style: italic; font-size: 100%; }
+</style>
+
 { (sortedArticles.length == 0) ? (
 		null
 	) : (
@@ -45,7 +49,7 @@ let sortedArticles = filteredArticles.sort((a, b) => a.data.title.localeCompare(
 			<ul>
 				{sortedArticles.map(article => (
 					article.data.description ? (
-						<li><a href={`/${article.id}`}>{article.data.title}</a> - <em>{article.data.description}</em></li>
+						<li><a href={`/${article.id}`}>{article.data.title}</a> - <span class='descr'>{article.data.description}</span></li>
 					) : (
 						<li><a href={`/${article.id}`}>{article.data.title}</a></li>
 					)

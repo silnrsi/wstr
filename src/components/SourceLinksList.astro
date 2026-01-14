@@ -1,12 +1,11 @@
 ---
-// BibList component: list bibliographic sources related to given tag. If no tag supplied, 
-// the list will be empty.
+// SourceLinksList component: list sources related to given tag.
 // Parameters:
 //		tag: eg, 'encoding', 'script-arab', 'fonts', etc. Use 'all' to display the complete list.
 //		entrytype: 'book', 'inbook', 'article', 'inproceedings', 'misc', 'online', 'non-online'
-//      header: 
+//		header: eg, 'External links'
 
-import BibEntry from './BibEntry.astro';
+import SourceLink from './SourceLink.astro';
 import { getCollection } from 'astro:content';
 const sdata = await getCollection('sources');
 
@@ -36,10 +35,18 @@ if (!entrytype || entrytype == '' || entrytype == 'all') {
 	typedSdata = taggedSdata.filter(sObj => entrytypes.includes(sObj.data.entrytype));
 }
 
-// Sort by sortname (or author) + title. The sortname *should* always be present, in theory.
-const sortedSdata = [...typedSdata].sort((a, b) => 
-	((a.data.sortname ?? (a.data.author ?? '')).concat(a.data.title)).localeCompare((b.data.sortname ?? (a.data.author ?? '')).concat(b.data.title))
+// Only display items that have links.
+let linkSdata:Array<typeof sdata[0]> = typedSdata.filter(sObj =>
+	sObj.data.url && sObj.data.url != ''
 );
+
+// Presort, where defined, is set up to put links to ScriptSource/Wikipedia/Omniglot first.
+// We don't use the sort name at all, because it is not displayed.
+const sortedSdata = [...linkSdata].sort((a, b) => 
+	((a.data.presort ?? '99').toString().concat(a.data.title))
+		.localeCompare((b.data.presort ?? '99' ).toString().concat(b.data.title))
+);
+
 ---
 
 { (sortedSdata.length == 0) ? (
@@ -52,7 +59,7 @@ const sortedSdata = [...typedSdata].sort((a, b) =>
 			}
 			<ul>
 				{sortedSdata.map((sObj) =>
-						<li><BibEntry key={sObj.id} /></li>
+						<li><SourceLink key={sObj.id} /></li>
 					)
 				}
 			</ul>

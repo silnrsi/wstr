@@ -1,3 +1,7 @@
+# Convert a .CSV file containing WSTR Source items to YAML format
+# Intended to be run from wstr/src/utils.
+# The names of the files to process are hard-coded below.
+
 import csv
 
 def writeString(outFile, label, value):
@@ -97,7 +101,7 @@ def convert_csv(inFilePath, outFilePath):
 			writeNumeric(outFile,	"volume",			row[20])
 			writeNumeric(outFile,	"number",			row[21])
 			writeList(outFile,		"keywords",			row[22])
-			writeText(outFile,		"addendum",			row[23])
+			writeString(outFile,	"addendum",			row[23])  # does this need to use writeText?
 			writeText(outFile,		"abstract",			row[24])
 			writeText(outFile,		"annotation",		row[25])
 	return None
@@ -105,6 +109,6 @@ def convert_csv(inFilePath, outFilePath):
 
 if __name__ == "__main__":
 
-	convert_csv("../sources-initial.csv", "../sources.yaml")
+	convert_csv("../data/sources-initial.csv", "../data/sources.yaml")
 
 	print("Done")
