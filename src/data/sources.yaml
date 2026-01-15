@@ -727,7 +727,6 @@ china1980:
 chola:
   entrytype: "@online"
   title: "Chola at the Government Museum, Chennai"
-  sortname: Government Museum Chennai
   url: http://www.chennaimuseum.org/draft/gallery/01/04/inscrip2.htm
   urldate: "2011-11-08"
   keywords: [script-qa32]
@@ -3281,7 +3280,6 @@ leonidas2013:
 letter-database:
   entrytype: "@online"
   title: "Letter Database"
-  sortname: Eesti Keele Instituut
   organization: Eesti Keele Instituut
   url: http://www.eki.ee/letter/
   urldate: "2011-08-22"
@@ -3721,7 +3719,6 @@ mohanty1820:
 moma2010:
   entrytype: "@online"
   title: "@ at MOMA"
-  sortname: MOMA
   url: http://www.moma.org/explore/inside_out/2010/03/22/at-moma/
   date: "2010-10-03"
   keywords: [char-0040]
@@ -3784,7 +3781,7 @@ mosley2008:
     "Blog post from James Mosley's blog, Typefoundry, about the esszet, or sharp s. The post covers spelling rules dictating proper use of the esszet, and traces in detail its development from the 15th century until today."
 movement-notation:
   entrytype: "@online"
-  title: "Movement Notation"
+  title: "Movement & Notation"
   url: http://movement-notation.org
   urldate: "2013-03-14"
   keywords: [script-qaah]
@@ -3801,7 +3798,6 @@ ms-directwrite:
   entrytype: "@online"
   entrysubtype: f
   title: "DirectWrite (DWrite)"
-  sortname: Microsoft
   organization: Microsoft
   url: https://learn.microsoft.com/en-us/windows/win32/directwrite/direct-write-portal
   urldate: "2025-11-19"
@@ -3810,7 +3806,6 @@ ms-feature-registry:
   entrytype: "@online"
   entrysubtype: f
   title: "Feature tags"
-  sortname: Microsoft
   organization: Microsoft
   url: https://learn.microsoft.com/en-us/typography/opentype/spec/featuretags
   urldate: "2025-11-19"
@@ -3818,7 +3813,6 @@ ms-feature-registry:
 ms-ot-arabic:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Arabic Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/arabic/intro.htm
   urldate: "2015-08-26"
@@ -3828,7 +3822,6 @@ ms-ot-arabic:
 ms-ot-bengali:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Bengali Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/bengali/intro.htm
   date: "2008-08-01"
@@ -3839,7 +3832,6 @@ ms-ot-bengali:
 ms-ot-buginese:
   entrytype: "@online"
   title: "Creating and Supporting OpenType Fonts for the Buginese Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/buginese/intro.htm
   urldate: "2015-08-26"
@@ -3849,7 +3841,6 @@ ms-ot-buginese:
 ms-ot-devanagari:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Devanagari Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm
   date: "2008-05-01"
@@ -3860,7 +3851,6 @@ ms-ot-devanagari:
 ms-ot-gujarati:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Gujarati Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/gujarati/intro.htm
   date: "2008-08-01"
@@ -3871,7 +3861,6 @@ ms-ot-gujarati:
 ms-ot-gurmukhi:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Gurmukhi Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/gurmukhi/intro.htm
   date: "2008-08-01"
@@ -3882,7 +3871,6 @@ ms-ot-gurmukhi:
 ms-ot-hebrew:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Hebrew Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/hebrew/intro.htm
   date: "2002-02-01"
@@ -3893,7 +3881,6 @@ ms-ot-hebrew:
 ms-ot-javanese:
   entrytype: "@online"
   title: "Creating and Supporting OpenType Fonts for the Javanese Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/javanese/intro.htm
   date: "2013-08-01"
@@ -3904,7 +3891,6 @@ ms-ot-javanese:
 ms-ot-kannada:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Kannada Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/kannada/intro.htm
   date: "2008-09-01"
@@ -3915,7 +3901,6 @@ ms-ot-kannada:
 ms-ot-khmer:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Khmer Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/khmer/intro.htm
   urldate: "2015-08-26"
@@ -3925,7 +3910,6 @@ ms-ot-khmer:
 ms-ot-korean hangul:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Korean Hangul Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/hangul/intro.htm
   urldate: "2015-08-27"
@@ -3935,7 +3919,6 @@ ms-ot-korean hangul:
 ms-ot-lao:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Lao Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/lao/intro.htm
   date: "2002-04-01"
@@ -3946,7 +3929,6 @@ ms-ot-lao:
 ms-ot-malayalam:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Malayalam Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/malayalam/intro.htm
   date: "2008-09-01"
@@ -3957,7 +3939,6 @@ ms-ot-malayalam:
 ms-ot-myanmar:
   entrytype: "@online"
   title: "Creating and Supporting OpenType Fonts for Myanmar Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/myanmar/intro.htm
   date: "2013-12-01"
@@ -3968,7 +3949,6 @@ ms-ot-myanmar:
 ms-ot-oriya:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Oriya Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/oriya/intro.htm
   date: "2008-09-01"
@@ -3979,7 +3959,6 @@ ms-ot-oriya:
 ms-ot-sinhala:
   entrytype: "@online"
   title: "Creating and Supporting OpenType Fonts for Sinhala Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/sinhala/intro.htm
   date: "2015-05-01"
@@ -3990,7 +3969,6 @@ ms-ot-sinhala:
 ms-ot-standard :
   entrytype: "@online"
   title: "Developing OpenType Fonts for Standard Scripts"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/standard/intro.htm
   urldate: "2015-08-26"
@@ -4000,7 +3978,6 @@ ms-ot-standard :
 ms-ot-syriac:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Syriac Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/syriac/intro.htm
   date: "2013-08-01"
@@ -4011,7 +3988,6 @@ ms-ot-syriac:
 ms-ot-tamil:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Tamil Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/tamil/intro.htm
   date: "2008-09-01"
@@ -4022,7 +3998,6 @@ ms-ot-tamil:
 ms-ot-telugu:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Telugu Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/telugu/intro.htm
   date: "2008-09-01"
@@ -4033,7 +4008,6 @@ ms-ot-telugu:
 ms-ot-thaana:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Thaana Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/thaana/intro.htm
   date: "2002-02-01"
@@ -4044,7 +4018,6 @@ ms-ot-thaana:
 ms-ot-thai:
   entrytype: "@online"
   title: "Developing OpenType Fonts for Thai Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/thai/intro.htm
   date: "2002-02-01"
@@ -4055,7 +4028,6 @@ ms-ot-thai:
 ms-ot-tibetan:
   entrytype: "@online"
   title: "Creating and Supporting OpenType Fonts for Tibetan Script"
-  sortname: Microsoft
   organization: Microsoft
   url: http://www.microsoft.com/typography/OpenTypeDev/tibetan/intro.htm
   urldate: "2015-08-27"
@@ -4066,7 +4038,6 @@ ms-ot-use:
   entrytype: "@online"
   entrysubtype: f
   title: "Creating and supporting OpenType fonts for the Universal Shaping Engine"
-  sortname: Microsoft
   organization: Microsoft
   url: https://learn.microsoft.com/en-gb/typography/script-development/use
   urldate: "2025-11-19"
@@ -4075,7 +4046,6 @@ ms-wsl:
   entrytype: "@online"
   entrysubtype: f
   title: "Windows Subsystem for Linux"
-  sortname: Microsoft
   organization: Microsoft
   url: https://learn.microsoft.com/en-us/windows/wsl/
   urldate: "2025-11-19"
@@ -5330,7 +5300,6 @@ opentype:
   entrytype: "@online"
   entrysubtype: f
   title: "OpenType specification"
-  sortname: Microsoft
   organization: Microsoft
   url: https://learn.microsoft.com/en-us/typography/opentype/spec/
   urldate: "2025-11-19"
@@ -5339,7 +5308,6 @@ opentype-meta:
   entrytype: "@online"
   entrysubtype: f
   title: "meta — Meta table"
-  sortname: Microsoft
   organization: Microsoft
   url: https://learn.microsoft.com/en-us/typography/opentype/spec/meta
   urldate: "2025-11-19"
@@ -5348,7 +5316,6 @@ opentype-mirroring:
   entrytype: "@online"
   entrysubtype: f
   title: "OpenType Mirroring Pairs List (OMPL)"
-  sortname: Microsoft
   organization: Microsoft
   url: https://learn.microsoft.com/en-us/typography/opentype/spec/ompl
   urldate: "2025-11-19"
@@ -5357,7 +5324,6 @@ opentype-overview:
   entrytype: "@online"
   entrysubtype: f
   title: "OpenType overview"
-  sortname: Microsoft
   organization: Microsoft
   url: https://learn.microsoft.com/en-us/typography/opentype/
   urldate: "2025-11-19"
@@ -5366,7 +5332,6 @@ opentype-post:
   entrytype: "@online"
   entrysubtype: f
   title: "post — PostScript Table"
-  sortname: Microsoft
   organization: Microsoft
   url: https://learn.microsoft.com/en-us/typography/opentype/spec/post
   urldate: "2025-11-19"
