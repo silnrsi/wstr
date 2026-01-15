@@ -41,8 +41,8 @@ def wrapText(value):  # currently unused
 			
 def writeText(outFile, label, value):
 	if value != "":
-		value = value.replace("[CR]", "\n")
-		value = value.replace("(CR)", "\n")
+		# value = value.replace("[CR]", "\n")  # leave these as-is for now
+		# value = value.replace("(CR)", "\n")
 
 		#valueWrapped = wrapText(value)  # not wrapping for now
 
@@ -101,7 +101,7 @@ def convert_csv(inFilePath, outFilePath):
 			writeNumeric(outFile,	"volume",			row[20])
 			writeNumeric(outFile,	"number",			row[21])
 			writeList(outFile,		"keywords",			row[22])
-			writeString(outFile,	"addendum",			row[23])  # does this need to use writeText?
+			writeString(outFile,	"addendum",			row[23])
 			writeText(outFile,		"abstract",			row[24])
 			writeText(outFile,		"annotation",		row[25])
 	return None

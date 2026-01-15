@@ -352,9 +352,7 @@ beyene1998:
   publisher: Universität Hamburg, FB Informatik
   keywords: [script-ethi]
   abstract: >-
-    "The Ethiopian script differs considerably from the Latin script. Most important, it consists of more than 350 different letters. A new transcription method is presented that can be used for the LaTeX typesetting system. It was implemented on the basis of the multilingual typesetting package babel."
-    ""
-    "In addition to a guide to the concrete usage of our system, we provide technical details of the implementation and sketch the reasons for our design decisions. Linguistic and historical information on the Ethiopian script is also included."
+    "The Ethiopian script differs considerably from the Latin script. Most important, it consists of more than 350 different letters. A new transcription method is presented that can be used for the LaTeX typesetting system. It was implemented on the basis of the multilingual typesetting package babel.(CR)(CR)In addition to a guide to the concrete usage of our system, we provide technical details of the implementation and sketch the reasons for our design decisions. Linguistic and historical information on the Ethiopian script is also included."
   annotation: >-
     "While this document is somewhat dated (it is pre-Unicode), it does provide interesting background material on the development of the computerization of the Ethiopic script."
 blench2006:
@@ -472,9 +470,7 @@ boyd2009:
   date: "2009-09-24"
   keywords: [lang-gmm]
   annotation: >-
-    "This paper (written in French) proposes an alphabet and a set of orthographic rules for writing the Gbaya Mbodomo language spoken in Cameroon. The linguistic classification of the language is provided, along with an analysis of its phonology and a guide to pronunciation. Following this is a discussion of the proposed alphabet and orthography, including the proposed treatment of tones. A text written in the Gbaya Mbodomo language, using the proposed orthography, is also presented."
-    ""
-    "Clicking the link below will download a PDF of the document to your computer."
+    "This paper (written in French) proposes an alphabet and a set of orthographic rules for writing the Gbaya Mbodomo language spoken in Cameroon. The linguistic classification of the language is provided, along with an analysis of its phonology and a guide to pronunciation. Following this is a discussion of the proposed alphabet and orthography, including the proposed treatment of tones. A text written in the Gbaya Mbodomo language, using the proposed orthography, is also presented.(CR)(CR)Clicking the link below will download a PDF of the document to your computer."
 brahmi-descended-scripts:
   entrytype: "@online"
   title: "Brahmi Descended Scripts"
@@ -562,9 +558,7 @@ brissaud2011:
   number: "2"
   keywords: [char-00e9, char-0065, lang-fra]
   annotation: >-
-    "The aim of this article is to give an overview of researches about the acquisition of /E/ verb endings in French as a first language. The spelling of this suffixal inflection is a major difficulty of French orthography, because many alternative spellings are available. The article presents the findings of a study carried out among 621 8- to 14-year-old children and confirms a very long and costly acquisition of the spelling skill. The author suggests that the French writing system is one of the most difficult to master. The study is intended to contribute to educational reform in France."
-    ""
-    "Please note that, in order to read this article, you must either purchase short-term access to it, or be a subscriber to the journal."
+    "The aim of this article is to give an overview of researches about the acquisition of /E/ verb endings in French as a first language. The spelling of this suffixal inflection is a major difficulty of French orthography, because many alternative spellings are available. The article presents the findings of a study carried out among 621 8- to 14-year-old children and confirms a very long and costly acquisition of the spelling skill. The author suggests that the French writing system is one of the most difficult to master. The study is intended to contribute to educational reform in France.(CR)(CR)Please note that, in order to read this article, you must either purchase short-term access to it, or be a subscriber to the journal."
 brouwer:
   entrytype: "@online"
   title: "The Tifinagh Alphabet"
@@ -645,9 +639,7 @@ campbell2011:
   location: "London"
   keywords: [script-arab, script-beng, script-tfng, script-bugi, script-mymr, script-khmr, script-cyrl, script-deva, script-ethi, script-geor, script-grek, script-gujr, script-guru, script-hebr, script-hrkt, script-hira, script-jpan, script-kana, script-java, script-knda, script-kore, script-laoo, script-mlym, script-mong, script-sinh, script-taml, script-telu, script-thai, script-tibt, script-hang, script-hans, script-hant, script-armn, writing systems]
   annotation: >-
-    "This book contains short entries on about a hundred languages. Articles are ordered alphabetically, and each has a standard structure for ease of reference, including: general historical and sociolinguistic introduction, writing system, sound system, grammatical system, sample scan from a publication."
-    ""
-    "The book has an Appendix of Scripts. Each script entry is generally a chart of the characters as well as a transliteration. Most of the script entries have a small amount of explanatory text."
+    "This book contains short entries on about a hundred languages. Articles are ordered alphabetically, and each has a standard structure for ease of reference, including: general historical and sociolinguistic introduction, writing system, sound system, grammatical system, sample scan from a publication.(CR)(CR)The book has an Appendix of Scripts. Each script entry is generally a chart of the characters as well as a transliteration. Most of the script entries have a small amount of explanatory text."
 carian-stellae:
   entrytype: "@online"
   title: "Carian Stelae from Saqqara"
@@ -682,9 +674,7 @@ chamberlain2008:
   number: "192"
   keywords: [script-tibt]
   abstract: >-
-    "Written development of Tibetan-related languages has seen an increase in recent years. When these languages are developed, the issue of script becomes very important. The Tibetan script has strong associations with the classical Tibetan language, and has been used primarily for writing Tibetan Buddhist religious works. As such, attitudes towards variation of its complex orthographic principles are quite conservative. In some regions (Tibet and Bhutan), the Tibetan orthography is clearly the preferable writing system for any written forms of these modern Tibetan languages."
-    ""
-    "However, due to the conservative attitudes, adjusting the orthography to represent the reality of the modern languages can be a divisive exercise. In other regions where Tibetan-related languages are spoken (India, Nepal, and Pakistan), there are other scripts which may be considered in developing these modern Tibetan languages. Even in these situations the ethnolinguistic identity associated with the Tibetan script suggests that use of a modified Tibetan orthography is more acceptable than use of other scripts (though they may be more accessible). This article discusses some of the key issues involved in developing Tibetan languages in these multiscriptal environments, and gives examples from several such languages which are in varying stages of development."
+    "Written development of Tibetan-related languages has seen an increase in recent years. When these languages are developed, the issue of script becomes very important. The Tibetan script has strong associations with the classical Tibetan language, and has been used primarily for writing Tibetan Buddhist religious works. As such, attitudes towards variation of its complex orthographic principles are quite conservative. In some regions (Tibet and Bhutan), the Tibetan orthography is clearly the preferable writing system for any written forms of these modern Tibetan languages.(CR)(CR)However, due to the conservative attitudes, adjusting the orthography to represent the reality of the modern languages can be a divisive exercise. In other regions where Tibetan-related languages are spoken (India, Nepal, and Pakistan), there are other scripts which may be considered in developing these modern Tibetan languages. Even in these situations the ethnolinguistic identity associated with the Tibetan script suggests that use of a modified Tibetan orthography is more acceptable than use of other scripts (though they may be more accessible). This article discusses some of the key issues involved in developing Tibetan languages in these multiscriptal environments, and gives examples from several such languages which are in varying stages of development."
   annotation: >-
     "A discussion of script choice among Tibetan-related languages."
 chaunier2000:
@@ -1403,9 +1393,7 @@ dronjic2011:
   number: "1"
   keywords: [script-hani, lang-cmn]
   annotation: >-
-    "This article reviews a number of key linguistic and psycholinguistic findings pertaining to Mandarin Chinese compound words, their representation, and their processing in the visual modality. The article begins with a linguistic overview of Mandarin compounds. Next, the issue of the basic unit of representation in the Mandarin mental lexicon is discussed, and the conclusion is reached that this unit is the word rather than the morpheme. A number of factors influencing visual access to compounds in languages in general and Mandarin in particular are identified, and empirical findings on these factors are summarized. The article concludes by examining the relationship between Chinese orthography and compound processing in Mandarin, and by identifying a number of issues which await discussion in future research."
-    ""
-    "Please note that, in order to read this article, you must either purchase short-term access to it, or be a subscriber to the journal."
+    "This article reviews a number of key linguistic and psycholinguistic findings pertaining to Mandarin Chinese compound words, their representation, and their processing in the visual modality. The article begins with a linguistic overview of Mandarin compounds. Next, the issue of the basic unit of representation in the Mandarin mental lexicon is discussed, and the conclusion is reached that this unit is the word rather than the morpheme. A number of factors influencing visual access to compounds in languages in general and Mandarin in particular are identified, and empirical findings on these factors are summarized. The article concludes by examining the relationship between Chinese orthography and compound processing in Mandarin, and by identifying a number of issues which await discussion in future research.(CR)(CR)Please note that, in order to read this article, you must either purchase short-term access to it, or be a subscriber to the journal."
 dubelaar1988:
   entrytype: "@article"
   title: "Seven Notes in Afaka Script"
@@ -1444,9 +1432,7 @@ eatough2018:
   number: "41"
   keywords: [script-yiii, lang-iii]
   abstract: >-
-    "Liangshan Yi (also known as Nosu, spoken in Sichuan Province, China) has many phonetically-interesting syllables. In this paper an articulatory description of the full range of distinctive syllables of this language is given and it is shown that the standard phonemicization of these is reasonable."
-    ""
-    "(Also published: ISSN 0361-4700 and DOI 10.31356/silwp.vol41.01"
+    "Liangshan Yi (also known as Nosu, spoken in Sichuan Province, China) has many phonetically-interesting syllables. In this paper an articulatory description of the full range of distinctive syllables of this language is given and it is shown that the standard phonemicization of these is reasonable.(CR)(CR)(Also published: ISSN 0361-4700 and DOI 10.31356/silwp.vol41.01"
   annotation: >-
     "An articulatory description of the full range of distinctive syllables of Nuosu Yi shows that the standard phonemicization is reasonable."
 edmondson2017:
@@ -1869,9 +1855,7 @@ furniss:
   publisher: School of Oriental and African Studies, University of London
   keywords: [script-qa15]
   annotation: >-
-    "This paper includes a description of the history of the Nigerian writers' circle Raina Kama which created the script of the same name. It also includes samples of the script, although these are small and somewhat indistinct when the document is viewed on-screen."
-    ""
-    "Clicking the link below will download a PDF of this document from the Hausa literature database at SOAS."
+    "This paper includes a description of the history of the Nigerian writers' circle Raina Kama which created the script of the same name. It also includes samples of the script, although these are small and somewhat indistinct when the document is viewed on-screen.(CR)(CR)Clicking the link below will download a PDF of this document from the Hausa literature database at SOAS."
 fynn:
   entrytype: "@online"
   title: "Ranjana (Lantsa) script"
@@ -1941,9 +1925,7 @@ gaultney2002:
   date: "2002"
   keywords: [script-latn, fonts]
   annotation: >-
-    "This essay focuses on the challenges associated with diacritic design, and the techniques designers have used to address them. After a review of the definition, origin and classification of diacritics, each major problem is identified and analysed, with an emphasis on how they have been, or could be, overcome. The analysis concludes with a review of remaining problems, some recommendations for the type design community, and comments on the future of diacritic design."
-    ""
-    "Please note, this paper is originally hosted at Victor Gaultney's research page. Clicking the link below starts a direct download of the paper in PDF format."
+    "This essay focuses on the challenges associated with diacritic design, and the techniques designers have used to address them. After a review of the definition, origin and classification of diacritics, each major problem is identified and analysed, with an emphasis on how they have been, or could be, overcome. The analysis concludes with a review of remaining problems, some recommendations for the type design community, and comments on the future of diacritic design.(CR)(CR)Please note, this paper is originally hosted at Victor Gaultney's research page. Clicking the link below starts a direct download of the paper in PDF format."
 gautam2015:
   entrytype: "@article"
   title: "Wancho: Birth of a new script"
@@ -2239,11 +2221,7 @@ gulzar2006:
   location: "Lahore"
   keywords: [script-aran, fonts, rendering]
   abstract: >-
-    "With the advent of multi-lingual concept in computer systems, different solution has been proposed and implemented. But most of these are not matured enough or has platform barriers. The most promising solutions are OpenType® by Microsoft and Adobe, and Apple Advanced Typography by Apple Inc. The OpenType® specifications are open source, in spite of that the support of OpenType® on different platforms is not mature and even not consistent among Microsoft and Adobe applications."
-    ""
-    "Two different techniques have been adapted to digitize the Nastaleeq script. One is Ligature based approach and other is character based. Both approaches have their own limitations. The most dominating solution is ligature based Nori Nastaleeq font. But this font can only be run in proprietary software InPage®. And this software can only be run in a MS Windows environment. The other promising solution is character based Nafees Nastaleeq font. This font uses OpenType® technology to generate ligatures. OpenType® solution is very slow for Nastaleeq script and has limitations for proportional spacing and justification."
-    ""
-    "TeX is a revolutionary typesetting system developed by Donald Knuth in 1980s. It is a defecto standard for many scientific and mathematic publications. TeX was mainly aimed at typesetting mathematics and English text. Omega is an extension of TeX developed by John Plaice and Yannis Haralambous. Its first release, aims primarily at improving TeX's multilingual abilities. Omega allows multiple inputs and output character sets, and uses programmable filters to translate from one encoding to another, to perform contextual analysis. The pixel level control of TeX over glyphs and filtering approach of Omega suits them best for complex scripts like Nastaleeq."
+    "With the advent of multi-lingual concept in computer systems, different solution has been proposed and implemented. But most of these are not matured enough or has platform barriers. The most promising solutions are OpenType® by Microsoft and Adobe, and Apple Advanced Typography by Apple Inc. The OpenType® specifications are open source, in spite of that the support of OpenType® on different platforms is not mature and even not consistent among Microsoft and Adobe applications.(CR)(CR)Two different techniques have been adapted to digitize the Nastaleeq script. One is Ligature based approach and other is character based. Both approaches have their own limitations. The most dominating solution is ligature based Nori Nastaleeq font. But this font can only be run in proprietary software InPage®. And this software can only be run in a MS Windows environment. The other promising solution is character based Nafees Nastaleeq font. This font uses OpenType® technology to generate ligatures. OpenType® solution is very slow for Nastaleeq script and has limitations for proportional spacing and justification.(CR)(CR)TeX is a revolutionary typesetting system developed by Donald Knuth in 1980s. It is a defecto standard for many scientific and mathematic publications. TeX was mainly aimed at typesetting mathematics and English text. Omega is an extension of TeX developed by John Plaice and Yannis Haralambous. Its first release, aims primarily at improving TeX's multilingual abilities. Omega allows multiple inputs and output character sets, and uses programmable filters to translate from one encoding to another, to perform contextual analysis. The pixel level control of TeX over glyphs and filtering approach of Omega suits them best for complex scripts like Nastaleeq."
   annotation: >-
     "This thesis goes into great detail about how the Nastaleeq style of Arabic script works. It is a useful read for anyone interested in implementing support for Nastaleeq."
 gulzar2007:
@@ -2259,9 +2237,7 @@ gulzar2007:
   number: "1"
   keywords: [script-aran, lang-urd, fonts, rendering]
   abstract: >-
-    "Urdu is the lingua franca as well as the national language of Pakistan. It is based on Arabic script, and Nastaleeq is its default writing style. The complexity of Nastaleeq makes it one of the world's most challenging writing styles. Nastaleeq has a strong contextual dependency. It is a cursive writing style and is written diagonally from right to left. The overlapping shapes make the nuqta (dots) and kerning problem even harder."
-    ""
-    "With the advent of multilingual support in computer systems, different solutions have been proposed and implemented. But most of these are immature or platform-specific. This paper discusses the complexity of Nastaleeq and a solution that uses Omega as the typesetting engine for rendering Nastaleeq."
+    "Urdu is the lingua franca as well as the national language of Pakistan. It is based on Arabic script, and Nastaleeq is its default writing style. The complexity of Nastaleeq makes it one of the world's most challenging writing styles. Nastaleeq has a strong contextual dependency. It is a cursive writing style and is written diagonally from right to left. The overlapping shapes make the nuqta (dots) and kerning problem even harder.(CR)(CR)With the advent of multilingual support in computer systems, different solutions have been proposed and implemented. But most of these are immature or platform-specific. This paper discusses the complexity of Nastaleeq and a solution that uses Omega as the typesetting engine for rendering Nastaleeq."
   annotation: >-
     "This article is written from the perspective of an Omega software solution for the Nastaleeq script. However, some of the solutions could prove to be useful in other software environments."
 gurmukhi-sikh:
@@ -2426,9 +2402,7 @@ hartell1993:
   location: "Dakar"
   keywords: [script-latn, lang-krs, lang-led, lang-swh, lang-vag, lang-lln, lang-bsq, lang-sil, lang-kus, lang-lee, lang-cko, lang-bex, lang-bas, lang-fuc, lang-ttq, lang-kri, lang-emk, lang-kdh, lang-sag, lang-sef, lang-lia, lang-mif, lang-any, lang-khq, lang-gde, lang-lgg, lang-gaa, lang-tik, lang-las, lang-mur, lang-dts, lang-srr, lang-men, lang-kqs, lang-kik, lang-bib, lang-dug, lang-nwb, lang-ema, lang-bum, lang-ahl, lang-bfd, lang-mos, lang-igb, lang-bbp, lang-tfi, lang-bkm, lang-rel, lang-dow, lang-aka, lang-mhi, lang-zne, lang-gbo, lang-gjn, lang-toq, lang-nga, lang-fue, lang-ted, lang-gnd, lang-kmw, lang-wol, lang-okr, lang-bze, lang-enn, lang-nuv, lang-mcp, lang-dzg, lang-pbi, lang-mdj, lang-bkc, lang-bjo, lang-mzw, lang-ife, lang-kzr, lang-bss, lang-ibo, lang-spy, lang-yor, lang-mgo, lang-mfn, lang-nnh, lang-maw, lang-wan, lang-mcu, lang-bkv, lang-ddn, lang-asg, lang-ada, lang-flr, lang-ncu, lang-mnk, lang-wib, lang-hau, lang-hag, lang-dbq, lang-neb, lang-xon, lang-nfr, lang-yam, lang-taq, lang-lug, lang-ozm, lang-beh, lang-dgi, lang-xsm, lang-bza, lang-apd, lang-ige, lang-bud, lang-nup, lang-mbo, lang-yas, lang-adj, lang-fuh, lang-bba, lang-fuq, lang-nhb, lang-ewo, lang-sur, lang-xpe, lang-nmz, lang-guw, lang-snk, lang-gej, lang-bhy, lang-kuj, lang-moa, lang-etu, lang-dop, lang-mzk, lang-fuf, lang-bin, lang-yat, lang-tem, lang-yre, lang-wob, lang-mnf, lang-daf, lang-sld, lang-bom, lang-kby, lang-ayb, lang-kbp, lang-bmq, lang-fmp, lang-myk, lang-bet, lang-gkp, lang-gud, lang-dyu, lang-vut, lang-avu, lang-lns, lang-dua, lang-sus, lang-kkj, lang-god, lang-bci, lang-ybb, lang-ewe, lang-ffm, lang-tbz, lang-gng, lang-fon, lang-gux, lang-bqc, lang-tuq, lang-abi, lang-mkw, lang-yer, lang-bav, lang-sba, lang-mkl, lang-lem, lang-lor, lang-izi, lang-wwa, lang-ajg, lang-dga, lang-pil, lang-lin, lang-xrb, lang-dag, lang-bam, lang-bim, lang-dyo, lang-fub, lang-cme, lang-ngb, lang-luo, lang-anc, lang-lig, lang-dje, lang-gya, lang-lok, lang-lmp]
   abstract: >-
-    "This book seeks to make accessible to a wider public a sample of some 200 alphabets of the languages of Africa, especially those alphabets developed in the last 20 years. These alphabets should give a broad display of the linguistic richness of African languages."
-    ""
-    "Another purpose of this volume is to show what solutions have been adopted in various African countries for the difficult questions of special characters, writing tone, making word breaks, etc. We want to help developers of new alphabets make the wisest choices and to assist revisors make existing alphabets more practically useful. Hopefully it will also encourage the use of hitherto untapped resources."
+    "This book seeks to make accessible to a wider public a sample of some 200 alphabets of the languages of Africa, especially those alphabets developed in the last 20 years. These alphabets should give a broad display of the linguistic richness of African languages.(CR)(CR)Another purpose of this volume is to show what solutions have been adopted in various African countries for the difficult questions of special characters, writing tone, making word breaks, etc. We want to help developers of new alphabets make the wisest choices and to assist revisors make existing alphabets more practically useful. Hopefully it will also encourage the use of hitherto untapped resources."
   annotation: >-
     "This book only addresses Latin script orthographies."
 harvey:
@@ -2593,16 +2567,9 @@ hosszú2012:
   publisher: Rovas Foundation
   keywords: [lang-hun]
   abstract: >-
-    "The Heritage of Scribes introduces the history and development of three members os the Rovas (pronunced as r-o-w-a-sh) script family:"
-    "the Carpathian Basin Rovas,"
-    "the Khazarian Rovas, and "
-    "the Szekely-Hungarian Rovas."
-    ""
-    "The historical and linguistic statements in the book are based on the published theories and statements of acknowledged scholars, historians, archaeologists and linguists. The author provides detailed descriptions of the three Rovas scripts, presents their relationships, connections to other scripts, and explains the most significant relics.Based on the discovered relations, the author introduces the systematic description of the Rovas glyphs in the Rovas Atlas together with a comprehensive genealogy of each character as well."
+    "The Heritage of Scribes introduces the history and development of three members os the Rovas (pronunced as r-o-w-a-sh) script family:(CR)the Carpathian Basin Rovas,(CR)the Khazarian Rovas, and (CR)the Szekely-Hungarian Rovas.(CR)(CR)The historical and linguistic statements in the book are based on the published theories and statements of acknowledged scholars, historians, archaeologists and linguists. The author provides detailed descriptions of the three Rovas scripts, presents their relationships, connections to other scripts, and explains the most significant relics.Based on the discovered relations, the author introduces the systematic description of the Rovas glyphs in the Rovas Atlas together with a comprehensive genealogy of each character as well."
   annotation: >-
-    "The Heritage of Scribes introduces the history and development of three members of the Rovas (pronunced as r-o-w-a-sh) script family:- the Carpathian Basin Rovas, the Khazarian Rovas and the Szekely-Hungarian Rovas."
-    ""
-    "The historical and linguistic statements in the book are based on the published theories and statements of acknowledged scholars, historians, archaeologists and linguists. The author provides detailed descriptions of the three Rovas scripts, presents their relationships, connections to other scripts, and explains the most significant relics. Based on the discovered relations, the author introduces the systematic description of the Rovas glyphs in the Rovas Atlas together with a comprehensive genealogy of each character."
+    "The Heritage of Scribes introduces the history and development of three members of the Rovas (pronunced as r-o-w-a-sh) script family:- the Carpathian Basin Rovas, the Khazarian Rovas and the Szekely-Hungarian Rovas.(CR)(CR)The historical and linguistic statements in the book are based on the published theories and statements of acknowledged scholars, historians, archaeologists and linguists. The author provides detailed descriptions of the three Rovas scripts, presents their relationships, connections to other scripts, and explains the most significant relics. Based on the discovered relations, the author introduces the systematic description of the Rovas glyphs in the Rovas Atlas together with a comprehensive genealogy of each character."
 hudson2022:
   entrytype: "@online"
   title: "On vertical metrics (in the context of a biscript, Tamil and Latin font) "
@@ -2702,9 +2669,7 @@ ishida-arabic:
   urldate: "2025-11-21"
   keywords: [script-arab]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript. "
-    ""
-    "This picker includes all characters in the Unicode Arabic and Arabic Supplement blocks as of Unicode 5.2, plus a small handful from outside the block, such as quote marks and control characters."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript. (CR)(CR)This picker includes all characters in the Unicode Arabic and Arabic Supplement blocks as of Unicode 5.2, plus a small handful from outside the block, such as quote marks and control characters."
 ishida-armenian:
   entrytype: "@online"
   title: "Armenian character picker"
@@ -2715,9 +2680,7 @@ ishida-armenian:
   urldate: "2025-11-21"
   keywords: [script-armn, lang-hye]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all the characters in the Unicode Armenian block."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all the characters in the Unicode Armenian block."
 ishida-balinese:
   entrytype: "@online"
   title: "Balinese Character Picker"
@@ -2739,9 +2702,7 @@ ishida-bengali:
   urldate: "2025-11-21"
   keywords: [script-beng, lang-ben]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all the characters in the Unicode 6.0 Bengali block."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all the characters in the Unicode 6.0 Bengali block."
 ishida-chinese:
   entrytype: "@online"
   title: "What's the Difference between Simplified and Traditional Chinese, and are they Separate in Unicode?"
@@ -2772,9 +2733,7 @@ ishida-ethiopic:
   urldate: "2025-11-21"
   keywords: [script-ethi, lang-gez]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all characters in the Unicode Ethiopic block as of Unicode 5.2, plus one from outside the block. It does not include characters in the Ethiopic Supplement and Ethiopic Extended blocks."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all characters in the Unicode Ethiopic block as of Unicode 5.2, plus one from outside the block. It does not include characters in the Ethiopic Supplement and Ethiopic Extended blocks."
 ishida-hebrew:
   entrytype: "@online"
   title: "Hebrew character picker"
@@ -2785,9 +2744,7 @@ ishida-hebrew:
   urldate: "2025-11-21"
   keywords: [script-hebr, lang-heb]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all the characters in the Unicode Hebrew block as of Unicode 5.2."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all the characters in the Unicode Hebrew block as of Unicode 5.2."
 ishida-indic:
   entrytype: "@online"
   title: "An Introduction to Indic Scripts"
@@ -2809,9 +2766,7 @@ ishida-khmer:
   urldate: "2025-11-21"
   keywords: [script-khmr, lang-kxm, lang-khm]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all the characters in the Unicode Khmer and Khmer Symbols blocks (in the default panel)."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all the characters in the Unicode Khmer and Khmer Symbols blocks (in the default panel)."
 ishida-lao:
   entrytype: "@online"
   title: "Lao character picker"
@@ -2822,9 +2777,7 @@ ishida-lao:
   urldate: "2025-11-21"
   keywords: [script-laoo, lang-lao]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all the characters in the Unicode Lao block."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all the characters in the Unicode Lao block."
 ishida-latin:
   entrytype: "@online"
   title: "Latin character picker"
@@ -2835,9 +2788,7 @@ ishida-latin:
   urldate: "2025-11-21"
   keywords: [script-latn]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all characters from the following character blocks in Unicode 5.2: Latin-1 Supplement, Latin Extended-A, Latin Extended-B, Latin Extended-C, Latin Extended-D, Latin Extended Additional, IPA Extensions, Phonetic Extensions, Phonetic Extensions Supplement. This covers Latin and phonetic characters."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all characters from the following character blocks in Unicode 5.2: Latin-1 Supplement, Latin Extended-A, Latin Extended-B, Latin Extended-C, Latin Extended-D, Latin Extended Additional, IPA Extensions, Phonetic Extensions, Phonetic Extensions Supplement. This covers Latin and phonetic characters."
 ishida-lisu:
   entrytype: "@online"
   title: "Lisu character picker"
@@ -2848,9 +2799,7 @@ ishida-lisu:
   urldate: "2025-11-21"
   keywords: [script-lisu, lang-lpo, lang-lis]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all the characters in the Unicode Lisu block as of Unicode 5.2, plus a few additional punctuation characters described in the Unicode Standard."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all the characters in the Unicode Lisu block as of Unicode 5.2, plus a few additional punctuation characters described in the Unicode Standard."
 ishida-malayalam:
   entrytype: "@online"
   title: "Malayalam character picker"
@@ -2861,9 +2810,7 @@ ishida-malayalam:
   urldate: "2025-11-21"
   keywords: [script-mlym, lang-mal]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all the characters in the Unicode Malayalam block as of Unicode 5.1 (ie. including chillu characters)."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all the characters in the Unicode Malayalam block as of Unicode 5.1 (ie. including chillu characters)."
 ishida-mongolian:
   entrytype: "@online"
   title: "Mongolian character picker"
@@ -2874,9 +2821,7 @@ ishida-mongolian:
   urldate: "2025-11-21"
   keywords: [script-mong, lang-mon]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all the characters in the Mongolian script description in Wikipedia. The picker does not include Sibe, Todo or Manchu characters."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all the characters in the Mongolian script description in Wikipedia. The picker does not include Sibe, Todo or Manchu characters."
 ishida-myanmar:
   entrytype: "@online"
   title: "Myanmar character picker"
@@ -2887,9 +2832,7 @@ ishida-myanmar:
   urldate: "2025-11-21"
   keywords: [script-mymr, lang-mya]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes characters in the Unicode 5.1 Myanmar block used for writing Burmese."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes characters in the Unicode 5.1 Myanmar block used for writing Burmese."
 ishida-notes:
   entrytype: "@online"
   title: "Ishida: Notes on Scripts, Orthographies and Characters, Lists of Terms"
@@ -2900,9 +2843,7 @@ ishida-notes:
   urldate: "2025-03-03"
   keywords: [script-tayo, script-wcho, script-sunu, script-mroo, script-sora, script-rjng, script-merc, script-krai, script-hano, script-limb, script-lepc, script-cham, script-batk, script-cakm, script-buhd, script-ahom, script-tavt, script-lana, script-taml, script-sinh, script-newa, script-nkoo, script-mymr, script-talu, script-lisu, script-kali, script-hebr, script-laoo, script-khmr, script-thaa, script-guru, script-bass, script-ethi, script-cher, script-bugi, script-armn, script-arab, script-cans, script-adlm, script-grek, script-telu, script-tfng, script-deva, script-mlym, script-tibt, script-bali, script-plrd, script-tagb, script-hans, script-latn, script-gara, script-cyrl, script-mong, script-orya, script-olck, script-berf, script-osge, script-rohg, script-beng, script-geor, script-kore, script-bamu, script-tols, script-sund, script-mand, script-nagm, script-syrc, script-hang, script-vaii, script-tale, script-java, script-gujr, script-jpan, script-thai, lang-pbu, lang-pbt, lang-pst, lang-new, lang-tel, lang-arb, lang-vai, lang-zgh, lang-kkh, lang-tdd, lang-tam, lang-tru, lang-syc, lang-pan, lang-osn, lang-blt, lang-sin, lang-osa, lang-ori, lang-tha, lang-sat, lang-hin, lang-bug, lang-div, lang-zag, lang-lif, lang-kyu, lang-bap, lang-rus, lang-mn, lang-bya, lang-ful, lang-heb, lang-hau, lang-kor, lang-kat, lang-jav, lang-ike, lang-mya, lang-khm, lang-iku, lang-urd, lang-shn, lang-ccp, lang-aho, lang-ell, lang-kmr, lang-hmd, lang-lao, lang-kru, lang-hnn, lang-mid, lang-unr, lang-srb, lang-ckb, lang-rej, lang-tbw, lang-ukr, lang-nnp, lang-tyj, lang-khb, lang-nod, lang-bzu, lang-lis, lang-mal, lang-ban, lang-fas, lang-uig, lang-hye, lang-aii, lang-amh, lang-bam, lang-bsq, lang-chr, lang-mhp, lang-suz, lang-pes, lang-guj, lang-rhg, lang-xmr, lang-snd, lang-sun, lang-fuf, lang-crk, lang-lep, lang-zho, lang-jpn, lang-ben, lang-bku, lang-mro, lang-wol, lang-fub, lang-kas, lang-skr, lang-cjm]
   annotation: >-
-    "This page selects a few items that attempt to explain how scripts work in a way that is accessible to both the beginner and the script expert. The information includes tables of orthography descriptions, character notes and Unicode character apps."
-    ""
-    "Richard Ishida's site also has filterable lists of terms that can be used for finding examples or testing for letter combinations. Many terms are accompanied by meaning, IPA and other transcriptions, and for all it is possible to see the sequence of characters used."
+    "This page selects a few items that attempt to explain how scripts work in a way that is accessible to both the beginner and the script expert. The information includes tables of orthography descriptions, character notes and Unicode character apps.(CR)(CR)Richard Ishida's site also has filterable lists of terms that can be used for finding examples or testing for letter combinations. Many terms are accompanied by meaning, IPA and other transcriptions, and for all it is possible to see the sequence of characters used."
 ishida-script-comparison:
   entrytype: "@online"
   title: "Script comparison table"
@@ -2924,9 +2865,7 @@ ishida-tamil:
   urldate: "2025-11-21"
   keywords: [script-taml, lang-tam]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all the characters in the Unicode Tamil block as of Unicode 5.2."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all the characters in the Unicode Tamil block as of Unicode 5.2."
 ishida-terms:
   entrytype: "@online"
   title: "Ishida: List of terms to find letter combinations"
@@ -2946,9 +2885,7 @@ ishida-thai:
   urldate: "2025-11-21"
   keywords: [script-thai, lang-tha]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all the characters in the Unicode Thai block."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all the characters in the Unicode Thai block."
 ishida-tibetan:
   entrytype: "@online"
   title: "Tibetan character picker"
@@ -2959,9 +2896,7 @@ ishida-tibetan:
   urldate: "2025-11-21"
   keywords: [script-tibt, lang-bod]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all the characters in the Unicode Tibetan block as of Unicode 5.2."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all the characters in the Unicode Tibetan block as of Unicode 5.2."
 ishida-tifinagh:
   entrytype: "@online"
   title: "Tifinagh character picker"
@@ -2972,9 +2907,7 @@ ishida-tifinagh:
   urldate: "2025-11-21"
   keywords: [script-tfng]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes all the characters in the Unicode Tifinagh block."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes all the characters in the Unicode Tifinagh block."
 ishida-unicode:
   entrytype: "@online"
   title: "Unicode character pickers"
@@ -2985,9 +2918,7 @@ ishida-unicode:
   urldate: "2025-02-27"
   keywords: [script-bali, script-armn, script-gujr, script-adlm, script-talu, script-rjng, script-orya, script-nkoo, script-runr, script-shrd, script-thai, script-sinh, script-hatr, script-hano, script-telu, script-hani, script-rohg, script-guru, script-nagm, script-mymr, script-nbat, script-mroo, script-plrd, script-mand, script-mend, script-merc, script-mero, script-mlym, script-olck, script-lyci, script-lydi, script-newa, script-mong, script-limb, script-lisu, script-latn, script-laoo, script-kali, script-khmr, script-krai, script-prti, script-tayo, script-taml, script-phli, script-tavt, script-tagb, script-sora, script-syrc, script-sunu, script-sund, script-thaa, script-vaii, script-tibt, script-tols, script-ugar, script-tfng, script-grek, script-wcho, script-yezi, script-cans, script-goth, script-glag, script-geor, script-gara, script-ethi, script-cyrl, script-elym, script-egyp, script-deva, script-armi, script-buhd, script-cher, script-cham, script-cakm, script-bugi, script-berf, script-beng, script-batk, script-bass, script-bamu, script-ahom, script-osge, script-maka, script-lana, script-lepc, script-tale, script-arab, script-phnx, script-hebr, script-hang, script-java, script-palm, script-jpan, lang-kur, lang-sat, lang-khb, lang-rhg, lang-mid, lang-men, lang-bug, lang-bax, lang-vai, lang-nnp, lang-arc, lang-crk, lang-ike, lang-div, lang-tha, lang-zgh, lang-tam, lang-nod, lang-tbw, lang-tyj, lang-kkh, lang-sun, lang-srb, lang-osa, lang-rej, lang-sin, lang-nko, lang-new, lang-mya, lang-shn, lang-unr, lang-hmd, lang-mal, lang-lif, lang-lis, lang-mak, lang-lep, lang-vie, lang-bam, lang-ful, lang-kmr, lang-lao, lang-bap, lang-eky, lang-kyu, lang-khm, lang-heb, lang-hnn, lang-zho, lang-kor, lang-guj, lang-ell, lang-hin, lang-amh, lang-kat, lang-rus, lang-mon, lang-cjm, lang-chr, lang-ccp, lang-bku, lang-bya, lang-ben, lang-zag, lang-mhp, lang-hye, lang-uig, lang-urd, lang-wol, lang-ckb, lang-snd, lang-pst, lang-fas, lang-skr, lang-arb, lang-aho, lang-dgr, lang-syc, lang-xly, lang-uga, lang-suz, lang-ory, lang-hau, lang-bod, lang-pan, lang-tel, lang-tru, lang-mro, lang-jav, lang-ukr, lang-kas, lang-tdd, lang-jpn, lang-bsq]
   annotation: >-
-    "The Unicode character apps allow you to produce, analyse and manipulate runs of text for a given language or script. Character apps are especially useful for people who don't know a script well, as characters are displayed in ways that aid identification and input (unlike a regular character map). The apps are written in HTML and JavaScript, so no need to download anything – just use any browser."
-    ""
-    "You can easily cut and paste text between the apps and your own document. The apps are just as useful for analysing text copied from other locations as they are for creating text."
+    "The Unicode character apps allow you to produce, analyse and manipulate runs of text for a given language or script. Character apps are especially useful for people who don't know a script well, as characters are displayed in ways that aid identification and input (unlike a regular character map). The apps are written in HTML and JavaScript, so no need to download anything – just use any browser.(CR)(CR)You can easily cut and paste text between the apps and your own document. The apps are just as useful for analysing text copied from other locations as they are for creating text."
 ishida-urdu:
   entrytype: "@online"
   title: "Urdu character picker"
@@ -2998,9 +2929,7 @@ ishida-urdu:
   urldate: "2025-11-21"
   keywords: [script-aran, lang-urd]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes characters in the Unicode Arabic block used for Urdu. Most of the characters in the Urdu standard UZT 1.01 are included."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes characters in the Unicode Arabic block used for Urdu. Most of the characters in the Urdu standard UZT 1.01 are included."
 ishida-vietnamese:
   entrytype: "@online"
   title: "Vietnamese character picker"
@@ -3011,9 +2940,7 @@ ishida-vietnamese:
   urldate: "2025-11-21"
   keywords: [lang-vie]
   annotation: >-
-    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript."
-    ""
-    "This picker includes characters used for writing Vietnamese. Characters are taken from various Latin Unicode blocks."
+    "Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. They're written in XHTML with a small amount of JavaScript.(CR)(CR)This picker includes characters used for writing Vietnamese. Characters are taken from various Latin Unicode blocks."
 iso15924:
   entrytype: "@online"
   entrysubtype: f
@@ -3082,9 +3009,7 @@ kandhadai2010:
   number: "2"
   keywords: [script-deva, lang-hin]
   annotation: >-
-    "This article presents a study based on the Devanagari script, to examine how segmental awareness is influenced by the alignment of the spatial ordering of graphemes in relation to the logical phonological order of the phonemes. In the study, native Hindi speakers were asked to delete the first consonant in a syllable (the onset consonant) from two pairs of invented \"words\". In the first word the spatial ordering was aligned to the phonological ordering - that is, each character followed the previous one in the same order as they would be spoken - but in the second word a character which is subject to reordering was used, so that the spatial ordering was incongruous with the phonological ordering. The results strongly support the hypothesis that the spatial order of the phonemes influences segmental awareness in languages that are written with an abugida."
-    ""
-    "Please note that, to view the full article, you will need either to be a subscriber to the journal or to purchase short-term access to the article."
+    "This article presents a study based on the Devanagari script, to examine how segmental awareness is influenced by the alignment of the spatial ordering of graphemes in relation to the logical phonological order of the phonemes. In the study, native Hindi speakers were asked to delete the first consonant in a syllable (the onset consonant) from two pairs of invented \"words\". In the first word the spatial ordering was aligned to the phonological ordering - that is, each character followed the previous one in the same order as they would be spoken - but in the second word a character which is subject to reordering was used, so that the spatial ordering was incongruous with the phonological ordering. The results strongly support the hypothesis that the spatial order of the phonemes influences segmental awareness in languages that are written with an abugida.(CR)(CR)Please note that, to view the full article, you will need either to be a subscriber to the journal or to purchase short-term access to the article."
 kaplan2008:
   entrytype: "@misc"
   title: "Syriac Paleography: The development of a method of expertise on the basis of the Syriac manuscripts of the British Library (Vth-Xth c.)"
@@ -3421,15 +3346,7 @@ liangshan1985:
   location: "Chengdu 成都"
   keywords: [script-yiii, lang-iii]
   abstract: >-
-    "一、彝文部首；二、部首检字法；三、笔划检字法；四、检字法的说明；五、音序检字表。"
-    ""
-    "Section 1 lists all the radicals with their variant forms and pages where the related character listing begins for each radical."
-    ""
-    "Section 2 Lists every character in the section of its radical plus additional strokes."
-    ""
-    "Section 3 Lists every character by total number of strokes, and then by radical."
-    ""
-    "Character entries include one or more example usages."
+    "一、彝文部首；二、部首检字法；三、笔划检字法；四、检字法的说明；五、音序检字表。(CR)(CR)Section 1 lists all the radicals with their variant forms and pages where the related character listing begins for each radical.(CR)(CR)Section 2 Lists every character in the section of its radical plus additional strokes.(CR)(CR)Section 3 Lists every character by total number of strokes, and then by radical.(CR)(CR)Character entries include one or more example usages."
   annotation: >-
     "一、彝文部首；二、部首检字法；三、笔划检字法；四、检字法的说明；五、音序检字表Section 1 lists all the radicals with their variant forms and pages where the related character listing begins for each radical Section 2 Lists every character in the section of its radical plus additional strokes. Section 3 Lists every character by total number of strokes, and then by radical. Character entries include one or more example usages."
 lindenberg2015:
@@ -3473,9 +3390,7 @@ luo2011:
   number: "1"
   keywords: [script-hani, lang-zho]
   annotation: >-
-    "This article discusses a study investigating young Chinese children’s development of orthographic processing and the factors that contribute to development. The investigation was carried out in both China and Canada to examine the effect of language learning contexts on the development of orthographic processing. The children's Chinese and English orthographic discrimination, radical position awareness, phonological awareness, character reading, and rapid digit naming were tested twice, about one year apart, and the results were compared. The article concludes from the results of the study that the language learning environment has a significant impact on the development of orthographic processing. "
-    ""
-    "Please note that you will need to purchase short-term access to this article in order to read the full text, or be a subscriber to the journal."
+    "This article discusses a study investigating young Chinese children’s development of orthographic processing and the factors that contribute to development. The investigation was carried out in both China and Canada to examine the effect of language learning contexts on the development of orthographic processing. The children's Chinese and English orthographic discrimination, radical position awareness, phonological awareness, character reading, and rapid digit naming were tested twice, about one year apart, and the results were compared. The article concludes from the results of the study that the language learning environment has a significant impact on the development of orthographic processing. (CR)(CR)Please note that you will need to purchase short-term access to this article in order to read the full text, or be a subscriber to the journal."
 ma2007:
   entrytype: "@book"
   title: "Nuosu Yi - Chinese - English Glossary"
@@ -3684,9 +3599,7 @@ meletis2022:
   location: "The Hague"
   keywords: [script-phag, script-egyp, script-ethi, script-arab, script-jpan, script-yiii, script-linb, script-hmng, script-roro, script-sgnw, script-phnx, script-vaii, script-cans, script-cher, script-armn, script-mong, script-thai, script-brah, script-taml, script-mymr, script-kana, script-kore, script-hebr, script-hani, script-latn, script-xsux, script-deva, script-hang, script-grek, script-brai, script-geor, script-cyrl, script-thaa, lang-zho, lang-tur, lang-swe, lang-spa, lang-srp, lang-san, lang-rus, lang-vai, lang-uig, lang-fas, lang-ita, lang-heb, lang-ell, lang-eng, lang-fra, lang-nld, lang-div, lang-fin, lang-deu, lang-dan, lang-por, lang-kaz, lang-chr, lang-azj, lang-hin, lang-urd, writing systems]
   abstract: >-
-    "Writing is a cultural technology that has changed humankind by shaping the way we think and the way we communicate. The role it plays in our everyday lives in most modern societies is so vital that it is almost impossible to overstate its relevance. Indeed, when trying to imagine what one’s days would look like without writing, one will likely soon realise that in literate communities, life without literacy appears almost unthinkable. As a mode of communication fundamentally different from speech, writing fulfils numerous functions. Many of these have developed only in the recent past, which led to a noticeable increase of contexts in which writing is used. Due to digitalisation, for example, writing has become a very convenient and easy way of communicating. As its use in messenger services and social media shows, it is strikingly flexible with respect to degrees of formality and registers. At the same time, it is also a deeply personal and social matter as individuals and even entire cultures use it to convey their identities – be it through the choice of a specific script (such as the Roman script), the appearance of one’s handwriting in different contexts (e.g., on a shopping list vs. in a handwritten letter to a friend), the use of a specific typeface when designing a document, or the decision to obey or disobey orthographic norms, to mention only a few examples. These underline that virtually every conscious and also unconscious choice made in writing is a form of social action."
-    ""
-    "It is precisely for this reason that many people perceive writing as a skill intimately tied to themselves, so much so that it could be argued that in literate communities, writing is regarded as a common good. It is to be expected, then, that matters concerning writing potentially result in heated debates. Take as examples discussions surrounding spelling reforms, the abolishment of cursive handwriting in early literacy instruction, or the question of whether certain emojis count as written words and lead to a decay of writing. Against this background, it is undeniable that writing has ceased to stand in the shadow of speech. It is obviously no longer the conservative technique reserved for scribes of the elite that it had been in ancient societies. Instead, it is now firmly established as an integral part of many lives. As such, it has also gained relevance as a subject of research, leading to the necessity and emergence of a field devoted to it."
+    "Writing is a cultural technology that has changed humankind by shaping the way we think and the way we communicate. The role it plays in our everyday lives in most modern societies is so vital that it is almost impossible to overstate its relevance. Indeed, when trying to imagine what one’s days would look like without writing, one will likely soon realise that in literate communities, life without literacy appears almost unthinkable. As a mode of communication fundamentally different from speech, writing fulfils numerous functions. Many of these have developed only in the recent past, which led to a noticeable increase of contexts in which writing is used. Due to digitalisation, for example, writing has become a very convenient and easy way of communicating. As its use in messenger services and social media shows, it is strikingly flexible with respect to degrees of formality and registers. At the same time, it is also a deeply personal and social matter as individuals and even entire cultures use it to convey their identities – be it through the choice of a specific script (such as the Roman script), the appearance of one’s handwriting in different contexts (e.g., on a shopping list vs. in a handwritten letter to a friend), the use of a specific typeface when designing a document, or the decision to obey or disobey orthographic norms, to mention only a few examples. These underline that virtually every conscious and also unconscious choice made in writing is a form of social action.(CR)(CR)It is precisely for this reason that many people perceive writing as a skill intimately tied to themselves, so much so that it could be argued that in literate communities, writing is regarded as a common good. It is to be expected, then, that matters concerning writing potentially result in heated debates. Take as examples discussions surrounding spelling reforms, the abolishment of cursive handwriting in early literacy instruction, or the question of whether certain emojis count as written words and lead to a decay of writing. Against this background, it is undeniable that writing has ceased to stand in the shadow of speech. It is obviously no longer the conservative technique reserved for scribes of the elite that it had been in ancient societies. Instead, it is now firmly established as an integral part of many lives. As such, it has also gained relevance as a subject of research, leading to the necessity and emergence of a field devoted to it."
   annotation: >-
     "An Overview of Grapholinguistics"
 michalowski1996:
@@ -3832,11 +3745,7 @@ moran2014:
   date: "2014"
   keywords: [script-arab, lang-skr]
   abstract: >-
-    "There are 48 consonant and 35 vowels, Total phonemes are 83. Out of which 9 are single  vowel."
-    ""
-    "سرائیکی وچ 48 کانسن انٹ تے 35 واول کل 83 آوازاں ہن۔ انہاں وچوں کلہے کانسن انٹ 28 ہن۔ 15ڈبل کانسن انٹ ، 3 سی ڈینٹل ت ،ج د ، تے 2 سی ڈیینٹل سی تھ ، دھ ہن۔ 9 واول، 9 مد آلے واوال ، 14 مرکب واول وی وی مختلف ، 3 واول واول کانسن انٹ ہن۔ کل واول 35 ہن۔ شیکل وھ تے ݨھ دا ذکر وی کیتے۔<"
-    ""
-    "سرائیکی الف بے دے مطابق الف، ھ ، ء ، ے دے علاوہ باقی 41 کانسن انٹ، پندرھاں ݙو چشمی ھ آلے تے ڈو مخلوط نون غنہ آلے کل 58 کانسن انٹ ہن تے سولھاں واول ہن۔"
+    "There are 48 consonant and 35 vowels, Total phonemes are 83. Out of which 9 are single  vowel.(CR)(CR)سرائیکی وچ 48 کانسن انٹ تے 35 واول کل 83 آوازاں ہن۔ انہاں وچوں کلہے کانسن انٹ 28 ہن۔ 15ڈبل کانسن انٹ ، 3 سی ڈینٹل ت ،ج د ، تے 2 سی ڈیینٹل سی تھ ، دھ ہن۔ 9 واول، 9 مد آلے واوال ، 14 مرکب واول وی وی مختلف ، 3 واول واول کانسن انٹ ہن۔ کل واول 35 ہن۔ شیکل وھ تے ݨھ دا ذکر وی کیتے۔<(CR)(CR)سرائیکی الف بے دے مطابق الف، ھ ، ء ، ے دے علاوہ باقی 41 کانسن انٹ، پندرھاں ݙو چشمی ھ آلے تے ڈو مخلوط نون غنہ آلے کل 58 کانسن انٹ ہن تے سولھاں واول ہن۔"
   annotation: >-
     "Consonants and Vowels in Saraiki"
 morey2005:
@@ -4184,9 +4093,7 @@ mumin2013:
   abstract: >-
     "The Arabic script in Africa contains sixteen papers on the past and present use of Arabic script to write African languages. These writing traditions, which are sometimes collectively referred to as Ajami, are discussed for single or multiple languages, with examples from all major linguistic phyla of Africa but one (Khoisan), and from all geographic areas of Africa (North, West, Central, East, and South Africa), as well as a paper on the Ajami heritage in the Americas. The papers analyze (ethno-) historical, literary, (socio-) linguistic, and in particular grammatological aspects of these previously understudied writing traditions and exemplify their range and scope, providing new data for the comparative study of writing systems, literacy in Africa, and the history of (Islam in) Africa."
   annotation: >-
-    "This book is relevant for the history of knowledge and literacy in (Islamic) Africa, the linguistic study of writing systems (Grammatology), the socio-linguistics of writing, and orthography development and standardization."
-    ""
-    "A comprehensive review of this book is also available."
+    "This book is relevant for the history of knowledge and literacy in (Islamic) Africa, the linguistic study of writing systems (Grammatology), the socio-linguistics of writing, and orthography development and standardization.(CR)(CR)A comprehensive review of this book is also available."
 naden1980:
   entrytype: "@book"
   title: "Mampruli Spelling Guide"
@@ -5645,11 +5552,7 @@ rake:
   urldate: "2010-05-18"
   keywords: [script-plrd]
   abstract: >-
-    "The Pollard script and its equivalent in the Romanized script."
-    ""
-    "Sounds borrowed from Chinese"
-    ""
-    "The Romanized script and its equivalent in Pollard script."
+    "The Pollard script and its equivalent in the Romanized script.(CR)(CR)Sounds borrowed from Chinese(CR)(CR)The Romanized script and its equivalent in Pollard script."
 ratliff1996:
   entrytype: "@inbook"
   title: "The Pahawh Hmong Script"
@@ -5759,9 +5662,7 @@ roberts2014:
   number: "2"
   keywords: [script-arab]
   annotation: >-
-    "This is an excellent review of the book: The Arabic script in Africa: Studies in the use of a writing system."
-    ""
-    "The link below is the official version of the review. However, it does require a subscription. The review is also currently downloadable as a preprint copy available from the reviewers academic website."
+    "This is an excellent review of the book: The Arabic script in Africa: Studies in the use of a writing system.(CR)(CR)The link below is the official version of the review. However, it does require a subscription. The review is also currently downloadable as a preprint copy available from the reviewers academic website."
 robofont:
   entrytype: "@online"
   entrysubtype: f
@@ -6023,9 +5924,7 @@ sherwood2011:
   date: "2011-04-30"
   keywords: [script-sunu]
   annotation: >-
-    "Glyph of the Day is a website set up by Kaitlin Duck Sherwood to give a snapshot of a different script every day, often with a focus on a particular character. On April 30th, 2011 the site featured the Jenticha script."
-    ""
-    "(Please note that the Jenticha Unicode proposal linked to from this web page has been superseded by a newer version.)"
+    "Glyph of the Day is a website set up by Kaitlin Duck Sherwood to give a snapshot of a different script every day, often with a focus on a particular character. On April 30th, 2011 the site featured the Jenticha script.(CR)(CR)(Please note that the Jenticha Unicode proposal linked to from this web page has been superseded by a newer version.)"
 shoulson:
   entrytype: "@online"
   title: "Overview of Visible Speech"
@@ -6259,9 +6158,7 @@ song2010:
   number: "2"
   keywords: [script-hang, script-latn, lang-deu, lang-kor]
   annotation: >-
-    "This article is based on the linguistic theory of optimality, which proposes that language forms come about as a result of interactions between conflicting constraints. The article analyses the interaction between visibility and simplicity and its influence on orthographic forms. This interaction is represented by visual markers for vowel length and the restriction on the doubling of a vowel in German orthography, and by historical changes of letter shape and grapheme insertion in Korean orthography. The authors conclude that the interaction between visibility and simplicity results in two types of orthographic syllable in both German and Korean, and that these can be classified as either invisible or visible. "
-    ""
-    "Please note that this article requires a subscription to the journal in order to view it in full; if you are not a regular subscriber there is also an option to purchase short-term access to the article."
+    "This article is based on the linguistic theory of optimality, which proposes that language forms come about as a result of interactions between conflicting constraints. The article analyses the interaction between visibility and simplicity and its influence on orthographic forms. This interaction is represented by visual markers for vowel length and the restriction on the doubling of a vowel in German orthography, and by historical changes of letter shape and grapheme insertion in Korean orthography. The authors conclude that the interaction between visibility and simplicity results in two types of orthographic syllable in both German and Korean, and that these can be classified as either invisible or visible. (CR)(CR)Please note that this article requires a subscription to the journal in order to view it in full; if you are not a regular subscriber there is also an option to purchase short-term access to the article."
 sourcetree:
   entrytype: "@online"
   entrysubtype: f
@@ -8528,9 +8425,7 @@ stern1968:
   number: "1"
   keywords: [script-leke, script-mymr, lang-kjp]
   annotation: >-
-    "While he was engaged in a study of bilingualism among the Karen of western Thailand, the writer encountered three scripts which had been developed for Pwo Karen out of two writing systems closely related to each other, those of the Mon and the Burmese. The first is known as the \"Mission script\", the second is called \"Phu Ta Maik\" or \"Monastic script\" and the third system is closely related with the Leke sect, a millenarian Buddhist movement among the Karen. This third system is often called \"chicken-scratch writing\"."
-    ""
-    "Please note that this article can only be accessed from a library (or other institution) with a JSTOR subscription."
+    "While he was engaged in a study of bilingualism among the Karen of western Thailand, the writer encountered three scripts which had been developed for Pwo Karen out of two writing systems closely related to each other, those of the Mon and the Burmese. The first is known as the \"Mission script\", the second is called \"Phu Ta Maik\" or \"Monastic script\" and the third system is closely related with the Leke sect, a millenarian Buddhist movement among the Karen. This third system is often called \"chicken-scratch writing\".(CR)(CR)Please note that this article can only be accessed from a library (or other institution) with a JSTOR subscription."
 stern2004:
   entrytype: "@inproceedings"
   title: "Aleph=X, or contemporary Hebrew bad type"
@@ -8653,9 +8548,7 @@ tiwari2011:
   number: "2"
   keywords: [script-mlym, lang-mal]
   annotation: >-
-    "Literature on the acquisition of reading is mainly based on alphabetic orthographies and is largely silent on alphasyllabic orthographies. This article presents a study into the understanding of akshara (the orthographic unit of an alphasyllabary) in a group of Grade three children learning to read Malayalam. The study found that, by Grade three, the children had mastered independent vowels and consonants with inherent vowels. However, they did not have a good grasp of consonants with vowel diacritics and consonant clusters. These findings are discussed in the article in the context of similar studies in other alphasyllabaries and alphabetic orthographies. "
-    ""
-    "Please note that, in order to read this article, you must either purchase short-term access to it, or be a subscriber to the journal."
+    "Literature on the acquisition of reading is mainly based on alphabetic orthographies and is largely silent on alphasyllabic orthographies. This article presents a study into the understanding of akshara (the orthographic unit of an alphasyllabary) in a group of Grade three children learning to read Malayalam. The study found that, by Grade three, the children had mastered independent vowels and consonants with inherent vowels. However, they did not have a good grasp of consonants with vowel diacritics and consonant clusters. These findings are discussed in the article in the context of similar studies in other alphasyllabaries and alphabetic orthographies. (CR)(CR)Please note that, in order to read this article, you must either purchase short-term access to it, or be a subscriber to the journal."
 toba2005:
   entrytype: "@misc"
   title: "Diversity and Endangerment of Languages in Nepal"
@@ -8812,9 +8705,7 @@ tzu-jung2011:
   number: "1"
   keywords: [script-hani, lang-zho]
   annotation: >-
-    "In written Chinese, words are not separated by spaces, which may make parsing text into words difficult. This article presents a study in which second-graders, fifth-graders, and college students in Taiwan completed a word parsing task to test whether the length of time that a child has been literate has any bearing on their understanding of the concept of the metalinguistic term word. The study suggests that even second graders are aware of core properties of words, although the concept of word continues to develop as children acquire literacy experience. "
-    ""
-    "Please note that you will need to purchase access to this article, or be a regular subscriber to the journal, in order to access it."
+    "In written Chinese, words are not separated by spaces, which may make parsing text into words difficult. This article presents a study in which second-graders, fifth-graders, and college students in Taiwan completed a word parsing task to test whether the length of time that a child has been literate has any bearing on their understanding of the concept of the metalinguistic term word. The study suggests that even second graders are aware of core properties of words, although the concept of word continues to develop as children acquire literacy experience. (CR)(CR)Please note that you will need to purchase access to this article, or be a regular subscriber to the journal, in order to access it."
 uax14:
   entrytype: "@online"
   entrysubtype: f
@@ -9092,9 +8983,7 @@ venugopalan1983:
   location: "St. Peter, MN"
   keywords: [script-gran]
   annotation: >-
-    "This book describes the features and workings of the Grantha script, and explains how to write and pronounce the characters used. Charts of conjunct forms are provided, and characters exhibiting special behaviours are dealt with separately, in detail."
-    ""
-    "The book is available online at the link below, courtesy of the Digital South Asia Library."
+    "This book describes the features and workings of the Grantha script, and explains how to write and pronounce the characters used. Charts of conjunct forms are provided, and characters exhibiting special behaviours are dealt with separately, in detail.(CR)(CR)The book is available online at the link below, courtesy of the Digital South Asia Library."
 viet-nom:
   entrytype: "@online"
   title: "Vietnamese Nôm Preservation Foundation"
@@ -9132,9 +9021,7 @@ w3c-arabic-persian:
   date: "2021-05-21"
   keywords: [script-arab, lang-fas, lang-ara]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Arabic and Persian using the Arabic script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Arabic and Persian using the Arabic script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-bengali:
   entrytype: "@online"
   title: "Bengali Gap Analysis"
@@ -9145,9 +9032,7 @@ w3c-bengali:
   date: "2021-05-25"
   keywords: [script-beng, lang-ben, lang-asm, lang-mni]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing the Assamese, Bangla, and Manipuri (Meitei) languages using the Bengali script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders. "
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing the Assamese, Bangla, and Manipuri (Meitei) languages using the Bengali script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders. (CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-cherokee:
   entrytype: "@online"
   title: "Cherokee Gap Analysis"
@@ -9158,9 +9043,7 @@ w3c-cherokee:
   date: "2021-05-21"
   keywords: [script-cher, lang-chr]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Cherokee using the Cherokee script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Cherokee using the Cherokee script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-chinese:
   entrytype: "@online"
   title: "Chinese Layout Gap Analysis"
@@ -9171,9 +9054,7 @@ w3c-chinese:
   date: "2021-11-19"
   keywords: [script-hant, script-hans, lang-zho]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Chinese using either the Simplified or Traditional Chinese script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Chinese using either the Simplified or Traditional Chinese script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-devanagari:
   entrytype: "@online"
   title: "Devanagari Gap Analysis"
@@ -9184,9 +9065,7 @@ w3c-devanagari:
   date: "2021-05-25"
   keywords: [script-deva, lang-mar, lang-hin]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Hindi and Marathi using the Devanagari script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Hindi and Marathi using the Devanagari script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-dutch:
   entrytype: "@online"
   title: "Dutch Gap Analysis"
@@ -9197,9 +9076,7 @@ w3c-dutch:
   date: "2021-08-11"
   keywords: [script-latn, lang-nld]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Dutch using the Latin script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Dutch using the Latin script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-ethiopic:
   entrytype: "@online"
   title: "Ethiopic Layout Gap Analysis"
@@ -9210,9 +9087,7 @@ w3c-ethiopic:
   date: "2021-05-24"
   keywords: [script-ethi, lang-amh, lang-tir]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Amharic and Tigrigna using the Ethiopic script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Amharic and Tigrigna using the Ethiopic script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-french:
   entrytype: "@online"
   title: "French Gap Analysis"
@@ -9223,9 +9098,7 @@ w3c-french:
   date: "2021-05-25"
   keywords: [script-latn, lang-fra]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing French using the Latin script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing French using the Latin script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-georgian:
   entrytype: "@online"
   title: "Georgian Gap Analysis"
@@ -9236,9 +9109,7 @@ w3c-georgian:
   date: "2021-05-24"
   keywords: [script-geor, lang-kat]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Georgian using the Georgian script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Georgian using the Georgian script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-german:
   entrytype: "@online"
   title: "German Gap Analysis"
@@ -9249,9 +9120,7 @@ w3c-german:
   date: "2021-05-25"
   keywords: [script-latn, lang-deu]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing German using the Latin script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing German using the Latin script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-gujarati:
   entrytype: "@online"
   title: "Gujarati Gap Analysis"
@@ -9262,9 +9131,7 @@ w3c-gujarati:
   date: "2021-05-25"
   keywords: [script-gujr, lang-guj]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Gujarati using the Gujarati script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Gujarati using the Gujarati script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-gurmukhi:
   entrytype: "@online"
   title: "Gurmukhi Gap Analysis"
@@ -9275,9 +9142,7 @@ w3c-gurmukhi:
   date: "2021-05-25"
   keywords: [script-guru, lang-pan]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Punjabi using the Gurmukhi script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Punjabi using the Gurmukhi script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-hebrew:
   entrytype: "@online"
   title: "Hebrew Gap Analysis"
@@ -9299,9 +9164,7 @@ w3c-hungarian:
   date: "2021-05-25"
   keywords: [script-latn, lang-hun]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Hungarian using the Latin script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Hungarian using the Latin script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-inuktitut-cree:
   entrytype: "@online"
   title: "Inuktitut and Cree Gap Analysis"
@@ -9312,9 +9175,7 @@ w3c-inuktitut-cree:
   date: "2021-05-21"
   keywords: [script-cans, lang-iku, lang-crk]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Inuktitut and Cree using Canadian Syllabics. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Inuktitut and Cree using Canadian Syllabics. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-japanese:
   entrytype: "@online"
   title: "Japanese Gap Analysis"
@@ -9325,9 +9186,7 @@ w3c-japanese:
   date: "2021-11-22"
   keywords: [script-jpan, lang-jpn]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Japanese using the Japanese script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Japanese using the Japanese script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-javanese:
   entrytype: "@online"
   title: "Javanese Script Gap Analysis"
@@ -9338,9 +9197,7 @@ w3c-javanese:
   date: "2021-05-25"
   keywords: [script-java, lang-jav]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Javanese using the Javanese script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Javanese using the Javanese script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-khmer:
   entrytype: "@online"
   title: "Khmer Gap Analysis"
@@ -9351,9 +9208,7 @@ w3c-khmer:
   date: "2021-05-25"
   keywords: [script-khmr, lang-khm]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Cambodian using the Khmer script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Cambodian using the Khmer script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-lao:
   entrytype: "@online"
   title: "Lao Gap Analysis"
@@ -9364,9 +9219,7 @@ w3c-lao:
   date: "2021-05-25"
   keywords: [script-laoo, lang-lao]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Lao using the Lao script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Lao using the Lao script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-modern-greek:
   entrytype: "@online"
   title: "Modern Greek Gap Analysis"
@@ -9377,9 +9230,7 @@ w3c-modern-greek:
   date: "2021-05-25"
   keywords: [script-grek, lang-ell]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Greek using the Modern Greek script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Greek using the Modern Greek script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-mongolian:
   entrytype: "@online"
   title: "Mongolian Gap Analysis"
@@ -9390,9 +9241,7 @@ w3c-mongolian:
   date: "2021-11-17"
   keywords: [script-mong, lang-mon]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Mongolian using the Mongolian script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Mongolian using the Mongolian script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-nko:
   entrytype: "@online"
   title: "N'Ko Gap Analysis"
@@ -9403,9 +9252,7 @@ w3c-nko:
   date: "2021-12-02"
   keywords: [script-nkoo, lang-nqo]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing N'Ko using the N'Ko script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing N'Ko using the N'Ko script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-osage:
   entrytype: "@online"
   title: "Osage Gap Analysis"
@@ -9416,9 +9263,7 @@ w3c-osage:
   date: "2021-05-24"
   keywords: [script-osge, lang-osa]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Osage using the Osage script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Osage using the Osage script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-tamil:
   entrytype: "@online"
   title: "Tamil Gap Analysis"
@@ -9429,9 +9274,7 @@ w3c-tamil:
   date: "2021-05-25"
   keywords: [script-taml, lang-tam]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Tamil using the Tamil script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Tamil using the Tamil script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-thai:
   entrytype: "@online"
   title: "Thai Gap Analysis"
@@ -9442,9 +9285,7 @@ w3c-thai:
   date: "2021-05-25"
   keywords: [script-thai, lang-tha]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Thai using the Thai script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Thai using the Thai script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 w3c-tibetan:
   entrytype: "@online"
   title: "Tibetan Gap Analysis"
@@ -9455,9 +9296,7 @@ w3c-tibetan:
   date: "2021-05-25"
   keywords: [script-tibt, lang-bod]
   annotation: >-
-    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Tibetan using the Tibetan script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders."
-    ""
-    "This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+    "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Tibetan using the Tibetan script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
 waddell2016:
   entrytype: "@article"
   title: "The Alphabet That Will Save a People From Disappearing"
@@ -9479,9 +9318,7 @@ walters2015:
   publisher: SIL International
   keywords: [script-yiii, lang-iii]
   abstract: >-
-    "The standard written form of Nuosu Yi includes 1,165 symbols. The symbols correspond to phonemic syllables as spoken in the Shengzha variety of Northern Yi. Aspiring readers of Nuosu Yi text must memorize this sound-symbol correspondence. Studies across languages and writing systems have shown that early study of frequently used symbols can speed learning progress. (Dale and Chall 1948; Hu and Catts 1998; Johnson, Smith, and Jensen 1972)"
-    ""
-    "While software exists for doing corpus-based analysis of Yi language data (Chen 2010; 2011), until now the literature lacked an ordered list of frequently used Nuosu syllables. This study lists Nuosu Yi syllables in order of their frequency of occurrence in a body of text. The corpus includes nine texts, containing a total of 23,536 syllables. In the sample, 783 unique syllables occurred at least once. The cumulative usage data show that a person with reading knowledge of 402 symbols (of the available 1,165) could have read 95% of our text sample. The Nuosu Yi syllable frequency data are also compared with Mandarin Chinese syllable frequency (Sung 2005)."
+    "The standard written form of Nuosu Yi includes 1,165 symbols. The symbols correspond to phonemic syllables as spoken in the Shengzha variety of Northern Yi. Aspiring readers of Nuosu Yi text must memorize this sound-symbol correspondence. Studies across languages and writing systems have shown that early study of frequently used symbols can speed learning progress. (Dale and Chall 1948; Hu and Catts 1998; Johnson, Smith, and Jensen 1972)(CR)(CR)While software exists for doing corpus-based analysis of Yi language data (Chen 2010; 2011), until now the literature lacked an ordered list of frequently used Nuosu syllables. This study lists Nuosu Yi syllables in order of their frequency of occurrence in a body of text. The corpus includes nine texts, containing a total of 23,536 syllables. In the sample, 783 unique syllables occurred at least once. The cumulative usage data show that a person with reading knowledge of 402 symbols (of the available 1,165) could have read 95% of our text sample. The Nuosu Yi syllable frequency data are also compared with Mandarin Chinese syllable frequency (Sung 2005)."
   annotation: >-
     "List of Nuosu Yi syllables by frequency, with analysis and comparison to similar data for Mandarin Chinese syllables."
 wathabunditkul2003:
@@ -12156,9 +11993,7 @@ wyrod2008:
   number: "192"
   keywords: [script-nkoo]
   abstract: >-
-    "This article explores the development and spread of the N'ko script among Mande communities in West Africa. N'ko presents a rare example of an indigenous script that has successfully competed against other writing systems that are older, better financed, and propagated in religious and formal education. N'ko script is studied in relation to its role as one of the most popular and widespread indigenous scripts in contemporary West Africa. The social relevance of N'ko literacy is contrasted with colonial and national literacy education programs. N'ko's popularity is shown to result from the script's strong linguistic and cultural relevance to Mande communities through its faithful transcription of local languages and its corpus of publications on indigenous and foreign knowledge. The introduction of formal schooling in N'ko is analyzed as a significant recent shift in the literacy movement that presents new opportunities and challenges. The internationalization of the movement is shown to have strengthened support for N'ko literacy, with N'ko serving as an important contemporary symbol of Mande social identity, which the author terms its “social orthography.” However, N'ko's strong association with Mande identity also threatens to limit the literacy movement's future development."
-    ""
-    "The article is available for purchase via the link above."
+    "This article explores the development and spread of the N'ko script among Mande communities in West Africa. N'ko presents a rare example of an indigenous script that has successfully competed against other writing systems that are older, better financed, and propagated in religious and formal education. N'ko script is studied in relation to its role as one of the most popular and widespread indigenous scripts in contemporary West Africa. The social relevance of N'ko literacy is contrasted with colonial and national literacy education programs. N'ko's popularity is shown to result from the script's strong linguistic and cultural relevance to Mande communities through its faithful transcription of local languages and its corpus of publications on indigenous and foreign knowledge. The introduction of formal schooling in N'ko is analyzed as a significant recent shift in the literacy movement that presents new opportunities and challenges. The internationalization of the movement is shown to have strengthened support for N'ko literacy, with N'ko serving as an important contemporary symbol of Mande social identity, which the author terms its “social orthography.” However, N'ko's strong association with Mande identity also threatens to limit the literacy movement's future development.(CR)(CR)The article is available for purchase via the link above."
   annotation: >-
     "An article on the N'ko script and its usage."
 xetex:
@@ -12209,9 +12044,7 @@ yun2011:
   number: "1"
   keywords: [script-hani, lang-cmn]
   annotation: >-
-    "This study tested the effects of interword spacing on the speed and comprehension of readers of Mandarin Chinese as a second language. Chinese is not normally written with interword spacing. The results showed that readers whose first language was written in spaced fashion were not affected by the artificially added interword spacing in the Chinese texts, while readers whose first language was written in unspaced fashion were slowed down by the artificially added interword spacing. "
-    ""
-    "Please note that, in order to read this article, you must either purchase short-term access to it, or be a subscriber to the journal."
+    "This study tested the effects of interword spacing on the speed and comprehension of readers of Mandarin Chinese as a second language. Chinese is not normally written with interword spacing. The results showed that readers whose first language was written in spaced fashion were not affected by the artificially added interword spacing in the Chinese texts, while readers whose first language was written in unspaced fashion were slowed down by the artificially added interword spacing. (CR)(CR)Please note that, in order to read this article, you must either purchase short-term access to it, or be a subscriber to the journal."
 zaske2014:
   entrytype: "@book"
   title: "Atɩgɩkrǝ anii kʊŋɔn - Mbʊpa nnantaja : A comprehensive Anii orthography (in French)"
@@ -12224,15 +12057,9 @@ zaske2014:
   location: "Bassila, Benin"
   keywords: [lang-blo]
   abstract: >-
-    "Ce document est le Tome 4 dans une série qui documente le développement de l'écriture de la langue anii dès le début jusqu'à l'adoption de son orthographe en 2012/2013."
-    ""
-    "Ce Tome 4 contient l'alphabet anii aussi bien que toutes les règles de l'orthographe grammaticale qui définissent l'écriture de la phrase. Ces aspects de l'orthographe sont complètés par l'orthographe lexicale de chaque mot qui se trouve dans le Dictionnaire anii-français — français-anii appelé Cabɩ. Pour maîtriser l'orthographe entière, il faut les deux ouvrages."
-    ""
-    "Le présent ouvrage est une description technique le l'orthographe avec toutes ses règles aussi bien que les bases de grammaire et de phonologie nécessaires pour comprendre l'orthographe. Il nécessite la maîtrise d'un certain niveau de grammaire et de vocabulaire technique linguistique."
+    "Ce document est le Tome 4 dans une série qui documente le développement de l'écriture de la langue anii dès le début jusqu'à l'adoption de son orthographe en 2012/2013.(CR)(CR)Ce Tome 4 contient l'alphabet anii aussi bien que toutes les règles de l'orthographe grammaticale qui définissent l'écriture de la phrase. Ces aspects de l'orthographe sont complètés par l'orthographe lexicale de chaque mot qui se trouve dans le Dictionnaire anii-français — français-anii appelé Cabɩ. Pour maîtriser l'orthographe entière, il faut les deux ouvrages.(CR)(CR)Le présent ouvrage est une description technique le l'orthographe avec toutes ses règles aussi bien que les bases de grammaire et de phonologie nécessaires pour comprendre l'orthographe. Il nécessite la maîtrise d'un certain niveau de grammaire et de vocabulaire technique linguistique."
   annotation: >-
-    "Écriture de la langue anii - Tome 4 - presenting version 1.1 of the orthography:"
-    ""
-    "\"Ce Tome 4 est le Guide d'orthographe pour la langue anii. Il contient toutes les règles avec des exemples de leur application.\""
+    "Écriture de la langue anii - Tome 4 - presenting version 1.1 of the orthography:(CR)(CR)\"Ce Tome 4 est le Guide d'orthographe pour la langue anii. Il contient toutes les règles avec des exemples de leur application.\""
 zawaydeh2007:
   entrytype: "@inproceedings"
   title: "A Profile of Arabic Script Languages"
@@ -12256,9 +12083,7 @@ zenkouar2004:
   volume: "22"
   keywords: [script-tfng]
   annotation: >-
-    "This article, written in French, discusses previous encoding models for Tifinagh, then explains the advantages of using the standard Unicode encoding. The article also describes the process by which Tifinagh was accepted into the Unicode standard."
-    ""
-    "The article can be downloaded in PDF format from the link below."
+    "This article, written in French, discusses previous encoding models for Tifinagh, then explains the advantages of using the standard Unicode encoding. The article also describes the process by which Tifinagh was accepted into the Unicode standard.(CR)(CR)The article can be downloaded in PDF format from the link below."
 zhang1986:
   entrytype: "@book"
   title: "Liangshan Yiyu yuyin yu wenzi 凉山彝语语音与文字 [Liangshan Yi Language Sounds and Symbols]"
@@ -12284,9 +12109,7 @@ zhang2011:
   number: "1"
   keywords: [script-hani, script-hans, script-hant, lang-zho]
   annotation: >-
-    "This article discusses the diversity of Chinese learning environments, and explains how this diversity can affect the process of literacy acquisition. The article looks at literacy acquisition amongst children who speak a different language or dialect at home from the one they are taught in school, at the difference between children who are taught the traditional Han script and those who are taught the simplified form, and at the impact that a phonological coding system has, when used as an aid to Chinese word recognition. "
-    ""
-    "Please note that only subscribers to the journal can view the full article for free; if you are not a subscriber you will need to purchase short-term access."
+    "This article discusses the diversity of Chinese learning environments, and explains how this diversity can affect the process of literacy acquisition. The article looks at literacy acquisition amongst children who speak a different language or dialect at home from the one they are taught in school, at the difference between children who are taught the traditional Han script and those who are taught the simplified form, and at the impact that a phonological coding system has, when used as an aid to Chinese word recognition. (CR)(CR)Please note that only subscribers to the journal can view the full article for free; if you are not a subscriber you will need to purchase short-term access."
 zhukov1999:
   entrytype: "@book"
   title: "Kyrillitsa '99"
