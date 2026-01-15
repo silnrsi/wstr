@@ -20,21 +20,38 @@ const stype = sObj?.data.entrytype;
 // const presortStr = (sObj?.data.presort ?? '').toString();
 // const omitAuthor = (presortStr !== '');
 
+let titleString = sObj?.data.title ?? '';
+
+let lastChar = titleString[titleString.length-1];
+let titleEndsWithPunct = (lastChar == '.' || lastChar == '!' || lastChar == '?');
+let titleEndPunct = '.';
+if (titleEndsWithPunct) {
+	titleEndPunct = '';
+}
+
 let authorString = sObj?.data.author ?? '';
 const authorList = authorString.split(" and ");
 const aLen = authorList.length;
 if (aLen > 2) {
 	// convert 'Bob and Martin and Peter' to 'Bob, Martin, and Peter'.
-	// TODO: change to 'Bob, et al.' as required by MLA
-	let result = authorList[0];
-	for (let i = 1; i < aLen - 1; i++) {
-		result = result.concat(', '.concat(authorList[i]));
-	}
-	authorString = result.concat(', and '.concat(authorList[aLen-1]));
+	// TODO: change to 'Bob, et al.' as required by MLA -- no, just use "et al."
+	// let result = authorList[0];
+	// for (let i = 1; i < aLen - 1; i++) {
+	// 	result = result.concat(', '.concat(authorList[i]));
+	// }
+	// authorString = result.concat(', and '.concat(authorList[aLen-1]));
+
+	authorString = authorList[0].concat(", et al.");
 }
+
 let editorString = sObj?.data.editor ?? '';
+const editorList = editorString.split(" and ");
+if (editorList.length > 2) {
+	editorString = editorList[0].concat(", et al.");
+}
+
 if (authorString === '' && editorString !== '') {
-	if (editorString.includes(' and ')) {
+	if (editorString.includes(' and ') || editorString.includes(' et al')) {
 		authorString = `${editorString}, eds.`;
 	} else {
 		authorString = `${editorString}, ed.`;
@@ -51,10 +68,9 @@ if (sortNameStr != '' && authorString.indexOf(spSortName) > 0) {
 	authorString = sortNameStr.concat(', '.concat(authorString.replace(spSortName, '')));
 }
 
-let astrLen = authorString.length;
-if (authorString[astrLen-1] == '.') {
-	// Remove redundant '.'
-	authorString = authorString.substring(0, astrLen-1);
+if (authorString[authorString.length-1] == '.') {
+	// Remove redundant final '.'
+	authorString = authorString.substring(0,authorString.length-1);
 }
 
 let orgString = sObj?.data.organization ?? '';
@@ -104,13 +120,13 @@ if (stype == "@online") {
 }
 
 let addendumString = sObj?.data.addendum ?? '';
-addendumString = addendumString.replaceAll('[CR][CR]', '<br/>');
+// addendumString = addendumString.replaceAll('[CR][CR]', '<br/>');
 
 let annotationString = sObj?.data.annotation ?? '';
-annotationString = annotationString.replaceAll('[CR][CR]', '<br/>');
+// annotationString = annotationString.replaceAll('[CR][CR]', '<br/>');
 
 let abstractString = sObj?.data.abstract ?? '';
-abstractString = abstractString.replaceAll('[CR][CR]', '<br/>');
+// abstractString = abstractString.replaceAll('[CR][CR]', '<br/>');
 
 ---
 
@@ -132,19 +148,28 @@ abstractString = abstractString.replaceAll('[CR][CR]', '<br/>');
 		
 		<!-- There should always be a title. -->
 		{stype === '@book' ? (
-			<em>{sObj.data.title}. </em>
+			<><em>{sObj.data.title}</em>{titleEndPunct}&#x20;</>
 
 		) : (stype === '@inbook' || stype === '@article' || stype === '@inproceedings') ? (
-			<>&ldquo;{sObj.data.title}.&rdquo; </>
+			<>&ldquo;{sObj.data.title}&rdquo;{titleEndPunct}&#x20;</>
 
 		) : (stype === '@online') ? (
 			<>
 				{	(isFullSite) ?
-					( <em>{sObj.data.title}, </em>
-					) : ( <>&ldquo;{sObj.data.title},&rdquo; </> )
+					( <em>{sObj.data.title}{titleEndPunct}&#x20;</em>
+					) : ( <>&ldquo;{sObj.data.title}&rdquo;{titleEndPunct}&#x20;</> )
 				}
+
+				<!-- Extra sequence for online items. -->
 				{	(orgString != '' && !isFullSite) ? (
-						<><em>{orgString}</em>,&#x20;</>
+						<>
+							<em>{orgString}</em>
+							{	(urlOnline !== '' ) ? (
+									<>, </>
+								)	: <>.</>
+							}	
+						</>
+
 					) : null
 				}
 				{	( urlOnline != '') ? (
@@ -154,7 +179,7 @@ abstractString = abstractString.replaceAll('[CR][CR]', '<br/>');
 			</>
 	
 		) : (
-			<>&ldquo;{sObj.data.title}.&rdquo; </>
+			<>&ldquo;{sObj.data.title}&rdquo;{titleEndPunct}&#x20;</>
 			)
 		}
 
@@ -162,7 +187,7 @@ abstractString = abstractString.replaceAll('[CR][CR]', '<br/>');
 
 		{	(stype != '@online' && (largerWork != "" || seriesString != "")) ? ( 
 			<>
-			{ (largerWork != "") ? <em>{largerWork}</em> : <>{seriesString}</>}
+			{	(largerWork != "") ? <em>{largerWork}</em> : <>{seriesString}</>}
 			{	(editorString !== '' || volumeString !== '' || numberString !== '' || pubString !== '' 
 							|| dateString !== '' || pageString !== '' || urlString !== '') ? (
 					<>, </>
