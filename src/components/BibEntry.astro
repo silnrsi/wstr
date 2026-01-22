@@ -33,8 +33,7 @@ let authorString = sObj?.data.author ?? '';
 const authorList = authorString.split(" and ");
 const aLen = authorList.length;
 if (aLen > 2) {
-	// convert 'Bob and Martin and Peter' to 'Bob, Martin, and Peter'.
-	// TODO: change to 'Bob, et al.' as required by MLA -- no, just use "et al."
+	// Convert 'Bob and Martin and Peter' to 'Bob, Martin, and Peter'. -- no, just use "et al."
 	// let result = authorList[0];
 	// for (let i = 1; i < aLen - 1; i++) {
 	// 	result = result.concat(', '.concat(authorList[i]));
@@ -151,13 +150,13 @@ let abstractString = sObj?.data.abstract ?? '';
 			<><em>{sObj.data.title}</em>{titleEndPunct}&#x20;</>
 
 		) : (stype === 'inbook' || stype === 'article' || stype === 'inproceedings') ? (
-			<>&ldquo;{sObj.data.title}&rdquo;{titleEndPunct}&#x20;</>
+			<>&#x201C;{sObj.data.title}&#x201D;{titleEndPunct}&#x20;</>
 
 		) : (stype === 'online') ? (
 			<>
 				{	(isFullSite) ?
 					( <em>{sObj.data.title}{titleEndPunct}&#x20;</em>
-					) : ( <>&ldquo;{sObj.data.title}&rdquo;{titleEndPunct}&#x20;</> )
+					) : ( <>&#x201C;{sObj.data.title}&#x201D;{titleEndPunct}&#x20;</> )
 				}
 
 				<!-- Extra sequence for online items. -->
@@ -179,7 +178,7 @@ let abstractString = sObj?.data.abstract ?? '';
 			</>
 	
 		) : (
-			<>&ldquo;{sObj.data.title}&rdquo;{titleEndPunct}&#x20;</>
+			<>&#x201C;{sObj.data.title}&#x201D;{titleEndPunct}&#x20;</>
 			)
 		}
 
@@ -285,3 +284,4 @@ let abstractString = sObj?.data.abstract ?? '';
 		</>
 	) : null
 }
+
