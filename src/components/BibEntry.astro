@@ -4,7 +4,7 @@
 // Parameters:
 //     key: record id in YAML file
 //
-// Types to handle: @article, @book, @inbook, @inproceedings, @misc, @online
+// Types to handle: article, book, inbook, inproceedings, misc, online
 
 const { key } = Astro.props;
 
@@ -105,7 +105,7 @@ if (pageString !== "") {
 let urlString = sObj?.data.url ?? '';
 let urlOnline = urlString;
 let isFullSite = false;
-if (stype == "@online") {
+if (stype == "online") {
 	urlString = "";		// it will be displayed with the title
 	let u = urlOnline.replace( "https://", "");
 	u = u.replace("http://", "");
@@ -144,16 +144,16 @@ let abstractString = sObj?.data.abstract ?? '';
 			) : null
 		}
 
-		<!-- Second sequence: title, organization, @online-link -->
+		<!-- Second sequence: title, organization, online-link -->
 		
 		<!-- There should always be a title. -->
-		{stype === '@book' ? (
+		{stype === 'book' ? (
 			<><em>{sObj.data.title}</em>{titleEndPunct}&#x20;</>
 
-		) : (stype === '@inbook' || stype === '@article' || stype === '@inproceedings') ? (
+		) : (stype === 'inbook' || stype === 'article' || stype === 'inproceedings') ? (
 			<>&ldquo;{sObj.data.title}&rdquo;{titleEndPunct}&#x20;</>
 
-		) : (stype === '@online') ? (
+		) : (stype === 'online') ? (
 			<>
 				{	(isFullSite) ?
 					( <em>{sObj.data.title}{titleEndPunct}&#x20;</em>
@@ -185,7 +185,7 @@ let abstractString = sObj?.data.abstract ?? '';
 
 		<!-- Third sequence -->
 
-		{	(stype != '@online' && (largerWork != "" || seriesString != "")) ? ( 
+		{	(stype != 'online' && (largerWork != "" || seriesString != "")) ? ( 
 			<>
 			{	(largerWork != "") ? <em>{largerWork}</em> : <>{seriesString}</>}
 			{	(editorString !== '' || volumeString !== '' || numberString !== '' || pubString !== '' 
@@ -197,7 +197,7 @@ let abstractString = sObj?.data.abstract ?? '';
 			) : null
 		}
 
-		{	(stype != '@online' && editorString !== '') ? ( 
+		{	(stype != 'online' && editorString !== '') ? ( 
 			<>{editorString}
 			{	(volumeString !== '' || numberString !== '' || pubString !== '' 
 						|| dateString !== '' || pageString !== '' || urlString !== '') ? (
@@ -208,7 +208,7 @@ let abstractString = sObj?.data.abstract ?? '';
 			)	: null
 		}
 
-		{	(stype != '@online' && volumeString !== "" ) ? (
+		{	(stype != 'online' && volumeString !== "" ) ? (
 			<>{volumeString}
 			
 			{	(numberString !== '' || pubString !== '' || dateString !== '' || pageString !== '' || urlString !== '') ? (
@@ -218,7 +218,7 @@ let abstractString = sObj?.data.abstract ?? '';
 			</>	) : null
 		}
 
-		{	(stype != '@online' && numberString !== '' ) ? (
+		{	(stype != 'online' && numberString !== '' ) ? (
 			<>{numberString}
 			{	(pubString !== '' || dateString !== '' || pageString !== '' || urlString !== '') ? (
 					<>, </>
@@ -227,7 +227,7 @@ let abstractString = sObj?.data.abstract ?? '';
 			</>	) : null
 		}
 
-		{	(stype != '@online' && pubString !== '' ) ? (
+		{	(stype != 'online' && pubString !== '' ) ? (
 			<>{pubString}
 			{	(dateString !== '' || pageString !== '' || urlString !== '') ? (
 					<>, </>
@@ -236,7 +236,7 @@ let abstractString = sObj?.data.abstract ?? '';
 			</>	) : null
 		}
 
-		{	(stype != '@online' && dateString !== "" ) ? (
+		{	(stype != 'online' && dateString !== "" ) ? (
 			<>{dateString}
 			{	(pageString !== '' || urlString !== '') ? (
 					<>, </>
@@ -245,7 +245,7 @@ let abstractString = sObj?.data.abstract ?? '';
 			</>	) : null
 		}
 
-		{	(stype != '@online' && pageString !== "" ) ? (
+		{	(stype != 'online' && pageString !== "" ) ? (
 			<>{pageString}
 			{	(urlString !== '' ) ? (
 					<>, </>
@@ -254,7 +254,7 @@ let abstractString = sObj?.data.abstract ?? '';
 			</>	) : null
 		}
 
-		{	( urlString !== "" && stype != '@online') ? (
+		{	( urlString !== "" && stype != 'online') ? (
 				<><a href={urlString} target="_blank" rel="noopener noreferrer">{urlString}</a>.</>
 			) : null
 		}

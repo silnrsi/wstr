@@ -5,7 +5,20 @@
 import csv
 
 def writeString(outFile, label, value):
-	if value != '':
+	# Use quotes only if needed for special characters.
+	if value == '':
+		pass
+	elif value.find('{') >= 0 or value.find('}') >= 0 or value.find('[') >= 0 or value.find(']') >= 0:
+		writeQuoted(outFile, label, value)
+	elif value.find(',') >= 0 or value.find('&') >= 0 or value.find('*') >= 0 or value.find('#') >= 0:
+		writeQuoted(outFile, label, value)
+	elif value.find('?') >= 0 or value.find('|') >= 0 or value.find('-') >= 0 or value.find('<') >= 0:
+		writeQuoted(outFile, label, value)
+	elif value.find('>') >= 0 or value.find('=') >= 0 or value.find('!') >= 0 or value.find('%') >= 0:
+		writeQuoted(outFile, label, value)
+	elif value.find('@') >= 0 or value.find(':') >= 0:
+		writeQuoted(outFile, label, value)
+	else:
 		outFile.write("  " + label + ": " + value + "\n")
 		
 def writeQuoted(outFile, label, value):
@@ -19,6 +32,10 @@ def writeNumeric(outFile, label, value):
 			outFile.write("  " + label + ": \"" + value + "\"\n")	# could use single quote
 		else:
 			writeString(outFile, label, value)
+
+def writeNoQuotes(outFile, label, value):
+	if value != '':
+		outFile.write("  " + label + ": " + value + "\n")
 			
 def wrapText(value):  # currently unused
 	result = []
@@ -79,31 +96,31 @@ def convert_csv(inFilePath, outFilePath):
 				continue
 			
 			outFile.write(row[2] + ":\n")							# ID
-			writeQuoted(outFile,	"entrytype",		row[0])
+			writeString(outFile,	"entrytype",		row[0])
 			writeString(outFile,	"entrysubtype",		row[1])
-			writeQuoted(outFile,	"title",			row[3])
+			writeString(outFile,	"title",			row[3])
 			writeString(outFile,	"author",			row[4])
 			writeString(outFile,	"editor",			row[5])
 			writeString(outFile,	"sortname",			row[6])
-			writeQuoted(outFile,	"journaltitle",		row[7])
-			writeQuoted(outFile,	"booktitle",		row[8])
-			writeQuoted(outFile,	"series",			row[9])
+			writeString(outFile,	"journaltitle",		row[7])
+			writeString(outFile,	"booktitle",		row[8])
+			writeString(outFile,	"series",			row[9])
 			writeString(outFile,	"organization",		row[10])
 			writeString(outFile,	"presort",			row[11])
-			writeString(outFile,	"url",				row[12])
+			writeNoQuotes(outFile,	"url",				row[12])
 			writeNumeric(outFile,	"date",				row[13])
 			writeNumeric(outFile,	"urldate",			row[14])
-			writeString(outFile,	"isbn",				row[15])
-			writeString(outFile,	"issn",				row[16])
+			writeNoQuotes(outFile,	"isbn",				row[15])
+			writeNoQuotes(outFile,	"issn",				row[16])
 			writeString(outFile,	"publisher",		row[17])
-			writeQuoted(outFile,	"location",			row[18])
-			writeNumeric(outFile,	"pages",			row[19])
+			writeString(outFile,	"location",			row[18])
+			writeNoQuotes(outFile,	"pages",			row[19])
 			writeNumeric(outFile,	"volume",			row[20])
 			writeNumeric(outFile,	"number",			row[21])
 			writeList(outFile,		"keywords",			row[22])
 			writeString(outFile,	"addendum",			row[23])
-			writeText(outFile,		"abstract",			row[24])
-			writeText(outFile,		"annotation",		row[25])
+			writeQuoted(outFile,	"abstract",			row[24])
+			writeQuoted(outFile,	"annotation",		row[25])
 	return None
 
 

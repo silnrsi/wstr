@@ -4,7 +4,7 @@
 // Parameters:
 //     key: record id in YAML file
 
-// Types to handle: @article, @book, @inbook, @inproceedings, @online, @misc
+// Types to handle: article, book, inbook, inproceedings, online, misc
 
 const { key } = Astro.props;
 
@@ -57,7 +57,7 @@ if (authorString[astrLen-1] == '.') {
 }
 
 let orgStringParen = sObj?.data.organization ?? '';
-if (sObj?.data.entrytype == "@online" && orgStringParen !== '') {
+if (sObj?.data.entrytype == "online" && orgStringParen !== '') {
 	orgStringParen = "(" + orgStringParen + ")";
 }
 
@@ -88,7 +88,7 @@ if (pageString !== "") {
 }
 
 let urlString = sObj?.data.url ?? '';
-// if (stype == "@online") {
+// if (stype == "online") {
 // 	urlString = "";		// it will be displayed with the title
 // }
 

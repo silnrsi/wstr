@@ -47,15 +47,15 @@ patternProperties:
         description: A short indicator that this record has special use, which allow us to use it as a filter in lists.
         enum: [f]
       isbn:
-        description: For @book, @inbook, and @inproceedings a 10 or 13 digit International Standard Book Number, or 9 digit SBN, or CSBN.
+        description: For book, inbook, and inproceedings a 10 or 13 digit International Standard Book Number, or 9 digit SBN, or CSBN.
         type: string
         pattern: ^(?=\d{1,5}([^\d]?)\d)(?:97[89]\1)?\d{1,5}\1\d{1,7}\1\d{1,7}\1[\dX](?:/[A-Z]·\d+)?$
       issn:
-        description: "For @article an 8 digit International Standard Serial Number"
+        description: "For article an 8 digit International Standard Serial Number"
         type: string
         pattern: ^[0-9]{4}-[0-9]{3}[0-9a-zA-Z]$
       journaltitle:
-        description: For @article - the name of the journal or periodical in which the article appears.
+        description: For article - the name of the journal or periodical in which the article appears.
         type: string
       keywords:
         description: A YAML list of tags for the source, used to group related sources together.
@@ -68,17 +68,17 @@ patternProperties:
           state/province/country as well.
         type: string
       number:
-        description: For @article - the issue number of the journal in which the article appears.
+        description: For article - the issue number of the journal in which the article appears.
         type: string
       organization:
         description: >-
-          For @online - the organization responsible for the content of the webpage or website. Can
+          For online - the organization responsible for the content of the webpage or website. Can
           be a shorthand name rather the full formal name. This will be displayed after the title in
           lists of links.
         type: string
       pages:
         description: >-
-          For @article, @inbook, and @inproceedings - the page range of the article, chapter, or
+          For article, inbook, and inproceedings - the page range of the article, chapter, or
           paper within the larger work. Use startpage-endpage format.
         type: string
         pattern: ^\d+(-\d+)?$
@@ -100,7 +100,7 @@ patternProperties:
         description: The name of the publisher of the work.
         type: string
       series:
-        description: For @book - the name of the series in which the work appears, if applicable.
+        description: For book - the name of the series in which the work appears, if applicable.
         type: string
       sortname:
         description: >-
@@ -116,14 +116,14 @@ patternProperties:
       url:
         description: >-
           The URL where the work can be found online. 
-          This can be used for all source types, not just @online.
+          This can be used for all source types, not just online.
         type: string
         format: uri
       urldate:
         description: 'The date the URL was last accessed. See date: for formatting.'
         $ref: '#/$defs/date'
       volume: 
-        description: For @article - the volume number of the journal in which the article appears, in whatever format is given.
+        description: For article - the volume number of the journal in which the article appears, in whatever format is given.
         type: string
     required: [title, entrytype, keywords]
 $defs:

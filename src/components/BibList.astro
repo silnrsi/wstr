@@ -23,10 +23,10 @@ if (tag == "all") {
 
 let entrytypes:Array<string> = [];
 if (entrytype == 'non-online') {
-	entrytypes = ['@book', '@inbook', '@article', '@inproceedings', '@misc'];
+	entrytypes = ['book', 'inbook', 'article', 'inproceedings', 'misc'];
 } else if (entrytype && entrytype !== '') {
 	entrytypes = entrytype.split(',');
-	entrytypes = entrytypes.map(t => "@".concat(t.trim()));
+	entrytypes = entrytypes.map(t => t.trim());
 }
 
 let typedSdata:Array<typeof sdata[0]> = [];

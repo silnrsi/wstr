@@ -3,7 +3,7 @@
 # src/data/sources.yaml
 ---
 hatcher2008:
-  entrytype: "@article"
+  entrytype: "article"
   title: "Script change in Azerbaijan: acts of identity"
   author: Lynley Hatcher
   sortname: Hatcher
@@ -16,7 +16,7 @@ hatcher2008:
   number: 192
   keywords: [script-latn, script-arab, script-cyrl, lang-azj, lang-azb]
 mumin2013:
-  entrytype: "@book"
+  entrytype: "book"
   title: The Arabic Script in Africa (Studies in the Use of a Writing System)
   editor: Meikal Mumin and Kees Versteegh
   sortname: Mumin
@@ -42,7 +42,7 @@ mumin2013:
     orthography development and standardization.[CR][CR]A comprehensive review of this book is
     also available.
 bauer1996:
-  entrytype: "@inbook"
+  entrytype: "inbook"
   title: Arabic Writing
   author: Thomas Bauer
   editor: Peter T. Daniels and William Bright
@@ -55,7 +55,7 @@ bauer1996:
   pages: 559-564
   keywords: [script-arab]
 abba2015:
-  entrytype: "@inproceedings"
+  entrytype: "inproceedings"
   title: "Ajamization of Knowledge: The Kanuri Experience"
   author: Tahir Abba
   sortname: Abba
@@ -66,7 +66,7 @@ abba2015:
   location: Cairo
   keywords: [script-arab, lang-knc, lang-kau, lang-nup, lang-krt, lang-kby, lang-bms, lang-yor, lang-hau, lang-fuv]
 gulzar2006:
-  entrytype: "@misc"
+  entrytype: "misc"
   title: Nastaleeq Support in TeX (Omega)
   author: Atif Gulzar
   sortname: Gulzar
@@ -100,7 +100,7 @@ gulzar2006:
     This thesis goes into great detail about how the Nastaleeq style of Arabic script works. It is a
     useful read for anyone interested in implementing support for Nastaleeq.
 aat:
-  entrytype: "@online"
+  entrytype: "online"
   title: About Apple Advanced Typography Fonts - TrueType Reference Manual
   url: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6AATIntro.html
   urldate: 2025-11-19
@@ -115,7 +115,7 @@ uniquekey:
   booktitle: Title of Book or Proceedings
   date: 2011-06-24
   editor: Peter Jones
-  entrytype: "@book"
+  entrytype: "book"
   entrysubtype: f
   isbn: 0-19-507993-0
   issn: 1613-3668
