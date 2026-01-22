@@ -2,6 +2,8 @@
 title: Complex Behaviors
 description: An overview of various kinds of complex behaviors, with graphics
 tags: [script-arab, script-deva, script-taml, script-beng, script-grek, script-thai]
+sidebar:
+    order: 1220
 lastUpdated: 2025-01-20
 ---
 
