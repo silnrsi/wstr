@@ -4,10 +4,10 @@ description: Features and lookups
 sidebar:
   order: 5520
 tags: [numerals, opentype, rendering, script-arab, script-beng, script-deva, script-gujr, script-guru, script-khmr, script-knda, script-mlym, script-mong, script-nkoo, script-orya, script-syrc, script-taml, script-telu]
-lastUpdated: 2026-01-09
+lastUpdated: 2026-01-22
 ---
 
-OpenType is a [smart-font](/reference/glossary#smartfont) technology that was developed by Microsoft and Adobe. It is the mostly widely-supported such system available today (less common systems are [Graphite][graphite] and [Apple Advanced Typography][aat]).
+OpenType is a [smart-font](/reference/glossary#smartfont) technology that was developed by Microsoft and Adobe. It is the mostly widely-supported such system available today (less common systems are [Graphite](/reference/glossary#graphite) and [Apple Advanced Typography](/reference/glossary#aat)).
 
 OpenType defines a set of font tables that include _rules_ to perform transformations on the stream of glyphs representing the text stream to be rendered. The rules are grouped into _lookups_ and the lookups are organized in terms of _features_.
 
@@ -32,9 +32,9 @@ A third specification that can be helpful — and is actually referenced by the 
 
 The following information on OpenType features is mainly intended for font and applications developers. For help with using font features in applications see [Using Font Features][sil-fonts-features] and [Using SIL Fonts on Web Pages][sil-fonts-web].
 
-Font features can be thought of as the switches that applications use to enable or disable specific rendering behavior implemented in a given font. OpenType features are identified by a 4-character alpha-numeric tag, and a registry of the agreed-upon tags is maintained within the OpenType specifications, for example [from Microsoft][feature-registry-ms]. For each tag, the registry describes the purpose of the feature and how it is intended to be used.
+Font [features](/reference/glossary#feature) can be thought of as the switches that applications use to enable or disable specific rendering behavior implemented in a given font. OpenType features are identified by a 4-character alpha-numeric tag, and a registry of the agreed-upon tags is maintained within the OpenType specifications, for example [from Microsoft][feature-registry-ms]. For each tag, the registry describes the purpose of the feature and how it is intended to be used.
 
-Font features fall into two broad categories: Features utilized by shaping engines for a specific script and optional behavior that the user might want to enable or disable on any run of text.
+Font features fall into two broad categories: Features utilized by [shaping engines](/reference/glossary#shapingEngine) for a specific script and optional behavior that the user might want to enable or disable on any run of text.
 
 ### Features utilized by shaping engines for a specific script 
 
@@ -82,13 +82,19 @@ Having said that, there are some technical and practical distinctions that may r
 
 Note that only substitution type lookups are allowed in Stylistic Set and Character Variant features and the features must be in the `GSUB` table. There may be cases where variant positioning behavior is needed, such as a feature that controls whether a particular diacritic is drawn touching its base or separated from it. While it may seem reasonable to use positioning type lookups and place the features in the `GPOS` table, it is unlikely that rendering engines will actually process such features.
 
+## Scripts and Languages
+
+Within an OpenType font, features are organized by script and then language. This means that a font might apply a different set of rules to text that is in one script and langauge than for text in the same script but a different language, or text in a different script altogether. This allows a font developer to accommodate the differences in cultural preferences between language communities.
+
 ## User Interface considerations
 
 For optional behaviors that a font developer may include, how does the user actually control whether the feature is enabled or disabled? Or, if the feature is a multi-valued Character Variant, how does the user control what value is set?
 
-In a way similar to how application developers might allow the user to select, for example, a Bold (vs Regular) weight for a run of text, they should provide a way to enable/disable optional behaviors through OpenType features. 
+In a way similar to how application developers might allow the user to select, for example, a Bold (vs Regular) weight for a run of text, they should provide a way to enable/disable optional behaviors through OpenType languages and features. 
 
-**We strongly encourage application developers to provide User Interface elements to give their users the ability to enable or disable optional behaviors.**  This will involve querying the font to discover the available features and, for Character Variant or Stylistic sets, any descriptive information that the developer may have included within the font. For more information see [User Interface Strings][user-interface-strings].
+**We strongly encourage application developers to provide User Interface elements to give their users the ability to enable or disable optional behaviors.**  This will involve querying the font to discover the available features and, for Character Variant or Stylistic sets, any descriptive information that the font developer may have included within the font. For more information see [User Interface Strings][user-interface-strings]. 
+
+**We strongly encourage application developers to associate a language tag with all text that is rendered** so that any language-specific behaviors in the font will be utilized.
 
 ## Language and feature interactions
 
@@ -101,7 +107,7 @@ Generally speaking, authors of fonts have two ways to allow users to select vari
 
 In fonts that implement both of these strategies, there is usually a relationship between them, something like _Selecting Language X is equivalent to enabling features A, B, and C._ This raises the question:
 
-**What if a subgroup of language X users need all the features except for, say feature C?**
+**What if a subgroup of language X users need all the features except for, say, feature C?**
 
 Ideally they simply select language X and then turn off feature C.
 
@@ -121,8 +127,8 @@ For any language-specific behavior that interacts with user features:
 Suppose you want a feature that displays an “open” variant of a particular set of characters (whatever “open” means), but there exist some languages that want this as the default shape.
 Implement as follows:
 
-- Choose a CV, say “cv23”
-- Implement the “calt” features for the default and other languages -- some will leave the specific glyphs alone while others will substitute the “open” variants.
+- Choose a Character Variant, say “cv23”
+- Implement the needed rules for the default and other languages -- some will leave the specific glyphs alone while others will substitute the “open” variants.
 - When implementing cv23, implement two values:
   - cv23=1 selects the “open” variant
   - cv23=2 reverts the “open” variant (if present) back to the default (perhaps called “closed”)
@@ -234,8 +240,6 @@ This includes Arabic, Mongolian, N'Ko, Syriac, and several other connected or cu
 
 
 [opentype-ms-documentation]: https://learn.microsoft.com/en-us/typography/opentype/
-[graphite]: https://graphite.sil.org/
-[aat]: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6AATIntro.html
 [wikipedia-opentype]: https://en.wikipedia.org/wiki/OpenType
 [otcookbook]: https://opentypecookbook.com/
 [opentype-spec-ms]: https://learn.microsoft.com/en-us/typography/opentype/spec/
