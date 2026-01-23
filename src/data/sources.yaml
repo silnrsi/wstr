@@ -1,5 +1,3 @@
-# yaml-language-server: $schema=file:/workspaces/wstr-sample-site/src/data/sources-schema.yaml
-# src/data/sources.yaml
 ---
 aat:
   entrytype: online
@@ -912,7 +910,7 @@ coulmas1999palmyrene:
   date: "1999"
   publisher: Blackwell
   location: Oxford
-  pages: 387
+  pages: "387"
   keywords: [script-palm]
 coulmas1999the:
   entrytype: book
@@ -934,7 +932,7 @@ coulmas2006batak:
   isbn: 0-631-21481-X
   publisher: Blackwell
   location: Oxford
-  pages: 40
+  pages: 40-41
   keywords: [script-batk]
 coulmas2006hiragana:
   entrytype: inbook
@@ -981,7 +979,7 @@ coulmas2006pahlavi:
   date: "2006"
   publisher: Blackwell
   location: Oxford
-  pages: 383
+  pages: 383-384
   keywords: [script-phlv, script-phli]
 coulmas2006phoenician:
   entrytype: inbook
@@ -3262,7 +3260,7 @@ mafundikwa2004fula:
   date: "2004"
   publisher: Mark Batty
   location: New York
-  pages: 132
+  pages: "132"
   keywords: [script-qa02]
   annotation: "A chart showing the characters used to write the Fula Ba alphabet is provided in Saki Mafundikwa's book Afrikan Alphabets."
 mafundikwa2004fuladita:
@@ -3274,7 +3272,7 @@ mafundikwa2004fuladita:
   date: "2004"
   publisher: Mark Batty
   location: New York
-  pages: 133
+  pages: "133"
   keywords: [script-qa01]
   annotation: "Saki Mafundikwa's book African Alphabets contains a chart showing the characters used for writing the Fula Dita alphabet."
 mafundikwa2004mende:
@@ -3297,7 +3295,7 @@ mafundikwa2004nko:
   date: "2004"
   publisher: Mark Batty
   location: New York
-  pages: 131
+  pages: "131"
   keywords: [script-nkoo]
   abstract: "A brief description of the script's development and usage, and an image of the script with Roman transliteration."
   annotation: "Book chapter"
@@ -5313,7 +5311,7 @@ ritner1996demotic:
   date: "1996"
   publisher: Oxford University Press
   location: Oxford
-  pages: 82
+  pages: "82"
   keywords: [script-egyd]
 ritner1996hieratic:
   entrytype: inbook
@@ -5368,7 +5366,7 @@ rogers2005runic:
   date: "2005"
   publisher: Blackwell
   location: Oxford
-  pages: 256
+  pages: "256"
   keywords: [script-runr]
 rogers2005tibetan:
   entrytype: inbook
@@ -11589,7 +11587,7 @@ zaske2014:
   sortname: Zaske
   url: http://gasana.org/wp/wp-content/uploads/2020/05/BLO_Ling_OR4.pdf
   date: "2014"
-  isbn: 78-99919-387-5-2
+  isbn: 978-99919-387-5-2
   publisher: SIL International
   location: "Bassila, Benin"
   keywords: [lang-blo]

@@ -110,8 +110,9 @@ Values for fields marked with (Q) should always be double-quoted strings even if
         - Ex: `Microsoft`
         - Ex: `SIL`
         - Ex: `Eesti Keele Instituut`
-    - **pages** -  _for article, inbook, and inproceedings_ - the page range of the article, chapter, or paper within the larger work. Use `startpage-endpage` format.
+    - **pages** -  _for article, inbook, and inproceedings_ - the page range of the article, chapter, or paper within the larger work. Use `startpage-endpage` format. Does not need double-quoting unless the page is a single page (so that the number is not misinterpreted as a string rather than a number).
         - Ex: `45-67`
+        - Ex: `"133"`
     - **presort** - a two digit number 10-99 that can be used to influence the sorting order of sources in lists. Lower numbers appear first. Sources with defined presort values appear before those without. Some standard values for certain sites:
         - `10` - ScriptSource
         - `15` - software.sil.org
