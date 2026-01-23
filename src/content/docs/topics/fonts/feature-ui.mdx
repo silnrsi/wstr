@@ -5,12 +5,21 @@ sidebar:
     order: 2540
     hidden: true
 tags: [opentype, features]
-lastUpdated: 2026-01-09
+lastUpdated: 2026-01-23
 ---
 
 _This is a work in progress._
 
-## Axis-based fonts
+
+## Three types of font families
+
+There are three types of font families. In general, standard applications should be able to support the first two types: RIBBI and Axis-based fonts. Variable fonts may need more attention to developing a UI to handle the potential weights. 
+
+### RIBBI fonts
+
+Users are most familiar with fonts that have up to four different standard faces: Regular, Italic, Bold, and Bold-Italic.
+
+### Axis-based fonts
 
 [Axis-based][axis-based] fonts generally go beyond the standard Regular, Italic, Bold, and Bold Italic type faces. They can provide other styles such as Thin, ExtraLight, Light, Medium, SemiBold, ExtraBold, Black, etc.
 
@@ -20,7 +29,7 @@ Some Windows applications will display these other weights as separate font fami
 
 ptxPrint handles this appropriately. The source is possibly in [ptsprint.glade][ptx-typeface].
 
-## Variable fonts
+### Variable fonts
 
 Variable fonts are a single font with all the potential weights. They are primarily used in web-based applications, and in that environment they can be more flexible than static fonts. Variable fonts allow for choosing any weight, width, or slant, using sliders or input fields to get the exact style you need.
 
