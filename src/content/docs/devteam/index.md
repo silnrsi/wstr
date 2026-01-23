@@ -12,8 +12,6 @@ These are links to pages intended for use by the development team.
 
 - [Style Guide](/devteam/style-guide)
 - [File Location and Frontmatter Reference](/devteam/file-location-and-frontmatter-reference)
-- [Sources Reference](/devteam/sources-reference)
-- [Source Keys Reference](/devteam/source-keys-reference)
 - [Markdown Reference](/devteam/markdown-reference)
 - [Component Reference](/devteam/component-reference)
 - [Component Coredata Examples](/devteam/component-coredata-examples)
@@ -29,6 +27,12 @@ These are links to pages intended for use by the development team.
 
 - [Tag Reference](/devteam/tag-reference)
 - [Article Index](/articlelib/article-index)
+
+## Sources
+- [Sources Reference](/devteam/sources-reference)
+- [Source Keys Reference](/devteam/source-keys-reference)
+- [Sources List - Links Only]( /devteam/sources-list-links-only) - may be slow to load!
+- [Sources List - Links Only]( /devteam/sources-list-complete-biblio) - may be slow to load!
 
 ## Testing
 
