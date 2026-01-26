@@ -1,4 +1,5 @@
 {
+    "yaml.maxItemsComputed": 12000,
     "yaml.schemas": {
         "src/data/sources-schema.yaml": "src/data/sources.yaml"
     }
