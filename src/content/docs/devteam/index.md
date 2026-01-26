@@ -30,7 +30,7 @@ These are links to pages intended for use by the development team.
 
 ## Sources
 - [Sources Reference](/devteam/sources-reference)
-- [Source Keys Reference](/devteam/source-keys-reference)
+- [Source Keys Quick Reference](/devteam/source-keys-quick-reference)
 - [Sources List - Links Only]( /devteam/sources-list-links-only) - may be slow to load!
 - [Sources List - Links Only]( /devteam/sources-list-complete-biblio) - may be slow to load!
 

@@ -4,6 +4,10 @@ description: How to use bibliographic sources and links
 lastUpdated: 2026-01-23
 ---
 
+import BibEntry from '/src/components/BibEntry.astro';
+import SourceLinksList from '/src/components/SourceLinksList.astro';
+
+
 :::note
 This is a guidance document for authors, primarily the Writing Systems Technology (WSTech) team.
 :::
@@ -14,11 +18,47 @@ _Note: You do not need to use bibliographic sources to add a link to a page. It 
 
 ### To add links within text content
 
-Here is an example of a link that uses the ```[Link text][@uniquekey]``` syntax - [Apple's AAT technology][@aat]. The `@aat` at the end refers to a source with the key `aat` defined in the `data/sources.yaml` file.
+**(not working yet!)** If you want to add a link in page text content that draws on bibliographic data from our Sources data, use the syntax: ```[Link text][@uniquekey]```. For example: `[Apple's AAT technology][@aat]`. The `@aat` at the end refers to a source with the uniquekey `aat` defined in the `data/sources.yaml` file. 
+
+A quick reference to the more commonly used _uniquekeys_ can be found at [Source Keys Quick Reference](/devteam/source-keys-quick-reference).
 
 ### To create a bibliography for a page
 
+If you want to add a formal, academic-style bibliography to an article or topic page, you need to construct it manually by making a markdown list at the bottom of the page of the works you want to list. There is no way (at the moment) to have a list automatically constructed from the links or citations you've added in the page text.
+
+You can, however, still take advantage of the hundreds of bibliographic sources in our Sources data. You can reference individual Sources by their _uniquekey_:
+
+- Give your Markdown file the `.mdx` extension.
+- import the `<BibEntry />` component:
+```jsx
+import BibEntry from '/src/components/BibEntry.astro';
+```
+- add a bibliography section at the end of your page content, using `<BibEntry uniquekey="..." />` for each source you want to list. For example:
+```html
+- <BibEntry key="aat" />
+- <BibEntry key="hatcher2008"/>
+- <BibEntry key="mumin2013" />
+```
+This will produce a bibliography that looks like this:
+
+- <BibEntry key="aat" />
+- <BibEntry key="hatcher2008"/>
+- <BibEntry key="mumin2013" />
+
+You may want to add a heading before the list, such as `## Bibliography`.
+
 ### To add a list of links based on tags
+
+Script pages and Topic Related Resources pages include an automatically-generated list of links to sources tagged with the relevant script or topic. You can also add a similar tag-based list to any page using the `SourceLinksList` component:
+
+```jsx
+import SourceLinksList from '/src/components/SourceLinksList.astro';
+
+<SourceLinksList tag="naming" header="Resources on font and glyph naming" /> 
+``` 
+This will produce a list of links to all sources with the tag/keyword `naming`, under a heading "Resources on font and glyph naming". Sources that have no URL will not be included in the list:
+
+<SourceLinksList tag="naming" header="Resources on font and glyph naming" /> 
 
 ## Adding new sources
 
@@ -38,6 +78,20 @@ To add a new source:
 
 The source repo contains a schema for validating this format, and the configuration necessary to integrate it into VSCode using [RedHat's YAML Extension][redhat-yaml-ext]. This provides helpful tool-tip descriptions, and editor integration to help you find problems, such as invalid or duplicate keys, structural issues, incorrectly formated dates or ISBN numbers etc.
 
+To use the validation tools:
+
+- Install the [YAML Extension by RedHat][redhat-yaml-ext] in VSCode.
+- Restart VSCode (not always necessary but is a good idea in this case).
+- Open the `data/sources.yaml` file.
+- Ensure that the YAML extension is active - look in the bottom-right corner of VSCode window for "WSTR Sources Schema", as in:
+
+![VSCode - Schema indicator](images/sources-reference-1.png)
+
+- To check for problems, look for red squiggly underlines in the file, or open the "Problems" tab in VSCode (View > Problems):
+
+![VSCode - Problems tab](images/sources-reference-2.png)
+
+The extension+schema also provides auto-completion for field names and some field values. Also - if you hover over a field name you will see a tooltip with a description of the field.
 
 ## Source types
 
