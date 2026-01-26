@@ -366,6 +366,8 @@ blood2008:
 bolgatanga2011:
   entrytype: book
   title: Gurenɛ Gulesiyiŋɔ Sɔa la Gulesiyiŋɔ Yelebɛa
+  author: Bolgatanga and Bongo District Assemblies
+  sortname: Bolgatanga
   date: "2001"
   publisher: Bolgatanga and Bongo District Assemblies
   location: Bolgatanga
@@ -576,13 +578,6 @@ burnell1878:
   publisher: Bastian Books
   location: Toronto
   keywords: [script-gran]
-cameroonian-ling-pub:
-  entrytype: misc
-  title: Cameroonian linguistics publications
-  url: http://www.silcam.org/folder030401/page.php
-  publisher: SIL International
-  keywords: [lang-nnh, lang-bss, lang-azo, lang-bfd, lang-fub, lang-bqz, lang-bkc, lang-bkh, lang-bgj, lang-bmv, lang-bhs, lang-cuv, lang-dbq, lang-anv, lang-ekm, lang-ybb, lang-gou, lang-gmm, lang-gde, lang-xed, lang-kkj, lang-kzr, lang-dmo, lang-ndb, lang-ken, lang-knp, lang-lmp, lang-mcu, lang-tbf, lang-mqb, lang-meq, lang-mgo, lang-nfu, lang-mmu, lang-mif, lang-mlw, lang-mpi, lang-muy, lang-ncr, lang-jgo, lang-ngn, lang-lem, lang-yas, lang-udl, lang-pny, lang-pnz, lang-bag, lang-tvu, lang-mlr, lang-vut, lang-weh, lang-yav, lang-gnd]
-  annotation: "This is a repository of academic papers relating to the languages of Cameroon, their phonologies and orthographies. The papers are primarily published by SIL Cameroon, but some work from other research institutions is also included here. The papers are organised by default alphabetically by language; they are also searchable by language, author, domain (e.g. orthography) and type (e.g. journal article). Some documents do not relate to a specific language but to general principles of African linguistics and orthography."
 campbell2011:
   entrytype: book
   title: Concise Compendium of the World's Languages
