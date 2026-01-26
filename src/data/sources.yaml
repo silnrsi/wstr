@@ -276,7 +276,7 @@ bcp47-loomis:
   url: https://codehivetx.us/en/posts/2024-bcp47.html
   urldate: "2025-11-19"
   keywords: [writing systems, locale data]
-bcp47ext- loomis:
+bcp47ext-loomis:
   entrytype: online
   entrysubtype: f
   title: "IETF BCP 47 - extensions"
@@ -3681,7 +3681,7 @@ ms-ot-khmer:
   urldate: "2015-08-26"
   keywords: [script-khmr, lang-khm, fonts, rendering, opentype]
   annotation: "This document presents information that will help font developers create or support OpenType fonts for the Khmer script languages covered by the Unicode Standard."
-ms-ot-korean hangul:
+ms-ot-korean-hangul:
   entrytype: online
   title: Developing OpenType Fonts for Korean Hangul Script
   organization: Microsoft
@@ -5162,7 +5162,7 @@ persian-alpha:
   urldate: "2011-08-22"
   keywords: [script-arab, lang-fas]
   annotation: "This page describes the Arabic script as used for writing the Farsi language."
-pinyin joe:
+pinyinjoe:
   entrytype: online
   title: "Pinyin Joe - Windows Vista Chinese Zhuyin / Bopomofo Setup"
   author: Pinyin Joe
