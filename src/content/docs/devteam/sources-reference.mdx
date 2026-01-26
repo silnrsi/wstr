@@ -32,7 +32,10 @@ To add a new source:
 - Add the new source to the file using the appropriate entry type and fields (see _Source types_ and _Source fields_). Please add it in alphabetical order by key - this will make the file easier to read and help ensure that you do not create duplicate keys.
 - Save the file and commit your changes.
 
-(To be added: info on how to use the schema checking features in VSCode.)
+# VS Code editing tools
+
+The source repo contains a schema for validating this format, and the configuration necessary to integrate it into VSCode using [RedHat's YAML Extension][redhat-yaml-ext]. This provides helpful tool-tip descriptions, and editor integration to help you find problems, such as invalid or duplicate keys, structural issues, incorrectly formated dates or ISBN numbers etc.
+
 
 ## Source types
 
@@ -288,3 +291,4 @@ aat:
 [isbn]: https://en.wikipedia.org/wiki/ISBN
 [issn]: https://en.wikipedia.org/wiki/ISSN
 [wiki-title-case]: https://en.wikipedia.org/wiki/Title_case
+[redhat-yaml-ext]: https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml
