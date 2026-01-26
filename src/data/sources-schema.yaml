@@ -9,7 +9,8 @@ description:
 type: object
 additionalProperties: false
 patternProperties:
-  "[a-z-0-9]+":
+  "^[a-z-0-9]+$":
+    title: Source Entry
     properties:
       abstract:
         description: Not in use except for sources migrated from ScriptSource - must be double-quoted
