@@ -1,27 +1,30 @@
 ---
 // WsVarList component: show the writing system variants for the given script.
 // Used within the WsList component.
-// TODO: integrate this componenet into WsList.
+// TODO: integrate this component into WsList?
+// Parameters:
+//     script: 4-letter script code, eg. 'Cyrl', 'Beng'
+//     ws: eg, 'ar-Arab', 'brx-Beng'
 
 import wsdata from '../data/script_ws.json';
 
 const { script, ws } = Astro.props;
 const scriptObj = wsdata.find(s => s.ScriptCode === script);
 const wsObj = scriptObj ? scriptObj.WrSys.find(w => w.WsCode === ws) : null;
-const wsCode = wsObj ? wsObj.WsCode : 'NO WS';
-const varCount = wsObj ? wsObj.Variants.length : 10000;
+// const wsCode = wsObj ? wsObj.WsCode : 'NO WS';
+// const varCount = wsObj ? wsObj.Variants.length : 10000;
 ---
 
-				<td>
-				{wsObj && (wsObj.Variants.map((varObj) => (
-					<span>{varObj.Code} 
-					{
-						(varObj.Country && varObj.Country !== 'none') ? (
-							<span>({varObj.Country})</span>
-						) : ''
-					}
-					</span><br/>
-				)))}</td>
+	<td>
+	{wsObj && (wsObj.Variants.map((varObj) => (
+		<span>{varObj.Code} 
+		{
+			(varObj.Country && varObj.Country !== 'none') ? (
+				<span>({varObj.Country})</span>
+			) : ''
+		}
+		</span><br/>
+	)))}</td>
 
 <style>
 </style>
