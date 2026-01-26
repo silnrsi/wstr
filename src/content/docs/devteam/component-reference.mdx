@@ -23,6 +23,39 @@ Additional examples of using these components can be found in [Component Coredat
 
 ## Currently-recommended components
 
+### `ArticlesList` component
+
+#### Required import
+```jsx
+import ArticlesList from '/src/components/ArticlesList.astro';
+```
+
+#### Syntax
+```html
+<ArticlesList [tag="..."] [subset="articlelibonly|topicsonly"] [header="..."] />
+```
+
+|Property|Description|
+|---|---|
+|tag|optional tag to filter the articles listed|
+|subset|optional subset of articles to display, either `articlelibonly` or `topicsonly`|
+|header|optional header text to display above the list|
+
+Unless `subset` is defined, the component lists contents from both the Article Library and Topic pages.
+
+#### Example
+
+##### Source
+```html
+<ArticlesList tag="encoding" subset="articlelibonly" header="Encoding Articles" />
+```
+
+##### Result
+
+<ArticlesList tag="encoding" subset="articlelibonly" header="Encoding Articles"  />
+
+---
+
 ### `Character` component
 
 #### Required import
@@ -126,38 +159,6 @@ This example shows the use of `:char`
 - :usv[0020]
 - :usv[0636]
 - :char[$]
-
----
-
-### `ArticlesList` component
-
-#### Required import
-```jsx
-import ArticlesList from '/src/components/ArticlesList.astro';
-```
-
-#### Syntax
-```html
-<ArticlesList [tag="..."] [subset="articlelibonly|topicsonly"] />
-```
-
-|Property|Description|
-|---|---|
-|tag|optional tag to filter the articles listed|
-|subset|optional subset of articles to display, either `articlelibonly` or `topicsonly`|
-
-Unless `subset` is defined, the component lists contents from both the Article Library and Topic pages.
-
-#### Example
-
-##### Source
-```html
-<ArticlesList tag="encoding" subset="articlelibonly" />
-```
-
-##### Result
-
-<ArticlesList tag="encoding" subset="articlelibonly" />
 
 ---
 
