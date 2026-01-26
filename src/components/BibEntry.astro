@@ -92,7 +92,7 @@ let pubString = sObj?.data.publisher ?? '';
 let dateString = sObj?.data.date ?? '';
 let dateAccessed = sObj?.data.urldate ?? '';
 
-let pageString = sObj?.data.page ?? '';
+let pageString = sObj?.data.pages ?? '';
 if (pageString !== "") {
 	if (pageString?.includes('-')) {
 		pageString = "pp. " + pageString;

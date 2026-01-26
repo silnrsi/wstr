@@ -27,11 +27,12 @@ def writeQuoted(outFile, label, value):
 		outFile.write("  " + label + ": \"" + value + "\"\n")
 		
 def writeNumeric(outFile, label, value):
+	# Use quotes if the value is a bare number like 123. Values with hyphens like 24-36 don't need quotes.
 	if value != "":
-		if True:  # value.isdigit() - no, always surround with quotes
-			outFile.write("  " + label + ": \"" + value + "\"\n")	# could use single quote
+		if value.isdigit():
+			outFile.write("  " + label + ": \"" + value + "\"\n")	# could use single quotes instead
 		else:
-			writeString(outFile, label, value)
+			writeNoQuotes(outFile, label, value)
 
 def writeNoQuotes(outFile, label, value):
 	if value != '':
@@ -108,15 +109,15 @@ def convert_csv(inFilePath, outFilePath):
 			writeString(outFile,	"organization",		row[10])
 			writeString(outFile,	"presort",			row[11])
 			writeNoQuotes(outFile,	"url",				row[12])
-			writeNumeric(outFile,	"date",				row[13])
-			writeNumeric(outFile,	"urldate",			row[14])
+			writeQuoted(outFile,	"date",				row[13])
+			writeQuoted(outFile,	"urldate",			row[14])
 			writeNoQuotes(outFile,	"isbn",				row[15])
 			writeNoQuotes(outFile,	"issn",				row[16])
 			writeString(outFile,	"publisher",		row[17])
 			writeString(outFile,	"location",			row[18])
-			writeNoQuotes(outFile,	"pages",			row[19])
-			writeNumeric(outFile,	"volume",			row[20])
-			writeNumeric(outFile,	"number",			row[21])
+			writeNumeric(outFile,	"pages",			row[19])
+			writeQuoted(outFile,	"volume",			row[20])
+			writeQuoted(outFile,	"number",			row[21])
 			writeList(outFile,		"keywords",			row[22])
 			writeString(outFile,	"addendum",			row[23])
 			writeQuoted(outFile,	"abstract",			row[24])
