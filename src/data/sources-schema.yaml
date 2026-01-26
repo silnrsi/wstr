@@ -9,7 +9,7 @@ description:
 type: object
 additionalProperties: false
 patternProperties:
-  "^[a-z-0-9]+$":
+  "^[\\p{Lowercase_Letter}0-9-]+$":
     title: Source Entry  
     type: object
     description: A source entry similar to a BibLaTeX entry.
@@ -156,7 +156,7 @@ patternProperties:
           type: string
     - required: [title, entrytype, keywords]
       oneOf:
-      - properties: { entrytype: { const: article} }
+      - properties: { entrytype: { const: article},  }
         required: [author, journaltitle, date]
       - properties: { entrytype: { const: book } }
         # This strange construction listing a combined list of all the individual required fields
@@ -182,3 +182,10 @@ $defs:
     type: string
     pattern: ^\d{4}(-(0[1-9]|1[012])(-(0[1-9]|[12]\d|3[01]))?)?$
     errorMessage: "Invalid date format. Must be yyyy[-mm[-dd]]"
+
+# arti: abstract, addendum, annotation, author, booktitle, date, editor, entrysubtype, isbn, issn, journaltitle, location, number, organization, pages, presort, publisher, series, sortname, volume
+# book: abstract, addendum, annotation, author, booktitle, date, editor, entrysubtype, isbn, issn, journaltitle, location, number, organization, pages, presort, publisher, series, sortname, volume
+# inbk: abstract, addendum, annotation, author, booktitle, date, editor, entrysubtype, isbn, issn, journaltitle, location, number, organization, pages, presort, publisher, series, sortname, volume
+# inpr: abstract, addendum, annotation, author, booktitle, date, editor, entrysubtype, isbn, issn, journaltitle, location, number, organization, pages, presort, publisher, series, sortname, volume
+# misc: abstract, addendum, annotation, author, booktitle, date, editor, entrysubtype, isbn, issn, journaltitle, location, number, organization, pages, presort, publisher, series, sortname, volume
+# onli: abstract, addendum, annotation, author, booktitle, date, editor, entrysubtype, isbn, issn, journaltitle, location, number, organization, pages, presort, publisher, series, sortname, volume
