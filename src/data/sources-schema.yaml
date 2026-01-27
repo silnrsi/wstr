@@ -158,27 +158,34 @@ patternProperties:
       # Constrain which fields are *required* based on an entry's entrytype.
     - required: [title, entrytype, keywords]
       oneOf:
-      - properties: { entrytype: { const: article } }
+      - title: Article Entry
+        properties: { entrytype: { const: article } }
         required: [author, journaltitle, date]
-      - properties: { entrytype: { const: book } }
+      - title: Book Entry
+        properties: { entrytype: { const: book } }
         # This strange construction listing a combined list of all the
         # individual required fields, before listing them singularly is to
         # force the error message to show the user all the options instead of
         # just the first.
         anyOf: [ required: [author, editor], required: [author], required: [editor] ]
-      - properties: { entrytype: { const: inbook } }
+      - title: In-book Entry
+        properties: { entrytype: { const: inbook } }
         required: [author, booktitle, date]
-      - properties: { entrytype: { const: inproceedings } }
+      - title: In-proceedings Entry
+        properties: { entrytype: { const: inproceedings } }
         required: [author, booktitle, date]
-      - properties: { entrytype: { const: misc } }
+      - title: Miscellaneous Entry
+        properties: { entrytype: { const: misc } }
         required: [author]
-      - properties: { entrytype: { const: online } }
+      - title: Online Entry
+        properties: { entrytype: { const: online } }
         required: [url]
         # See the comment above for the book entrytype.
         anyOf: [ require: [date, urldate], require: [date], required: [urldate] ]
     #   # Declare which fields are not permitted based on entrytype.
     # - oneOf:
-    #   - properties:
+    #   - title: Article Entry
+    #     properties:
     #       entrytype: { const: article }
     #       booktitle: false
     #       editor: false
@@ -187,7 +194,8 @@ patternProperties:
     #       organization: false
     #       publisher: false
     #       series: false
-    #   - properties:
+    #   - title: Book Entry
+    #     properties:
     #       entrytype: { const: book }
     #       booktitle: false
     #       issn: false
@@ -196,7 +204,8 @@ patternProperties:
     #       organization: false
     #       pages: false
     #       volume: false
-    #   - properties: 
+    #   - title: In-book Entry
+    #     properties: 
     #       entrytype: { const: inbook}
     #       issn: false
     #       journaltitle: false
@@ -204,7 +213,8 @@ patternProperties:
     #       organization: false
     #       series: false
     #       volume: false
-    #   - properties:
+    #   - title: In-proceedings Entry
+    #     properties:
     #       entrytype: { const: inproceedings}
     #       issn: false
     #       journaltitle: false
@@ -212,9 +222,11 @@ patternProperties:
     #       organization: false
     #       series: false
     #       volume: false
-    #   - properties:
+    #   - title: Micellaneous Entry
+    #     properties:
     #       entrytype: { const: misc }
-    #   - properties:
+    #   - title: Online Entry
+    #     properties:
     #       entrytype: { const: online}
     #       booktitle: false
     #       isbn: false
