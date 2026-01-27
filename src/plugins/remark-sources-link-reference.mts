@@ -1,4 +1,4 @@
-import { EXIT, SKIP, CONTINUE, visit } from 'unist-util-visit'
+import { visit } from 'unist-util-visit'
 import type { Root, Link } from 'mdast'
 import type { VFile } from 'vfile'
 import * as YAML from 'yaml'
@@ -12,12 +12,12 @@ const sources = YAML.parse(readFileSync('src/data/sources.yaml', 'utf8'))
  * `[Link text](@source_id)` form links in markdown files that get their url
  * from an entry in the sources.yaml file indexed by the `source_id` key.
  *
- * @param {string | null | undefined} noLinkPrefix
- *  When a valid source entry is found that does not have a `url` field:
- *    if nullish: link to a null link the does nothing but is valid. 
- *    if defined: generate a broken link to site reltive URL
- *    `/${noLinkPrefix}/${source_id}`.
- * @returns {RemarkPlugin}
+ * When a valid source entry is found that does not have a `url` field:
+ * - if noLinkPrefix is provided: generate a broken link to site reltive URL
+ *   `noLinkPrefix + source_id`.
+ * - otherwise: link to a null link that goes nowhere but is valid.  
+ * @param string [noLinkPrefix] - Missing link prefix to add to the source_id.
+ * @returns SourceLinkReference plugin configured with a missing url prefix.
  */ 
 export default function remarkSourcesLinkReference(noLinkPrefix?: string) {
     return () => {
