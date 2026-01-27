@@ -3,11 +3,10 @@ import { srcDir } from 'astro:config/server';
 import { parse } from 'csv-parse/sync';
 import { readFile } from 'fs/promises';
 import { getTableName } from 'drizzle-orm';
-import { db, characters, languages, scripts, } from 'astro:db';
+import { db, characters, scripts, } from 'astro:db';
 
 export default async function seed() {
 	await convert(characters);
-	await convert(languages);
 	await convert(scripts);
 }
 
