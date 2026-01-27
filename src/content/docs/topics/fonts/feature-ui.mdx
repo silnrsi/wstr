@@ -1,41 +1,13 @@
 ---
 title: Font and Feature UI
-description: Recommendations for how font and feature UIs should work (support axis-based, both ss & cv)
+description: Recommendations for how font feature selection should work
 sidebar:
     order: 2540
-    hidden: true
 tags: [opentype, features]
-lastUpdated: 2026-01-23
+lastUpdated: 2026-01-27
 ---
 
 _This is a work in progress._
-
-
-## Three types of font families
-
-There are three types of font families. In general, standard applications should be able to support the first two types: RIBBI and Axis-based fonts. Variable fonts may need more attention to developing a UI to handle the potential weights. 
-
-### RIBBI fonts
-
-Users are most familiar with fonts that have up to four different standard faces: Regular, Italic, Bold, and Bold-Italic.
-
-### Axis-based fonts
-
-[Axis-based][axis-based] fonts generally go beyond the standard Regular, Italic, Bold, and Bold Italic type faces. They can provide other styles such as Thin, ExtraLight, Light, Medium, SemiBold, ExtraBold, Black, etc.
-
-Some Windows applications will display these other weights as separate font families (except bold). Ideally, an application should see, for example, **Gentium** as one font with ten **faces** rather than as separate fonts.
-
-![Figure: Gentium weights](images/2540-gentium-weights.png "Display one font with ten weights")
-
-ptxPrint handles this appropriately. The source is possibly in [ptsprint.glade][ptx-typeface].
-
-### Variable fonts
-
-Variable fonts are a single font with all the potential weights. They are primarily used in web-based applications, and in that environment they can be more flexible than static fonts. Variable fonts allow for choosing any weight, width, or slant, using sliders or input fields to get the exact style you need.
-
-Standard CSS properties like font-weight, font-style, or font-variation-settings can be used to fine-tune the preferred values.
-
-[Introducing variable fonts][google-vf] gives more details on Variable fonts.
 
 ## Feature UI
 
@@ -235,11 +207,7 @@ The full specification for Character Variants allows for tooltips (for example, 
 ### Resources
 
 * [font.py][ptx-font.py] in the ptxprint repo has a list of “OTFeatNames” which I believe are valid ones to display in the feature UI. And “OTInternalFeats” are the ones that shouldn’t be displayed in a UI. “OTLangs” has a list of OpenType language tags which can be used for selecting a language.
-* One implementation for Axis-based font selection is possibly in [ptsprint.glade][ptx-typeface].
 
-[axis-based]: https://software.sil.org/fonts/axis-based-fonts/#application-support
-[google-vf]: https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
 [ot-features]: https://learn.microsoft.com/en-us/typography/opentype/spec/featuretags
 [ptx-font.py]: https://github.com/sillsdev/ptx2pdf/blob/master/python/lib/ptxprint/font.py
-[ptx-typeface]: https://github.com/sillsdev/ptx2pdf/blob/master/python/lib/ptxprint/ptxprint.glade
 
