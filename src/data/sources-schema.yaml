@@ -14,6 +14,7 @@ patternProperties:
     type: object
     description: A source entry similar to a BibLaTeX entry.
     allOf:
+      # Document all the fields, and any per-field constraints and types.
     - properties:
         abstract:
           description: Not in use except for sources migrated from ScriptSource - must be double-quoted
@@ -154,21 +155,24 @@ patternProperties:
             For article - the volume number of the journal in which the article appears, in whatever format is given.
             Must be double-quoted.
           type: string
+      # Constrain which fields are *required* based on an entry's entrytype.
     - required: [title, entrytype, keywords]
       oneOf:
-      - properties: { entrytype: { const: article},  }
+      - properties: { entrytype: { const: article } }
         required: [author, journaltitle, date]
       - properties: { entrytype: { const: book } }
-        # This strange construction listing a combined list of all the individual required fields
-        # is to force the error message to show the user all the options instead of just the first.
+        # This strange construction listing a combined list of all the
+        # individual required fields, before listing them singularly is to
+        # force the error message to show the user all the options instead of
+        # just the first.
         anyOf: [ required: [author, editor], required: [author], required: [editor] ]
-      - properties: { entrytype: { const: inbook} }
+      - properties: { entrytype: { const: inbook } }
         required: [author, booktitle, date]
-      - properties: { entrytype: { const: inproceedings} }
+      - properties: { entrytype: { const: inproceedings } }
         required: [author, booktitle, date]
-      - properties: { entrytype: { const: misc} }
+      - properties: { entrytype: { const: misc } }
         required: [author]
-      - properties: { entrytype: { const: online} }
+      - properties: { entrytype: { const: online } }
         required: [url]
         # See the comment above for the book entrytype.
         anyOf: [ require: [date, urldate], require: [date], required: [urldate] ]
@@ -183,9 +187,3 @@ $defs:
     pattern: ^\d{4}(-(0[1-9]|1[012])(-(0[1-9]|[12]\d|3[01]))?)?$
     errorMessage: "Invalid date format. Must be yyyy[-mm[-dd]]"
 
-# arti: abstract, addendum, annotation, author, booktitle, date, editor, entrysubtype, isbn, issn, journaltitle, location, number, organization, pages, presort, publisher, series, sortname, volume
-# book: abstract, addendum, annotation, author, booktitle, date, editor, entrysubtype, isbn, issn, journaltitle, location, number, organization, pages, presort, publisher, series, sortname, volume
-# inbk: abstract, addendum, annotation, author, booktitle, date, editor, entrysubtype, isbn, issn, journaltitle, location, number, organization, pages, presort, publisher, series, sortname, volume
-# inpr: abstract, addendum, annotation, author, booktitle, date, editor, entrysubtype, isbn, issn, journaltitle, location, number, organization, pages, presort, publisher, series, sortname, volume
-# misc: abstract, addendum, annotation, author, booktitle, date, editor, entrysubtype, isbn, issn, journaltitle, location, number, organization, pages, presort, publisher, series, sortname, volume
-# onli: abstract, addendum, annotation, author, booktitle, date, editor, entrysubtype, isbn, issn, journaltitle, location, number, organization, pages, presort, publisher, series, sortname, volume
