@@ -36,8 +36,8 @@ export default function remarkSourcesLinkReference(noLinkPrefix?: string) {
                     const entry = sources[source_id];
                     if (entry === undefined)
                         file.fail(`No such sources entry found: \`${source_id}\``, node, 'SourcesLinkReference')
-
-                    const url = entry?.url ?? noLinkPrefix ?  `${noLinkPrefix}${source_id}` : "javscript:void(0)"
+                    
+                    const url = entry?.url ?? (noLinkPrefix ?  `${noLinkPrefix}${source_id}` : "javscript:void(0)")
                     Object.assign(node, { ...node, url: url })
                 }
             )
