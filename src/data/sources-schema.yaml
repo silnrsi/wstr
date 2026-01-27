@@ -176,6 +176,58 @@ patternProperties:
         required: [url]
         # See the comment above for the book entrytype.
         anyOf: [ require: [date, urldate], require: [date], required: [urldate] ]
+    #   # Declare which fields are not permitted based on entrytype.
+    # - oneOf:
+    #   - properties:
+    #       entrytype: { const: article }
+    #       booktitle: false
+    #       editor: false
+    #       isbn: false
+    #       location: false
+    #       organization: false
+    #       publisher: false
+    #       series: false
+    #   - properties:
+    #       entrytype: { const: book }
+    #       booktitle: false
+    #       issn: false
+    #       journaltitle: false
+    #       number: false
+    #       organization: false
+    #       pages: false
+    #       volume: false
+    #   - properties: 
+    #       entrytype: { const: inbook}
+    #       issn: false
+    #       journaltitle: false
+    #       number: false
+    #       organization: false
+    #       series: false
+    #       volume: false
+    #   - properties:
+    #       entrytype: { const: inproceedings}
+    #       issn: false
+    #       journaltitle: false
+    #       number: false
+    #       organization: false
+    #       series: false
+    #       volume: false
+    #   - properties:
+    #       entrytype: { const: misc }
+    #   - properties:
+    #       entrytype: { const: online}
+    #       booktitle: false
+    #       isbn: false
+    #       issn: false
+    #       journaltitle: false
+    #       location: false
+    #       number: false
+    #       pages: false
+    #       publisher: false
+    #       series: false
+    #       volume: false
+    dependentRequired:
+      urldate: [url]
 $defs:
   date:
     title: Publication date
