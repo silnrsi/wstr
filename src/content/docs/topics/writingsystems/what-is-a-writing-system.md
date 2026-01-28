@@ -4,7 +4,7 @@ description: Orthographies, scripts, and writing system types
 authors: Victor Gaultney, Melinda Lyons
 sidebar:
     order: 1100
-lastUpdated: 2025-07-16
+lastUpdated: 2026-01-28
 ---
 
 Language is primarily a spoken means of communication. _Writing systems_ (also called _orthographies_) are ways of communicating on printed or visual media, and are usually, but not always, based on spoken languages. A _script_, sometimes referred to using terms such as _alphabet_ and _syllabary_, is a collection of symbols (typically with accompanying rules of behavior) that forms the basis for writing many languages.
@@ -15,7 +15,7 @@ A _writing system implementation_ (WSI) refers to **a set of software components
 
 Common examples of WSIs would be those computer systems found in newspaper publishing houses around the world. WSIs can be very simple, such as for English, for which only a simple font is needed. They can also be complex and include expensive, dedicated software applications. For instance, to use Chinese on a computer requires a combination of fonts, input systems, and publishing software that can write both horizontally and vertically.
 
-The following sections address topics of [writing system identification (including language tagging)][language-tagging] and [locale data][locale-data]. For more information on writing system implementations, see the [writing systems computing model][ws-computing-model].
+The following sections address important concepts in understanding how writing systems work, such as [graphemes and phonemes][graphemes-and-phonemes] and [complex behaviors][complex-behaviors], and topics of [writing system identification (including language tagging)][language-tagging] and [locale data][locale-data]. For more information on writing system implementations, see the [writing systems computing model][ws-computing-model].
 
 ### Additional resources
 
@@ -26,7 +26,9 @@ The following sections address topics of [writing system identification (includi
 
 _Portions of this content first appeared in [Guidelines for Writing System Support][wsig], copyright © 2003 UNESCO and SIL International._
 
+[complex-behaviors]: /topics/writingsystems/complex-behaviors
 [fedorova2020]: https://www.fluxus-editions.fr/gla5-fedo.pdf
+[graphemes-and-phonemes]: /topics/writingsystems/graphemes-and-phonemes
 [language-tagging]: /topics/writingsystems/language-tagging
 [locale-data]: /topics/writingsystems/locale-data
 [omni-types-of-ws]: https://www.omniglot.com/writing/types.htm
