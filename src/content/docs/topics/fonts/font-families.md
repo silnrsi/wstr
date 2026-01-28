@@ -7,8 +7,6 @@ tags: [ribbi, variable, axis-based]
 lastUpdated: 2026-01-28
 ---
 
-_This is a work in progress._
-
 ## Three types of font families
 
 There are three types of font families. In general, standard applications should be able to support the first two types: RIBBI and Axis-based fonts. Variable fonts may need more attention to developing a UI to handle the potential weights. 
