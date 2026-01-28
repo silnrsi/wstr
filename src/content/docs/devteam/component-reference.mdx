@@ -8,7 +8,6 @@ import ArticlesList from '/src/components/ArticlesList.astro';
 import Character from '/src/components/Character.astro';
 import CharacterTable from '/src/components/CharacterTable.astro';
 import DataTable from '/src/components/DataTable.astro';
-import ScriptTable from '/src/components/ScriptTable.astro';
 
 ## Using the components
 To use these components, you need to:
@@ -245,49 +244,3 @@ import DataTable from '/src/components/DataTable.astro';
 />
 
 ---
-
-### `ScriptTable` component
-
-#### Required import
-```jsx
-import ScriptTable from '/src/components/ScriptTable.astro';
-```
-
-#### Syntax
-```html
-<ScriptTable 
-    [filter="key=value,key=value,..."] 
-    [order="expression"] 
-    [caption="..."]
-/>
-```
-|Property|Description|
-|---|---|
-|filter|A comma-separated list of key=value pairs to filter the scripts. Possible keys are `script_reordering` and `script_direction`. Possible values for `script_reordering` are `yes` and `no`. Possible values for `script_direction` are `ltr`, `rtl`, `ttb`, and `btt`. Multiple values for a key can be separated by `|`.|
-|order|An optional SQL ORDER BY clause to sort the results. Possible fields are `script_name`, `script_code`, `script_type`, `script_family`, `script_direction`, and `script_reordering`.|
-|caption|An optional caption to display below the table.|
-
-#### Examples
-##### Source
-```html
-<ScriptTable 
-  filter  = "script_reordering=yes"
-  order   = "script_family"
-  caption = "Scripts with reordering"
-/>
-```
-##### Result
-<ScriptTable filter="script_reordering=yes" order="script_family" caption="Scripts with reordering"/>
-##### Source
-```html
-<ScriptTable
-  filter  = "script_type=abjad"
-  order   = "script_name"
-  caption = "Abjad scripts"
-/>
-```
-##### Result
-<ScriptTable filter="script_type=abjad" order="script_name" caption="Abjad scripts"/>
-
----
-
