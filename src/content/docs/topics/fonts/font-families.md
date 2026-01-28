@@ -1,5 +1,5 @@
 ---
-title: types of font families
+title: Types of font families
 description: Recommendations for support the three types of font families.
 sidebar:
     order: 2550
@@ -30,9 +30,9 @@ If the user selects Medium, then the heavier weight (such as for headings) shoul
 Applications should provide two different selections for fonts to handle these situation;
 one selection for the body text (Regular or Medium), and one selection for the heaver weight (Bold or ExtraBold).
 
-If an application uses a second weight (such as bold) then there needs to be two selections for fonts
+If an application uses a second weight (such as bold) then there needs to be two selections for fonts.
 
-ptxPrint handles this appropriately. 
+[PTXprint][ptxprint] handles this appropriately. 
 
 ### Variable fonts
 
@@ -43,12 +43,10 @@ Variable fonts have all the potential styles (axes) in one single font file. The
 - slant
 - optical size
 
- using sliders or input fields to get the exact style you need. Not all variable fonts support all the above axes,
- and some variable font support other axes as well.
+Sliders or input fields are generally used to get the exact style required. Not all variable fonts support all the above axes,
+ and some variable fonts support other axes as well.
 
-Variable font families with italics are built as two variable fonts; one for upright styles, one for italic styles.
-The slant axis is not used to select the italic styles, a different axis is uses (the italic axis).
-Unlike the other axes, the italic axis only has two values, upright or italic (not a range like the other axes).
+Variable font families with italics are built as two variable fonts; one for upright styles, one for italic styles. The slant axis is not used to select the italic styles, a different axis is used (the italic axis). Unlike the other axes, the italic axis only has two values, upright or italic (not a range like the other axes).
 
 Standard CSS properties like font-weight, font-style, or font-variation-settings can be used to fine-tune the preferred values.
 
@@ -57,3 +55,4 @@ Standard CSS properties like font-weight, font-style, or font-variation-settings
 
 [axis-based]: https://software.sil.org/fonts/axis-based-fonts/#application-support
 [google-vf]: https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
+[ptxprint]: https://software.sil.org/ptxprint/
