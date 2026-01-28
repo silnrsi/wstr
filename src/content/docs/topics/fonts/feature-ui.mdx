@@ -11,13 +11,15 @@ _This is a work in progress._
 
 ## Feature UI
 
-Fonts can support a wide variety of [OpenType features][ot-features]. User-selectable font features should be exposed to the user in the application UI. Developing a User Interface to access the user-selectable features has long been neglected. 
+Fonts can support a wide variety of [OpenType features][ot-features]. Some font features are internal and not for user control and some are for user control. [font.py][ptx-font.py] has a list of user controllable features. The rest should not be displayed in an application.
 
-Features could just all be dumped into one big dialog box, as LibreOffice does below, but it could be easier for the user if they are more organized.
+Developing a User Interface to access the user-selectable features has long been neglected. 
+
+User-selectable font features _should_ be exposed to the user in the application UI. Some applications just include all the features in one big dialog box, as LibreOffice does below. Other applications are a bit more organized and separate them into different tabs or sections in a dialog.
 
 ![Figure: LibreOffice](images/2540-libreoffice.png "Most features in one dialog")
 
-Various applications have implemented a User Interface for selecting the user-selectable features in different ways.
+As mentioned above, applications have implemented a User Interface for selecting the user-selectable features in a variety of ways. Because each application implements the selection in different places, it is sometimes difficult to find where to set the user-selectable features.
 
 * In macOS, many of the user-selectable features are available through a **Typography** menu.
 * In Word, some of the user-selectable features are available through the **Font** menu, and other are available through the **Font / Advanced** menu.
@@ -29,11 +31,11 @@ Various applications have implemented a User Interface for selecting the user-se
 
 This document gives some ideas for developing a fairly compact way to display the user-selectable features, and still allow the user to select the various options.
 
-The “twisty” divisions are somewhat arbitrary. Using the twisties would allow for a fairly compact menu. If a font doesn’t support a particular topic and/or feature it should either not be displayed or grayed out. (The table below shows what should be under each twisty.)
+The “twisty” divisions are somewhat arbitrary. Using the twisties would allow for a fairly compact menu. If a font doesn’t support a particular topic and/or feature it should not be displayed. (The table below shows what should be under each twisty.)
 
 > In the example below, there is no need to include the four-letter feature tag in the UI. It is simply included for the developer to know which OpenType feature is related to the friendly name. 
 
-When one of the twisties is selected you might see either a checkbox (for on and off) in the case of Stylistic Sets, or multiple options for  selection in the case of Character Variants.
+When one of the twisties is selected you might see either a checkbox (for on and off) in the case of Stylistic Sets, or multiple options for selection in the case of Character Variants.
 
 Languages are sometimes selected at the bottom of an application window. The following example has language selection in the dialog box, but it could be selected elsewhere. If the font supports language features, then the language choice will also affect the features that are selected.
 
