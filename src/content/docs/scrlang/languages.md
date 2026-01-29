@@ -47,4 +47,3 @@ The following are sites that have information on many different languages. For m
 [udhr]: http://efele.net/udhr/index.html
 [wikipedia]: https://wikipedia.org
 [keyman]: https://keyman.com
-
