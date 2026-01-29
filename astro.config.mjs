@@ -9,7 +9,6 @@ import cookieconsent from "@jop-software/astro-cookieconsent";
 import db from '@astrojs/db';
 import remarkCharacterDirectives from './src/plugins/remark-usv-directive.mts';
 import remarkSourcesLinkReference from './src/plugins/remark-sources-link-reference.mts';
-import yaml from '@rollup/plugin-yaml';
 
 const googleAnalyticsId = 'G-WHT6CVPT8M';
 
@@ -217,9 +216,6 @@ export default defineConfig({
         }),
         db()
     ],
-    vite: { 
-        plugins: [yaml()] 
-    },
     markdown: {
         remarkPlugins: [
             remarkSourcesLinkReference('/biblio/'),
