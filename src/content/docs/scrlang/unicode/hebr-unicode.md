@@ -3,7 +3,7 @@ title: Unicode Status for Hebrew
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-12
+lastUpdated: 2026-01-30
 ---
 
 In The Unicode Standard, Hebrew Script implementation is discussed in [Chapter 9 Middle East-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G6528).
@@ -118,3 +118,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2025-10-27 Proposal to Encode Characters for the Babylonian Vocalization System of Hebrew — Aleksandr Andreev, Christa Müller-Kessler ([L2/25-268](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-268))
   - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 2.9)_
   - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 2.9 for decision and action items)_
+- 2025-10-22 Proposal to Encode Characters for the Babylonian and Palestinian Vocalization Systems of Hebrew — Aleksandr Andreev, Christa Müller-Kessler, Avi Shmidman, Benjamin Outhwaite, Kim Phillips ([L2/26-038](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-038))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.10.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.10 for decision and action items)_

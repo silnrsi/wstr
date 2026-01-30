@@ -3,7 +3,7 @@ title: Unicode Status for Egyptian Hieroglyphs
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-18
+lastUpdated: 2026-01-30
 ---
 
 In The Unicode Standard, implementation of Egyptian Hieroglyphs is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/#G26607), [UTN 32: Mapping Between Manuel de Codage and Unicode Egyptian Hieroglyphs](https://www.unicode.org/notes/tn32/), and in [Unicode Egyptian Hieroglyph Database (Unikemet)](https://www.unicode.org/reports/tr57/).
@@ -238,3 +238,7 @@ Daniel A. Werning ([L2/24-175](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl
 - 2025-06-09 ([Feedback: Egyptian hieroglyphs](https://www.unicode.org/review/pri526/feedback.html#ID20250609092422))
   - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.2.)_
 - 2025-07-22 Changes to Unikemet properties between 17.0β and 17.0 — Robin Leroy ([L2/25-178](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-178))
+- 2026-01-22 Corruption of the basic sign list of Egyptian hieroglyphs in Unicode 16 — Mark-Jan Nederhof ([L2/26-059](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-059))
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.4 for decision and action items)_
+- 2026-01-22 Answer to document L2/26-059: Corruption of the basic sign list of Egyptian hieroglyphs in Unicode 16, revised — Michel Suignard ([L2/26-060](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-060))
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.4 for decision and action items)_

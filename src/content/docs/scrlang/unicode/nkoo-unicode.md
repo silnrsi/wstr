@@ -3,7 +3,7 @@ title: Unicode Status for N’Ko
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-01-30
 ---
 
 In The Unicode Standard, N’Ko script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/#G18603).
@@ -55,3 +55,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.26.)_
 - 2025-02-21 Revised Proposal to Encode N’ko Phonetic Extensions for Malian Languages — Boubacar Diakite, Neil Patel ([L2/25-081](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-081))
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.3.)_
+- 2025-03-22 Revised Proposal to Encode N'ko Phonetic Extensions for Bambara — Boubacar Diakite, Neil Patel ([L2/26-015](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-015))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.1.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.1 for decision and action items)_
+

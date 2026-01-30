@@ -3,7 +3,7 @@ title: Unicode Status for Currency
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-18
+lastUpdated: 2026-01-30
 ---
 
 In The Unicode Standard, Currency symbols are discussed in [Chapter 22: Symbols](https://www.unicode.org/versions/latest/core-spec/#G13244). Currency symbols generally have an inherited script property rather than a specific script property.
@@ -172,3 +172,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 2.1.)_
   - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 2.1 for decision and action items)_
 - 2025-07-14 Proposal to Encode the UAE Dirham Currency Symbol in Unicode — Bram van de Ven ([L2/25-174](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-174))
+- 2025-12-08 Request to Encode the Omani Rial Currency Symbol in the Unicode Standard — Central Bank of Oman ([L2/26-041](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-041))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 3.1.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 3.1 for decision and action items)_

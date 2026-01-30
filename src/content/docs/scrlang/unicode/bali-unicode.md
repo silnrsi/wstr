@@ -3,7 +3,7 @@ title: Unicode Status for Balinese
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-18
+lastUpdated: 2026-01-30
 ---
 
 In The Unicode Standard, Balinese script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/#G26759).
@@ -67,3 +67,4 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2025-07-22 Proposal for Reclassifying the Balinese Script — PANDI ([L2/25-218](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-218))
 - 2025-10-06 PAG assessment: Proposal for Reclassifying the Balinese Script — PAG / Markus Scherer ([L2/25-219](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-219))
   - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See F.1 Section 5.1 for decision and action items)_
+- 2025-11-18 Proposal for Reclassifying the Balinese Script: Response to Unicode — PANDI ([L2/25-269](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-269))

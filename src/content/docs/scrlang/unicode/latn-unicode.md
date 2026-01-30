@@ -3,7 +3,7 @@ title: Unicode Status for Latin
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-18
+lastUpdated: 2026-01-30
 ---
 
 In The Unicode Standard, Latin script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G4321), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), <br />
@@ -872,3 +872,23 @@ Andreas Stötzner, Achim Trunk, Charlotte Wahl([L2/24-244](https://www.unicode.o
   - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 2.7)_
   - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 2.7 for decision and action items)_
 - 2025-10-10 Proposal to Update the Uppercase Mapping of LATIN SMALL LETTER SHARP S (U+00DF) to LATIN CAPITAL LETTER SHARP S (U+1E9E) — Luca Rodenhäuser([L2/25-223](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-223))
+- 2025-10-26 Anomalies regarding the representative glyphs of some characters — Eduardo Marin Silva ([L2/26-016](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-016))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 4.1.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 4.1 for decision and action items)_
+- 2025-12-05 Unicode request for Romance dialectology symbols — Nicolas Datua, Kirk Miller ([L2/26-030](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-030))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.4.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.4 for decision and action items)_
+- 2025-11-15 Unicode request to accommodate diacritics below turned i — Nicolas Datua, Kirk Miller ([L2/26-023](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-023))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.5.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.5 for decision and action items)_
+- 2025-12-09 Ligature names in the Initial Teaching Alphabet — Kirk Miller ([L2/26-025](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-025))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 4.4.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 4.4 for decision and action items)_
+- 2025-12-12 Unicode request for f and g with loop — Kirk Miller, Gavin Jared ([L2/26-021](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-021))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.6.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.6 for decision and action items)_
+- 2025-12-16 Comment on "Request for f and g with loop" by Miller & Jared — Andreas Stötzner ([L2/26-022](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-022))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 7.)_
+- 2026-01-13 New letter for the Alphabetic Presentation Forms block - ct ligature — Finlay Liam Adkins ([L2/26-024](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-024))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.9.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.9 for decision and action items)_

@@ -3,7 +3,7 @@ title: Unicode Status for Combining marks
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-18
+lastUpdated: 2026-01-30
 ---
 
 In The Unicode Standard, Combining marks implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G18195). In general, combining marks inherit script properties from the script being used. They are used in Latin, Cyrillic, Greek and have even been used in Tifinagh, Coptic, Newa and Caucasian Albanian. Other scripts, such as Arabic or most of the Indic scripts, have combining marks which are specific to that script.
@@ -192,3 +192,9 @@ See point 3.3.)_
 - 2025-04-04 Unicode request for letters with double tilde overlay — Kirk Miller ([L2/25-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-114))
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.8.)_
   - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.8 for decision and action items)_
+- 2025-11-03 Unicode request for LHM compound tone diacritic — Kirk Miller ([L2/26-031](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-031))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.3.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.3 for decision and action items)_
+- 2025-12-05 Unicode request for Romance dialectology symbols — Nicolas Datua, Kirk Miller ([L2/26-030](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-030))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.4.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.4 for decision and action items)_

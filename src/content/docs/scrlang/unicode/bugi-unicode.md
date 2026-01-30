@@ -3,7 +3,7 @@ title: Unicode Status for Buginese
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-01-30
 ---
 
 In The Unicode Standard, Buginese script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/#G26727) and in [UTN 35: Indonesian and Philippine Scripts and extensions](https://www.unicode.org/notes/tn35/).
@@ -44,5 +44,5 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2023-02-05 Proposal to encode Bima characters (supercedes L2/22-150) — Febri Muhammad Nasrullah ([L2/23-070](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-070))
   - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point C.10.)_
 - 2023-03-26 _Comments on Public Review Issues (January 5 - April 5, 2023)_ — Eduardo Marin Silva ([https://www.unicode.org/L2/L2023/23078-pubrev.html](https://www.unicode.org/L2/L2023/23078-pubrev.html)) _(See Feedback to SAH)_
-
-_Recommendations to UTC #175 April 2023 on Script Proposals_ ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.iv.8.)
+  - _Recommendations to UTC #175 April 2023 on Script Proposals_ ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.iv.8.)
+- 2025-12-12 Proposal for Reclassifying the Buginese Script — PANDI ([L2/25-273](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-273))
