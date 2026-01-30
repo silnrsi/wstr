@@ -4,7 +4,6 @@
 //   filter: indicates which tags to list; 'topic', 'script', 'lang', 'char'
 
 import { getCollection } from 'astro:content';
-import { array } from 'astro:schema';
 const articlelibonly = await getCollection('articlelibdocs');
 const topicsonly = await getCollection('topicsdocs');
 const articles = [...articlelibonly, ...topicsonly];

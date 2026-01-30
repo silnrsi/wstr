@@ -53,5 +53,33 @@ export const collections = {
   }),
   sources: defineCollection({
     loader: file("src/data/sources.yaml"),
+    schema: z.object({
+      abstract: z.string().optional(),
+      addendum: z.string().optional(),
+      author: z.string().optional(),
+      annotation: z.string().optional(),
+      booktitle: z.string().optional(),
+      date: z.string().optional(),
+      editor: z.string().optional(),
+      entrytype: z.enum(["article", "book", "inbook", "inproceedings", "misc", "online"]),
+      entrysubtype: z.enum(['f']).optional(),
+      isbn: z.string().optional(),
+      issn: z.string().optional(),
+      journaltitle: z.string().optional(),
+      keywords: z.array(z.string()),
+      location: z.string().optional(),
+      number: z.string().optional(),
+      organization: z.string().optional(),
+      pages: z.string().optional(),
+      presort: z.number().nonnegative().optional(),
+      publisher: z.string().optional(),
+      series: z.string().optional(),
+      sortname: z.string().optional(),
+      title: z.string(),
+      url: z.string().optional(),
+      urldate: z.string().optional(),
+      volume: z.string().optional(),
+    })
+    .required({ entrytype: true, title: true, keywords: true })
   }),
 }
