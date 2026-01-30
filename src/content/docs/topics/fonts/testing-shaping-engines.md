@@ -33,7 +33,7 @@ Note that web browsers on Windows (including Edge) use HarfBuzz for text shaping
 
 ### CoreText
 
-Available only on Apple products. Safari is good, as well as iWork applications (such as Pages), and TextEdit.
+Available only on Apple products. Testing with Safari is good, as well as iWork applications (such as Pages), and TextEdit.
 
 Note that most web browsers on macOS (but not Safari) use HarfBuzz for text shaping, not CoreText.
 On iOS, all web browsers use CoreText.
@@ -99,7 +99,7 @@ The rendering with HarfBuzz in InDesign is fiddly. InDesign caches the displayed
 1. Installing a new font for testing, and restarting InDesign, will probably display the cached glyphs, and not use the newly installed font.  
 2. After enabling HarfBuzz rendering in InDesign, the cached glyphs are still displayed, and the newly enabled rendering engine is not used.
 
-The solution to both issues is to force InDesign to redraw the glyphs (thus using the new font or rendering engine). This can be done by changing the point size or, easier to do, setting the weight of the text to Bold (or Italic, and then back to Regular if desired) Another font setting might also work.
+The solution to both issues is to force InDesign to redraw the glyphs (thus using the new font or rendering engine). This can be done by changing the point size or, easier to do, setting the weight of the text to Bold (or Italic, and then back to Regular if desired). Another font setting might also work.
 
 [^shaping]: The most common OpenType shaping engines are
 [DirectWrite][directwrite],
