@@ -7,7 +7,6 @@ lastUpdated: 2025-09-24
 import ArticlesList from '/src/components/ArticlesList.astro';
 import Character from '/src/components/Character.astro';
 import CharacterTable from '/src/components/CharacterTable.astro';
-import DataTable from '/src/components/DataTable.astro';
 
 ## Using the components
 To use these components, you need to:
@@ -194,53 +193,6 @@ import CharacterTable from '/src/components/CharacterTable.astro';
   startUsv = "0627"
   endUsv   = "0632"
   caption  = "Arabic characters 0627-0632"
-/>
-
----
-
-### `DataTable` component
-
-#### Required import
-```jsx
-import DataTable from '/src/components/DataTable.astro';
-```
-
-#### Syntax
-```html
-<DataTable 
-  table    = "table_name" 
-  fields   = "field1[=Label1], field2[=Label2], ..." 
-  [filter  = "condition"] 
-  [order   = "field1 ASC|DESC, field2 ASC|DESC, ... "] 
-  [caption = "Caption text"]
-/>
-```
-|Property|Description|
-|---|---|
-|table|The name of the table to query. Possible values are `characters`, `scripts`, and `blocks`.|
-|fields|A comma-separated list of fields to display. Each field can optionally be followed by `=Label` to specify a custom column header.|
-|filter|An optional SQL WHERE clause to filter the results.|
-|order|An optional SQL ORDER BY clause to sort the results.|
-|caption|An optional caption to display below the table.|
-
-#### Example
-##### Source
-```html
-<DataTable 
-  table   = "characters" 
-  fields  = "character_usv=USV, character_name=Character Name" 
-  filter  = "character_category = 'Lm' AND character_unicodeVersion = '3.0'" 
-  order   = "character_usv ASC" 
-  caption = "List of Modifier Letters (Lm) added in Unicode 3.0"
-/>
-```
-##### Result
-<DataTable 
-  table   = "characters" 
-  fields  = "character_usv=USV, character_name=Character Name" 
-  filter  = "character_category = 'Lm' AND character_unicodeVersion = '3.0'" 
-  order   = "character_usv ASC" 
-  caption = "List of Modifier Letters (Lm) added in Unicode 3.0"
 />
 
 ---

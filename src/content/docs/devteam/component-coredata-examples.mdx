@@ -5,7 +5,6 @@ lastUpdated: 2025-09-24
 ---
 import Character from '/src/components/Character.astro';
 import CharacterTable from '/src/components/CharacterTable.astro';
-import DataTable from '/src/components/DataTable.astro';
 
 :::note
 These are just proof-of-concept examples as a basis for discussion.
@@ -60,26 +59,3 @@ Transformation of data to a normal form. For historical reasons, the Unicode sta
 Consider these Farsi Yeh forms:
 
 <CharacterTable startUsv="063D" endUsv="063F" caption="Farsi Yeh forms"/>
-
-
-## DataTable example
-
-The following table displays data from the `characters` table, showing USV and character name. The results are filtered to include only records where the `character_category` is `Lm` and Unicode version is 3.0, and are sorted by `usv` in ascending order.
-
-```html
-<DataTable 
-  table   = "characters" 
-  fields  = "character_usv=USV, character_name=Character Name" 
-  filter  = "character_category = 'Lm' AND character_unicodeVersion = '3.0'" 
-  order   = "character_usv ASC" 
-  caption = "List of Modifier Letters (Lm) added in Unicode 3.0"
-/>
-```
-
-<DataTable 
-  table   = "characters" 
-  fields  = "character_usv=USV, character_name=Character Name" 
-  filter  = "character_category = 'Lm' AND character_unicodeVersion = '3.0'" 
-  order   = "character_usv ASC" 
-  caption = "List of Modifier Letters (Lm) added in Unicode 3.0"
-/>
