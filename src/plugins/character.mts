@@ -6,13 +6,13 @@ import { isUSV, parseUSV, USVtoString } from './usv.mts';
 
 export type Option = "usv" | "char" | "name"
 
-export interface Options {
+export type Options = {
     readonly usv?: true,
     readonly char?: true,
     readonly name?: true
 }
 
-function parseOption(text: string): Option {
+export function parseOption(text: string): Option {
     switch (text) {
         case "usv":
         case "char":
@@ -52,7 +52,7 @@ export function htmlFromUSV(src: string, options: Options) {
     if (options.name) {
         parts.push(`<span class="uni-char-metadata">${characterName}</span>`);
     }
-    return `<span class='character-component'>${parts.join(' ')}</span>`
+    return `<span style=".character-component{display:inline;}" class='character-component'>${parts.join(' ')}</span>`
 }
 
 export function htmlFromCharacter(char: string, options: Options) {

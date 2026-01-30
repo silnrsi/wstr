@@ -2,7 +2,7 @@ import { SKIP, visit } from 'unist-util-visit'
 import type { Root } from 'mdast'
 import type { TextDirective } from 'mdast-util-directive'
 import type { VFile } from 'vfile'
-import { isUSV, parseUSV } from './usv.mts'
+import { htmlFromCharacter, htmlFromUSV, parseOption } from './character.mts'
 
 export default function remarkCharacterDirectives() {
     return (tree: Root, file: VFile) => {
@@ -16,29 +16,28 @@ export default function remarkCharacterDirectives() {
                 const child = node.children.pop()
                 if (child?.type !== 'text' && child?.type !== 'inlineCode')
                     file.fail(`Missing value on \`:${node.name}\` directive.`, node, 'CharacterDirectives')
-                else if (node.name == 'usv' && !isUSV(parseUSV(child.value)))
-                    file.fail(`Invalid USV: "${child.value}": A USV must be between 0000 and 10ffff.`, child, 'CharacterDirectives:usv')
-    
-                // Read any attributes and convert to options for the <Character/> component.
-                const options = Object.keys(node.attributes || {}).toString()
-
-                // Replace this directive node with an MDX component node.
-                Object.assign(node, {
-                    type: 'mdxJsxFlowElement',
-                    name: 'Character',
-                    children: [],
-                    attributes: [{  ...child, type: 'mdxJsxAttribute', name: node.name }],
-                })
-                // Append an options attribute if required.
-                if (options) {
-                    // @ts-expect-error: mutate because it is faster; content model is fine.
-                    node.attributes.push(
-                        { type: 'mdxJsxAttribute',
-                          name: 'options',
-                          value: options,
-                          position: child?.position
-                        })
+                
+                // Read any attributes and convert to options for the html rendering calls.
+                let attrs = Object.keys(node.attributes || {})
+                attrs = attrs.length ? attrs : ['usv', 'char', 'name']
+                const options = Object.fromEntries(attrs.map((k) => [parseOption(k),true]))
+                
+                let rendered;
+                try {
+                    switch (node.name) {
+                        case "usv": 
+                            rendered = htmlFromUSV(child.value, options)
+                            break
+                        case "char":
+                            rendered = htmlFromCharacter(child.value, options)
+                            break;
+                    }
+                } catch (cause) {              
+                    file.fail(`${cause}`, child, `CharacterDirectives:${node.name}`)
                 }
+
+                // Replace this directive node with an Html node.
+                Object.assign(node, { type: 'html', value: rendered })
                 return SKIP
             }
         )
