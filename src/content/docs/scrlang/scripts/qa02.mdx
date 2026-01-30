@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![No sample available](../images/nosample.png)
 
@@ -51,5 +53,9 @@ _This script is not currently recognized by the [ISO 15924 standard](http://www.
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-qa02' header='Related articles' />
+
+<SourceLinksList tag='script-qa02' header='External links' entrytype='online' />
+
+<BibList tag='script-qa02' header='Bibliography' entrytype='non-online' />
 

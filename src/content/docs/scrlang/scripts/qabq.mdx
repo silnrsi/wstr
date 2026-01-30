@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Badaga script sample](../images/qabq-sample.jpg "Detail from booklet used to learn the Badaga script")
 
@@ -56,5 +58,9 @@ The Badaga script is not yet in Unicode. It is not yet in the Roadmap for the Un
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-qabq' header='Related articles' />
+
+<SourceLinksList tag='script-qabq' header='External links' entrytype='online' />
+
+<BibList tag='script-qabq' header='Bibliography' entrytype='non-online' />
 

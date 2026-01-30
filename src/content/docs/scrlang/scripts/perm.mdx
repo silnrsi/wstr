@@ -20,8 +20,10 @@ scrpropotcode: perm
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Old Permic script sample](../images/perm-sample.jpg "Old Permic Script Document")
 
@@ -57,5 +59,8 @@ In The Unicode Standard, Old Permic script implementation is discussed in [Chapt
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-perm' header='Related articles' />
 
+<SourceLinksList tag='script-perm' header='External links' entrytype='online' />
+
+<BibList tag='script-perm' header='Bibliography' entrytype='non-online' />

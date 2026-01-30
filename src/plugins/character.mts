@@ -1,18 +1,18 @@
 // Render a character component to html
 // Convert a USV or Unicode character to a sequence of HTML spans
 
-import { getCharacter, getCharacterName, USVNotFound } from '../plugins/coredata.mts';
-import { isUSV, parseUSV, USVtoString, type USV } from './usv.mts';
+import { getCharacter } from '../plugins/coredata.mts';
+import { isUSV, parseUSV, USVtoString } from './usv.mts';
 
 export type Option = "usv" | "char" | "name"
 
-export interface Options {
+export type Options = {
     readonly usv?: true,
     readonly char?: true,
     readonly name?: true
 }
 
-function parseOption(text: string): Option {
+export function parseOption(text: string): Option {
     switch (text) {
         case "usv":
         case "char":
@@ -29,13 +29,13 @@ export function parseOptionsSequence(text: string): Option[] {
     return text.split(/\s*,\s*|\s+/).map(parseOption)
 }
 
-export async function htmlFromUSV(src: string, options: Options) {
+export function htmlFromUSV(src: string, options: Options) {
     const usv = parseUSV(src)
     if (!isUSV(usv))
         throw new RangeError(`invalid USV: "${src}": it must be between 0000 and 10ffff`);
 
-    const characterName = await getCharacterName(usv);
-    if (characterName === USVNotFound)
+    const characterName = getCharacter(usv)?.character_name;
+    if (characterName === undefined)
         throw new RangeError(`USV not found: "${USVtoString(usv)}": No character data exists.`);
 
     // Concatenate the parts based on options, separated by spaces
@@ -45,14 +45,14 @@ export async function htmlFromUSV(src: string, options: Options) {
     }
     if (options.char) {
         // Decide whether we need to include a dotted circle with combining marks
-        const info = await getCharacter(`character_usv = '${USVtoString(usv)}'`);
+        const info = getCharacter(usv);
         const dottedCircle = info?.character_category.startsWith('M') ? String.fromCodePoint(0x25CC) : ''
         parts.push(dottedCircle + String.fromCodePoint(usv));
     }
     if (options.name) {
         parts.push(`<span class="uni-char-metadata">${characterName}</span>`);
     }
-    return `<span class='character-component'>${parts.join(' ')}</span>`
+    return `<span style=".character-component{display:inline;}" class='character-component'>${parts.join(' ')}</span>`
 }
 
 export function htmlFromCharacter(char: string, options: Options) {

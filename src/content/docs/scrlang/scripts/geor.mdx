@@ -20,8 +20,10 @@ scrpropotcode: geor
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Georgian (Mkhedruli and Mtavruli "From the Universal Declaration of Human Rights in Georgian.") script sample](../images/geor-sample.png "From the Universal Declaration of Human Rights in Georgian.")
 
@@ -67,5 +69,8 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-geor' header='Related articles' />
 
+<SourceLinksList tag='script-geor' header='External links' entrytype='online' />
+
+<BibList tag='script-geor' header='Bibliography' entrytype='non-online' />

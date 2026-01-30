@@ -20,8 +20,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Syriac script, Eastern variant sample](../images/syrn-sample.png "From Wikipedia.")
 
@@ -55,5 +57,8 @@ In The Unicode Standard, Syriac Script implementation is discussed in [Chapter 9
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-syrn' header='Related articles' />
 
+<SourceLinksList tag='script-syrn' header='External links' entrytype='online' />
+
+<BibList tag='script-syrn' header='Bibliography' entrytype='non-online' />

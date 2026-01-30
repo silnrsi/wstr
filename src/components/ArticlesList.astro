@@ -1,12 +1,13 @@
 ---
-// ArticlesList component: list articles present on the site.
+// ArticlesList component: list articles tagged with the given tag.
 // They can be limited to just those in the Article Library, just in the main Topics list, or all.
 // Parameters:
 //     subset: 'topicsonly', 'articlelibonly'
 //     tag: eg, 'encoding', 'script-arab', etc.
+//     header: eg, 'Related articles'
 
 import { getCollection } from 'astro:content';
-const { tag, subset } = Astro.props;
+const { tag, subset, header } = Astro.props;
 const articlelibonly = await getCollection('articlelibdocs');
 const topicsonly = await getCollection('topicsdocs');
 
@@ -28,14 +29,32 @@ if (tag) {
     article.data.tags && Array.isArray(article.data.tags) && article.data.tags.includes(tag)
   );
 }
+
+let sortedArticles = filteredArticles.sort((a, b) => a.data.title.localeCompare(b.data.title));
+
 ---
 
-<ul>
-  {filteredArticles.map(article => (
-    article.data.description ? (
-      <li><a href={`/${article.id}`}>{article.data.title}</a> - <em>{article.data.description}</em></li>
-    ) : (
-      <li><a href={`/${article.id}`}>{article.data.title}</a></li>
-    )
-  ))}
-</ul>
+<style>
+	.descr { font-style: italic; font-size: 100%; }
+</style>
+
+{ (sortedArticles.length == 0) ? (
+		null
+	) : (
+		<>
+			{ (header && header !== '') ? (
+				<h3>{header}</h3>
+				) : null
+			}
+			<ul>
+				{sortedArticles.map(article => (
+					article.data.description ? (
+						<li><a href={`/${article.id}`}>{article.data.title}</a> - <span class='descr'>{article.data.description}</span></li>
+					) : (
+						<li><a href={`/${article.id}`}>{article.data.title}</a></li>
+					)
+				))}
+			</ul>
+		</>
+	)
+}

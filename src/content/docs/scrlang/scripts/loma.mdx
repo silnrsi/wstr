@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Loma script sample](../images/loma-sample.jpg "Image used here with permission.")
 
@@ -52,5 +54,9 @@ The Loma script is not yet in Unicode. The script has a tentative allocation at 
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-loma' header='Related articles' />
+
+<SourceLinksList tag='script-loma' header='External links' entrytype='online' />
+
+<BibList tag='script-loma' header='Bibliography' entrytype='non-online' />
 

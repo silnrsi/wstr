@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Shuishu script sample](../images/shui-sample.jpg "Sample of Shui Shu script.")
 
@@ -54,5 +56,9 @@ The Shuishu script (also called Sui script) is not yet in Unicode. Shuishu has a
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-shui' header='Related articles' />
+
+<SourceLinksList tag='script-shui' header='External links' entrytype='online' />
+
+<BibList tag='script-shui' header='Bibliography' entrytype='non-online' />
 

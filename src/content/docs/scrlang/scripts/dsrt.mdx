@@ -20,8 +20,10 @@ scrpropotcode: dsrt
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Deseret Alphabet sample](../images/dsrt-sample.png "From Toppan Rare Books Library.")
 
@@ -53,5 +55,9 @@ In The Unicode Standard, Deseret Alphabet implementation is discussed in [Chapte
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-dsrt' header='Related articles' />
+
+<SourceLinksList tag='script-dsrt' header='External links' entrytype='online' />
+
+<BibList tag='script-dsrt' header='Bibliography' entrytype='non-online' />
 

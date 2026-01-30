@@ -20,8 +20,10 @@ scrpropotcode: diak
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Dives Akuru script sample](../images/diak-sample.png "From Wikipedia.")
 
@@ -57,5 +59,9 @@ In The Unicode Standard, Dives Akuru script implementation is discussed in [Chap
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-diak' header='Related articles' />
+
+<SourceLinksList tag='script-diak' header='External links' entrytype='online' />
+
+<BibList tag='script-diak' header='Bibliography' entrytype='non-online' />
 

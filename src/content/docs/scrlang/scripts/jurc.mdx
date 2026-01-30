@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Jurchen script sample](../images/jurc-sample.jpg "Detail from copy of medallion with Jurchen inscription")
 
@@ -54,5 +56,9 @@ The Jurchen script is not yet in Unicode. The script has a tentative allocation 
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-jurc' header='Related articles' />
+
+<SourceLinksList tag='script-jurc' header='External links' entrytype='online' />
+
+<BibList tag='script-jurc' header='Bibliography' entrytype='non-online' />
 

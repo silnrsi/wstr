@@ -1,6 +1,9 @@
 ---
 // WsLocaleLink component: generate a link to the SLDR or CLDR locale data for a given writing system. 
 // Used within the WsList component.
+// Parameters:
+//     locale: eg. 'ar', 'shu', 'dgl_Arab', 
+//     localeStatus: 'CLDR', 'SLDR', ''
 
 const { locale, localeStatus } = Astro.props;
 const localeText     = (locale && locale !== "none") ? `${locale} (SLDR)` : '';

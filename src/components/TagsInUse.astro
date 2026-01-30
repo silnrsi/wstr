@@ -4,10 +4,10 @@
 //   filter: indicates which tags to list; 'topic', 'script', 'lang', 'char'
 
 import { getCollection } from 'astro:content';
-import { array } from 'astro:schema';
 const articlelibonly = await getCollection('articlelibdocs');
 const topicsonly = await getCollection('topicsdocs');
-const articles = [...articlelibonly, ...topicsonly]; 
+const articles = [...articlelibonly, ...topicsonly];
+const sources = await getCollection('sources');
 
 // Set up a filter to use to create the list.
 let filterExpr
@@ -24,13 +24,21 @@ switch (Astro.props?.filter) {
 };
 
 // Apply the filter to the list of existing articles.
-const tagsSorted = [...new Set(articles.flatMap(
+const tags = [...new Set(articles.flatMap(
   article => article.data.tags?.filter(filterExpr)
-))].sort();
+))];
+
+// Apply the filter to the list of existing sources.
+const keywords = [...new Set(sources.flatMap(
+  source => source.data.keywords?.filter(filterExpr)
+))];
+
+const combinedTags = [...tags, ...keywords];
+const uniqueTagsSorted = [...new Set(combinedTags)].sort();
 ---
 
 <ul>
-  {tagsSorted.map(tag => (
+  {uniqueTagsSorted.map(tag => (
     <li>{tag}</li>
   ))}
 </ul>

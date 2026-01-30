@@ -1,8 +1,12 @@
 ---
 title: Sources Reference
 description: How to use bibliographic sources and links
-lastUpdated: 2025-11-25
+lastUpdated: 2026-01-23
 ---
+
+import BibEntry from '/src/components/BibEntry.astro';
+import SourceLinksList from '/src/components/SourceLinksList.astro';
+
 
 :::note
 This is a guidance document for authors, primarily the Writing Systems Technology (WSTech) team.
@@ -10,41 +14,113 @@ This is a guidance document for authors, primarily the Writing Systems Technolog
 
 ## How to use bibliographic sources
 
+_Note: You do not need to use bibliographic sources to add a link to a page. It is perfectly fine to continue to use the `[link text][refname]` syntax and define the link in the page content. Bibliographic sources may be easier in the long-run for sources that are used more than once on the site._
+
 ### To add links within text content
+
+If you want to add a link in page text content that draws on bibliographic data from our Sources data, use the syntax: ```[Link text](@uniquekey)```. For example `[Apple's AAT technology](@aat)` will produce the following link: [Apple's AAT technology](@aat). The `@aat` at the end refers to a source with the _uniquekey_ `aat` defined in the `data/sources.yaml` file. Malformed or non-existent uniquekeys will return an error pointing to the link in question, while linking to valid sources entry which does not have a `url` field will produce a link to a non-existent path on the site at `/biblio/uniquekey`.
+
+A quick reference to the more commonly used _uniquekeys_ can be found at [Source Keys Quick Reference](/devteam/source-keys-quick-reference).
 
 ### To create a bibliography for a page
 
+If you want to add a formal, academic-style bibliography to an article or topic page, you need to construct it manually by making a markdown list at the bottom of the page of the works you want to list. There is no way (at the moment) to have a list automatically constructed from the links or citations you've added in the page text.
+
+You can, however, still take advantage of the hundreds of bibliographic sources in our Sources data. You can reference individual Sources by their _uniquekey_:
+
+- Give your Markdown file the `.mdx` extension.
+- import the `<BibEntry />` component:
+```jsx
+import BibEntry from '/src/components/BibEntry.astro';
+```
+- add a bibliography section at the end of your page content, using `<BibEntry uniquekey="..." />` for each source you want to list. For example:
+```html
+- <BibEntry key="aat" />
+- <BibEntry key="hatcher2008"/>
+- <BibEntry key="mumin2013" />
+```
+This will produce a bibliography that looks like this:
+
+- <BibEntry key="aat" />
+- <BibEntry key="hatcher2008"/>
+- <BibEntry key="mumin2013" />
+
+You may want to add a heading before the list, such as `## Bibliography`.
+
 ### To add a list of links based on tags
+
+Script pages and Topic Related Resources pages include an automatically-generated list of links to sources tagged with the relevant script or topic. You can also add a similar tag-based list to any page using the `SourceLinksList` component:
+
+```jsx
+import SourceLinksList from '/src/components/SourceLinksList.astro';
+
+<SourceLinksList tag="naming" header="Resources on font and glyph naming" /> 
+``` 
+This will produce a list of links to all sources with the tag/keyword `naming`, under a heading "Resources on font and glyph naming". Sources that have no URL will not be included in the list:
+
+<SourceLinksList tag="naming" header="Resources on font and glyph naming" /> 
+
+## Adding new sources
+
+_For online links:_ You do not need to create a new source for every link you add to a page. It is perfectly fine to continue to use the `[link text][refname]` syntax and define the link in the page content. If, however, you think that you or someone else might want to link to the same page later it may be helpful to create an online source for it.
+
+_For other bibliographic sources:_ You do not need to create a new source to add a bibliographic reference to a page but it would be a good idea. Then you can depend on WSTR to format the entry properly according to our bibliographic style. It will also then appear elsewhere depending on its tags/keywords.
+
+To add a new source:
+
+- Open the `data/sources.yaml` file.
+- Search within that file to see if the source you need is already there.
+- Choose a unique key for the source (see _Choosing source keys_).
+- Add the new source to the file using the appropriate entry type and fields (see _Source types_ and _Source fields_). Please add it in alphabetical order by key - this will make the file easier to read and help ensure that you do not create duplicate keys.
+- Save the file and commit your changes.
+
+### VS Code editing tools
+
+The source repo contains a schema for validating this format, and the configuration necessary to integrate it into VSCode using [RedHat's YAML Extension][redhat-yaml-ext]. This provides helpful tool-tip descriptions, and editor integration to help you find problems, such as invalid or duplicate keys, structural issues, incorrectly formated dates or ISBN numbers etc.
+
+To use the validation tools:
+
+- Install the [YAML Extension by RedHat][redhat-yaml-ext] in VSCode.
+- Restart VSCode (not always necessary but is a good idea in this case).
+- Open the `data/sources.yaml` file.
+- Ensure that the YAML extension is active - look in the bottom-right corner of VSCode window for "WSTR Sources Schema", as in:
+
+![VSCode - Schema indicator](images/sources-reference-1.png)
+
+- To check for problems, look for red squiggly underlines in the file, or open the "Problems" tab in VSCode (View > Problems):
+
+![VSCode - Problems tab](images/sources-reference-2.png)
+
+The extension+schema also provides auto-completion for field names and some field values. Also - if you hover over a field name you will see a tooltip with a description of the field.
 
 ## Source types
 
-The data model for WSTR sources is based closely on [BibLaTeX][biblatex-manual], although we are only using a small number of entry types and adding some custom fields. Here are the source types we are using and which fields are appropriate. By convention the `@` symbol is used to indicate entry types.
+The data model for WSTR sources is based closely on [BibLaTeX][biblatex-manual], although we are only using a small number of entry types and adding some custom fields. Here are the source types we are using and which fields are appropriate.
 
-- **@article** - for articles in journals
+- **article** - for articles in journals
     - Required: _title_, _author_, _journaltitle_, _date_
     - Optional: _pages_, _volume_, _number_, _issn_
-- **@book** - for books
+- **book** - for books
     - Required: _title_, _author_ and/or _editor_
     - Should also have: _date_, _publisher_, _location_ (though not strictly required)
     - Optional: _series_, _isbn_
-- **@inbook** - for chapters within books
+- **inbook** - for chapters within books
     - Required: _title_, _author_, _booktitle_, _date_
     - Should also have: _publisher_, _location_, _pages_ (though not strictly required)
     - Optional: _editor_, _isbn_
-- **@inproceedings** - for papers or presentations given at conferences and often published in books of "proceedings"
+- **inproceedings** - for papers or presentations given at conferences and often published in books of "proceedings"
     - Required: _title_, _author_, _date_, _booktitle_ (which could be the conference title if there are no published procedings)
     - Optional: _editor_, _isbn_, _publisher_, _location_, _pages_ 
-- **@misc** - for sources that do not fit other types, such as unpublished papers, videos, or presentations
+- **misc** - for sources that do not fit other types, such as unpublished papers, videos, or presentations
     - Required: _title_, _author_
     - Optional: anything that is relevant
-- **@online** - for webpages, websites, and online resources, typically used for links. Do not use this for articles or books that happen to be online; use the appropriate type for those instead and add _url_ and _date_/_urldate_ fields.
+- **online** - for webpages, websites, and online resources, typically used for links. Do not use this for articles or books that happen to be online; use the appropriate type for those instead and add _url_ and _date_/_urldate_ fields.
     - Required: _title_, _url_, _date_ and/or _urldate_
     - Should also have: _author_ and/or _organization_  (though not strictly required)
     - Optional: _editor_
 
 In addition to these standard fields, WSTR sources must include:
     - _entrytype_ (one of the above types)
-    - _key_ (a unique identifier for the source)
     - _keywords_ (a comma-separated list of tags for the source).
 
 There are also some fields that may be applicable to all source types (see section below for details):
@@ -59,43 +135,45 @@ There are also some fields that may be applicable to all source types (see secti
 
 ## Source fields
 
-    - **abstract** - _not in use except for sources migrated from ScriptSource_   
+Values for fields marked with (Q) should always be double-quoted strings even if they do not contain special characters. See _Source file format_ below for details of when to double-quote other strings.
+
+    - **abstract** (Q) - _not in use except for sources migrated from ScriptSource_   
     - **addendum** - a brief note about the source that appears in lists of sources, a.k.a. "short annotation", equivalent to article frontmatter `description`.
         - Ex: `A library to manipulate font files using python`
-    - **annotation** - _not in use except for sources migrated from ScriptSource_ 
-    - **author** - _required for all source types except @online_ - the person or people who wrote or created the work. Use `firstname lastname` format for each author, separated by ` and ` for multiple authors. Commas should not be used to separate authors. Authors who share lastnames should still be written in full.
+    - **annotation** (Q) - _not in use except for sources migrated from ScriptSource_ 
+    - **author** - _required for all source types except online_ - the person or people who wrote or created the work. Use `firstname lastname` format for each author, separated by ` and ` for multiple authors. Commas should not be used to separate authors. Authors who share lastnames should still be written in full.
         - Ex: `Enya Cohen and Lila Namir and I. M. Schlesinger`
         - Ex: `John Smith and Mary Smith`
-    - **booktitle** - _for @inbook and @inproceedings_ - the title of the book or proceedings in which the work appears. Alternately can be used for the name of the conference if there are no published proceedings.
+    - **booktitle** - _for inbook and inproceedings_ - the title of the book or proceedings in which the work appears. Alternately can be used for the name of the conference if there are no published proceedings.
         - Ex: `Proceedings of the 12th International Conference on Font Technologies`
-    - **date** - the date the work was published or made publicly available. Use `yyyy-mm-dd` format where possible, but `yyyy-mm` or just `yyyy` is acceptable if the full date is not known.
-        - Ex: `2023-05-15`
-        - Ex: `2022-11`
-        - Ex: `2019`
+    - **date** (Q) - the date the work was published or made publicly available. Use `yyyy-mm-dd` format where possible, but `yyyy-mm` or just `yyyy` is acceptable if the full date is not known.
+        - Ex: `"2023-05-15"`
+        - Ex: `"2022-11"`
+        - Ex: `"2019"`
     - **editor** - the person or people who edited the work, see **author**.
     - **entrytype** - _required_ - the type of source, one of the types listed in the _Source types_ section above.
-        - Ex: `@article`
+        - Ex: `article`
     - **entrysubtype** - a short indicator that this record has special use, which allow us to use it as a filter in lists. Currently only used for:
-        - Ex: `f` (for 'favorite' shortcut-style @online links that are already in use and may be used again)
-    - **isbn** - _for @book, @inbook, and @inproceedings_9, 10, or 13 digit [International Standard Book Number (ISBN)][isbn].
-    - **issn** - _for @article_ - 8 digit [International Standard Serial Number (ISSN)][issn].
-    - **journaltitle** - _for @article_ - the name of the journal or periodical in which the article appears.
+        - Ex: `f` (for 'favorite' shortcut-style online links that are already in use and may be used again)
+    - **isbn** - _for book, inbook, and inproceedings_ - 9, 10, or 13 digit [International Standard Book Number (ISBN)][isbn].
+    - **issn** - _for article_ - 8 digit [International Standard Serial Number (ISSN)][issn].
+    - **journaltitle** - _for article_ - the name of the journal or periodical in which the article appears.
         - Ex: `Journal of Writing Systems Technology`
-    - **key** - _required_ - a unique identifier for the source. See [Choosing source keys](#choosing-source-keys).
     - **keywords** - _required_ - a comma-separated list of tags for the source, used to group related sources together. See [Tags](/devteam/file-location-and-frontmatter-reference/#tags).
-        - Ex: `rendering, fonts, opentype, script-arab`
+        - Ex: `[rendering, fonts, opentype, script-arab]`
     - **location** - the place where the work was published. If the city is not well known, include the state/province/country as well.
         - Ex: `Paris`
-        - Ex: `Katsina, Nigeria`
-        - Ex: `St. Peter, MN`
-    - **number** - _for @article_ - the issue number of the journal in which the article appears.
-    - **organization** - _for @online_ - the organization responsible for the content of the webpage or website. Can be a shorthand name rather the full formal name. Will be displayed after **title** in lists of links.
+        - Ex: `"Katsina, Nigeria"`
+        - Ex: `"St. Peter, MN"`
+    - **number** (Q) - _for article_ - the issue number of the journal in which the article appears.
+    - **organization** - _for online_ - the organization responsible for the content of the webpage or website. Can be a shorthand name rather the full formal name. Will be displayed after **title** in lists of links.
         - Ex: `Wikipedia`
         - Ex: `Microsoft`
         - Ex: `SIL`
         - Ex: `Eesti Keele Instituut`
-    - **pages** -  _for @article, @inbook, and @inproceedings_ - the page range of the article, chapter, or paper within the larger work. Use `startpage-endpage` format.
+    - **pages** -  _for article, inbook, and inproceedings_ - the page range of the article, chapter, or paper within the larger work. Use `startpage-endpage` format. Does not need double-quoting unless the page is a single page (so that the number is not misinterpreted as a string rather than a number).
         - Ex: `45-67`
+        - Ex: `"133"`
     - **presort** - a two digit number 10-99 that can be used to influence the sorting order of sources in lists. Lower numbers appear first. Sources with defined presort values appear before those without. Some standard values for certain sites:
         - `10` - ScriptSource
         - `15` - software.sil.org
@@ -105,32 +183,32 @@ There are also some fields that may be applicable to all source types (see secti
     - **publisher** - the name of the publisher of the work.
         - Ex: `Brill`
         - Ex: `Minzu Chubanshe 民族出版社`
-        - Ex: `School of Oriental and African Studies, University of London`
-    - **series** - _for @book_ - the name of the series in which the work appears, if applicable.
-        - Ex: `Studies in Semitic Languages and Linguistics `
+        - Ex: `"School of Oriental and African Studies, University of London"`
+    - **series** - _for book_ - the name of the series in which the work appears, if applicable.
+        - Ex: `Studies in Semitic Languages and Linguistics`
     - **sortname** - a name used to influence the sorting order of sources in bibliographies. Typically this is the lastname of the first **author** or **editor**, but can be any string. Sources are sorted alphabetically by **sortname**.
         - Ex: `Correll`
     - **title** - _required_ - the title of the work. Capitalization should follow standard [English title case][wiki-title-case] conventions, however sources may not follow this strictly, particularly those migrated from ScriptSource.
         - Ex: `Understanding Font Technologies`
-    - **url** -  the URL where the work can be found online. This can be used for all source types, not just @online.
+    - **url** -  the URL where the work can be found online. This can be used for all source types, not just online. _Note that this field alone does not need to be double-quoted even though it contains special characters._
         - Ex: `https://robofont.com/`
         - Ex: `https://en.wikipedia.org/wiki/Cedilla`
         - Ex: `https://doi.org/10.1017/S0025100315000444`
-    - **urldate** - the date the URL was last accessed. See **date** for formatting.
-        - Ex: `2025-11-20`
-    - **volume** - _for @article_ - the volume number of the journal in which the article appears, in whatever format is given.
-        - Ex: `12`
-        - Ex: `XIV`
+    - **urldate** (Q) - the date the URL was last accessed. See **date** for formatting.
+        - Ex: `"2025-11-20"`
+    - **volume** (Q) - _for article_ - the volume number of the journal in which the article appears, in whatever format is given.
+        - Ex: `"12"`
+        - Ex: `"XIV"`
 
-### Choosing source keys
+### Choosing source keys (uniquekeys)
 
-Source keys need to be unique, lowercase, with no spaces or punctuation except for a hyphen. They should follow one of three patterns, although **which style of key you choose is not important as long as it is unique**:
+Source keys (a.k.a. _uniquekey_) need to be unique, lowercase, with no spaces or punctuation except for a hyphen. They should follow one of three patterns, although **which style of key you choose is not important as long as it is unique**:
 
-- Formal academic style when author/editor and date are known: `sortnameYYYY[postfix]` where `YYYY` is the year portion of **date**. The optional `postfix` is used if there are multiple works by the same author/editor in the same year, and can be any short string. Applicable to all source types, although @online sources may be more easily identified using one of the other styles.
+- Formal academic style when author/editor and date are known: `sortnameYYYY[postfix]` where `YYYY` is the year portion of **date**. The optional `postfix` is used if there are multiple works by the same author/editor in the same year, and can be any short string. Applicable to all source types, although online sources may be more easily identified using one of the other styles.
     - Ex: `esfabod2024`
     - Ex: `coulmas2006batak`
     - Ex: `mafundikwa2004a`
-- Informal style, mostly for @online links to common websites, when there is no clear author or date, or when formal style would be bothersome: `shortorganization-short-title` where `shortorganization` is a brief shorthand name for the website or organization responsible for the content and `short-title` is a brief shorthand name for the page.
+- Informal style, mostly for online links to common websites, when there is no clear author or date, or when formal style would be bothersome: `shortorganization-short-title` where `shortorganization` is a brief shorthand name for the website or organization responsible for the content and `short-title` is a brief shorthand name for the page.
     - Ex: `wiki-macron` (Wikipedia page on the macron diacritic)
     - Ex: `ss-script-adlm`  (ScriptSource page on Adlam script)
     - Ex: `omni-balinese` (Omniglot page on Balinese script)
@@ -143,7 +221,120 @@ Source keys need to be unique, lowercase, with no spaces or punctuation except f
     - Ex: `keyman`  (Keyman site)
     - Ex: `ofl`  (SIL Open Font License)
 
-(to be added: info on how to check if a key is unique)
+To check if a key is unique open up the `sources.yaml` file and search for the key you are considering ("key:").
+
+## Source file format (YAML)
+
+The `sources.yaml` file is a YAML file containing all bibliographic sources used on WSTR. Each source is represented as a YAML object with fields corresponding to the source fields described above. Some details:
+
+- Indentation is two spaces.
+- Empty fields can be omitted but can also be included with no value (e.g., `pages: `).
+- Strings do not need to be quoted in block style, or on single line unless they contain the special characters `: { } [ ] , & * # ? | - < > = ! % @` or are one of the fields noted above as (Q) requiring double quotes.
+
+### Example showing all possible fields
+
+```yaml
+uniquekey:
+  abstract: "Longer potentially multi-line abstract (with special characters)"
+  addendum: Description
+  annotation: "Longer potentially multi-line annotation (with special characters)"
+  author: John Smith and Mary Smith
+  booktitle: Title of Book or Proceedings
+  date: "2011-06-24"
+  editor: Peter Jones
+  entrytype: book
+  entrysubtype: f
+  isbn: 0-19-507993-0
+  issn: 1613-3668
+  journaltitle: Journal Title
+  keywords: [first, another one]
+  location: London
+  number: "24"
+  organization: Wikipedia
+  pages:  104-124
+  presort: 22
+  publisher: Brill
+  series: Studies in Writing Systems
+  sortname: Smith
+  title: Title
+  url: https://robofont.com/
+  urldate: "2025-12-15"
+  volume: "3"
+```
+
+### Examples of each entry type with typical fields
+
+In the following examples fields are grouped generally by use. The order of fields in the actual file does not matter. 
+
+```yaml
+# src/data/sources.yaml
+---
+hatcher2008:
+  entrytype: article
+  title: "Script change in Azerbaijan: acts of identity"
+  author: Lynley Hatcher
+  sortname: Hatcher
+  journaltitle: International Journal of the Sociology of Language
+  url: http://dx.doi.org/10.1515/IJSL.2008.038
+  date: "2008"
+  issn: 1613-3668
+  pages: 105-116
+  volume: "2008"
+  number: "192"
+  keywords: [script-latn, script-arab, script-cyrl, lang-azj, lang-azb]
+chaîne1907:
+  entrytype: book
+  title: Grammaire éthiopienne
+  author: Marius Chaîne
+  sortname: Chaîne
+  date: "1907"
+  publisher: Imprimerie catholique
+  location: Beyrouth
+  keywords: [script-ethi, lang-amh]
+  annotation: "This book was written (in French) to help people in their beginning study of the Ethiopian language."
+bauer1996:
+  entrytype: inbook
+  title: Arabic Writing
+  author: Thomas Bauer
+  editor: Peter T. Daniels and William Bright
+  sortname: Bauer
+  booktitle: "The World's Writing Systems"
+  date: "1996"
+  isbn: 0-19-507993-0
+  publisher: Oxford University Press
+  location: Oxford
+  pages: 559-564
+  keywords: [script-arab]
+abba2015:
+  entrytype: inproceedings
+  title: "Ajamization of Knowledge: The Kanuri Experience"
+  author: Tahir Abba
+  sortname: Abba
+  booktitle: Conference of Language and Identity in Africa
+  url: https://www.academia.edu/21905366/Ajamization_of_Knowledge_The_Kanuri_Experience
+  date: "2015-04-05"
+  publisher: Cairo University
+  location: Cairo
+  keywords: [script-arab, lang-knc, lang-kau, lang-nup, lang-krt, lang-kby, lang-bms, lang-yor, lang-hau, lang-fuv]
+gulzar2006:
+  entrytype: misc
+  title: Nastaleeq Support in TeX (Omega)
+  author: Atif Gulzar
+  sortname: Gulzar
+  url: http://www.cle.org.pk/Publication/theses/2006/nastaleeq_Support_in_TeX_%28Omega%29.pdf
+  date: "2006-12-01"
+  publisher: "National University of Computer & Emerging Sciences"
+  location: Lahore
+  keywords: [script-aran, fonts, rendering]
+  abstract: "With the advent of multi-lingual concept in computer systems, different solution has been proposed and implemented. But most of these are not matured enough or has platform barriers. The most promising solutions are OpenType® by Microsoft and Adobe, and Apple Advanced Typography by Apple Inc. The OpenType® specifications are open source, in spite of that the support of OpenType® on different platforms is not mature and even not consistent among Microsoft and Adobe applications.(CR)(CR)Two different techniques have been adapted to digitize the Nastaleeq script. One is Ligature based approach and other is character based. Both approaches have their own limitations. The most dominating solution is ligature based Nori Nastaleeq font. But this font can only be run in proprietary software InPage®. And this software can only be run in a MS Windows environment. The other promising solution is character based Nafees Nastaleeq font. This font uses OpenType® technology to generate ligatures. OpenType® solution is very slow for Nastaleeq script and has limitations for proportional spacing and justification.(CR)(CR)TeX is a revolutionary typesetting system developed by Donald Knuth in 1980s. It is a defecto standard for many scientific and mathematic publications. TeX was mainly aimed at typesetting mathematics and English text. Omega is an extension of TeX developed by John Plaice and Yannis Haralambous. Its first release, aims primarily at improving TeX's multilingual abilities. Omega allows multiple inputs and output character sets, and uses programmable filters to translate from one encoding to another, to perform contextual analysis. The pixel level control of TeX over glyphs and filtering approach of Omega suits them best for complex scripts like Nastaleeq."
+  annotation: "This thesis goes into great detail about how the Nastaleeq style of Arabic script works. It is a useful read for anyone interested in implementing support for Nastaleeq."
+aat:
+  entrytype: online
+  title: "About Apple Advanced Typography Fonts - TrueType Reference Manual"
+  url: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6AATIntro.html
+  urldate: "2025-11-19"
+  keywords: [fonts]
+```
 
 ## Source examples
 
@@ -153,3 +344,4 @@ Source keys need to be unique, lowercase, with no spaces or punctuation except f
 [isbn]: https://en.wikipedia.org/wiki/ISBN
 [issn]: https://en.wikipedia.org/wiki/ISSN
 [wiki-title-case]: https://en.wikipedia.org/wiki/Title_case
+[redhat-yaml-ext]: https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml

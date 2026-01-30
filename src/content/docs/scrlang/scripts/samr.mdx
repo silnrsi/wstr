@@ -20,8 +20,10 @@ scrpropotcode: samr
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Samaritan script sample](../images/samr-sample.png "Copper Kettle, Flickr, 2008.")
 
@@ -63,5 +65,9 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-samr' header='Related articles' />
+
+<SourceLinksList tag='script-samr' header='External links' entrytype='online' />
+
+<BibList tag='script-samr' header='Bibliography' entrytype='non-online' />
 

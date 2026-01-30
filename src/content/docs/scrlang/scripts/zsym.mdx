@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Symbols sample](../images/zsym-sample.jpg "Miscellaneous symbols (from Unicode charts)")
 
@@ -46,5 +48,9 @@ In the Unicode Standard there are characters that are considered Symbols, but th
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-zsym' header='Related articles' />
+
+<SourceLinksList tag='script-zsym' header='External links' entrytype='online' />
+
+<BibList tag='script-zsym' header='Bibliography' entrytype='non-online' />
 

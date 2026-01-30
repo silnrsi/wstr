@@ -7,8 +7,6 @@ lastUpdated: 2025-09-24
 import ArticlesList from '/src/components/ArticlesList.astro';
 import Character from '/src/components/Character.astro';
 import CharacterTable from '/src/components/CharacterTable.astro';
-import DataTable from '/src/components/DataTable.astro';
-import ScriptTable from '/src/components/ScriptTable.astro';
 
 ## Using the components
 To use these components, you need to:
@@ -22,6 +20,39 @@ If your component content doesn't show up on the rendered page, check it has the
 Additional examples of using these components can be found in [Component Coredata Examples](/devteam/component-coredata-examples).
 
 ## Currently-recommended components
+
+### `ArticlesList` component
+
+#### Required import
+```jsx
+import ArticlesList from '/src/components/ArticlesList.astro';
+```
+
+#### Syntax
+```html
+<ArticlesList [tag="..."] [subset="articlelibonly|topicsonly"] [header="..."] />
+```
+
+|Property|Description|
+|---|---|
+|tag|optional tag to filter the articles listed|
+|subset|optional subset of articles to display, either `articlelibonly` or `topicsonly`|
+|header|optional header text to display above the list|
+
+Unless `subset` is defined, the component lists contents from both the Article Library and Topic pages.
+
+#### Example
+
+##### Source
+```html
+<ArticlesList tag="encoding" subset="articlelibonly" header="Encoding Articles" />
+```
+
+##### Result
+
+<ArticlesList tag="encoding" subset="articlelibonly" header="Encoding Articles"  />
+
+---
 
 ### `Character` component
 
@@ -70,14 +101,6 @@ Combining marks are automatically displayed with a dotted circle to indicate the
 >Result: <Character usv="0301"/>
 
 ---
-
-## Components in development
-
-:::caution
-These components are prototypes for possible future use: their specification is not yet agreed. You are welcome to try them out and give feedback, but be aware that they will likely change.
-:::
-
----
 #### Directive syntax
 ```mdx
 :usv[XXXX]
@@ -85,6 +108,7 @@ These components are prototypes for possible future use: their specification is 
 :usv[XXXX]{usv char name}
 :char[a]{usv char name}
 ```
+These directives are able to work in both `.md` and `.mdx` files.
 Please note the `:char` directive is a little more limited, and cannot accept any
 whitespace, or certain meta characters without escaping `\[`, `\{`, or wrapping
 in inline code quotes.
@@ -129,35 +153,11 @@ This example shows the use of `:char`
 
 ---
 
-### `ArticlesList` component
+## Components in development
 
-#### Required import
-```jsx
-import ArticlesList from '/src/components/ArticlesList.astro';
-```
-
-#### Syntax
-```html
-<ArticlesList [tag="..."] [subset="articlelibonly|topicsonly"] />
-```
-
-|Property|Description|
-|---|---|
-|tag|optional tag to filter the articles listed|
-|subset|optional subset of articles to display, either `articlelibonly` or `topicsonly`|
-
-Unless `subset` is defined, the component lists contents from both the Article Library and Topic pages.
-
-#### Example
-
-##### Source
-```html
-<ArticlesList tag="encoding" subset="articlelibonly" />
-```
-
-##### Result
-
-<ArticlesList tag="encoding" subset="articlelibonly" />
+:::caution
+These components are prototypes for possible future use: their specification is not yet agreed. You are welcome to try them out and give feedback, but be aware that they will likely change.
+:::
 
 ---
 
@@ -197,96 +197,3 @@ import CharacterTable from '/src/components/CharacterTable.astro';
 />
 
 ---
-
-### `DataTable` component
-
-#### Required import
-```jsx
-import DataTable from '/src/components/DataTable.astro';
-```
-
-#### Syntax
-```html
-<DataTable 
-  table    = "table_name" 
-  fields   = "field1[=Label1], field2[=Label2], ..." 
-  [filter  = "condition"] 
-  [order   = "field1 ASC|DESC, field2 ASC|DESC, ... "] 
-  [caption = "Caption text"]
-/>
-```
-|Property|Description|
-|---|---|
-|table|The name of the table to query. Possible values are `characters`, `scripts`, and `blocks`.|
-|fields|A comma-separated list of fields to display. Each field can optionally be followed by `=Label` to specify a custom column header.|
-|filter|An optional SQL WHERE clause to filter the results.|
-|order|An optional SQL ORDER BY clause to sort the results.|
-|caption|An optional caption to display below the table.|
-
-#### Example
-##### Source
-```html
-<DataTable 
-  table   = "characters" 
-  fields  = "character_usv=USV, character_name=Character Name" 
-  filter  = "character_category = 'Lm' AND character_unicodeVersion = '3.0'" 
-  order   = "character_usv ASC" 
-  caption = "List of Modifier Letters (Lm) added in Unicode 3.0"
-/>
-```
-##### Result
-<DataTable 
-  table   = "characters" 
-  fields  = "character_usv=USV, character_name=Character Name" 
-  filter  = "character_category = 'Lm' AND character_unicodeVersion = '3.0'" 
-  order   = "character_usv ASC" 
-  caption = "List of Modifier Letters (Lm) added in Unicode 3.0"
-/>
-
----
-
-### `ScriptTable` component
-
-#### Required import
-```jsx
-import ScriptTable from '/src/components/ScriptTable.astro';
-```
-
-#### Syntax
-```html
-<ScriptTable 
-    [filter="key=value,key=value,..."] 
-    [order="expression"] 
-    [caption="..."]
-/>
-```
-|Property|Description|
-|---|---|
-|filter|A comma-separated list of key=value pairs to filter the scripts. Possible keys are `script_reordering` and `script_direction`. Possible values for `script_reordering` are `yes` and `no`. Possible values for `script_direction` are `ltr`, `rtl`, `ttb`, and `btt`. Multiple values for a key can be separated by `|`.|
-|order|An optional SQL ORDER BY clause to sort the results. Possible fields are `script_name`, `script_code`, `script_type`, `script_family`, `script_direction`, and `script_reordering`.|
-|caption|An optional caption to display below the table.|
-
-#### Examples
-##### Source
-```html
-<ScriptTable 
-  filter  = "script_reordering=yes"
-  order   = "script_family"
-  caption = "Scripts with reordering"
-/>
-```
-##### Result
-<ScriptTable filter="script_reordering=yes" order="script_family" caption="Scripts with reordering"/>
-##### Source
-```html
-<ScriptTable
-  filter  = "script_type=abjad"
-  order   = "script_name"
-  caption = "Abjad scripts"
-/>
-```
-##### Result
-<ScriptTable filter="script_type=abjad" order="script_name" caption="Abjad scripts"/>
-
----
-
