@@ -6,7 +6,6 @@ import astroBrokenLinksChecker from 'astro-broken-links-checker';
 import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
 import cookieconsent from "@jop-software/astro-cookieconsent";
-import db from '@astrojs/db';
 import remarkCharacterDirectives from './src/plugins/remark-usv-directive.mts';
 import remarkSourcesLinkReference from './src/plugins/remark-sources-link-reference.mts';
 
@@ -213,8 +212,7 @@ export default defineConfig({
                     },
                 },
             },
-        }),
-        db()
+        })
     ],
     markdown: {
         remarkPlugins: [
