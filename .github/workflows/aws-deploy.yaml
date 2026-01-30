@@ -38,7 +38,7 @@ jobs:
           then
             echo '### Broken links' >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
-            cat broken-links.log >> $GITHUB_STEP_SUMMARY
+            cat .link-checker/broken-links.log >> $GITHUB_STEP_SUMMARY
             echo -e '\n```' >> $GITHUB_STEP_SUMMARY
           fi
       - name: Configure AWS Credentials
