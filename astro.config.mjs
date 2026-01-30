@@ -133,7 +133,6 @@ export default defineConfig({
             })] : [],
         }),
         astroBrokenLinksChecker({
-            logFilePath: 'broken-links.log',  // Optional: specify the log file path
             checkExternalLinks: false         // Optional: check external links (currently, caching to disk is not supported, and it is slow )
         }),
         cookieconsent({

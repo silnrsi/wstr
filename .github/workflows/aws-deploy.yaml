@@ -34,7 +34,7 @@ jobs:
       - name: Build
         run: |
           npm run build
-          if [ -f broken-links.log ]
+          if [ -f .link-checker/broken-links.log ]
           then
             echo '### Broken links' >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
