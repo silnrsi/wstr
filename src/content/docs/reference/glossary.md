@@ -3,7 +3,7 @@ title: Glossary
 description: Glossary
 sidebar:
   order: 9100
-lastUpdated: 2025-08-27
+lastUpdated: 2026-01-30
 ---
 
 This glossary covers a wide range of terms used for discussing writing systems.
@@ -194,7 +194,7 @@ Term | Definition
 <a id='lff'></a>Language Font Finder|a micro service responder that when passed language tag will return information on a possible font to use for the orthography for that language tag. See [langfontfinder](https://github.com/silnrsi/langfontfinder).
 <a id='leftsideb'></a>left side-bearing|the white space at the left edge of a <a href='#glyph'>glyph's</a> visual representation, or more specifically, the distance between the current horizontal display position and the left edge of the glyph's <a href='#boundbox'>bounding box</a>. A positive left side-bearing indicates white space between the glyph and the previous one; a negative left side-bearing indicates overlap or overhang between them.
 <a id='ligature'></a>ligature|a single shape or <a href='#glyph'>glyph</a> that represents two or more underlying <a href='#char'>characters</a>. See also <a href='#conjunct'>conjunct</a>.
-<a id='lipka'></a>Lipka|a [shaping library](#shapingLibrary) implementing OpenType shaping technology for laying out text in Adobe applications. Newer versions of some Adobe products can use, or use by default, [HarfBuzz](#harfbuzz) for text shaping.
+<a id='lipika'></a>Lipika|a [shaping library](#shapingLibrary) implementing OpenType shaping technology for laying out text in Adobe applications. Newer versions of some Adobe products can use, or use by default, [HarfBuzz](#harfbuzz) for text shaping.
 <a id=''></a>LLM|see <a href='#llm'>Large Language Model</a>.
 <a id='locale'></a>locale|a collection of parameters that affect how information is expressed or presented within a particular group of users, generally distinguished from one another on the basis of language or location (usually country). Locale settings affect things such as number formats, calendrical systems and date and time formats, as well as language and <a href='#writingsys'>writing system</a>.
 <a id='l10ability'></a>localizability|the extent to which the design and implementation of a software product allows potential for <a href='#l10n'>localization</a> of the software.
@@ -305,7 +305,7 @@ Term | Definition
 <a id=''></a>SLDR|see <a href='#sldr'>SIL Locale Data repository</a>.
 <a id='smartfont'></a>smart font|a <a href='#font'>font</a> capable of performing transformations on complex patterns of <a href='#glyph'>glyphs</a>, above and beyond the simple character-to-glyph mapping that is a basic function of font rendering (see <a href='#cmap'>cmap</a>). The information specifying the smart behavior is typically in the form of extra tables embedded in the font, and will generally allow layered transformations involving one-to-many, many-to-one, and many-to-many mappings of glyphs.
 <a id='shaping'></a>shaping|the process of reordering (such as the reph and i-matra in Devanagari), substituting (such as the different forms in Arabic (initial, medial, final, and isolate) or a subjoined (medial) form in Burmese), and positioning (such as a diacritic in Latin script) glyphs to produce correct rendering.
-<a id='shapingLibrary'></a>shaping library|software (for example, [Harfbuzz](#harfbuzz), [DirectWrite](#directwrite), [CoreText](#coretext), or [Lipka](#lipka)) that implements one or more [shaping technologies](#shapingTechnology).
+<a id='shapingLibrary'></a>shaping library|software (for example, [Harfbuzz](#harfbuzz), [DirectWrite](#directwrite), [CoreText](#coretext), or [Lipika](#lipika)) that implements one or more [shaping technologies](#shapingTechnology).
 <a id='shapingEngine'></a>shaping engine|a software component in a [shaping technology](#shapingTechnology) implementation that reads the smart font code in the font, and does the text [shaping](#shaping). With [OpenType](#opentype) shaping technology, there are several different shaping engines (or shapers). Many of the OpenType shaping engines are script specific. For example, the Arabic shaping engine uses knowledge about script behavior to select the appropriate shapes of characters. The Devanagari shaping engines knows about the need to reorder i-matra and (after it is formed via substitution) the reph. There is also a default shaping engine for Latin, Cyrillic, and Greek scripts, and a [Universal Shaping Engine](#use) intended for scripts that need shaping, but do not have a dedicated shaper for them. In the case of the [Graphite](#graphite) and [AAT](#aat) systems there is one, very flexible and powerful shaping engine designed for that particular shaping technology. Those shaping engines do not have script specific knowledge like many of the OpenType shaping engines do, therefore all knowledge about the script knowledge is stored in the font. The [HarfBuzz documentation](https://harfbuzz.github.io/shaping-concepts.html) explains this well.
 <a id='shapingTechnology'></a>shaping technology|a model (such as [OpenType](#opentype), [AAT](#aat), or [Graphite](#graphite)) of how to specify the needed information to shape text.
 <a id='smartRendering'></a>smart rendering|a <a href='#render'>rendering</a> process that uses a <a href='#smartfont'>smart font</a>.
