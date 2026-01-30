@@ -42,6 +42,8 @@ On iOS, all web browsers use CoreText.
 
 The following information might be useful to understand why a particular shaping engine does not work,
 and possibly to find a work around. Ideally, bug reports should be filed against the shaping engines.
+The best place to start, in most cases, is with the [HarfBuzz issue tracker][harfbuzz_issues].
+The resulting discussion can help determine if HarfBuzz, DirectWrite, and/or CoreText needs to be fixed.
 
 ### Universal Shaping Engine (USE)
 
@@ -117,6 +119,7 @@ On this page, references to HarfBuzz and CoreText refer to the OpenType shaping 
 
 [dwbox]: https://github.com/miloush/dwbox
 
+[harfbuzz_issues]: https://github.com/harfbuzz/harfbuzz/issues
 [use]: /reference/glossary#use
 [use_overrides]: https://github.com/harfbuzz/harfbuzz/issues/1012
 [use_utc]: https://github.com/harfbuzz/harfbuzz/issues/1012#issuecomment-518075773
