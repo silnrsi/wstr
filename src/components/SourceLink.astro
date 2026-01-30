@@ -8,19 +8,18 @@
 
 const { key } = Astro.props;
 
-import { getCollection } from 'astro:content';
-const sdata = await getCollection('sources');
+import { getEntry } from 'astro:content';
+const sObj = await getEntry('sources', key);
+if (!sObj) {
+	throw new Error(`SourceLink: ${Astro.originPathname}: Could not find sources entry: ${key}`)
+}
 
-// import sdata from '../data/sources.json';
+const stype = sObj.data.entrytype;
 
-let sObj = sdata.find((s) => s.id == key);
-
-const stype = sObj?.data.entrytype;
-
-const presortStr = (sObj?.data.presort ?? '').toString();
+const presortStr = (sObj.data.presort ?? '').toString();
 const omitAuthor = (presortStr !== '');
 
-let authorString = sObj?.data.author ?? '';
+let authorString = sObj.data.author ?? '';
 const authorList = authorString.split(" and ");
 const aLen = authorList.length;
 if (aLen > 2) {
@@ -31,7 +30,7 @@ if (aLen > 2) {
 	}
 	authorString = result.concat(', and '.concat(authorList[aLen-1]));
 }
-let editorString = sObj?.data.editor ?? '';
+let editorString = sObj.data.editor ?? '';
 if (authorString === '' && editorString !== '') {
 	if (editorString.includes(' and ')) {
 		authorString = `${editorString}, eds.`;
@@ -44,7 +43,7 @@ if (authorString === '' && editorString !== '') {
 }
 
 // Put last name (sortname) first for the first author/editor:
-let sortNameStr = sObj?.data.sortname ?? '';
+let sortNameStr = sObj.data.sortname ?? '';
 let spSortName = ' '.concat(sortNameStr);
 if (sortNameStr != '' && authorString.indexOf(spSortName) > 0) {
 	authorString = sortNameStr.concat(', '.concat(authorString.replace(spSortName, '')));
@@ -56,29 +55,29 @@ if (authorString[astrLen-1] == '.') {
 	authorString = authorString.substring(0, astrLen-1);
 }
 
-let orgStringParen = sObj?.data.organization ?? '';
-if (sObj?.data.entrytype == "online" && orgStringParen !== '') {
+let orgStringParen = sObj.data.organization ?? '';
+if (sObj.data.entrytype == "online" && orgStringParen !== '') {
 	orgStringParen = "(" + orgStringParen + ")";
 }
 
 // Only one of these will exist:
-let largerWork = (sObj?.data.journaltitle ?? '') + (sObj?.data.booktitle ?? '');
+let largerWork = (sObj.data.journaltitle ?? '') + (sObj.data.booktitle ?? '');
 
-let seriesString = sObj?.data.series ?? '';
+let seriesString = sObj.data.series ?? '';
 
-let volumeString = sObj?.data.volume ?? '';
+let volumeString = sObj.data.volume ?? '';
 if (volumeString !== '') {
 	volumeString = `vol. ${volumeString}`;
 }
-let numberString = sObj?.data.number ?? '';
+let numberString = sObj.data.number ?? '';
 if (numberString !== '') {
 	numberString = `no. ${numberString}`;
 }
 
-let pubString = sObj?.data.publisher ?? '';
-let dateString = sObj?.data.date ?? '';
+let pubString = sObj.data.publisher ?? '';
+let dateString = sObj.data.date ?? '';
 
-let pageString = sObj?.data.pages ?? '';
+let pageString = sObj.data.pages ?? '';
 if (pageString !== "") {
 	if (pageString?.includes('-')) {
 		pageString = "pp. " + pageString;
@@ -87,24 +86,24 @@ if (pageString !== "") {
 	}
 }
 
-let urlString = sObj?.data.url ?? '';
+let urlString = sObj.data.url ?? '';
 // if (stype == "online") {
 // 	urlString = "";		// it will be displayed with the title
 // }
 
-let addendumString = sObj?.data.addendum ?? '';
+let addendumString = sObj.data.addendum ?? '';
 addendumString = addendumString.replaceAll('[CR][CR]', '<br/>');
 if (addendumString != '') {
 	addendumString = '- '.concat(addendumString);
 }
 
-// let annotatonString = sObj?.data.annotation ?? '';
+// let annotatonString = sObj.data.annotation ?? '';
 // annotatonString = annotatonString.replaceAll('[CR][CR]', '<br/>');
 // if (annotatonString != '') {
 // 	annotatonString = '- '.concat(annotatonString);
 // }
 
-// let abstractString = sObj?.data.abstract ?? '';
+// let abstractString = sObj.data.abstract ?? '';
 // abstractString = abstractString.replaceAll('[CR][CR]', '<br/>');
 
 ---
