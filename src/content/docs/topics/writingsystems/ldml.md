@@ -432,7 +432,7 @@ For those who are primarily interacting with the SLDR and the data within, here 
 
 ### Formatting Text in an Exemplar
 
-For the most part, the contents of an LDML file follow the standard rules of an XML file. With the exception of collation (see the section on [Formatting Test in a Collation][collation-formatting] below), the contents within the square brackets (including the square brackets themselves) are [Unicode Sets][uni-utr35-unicodesets], which in turn are based on Regular Expressions (regexes).
+For the most part, the contents of an LDML file follow the standard rules of an XML file. With the exception of collation (see the section on [Formatting Text in a Collation][collation-formatting] below), the contents within the square brackets (including the square brackets themselves) are [Unicode Sets][uni-utr35-unicodesets], which in turn are based on Regular Expressions (regexes).
 
 Information about regexes can be found online in a number of places, though not all of it will be relevant to Unicode Sets and LDML files. The most important things to know are how to escape certain characters and how to notate multigraphs and combining diacritics. 
 

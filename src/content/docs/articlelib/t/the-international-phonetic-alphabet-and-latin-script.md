@@ -1,7 +1,7 @@
 ---
 title: The International Phonetic Alphabet and Latin Script
 description: An introduction to the International Phonetic Alphabet (IPA) and its use of Latin script characters to represent the sounds of all spoken languages.
-tags: ["script-Latn", "writing systems"]
+tags: ["script-latn", "writing systems"]
 lastUpdated: 2025-11-19
 ---
 

@@ -179,7 +179,7 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 
 [autohotkey]: http://www.autohotkey.com/
 [characters-codepoints-glyphs]: /topics/encoding/characters-codepoints-glyphs
-[ekaya]: Keymagic
+[ekaya]: https://github.com/thanlwinsoft/ekaya
 [from-keystrokes-to-codepoints]: /topics/input/from-keystrokes-to-codepoints
 [glo-ime]: /reference/glossary#ime
 [kab]: https://software.sil.org/keyboardappbuilder/

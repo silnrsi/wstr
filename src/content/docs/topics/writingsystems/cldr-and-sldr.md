@@ -20,6 +20,8 @@ From the [Unicode CLDR Project][uni-cldr-project] site:
 > 
 > CLDR uses the XML format provided by [UTS #35: Unicode Locale Data Markup Language (LDML)][uts35]. LDML is a format used not only for CLDR, but also for general interchange of locale data, such as in Microsoft’s .NET.
 
+Unicode CLDR's mission statement is: "To build and maintain the most trusted and comprehensive repository of locale data, reflecting common usage across the world, through active participation from organizations and community members."
+
 Having locale information in the CLDR is an essential first step for a language to be recognized in the digital world. 
 
 ## What is the SLDR?
