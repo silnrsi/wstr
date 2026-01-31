@@ -3,10 +3,10 @@ title: Unicode Status for Khojki
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Khojki script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G81423).
+In The Unicode Standard, Khojki script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/#G81423).
 
 ## Blocks
 
@@ -23,6 +23,7 @@ Subsequent to version 7.0, the following characters have been added to the scrip
 | Characters | Unicode Version | Documentation |
 | ---------- | --------------- | ------------- |
 | 1123E |  9.0  | [WG2 N4575](https://www.unicode.org/wg2/docs/n4575.pdf), [L2/14-133](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-133) |
+| 1123F..11241  | 15.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

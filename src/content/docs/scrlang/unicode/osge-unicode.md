@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Osage script implementation is discussed in [Chapter 20: Americas](https://www.unicode.org/versions/latest/core-spec/chapter-20/#G26674).
+In The Unicode Standard, Osage script implementation is discussed in [Chapter 20: Americas](https://www.unicode.org/versions/latest/core-spec/#G26674).
 
 ## Blocks
 

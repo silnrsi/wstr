@@ -20,8 +20,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Tai Yo script sample](../images/tayo-sample.jpg "Tai Yo sample")
 
@@ -67,5 +69,9 @@ The Tai Yo  has been accepted for encoding in a future version of the Unicode st
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-tayo' header='Related articles' />
+
+<SourceLinksList tag='script-tayo' header='External links' entrytype='online' />
+
+<BibList tag='script-tayo' header='Bibliography' entrytype='non-online' />
 

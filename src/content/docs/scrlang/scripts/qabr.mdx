@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Eskaya script sample](../images/qabr-sample.png)
 
@@ -66,5 +68,9 @@ The Eskaya script is not yet in Unicode. The script has a tentative allocation a
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-qabr' header='Related articles' />
+
+<SourceLinksList tag='script-qabr' header='External links' entrytype='online' />
+
+<BibList tag='script-qabr' header='Bibliography' entrytype='non-online' />
 

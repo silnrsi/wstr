@@ -1,17 +1,20 @@
 ---
-import { getCharacterName, ERROR_INVALID_USV } from '../utils/coredata_access';
+import { getCharacter } from '../plugins/coredata.mts';
+import { parseUSV } from '../plugins/usv.mts';
 
 const { startUsv, endUsv, caption } = Astro.props;
 
-const start = parseInt(startUsv, 16);
-const end = parseInt(endUsv, 16);
+const start = parseUSV(startUsv);
+const end = parseUSV(endUsv);
 
 const rows = [];
-for (let usvInt = start; usvInt <= end; usvInt++) {
-  const usv = usvInt.toString(16).toUpperCase().padStart(4, '0');
-  const characterName = await getCharacterName(usv);
-  const character = characterName !== ERROR_INVALID_USV ? String.fromCodePoint(usvInt) : '';
-  rows.push({ usv, character, characterName });
+for (let usv = start; usv <= end; usv++) {
+  const character = getCharacter(usv);
+  rows.push({ 
+    usv: character?.character_usv, 
+    character: character ? String.fromCodePoint(usv) : '', 
+    characterName: character?.character_name 
+  });
 }
 ---
 <div>

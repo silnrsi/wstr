@@ -1,10 +1,10 @@
 ---
 title: Writing Systems Computing Model
-description: Description of the Writing Systems Computing Model
 authors: Victor Gaultney, Melinda Lyons
 sidebar:
     order: 2100
     label: WS Computing Model
+tags: [analysis, conversion, encoding, fonts, input, layout, rendering]
 lastUpdated: 2025-07-16
 ---
 
@@ -88,7 +88,7 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 
 [analysis-overview]: /topics/analysis/analysis-overview/
 [characters-codepoints-glyphs]: /topics/encoding/characters-codepoints-glyphs/
-[font-design-and-development]: /guides/font-design-and-development/
+[font-design-and-development]: /topics/fonts/font-design-and-development/
 [from-keystrokes-to-codepoints]: /topics/input/from-keystrokes-to-codepoints/
 [shaping-and-rendering]: /topics/fonts/shaping-and-rendering/
 [the-unicode-standard]: /topics/encoding/the-unicode-standard

@@ -3,10 +3,10 @@ title: Unicode Status for Malayalam
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Malayalam script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G22346).
+In The Unicode Standard, Malayalam script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G22346).
 
 ## Blocks
 
@@ -26,6 +26,7 @@ Subsequent to version 1.0, the following characters have been added to the Malay
 | ---------- | --------------- | ------------- |
 | 0D00 |  10.0  |  [WG2 N4517](https://www.unicode.org/wg2/docs/n4517.pdf), [L2/14-003](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-003) |
 | 0D01 | 7.0 | [WG2 N3964](https://www.unicode.org/wg2/docs/n3964.pdf), [L2/10-392](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-392) |
+| 0D04          | 13.0 | _See proposals and documents below_ |
 | 0D29  |  6.0  |  [n3494.pdf](https://www.unicode.org/wg2/docs/n3494.pdf)/[L2/08-325](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-325)  |
 | 0D3A  |  6.0  |  [n3494.pdf](https://www.unicode.org/wg2/docs/n3494.pdf)/[L2/08-325](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-325)  |
 | 0D3B  |  10.0  | [L2/14-015](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-015) |

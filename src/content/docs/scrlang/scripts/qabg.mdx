@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Micmac Hieroglyphs script sample](../images/qabg-sample.png "Christian Kauder, 1866.")
 
@@ -58,5 +60,9 @@ Micmac hieroglyphs are not yet in Unicode. The script is not in the [Roadmap to 
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-qabg' header='Related articles' />
+
+<SourceLinksList tag='script-qabg' header='External links' entrytype='online' />
+
+<BibList tag='script-qabg' header='Bibliography' entrytype='non-online' />
 

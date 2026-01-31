@@ -3,14 +3,22 @@ title: Unicode Status for Beria Erfe
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-The Beria Erfe script is not yet in Unicode. The script has a provisional assignment at U+16EA0..U+16EDF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+In The Unicode Standard, Beria Erfe script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/#G746359).
 
 ## Blocks
 
-None.
+The Beria Erfe script was encoded in The Unicode Standard version 17.0. The script is encoded in the following block:
+
+| Blocks | Character Range | Added in Unicode Version | Unicode Chart |
+| ------ | --------------- | ------------------------ | ------------- |
+| Beria Erfe   | 16EA0..16EDF | 17.0 | [U16EA0.pdf](https://www.unicode.org/charts/PDF/U16EA0.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

@@ -20,8 +20,10 @@ scrpropotcode: hano
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Hanunoo script sample](../images/hano-sample.png "Excerpt from 'Ana Nimi'.")
 
@@ -51,5 +53,8 @@ In The Unicode Standard, Hanunóo script implementation is discussed in [Chapter
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-hano' header='Related articles' />
 
+<SourceLinksList tag='script-hano' header='External links' entrytype='online' />
+
+<BibList tag='script-hano' header='Bibliography' entrytype='non-online' />

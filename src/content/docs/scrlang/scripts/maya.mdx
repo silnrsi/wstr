@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Mayan hieroglyphs script sample](../images/maya-sample.png "James Gaither, Flickr, 2008. .")
 
@@ -66,5 +68,9 @@ Mayan hieroglyphs are not yet in Unicode. The script has a tentative allocation 
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-maya' header='Related articles' />
+
+<SourceLinksList tag='script-maya' header='External links' entrytype='online' />
+
+<BibList tag='script-maya' header='Bibliography' entrytype='non-online' />
 

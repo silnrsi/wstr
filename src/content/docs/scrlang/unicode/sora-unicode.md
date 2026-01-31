@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Sora Sompeng script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G95556).
+In The Unicode Standard, Sora Sompeng script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/#G95556).
 
 ## Blocks
 

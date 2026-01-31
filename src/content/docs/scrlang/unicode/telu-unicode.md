@@ -3,10 +3,10 @@ title: Unicode Status for Telugu
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Telugu script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G81985).
+In The Unicode Standard, Telugu script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G81985).
 
 ## Blocks
 
@@ -20,18 +20,22 @@ The Telugu script was first encoded in The Unicode Standard version 1.0. Since t
 
 ## Characters
 
-Subsequent to version 1.0, the following characters have been added to the Telugu script:
+Subsequent to version 1.1, the following characters have been added to the Telugu script:
 
 | Characters | Unicode Version | Documentation |
 | ---------- | --------------- | ------------- |
 | 0C00 | 7.0 | [WG2 N3964](https://www.unicode.org/wg2/docs/n3964.pdf), [L2/10-392](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-392) |
 | 0C04     |  11.0  | [L2/16-285](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-285) |
 | 0C34 | 7.0 | [WG2 N4214](https://www.unicode.org/wg2/docs/n4214.pdf), [L2/12-015](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-015), [L2/12-076](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-076) |
+| 0C3C | 14.0 | _See proposals and documents below_ |
 | 0C3D | 5.1 | [n3116R.pdf](https://www.unicode.org/wg2/docs/n3116.pdf)/[L2/06-250](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-250) |
 | 0C58..0C59 | 5.1 | [n3116R.pdf](https://www.unicode.org/wg2/docs/n3116.pdf)/[L2/06-250](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-250) |
 | 0C62..0C63 | 5.1 | [n3116R.pdf](https://www.unicode.org/wg2/docs/n3116.pdf)/[L2/06-250](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-250) |
 | 0C78..0C7F | 5.1 | [n3116R.pdf](https://www.unicode.org/wg2/docs/n3116.pdf)/[L2/06-250](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-250) |
 | 0C5A |  8.0  | [L2/13-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-121) |
+| 0C5C | 17.0 | _See proposals and documents below_ |
+| 0C5D | 14.0 | _See proposals and documents below_ |
+| 0C77 | 12.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 
@@ -118,3 +122,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
 - 2022-07-20 Nonalphabetic bindus (beta feedback) _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 27.)_
   - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1.27 for decision and action items)_
+- 2025-10-17 Proposal to encode Telugu Sign Spacing Candrabindu  — Srinidhi A, Sridatta A ([L2/25-246](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-246))
+  - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 2.1)_
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 2.1 for decision and action items)_

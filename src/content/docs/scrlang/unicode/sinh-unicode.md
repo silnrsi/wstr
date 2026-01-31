@@ -3,10 +3,10 @@ title: Unicode Status for Sinhala
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Sinhala script implementation is discussed in [Chapter 13 South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-13/#G26561).
+In The Unicode Standard, Sinhala script implementation is discussed in [Chapter 13 South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G26561).
 
 ## Blocks
 
@@ -23,6 +23,7 @@ Subsequent to version 3.0, the following characters have been added to the Sinha
 
 | Characters | Unicode Version | Documentation |
 | ---------- | --------------- | ------------- |
+| 0D81          | 13.0 | _See proposals and documents below_ |
 | 0DE6..0DEF | 7.0 | [WG2 N3888](https://www.unicode.org/wg2/docs/n3888.pdf), [WG2 N3888-a](https://www.unicode.org/wg2/docs/n3888-a.pdf), [WG2 N3888-b](https://www.unicode.org/wg2/docs/n3888-b.pdf), [L2/10-337](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-337) |
 | 111E1..111F4 | 7.0 | [WG2 N3888](https://www.unicode.org/wg2/docs/n3888.pdf), [WG2 N3888-a](https://www.unicode.org/wg2/docs/n3888-a.pdf), [WG2 N3888-b](https://www.unicode.org/wg2/docs/n3888-b.pdf), [L2/10-337](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-337) |
 

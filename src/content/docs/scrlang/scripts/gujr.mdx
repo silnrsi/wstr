@@ -20,8 +20,10 @@ scrpropotcode: gujr, gjr2
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Gujarati script sample](../images/gujr-sample.png "From Wikipedia.")
 
@@ -74,5 +76,8 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-gujr' header='Related articles' />
 
+<SourceLinksList tag='script-gujr' header='External links' entrytype='online' />
+
+<BibList tag='script-gujr' header='Bibliography' entrytype='non-online' />

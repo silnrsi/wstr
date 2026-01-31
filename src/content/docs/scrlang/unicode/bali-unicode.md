@@ -3,10 +3,10 @@ title: Unicode Status for Balinese
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-01-30
 ---
 
-In The Unicode Standard, Balinese script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/chapter-17/#G26759).
+In The Unicode Standard, Balinese script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/#G26759).
 
 ## Blocks
 
@@ -15,6 +15,16 @@ The Balinese script was encoded in The Unicode Standard version 5.0. The script 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Balinese | 1B00..1B7F | 5.0 | [U1B00.pdf](http://www.unicode.org/charts/PDF/U1B00.pdf) |
+
+## Characters
+
+Subsequent to version 5.0, the following characters have been added to the script:
+
+| Characters | Unicode Version | Documentation |
+| ---------- | --------------- | ------------- |
+| 1B4C          | 14.0 | _See proposals and documents below_ |
+| 1B7F          | 16.0 | _See proposals and documents below_ |
+| 1B7D..1B7E    | 14.0 | _See proposals and documents below_ |
 
 ## Proposals and documents
 
@@ -54,3 +64,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2024-02-28 Unicode Standard version 15.0.0 chapter 17 — Aditya Bayu Perdana ([https://www.unicode.org/review/pri497/feedback.html#ID20240228052730](https://www.unicode.org/review/pri497/feedback.html#ID20240228052730))
   - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.VIII.19.)_
   - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section VIII-19 for decision and action items)_
+- 2025-07-22 Proposal for Reclassifying the Balinese Script — PANDI ([L2/25-218](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-218))
+- 2025-10-06 PAG assessment: Proposal for Reclassifying the Balinese Script — PAG / Markus Scherer ([L2/25-219](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-219))
+  - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See F.1 Section 5.1 for decision and action items)_
+- 2025-11-18 Proposal for Reclassifying the Balinese Script: Response to Unicode — PANDI ([L2/25-269](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-269))

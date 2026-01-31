@@ -1,9 +1,10 @@
 ---
 title: Page Layout
-description: Issues in page layout
+description: Cultural expectations and patterns in page desiugn
 authors: Lorna Priest
 sidebar:
     order: 6400
+tags: [direction, script-aran, script-deva, script-hani, script-jpan, script-lana, script-mong, script-thai]
 lastUpdated: 2025-07-11
 ---
 

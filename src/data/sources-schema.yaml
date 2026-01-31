@@ -1,0 +1,253 @@
+%YAML 1.1
+---
+$schema: "https://json-schema.org/draft/2020-12/schema"
+id: "http://writingsystems.info/devteam/sources-schema.yaml"
+title:
+    WSTR Sources Schema
+description:
+    A schema describing the YAML format for Writing Systems Info sources
+type: object
+additionalProperties: false
+patternProperties:
+  "^[\\p{Lowercase_Letter}0-9-]+$":
+    title: Source Entry  
+    type: object
+    description: A source entry similar to a BibLaTeX entry.
+    allOf:
+      # Document all the fields, and any per-field constraints and types.
+    - properties:
+        abstract:
+          description: Not in use except for sources migrated from ScriptSource - must be double-quoted
+          type: string
+        addendum:
+          description: >-
+            A brief note about the source that appears in lists of sources, a.k.a. "short annotation",
+            equivalent to article frontmatter `description`.
+          examples: [ "A library to manipulate font files using python" ]
+          type: string
+        annotation:
+          description: Not in use except for sources migrated from ScriptSource - must be double-quoted
+          type: string
+        author: 
+          description: >-
+            Required for all source types except online.
+            The person or people who wrote or created the work. Use `firstname lastname` format for each
+            author, separated by ` and ` for multiple authors. Commas should not be used to separate
+            authors. Authors who share lastnames should still be written in full.
+          examples: [ "Enya Cohen and Lila Namir and I. M. Schlesinger", "John Smith and Mary Smith" ]
+          type: string
+        booktitle:
+          description: >-
+            For inbook and inproceedings - the title of the book or proceedings in which the work appears.
+            Alternately can be used for the name of the conference if there are no published proceedings.
+          examples: [ "Proceedings of the 12th International Conference on Font Technologies" ]
+          type: string
+        date:
+          $ref: '#/$defs/date'
+        editor:
+          description: "The person or people who edited the work, see 'author:'"
+          type: string
+        entrytype:
+          description: "Required - The source type. Must be one of the following:"
+          enum: 
+          - article
+          - book
+          - inbook
+          - inproceedings
+          - misc
+          - online
+        entrysubtype:
+          description: A short indicator that this record has special use, which allow us to use it as a filter in lists.
+          enum: [f]
+          examples: [ "`f` (for 'favorite' shortcut-style online links that are already in use and may be used again)" ]
+        isbn:
+          title: Book Number
+          description: For book, inbook, and inproceedings - a 10 or 13 digit International Standard Book Number, or 9 digit SBN, or CSBN.
+          type: string
+          pattern: ^(?=\d{1,5}([^\d]?)\d)(?:97[89]\1)?\d{1,5}\1\d{1,7}\1\d{1,7}\1[\dX](?:/[A-Z]·\d+)?$
+          errorMessage: >-
+            Invalid ISBN value. This must be one of: a 10 or 13 digit ISBN, an SBN, or CSBN.
+        issn:
+          title: Serial Number
+          description: For article - an 8 digit International Standard Serial Number
+          type: string
+          pattern: ^[0-9]{4}-[0-9]{3}[0-9a-zA-Z]$
+          errorMessage: Invlaid ISSN value.
+        journaltitle:
+          description: For article - the name of the journal or periodical in which the article appears.
+          examples: [ "Journal of Writing Systems Technology" ]
+          type: string
+        keywords:
+          description: A YAML list of tags for the source, used to group related sources together.
+          type: array
+          items: 
+            type: string
+        location:
+          description: >- 
+            The place where the work was published. If the city is not well known, include the
+            state/province/country as well.
+          type: string
+        number:
+          description: >-
+            For article - the issue number of the journal in which the article appears.
+            Must be double-quoted.
+          type: string
+        organization:
+          description: >-
+            For online - the organization responsible for the content of the webpage or website. Can
+            be a shorthand name rather the full formal name. This will be displayed after the title in
+            lists of links.
+          examples: [ "Wikipedia", "Microsoft", "SIL", "Eesti Keele Instituut" ]
+          type: string
+        pages:
+          title: Page range
+          description: >-
+            For article, inbook, and inproceedings - the page range of the article, chapter, or
+            paper within the larger work. Use startpage-endpage format. Does not need double-quoting
+            unless the page is a single page (so that the number is not misinterpreted as a string rather than a number).
+          type: string
+          pattern: ^\d+(-\d+)?$
+          errorMessage: "Invalid pages value. Must be a page number or page number range."        
+        presort:
+          description: |-
+            A two digit number 10-99 that can be used to influence the sorting order of sources in
+            lists. Lower numbers appear first. Sources with defined presort values appear before those
+            without. Some standard values for certain sites:
+          examples: [ "10 - ScriptSource", "15 - software.sil.org", "20 - Wikipedia script pages", "22 - Other Wikipedia", "30 - Omniglot" ]
+          type: integer
+          minimum: 10
+          maximum: 99
+        publisher:
+          description: The name of the publisher of the work.
+          type: string
+        series:
+          description: For book - the name of the series in which the work appears, if applicable.
+          examples: [ "Studies in Semitic Languages and Linguistics" ]
+          type: string
+        sortname:
+          description: >-
+            A name used to influence the sorting order of sources in bibliographies. Typically this is
+            the lastname of the first **author** or **editor**, but can be any string.
+            Sources are sorted alphabetically by **sortname**.
+          examples: [ "Correll" ]
+          type: string
+        title:
+          description: >-
+            Required - The title of the work. Capitalization should follow standard English title case conventions,
+            however sources may not follow this strictly, particularly those migrated from ScriptSource.
+          examples: [ "Understanding Font Technologies" ]
+          type: string
+        url:
+          title: Web Address
+          description: >-
+            The URL where the work can be found online. 
+            This can be used for all source types, not just online.
+            Note that this field alone does not need to be double-quoted even though it contains special characters.
+          examples: [ https://robofont.com/, https://en.wikipedia.org/wiki/Cedilla, https://doi.org/10.1017/S0025100315000444 ]
+          type: string
+          format: uri
+        urldate:
+          title: URL Accessed Date
+          description: 'The date the URL was last accessed. See date: for formatting.'
+          $ref: '#/$defs/date'
+        volume:
+          description: >-
+            For article - the volume number of the journal in which the article appears, in whatever format is given.
+            Must be double-quoted.
+          type: string
+      # Constrain which fields are *required* based on an entry's entrytype.
+    - required: [title, entrytype, keywords]
+      oneOf:
+      - title: Article Entry
+        properties: { entrytype: { const: article } }
+        required: [author, journaltitle, date]
+      - title: Book Entry
+        properties: { entrytype: { const: book } }
+        # This strange construction listing a combined list of all the
+        # individual required fields, before listing them singularly is to
+        # force the error message to show the user all the options instead of
+        # just the first.
+        anyOf: [ required: [author, editor], required: [author], required: [editor] ]
+      - title: In-book Entry
+        properties: { entrytype: { const: inbook } }
+        required: [author, booktitle, date]
+      - title: In-proceedings Entry
+        properties: { entrytype: { const: inproceedings } }
+        required: [author, booktitle, date]
+      - title: Miscellaneous Entry
+        properties: { entrytype: { const: misc } }
+        required: [author]
+      - title: Online Entry
+        properties: { entrytype: { const: online } }
+        required: [url]
+        # See the comment above for the book entrytype.
+        anyOf: [ require: [date, urldate], require: [date], required: [urldate] ]
+    #   # Declare which fields are not permitted based on entrytype.
+    # - oneOf:
+    #   - title: Article Entry
+    #     properties:
+    #       entrytype: { const: article }
+    #       booktitle: false
+    #       editor: false
+    #       isbn: false
+    #       location: false
+    #       organization: false
+    #       publisher: false
+    #       series: false
+    #   - title: Book Entry
+    #     properties:
+    #       entrytype: { const: book }
+    #       booktitle: false
+    #       issn: false
+    #       journaltitle: false
+    #       number: false
+    #       organization: false
+    #       pages: false
+    #       volume: false
+    #   - title: In-book Entry
+    #     properties: 
+    #       entrytype: { const: inbook}
+    #       issn: false
+    #       journaltitle: false
+    #       number: false
+    #       organization: false
+    #       series: false
+    #       volume: false
+    #   - title: In-proceedings Entry
+    #     properties:
+    #       entrytype: { const: inproceedings}
+    #       issn: false
+    #       journaltitle: false
+    #       number: false
+    #       organization: false
+    #       series: false
+    #       volume: false
+    #   - title: Micellaneous Entry
+    #     properties:
+    #       entrytype: { const: misc }
+    #   - title: Online Entry
+    #     properties:
+    #       entrytype: { const: online}
+    #       booktitle: false
+    #       isbn: false
+    #       issn: false
+    #       journaltitle: false
+    #       location: false
+    #       number: false
+    #       pages: false
+    #       publisher: false
+    #       series: false
+    #       volume: false
+    dependentRequired:
+      urldate: [url]
+$defs:
+  date:
+    title: Publication date
+    description: >-
+      The date the work was published or made publicly available. Use `yyyy-mm-dd` format where
+      possible, but `yyyy-mm` or just `yyyy` is acceptable if the full date is not known.
+      Must be double-quoted to avoid interpretation as a number.
+    type: string
+    pattern: ^\d{4}(-(0[1-9]|1[012])(-(0[1-9]|[12]\d|3[01]))?)?$
+    errorMessage: "Invalid date format. Must be yyyy[-mm[-dd]]"
+

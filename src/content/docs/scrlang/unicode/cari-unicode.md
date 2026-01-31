@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Carian script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-8/#G26509).
+In The Unicode Standard, Carian script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/#G26509).
 
 ## Blocks
 

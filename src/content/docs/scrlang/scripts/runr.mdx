@@ -19,8 +19,10 @@ scrpropotcode: runr
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Runic script sample](../images/runr-sample.png "From Wikipedia.")
 
@@ -62,5 +64,8 @@ In The Unicode Standard, Runic script implementation is discussed in [Chapter 8 
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-runr' header='Related articles' />
 
+<SourceLinksList tag='script-runr' header='External links' entrytype='online' />
+
+<BibList tag='script-runr' header='Bibliography' entrytype='non-online' />

@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, implementation of Sumero-Akkadian Cuneiform is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/chapter-11/#G26852) and in [UTR 56 Unicode Cuneiform Sign Lists](https://www.unicode.org/reports/tr56/).
+In The Unicode Standard, implementation of Sumero-Akkadian Cuneiform is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/#G26852) and in [UTR 56 Unicode Cuneiform Sign Lists](https://www.unicode.org/reports/tr56/).
 
 ## Blocks
 

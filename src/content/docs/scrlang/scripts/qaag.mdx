@@ -19,8 +19,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![No sample available](../images/nosample.png)
 
@@ -62,5 +64,8 @@ Ersu Hieroglyphs (or Ersu Shaba Picture Writing) is not yet in Unicode. It is al
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-qaag' header='Related articles' />
 
+<SourceLinksList tag='script-qaag' header='External links' entrytype='online' />
+
+<BibList tag='script-qaag' header='Bibliography' entrytype='non-online' />

@@ -3,6 +3,7 @@ title: Finding & Using Fonts
 description: Font finding, evaluation, installation, and licensing
 sidebar:
   order: 5100
+tags: [distribution]
 lastUpdated: 2025-08-06
 ---
 

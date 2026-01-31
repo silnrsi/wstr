@@ -20,8 +20,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Syriac script, Estrangelo variant sample](../images/syre-sample.png "From Wikipedia.")
 
@@ -59,5 +61,8 @@ In The Unicode Standard, Syriac Script implementation is discussed in [Chapter 9
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-syre' header='Related articles' />
 
+<SourceLinksList tag='script-syre' header='External links' entrytype='online' />
+
+<BibList tag='script-syre' header='Bibliography' entrytype='non-online' />

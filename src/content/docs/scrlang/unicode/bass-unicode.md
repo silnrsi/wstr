@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Bassa Vah script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G54402).
+In The Unicode Standard, Bassa Vah script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/#G54402).
 
 ## Blocks
 

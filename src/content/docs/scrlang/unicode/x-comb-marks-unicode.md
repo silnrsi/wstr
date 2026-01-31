@@ -3,10 +3,10 @@ title: Unicode Status for Combining marks
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-01-30
 ---
 
-In The Unicode Standard, Combining marks implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G18195). In general, combining marks inherit script properties from the script being used. They are used in Latin, Cyrillic, Greek and have even been used in Tifinagh, Coptic, Newa and Caucasian Albanian. Other scripts, such as Arabic or most of the Indic scripts, have combining marks which are specific to that script.
+In The Unicode Standard, Combining marks implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G18195). In general, combining marks inherit script properties from the script being used. They are used in Latin, Cyrillic, Greek and have even been used in Tifinagh, Coptic, Newa and Caucasian Albanian. Other scripts, such as Arabic or most of the Indic scripts, have combining marks which are specific to that script.
 
 The Combining marks were first encoded in The Unicode Standard version 1.0. Since that time a number of other combining marks have been encoded. Combining marks are now encoded in the following blocks:
 
@@ -37,6 +37,9 @@ Subsequent to version 1.1, the following characters have been added to the Combi
 | 035D..035F | 4.0 | [n2457.pdf](https://www.unicode.org/wg2/docs/n2457.pdf) L2/02-204 |
 | 0362 | 3.0 | [n1845.pdf](https://www.unicode.org/wg2/docs/n1845.pdf) L2/98-299 |
 | 0363..036F | 3.2 | [n2266.pdf](https://www.unicode.org/wg2/docs/n2266.pdf) L2/00-330 |
+| 1AC1..1ACE    | 14.0 | _See proposals and documents below_ |
+| 1ACF..1ADD    | 17.0 | _See proposals and documents below_ |
+| 1AE0..1AEB    | 17.0 | _See proposals and documents below_ |
 | 1DC0..1DC1 | 4.1 | [n2642.pdf](https://www.unicode.org/wg2/docs/n2642.pdf) L2/03-324 |
 | 1DC2 | 4.1 | [n2740.pdf](https://www.unicode.org/wg2/docs/n2740.pdf) L2/04-047 and [n2763r.pdf](https://www.unicode.org/wg2/docs/n2763r.pdf) L2/04-171 |
 | 1DC3 | 4.1 | [n2763r.pdf](https://www.unicode.org/wg2/docs/n2763r.pdf) L2/04-171 |
@@ -44,6 +47,7 @@ Subsequent to version 1.1, the following characters have been added to the Combi
 | 1DCB..1DCC | 5.1 | [n3048.pdf](https://www.unicode.org/wg2/docs/n3048.pdf) L2/06-214 |
 | 1DCD..1DE6 | 5.1 | [n3027.pdf](https://www.unicode.org/wg2/docs/n3027.pdf) L2/06-027 |
 | 1DF6..1DF9 | 10.0 |  |
+| 1DFA          | 14.0 | _See proposals and documents below_ |
 | 1DFB | 9.0 | [L2/14-285](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/14-285) |
 | 1DFC | 6.0 | [n3571.pdf](https://www.unicode.org/wg2/docs/n3571.pdf) L2/09-028 |
 | 1DFD | 5.2 | [n3447.pdf](https://www.unicode.org/wg2/docs/n3447.pdf) L2/07-334R |
@@ -188,3 +192,9 @@ See point 3.3.)_
 - 2025-04-04 Unicode request for letters with double tilde overlay — Kirk Miller ([L2/25-114](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-114))
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.8.)_
   - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.8 for decision and action items)_
+- 2025-11-03 Unicode request for LHM compound tone diacritic — Kirk Miller ([L2/26-031](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-031))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.3.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.3 for decision and action items)_
+- 2025-12-05 Unicode request for Romance dialectology symbols — Nicolas Datua, Kirk Miller ([L2/26-030](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-030))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.4.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.4 for decision and action items)_

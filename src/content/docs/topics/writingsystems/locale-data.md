@@ -1,6 +1,6 @@
 ---
 title: Locale Data
-description: Definition of locale data
+description: Contents and use of locale data
 sidebar:
     order: 1500
 lastUpdated: 2025-08-08
@@ -18,13 +18,15 @@ Locales are identified with a key called a [Language Tag][langtag]. This is a th
 
 ## What is Locale Data?
 
-Locale Data refers to the data needed to present a user from a specific locale with information that would be familiar to them. This includes, but is not limited to:
+According to the [Unicode CLDR Project][cldr-definitions], "Locale data refers to the linguistic and cultural conventions that define how software presents information. It allows localized applications to more easily adapt to local conventions."
+
+Locale Data is used to present a user from a specific locale with information that would be familiar to them. This includes, but is not limited to:
 - Important vocabulary 
   - Names of countries, languages, scripts, currencies, days of the week, months of the year, units of measurement, time zones, etc.
 - Date and time formatting 
   - Order of elements in a date (Day/Month/Year, Month/Day/Year, Year-Month-Day, etc), 24-hour time vs 12-hour time, etc. 
 - Orthographic Data
-  - Characters used to write this language, Direction of text (left-to-right or right-to-left), Characters (or combination of characters) used for headers when making an index, punctuation, etc.
+  - Characters used to write this language, Direction of text (left-to-right or right-to-left), Characters (or combination of characters) used for headers when making an index, punctuation, sorting (collation), etc.
 - Numerical Data
   - Numerical system used in this locale, decimal marks (point, comma, etc), currency symbols, etc. 
 
@@ -41,6 +43,7 @@ Locale Data is stored within LDML (Local Data Markup Language) files, which are 
 
 [bcp47]: https://www.rfc-editor.org/rfc/bcp/bcp47.txt
 [cldr-and-sldr]: /topics/writingsystems/cldr-and-sldr
+[cldr-definitions]: https://cldr.unicode.org/index/cldr-spec/definitions
 [langtag]: /topics/writingsystems/language-tagging
 [ldml]: /topics/writingsystems/ldml
 [uni-utr35-localedef]: https://unicode.org/reports/tr35/#Locale

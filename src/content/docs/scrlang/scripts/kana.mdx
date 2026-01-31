@@ -20,8 +20,10 @@ scrpropotcode: kana
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Katakana script sample](../images/kana-sample.png "From Kana no Hikari (Light of Kana), via Wikipedia.")
 
@@ -67,5 +69,9 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-kana' header='Related articles' />
+
+<SourceLinksList tag='script-kana' header='External links' entrytype='online' />
+
+<BibList tag='script-kana' header='Bibliography' entrytype='non-online' />
 

@@ -6,7 +6,8 @@ import astroBrokenLinksChecker from 'astro-broken-links-checker';
 import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
 import cookieconsent from "@jop-software/astro-cookieconsent";
-import db from '@astrojs/db';
+import remarkCharacterDirectives from './src/plugins/remark-usv-directive.mts';
+import remarkSourcesLinkReference from './src/plugins/remark-sources-link-reference.mts';
 import react from '@astrojs/react';
 import node from '@astrojs/node';
 
@@ -81,7 +82,12 @@ export default defineConfig({
             sidebar: [
                 {
                     label: 'Guides',
-                    autogenerate: { directory: 'guides' },
+                    //autogenerate: { directory: 'guides' },
+                    items: [
+                        'topics/computing/app-development-best-practice',
+                        'topics/fonts/font-design-and-development',
+                        'topics/fonts/building-and-modifying-sil-fonts',
+                    ]
                 },
                 {
                     label: 'Topics',
@@ -106,7 +112,11 @@ export default defineConfig({
                 },
                 {
                     label: 'Reference',
-                    autogenerate: { directory: 'reference' },
+                    //autogenerate: { directory: 'reference' },
+                    items: [
+                        'reference/glossary',
+                        'reference/standards',
+                    ],
                 },
                 {
                     label: 'Support',
@@ -123,13 +133,12 @@ export default defineConfig({
                 // Relative path to your custom CSS file
                 './src/styles/custom.css',
             ],
-            plugins: process.env.CHECK_LINKS ? [starlightLinksValidator({
-                sameSitePolicy: 'error',
-            })] : [],
+            plugins: process.env.CHECK_LINKS ? [
+                starlightLinksValidator({sameSitePolicy: 'error'})
+            ] : [],
         }),
         astroBrokenLinksChecker({
-            logFilePath: 'broken-links.log',  // Optional: specify the log file path
-            checkExternalLinks: false         // Optional: check external links (currently, caching to disk is not supported, and it is slow )
+            checkExternalLinks: false  // Optional: check external links (currently, caching to disk is not supported, and it is slow )
         }),
         cookieconsent({
             guiOptions: {
@@ -208,10 +217,13 @@ export default defineConfig({
                 },
             },
         }),
-        db(),
         react(),
     ],
     markdown: {
+        remarkPlugins: [
+            remarkSourcesLinkReference('/biblio/'),
+            remarkCharacterDirectives,
+        ],
         rehypePlugins: [
             rehypeFigureTitle, [
                 rehypeExternalLinks, {
@@ -236,4 +248,8 @@ export default defineConfig({
             ],
         ],
     },
+    redirects: {
+        "/guides/app-development-best-practice": "/topics/computing/app-development-best-practice",
+        "/guides/font-design-and-development": "/topics/fonts/font-design-and-development",
+    }
 });

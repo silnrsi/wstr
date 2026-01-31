@@ -3,10 +3,10 @@ title: Unicode Status for Khitan Small Script
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Khitan Small Script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G59285).
+In The Unicode Standard, Khitan Small Script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G59285).
 
 ## Blocks
 
@@ -15,6 +15,16 @@ The Khitan Small Script was encoded in The Unicode Standard version 13.0. The sc
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Khitan Small Script  | 18B00..18CFF | 13.0 | [U18B00.pdf](http://www.unicode.org/charts/PDF/U18B00.pdf) |
+| Ideographic Symbols and Punctuation | 16FE0..16FFF | 9.0 | [U16FE0.pdf](http://www.unicode.org/charts/PDF/U16FE0.pdf) |
+
+## Characters
+
+Subsequent to version 13.0, the following characters have been added to the script:
+
+| Characters | Unicode Version | Documentation |
+| ---------- | --------------- | ------------- |
+| 16FE4         | 13.0 | _See proposals and documents below_ |
+| 18CFF         | 16.0 | _See proposals and documents below_ |
 
 ## Proposals and documents
 

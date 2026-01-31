@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Gurmukhi script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G668388), [UTN 25: Gurmukhi Character Names](https://www.unicode.org/notes/tn25/), and in [UTN 30: ISCII to Unicode Conversion Issues for Gurmukhi](https://www.unicode.org/notes/tn30/).
+In The Unicode Standard, Gurmukhi script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G668388), [UTN 25: Gurmukhi Character Names](https://www.unicode.org/notes/tn25/), and in [UTN 30: ISCII to Unicode Conversion Issues for Gurmukhi](https://www.unicode.org/notes/tn30/).
 
 ## Blocks
 

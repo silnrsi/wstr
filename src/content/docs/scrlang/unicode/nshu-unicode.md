@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Nüshu script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G42061).
+In The Unicode Standard, Nüshu script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G42061).
 
 ## Blocks
 

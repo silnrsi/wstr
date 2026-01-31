@@ -3,10 +3,10 @@ title: Unicode Status for Devanagari
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-01-30
 ---
 
-In The Unicode Standard, Devanagari script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/chapter-12/#G12284).
+In The Unicode Standard, Devanagari script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G12284).
 
 ## Blocks
 
@@ -45,6 +45,7 @@ Subsequent to version 1.0, the following characters have been added to the Devan
 | A8FC |  8.0  | [WG2 N4260](https://www.unicode.org/wg2/docs/n4260.pdf), [L2/12-123](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-123) |
 | A8FD |  8.0  | [WG2 N4408](https://www.unicode.org/wg2/docs/n4408.pdf), [L2/13-056](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/13-056) |
 | A8FE..A8FF  |  11.0  |  [L2/15-335](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/15-335)  |
+| 11B00..11B09  | 15.0 | _See proposals and documents below_ |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 
@@ -175,3 +176,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 1.4 and D.1 5.2 for decision and action items)_
 - 2025-03-02 Proposal to encode JIHVAMULIYA and UPADHMANIYA in Devanagari — Srinidhi A, Sridatta A ([L2/25-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-121))
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.4.)_
+- 2025-12-21 Response to the encoding of Jihvamuliya and Upadhmaniya in Devanagari — Srinidhi A, Sridatta A ([L2/26-019](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-019))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.2.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.2 for decision and action items)_

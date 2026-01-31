@@ -3,10 +3,10 @@ title: Unicode Status for Osmanya
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-10-06
 ---
 
-In The Unicode Standard, Osmanya script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G16914).
+In The Unicode Standard, Osmanya script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/#G16914).
 
 ## Blocks
 
@@ -26,3 +26,5 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #171 Minutes ([L2/22-061](https://www.unicode.org/L2/L2022/22061.htm)) (See D.1 SECTION 28 for decision and action items)_
 - 2023-09-08 Update on Usage and Implementation Status of African Scripts — Oreen Yousuf, Charles Riley, Daniel Yacob, Neil Patel, Tim Brookes ([L2/23-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-203))
   - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.26.)_
+- 2025-05-15 Proposal for encoding the Somali Osmanya Script Special Vowels in the UCS — Yuusuf Nuur Cosmann ([L2/25-161](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-161))
+  - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 5.16.)_

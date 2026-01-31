@@ -3,7 +3,7 @@ title: Design Metrics
 description: Setting a font's basic size and relative dimensions
 sidebar:
   order: 5330
-lastUpdated: 2025-07-21
+lastUpdated: 2025-11-25
 ---
 
 The curve shapes, letter widths, diacritic positions, and contextual adjustments in a font are defined in relation to a grid of either 1000 x 1000 units (Postscript and CFF-based OpenType fonts) or 2048 x 2048 units (TrueType and TrueType-based OpenType). **Other units-per-em (UPM) values are allowed, but such situations are rare and should be  avoided unless there is a very specific reason to do so (see [Special UPM values](#special-upm-values))**. Although CFF-based fonts are supported by most systems, TrueType-based fonts have much better support, especially on older systems. **We recommend that you develop TrueType-based OpenType fonts, and set your UPM value to 2048.** The rest of this discussion on metrics assumes a 2048 UPM grid.
@@ -23,6 +23,8 @@ For Latin-script fonts, the perceived size is determined primarily by the x-heig
 To do this, first be sure you've set the UPM size correctly (2048). Most design programs will give you a choice of whether to also scale your glyphs when you change the UPM value - let it do that. Then check to see if the general size of your letters is reasonable. For Latin fonts the x-height will normally be somewhere between 800 and 1100 units. For other scripts, open up a commonly used font in your font design program, check to see that the UPM size is 2048 in that font, then see how tall the letters are in units. If you need to resize your letters, select them all and use the Transform/Scale tool or menu option to change all your letters at once.
 
 To refine this size, create a document that compares text in your font to text in other fonts that you would consider to be in the same market or sphere as yours. For example, if you are creating a sans-serif newspaper face, compare it to other sans-serif faces used for newspapers (your competition). Then scale your whole design up or down to suit using the Transform tools. Making your font significantly larger or smaller than other fonts in your market could affect its success or acceptance.
+
+An alternate method of resizing a font uses a GlyphsApp feature. If you want to scale everything in your font to be 20% larger and your UPM size is 1000, open up the _Font Info_ panel to the _Font_ tab, change the _Units per Em_ to 1200 (120% of 1000), and click the double-arrow scaling icon to the right of the UPM value. This will change the UPM to 1200 and scale all the dimensions in the font to 120%. Then change the _Units per Em_ value _back_ to 1000 _without touching the scaling icon_. This will leave the newly-scaled coordinates in place, but return the font back to the original UPM value.
 
 As you do this sizing, pay no attention to line metrics - the amount of space between lines of text. **Line spacing is not automatically determined by how many units tall your letters are, or the height of your ascenders or the depth of your descenders.** Technical issues around line spacing and ascender/descender values are complex, and are addressed in the [next article][line-metrics].
 

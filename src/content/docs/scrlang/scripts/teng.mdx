@@ -20,8 +20,10 @@ scrpropotcode: unspecified
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Tengwar script sample](../images/teng-sample.png "Excerpt from Namárië. From Wikipedia.")
 
@@ -63,5 +65,9 @@ The Tengwar script is not yet in Unicode. The script has a tentative allocation 
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-teng' header='Related articles' />
+
+<SourceLinksList tag='script-teng' header='External links' entrytype='online' />
+
+<BibList tag='script-teng' header='Bibliography' entrytype='non-online' />
 

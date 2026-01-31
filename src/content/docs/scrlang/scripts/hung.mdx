@@ -20,8 +20,10 @@ scrpropotcode: hung
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Old Hungarian script sample](../images/hung-sample.jpg "From Wikipedia.")
 
@@ -57,5 +59,9 @@ In The Unicode Standard, Old Hungarian script implementation is discussed in [Ch
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-hung' header='Related articles' />
+
+<SourceLinksList tag='script-hung' header='External links' entrytype='online' />
+
+<BibList tag='script-hung' header='Bibliography' entrytype='non-online' />
 

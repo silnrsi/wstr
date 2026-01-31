@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Modifier letters are discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G15832). Modifier letters are generally used next to another character in order to modify the usage of the other character in some way. They are not Combining Marks, they are base characters. They are used in transcription of language in other scripts to the Latin script and they are used in Latin and Cyrillic orthographies. Other scripts have modifier letters which are specific to that script.
+In The Unicode Standard, Modifier letters are discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G15832). Modifier letters are generally used next to another character in order to modify the usage of the other character in some way. They are not Combining Marks, they are base characters. They are used in transcription of language in other scripts to the Latin script and they are used in Latin and Cyrillic orthographies. Other scripts have modifier letters which are specific to that script.
 
 ## Blocks
 
@@ -21,7 +21,7 @@ Spacing Modifier letters were first encoded in The Unicode Standard version 1.0.
 
 ## Proposals and documents
 
-In The Unicode Standard, Modifier letters are discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G15832). Modifier letters are generally used next to another character in order to modify the usage of the other character in some way. They are not Combining Marks, they are base characters. They are used in transcription of language in other scripts to the Latin script and they are used in Latin and Cyrillic orthographies. Other scripts have modifier letters which are specific to that script.
+In The Unicode Standard, Modifier letters are discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G15832). Modifier letters are generally used next to another character in order to modify the usage of the other character in some way. They are not Combining Marks, they are base characters. They are used in transcription of language in other scripts to the Latin script and they are used in Latin and Cyrillic orthographies. Other scripts have modifier letters which are specific to that script.
 
 Spacing Modifier letters were first encoded in The Unicode Standard version 1.0. Since that time a number of other Modifier letters have been encoded. Modifier letters are now encoded in the following blocks:
 

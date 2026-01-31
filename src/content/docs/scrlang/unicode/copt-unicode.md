@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-In The Unicode Standard, Coptic script implementation  is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-7/#G16256). 
+In The Unicode Standard, Coptic script implementation  is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G16256). 
 
 Prior to version 4.1 of The Unicode Standard, the Coptic script was considered a stylistic variant of the Greek script, and a unified Greek and Coptic block in the range U+03E2..U+03EF contained the Coptic characters which could not arguably be written with Greek letters. However, subsequent discussion determined that the two scripts would be better encoded separately, so version 4.1 added a Coptic block which contained characters needed for accurately processing Coptic text.
 

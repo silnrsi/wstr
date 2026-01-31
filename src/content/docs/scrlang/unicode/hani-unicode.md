@@ -3,10 +3,10 @@ title: Unicode Status for Han
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Han implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/chapter-18/#G29086).
+In The Unicode Standard, Han implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G29086).
 
 ## Blocks
 
@@ -42,4 +42,4 @@ The following are in the "Common" category, but they do relate to the Han script
 
 ## Proposals and documents
 
-None.
+None listed at this time.

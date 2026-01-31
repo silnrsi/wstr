@@ -20,8 +20,10 @@ scrpropotcode: lao
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Lao script sample](../images/laoo-sample.png "aysomphone, Flickr, 2007.")
 
@@ -69,5 +71,9 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-laoo' header='Related articles' />
+
+<SourceLinksList tag='script-laoo' header='External links' entrytype='online' />
+
+<BibList tag='script-laoo' header='Bibliography' entrytype='non-online' />
 

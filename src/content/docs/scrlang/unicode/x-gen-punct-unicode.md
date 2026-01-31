@@ -3,7 +3,7 @@ title: Unicode Status for General Punctuation
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-19
 ---
 
 In The Unicode Standard, Punctuation marks are discussed in [Chapter 6 Writing Systems and Punctuation](http://www.unicode.org/versions/latest/ch06.pdf). Punctuation marks can generally be used across scripts. They tend to be scattered across various blocks in Unicode. Some scripts have punctuation marks which are specific to that script and those are generally encoded with the script block(s).
@@ -60,8 +60,9 @@ Subsequent to version 1.1, the following characters have been added to common pu
 | 2E30  |  5.1  |  [n3193.pdf](https://www.unicode.org/wg2/docs/n3193.pdf) L2/07-004  |
 | 2E31  |  5.2  |    |
 | 2E45..2E49  |  10.0 |  |
-| 2E4C  |  pending  |  [L2/16-220](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-220)  |
-| 2E4D..2E4E  |  pending  |  [L2/16-219](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-219)  |
+| 2E4A..2E4B  |  11.0  |  |
+| 2E4C  |  11.0  |  [L2/16-220](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-220)  |
+| 2E4D..2E4E  |  11.0  |  [L2/16-219](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-219)  |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
 

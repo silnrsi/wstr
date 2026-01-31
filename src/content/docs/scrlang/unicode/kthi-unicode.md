@@ -3,10 +3,10 @@ title: Unicode Status for Kaithi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-01-30
 ---
 
-In The Unicode Standard, Kaithi script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/chapter-15/#G69704).
+In The Unicode Standard, Kaithi script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/#G69704).
 
 ## Blocks
 
@@ -22,6 +22,7 @@ Subsequent to version 5.2, the following characters have been added to Kaithi:
 
 | Characters | Unicode Version | Documentation |
 | ---------- | --------------- | ------------- |
+| 110C2         | 14.0 | _See proposals and documents below_ |
 | 110CD  |  11.0  | [L2/16-097](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-097) |
 
 _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and Unicode proposals_
@@ -52,3 +53,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
   - _UTC #164 Minutes ([L2/20-172](https://www.unicode.org/L2/L2020/20172.htm)) (See B.1 for decision and action items)_
 - 2022-07-20 Nonalphabetic bindus (beta feedback) _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 27.)_
   - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See D.1.27 for decision and action items)_
+- 2025-05-27 Proposal to Encode Two-Dot Nukta in Kaithi — Srinidhi A, Sridatta A ([L2/26-051](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-051))
+- 2025-12-16 Proposal to encode the Kaithi Letter ZHA in Unicode — Biswajit Mandal ([L2/26-018](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-018))
+  - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.7.)_
+  - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.7 for decision and action items)_

@@ -2,6 +2,7 @@
 dist/
 # generated types
 .astro/
+.link-checker/
 
 # dependencies
 node_modules/
@@ -11,11 +12,7 @@ coredata.sqlite
 db/coredata.db
 
 # logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-broken-links.log
+**.log
 
 # macOS-specific files
 .DS_Store

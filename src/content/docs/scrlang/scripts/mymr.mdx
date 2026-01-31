@@ -20,8 +20,10 @@ scrpropotcode: mymr, mym2
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Myanmar script sample](../images/mymr-sample.png "From the Universal Declaration of Human Rights in Myanmar.")
 
@@ -71,5 +73,9 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-mymr' header='Related articles' />
+
+<SourceLinksList tag='script-mymr' header='External links' entrytype='online' />
+
+<BibList tag='script-mymr' header='Bibliography' entrytype='non-online' />
 

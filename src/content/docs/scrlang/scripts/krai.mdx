@@ -19,8 +19,10 @@ scrpropotcode: krai
 ---
 
 import ScriptDetails from '../../../../components/ScriptDetails.astro';
-import ScriptResources from '../../../../components/ScriptResources.astro';
 import WsList from '../../../../components/WsList.astro';
+import ArticlesList from '../../../../components/ArticlesList.astro';
+import SourceLinksList from '../../../../components/SourceLinksList.astro';
+import BibList from '../../../../components/BibList.astro';
 
 ![Kirat Rai script sample](../images/krai-sample.jpg "Detail from textbook using Kirat Rai script")
 
@@ -56,5 +58,9 @@ Other:
 
 ## Resources
 
-<ScriptResources detailSummary='seemore' />
+<ArticlesList tag='script-krai' header='Related articles' />
+
+<SourceLinksList tag='script-krai' header='External links' entrytype='online' />
+
+<BibList tag='script-krai' header='Bibliography' entrytype='non-online' />
 

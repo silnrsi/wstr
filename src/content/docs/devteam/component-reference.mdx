@@ -1,0 +1,199 @@
+---
+title: Component Reference
+subtitle: Reference to WSTR-specific Astro components
+description: Documentation on some prototype components for integrating coredata
+lastUpdated: 2025-09-24
+---
+import ArticlesList from '/src/components/ArticlesList.astro';
+import Character from '/src/components/Character.astro';
+import CharacterTable from '/src/components/CharacterTable.astro';
+
+## Using the components
+To use these components, you need to:
+- ensure your Markdown file uses the `.mdx` extension
+- import the component(s) you want to use below the frontmatter section but before any other page content, using a declaration such as:
+```jsx
+import Character from '/src/components/Character.astro';
+```
+If your component content doesn't show up on the rendered page, check it has the `.mdx` extension and that you've imported the component correctly.
+
+Additional examples of using these components can be found in [Component Coredata Examples](/devteam/component-coredata-examples).
+
+## Currently-recommended components
+
+### `ArticlesList` component
+
+#### Required import
+```jsx
+import ArticlesList from '/src/components/ArticlesList.astro';
+```
+
+#### Syntax
+```html
+<ArticlesList [tag="..."] [subset="articlelibonly|topicsonly"] [header="..."] />
+```
+
+|Property|Description|
+|---|---|
+|tag|optional tag to filter the articles listed|
+|subset|optional subset of articles to display, either `articlelibonly` or `topicsonly`|
+|header|optional header text to display above the list|
+
+Unless `subset` is defined, the component lists contents from both the Article Library and Topic pages.
+
+#### Example
+
+##### Source
+```html
+<ArticlesList tag="encoding" subset="articlelibonly" header="Encoding Articles" />
+```
+
+##### Result
+
+<ArticlesList tag="encoding" subset="articlelibonly" header="Encoding Articles"  />
+
+---
+
+### `Character` component
+
+#### Required import
+```jsx
+import Character from '/src/components/Character.astro';
+```
+
+#### Syntax
+```html
+<Character usv="XXXX"|char="a" [options="usv,char,name"]/>
+```
+
+Note: Either `usv` or `char` must be provided.
+
+|Property|Description|
+|---|---|
+|usv|The USV of the character to display|
+|char|A literal character|
+|options|A comma-separated list of options to display. Options are `usv`, `char`, and `name`. The default is all three.|
+
+#### Inline examples
+
+This example uses the default options, where all three elements appear.
+```html
+<Character usv="0634"/>
+```
+>Result: <Character usv="0634"/>
+
+This example uses just `usv` and `char` options:
+```html
+<Character usv="0634" options="usv,char"/>
+```
+>Result: <Character usv="0634" options="usv,char"/>
+
+#### List example
+
+- <Character usv="0020"/>
+- <Character usv="0636"/>
+
+### Combining marks
+Combining marks are automatically displayed with a dotted circle to indicate their combining nature.
+```html
+<Character usv="0301"/>
+```
+>Result: <Character usv="0301"/>
+
+---
+#### Directive syntax
+```mdx
+:usv[XXXX]
+:char[a]
+:usv[XXXX]{usv char name}
+:char[a]{usv char name}
+```
+These directives are able to work in both `.md` and `.mdx` files.
+Please note the `:char` directive is a little more limited, and cannot accept any
+whitespace, or certain meta characters without escaping `\[`, `\{`, or wrapping
+in inline code quotes.
+Astro processes directives after smart quote translation, so `:char[']`
+produces `U+2019 ’ RIGHT SINGLE QUOTATION MARK` instead or the expected
+`U+0027 ' APOSTROPHE`.  
+The following attributes are supported which correspond to the component's `options=` attribute.
+
+|Attribute|Description|
+|---|---|
+|usv|Display the USV|
+|char|Display the character|
+|name|Display the Unicode name|
+
+No specified attributes displays all three by default
+
+#### Inline examples
+
+This example uses the default options, where all three elements appear.
+```mdx
+:usv[0634]
+```
+>Result: :usv[0634]
+
+This example uses just `usv` and `char` options:
+```html
+:usv[0635]{usv char}
+```
+>Result: :usv[0635]{usv char}
+
+This example shows the use of `:char`
+```mdx
+:char[` `] and :char[@]{name char}
+```
+>Result: :char[` `] and :char[@]{name char}
+
+#### List example
+
+- :usv[0020]
+- :usv[0636]
+- :char[$]
+
+---
+
+## Components in development
+
+:::caution
+These components are prototypes for possible future use: their specification is not yet agreed. You are welcome to try them out and give feedback, but be aware that they will likely change.
+:::
+
+---
+
+### `CharacterTable` component
+
+#### Required import
+```jsx
+import CharacterTable from '/src/components/CharacterTable.astro';
+```
+
+#### Syntax
+```html
+<CharacterTable startUsv="XXXX" endUsv="XXXX" [caption="..."]/>
+```
+
+|Property|Description|
+|---|---|
+|startUsv|The Unicode scalar value of the first character to display|
+|endUsv|The Unicode scalar value of the last character to display|
+|caption|The caption to display below the table|
+
+#### Examples
+
+##### Source
+```html
+<CharacterTable
+  startUsv = "0627"
+  endUsv   = "0632"
+  caption  = "Arabic characters 0627-0632"
+/>
+```
+##### Result
+<CharacterTable
+  startUsv = "0627"
+  endUsv   = "0632"
+  caption  = "Arabic characters 0627-0632"
+/>
+
+---

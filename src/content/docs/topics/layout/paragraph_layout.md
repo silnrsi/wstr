@@ -4,6 +4,7 @@ description: Issues in paragraph layout
 authors: Lorna Priest
 sidebar:
     order: 6500
+tags: [direction, numerals, script-arab, script-aran, script-cyrl, script-deva, script-ethi, script-hani, script-jpan, script-lana, script-laoo, script-mong, script-thai, script-tibt]
 lastUpdated: 2025-08-06
 ---
 

@@ -3,10 +3,10 @@ title: Unicode Status for Bamum
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Bamum script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/chapter-19/#G45398).
+In The Unicode Standard, Bamum script implementation is discussed in [Chapter 19: Africa](https://www.unicode.org/versions/latest/core-spec/#G45398).
 
 ## Blocks
 
@@ -17,11 +17,19 @@ The Bamum script was encoded in The Unicode Standard version 5.2. Another block 
 | Bamum  | A6AO..A6FF | 5.2 | [UA6A0.pdf](http://www.unicode.org/charts/PDF/UA6A0.pdf) |
 | Bamum Supplement  |  16800..16A3F  |  6.0  |  [U16800.pdf](http://www.unicode.org/charts/PDF/U16800.pdf) |
 
+## Characters
+
+Subsequent to version 5.2, the following characters have been added to the Bamum script:
+
+| Characters | Unicode Version | Documentation |
+| ---------- | --------------- | ------------- |
+| 16800..16A38  | 6.0 | _See proposals and documents below_ |
+
 ## Proposals and documents
 
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:
 - 2006-09-21 Report on work with the Bamum script in Cameroon — Charles Riley  ([L2/06-313](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-313))
-- 2007-01-08 Towards the Encoding of the Bamum Script in the UCS — Charles Riley    ([L2/07-023](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-023))
+- 2007-01-08 Towards the Encoding of the Bamum Script in the UCS — Charles Riley ([L2/07-023](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-023))
 - 2007-02-23 Proposed block allocation Cyrillic / Bamum — Asmus Freytag ([     WG2 N3213](https://www.unicode.org/wg2/docs/n3213.pdf), [L2/07-105](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-105))
 - 2007-03-21 Preliminary proposal for encoding the Bamum script in the BMP of the UCS — Michael Everson and Charles Riley ([WG2 N3209](https://www.unicode.org/wg2/docs/n3209.pdf), [L2/07-024](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-024))
 - 2007-07-30 Request to Remove Bamum from Amendment 5 — Deborah Anderson (on behalf of Konrad Tuchscherer) ([WG2 N3298](https://www.unicode.org/wg2/docs/n3298.pdf), [L2/07-239](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-239))

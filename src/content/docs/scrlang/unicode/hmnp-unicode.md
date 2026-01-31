@@ -3,10 +3,10 @@ title: Unicode Status for Nyiakeng Puachue Hmong
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2025-11-18
 ---
 
-In The Unicode Standard, Nyiakeng Puachue Hmong script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/chapter-16/#G81876).
+In The Unicode Standard, Nyiakeng Puachue Hmong script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/#G81876).
 
 ## Blocks
 
@@ -15,6 +15,10 @@ The Nyiakeng Puachue Hmong script was encoded in The Unicode Standard version 12
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
 | Nyiakeng Puachue Hmong | 1E100..1E14F | 12.0 | [U1E100](http://www.unicode.org/charts/PDF/U1E100.pdf) |
+
+## Characters
+
+Since encoding of the script, no new characters have been added.
 
 ## Proposals and documents
 

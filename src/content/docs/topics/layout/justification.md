@@ -1,9 +1,10 @@
 ---
 title: Justification
-description: Description and examples of layout direction
+description: Description and examples of justification techniques
 authors: Lorna Priest
 sidebar:
     order: 6220
+tags: [script-arab, script-tibt]
 lastUpdated: 2025-08-14
 ---
 
@@ -30,6 +31,5 @@ Minzu Tushuguan bian (Library of Nationalities). 1984. “Zangwen dianji mulu: w
 _Portions of this content first appeared in [Implementing Writing Systems][iws], copyright © 2001 SIL International._
 
 [iws]: https://scripts.sil.org/iws-toc.html
-
 [hyphenation]: /reference/glossary#hyphen
 [justification]: /reference/glossary#justify

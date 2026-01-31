@@ -2,7 +2,7 @@
 title: Legacy Encodings
 description: Issues regarding non-Unicode encodings
 sidebar:
-    order: 3700
+    order: 3800
 lastUpdated: 2025-08-07
 ---
 
