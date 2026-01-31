@@ -128,12 +128,12 @@ export default defineConfig({
                 // Relative path to your custom CSS file
                 './src/styles/custom.css',
             ],
-            plugins: process.env.CHECK_LINKS ? [starlightLinksValidator({
-                sameSitePolicy: 'error',
-            })] : [],
+            plugins: process.env.CHECK_LINKS ? [
+                starlightLinksValidator({sameSitePolicy: 'error'})
+            ] : [],
         }),
         astroBrokenLinksChecker({
-            checkExternalLinks: false         // Optional: check external links (currently, caching to disk is not supported, and it is slow )
+            checkExternalLinks: false  // Optional: check external links (currently, caching to disk is not supported, and it is slow )
         }),
         cookieconsent({
             guiOptions: {
