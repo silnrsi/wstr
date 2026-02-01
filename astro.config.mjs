@@ -9,7 +9,6 @@ import cookieconsent from "@jop-software/astro-cookieconsent";
 import remarkCharacterDirectives from './src/plugins/remark-usv-directive.mts';
 import remarkSourcesLinkReference from './src/plugins/remark-sources-link-reference.mts';
 import react from '@astrojs/react';
-import node from '@astrojs/node';
 
 const googleAnalyticsId = 'G-WHT6CVPT8M';
 
@@ -17,9 +16,6 @@ const googleAnalyticsId = 'G-WHT6CVPT8M';
 export default defineConfig({
     site: process.env.ASTRO_SITE || "https://writingsystems.info",
     base: process.env.ASTRO_BASE || "/",
-    adapter: node({
-      mode: 'standalone',
-      }),
     integrations: [
         starlight({
             title: 'Writing Systems Technical Resources',

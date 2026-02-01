@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.6",
+    "@astrojs/react": "^4.4.2",
     "@astrojs/starlight": "^0.37.4",
     "@jop-software/astro-cookieconsent": "^3.0.1",
     "astro": "^5.17.0",
