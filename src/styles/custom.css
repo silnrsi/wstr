@@ -65,3 +65,6 @@
     font-size: var(--sl-text-sm) !important;
 }
 
+#LangBcp47 .MuiFilledInput-root {
+  background-color: var(--sl-color-bg-nav)
+}
