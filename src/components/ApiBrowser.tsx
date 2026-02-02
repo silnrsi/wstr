@@ -5,7 +5,7 @@
 // trimming of spaces, autocomplete in the search box
 // downloadable data file subset 
 
-import React, { useState, useEffect, type SyntheticEvent, useInsertionEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { LanguagePicker, languagePickerStrings_en } from 'mui-language-picker'
 import { ThemeProvider, createTheme, type PaletteMode, type Theme } from "@mui/material/styles";
 
