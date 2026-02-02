@@ -17,10 +17,12 @@ function createDarkModeTheme(): Theme {
   })
 }
 
+type LFFResponse = Record<string, any> | null
+
 function ApiBrowser() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState<LFFResponse>(null);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<Error|null>(null);
   const [theme, setTheme] = useState(createDarkModeTheme());
   const [bcp47, setBcp47] = React.useState("und");
   const [lgName, setLgName] = React.useState("");
@@ -45,19 +47,45 @@ function ApiBrowser() {
     setError(null);
     try {
       const response = await fetch(`https://lff.api.languagetechnology.org/lang/${bcp47}`);
-      console.log(JSON.stringify(response))
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
+      if (!response.ok)
+        throw new Error(await response.text(), { cause: response.status } );
 
-      const json = await response.json();
+      const json = await response.json() as Record<string, any>;
       setData(json);
     } catch (e: any) {
-      setError(e.message);
+      setData(null)
+      setError(e);
     } finally {
       setLoading(false);
     }
   };
+
+  function presentError() {
+    if (!error) return <></>
+    switch (error.cause) {
+      case 404:
+        return <p>No records found for {lgName} ({bcp47})</p>
+        break
+      default:
+        return (
+          <p style={{ color: 'red' }}>
+            Error fetching {lgName} ({bcp47}): server responsed with status: {error.cause as number}
+          </p>
+        )
+    }
+  }
+
+  function presentResponse() {
+    if (!data) return <></>
+    return (
+      <div>
+        <p>Record for {lgName} ({bcp47}) from LFF version: {data.apiversion}</p>
+        <pre>
+          <code>{JSON.stringify(data, null, 2)}</code>
+        </pre>
+      </div>
+    )
+  }
 
   useEffect(() => { if (bcp47 != "und" && bcp47 != "" ) fetchData() }, [bcp47])
 
@@ -77,15 +105,8 @@ function ApiBrowser() {
         />
       </ThemeProvider>
       {loading && <p>Loading LFF data for {lgName}...</p>}
-      {error && <p style={{ color: 'red' }}>Error fetching {lgName} ({bcp47}): {error}</p>}
-      {data && (
-        <div>
-        <p>Record for {lgName} ({bcp47})</p>
-        <pre>
-          <code>{JSON.stringify(data, null, 2)}</code>
-        </pre>
-        </div>
-      )}
+      {presentError()}
+      {presentResponse()}
     </div>
   );
 }
