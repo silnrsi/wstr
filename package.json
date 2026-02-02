@@ -14,7 +14,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.6",
     "@astrojs/react": "^4.4.2",
-    "@astrojs/starlight": "^0.37.4",
+    "@astrojs/starlight": "^0.37.5",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@jop-software/astro-cookieconsent": "^3.0.1",
@@ -31,7 +31,7 @@
     "typescript": "^5"
   },
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   }
 }
