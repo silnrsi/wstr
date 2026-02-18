@@ -5,6 +5,9 @@ description: Documentation on some prototype components for integrating coredata
 lastUpdated: 2025-09-24
 ---
 import ArticlesList from '/src/components/ArticlesList.astro';
+import BibEntry from '/src/components/BibEntry.astro';
+import BibList from '/src/components/BibList.astro';
+import SourceLinksList from '/src/components/SourceLinksList.astro';
 import Character from '/src/components/Character.astro';
 import CharacterTable from '/src/components/CharacterTable.astro';
 
@@ -22,6 +25,8 @@ Additional examples of using these components can be found in [Component Coredat
 ## Currently-recommended components
 
 ### `ArticlesList` component
+
+Displays a list of articles associated with the given tag.
 
 #### Required import
 ```jsx
@@ -51,6 +56,109 @@ Unless `subset` is defined, the component lists contents from both the Article L
 ##### Result
 
 <ArticlesList tag="encoding" subset="articlelibonly" header="Encoding Articles"  />
+
+---
+
+### `BibEntry` component
+
+Displays a single source in a format suitable for a formal bibliography. Used by the BibList component, but may also be used independently.
+
+#### Required import
+```jsx
+import BibEntry from '/src/components/BibEntry.astro';
+```
+
+#### Syntax
+
+```html
+<BibEntry key="..." />
+```
+
+|Property|Description|
+|---|---|
+|key|source record id in YAML file|
+
+#### Example
+
+##### Source
+
+```html
+<BibEntry key="alone1946" />
+```
+
+##### Result
+
+<BibEntry key="alone1946" />
+
+---
+
+### `BibList` component
+
+Displays a list of related sources in a format suitable for a formal bibliography.
+
+#### Required import
+```jsx
+import BibList from '/src/components/BibList.astro';
+```
+
+#### Syntax
+
+```html
+<BibList tag="..." [header="..."] [entrytype="non-online|article|etc."]/>
+```
+
+|Property|Description|
+|---|---|
+|tag|optional tag to filter the articles listed; `all` will display all items; if the tag is omitted nothing will be displayed|
+|header|optional header text to display above the list|
+|entrytype|type of sources to display; valid values are `online`, `article`, `book`, `inbook`, `inproceedings`, `misc`, `non-online`, `all`; defaults to all types|
+
+#### Example
+
+##### Source
+
+```html
+<BibList tag='script-cham' header='Bibliography' entrytype='non-online' />
+```
+
+##### Result
+
+<BibList tag='script-cham' header='Bibliography' entrytype='non-online' />
+
+---
+
+### SourceLinksList
+
+Displays a list of related sources using an informal format.
+
+#### Required import
+```jsx
+import SourceLinksList from '/src/components/SourceLinksList.astro';
+```
+
+#### Syntax
+
+```html
+<SourceLinksList tag="..." [header="..."] [entrytype="online|article|etc."]/>
+```
+
+|Property|Description|
+|---|---|
+|tag|optional tag to filter the articles listed; 'all' will display all items; if the tag is omitted nothing will be displayed|
+|header|optional header text to display above the list|
+|entrytype|type of sources to display; valid values are `online`, `article`, `book`, `inbook`, `inproceedings`, `misc`, `non-online`, `all`; defaults to all types||
+
+#### Example
+
+##### Source
+
+```html
+<SourceLinksList tag='script-gran' header='External Links' entrytype='online' />
+```
+
+##### Result
+
+<SourceLinksList tag='script-gran' header='External Links' entrytype='online' />
 
 ---
 
@@ -150,6 +258,15 @@ This example shows the use of `:char`
 - :usv[0020]
 - :usv[0636]
 - :char[$]
+
+#### Table example
+
+|USV|Char|Name|Phoneme|
+|---|----|----|-------|
+|:usv[0628]{usv}|:usv[0628]{char}|:usv[0628]{name}|/b/|
+|:usv[0633]{usv}|:usv[0633]{char}|:usv[0633]{name}|/s/|
+|:usv[0634]{usv}|:usv[0634]{char}|:usv[0634]{name}|/:usv[0283]{char}/|
+|:usv[0645]{usv}|:usv[0645]{char}|:usv[0645]{name}|/m/|
 
 ---
 
