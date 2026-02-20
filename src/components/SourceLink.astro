@@ -20,7 +20,7 @@ if (sObj.data.entrytype == "online" && orgStringParen !== '') {
 }
 
 let addendumString = sObj.data.addendum ?? '';
-addendumString = addendumString.replaceAll('[CR][CR]', '<br/>');
+// addendumString = addendumString.replaceAll('[CR][CR]', '<br/>');
 if (addendumString != '') {
 	addendumString = '- '.concat(addendumString);
 }
