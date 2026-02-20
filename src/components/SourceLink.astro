@@ -6,7 +6,7 @@
 
 // Types to handle: article, book, inbook, inproceedings, online, misc
 
-const { key } = Astro.props;
+const { key, showkey } = Astro.props;
 
 import { getEntry } from 'astro:content';
 const sObj = await getEntry('sources', key);
@@ -25,6 +25,11 @@ if (addendumString != '') {
 	addendumString = '- '.concat(addendumString);
 }
 
+let keyString = '';
+if (showkey == 'True') {
+	keyString = '@' + key;
+}
+
 // let annotatonString = sObj.data.annotation ?? '';
 // annotatonString = annotatonString.replaceAll('[CR][CR]', '<br/>');
 // if (annotatonString != '') {
@@ -38,9 +43,11 @@ if (addendumString != '') {
 
 <style>
 	.addendum { font-style: italic; font-size: 100%; }
+	.keystring { font-family: monospace; font-size: 100%; color: var(--text-secondary); }
 </style>
 
 <a href={sObj.data.url} target="_blank" rel="noopener noreferrer">
 	{sObj.data.title}</a>&#x20;{orgStringParen}&#x20;
-	<span class='addendum'>{addendumString}</span>
+	<span class='addendum'>{addendumString}</span>&nbsp;
+	<span class='keystring'>{keyString}</span>
 </>
