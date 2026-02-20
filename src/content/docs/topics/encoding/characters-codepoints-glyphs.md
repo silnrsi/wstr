@@ -4,10 +4,10 @@ description: How these three things interrelate
 sidebar:
     order: 3100
 authors: Peter Constable
-lastUpdated: 2025-12-03
+lastUpdated: 2026-02-20
 ---
 
-Software systems used for working with multilingual data are evolving, and it is increasingly important for users and support personnel to have an understanding of how these systems work. This section serves as an introduction to remaining technical sections, and explains some of the most basic concepts involved in working with multilingual text: characters, keystrokes, codepoints, and glyphs. Each notion is explained, as is the way they relate to one another and interact within a computer system.
+Software systems used for working with multilingual data are evolving, and it is increasingly important for users and support personnel to have an understanding of how these systems work. This section serves as an introduction to remaining technical sections, and explains some of the most basic concepts involved in working with multilingual text: characters, codepoints, and glyphs. Each notion is explained, as is the way they relate to one another and interact within a computer system.
 
 ## Characters
 
@@ -80,7 +80,7 @@ The numerical value of codepoints can be expressed in different ways. Most compu
 
 Glyphs are the graphical elements used to visually represent characters. Because of their graphical nature, a user is likely to associate them closely with the (relatively) concrete objects in the domain of writing and orthographies. For our purposes, the notion of **glyph** has an additional, specific characteristic: glyphs are _graphic objects that are stored within a **font**_. Basically, they are the shapes for displaying characters that you see on a screen or a printer. In a simple sense, then, a font is simply a collection of glyphs, usually with common design characteristics. Since glyphs are contained within fonts, which are part of a computer system, glyphs are therefore a component within the domain of information systems, like abstract characters.
 
-The notions of **character** and **glyph** are different. For example, LATIN SMALL LETTER A “a” can be displayed using any of a number of different glyphs:
+The notions of **character** and **glyph** are different. For example, LATIN CAPITAL LETTER A “A” can be displayed using any of a number of different glyphs:
 
 ![different fonts: one character, different glyphs](images/3100-one-character-different-glyphs.png "different fonts: one character, different glyphs")
 
@@ -92,11 +92,11 @@ There can also be situations in which a single character is displayed by multipl
 
 ![one character displayed using two discontiguous glyphs](images/3100-discontiguous-glyphs.png "one character displayed using two discontiguous glyphs")
 
-We have seen that one character can have many glyphs. The opposite is also possible: one glyph for multiple characters. In Lanna script, when the &#x1a36; character is followed by the character &#x1a81;, they may be written as shown in the example below. In this case, we have two characters that are presented by a single shape, forming what is known as a ligature.
+We have seen that one character can have many glyphs. The opposite is also possible: one glyph for multiple characters. In Tai Tham script, when the &#x1a36; character is followed by the character &#x1a81;, they may be written as shown in the example below. In this case, we have two characters that are presented by a single shape, forming what is known as a ligature.
 
-![Lanna ligature: two characters, one glyph](images/3100-lanna-ligature.png "Lanna ligature: two characters, one glyph")
+![Tai Tham ligature: two characters, one glyph](images/3100-lanna-ligature.png "Tai Tham ligature: two characters, one glyph")
 
-These examples suggest that the number of glyphs is determined by the character elements in an orthography and by their behaviors. That is largely true, but not necessarily so, however. The glyphs used in a font are determined by the font designer, and a font designer may choose to implement behaviors in different ways. For example, for Greek, a font designer may choose to present using a single, composite glyph, or by using two glyphs, one for alpha and another for the over-striking diacritic:
+These examples suggest that the number of glyphs is determined by the character elements in an orthography and by their behaviors. That is largely true, but not necessarily so, however. The glyphs used in a font are determined by the font designer, and a font designer may choose to implement behaviors in different ways. For example, for Greek, a font designer may choose to present the _alpha with oxia_ using a single, composite glyph, or by using two glyphs, one for _alpha_ and another for the over-striking diacritic:
 
 ![Alternate glyph implementations for Greek alpha with oxia](images/3100-alpha-with-oxia.png "Alternate glyph implementations for Greek alpha with oxia")
 
@@ -128,13 +128,13 @@ In the case of Bengali, a similar process may occur: the system may store a sequ
 
 ![Complex rendering process for Bengali LETTER KA, VOWEL O](images/3100-bengali-ka-o.png "Complex rendering process for Bengali LETTER KA, VOWEL O")
 
-Similar processing could occur in rendering the Lanna ligature. In that case, an implementation will likely involve two stored characters displayed using a single glyph.
+Similar processing could occur in rendering the Tai Tham ligature. In that case, an implementation will likely involve two stored characters displayed using a single glyph.
 
 In these examples, we have described one way in which support for each of these examples can be implemented. But, as has been mentioned, the actual glyphs and number of glyphs can vary from one implementation to another. In the case of Bengali, for instance, we have seen that the grapheme for the /o/ vowel (“&#x09CB;”) can be represented in terms of a single character, VOWEL O. But another system could perhaps implement support for this grapheme using a pair of characters, <&#x09C7;, &#x09BE;>. This might make particular sense if each of these corresponded to other graphemes in the orthography or script being implemented. For Bengali script, it turns out that these do have separate identities. Thus, many systems would represent “&#x09CB;” using a character sequence of <VOWEL E, VOWEL AA>. Of course, such a difference would have an affect on how the rendering process needs to operate in order to generate the correct sequence of glyphs. The point here is that a smart rendering system that can support many-to-many mappings between characters and glyphs makes it possible to have different implementations for a given writing system. This flexibility can provide alternatives for a developer, or can also be used to provide special functionality for particular purposes.
 
-Smart rendering systems that can handle many-to-many transformations from characters to glyphs are relatively new. In the past, computer software has typically used rendering systems that support only one-to-one relationships between characters and glyphs. Such systems are sometimes known as “basic”, or “dumb” rendering systems. For a writing system like that of English, for which the standard behaviors are very simple, a “dumb” rendering system is adequate for most use. For complex scripts, however, this limitation presents a problem.
+Smart rendering systems can handle many-to-many transformations from characters to glyphs. In the past, computer software typically used rendering systems that supported only one-to-one relationships between characters and glyphs. Such systems were sometimes known as “basic”, or “dumb” rendering systems. For a writing system like that of English, for which the standard behaviors are very simple, a “dumb” rendering system is adequate for most use. For complex scripts, however, this limitation presents a problem.
 
-For instance, if a Greek SIGMA requires context-based glyph selection but the system is limited to only one glyph per character, then the only possible solution is to have more than one SIGMAcharacter: one character for each of the two glyphs. Since the mapping from characters to glyphs is a simple, one-to-one mapping, the rendering process becomes essentially transparent:
+For instance, if a Greek SIGMA requires context-based glyph selection but the system is limited to only one glyph per character, then the only possible solution is to have more than one SIGMA character: one character for each of the two glyphs. Since the mapping from characters to glyphs is a simple, one-to-one mapping, the rendering process becomes essentially transparent:
 
 ![Greek SIGMA: presentation-form encoding and rendering](images/3100-complex-rendering-greek-sigma.png "Greek SIGMA: presentation-form encoding and rendering")
 
