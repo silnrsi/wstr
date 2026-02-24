@@ -101,7 +101,7 @@ function ApiBrowser() {
           font=""
           required
           disabled={loading}
-          t={languagePickerStrings_en}
+          t={{...languagePickerStrings_en, select: "Select"}}
         />
       </ThemeProvider>
       {loading && <p>Loading LFF data for {lgName}...</p>}
