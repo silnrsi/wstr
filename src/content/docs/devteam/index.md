@@ -31,8 +31,8 @@ These are links to pages intended for use by the development team.
 ## Sources
 - [Sources Reference](/devteam/sources-reference)
 - [Source Keys Quick Reference](/devteam/source-keys-quick-reference)
-- [Sources List - Links Only]( /devteam/sources-list-links-only) - may be slow to load!
-- [Sources List - Complete, presented in formal bibliographic format]( /devteam/sources-list-complete-biblio) - may be slow to load!
+- [Sources List - Links Only]( /devteam/sources-list-links-only)
+- [Sources List - Complete, presented in formal bibliographic format]( /devteam/sources-list-complete-biblio)
 
 ## Testing
 

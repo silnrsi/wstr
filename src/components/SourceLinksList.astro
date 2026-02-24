@@ -9,7 +9,7 @@ import SourceLink from './SourceLink.astro';
 import { getCollection } from 'astro:content';
 const sdata = await getCollection('sources');
 
-const { tag, entrytype, header } = Astro.props;
+const { tag, entrytype, header, showkey } = Astro.props;
 
 let taggedSdata:Array<typeof sdata[0]> = [];
 if (tag == "all") {
@@ -59,7 +59,7 @@ const sortedSdata = [...linkSdata].sort((a, b) =>
 			}
 			<ul>
 				{sortedSdata.map((sObj) =>
-						<li><SourceLink key={sObj.id} /></li>
+						<li><SourceLink key={sObj.id} showkey={showkey}/></li>
 					)
 				}
 			</ul>
