@@ -20,12 +20,7 @@ Here are a number of resources for creating and using a sort tailoring.
 
 This tutorial is designed to give readers some experience in tailoring sort orders using the ICU (International Components for Unicode) collation tailoring language. Readers wanting just an appreciation level understanding should aim to complete Exercise 3. Those needing to create their own tailorings for a Roman based script should complete Exercise 5 or 6.
 
-Those needing a deeper understanding sufficient for troubleshooting and more complex sorting problems should aim to complete as many of the exercises as they can, particularly those pertinent to the types of sort tailoring issues they may encounter. The exercises have valuable discussion in their answers, readers are encouraged to attempt those exercises at least to the level of being able to understand the answers.
-
-
-### Introduction
-
-This tutorial is designed to give readers some experience in tailoring sort orders using the ICU collation tailoring language. Readers wanting just an appreciation level understanding should aim to complete Exercise 3. Those needing to create their own tailorings for a Roman based script should complete Exercise 5 or 6. Those needing a deeper understanding sufficient for troubleshooting and for more complex sorting problems should aim to complete as many of the exercises as they can, particularly those pertinent to the types of sort tailoring issues they may encounter. The later exercises have valuable discussion in the answers. Readers are encouraged to attempt those exercises at least to the level of being able to understand the answers.
+Those needing a deeper understanding sufficient for troubleshooting and for more complex sorting problems should aim to complete as many of the exercises as they can, particularly those pertinent to the types of sort tailoring issues they may encounter. The later exercises have valuable discussion in the answers. Readers are encouraged to attempt those exercises at least to the level of being able to understand the answers.
 
 NB: Specific values for sort keys have not been updated since the tutorial was first written, so values in this tutorial will likely be different from sort keys that you generate, but the principles remain the same.
 
@@ -71,13 +66,13 @@ An alternative, provided you have Internet access, is to use the online ICU coll
 
 Specifically:
 
-|When the tutorial says:|substitute:|
-|---|---|
+When the tutorial says:|substitute:|
+---|---|
 Using the sort trainer,|Use [the ICU demo on collation][icu-collation]|
 create a test data set of:|enter data in the ‘Input’ box|
 and a sort order of:|enter the sort tailoring rules in the ‘Append rules’ box|
 Sort the test data|click the ‘Sort’ button|
-Look at the generated sort keys|The ICU Collation Demo has some display options to the right of the ‘Sort’ button. One of these is ‘sort keys’ which will display sort key information, though not in exactly the same format as the sort trainer and the tutorial. Thus, in the final exercise, where the tutorial discusses sort keys, the online demo page doesn't have the same format for sort key information.
+Look at the generated sort keys|The ICU Collation Demo has some display options to the right of the ‘Sort’ button. One of these is ‘sort keys’ which will display sort key information, though not in exactly the same format as the sort trainer and the tutorial. Thus, in the final exercise, where the tutorial discusses sort keys, the online demo page doesn't have the same format for sort key information.|
 
 ### Simple Collation
 
@@ -349,7 +344,7 @@ Consider the secondary sort key value for some character, and give it a value _x
 3. What is the relative sort order of ‘Mxa’, ‘Mx’ and ‘My’? Why?
 
 The following exercise takes things further. It is based on the common occurrence in Indic
-scripts of Independent Vowels. For the most part, vowels in indic scripts are diacritics. But if a word needs to start with a vowel, an independent vowel (acting much like a consonant) may be used. Sometimes, though, a simple glottal or a vowel base character is used with the dependent vowel. Which is used depends on the etymology of the word.
+scripts of Independent Vowels. For the most part, vowels in Indic scripts are diacritics. But if a word needs to start with a vowel, an independent vowel (acting much like a consonant) may be used. Sometimes, though, a simple glottal or a vowel base character is used with the dependent vowel. Which is used depends on the etymology of the word.
 
 #### Exercise 8
 
@@ -375,7 +370,7 @@ This is equivalent to:
 &æ<<ä
 ```
 
-In fact the rule &ae << æ is implemented as if it were written as &a<<æ/e.
+In fact the rule `&ae << æ` is implemented as if it were written as `&a<<æ/e`.
 
 While such contractions are not essential to creating collation orders, understanding how they work can be helpful, particularly when it comes to dealing with problems. What the
 contraction: &a<<æ/e says is that the key for æ is made by creating a new key that sorts
@@ -693,7 +688,7 @@ X
 
 ### Exercise 2
 
-##### 1.
+1.
 
 ```
 baad baa`d ba'bel ba"bel bad ba'd
@@ -701,7 +696,7 @@ baad baa`d ba'bel ba"bel bad ba'd
 
 ### Exercise 3
 
-##### 1.
+1.
 
 ```
 &b < a < c
@@ -724,7 +719,7 @@ approach the question is to say that a character needs a secondary key if it can
 
 ### Exercise 4
 
-##### 1.
+1.
 
 ```
 &[before 1]a < à <<< À
@@ -762,7 +757,7 @@ first line says to give `x` a new key directly after `a`. The second line says t
 
 ### Exercise 6
 
-##### 1.
+1.
 
 &#x00A0;|&#x00A0;|&#x00A0;|&#x00A0;|&#x00A0;|&#x00A0;|&#x00A0;|&#x00A0;|
 --|--|--|--|--|--|--|--|
