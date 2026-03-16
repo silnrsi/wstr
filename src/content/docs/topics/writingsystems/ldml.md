@@ -262,7 +262,7 @@ A line of tailored collation can be as long as needed, so long as the next "jump
 
 Note that multiple additions after N are listed in the same line, since they all follow in a sequence. There is no reason to make a new line stating `&ND < ndr` when "ND" is already listed at the end of the previous line. 
 
-For more information, see the [Unicode Sort Tailoring: Tutorial][ss-MH-collation-tutorial] and [Resources][ss-collation-resources] on ScriptSource.
+For more information, see the [Unicode Sort Tailoring: Tutorial][collation-tutorial].
 
 ***Simple Collations***
 
@@ -472,6 +472,7 @@ Multigraphs do not need brackets to mark them as a single unit in a collation se
 
 [cldr-and-sldr]: /topics/writingsystems/cldr-and-sldr
 [collation-formatting]: /topics/writingsystems/ldml/#formatting-text-in-collation
+[collation-tutorial]: /articlelib/u/unicode-sort-tailoring.md
 [dbl]: https://thedigitalbiblelibrary.org/ 
 [draft-attributes]: /topics/writingsystems/ldml/#draft-attributes
 [escaping]: /topics/writingsystems/ldml/#formatting-text-in-an-exemplar
@@ -482,8 +483,6 @@ Multigraphs do not need brackets to mark them as a single unit in a collation se
 [sil-fonts]: https://software.sil.org/fonts/
 [sil-sch-features]: https://software.sil.org/scheherazade/features/
 [sldr-dtds]: https://github.com/silnrsi/sldr/tree/master/auxdata
-[ss-collation-resources]: https://scriptsource.org/entry/lcepuup9ga
-[ss-MH-collation-tutorial]: https://scriptsource.org/entry/pnrnlhkrq9
 [uni-cldr-data-submission]: https://cldr.unicode.org/index/process
 [uni-standard-3.11-normalization]: https://www.unicode.org/versions/latest/core-spec/chapter-3/#G49537
 [uni-standard-5.6-normalization]: https://www.unicode.org/versions/latest/core-spec/chapter-5/#G7889
