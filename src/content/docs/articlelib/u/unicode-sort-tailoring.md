@@ -3,14 +3,14 @@ title: Unicode Sort Tailoring
 description: Resources and a Tutorial for Unicode Sort Tailoring
 tags: [collation, contractions, equivalence, ignorables, tailorings, reordering]
 authors: Martin Hosken, David Rowe
-lastUpdated: 2021-09-23
+lastUpdated: 2026-03-16
 ---
 
 ## Resources
 
 Here are a number of resources for creating and using a sort tailoring.
 
-- Sort trainer program: The [collation GitHub repository][collation] contains a sort trainer program. It was written in Python 2 and runs on Linux. It has not been updated for Python 3 and may be difficult to install on other operating systems. (The following item may be a better option.)
+- Sort trainer program: The [collation GitHub repository][collation] contains a sort trainer program. It was originally written in Python 2 for Linux, but was difficult to use on other platforms. When this tutorial was revised in 2021, the ICU Collation Demo option (next item) was included as an alternative. The sort trainer was updated to Python 3 in 2022, but has not been widely tested. **The following item may be a better option** (provided you have Internet access).
 - The [ICU Collation Demo][icu-collation] page provides an online tool similar to the "sort trainer program" listed above.
 - The **Unicode Sort Tailoring: Tutorial** is below. This tutorial elaborates the process of using the ICU (International Components for Unicode) collation tailoring language to establish a Unicode sort tailoring. When originally written (2006), it used the sort trainer program (above) for the exercises. The revised (2021) version offers the alternative ICU Collation Demo page as an option for the exercises.
 - Once a sort tailoring is created, how is it used? [simplesortdemo.py][simplesortdemo] is a simple Python 3 script demonstrating ICU sorting in Python.
