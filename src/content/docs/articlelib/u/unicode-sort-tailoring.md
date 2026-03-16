@@ -487,7 +487,7 @@ This nifty feature allows one to specify that numbers are to be sorted as number
 There are various settings that can be used to indicate optimisations to the collation engine.
 
 ```
-[normalizations on]
+[normalization on]
 ```
 
 This specifies that only fast normalizations should occur. For more details of this read the section on [Canonical Equivalence][canonical-equivalence]. Basically it says, no data will have more than 1 diacritic or if it does those diacritics will always be guaranteed to be in canonical order.
