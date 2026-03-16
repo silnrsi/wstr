@@ -5,44 +5,23 @@
 details.family > summary {
     display: grid;
     font-weight: inherit;
-    column-gap: 0.2em;
-    grid-template-columns: 0.5em minmax(min-content,auto) 5em 7em 12em;
+    column-gap: 0.5ch;
+    grid-template-columns: 1em minmax(min-content,auto) 9ch 11ch 20ch;
 }
 
-details.family > ul {
+details.family > :last-child {
+    margin: 0.25lh;
+    padding-left: 1ch;
     list-style: none;
-    overflow: scroll;
-    max-height: 6em
+    overflow: auto;
+    max-height: 4lh;
 }
-
-/* .name {
-    flex-grow: 1;
-}
-
-.source {
-    min-width: 5em;
-}
-
-.license {
-    min-width: 4em;
-}
-
-.tech {
-    display: inline;
-    min-width: 13em
-} */
 
 .lozenge {
     background-color: AccentColor;
-    margin-inline: 0.2em;
+    margin-inline: 0.4ch;
     color: AccentColorText;
     text-transform: uppercase;
-}
-
-.weights {
-    list-style: none;
-    overflow: scroll;
-    max-height: 6em;
 }
 
 .sample {
@@ -51,10 +30,15 @@ details.family > ul {
     object-fit: none;
     grid-column: 2 / span 4;
     grid-row: 2;
+    height: min-content;
+}
+
+.weight {
+    margin: 0px;
 }
 
 :root[data-theme="dark"] .sample {
-    filter: invert(0.90);
+    filter: invert(0.899);
 }
 
 .features {
