@@ -1,0 +1,58 @@
+.family {
+    margin-bottom: inherit;
+}
+
+details.family > summary {
+    display: flex;
+    font-weight: inherit
+}
+
+details.family > summary > * {
+    padding-inline: 0.5em;
+}
+
+details.family > ul {
+    list-style: none;
+    overflow: scroll;
+    max-height: 6em
+}
+
+.name {
+    flex-grow: 1;
+}
+
+.source {
+    min-width: 5em;
+}
+
+.license {
+    min-width: 4em;
+}
+
+.tech {
+    display: inline;
+    min-width: 13em
+}
+
+.lozenge {
+    background-color: AccentColor;
+    margin-inline: 0.2em;
+    color: AccentColorText;
+    text-transform: uppercase;
+}
+
+.weights {
+    list-style: none;
+    overflow: scroll;
+    max-height: 6em;
+}
+
+.sample {
+    display: inline;
+    height: 3em;
+}
+
+.features {
+    font-family: monospace;
+    font-size: larger;
+}

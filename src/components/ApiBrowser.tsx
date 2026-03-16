@@ -9,9 +9,10 @@ import React, { useState, useEffect } from 'react';
 import { LanguagePicker, languagePickerStrings_en } from 'mui-language-picker'
 import { ThemeProvider, createTheme, type PaletteMode, type Theme } from "@mui/material/styles";
 import Family, {type Props as FamilyProps} from './Family'
+import styles from './ApiBrowser.module.css'
 
 const copyIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true" fill="currentColor" style={{width: '1em', height: '1em', colorAdjust: 'economy', verticalAlign: '-0.125em'}}>
-  {/* <!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--> */}
+  // !Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.
   <path d="M288 464L64 464c-8.8 0-16-7.2-16-16l0-224c0-8.8 7.2-16 16-16l48 0 0-48-48 0c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-48-48 0 0 48c0 8.8-7.2 16-16 16zM224 304c-8.8 0-16-7.2-16-16l0-224c0-8.8 7.2-16 16-16l224 0c8.8 0 16 7.2 16 16l0 224c0 8.8-7.2 16-16 16l-224 0zm-64-16c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L224 0c-35.3 0-64 28.7-64 64l0 224z"/>
 </svg>
 
@@ -87,18 +88,19 @@ function ApiBrowser() {
 
   function presentResponse() {
     if (!data) return <></>
+    console.log(JSON.stringify(styles))
     return (
       <div>
         <details>
           <summary style={{font: 'unset'}}>
             Record for {lgName} ({bcp47}) from LFF version: {data.apiversion}
-            <button style={{float: 'right', background: 'unset', border: 'unset', cursor: 'pointer'}} onClick={copyResponse}>{copyIcon}</button>
+            <button className={styles.copy} onClick={copyResponse}>{copyIcon}</button>
           </summary>
-          <pre style={{overflow: 'auto'}}>
+          <pre className={styles.response}>
             <code>{JSON.stringify(data, null, 2)}</code>
           </pre>
         </details>
-        <ul style={{listStyle: 'none', padding: 'unset', maxHeight: '50vh', paddingRight: '2vw', overflow: 'auto'}}>
+        <ul className={styles.families}>
         {Object.values(data.families as Record<string, FamilyProps>).map((family) => <li><Family {...family} /></li>)}
         </ul>
       </div>
