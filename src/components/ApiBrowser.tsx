@@ -24,6 +24,20 @@ function createDarkModeTheme(): Theme {
   })
 }
 
+
+const SampleImages = 
+{
+  'Andika.S': 'https://fonts.languagetechnology.org/fonts/sil/andika/documentation/assets/images/Andika-R_400x30.png',
+  'Andika.M': 'https://fonts.languagetechnology.org/fonts/sil/andika/documentation/assets/images/Andika-R_600x45.png',
+  'Andika.L': 'https://fonts.languagetechnology.org/fonts/sil/andika/documentation/assets/images/Andika-R_1200x90.png',
+  'Charis.S': 'https://fonts.languagetechnology.org/fonts/sil/charis/documentation/assets/images/Charis-R_400x30.png',
+  'Charis.M': 'https://fonts.languagetechnology.org/fonts/sil/charis/documentation/assets/images/Charis-R_600x45.png',
+  'Charis.L': 'https://fonts.languagetechnology.org/fonts/sil/charis/documentation/assets/images/Charis-R_1200x90.png',
+  'Gentium.S': 'https://fonts.languagetechnology.org/fonts/sil/gentium/documentation/assets/images/Gentium-R_400x30.png',
+  'Gentium.M': 'https://fonts.languagetechnology.org/fonts/sil/gentium/documentation/assets/images/Gentium-R_600x45.png',
+  'Gentium.L': 'https://fonts.languagetechnology.org/fonts/sil/gentium/documentation/assets/images/Gentium-R_1200x90.png'
+}
+
 type LFFResponse = Record<string, any> | null
 
 function ApiBrowser() {
@@ -83,7 +97,8 @@ function ApiBrowser() {
   }
 
   function copyResponse() {
-    if (data) navigator.clipboard.writeText(JSON.stringify(data, null, 2))
+    if (data)
+      navigator.clipboard.writeText(JSON.stringify(data, null, 2))
   }
 
   function presentResponse() {
@@ -101,7 +116,7 @@ function ApiBrowser() {
           </pre>
         </details>
         <ul className={styles.families}>
-        {Object.values(data.families as Record<string, FamilyProps>).map((family) => <li><Family {...family} /></li>)}
+        {Object.values(data.families as Record<string, FamilyProps>).map((rec) => <li><Family {...{...rec, sample: SampleImages[rec.family+'.S']}} /></li>)}
         </ul>
       </div>
     )
