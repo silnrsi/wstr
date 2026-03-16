@@ -25,7 +25,7 @@ function createDarkModeTheme(): Theme {
 }
 
 
-const SampleImages = 
+const SampleImages: Record<string,string> = 
 {
   'Andika.S': 'https://fonts.languagetechnology.org/fonts/sil/andika/documentation/assets/images/Andika-R_400x30.png',
   'Andika.M': 'https://fonts.languagetechnology.org/fonts/sil/andika/documentation/assets/images/Andika-R_600x45.png',
@@ -116,7 +116,10 @@ function ApiBrowser() {
           </pre>
         </details>
         <ul className={styles.families}>
-        {Object.values(data.families as Record<string, FamilyProps>).map((rec) => <li><Family {...{...rec, sample: SampleImages[rec.family+'.S']}} /></li>)}
+          {data.defaultfamily.map((id: string) => {
+            const rec = data.families[id]
+            return <li><Family {...{...rec, sample: SampleImages[rec.family+'.S']}} /></li>
+          })}
         </ul>
       </div>
     )
