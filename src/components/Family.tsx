@@ -68,7 +68,6 @@ return <details className={styles.family}>
             <span className={styles.source}>{source}</span>
             <span className={styles.license}> {licenseIcon} {license}</span>
             <div className={styles.tech}>{tech}</div>
-            <br/>
             {sample && <img className={styles.sample} src={sample} alt={`${family} visual sample`}/>}
         </summary>
         {features && <p>Required features: <span className={styles.features}>{features}</span></p>}

@@ -3,12 +3,10 @@
 }
 
 details.family > summary {
-    display: flex;
-    font-weight: inherit
-}
-
-details.family > summary > * {
-    padding-inline: 0.5em;
+    display: grid;
+    font-weight: inherit;
+    column-gap: 0.5em;
+    grid-template-columns: 0.5em 15em 5em 4em 13em;
 }
 
 details.family > ul {
@@ -17,7 +15,7 @@ details.family > ul {
     max-height: 6em
 }
 
-.name {
+/* .name {
     flex-grow: 1;
 }
 
@@ -32,7 +30,7 @@ details.family > ul {
 .tech {
     display: inline;
     min-width: 13em
-}
+} */
 
 .lozenge {
     background-color: AccentColor;
@@ -48,8 +46,12 @@ details.family > ul {
 }
 
 .sample {
+    margin: auto;
     display: inline;
-    height: 3em;
+    max-height: 3em;
+    object-fit: none;
+    object-position: 10%;
+    grid-column: 1 / span 4;
 }
 
 .features {
