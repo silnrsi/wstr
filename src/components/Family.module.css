@@ -5,8 +5,8 @@
 details.family > summary {
     display: grid;
     font-weight: inherit;
-    column-gap: 0.5em;
-    grid-template-columns: 0.5em 15em 5em 4em 13em;
+    column-gap: 0.2em;
+    grid-template-columns: 0.5em minmax(min-content,auto) 5em 7em 12em;
 }
 
 details.family > ul {
@@ -46,12 +46,15 @@ details.family > ul {
 }
 
 .sample {
-    margin: auto;
+    margin-top: auto;
     display: inline;
-    max-height: 3em;
     object-fit: none;
-    object-position: 10%;
-    grid-column: 1 / span 4;
+    grid-column: 2 / span 4;
+    grid-row: 2;
+}
+
+:root[data-theme="dark"] .sample {
+    filter: invert(0.90);
 }
 
 .features {
