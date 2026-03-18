@@ -4,6 +4,7 @@ import { ThemeProvider, createTheme, type PaletteMode, type Theme } from "@mui/m
 import { isAsExpression, type NumericLiteral } from 'typescript';
 import styles from './Family.module.css'
 
+
 type FontType = "ttf" | "woff" | "woff2"
 
 interface Axes {
@@ -62,7 +63,21 @@ export default function Family(props: Props) {
     const weights = axes.map((style) => <div className={styles.weight}>{style}</div>)
     const tech = types.map((type) => <Lozenge>{type}</Lozenge>)
 
-return <details className={styles.family}>
+    const fontFamily = `
+        @font-face {
+            font-family: 'SampleFamily';
+            src: url("https://fonts.languagetechnology.org/fonts/sil/andika/web/Andika-Regular.woff2");
+        }
+    `;
+
+    // TODO: Replace the src URL above with the flourl of the default WOFF2 file for the family.
+    // It is only needed for those families where that flourl exists.
+    // The div in the HTML below should only be shown if the flourl exists.
+    // The structure and styling are temporary and is used only to test that the custom font family is working.
+    // If we can get it to work well we won't need sample images at all.
+
+return <>
+    <details className={styles.family}>
         <summary>
             <span className={styles.name}>{siteurl ? <a className="lff-family url" href={siteurl}>{family}</a> : family}</span>
             <span className={styles.source}>{source}</span>
@@ -75,4 +90,9 @@ return <details className={styles.family}>
         <h6>Weights</h6>
         <div>{weights}</div>
     </details>
+    <div>
+      <style>{fontFamily}</style>
+      <p style={{ fontFamily: 'SampleFamily' }}>This sample text is styled with the font family</p>
+    </div>
+    </>
 }
