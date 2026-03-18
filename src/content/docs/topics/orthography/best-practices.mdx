@@ -36,7 +36,7 @@ An important contribution of this paper is found in [Appendix A](#appendix-a), a
 
 ## Word-forming characteristics of a symbol used for tone
 
-Every Unicode character has the potential to affect how text is broken into words. For the purposes of this document we are using the term “word-forming” to describe characters that do not cause splitting of words, sentences or lines (“word-forming” is not a Unicode term; see [References](#references) for more in-depth explanations). A word-forming character will be recognized as part of the word it is adjacent to. This property is crucial when a program is searching for a word, or determining how it selects a word, and so forth. For a simple example, if you double-click on the word `orthography` , the entire word is selected. However, if we consider `+orthography`, with the (+) in front, the (+) is not a word-forming character, so double-clicking will not include the (+) part in the selection. However, the IPA symbol for primary stress <Character usv='02C8' options='char' /> <Character usv='02C8' options='usv' /> is word-forming, so clicking on `'orthography` will include the `ˈ`. Further examples will be given below, especially in the [Case Studies](#case-studies) section.
+Every Unicode character has the potential to affect how text is broken into words. For the purposes of this document we are using the term “word-forming” to describe characters that do not cause splitting of words, sentences or lines (“word-forming” is not a Unicode term; see [References](#references) for more in-depth explanations). A word-forming character will be recognized as part of the word it is adjacent to. This property is crucial when a program is searching for a word, or determining how it selects a word, and so forth. For a simple example, if you double-click on the word `orthography` , the entire word is selected. However, if we consider `+orthography`, with the (+) in front, the (+) is not a word-forming character, so double-clicking will not include the (+) part in the selection. However, the IPA symbol for primary stress <Character usv='02C8' options='char' /> <Character usv='02C8' options='usv' /> is word-forming, so clicking on `ˈorthography` will include the `ˈ`. Further examples will be given below, especially in the [Case Studies](#case-studies) section.
 
 How does this “word-forming” property interact with tone marking? Lexical and grammatical tone act differently. For lexical tone, the tone is an underlying part of the word, so that it is included in a dictionary. Diacritics generally work well for lexical tone, since the usual accent marks are word-forming.
 
@@ -120,7 +120,7 @@ To summarize, whichever of the above options one follows, in the end, a Unicode-
 
 ### Hyphen
 
-(See also [Case Study #1](#case-study-1-hyphens)
+(See also [Case Study #1](#case-study-1-hyphens))
 
 Some languages use the hyphen as a letter.
 
@@ -134,7 +134,7 @@ The apostrophe is often used to represent glottal stops or ejective consonants. 
 
 Apostrophe is less problematic than other choices since it does get treated by more software as word-forming. It has its own problems though, especially if it is used for multiple functions within the same language.
 
-The straight apostrophe &#x003c;'&#x003e;, in software such as Word, is automatically replaced by something else. If your computer is English, it is replaced with a curved apostrophe &#x003c;ʼ&#x003e;. If your computer is German, it gets changed to an inverted low apostrophe before the word and by an inverted high apostrophe after the word &#x003c;‚word‘&#x003e;. You can avoid all these by using special Unicode code points, but these require a specific keyboard to be developed if it has not already been included in your regional keyboards. See [Appendix A](#appendix-a) for alternative characters. 
+The straight apostrophe &#x003c;'&#x003e;, in software such as Word, is automatically replaced by something else. If your computer is English, it is replaced with a curved apostrophe &#x003c;’&#x003e;. If your computer is German, it gets changed to an inverted low apostrophe before the word and by an inverted high apostrophe after the word &#x003c;‚word‛&#x003e;. You can avoid all these by using special Unicode code points, but these require a specific keyboard to be developed if it has not already been included in your regional keyboards. See [Appendix A](#appendix-a) for alternative characters. 
 
 **Note:** there are simple ways to tell Word, etc., not to make such changes automatically (in **Options**, not by using code points). But this requires training and constant use.
 
