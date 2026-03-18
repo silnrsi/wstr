@@ -1,15 +1,14 @@
 ---
-title: Best practice when using non-alphabetic characters in orthographies
-description: Helping languages succeed in the modern world
+title: Non-alphabetic characters in orthographies
+description: Best practice when using non-alphabetic characters in orthographies. Helping languages succeed in the modern world
 authors: Mike Cahill, Lorna Evans, Jim Brase, Heidi Rosendall, and Coleen Starwalt
-sidebar:
-    order: 1300
+tags: [orthography, unicode]
 lastUpdated: 2026-03-16
 ---
 
 import Character from '../../../../components/Character.astro';
 
-_Helping languages succeed in the modern world_
+_Best practice when using non-alphabetic characters in orthographies: helping languages succeed in the modern world_
 
 ## Why this document?
 
@@ -134,7 +133,7 @@ The apostrophe is often used to represent glottal stops or ejective consonants. 
 
 Apostrophe is less problematic than other choices since it does get treated by more software as word-forming. It has its own problems though, especially if it is used for multiple functions within the same language.
 
-The straight apostrophe &#x003c;'&#x003e;, in software such as Word, is automatically replaced by something else. If your computer is English, it is replaced with a curved apostrophe &#x003c;’&#x003e;. If your computer is German, it gets changed to an inverted low apostrophe before the word and by an inverted high apostrophe after the word &#x003c;‚word‛&#x003e;. You can avoid all these by using special Unicode code points, but these require a specific keyboard to be developed if it has not already been included in your regional keyboards. See [Appendix A](#appendix-a) for alternative characters. 
+The straight apostrophe `'`, in software such as Word, is automatically replaced by something else. If your computer is English, it is replaced with a curved apostrophe `’`. If your computer is German, it gets changed to an inverted low apostrophe before the word and by an inverted high apostrophe after the word `‚word‛`. You can avoid all these by using special Unicode code points, but these require a specific keyboard to be developed if it has not already been included in your regional keyboards. See [Appendix A](#appendix-a) for alternative characters. 
 
 **Note:** there are simple ways to tell Word, etc., not to make such changes automatically (in **Options**, not by using code points). But this requires training and constant use.
 
@@ -199,7 +198,7 @@ However, the latter is only likely to be available for majority languages and ma
 
 **Problem:** Just because a solution works in Paratext, it is not guaranteed to work in other applications, such as Word or various publishing programs.
 
-Paratext already accommodates more unique choices that languages throw at it than any commercial software we know of, and the Paratext developers are very responsive. But Paratext’s ability to accommodate non-Unicode choices is only a short-term solution. It postpones the question of whether that choice is helpful in the long run, or whether it will lead to a dead end later. So no one should make a decision about their orthography based only on whether or not Paratext accommodates it. Using a non-alphabetic symbol like * or + may work for the short term, but will almost certainly have other problems at some point (see “[Asterisk][#asterisk]”).
+Paratext already accommodates more unique choices that languages throw at it than any commercial software we know of, and the Paratext developers are very responsive. But Paratext’s ability to accommodate non-Unicode choices is only a short-term solution. It postpones the question of whether that choice is helpful in the long run, or whether it will lead to a dead end later. So no one should make a decision about their orthography based only on whether or not Paratext accommodates it. Using a non-alphabetic symbol like * or + may work for the short term, but will almost certainly have other problems at some point (see [Asterisk](#asterisk)).
 
 Paratext does provide some flexibility with using punctuation characters as part of words. The **apostrophe and hyphen** are allowed word medially without causing a word to break. Paratext does not just ignore punctuation, but targets it for special attention. The program can be tweaked to a certain extent, but punctuation characters cause issues, especially word initially. In this position, if they are considered as part of a word, they also interfere with **capitalization** checks and thus cause the team to have to do a great amount of manual checking.
 
@@ -305,7 +304,7 @@ contrast to an existing orthography. For example, you might say, “This orthogr
 - **Grapheme distribution charts**. Which graphemes occur in which environments? Similar to phoneme distribution charts but will most likely not overlap. Include all required ligatures, subscript consonants, and any change of shape for a glyph that depends on the environment. (Note: Only differences from the established orthography for the script need be listed.)
 - **Orthography sample text**. Starting with the 5 pages of text from the orthography approval process in stage 1, remove the phonemic transcriptions and leave only the orthography. Show spacing, punctuation, line breaks, and use of numerals.
 - **Provide Unicode encodings for every character in your orthography**. These can be found on the unicode.org website. You may consult with the computing department for help. If any of these characters are used in a way that is contrary to their Unicode general category (e.g. a punctuation mark used for a sound), give a discussion and justification for their use.
-6. **Language tag.** Specify a language tag for this orthography. The language tag must uniquely identify this orthography in such a way as to not preclude another orthography from having its most appropriate language tag. The language tag may include private use elements[MC1] [2]
+- **Language tag.** Specify a [language tag][sil-langtag] for this orthography. The language tag must uniquely identify this orthography in such a way as to not preclude another orthography from having its most appropriate language tag. The language tag may include private use elements.
 
 ### Stage 2: Working text engineering
 
@@ -313,7 +312,7 @@ contrast to an existing orthography. For example, you might say, “This orthogr
 - **Font layouts**. Provide at least one preferred font each for use in body text and for headings. At least two different fonts must be given (either normal and bold of the same font or two separate fonts). Description of any fonts needed to reproduce the symbols in the orthography.
 - **Keyboard layouts.** Specify any keyboard layouts used for this orthography.
 - **Sample text**. Two sample pages of text using the orthography without transliterations, in an unformatted raw text file in Unicode characters, along with the same text in formatted text for reference in rendering, to ensure that people can render your text correctly.
-- **Sorting order and head characters**. Give a list of all the characters that can be used to identify sections in the dictionary in order. Give the sorting order  “alphabetical order”) of all the characters for use in dictionaries. For example, does sorting occur by first letter only, or do digraphs get sorted separately from their first letter? Do letters modified by diacritics sort separately from their unmodified counterparts, or together? etc.
+- **Sorting order and head characters**. Give a list of all the characters that can be used to identify sections in the dictionary in order. Give the sorting order (“alphabetical order”) of all the characters for use in dictionaries. For example, does sorting occur by first letter only, or do digraphs get sorted separately from their first letter? Do letters modified by diacritics sort separately from their unmodified counterparts, or together? etc.
 - **Word list**. Wordlist without translation with at least 1000 - 2000 entries in orthographic rendering, in an unformatted raw text file with Unicode characters, one per line. Hand in the same word list as a PDF. This is absolutely essential for languages with multiple scripts, and very helpful for any language, for testing text engineering issues.
 - **Quotation marks**. Describe the quotation marking system for this language, including paragraph continuation. Indicate how up to three levels of quotation would be marked (e.g. “I said, ‘Let’s ask him, “Where were you on the night of July 28th?”’”, he repeated.)
 - **Footnote callers**. What characters should be used for footnote callers (e.g., alphabetic, numeric, special punctuation)?
@@ -325,8 +324,8 @@ contrast to an existing orthography. For example, you might say, “This orthogr
 - **Standard keyboard layout**. Declare which of the layouts from stage 2 have become standard within the community.
 - **Line breaking**. Provide supporting dictionaries and rules to facilitate word- or syllable-level line breaking (whichever is easier), unless line breaking is identifiable purely by character (e.g. spaces).
 - **Word list**. Unless a security exemption has been given, please provide your word list from stage 2 in a format that can be published online for other computing experts to use.
-- **Language tag**. Specify a language tag for this orthography that does not contain any private use elements. This may involve applications to the appropriate standards bodies to add the necessary elements (language or dialect) from which the language tag is then assembled.
-- Provide **locale information** (CLDR, cldr.unicode.org/) to ensure that software will properly display numbers, dates, language names, etc. Below are the minimum requirements for industry to start considering your language. The more information they provide, the more likely they are to accept the language for use in different operating systems.
+- **Language tag**. Specify a [language tag][sil-langtag]  for this orthography that does not contain any private use elements. This may involve applications to the appropriate standards bodies to add the necessary elements (language or dialect) from which the language tag is then assembled.
+- **Locale Data**. Provide [Local Data][sil-locale] to ensure that software will properly display numbers, dates, language names, etc. Below are the minimum requirements for industry to start considering your language. The more information you provide, the more likely it is that the computer industry will accept the language for use in different operating systems.
    - **Numbers**. What is the default numbering system? What is the “native” numbering system (traditional to the group, but not necessarily used at present)? What numbering system is currently in use for traditional purposes? What numbers are used in finance?
    - Please provide the following words translated into the native language:
       - Language name
@@ -343,9 +342,7 @@ contrast to an existing orthography. For example, you might say, “This orthogr
 - [Unicode® Technical Note #19: Recommendations for Creating New Orthographies][utn19]
 - [Unicode Character Finder][ucf]
 - [Unicode Charts][unicode-charts]
-- [Unicode Utilities: Description and Index][unicode-utilities]:
-Unicode online utilities (for looking up character properties or testing text segmentation)
-- [WALS The World Atlas of Language Structures Online][wals]
+- [Unicode Utilities: Description and Index][unicode-utilities]: Unicode online utilities (for looking up character properties or testing text segmentation)
 
 ## Other useful links
 
@@ -361,6 +358,8 @@ _This content first appeared in [Best practice when using non-alphabetic charact
 [sil-orthography-dev]: https://www.sil.org/literacy-and-education/orthography-development
 [sil-orth-unicode]: https://scripts.sil.org/cms/scripts/page.php?id=orthographydev&site_id=nrsi
 [sil-factors]: https://www.sil.org/resources/archives/7830
+[sil-langtag]: /topics/writingsystems/language-tagging
+[sil-locale]: /topics/writingsystems/locale-data
 [wals]: https://wals.info/chapter/33
 [ucf]: http://www.mclean.net.nz/ucf/
 [unicode-charts]: https://www.unicode.org/charts/
