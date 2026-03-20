@@ -14,6 +14,7 @@ interface Axes {
 
 interface File {
     axes?: Axes,
+    flourl?: string,
     url?: string
 }
 
@@ -47,17 +48,31 @@ function Lozenge({ children }: FragmentProps) {
     </span>
 }
 
+function Sample(props: Props) {
+    const {defaults, family, files, sample} = props
+    const flourl = files[defaults.woff2 ?? defaults.ttf]?.flourl
+
+    if (flourl)
+    {
+        const fontFamily = `@font-face {
+            font-family: '${family}';
+            src: url('${flourl}');
+        }`
+        return <div className={styles.sample}>
+            <style>{fontFamily}</style>
+            <p style={{ margin: 'auto', fontFamily: family }}>This sample text is styled with the font family</p>
+        </div>
+    }
+    if (sample) {
+        return <img className={styles.sampleimg + ' ' + styles.sample}  src={sample} alt={`${family} visual sample`}/>
+    }
+    return <></>
+}
+
 export default function Family(props: Props) {
     const { family, defaults, files, license, siteurl, features, sample, version, source } = props
     const types = Object.keys(defaults)
     const tech = types.map((type) => <Lozenge>{type}</Lozenge>)
-
-    const fontFamily = `
-        @font-face {
-            font-family: 'SampleFamily';
-            src: url("https://fonts.languagetechnology.org/fonts/sil/andika/web/Andika-Regular.woff2");
-        }
-    `;
 
     // TODO: Replace the src URL above with the flourl of the default WOFF2 file for the family.
     // It is only needed for those families where that flourl exists.
@@ -72,15 +87,11 @@ return <>
             <span className={styles.source}>{source}</span>
             <span className={styles.license}>{licenseIcon}{license}</span>
             <div className={styles.tech}>{tech}</div>
-            {sample && <img className={styles.sample} src={sample} alt={`${family} visual sample`}/>}
+            <Sample {...props}/>
         </summary>
         {features && <p>Required features: <span className={styles.features}>{features}</span></p>}
         {version && <p>Version: {version}</p>}
         <p>Styles: {countStyles(files)}</p>
     </details>
-    <div>
-      <style>{fontFamily}</style>
-      <p style={{ fontFamily: 'SampleFamily' }}>This sample text is styled with the font family</p>
-    </div>
     </>
 }

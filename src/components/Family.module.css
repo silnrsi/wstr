@@ -19,14 +19,17 @@ details.family > summary {
 .sample {
     margin-top: auto;
     display: inline;
-    object-fit: none;
     grid-column: 2 / span 4;
     grid-row: 2;
+    font-size: 1lh;
     height: min-content;
 }
 
+.sampleimg {
+    object-fit: none;
+}
 
-:root[data-theme="dark"] .sample {
+:root[data-theme="dark"] .sampleimg {
     filter: invert(0.899);
 }
 
