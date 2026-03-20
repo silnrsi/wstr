@@ -3,6 +3,9 @@ import { LanguagePicker, languagePickerStrings_en } from 'mui-language-picker'
 import { ThemeProvider, createTheme, type PaletteMode, type Theme } from "@mui/material/styles";
 import { isAsExpression, type NumericLiteral } from 'typescript';
 import styles from './Family.module.css'
+import _samples from '../data/udhr-26.json'
+
+const samples: Record<string, string | null> = _samples
 
 type FontType = "ttf" | "woff" | "woff2"
 
@@ -21,6 +24,7 @@ interface File {
 type Defaults = Record<FontType, string>;
 type Files = Record<string,File> 
 export interface Props {
+    lang?: string,
     family: string,
     license?: string,
     files?: Files,
@@ -51,7 +55,7 @@ function Lozenge({ children }: FragmentProps) {
 }
 
 function Sample(props: Props) {
-    const {defaults={} as Defaults, family, files={}, sample} = props
+    const {lang, defaults={} as Defaults, family, files={}, sample} = props
     const flourl = files[defaults?.woff2 ?? defaults?.ttf]?.flourl
 
     if (flourl)
@@ -60,9 +64,10 @@ function Sample(props: Props) {
             font-family: '${family}';
             src: url('${flourl}');
         }`
+        const sampler = (lang && samples[lang]) ?? "Everyone has the right to education."
         return <div className={styles.sample}>
             <style>{fontFamily}</style>
-            <p style={{ margin: 'auto', fontFamily: family }}>This sample text is styled with the font family</p>
+            <p id={styles.sampler} style={{ fontFamily: family }}>{sampler}</p>
         </div>
     }
     if (sample) {

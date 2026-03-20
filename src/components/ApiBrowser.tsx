@@ -117,7 +117,7 @@ function ApiBrowser() {
         <ol className={styles.families}>
           {data.defaultfamily.map((id: string) => {
             const rec = data.families[id]
-            return <li key={id}><Family sample={SampleImages[rec.family+'.S']} {...rec}/></li>
+            return <li key={id}><Family lang={bcp47} sample={SampleImages[rec.family+'.S']} {...rec}/></li>
           })}
         </ol>
       </div>

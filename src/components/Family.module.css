@@ -18,11 +18,17 @@ details.family > summary {
 
 .sample {
     margin-top: auto;
-    display: inline;
     grid-column: 2 / span 4;
     grid-row: 2;
+    width: calc(var(--sl-content-width)*0.9);
+}
+
+#sampler {
     font-size: 1lh;
-    height: min-content;
+    margin-top: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .sampleimg {
