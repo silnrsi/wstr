@@ -114,12 +114,12 @@ function ApiBrowser() {
             <code>{JSON.stringify(data, null, 2)}</code>
           </pre>
         </details>
-        <ul className={styles.families}>
+        <ol className={styles.families}>
           {data.defaultfamily.map((id: string) => {
             const rec = data.families[id]
-            return <li><Family {...{...rec, sample: SampleImages[rec.family+'.S']}} /></li>
+            return <li key={id}><Family sample={SampleImages[rec.family+'.S']} {...rec}/></li>
           })}
-        </ul>
+        </ol>
       </div>
     )
   }
