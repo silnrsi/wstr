@@ -15,7 +15,7 @@
     "@astrojs/check": "^0.9.6",
     "@astrojs/starlight": "^0.37.4",
     "@jop-software/astro-cookieconsent": "^3.0.1",
-    "astro": "^5.17.0",
+    "astro": "^5.18.0",
     "astro-broken-links-checker": "imazen/astro-broken-link-checker",
     "csv": "^6.5.0",
     "rehype-external-links": "^3.0.0",
