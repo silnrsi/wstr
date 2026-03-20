@@ -9,14 +9,6 @@ details.family > summary {
     grid-template-columns: 1em minmax(min-content,auto) 9ch 11ch 20ch;
 }
 
-details.family > :last-child {
-    margin: 0.25lh;
-    padding-left: 1ch;
-    list-style: none;
-    overflow: auto;
-    max-height: 4lh;
-}
-
 .lozenge {
     background-color: AccentColor;
     margin-inline: 0.4ch;
@@ -33,9 +25,6 @@ details.family > :last-child {
     height: min-content;
 }
 
-.weight {
-    margin: 0px;
-}
 
 :root[data-theme="dark"] .sample {
     filter: invert(0.899);

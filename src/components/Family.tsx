@@ -4,7 +4,6 @@ import { ThemeProvider, createTheme, type PaletteMode, type Theme } from "@mui/m
 import { isAsExpression, type NumericLiteral } from 'typescript';
 import styles from './Family.module.css'
 
-
 type FontType = "ttf" | "woff" | "woff2"
 
 interface Axes {
@@ -30,18 +29,11 @@ export interface Props {
     source?: string
 }
 
-enum Names {Thin=1, ExtraLight, Light, Regular, Medium, SemiBold, Bold, ExtraBold, Black}
-
-function weight(w: number) {
-    return Names[(Math.min(Math.max(0,w/100),9))]
-}
-
-function width(w: number) {
-    return w >= 100 ? '' : w > 75 ? 'Semi-condensed' : w < 75 ? 'Extra-condensed' : 'Condensed'
-}
-
-function describeAxes(axes: Axes | undefined): string | undefined {
-    return `${width(axes?.wdth ?? 100)} ${weight(axes?.wght ?? 0) ?? ''} ${axes?.ital ? 'Italic' : ''}`
+// This function has the following reasonable assumptions for data from LFF:
+// 1. We always have a TTF version of a family
+// 2. That the TTF version's styles are complete and match other types.
+function countStyles(files: Record<string,File>): number {
+     return Object.entries(files).filter((entry) => entry[0].endsWith('.ttf')).length
 }
 
 const licenseIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" aria-hidden="true" fill="currentColor" style={{display: 'inline', width: '1em', height: '1em', marginRight: '0.5ch', colorAdjust: 'economy', verticalAlign: '-0.125em'}}>
@@ -58,9 +50,6 @@ function Lozenge({ children }: FragmentProps) {
 export default function Family(props: Props) {
     const { family, defaults, files, license, siteurl, features, sample, version, source } = props
     const types = Object.keys(defaults)
-    
-    const axes = Array.from(new Set(Object.values(files).map(({ axes }) => describeAxes(axes) ?? 'Undeclared')))
-    const weights = axes.map((style) => <div className={styles.weight}>{style}</div>)
     const tech = types.map((type) => <Lozenge>{type}</Lozenge>)
 
     const fontFamily = `
@@ -87,8 +76,7 @@ return <>
         </summary>
         {features && <p>Required features: <span className={styles.features}>{features}</span></p>}
         {version && <p>Version: {version}</p>}
-        <h6>Weights</h6>
-        <div>{weights}</div>
+        <p>Styles: {countStyles(files)}</p>
     </details>
     <div>
       <style>{fontFamily}</style>
