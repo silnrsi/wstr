@@ -8,7 +8,7 @@
       "name": "wstr",
       "version": "2.0.0",
       "dependencies": {
-        "@astrojs/check": "^0.9.6",
+        "@astrojs/check": "^0.9.8",
         "@astrojs/starlight": "^0.37.4",
         "@jop-software/astro-cookieconsent": "^3.0.1",
         "astro": "^5.18.0",
@@ -22,13 +22,13 @@
       }
     },
     "node_modules/@astrojs/check": {
-      "version": "0.9.6",
-      "resolved": "https://registry.npmjs.org/@astrojs/check/-/check-0.9.6.tgz",
-      "integrity": "sha512-jlaEu5SxvSgmfGIFfNgcn5/f+29H61NJzEMfAZ82Xopr4XBchXB1GVlcJsE+elUlsYSbXlptZLX+JMG3b/wZEA==",
+      "version": "0.9.8",
+      "resolved": "https://registry.npmjs.org/@astrojs/check/-/check-0.9.8.tgz",
+      "integrity": "sha512-LDng8446QLS5ToKjRHd3bgUdirvemVVExV7nRyJfW2wV36xuv7vDxwy5NWN9zqeSEDgg0Tv84sP+T3yEq+Zlkw==",
       "license": "MIT",
       "dependencies": {
-        "@astrojs/language-server": "^2.16.1",
-        "chokidar": "^4.0.1",
+        "@astrojs/language-server": "^2.16.5",
+        "chokidar": "^4.0.3",
         "kleur": "^4.1.5",
         "yargs": "^17.7.2"
       },

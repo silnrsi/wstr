@@ -12,7 +12,7 @@
     "linkcheck": "CHECK_LINKS=true ASTRO_SITE=https://writingsystems.info astro build"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.6",
+    "@astrojs/check": "^0.9.8",
     "@astrojs/starlight": "^0.37.4",
     "@jop-software/astro-cookieconsent": "^3.0.1",
     "astro": "^5.18.0",
