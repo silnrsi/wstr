@@ -1,17 +1,22 @@
 ---
 title: Language Font Finder
-description: A tool to lookup font information for a given language.
+description: A tool to lookup font information for a given language
 ---
 import ApiBrowser from '../../../components/ApiBrowser'
 
-Type in a [BCP47 language tag (langtag)](/topics/writingsystems/language-tagging)
-e.g. *nod-Lana-TH, wsg-Gong-IN, shu-Arab-TD, taq-Tfng-ML* (using the *tag-Script-REGION* format)
-to find corresponding font information.
+:::caution[Test version]{icon="sun"}
+This is an early beta test version. We welcome your feedback and suggestions - see the Feedback section below. Please let us know if this service is helpful to you, and if there are any features you would like to see added.
+:::
+
+Type a language name, [language tag](/topics/writingsystems/language-tagging), or country name in the box below to choose a writing system, and the _Language Font Finder_ will provide information about free and openly licensed fonts that are likely to support that writing system.
 
 <ApiBrowser client:only="react"/>
 
 ## Technical details
+
 See the [LFF service API documentation](https://lff.api.languagetechnology.org/docs) for more details on API access.
+
+## Feedback
 
 To report issues with the data returned please create an [issue](https://github.com/silnrsi/langfontfinder/issues) with the Language Font Finder project GitHub repository.
 

@@ -103,24 +103,27 @@ function ApiBrowser() {
 
   function presentResponse() {
     if (!data) return <></>
-    console.log(JSON.stringify(styles))
     return (
       <div>
+        <p><em>The list below is not a comprehensive list of all fonts that support the language,
+          but rather a minimal selection of commonly used open fonts that are likely to work well.
+          Additional fonts for some scripts and languages may be available from <a href="https://fonts.google.com" target="_blank" rel="noopener noreferrer">Google Fonts</a>.
+          Text used for font samples may not be in the selected language.</em></p>
+        <ol className={styles.families}>
+          {data.defaultfamily.map((id: string) => {
+            const rec = data.families[id]
+            return <li key={id}><Family sample={SampleImages[rec.family+'.S']} {...rec}/></li>
+          })}
+        </ol>
         <details>
-          <summary style={{font: 'unset'}}>
-            Record for {lgName} ({bcp47}) from LFF version: {data.apiversion}
+          <summary>
+            See complete data for {lgName} ({bcp47}) from LFF version {data.apiversion}
             <button className={styles.copy} onClick={copyResponse}>{copyIcon}</button>
           </summary>
           <pre className={styles.response}>
             <code>{JSON.stringify(data, null, 2)}</code>
           </pre>
         </details>
-        <ul className={styles.families}>
-          {data.defaultfamily.map((id: string) => {
-            const rec = data.families[id]
-            return <li><Family {...{...rec, sample: SampleImages[rec.family+'.S']}} /></li>
-          })}
-        </ul>
       </div>
     )
   }
@@ -128,7 +131,7 @@ function ApiBrowser() {
   useEffect(() => { if (bcp47 != "und" && bcp47 != "" ) fetchData() }, [bcp47])
 
   return (
-    <div>
+    <div className={styles.container}>
       <ThemeProvider theme={theme}>
         <LanguagePicker
           value={bcp47}
