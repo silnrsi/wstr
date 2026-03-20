@@ -18,11 +18,13 @@ interface File {
     url?: string
 }
 
+type Defaults = Record<FontType, string>;
+type Files = Record<string,File> 
 export interface Props {
     family: string,
-    license: string,
-    files: Record<string,File>
-    defaults: Record<FontType, string>,
+    license?: string,
+    files?: Files,
+    defaults?: Defaults,
     siteurl?: string,
     features?: string,
     sample?: string, 
@@ -49,8 +51,8 @@ function Lozenge({ children }: FragmentProps) {
 }
 
 function Sample(props: Props) {
-    const {defaults, family, files, sample} = props
-    const flourl = files[defaults.woff2 ?? defaults.ttf]?.flourl
+    const {defaults={} as Defaults, family, files={}, sample} = props
+    const flourl = files[defaults?.woff2 ?? defaults?.ttf]?.flourl
 
     if (flourl)
     {
@@ -70,7 +72,7 @@ function Sample(props: Props) {
 }
 
 export default function Family(props: Props) {
-    const { family, defaults, files, license, siteurl, features, sample, version, source } = props
+    const { family, defaults={} as Defaults, files={}, license="Proprietary", siteurl, features, sample, version, source } = props
     const types = Object.keys(defaults)
     const tech = types.map((type) => <Lozenge>{type}</Lozenge>)
 

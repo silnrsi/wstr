@@ -103,7 +103,6 @@ function ApiBrowser() {
 
   function presentResponse() {
     if (!data) return <></>
-    console.log(JSON.stringify(styles))
     return (
       <div>
         <details>
