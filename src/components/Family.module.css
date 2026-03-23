@@ -38,6 +38,13 @@
     height: min-content;
 }
 
+#sampler {
+    margin-top: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .sampleimg {
     object-fit: none;
 }
