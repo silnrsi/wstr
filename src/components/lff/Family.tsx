@@ -1,6 +1,6 @@
-import type { FragmentProps } from 'react'
+// import type { FragmentProps } from 'react'
 import styles from './Family.module.css'
-import _samples from '../data/udhr-26.json'
+import _samples from '../../data/udhr-26.json'
 
 const samples: Record<string, string | null> = _samples
 
@@ -50,11 +50,11 @@ const sourceIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
     <path d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2 86.4 0 156.5 70 156.5 156.5 0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1c-29.3 29.3-69.1 45.8-110.6 45.8-86.4 0-156.5-70-156.5-156.5 0-1.5 0-3 .1-4.5 .5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9c0 .9 0 1.8 0 2.6 0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zM275.2 173.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1L91.1 258.2c-17.3 17.3-27.1 40.9-27.1 65.4 0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2-86.4 0-156.5-70-156.5-156.5 0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9 0 1.3 0 2.6 0 3.9-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8c0-.8 0-1.5 0-2.3 0-33.7-18-63.3-44.8-79.6z"/>
 </svg>
 
-function Lozenge({ children }: FragmentProps) {
-    return <span className={styles.lozenge} style={{borderRadius: "1em", paddingInline: "0.4em"}}>
-        {children}
-    </span>
-}
+// function Lozenge({ children }: FragmentProps) {
+//     return <span className={styles.lozenge} style={{borderRadius: "1em", paddingInline: "0.4em"}}>
+//         {children}
+//     </span>
+// }
 
 function Sample(props: Props) {
     const {lang, defaults={} as Defaults, family, files={}, sample} = props
@@ -79,9 +79,9 @@ function Sample(props: Props) {
 }
 
 export default function Family(props: Props) {
-    const { family, defaults={} as Defaults, files={}, license="Proprietary", siteurl, features, sample, version, source } = props
-    const types = Object.keys(defaults)
-    const tech = types.map((type) => <Lozenge>{type}</Lozenge>)
+    const { family, files={}, license="Proprietary", siteurl, features, source } = props
+    // const types = Object.keys(defaults)
+    // const tech = types.map((type) => <Lozenge>{type}</Lozenge>)
     const stylesCount = countStyles(files)
 
 return <div className={styles.family}>

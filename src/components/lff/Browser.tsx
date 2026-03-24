@@ -8,8 +8,8 @@
 import React, { useState, useEffect } from 'react';
 import { LanguagePicker, languagePickerStrings_en } from 'mui-language-picker'
 import { ThemeProvider, createTheme, type PaletteMode, type Theme } from "@mui/material/styles";
-import Family, {type Props as FamilyProps} from './Family'
-import styles from './ApiBrowser.module.css'
+import Family from './Family'
+import styles from './Browser.module.css'
 
 const copyIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true" fill="currentColor" style={{width: '1em', height: '1em', colorAdjust: 'economy', verticalAlign: '-0.125em'}}>
   // !Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.
@@ -86,7 +86,6 @@ function ApiBrowser() {
     switch (error.cause) {
       case 404:
         return <p>No records found for {lgName} ({bcp47})</p>
-        break
       default:
         return (
           <p style={{ color: 'red' }}>
