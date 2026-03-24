@@ -1,7 +1,4 @@
-import React, { useState, useEffect, type FragmentProps } from 'react';
-import { LanguagePicker, languagePickerStrings_en } from 'mui-language-picker'
-import { ThemeProvider, createTheme, type PaletteMode, type Theme } from "@mui/material/styles";
-import { isAsExpression, type NumericLiteral } from 'typescript';
+import type { FragmentProps } from 'react'
 import styles from './Family.module.css'
 import _samples from '../data/udhr-26.json'
 
