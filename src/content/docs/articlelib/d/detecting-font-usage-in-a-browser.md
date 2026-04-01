@@ -23,7 +23,7 @@ So suppose you have an Arabic character displayed in your browser, and you want 
 
 ## Chrome
 
-Chrome also has a handy utility to tell you what font is used for a range of text, an extension called [WhatFont][chrome-whatfont]. The nice thing about this utility is that once you activate it, you can simply hover over a bit of text and it will show you what font it is using.
+Chrome has a handy utility to tell you what font is used for a range of text, an extension called [WhatFont][chrome-whatfont]. The nice thing about this utility is that once you activate it, you can simply hover over a bit of text and it will show you what font it is using.
 
 ![Chrome's WhatFont extension allows you to discover the font by simply hovering the mouse.](images/detecting-font-usage-whatfont-chrome-hover.png "Chrome's WhatFont extension allows you to discover the font by simply hovering the mouse.")
 
@@ -33,13 +33,13 @@ If you click, instead of hovering, more detailed information will appear.
 
 ![Chrome's WhatFont extension displays more information when text is selected.](images/detecting-font-usage-whatfont-chrome-selecting.png "Chrome's WhatFont extension displays more information when text is selected.")
 
-This will indicate when the preferred font is not available and the second choice was used. But it it does not indicate _which_ font it found to match a generic descriptor like "sans-serif."
+This will indicate when the preferred font is not available and the second choice was used. But it does not indicate _which_ font it found to match a generic descriptor like "sans-serif."
 
 ## Firefox
 
 Firefox also has a [WhatFont][firefox-whatfont] extension that works in the same way as it does in Chrome.
 
-Firefox has an add-on called [font infos][firefox-font-infos]. When this is installed in your Firefox browser, you can select a range of text, right-click, choose "font infos", and you will see a little dialog indicating _exactly_ which fonts were used. You can also "pin" the add-on to the Firefox toolbar. Although the tool is not terribly convenient to use if you have a lot of text to check, it has the advantage of handling both of the substitution situations above.
+In addition, Firefox has an add-on called [font infos][firefox-font-infos]. When this is installed in your Firefox browser, you can select a range of text, right-click, choose "font infos", and you will see a little dialog indicating _exactly_ which fonts were used. You can also "pin" the add-on to the Firefox toolbar. Although the tool is not terribly convenient to use if you have a lot of text to check, it has the advantage of handling both of the substitution situations above.
 
 ![Selecting the font infos add-on](images/detecting-font-usage-font-infos.png "Selecting the font infos add-on")
 
