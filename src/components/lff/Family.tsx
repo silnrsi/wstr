@@ -87,11 +87,11 @@ export default function Family(props: Props) {
 return <div className={styles.family}>
         <div className={styles.familyinfo}>
             {/* <span className={styles.name}>{family}</span> */}
-            <span className={styles.name}>{siteurl ? <a className="lff-family url" href={siteurl}>{family}</a> : family}</span>
+            <span className={styles.name}>{siteurl ? <a className="lff-family url" href={siteurl} target="_blank" rel="nofollow noopener">{family}</a> : family}</span>
             <span className={styles.styles}>{stylesCount} style{stylesCount > 1 && 's'}</span>
             {/* <span className={styles.source}>Source: {source}</span> */}
-            <span className={styles.source}>{sourceIcon}{siteurl ? <a className="lff-family url" href={siteurl}>{source}</a> : source}</span>
-            <span className={styles.license}>{licenseIcon}{license == "OFL" ? <a href="https://openfontlicense.org/">OFL</a> : license}</span>
+            <span className={styles.source}>{sourceIcon}{siteurl ? <a className="lff-family url" href={siteurl} target="_blank" rel="nofollow noopener">{source}</a> : source}</span>
+            <span className={styles.license}>{licenseIcon}{license == "OFL" ? <a href="https://openfontlicense.org/" target="_blank" rel="nofollow noopener">OFL</a> : license}</span>
             {features && <p><em>Recommended OpenType feature settings:</em> <span className={styles.features}>{features}</span></p>}
         </div>
         <Sample {...props}/>

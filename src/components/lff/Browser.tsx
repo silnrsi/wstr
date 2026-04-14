@@ -104,6 +104,7 @@ function ApiBrowser() {
     if (!data) return <></>
     return (
       <div>
+        <h2>Available fonts</h2>
         <p><em>The list below is not a comprehensive list of all fonts that support the language,
           but rather a minimal selection of commonly used open fonts that are likely to work well.
           Additional fonts for some scripts and languages may be available from <a href="https://fonts.google.com" target="_blank" rel="noopener noreferrer">Google Fonts</a>.
