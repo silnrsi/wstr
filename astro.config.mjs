@@ -82,6 +82,7 @@ export default defineConfig({
                         'topics/computing/app-development-best-practice',
                         'topics/fonts/font-design-and-development',
                         'topics/fonts/building-and-modifying-sil-fonts',
+                        //'support/migrating-from-scriptsource',
                     ]
                 },
                 {
@@ -115,7 +116,14 @@ export default defineConfig({
                 },
                 {
                     label: 'Support',
-                    autogenerate: { directory: 'support' },
+                    //autogenerate: { directory: 'support' },
+                    items: [
+                        'support/about',
+                        'support/acknowledgements',
+                        'support/policies',
+                        'support/contact',
+                        'support/donate',
+                    ],
                 },
             ],
             components: {

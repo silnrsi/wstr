@@ -1,7 +1,7 @@
 ---
 title: Dev Team Links
 description: Links to dev team pages
-lastUpdated: 2025-11-05
+lastUpdated: 2026-04-16
 ---
 
 :::note
@@ -39,4 +39,3 @@ These are links to pages intended for use by the development team.
 - [Markdown Testing](/devteam/markdown-testing)
 - [Extended Markdown](/devteam/extended-markdown)
 - [File Testing](/devteam/file-testing)
-- [Migrating from ScriptSource](/devteam/temp-migrating-from-scriptsource)
