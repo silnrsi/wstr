@@ -1,0 +1,16 @@
+---
+const { text } = Astro.props;
+---
+
+<div class="captiontext sl-flex">
+    <p>{text}</p>
+</div> 
+
+<style>
+    .captiontext {
+        font-size: var(--sl-text-xs);
+        font-style: italic;
+        color: var(--sl-color-gray-3);
+        margin-top: 0.5rem;
+    }
+</style>

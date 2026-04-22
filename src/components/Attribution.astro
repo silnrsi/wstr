@@ -1,0 +1,51 @@
+---
+const { type, copyyears, copyholder, license, copyurl, licenseurl, author, source, sourceurl } = Astro.props;
+---
+
+<div class="attribution sl-flex">
+    <p>
+        {   (license === "Public Domain") ? (
+                <>{type}&#x20;is in the public domain.</>
+            ) : copyurl ? (
+                <>{type} copyright © {copyyears}&#x20;<a href={copyurl} target="_blank">{copyholder}</a></>
+            ) : (
+                <>{type} copyright © {copyyears}&#x20;{copyholder}</>
+            )
+        }
+
+        {   (license === "Public Domain") ? (
+                <></>
+            ) : licenseurl ? (
+                <>with license <a href={licenseurl} target="_blank">{license}</a>.</>
+            ) : (
+                <>with license {license}.</>
+            )
+        }
+       
+        {   (author !== "") ? (
+                <>Author: {author}.</>
+            ) : null
+        }
+       
+        {   (source !== "") ? (
+                <>
+                {   (sourceurl !== "") ? (
+                        <>Source: <a href={sourceurl} target="_blank">{source}</a>.</>
+                    ) : (
+                        <>Source: {source}.</>
+                    )
+                }
+                </>
+            ) : null
+        }
+    </p>
+</div> 
+
+<style>
+    .attribution {
+        font-size: var(--sl-text-xs);
+        font-style: italic;
+        color: var(--sl-color-gray-3);
+        margin-top: 0.5rem;
+    }
+</style>
