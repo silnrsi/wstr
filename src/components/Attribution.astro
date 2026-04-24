@@ -13,30 +13,21 @@ const { type, copyyears, copyholder, license, copyurl, licenseurl, author, sourc
             )
         }
 
-        {   (license === "Public Domain") ? (
-                <></>
-            ) : licenseurl ? (
+        { license !== "Public Domain" && (
+            licenseurl ? (
                 <>with license <a href={licenseurl} target="_blank">{license}</a>.</>
             ) : (
                 <>with license {license}.</>
+            ))
+        }
+       
+        { author && <>Author: {author}.</> }
+       
+        { source && (sourceurl ? (
+                <>Source: <a href={sourceurl} target="_blank">{source}</a>.</>
+            ) : (
+                <>Source: {source}.</>)
             )
-        }
-       
-        {   author ? (
-                <>Author: {author}.</>
-            ) : null
-        }
-       
-        {   source ? (
-                <>
-                {   sourceurl ? (
-                        <>Source: <a href={sourceurl} target="_blank">{source}</a>.</>
-                    ) : (
-                        <>Source: {source}.</>
-                    )
-                }
-                </>
-            ) : null
         }
     </p>
 </div> 
