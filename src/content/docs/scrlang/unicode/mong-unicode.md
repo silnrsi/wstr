@@ -3,10 +3,12 @@ title: Unicode Status for Mongolian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-18
+lastUpdated: 2026-04-24
 ---
 
 In The Unicode Standard, Mongolian script implementation is discussed in [Chapter 13 South and Central Asia-II: Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G27803) and in [UTN 57: Encoding and Shaping of the Mongolian Script](https://www.unicode.org/notes/tn57/).
+
+A Unicode summary of documents related to this script is available here: [Topical Document List: Mongolian](https://www.unicode.org/L2/topical/mongolian/)
 
 ## Blocks
 

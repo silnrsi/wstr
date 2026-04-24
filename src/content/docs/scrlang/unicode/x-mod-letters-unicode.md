@@ -3,7 +3,7 @@ title: Unicode Status for Modifier letters
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-04-24
 ---
 
 In The Unicode Standard, Modifier letters are discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G15832). Modifier letters are generally used next to another character in order to modify the usage of the other character in some way. They are not Combining Marks, they are base characters. They are used in transcription of language in other scripts to the Latin script and they are used in Latin and Cyrillic orthographies. Other scripts have modifier letters which are specific to that script.
@@ -32,7 +32,7 @@ Spacing Modifier letters were first encoded in The Unicode Standard version 1.0.
 | Phonetic Extensions | 1D00..1D7F | 4.0 | [U1D00.pdf](http://www.unicode.org/charts/PDF/U1D00.pdf) |
 | Phonetic Extensions Supplement | 1D80..1DBF | 4.1 | [U1D80.pdf](http://www.unicode.org/charts/PDF/U1D80.pdf) |
 
-Subsequent to version 1.1, the following characters have been added to the Spacing Modifier Letters and Modifier Tone Letters blocks. Please see [Unicode Status](https://scriptsource.org/entry/xztdezls8h) for the Latin script for Modifier letters in the Phonetic Extensions blocks.
+Subsequent to version 1.1, the following characters have been added to the Spacing Modifier Letters and Modifier Tone Letters blocks. Please see [Unicode Status for Latin](/scrlang/unicode/latn-unicode) for Modifier letters in the Phonetic Extensions blocks.
 
 | Characters | Unicode Version | Documentation |
 | ---------- | --------------- | ------------- |

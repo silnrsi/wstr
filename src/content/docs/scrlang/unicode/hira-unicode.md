@@ -3,10 +3,12 @@ title: Unicode Status for Hiragana
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-18
+lastUpdated: 2026-04-24
 ---
 
 In The Unicode Standard, Hiragana implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G22344).
+
+A Unicode summary of documents related to this script is available here: [Topical Document List: CJK & Unihan Working Group Reports](https://www.unicode.org/L2/topical/cjkunihan/)
 
 ## Blocks
 

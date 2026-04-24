@@ -3,10 +3,12 @@ title: Unicode Status for Book Pahlavi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-04-24
 ---
 
 The Book Pahlavi script is not yet in Unicode. The script has a tentative allocation at U+10BB0..U+10BDF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+A Unicode summary of documents related to this script is available here: [Topical Document List: Book Pahlavi](https://www.unicode.org/L2/topical/bookpahlavi/)
 
 ## Blocks
 

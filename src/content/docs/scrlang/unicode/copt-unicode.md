@@ -3,7 +3,7 @@ title: Unicode Status for Coptic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-04-24
 ---
 
 In The Unicode Standard, Coptic script implementation  is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G16256). 
@@ -20,7 +20,7 @@ The Coptic script is now encoded in the following blocks:
 | Coptic  |  2C80..2CFF  |  4.1  |  [U2C80.pdf](http://www.unicode.org/charts/PDF/U2C80.pdf)  |
 | Coptic Epact Numbers  |  102E0..102FF  |  7.0  |  [U102E0.pdf](http://www.unicode.org/charts/PDF/U102E0.pdf) |
 
-See also ["Unicode Status (Combining marks)"](https://scriptsource.org/entry/ktxptbccph) for combining marks used in Coptic writings.
+See also ["Unicode Status (Combining marks)"](/scrlang/unicode/x-comb-marks-unicode/) for combining marks used in Coptic writings.
 
 ## Characters
 
