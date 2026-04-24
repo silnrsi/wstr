@@ -22,14 +22,14 @@ const { type, copyyears, copyholder, license, copyurl, licenseurl, author, sourc
             )
         }
        
-        {   (author !== "") ? (
+        {   author ? (
                 <>Author: {author}.</>
             ) : null
         }
        
-        {   (source !== "") ? (
+        {   source ? (
                 <>
-                {   (sourceurl !== "") ? (
+                {   sourceurl ? (
                         <>Source: <a href={sourceurl} target="_blank">{source}</a>.</>
                     ) : (
                         <>Source: {source}.</>
