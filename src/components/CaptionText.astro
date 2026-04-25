@@ -1,0 +1,23 @@
+---
+import remarkRehype from 'remark-rehype'
+import remarkParse from 'remark-parse'
+import rehypeStringify from 'rehype-stringify'
+import {unified} from 'unified'
+
+const { text } = Astro.props;
+
+const caption = await unified()
+    .use(remarkParse)
+    .use(remarkRehype)
+    .use(rehypeStringify)
+    .process(text)
+---
+<div class="captiontext sl-flex" set:html={caption} />
+<style>
+    .captiontext {
+        font-size: var(--sl-text-xs);
+        font-style: italic;
+        color: var(--sl-color-gray-3);
+        margin-top: 0.5rem;
+    }
+</style>

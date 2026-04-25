@@ -1,0 +1,54 @@
+---
+title: Attribution and Caption Testing
+lastUpdated: 2026-04-22
+---
+
+import Attribution from '/src/components/Attribution.astro';
+import CaptionText from '/src/components/CaptionText.astro';
+
+![This is alt text](images/9800-full-image.png)
+
+This is an intervening paragraph. The purpose of this is to test the spacing between the image and its caption, and the spacing between the caption and the next paragraph.
+
+![This is alt text](images/9800-full-image.png)
+<Attribution 
+    type="Image" 
+    license="Public Domain" 
+    author="Jane Doe"
+    source="Website"
+    sourceurl="https://example.com/image-source"
+/>  
+
+This is an intervening paragraph. The purpose of this is to test the spacing between the image and its caption, and the spacing between the caption and the next paragraph.
+
+This is another intervening paragraph. The purpose of this is to test the spacing between the image and its caption, and the spacing between the caption and the next paragraph.
+
+![This is alt text](images/9800-full-image.png)
+<Attribution 
+    type="Image" 
+    copyholder="John Doe" 
+    copyurl="https://example.com/image-source"
+    copyyears="2020-2024" 
+    license="CC BY-SA 4.0" 
+    licenseurl="https://creativecommons.org/licenses/by-sa/4.0/" 
+    author="Jane Doe"
+    source="Website"
+    sourceurl="https://example.com/image-source"
+/> 
+
+This is another intervening paragraph. The purpose of this is to test the spacing between the image and its caption, and the spacing between the caption and the next paragraph.
+
+![This is alt text](images/9800-full-image.png)
+<CaptionText text="This **is** a `markdown` caption." />
+<Attribution 
+    type="Image" 
+    copyholder="John Doe" 
+    copyurl="https://example.com/image-source"
+    copyyears="2020-2024" 
+    license="CC BY-SA 4.0" 
+    licenseurl="https://creativecommons.org/licenses/by-sa/4.0/" 
+    author="Jane Doe"
+    source="Website"
+    sourceurl="https://example.com/image-source"
+/> 
+ 

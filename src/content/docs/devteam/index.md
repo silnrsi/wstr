@@ -39,3 +39,4 @@ These are links to pages intended for use by the development team.
 - [Markdown Testing](/devteam/markdown-testing)
 - [Extended Markdown](/devteam/extended-markdown)
 - [File Testing](/devteam/file-testing)
+- [Attribution and Caption Testing](/devteam/attrib-caption-test)
