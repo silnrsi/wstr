@@ -1,7 +1,7 @@
 ---
 title: File Location and Frontmatter Reference
 description: Where to place files, how to name them, and who to set up frontmatter
-lastUpdated: 2025-11-17
+lastUpdated: 2026-04-27
 ---
 
 :::note
@@ -10,7 +10,9 @@ This is a guidance document for authors, primarily the Writing Systems Technolog
 
 ## Filenames
 
-**Page** filenames should be:
+### Filenames for pages
+
+Page filenames should be:
 
 - all lowercase
 - with no spaces, underscores, or punctuation (except hyphens)
@@ -19,7 +21,9 @@ This is a guidance document for authors, primarily the Writing Systems Technolog
 
 as in: `font-licensing.md` or `style-guide.mdx`.
 
-**Image** filenames can be flexible in format as long as it includes some hint of which page uses it.
+### Filenames for images
+
+Image filenames can be flexible in format as long as it includes some hint of which page uses it.
 
 Topic article images could use the format `pppp[-n]-shortname.png` where
 
@@ -39,6 +43,10 @@ If you want to reuse an image on multiple pages within the same folder, name it 
 
 Images can be any size, but those intended to fill the main content column should be at least 720 pixels wide, and any size above that can be used. Astro will adjust the size and optimize the image automatically. There is no need to manually optimize images for a particular size.
 
+### Filenames for other files (PDF, ZIP, etc.)
+
+Files that are not pages or images and can either be viewed (.pdf) or downloaded (.zip and others) should have filenames that reflect the content and purpose of the file. This ensures that downloaded files end up with sensible, user-friendly names. Like other filenames they should be all lowercase with no spaces, using hyphens to separate words. There is no need to make the filename relate to the page that links to it.
+
 ## File locations
 
 **New articles** should be placed in the _Articles Library_ folder (`/articlelib`) and in the subfolder that matches the first letter of the filename. Files whose titles (and filenames) begin with a number should be placed in the `0-9` subfolder (`/articlelib/0-9`). Files in the Articles Library do not need any `sidebar:` frontmatter and will not be tracked in the WSTR Classification spreadsheet.
@@ -48,6 +56,8 @@ Images can be any size, but those intended to fill the main content column shoul
 **Guides** should be placed in the Topics subfolder that most closely matches their content. They also need to be manually added to the `Guides` sidebar definition in `astro.config.mjs`.
 
 **Images** used on a page should be placed in an `images` folder in the same location as the page. They should normally be .png or .jpg. Other formats may work but are untested.
+
+**Downloadable files or viewable PDFs** need to be placed in a special folder outside the main `src/content/docs` folder. They should be placed in `public/files`. Subfolders are not needed unless the number of files being added is a large number and there is some benefit to having them all in a separate folder.
 
 ## Frontmatter
 
