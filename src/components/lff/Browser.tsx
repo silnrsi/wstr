@@ -141,8 +141,10 @@ function ApiBrowser() {
           noFont
           noName
           font=""
+          filter={(code) => code.split('-',3)[1]?.length != 4}
           required
           disabled={loading}
+          offline={true}
           t={{...languagePickerStrings_en, select: "Select"}}
         />
       </ThemeProvider>
