@@ -83,8 +83,10 @@ import Attribution from '/src/components/Attribution.astro';
 <Attribution type="Image|Article" 
              license="..."
              [licenseurl="..."] 
+             copyholder="..."
+             copyyears="..."
+             [copyurl="..."]
              [author="..."]
-             [copyholder="..."  copyyears="..." [copyurl="..."]]
              [source="..." [sourceurl="..."]]
 />
 ```
@@ -97,7 +99,7 @@ import Attribution from '/src/components/Attribution.astro';
 |author| Optional name of the author of the resources. |
 |copyholder| Copyright holder name. Only required when `license` is not "Public Domain". |
 |copyyears| Copyright years, can be a single year, or range of years. Only required when `license` is not "Public Domain". |
-|copyurl| URL that links to copyright holder information, when present it will format the `copyholder` as a link. Only required when `license` is not "Public Domain". |
+|copyurl| Optional URL that links to copyright holder information, when present it will format the `copyholder` as a link. Only required when `license` is not "Public Domain". |
 |source| Optional place where the resource came from. |
 |sourceurl| Optional URL that links to the website, or information about the source. When present it will format the `source` as a link. |
 
