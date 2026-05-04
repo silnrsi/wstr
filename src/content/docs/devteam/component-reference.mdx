@@ -2,14 +2,16 @@
 title: Component Reference
 subtitle: Reference to WSTR-specific Astro components
 description: Documentation on some prototype components for integrating coredata
-lastUpdated: 2025-09-24
+lastUpdated: 2026-05-04
 ---
 import ArticlesList from '/src/components/ArticlesList.astro';
+import Attribution from '/src/components/Attribution.astro';
 import BibEntry from '/src/components/BibEntry.astro';
 import BibList from '/src/components/BibList.astro';
-import SourceLinksList from '/src/components/SourceLinksList.astro';
+import CaptionText from '/src/components/CaptionText.astro';
 import Character from '/src/components/Character.astro';
 import CharacterTable from '/src/components/CharacterTable.astro';
+import SourceLinksList from '/src/components/SourceLinksList.astro';
 
 ## Using the components
 To use these components, you need to:
@@ -56,6 +58,99 @@ Unless `subset` is defined, the component lists contents from both the Article L
 ##### Result
 
 <ArticlesList tag="encoding" subset="articlelibonly" header="Encoding Articles"  />
+
+---
+
+### `Attribution` component
+
+Display styled attribution elements for an image or article.  This
+component allows you specify attribution elements, and formats an 
+attribution line based on the license.
+
+#### Required import
+```jsx
+import Attribution from '/src/components/Attribution.astro';
+```
+
+#### Syntax
+
+```html
+<Attribution type="Image|Article" 
+             license="Public Domain"
+             [author="..."]
+             [source="..." [sourceurl="..."]]
+/>
+<Attribution type="Image|Article" 
+             license="..."
+             [licenseurl="..."] 
+             [author="..."]
+             [copyholder="..."  copyyears="..." [copyurl="..."]]
+             [source="..." [sourceurl="..."]]
+/>
+```
+
+|Property|Description|
+|---|---|
+|type|resource type, can be "Image" or "Article".|
+|license| The name of the license for the resource. If it is "Public Domain" then `copyholder`, `copyyears` and `copyurl` properties are ignored. |
+|licenseurl| Optional URL that links to the license text, when present it will format the license name as a link. |
+|author| Optional name of the author of the resources. |
+|copyholder| Copyright holder name. Only required when `license` is not "Public Domain". |
+|copyyears| Copyright years, can be a single year, or range of years. Only required when `license` is not "Public Domain". |
+|copyurl| URL that links to copyright holder information, when present it will format the `copyholder` as a link. Only required when `license` is not "Public Domain". |
+|source| Optional place where the resource came from. |
+|sourceurl| Optional URL that links to the website, or information about the source. When present it will format the `source` as a link. |
+
+#### Example
+
+##### Source
+
+```html
+<Attribution 
+    type="Article" 
+    copyholder="John Doe" 
+    copyurl="https://example.com/copyholder-info"
+    copyyears="2020-2024" 
+    license="CC BY-SA 4.0" 
+    licenseurl="https://creativecommons.org/licenses/by-sa/4.0/" 
+    author="Jane Doe"
+    source="Website"
+    sourceurl="https://example.com/image-source"
+/> 
+```
+
+##### Result
+
+<Attribution type="Article" copyholder="John Doe" copyurl="https://example.com/copyholder-info" copyyears="2020-2024" 
+  license="CC BY-SA 4.0" licenseurl="https://creativecommons.org/licenses/by-sa/4.0/" author="Jane Doe" 
+  source="Website" sourceurl="https://example.com/image-source" /> 
+
+It can also be used with the `<Caption />` component:
+##### Source
+
+```html
+<CaptionText text='Reference: Brase, Jim. "Proposal to encode the Tai Viet script in the UCS", 2007 p. 2' />
+<Attribution 
+    type="Article" 
+    copyholder="John Doe" 
+    copyurl="https://example.com/copyholder-info"
+    copyyears="2020-2024" 
+    license="CC BY-SA 4.0" 
+    licenseurl="https://creativecommons.org/licenses/by-sa/4.0/" 
+    author="Jane Doe"
+    source="Website"
+    sourceurl="https://example.com/image-source"
+/>
+<CaptionText text="This article formerly appeared on ScriptSource." />
+```
+
+##### Result
+
+<CaptionText text='Reference: Brase, Jim. "Proposal to encode the Tai Viet script in the UCS", 2007 p. 2' />
+<Attribution type="Article" copyholder="John Doe" copyurl="https://example.com/copyholder-info" copyyears="2020-2024" 
+  license="CC BY-SA 4.0" licenseurl="https://creativecommons.org/licenses/by-sa/4.0/" author="Jane Doe" 
+  source="Website" sourceurl="https://example.com/image-source" /> 
+<CaptionText text="This article formerly appeared on ScriptSource." />
 
 ---
 
@@ -127,7 +222,7 @@ import BibList from '/src/components/BibList.astro';
 
 ---
 
-### SourceLinksList
+### `SourceLinksList` component
 
 Displays a list of related sources using an informal format.
 
@@ -159,6 +254,42 @@ import SourceLinksList from '/src/components/SourceLinksList.astro';
 ##### Result
 
 <SourceLinksList tag='script-gran' header='External Links' entrytype='online' />
+
+---
+
+### `CaptionText` component
+
+Displays a styled rich text caption line. The caption text can be markdown text,
+but be aware the CSS styling will override any markdown styling. 
+E.g. If CSS caption styling makes all caption text italicised, then `_` will
+have no visible effect.
+
+#### Required import
+```jsx
+import CaptionText from '/src/components/CaptionText.astro';
+```
+
+#### Syntax
+
+```html
+<CaptionText text="..."/>
+```
+
+|Property|Description|
+|---|---|
+|text| The text to display as the caption, use basic markdown to add extra styling. |
+
+#### Example
+
+##### Source
+
+```html
+<CaptionText text="This is the caption text and _may_ include **basic** [markdown](https://www.markdownguide.org/) styling." />
+```
+
+##### Result
+
+<CaptionText text="This is the caption text and _may_ include **basic** [markdown](https://www.markdownguide.org/) styling." />
 
 ---
 
@@ -201,7 +332,7 @@ This example uses just `usv` and `char` options:
 - <Character usv="0020"/>
 - <Character usv="0636"/>
 
-### Combining marks
+#### Combining marks
 Combining marks are automatically displayed with a dotted circle to indicate their combining nature.
 ```html
 <Character usv="0301"/>
