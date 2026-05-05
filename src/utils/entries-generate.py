@@ -111,7 +111,7 @@ def generate_articles(path, inFname, inFnameContents):
 				slugInitial = artFileName[0:1]
 				if slugInitial >= '0' and slugInitial <= '9':
 					slugInitial = '0-9'
-				newPath = "images/" + slugInitial + "/"
+				newPath = "images/"
 
 				print(title)
 
@@ -125,7 +125,7 @@ def generate_articles(path, inFname, inFnameContents):
 				else:
 					outFile.write("description: Article imported from ScriptSource\n")
 				outFile.write("tags: [" + tags + "]\n" )
-				outFile.write("lastUpdated: 2026-05-01\n")
+				outFile.write("lastUpdated: 2026-05-05\n")
 				outFile.write("---\n\n")
 
 				hasAttrib = artAuthor != "" or artCopyYears != "" or artCopyHolder != "" or artLicense != "" \
@@ -139,7 +139,6 @@ def generate_articles(path, inFname, inFnameContents):
 
 				if status == "article":
 					contents = contents.replace("(CR)", "\n")
-					#contents = contents.replace('](images/', ('](images/' + slugInitial + '/'))
 
 					imgCnt = 1
 
@@ -150,7 +149,9 @@ def generate_articles(path, inFname, inFnameContents):
 						fnameNew = artFileName + "-" + str(imgCnt)
 						p2 = contents.find(')', p + 9)
 						fnameOld = contents[p+9:p2]
-						outFileImgList.write(oldPath + fnameOld + "|" + newPath + fnameNew + '\n')
+
+						outFileImgList.write(oldPath + fnameOld + "|" + slugInitial + '/' + newPath + fnameNew + '\n')
+
 						contents = contents.replace("images/"+fnameOld, newPath + fnameNew)
 						contents = contents.replace('['+fnameOld+']', '['+fnameNew+']')
 						s = p + 9 + len(fnameNew)
@@ -176,9 +177,9 @@ def generate_articles(path, inFname, inFnameContents):
 				elif status == "article-img":
 					fnameOld = uid + "_" + fileName
 					fnameNew = imgFileName
-					outFile.write("[" + title + "](images/" + slugInitial + '/' + fnameNew + ")\n\n")
+					outFile.write("[" + title + "](images/" + fnameNew + ")\n\n")
 
-					outFileImgList.write(oldPath + fnameOld + "|images/" + slugInitial + '/' + fnameNew + '\n')
+					outFileImgList.write(oldPath + fnameOld + "|" + slugInitial + "/images/" + fnameNew + '\n')
 
 					if imgCaption != "":
 						outFile.write("<CaptionText text='" + imgCaption + "'/>\n\n")
