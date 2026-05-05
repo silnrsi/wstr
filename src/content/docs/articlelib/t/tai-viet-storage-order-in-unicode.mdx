@@ -1,0 +1,20 @@
+---
+title: Tai Viet Storage Order in Unicode
+description: Article imported from ScriptSource
+tags: [script-tavt]
+lastUpdated: 2026-05-05
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+Characters in Unicode are generally stored in logical order. That is to say, they are typed in the order in which they are spoken, and stored in the memory in the same order. In the case of Tai Viet script, characters are stored in visual order. This means that characters are generally typed in the order in which they appear on the page; a left-joining vowel is typed and stored in the memory before the consonant to which it is joined, despite being spoken after it. Visual storage order  is deemed to produce a more usable computing solution for the Tai Viet script for the following reasons.
+
+Users of the Tai Viet script tend to view written language with a visual perspective and spoken language with a phonetic perspective. This means that established practice in handwriting is to write  each letter in the order in which it appears. Left-joining vowels are written before the consonants to which they are joined. Equally, when spelling a word aloud, they describe a left-joining vowel before its consonant. In addition both the Lao script, which many Tai Viet users also read and type, and older encodings of the Tai Viet script, are stored in visual order, so this is the keyboarding order to which Tai Viet users are accustomed.
+
+There are several ambiguities in the script involving the interaction of labialized velar consonant [digraphs](/reference/glossary#digraph) with syllable boundaries and left-joining vowels (described in detail in Appendix 1 of the [Unicode Proposal](https://scriptsource.org/entry/h6xeae7u55)). Some of these ambiguities could be resolved by using logical order and introducing a virama, however it is expected that more serious problems would result.
+
+A visual order system is less complex than a logical order one, which would be difficult and expensive to maintain for the relatively small Tai user community.
+
+<CaptionText text='Reference: Brase, Jim. &#x201C;Proposal to encode the Tai Viet script in the UCS&#x201D;, 2007'/>
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>

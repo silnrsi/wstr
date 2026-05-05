@@ -1,0 +1,12 @@
+---
+title: Handwritten style "a"
+description: Article imported from ScriptSource
+tags: [char-0251, char-0061, char-0041, char-2c6d, encoding]
+lastUpdated: 2026-05-05
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+When people are looking for a handwritten style of the letter "a" they might be tempted to use :usv[0251]{usv char} instead of :usv[0061]{usv char} because it looks more like handwriting. :usv[0251]{usv char name} is in Unicode as an IPA symbol. It should not be used instead of an "a". A font should be used which has a handwritten style "a" at :usv[0061]{usv char name}. If you use :usv[0251]{usv char name} you will have unexpected results with data analysis as well as when using uppercase/lowercase pairs.
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>

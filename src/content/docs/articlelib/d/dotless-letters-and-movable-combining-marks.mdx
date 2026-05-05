@@ -1,0 +1,20 @@
+---
+title: Dotless letters and movable combining marks
+description: Article imported from ScriptSource
+tags: [script-cyrl, script-latn]
+lastUpdated: 2026-05-05
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+_**Question:** I need a diacritic on an “i”. Should I use the dotless “i” that I found in Unicode or what should I do? I also need to have a diacritic that will go on the upper case “i” and I can't find different heights for the diacritics._
+
+**Answer:** This is where Unicode is really, really useful. You no longer need to encode two different versions of an “i” and two different versions of a diacritic. In fact, _you should not!_ If you look at the character properties for the character you have suggested (:usv[0131]{usv char}) you will see that this character is only used for Turkish and Azerbaijani.So, you should just use the base character plus the diacritic. (This makes data analysis much simpler as well.) Unicode, _along with smart fonts_, will automatically handle the dot removal for the “i” and height adjustment for the upper case “i”. The following examples would be encoded as <span class='Literal'>U+0069 + U+030C</span> and <span class='Literal'>U+0049 + U+030C</span>.
+
+![dotless-letters-and-movable-combining-marks-1](images/d/dotless-letters-and-movable-combining-marks-1)
+
+In the next example you can see that the diacritic is shifted _down_ if you have characters that have descenders. The combining mark codepoint does not change when the base character has a descender. The following examples would be encoded as <span class='Literal'>U+0065 + U+032D</span> and <span class='Literal'>U+0067 + U+032D</span>.
+
+![dotless-letters-and-movable-combining-marks-2](images/d/dotless-letters-and-movable-combining-marks-2)
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>

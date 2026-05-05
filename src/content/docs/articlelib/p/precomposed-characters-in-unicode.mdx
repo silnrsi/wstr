@@ -1,0 +1,18 @@
+---
+title: Precomposed characters in Unicode
+description: Article imported from ScriptSource
+tags: [script-latn, script-cyrl, encoding]
+lastUpdated: 2026-05-05
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+_**Question:** I need a “V”, “t”, “n” and “l” with a macron under each. Unicode does not have these characters. Can these be added to Unicode, or is there another way I can encode this character?_
+
+**Answer:** Unicode does have some precomposed characters because they already existed in standards. The Unicode Technical Committee will no longer accept precomposed forms unless there is a very convincing argument.However, each of these _can_ be encoded in Unicode. So, for example “V” with a macron under it should be encoded as two characters (:usv[0056]{usv name} + :usv[0331]{usv name}):
+
+![precomposed-characters-in-unicode-1](images/p/precomposed-characters-in-unicode-1)
+
+The same thing can be done with each of your other characters, and, in fact, any other **base** + **diacritic**.
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>
