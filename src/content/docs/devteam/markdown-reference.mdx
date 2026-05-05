@@ -1,11 +1,13 @@
 ---
 title: Markdown Reference
 description: Guidance on markdown use
-lastUpdated: 2026-04-27
+lastUpdated: 2026-05-05
 ---
 
 import { Badge } from '@astrojs/starlight/components';
 import { Steps } from '@astrojs/starlight/components';
+import Attribution from '/src/components/Attribution.astro';
+import CaptionText from '/src/components/CaptionText.astro';
 
 :::note
 This is a guidance document for authors, primarily the Writing Systems Technology (WSTech) team.
@@ -172,17 +174,57 @@ Or an external image:
 ![An illustration of planets and stars featuring the word “astro”](https://raw.githubusercontent.com/withastro/docs/main/public/default-og-image.png)
 ```
 
-To add a caption to an image add the caption after the filename:
-
-![This is alt text](images/9800-small-image.png "This will be the caption text")
-
-```md
-![This is alt text](images/9800-small-image.png "This will be the caption text")
-```
-
 Inline images are not supported.
 
 Image references should not be broken over multiple lines. They may still work, however the Decap system does not support them.
+
+## Captions
+
+To add a caption to an image, use the custom **CaptionText** component - see the [Component Reference](/devteam/component-reference#captiontext-component). For example:
+
+![This is alt text](images/9800-small-image.png)
+<CaptionText text="This is the caption text for the image above. It supports **basic** markdown styling, however, some styling (e.g. italic) may be overridden by the site-wide styling."/>
+
+```md
+![This is alt text](images/9800-small-image.png)
+<CaptionText text="This is the caption text for the image above. It supports **basic** markdown styling, however, some styling (e.g. italic) may be overridden by the site-wide styling."/>
+```
+
+Note that use of this component requires that the file be in `.mdx` format rather than `.md`, and that the component is imported at the top of the file.
+
+## Attributions
+
+To add a formal attribution to an image or to a whole article, use the custom **Attribution** component - see the [Component Reference](/devteam/component-reference#attribution-component). For example:
+
+![This is alt text](images/9800-small-image.png)
+<Attribution
+    type="Image"
+    copyholder="John Doe"
+    copyurl="https://example.com/copyholder-info"
+    copyyears="2020-2024"
+    license="CC BY-SA 4.0"
+    licenseurl="https://creativecommons.org/licenses/by-sa/4.0/"
+    author="Jane Doe"
+    source="Website"
+    sourceurl="https://example.com/image-source"
+/>
+
+```md
+![This is alt text](images/9800-small-image.png)
+<Attribution
+    type="Image"
+    copyholder="John Doe"
+    copyurl="https://example.com/copyholder-info"
+    copyyears="2020-2024"
+    license="CC BY-SA 4.0"
+    licenseurl="https://creativecommons.org/licenses/by-sa/4.0/"
+    author="Jane Doe"
+    source="Website"
+    sourceurl="https://example.com/image-source"
+/>
+```
+
+Note that use of this component requires that the file be in `.mdx` format rather than `.md`, and that the component is imported at the top of the file.
 
 ## Links
 
