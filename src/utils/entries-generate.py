@@ -4,6 +4,7 @@
 
 import os
 import csv
+from datetime import date
 
 csv.field_size_limit(10000000)
 
@@ -34,6 +35,9 @@ def generate_articles(path, inFname, inFnameContents):
 
 	inFilePath = path + inFname
 	inFilePathContents = path + inFnameContents
+
+	dateStr = date.today()
+	dateStr = dateStr.strftime("%Y-%m-%d")
 
 	contentsDict = {}
 	descrDict = {}
@@ -128,7 +132,7 @@ def generate_articles(path, inFname, inFnameContents):
 				# else:
 				# 	outFile.write("description: Article imported from ScriptSource entry [" + uid + "]\n")
 				outFile.write("tags: [" + tags + "]\n" )
-				outFile.write("lastUpdated: 2026-05-06\n")
+				outFile.write("lastUpdated: " + dateStr + "\n")
 				outFile.write("---\n\n")
 
 				hasAttrib = artAuthor != "" or artCopyYears != "" or artCopyHolder != "" or artLicense != "" \
