@@ -101,6 +101,8 @@ def generate_articles(path, inFname, inFnameContents):
 			# attribExport = row[43]
 			# publishDate = row[51]
 
+			title = title.replace(": ", " - ")
+
 			if status == "article" or status == "article-img":
 				contents = contentsDict[uid] if uid in contentsDict else ""
 				description = descrDict[uid] if uid in descrDict else ""
@@ -121,12 +123,12 @@ def generate_articles(path, inFname, inFnameContents):
 
 				outFile.write("---\n")
 				outFile.write("title: " + title + "\n")
-				if status == "article-img":
-					outFile.write("description: Image imported from ScriptSource entry [" + uid + "]\n")
-				else:
-					outFile.write("description: Article imported from ScriptSource entry [" + uid + "]\n")
+				# if status == "article-img":
+				# 	outFile.write("description: Image imported from ScriptSource entry [" + uid + "]\n")
+				# else:
+				# 	outFile.write("description: Article imported from ScriptSource entry [" + uid + "]\n")
 				outFile.write("tags: [" + tags + "]\n" )
-				outFile.write("lastUpdated: 2026-05-05\n")
+				outFile.write("lastUpdated: 2026-05-06\n")
 				outFile.write("---\n\n")
 
 				hasAttrib = artAuthor != "" or artCopyYears != "" or artCopyHolder != "" or artLicense != "" \
