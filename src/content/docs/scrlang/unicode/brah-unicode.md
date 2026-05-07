@@ -3,7 +3,7 @@ title: Unicode Status for Brahmi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-18
+lastUpdated: 2026-05-07
 ---
 
 In The Unicode Standard, Brahmi script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/#G39063).
@@ -90,3 +90,6 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
   - 2022-07-20 _Recommendations to UTC #172 July 2022 on Script Proposals ([L2/22-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-128)) (See point 19.)_
 - 2022-08-07 Proposal to encode MINIMIZING VIRAMA in Brahmi script — Srinidhi A, Sridatta A ([L2/22-219](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-219))
   - _Recommendations to UTC #173 November 2022 on Script Proposals ([L2/22-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-248)) (See point B 14.)_
+- 2025-08-17 Response on encoding BRAHMI MINIMIZING VIRAMA — Srinidhi A, Sridatta A ([L2/26-066](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-066))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 2.10)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 2.10 for decision and action items)_

@@ -3,7 +3,7 @@ title: Unicode Status for Mongolian
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-04-24
+lastUpdated: 2026-05-07
 ---
 
 In The Unicode Standard, Mongolian script implementation is discussed in [Chapter 13 South and Central Asia-II: Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G27803) and in [UTN 57: Encoding and Shaping of the Mongolian Script](https://www.unicode.org/notes/tn57/).
@@ -212,3 +212,9 @@ Yilei, Zheng Weizhe, Richard Ishida, Debbie Anderson ([L2/17-243](http://www.uni
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.3.)_
   - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.3 for decision and action items)_
 - 2025-04-23 Progress report on UTN#57: Encoding and Shaping of the Mongolian Script — Kushim Jiang ([L2/25-140](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-140))
+- 2026-04-02	Proposal to deprecate the Mongolian standardized variants in UCD — Kushim Jiang ([L2/26-091](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-091))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 5.6)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 5.6 for decision and action items)_
+- 2026-04-15 Release Management Group Report to UTC #187 (regarding mongolian letter alternate ue) — RMG / Peter Constable ([L2/26-102](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-102))
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See H.1 for decision and action items)_
+

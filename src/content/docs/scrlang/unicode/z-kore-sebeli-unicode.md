@@ -3,7 +3,7 @@ title: Unicode Status for Kore Sebeli
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-01-30
+lastUpdated: 2026-05-07
 ---
 
 The Kore Sebeli script is not yet in Unicode. The script has a tentative allocation at U+15B00..U+15B6F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
@@ -33,5 +33,6 @@ Documents towards its inclusion have been submitted to the Unicode Technical Com
   - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 1.1 for decision and action items)_
 - 2025-10-19 Proposal for the encoding of « KORE SEBELI » — Mohamed Bentoura Bangoura ([L2/26-050](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-050))
   - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 7.)_
-
-
+- 2026-01-28 Feedback on some of the Koré Sébèli math signs — Oreen Yousuf ([L2/26-067](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-067))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 7)_
+ 

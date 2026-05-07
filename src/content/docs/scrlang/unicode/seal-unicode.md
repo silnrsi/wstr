@@ -3,7 +3,7 @@ title: Unicode Status for Small Seal
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-04-24
+lastUpdated: 2026-05-07
 ---
 
 The Small Seal script (sometimes called Shuowen) is not yet in Unicode. The Small Seal script has a tentative allocation at U+38000..U+3AB9F in the [Roadmap to the TIP](http://www.unicode.org/roadmaps/tip/) for the Unicode Standard.
@@ -58,3 +58,9 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2025-10-07 Proposal to encode the Small Seal Script in UCS — Small Seal Working group, edited by Michel Suignard ([WG2 N5344](https://www.unicode.org/cgi-bin/GetMatchingWG2Docs.pl?N5344R))
   - _Recommendations to UTC #185 (October 2025) on Script Proposals ([L2/25-232](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-232)) (See point 1.2)_
   - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 1.2 for decision and action items)_
+- 2026-02-17 Accumulated Feedback: PRI #536: Wrong annotation for U+3E770 — Ng Koon Hang ([ID20260217022719](https://www.unicode.org/review/pri536/feedback.html#ID20260217022719))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 6.7)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 6.7 for decision and action items)_
+- 2026-02-17 Accumulated Feedback: PRI #536: Incorrect Ideograph for Seal U+3E770 — Ruixi Zhangy ([ID20260217012529](https://www.unicode.org/review/pri536/feedback.html#ID20260217012529))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 6.7)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 6.7 for decision and action items)_

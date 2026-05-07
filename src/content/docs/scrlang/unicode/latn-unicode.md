@@ -875,6 +875,8 @@ Andreas Stötzner, Achim Trunk, Charlotte Wahl([L2/24-244](https://www.unicode.o
 - 2025-10-26 Anomalies regarding the representative glyphs of some characters — Eduardo Marin Silva ([L2/26-016](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-016))
   - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 4.1.)_
   - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 4.1 for decision and action items)_
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 5.4)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 5.4 for decision and action items)_
 - 2025-12-05 Unicode request for Romance dialectology symbols — Nicolas Datua, Kirk Miller ([L2/26-030](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-030))
   - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.4.)_
   - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.4 for decision and action items)_
