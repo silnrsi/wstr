@@ -3,7 +3,7 @@ title: Unicode Status for Latin
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-04-24
+lastUpdated: 2026-05-07
 ---
 
 In The Unicode Standard, Latin script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G4321), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), <br />
@@ -892,3 +892,21 @@ Andreas Stötzner, Achim Trunk, Charlotte Wahl([L2/24-244](https://www.unicode.o
 - 2026-01-13 New letter for the Alphabetic Presentation Forms block - ct ligature — Finlay Liam Adkins ([L2/26-024](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-024))
   - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 2.9.)_
   - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 2.9 for decision and action items)_
+- 2026-02-06 Unicode request for zh ligature — Kirk Miller ([L2/26-065](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-065))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 2.1)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 1.1 for decision and action items)_
+- 2026-03-06 Unicode request for basic symbols of the Romance dialectological atlases — Kirk Miller ([L2/26-079](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-079))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 2.3)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 2.3 for decision and action items)_
+- 2026-03-31 Alpha Feedback on Cossic characters (N5333R2) — Denis Moyogo Jacquerye ([L2/26-115](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-115))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 6.2)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 6.2 for decision and action items)_
+- 2026-03-31 Work group reply to Alpha Feedback on Cossic characters by D. M. Jacquerye (31. 3. 2026) — Uwe Mayer, et al ([L2/26-116](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-116))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 6.2)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 6.2 for decision and action items)_
+- 2026-04-10 Unicode request for modifier capital Y — Kirk Miller ([L2/26-118](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-118))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 2.2)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 2.2 for decision and action items)_
+- 2026-04-11 Unicode request for Catholic Albanian letter edhe — Francesco Catoni, Kirk Miller ([L2/26-117](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-117))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 2.4)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 2.4 for decision and action items)_
