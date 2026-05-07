@@ -4,7 +4,7 @@
 import { getCollection } from 'astro:content';
 const scrDocs = await getCollection('scriptdocs');
 
-let sortedDocs = scrDocs.sort((a, b) => a.data.scrpropsortname.localeCompare(b.data.scrpropsortname));
+let sortedDocs = scrDocs.sort((a, b) => (a.data.scrpropsortname ?? '').localeCompare(b.data.scrpropsortname ?? ''));
 
 ---
 
@@ -22,11 +22,11 @@ let sortedDocs = scrDocs.sort((a, b) => a.data.scrpropsortname.localeCompare(b.d
 	</thead>
 	<tbody>
 		{sortedDocs.map(scriptArt => {
-			if (scriptArt.data.scrpropcode.charAt(0) != "Q") {
+			if ((scriptArt.data.scrpropcode ?? '').charAt(0) != "Q") {
 				return (
 					<tr>
 						<td>{scriptArt.data.scrpropcode}</td>
-						<td><a href={`/scrlang/scripts/${scriptArt.data.scrpropcode.toLowerCase()}`}>{scriptArt.data.scrpropname}</a></td>
+						<td><a href={`/scrlang/scripts/${(scriptArt.data.scrpropcode ?? '').toLowerCase()}`}>{scriptArt.data.scrpropname}</a></td>
 						<td>{scriptArt.data.scrpropregion}</td>
 						<td>{scriptArt.data.scrproptype}</td>
 						<td>{scriptArt.data.scrpropdirection}</td>
