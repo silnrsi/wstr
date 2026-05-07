@@ -52,6 +52,29 @@ export const collections = {
       }),
     }), 
   }),
+  scriptdocs: defineCollection({
+    loader: glob({ pattern: ['scrlang/scripts/*.mdx'], base: './src/content/docs' }),
+    schema: docsSchema({
+      extend: z.object({
+        scrpropcode: z.string().optional(),
+        scrpropname: z.string().optional(),
+        scrpropshortname: z.string().optional(),
+        scrpropaltnames: z.string().optional(),
+        scrproptype: z.string().optional(),
+        scrpropregion: z.string().optional(),
+        scrpropstatus: z.string().optional(),
+        scrpropdirection: z.string().optional(),
+        scrpropbaseline: z.string().optional(),
+        scrpropcase: z.string().optional(),
+        scrpropwspace: z.string().optional(),
+        scrpropbehavior: z.string().optional(),
+        scrpropisonumkey: z.string().optional(),
+        scrpropotcode: z.string().optional(),
+        scrpropsortname: z.string().optional(),
+        tags: z.array(z.string()).optional(),
+      }),
+    }),
+  }),
   sources: defineCollection({
     loader: file("src/data/sources.yaml"),
     schema: z.object({

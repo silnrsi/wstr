@@ -2,10 +2,16 @@
 // ScriptList component: display a list of scripts, based on data in the JSON file.
 // TODO: Replace all uses with ScriptTable which is based on the SQLite DB.
 
-import sdata from '../data/scripts.json';
+//import sdata from '../data/scripts.json';
 
-// Sort the `sdata` array by the 'script_sortName' field:
-const sortedSdata = [...sdata].sort((a, b) => a.script_sortName.localeCompare(b.script_sortName));
+import { getCollection } from 'astro:content';
+const scrDocs = await getCollection('scriptdocs');
+
+// Sort the `scrData` array by the 'scrpropsortName' property:
+//let sortedScripts = [...scrDocs].sort((a, b) => a.data.scrpropsortname.localeCompare(b.data.scrpropsortname));
+
+
+/////let sortedArticles = filteredArticles.sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
 
 <div>
@@ -21,20 +27,17 @@ const sortedSdata = [...sdata].sort((a, b) => a.script_sortName.localeCompare(b.
 		</tr>
 	</thead>
 	<tbody>
-	{sortedSdata.map((sObj) => {
-		if (sObj.script_code.charAt(0) !== 'Q') {
-			return (
+	{scrDocs.map(scriptArt => {
+
 				<tr>
-					<td>{sObj.script_code}</td>
-					<td><a href={`/scrlang/scripts/${sObj.script_code.toLowerCase()}`}>{sObj.script_name}</a></td>
-					<td>{sObj.script_family}</td>
-					<td>{sObj.script_type}</td>
-					<td>{sObj.script_direction}</td>
-					<td>{sObj.script_status}</td>
+					<td>{scriptArt.data.scrpropcode}</td>
+					<td><a href={`/scrlang/scripts/${scriptArt.data.scrpropcode.toLowerCase()}`}>{scriptArt.data.scrpropname}</a></td>
+					<td>{scriptArt.data.scrpropfamily}</td>
+					<td>{scriptArt.data.scrproptype}</td>
+					<td>{scriptArt.data.scrpropdirection}</td>
+					<td>{scriptArt.data.scrpropstatus}</td>
 				</tr>
-			);
-		}
-		return null;
+
 	})}
 	</tbody>
 	</table>
