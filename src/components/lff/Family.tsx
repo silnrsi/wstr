@@ -1,6 +1,6 @@
 // import type { FragmentProps } from 'react'
 import styles from './Family.module.css'
-import _samples from '../../data/udhr-26.json'
+import _samples from '../../data/google-fonts-samples.json'
 
 const samples: Record<string, string | null> = _samples
 
@@ -66,7 +66,8 @@ function Sample(props: Props) {
             font-family: '${family}';
             src: url('${flourl}');
         }`
-        const sampler = (lang && samples[lang]) ?? "Everyone has the right to education."
+        const key = lang?.split('-',2).join('-');
+        const sampler = (key && samples[key]) ?? "Everyone has the right to education."
         return <div className={styles.sample}>
             <style>{fontFamily}</style>
             <p id={styles.sampler} style={{ fontFamily: family }} dir='auto'>{sampler}</p>

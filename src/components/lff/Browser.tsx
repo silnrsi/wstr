@@ -6,7 +6,7 @@
 // downloadable data file subset 
 
 import React, { useState, useEffect } from 'react';
-import { LanguagePicker, languagePickerStrings_en } from 'mui-language-picker'
+import { LanguagePicker, type LangTag, languagePickerStrings_en } from 'mui-language-picker'
 import { ThemeProvider, createTheme, type PaletteMode, type Theme } from "@mui/material/styles";
 import Family from './Family'
 import styles from './Browser.module.css'
@@ -45,8 +45,9 @@ function ApiBrowser() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<Error|null>(null);
   const [theme, setTheme] = useState(createDarkModeTheme());
-  const [bcp47, setBcp47] = React.useState("und");
-  const [lgName, setLgName] = React.useState("");
+  const [tag, setTag] = useState<LangTag>();
+  const [bcp47, setBcp47] = useState("und");
+  const [lgName, setLgName] = useState("");
 
 
   const observer = new MutationObserver((mutations) => {
@@ -112,7 +113,7 @@ function ApiBrowser() {
         <ol className={styles.families}>
           {data.defaultfamily.map((id: string) => {
             const rec = data.families[id]
-            return <li key={id}><Family lang={bcp47} sample={SampleImages[rec.family+'.S']} {...rec}/></li>
+            return <li key={id}><Family lang={tag?.full} sample={SampleImages[rec.family+'.S']} {...rec}/></li>
           })}
         </ol>
         <details>
@@ -136,6 +137,7 @@ function ApiBrowser() {
         <LanguagePicker
           value={bcp47}
           setCode={setBcp47}
+          setInfo={setTag}
           name={lgName}
           setName={setLgName}
           noFont
