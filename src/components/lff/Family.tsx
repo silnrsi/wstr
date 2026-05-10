@@ -72,7 +72,7 @@ function Sample(props: Props) {
         const sampler = (key && samples[key]) ?? "Everyone has the right to education."
         return <div className={styles.sample}>
             <style>{fontFamily}</style>
-            <p id={styles.sampler} style={{ fontFamily: family }} dir='auto'>{sampler}</p>
+            <p id={styles.sampler} style={{ fontFamily: family }} lang={lang} dir='auto'>{sampler}</p>
         </div>
     }
     if (sample) {
