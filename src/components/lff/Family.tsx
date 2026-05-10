@@ -57,14 +57,16 @@ const sourceIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
 // }
 
 function Sample(props: Props) {
-    const {lang, defaults={} as Defaults, family, files={}, sample} = props
+    const {lang, defaults={} as Defaults, family, files={}, sample, features} = props
     const flourl = files[defaults?.woff2 ?? defaults?.ttf]?.flourl
 
     if (flourl)
     {
+        const css_features = features ? features.split(/\s+/).map(f => f.replace(/^(\w+)=(\d+)$/, '"$1" $2')).join(',') : "normal"
         const fontFamily = `@font-face {
             font-family: '${family}';
             src: url('${flourl}');
+            font-feature-settings: ${css_features};
         }`
         const key = lang?.split('-',2).join('-');
         const sampler = (key && samples[key]) ?? "Everyone has the right to education."
