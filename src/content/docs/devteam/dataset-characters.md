@@ -7,28 +7,28 @@ lastUpdated: 2025-11-21
 This is a guidance document for authors, primarily the Writing Systems Technology (WSTech) team.
 :::
 
+_This file must be reworked when the data format and processes are determined._
+
 ## File location(s)
 
-`src/data/characters.csv`
+`data/characters.csv`
 
 ## Data format and model
 
-(What is the file format, including flavour, e.g. CSV? Does it follow a particular data model, e.g. BibLaTeX?)
+CSV
 
 ## Source and licensing
 
-(Where does the data come from? who owns it? What is the license? Is some form of acknowledgement required?)
+The data was originally exported from the characters table in ScriptSource. Eventually it should be generated directly from Unicode files.
 
 ## Uses
 
-(How is the data used on the site? Which components depend on it?)
+The data is read by low-level `coredata` routines and is ultimately used by mechanisms that can display characters by USV, glyph, and name - `<Character>`, `:usv[]`, `:char[]`, etc. as well as the `<CharacterTable>` component.
 
 ## History
 
-(Log of significant updates and changes in reverse date order)
+- **2025 September** Added by Tim Eves along with coredata Astro components for displaying character data.
 
 ## Maintenance processes
 
-(What are the step-by-step processes needed to correct or update the data? How often should it be done?)
-
-
+To be determined. Eventually this data needs to be taken directly from Unicode files.

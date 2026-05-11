@@ -3,7 +3,7 @@ title: Unicode Status for Bengali
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-05-07
 ---
 
 In The Unicode Standard, Bengali script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G664195).
@@ -153,3 +153,6 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
   - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 8 for decision and action items)_
 - 2024-10-24 Top Right Spacing Anusvara in Bengali/Assamese — Jan Kučera, Charles Li ([L2/24-240](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-240))
   - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 7.2.)_
+- 2026-04-15 Release Management Group Report to UTC #187 (regarding two Bengali characters) — RMG / Peter Constable ([L2/26-102](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-102))
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See H.1 for decision and action items)_
+

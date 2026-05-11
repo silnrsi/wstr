@@ -3,7 +3,7 @@ title: Unicode Status for Kannada
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-18
+lastUpdated: 2026-05-07
 ---
 
 In The Unicode Standard, Kannada script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G38298).
@@ -133,3 +133,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2023-11-30 Feedback on request to change glyphs of Kannada Vocalic L/LL — Shriramana Sharma ([L2/24-054](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-054))
   - _Recommendations to UTC #179 April 2024 on Script Proposals ([L2/24-068](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-068)) (See point A.V.7.)_
   - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section V-7 for decision and action items)_
+- 2026-03-28 Proposal to encode the Four Diacritic Marks of Kannada in Unicode — Biswajit Mandal ([L2/26-113](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-113))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 2.11)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 2.11 for decision and action items)_

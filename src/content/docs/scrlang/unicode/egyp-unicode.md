@@ -3,7 +3,7 @@ title: Unicode Status for Egyptian Hieroglyphs
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-04-24
+lastUpdated: 2026-06-07
 ---
 
 In The Unicode Standard, implementation of Egyptian Hieroglyphs is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/#G26607), [UTN 32: Mapping Between Manuel de Codage and Unicode Egyptian Hieroglyphs](https://www.unicode.org/notes/tn32/), and in [Unicode Egyptian Hieroglyph Database (Unikemet)](https://www.unicode.org/reports/tr57/).
@@ -244,3 +244,11 @@ Daniel A. Werning ([L2/24-175](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl
   - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.4 for decision and action items)_
 - 2026-01-22 Answer to document L2/26-059: Corruption of the basic sign list of Egyptian hieroglyphs in Unicode 16, revised — Michel Suignard ([L2/26-060](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-060))
   - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.4 for decision and action items)_
+- 2026-02-16 Accumulated Feedback: 536 - Glyphs of Egyp silently updated — Mikhail Merkuryev ([ID20260216181243](https://www.unicode.org/review/pri536/feedback.html#ID20260216181243))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 6.4)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 6.4 for decision and action items)_
+- 2026-03-31 Reply to L2/26-060 on the corruption of the basic sign list of ancient Egyptian — Mark-Jan Nederhof ([L2/26-122](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-122))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 7.)_
+- 2026-05-27 Accumulated Feedback: PRI #538 canonical ordering of overlays — Mark-Jan Nederhof ([ID20260327091028](https://www.unicode.org/review/pri538/feedback.html#ID20260327091028))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 6.3)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 6.3 for decision and action items)_

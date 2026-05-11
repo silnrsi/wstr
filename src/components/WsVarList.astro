@@ -6,7 +6,7 @@
 //     script: 4-letter script code, eg. 'Cyrl', 'Beng'
 //     ws: eg, 'ar-Arab', 'brx-Beng'
 
-import wsdata from '../data/script_ws.json';
+import wsdata from '../data/script-ws.json';
 
 const { script, ws } = Astro.props;
 const scriptObj = wsdata.find(s => s.ScriptCode === script);

@@ -3,7 +3,7 @@ title: Unicode Status for Jurchen
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-06
+lastUpdated: 2026-05-07
 ---
 
 The Jurchen script is not yet in Unicode. The script has a tentative allocation at U+18E00..U+191DF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
@@ -46,3 +46,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2025-06-24 Request to rename Jurchen to Jurchen Large Script (WG2 N5338) — Viacheslav Zaytsev, Andrew West ([L2/25-171](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-171))
   - _Recommendations to UTC #184 (July 2025) on Script Proposals ([L2/25-187](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-187)) (See point 3.9.)_
   - _UTC #184 Minutes ([L2/25-181](https://www.unicode.org/L2/L2025/25181.htm)) (See D.1 3.9 for decision and action items)_
+- 2026-02-13 Accumulated Feedback: PRI #536: Jurchen U+18E49 stroke count — Philippe Verdy ([ID20260213130257](https://www.unicode.org/review/pri536/feedback.html#ID20260213130257))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 6.5)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 6.5 for decision and action items)_

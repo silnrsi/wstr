@@ -22,7 +22,9 @@ These are links to pages intended for use by the development team.
 - [Datasets](/devteam/datasets)
     - [Dataset - Characters](/devteam/dataset-characters)
     - [Dataset - Sample text](/devteam/dataset-sample-text)
-    - [Dataset - Template](/devteam/dataset-template)
+    - [Dataset - Scripts](/devteam/dataset-scripts)
+    - [Dataset - Sources](/devteam/dataset-sources)
+    - [Dataset - Documentation Template](/devteam/dataset-template)
 
 ## Article Library and Tags
 

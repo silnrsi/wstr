@@ -41,6 +41,16 @@ abdullahi2011:
   location: "Katsina, Nigeria"
   keywords: [script-qa18]
   annotation: "This book is written by the creator of the Tafi script. It describes his reason for inventing the script and the process he went through to do so, and provides a detailed explanation of how the script works."
+abdullahi2016-ss:
+  entrytype: online
+  title: Tafi letters and fonts
+  author: Musa D. Abdullahi
+  url: http://tafiwriting.com
+  date: "2016-04-15"
+  organization: MUSADAB
+  sortname: Abdullahi
+  keywords: [script-qa18, lang-hau, lang-ibo, lang-yor]
+  abstract: "Taken from [https://tafiwriting.com/]"
 adobe-open-source:
   entrytype: online
   title: "Open Source - Adobe Fonts"
@@ -82,6 +92,16 @@ agl-aglfn:
   url: https://github.com/adobe-type-tools/agl-aglfn
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
+akinno2006-ss:
+  entrytype: online
+  title: Khmer Vowel Diacritics
+  author: Akinno
+  url: http://commons.wikimedia.org/wiki/File:Khmer_vowels.png
+  date: "2006"
+  organization: Wikimedia
+  presort: 22
+  sortname: Akinno
+  keywords: [script-khmr]
 al-baba1994:
   entrytype: book
   title: "Rouh Al-Khatt Al-Arabi"
@@ -139,6 +159,39 @@ anvil:
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
   addendum: Simple script to help run dockerized smith
+arakun2009-ss:
+  entrytype: online
+  title: Balinese Consonants
+  author: Tasnu Arakun
+  url: http://en.wikipedia.org/wiki/File:Hanacaraka-bali.svg
+  date: "2009"
+  organization: Wikipedia
+  presort: 22
+  sortname: Arakun
+  keywords: [script-bali]
+  abstract: "The 18 consonants that are commonly used to write Balinese script."
+arkland2020-ss:
+  entrytype: online
+  title: The Rök Runestone
+  author: Arkland
+  url: https://commons.wikimedia.org/w/index.php?curid=94104042
+  date: "2020"
+  organization: Wikimedia
+  presort: 22
+  sortname: Arkland
+  keywords: [script-runr]
+  abstract: "The Rök Runestone, in the Swedish parish of Rök, bears the longest extant Runic inscription. It is also the earliest Swedish inscription of significant length, and as such is considered to mark the beginning of the history of Swedish literature. It is written using a relatively late form of runes, aptly named Rök Futhark (also called Short-twig Futhark) and has been dated to the early 9th century."
+armenian-manuscript-ss:
+  entrytype: online
+  title: "15th-century Armenian manuscript containing the Albanian alphabet."
+  author: Ole F�rsten
+  url: https://commons.wikimedia.org/wiki/File:Alban-script.jpg
+  date: "2024-04-04"
+  organization: Wikimedia
+  presort: 22
+  sortname: F�rsten
+  keywords: [script-aghb]
+  abstract: "The Matenadaran MS 7117 is a manuscript from Matenadaran which contains apologetic texts as well as codex of different alphabets such as Armenian, Greek, Latin, Syriac, Georgian, Coptic and Caucasian Albanian alphabet manual of the 15th century."
 aronson1990:
   entrytype: book
   title: "Georgian: A Reading Grammar"
@@ -172,6 +225,16 @@ aviv2005:
   publisher: Icarus Films
   keywords: [script-qa00]
   annotation: "Independent film-maker Nurith Aviv produced a 17-minute documentary about the Bété script in 2005, featuring interviews with Frédéric Bruly Bouabré, the script’s creator."
+aysomphone2007-ss:
+  entrytype: online
+  title: Lao Book From Progress Publishers
+  author: aysomphone
+  url: http://www.flickr.com/photos/9194595@N07/1511570444/in/set-72157602308374392/
+  date: "2007"
+  organization: Flickr
+  sortname: aysomphone
+  keywords: [script-laoo]
+  abstract: "This book was published in Moscow in 1979 by the official USSR foreign press publishing house, which went out of business after the collapse of the Soviet Union."
 babelmap:
   entrytype: online
   title: BabelMap (Unicode Character Map for Windows)
@@ -203,6 +266,17 @@ babelstone-yi:
   keywords: [script-yiii, lang-iii]
   abstract: "Essential data about Nuosu Yi: people, history, primer, dictionary index scheme, syllabic writing, romanization. Though some parts of the site are no longer maintained, the basic data remain valid. Babelstone is also the home of software application Babelpad."
   annotation: "Excellent, uncluttered data and explanations of Nuosu Yi: people, history, primer, dictionary index scheme, syllabic writing, romanization. Babelstone is also the home of software application Babelpad."
+babelstone2025-ss:
+  entrytype: online
+  title: Ersu astrological almanac
+  author: BabelStone
+  url: https://commons.wikimedia.org/wiki/File:Ersu_astrological_almanac_(3).jpg
+  date: "2025-12-11"
+  organization: Wikimedia
+  presort: 22
+  sortname: BabelStone
+  keywords: [script-qaag]
+  abstract: "Ersu astrological almanac for half of a month, with Ersu Shaba pictographs and explanations in Tibetan."
 back2015:
   entrytype: article
   title: A Glagolitic Christmas
@@ -235,6 +309,17 @@ bagchi1996:
   location: Oxford
   pages: 399-403
   keywords: [script-beng]
+balinese-sign-ss:
+  entrytype: online
+  title: Balinese Street Sign
+  author: っ
+  url: http://en.wikipedia.org/wiki/File:JL_DIPONEGORO_200507.jpg
+  date: "2005"
+  organization: Wikipedia
+  presort: 22
+  sortname: っ
+  keywords: [script-bali, lang-ban]
+  abstract: "This is a street sign in the Buleleng regency of Bali, Indonesia."
 barber1995:
   entrytype: inbook
   title: Innovation and Persistence
@@ -247,6 +332,15 @@ barber1995:
   pages: 428-431
   keywords: [script-qa15]
   annotation: "This book section tells the story of the Raina Kama writers' circle and the alphabet they used. It does not contain technical information about the Raina Kama alphabet; rather it provides brief historical information."
+batak-script-ss:
+  entrytype: online
+  title: Letters of the Batak Script
+  url: http://commons.wikimedia.org/wiki/File:Toba_batak.png
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-batk]
+  abstract: "Batak consonants and vowel diacritics for writing Toba Batak. One letter (nya) missing."
 bauer1996:
   entrytype: inbook
   title: Arabic Writing
@@ -363,6 +457,19 @@ blood2008:
   number: "192"
   keywords: [script-cham]
   annotation: "This article focuses on the Eastern Cham of Vietnam. The author and her husband came to the Cham area in the 1960s and found that their script, descended from Sanskrit, was prestigious but essentially useless since it was not used for everyday communication and was only known by old men. The introduction of romanized primers in Cham schools brought much opposition, and in the 1970s they chose to revert to the traditional script for their language. In so doing, the Eastern Cham people revealed that their script is important visible evidence of their distinctiveness as a unique people."
+blood2008-ss:
+  entrytype: article
+  title: "The ascendancy of the Cham script: how a literacy workshop became the catalyst"
+  author: Doris E. Blood
+  url: https://www.sil.org/resources/archives/6238
+  date: "2008-07-09"
+  sortname: Blood
+  publisher: Walter de Gruyter
+  journaltitle: International Journal of the Sociology of Language
+  number: "192"
+  pages: 45-55
+  keywords: [script-cham]
+  abstract: "The Cham script is Indic in origin, the result of contact between Indian traders, warriors and priests, and the Kingdom of Champa, which controlled parts of Vietnam from the 2nd century until 1832. Once a large and powerful empire, the Cham Kingdom came under increasing attack from Vietnamese, Khmer and Mongol forces, until all but one principality had been annexed to Vietnam or Cambodia.(CR)(CR)As a result, large numbers of Cham began migrating to Cambodia about 500 years ago, and in the intervening period both the language and the script diverged. Eastern Cham (spoken in Vietnam) is written in a more rounded script, whereas Western Cham (spoken in Cambodia) uses more angular letters.(CR)(CR)Most surviving manuscripts related to religious practices, myths and legends, and epic poems. The script was also - and to some extent continues to be - widely used for inscribing magical formulae on amulets. It is suggested that the script may once have performed more mundane functions also, although no such texts exist any longer.(CR)(CR)Traditionally, boys were taught the script by rote from about twelve years of age. The Cham zodiac was taught alongside the script. Despite Cham society being matriarchal from the 7th to the 15th centuries, girls were generally illiterate.(CR)(CR)In both Cambodia and Vietnam the script is seen as a significant part of Cham cultural identity, and knowledge of Cham writing carries considerable prestige. However, by the mid 20th century it was not being widely used for any practical purposes.(CR)(CR)In the 1970s the Vietnamese government launched a project to allow minority language education at the preschool / primary level. By this time however, young people's knowledge of Cham was declining, and in addition, spoken Cham language had diverged so significantly from the language used in traditional texts that study of the script was hampered. The Committee for the Standardization of the Cham Script was created in 1978 to standardize the script.(CR)(CR)In 1990 a new set of Cham primers was produced which included some reforms to the script so that it better represented modern spoken Cham. For example, sounds which had been underrepresented (the same letter was used to represent more than one sound), were represented more accurately by modifying some letters. Spelling conventions were also modified to mirror speech more closely.(CR)(CR)Further changes to the script have been proposed since the 1990s, although these have not yet been as widely accepted by more traditional groups in the user community."
 bolgatanga2011:
   entrytype: book
   title: Gurenɛ Gulesiyiŋɔ Sɔa la Gulesiyiŋɔ Yelebɛa
@@ -421,6 +528,15 @@ bondarev2017:
   keywords: [script-arab, lang-fuv, lang-knc, lang-kau, lang-krt, lang-kby, lang-bms, lang-hau]
   abstract: "There is a distinctive type of manuscripts across the whole of West Africa characterised by ample space between the lines. This codicological feature seems to point to teaching practices wherein extra space is planned for annotations. This article attempts to draw a correlation between this specific layout and the content of the manuscripts, thus demonstrating that practices of Islamic education can be deduced from analysis of manuscript production. Following Introduction, section 2 discusses ample space layout relation to annotations in the Borno Quran manu-scripts; section 3 focuses on the same features in manuscripts from Borno, other than Quran manuscripts; section 4 is a comparative survey of the Borno, Senegam-bia and Adamawa manuscripts in terms of the relationship between the types of texts and the ample-spaced layout. This comparison reveals a complex pattern of correlation between types of glosses, layout, titles of works, curricula and phases of education."
   annotation: "The layout features of the manuscripts from Borno and the wider Senegambia region were initially studied as part of the project 'Writing and reading paratexts in West African Islamic manuscripts: a comparative study of commentaries on Arabic texts in Old Kanembu and Old Mande' which subsequently developed into the project 'Islamic manuscripts with a wide spaced layout as mediators of teaching practices in West Africa', both projects being integrated into the collaborative research SFB 950 at the Centre for the Study of Manuscript Cultures, University of Hamburg. The manuscripts originating from Hausa and Fulfulde speaking scholarly milieus in what is now north and east Nigeria are the subject of a preliminary study affiliated to the 'Wide space layout project' and conducted by Musa Salih Muhammad, Arewa House, and myself."
+bopomofo-sign-ss:
+  entrytype: online
+  title: Derivation of Bopomofo signs from the shapes of Chinese characters
+  url: http://commons.wikimedia.org/wiki/File:Bopomofo_first_4_letters.png
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-bopo]
+  abstract: "The first four letters of the Bopomofo alphabet, with the Chinese characters from which they derived, and Roman equivalents."
 bouabre:
   entrytype: online
   title: Frédéric Bruly Bouabré at the CAAC
@@ -444,6 +560,15 @@ brahmi-descended-scripts:
   urldate: "2019-07-10"
   keywords: [script-knda, script-taml, script-mlym, script-sinh, script-mymr, script-laoo, script-thai, script-khmr, script-java, script-bali, script-tglg, script-batk, script-bugi, script-telu, script-tibt, script-orya, script-beng, script-guru, script-gujr, script-deva]
   annotation: "This page (an archive from Geocities.com which is no longer online) shows the modern descendants of the ancient Brahmi script, in chart form, so that each character can be compared across scripts. The page includes scripts from North and South India, South-East Asia, Indonesia, and the Philippines."
+braille-latin-ss:
+  entrytype: online
+  title: Braille with Latin script equivalents
+  url: http://commons.wikimedia.org/wiki/File:Braille_alphabet.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-brai]
+  abstract: "This image shows the standard set of Braille symbols used for writing English, and their Latin equivalents."
 březina2011:
   entrytype: online
   title: On Diacritics
@@ -560,6 +685,30 @@ brunelle2008:
   location: "San Jose, CA"
   keywords: [script-cham]
   annotation: "Socio-cultural issues of Champa 175 Years after its disappearance"
+brunelle2008-ss:
+  entrytype: article
+  title: "Diglossia, Bilingualism, and the Revitalization of Written Eastern Cham"
+  author: Marc Brunelle
+  url: https://scholarspace.manoa.hawaii.edu/items/282b9897-b742-46b2-be2d-f53807bf5f66
+  date: "2008-06"
+  sortname: Brunelle
+  publisher: University of Hawai'i Press
+  journaltitle: "Language Documentation & Conservation"
+  volume: "2"
+  number: "1"
+  pages: 28-46
+  keywords: [script-cham]
+  abstract: "Eastern Cham speakers, as well as being bilingual in Vietnamese, use two varieties of Eastern Cham; a High (H) and a Low (L) variety. These exhibit significant phonological differences. L is used on colloquial contexts, and is not regarded by speakers as having high status. it is not normally written. H mostly exists in written form, as well as being used in religious or formal ceremonies. A large (relative to the size of the community) body of literature exists written in Eastern Cham H, mostly comprised of stone inscriptions, religious texts and epics. Because not all speakers achieve full competence in H, a variety of syntactic and phonological forms have been codified over the years. The Committee for the Standardization of the Cham Script was created in the late 1970s to standardize the script. Since that time, the Committee has proposed a number of changes to Cham orthography, which have met with varying degrees of acceptance."
+bueno2004-ss:
+  entrytype: online
+  title: Vintage Russian Poster (Cyrillic Script)
+  author: Bianca Bueno
+  url: http://www.flickr.com/photos/bibi/408484497/in/set-72157594566654490/
+  date: "2004"
+  organization: Flickr
+  sortname: Bueno
+  keywords: [script-cyrl, lang-rus]
+  abstract: "Vintage Russian poster from 1953 by S. G. Sakharov. \"It's delicious and nutritious... The Cacao Gold Label\""
 burkinshaw:
   entrytype: online
   title: Egyptian Hieroglyphics
@@ -589,6 +738,17 @@ campbell2011:
   location: London
   keywords: [script-arab, script-beng, script-tfng, script-bugi, script-mymr, script-khmr, script-cyrl, script-deva, script-ethi, script-geor, script-grek, script-gujr, script-guru, script-hebr, script-hrkt, script-hira, script-jpan, script-kana, script-java, script-knda, script-kore, script-laoo, script-mlym, script-mong, script-sinh, script-taml, script-telu, script-thai, script-tibt, script-hang, script-hans, script-hant, script-armn, writing systems]
   annotation: "This book contains short entries on about a hundred languages. Articles are ordered alphabetically, and each has a standard structure for ease of reference, including: general historical and sociolinguistic introduction, writing system, sound system, grammatical system, sample scan from a publication.(CR)(CR)The book has an Appendix of Scripts. Each script entry is generally a chart of the characters as well as a transliteration. Most of the script entries have a small amount of explanatory text."
+carian-inscriptions-ss:
+  entrytype: online
+  title: Limestone stela with Carian inscriptions
+  author: Osama Shukir Muhammed Amin FRCP(Glasg)
+  url: https://en.m.wikipedia.org/wiki/File:Limestone_stela_depicting_a_false-door,_cornice_above._There_are_Carian_inscriptions._Late_Period._From_Saqqara,_H5-873,_Egypt._The_Petrie_Museum_of_Egyptian_Archaeology,_London.jpg
+  date: "2024-03-25"
+  organization: Wikipedia
+  presort: 22
+  sortname: Muhammed
+  keywords: [script-cari]
+  abstract: "Limestone stela depicting a false-door, cornice above. There are Carian inscriptions. Late Period. From Saqqara, H5-873, Egypt.The Petrie Museum of Egyptian Archaeology, London. With thanks to the Petrie Museum of Egyptian Archaeology, UCL."
 carian-stellae:
   entrytype: online
   title: Carian Stelae from Saqqara
@@ -597,6 +757,15 @@ carian-stellae:
   urldate: "2011-09-27"
   keywords: [script-cari]
   annotation: "This page, produced by University College, London, presents four stelae (commemorative stone slabs) bearing inscriptions in the Carian script. These are accompanied by references to a book containing more information about the inscriptions."
+chakma-handwriting-ss:
+  entrytype: online
+  title: Samples of Chakma Handwriting
+  url: https://commons.wikimedia.org/wiki/File:Samples_of_Chakma_Handwriting.pdf
+  date: "2019-01-09"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-cakm, lang-ccp]
+  abstract: "Samples of handwritten Chakma"
 chaîne1907:
   entrytype: book
   title: Grammaire éthiopienne
@@ -607,6 +776,15 @@ chaîne1907:
   location: Beyrouth
   keywords: [script-ethi, lang-amh]
   annotation: "This book was written (in French) to help people in their beginning study of the Ethiopian language."
+cham-temple-ss:
+  entrytype: online
+  title: Cham Inscription at Po Nagar Temple
+  url: http://commons.wikimedia.org/wiki/File:National_Museum_of_Vietnamese_History42.JPG
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-cham]
+  abstract: "This inscription is from Po Nagar temple, Vietnam, dated to the year 965 AD. It is now housed in the National Museum of Vietnamese History. The full inscription (of which this is only a part) says, \"In circa 703-706 Caka-Cham calendar (781-784 CE), King Satyavarman erected a linga to Shiva and made his nephew King Vikrantavarman.<br />(CR)In 887 Caka-Cham calendar (965 CE), King Jaya Indravarman I erected the new statue of the deity Bhagavti (Uma) in stone to replace the missing one that was made in 840 (918 CE) in gold.\""
 chamberlain2008:
   entrytype: article
   title: "Script selection for Tibetan-related languages in multiscriptal environments"
@@ -652,6 +830,34 @@ chen1985:
   keywords: [script-yiii, lang-iii]
   abstract: "Part of the 间志 'brief description\" series of books describing minority language varieties in China. This is the classic work on Yi that set the trends for phonetic transcription of Liangshan Yi. Its way of dividing Yi dialects into 6 major categories is foundational to understanding how most Yi scholars talk about Yi dialects."
   annotation: "Overview of Yi language family (China)"
+cherokee-bilingual-ss:
+  entrytype: online
+  title: Bilingual Notice in English and Cherokee
+  url: http://commons.wikimedia.org/wiki/File:Bilingual_notice_in_English_and_Cherokee_1828.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-cher, lang-chr]
+  abstract: "Bilingual notice in English and Cherokee stating that William McConnell will no longer pay the debts of his wife Delilah McConnell as she has left him. Published in the \"Cherokee Phoenix\", New Echota, Georgia. Published in \"American women : a Library of Congress guide for the study of women's history and culture in the United States\", edited by Sheridan Harvey [et al.]. Washington : Library of Congress, 2001, p. [i]."
+cherokee-syllabary-ss:
+  entrytype: online
+  title: The Cherokee Syllabary Chart
+  url: http://commons.wikimedia.org/wiki/File:Cherokee_syllabary.png
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-cher]
+china-post-ss:
+  entrytype: online
+  title: China Post logo
+  author: Hippietrail
+  url: https://commons.wikimedia.org/wiki/File:China_Post_logo_with_(New)_Tai_L%C3%BC_script_in_Mohan,_Yunnan.jpg
+  date: "2021-11-26"
+  organization: Wikimedia
+  presort: 22
+  sortname: Hippietrail
+  keywords: [script-talu, lang-khb]
+  abstract: "China Post logo with (New) Tai Lü script in Mohan, Yunnan."
 china1980:
   entrytype: misc
   title: "Yiwen Guifan Fang'an 彝文规范方案 [The Scheme for Standard Yi Writing]"
@@ -679,6 +885,16 @@ chong:
   urldate: "2025-11-21"
   keywords: [analysis, transliteration]
   annotation: "The web page contains a complete list of the official guidelines of transliteration and Romanization of non-Latin script languages.  Please feel free to contact me if you have any comments."
+chung2015-ss:
+  entrytype: online
+  title: The Uses and Users of the Miao Script
+  author: Jeremiah Y. S. Chung and Eric Drewry
+  url: https://www.academia.edu/93203752/The_Uses_and_Users_of_the_Miao_Script
+  date: "2015-09-04"
+  organization: Academia
+  sortname: Chung
+  keywords: [script-plrd, lang-yna, lang-sfm, lang-ygp, lang-hmd, lang-cqd, lang-ktp, lang-mww, lang-ywq, lang-lpo]
+  abstract: "Abstract: <br />(CR)The Miao Script (formerly the Pollard Script) has been adapted to nine languages in three different language groups: Hmongic, Lolo-Burmese, and Burmic.  It has been standardized by the International Standardization Organization.  Historically, it was used for official publications in China and for literature and literacy development within the nine ethnolinguistic groups. Five of them still use the script.  In the past decade, more than twenty languages in these three groups have been newly recognized, which raises the question of its potential for use in literacy development among the least literate of these groups."
 clauson2002:
   entrytype: inbook
   title: The texts in Sogdian and Uygur Scripts
@@ -747,6 +963,15 @@ cochy:
   keywords: [script-kana, script-grek, lang-ibo, lang-mkd, lang-afr, lang-grc, lang-rml, lang-ell, lang-lat, lang-pny, lang-ron, lang-tur, lang-vie]
   abstract: "See all the characters in the font and download it."
   annotation: "The goal of this font is to faithfully reproduce handwriting without making major concessions to the criteria of readability, conformity and aesthetics."
+codex-argenteus-ss:
+  entrytype: online
+  title: Codex Argenteus
+  url: https://commons.wikimedia.org/wiki/File:Codex_Argenteus-Mark_ev.jpg
+  date: "2019-12-20"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-goth, lang-got]
+  abstract: "A page fron Codex Argenteus, a 6th-century manuscript, originally containing a 4th century translation of the Bible into the Gothic language. It was written with gold and silver ink on high-quality thin vellum stained a regal purple, with an ornate treasure binding."
 cohen1970:
   entrytype: book
   title: Traité de langue amharique (Abyssinie)
@@ -829,6 +1054,17 @@ constable2018:
   date: "2018-04-15"
   urldate: "2025-11-19"
   keywords: [fonts, rendering, opentype]
+coorgi-cox-ss:
+  entrytype: online
+  title: "The Coorgi-Cox alphabet"
+  author: Udelida
+  url: https://commons.wikimedia.org/wiki/File:Coorgi-cox.jpg
+  date: "2020-02-11"
+  organization: Wikimedia
+  presort: 22
+  sortname: Udelida
+  keywords: [script-qa68]
+  abstract: "The characters of the Coorgi-Cox script with corresponding Latin script characters."
 coretext:
   entrytype: online
   entrysubtype: f
@@ -1054,6 +1290,17 @@ cozens-flgs:
   url: https://simoncozens.github.io/fonts-and-layout/
   urldate: "2025-11-19"
   keywords: [writing systems, fonts, layout, rendering, opentype]
+cserlajos2006-ss:
+  entrytype: online
+  title: Old Hungarian Ligatures
+  author: Cserlajos
+  url: http://commons.wikimedia.org/wiki/File:Rovas_ligatures_example.png
+  date: "2006"
+  organization: Wikimedia
+  presort: 22
+  sortname: Cserlajos
+  keywords: [script-hung]
+  abstract: "The two lines of text written with Old Hungarian script read the same. In the upper line, ligatures are used; the other line is the same text written without ligatures. The saving is 40% (i.e., the number of signs in the upper line is 60% of the number of signs in the lower line).<br />(CR)Both texts read \"A kengyelünk nappal itt van, abban a ládában\", i.e, \"By day, our stirrup is here, in that chest\"."
 cubberley1996:
   entrytype: inbook
   title: The Slavic Alphabets
@@ -1066,6 +1313,55 @@ cubberley1996:
   location: New York
   pages: 346-355
   keywords: [script-cyrs, script-cyrl, script-glag]
+cypriot-idalion-ss:
+  entrytype: online
+  title: Cypriot Inscription on the Idalion Tablet
+  url: http://commons.wikimedia.org/wiki/File:Idalion_tablet.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-cprt, lang-grc]
+  abstract: "The Idalion tablet was found in the Temple of Athena on the Idalion acropolis and dated to the 5th century BC. It is the longest known Greek inscription in the syllabic Cypriot script, setting out an agreement between the City of Idalion, represented by King Stasikypros, and a physician and his brothers."
+cypro-minoan-ss:
+  entrytype: online
+  title: "Tablet inscribed with Cypro-Minoan 2 script. Late Bronze III"
+  author: Jastrow
+  url: https://commons.wikimedia.org/wiki/File:Tablet_cypro-minoan_2_Louvre_AM2336.jpg
+  date: "2023-06-05"
+  organization: Wikimedia
+  presort: 22
+  sortname: Jastrow
+  keywords: [script-cpmn]
+  abstract: "Provenance: Enkomi, Cyprus<br />(CR)Date: Between circa 1230 and circa 1050 BC"
+cyrillic-italic-ss:
+  entrytype: online
+  title: "Cyrillic Letters - Upright vs Italic"
+  url: http://commons.wikimedia.org/wiki/File:Cyrillic-italics-nonitalics.png
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-cyrl]
+  abstract: "Similarly to Latin fonts, italic and cursive types of many Cyrillic letters (typically lowercase; uppercase only for hand-written or stylish types) are very different from their upright roman types. In certain cases, the correspondence between uppercase and lowercase glyphs does not coincide in Latin and Cyrillic fonts: for example, italic Cyrillic ‹_т_› is the lowercase counterpart of ‹Т› not of ‹М›.<br />(CR)In this image, italic forms significantly different from their upright counterparts, or especially confusing to users of the Latin alphabet, are highlighted."
+cyrus-cylinder-ss:
+  entrytype: online
+  title: Cyrus Cylinder Extract
+  url: https://commons.wikimedia.org/wiki/File%3ACyrus_cylinder_extract.png
+  date: "2016-09-23"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-xsux]
+  abstract: "Extract from the Cyrus Cylinder (lines 15-21), giving the genealogy of Cyrus the Great and an account of his capture of Babylon in 539 BC"
+daderot2022-ss:
+  entrytype: online
+  title: Page of Sogdian text in Manichaean script
+  author: Daderot
+  url: https://commons.wikimedia.org/wiki/File:Manichaean_cosmogonic_text,_Sogdian_language_in_Manichaean_script,_Khocho,_9th-10th_century_AD,_leather_-_Ethnological_Museum,_Berlin_-_DSC01758.JPG
+  date: "2022-02-23"
+  organization: Wikimedia
+  presort: 22
+  sortname: Daderot
+  keywords: [script-mani, lang-sog]
+  abstract: "Manichaean cosmogonic text, Sogdian language in Manichaean script, Khocho, 9th-10th century AD, leather - Ethnological Museum, Berlin"
 dagbani1998:
   entrytype: book
   title: Approved Dagbani Orthography
@@ -1166,6 +1462,17 @@ davies2005b:
   publisher: Bible Society of Papua New Guinea
   keywords: [char-023d, lang-kpw]
   annotation: "References above use this character"
+davey2020-ss:
+  entrytype: online
+  title: Ancient blocks with Sabaean inscriptions
+  author: A Davey
+  url: https://commons.wikimedia.org/wiki/File:Ancient_Blocks_With_Sabaean_Inscriptions,_Yeha,_Ethiopia_(3146498586).jpg
+  date: "2020-07-31"
+  organization: Wikimedia
+  presort: 22
+  sortname: Davey
+  keywords: [script-sarb, lang-xsa]
+  abstract: "The Iqa-bet, a two-story stone storage building next to the Church of Abba Afse in Yeha, Tigray Region, northern Ethiopia, houses ancient artifacts as well as Ethiopian Orthodox Christian religious objects.<br />(CR)This photo shows blocks bearing inscriptions in Sabaean language. I don't know whether all the blocks are stone or whether some are stone and others are fired clay. Arranged atop the blocks are other ancient artifacts that were no doubt found nearby and brought to the Iqa-bet for safekeeping and display."
 dawkins1969:
   entrytype: book
   title: The fundamentals of Amharic
@@ -1201,6 +1508,15 @@ demotic:
   url: http://www.digitalegypt.ucl.ac.uk/writing/demotic.html
   urldate: "2025-11-21"
   keywords: [script-egyd]
+demotic-papryus-ss:
+  entrytype: online
+  title: Egyptian Demotic on Papyrus
+  url: http://commons.wikimedia.org/wiki/File:Louvres-antiquites-egyptiennes-img_2713.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-egyd]
+  abstract: "A contract of metayage (a sharecropping agricultural system) written in Demotic script on Papyrus in the 35th year of Amasis II (approx 533 BC). Current location of papyrus - Department of Egyptian antiquities, Louvre Museum, Paris, France."
 design-with-fontforge:
   entrytype: online
   title: Design With FontForge
@@ -1253,6 +1569,16 @@ dingxu1996:
   location: Oxford
   pages: 239-241
   keywords: [script-yiii]
+djmutex2021-ss:
+  entrytype: online
+  title: Fraktur sample
+  author: Djmutex
+  url: https://commons.wikimedia.org/wiki/File:Fraktur_walbaum.png
+  date: "2021-01-20"
+  organization: Wikimedia
+  presort: 22
+  sortname: Djmutex
+  keywords: [script-latf]
 docker:
   entrytype: online
   entrysubtype: f
@@ -1260,6 +1586,16 @@ docker:
   url: https://www.docker.com
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
+dombrowski2005-ss:
+  entrytype: online
+  title: Old Church Slavonic Script
+  author: Quinn Dombrowski
+  url: http://www.flickr.com/photos/53326337@N00/178035691
+  date: "2005"
+  organization: Flickr
+  sortname: Dombrowski
+  keywords: [script-cyrs]
+  abstract: "Sample of Old Church Slavonic writing. Image adapted from an original photo by Quinn Dombrowski."
 don1989:
   entrytype: book
   title: "Tai Dam-English English-Tai Dam Vocabulary Book"
@@ -1315,6 +1651,19 @@ dubelaar1988:
   pages: 146-164
   number: "62"
   keywords: [script-afak]
+dubelaar1988-ss:
+  entrytype: article
+  title: Seven notes in Afaka script
+  author: C. N. Dubelaar and André Pakousie
+  url: https://www.researchgate.net/publication/41125864_Seven_notes_in_Afaka_script
+  date: "1988"
+  organization: ResearchGate
+  sortname: Dubelaar
+  journaltitle: New West Indian Guide
+  number: "3-4"
+  pages: 146-164
+  keywords: [script-afak]
+  abstract: "C.N. Dubelaar and Andre Pakosie published a paper in the New West Indian Guide/Nieuwe West-Indische Gids entitled _Seven Notes in Afaka Script_. The paper contains seven Afaka texts donated by Father Dr. J. Vernooij, with Roman transcriptions and English translations of each text. The paper can be freely downloaded from the [Brill Online website](http://booksandjournals.brillonline.com/content/10.1163/13822373-90002042)."
 duff2000:
   entrytype: misc
   title: Tibetan and Bhutanese Marks and Signs inclusion into Tibetan Unicode 3.0
@@ -1460,6 +1809,14 @@ ethiopian-history:
   urldate: "2011-08-17"
   keywords: [script-ethi, lang-gez]
   annotation: "This article describes the development of the Ge'ez script and language, and provides a chart to illustrate the development of certain Ge'ez letters from the Sabean script."
+ethopic-fonts-ss:
+  entrytype: online
+  title: A Gallery of Ethiopic fonts
+  url: http://fonts.geez.org/
+  date: "2023-10-16"
+  organization: geez.org
+  keywords: [script-ethi]
+  abstract: "Computer fonts are digital art. This page attempts to present a gallery of this art. Some of this art is free to use without restriction, some require purchase, and others may be used freely for non-commerical purposes. Please respect these license of use and consider supporting the artists behind the work."
 ethiopic-keyboards:
   entrytype: online
   title: Ethiopic (Ge'ez) Script Keyboards
@@ -1779,6 +2136,26 @@ gair1996b:
   location: Oxford
   pages: 408-412
   keywords: [script-sinh]
+gaither2008a-ss:
+  entrytype: online
+  title: Mayan Hieroglyphs
+  author: James Gaither
+  url: http://www.flickr.com/photos/jim-sf/2823682444/
+  date: "2008"
+  organization: Flickr
+  sortname: Gaither
+  keywords: [script-maya]
+  abstract: "Carved Mayan Hieroglyphs from the Palace at Palenque Archaeological Zone, a Maya city state in the modern-day Mexican state of Chiapas which flourished in the seventh century AD. It has been excavated and restored, and is now a famous archaeological site."
+gaither2008b-ss:
+  entrytype: online
+  title: Mayan Hieroglyphs at the Temple of the Foliated Cross
+  author: James Gaither
+  url: http://www.flickr.com/photos/jim-sf/2810318508/
+  date: "2008"
+  organization: Flickr
+  sortname: Gaither
+  keywords: [script-maya]
+  abstract: "Mayan Hieroglyphs carved in stucco relief into stone at the Temple of the Foliated Cross, Palenque Archaeological Zone, Mexico."
 gallafent2013:
   entrytype: online
   title: Unsung heroine who helped decode Linear B
@@ -1802,6 +2179,15 @@ galtier1987:
   number: "1"
   keywords: [script-qa10]
   annotation: "This article (in French) outlines the history of indigenous African writing systems, in particular the Masaba script, and includes a Masaba character chart. The features and behaviour of the Masaba script are also discussed."
+gandhiji-hut-ss:
+  entrytype: online
+  title: Sign from Gandhiji's hut in Karadi
+  url: http://commons.wikimedia.org/wiki/File:Gandhi%27s_hut-karadi.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-gujr]
+  abstract: "This is the sign posted outside the hut where Gandhi stayed briefly, written in the Gujarati language and script.The translation provided at the location reads,(CR)(CR)\"Here under the mango tree in the hut made of palm leaves (khajoori) Gandhiji stayed from 14-4-1930 to 4-5-1930 after the world famous Dandi march. From here he gave impetus to the civil disobedience movement for breaking the salt act started on April 6 at Dandi and turned it into a nation wide movement. It was also from this place that he wrote a letter to the British viceroy expressing his firm resolve to march to the salt works at Dharasana.(CR)(CR)This is the place from where he was arrested by the British government after midnight on May 4, 1930.\""
 gaultney2002:
   entrytype: misc
   title: Problems of Diacritic Design for Latin Script Text Faces
@@ -1834,6 +2220,15 @@ georgian-alpha:
   url: http://georgianworld.tripod.com/anbani.html
   urldate: "2025-11-21"
   keywords: [script-geok]
+georgian-scripts-ss:
+  entrytype: online
+  title: A Comparison of Three Georgian Scripts
+  url: http://en.wikipedia.org/wiki/File:Anban-historical.png
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-geor]
+  abstract: "This chart compares the letters of the Asomtavruli, Nushkuri and Mkhedruli alphabets, also giving Roman equivalents and numerical values."
 gessman1976:
   entrytype: article
   title: The Birth Date of the Coptic Script
@@ -1936,6 +2331,26 @@ github:
   url: https://github.com/
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
+glagolitic-cathedral-ss:
+  entrytype: online
+  title: Glagolitic script in the cathedral of Zagreb
+  author: Curious Expeditions
+  url: http://www.flickr.com/photos/curiousexpeditions/1567410859/
+  date: "2007"
+  organization: Flickr
+  sortname: Curious Expeditions
+  keywords: [script-glag]
+  abstract: "This inscription is from a wall in the Zagreb cathedral in Croatia to commemorate the 1300th anniversary of the baptism of the Croatian people. It is dated 1941."
+glass2000-ss:
+  entrytype: misc
+  title: A Preliminary Study of Kharoṣṭhī Manuscript Paleography
+  author: Andrew Glass
+  url: https://gandhari.org/tmp/glass_2000.pdf
+  date: "2000"
+  sortname: Glass
+  publisher: University of Washington
+  keywords: [script-khar]
+  abstract: "Andrew Glass's MA Thesis [A Preliminary Study of Kharoshthi Manuscript Paleography](https://gandhari.org/bibliography?bib_id=322) provides a thorough analysis of the development of Kharoshthi writing and describes the characteristics of the script."
 glot:
   entrytype: online
   title: Ahom Script
@@ -2055,6 +2470,14 @@ graphite-gdl:
   url: https://github.com/silnrsi/grcompiler/blob/master/doc/GDL.pdf
   urldate: "2025-11-19"
   keywords: [fonts, font tools, rendering, graphite]
+greek-parchment-ss:
+  entrytype: online
+  title: "Greek Parchment from Ziel Castle, 1000-1050"
+  url: http://commons.wikimedia.org/wiki/File:Johannes_Chrysostomos_Schloss_Zeil.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-grek]
 greenfield2003:
   entrytype: inbook
   title: "The Mi'kmaq Hieroglyphic Prayer Book: Writing and Christianity in Maritime Canada 1675-1921"
@@ -2308,6 +2731,17 @@ hatcher2008:
   keywords: [script-latn, script-arab, script-cyrl, lang-azj, lang-azb]
   abstract: "Each of the three major script changes of the Azeri language in the twentieth century, from traditional Arabic to Latin, to Cyrillic, and back to Latin, reflected assertions of identity in the changing social and political realities. Each of these changes represented a decision related to the allegiance of the nation, sometimes voluntary and sometimes forced. Yet none of these changes were without both significant benefits and challenges to the cohesion of Azerbaijani identity."
   annotation: "This article describes the history of script change in the Azeri (Azerbaijani) language."
+hebrew-script-ss:
+  entrytype: online
+  title: Letters of the Hebrew Script
+  author: Neo Scholar
+  url: http://commons.wikimedia.org/wiki/File:Hebrew_alphabet.png
+  date: "2008"
+  organization: Wikimedia
+  presort: 22
+  sortname: Neo Scholar
+  keywords: [script-hebr]
+  abstract: "The letters of the Hebrew script, in their normal canonical order (when read from right to left)"
 hepner2001:
   entrytype: book
   title: God Ago Maror Muturta Agamukan
@@ -2329,6 +2763,24 @@ hewson1988:
   pages: 55-61
   volume: "47"
   keywords: [script-qabg]
+hieratic-edwin-smith-ss:
+  entrytype: online
+  title: Edwin Smith Papyrus in Egyptian Hieratic Script
+  url: http://commons.wikimedia.org/wiki/File:Edwin_Smith_Papyrus_v2.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-egyh]
+  abstract: "The Edwin Smith papyrus is the world's oldest surviving surgical document. Written in hieratic script in ancient Egypt around 1600 B.C., the text describes anatomical observations and the examination, diagnosis, treatment, and prognosis of 48 types of medical problems in exquisite detail. Plate 6 and 7 of the papyrus, pictured here, discuss facial trauma."
+hiragana-katakana-roman-ss:
+  entrytype: online
+  title: Hiragana and Katakana symbols with Roman equivalents
+  url: http://commons.wikimedia.org/wiki/File:Hiragana-Katakana-Romanization.JPG
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-hrkt, script-hira, script-kana]
+  abstract: "Hiragana appears on the left of each column (pink background), Katakana in the middle of each column (blue background), and the Roman transcription of each character on the right of each column (grey background)."
 hitch2010:
   entrytype: article
   title: Aramaic Script Derivatives in Cantral Eurasia
@@ -2469,6 +2921,16 @@ huttar1992:
   location: Dallas
   pages: 593-604
   keywords: [script-afak]
+hyunwoo2010-ss:
+  entrytype: online
+  title: Korean Handwriting
+  author: Hyunwoo Sun
+  url: http://www.flickr.com/photos/hyunwoosun/4851765915/in/photostream/
+  date: "2010"
+  organization: Flickr
+  sortname: Hyunwoo
+  keywords: [script-hang]
+  abstract: "A handwritten restaurant menu written in the Korean language using Hangul characters."
 iana-subtag-reg:
   entrytype: online
   title: Language Subtag Registration Form
@@ -2486,6 +2948,14 @@ icu:
   url: https://icu.unicode.org/
   urldate: "2025-11-19"
   keywords: [computing]
+indus-dict-ss:
+  entrytype: online
+  title: Proposed Ancient Indus Script Dictionary
+  url: https://www.harappa.com/script/diction.html
+  urldate: "2026-04-17"
+  organization: Harappa
+  keywords: [script-inds]
+  abstract: "A speculative Indus script dictionary is available at [harappa.com](http://www.harappa.com/script/diction.html)."
 ipa:
   entrytype: online
   entrysubtype: f
@@ -2500,6 +2970,25 @@ ipa-chart:
   url: https://www.internationalphoneticassociation.org/content/full-ipa-chart
   urldate: "2025-11-19"
   keywords: [encoding]
+ipa-help-ss:
+  entrytype: online
+  title: "IPA Help: A Phonetics Learning Tool"
+  url: https://ipahelp.languagetechnology.org/
+  date: "2023-08-08"
+  organization: SIL Global
+  keywords: [phonetics]
+  abstract: "[IPA Help](https://ipahelp.languagetechnology.org/) allows you to hear IPA sounds by clicking their symbols in the IPA chart.(CR)(CR)For example, click on the \"Vowels\" tab, then click on the vowel and you will hear what that vowel sounds like."
+iravikorthanan2025-ss:
+  entrytype: online
+  title: "East Syriac Script Thaksa (Chaldean Syrian Church, Thrissur, India)"
+  author: Iravikorthanan
+  url: https://upload.wikimedia.org/wikipedia/commons/d/de/East_Syriac_Script_Thaksa.jpg
+  date: "2025-09-29"
+  organization: Wikimedia
+  presort: 22
+  sortname: Iravikorthanan
+  keywords: [script-syrn]
+  abstract: "The Thaksa liturgy for the celebration of the Eucharist in the Chaldean Syrian Church."
 isaac1883:
   entrytype: book
   title: "The Alphabet: An Account of the Origin and Development of Letters"
@@ -2789,6 +3278,17 @@ iws:
   url: https://scripts.sil.org/iws-toc.html
   urldate: "2025-11-19"
   keywords: [writing systems, computing]
+jackson2025-ss:
+  entrytype: online
+  title: Iban Alphabet
+  author: Diviana Jackson
+  url: https://commons.wikimedia.org/wiki/File:Huruf_Iban.jpg
+  date: "2025-11-13"
+  organization: Wikimedia
+  presort: 22
+  sortname: Jackson
+  keywords: [script-qa83]
+  abstract: "Iban alphabet chart"
 jain2003:
   entrytype: inbook
   title: Nagari (Devanagari) Script
@@ -2801,6 +3301,26 @@ jain2003:
   location: London
   pages: 75-80
   keywords: [script-deva]
+javanese-water-castle-ss:
+  entrytype: online
+  title: Javanese Script at the Water Castle in Yogyakarta
+  url: http://commons.wikimedia.org/wiki/File:Javanese_script01.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-java]
+  abstract: "The bilingual inscription in Portuguese and Javanese reads, \"The project of rehabilitating the Umbul Binanun Tamansari, performed with the Apollo Calouste Gulbenkian Foundation, was inaugurated by S. Exa. Sultan Hamengku Buwono X of Yogyakarta, and Dr. Jose Blanco, administrator of the Calouste Gulbenkian Foundation (Portugal), on 22 August 2004.\""
+jayantath2009-ss:
+  entrytype: online
+  title: Bengali Consonants
+  author: Jayantath
+  url: http://commons.wikimedia.org/wiki/File:Bengali_alphabets.svg
+  date: "2009"
+  organization: Wikimedia
+  presort: 22
+  sortname: Jayantath
+  keywords: [script-beng]
+  abstract: "The thirty-five consonant letters used for writing Bengali. These are arranged in a chart form so that the first five rows progress by place of articulation, from velars on the first row, to bilabials on the fifth row. The columns are also ordered by manner of articulation as follows: voiceless (aspirated and unaspirated), voiced (aspirated and unaspirated), and nasal.<br />(CR)The last two rows contain liquids, glides and sibilants, which are not ordered by manner of articulation."
 jayaprakash:
   entrytype: online
   title: Badaga script
@@ -2811,6 +3331,16 @@ jayaprakash:
   urldate: "2018-10-05"
   keywords: [script-qabq, lang-bfq]
   annotation: "A webpage containing details of several scripts which have been created to write the Badaga language, including the script devised by Kadasoley Yogesh."
+jayavara2009-ss:
+  entrytype: online
+  title: Karanīya Mettā Sutta in the Siddham script
+  author: jayavara
+  url: http://www.flickr.com/photos/jayarava/3998444724/
+  date: "2009"
+  organization: Flickr
+  sortname: jayavara
+  keywords: [script-sidd, lang-pli]
+  abstract: "This is the Karanīya Mettā Sutta from the Buddhist text Suttanipāta. It is written in the Pāli language using the Siddham script. A Roman transliteration and English translation of the text is available from [visiblemantra.org](http://www.visiblemantra.org/metta-sutta.html)."
 jeune1898:
   entrytype: book
   title: Chinook and Shorthand Rudiments
@@ -2821,6 +3351,17 @@ jeune1898:
   location: "Kamloops, BC"
   keywords: [script-dupl]
   annotation: "TBD"
+kaida-script-ss:
+  entrytype: online
+  title: Sample pictograms from the Kaida script
+  author: Metisauvergnat
+  url: https://commons.wikimedia.org/wiki/File:Yonaguni_symbol.jpg
+  date: "2025-04-10"
+  organization: Wikimedia
+  presort: 22
+  sortname: Metisauvergnat
+  keywords: [script-qa80]
+  abstract: "Kaidā glyphs (カイダー字, Kaidā ji) are a set of pictograms once used in the Yaeyama Islands of southwestern Japan. The word kaidā was taken from Yonaguni, and most studies on the pictographs focused on Yonaguni Island. However, there is evidence for their use in Yaeyama's other islands, most notably on Taketomi Island.[1] They were used primarily for tax notices, thus were closely associated with the poll tax imposed on Yaeyama by Ryūkyū on Okinawa Island, which was in turn dominated by Satsuma Domain on Southern Kyushu."
 kandhadai2010:
   entrytype: article
   title: Impact of spatial ordering of graphemes in alphasyllabic scripts on phonemic awareness in Indic languages
@@ -2833,6 +3374,15 @@ kandhadai2010:
   number: "2"
   keywords: [script-deva, lang-hin]
   annotation: "This article presents a study based on the Devanagari script, to examine how segmental awareness is influenced by the alignment of the spatial ordering of graphemes in relation to the logical phonological order of the phonemes. In the study, native Hindi speakers were asked to delete the first consonant in a syllable (the onset consonant) from two pairs of invented \"words\". In the first word the spatial ordering was aligned to the phonological ordering - that is, each character followed the previous one in the same order as they would be spoken - but in the second word a character which is subject to reordering was used, so that the spatial ordering was incongruous with the phonological ordering. The results strongly support the hypothesis that the spatial order of the phonemes influences segmental awareness in languages that are written with an abugida.(CR)(CR)Please note that, to view the full article, you will need either to be a subscriber to the journal or to purchase short-term access to the article."
+kana-no-hikari-ss:
+  entrytype: online
+  title: Katakana text from the Kana no Hikari
+  url: http://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Kana_no_Hikari,_number_1,_page_1.png
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-kana]
+  abstract: "The _Kana no Hikari_ (Light of Kana) is the bulletin of Kanamozikai, a Japanese language reform foundation. Kanamozikai aims to simplify Japanese writing by abandoning the Chinese kanji characters in favour of exclusive use of katakana. Kanamozika also pioneered horizontal writing in Japan. This text was written about the use of katakana and kanji characters. It reads:(CR)(CR)Thing Borrowed<br />(CR)Japanese people are now shouldering a heavy burden and competing with people around the world. <br />(CR)Being all of a sweat, they are running, but they cannot run as they wish, because of the burden. <br />(CR)Japanese people regard the burden as a treasure and do not try to throw it away when they might unload it. <br />(CR)What is the heavy burden? <br />(CR)It was borrowed from China! <br />(CR)Being aware of the fact, why don't we return it?"
 kaplan2008:
   entrytype: misc
   title: "Syriac Paleography: The development of a method of expertise on the basis of the Syriac manuscripts of the British Library (Vth-Xth c.)"
@@ -2870,6 +3420,16 @@ kauder1866:
   date: "1866"
   keywords: [script-qabg]
   annotation: "This is an online microfiche copy of a Micmac prayer book from 1866. It is available to download in PDF format from the link below."
+kaur2010-ss:
+  entrytype: online
+  title: Ardaas in the Gurmukhi Script
+  author: jasleen_kaur
+  url: http://www.flickr.com/photos/jasleen_kaur/4252305270/
+  date: "2010"
+  organization: Flickr
+  sortname: jasleen_kaur
+  keywords: [script-guru, lang-pan]
+  abstract: "The Ardaas is a Sikh prayer of supplication, asking for God's support and protection in a particular undertaking. It is recited before or after completing a significant service or task, as well as before and after eating."
 kerala1971:
   entrytype: misc
   title: "Malayalam Script - Adoption of New Script For Use - Orders Issued"
@@ -2877,6 +3437,16 @@ kerala1971:
   sortname: Kerala
   date: "1971-03-23"
   keywords: [script-mlym]
+kettle2008-ss:
+  entrytype: online
+  title: Samaritan Script Sign
+  author: Copper Kettle
+  url: http://www.flickr.com/photos/37324043@N00/3215895644/in/photostream/
+  date: "2008"
+  organization: Flickr
+  sortname: Kettle
+  keywords: [script-samr]
+  abstract: "A sign written in the Samaritan script, in Israel."
 kettunen2004:
   entrytype: book
   title: "Introduction to  Maya Hieroglyphs - Workshop Handbook"
@@ -2909,6 +3479,46 @@ khalaf:
   urldate: "2010-03-18"
   keywords: [script-phnx]
   abstract: "Of particular interest on this site are a number of charts showing the development of writing leading up to and away from the Phoenician script. Scroll down to 'Tables and Charts' to view."
+kharosthi-doc-ss:
+  entrytype: online
+  title: Kharosthi Document
+  url: http://commons.wikimedia.org/wiki/File:Loulan_kharosthi_document.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-khar]
+  abstract: "Wooden Kharosthi document found at Loulan, China by the Hungarian archaeologist Aurel Stein."
+khitan-large-script-ss:
+  entrytype: online
+  title: Khitan Large Script epitaph
+  author: BabelStone
+  url: https://commons.wikimedia.org/wiki/File:IMU_Khitan_Large_Script_Epitaph_B.jpg
+  date: "2023-10-26"
+  organization: Wikimedia
+  presort: 22
+  sortname: BabelStone
+  keywords: [script-kitl]
+  abstract: "Stone tablet with fake epitaph inscription in the Khitan Large Script. Held at the Nationalities Museum of the Inner Mongolia University, but not on official display. It is mostly based on the Epitaph for the Princess of Yongning Commandery (永寧郡公主墓誌銘) of 1092."
+khotanese-manuscript-ss:
+  entrytype: online
+  title: Khotanese manuscript
+  url: https://en.m.wikipedia.org/wiki/File:Khotanese_Verses_BLE4_IOLKHOT50_4R1_1.jpg
+  date: "2024-01-08"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-qa40, lang-kho]
+  abstract: "Khotanese manuscript with a poem written by the Khotanese thanking their Tibetan conquerors for 'guarding this land of Khotan'.<br />(CR)This file has been provided by the International Dunhuang Project from its digital collections, from original file BLE4_IOLKHOT50_4R1_1.<br />(CR)Catalogue entry: IOL Khot 50(4)"
+khudawadi-script-ss:
+  entrytype: online
+  title: "Sindhi word for Turban, written in Khudawadi script"
+  author: Vikram Nankani
+  url: https://commons.wikimedia.org/wiki/File:Thari_Patko(Turban).svg
+  date: "2020-04-08"
+  organization: Wikimedia
+  presort: 22
+  sortname: Nankani
+  keywords: [script-sind, lang-snd]
+  abstract: "Thari Patko (turban): an example of Tharparkar clothing."
 kirsanov2008:
   entrytype: book
   title: National Student Type Competition
@@ -2919,6 +3529,16 @@ kirsanov2008:
   location: Moscow
   keywords: [script-cyrl]
   annotation: "The National Student Type competition, dedicated to the tercentenary of Russian Civil type, was held in Moscow in the Spring of 2008. The competition was organized by ParaType, with the support of the Federal Agency on Press and Mass Communications of Russia. One hundred and forty-eight entries competed in three design categories. The winning typefaces are introduced and illustrated in this book."
+klee2010-ss:
+  entrytype: online
+  title: Oriya Book Front Cover
+  author: Romana Klee
+  url: http://www.flickr.com/photos/nauright/5135204906/in/photostream/
+  date: "2010"
+  organization: Flickr
+  sortname: Klee
+  keywords: [script-orya]
+  abstract: "Samples of various Oriya script styles on the front of a library book."
 koolhof1999:
   entrytype: article
   title: The "La Galigo"; a Bugis encyclopaedia and its growth
@@ -2952,6 +3572,14 @@ kozok1991:
   location: London
   pages: 100-114
   keywords: [script-batk]
+kpelle-syllabary-ss:
+  entrytype: online
+  title: Kpelle syllabary
+  url: https://commons.wikimedia.org/wiki/File:Kpelle_syllabary.png
+  date: "2022-09-22"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-kpel, lang-kpe, lang-xpe]
 kuijp1996:
   entrytype: inbook
   title: The Tibetan Script and Derivatives
@@ -3003,6 +3631,27 @@ kuipers2003:
   location: Tokyo
   keywords: [script-batk, script-rjng, script-hano, script-kawi, script-tagb, script-tglg]
   annotation: "A paper focussing on the way Indic scripts function among the people who use them in Insular Southeast Asia."
+kushalappa2022-ss:
+  entrytype: online
+  title: Discovering alphabets of old Kodava script
+  author: Mookonda Nitin Kushalappa
+  url: https://starofmysore.com/discovering-alphabets-of-old-kodava-script/
+  date: "2022-01-24"
+  organization: Star of Mysore
+  sortname: Kushalappa
+  keywords: [lang-kfa]
+  abstract: "Thirke is a left-to-right abugida (a type of segmental writing system), based on the ancient Brāhmī script. It was developed and in use during the 14th century CE in Kodagu, in present-day Karnataka. Mookonda Kushalappa called this script ‘Thirke’, after the Kodava word for a temple. Kodava is the language native to Kodagu. An online organisation called ‘Indian Roots Polyglots’ named this script “Old Kodava script”.<br />(CR) <br />(CR)Two inscriptions with the Thirke script were found in two prominent temples of Kodagu, the Bhagandeshwara temple in Bhagamandala and the Palurappa Mahalingeshwara temple in Palur. These inscriptions are dated around 1370-1371 AD. The Coorg Inscriptions volume of the Epigraphia Carnatica mentioned these two 14th century inscriptions. Authored by B. L. Rice in 1914, the two inscriptions were deciphered for him by Narasimhachar and Krishna Shastri. They dismissed the inscriptions to be a mixture of scripts and languages. The inscriptions have been attributed to a King Bodharupa. Narasimhachar commented in the footnote that the two inscriptions’ characters \"are a jumble of Grantha, Malayalam, Tamil and a few Vatteluttu\".<br />(CR) <br />(CR)There is no doubt about portions being in Tamil, but other portions are in a language that is neither Malayalam nor Tulu but is related to them. The inscriptions are older than 1400 AD; some of the characters appear to go back to the 11th century. Mookonda Kushalappa separated the characters used in the two inscriptions and put together the alphabet used. According to him, this alphabet is between an intermediate transitional ‘Grantha’ script and the ‘Tulu-Tigalari’ script, and is related to the 14th century Tamil letters.(CR)(CR)Further information about Thirke can be found in this article in _Star of Mysore_: [Discovering alphabets of old Kodava script](https://starofmysore.com/discovering-alphabets-of-old-kodava-script/).(CR)(CR)![ab8ub25byg_thirke-alphabet.jpeg](images/ab8ub25byg_thirke-alphabet.jpeg)"
+landa-script-ss:
+  entrytype: online
+  title: Landa script chart
+  author: Trini1988
+  url: https://commons.wikimedia.org/wiki/File:Landha_Script.jpg
+  date: "2023-11-09"
+  organization: Wikimedia
+  presort: 22
+  sortname: Trini1988
+  keywords: [script-qaaj]
+  abstract: "Landa Script, previously used in Punjab and Sindh."
 langtags:
   entrytype: online
   entrysubtype: f
@@ -3024,6 +3673,15 @@ langtags-json:
   url: https://ldml.api.sil.org/langtags.json
   urldate: "2025-11-19"
   keywords: [writing systems, locale data]
+lanna-writing-ss:
+  entrytype: online
+  title: Lanna writing
+  url: http://en.wikipedia.org/wiki/Lanna_language
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-lana, lang-nod]
+  abstract: "A sample of text from a Thai-Lanna language study book by S. Mani Piomiang."
 lauder1921:
   entrytype: book
   title: "Manuel de prières, instructions et chants sacrés en hiéroglyphes micmacs"
@@ -3061,6 +3719,17 @@ learn-tibetan:
   urldate: "2011-08-22"
   keywords: [script-tibt, lang-bod]
   annotation: "This is a beginner's guide to reading, writing and pronouncing the letters of the Tibetan script. The author provides the disclaimer that (s)he is not a fluent Tibetan speaker but has drawn on various other sources to complie the information."
+lebedev2004-ss:
+  entrytype: online
+  title: Where once was a comma
+  author: Artemy Lebedev
+  url: https://www.artlebedev.com/mandership/105/
+  date: "2004-06-14"
+  organization: artlebedev
+  sortname: Lebedev
+  keywords: [script-cyrl]
+  addendum: "History of Russian keyboard layouts"
+  abstract: "This is an interesting web page discussing the “Standard” Russian letterkey layout [http://www.artlebedev.com/mandership/105/](http://www.artlebedev.com/mandership/105/)."
 lee2000:
   entrytype: inbook
   title: Korean Writing
@@ -3090,6 +3759,14 @@ leonidas2013:
   date: "2013-04-05"
   keywords: [char-0387, script-grek]
   annotation: "Historical examples of the ano teleia with useful commentary."
+lepcha-script-ss:
+  entrytype: online
+  title: Letters of the Lepcha Script
+  url: http://commons.wikimedia.org/wiki/File:Lepcha_script.png
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-lepc]
 letter-database:
   entrytype: online
   title: Letter Database
@@ -3111,6 +3788,13 @@ lewis1958:
   number: "1"
   keywords: [script-qa85, lang-som]
   annotation: "This article discusses an orthography invented nearly 80 years ago by a well-known Gadabuursi sheikh. This is likely to be the first description of the script in literature."
+lexilogos-ss:
+  entrytype: online
+  title: Lexilogos Data Conversion
+  url: http://www.lexilogos.com/keyboard/
+  date: "2016-01-11"
+  keywords: [script-cyrl, script-latn, script-grek, script-geor, script-geok, script-hira, script-jpan, script-hrkt, script-kana, script-kore, script-arab, script-hebr, script-hans, script-hang, script-hant, script-armn, lang-bul, lang-bel, lang-kaz, lang-mkd, lang-mon, lang-rus, lang-srp, lang-tgk, lang-ukr, lang-uzb, lang-uzn, lang-uzs, lang-grc, lang-ell, lang-hye, lang-kat, lang-jpn, lang-kor, lang-ckb, lang-yid, lang-cmn, transliteration]
+  abstract: "This page provides links (under the 'Conversion' heading) to other pages which can be used for automatic data conversion from one script to another (using the same language). The conversion is not a translation; it is a transliteration."
 lff:
   entrytype: online
   entrysubtype: f
@@ -3153,6 +3837,17 @@ liangshan1985:
   keywords: [script-yiii, lang-iii]
   abstract: "一、彝文部首；二、部首检字法；三、笔划检字法；四、检字法的说明；五、音序检字表。(CR)(CR)Section 1 lists all the radicals with their variant forms and pages where the related character listing begins for each radical.(CR)(CR)Section 2 Lists every character in the section of its radical plus additional strokes.(CR)(CR)Section 3 Lists every character by total number of strokes, and then by radical.(CR)(CR)Character entries include one or more example usages."
   annotation: "一、彝文部首；二、部首检字法；三、笔划检字法；四、检字法的说明；五、音序检字表Section 1 lists all the radicals with their variant forms and pages where the related character listing begins for each radical Section 2 Lists every character in the section of its radical plus additional strokes. Section 3 Lists every character by total number of strokes, and then by radical. Character entries include one or more example usages."
+lijang-bus-ss:
+  entrytype: online
+  title: Lijiang Bus with Chinese and Dongba characters
+  author: Someone's Moving Castle
+  url: http://en.wikipedia.org/wiki/File:Lijiang_Bus_with_Chinese_and_Dongba_characters.JPG
+  date: "2014-10-30"
+  organization: Wikipedia
+  presort: 22
+  sortname: Someone's Moving Castle
+  keywords: [script-nkdb]
+  abstract: "Dongba symbols are printed on buses in Lijiang in the Yunnan Province of China."
 lindenberg2015:
   entrytype: online
   title: Bringing Balinese to iOS
@@ -3192,6 +3887,15 @@ luo2011:
   number: "1"
   keywords: [script-hani, lang-zho]
   annotation: "This article discusses a study investigating young Chinese children’s development of orthographic processing and the factors that contribute to development. The investigation was carried out in both China and Canada to examine the effect of language learning contexts on the development of orthographic processing. The children's Chinese and English orthographic discrimination, radical position awareness, phonological awareness, character reading, and rapid digit naming were tested twice, about one year apart, and the results were compared. The article concludes from the results of the study that the language learning environment has a significant impact on the development of orthographic processing. (CR)(CR)Please note that you will need to purchase short-term access to this article in order to read the full text, or be a subscriber to the journal."
+lydian-inscription-ss:
+  entrytype: online
+  title: Marble stele with a Lydian inscription
+  url: https://commons.wikimedia.org/wiki/File:Lydian_Text.jpg
+  date: "2021-12-10"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-lydi]
+  abstract: "Marble stele with a Lydian inscription, located in the Metropolitan Museum of Art, New York City. Gift of The American Society for the Excavation of Sardis, 1926"
 ma2007:
   entrytype: book
   title: "Nuosu Yi - Chinese - English Glossary"
@@ -3213,6 +3917,16 @@ macdonald2005:
   location: New York
   pages: 58-63
   keywords: [script-tfng]
+maehr2009-ss:
+  entrytype: online
+  title: Stones inscribed with the Tibetan script
+  author: Wolfgang Maehr
+  url: http://www.flickr.com/photos/53908695@N00/3231094548
+  date: "2009"
+  organization: Flickr
+  sortname: Maehr
+  keywords: [script-tibt]
+  abstract: "Stones inscribed with the famous Buddhist compassion mantra - _Om Mani Padme Hum_ - outside the main Buddhist temple in McLeod Ganj, India."
 mafundikwa2004:
   entrytype: book
   title: Afrikan Alphabets
@@ -3319,6 +4033,15 @@ mahapatra1996:
   location: Oxford
   pages: 404-407
   keywords: [script-orya]
+mahapratyangira-mantra-ss:
+  entrytype: online
+  title: Mahapratyangira Mantra
+  url: http://commons.wikimedia.org/wiki/File:MahaPratyangira_Mantra.png
+  date: "2014-12-08"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-sidd]
+  abstract: "A Chinese Buddhist mantra using the Siddham script dated 971 AD."
 mair1999:
   entrytype: inbook
   title: Modern Chinese Writing
@@ -3331,6 +4054,46 @@ mair1999:
   location: Oxford
   pages: 200-207
   keywords: [script-hani, script-hant]
+malayalam-notice-ss:
+  entrytype: online
+  title: Public Notice in Malayalam
+  author: Arunkumar P.R
+  url: http://commons.wikimedia.org/wiki/File:Malpublicinfoboard.JPG
+  date: "2009"
+  organization: Wikimedia
+  presort: 22
+  sortname: Arunkumar
+  keywords: [script-mlym]
+  abstract: "A notice board in the Malayalam language and script informing people that using polythene bags of below 30 microns is prohibited in the Kasaragod municipality limit."
+manichaean-letter-ss:
+  entrytype: online
+  title: Manichaean letter using Sogdian script
+  url: https://commons.wikimedia.org/wiki/File:Sogdian_text_Manichaean_letter.jpg
+  date: "2023-01-30"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-sogd]
+  abstract: "Sogdian text from a Manichaean creditor Letter from around 9th to 13th century. Found in 1981 in Bezeklik Thousand Buddha Caves at Turpan, Xinjiang."
+mankash2008a-ss:
+  entrytype: online
+  title: Buginese Consonants
+  author: Mankash
+  url: http://commons.wikimedia.org/wiki/File:Buginese_consonants.png
+  date: "2008"
+  organization: Wikimedia
+  presort: 22
+  sortname: Mankash
+  keywords: [script-bugi]
+mankash2008b-ss:
+  entrytype: online
+  title: Buginese Vowels
+  author: Mankash
+  url: http://commons.wikimedia.org/wiki/File:Buginese_vowels.png
+  date: "2008"
+  organization: Wikimedia
+  presort: 22
+  sortname: Mankash
+  keywords: [script-bugi]
 martin2000:
   entrytype: misc
   title: "A Linguistic Comparison: Two Notation Systems for Signed Languages"
@@ -3341,6 +4104,14 @@ martin2000:
   publisher: Western Washington University
   keywords: [script-qaaq, script-sgnw]
   annotation: "A comparison of Stokoe Notation and Sutton SignWriting using concepts from linguistics. The discussion covers the creation and development of both systems, as well as a description of their structural features and a discussion of each one's suitability for purpose."
+masaba-syllabary-ss:
+  entrytype: online
+  title: Masaba syllabary
+  url: https://commons.wikimedia.org/wiki/File:Masaba_syllabary.png
+  date: "2025-11-10"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-qa10]
 massaquoi1911:
   entrytype: article
   title: The Vai people and their syllabic writing
@@ -3354,6 +4125,17 @@ massaquoi1911:
   number: "40"
   keywords: [script-vaii]
   annotation: "This article was written in response to an article previously published in the same journal entitled \"The Syllabic Writing of the Vai People\" by F. W. H. Migeod. The article provides a broad sketch of Vai history  and culture, and goes on to describe the development, features and use of the script. The article can be purchased from the link below for USD 29.00."
+mcclenny2008-ss:
+  entrytype: online
+  title: Namárië in the Tengwar script
+  author: Jacob McClenny
+  url: http://commons.wikimedia.org/wiki/File:Namarie_Tengwar.png
+  date: "2008"
+  organization: Wikimedia
+  presort: 22
+  sortname: McClenny
+  keywords: [script-teng]
+  abstract: "Namárië (also called Galadriel's Lament) is the longest Quenya text in the book 'The Fellowship of the Ring'. The word Namárië in the Quenya language means \"farewell\". This image was created by Jacob McClenny using the font Tengwar Annatar created by Johan Winge."
 mclaren1998:
   entrytype: article
   title: "Crossing Gender Boundaries in China: Nüshu Narratives"
@@ -3391,6 +4173,28 @@ meletis2022:
   keywords: [script-phag, script-egyp, script-ethi, script-arab, script-jpan, script-yiii, script-linb, script-hmng, script-roro, script-sgnw, script-phnx, script-vaii, script-cans, script-cher, script-armn, script-mong, script-thai, script-brah, script-taml, script-mymr, script-kana, script-kore, script-hebr, script-hani, script-latn, script-xsux, script-deva, script-hang, script-grek, script-brai, script-geor, script-cyrl, script-thaa, lang-zho, lang-tur, lang-swe, lang-spa, lang-srp, lang-san, lang-rus, lang-vai, lang-uig, lang-fas, lang-ita, lang-heb, lang-ell, lang-eng, lang-fra, lang-nld, lang-div, lang-fin, lang-deu, lang-dan, lang-por, lang-kaz, lang-chr, lang-azj, lang-hin, lang-urd, writing systems]
   abstract: "Writing is a cultural technology that has changed humankind by shaping the way we think and the way we communicate. The role it plays in our everyday lives in most modern societies is so vital that it is almost impossible to overstate its relevance. Indeed, when trying to imagine what one’s days would look like without writing, one will likely soon realise that in literate communities, life without literacy appears almost unthinkable. As a mode of communication fundamentally different from speech, writing fulfils numerous functions. Many of these have developed only in the recent past, which led to a noticeable increase of contexts in which writing is used. Due to digitalisation, for example, writing has become a very convenient and easy way of communicating. As its use in messenger services and social media shows, it is strikingly flexible with respect to degrees of formality and registers. At the same time, it is also a deeply personal and social matter as individuals and even entire cultures use it to convey their identities – be it through the choice of a specific script (such as the Roman script), the appearance of one’s handwriting in different contexts (e.g., on a shopping list vs. in a handwritten letter to a friend), the use of a specific typeface when designing a document, or the decision to obey or disobey orthographic norms, to mention only a few examples. These underline that virtually every conscious and also unconscious choice made in writing is a form of social action.(CR)(CR)It is precisely for this reason that many people perceive writing as a skill intimately tied to themselves, so much so that it could be argued that in literate communities, writing is regarded as a common good. It is to be expected, then, that matters concerning writing potentially result in heated debates. Take as examples discussions surrounding spelling reforms, the abolishment of cursive handwriting in early literacy instruction, or the question of whether certain emojis count as written words and lead to a decay of writing. Against this background, it is undeniable that writing has ceased to stand in the shadow of speech. It is obviously no longer the conservative technique reserved for scribes of the elite that it had been in ancient societies. Instead, it is now firmly established as an integral part of many lives. As such, it has also gained relevance as a subject of research, leading to the necessity and emergence of a field devoted to it."
   annotation: "An Overview of Grapholinguistics"
+meriotic-hieroglyphs-ss:
+  entrytype: online
+  title: Meroitic Hieroglyphs
+  author: Antonsusi
+  url: https://commons.wikimedia.org/wiki/File:UCB_Meroitic_Hieroglyphs.png
+  date: "2023-09-11"
+  organization: Wikimedia
+  presort: 22
+  sortname: Antonsusi
+  keywords: [script-mero]
+  abstract: "Grafiktafel für den Unicodeblock Meroitische Hieroglyphen."
+michaelovic2010-ss:
+  entrytype: online
+  title: Three Varieties of Syriac Writing
+  author: Michaelovic
+  url: http://nl.wikipedia.org/wiki/Bestand:Syrischevormen.PNG
+  date: "2010"
+  organization: Wikipedia
+  presort: 22
+  sortname: Michaelovic
+  keywords: [script-syrj, script-syre, script-syrn, lang-syc]
+  abstract: "Estrangelo, Serto (Western) and Madenhoyo (Eastern) Syriac. This text is the first line of the Lord's prayer (called Abun dBashmayo in Syriac), \"Our Father who art in Heaven\"."
 michalowski1996:
   entrytype: inbook
   title: Mesopotamian Cuneiform
@@ -3403,6 +4207,16 @@ michalowski1996:
   location: Oxford
   pages: 33-71
   keywords: [script-xsux]
+mike65ie2008-ss:
+  entrytype: online
+  title: "Ogham Inscription, County Waterford"
+  author: mike65ie
+  url: http://www.flickr.com/photos/mike65ie/2610387543/in/photostream/
+  date: "2008"
+  organization: Flickr
+  sortname: mike65ie
+  keywords: [script-ogam]
+  abstract: "Ogham stones were used to carry the earliest form of writing in Ireland and Wales, although there are examples throughout Great Britain, dating to the 4th century. This example is located within the 12th century church in the village of Ardmore, County Waterford, Republic of Ireland."
 miller2004:
   entrytype: online
   title: Much Ado About Nushu
@@ -3480,6 +4294,16 @@ mitamura1985:
   publisher: Kodansha International Ltd.
   location: Tokyo
   keywords: [script-kana]
+mkrtchyan2008-ss:
+  entrytype: online
+  title: "Armenian Inscription at Dadivank Monastery, Artsakh (Nagorno-Karabakh) Republic"
+  author: Sedrak Mkrtchyan
+  url: http://www.flickr.com/photos/517design/3097928619/in/pool-710019@N25
+  date: "2008"
+  organization: Flickr
+  sortname: Mkrtchyan
+  keywords: [script-armn]
+  abstract: "An Armenian Inscription at Dadivank Monastery, in the Karvacha district of the Artsakh (Nagorno-Karabakh) Republic."
 mohanan1996:
   entrytype: inbook
   title: Malayalam Writing
@@ -3502,6 +4326,16 @@ mohanty1820:
   date: "1820-01-01"
   keywords: [script-wcho, lang-nnp]
   annotation: "After developing a script for the phonetically nuanced Wancho language of his community, Banwang Losu, a teacher, finds it a challenge to sustain it in the school curriculum."
+mollerus2009-ss:
+  entrytype: online
+  title: Linear B Tablet
+  author: Sharon Mollerus
+  url: http://www.flickr.com/photos/38315261@N00/3404411248
+  date: "2009"
+  organization: Flickr
+  sortname: Mollerus
+  keywords: [script-linb]
+  abstract: "This Linear B inscription contains information on the distribution of bovine, pig and deer hides to shoe and saddle-makers. This clay tablets is among a number fortuitously preserved when they were baked in the Mycenaean palace of Pylos fire 250 years after having been written. It is now in the National Archaeological  Museum in Athens."
 moma2010:
   entrytype: online
   title: "@ at MOMA"
@@ -3509,6 +4343,15 @@ moma2010:
   date: "2010-10-03"
   keywords: [char-0040]
   annotation: "An article from the Museum of Modern Art (MOMA) written after they 'acquired' the @ symbol. The article touches briefly on the concept of acquiring something without physically possessing it, and without there being any connotations of exclusive ownership. It then goes on to describe the history of the @ symbol from at least the 16th century until today. Particular mention is made of Ray Tomlinson, who first used the symbol in an email address."
+mong-letter-ss:
+  entrytype: online
+  title: Letter fron Arghun Khan to Philippe le Bel
+  url: http://commons.wikimedia.org/wiki/File:ArghunLetterToPhilippeLeBelExtract1289.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-mong]
+  abstract: "An extract from a letter written in 1289 from Arghun Khan, a prominent ruler in the Mongol empire, to Philip IV of France, called Philippe le Bel. The translation of the letter is available [here](http://commons.wikimedia.org/wiki/File:ArghunLetterToPhilippeLeBelExtract1289.jpg)."
 moon-alpha:
   entrytype: online
   title: The Moon Alphabet
@@ -3516,6 +4359,15 @@ moon-alpha:
   urldate: "2011-09-28"
   keywords: [script-moon]
   annotation: "This webpage presents a chart of the characters needed to write Moon, describes the script and provides a short biography of its inventor."
+moon-type-ss:
+  entrytype: online
+  title: Moon Type Alphabet Chart
+  url: http://commons.wikimedia.org/wiki/File:Moon-type-chart.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-moon]
+  abstract: "Dr. Moon's alphabet chart showing the embossed letters of the Moon script with their Roman equivalents showing the derivation of Moon from Roman. <br />(CR)Originally found in 'Light for the Blind', William Moon, London: Longmans &amp; Co., 1877."
 moran2014:
   entrytype: online
   title: Inventory Saraiki
@@ -3538,6 +4390,16 @@ morey2005:
   location: Canberra
   pages: 179-185
   keywords: [script-ahom]
+morey2007-ss:
+  entrytype: online
+  title: Bar Amra Ahom Manuscript
+  author: Stephen Morey
+  url: http://sealang.net/archives/ahom/
+  date: "2007"
+  organization: SEALANG Ahom Dictionary Resource Project
+  sortname: Morey
+  keywords: [script-ahom]
+  abstract: "Leaf 10 of the Bar Amra manuscript (front side), an Ahom-Assamese lexicon from 1795. The manuscript belongs to Sri Junaram Sangbun Phukan. It is written on sasi bark and contains nearly 3,000 entries. It is believed to be oldest extant dictionary of any Tai-Kadai family language.(CR)(CR)Image used with permission of Dr. Stephen Morey, Ahom Dictionary Resource Project."
 morse2000:
   entrytype: inproceedings
   title: "How Do You Write Lisu?"
@@ -3806,6 +4668,50 @@ ms-wsl:
   url: https://learn.microsoft.com/en-us/windows/wsl/
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
+muhammed2023-ss:
+  entrytype: online
+  title: Incantation bowl with Aramaic inscription
+  author: Osama Shukir Muhammed Amin FRCP(Glasg)
+  url: https://commons.wikimedia.org/wiki/File:Incantation_bowl,_from_Babylon,_Iraq._Aramaic_inscription_with_a_human_figure,_4th_to_7th_century_CE._Pergamon_Museum,_Berlin.jpg
+  date: "2023-12-14"
+  organization: Wikimedia
+  presort: 22
+  sortname: Muhammed
+  keywords: [script-armi]
+  abstract: "Incantation bowl, from Babylon, Iraq. Aramaic inscription with a human figure. 4th to 7th century CE. Pergamon Museum, Berlin, Germany. The text of the incantation bowls was written in Jewish Babylonian Aramaic."
+muhammed2024-ss:
+  entrytype: online
+  title: Inscribed Stone Blocks of Paikuli Tower
+  author: Osama Shukir Muhammed Amin FRCP(Glaag)
+  url: https://commons.wikimedia.org/wiki/File:F6,_Parthian_Script,_Inscribed_Stone_Blocks_of_Paikuli_Tower.jpg
+  date: "2024-01-25"
+  organization: Wikimedia
+  presort: 22
+  sortname: Muhammed
+  keywords: [script-prti]
+  abstract: "Parthian script. The Sassanian Inscription of Paikuli. The Paikuli Tower was built by the Sassanian Emperor Narseh, c. 293 CE. From the Paikuli Tower, Paikuli Pass, near Barkal Village, Sulaymaniyah Governorate, Kurdistan, Iraq. On display at the Sulaymaniyah (Slemani) Museum, Iraq."
+muhammed2025-ss:
+  entrytype: online
+  title: Desert drawing and Safaitic inscription from Jordan
+  author: Osama Shukir Muhammed
+  url: https://commons.wikimedia.org/wiki/File:Desert_drawing_and_Safaitic_inscription_from_Jordan._1st_century_BCE_to_4th_century_CE._Jordan_Museum.jpg
+  date: "2025-11-10"
+  organization: Wikimedia
+  presort: 22
+  sortname: Muhammed
+  keywords: [script-narb]
+  abstract: "The inscription reads \"By Aqraban, son of Kasit, sone of Saad, the beautiful woman, playing the reed pipes\". Circa 100 BCE to 100 CE. From modern-day al-Mafraq, Jordan Hashemite Kingdom. On display at the Jordan Museum, Amman, Jordan.(CR)(CR)The Safaitic script is a member of the Ancient North Arabian (ANA) sub-grouping of the South Semitic script family."
+muidark2008-ss:
+  entrytype: online
+  title: Elder Futhark
+  author: MuiDark
+  url: http://commons.wikimedia.org/wiki/File:Elder_futhark.png
+  date: "2008"
+  organization: Wikimedia
+  presort: 22
+  sortname: MuiDark
+  keywords: [script-runr]
+  abstract: "The runes used for writing Elder Futhark, the earliest form of Runic writing."
 mumin2013:
   entrytype: book
   title: The Arabic Script in Africa (Studies in the Use of a Writing System)
@@ -3818,6 +4724,17 @@ mumin2013:
   keywords: [script-arab]
   abstract: "The Arabic script in Africa contains sixteen papers on the past and present use of Arabic script to write African languages. These writing traditions, which are sometimes collectively referred to as Ajami, are discussed for single or multiple languages, with examples from all major linguistic phyla of Africa but one (Khoisan), and from all geographic areas of Africa (North, West, Central, East, and South Africa), as well as a paper on the Ajami heritage in the Americas. The papers analyze (ethno-) historical, literary, (socio-) linguistic, and in particular grammatological aspects of these previously understudied writing traditions and exemplify their range and scope, providing new data for the comparative study of writing systems, literacy in Africa, and the history of (Islam in) Africa."
   annotation: "This book is relevant for the history of knowledge and literacy in (Islamic) Africa, the linguistic study of writing systems (Grammatology), the socio-linguistics of writing, and orthography development and standardization.(CR)(CR)A comprehensive review of this book is also available."
+mutichou2010-ss:
+  entrytype: online
+  title: Bengali Conjunct 'ndr'
+  author: Mutichou
+  url: http://en.wikipedia.org/wiki/File:Bengali_conjunct_ndr.png
+  date: "2010"
+  organization: Wikipedia
+  presort: 22
+  sortname: Mutichou
+  keywords: [script-beng]
+  abstract: "Up to four consecutive Bengali consonants not separated by vowels can be orthographically represented as a ligature called a \"consonant conjunct\". Typically, the first consonant in the conjunct is shown above and/or to the left of the following consonants. In this conjunct, pronounced [ndrɔ], the 'n' component here is in grey, 'd' is in blue, and 'r' is in red. The [ɔ] vowel is inherent, that is, not written."
 naden1980:
   entrytype: book
   title: Mampruli Spelling Guide
@@ -3856,6 +4773,16 @@ namecheck:
   url: https://namecheck.fontdata.com
   urldate: "2025-11-19"
   keywords: [fonts, distribution, naming]
+nandinagari-folio-ss:
+  entrytype: online
+  title: Folio of a manuscript written in Nandinagari script
+  author: ಶ್ರೀ
+  url: https://commons.wikimedia.org/wiki/File:Nandinagari_Manuscript.jpg
+  date: "2022-06-01"
+  organization: Wikimedia
+  presort: 22
+  sortname: ಶ್ರೀ
+  keywords: [script-nand]
 navas2020:
   entrytype: book
   title: Alfabeti i Vithkuqit. Analiza Ndërfushore
@@ -3867,6 +4794,15 @@ navas2020:
   publisher: Lulu
   keywords: [script-vith, lang-sqi]
   annotation: "This book, written in Albanian, presents an interdisciplinary analysis of the Vithkuq alphabet, explaining the reasons why the alphabet was created by Naum Veqilharxhi, the historical context, and the linguistic meaning. It also offers some hypothesis on why the alphabet was not used for writing the Albanian language."
+naxi-scripture-ss:
+  entrytype: online
+  title: Naxi scripture in syllabic Geba script
+  url: https://commons.wikimedia.org/wiki/File:Manuscripts_in_the_Yunnan_Nationalities_Museum_-_DSC04026.JPG
+  date: "2021-12-09"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-nkgb, lang-nxq]
+  abstract: "Naxi scripture in syllabic Geba script. Manuscripts / writing systems in the Yunnan Nationalities Museum, Kunming, Yunnan, China."
 nepal-lipi:
   entrytype: online
   title: Nepal Lipi
@@ -3897,6 +4833,27 @@ nichols1996:
   location: Oxford
   pages: 599-611
   keywords: [script-cans]
+nickmard2008-ss:
+  entrytype: online
+  title: Cuneiform Inscription in Persepolis
+  author: Nickmard
+  url: http://www.flickr.com/photos/nickmard/2591671132/in/set-72157605687516046/
+  date: "2008"
+  organization: Flickr
+  sortname: Nickmard
+  keywords: [script-xsux]
+  abstract: "This is a Cuneiform inscription from the Gate of all Nations in Persepolis. From a photograph by Nickmard, originally posted to [flickr](http://www.flickr.com/photos/nickmard/2591671132/in/set-72157605687516046/)."
+nik9hil2024-ss:
+  entrytype: online
+  title: Alphabet Chart in Dogra
+  author: nik9hil
+  url: https://commons.wikimedia.org/wiki/File:Dogra_alphabet.jpg
+  date: "2024-11-11"
+  organization: Wikimedia
+  presort: 22
+  sortname: nik9hil
+  keywords: [script-dogr, lang-dgo]
+  abstract: "Chart of the Dogra alphabet with Devanagari equivalents"
 nko-joining:
   entrytype: online
   title: Joining behaviour in N'Ko (or ߒߞߏ)
@@ -3915,6 +4872,15 @@ noorduyn1993:
   volume: "149"
   number: "3"
   keywords: [script-bugi]
+numidian-ss:
+  entrytype: online
+  title: The first published sketch of the Bilingual inscription of Dougga (Jean Emile Humbert)
+  url: https://commons.wikimedia.org/wiki/File:The_first_published_sketch_of_the_Bilingual_inscription_of_Dougga_(Jean_Emile_Humbert).jpg
+  date: "2025-10-27"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-phnx, script-qa45, lang-nxm]
+  abstract: "The first published sketch of the bilingual Ateban Mausoleum inscription of Dougga, Tunisia (Jean Emile Humbert).<br />(CR)Left side: Punic language, Phoenician script. Right side: Numidian language, Numidian script."
 obolensky1965:
   entrytype: book
   title: Amharic Basic Course
@@ -3961,6 +4927,36 @@ olac-saraiki:
   urldate: "2025-11-21"
   keywords: [lang-skr]
   annotation: "The Open Language Archives Community is an international partnership of institutions and individuals who are creating a worldwide virtual library of language resources."
+old-hungarian-inscription-ss:
+  entrytype: online
+  title: Old Hungarian Rovás inscription
+  url: http://commons.wikimedia.org/wiki/File:Enlaka_rovas_inscription.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-hung, lang-hun]
+  abstract: "This inscription in the Old Hungarian script is from the ceiling of the local Unitarian church in Énlaka, Transylvania. There is a Biblical reference in the Latin script, 'Deut vi', followed by an excerpt from this passage in the Old Hungarian script, 'There is but one God'. The inscription also includes the name, 'Georgius Musnai deacon', also written in the Old Hungarian script."
+old-italic-cippus-ss:
+  entrytype: online
+  title: "The Cippus of Perugia, 3rd or 2nd century BCE"
+  author: Sailko
+  url: https://commons.wikimedia.org/w/index.php?curid=51673403
+  date: "2023-11-20"
+  organization: Wikimedia
+  presort: 22
+  sortname: Sailko
+  keywords: [script-ital]
+  abstract: "This is a photo of a monument which is part of the cultural heritage of Italy."
+olsen2005-ss:
+  entrytype: online
+  title: Coptic Writing in Cairo
+  author: Eric Olsen
+  url: https://www.flickr.com/photos/ericolson/57726036/
+  date: "2005"
+  organization: Flickr
+  sortname: Olsen
+  keywords: [script-copt]
+  abstract: "This is a sample of Coptic writing from a wall plaque in Cairo, Egypt. Photo taken by Eric Olsen, originally posted on [flickr](http://www.flickr.com/photos/ericolson/57726036/)."
 omni-akkadian:
   entrytype: online
   title: Akkadian Cuneiform
@@ -5030,6 +6026,17 @@ omni-varang:
   urldate: "2011-09-30"
   keywords: [script-wara]
   annotation: "This page briefly describes the main features of the Warang Citi (Varang Kshiti) alphabet and includes a graphic showing the letters used to write in the script."
+onceinawhile2026-ss:
+  entrytype: online
+  title: Bronze tablet with Byblos Syllabary
+  author: Onceinawhile
+  url: https://commons.wikimedia.org/wiki/File:National_Museum_of_Beirut_%E2%80%93_Byblos_syllabary.jpg
+  date: "2026-02-12"
+  organization: Wikimedia
+  presort: 22
+  sortname: Onceinawhile
+  keywords: [script-qa29]
+  abstract: "The tablet is on display in the National Museum of Beirut."
 opentype:
   entrytype: online
   entrysubtype: f
@@ -5070,6 +6077,15 @@ opentype-post:
   url: https://learn.microsoft.com/en-us/typography/opentype/spec/post
   urldate: "2025-11-19"
   keywords: [fonts, opentype]
+oriya-vowel-diacritics-ss:
+  entrytype: online
+  title: Oriya Vowel Diacritics
+  url: https://en.wikipedia.org/wiki/Odia_script#O.E1.B9.9Biy.C4.81_Alphabet
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-orya]
+  abstract: "The eleven Oriya vowels written with the consonant 'G', plus the halant symbol which cancels the vowel."
 osborn2004:
   entrytype: online
   title: (Salifou) Hausa Alphabet
@@ -5087,6 +6103,14 @@ osborn2005:
   date: "2005-04-19"
   keywords: [script-qa15]
   annotation: "This page contains a character chart showing the letters of the alphabet used by the Raina Kama writers' circle."
+osmanya-alphabet-ss:
+  entrytype: online
+  title: Osmanya Alphabet
+  url: http://en.wikipedia.org/wiki/File:Ciismaniya.jpg
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-osma]
 otcookbook:
   entrytype: online
   entrysubtype: f
@@ -5118,6 +6142,39 @@ pae2011:
   number: "2"
   keywords: [script-kore, script-hang, lang-kor, syllabary]
   annotation: "This article argues against the conventional categorisation of Korean Hangul as a syllabic alphabet, and proposes that it be reclassified as an alphabetic syllabary. The article draws on evidence from the orthography, phonology, and morphology of the Korean language, as well as the role of vowels in written Korean, to support the author's position. Please note that you need to be a subscriber to this journal in order to access the full article. There is also an option to purchase short-term access to the article."
+pahlavi-codex-ss:
+  entrytype: online
+  title: Pahlavi Codex MK
+  author: اردشیر خسروی
+  url: https://commons.wikimedia.org/wiki/File:%D9%88%D8%B1%D9%82%DB%8C_%D8%A7%D8%B2_%D9%85%D8%AA%D9%86_%DA%A9%D8%A7%D8%B1%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%B1%D8%AF%D8%B4%DB%8C%D8%B1_%D8%A8%D8%A7%D8%A8%DA%A9%D8%A7%D9%86_%D8%A7%D8%B2_%D8%AF%D8%B3%D8%AA%D9%86%D9%88%D8%B4%D8%AA%D9%87_%D9%BE%D9%87%D9%84%D9%88%DB%8C_%D9%85%D9%87%D8%B1%D8%A8%D8%A7%D9%86_%DA%A9%DB%8C%D8%AE%D8%B3%D8%B1%D9%88_%D9%85%D8%AA%D8%B9%D9%84%D9%82_%D8%A8%D9%87_%D8%B3%D8%A7%D9%84_1323_%D9%85%DB%8C%D9%84%D8%A7%D8%AF%DB%8C_(Pahlavi_Codex_MK).jpg
+  date: "2025-12-04"
+  organization: Wikimedia
+  presort: 22
+  sortname: اردشیر خسروی
+  keywords: [script-phlv]
+  abstract: "A page from the text of the Karnameh of Ardeshir Babakan from the Pahlavi manuscript of Mehraban Keykhosro dating from 1323 AD (Pahlavi Codex MK). This manuscript would have been a copy of Pahlavi writings from much earlier."
+palmyrene-inscription-ss:
+  entrytype: online
+  title: Palmyrene Inscription (Louvre Museum)
+  author: Marie-Lan Nguyen
+  url: https://commons.wikimedia.org/wiki/File%3AInscription_Palmyra_Louvre_AO2205.jpg
+  date: "2017-08-04"
+  organization: Wikimedia
+  presort: 22
+  sortname: Nguyen
+  keywords: [script-palm]
+  abstract: "Funerary slabstone from Palmyra bearing an inscription:_[On the month of] Nisan or the year [3]08. This is the tomb of Zabdibōl, son of (...) 'Ataraùri of the Benē Komrē, that he made for him and his children._"
+panigrahi2022-ss:
+  entrytype: online
+  title: Mangei Gomango statue with Sorang Sompeng and Odia inscription
+  author: Subhashish Panigrahi
+  url: https://commons.wikimedia.org/wiki/File:Mangei_Gomango.JPG
+  date: "2022-11-16"
+  organization: Wikimedia
+  presort: 22
+  sortname: Panigrahi
+  keywords: [script-orya, script-sora]
+  abstract: "Mangei Gomango's stone statue in the Odisha Tribal Development Society (OTDS), Bhubaneswar office, Odisha, India. He created the Sorang Sompeng script."
 papazian:
   entrytype: online
   title: Armenotype
@@ -5140,6 +6197,15 @@ parpola1996:
   location: Oxford
   pages: 165-171
   keywords: [script-inds]
+parthian-shapur-ss:
+  entrytype: online
+  title: "Parthian version of the Shapur I inscription at Ka'ba-ye Zartosht"
+  url: https://commons.wikimedia.org/w/index.php?curid=66630825
+  date: "2023-07-13"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-phli, lang-xpr]
+  abstract: "Ka'ba-ye Zartosht, a stone quadrangular and stepped structure, is located in Naqsh-e Rustam, an ancient necropolis located northwest of Persepolis in today's Fars Province, Iran. The inscription is written in Middle Persian, Parthian, and Greek; the Parthian inscription uses Inscriptional Pahlavi."
 peckham1968:
   entrytype: book
   title: The development of the late Phoenician scripts
@@ -5157,6 +6223,32 @@ persian-alpha:
   urldate: "2011-08-22"
   keywords: [script-arab, lang-fas]
   annotation: "This page describes the Arabic script as used for writing the Farsi language."
+phags-pa-inscription-ss:
+  entrytype: online
+  title: "Gravestone of Yang Wengshe with Phags-pa inscription (dated 1314)"
+  url: http://commons.wikimedia.org/wiki/File:Yang_Wengshe_1314.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-phag]
+phags-pa-vinokurov-tablet-ss:
+  entrytype: online
+  title: "Phags-pa Vinokurov Tablet"
+  url: https://commons.wikimedia.org/wiki/File:Phagspa_vinokurov_tablet.jpg
+  date: "2022-10-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-phag, lang-xng]
+  abstract: "Yuan Dynasty Official Pass (The \"Vinokurov Tablet\"). Inscription in Mongolian (Phags-pa script).<br />(CR)Translation: _By the power of eternal heaven, [this is] an order of the Emperor. Whoever does not show respect [to the bearer] will be guilty of an offence_"
+phonetian-carving-ss:
+  entrytype: online
+  title: Phoenician Script Carving
+  author: Özgür Mülazımoğlu
+  url: http://www.flickr.com/photos/mulazimoglu/3323335392/
+  date: "2009"
+  organization: Flickr
+  sortname: Mülazımoğlu
+  keywords: [script-phnx]
 pinyinjoe:
   entrytype: online
   title: "Pinyin Joe - Windows Vista Chinese Zhuyin / Bopomofo Setup"
@@ -5199,6 +6291,26 @@ price:
   urldate: "2011-08-19"
   keywords: [script-deva, lang-hin]
   annotation: "This is part of an online Hindi language-learning course which is presented in podcast format. This part of the course teaches the correct pronunciation of Devanagari characters for Hindi, with tips on avoiding common orthographic/phonetic pitfalls."
+proclamation-uprising-ss:
+  entrytype: online
+  title: "Proclamation of the Ilinden-Preobrazhenie uprising in The II Revolutionary district"
+  url: http://commons.wikimedia.org/wiki/File:Ilinden-Preobrazhenie-proclamation.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-cyrl, lang-bul]
+  abstract: "Proclamation of the Internal Macedonian Revolutionary Organisation to start the Ilinden uprising of August 1903. This was an organized revolt spread across Macedonia, Greece, Bulgaria and Turkey, against the Ottoman Empire. The document is handwritten in the Bulgarian language using the Cyrillic script."
+proto-elamite-ss:
+  entrytype: online
+  title: "Proto-Elamite economic tablet"
+  author: Marie-Lan Nguyen
+  url: https://commons.wikimedia.org/wiki/File:Economic_tablet_Susa_Louvre_Sb3047.jpg
+  date: "2021-11-12"
+  organization: Wikimedia
+  presort: 22
+  sortname: Nguyen
+  keywords: [script-pelm]
+  abstract: "Economic tablet with numeric signs and Proto-Elamite script. Clay accounting tokens, Uruk period. From the Tell of the Acropolis in Susa."
 pysilfont:
   entrytype: online
   entrysubtype: f
@@ -5261,6 +6373,14 @@ rawlinson1889:
   publisher: Forgotten Books
   pages: 228-248
   keywords: [script-phnx]
+recommended-chars-ss:
+  entrytype: online
+  title: "Recommended characters for Non-Roman fonts"
+  url: https://github.com/silnrsi/pysilfont/blob/master/src/silfont/data/required_chars.csv
+  date: "2024"
+  organization: SIL Global
+  keywords: [fonts]
+  abstract: ":::tip[](CR)SIL has updated the list of recommended characters and the file for this is now in a format useful for pysilfont. The updated file, which will continue to be maintained, is available in  [this repository](https://github.com/silnrsi/pysilfont/blob/master/src/silfont/data/required_chars.md). The file itself is here: [https://github.com/silnrsi/pysilfont/blob/master/src/silfont/data/required_chars.csv](https://github.com/silnrsi/pysilfont/blob/master/src/silfont/data/required_chars.csv). The information below is still available for historical reasons, but it will not be further updated.(CR):::For optimal compatibility with a variety of operating systems, all Non-Roman fonts should include a set of glyphs for basic Roman characters and punctuation. Ideally this should include all the following characters, although some depend on other considerations (see the notes). The basis for this list is a union of the Windows Codepage 1252 and MacRoman character sets plus additional useful characters. This list is also available as a [download file](https://scriptsource.org/entry/ur5l5lvx87).(CR)(CR)Although this page is not intended to explain how to implement OpenType for these characters, there are some notes which might be valuable for implementers.(CR)(CR)|  Block  |  Chars  |  Why Include?  |(CR)| ------- | ------- | -------------- |(CR)|  Basic Latin  |  0020..007E  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  Latin-1 Supplement  |  00A0..00FF  |  Codepage 1252<br/>(many are also in Mac-Roman)  |(CR)|  Latin Extended-A  |  0131  |  Mac-Roman  |(CR)|  Latin Extended-A  |  0152..0153, 0160..0161, 0178, 017D..017E  |  Codepage 1252<br/>(many are also in Mac-Roman)  |(CR)|  Latin Extended-B  |  0192  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  IPA Extensions  |   |  Some have requested adding any IPA characters that are in use in the country. WSTech recommends _not_ trying to make your Non-Roman font suitable for linguistics as well. Linguists should be encouraged to use a complete font such as [Doulos SIL](http://software.sil.org/doulos/) or [Charis SIL](http://software.sil.org/charis/). An application like [FLEx](http://software.sil.org/fieldworks) should recognize that such linguistic \"markup\" may be in a different script from the vernacular data, so it may need to use separate fonts (and writing system behaviors) for those elements that are not in the same orthography as the vernacular data.  |(CR)|  Spacing Modifier Letters  |  02C6, 02DC  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  Spacing Modifier Letters  |  02C7, 02D0, 02D8..02DB, 02DD  |  Mac-Roman  |(CR)|  Combining Diacritical Marks  |  034F  |  Add if your Non-Roman script needs the CGJ  |(CR)|  Greek and Coptic  |  03C0  |  Mac-Roman  |(CR)|  General Punctuation  |  2000..2012  |  **Note 1:** Control characters, typically shown in the standard with a dotted square box, should be included to support publishing and Non-Roman fonts. Depending on rendering engine and smart font logic, the default glyph for a control character might be (1) a visible glyph which, if a \"show invisibles\" feature is not enabled, is then either deleted or substituted by an invisible glyph during rendering, or (2) an invisible glyph which can then be substituted by a visible glyph using the \"show invisibles\" feature. <br/>**Note 2:** Many of the spaces  and dashes are necessary for publishing. <br/>**Note 3:** Some punctuation characters in a font need to work for both Roman and Non-Roman script, but a different shape may be needed for each. In that case, you should include both sets of punctuation in the font. The cmap should point to the Latin-compatible ones; the others should be unencoded. However, in the OpenType table for your Non-Roman script, in the \"ccmp\" feature, substitute the Non-Roman-compatible glyphs for the Latin ones (thus the font works for _both_ scripts). This will only work if the Non-Roman script is well supported by applications and rendering engines. In the case of a script such as Ethiopic, the Ethiopic-style punctuation never gets substituted. In this case, the default should be Ethiopic-style punctuation and a Stylistic Set is an option for turning on Latin-style punctuation.  |(CR)|  General Punctuation  |  2013..2014  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  General Punctuation  |  2015  |  See \"Note 2\" above.  |(CR)|  General Punctuation  |  2018..201A, 201C..201E, 2020..2022, 2026  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  General Punctuation  |  2027  |  Used in publishing.  |(CR)|  General Punctuation  |  2028..2029  |  See \"Note 1\" above.  |(CR)|  General Punctuation  |  202A..202E  |  See \"Note 1\" above. These are only needed if the font supports right-to-left scripts. |(CR)|  General Punctuation  |  202F  |  See \"Note 1\" above.  |(CR)|  General Punctuation  |  2030, 2039..203A  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  General Punctuation  |  2044  |  Mac-Roman  |(CR)|  General Punctuation  |  2060  |  See \"Note 1\" above.  |(CR)|  General Punctuation  |  2066..2069  |  See \"Note 1\" above. These are only needed if the font supports right-to-left scripts. |(CR)|  Currency Symbols  |  20AC  |  Codepage 1252<br/>Consider adding currency symbol(s) that may be needed for the countries where the fonts might be used.  |(CR)|  Letterlike Symbols  |  2122  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  Letterlike Symbols  |  2126  |  Mac-Roman  |(CR)|  Mathematical Operators  |  2202, 2206, 220F, 2211  |  Mac-Roman  |(CR)|  Mathematical Operators  |  2219  |  Sometimes used instead of 00B7.  |(CR)|  Mathematical Operators  |  221A, 221E, 222B, 2248, 2260, 2264..2265  |  Mac-Roman  |(CR)|  Control Pictures  |  2423  |  Used to represent a visible space in TeX  |(CR)|  Geometric Shapes  |  25CA  |  Mac-Roman  |(CR)|  Geometric Shapes  |  25CC  |  If your OpenType font supports combining diacritics, be sure to include U+25CC DOTTED CIRCLE in your font, and optionally include this in your positioning rules for all your combining marks. This is because Uniscribe will insert U+25CC between \"illegal\" diacritic sequences (such as two U+064E characters in a row) to make the mistake more visible.<br/>See [Handling invalid combining marks](https://docs.microsoft.com/en-us/typography/script-development/arabic#handling-invalid-combining-marks).  |(CR)|  Alphabetic Presentation Forms  |  FB01..FB02  |  Mac-Roman  |(CR)|  Variation Selectors  |  FE00.FE0F  |  We recommend that _all_ fonts include support for Unicode variation selectors, even if the characters supported by a font don't combine with VSs — in fact, especially if they don't — i.e. add them to the cmap and point them to null glyphs.<br/>The reason is this: it's possible that at some point in the future a VS mapping could be defined for potentially any character in Unicode. It's not all that likely to happen for the characters in the standard now, but there is no way in principle to guarantee it. If at some point in the future text started appearing with VSs where you didn't expect them before (e.g. a VS within Cyrillic script), then you wouldn't want people (using your previously existing fonts) to suddenly start seeing boxes (or whatever is used to represent unsupported glyphs). Of course, your font would not display the variant glyph they would like to see, but the font would still display something legible.<br/>Related to this, people need a way on occasion to see hidden control characters such as VSs, ZWJs, viramas and other similar characters. All fonts should include control picture glyphs for all of these ... and there should be an OT feature that turns off any shaping based on these controls and causes these control pictures to be displayed.[^1] |(CR)| Arabic Presentation Forms-B  |  FEFF  |  BYTE ORDER MARK, making this visible might be helpful  |(CR)| Specials  |  FFFC..FFFD  |  Encoding conversion utilities often put these in, and it's a lot easier for someone looking at the converted text to figure out what's going on if these have a visual representation.  |(CR)(CR)(CR)(CR)(CR)(CR)[^1]: This note was first posted to an OpenType mailing list by a member of the WSTech team(CR)(CR)(CR)(CR)(CR)"
 redish:
   entrytype: misc
   title: The Cherokee Alphabet And How To Use It
@@ -5281,6 +6401,15 @@ reisenberg1960:
   number: "1"
   keywords: [script-wole]
   annotation: "This paper is one of the most widely-quoted in material concerning the history of the Woleai script. At the time of writing, there was a theory that the script was a degenerate relic of an ancient writing method from the Asiatic mainland or Easter Island. Reisenberg and Kaneshiro argue, however, for a partially Latin derivation, a Latin-based script having developed elsewhere in the region as a misunderstood response to brief instruction given by the castaway Alfred Snelling. This was not well-suited to the writing of Woleain, so was abandoned in favour of a second and wholly new syllabary which combined the signs used in Snelling's system with local environmental and cultural symbols."
+rejang-alphabet-chart-ss:
+  entrytype: online
+  title: Rejang Alphabet Chart
+  url: http://commons.wikimedia.org/wiki/File:Rejang_alphabet.jpg
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-rjng]
+  abstract: "Image originally found in vol. 2 of John Crawfurd's 'History of the Indian Archipelago' published in 1820."
 rfns:
   entrytype: online
   entrysubtype: f
@@ -5430,6 +6559,17 @@ rovenchak2009:
   keywords: [script-bamu, script-qabh]
   abstract: "The Bagam (Eghap) script from the Grassfields region of Cameroon is briefly analyzed. An attempt to identify the phonetic values of some Bagam characters is made and some similarity with the Bamum script is reported."
   annotation: "Paper analyzing the Bagam script."
+ryazanov2023-ss:
+  entrytype: online
+  title: "Cypro-Minoan clay tablet from Enkomi, Cyprus"
+  author: Mikhail Ryazanov
+  url: https://commons.wikimedia.org/wiki/File:Enkomi.png
+  date: "2023-06-05"
+  organization: Wikimedia
+  presort: 22
+  sortname: Ryazanov
+  keywords: [script-cpmn]
+  abstract: "Drawing of tablet ca. 1300 BCE– ca. 1200 BCE from Enkomi, Cyprus."
 sadan:
   entrytype: online
   title: Oketz
@@ -5471,6 +6611,17 @@ sanjian1996:
   location: New York
   pages: 356-362
   keywords: [script-armn]
+sanskrit-sharada-ss:
+  entrytype: online
+  title: "Sanskrit in Sharada script (birch-bark manuscript)"
+  author: Dbachmann
+  url: https://commons.wikimedia.org/wiki/File:Kashmir_Sharada_MS.jpg
+  date: "2017-08-11"
+  organization: Wikimedia
+  presort: 22
+  sortname: Dbachmann
+  keywords: [script-shrd, lang-san]
+  abstract: "Three paddhatis on Kashmiri Shaivite rituals. Date not known, probably 17th or 18th century AD. The original is kept in the University Library, University of Tuebingen, library catalog numbers Ma I 404,1-3."
 santos2020:
   entrytype: inproceedings
   title: Design and Evaluation of a Smartphone Keyboard for Plains Cree Syllabics
@@ -5481,6 +6632,17 @@ santos2020:
   date: "2020"
   keywords: [script-cans, lang-crk, keyboards]
   annotation: "Plains Cree is a less-resourced language in Canada. To promote its usage online, we describe previous keyboard layouts for typing Plains Cree syllabics on smartphones. We describe our own solution whose development was guided by ergonomics research and corpus statistics. We then describe a case study in which three participants used a previous layout and our own, and we collected quantitative and qualitative data. We conclude that, despite observing accuracy improvements in user testing, introducing a brand new paradigm for typing Plains Cree syllabics may not be ideal for the community."
+sapedder2020-ss:
+  entrytype: online
+  title: Example of Multani script
+  author: Sapedder
+  url: https://commons.wikimedia.org/wiki/File:Example_of_a_Multani_variant_of_Landa_script,_a_mercantile_shorthand_script_of_Punjab,_from_1880.png
+  date: "2020-05-22"
+  organization: Wikimedia
+  presort: 22
+  sortname: Sapedder
+  keywords: [script-mult]
+  abstract: "Example of a Multani variant of Landa script, a mercantile shorthand script of Punjab, from 1880"
 savage2008:
   entrytype: article
   title: Writing Tuareg — the three script options
@@ -5593,6 +6755,16 @@ sherwood2011:
   date: "2011-04-30"
   keywords: [script-sunu]
   annotation: "Glyph of the Day is a website set up by Kaitlin Duck Sherwood to give a snapshot of a different script every day, often with a focus on a particular character. On April 30th, 2011 the site featured the Jenticha script.(CR)(CR)(Please note that the Jenticha Unicode proposal linked to from this web page has been superseded by a newer version.)"
+shirokazan2008-ss:
+  entrytype: online
+  title: Station Sign with Hiragana Text
+  author: shirokazan
+  url: http://www.flickr.com/photos/11302107@N05/3009177612
+  date: "2008"
+  organization: Flickr
+  sortname: shirokazan
+  keywords: [script-hira]
+  abstract: "Standard sign. The station name is written in three script systems. At the top it is written in hiragana, in the middle in kanji, and in roman alphabet on the green arrowed line. At the very bottom, the names of the adjacent stations are given. B76 is the station number given to Kitahama by JR Hokkaido (the rail company)."
 shoulson:
   entrytype: online
   title: Overview of Visible Speech
@@ -5610,6 +6782,15 @@ shoulson2006:
   date: "2006-02-08"
   keywords: [script-visp]
   annotation: "This is Mark Shoulson's page, written to accompany his Visible Speech font. The page focuses on the development and use of the script, rather than providing technical orthographic information, but is an interesting historical overview. Shoulson also provides links to other pages about Visible Speech, including some scanned images of the script in use."
+shuishu-script-ss:
+  entrytype: online
+  title: Sample of Shuishu script
+  url: https://commons.wikimedia.org/wiki/File:Li%C3%B9ji%C7%8E_F%C7%8Ensh%C5%AB,_Page_3.JPG
+  date: "2017-11-24"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-shui]
+  abstract: "Page 3 of a book written in Shuishu (author unknown)."
 siddalingaiah:
   entrytype: book
   title: ABC of Tamil Book One
@@ -5805,6 +6986,26 @@ smith1996:
   location: Oxford
   pages: 209-216
   keywords: [script-hrkt, script-jpan, script-hira, script-kana]
+sogdian-alphabet-ss:
+  entrytype: online
+  title: Sogdian alphabet
+  author: Lubossekk
+  url: https://commons.wikimedia.org/wiki/File:Sogdian_alphabet.jpg
+  date: "2025-10-16"
+  organization: Wikimedia
+  presort: 22
+  sortname: Lubossekk
+  keywords: [script-sogd]
+  abstract: "Sogdian Alphabet"
+song-dynasty-hanzi-text-ss:
+  entrytype: online
+  title: Song Dynasty Hanzi Text
+  url: http://en.wikipedia.org/wiki/File:%E6%B5%99%E6%B1%9F%E5%A7%93%E8%A7%A31.jpeg
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-hani, lang-zho]
+  abstract: "This is a page from a publication dating from the Song Dynasty (960-1279), resembling the handwriting of Ouyang Xun, a Confucian scholar and calligrapher."
 song2010:
   entrytype: article
   title: Resistance to complexity interacting with visual shape—German and Korean orthography
@@ -5824,6 +7025,28 @@ sourcetree:
   url: https://sourcetreeapp.com/
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
+soyombo-symbol-ss:
+  entrytype: online
+  title: Soyombo symbol on the gate of the Government Palace in Ulaanbaatar.
+  author: Chinneeb
+  url: https://commons.wikimedia.org/wiki/File:GovPalaceSoyombo.jpg
+  date: "2019-11-28"
+  organization: Wikimedia
+  presort: 22
+  sortname: Chinneeb
+  keywords: [script-soyo, char-11aa0, char-11a9f, char-11a9e]
+  abstract: "The Soyombo symbol has appeared on the national Flag of Mongolia since its independence in 1911 (except between 1940-1945). It served as the Emblem of Mongolia from 1911 to 1940, and was included in the design again in 1992. Mongolian Armed Forces vehicles bear the symbol as a marking. The symbol is seen all over the country.(CR)(CR)In the Soyombo alphabet, the two variations of the Soyombo symbol are used to mark the start and end of a text."
+soyombo-writing-ss:
+  entrytype: online
+  title: Soyombo script writing of Mongolia
+  author: Orgio89
+  url: https://commons.wikimedia.org/wiki/File:The_Soyombo_script_writing_of_Mongolia.jpg
+  date: "2019-11-28"
+  organization: Wikimedia
+  presort: 22
+  sortname: Orgio89
+  keywords: [script-soyo]
+  abstract: "The Soyombo script writing of Mongolia. This script was first created by Zanabazar."
 ss-script-adlm:
   entrytype: online
   title: Adlam
@@ -8093,6 +9316,27 @@ stern2004:
   date: "2004-10-18"
   keywords: [script-hebr]
   annotation: "This article is taken from a talk about Hebrew Latinized type given at the 2004 Friends of St Bride Conference. It is an attempt to demonstrate why Latinized Hebrew type is problematic, both from cultural and functional aspects. The article provides an overview of the Hebrew script, and a comparison of Hebrew and Latin writing, followed by a discussion of the influence of Latin on Hebrew. This is attributed in part to globalization, and, in particular, what the author refers to as Israel's process of Americanization."
+sundanese-cons-ss:
+  entrytype: online
+  title: Sundanese Consonants
+  author: DIN
+  url: http://commons.wikimedia.org/wiki/File:Sundanese-consonants.svg
+  date: "2009"
+  organization: Wikimedia
+  presort: 22
+  sortname: DIN
+  keywords: [script-sund]
+susa-seal-ss:
+  entrytype: online
+  title: Susa seal with Indus signs
+  author: पाटलिपुत्र
+  url: https://commons.wikimedia.org/wiki/File:Susa_seal_with_Indus_signs.jpg
+  date: "2019-05-31"
+  organization: Wikimedia
+  presort: 22
+  sortname: पाटलिपुत्र
+  keywords: [script-inds]
+  abstract: "This file was derived from: Indus cylinder seal with elongated buffalo with Harappan script imported to Susa in 2600-1700 BCE LOUVRE Sb 2425.jpg"
 sutton:
   entrytype: online
   title: SignWriting for Sign Languages
@@ -8125,6 +9369,57 @@ swiggers1996lycian:
   location: Oxford
   pages: 282-284
   keywords: [script-lyci]
+syriac-estrangela-ss:
+  entrytype: online
+  title: Syriac Estrangela parchment
+  url: https://commons.wikimedia.org/wiki/File:Estrangela.jpg
+  date: "2020-06-05"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-syre]
+  abstract: "9th century manuscript from the Monastery of St Catherine, Mt Sinai"
+tagalog-anthem-ss:
+  entrytype: online
+  title: "Lupang Hinirang, the national anthem of the Philippines, in the Tagalog script"
+  author: JournalmanManila
+  url: https://commons.wikimedia.org/wiki/File:Lupang-hinirang_baybayin.png
+  date: "2020-07-01"
+  organization: Wikimedia
+  presort: 22
+  sortname: JournalmanManila
+  keywords: [script-tglg, lang-fil]
+  abstract: "The lyrics of Lupang Hinirang in Filipino, with the flag of the Philippines behind it."
+tagalog-script-ss:
+  entrytype: online
+  title: Letters of the Tagalog (Baybayin) Script
+  author: Nhatbon
+  url: http://commons.wikimedia.org/wiki/File:Baybayin%28alibata%29traditional_form.jpg
+  date: "2009"
+  organization: Wikimedia
+  presort: 22
+  sortname: Nhatbon
+  keywords: [script-tglg]
+  abstract: "Chart showing the letters used for writing the Tagalog script. The pink row shows the independent forms of the vowels, the orange row shows vowel diacritics with the [ka] consonant, and the green rows show the consonants."
+tagbanwa-letters-ss:
+  entrytype: online
+  title: Tagbanwa Letters
+  url: http://en.wikipedia.org/wiki/File:Tagbanwa.svg
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-tagb]
+  abstract: "The consonant+vowel combinations used for writing the Tagbanwa script."
+tautintanes2020-ss:
+  entrytype: online
+  title: The lead plaque I from la Bastida
+  author: Tautintanes
+  url: https://commons.wikimedia.org/wiki/File:Plom_I_de_La_Bastida_(Cara_A).jpg
+  date: "2020-11-16"
+  organization: Wikimedia
+  presort: 22
+  sortname: Tautintanes
+  keywords: [script-qa37]
+  abstract: "Inscription on lead plaque found at La Bastida de les Alcuses in Valencia, Spain."
 teckit:
   entrytype: online
   entrysubtype: f
@@ -8190,6 +9485,26 @@ threatte1996:
   location: Oxford
   pages: 271-280
   keywords: [script-grek]
+tibetan-script-radicals-ss:
+  entrytype: online
+  title: Tibetan Script Radicals
+  url: http://commons.wikimedia.org/wiki/File:Tibetan-script.png
+  urldate: "2026-04-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-tibt]
+  abstract: "The Tibetan script has 30 consonants, otherwise known as radicals."
+tigalari-folio-ss:
+  entrytype: online
+  title: Folio of Sanskrit writing in Tigalari script
+  author: ಶ್ರೀ 
+  url: https://commons.wikimedia.org/wiki/File:Tigalari-sanskrit-manuscript.jpg
+  date: "2019-08-21"
+  organization: Wikimedia
+  presort: 22
+  sortname: ಶ್ರೀ 
+  keywords: [script-tutg, lang-san]
+  abstract: "Image from [wikimedia](https://commons.wikimedia.org/wiki/File:Tigalari-sanskrit-manuscript.jpg)"
 tiwari2011:
   entrytype: article
   title: "A preliminary investigation of akshara knowledge in the Malayalam alphasyllabary: extension of Nag’s (2007) study"
@@ -8212,6 +9527,15 @@ toba2005:
   publisher: UNESCO
   keywords: [script-qabl, script-brah]
   annotation: "This paper discusses the languages of Nepal in the context of the country's geographic, socio-linguistic and multi-cultural situation. It was written as a follow up to the UNESCO Universal Declaration on Cultural Diversity and to the proclamation of 21 May as the World Day for Cultural Diversity for Dialogue and Development in 2001."
+todhri-alphabet-ss:
+  entrytype: online
+  title: Todhri alphabet
+  url: https://commons.wikimedia.org/wiki/File:Todhri-alphabet.jpg
+  date: "2023-04-24"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-todr]
+  abstract: "View of the letter of Todhri alphabet, as shown by George Von Hahn in 1854."
 tol2008:
   entrytype: inproceedings
   title: "Rolled up Bugis Stories: a parakeet's song of an old marriage calendar"
@@ -8231,6 +9555,17 @@ toledo2001:
   publisher: Tel Aviv University
   keywords: [script-hebr]
   annotation: "Sivan Toledo has prepared an annotated bibliography of resources on Hebrew typesetting. The bibliography focuses on how Hebrew is printed, not on what is printed, nor where or by whom. It covers typesetting in the Hebrew, Yiddish and Ladino languages since the 19th century. The link below starts a download of the document in PDF format."
+topno2024-ss:
+  entrytype: online
+  title: Mundari script chart
+  author: Vineet Topno
+  url: https://commons.wikimedia.org/wiki/File:MundariLanguageScript.jpg
+  date: "2024-02-22"
+  organization: Wikimedia
+  presort: 22
+  sortname: Topno
+  keywords: [script-nagm, lang-unr]
+  abstract: "This is Mundari Bani, the script specifically used to write Mundari language, an Austro-Asiatic language in India"
 tranter2008:
   entrytype: article
   title: Nonconventional script choice in Japan
@@ -8254,6 +9589,14 @@ truetype:
   url: https://developer.apple.com/fonts/TrueType-Reference-Manual/index.html
   urldate: "2025-11-19"
   keywords: [fonts]
+ttfautohint-ss:
+  entrytype: online
+  title: ttfautohint
+  url: http://www.freetype.org/ttfautohint/
+  urldate: "2026-04-17"
+  organization: FreeType
+  keywords: [fonts, font tools]
+  abstract: "A basic interface and related library for applying FreeType's excellent autohinting engine to fonts, even when they are used on other non-FreeType platforms (specifically Windows). It can deliver a dramatic improvement for many Latin-script fonts, but is not currently well-suited for non-Latins. Future development plans do include intentional support for major script families."
 tuchscherer1995:
   entrytype: article
   title: "African Script and Scripture: The History of the Kikakui (Mende) Writing System for Bible Translations"
@@ -8295,6 +9638,28 @@ tuchscherer2007:
   pages: 37-53
   keywords: [script-qabh, script-nkoo, script-bass, script-vaii, script-mend, script-bamu]
   annotation: "This chapter is part of the catalogue that accompanied the 2007 exhibition, Inscribing Meaning, at the Smithsonian Institute, which explored the relationships between African art, graphic systems and the written word. This chapter discusses graphic symbolism in Africa, and provides a historical overview of the spread of written communication in the context of African religion, art and major historical events in the region. A number of indigenous African writing systems are discussed in some detail."
+tulu-symbols-ss:
+  entrytype: online
+  title: Tulu Symbols
+  author: Gyopi
+  url: http://commons.wikimedia.org/wiki/File:Tulu_glyphs.png
+  date: "2009"
+  organization: Wikimedia
+  presort: 22
+  sortname: Gyopi
+  keywords: [script-tutg]
+  abstract: "A matrix showing all possible consonant+vowel combinations in the Tulu script."
+turkestani-brahmi-ss:
+  entrytype: online
+  title: Sample of Turkestani Brahmi script
+  author: Sarah Welch
+  url: https://commons.wikimedia.org/wiki/File:5th_or_6th_century_Weber_manuscripts_example,_Central_Asian_script,_Sanskrit,_with_caption.jpg
+  date: "2023-11-23"
+  organization: Wikimedia
+  presort: 22
+  sortname: Welch
+  keywords: [script-qa53, lang-san]
+  abstract: "This is a part of nine Weber manuscripts discovered in the 19th-century in northwest China, analyzed and published in 1893 by August Friedrich Rudolf Hoernle. Later tracing suggest that the manuscripts were discovered in Kucha, in the region where the Bower manuscripts were discovered.<br />(CR)The manuscripts are now preserved at the Bodleian Library, Oxford University (MS 1091, ABCIM 238).(CR)(CR)The 9 manuscripts are historically significant as they are among the oldest known paper manuscripts of the Indian subcontinent literature. Of the nine, four manuscripts have been traced to be on paper made in Nepal, the other five on paper made in Central Asia.(CR)(CR)The first 8 of the 9 manuscripts are in Sanskrit language, the last is a mix of Pali and Sanskrit language with numerous grammatical errors.(CR)(CR)The Weber manuscripts are a collection of different texts written in different scripts. Four are in early northwest Gupta script, others in Turkestani Brahmi (formerly called Central Asian Nagari script). Both of these scripts became extinct long ago, because they evolved into other regional writing scripts such as Sarda, Siddha, Devanagari, Nandinagari and others."
 twardoch-kreska:
   entrytype: online
   title: "Kreska - not exactly acute"
@@ -8420,6 +9785,27 @@ ufo3:
   url: https://unifiedfontobject.org/versions/ufo3/
   urldate: "2025-11-19"
   keywords: [fonts, font tools]
+ugaritic-alphabet-ss:
+  entrytype: online
+  title: Ugaritic alphabet chart
+  author: AnonMoos
+  url: https://commons.wikimedia.org/wiki/File:Ugaritic-alphabet-chart.svg
+  date: "2018-11-19"
+  organization: Wikimedia
+  presort: 22
+  sortname: AnonMoos
+  keywords: [script-ugar]
+  abstract: "A table of the letters of the Ugaritic cuneiform alphabet, with corresponding conventional Latin-alphabet transcriptions. Where such specialist \"Semitological\" symbols are somewhat divergent from more widely-understood general linguistic IPA symbols, an equivalent IPA symbol follows in parentheses (except that no attempt is made to interpret underdots for \"emphatic\" consonants in terms of IPA; note that the use of IPA symbols is not intended to be any kind of exact phonetic reconstruction of details of ancient Ugaritic pronunciation). The symbols \"y\" and \"š\", which are \"Americanist\" as well as Semitological, do not have their IPA equivalents [j] and [ʃ] listed in the chart. Since there is not much clue as to the exact pronunciation of the last letter of the alphabet, conventionally transcribed \"s2\" or \"s̀\", it is also not given a quasi-IPA equivalent.(CR)(CR)The letters ṭ ṣ ẓ q wrote sounds which were the \"emphatic\" counterparts to \"non-emphatic\" t s θ k, but it is not known what the exact phonetic nature of such emphasis contrasts was in ancient Ugaritic. Certain confusions or semi-coalescences of letters (such as between ẓ and ġ etc.) hint at sound changes within Ugaritic...(CR)(CR)The vertical red line in the last row of the table divides the basic 27 Ugaritic letters (presumably adapted from an early non-Cuneiform alphabet) from the last three letters, which seem to have been added within Ugaritic (originally to transcribe foreign words or languages).(CR)(CR)The only punctuation was a word divider (a short vertical stroke), not shown in the table."
+ugaritic-symbols-ss:
+  entrytype: online
+  title: Ugaritic Symbols
+  author: Vincent Ramos
+  url: http://commons.wikimedia.org/wiki/File:Alphabet_ougaritique.png
+  date: "2004"
+  organization: Wikimedia
+  presort: 22
+  sortname: Ramos
+  keywords: [script-ugar]
 unesco1990:
   entrytype: book
   title: World Braille Usage
@@ -8554,6 +9940,16 @@ unicode-webinar-bidi-3:
   date: "2025-02-04"
   urldate: "2025-11-19"
   keywords: [encoding, direction]
+unpodimondo2010-ss:
+  entrytype: online
+  title: Malayalam Letter
+  author: unpodimondo
+  url: http://www.flickr.com/photos/28252455@N08/5150910556/
+  date: "2010"
+  organization: Flickr
+  sortname: unpodimondo
+  keywords: [script-mlym]
+  abstract: "A letter written in the Malayalam language and script, sent to the photographer by a child (s)he sponsors in India."
 unseth2008:
   entrytype: article
   title: "Missiology and Orthography: The Unique Contribution of Christian Missionaries in Devising New Scripts"
@@ -8604,6 +10000,15 @@ uts10:
   url: https://www.unicode.org/reports/tr10/
   urldate: "2025-11-19"
   keywords: [encoding, analysis]
+uyghur-cursive-ss:
+  entrytype: online
+  title: Old Uyghur alphabet in cursive style
+  url: https://commons.wikimedia.org/wiki/File:Uighur-script_s.jpg
+  date: "2020-07-17"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-ougr]
+  abstract: "(Introduction of the Old Documents of Uighur Script), published by People's Press House of Xinjiang (新疆人民出版社) in 1997."
 vajracharya2014:
   entrytype: online
   title: "Encoding Nepal Lipi: an update of efforts"
@@ -8637,6 +10042,34 @@ viet-writing:
   date: "2011-08-19"
   keywords: [lang-vie]
   annotation: "This page describes the history and features of the Vietnamese writing system, quoc ngu, which uses a modified Latin alphabet."
+visible-speech-illustrations-ss:
+  entrytype: online
+  title: Visible speech illustrations
+  url: https://commons.wikimedia.org/wiki/File:VisibleSpeech-illustrations.jpg
+  date: "2021-03-05"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-visp]
+  abstract: "Visible speech illustrations by Alexander Graham Bell."
+visible-speech-ss:
+  entrytype: online
+  title: Letters of the Visible Speech Script
+  url: http://en.wikipedia.org/wiki/File:VisibleSpeech-Englishchart.png
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-visp]
+  abstract: "Chart of English speech sounds written in Visible Speech from 'On the Nature and Use of Visible Speech' by A.G. Bell (1872)."
+voyageanatolia2010-ss:
+  entrytype: online
+  title: Anatolian Hieroglyphs Sample
+  author: voyageAnatolia
+  url: http://www.flickr.com/photos/fotogezi/4501752277/
+  date: "2010"
+  organization: Flickr
+  sortname: voyageAnatolia
+  keywords: [script-hluw]
+  abstract: "This is a photo taken in Ankara, Turkey, showing an inscription bearing Anatolian hieroglyphic writing."
 w3c-adlam:
   entrytype: online
   title: Adlam Gap Analysis
@@ -8707,6 +10140,15 @@ w3c-dutch:
   date: "2021-08-11"
   keywords: [script-latn, lang-nld]
   annotation: "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Dutch using the Latin script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+wiki-egyptian-hieratic-ss:
+  entrytype: online
+  title: Egyptian Hieratic Font Project
+  url: http://en.wikipedia.org/wiki/Egyptian_hieratic#Hieratic_Font_Project
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-egyh]
+  abstract: "While both Egyptian hieroglyphs were typeset into fonts at an early date and the typeset used has become quite standard, Hieratic being a cursive writing system has proven difficult to typeset. In 1997, Prof. Sheldon Gosline, while at the Institute for the History of Ancient Civilizations, devised an new approach to analyzing Egyptian hieratic via breaking up the component parts of each sign into brush strokes. His approach was inspired by the traditional approach to organizing Chinese scripts. The first publication that introduced this new approach presented part of a Late Egyptian text as a teaching exercise. Soon after, Prof. Gosline founded the Hieratic Font Project and released the first in a series of reference works on hieratic.(CR)(CR)There are several goals of the Hieratic Font Project. First is to make the study of cursive Egyptian script more attainable. Second is to provide a scientific tool for script analysis and comparison. Third is to generate a representative set of fonts to represent hieratic script in publications. The fonts produced to date can already reproduce a wide range of handwriting styles. There are 12 basic brush strokes and the same number of related turning traces, thus each sign can be reduced to a numeric code, that also serves to describe the most likely brush stroke sequence. This illustration shows two versions of the same text. The most recent publication is concerned with Late Egyptian Letters."
 w3c-ethiopic:
   entrytype: online
   title: Ethiopic Layout Gap Analysis
@@ -8717,6 +10159,15 @@ w3c-ethiopic:
   date: "2021-05-24"
   keywords: [script-ethi, lang-amh, lang-tir]
   annotation: "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Amharic and Tigrigna using the Ethiopic script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+wiki-ethiopic-genesis-ss:
+  entrytype: online
+  title: "Genesis 29:11-16 in Ethiopic"
+  url: http://en.wikipedia.org/wiki/File:Ethiopic_genesis.jpg
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-ethi]
+  abstract: "A portion of the Octateuch in Ethiopian, British Library Oriental MS. 480, containing Genesis 29:11-16. This MS. was written in the 15th century, and is part of a library collected by Emperor Theodore at Magdala for an intended church of the Redeemer of the World. It was brought to the U.K. as part of the spoils of the Anglo-Abyssinian War of 1867."
 w3c-french:
   entrytype: online
   title: French Gap Analysis
@@ -8747,6 +10198,15 @@ w3c-german:
   date: "2021-05-25"
   keywords: [script-latn, lang-deu]
   annotation: "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing German using the Latin script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+wiki-greek-diacritics-ss:
+  entrytype: online
+  title: Greek Diacritics
+  url: http://en.wikipedia.org/wiki/Greek_diacritics
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-grek]
+  abstract: "Greek orthography has used a variety of diacritics starting in the Hellenistic period. The complex polytonic orthography which notated Ancient Greek phonology was used until 1982, when it was supplanted by the simplified monotonic orthography, which corresponds to Modern Greek phonology, and requires only two diacritics.(CR)(CR)In the polytonic system, the acute accent ( ´ ), the grave accent ( ` ), and the circumflex ( ˆ ) indicate different kinds of pitch accents. The rough breathing ( ῾ ) indicates aspiration (the presence of an /h/ sound), while the smooth breathing ( ᾿ ) indicates a lack of aspiration. It is said[by whom?] to have been introduced by Aristophanes of Byzantium around 200 BC, and was the standard orthography for all varieties of Greek from Hellenistic times until 1982, although the distinctions it represented had disappeared from the spoken language early in the Christian era. Since the pitch accent eventually gave place to a dynamic accent, and aspiration was lost in Greek, most polytonic diacritics have no phonetic significance in modern usage, and merely serve to reveal the underlying ancient Greek etymology.(CR)(CR)The monotonic orthography (μονός \"single\", τόνος \"accent\") is the simplified spelling introduced in 1982 for modern Greek, resembling the diacritics used in Spanish. It replaced all accent marks with just one, the acute, and abandoned the use of the breathings. The diaeresis ( ¨ ) remained in use to indicate a hiatus: compare modern Greek παϊδάκια [paiðaca] (lamb chops) and παιδάκια [peðaca] (little children). The traditional system is called polytonic orthography to distinguish it from the monotonic one."
 w3c-gujarati:
   entrytype: online
   title: Gujarati Gap Analysis
@@ -8757,6 +10217,15 @@ w3c-gujarati:
   date: "2021-05-25"
   keywords: [script-gujr, lang-guj]
   annotation: "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing Gujarati using the Gujarati script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+wiki-gujarati-conjuncts-ss:
+  entrytype: online
+  title: Gujarati Conjuncts
+  url: http://en.wikipedia.org/wiki/Gujarati_script#Conjuncts
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-gujr]
+  abstract: "As mentioned, successive consonants lacking a vowel in between them may physically join together as a 'conjunct'. The government of these clusters ranges from widely to narrowly applicable rules, with special exceptions within. While standardized for the most part, there are certain variations in clustering, of which the Unicode used on this page is just one scheme. The rules[3]:(CR)(CR)    * 23 out of the 36 consonants contain a vertical right stroke (ખ, ધ, ળ etc.). As first or middle fragments/members of a cluster, they lose that stroke. e.g. ત + વ = ત્વ, ણ + ઢ = ણ્ઢ, થ + થ = થ્થ.<br />(CR)          o શ ś(a) appears as a different, simple ribbon-shaped fragment preceding વ va, ન na, ચ ca and ર ra. Thus શ્વ śva, શ્ન śna, શ્ચ śca and શ્ર śra. In the first three cases the second member appears to be squished down to accommodate શ's ribbon fragment. In શ્ચ śca we see ચ's Devanagari equivalent of च as the squished-down second member. See the note on ર to understand the formation of શ્ર śra.<br />(CR)    * ર r(a)<br />(CR)          o as a first member it takes the form of a curved upward dash above the final character or its kāno. e.g. ર્વ rva, ર્વા rvā, ર્સ્પ rspa, ર્સ્પા rspā.<br />(CR)          o as a final member<br />(CR)                + with ટ, ઠ, ડ, ઢ and દ, it is two lines below the character, pointed downwards and apart. Thus ટ્ર, ઠ્ર, ડ્ર, ઢ્ર and દ્ર.<br />(CR)                + elsewhere it is a diagonal stroke jutting leftwards and down. e.g. ક્ર, ગ્ર, ભ્ર. ત ta is shifted up to make ત્ર tra.<br />(CR)    * Vertical combination of [geminates](/reference/glossary#gemination) ṭṭa, ṭhṭha, ḍḍa and ḍhḍha: ટ્ટ, ઠ્ઠ, ડ્ડ, ઢ્ઢ. Also, ટ્ઠ ṭṭha and ડ્ઢ ḍḍha.<br />(CR)    * As first shown with શ્ચ śca, while Gujarati is a separate script with its own novel characters, for compounds it will often use the Devanagari versions.<br />(CR)          o દ d(a) as द preceding ગ ga, ઘ gha, ધ dha, બ ba (as ब), ભ bha, વ va, મ ma and ર ra. The first six second members are shrunken and hang at an angle off the bottom left corner of the preceding દ/द. Thus દ્ગ dga, દ્ઘ dgha, દ્ધ ddha, દ્બ dba, દ્ભ dbha, દ્વ dva, દ્મ dma and દ્ર dra.<br />(CR)          o હ h(a) as ह preceding ન na, મ ma, ય ya, ર ra, વ va and ઋ ṛ. Thus હ્ન hna, હ્મ hma, હ્ય hya, હ્ર hra, હ્વ hva and હૃ hṛ.<br />(CR)          o when ઙ ṅa and ઞ ña are first members we get second members of ક ka as क, ચ ca as च and જ ja as ज. ઙ forms compounds through vertical combination. ઞ's strokeless fragment connects to the stroke of the second member, jutting upwards while pushing the second member down. Thus ઙ્ક ṅka, ઙ્ગ ṅga, ઙ્ઘ ṅgha, ઙ્ક્ષ ṅkṣa, ઞ્ચ ñca and ઞ્જ ñja.<br />(CR)    * The remaining vertical stroke-less characters join by squeezing close together. e.g. ક્ય kya, જ્જ jja.<br />(CR)    * Outstanding special forms: ન્ન nna, ત્ત tta, દ્દ dda and દ્ય dya.(CR)(CR)The role and nature of Sanskrit must be taken into consider to understand the occurrence of consonant clusters. The orthography of written Sanskrit was completely phonetic, and had a tradition of not separating words by spaces. Morphologically it was highly synthetic, and it had a great capacity to form large compound words. Thus clustering was highly frequent, and it is Sanskrit loanwords to the Gujarati language that are the grounds of most clusters. Gujarati, on the other hand, is more analytic, has phonetically smaller, simpler words, and has a script whose orthography is slightly imperfect (a-elision) and separates words by spaces. Thus evolved Gujarati words are less a cause for clusters. The same can be said of Gujarati's other longstanding source of words, Persian, which also provides phonetically smaller and simpler words.(CR)(CR)An example attesting to this general theme is that of the series of d- clusters. These are essentially Sanskrit clusters, using the original Devanagari forms. There are no cluster forms for formations such as dta, dka, etc. because such formations weren't permitted in Sanskrit phonology anyway. They are permitted under Gujarati phonology, but are written unclustered (પાદતું pādtuṃ \"farting\", કૂદકો kūdko \"leap\"), with patterns such as a-elision at work instead."
 w3c-gurmukhi:
   entrytype: online
   title: Gurmukhi Gap Analysis
@@ -8867,6 +10336,15 @@ w3c-nko:
   date: "2021-12-02"
   keywords: [script-nkoo, lang-nqo]
   annotation: "The World Wide Web Consortium (W3C) has published a series of documents which describe and prioritise gaps for the support of various writing systems on the Web and in eBooks. This document concerns writing N'Ko using the N'Ko script. It is especially concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.(CR)(CR)This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress."
+wiki-oriya-letters-ss:
+  entrytype: online
+  title: Full Letters of the Oriya Script
+  url: https://en.wikipedia.org/wiki/Odia_script#O.E1.B9.9Biy.C4.81_Alphabet
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-orya]
+  abstract: "Consonants and independent vowels used for writing Oriya."
 w3c-osage:
   entrytype: online
   title: Osage Gap Analysis
@@ -8928,6 +10406,26 @@ walters2015:
   keywords: [script-yiii, lang-iii]
   abstract: "The standard written form of Nuosu Yi includes 1,165 symbols. The symbols correspond to phonemic syllables as spoken in the Shengzha variety of Northern Yi. Aspiring readers of Nuosu Yi text must memorize this sound-symbol correspondence. Studies across languages and writing systems have shown that early study of frequently used symbols can speed learning progress. (Dale and Chall 1948; Hu and Catts 1998; Johnson, Smith, and Jensen 1972)(CR)(CR)While software exists for doing corpus-based analysis of Yi language data (Chen 2010; 2011), until now the literature lacked an ordered list of frequently used Nuosu syllables. This study lists Nuosu Yi syllables in order of their frequency of occurrence in a body of text. The corpus includes nine texts, containing a total of 23,536 syllables. In the sample, 783 unique syllables occurred at least once. The cumulative usage data show that a person with reading knowledge of 402 symbols (of the available 1,165) could have read 95% of our text sample. The Nuosu Yi syllable frequency data are also compared with Mandarin Chinese syllable frequency (Sung 2005)."
   annotation: "List of Nuosu Yi syllables by frequency, with analysis and comparison to similar data for Mandarin Chinese syllables."
+warren-rothlin2012-ss:
+  entrytype: online
+  title: Arabic script in modern Nigeria
+  author: Andy Warren-Rothlin
+  url: https://www.academia.edu/2244951/Arabic_script_in_modern_Nigeria
+  date: "2012"
+  organization: Academia
+  sortname: Warren-Rothlin
+  keywords: [script-arab, lang-fuv, lang-hau]
+  abstract: "A survey of the use of Arabic script in modern Nigeria"
+watchsmart2007-ss:
+  entrytype: online
+  title: Egyptian Hieroglyphics
+  author: watchsmart
+  url: http://www.flickr.com/photos/watchsmart/1423164956/in/photostream/
+  date: "2007"
+  organization: Flickr
+  sortname: watchsmart
+  keywords: [script-egyp]
+  abstract: "Photograph of a hieroglyphic inscription at Luxor, Egypt."
 wathabunditkul2003:
   entrytype: online
   title: Spacing in the Thai Language
@@ -8961,6 +10459,17 @@ weiyuanhui1997:
   keywords: [script-yiii, lang-iii]
   abstract: "Official standard Yi language dictionary. All content in (Sichuan) Yi syllable symbols (no translation). 40,000+ headwords, romanization, definitions and examples. Not strictly lexical: entries are syllables, words, proverbs, and expressions. Indexed by romanization and by radical+stroke. Major alphabetic headings for Yi Pinyin graphemes in their standard order. Thirteen appendices, e.g., language standards; geographic regions; minority nationalities; Chinese history; chemical elements; Yi syllabary table; map of Yi region with Yi names."
   annotation: "Official standard Yi language dictionary. All content in (Sichuan) Yi syllable symbols (no translation). 40,000+ headwords, romanization, definitions and examples. Not strictly lexical: entries are syllables, words, proverbs, and expressions. Indexed by romanization and by radical+stroke. Major alphabetic headings for Yi Pinyin graphemes in their standard order. Thirteen appendices, e.g., language standards; geographic regions; minority nationalities; Chinese history; chemical elements; Yi syllabary table; map of Yi region with Yi names."
+welch2025-ss:
+  entrytype: online
+  title: "634 CE Aihole inscription Meguti Jain temple, 1879 photolithography print"
+  author: Sarah Welch
+  url: https://commons.wikimedia.org/wiki/File:634_CE_Aihole_inscription_Meguti_Jain_temple,_1879_photolithography_print.jpg
+  date: "2025-12-08"
+  organization: Wikimedia
+  presort: 22
+  sortname: Welch
+  keywords: [script-qa31]
+  abstract: "The Aihole inscription, also known as the Aihole prashasti, is a nineteen line Sanskrit inscription at Meguti Jain temple in Aihole, Karnataka, India. The inscription has 19 lines of Sanskrit in old Chalukyan script. It is on a stone set as a part of the east outer wall of the Meguti temple, with the text covering about 4.75 feet by 2 feet surface. The letters are between 0.5 and 0.62 inches in height."
 wiki-abkhaz:
   entrytype: online
   title: Abkhaz Alphabet
@@ -8985,6 +10494,24 @@ wiki-adyghe:
   date: "2011-07-02"
   keywords: [lang-ady]
   annotation: "This is part of the Wikipedia article on the Adyghe Language. This section relates to how the language is written, and provides a chart showing the Cyrillic letters required to write it."
+wiki-afaka-order-ss:
+  entrytype: online
+  title: Afaka Canonical Order Variants
+  url: http://en.wikipedia.org/wiki/File:Afaka_variants.png
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-afak]
+  abstract: "Three variants of the Afaka syllabary as found in the _Patili Molosi Buku_, that is \"Father Morssink's book\", the most extensive text written in Afaka."
+wiki-afaka-letter-ss:
+  entrytype: online
+  title: Afaka Letter
+  url: http://en.wikipedia.org/wiki/File:Afaka_letter.png#mediaviewer/File:Afaka_letter.png
+  date: "2014-10-10"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-afak]
+  abstract: "This is believed to be the first letter written by Afaka, inventor of the Afaka script. It was copied into the _Patili Molosi Buku_ around 1917."
 wiki-aleut:
   entrytype: online
   title: "Aleut Language: Orthography"
@@ -8993,6 +10520,24 @@ wiki-aleut:
   urldate: "2025-11-21"
   keywords: [lang-ale]
   annotation: "This section of the Wikipedia article on the Aleut language focuses on its orthography. Both the historic (Cyrillic) and modern (Latin) forms of Aleut writing are discussed briefly."
+wiki-arabi-malayalam-ss:
+  entrytype: online
+  title: Arabi Malayalam
+  url: http://en.wikipedia.org/wiki/Arabi_Malayalam
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [lang-mal]
+  abstract: "Arabi Malayalam (اربِ ملیالں) is a system of writing the Malayalam language in a variant form of the Arabic script. The Arabic script has been modified to represent the peculiar sounds of Malayalam. Writing Malayalam in this script is mainly carried out in Malaysia and Singapore by the migrant Muslim community. It is also used to teach Malayalam in Madrassas of Kerala and Lakshadweep. It is also used by some Muslims in Kerala to write Malayalam.(CR)(CR)There were many problems associated with writing Malayalam using Arabic letters, Arabic being a Semitic language. Only 28 letters were available in the Arabic script to represent over 53 sounds in the Malayalam language. It was overcome by taking additional letters from the Persian alphabet. The sounds pa, gha, kha, ṅa, ña, ḻa, ga, ca were not represented in the Arabic alphabet. For example, the letters which represent ḻa, ca, pa, and ga are ‭ژ, چ, پ, گ‬ respectively in Arabi Malayalam. All these letters were taken from the Persian alphabet."
+wiki-athabaskan-syllabics-ss:
+  entrytype: online
+  title: Athabaskan Syllabics
+  url: http://en.wikipedia.org/wiki/Unified_Canadian_Aboriginal_Syllabics#Carrier_and_other_Athabaskan
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-cans]
+  abstract: "Athabaskan syllabic writing systems were developed in the late 1800s by French Roman Catholic missionaries who adapted this originally Protestant writing scheme to languages radically different from the Algonquian languages. Most Athabaskan languages have more than four distinct vowels, and all have many more distinct consonants than Cree. This has meant the invention of a number of new consonant forms. Whereas most Athabaskan scripts, such as those for Slavey and Chipewyan, bear a reasonably close resemblance to Cree syllabics, the Carrier (Dakelh) variant is highly divergent, and only one series - the series for vowels alone - resembles the original Cree form.(CR)(CR)In order to accommodate six distinctive vowels, Dakelh supplements the four vowel orientations with a dot and a horizontal line in the rightward pointing forms: ᐊ a, ᐅ /ʌ/, ᐈ e, ᐉ i, ᐃ o, and ᐁ u.(CR)(CR)One of the Chipewyan scripts is more faithful to western Cree. (Sayisi Chipewyan is substantially more divergent.) It has the nine forms plus the western l and r series, though the rotation of the l- series has been made consistently counter-clockwise. The k- and n- series are more angular than in Cree: ki resembles Latin \"P\". The c series has been reassigned to dh. There are additional series: a regular ch series, unsupported by Unicode, but graphically a doubled t (something like Ɛ for cha, Ɯ for che, 3 for cho, etc.); and an irregular z series, where ze is derived by counter-clockwise rotation of za, but zi by clockwise rotation of zo:(CR)(CR)            ᘛ                   zi     <br />(CR)        ᘔ         ᘕ         za         zo     <br />(CR)            ᘚ                 ze     (CR)(CR)Other series are formed from dh or t. A mid-line final Cree t preceding dh forms th, a raised Cree final p following t forms tt, a stroke inside t forms tth (ᕮ ttha), and a small t inside t forms ty (ᕳ tya). Nasal vowels are indicated by a following Cree final k.(CR)(CR)All Athabaskan syllabic scripts are now obsolescent."
 wiki-avestan:
   entrytype: online
   title: Avestan Language
@@ -9016,6 +10561,15 @@ wiki-aztec:
   date: "2011-11-07"
   keywords: [script-qa26]
   annotation: "This is the Wikipedia page for Aztec writing. It describes the structure of the script and how it was used."
+wiki-babylonian-numerals-ss:
+  entrytype: online
+  title: Babylonian Numerals Written in Cuneiform
+  url: http://en.wikipedia.org/wiki/Babylonian_numerals
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-xsux, numerals]
+  abstract: "Babylonian numerals were written in cuneiform, using a wedge-tipped reed stylus to make a mark on a soft clay tablet which would be exposed in the sun to harden to create a permanent record.(CR)(CR)The Babylonians, who were famous for their astronomical observations and calculations (aided by their invention of the abacus), used a sexagesimal (base-60) positional numeral system inherited from the Sumerian and also Akkadian civilizations. Neither of the predecessors was a positional system (having a convention for which ‘end’ of the numeral represented the units).(CR)(CR)This system first appeared around 3100 B.C. It is also credited as being the first known positional numeral system, in which the value of a particular digit depends both on the digit itself and its position within the number. This was an extremely important development, because non-place-value systems require unique symbols to represent each power of a base (ten, one hundred, one thousand, and so forth), making calculations difficult.(CR)(CR)Only two symbols (one to count units and one to count tens) were used to notate the 59 non-zero digits. These symbols and their values were combined to form a digit in a sign-value notation way similar to that of Roman numerals. A space was left to indicate a place without value, similar to the modern-day zero. Babylonians later devised a sign to represent this empty place. They lacked a symbol to serve the function of radix point, so the place of the units had to be inferred from context, so that \"2 x 10symbol 3 x 1symbol\" could have represented 23 or 23×60 or 23×60×60 or 23/60, etc.(CR)(CR)Their system clearly used internal decimal to represent digits, but it was not really a mixed-radix system of bases 10 and 6, since the ten sub-base was used merely to facilitate the representation of the large set of digits needed, while the place-values in a digit string were consistently 60-based and the arithmetic needed to work with these digit strings was correspondingly sexagesimal.(CR)(CR)The legacy of sexagesimal still survives to this day, in the form of degrees (360° in a circle or 60° in an angle of an equilateral triangle), minutes, and seconds, in trigonometry and the measurement of time, although both of these systems are actually mixed radix."
 wiki-balti:
   entrytype: online
   title: Balti Dialect
@@ -9031,6 +10585,15 @@ wiki-bashkir:
   date: "2011-07-05"
   keywords: [lang-bak]
   annotation: "This is part of the Wikipedia page for the Bashkir language. This section discusses the three main dialects of the language, and provides a brief history of the Cyrillic-based Bashkir alphabet. The letters used for writing Bashkir are provided."
+wiki-blackfoot-syllabics-ss:
+  entrytype: online
+  title: Blackfoot Syllabics
+  url: http://en.wikipedia.org/wiki/Unified_Canadian_Aboriginal_Syllabics#Blackfoot
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-cans, lang-bla, syllabary]
+  abstract: "Blackfoot, another Algonquian language, uses a syllabary that is quite different from the Cree and Inuktitut versions. Blackfoot has eleven consonants and three vowels, most of which can occur long or short. It has nine basic consonant forms, only two of which are identical to their Cree equivalents. The others are in their e series are modified from the Latin alphabet, though three Cree series are retained with new sound values. The new forms, given in the o series (which corresponds graphically to the a series of Cree), are ᖲ o, ᖶ wo, ᖺ no, ᖾ ko, and ᗃ ha. Old forms with new values are ᑲ po, ᒐ mo, and ᒪ to. Forms with the same consonantal values are ᓴ so and ᔭ yo (here only the vowels have changed). There are also a number of distinct final forms.(CR)(CR)The four vowel positions are used for the three vowels and one of the diphthongs of Blackfoot. The script is now obsolescent."
 wiki-breve:
   entrytype: online
   title: Breve
@@ -9137,6 +10700,24 @@ wiki-directwrite:
   url: https://en.wikipedia.org/wiki/DirectWrite
   urldate: "2025-11-19"
   keywords: [fonts, rendering]
+wiki-dives-akuru-ss:
+  entrytype: online
+  title: Dives Akuru and Thaana Sample
+  url: http://en.wikipedia.org/wiki/Maldivian_writing_systems
+  date: "2014-09-01"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-thaa, script-diak]
+  abstract: "This is the front cover of a book on Maldivian writing systems by the Maldivian scholar As-Sayyid Bodufenvalhuge Sidi. The top line of text is written in the Dives Akuru script, and the subsequent text is written in the Thaana script."
+wiki-dogra-sample-ss:
+  entrytype: online
+  title: Dogra script specimen
+  url: https://commons.wikimedia.org/wiki/File:Dogra.png
+  date: "2024-11-11"
+  organization: Wikimedia
+  presort: 22
+  keywords: [script-dogr, lang-doi]
+  abstract: "Specimen of the Dogri language, written using the Dogra script"
 wiki-double:
   entrytype: online
   title: Double Acute Accent
@@ -9175,6 +10756,15 @@ wiki-eszett:
   date: "2011-03-11"
   keywords: [char-00df]
   annotation: "Wikipedia article about the eszett, or sharp s."
+wiki-ethiopic-diaspora-ss:
+  entrytype: online
+  title: Use of the Ethiopic Script by the African Diaspora
+  url: http://en.wikipedia.org/wiki/Ge%27ez_alphabet#African_diaspora_usage
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-ethi]
+  abstract: "Ge'ez is a sacred script in the Rastafarian religion. Roots reggae musicians have used it in album art.(CR)(CR)The film 500 Years Later (፭፻-ዓመታት በኋላ) was the first mainstream Western documentary to use Ge'ez characters, which were used in the title. The script also appears in the trailer and promotional material of the film."
 wiki-evenki:
   entrytype: online
   title: "Evenki  Language: Orthography"
@@ -9199,6 +10789,15 @@ wiki-grave:
   date: "2011-03-30"
   keywords: [char-0060, char-0300]
   annotation: "Wikipedia article about the grave diacritic."
+wiki-gujarati-avestan-ss:
+  entrytype: online
+  title: Use of Gujarati for Avestan
+  url: http://en.wikipedia.org/wiki/Gujarati_script#Use_for_Avestan
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-gujr]
+  abstract: "The Zoroastrians of India, who represent one of the largest surviving Zoroastrian communities worldwide, would transcribe Avestan in Brahmi-based scripts as well as the Avestan alphabet. This is a relatively recent development first seen in the ca. 12th century texts of Neryosang Dhaval and other Parsi Sanskritist theologians of that era, and which are roughly contemporary with the oldest surviving manuscripts in Avestan script. Today, Avestan is most commonly typeset in Gujarati script (Gujarati being the traditional language of the Indian Zoroastrians). Some Avestan letters with no corresponding symbol are synthesized with additional diacritical marks, for example, the /z/ in zaraθuštra is written with /j/ + dot below."
 wiki-hacek:
   entrytype: online
   title: Hacek
@@ -9224,6 +10823,15 @@ wiki-harfbuzz:
   url: https://en.wikipedia.org/wiki/HarfBuzz
   urldate: "2025-11-19"
   keywords: [fonts, rendering, opentype]
+wiki-hiragana-dev-ss:
+  entrytype: online
+  title: Development of the Hiragana script from Manyogana Chinese characters
+  url: http://en.wikipedia.org/wiki/File:Hiragana_origin.svg
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-hira]
+  abstract: "Manyogana letters - Chinese characters used phonetically for writing the Japanese language - are shown in black at the top of each row. The cursive forms of these letters are in the middle row, in red. At the bottom of each row is the equivalent modern Hiragana character."
 wiki-hook:
   entrytype: online
   title: Hook (diacritic)
@@ -9248,6 +10856,15 @@ wiki-iberian:
   date: "2011-11-08"
   keywords: [script-qa37]
   annotation: "This is the Wikipedia article about the Iberian scripts. It covers the main variants of the scripts, and provides brief details of their history."
+wiki-influence-cherokee-vai-ss:
+  entrytype: online
+  title: Possible influence of Cherokee on the Liberian Vai syllabary
+  url: http://en.wikipedia.org/wiki/Cherokee_syllabary#Possible_influence_on_Liberian_Vai_syllabary
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-cher, script-vaii, script-bass]
+  abstract: "In recent years evidence has emerged suggesting that the Cherokee syllabary provided a model for the design of the Vai syllabary in Liberia, Africa. The Vai syllabary is the earliest form of writing devised in western Africa, which emerged about 1832/33. The link appears to have been Cherokee who emigrated to Liberia after the invention of the Cherokee syllabary (which in its early years spread like wildfire among the Cherokee) but before the invention of the Vai syllabary. One such man, Cherokee Austin Curtis, married into a prominent Vai family and became an important Vai chief himself. It is perhaps not coincidence that the \"inscription on a house\" that drew the world's attention to the existence of the Vai script was in fact on the home of Curtis, a Cherokee. There also appears to be a connection between an early form of written Bassa and the earlier Cherokee syllabary."
 wiki-interpunct:
   entrytype: online
   title: Interpunct
@@ -9305,6 +10922,15 @@ wiki-karelian:
   date: "2011-07-06"
   keywords: [lang-krl]
   annotation: "This is a Wikipedia article describing the history of writing the Karelian language, and the present situation. The current, Latin-based, Karelian alphabet is provided with phonetic equivalents."
+wiki-katakana-uses-ss:
+  entrytype: online
+  title: "Katakana uses in non-Japanese languages"
+  url: http://en.wikipedia.org/wiki/Katakana#Katakana_uses_in_non-Japanese_languages
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-kana]
+  abstract: "Taiwanese kana is a katakana-based writing system once used to write Holo Taiwanese, when Taiwan was ruled by Japan. It functioned as a phonetic guide to hanzi, much like furigana in Japanese or Zhuyin fuhao in Chinese. There were similar systems for other languages in Taiwan as well, including Hakka and Formosan languages.(CR)(CR)Unlike Japanese or Ainu, Taiwanese kana are used similarly to the Zhùyīn fúhào characters, with kana serving as initials, vowel medials and consonant finals, marked with tonal marks. A dot below the initial kana represented aspirated consonants, and チ, ツ, サ, セ, ソ, ウ and オ with a superpositional bar represented sounds found only in Taiwanese."
 wiki-kazakh:
   entrytype: online
   title: Kazakh Alphabet
@@ -9321,6 +10947,15 @@ wiki-khakas:
   date: "2011-07-01"
   keywords: [lang-kjh]
   annotation: "This Wikipedia article focuses on the dialects of Khakas and on the written forms of the language."
+wiki-khmer-numerals-ss:
+  entrytype: online
+  title: Khmer Numerals
+  url: http://en.wikipedia.org/wiki/Khmer_numerals
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-khmr, numerals]
+  abstract: "Having been derived from the Hindu numerals, modern Khmer numerals also represent a decimal positional notation system. It is the script with the first extant material evidence of zero as a numerical figure, dating its use back to the seventh century, two centuries before its certain use in India. However, Old Khmer, or Angkorian Khmer, also possessed separate symbols for the numbers 10, 20, and 100. Each multiple of 20 or 100 would require an additional stroke over the character, so the number 47 was constructed using the 20 symbol with an additional upper stroke, followed by the symbol for number 7. This inconsistency with its decimal system suggests that spoken Angkorian Khmer used a vigesimal (based on units of twenty) system."
 wiki-kildin:
   entrytype: online
   title: Kildin Sami Orthography
@@ -9337,6 +10972,15 @@ wiki-kyrgyz:
   date: "2011-06-23"
   keywords: [script-cyrl, script-arab, lang-kir]
   annotation: "Kyrgyz is written with variants of both the Cyrillic and the Arabic scripts. This page provides a correspondence chart showing how to write each phoneme in both these scripts. A sample text is also provided in each script."
+wiki-languages-mayan-hieroglyphs-ss:
+  entrytype: online
+  title: Languages Written Using Mayan Hieroglyphs
+  url: http://en.wikipedia.org/wiki/Mayan_hieroglyphics#The_languages
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-maya]
+  abstract: "It is now thought that the codices and other Classic texts were written by scribes, usually members of the Maya priesthood, in a literary form of the Ch'olti' language. It is possible that the Maya elite spoke this language as a lingua franca over the entire Maya-speaking area, but also that texts were written in other Mayan languages of the Peten and Yucatán, especially Yucatec. There is also some evidence that the script may have been occasionally used to write Mayan languages of the Guatemalan Highlands. However, if other languages were written, they may have been written by Ch'olti scribes, and therefore have Ch'olti elements."
 wiki-macedonian:
   entrytype: online
   title: Macedonian Orthography
@@ -9361,6 +11005,15 @@ wiki-mansi:
   date: "2011-05-23"
   keywords: [lang-mns]
   annotation: "This is a short Wikipedia entry showing the Cyrillic-based alphabet used for writing the Mansi language."
+wiki-manyogana-ss:
+  entrytype: online
+  title: The Development of Man'yōgana for Japanese Writing
+  url: http://en.wikipedia.org/wiki/Japanese_writing_system#The_development_of_man.27y.C5.8Dgana
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-jpan]
+  abstract: "No full-fledged script for written Japanese existed until the development of man'yōgana (万葉仮名), which appropriated kanji for their phonetic value (derived from their Chinese readings) rather than their semantic value. Man'yōgana was initially used to record poetry, as in the Man'yōshū (万葉集), compiled sometime before 759, whence the writing system derives its name. The modern kana, namely hiragana and katakana, are simplifications and systemizations of man'yōgana.(CR)(CR)Due to the large number of words and concepts entering Japan from China which had no native equivalent, many words entered Japanese directly, with a pronunciation similar to the original Chinese. This Chinese-derived reading is known as on'yomi (音読み), and this vocabulary as a whole is referred to as Sino-Japanese in English and kango (漢語) in Japanese. At the same time, native Japanese already had words corresponding to many borrowed kanji. Authors increasingly used kanji to represent these words. This Japanese-derived reading is known as kun'yomi (訓読み). A kanji may have none, one, or several on'yomi and kun'yomi. Okurigana are written after the initial kanji for verbs and adjectives to give inflection and to help disambiguate a particular kanji's reading. The same character may be read several different ways depending on the word. For example, the character 行 is read i as the first syllable of iku (行く, \"to go\"), okona as the first three syllables of okonau (行う, \"to carry out\"), gyō in the compound word gyōretsu (行列, \"line\" or \"procession\"), kō in the word ginkō (銀行, \"bank\"), and an in the word andon (行灯, \"lantern\").(CR)(CR)Some linguists have compared the Japanese borrowing of Chinese-derived vocabulary as akin to the influx of Romance vocabulary into English during the Norman conquest of England. Like English, Japanese has many synonyms of differing origin, with words from both Chinese and native Japanese. Sino-Japanese is often considered more formal or literary, just as latinate words in English often mark a higher register."
 wiki-math-sym:
   entrytype: online
   title: Table Of Mathematical Symbols
@@ -9368,6 +11021,17 @@ wiki-math-sym:
   url: https://en.wikipedia.org/wiki/Table_of_mathematical_symbols
   date: "2010-10-22"
   keywords: [script-zmth]
+wiki-meriotic-cursive-ss:
+  entrytype: online
+  title: Meroitic Cursive
+  author: Piero d'Houin
+  url: http://fr.wikipedia.org/wiki/Fichier:%C3%89criture_m%C3%A9ro%C3%AFtique_cursive.jpg
+  date: "2010"
+  organization: Wikipedia
+  presort: 22
+  sortname: Houin
+  keywords: [script-merc]
+  abstract: "Inscription in Meroitic cursive."
 wiki-mikmaq:
   entrytype: online
   title: Mi'kmaq Hieroglyphic Writing
@@ -9399,6 +11063,15 @@ wiki-mongolian-cyr:
   date: "2011-06-23"
   keywords: [script-cyrl, lang-mon]
   annotation: "The Mongolian Cyrillic script is the writing system used for the Khalkha dialect of the Mongolian language, which is the standard dialect of the modern state of Mongolia. This Wikipedia page provides a chart of the Cyrillic letters needed to write Mongolian, and some of the features of the phonetic-orthographic interface of this particular writing system."
+wiki-mongolian-unicode-ss:
+  entrytype: online
+  title: Issues with the Mongolian Script in Unicode
+  url: http://en.wikipedia.org/wiki/Mongolian_script#Issues
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-mong]
+  abstract: "Although the Mongolian script has been defined in Unicode since 1999, there was no support for Unicode Mongolian from the major vendors until the release of the Windows Vista operating system in 2007, and so Unicode Mongolian is not yet widely used. In China, legacy encodings such as the Private Use Area (PUA) Unicode mappings and GB18030 mappings of the Menksoft IMEs (espc. Menksoft Mongolian IME) are more commonly used than Unicode for writing web pages and electronic documents in Mongolian.(CR)(CR)The inclusion of a Unicode Mongolian font and keyboard layout in Windows Vista has meant that Unicode Mongolian is now gradually becoming more popular, but the complexity of the Unicode Mongolian encoding model and the lack of a clear definition for the use variation selectors are still barriers to its widespread adoption.(CR)(CR)Moreover, there are bugs in Microsoft's Mongolian Baiti font. (Version 5.00 of the Mongolian Baiti font may be displayed incorrectly in Windows Vista.)"
 wiki-nogai:
   entrytype: online
   title: "Nogai Language -  Alphabet"
@@ -9433,6 +11106,15 @@ wiki-opentype:
   url: https://en.wikipedia.org/wiki/OpenType
   urldate: "2025-11-19"
   keywords: [fonts, rendering, opentype]
+wiki-phoenician-numerals-ss:
+  entrytype: online
+  title: Phoenician Numerals
+  url: http://en.wikipedia.org/wiki/Phoenician_alphabet#The_numerals
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-phnx, numerals]
+  abstract: "The Phoenician numeral system consisted of separate symbols for 1, 5, 10, 20, and 100. The sign for 1 was a simple vertical stroke. Other numbers up to 9 were formed by adding the appropriate number of such strokes, arranged in groups of three. The symbol for 10 was a horizontal line or tack. The sign for 20 could come in different glyph variants, one of them being a combination of two 10-tacks, approximately Z-shaped. Larger multiples of ten were formed by grouping the appropriate number of 20s and 10s. There existed several glyph variants for 100. The 100 symbol could be combined with a preceding numeral in a multiplicatory way, e.g. the combination of \"4\" and \"100\" yielded 400."
 wiki-phonetic:
   entrytype: online
   entrysubtype: f
@@ -11369,6 +13051,15 @@ wiki-tajik:
   date: "2011-07-07"
   keywords: [lang-tgk]
   annotation: "This Wikipedia page describes the history of writing the Tajik language, and each of the scripts used for writing the language."
+wiki-tajik-yaghnobi-ss:
+  entrytype: online
+  title: Modifying the Tajik Cyrillic script for writing Yaghnobi
+  url: http://en.wikipedia.org/wiki/Yaghnobi_language
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-cyrl, lang-yai]
+  abstract: "The Yaghnobi language is most commonly written using a modified Latin alphabet, but the Tajik Cyrillic alphabet is also beginning to be used, with the following modifications:(CR)(CR)1) Letter й does not have a capital form, as it never appears at the beginning of a word. Words beginning with ya-, yo- and yu-/yū-/yʏ- are written as я-, ё- and ю-; in a similar way are these combinations written in the middle of the word. For example _viyóra_ is written виёра [vɪ̆ˈjoːra].(CR)(CR)2) The usage of letters ӣ and ӯ is difficult to determine. It appears that those letters can be used to distinguish two similar sounding words (e.g. иранка and ӣранка, рупак and рӯпак). It could be that the letter ӣ is also used as a stress marker, as in Tajik. (CR)(CR)3) In older texts the Yaghnobi alphabet did not use the letters Ъ ъ and Э э. Instead, the Yaghnobi letters ’ and е covered both the Cyrillic е and э for the sound /e/. In later notation those letters were integrated into the alphabet, so the older form _етк_ was changed into _этк_ to represent [ˈeːtkʰ] (and not *[ˈjeːtkʰ]).(CR)(CR)4) The sound combinations /ji/ and /je/ are written е and и. The letter и can have the value */ji/ after a vowel (as it has in Tajik), and the letter ӣ after a vowel has the value */jiː/. The letter е has two values - in word-initial position and after a vowel it is pronounced [jeː]; after a consonant it is pronounced [eː]. Note that /je/ is rare in Yaghnobi and is only found in Tajik or Russian loanwords.(CR)(CR)5) The Cyrillic letters Ц ц, Щ щ, Ы ы and Ь ь, which are used by Tajik speakers for writing Russian loanwords, are not used by Yaghnobi speakers. The Russian words are written as they are pronounced by the Yaghnobi speakers, not as they are written originally in Russian. For example, [səmʌˈʎot] _aeroplane_ is самолет/самолёт in Russian/Tajik, but in Yaghnobi it is pronounced [samalɪˈjoːtʰ] or [samajlˈoːtʰ] and written as самалиёт, accordingly.(CR)(CR)6) The distinction between /v/ and /w/ is not established in the Cyrillic orthography, but is necessary for writing Yaghnobi. Opinion is divided as to the best means for representing the distinction."
 wiki-tatar:
   entrytype: online
   title: Tatar Alphabet
@@ -11377,6 +13068,15 @@ wiki-tatar:
   date: "2011-06-22"
   keywords: [lang-tat]
   annotation: "This is a Wikipedia article about writing the Tatar language. The article discusses the history of writing Tatar, and the use of the Latin and Cyrillic scripts."
+wiki-thai-diacritics-ss:
+  entrytype: online
+  title: Thai Diacritics
+  url: http://en.wikipedia.org/wiki/Thai_script#Diacritics
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-thai]
+  abstract: "Diacritics are used with the Thai alphabet to indicate modifications of the values of the letters.(CR)(CR)Thai is a tonal language, and the script gives full information on the tones. Tones are realised in the vowels, but indicated in the script by a combination of the class of the initial consonant (high, mid or low), vowel length (long or short), closing consonant (unvoiced-plosive or voiced-sonorant) and, if present, one of four tone marks. The names and signs of the tone marks are derived from the numbers one, two, three and four in an Indic language.(CR)(CR)Two consonant characters (not diacritics) are used to modify the tone:(CR)(CR)ห นำ ho nam, leading ho. A silent, high-class ห \"leads\" low-class nasal consonants (ง, ญ, น and ม) and non-plosives (ว, ย, ร and ล), which have no corresponding high-class phonetic match, into the tone properties of a high-class consonant. In polysyllabic words, an initial mid- or high-class consonant with an implicit vowel similarly \"leads\" these same low-class consonants into the higher class tone rules, with the tone marker borne by the low-class consonant.(CR)(CR)อ นำ o nam, leading o. In four words only, a silent, mid-class อ \"leads\" low-class ย into mid-class tone rules: อย่า (ya, don't) อยาก (yak, desire) อย่าง (yang, yet) อยู่ (yu, stay). Note all four have long-vowel, low-tone siang ek, but อยาก, a dead syllable, needs no tone marker, but the three live syllables all take mai ek.(CR)(CR)Exceptions where words are spelled with one tone but pronounced with another often occur in informal conversation (notably the pronouns ฉัน chan and เขา khao, which are both pronounced with a high tone rather than the rising tone indicated by the script). Generally, when such words are recited or read in public, they are pronounced as spelled.(CR)(CR)Other diacritics are used to indicate short vowels and silent consonants:(CR)(CR) –็ Mai taikhu (to indicate short vowels) means \"stick that climbs and squats\". It is a miniature Thai numeral 8 ๘. Mai taikhu is often used with sara e (เ) and sara ae (แ) in closed syllables.(CR)(CR)–์ Thanthakhat (to indicate silent consonants) means \"killing as punishment\"; also called karan, meaning \"canceled\"."
 wiki-tilde:
   entrytype: online
   title: Tilde
@@ -11460,6 +13160,15 @@ wiki-writing-system:
   url: https://en.wikipedia.org/wiki/Writing_system
   urldate: "2025-11-19"
   keywords: [writing systems]
+wiki-zhuang-square-ss:
+  entrytype: online
+  title: Excerpt from the UDHR in Zhuang Square script
+  url: http://en.wikipedia.org/wiki/File:Universal_Declaration_of_Human_Rights_Zhuang_Sawndip.png
+  urldate: "2026-04-17"
+  organization: Wikipedia
+  presort: 22
+  keywords: [script-qa52]
+  abstract: "This is article 1 of the Universal Declaration of Human Rights (UDHR) in the Zhuang Square script."
 wikibooks-cherokee:
   entrytype: online
   title: Cherokee
@@ -11683,3 +13392,15 @@ zubrinic:
   urldate: "2011-08-22"
   keywords: [script-cyrl, lang-hrv]
   annotation: "This page describes the Cyrillic script as it is used for writing Croatian."
+zunkir2021-ss:
+  entrytype: online
+  title: Lexical list of place names
+  author: Zunkir
+  url: https://commons.wikimedia.org/wiki/File:Proto-cuneiform_lexical_list_of_places_-_BM_116625.jpg
+  date: "2021-03-05"
+  organization: Wikimedia
+  presort: 22
+  sortname: Zunkir
+  keywords: [script-pcun]
+  abstract: "Inscribed on a clay tablet, from Jemdet Nasr period (around 3000 BC)"
+

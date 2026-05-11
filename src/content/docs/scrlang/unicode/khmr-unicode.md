@@ -3,7 +3,7 @@ title: Unicode Status for Khmer
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-05-07
 ---
 
 In The Unicode Standard, Khmer script implementation is discussed in [Chapter 16: Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/#G64642).
@@ -88,3 +88,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2023-01-12 Khmer orthographic syllables — Norbert Lindenberg ([L2/23-025](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-025))
   - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point C.13.)_
 - 2023-01-12 Confusables in Khmer — Martin Hosken, Makara Sok, Hour Kaing, Lyheang Ung, Diethelm Kanjahn, Norbert Lindenberg ([L2/23-026](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-026))
+- 2026-01-10 Proposal to encode Candrabindu in Khmer script — Srinidhi A, Sridatta A ([L2/26-088](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-088))
+  - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 2.13)_
+  - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 2.13 for decision and action items)_
