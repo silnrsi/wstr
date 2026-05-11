@@ -57,7 +57,7 @@ Scripts are updated or added on an ad hoc basis when Lorna sees a need.
 To add a new script:
 - Add a section to `data/script-ws.json` for the script. [NOTE: eventually we hope for this file to be auto-generated from langtags.]
 
-- Add a sample image file: `scrlang/images/xxxx-png`. Crop and format the image to be about 450x100. If no image is available, copy nosample.png.
+- Add a sample image file: `scrlang/images/xxxx-png`. The image should be at least 720 pixels wide if possible. Note that it must be openly licensed and the full attribute metadata, including source, must be included.
 
 - Add a main script page: `scrlang/scripts/xxxx.mdx`. Fill in the properties, sample filename, description, and all the instances of the script tag. `avst.mdx` is a good one to use as a template.
 
