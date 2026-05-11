@@ -12,7 +12,7 @@
     "linkcheck": "CHECK_LINKS=true ASTRO_SITE=https://writingsystems.info astro build"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.6",
+    "@astrojs/check": "^0.9.8",
     "@astrojs/react": "^4.4.2",
     "@astrojs/starlight": "^0.37.5",
     "@emotion/react": "^11.14.0",
@@ -20,9 +20,9 @@
     "@jop-software/astro-cookieconsent": "^3.0.1",
     "@mui/icons-material": "^7.3.7",
     "@mui/material": "^7.3.7",
-    "astro": "^5.17.0",
     "astro-broken-links-checker": "imazen/astro-broken-link-checker",
-    "csv": "^6.4.1",
+    "astro": "^5.18.0",
+    "csv": "^6.5.0",
     "mui-language-picker": "file:.vendor/mui-language-picker-2.6.2-pre.0.tgz",
     "rehype-external-links": "^3.0.0",
     "rehype-figure-title": "^1.0.0",

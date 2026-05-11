@@ -12,7 +12,7 @@ In The Unicode Standard, Symbols are discussed in [Chapter 22 Symbols](http://ww
 
 ## Blocks
 
-There are also Emoji Symbols (which have a different script code) referenced here: [https://scriptsource.org/entry/empm9fneyr](https://scriptsource.org/entry/empm9fneyr).
+There are also Emoji Symbols (which have a different script code) referenced here: [Unicode Status for Emoji & Pictograph Symbols](/scrlang/unicode/z-emoji-pictograph-unicode/).
 
 | Blocks | Character Range | Block Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------------ | ------------- |

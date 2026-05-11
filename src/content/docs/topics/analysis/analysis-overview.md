@@ -4,7 +4,7 @@ description: Types of analysis related to writing systems
 sidebar:
   order: 7001
 tags: [conversion]
-lastUpdated: 2025-09-08
+lastUpdated: 2026-03-16
 ---
 
 Even after the basic needs for an [encoding][characters-codepoints-glyphs], [keyboard][from-keystrokes-to-codepoints], and [font][finding-and-using-fonts] are met, people understandably want more. They want to be able to do things with their text. There are a number of processes which fall under the label _analysis_. The purpose of this article is to introduce these various processes and some of the terms used in describing them.
@@ -25,7 +25,7 @@ Difficulties in comparison occur when two strings that should be considered equa
 
 Just as searching resolves down to comparing two strings, sorting resolves down to collating two strings; that is to say, which of two strings is sorted earlier and which later.
 
-The modern [Unicode Collation Algorithm][uts-10] consists of giving each character (or group of characters) one or more collation keys. A collation key consists of a primary, secondary, and tertiary order. Strings are then compared at the primary order and if there is a difference, then that gives the result. If there is not then the strings are compared with their secondary orders and if necessary tertiary orders. Unicode has a [Default Unicode Collation Element Table (DUCET)][uts-10-ducet] that has a set of default keys covering every character in Unicode. This default ordering is pretty good, but languages often want some difference from that. For this, a language can provide a tailoring of the default collation order. There is a standard syntax for describing this, based on the [ICU library][icu], and applications can make use of that.
+The modern [Unicode Collation Algorithm][uts-10] consists of giving each character (or group of characters) one or more collation keys. A collation key consists of a primary, secondary, and tertiary order. Strings are then compared at the primary order and if there is a difference, then that gives the result. If there is not then the strings are compared with their secondary orders and if necessary tertiary orders. Unicode has a [Default Unicode Collation Element Table (DUCET)][uts-10-ducet] that has a set of default keys covering every character in Unicode. This default ordering is pretty good, but languages often want some difference from that. For this, a language can provide a tailoring of the default collation order. There is a standard syntax for describing this, based on the [ICU library][icu], and applications can make use of that. A tutorial on [Unicode Sort Tailoring][sort-tailoring] is available.
 
 ## Segmentation
 
@@ -61,3 +61,4 @@ Linguistic computing is currently undergoing something of a revolution as some l
 [icu]: https://icu.unicode.org
 [uax-29]: https://unicode.org/reports/tr29/
 [hunspell]: https://hunspell.github.io
+[sort-tailoring]: /articlelib/u/unicode-sort-tailoring

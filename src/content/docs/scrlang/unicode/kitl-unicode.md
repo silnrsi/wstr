@@ -3,10 +3,12 @@ title: Unicode Status for Khitan Large
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-10-06
+lastUpdated: 2026-04-24
 ---
 
 The Khitan Large (or Khitan Ideographs) script is not yet in Unicode. The script has a tentative allocation at U+18D80..U+195FF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+
+A Unicode summary of documents related to this script is available here: [Topical Document List: Khitan Scripts](https://www.unicode.org/L2/topical/khitan/)
 
 ## Blocks
 
@@ -14,7 +16,7 @@ None.
 
 ## Proposals and documents
 
-A number of proposals for its inclusion (and also that of [Khitan Small](https://scriptsource.org/entry/s5y4qyk59q)) have been submitted to the Unicode Technical Committee and WG2:
+A number of proposals for its inclusion (and also that of [Khitan Small](/scrlang/unicode/kits-unicode)) have been submitted to the Unicode Technical Committee and WG2:
 - 2009-04-30 Proposal to redefine the scope of Ideographic Description Sequences and to encode four additional Ideographic Description Characters — Andrew C West ([WG2 N3643](https://www.unicode.org/wg2/docs/n3643.pdf), [L2/09-171](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-171))
 - 2010-04-15 Preliminary Proposal for Encoding Khitan Characters in UCS — China N.B. ([WG2 N3820](https://www.unicode.org/wg2/docs/n3820.pdf), [L2/10-130](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-130))
 - 2010-09-24 Comments on Khitan proposal N3918 — Richard Cook, Deborah Anderson ([WG2 N3925](https://www.unicode.org/wg2/docs/n3925.pdf), [L2/10-374](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-374))

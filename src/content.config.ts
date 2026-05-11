@@ -25,6 +25,7 @@ export const collections = {
         scrpropbehavior: z.string().optional(),
         scrpropisonumkey: z.string().optional(),
         scrpropotcode: z.string().optional(),
+        scrpropsortname: z.string().optional(),
         tags: z.array(z.string()).optional(),
       }),
     }),

@@ -3,7 +3,7 @@ title: Unicode Status for Greek
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-04-24
 ---
 
 In The Unicode Standard, Greek script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G10832). 
@@ -26,7 +26,7 @@ The Greek script is now encoded in the following blocks:
 | Ancient Symbols  | 101A0  | 7.0  | [U10190 ](http://www.unicode.org/charts/PDF/U10190.pdf) |
 | Ancient Greek Musical Notation  |  1D200..1D24F  |  4.1  |  [U1D200](http://www.unicode.org/charts/PDF/U1D200.pdf) |
 
-See also ["Unicode Status (Combining marks)"](https://scriptsource.org/entry/ktxptbccph) for combining marks used in the Greek script.
+See also ["Unicode Status (Combining marks)"](/scrlang/unicode/x-comb-marks-unicode/) for combining marks used in the Greek script.
 
 ## Characters
 

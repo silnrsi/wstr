@@ -84,7 +84,7 @@ This document does not address those issues.
 - [SIL Converters][sil-converters] - contains both client applications and transduction engines
 - [TECkit][teckit] - conversion toolkit
 - [LibreOffice Linguistic Tools extension][lolt] - includes the ability to convert LibreOffice documents by calling SIL Converters
-- [SIL Writing System Resources][wsresources] - a catch bag of writing system resource files organised by language tag, region, or script. Writing system resources are things like dictionaries, keyboards, and data conversion mappings.
+- [SIL Writing System Resources][wsresources] - a catch bag of writing system resource files organised by language tag, region, or script. Perhaps the most useful files are the TECkit mapping files. However, in addition to data conversion mappings, writing system resources also include things like dictionaries and keyboards.
 - [Roman Script to Arabic Script Conversion][rs-to-as]. An example of cross-script conversion for Roman to Arabic Script
 - [Osage Nation Web Keyboard, Fonts, and Converter][res-osage]
 - [Lexilogos Data Conversion][res-lexilogos]

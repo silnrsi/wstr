@@ -3,7 +3,7 @@ title: Unicode Status for Latin
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-01-30
+lastUpdated: 2026-04-24
 ---
 
 In The Unicode Standard, Latin script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G4321), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), <br />
@@ -35,7 +35,7 @@ The Latin script was first encoded in The Unicode Standard version 1.0. Since th
 | Latin Extended-F | 10780..107BF | 14.0 | [U10780.pdf](http://www.unicode.org/charts/PDF/U10780.pdf) |
 | Latin Extended-G | 1DF00..1DFFF | 14.0 | [U1DF00.pdf](http://www.unicode.org/charts/PDF/U1DF00.pdf) |
 
-See also entries for [Unicode Status (Combining marks)](https://scriptsource.org/entry/ktxptbccph) and [Unicode Status (Modifier letters)](https://scriptsource.org/entry/bz9qgqqjfe)
+See also entries for [Unicode Status (Combining marks)](/scrlang/unicode/x-comb-marks-unicode/) and [Unicode Status (Modifier letters)](/scrlang/unicode/x-mod-letters-unicode)
 
 ## Characters
 

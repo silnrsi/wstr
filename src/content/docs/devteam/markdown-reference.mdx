@@ -1,7 +1,7 @@
 ---
 title: Markdown Reference
 description: Guidance on markdown use
-lastUpdated: 2025-11-05
+lastUpdated: 2026-04-27
 ---
 
 import { Badge } from '@astrojs/starlight/components';
@@ -132,7 +132,7 @@ This is a longer text to describe the basic Latin block|C0 Controls and Basic La
 More left-aligned text|C1 Controls and Latin-1 Supplement|U+00A0..U+00FF
 ```
 
-### Image references
+## Image references
 
 To place an image on a page use this format, and do not leave AltText blank:
 
@@ -186,7 +186,7 @@ Image references should not be broken over multiple lines. They may still work, 
 
 ## Links
 
-**External links** should always use the full URL using a named referenceas in [this example][otspec].
+**External links** should always use the full URL using a named references in [this example][otspec].
 ```md
 **External links** should always use the full URL using a named reference
 as in [this example][otspec].
@@ -262,6 +262,22 @@ The `refname` format should be reasonably consistent. Suggestions that will make
 For most shorter pages the reference definitions should be at the end of the page, but for longer docs such as [Application Development Best Practice][adbp] the reference definitions could be clustered at the end of each section. They aren't rendered on the page so their location can vary.
 
 [adbp]: /topics/computing/app-development-best-practice
+
+## Downloadable or viewable files
+
+Links to downloadable files (ZIP, etc.) or viewable files (PDF) should use raw HTML anchors rather than markdown-style links. The `href` should point to the file in the `public/files` folder using the format `/files/filename`. (See [File locations](/devteam/file-location-and-frontmatter-reference#file-locations) for details on where to place the files themselves.)
+
+**Viewable PDFs** will by default be opened in the user's browser or PDF viewer. The anchor needs an additional `class="file-pdf"` added. This enables us to add a PDF icon after the link name to indicate to users that the linked file is a PDF. For example, <a href="/files/test-pdf.pdf" class="file-pdf">Title of PDF</a>.
+
+```md
+<a href="/files/test-pdf.pdf" class="file-pdf">Title of PDF</a>
+```
+
+**Downloadable files** need to have a `download` attribute added to the anchor. This tells the browser to download the file instead of trying to display it. For example, <a download href="/files/test-zip.zip">Title of ZIP</a>.
+
+```md
+<a download href="/files/test-zip.zip">Title of ZIP</a>
+```
 
 ## Blocks
 

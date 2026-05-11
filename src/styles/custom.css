@@ -49,15 +49,15 @@
     }
 
 .external-link-icon {
-                    display:inline-flex;
-					position:relative;
-                    top:3px;
-					}
+    display:inline-flex;
+    position:relative;
+    top:3px;
+}
 
 .external-link-icon img{
-                    height:1rem;
-					margin:0 0 0 2px;
-					width:1rem;
+    height:1rem;
+    margin:0 0 0 2px;
+    width:1rem;
 }
 
 /* Used by Character and CharacterTable components */
@@ -65,6 +65,27 @@
     font-size: var(--sl-text-sm) !important;
 }
 
-#LangBcp47 .MuiFilledInput-root {
-  background-color: var(--sl-color-bg-nav)
+.sl-markdown-content a[download]::after {
+    content: url('/svgs/file-download.svg');
+    display: inline-block;
+    position: relative;
+    margin:0 0 0 2px;
+    top: 3px;
+    height: 1.1rem;
+    width: 1.1rem;
 }
+
+.sl-markdown-content .file-pdf::after {
+    content: url('/svgs/file-pdf.svg');
+    display: inline-block;
+    position: relative;
+    margin:0 0 0 2px;
+    top: 3px;
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+#LangBcp47 .MuiFilledInput-root {
+  background-color: var(--sl-color-bg-nav);
+}
+

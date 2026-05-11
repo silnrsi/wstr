@@ -71,6 +71,8 @@ InDesign CC | InDesign version | Option for HarfBuzz | Option for Lipika
 2022 | 17.x.x | yes | default (except for SE Asian scripts)
 2023 | 18.x.x | yes | default (except for SE Asian scripts)
 2024 | 19.x.x | default | yes
+2025 | 20.x.x | default | yes
+2026 | 21.x.x | default | yes
 
 InDesign 2025 (v20.x.x) or later requires Windows 11.
 
@@ -98,7 +100,7 @@ Therefore, it is possible to have 2020 using HarfBuzz, but 2021 using Lipika.
 
 The rendering with HarfBuzz in InDesign is fiddly. InDesign caches the displayed (and already shaped) glyphs. This affects testing in two ways:
 
-1. Installing a new font for testing, and restarting InDesign, will probably display the cached glyphs, and not use the newly installed font.  
+1. Installing a new font for testing, and restarting InDesign, will probably display the cached glyphs, and not use the newly installed font.
 2. After enabling HarfBuzz rendering in InDesign, the cached glyphs are still displayed, and the newly enabled rendering engine is not used.
 
 The solution to both issues is to force InDesign to redraw the glyphs (thus using the new font or rendering engine). This can be done by changing the point size or, easier to do, setting the weight of the text to Bold (or Italic, and then back to Regular if desired). Another font setting might also work.

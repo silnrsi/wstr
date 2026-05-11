@@ -3,10 +3,12 @@ title: Unicode Status for Hangul
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-04-24
 ---
 
 In The Unicode Standard, Hangul implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G31028).
+
+A Unicode summary of documents related to this script is available here: [Topical Document List: CJK & Unihan Working Group Reports](https://www.unicode.org/L2/topical/cjkunihan/)
 
 ## Blocks
 
