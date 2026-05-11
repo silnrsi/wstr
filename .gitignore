@@ -1,5 +1,6 @@
 # build output
 dist/
+
 # generated types
 .astro/
 .link-checker/
@@ -7,9 +8,8 @@ dist/
 # dependencies
 node_modules/
 
-# this is rebuilt using when needed by `npm run dev/start/build`
-coredata.sqlite
-db/coredata.db
+# editor
+*.code-workspace
 
 # logs
 **.log

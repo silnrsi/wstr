@@ -21,6 +21,7 @@ These are links to pages intended for use by the development team.
 - [Adding and Revising Content](/devteam/adding-and-revising-content)
 - [Datasets](/devteam/datasets)
     - [Dataset - Characters](/devteam/dataset-characters)
+    - [Dataset - Sample text](/devteam/dataset-sample-text)
     - [Dataset - Template](/devteam/dataset-template)
 
 ## Article Library and Tags
