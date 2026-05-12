@@ -3,6 +3,8 @@ title: Dataset - LFF Sample Texts
 lastUpdated: 2026-05-12
 ---
 
+import { Steps } from '@astrojs/starlight/components';
+
 :::note
 This is a guidance document for authors, primarily the Writing Systems Technology (WSTech) team.
 :::
@@ -40,15 +42,27 @@ You can edit the dataset file to add, remove, or correct any sample text you wis
 ### Regenerating 
 
 This is currently a highly manual process, but it should be very rare. This will be scripted in the future:
-1.Check out the Google/fonts repo:
+
+<Steps>
+
+1. Check out the Google/fonts repo:
+
     ```sh title="Checkout source repo"
     git clone https://github.com/google/fonts .vendor/google-fonts
     ```
+
 2. `cd` to `.vendor/google-fonts/lang/Lib/gflanguages/data/languages`
+
 3. Run the following command to extract the relevant field and convert it to a list of JSON properties:
+
     ```sh title="Extract sample text"
     grep -H 'styles:' *.textproto | cut -d: -f1,3- | sed -r 's/^(.*)\.textproto/"\1"/' > ../../../../../../../src/data/google-fonts-samples.new.json
     ```
+
 4. Using a text editor insert the missing `{` and `}` as the first and last lines to get a correctly formated JSON file.
+
 5. Use you favourite merge tool (Meld is a good example, as is VSCode) to merge changes from the new file into the current file.
+
 6. Delete `src/data/google-fonts-samples.new.json` when the merge is complete.
+
+</Steps>
