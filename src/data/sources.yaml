@@ -184,12 +184,12 @@ arkland2020-ss:
 armenian-manuscript-ss:
   entrytype: online
   title: "15th-century Armenian manuscript containing the Albanian alphabet."
-  author: Ole F�rsten
+  author: Ole Førsten
   url: https://commons.wikimedia.org/wiki/File:Alban-script.jpg
   date: "2024-04-04"
   organization: Wikimedia
   presort: 22
-  sortname: F�rsten
+  sortname: Førsten
   keywords: [script-aghb]
   abstract: "The Matenadaran MS 7117 is a manuscript from Matenadaran which contains apologetic texts as well as codex of different alphabets such as Armenian, Greek, Latin, Syriac, Georgian, Coptic and Caucasian Albanian alphabet manual of the 15th century."
 aronson1990:
@@ -443,32 +443,21 @@ bliss1965:
   location: Sydney
   keywords: [script-blis]
   annotation: "This book is available online. The website author says \"The original work of Charles Kaisel Bliss is made available here without permission because the book is out of print and no contact information with his estate is available. I honestly believe Charles would approve. He expressed his hope that someday his work would be freely available to all beyond its limited availability in state libraries.\""
-blood2008:
-  entrytype: article
-  title: "The ascendancy of the Cham script: how a literacy workshop became the catalyst"
-  author: Doris Blood
-  sortname: Blood
-  journaltitle: International Journal of the Sociology of Language
-  url: http://dx.doi.org/10.1515/IJSL.2008.034
-  date: "2008"
-  issn: 1613-3668
-  pages: 45-55
-  volume: "2008"
-  number: "192"
-  keywords: [script-cham]
-  annotation: "This article focuses on the Eastern Cham of Vietnam. The author and her husband came to the Cham area in the 1960s and found that their script, descended from Sanskrit, was prestigious but essentially useless since it was not used for everyday communication and was only known by old men. The introduction of romanized primers in Cham schools brought much opposition, and in the 1970s they chose to revert to the traditional script for their language. In so doing, the Eastern Cham people revealed that their script is important visible evidence of their distinctiveness as a unique people."
 blood2008-ss:
   entrytype: article
   title: "The ascendancy of the Cham script: how a literacy workshop became the catalyst"
   author: Doris E. Blood
-  url: https://www.sil.org/resources/archives/6238
+  url: http://dx.doi.org/10.1515/IJSL.2008.034; https://www.sil.org/resources/archives/6238
   date: "2008-07-09"
   sortname: Blood
   publisher: Walter de Gruyter
   journaltitle: International Journal of the Sociology of Language
+  issn: 1613-3668
+  volume: "2008"
   number: "192"
   pages: 45-55
   keywords: [script-cham]
+  annotation: "This article focuses on the Eastern Cham of Vietnam. The author and her husband came to the Cham area in the 1960s and found that their script, descended from Sanskrit, was prestigious but essentially useless since it was not used for everyday communication and was only known by old men. The introduction of romanized primers in Cham schools brought much opposition, and in the 1970s they chose to revert to the traditional script for their language. In so doing, the Eastern Cham people revealed that their script is important visible evidence of their distinctiveness as a unique people."
   abstract: "The Cham script is Indic in origin, the result of contact between Indian traders, warriors and priests, and the Kingdom of Champa, which controlled parts of Vietnam from the 2nd century until 1832. Once a large and powerful empire, the Cham Kingdom came under increasing attack from Vietnamese, Khmer and Mongol forces, until all but one principality had been annexed to Vietnam or Cambodia.(CR)(CR)As a result, large numbers of Cham began migrating to Cambodia about 500 years ago, and in the intervening period both the language and the script diverged. Eastern Cham (spoken in Vietnam) is written in a more rounded script, whereas Western Cham (spoken in Cambodia) uses more angular letters.(CR)(CR)Most surviving manuscripts related to religious practices, myths and legends, and epic poems. The script was also - and to some extent continues to be - widely used for inscribing magical formulae on amulets. It is suggested that the script may once have performed more mundane functions also, although no such texts exist any longer.(CR)(CR)Traditionally, boys were taught the script by rote from about twelve years of age. The Cham zodiac was taught alongside the script. Despite Cham society being matriarchal from the 7th to the 15th centuries, girls were generally illiterate.(CR)(CR)In both Cambodia and Vietnam the script is seen as a significant part of Cham cultural identity, and knowledge of Cham writing carries considerable prestige. However, by the mid 20th century it was not being widely used for any practical purposes.(CR)(CR)In the 1970s the Vietnamese government launched a project to allow minority language education at the preschool / primary level. By this time however, young people's knowledge of Cham was declining, and in addition, spoken Cham language had diverged so significantly from the language used in traditional texts that study of the script was hampered. The Committee for the Standardization of the Cham Script was created in 1978 to standardize the script.(CR)(CR)In 1990 a new set of Cham primers was produced which included some reforms to the script so that it better represented modern spoken Cham. For example, sounds which had been underrepresented (the same letter was used to represent more than one sound), were represented more accurately by modifying some letters. Spelling conventions were also modified to mirror speech more closely.(CR)(CR)Further changes to the script have been proposed since the 1990s, although these have not yet been as widely accepted by more traditional groups in the user community."
 bolgatanga2011:
   entrytype: book
@@ -676,15 +665,6 @@ brownie2009:
   keywords: [lang-emi]
   abstract: "Outlines the phonemic inventory of Mussau-Emira, the current orthography, and gives examples of the different sounds in context."
   annotation: "Description of the phonology of Mussau-Emira and its current orthography"
-brunelle2008:
-  entrytype: misc
-  title: "Diglossia, Bilingualism, and the Revitalization of Written Eastern Cham"
-  author: Marc Brunelle
-  sortname: Brunelle
-  date: "2008"
-  location: "San Jose, CA"
-  keywords: [script-cham]
-  annotation: "Socio-cultural issues of Champa 175 Years after its disappearance"
 brunelle2008-ss:
   entrytype: article
   title: "Diglossia, Bilingualism, and the Revitalization of Written Eastern Cham"
@@ -698,6 +678,7 @@ brunelle2008-ss:
   number: "1"
   pages: 28-46
   keywords: [script-cham]
+  annotation: "Socio-cultural issues of Champa 175 Years after its disappearance"
   abstract: "Eastern Cham speakers, as well as being bilingual in Vietnamese, use two varieties of Eastern Cham; a High (H) and a Low (L) variety. These exhibit significant phonological differences. L is used on colloquial contexts, and is not regarded by speakers as having high status. it is not normally written. H mostly exists in written form, as well as being used in religious or formal ceremonies. A large (relative to the size of the community) body of literature exists written in Eastern Cham H, mostly comprised of stone inscriptions, religious texts and epics. Because not all speakers achieve full competence in H, a variety of syntactic and phonological forms have been codified over the years. The Committee for the Standardization of the Cham Script was created in the late 1970s to standardize the script. Since that time, the Committee has proposed a number of changes to Cham orthography, which have met with varying degrees of acceptance."
 bueno2004-ss:
   entrytype: online
