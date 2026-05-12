@@ -1,5 +1,5 @@
 ---
-title: Dataset - Sample text
+title: Dataset - LFF Sample Texts
 lastUpdated: 2026-05-12
 ---
 
@@ -13,7 +13,7 @@ This is a guidance document for authors, primarily the Writing Systems Technolog
 
 ## Data format and model
 
-It is a JSON file, which contains a single large object. It maps langtag keys, consiting of langauage and script subtags only, to a short utf-8 string value, which contians neutral text of 40-60 characters in length.
+It is a JSON file, which contains a single large object. It maps langtag keys, consisting of language and script subtags only, to a short utf-8 string value, which contians neutral text of 40-60 characters in length.
 
 ## Source and licensing
 
@@ -21,9 +21,10 @@ The data was extracted from the `styles` field of each language's `.textproto` f
 
 [apache-2.0]: https://spdx.org/licenses/Apache-2.0.html
 [google-fonts-lang-data]: https://github.com/google/fonts/tree/main/lang/Lib/gflanguages/data/languages
+
 ## Uses
 
-This data is used to provide language specific sample text for use by the LFF `<Family />` component. This component displays representative text in the target language with the webfont which the LFF API returned. This is used in turn by the Language Font Finder Frontend <Browser /> component to present each family in the LFF API response.
+This data is used to provide language specific sample texts for use by the LFF `<Family />` component. This component displays representative text in the target language with the webfont which the LFF API returned. This is used in turn by the Language Font Finder Frontend `<Browser />` component to present each family in the LFF API response.
 
 ## History
 |||
@@ -34,11 +35,11 @@ This data is used to provide language specific sample text for use by the LFF `<
 
 ### Amending the data
 
-You can edit the data set file to add, remove, or correct any sample text you wish.  Property keys must always use a langtag consiting solely of language and script subtags. It is recommended add new languages to the end of the file, keeping our additions clustered in case we need to update from the google fonts source using a merge tool.
+You can edit the dataset file to add, remove, or correct any sample text you wish.  Property keys must always use a langtag consisting solely of language and script subtags. Add new languages to the end of the file. This will keep our additions clustered in case we need to update the main set of texts from the google/fonts source using a merge tool.
 
 ### Regenerating 
 
-This is currently a highly manual process, but it should very rare. This will be scripted in the future:
+This is currently a highly manual process, but it should be very rare. This will be scripted in the future:
 1.Check out the Google/fonts repo:
     ```sh title="Checkout source repo"
     git clone https://github.com/google/fonts .vendor/google-fonts

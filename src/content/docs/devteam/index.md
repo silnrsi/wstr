@@ -1,7 +1,7 @@
 ---
 title: Dev Team Links
 description: Links to dev team pages
-lastUpdated: 2026-05-04
+lastUpdated: 2026-05-12
 ---
 
 :::note
@@ -21,7 +21,7 @@ These are links to pages intended for use by the development team.
 - [Adding and Revising Content](/devteam/adding-and-revising-content)
 - [Datasets](/devteam/datasets)
     - [Dataset - Characters](/devteam/dataset-characters)
-    - [Dataset - Sample text](/devteam/dataset-sample-text)
+    - [Dataset - LFF Sample Texts](/devteam/dataset-sample-text)
     - [Dataset - Scripts](/devteam/dataset-scripts)
     - [Dataset - Sources](/devteam/dataset-sources)
     - [Dataset - Documentation Template](/devteam/dataset-template)
