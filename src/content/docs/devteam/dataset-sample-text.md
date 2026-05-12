@@ -17,11 +17,7 @@ It is a JSON file, which contains a single large object. It maps langtag keys, c
 
 ## Source and licensing
 
-The data was extracted from the `styles` field of each language's `.textproto` file. These files came from the [Google/fonts github repository lang subrepo][google-fonts-lang-data].  The specific commit this dataset was extracted from is preserved as a submodule under `.vendor/google-fonts`. The `lang` subrepo is made available by Google LLC under the [Apache 2.0 license][apache-2.0].
-
-:::tip
-The git submodule does not need to be initalised, or updated in order to build the site. It is solely here to provide a link to the original source.
-:::
+The data was extracted from the `styles` field of each language's `.textproto` file. These files came from the [Google/fonts github repository lang subrepo][google-fonts-lang-data]. See the [History][history] section for the date of retrieval. The `lang` subrepo is made available by Google LLC under the [Apache 2.0 license][apache-2.0].
 
 [apache-2.0]: https://spdx.org/licenses/Apache-2.0.html
 [google-fonts-lang-data]: https://github.com/google/fonts/tree/main/lang/Lib/gflanguages/data/languages
@@ -32,7 +28,7 @@ This data is used to provide language specific sample text for use by the LFF `<
 ## History
 |||
 |---|---|
-|2026-05-11| Downloaded and extracted the `styles` sample text, before converting to a JSON file. |
+|2026-05-11| Downloaded and extracted the `styles` sample text from commit `5835bfbb`, before converting to a JSON file. |
 
 ## Maintenance processes
 
@@ -43,9 +39,9 @@ You can edit the data set file to add, remove, or correct any sample text you wi
 ### Regenerating 
 
 This is currently a highly manual process, but it should very rare. This will be scripted in the future:
-1. Bring in the google-fonts submoule by running:
-    ```sh title="Bring in submodules after a clone"
-    git submodule update --init --recursive
+1.Check out the Google/fonts repo:
+    ```sh title="Checkout source repo"
+    git clone https://github.com/google/fonts .vendor/google-fonts
     ```
 2. `cd` to `.vendor/google-fonts/lang/Lib/gflanguages/data/languages`
 3. Run the following command to extract the relevant field and convert it to a list of JSON properties:
