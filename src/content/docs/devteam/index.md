@@ -21,6 +21,7 @@ These are links to pages intended for use by the development team.
 - [Adding and Revising Content](/devteam/adding-and-revising-content)
 - [Datasets](/devteam/datasets)
     - [Dataset - Characters](/devteam/dataset-characters)
+    - [Dataset - Sample text](/devteam/dataset-sample-text)
     - [Dataset - Scripts](/devteam/dataset-scripts)
     - [Dataset - Sources](/devteam/dataset-sources)
     - [Dataset - Documentation Template](/devteam/dataset-template)
@@ -41,3 +42,4 @@ These are links to pages intended for use by the development team.
 - [Markdown Testing](/devteam/markdown-testing)
 - [Extended Markdown](/devteam/extended-markdown)
 - [File Testing](/devteam/file-testing)
+- [Language Font Finder Frontend](/devteam/lfff)

@@ -1,0 +1,22 @@
+.container {
+    margin-top: 0;
+}
+
+.families {
+    overflow: auto;
+    list-style: none;
+    padding-inline-start: 0;
+    border-top: 1px solid var(--sl-color-gray-5);
+}
+
+.response {
+    overflow: auto;
+    max-height: 50vh;
+}
+
+.copy {
+    float: right;
+    background: inherit;
+    border: inherit;
+    cursor: pointer;
+}
