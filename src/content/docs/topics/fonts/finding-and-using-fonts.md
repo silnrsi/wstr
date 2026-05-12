@@ -4,7 +4,7 @@ description: Font finding, evaluation, installation, and licensing
 sidebar:
   order: 5100
 tags: [distribution]
-lastUpdated: 2025-08-06
+lastUpdated: 2026-05-12
 ---
 
 Fonts that support specific scripts and writing systems come from a variety of sources: those distributed with an operating system or application, freely-licensed fonts available from websites, and commercial fonts licensed though foundry websites and e-commerce platforms. It is important to determine whether the font is truly suitable for the writing system and intended use.
@@ -28,16 +28,14 @@ A longer list of sources and projects is available on the [OFL website showcase]
 
 Both Adobe and Google allow their font catalogs to be filtered by language or writing system. SIL fonts are grouped by region. However, it can be difficult to find fonts for languages that are not directly listed in any of those catalogs.
 
-SIL has developed a "Language Font Finder" service so that software applications can choose a reasonable default font based on the language code. The service combines information about specific languages, what script a language is likely to use, and what fonts may be suitable for individual scripts. The returned value is a JSON object with information about a font (or fonts) suitable for the language. The [LFF][lff] service documents the API access.
-
-Try out the [prototype of a user-facing LFF front-end](/lff).
+A new [Language Font Finder][lfff] has been developed to make it easier to find fonts for specific languages. The data used for this service is also available to software developers through a REST API.
 
 [adobe-open-source]: https://fonts.adobe.com/foundries/open-source
 [adobe-source-sans]: https://github.com/adobe-fonts/source-sans
 [copyright-and-licensing]: /topics/fonts/copyright-and-licensing
 [evaluating-fonts]: /topics/fonts/evaluating-fonts
 [gf]: https://fonts.google.com/
-[lff]: https://github.com/silnrsi/langfontfinder
+[lfff]: /scrlang/language-font-finder
 [ofl]: https://openfontlicense.org
 [ofl-fonts]: https://openfontlicense.org/ofl-fonts/
 [sil-fonts]: https://software.sil.org/fonts

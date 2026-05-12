@@ -3,7 +3,7 @@ title: Languages
 description: Main page listing all scripts
 sidebar:
     order: 8400
-lastUpdated: 2025-08-06
+lastUpdated: 2026-05-12
 ---
 
 The following are sites that have information on many different languages. For most of these sites, you can access information on a specific language by including that language's three-letter code in the URL as indicated.
@@ -37,10 +37,15 @@ The following are sites that have information on many different languages. For m
 - [Keyman][keyman]
    - To find a keyboard resources for a specific language, enter the language name into the search box on the Keyman site.
 
+## Fonts
+
+- [Language Font Finder][lfff]
+
 [ethnologue]: https://www.ethnologue.com/
 [iso-639-3]: https://iso639-3.sil.org/
 [scriptSource]: https://scriptsource.org
 [glottolog]: https://glottolog.org
+[lfff]: /scrlang/language-font-finder
 [olac]: http://www.language-archives.org/
 [sil-archive]: https://www.sil.org/resources/language-culture-archives
 [endangered-lang-cat]: https://www.endangeredlanguages.com

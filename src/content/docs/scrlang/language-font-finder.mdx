@@ -1,6 +1,14 @@
 ---
 title: Language Font Finder (beta)
 description: A tool to lookup font information for a given language
+sidebar:
+    order: 8500
+    label: Language Font Finder
+    badge:
+        text: New
+        variant: success
+        size: small
+lastUpdated: 2026-05-12
 ---
 import LFFBrowser from '../../../components/lff/Browser'
 
@@ -10,9 +18,11 @@ This is an early beta test version. We welcome your feedback and suggestions - s
 
 Type a language name or [language tag][language-tagging] in the box below to choose a language. Then select the script, and the _Language Font Finder_ will provide information about free and openly licensed fonts that are likely to support that writing system.
 
+_Known issue with this beta version: Multi-word searching is not working properly. If you want to search for a language with multiple words in the name, try using the [language tag][language-tagging] instead of the name, or try searching for just the first word in the name._
+
 <LFFBrowser client:only="react"/>
 
-The data used for this _Language Font Finder (LFF)_ is also available to software developers through a REST API. See the [LFF service API documentation](https://lff.api.languagetechnology.org/docs) for details.
+The data used for this _Language Font Finder (LFF)_ is also available to software developers through a REST API. See the [LFF service API documentation](https://lff.api.languagetechnology.org/docs) for details. Some sample texts are from the [Google Fonts language data][googlefontstexts] and used under the terms of the [Apache 2.0 license][apache-2.0].
 
 ## Feedback
 
@@ -24,7 +34,9 @@ To report issues with the font or language data, please create an issue in the [
 
 If you would prefer a different way to contact us, please see the [Contact page][contact] for other options.
 
+[apache-2.0]: https://spdx.org/licenses/Apache-2.0.html
 [contact]: /support/contact
+[googlefontstexts]: https://github.com/google/fonts/tree/main/lang/Lib/gflanguages/data/languages
 [language-tagging]: /topics/writingsystems/language-tagging
 [lff-issues]: https://github.com/silnrsi/langfontfinder/issues
 [wstr-issues]: https://github.com/silnrsi/wstr/issues

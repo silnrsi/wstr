@@ -104,6 +104,7 @@ export default defineConfig({
                     items: [
                         'scrlang/scripts-index',
                         'scrlang/languages',
+                        'scrlang/language-font-finder',
                         'scrlang/other-resources',
                     ]
                 },
