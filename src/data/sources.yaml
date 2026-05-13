@@ -418,7 +418,7 @@ beyene1998:
   title: Ethiopian Language Support for the Babel Package
   author: Berhanu Beyene and Manfred Kudlek and Olaf Kummer and Jochen Metzinger
   sortname: Beyene
-  url: ftp://ftp.dante.de/tex-archive/language/ethiopia/ethiop/doc/ethiodoc.ps
+  url: https://www.academia.edu/77789760/Ethiopian_Language_Support_for_the_Babel_Package
   date: "1998-12-07"
   publisher: "Universität Hamburg, FB Informatik"
   keywords: [script-ethi]
@@ -1962,7 +1962,7 @@ firdyiwek1993:
   title: The System for Ethiopic Representation in ASCII
   author: Yitna Firdyiwek and Daniel Yaqob
   sortname: Firdyiwek
-  url: ftp://ftp.geez.org/pub/sera-docs/sera.ps
+  url: https://www.academia.edu/87262743/The_System_for_Ethiopic_Representation_in_ASCII
   date: "1993"
   publisher: The Journal Of EthioSciences
   keywords: [script-ethi]
