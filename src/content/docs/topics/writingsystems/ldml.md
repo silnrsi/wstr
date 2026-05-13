@@ -472,7 +472,7 @@ Multigraphs do not need brackets to mark them as a single unit in a collation se
 
 [cldr-and-sldr]: /topics/writingsystems/cldr-and-sldr
 [collation-formatting]: /topics/writingsystems/ldml/#formatting-text-in-collation
-[collation-tutorial]: /articlelib/u/unicode-sort-tailoring.md
+[collation-tutorial]: /articlelib/u/unicode-sort-tailoring
 [dbl]: https://thedigitalbiblelibrary.org/ 
 [draft-attributes]: /topics/writingsystems/ldml/#draft-attributes
 [escaping]: /topics/writingsystems/ldml/#formatting-text-in-an-exemplar
