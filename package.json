@@ -12,7 +12,7 @@
     "linkcheck": "CHECK_LINKS=true ASTRO_SITE=https://writingsystems.info astro build"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.8",
+    "@astrojs/check": "^0.9.9",
     "@astrojs/react": "^4.4.2",
     "@astrojs/starlight": "^0.37.5",
     "@emotion/styled": "^11.14.1",
