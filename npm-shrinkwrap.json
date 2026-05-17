@@ -11,7 +11,6 @@
         "@astrojs/check": "^0.9.8",
         "@astrojs/react": "^4.4.2",
         "@astrojs/starlight": "^0.37.5",
-        "@emotion/react": "^11.14.0",
         "@emotion/styled": "^11.14.1",
         "@jop-software/astro-cookieconsent": "^3.0.1",
         "@mui/icons-material": "^7.3.7",
@@ -25,10 +24,6 @@
         "sharp": "^0.34.5",
         "starlight-links-validator": "^0.19.2",
         "typescript": "^5"
-      },
-      "peerDependencies": {
-        "react": "^19.2.4",
-        "react-dom": "^19.2.4"
       }
     },
     "node_modules/@astrojs/check": {
@@ -737,6 +732,7 @@
       "resolved": "https://registry.npmjs.org/@emotion/react/-/react-11.14.0.tgz",
       "integrity": "sha512-O000MLDBDdk/EohJPFUqvnp4qnHeYkVP5B0xEG0D/L7cOKP9kefu2DXn8dj74cQfsEzUqh+sr1RzFqiL1o+PpA==",
       "license": "MIT",
+      "peer": true,
       "dependencies": {
         "@babel/runtime": "^7.18.3",
         "@emotion/babel-plugin": "^11.13.5",
@@ -5505,6 +5501,7 @@
       "resolved": "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz",
       "integrity": "sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==",
       "license": "BSD-3-Clause",
+      "peer": true,
       "dependencies": {
         "react-is": "^16.7.0"
       }
@@ -5513,7 +5510,8 @@
       "version": "16.13.1",
       "resolved": "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz",
       "integrity": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==",
-      "license": "MIT"
+      "license": "MIT",
+      "peer": true
     },
     "node_modules/html-escaper": {
       "version": "3.0.3",
@@ -7623,9 +7621,9 @@
       "license": "MIT"
     },
     "node_modules/react": {
-      "version": "19.2.4",
-      "resolved": "https://registry.npmjs.org/react/-/react-19.2.4.tgz",
-      "integrity": "sha512-9nfp2hYpCwOjAN+8TZFGhtWEwgvWHXqESH8qT89AT/lWklpLON22Lc8pEtnpsZz7VmawabSU0gCjnj8aC0euHQ==",
+      "version": "19.2.6",
+      "resolved": "https://registry.npmjs.org/react/-/react-19.2.6.tgz",
+      "integrity": "sha512-sfWGGfavi0xr8Pg0sVsyHMAOziVYKgPLNrS7ig+ivMNb3wbCBw3KxtflsGBAwD3gYQlE/AEZsTLgToRrSCjb0Q==",
       "license": "MIT",
       "peer": true,
       "engines": {
@@ -7633,16 +7631,16 @@
       }
     },
     "node_modules/react-dom": {
-      "version": "19.2.4",
-      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.4.tgz",
-      "integrity": "sha512-AXJdLo8kgMbimY95O2aKQqsz2iWi9jMgKJhRBAxECE4IFxfcazB2LmzloIoibJI3C12IlY20+KFaLv+71bUJeQ==",
+      "version": "19.2.6",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.6.tgz",
+      "integrity": "sha512-0prMI+hvBbPjsWnxDLxlCGyM8PN6UuWjEUCYmZhO67xIV9Xasa/r/vDnq+Xyq4Lo27g8QSbO5YzARu0D1Sps3g==",
       "license": "MIT",
       "peer": true,
       "dependencies": {
         "scheduler": "^0.27.0"
       },
       "peerDependencies": {
-        "react": "^19.2.4"
+        "react": "^19.2.6"
       }
     },
     "node_modules/react-is": {

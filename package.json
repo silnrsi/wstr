@@ -15,13 +15,12 @@
     "@astrojs/check": "^0.9.8",
     "@astrojs/react": "^4.4.2",
     "@astrojs/starlight": "^0.37.5",
-    "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@jop-software/astro-cookieconsent": "^3.0.1",
     "@mui/icons-material": "^7.3.7",
     "@mui/material": "^7.3.7",
-    "astro-broken-links-checker": "imazen/astro-broken-link-checker",
     "astro": "^5.18.0",
+    "astro-broken-links-checker": "imazen/astro-broken-link-checker",
     "csv": "^6.5.0",
     "mui-language-picker": "file:.vendor/mui-language-picker-2.6.2-pre.0.tgz",
     "rehype-external-links": "^3.0.0",
@@ -29,9 +28,5 @@
     "sharp": "^0.34.5",
     "starlight-links-validator": "^0.19.2",
     "typescript": "^5"
-  },
-  "peerDependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
   }
 }
