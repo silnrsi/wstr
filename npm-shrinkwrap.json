@@ -7073,7 +7073,7 @@
     "node_modules/mui-language-picker": {
       "version": "2.6.2-pre.0",
       "resolved": "file:.vendor/mui-language-picker-2.6.2-pre.0.tgz",
-      "integrity": "sha512-GFcKjs5CiFFwdgWCaBH3Quxfd83+8VgqwdR41wc9qSqGfdZ/t1+y1FIKzg0rq7RT4E/2kjUpTXrFYFKxeqWTWQ==",
+      "integrity": "sha512-hElZ0RJry0TxhB/lLVFRmtslN7uGkCxJLx6J8I6+fCfP88sBw4gVahBYfUoyXXk7aTnTeU7Mu2jqEcU5k65baA==",
       "license": "MIT",
       "dependencies": {
         "lodash": "^4.17.21"
