@@ -8,6 +8,7 @@ import ArticlesList from '/src/components/ArticlesList.astro';
 import Attribution from '/src/components/Attribution.astro';
 import BibEntry from '/src/components/BibEntry.astro';
 import BibList from '/src/components/BibList.astro';
+import Caption from '/src/components/Caption.astro';
 import CaptionText from '/src/components/CaptionText.astro';
 import Character from '/src/components/Character.astro';
 import CharacterTable from '/src/components/CharacterTable.astro';
@@ -410,6 +411,48 @@ This example shows the use of `:char`
 :::caution
 These components are prototypes for possible future use: their specification is not yet agreed. You are welcome to try them out and give feedback, but be aware that they will likely change.
 :::
+
+---
+
+### `Caption` component
+
+Displays a styled rich text caption line. The caption text can be markdown text,
+but be aware the CSS styling will override any markdown styling. 
+E.g. If CSS caption styling makes all caption text italicised, then `_` will
+have no visible effect.
+
+#### Required import
+```jsx
+import Caption from '/src/components/Caption.astro';
+```
+
+#### Syntax
+
+```html
+<Caption> ... </Caption>
+```
+
+|Property|Description|
+|---|---|
+|slots| The text to display as the caption, use basic markdown to add extra styling. |
+
+#### Example
+
+##### Source
+
+```html
+<Caption>
+  This is the caption text and _may_ include **basic** 
+  [markdown](https://www.markdownguide.org/) styling.
+</Caption>
+```
+
+##### Result
+
+<Caption>
+This is the caption text and _may_ include **basic** 
+[markdown](https://www.markdownguide.org/) styling.
+</Caption>
 
 ---
 
