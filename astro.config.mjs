@@ -138,9 +138,20 @@ export default defineConfig({
                 // Relative path to your custom CSS file
                 './src/styles/custom.css',
             ],
-            plugins: process.env.CHECK_LINKS ? [
-                starlightLinksValidator({sameSitePolicy: 'error'})
-            ] : [],
+            plugins: [
+                starlightLinksValidator({
+                    failOnError: false,
+                    sameSitePolicy: 'error',
+                    reporters: {
+                        githubActions: true
+                    },
+                    components: [
+                        ['Attribution', 'copyurl'],
+                        ['Attribution', 'licenseurl'],
+                        ['Attribution', 'sourceurl'],
+                    ]
+                })
+            ]
         }),
         astroBrokenLinksChecker({
             checkExternalLinks: false  // Optional: check external links (currently, caching to disk is not supported, and it is slow )
