@@ -89,13 +89,13 @@ export default defineConfig({
                 {
                     label: 'Topics',
                     items: [
-                        { label: 'Writing Systems', collapsed: true, autogenerate: { directory: 'topics/writingsystems' } },
-                        { label: 'Computing Support', collapsed: true, autogenerate: { directory: 'topics/computing' } },
-                        { label: 'Encoding & Unicode', collapsed: true, autogenerate: { directory: 'topics/encoding' } },
-                        { label: 'Input & Keyboards', collapsed: true, autogenerate: { directory: 'topics/input' } },
-                        { label: 'Fonts', collapsed: true, autogenerate: { directory: 'topics/fonts' } },
-                        { label: 'Layout', collapsed: true, autogenerate: { directory: 'topics/layout' } },
-                        { label: 'Analysis', collapsed: true, autogenerate: { directory: 'topics/analysis' } },
+                        { label: 'Writing Systems', collapsed: true, items: [{autogenerate: { directory: 'topics/writingsystems' }}] },
+                        { label: 'Computing Support', collapsed: true, items: [{autogenerate: { directory: 'topics/computing' }}] },
+                        { label: 'Encoding & Unicode', collapsed: true, items: [{autogenerate: { directory: 'topics/encoding' }}] },
+                        { label: 'Input & Keyboards', collapsed: true, items: [{autogenerate: { directory: 'topics/input' }}] },
+                        { label: 'Fonts', collapsed: true, items: [{autogenerate: { directory: 'topics/fonts' }}] },
+                        { label: 'Layout', collapsed: true, items: [{autogenerate: { directory: 'topics/layout' }}] },
+                        { label: 'Analysis', collapsed: true, items: [{autogenerate: { directory: 'topics/analysis' }}] },
                     ],
                 },
                 {
