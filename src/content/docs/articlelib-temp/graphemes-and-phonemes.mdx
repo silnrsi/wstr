@@ -1,0 +1,39 @@
+---
+title: Graphemes and phonemes
+tags: [writing systems]
+lastUpdated: 2026-05-13
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+We've recently added a new feature to ScriptSource that provides the ability to document the graphemes that are used by a writing system and what phonemes they correspond to. In other words, to answer the question: what letters are used to represent what sounds in which languages?
+
+First let's define a few terms:
+
+A <a href='/reference/glossary#grapheme'>**grapheme**</a> is a unit of writing in a given language. Now to be honest, people do have different definitions of the term grapheme. The way we use the term in ScriptSource is to refer to a character, or combination of characters, that represent a sound, and so a grapheme differs from a basic letter of the alphabet. You can think of a grapheme as a symbol  that you need to learn in order to be able to read. In English, for instance, there are 26 letters of the alphabet, each of which is a grapheme. But we also consider various combinations to be graphemes. For instance, the sequence "sh", representing the sound /ʃ/ as in 'shell', is a grapheme. A grapheme that consists of more than one character is called a **multigraph**.
+
+The term <a href='/reference/glossary#phon'>**phoneme**</a> is well defined among linguists. It represents a distinctive sound as perceived by speakers of a language. Using English as an example again, there are subtle differences in how we pronounce the sound /t/, depending on what other sounds occur around it, or where it falls within a word. But each of those subtly different sounds is considered to be a "t sound"; in fact, native speakers are generally unaware of the differences. And so /t/ is a single phoneme (where the subtly different pronunciations are called **allophones** of the phoneme /t/).
+
+Also note that every language has a different set of phonemes, depending on how native speakers perceive the sounds in the language. In English, the initial sounds in the words 'yam' and 'jam' correspond to different phonemes - /j/ and /dʒ/. In Spanish, however, they are both allophones of the same phoneme (at least in some dialects!).
+
+Phonemes are identified by symbols from the International Phonetic Alphabet (IPA).The [Phonetic Writing Systems](page.php?item_id=topic_detail&uid=uafqnf93b4) topic contains some useful information on IPA, including an [introductory article](page.php?item_id=entry_detail&uid=ucgb77fkvh).
+
+By convention, graphemes are written surrounded by angle brackets, and phonemes by slashes. So we would say that the grapheme ‹sh› represents the phoneme /ʃ/ in English.
+
+### ScriptSources's grapheme feature
+
+Now that we know what graphemes and phonemes are, let's see how they look in ScriptSource. The image below shows how the grapheme ‹x› is pronounced in Spanish.
+
+![graphemes-and-phonemes-1.PNG](images/graphemes-and-phonemes-1.PNG)
+
+There are several places where you can find information on graphemes and phonemes:
+
+- There is a new tab on a writing system page, called "Graphemes &amp; Phonemes." This will list the graphemes that have been entered for the writing system. Right now only a handful of writing systems have grapheme data. Spanish, shown above, is one, and another is [Asturian](page.php?item_id=wrSys_detail_phon&key=ast-Latn), a lesser-known language of Spain. Clicking on a grapheme (in the left-hand column) will show you the sounds it is used to represent, and sample words that include it. (Note that the Graphemes &amp; Phonemes tab only appears on the _writing system_ page, not the language page!)
+- There is also a new "Graphemes &amp; Phonemes" tab on a character page. This lists all the graphemes that are known to use the given character. A somewhat interesting example is the [letter 'h'](page.php?item_id=character_detail_phon&uid=daab54c3ca). Remember that every grapheme belongs to a single writing system, so you will see, for example, multiple graphemes called &lt;h&gt;, one for English, one for Indonesian, etc.
+- There is a new topic called ["Graphemes and Phonemes"](page.php?item_id=topic_detail&uid=zyaybzbgtu). Under that topic you will find an article that lists all the writing systems that currently have grapheme and phoneme data entered in ScriptSource.
+- The Graphemes and Phonemes topic also contains a link to a [chart of common phonemes](page.php?item_id=phoneme_chart&csel=selected). In fact there are two charts, one for consonants and one for vowels and diphthongs. Clicking on a phoneme, such as [/dʒ/](page.php?item_id=phoneme_detail&csel=selected&key=aff_pav_vd#detail), will show the known graphemes that are used to represent it in different languages.
+
+
+As I already mentioned, we only have a small amount of grapheme data in ScriptSource so far, but we are hoping to add more soon! (Personally, I've always found Irish mysterious, so I would love to see information explaining how to pronounce it!)  If you would be interested in helping us document the graphemes for a language you are familiar with, please <a href='page.php?item_id=contact_us'>contact us</a>.
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>

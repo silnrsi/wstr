@@ -1,0 +1,324 @@
+---
+title: Character Requirements for basic Cyrillic Orthographies
+tags: [script-cyrl]
+lastUpdated: 2026-05-13
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+If a font supports all of the following characters, we believe that most long-standardized orthographies using the Cyrillic script would be able to typeset texts in their orthography. 
+
+There are comments below about glyph variants that may be needed to support some languages. 
+
+The process for developing this list was based on the following (in order of process):
+
+- Decision to include all Codepage 1251 (Cyrillic) characters
+- Decision to include all Codepage 1252 and MacRoman characters
+- Decision to include many characters required for publishing (spaces and dashes)
+- Decision that if a combining mark, such as :usv[0300]{usv char name} was required, then all precomposed characters with that mark should also be included. (e.g., if :usv[0418]{usv char name} was in the subset, then :usv[040D]{usv char name} was also included in the subset. Even though :usv[0308]{usv char name} is in the subset, :usv[04D8]{usv char name} is _not_ in the subset, so :usv[04DA]{usv char name} has not been included in the subset).
+- Feedback on the resulting character set
+- 
+
+
+
+
+In order to assist font developers, we have provided a .zip file which contains a basic text file which merely lists all the usvs we recommend for inclusion in each subset font. Also included in the .zip file is a .nam file which allows the user to map unicode values to Postscript names for every one of the recommended characters in FontLab. The .zip file is available here: [Character Requirements for different regions (Cyrillic) - downloadable lists](https://scriptsource.org/entry/dmavuswsda).
+
+
+
+| Graphic | USV | Name | Comment |
+| ------- | --- | ---- | ------- |
+| :usv[0020]{char} | [0020](/char/U000020) | :usv[0020]{name} |  |
+| :usv[0021]{char} | [0021](/char/U000021) | :usv[0021]{name} |  |
+| :usv[0022]{char} | [0022](/char/U000022) | :usv[0022]{name} |  |
+| :usv[0023]{char} | [0023](/char/U000023) | :usv[0023]{name} |  |
+| :usv[0024]{char} | [0024](/char/U000024) | :usv[0024]{name} |  |
+| :usv[0025]{char} | [0025](/char/U000025) | :usv[0025]{name} |  |
+| :usv[0026]{char} | [0026](/char/U000026) | :usv[0026]{name} |  |
+| :usv[0027]{char} | [0027](/char/U000027) | :usv[0027]{name} |  |
+| :usv[0028]{char} | [0028](/char/U000028) | :usv[0028]{name} |  |
+| :usv[0029]{char} | [0029](/char/U000029) | :usv[0029]{name} |  |
+| :usv[002A]{char} | [002A](/char/U00002A) | :usv[002A]{name} |  |
+| :usv[002B]{char} | [002B](/char/U00002B) | :usv[002B]{name} |  |
+| :usv[002C]{char} | [002C](/char/U00002C) | :usv[002C]{name} |  |
+| :usv[002D]{char} | [002D](/char/U00002D) | :usv[002D]{name} |  |
+| :usv[002E]{char} | [002E](/char/U00002E) | :usv[002E]{name} |  |
+| :usv[002F]{char} | [002F](/char/U00002F) | :usv[002F]{name} |  |
+| :usv[0030]{char} | [0030](/char/U000030) | :usv[0030]{name} |  |
+| :usv[0031]{char} | [0031](/char/U000031) | :usv[0031]{name} |  |
+| :usv[0032]{char} | [0032](/char/U000032) | :usv[0032]{name} |  |
+| :usv[0033]{char} | [0033](/char/U000033) | :usv[0033]{name} |  |
+| :usv[0034]{char} | [0034](/char/U000034) | :usv[0034]{name} |  |
+| :usv[0035]{char} | [0035](/char/U000035) | :usv[0035]{name} |  |
+| :usv[0036]{char} | [0036](/char/U000036) | :usv[0036]{name} |  |
+| :usv[0037]{char} | [0037](/char/U000037) | :usv[0037]{name} |  |
+| :usv[0038]{char} | [0038](/char/U000038) | :usv[0038]{name} |  |
+| :usv[0039]{char} | [0039](/char/U000039) | :usv[0039]{name} |  |
+| :usv[003A]{char} | [003A](/char/U00003A) | :usv[003A]{name} |  |
+| :usv[003B]{char} | [003B](/char/U00003B) | :usv[003B]{name} |  |
+| :usv[003C]{char} | [003C](/char/U00003C) | :usv[003C]{name} |  |
+| :usv[003D]{char} | [003D](/char/U00003D) | :usv[003D]{name} |  |
+| :usv[003E]{char} | [003E](/char/U00003E) | :usv[003E]{name} |  |
+| :usv[003F]{char} | [003F](/char/U00003F) | :usv[003F]{name} |  |
+| :usv[0040]{char} | [0040](/char/U000040) | :usv[0040]{name} |  |
+| :usv[0041]{char} | [0041](/char/U000041) | :usv[0041]{name} |  |
+| :usv[0042]{char} | [0042](/char/U000042) | :usv[0042]{name} |  |
+| :usv[0043]{char} | [0043](/char/U000043) | :usv[0043]{name} |  |
+| :usv[0044]{char} | [0044](/char/U000044) | :usv[0044]{name} |  |
+| :usv[0045]{char} | [0045](/char/U000045) | :usv[0045]{name} |  |
+| :usv[0046]{char} | [0046](/char/U000046) | :usv[0046]{name} |  |
+| :usv[0047]{char} | [0047](/char/U000047) | :usv[0047]{name} |  |
+| :usv[0048]{char} | [0048](/char/U000048) | :usv[0048]{name} |  |
+| :usv[0049]{char} | [0049](/char/U000049) | :usv[0049]{name} |  |
+| :usv[004A]{char} | [004A](/char/U00004A) | :usv[004A]{name} |  |
+| :usv[004B]{char} | [004B](/char/U00004B) | :usv[004B]{name} |  |
+| :usv[004C]{char} | [004C](/char/U00004C) | :usv[004C]{name} |  |
+| :usv[004D]{char} | [004D](/char/U00004D) | :usv[004D]{name} |  |
+| :usv[004E]{char} | [004E](/char/U00004E) | :usv[004E]{name} |  |
+| :usv[004F]{char} | [004F](/char/U00004F) | :usv[004F]{name} |  |
+| :usv[0050]{char} | [0050](/char/U000050) | :usv[0050]{name} |  |
+| :usv[0051]{char} | [0051](/char/U000051) | :usv[0051]{name} |  |
+| :usv[0052]{char} | [0052](/char/U000052) | :usv[0052]{name} |  |
+| :usv[0053]{char} | [0053](/char/U000053) | :usv[0053]{name} |  |
+| :usv[0054]{char} | [0054](/char/U000054) | :usv[0054]{name} |  |
+| :usv[0055]{char} | [0055](/char/U000055) | :usv[0055]{name} |  |
+| :usv[0056]{char} | [0056](/char/U000056) | :usv[0056]{name} |  |
+| :usv[0057]{char} | [0057](/char/U000057) | :usv[0057]{name} |  |
+| :usv[0058]{char} | [0058](/char/U000058) | :usv[0058]{name} |  |
+| :usv[0059]{char} | [0059](/char/U000059) | :usv[0059]{name} |  |
+| :usv[005A]{char} | [005A](/char/U00005A) | :usv[005A]{name} |  |
+| :usv[005B]{char} | [005B](/char/U00005B) | :usv[005B]{name} |  |
+| :usv[005C]{char} | [005C](/char/U00005C) | :usv[005C]{name} |  |
+| :usv[005D]{char} | [005D](/char/U00005D) | :usv[005D]{name} |  |
+| :usv[005E]{char} | [005E](/char/U00005E) | :usv[005E]{name} |  |
+| :usv[005F]{char} | [005F](/char/U00005F) | :usv[005F]{name} |  |
+| :usv[0060]{char} | [0060](/char/U000060) | :usv[0060]{name} |  |
+| :usv[0062]{char} | [0062](/char/U000062) | :usv[0062]{name} |  |
+| :usv[0063]{char} | [0063](/char/U000063) | :usv[0063]{name} |  |
+| :usv[0064]{char} | [0064](/char/U000064) | :usv[0064]{name} |  |
+| :usv[0065]{char} | [0065](/char/U000065) | :usv[0065]{name} |  |
+| :usv[0066]{char} | [0066](/char/U000066) | :usv[0066]{name} |  |
+| :usv[0067]{char} | [0067](/char/U000067) | :usv[0067]{name} |  |
+| :usv[0068]{char} | [0068](/char/U000068) | :usv[0068]{name} |  |
+| :usv[0069]{char} | [0069](/char/U000069) | :usv[0069]{name} |  |
+| :usv[006A]{char} | [006A](/char/U00006A) | :usv[006A]{name} |  |
+| :usv[006B]{char} | [006B](/char/U00006B) | :usv[006B]{name} |  |
+| :usv[006C]{char} | [006C](/char/U00006C) | :usv[006C]{name} |  |
+| :usv[006D]{char} | [006D](/char/U00006D) | :usv[006D]{name} |  |
+| :usv[006E]{char} | [006E](/char/U00006E) | :usv[006E]{name} |  |
+| :usv[006F]{char} | [006F](/char/U00006F) | :usv[006F]{name} |  |
+| :usv[0070]{char} | [0070](/char/U000070) | :usv[0070]{name} |  |
+| :usv[0071]{char} | [0071](/char/U000071) | :usv[0071]{name} |  |
+| :usv[0072]{char} | [0072](/char/U000072) | :usv[0072]{name} |  |
+| :usv[0073]{char} | [0073](/char/U000073) | :usv[0073]{name} |  |
+| :usv[0074]{char} | [0074](/char/U000074) | :usv[0074]{name} |  |
+| :usv[0075]{char} | [0075](/char/U000075) | :usv[0075]{name} |  |
+| :usv[0076]{char} | [0076](/char/U000076) | :usv[0076]{name} |  |
+| :usv[0077]{char} | [0077](/char/U000077) | :usv[0077]{name} |  |
+| :usv[0078]{char} | [0078](/char/U000078) | :usv[0078]{name} |  |
+| :usv[0079]{char} | [0079](/char/U000079) | :usv[0079]{name} |  |
+| :usv[007A]{char} | [007A](/char/U00007A) | :usv[007A]{name} |  |
+| :usv[007B]{char} | [007B](/char/U00007B) | :usv[007B]{name} |  |
+| :usv[007C]{char} | [007C](/char/U00007C) | :usv[007C]{name} |  |
+| :usv[007D]{char} | [007D](/char/U00007D) | :usv[007D]{name} |  |
+| :usv[007E]{char} | [007E](/char/U00007E) | :usv[007E]{name} |  |
+| :usv[00A0]{char} | [00A0](/char/U0000A0) | :usv[00A0]{name} |  |
+| :usv[00A3]{char} | [00A3](/char/U0000A3) | :usv[00A3]{name} |  |
+| :usv[00A4]{char} | [00A4](/char/U0000A4) | :usv[00A4]{name} |  |
+| :usv[00A5]{char} | [00A5](/char/U0000A5) | :usv[00A5]{name} |  |
+| :usv[00A6]{char} | [00A6](/char/U0000A6) | :usv[00A6]{name} |  |
+| :usv[00A8]{char} | [00A8](/char/U0000A8) | :usv[00A8]{name} |  |
+| :usv[00A9]{char} | [00A9](/char/U0000A9) | :usv[00A9]{name} |  |
+| :usv[00AB]{char} | [00AB](/char/U0000AB) | :usv[00AB]{name} |  |
+| :usv[00AD]{char} | [00AD](/char/U0000AD) | :usv[00AD]{name} |  |
+| :usv[00AE]{char} | [00AE](/char/U0000AE) | :usv[00AE]{name} |  |
+| :usv[00AF]{char} | [00AF](/char/U0000AF) | :usv[00AF]{name} |  |
+| :usv[00B0]{char} | [00B0](/char/U0000B0) | :usv[00B0]{name} |  |
+| :usv[00B5]{char} | [00B5](/char/U0000B5) | :usv[00B5]{name} |  |
+| :usv[00B6]{char} | [00B6](/char/U0000B6) | :usv[00B6]{name} |  |
+| :usv[00B7]{char} | [00B7](/char/U0000B7) | :usv[00B7]{name} |  |
+| :usv[00BB]{char} | [00BB](/char/U0000BB) | :usv[00BB]{name} |  |
+| :usv[00D7]{char} | [00D7](/char/U0000D7) | :usv[00D7]{name} |  |
+| :usv[02BC]{char} | [02BC](/char/U0002BC) | :usv[02BC]{name} |  |
+| :usv[02EE]{char} | [02EE](/char/U0002EE) | :usv[02EE]{name} |  |
+| :usv[0300]{char} | [0300](/char/U000300) | :usv[0300]{name} |  |
+| :usv[0301]{char} | [0301](/char/U000301) | :usv[0301]{name} |  |
+| :usv[0306]{char} | [0306](/char/U000306) | :usv[0306]{name} | In Cyrillic the breve character has a different appearance than the same character in Latin (see [https://scriptsource.org/entry/k9ew9c6yam](https://scriptsource.org/entry/k9ew9c6yam)) |
+| :usv[0308]{char} | [0308](/char/U000308) | :usv[0308]{name} |  |
+| :usv[034F]{char} | [034F](/char/U00034F) | :usv[034F]{name} |  |
+| :usv[0400]{char} | [0400](/char/U000400) | :usv[0400]{name} |  |
+| :usv[0401]{char} | [0401](/char/U000401) | :usv[0401]{name} |  |
+| :usv[0402]{char} | [0402](/char/U000402) | :usv[0402]{name} |  |
+| :usv[0403]{char} | [0403](/char/U000403) | :usv[0403]{name} |  |
+| :usv[0404]{char} | [0404](/char/U000404) | :usv[0404]{name} |  |
+| :usv[0405]{char} | [0405](/char/U000405) | :usv[0405]{name} |  |
+| :usv[0406]{char} | [0406](/char/U000406) | :usv[0406]{name} |  |
+| :usv[0407]{char} | [0407](/char/U000407) | :usv[0407]{name} |  |
+| :usv[0408]{char} | [0408](/char/U000408) | :usv[0408]{name} |  |
+| :usv[0409]{char} | [0409](/char/U000409) | :usv[0409]{name} |  |
+| :usv[040A]{char} | [040A](/char/U00040A) | :usv[040A]{name} |  |
+| :usv[040B]{char} | [040B](/char/U00040B) | :usv[040B]{name} |  |
+| :usv[040C]{char} | [040C](/char/U00040C) | :usv[040C]{name} |  |
+| :usv[040D]{char} | [040D](/char/U00040D) | :usv[040D]{name} |  |
+| :usv[040E]{char} | [040E](/char/U00040E) | :usv[040E]{name} | In Cyrillic the breve character has a different appearance than the same character in Latin (see [https://scriptsource.org/entry/k9ew9c6yam](https://scriptsource.org/entry/k9ew9c6yam)) |
+| :usv[040F]{char} | [040F](/char/U00040F) | :usv[040F]{name} |  |
+| :usv[0410]{char} | [0410](/char/U000410) | :usv[0410]{name} |  |
+| :usv[0411]{char} | [0411](/char/U000411) | :usv[0411]{name} |  |
+| :usv[0412]{char} | [0412](/char/U000412) | :usv[0412]{name} |  |
+| :usv[0413]{char} | [0413](/char/U000413) | :usv[0413]{name} |  |
+| :usv[0414]{char} | [0414](/char/U000414) | :usv[0414]{name} |  |
+| :usv[0415]{char} | [0415](/char/U000415) | :usv[0415]{name} |  |
+| :usv[0416]{char} | [0416](/char/U000416) | :usv[0416]{name} |  |
+| :usv[0417]{char} | [0417](/char/U000417) | :usv[0417]{name} |  |
+| :usv[0418]{char} | [0418](/char/U000418) | :usv[0418]{name} |  |
+| :usv[0419]{char} | [0419](/char/U000419) | :usv[0419]{name} | In Cyrillic the breve character has a different appearance than the same character in Latin (see [https://scriptsource.org/entry/k9ew9c6yam](https://scriptsource.org/entry/k9ew9c6yam)) |
+| :usv[041A]{char} | [041A](/char/U00041A) | :usv[041A]{name} |  |
+| :usv[041B]{char} | [041B](/char/U00041B) | :usv[041B]{name} |  |
+| :usv[041C]{char} | [041C](/char/U00041C) | :usv[041C]{name} |  |
+| :usv[041D]{char} | [041D](/char/U00041D) | :usv[041D]{name} |  |
+| :usv[041E]{char} | [041E](/char/U00041E) | :usv[041E]{name} |  |
+| :usv[041F]{char} | [041F](/char/U00041F) | :usv[041F]{name} |  |
+| :usv[0420]{char} | [0420](/char/U000420) | :usv[0420]{name} |  |
+| :usv[0421]{char} | [0421](/char/U000421) | :usv[0421]{name} |  |
+| :usv[0422]{char} | [0422](/char/U000422) | :usv[0422]{name} |  |
+| :usv[0423]{char} | [0423](/char/U000423) | :usv[0423]{name} |  |
+| :usv[0424]{char} | [0424](/char/U000424) | :usv[0424]{name} |  |
+| :usv[0425]{char} | [0425](/char/U000425) | :usv[0425]{name} |  |
+| :usv[0426]{char} | [0426](/char/U000426) | :usv[0426]{name} |  |
+| :usv[0427]{char} | [0427](/char/U000427) | :usv[0427]{name} |  |
+| :usv[0428]{char} | [0428](/char/U000428) | :usv[0428]{name} |  |
+| :usv[0429]{char} | [0429](/char/U000429) | :usv[0429]{name} |  |
+| :usv[042A]{char} | [042A](/char/U00042A) | :usv[042A]{name} |  |
+| :usv[042B]{char} | [042B](/char/U00042B) | :usv[042B]{name} |  |
+| :usv[042C]{char} | [042C](/char/U00042C) | :usv[042C]{name} |  |
+| :usv[042D]{char} | [042D](/char/U00042D) | :usv[042D]{name} |  |
+| :usv[042E]{char} | [042E](/char/U00042E) | :usv[042E]{name} |  |
+| :usv[042F]{char} | [042F](/char/U00042F) | :usv[042F]{name} |  |
+| :usv[0430]{char} | [0430](/char/U000430) | :usv[0430]{name} |  |
+| :usv[0431]{char} | [0431](/char/U000431) | :usv[0431]{name} |  |
+| :usv[0432]{char} | [0432](/char/U000432) | :usv[0432]{name} |  |
+| :usv[0433]{char} | [0433](/char/U000433) | :usv[0433]{name} |  |
+| :usv[0434]{char} | [0434](/char/U000434) | :usv[0434]{name} |  |
+| :usv[0435]{char} | [0435](/char/U000435) | :usv[0435]{name} |  |
+| :usv[0436]{char} | [0436](/char/U000436) | :usv[0436]{name} |  |
+| :usv[0437]{char} | [0437](/char/U000437) | :usv[0437]{name} |  |
+| :usv[0438]{char} | [0438](/char/U000438) | :usv[0438]{name} |  |
+| :usv[0439]{char} | [0439](/char/U000439) | :usv[0439]{name} | In Cyrillic the breve character has a different appearance than the same character in Latin (see [https://scriptsource.org/entry/k9ew9c6yam](https://scriptsource.org/entry/k9ew9c6yam)) |
+| :usv[043A]{char} | [043A](/char/U00043A) | :usv[043A]{name} |  |
+| :usv[043B]{char} | [043B](/char/U00043B) | :usv[043B]{name} |  |
+| :usv[043C]{char} | [043C](/char/U00043C) | :usv[043C]{name} |  |
+| :usv[043D]{char} | [043D](/char/U00043D) | :usv[043D]{name} |  |
+| :usv[043E]{char} | [043E](/char/U00043E) | :usv[043E]{name} |  |
+| :usv[043F]{char} | [043F](/char/U00043F) | :usv[043F]{name} |  |
+| :usv[0440]{char} | [0440](/char/U000440) | :usv[0440]{name} |  |
+| :usv[0441]{char} | [0441](/char/U000441) | :usv[0441]{name} |  |
+| :usv[0442]{char} | [0442](/char/U000442) | :usv[0442]{name} |  |
+| :usv[0443]{char} | [0443](/char/U000443) | :usv[0443]{name} |  |
+| :usv[0444]{char} | [0444](/char/U000444) | :usv[0444]{name} |  |
+| :usv[0445]{char} | [0445](/char/U000445) | :usv[0445]{name} |  |
+| :usv[0446]{char} | [0446](/char/U000446) | :usv[0446]{name} |  |
+| :usv[0447]{char} | [0447](/char/U000447) | :usv[0447]{name} |  |
+| :usv[0448]{char} | [0448](/char/U000448) | :usv[0448]{name} |  |
+| :usv[0449]{char} | [0449](/char/U000449) | :usv[0449]{name} |  |
+| :usv[044A]{char} | [044A](/char/U00044A) | :usv[044A]{name} |  |
+| :usv[044B]{char} | [044B](/char/U00044B) | :usv[044B]{name} |  |
+| :usv[044C]{char} | [044C](/char/U00044C) | :usv[044C]{name} |  |
+| :usv[044D]{char} | [044D](/char/U00044D) | :usv[044D]{name} |  |
+| :usv[044E]{char} | [044E](/char/U00044E) | :usv[044E]{name} |  |
+| :usv[044F]{char} | [044F](/char/U00044F) | :usv[044F]{name} |  |
+| :usv[0450]{char} | [0450](/char/U000450) | :usv[0450]{name} |  |
+| :usv[0451]{char} | [0451](/char/U000451) | :usv[0451]{name} |  |
+| :usv[0452]{char} | [0452](/char/U000452) | :usv[0452]{name} |  |
+| :usv[0453]{char} | [0453](/char/U000453) | :usv[0453]{name} |  |
+| :usv[0454]{char} | [0454](/char/U000454) | :usv[0454]{name} |  |
+| :usv[0455]{char} | [0455](/char/U000455) | :usv[0455]{name} |  |
+| :usv[0456]{char} | [0456](/char/U000456) | :usv[0456]{name} |  |
+| :usv[0457]{char} | [0457](/char/U000457) | :usv[0457]{name} |  |
+| :usv[0458]{char} | [0458](/char/U000458) | :usv[0458]{name} |  |
+| :usv[0459]{char} | [0459](/char/U000459) | :usv[0459]{name} |  |
+| :usv[045A]{char} | [045A](/char/U00045A) | :usv[045A]{name} |  |
+| :usv[045B]{char} | [045B](/char/U00045B) | :usv[045B]{name} |  |
+| :usv[045C]{char} | [045C](/char/U00045C) | :usv[045C]{name} |  |
+| :usv[045D]{char} | [045D](/char/U00045D) | :usv[045D]{name} |  |
+| :usv[045E]{char} | [045E](/char/U00045E) | :usv[045E]{name} | In Cyrillic the breve character has a different appearance than the same character in Latin (see [https://scriptsource.org/entry/k9ew9c6yam](https://scriptsource.org/entry/k9ew9c6yam)) |
+| :usv[045F]{char} | [045F](/char/U00045F) | :usv[045F]{name} |  |
+| :usv[0490]{char} | [0490](/char/U000490) | :usv[0490]{name} |  |
+| :usv[0491]{char} | [0491](/char/U000491) | :usv[0491]{name} |  |
+| :usv[04C1]{char} | [04C1](/char/U0004C1) | :usv[04C1]{name} | In Cyrillic the breve character has a different appearance than the same character in Latin (see [https://scriptsource.org/entry/k9ew9c6yam](https://scriptsource.org/entry/k9ew9c6yam)) |
+| :usv[04C2]{char} | [04C2](/char/U0004C2) | :usv[04C2]{name} | In Cyrillic the breve character has a different appearance than the same character in Latin (see [https://scriptsource.org/entry/k9ew9c6yam](https://scriptsource.org/entry/k9ew9c6yam)) |
+| :usv[04D0]{char} | [04D0](/char/U0004D0) | :usv[04D0]{name} | In Cyrillic the breve character has a different appearance than the same character in Latin (see [https://scriptsource.org/entry/k9ew9c6yam](https://scriptsource.org/entry/k9ew9c6yam)) |
+| :usv[04D1]{char} | [04D1](/char/U0004D1) | :usv[04D1]{name} | In Cyrillic the breve character has a different appearance than the same character in Latin (see [https://scriptsource.org/entry/k9ew9c6yam](https://scriptsource.org/entry/k9ew9c6yam)) |
+| :usv[04D2]{char} | [04D2](/char/U0004D2) | :usv[04D2]{name} |  |
+| :usv[04D3]{char} | [04D3](/char/U0004D3) | :usv[04D3]{name} |  |
+| :usv[04D6]{char} | [04D6](/char/U0004D6) | :usv[04D6]{name} | In Cyrillic the breve character has a different appearance than the same character in Latin (see [https://scriptsource.org/entry/k9ew9c6yam](https://scriptsource.org/entry/k9ew9c6yam)) |
+| :usv[04D7]{char} | [04D7](/char/U0004D7) | :usv[04D7]{name} | In Cyrillic the breve character has a different appearance than the same character in Latin (see [https://scriptsource.org/entry/k9ew9c6yam](https://scriptsource.org/entry/k9ew9c6yam)) |
+| :usv[04DC]{char} | [04DC](/char/U0004DC) | :usv[04DC]{name} |  |
+| :usv[04DD]{char} | [04DD](/char/U0004DD) | :usv[04DD]{name} |  |
+| :usv[04DE]{char} | [04DE](/char/U0004DE) | :usv[04DE]{name} |  |
+| :usv[04DF]{char} | [04DF](/char/U0004DF) | :usv[04DF]{name} |  |
+| :usv[04E4]{char} | [04E4](/char/U0004E4) | :usv[04E4]{name} |  |
+| :usv[04E5]{char} | [04E5](/char/U0004E5) | :usv[04E5]{name} |  |
+| :usv[04E6]{char} | [04E6](/char/U0004E6) | :usv[04E6]{name} |  |
+| :usv[04E7]{char} | [04E7](/char/U0004E7) | :usv[04E7]{name} |  |
+| :usv[04EC]{char} | [04EC](/char/U0004EC) | :usv[04EC]{name} |  |
+| :usv[04ED]{char} | [04ED](/char/U0004ED) | :usv[04ED]{name} |  |
+| :usv[04F0]{char} | [04F0](/char/U0004F0) | :usv[04F0]{name} |  |
+| :usv[04F1]{char} | [04F1](/char/U0004F1) | :usv[04F1]{name} |  |
+| :usv[04F4]{char} | [04F4](/char/U0004F4) | :usv[04F4]{name} |  |
+| :usv[04F5]{char} | [04F5](/char/U0004F5) | :usv[04F5]{name} |  |
+| :usv[04F8]{char} | [04F8](/char/U0004F8) | :usv[04F8]{name} |  |
+| :usv[04F9]{char} | [04F9](/char/U0004F9) | :usv[04F9]{name} |  |
+| :usv[2000]{char} | [2000](/char/U002000) | :usv[2000]{name} |  |
+| :usv[2001]{char} | [2001](/char/U002001) | :usv[2001]{name} |  |
+| :usv[2002]{char} | [2002](/char/U002002) | :usv[2002]{name} |  |
+| :usv[2003]{char} | [2003](/char/U002003) | :usv[2003]{name} |  |
+| :usv[2004]{char} | [2004](/char/U002004) | :usv[2004]{name} |  |
+| :usv[2005]{char} | [2005](/char/U002005) | :usv[2005]{name} |  |
+| :usv[2006]{char} | [2006](/char/U002006) | :usv[2006]{name} |  |
+| :usv[2007]{char} | [2007](/char/U002007) | :usv[2007]{name} |  |
+| :usv[2008]{char} | [2008](/char/U002008) | :usv[2008]{name} |  |
+| :usv[2009]{char} | [2009](/char/U002009) | :usv[2009]{name} |  |
+| :usv[200A]{char} | [200A](/char/U00200A) | :usv[200A]{name} |  |
+| :usv[200B]{char} | [200B](/char/U00200B) | :usv[200B]{name} |  |
+| :usv[200C]{char} | [200C](/char/U00200C) | :usv[200C]{name} |  |
+| :usv[200D]{char} | [200D](/char/U00200D) | :usv[200D]{name} |  |
+| :usv[200E]{char} | [200E](/char/U00200E) | :usv[200E]{name} |  |
+| :usv[200F]{char} | [200F](/char/U00200F) | :usv[200F]{name} |  |
+| :usv[2010]{char} | [2010](/char/U002010) | :usv[2010]{name} |  |
+| :usv[2011]{char} | [2011](/char/U002011) | :usv[2011]{name} |  |
+| :usv[2012]{char} | [2012](/char/U002012) | :usv[2012]{name} |  |
+| :usv[2013]{char} | [2013](/char/U002013) | :usv[2013]{name} |  |
+| :usv[2014]{char} | [2014](/char/U002014) | :usv[2014]{name} |  |
+| :usv[2015]{char} | [2015](/char/U002015) | :usv[2015]{name} |  |
+| :usv[2018]{char} | [2018](/char/U002018) | :usv[2018]{name} |  |
+| :usv[2019]{char} | [2019](/char/U002019) | :usv[2019]{name} |  |
+| :usv[201A]{char} | [201A](/char/U00201A) | :usv[201A]{name} |  |
+| :usv[201B]{char} | [201B](/char/U00201B) | :usv[201B]{name} |  |
+| :usv[201C]{char} | [201C](/char/U00201C) | :usv[201C]{name} |  |
+| :usv[201D]{char} | [201D](/char/U00201D) | :usv[201D]{name} |  |
+| :usv[201E]{char} | [201E](/char/U00201E) | :usv[201E]{name} |  |
+| :usv[201F]{char} | [201F](/char/U00201F) | :usv[201F]{name} |  |
+| :usv[2020]{char} | [2020](/char/U002020) | :usv[2020]{name} |  |
+| :usv[2021]{char} | [2021](/char/U002021) | :usv[2021]{name} |  |
+| :usv[2022]{char} | [2022](/char/U002022) | :usv[2022]{name} |  |
+| :usv[2024]{char} | [2024](/char/U002024) | :usv[2024]{name} |  |
+| :usv[2025]{char} | [2025](/char/U002025) | :usv[2025]{name} |  |
+| :usv[2026]{char} | [2026](/char/U002026) | :usv[2026]{name} |  |
+| :usv[2027]{char} | [2027](/char/U002027) | :usv[2027]{name} |  |
+| :usv[2028]{char} | [2028](/char/U002028) | :usv[2028]{name} |  |
+| :usv[2029]{char} | [2029](/char/U002029) | :usv[2029]{name} |  |
+| :usv[202A]{char} | [202A](/char/U00202A) | :usv[202A]{name} |  |
+| :usv[202B]{char} | [202B](/char/U00202B) | :usv[202B]{name} |  |
+| :usv[202C]{char} | [202C](/char/U00202C) | :usv[202C]{name} |  |
+| :usv[202D]{char} | [202D](/char/U00202D) | :usv[202D]{name} |  |
+| :usv[202E]{char} | [202E](/char/U00202E) | :usv[202E]{name} |  |
+| :usv[202F]{char} | [202F](/char/U00202F) | :usv[202F]{name} |  |
+| :usv[2039]{char} | [2039](/char/U002039) | :usv[2039]{name} |  |
+| :usv[203A]{char} | [203A](/char/U00203A) | :usv[203A]{name} |  |
+| :usv[2060]{char} | [2060](/char/U002060) | :usv[2060]{name} |  |
+| :usv[20AC]{char} | [20AC](/char/U0020AC) | :usv[20AC]{name} |  |
+| :usv[2122]{char} | [2122](/char/U002122) | :usv[2122]{name} |  |
+| :usv[25CC]{char} | [25CC](/char/U0025CC) | :usv[25CC]{name} |  |
+| :usv[FFFD]{char} | [FFFD](/char/U00FFFD) | :usv[FFFD]{name} |  |
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>
