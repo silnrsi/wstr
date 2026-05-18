@@ -38,7 +38,7 @@ The `script-ws.json` file is derived from `langtags.json`.
 
 ## Uses
 
-The [Script Index page](https://writingsystems.info/scrlang/scripts-index/) displays a list of scripts populated by all the main script .mdx files that exist. In those there are links to the script's Unicode page (if any) and language list page. 
+The [Script Index page](/scrlang/scripts-index/) displays a list of scripts populated by all the main script .mdx files that exist. In those there are links to the script's Unicode page (if any) and language list page. 
 
 Script data makes use of the following components:
 - The `ScriptList` component generates the list of scripts on the Script Index page. 
@@ -63,7 +63,7 @@ To add a new script:
 
 - If the script has more than five languages, add a language-list page: `scrlang/langs/xxxx-langlist.mdx`. The `WsList` component will automatically generate a link to it if needed. 
 
-- If any of writing systems are unwritten or obsolete, be sure to include the appropriate note under "Languages that use this script" (see [Devanagari](https://writingsystems.info/scrlang/langlist/deva-langs/) and [Bengali](https://writingsystems.info/scrlang/scripts/beng/)). This note is needed on both the main and language-list pages.
+- If any of writing systems are unwritten or obsolete, be sure to include the appropriate note under "Languages that use this script" (see [Devanagari](/scrlang/langlist/deva-langs/) and [Bengali](/scrlang/scripts/beng/)). This note is needed on both the main and language-list pages.
 
 - If the script description section includes images, these should be placed in the `scrlang/images` directory.
 

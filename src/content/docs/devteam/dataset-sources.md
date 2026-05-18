@@ -25,7 +25,7 @@ The data was originally exported from ScriptSource and (we expect) will be exten
 
 Each source has a list of tags (`keywords` property) that serve as references to related scripts, languages, characters, and topics. Articles can display these sources by use of the `SourceLinksList` and `BibList` components. Each script page, for instance, includes an External Links section and a Bibliography that display related sources.
 
-See [Sources Reference](https://writingsystems.info/devteam/sources-reference/).
+See [Sources Reference](/devteam/sources-reference/).
 
 ## History
 
@@ -37,4 +37,4 @@ Sources should be corrected or updated on an ad hoc basis whenever there is a ne
 
 To add a new source, find a source with a similar set of required fields in `sources.yaml`. Assign it a unique key and insert it at the proper place alphaetically. Edit the fields appropriately.
 
-See [Sources Reference - Adding new sources](https://writingsystems.info/devteam/sources-reference/#adding-new-sources).
+See [Sources Reference - Adding new sources](/devteam/sources-reference/#adding-new-sources).
