@@ -6,24 +6,12 @@
     font-size: var(--sl-text-md);
 }
 
-/* details.family > summary {
-    display: grid;
-    column-gap: 0.5rem;
-} */
-
 .familyinfo {
     display: flex;
     flex-wrap: wrap;
     gap: 0 1rem;
     line-height: 2rem;
 }
-
-/* .lozenge {
-    background-color: AccentColor;
-    margin-inline: 0.4ch;
-    color: AccentColorText;
-    text-transform: uppercase;
-} */
 
 .name a {
     font-weight: 700;
@@ -56,8 +44,3 @@
 .features {
     font-family: monospace;
 }
-
-/* .license:before {
-    content: "|";
-    margin-right: 0.5rem;
-} */

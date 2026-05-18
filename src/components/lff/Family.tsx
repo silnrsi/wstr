@@ -1,5 +1,3 @@
-// import type { FragmentProps } from 'react'
-import styles from './Family.module.css'
 import _samples from '../../data/google-fonts-samples.json'
 
 const samples: Record<string, string | null> = _samples
@@ -50,12 +48,6 @@ const sourceIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
     <path d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2 86.4 0 156.5 70 156.5 156.5 0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1c-29.3 29.3-69.1 45.8-110.6 45.8-86.4 0-156.5-70-156.5-156.5 0-1.5 0-3 .1-4.5 .5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9c0 .9 0 1.8 0 2.6 0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zM275.2 173.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1L91.1 258.2c-17.3 17.3-27.1 40.9-27.1 65.4 0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2-86.4 0-156.5-70-156.5-156.5 0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9 0 1.3 0 2.6 0 3.9-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8c0-.8 0-1.5 0-2.3 0-33.7-18-63.3-44.8-79.6z"/>
 </svg>
 
-// function Lozenge({ children }: FragmentProps) {
-//     return <span className={styles.lozenge} style={{borderRadius: "1em", paddingInline: "0.4em"}}>
-//         {children}
-//     </span>
-// }
-
 function Sample(props: Props) {
     const {lang, defaults={} as Defaults, family, files={}, sample, features} = props
     const flourl = files[defaults?.woff2 ?? defaults?.ttf]?.flourl
@@ -70,13 +62,13 @@ function Sample(props: Props) {
         }`
         const key = lang?.split('-',2).join('-');
         const sampler = (key && samples[key]) ?? "Everyone has the right to education."
-        return <div className={styles.sample}>
+        return <div className='sample'>
             <style>{fontFamily}</style>
-            <p id={styles.sampler} style={{ fontFamily: family }} lang={lang} dir='auto'>{sampler}</p>
+            <p id='sampler' style={{ fontFamily: family }} lang={lang} dir='auto'>{sampler}</p>
         </div>
     }
     if (sample) {
-        return <img className={styles.sampleimg + ' ' + styles.sample}  src={sample} alt={`${family} visual sample`}/>
+        return <img className='sampleimg sample' src={sample} alt={`${family} visual sample`}/>
     }
     return <></>
 }
@@ -87,19 +79,14 @@ export default function Family(props: Props) {
     // const tech = types.map((type) => <Lozenge>{type}</Lozenge>)
     const stylesCount = countStyles(files)
 
-return <div className={styles.family}>
-        <div className={styles.familyinfo}>
-            {/* <span className={styles.name}>{family}</span> */}
-            <span className={styles.name}>{siteurl ? <a className="lff-family url" href={siteurl} target="_blank" rel="nofollow noopener">{family}</a> : family}</span>
-            <span className={styles.styles}>{stylesCount} style{stylesCount > 1 && 's'}</span>
-            {/* <span className={styles.source}>Source: {source}</span> */}
-            <span className={styles.source}>{sourceIcon}{siteurl ? <a className="lff-family url" href={siteurl} target="_blank" rel="nofollow noopener">{source}</a> : source}</span>
-            <span className={styles.license}>{licenseIcon}{license == "OFL" ? <a href="https://openfontlicense.org/" target="_blank" rel="nofollow noopener">OFL</a> : license}</span>
-            {features && <p><em>Recommended OpenType feature settings:</em> <span className={styles.features}>{features}</span></p>}
+return <div className='family'>
+        <div className='familyinfo'>
+            <span className='name'>{siteurl ? <a className="lff-family url" href={siteurl} target="_blank" rel="nofollow noopener">{family}</a> : family}</span>
+            <span className='styles'>{stylesCount} style{stylesCount > 1 && 's'}</span>
+            <span className='source'>{sourceIcon}{siteurl ? <a className="lff-family url" href={siteurl} target="_blank" rel="nofollow noopener">{source}</a> : source}</span>
+            <span className='license'>{licenseIcon}{license == "OFL" ? <a href="https://openfontlicense.org/" target="_blank" rel="nofollow noopener">OFL</a> : license}</span>
+            {features && <p><em>Recommended OpenType feature settings:</em> <span className='features'>{features}</span></p>}
         </div>
         <Sample {...props}/>
-        {/* <div className={styles.tech}>{tech}</div> */}
-        {/* {version && <p>Version: {version}</p>} */}
-        {/* <p>Styles: {countStyles(files)}</p> */}
     </div>
 }

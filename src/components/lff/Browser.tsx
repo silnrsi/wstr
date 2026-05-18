@@ -9,7 +9,6 @@ import { useState, useEffect } from 'react';
 import { LanguagePicker, type LangTag, languagePickerStrings_en } from 'mui-language-picker'
 import { ThemeProvider, createTheme, type PaletteMode, type Theme } from "@mui/material/styles";
 import Family from './Family'
-import styles from './Browser.module.css'
 
 const copyIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true" fill="currentColor" style={{width: '1em', height: '1em', colorAdjust: 'economy', verticalAlign: '-0.125em'}}>
   // !Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.
@@ -110,7 +109,7 @@ function ApiBrowser() {
           but rather a minimal selection of commonly used open fonts that are likely to work well.
           Additional fonts for some scripts and languages may be available from <a href="https://fonts.google.com" target="_blank" rel="noopener noreferrer">Google Fonts</a>.
           Text used for font samples may not be in the selected language.</em></p>
-        <ol className={styles.families}>
+        <ol className='families'>
           {data.defaultfamily.map((id: string) => {
             const rec = data.families[id]
             return <li key={id}><Family lang={tag?.full} sample={SampleImages[rec.family+'.S']} {...rec}/></li>
@@ -119,9 +118,9 @@ function ApiBrowser() {
         <details>
           <summary>
             View full record for {lgName} ({bcp47}) from LFF version {data.apiversion}
-            <button className={styles.copy} onClick={copyResponse}>{copyIcon}</button>
+            <button className='copy' onClick={copyResponse}>{copyIcon}</button>
           </summary>
-          <pre className={styles.response}>
+          <pre className='response'>
             <code>{JSON.stringify(data, null, 2)}</code>
           </pre>
         </details>
@@ -132,7 +131,7 @@ function ApiBrowser() {
   useEffect(() => { if (bcp47 != "und" && bcp47 != "" ) fetchData() }, [bcp47])
 
   return (
-    <div className={styles.container}>
+    <div className='container'>
       <ThemeProvider theme={theme}>
         <LanguagePicker
           value={bcp47}

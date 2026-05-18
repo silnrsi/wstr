@@ -1,3 +1,6 @@
+@import '../components/lff/Browser.module.css';
+@import '../components/lff/Family.module.css';
+
 :root {
     /* color of glyphs in SIL logo */
     --sl-color-accent-high: hsl(205, 65%, 65%);
@@ -88,4 +91,3 @@
 #LangBcp47 .MuiFilledInput-root {
   background-color: var(--sl-color-bg-nav);
 }
-
