@@ -59,12 +59,11 @@ To add a new script:
 
 - Add a sample image file: `scrlang/images/xxxx-png`. The image should be at least 720 pixels wide if possible. Note that it must be openly licensed and the full attribute metadata, including source, must be included.
 
-- Add a main script page: `scrlang/scripts/xxxx.mdx`. Fill in the properties, sample filename, description, and all the instances of the script tag. `avst.mdx` is a good one to use as a template.
+- Add a main script page: `scrlang/scripts/xxxx.mdx`. Fill in the properties, sample filename, and description, and set all the instances of the script tag appropriately. `avst.mdx` is a good one to use as a template.
 
-- If the script has more than five languages, add a language-list page: `scrlang/langs/xxxx-langlist.mdx`. The `WsList` component will automatically generate a link to it if needed. 
+- If the script has more than five languages, add a language-list page: `scrlang/langs/xxxx-langlist.mdx` using an existing page in the langlist directory as a template. The `WsList` component will automatically generate a link to it if needed. 
 
 - If any of writing systems are unwritten or obsolete, be sure to include the appropriate note under "Languages that use this script" (see [Devanagari](/scrlang/langlist/deva-langs/) and [Bengali](/scrlang/scripts/beng/)). This note is needed on both the main and language-list pages.
 
-- If the script description section includes images, these should be placed in the `scrlang/images` directory.
-
-- Add a Unicode page: `scrlang/unicode/xxxx-unicode.md`. `batk-unicode.md` is a simple one to use as a template; `arab-unicode.md` shows more complicated example. 
+- If the script description section includes images, these should be placed in the `scrlang/images` directory. The filename should start with the lowercase script tag, e.g., `beng-conjuncts.png` or `gujr-ra.png`.
+code.md` is a simple one to use as a template; `arab-unicode.md` shows more complicated example. 
