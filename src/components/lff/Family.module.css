@@ -23,7 +23,7 @@
     margin-top: auto;
     display: inline;
     font-size: var(--sl-text-3xl);
-    height: min-content;
+    line-height: 200%;
 }
 
 #lff-sampler {
