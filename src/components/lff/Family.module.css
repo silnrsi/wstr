@@ -1,4 +1,4 @@
-.family {
+.lff-family {
     margin-bottom: 0px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -6,33 +6,33 @@
     font-size: var(--sl-text-md);
 }
 
-.familyinfo {
+.lff-familyinfo {
     display: flex;
     flex-wrap: wrap;
     gap: 0 1rem;
     line-height: 2rem;
 }
 
-.name a {
+.lff-name a {
     font-weight: 700;
     font-size: var(--sl-text-lg);
     text-decoration: none;
 }
 
-.sample {
+.lff-sample {
     margin-top: auto;
     display: inline;
     font-size: var(--sl-text-3xl);
     height: min-content;
 }
 
-#sampler {
+#lff-sampler {
     margin-top: auto;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.features {
+.lff-features {
     font-family: monospace;
 }

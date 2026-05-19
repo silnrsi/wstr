@@ -62,9 +62,9 @@ function Sample(props: Props) {
         }`
         const key = lang?.split('-',2).join('-');
         const sampler = (key && samples[key]) ?? "Everyone has the right to education."
-        return <div className='sample'>
+        return <div className='lff-sample'>
             <style>{fontFamily}</style>
-            <p id='sampler' style={{ fontFamily: family }} lang={lang} dir='auto'>{sampler}</p>
+            <p id='lff-sampler' style={{ fontFamily: family }} lang={lang} dir='auto'>{sampler}</p>
         </div>
     }
     return <></>
@@ -74,13 +74,13 @@ export default function Family(props: Props) {
     const { family, files={}, license="Proprietary", siteurl, features, source } = props
     const stylesCount = countStyles(files)
 
-return <div className='family'>
-        <div className='familyinfo'>
-            <span className='name'>{siteurl ? <a className="lff-family url" href={siteurl} target="_blank" rel="nofollow noopener">{family}</a> : family}</span>
-            <span className='styles'>{stylesCount} style{stylesCount > 1 && 's'}</span>
-            <span className='source'>{sourceIcon}{siteurl ? <a className="lff-family url" href={siteurl} target="_blank" rel="nofollow noopener">{source}</a> : source}</span>
-            <span className='license'>{licenseIcon}{license == "OFL" ? <a href="https://openfontlicense.org/" target="_blank" rel="nofollow noopener">OFL</a> : license}</span>
-            {features && <p><em>Recommended OpenType feature settings:</em> <span className='features'>{features}</span></p>}
+return <div className='lff-family'>
+        <div className='lff-familyinfo'>
+            <span className='lff-name'>{siteurl ? <a className="url" href={siteurl} target="_blank" rel="nofollow noopener">{family}</a> : family}</span>
+            <span className='lff-styles'>{stylesCount} style{stylesCount > 1 && 's'}</span>
+            <span className='lff-source'>{sourceIcon}{siteurl ? <a className="url" href={siteurl} target="_blank" rel="nofollow noopener">{source}</a> : source}</span>
+            <span className='lff-license'>{licenseIcon}{license == "OFL" ? <a href="https://openfontlicense.org/" target="_blank" rel="nofollow noopener">OFL</a> : license}</span>
+            {features && <p><em>Recommended OpenType feature settings:</em> <span className='lff-features'>{features}</span></p>}
         </div>
         <Sample {...props}/>
     </div>

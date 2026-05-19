@@ -95,7 +95,7 @@ function ApiBrowser() {
           but rather a minimal selection of commonly used open fonts that are likely to work well.
           Additional fonts for some scripts and languages may be available from <a href="https://fonts.google.com" target="_blank" rel="noopener noreferrer">Google Fonts</a>.
           Text used for font samples may not be in the selected language.</em></p>
-        <ol className='families'>
+        <ol className='lff-families'>
           {data.defaultfamily.map((id: string) => {
             const rec = data.families[id]
             return <li key={id}><Family lang={tag?.full} {...rec}/></li>
@@ -104,9 +104,9 @@ function ApiBrowser() {
         <details>
           <summary>
             View full record for {lgName} ({bcp47}) from LFF version {data.apiversion}
-            <button className='copy' onClick={copyResponse}>{copyIcon}</button>
+            <button className='lff-copy' onClick={copyResponse}>{copyIcon}</button>
           </summary>
-          <pre className='response'>
+          <pre className='lff-response'>
             <code>{JSON.stringify(data, null, 2)}</code>
           </pre>
         </details>
@@ -117,7 +117,7 @@ function ApiBrowser() {
   useEffect(() => { if (bcp47 != "und" && bcp47 != "" ) fetchData() }, [bcp47])
 
   return (
-    <div className='container'>
+    <div className='lff-container'>
       <ThemeProvider theme={theme}>
         <LanguagePicker
           value={bcp47}
