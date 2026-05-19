@@ -131,7 +131,7 @@ function ApiBrowser() {
           required
           disabled={loading}
           offline={true}
-          t={{...languagePickerStrings_en, select: "Select", findALanguage: "Find a language by name, or code" }}
+          t={{...languagePickerStrings_en, select: "Select", findALanguage: "Find a language by name, code, or country" }}
         />
       </ThemeProvider>
       {loading && <p>Loading LFF data for {lgName}...</p>}
