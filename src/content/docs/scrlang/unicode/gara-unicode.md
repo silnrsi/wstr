@@ -28,9 +28,8 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2012-04-26 Preliminary proposal for encoding the Garay script in the SMP of the UCS — Michael Everson ([WG2 N4261](https://www.unicode.org/wg2/docs/n4261.pdf), [L2/12-139](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-139))
 - 2016-03-22 Proposal for encoding the Garay script in the SMP of the UCS — Michael Everson (WG2 N4709, [L2/16-069](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-069))
   - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 8 for recommendations)_
-    - *&nbsp;_UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See C.4 for decision and action items)_<br />
-<br />
-_Recommendations to UTC #154 January 2018 on Script Proposals ([L2/18-039](http://www.unicode.org/L2/L2018/18039-script-adhoc-rec.pdf)) (See point 3a.)_
+  - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See C.4 for decision and action items)
+  - _Recommendations to UTC #154 January 2018 on Script Proposals ([L2/18-039](http://www.unicode.org/L2/L2018/18039-script-adhoc-rec.pdf)) (See point 3a.)_
   - _Recommendations to UTC #155 April-May 2018 on Script Proposals ([L2/18-168](http://www.unicode.org/L2/L2018/18168-script-rec.pdf)) (See point 36a.)_
   - _UTC #155 Minutes ([L2/18-115](http://www.unicode.org/L2/L2018/18115.htm)) (See C.6 and C.7 for decision and action items)_
 - 2017-09-09 Report on the Garay script 2017 — Charles Riley (WG2 N4875, [L2/17-322](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-322))
