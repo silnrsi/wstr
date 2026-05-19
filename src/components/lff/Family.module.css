@@ -33,14 +33,6 @@
     text-overflow: ellipsis;
 }
 
-.sampleimg {
-    object-fit: none;
-}
-
-:root[data-theme="dark"] .sampleimg {
-    filter: invert(0.899);
-}
-
 .features {
     font-family: monospace;
 }

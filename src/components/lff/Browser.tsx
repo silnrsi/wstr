@@ -23,20 +23,6 @@ function createDarkModeTheme(): Theme {
   })
 }
 
-
-const SampleImages: Record<string,string> = 
-{
-  'Andika.S': 'https://fonts.languagetechnology.org/fonts/sil/andika/documentation/assets/images/Andika-R_400x30.png',
-  'Andika.M': 'https://fonts.languagetechnology.org/fonts/sil/andika/documentation/assets/images/Andika-R_600x45.png',
-  'Andika.L': 'https://fonts.languagetechnology.org/fonts/sil/andika/documentation/assets/images/Andika-R_1200x90.png',
-  'Charis.S': 'https://fonts.languagetechnology.org/fonts/sil/charis/documentation/assets/images/Charis-R_400x30.png',
-  'Charis.M': 'https://fonts.languagetechnology.org/fonts/sil/charis/documentation/assets/images/Charis-R_600x45.png',
-  'Charis.L': 'https://fonts.languagetechnology.org/fonts/sil/charis/documentation/assets/images/Charis-R_1200x90.png',
-  'Gentium.S': 'https://fonts.languagetechnology.org/fonts/sil/gentium/documentation/assets/images/Gentium-R_400x30.png',
-  'Gentium.M': 'https://fonts.languagetechnology.org/fonts/sil/gentium/documentation/assets/images/Gentium-R_600x45.png',
-  'Gentium.L': 'https://fonts.languagetechnology.org/fonts/sil/gentium/documentation/assets/images/Gentium-R_1200x90.png'
-}
-
 type LFFResponse = Record<string, any> | null
 
 function ApiBrowser() {
@@ -112,7 +98,7 @@ function ApiBrowser() {
         <ol className='families'>
           {data.defaultfamily.map((id: string) => {
             const rec = data.families[id]
-            return <li key={id}><Family lang={tag?.full} sample={SampleImages[rec.family+'.S']} {...rec}/></li>
+            return <li key={id}><Family lang={tag?.full} {...rec}/></li>
           })}
         </ol>
         <details>

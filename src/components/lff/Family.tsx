@@ -49,7 +49,7 @@ const sourceIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
 </svg>
 
 function Sample(props: Props) {
-    const {lang, defaults={} as Defaults, family, files={}, sample, features} = props
+    const {lang, defaults={} as Defaults, family, files={}, features} = props
     const flourl = files[defaults?.woff2 ?? defaults?.ttf]?.flourl
 
     if (flourl)
@@ -67,16 +67,11 @@ function Sample(props: Props) {
             <p id='sampler' style={{ fontFamily: family }} lang={lang} dir='auto'>{sampler}</p>
         </div>
     }
-    if (sample) {
-        return <img className='sampleimg sample' src={sample} alt={`${family} visual sample`}/>
-    }
     return <></>
 }
 
 export default function Family(props: Props) {
     const { family, files={}, license="Proprietary", siteurl, features, source } = props
-    // const types = Object.keys(defaults)
-    // const tech = types.map((type) => <Lozenge>{type}</Lozenge>)
     const stylesCount = countStyles(files)
 
 return <div className='family'>
