@@ -183,8 +183,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #181 November 2024 on Script Proposals ([L2/24-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-228)) (See point 4.3.)_
   - _UTC #181 Minutes ([L2/24-221](https://www.unicode.org/L2/L2024/24221.htm)) (See D.1 4.3 for decision and action items)_
 - 2025-02-06 A note on U+1AB3 combining downwards arrow — Kirk Miller ([L2/25-019](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-019))
-  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (<br />
-See point 3.3.)_
+  - _Recommendations to UTC #182 January 2025 on Script Proposals ([L2/25-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-010)) (See point 3.3.)_
   - _UTC #182 Minutes ([L2/25-003](https://www.unicode.org/L2/L2025/25003.htm)) (See D.1 3.3 for decision and action items)_
 - 2025-02-28 Unicode request for Vietnamese apex — Minh Nguyen, Kirk Miller ([L2/25-130](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-130))
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 5.10.)_

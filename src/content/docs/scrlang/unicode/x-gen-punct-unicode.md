@@ -69,10 +69,10 @@ _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and U
 ## Proposals and documents
 
 A number of proposals for its inclusion have been submitted to the Unicode Technical Committee and WG2:
-- 1999-07-24 On the apostrophe and quotation mark, with a note on Egyptian transliteration characters — Michael Everson ([WG2 N2043](https://www.unicode.org/wg2/docs/n2043.pdf), [L2/99-246](http://www.unicode.org/L2/L1999/n2043.pdf))<br />
-1999-12-01 On the need for a ZERO-WIDTH LIGATOR — Michael Everson ([WG2 N2141](https://www.unicode.org/wg2/docs/n2141.pdf), [L2/99-379](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/99-379))<br />
-2000-01-04 U-301C WAVE DASH — Japan NB ([WG2 N2166.doc](https://www.unicode.org/wg2/docs/n2166.doc), [L2/00-065](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-065))<br />
-2000-01-06 Further discussion of the ZERO-WIDTH LIGATOR — Michael Everson ([WG2 N2147](https://www.unicode.org/wg2/docs/n2147.pdf), [L2/00-012](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-012))
+- 1999-07-24 On the apostrophe and quotation mark, with a note on Egyptian transliteration characters — Michael Everson ([WG2 N2043](https://www.unicode.org/wg2/docs/n2043.pdf), [L2/99-246](http://www.unicode.org/L2/L1999/n2043.pdf))
+- 1999-12-01 On the need for a ZERO-WIDTH LIGATOR — Michael Everson ([WG2 N2141](https://www.unicode.org/wg2/docs/n2141.pdf), [L2/99-379](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/99-379))
+- 2000-01-04 U-301C WAVE DASH — Japan NB ([WG2 N2166.doc](https://www.unicode.org/wg2/docs/n2166.doc), [L2/00-065](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-065))
+- 2000-01-06 Further discussion of the ZERO-WIDTH LIGATOR — Michael Everson ([WG2 N2147](https://www.unicode.org/wg2/docs/n2147.pdf), [L2/00-012](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-012))
 - 2000-01-24 ZWJ contradictions, ZWL — Ken Whistler, Lloyd Anderson ([L2/00-023](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-023))
 - 2000-01-25 Extending ZWJ and ZWNJ for Ligation — Mark Davis ([L2/00-025](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-025))
 - 2000-01-25 Five comments on ZWL and ZWJ — Lloyd Anderson ([L2/00-026](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-026))

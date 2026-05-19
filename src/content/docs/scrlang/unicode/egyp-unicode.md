@@ -51,8 +51,8 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2002-08-13 Letter of support for Egyptian — Federico Rocchi ([L2/02-295](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-295))
 - 2002-08-20 Letter of support for Egyptian — John Baines ([L2/02-307](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-307))
 - 2005-10-24 Revised proposal to encode Egyptian hieroglyphs in Plane 1 of the UCS — Richard Cook, Michael Everson, Rick McGowan, Robert Richmond ([L2/05-311](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-311))
-- 2005-10-24 Scans from Catalog of the Egyptian Hieroglyphic Printing Type — Richard Cook, Michael Everson, Rick McGowan, Robert Richmond ([L2/05-313](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-313))<br />
-2005-10-24 Sample of Hieroglyphic mapping data file — Richard Cook ([L2/05-312](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-312))
+- 2005-10-24 Scans from Catalog of the Egyptian Hieroglyphic Printing Type — Richard Cook, Michael Everson, Rick McGowan, Robert Richmond ([L2/05-313](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-313))
+- 2005-10-24 Sample of Hieroglyphic mapping data file — Richard Cook ([L2/05-312](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/05-312))
 - 2006-10-29 Towards a proposal to encode Egyptian Hieroglyphs in the UCS — Michael Everson, Bob Richmond ([WG2 N3181](https://www.unicode.org/wg2/docs/n3181.pdf), [L2/06-354](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-354))
 - 2006-10-29 Sources for the encoding of Egyptian Hieroglyphs — Michael Everson ([WG2 N3182](https://www.unicode.org/wg2/docs/n3182.pdf), [L2/06-355](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-355))
 - 2006-10-29 Report on progress made at the Oxford meeting of Egyptologists — Michael Everson, Bob Richmond ([WG2 N3183](https://www.unicode.org/wg2/docs/n3183.pdf), ([L2/06-356](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/06-356))
@@ -157,11 +157,9 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2021-06-14 Consideration for the encoding of an extended Egyptian Hieroglyphs repertoire — Michel Suignard (WG2 N5163, [L2/21-108](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-108))
   - _Recommendations to UTC #168 July 2021 on Script Proposals ([L2/21-130](http://www.unicode.org/L2/L2021/21130-script-adhoc-rept.pdf)) (See point 5.)_
   - _UTC #168 Minutes ([L2/21-123](http://www.unicode.org/L2/L2021/21123.htm)) (See B.1 for decision and action items)_
-- 2021-08-11 Additional control characters for Ancient Egyptian hieroglyphic texts — Andrew Glass, Jorke Grotenhuis, Mark-Jan Nederhof,<br />
-Stéphane Polis, Serge Rosmorduc, Daniel A. Werning ([L2/21-208](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-208))
+- 2021-08-11 Additional control characters for Ancient Egyptian hieroglyphic texts — Andrew Glass, Jorke Grotenhuis, Mark-Jan Nederhof, Stéphane Polis, Serge Rosmorduc, Daniel A. Werning ([L2/21-208](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-208))
   - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 2a.)_
-- 2021-09-06 Thoughts on the Unicode sign list of Ancient Egyptian hieroglyphs — Jorke Grotenhuis, Mark-Jan Nederhof, Stéphane<br />
-Polis, Serge Rosmorduc ([L2/21-190](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-190))
+- 2021-09-06 Thoughts on the Unicode sign list of Ancient Egyptian hieroglyphs — Jorke Grotenhuis, Mark-Jan Nederhof, Stéphane Polis, Serge Rosmorduc ([L2/21-190](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-190))
   - _Recommendations to UTC #169 October  2021 on Script Proposals ([L2/21-174](http://www.unicode.org/L2/L2021/21174-script-adhoc-rept.pdf)) (See point 2b.)_
 - 2021-12-22 Additional control characters for Ancient Egyptian hieroglyphic texts — Andrew Glass, Jorke Grotenhuis, Mark-Jan Nederhof, Stéphane Polis, Serge Rosmorduc, Daniel A. Werning ([L2/21-248](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-248))
   - _Recommendations to UTC #170 January 2022 on Script Proposals ([L2/22-023](http://www.unicode.org/L2/L2022/22023-script-adhoc-rept.pdf)) (See point 4a.)_
@@ -214,8 +212,7 @@ Polis, Serge Rosmorduc ([L2/21-190](http://www.unicode.org/cgi-bin/GetMatchingDo
 - 2024-06-02 3-tier system for Ancient Egyptian hieroglyphs — Mark-Jan Nederhof, Peter Dils, Andrew Glass, Jorke Grotenhuis, Svenja Gülden, Stéphane Polis, Daniel A. Werning ([L2/24-176](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-176))
   - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.I.1c.)_
   - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 1c for decision and action items)_
-- 2024-06-15 Rationale for commenting out the variation sequence U+1333B U+FE00 for Ancient Egyptian — Peter Dils, Andrew Glass, Jorke Grotenhuis, Svenja Gülden, Mark-Jan Nederhof, Stéphane Polis,<br />
-Daniel A. Werning ([L2/24-175](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-175))
+- 2024-06-15 Rationale for commenting out the variation sequence U+1333B U+FE00 for Ancient Egyptian — Peter Dils, Andrew Glass, Jorke Grotenhuis, Svenja Gülden, Mark-Jan Nederhof, Stéphane Polis, Daniel A. Werning ([L2/24-175](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-175))
   - _Recommendations to UTC #180 (July 2024) on Script Proposals ([L2/24-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-166)) (See point A.I.1a.)_
   - _UTC #180 Minutes ([L2/24-159](https://www.unicode.org/L2/L2024/24159.htm)) (See D.1 Section 1a for decision and action items)_
 - 2024-06-28 Additional Variation Selectors as Substitutes for Legacy v5.2 v15 Hieroglyphs — Daniel A. Werning, Peter Dils, Jorke Grotenhuis, Svenja Gülden, and Stéphane Polis ([L2/24-177](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/24-177))

@@ -130,8 +130,8 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2012-01-12 Letter regarding Grantha encoding — Maravanpulavu K. Sachithananthan ([L2/12-054](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-054))
 - 2012-01-30 Proposal to add two letters to the Grantha repertoire        Michael Everson  ([WG2 N4198](https://www.unicode.org/wg2/docs/n4198.pdf), [L2/12-039](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-039))
 - 2012-01-31 Feedback on Grantha document N4198 L2/12-039 — Shriramana Sharma  ([WG2 N4217](https://www.unicode.org/wg2/docs/n4217.pdf), [L2/12-059](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-059))
-- 2012-04-25 On Grantham encoding in SMP — N. D. Logasundaram ([L2/12-126](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-126))<br />
-2012-04-30 Re Grantham — N. D. Logasundaram ([L2/12-149](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-149))
+- 2012-04-25 On Grantham encoding in SMP — N. D. Logasundaram ([L2/12-126](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-126))
+- 2012-04-30 Re Grantham — N. D. Logasundaram ([L2/12-149](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-149))
 - 2012-05-08 Brief Comments on UTC register documents (May 2012) on Grantha script encoding — Naga Ganesan ([L2/12-151](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-151))
 - 2012-05-08 Clarification of Grantham comments — N. D. Logasundaram ([L2/12-190](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-190))
 - 2012-07-17 Comments on Encoding "Duplicate" Indic Characters — Vinodh Rajan ([L2/12-233](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-233))

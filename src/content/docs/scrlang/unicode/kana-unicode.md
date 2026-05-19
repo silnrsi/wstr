@@ -51,8 +51,8 @@ A number of documents have been submitted to the Unicode Technical Committee and
 - 2004-05-12Hiragana_or_Katakana value of Script property should die — John Cowan ([L2/04-160](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-160))
 - 2004-06-17 Katakana_Or_Hiragana and UTR#29 — Mark Davis ([L2/04-152](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/04-152))
 - 2008-01-14 Proposal to encode two Kana characters concerning YE — Nozomu Katō ([WG2 N3388](https://www.unicode.org/wg2/docs/n3388.pdf), [L2/07-421](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/07-421))
-- 2008-07-14 Letter from Nozomu Kato to UTC, re Kana  — Nozomu Katō ([L2/08-257](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-257) - limited access to UTC members only)<br />
-2009-01-28 Background Info on "e" Letters in Kana — Nozomu Katō ([L2/09-062](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-062))
+- 2008-07-14 Letter from Nozomu Kato to UTC, re Kana  — Nozomu Katō ([L2/08-257](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/08-257) - limited access to UTC members only)
+- 2009-01-28 Background Info on "e" Letters in Kana — Nozomu Katō ([L2/09-062](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/09-062))
 - 2010-04-29 Report of Phonetic Kana Usage for Lingua Latina — Nozomu Katō ([L2/10-153](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-153))
 - 2011-02-09 Proposal to add two kana characters — Ken Lunde ([WG2 N3987](https://www.unicode.org/wg2/docs/n3987.pdf), [L2/10-468](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/10-468))
 - 2011-05-30 Comment on "two kana" proposal — Japan NB     ([WG2 N4087](https://www.unicode.org/wg2/docs/n4087.pdf), [WG2 N4087.doc](https://www.unicode.org/wg2/docs/n4087.doc), [L2/11-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-228))

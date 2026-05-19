@@ -102,8 +102,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #151 May 2017 on Script Proposals ([L2/17-153](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-153)) (See point 14.)_
 - 2017-05-12 A minimum set of glyph corrections needed for the 10.0 beta Mongolian code chart — Liang Hai ([L2/17-170](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-170))
   - _UTC #151 Minutes ([L2/17-103](http://www.unicode.org/L2/L2017/17103.htm)) (See C.5.8 for decision and action items)_
-- 2017-07-21 Script Ad Hoc report and recommendations on Mongolian — Ken Whistler, Peter Constable, Roozbeh Pournader, Liang Hai, Shen<br />
-Yilei, Zheng Weizhe, Richard Ishida, Debbie Anderson ([L2/17-243](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-243))
+- 2017-07-21 Script Ad Hoc report and recommendations on Mongolian — Ken Whistler, Peter Constable, Roozbeh Pournader, Liang Hai, Shen Yilei, Zheng Weizhe, Richard Ishida, Debbie Anderson ([L2/17-243](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-243))
 - 2017-07-27 Draft of Mongolian Shaping Rules — Chen Zhuang ([L2/17-251](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-251))
 - 2017-08-09 Script Ad Hoc Group Recommendations on Mongolian Text Model — Ken Whistler、Peter Constable、Roozbeh Pournader、Greg Eck、梁海、Andrew Glass、Lisa Moore、Debbie Anderson ([L2/17-328](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-328))
 - 2017-08-31 A graphetic model for the Mongolian encoding — Script Ad-Hoc ([L2/17-335](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/17-335))
