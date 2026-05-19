@@ -1,7 +1,8 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
 import { file, glob } from 'astro/loaders';
 import { docsLoader } from "@astrojs/starlight/loaders";
 import { docsSchema } from '@astrojs/starlight/schema';
+import { z } from 'astro/zod';
 
 export const collections = {
   docs: defineCollection({
@@ -30,6 +31,7 @@ export const collections = {
       }),
     }),
   }),
+
   articlelibdocs: defineCollection({
     loader: glob({ pattern: ['articlelib/**/*.md', 'articlelib/**/*.mdx', '!articlelib/article-index.mdx'], base: './src/content/docs' }),
     schema: docsSchema({
@@ -41,6 +43,7 @@ export const collections = {
       }),
     }), 
   }),
+
   topicsdocs: defineCollection({
     loader: glob({ pattern: ['topics/**/*.md', 'topics/**/*.mdx'], base: './src/content/docs' }),
     schema: docsSchema({
@@ -52,6 +55,7 @@ export const collections = {
       }),
     }), 
   }),
+
   scriptdocs: defineCollection({
     loader: glob({ pattern: ['scrlang/scripts/*.mdx'], base: './src/content/docs' }),
     schema: docsSchema({
@@ -75,6 +79,7 @@ export const collections = {
       }),
     }), 
   }),
+  
   sources: defineCollection({
     loader: file("src/data/sources.yaml"),
     schema: z.object({
