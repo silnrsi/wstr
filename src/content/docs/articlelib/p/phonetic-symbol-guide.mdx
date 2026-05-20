@@ -1,0 +1,411 @@
+---
+title: Phonetic Symbol Guide
+tags: [encoding, script-latn]
+lastUpdated: 2026-05-13
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+The following information refers to symbols present in Geoffrey Pullum and William Ladusaw, _Phonetic Symbol Guide_, 2nd edn (Chicago: The University of Chicago Press, 1996).
+
+#### Unicode characters
+
+The following table shows the Unicode characters that have equivalent symbols given in _Phonetic Symbol Guide_.
+
+PSG ID         | Name | Glyph    | USV  | Unicode Name | Comment |
+---        | ---- | -------- | ---- | ------- | ------ |
+PSG2.003   | Lower-Case A | :usv[0061]{char} | :usv[0061]{usv} | :usv[0061]{name} | |
+PSG2.004   | Overdot A | :usv[0227]{char} | :usv[0227]{usv} | :usv[0227]{name} | | 
+PSG2.005.1 | Umlaut A| :usv[00E4]{char} | :usv[00E4]{usv} | :usv[00E4]{name} | |
+PSG2.005.2 | Right-Hook A | :usv[1D8F]{char} | :usv[1D8F]{usv} | :usv[1D8F]{name} | |
+PSG2.006   | Turned A | :usv[0250]{char} | 0250 | LATIN SMALL LETTER TURNED A | |
+PSG2.007   | Script A | :usv[0251]{char} | 0251 | LATIN SMALL LETTER ALPHA | |
+PSG2.008   | Alpha | :usv[03B1]{char} | 03B1 | GREEK SMALL LETTER ALPHA | |
+PSG2.009   | Turned Script A | :usv[0252]{char} | 0252 | LATIN SMALL LETTER TURNED ALPHA | |
+PSG2.011   | Inverted Script A | :usv[AB64]{char} | AB64 | LATIN SMALL LETTER INVERTED ALPHA | |
+PSG2.012   | Ash | :usv[00E6]{char} | 00E6 | LATIN SMALL LETTER AE | |
+PSG2.014.1 | A-O Ligature | :usv[A735]{char} | A735 | LATIN SMALL LETTER AO | |
+PSG2.014.2 | Small Capital A | :usv[1D00]{char} | 1D00 | LATIN LETTER SMALL CAPITAL A | |
+PSG2.015.1 | Capital A | :usv[0041]{char} | 0041 | LATIN CAPITAL LETTER A | |
+PSG2.015.2 | Four | :usv[0034]{char} | 0034 | DIGIT FOUR | |
+PSG2.016.1 | Left-Hook Four | :usv[A72D]{char} | A72D | LATIN SMALL LETTER CUATRILLO | |
+PSG2.017.1 | Capital Ash | :usv[00C6]{char} | 00C6 | LATIN CAPITAL LETTER AE | |
+PSG2.018   | Turned V | :usv[028C]{char} | 028C | LATIN SMALL LETTER TURNED V | |
+PSG2.020.1 | Lower-Case B | :usv[0062]{char} | 0062 | LATIN SMALL LETTER B | |
+PSG2.020.2 | Underdot B | :usv[1E05]{char} | 1E05 | LATIN SMALL LETTER B WITH DOT BELOW | |
+PSG2.021.1, PSG2.021.2 | Crossed B, Barred B | :usv[0180]{char} | 0180 | LATIN SMALL LETTER B WITH STROKE | variant glyph - see note [^1] |
+PSG2.022.1 | Soft Sign | :usv[042C]{char} | 042C | CYRILLIC CAPITAL LETTER SOFT SIGN | |
+PSG2.022.2 | Hard Sign | :usv[042A]{char} | 042A | CYRILLIC CAPITAL LETTER HARD SIGN | |
+PSG2.023   | Hooktop B | :usv[0253]{char} | 0253 | LATIN SMALL LETTER B WITH HOOK | |
+PSG2.024   | Small Capital B | :usv[0299]{char} | 0299 | LATIN LETTER SMALL CAPITAL B | |
+PSG2.026   | Beta | :usv[03B2]{char} | 03B2 | GREEK SMALL LETTER BETA | |
+PSG2.027   | Lower-Case C | :usv[0063]{char} | 0063 | LATIN SMALL LETTER C |  |
+PSG2.028.2 | Barred C | :usv[A793]{char} | A793 | LATIN SMALL LETTER C WITH BAR |  |
+PSG2.029.1 | Slashed C | :usv[023C]{char} | 023C | LATIN SMALL LETTER C WITH STROKE |  |
+PSG2.029.2 | Wedge C | :usv[010D]{char} | 010D | LATIN SMALL LETTER C WITH CARON |  |
+PSG2.031   | C Cedilla | :usv[00E7]{char} | 00E7 | LATIN SMALL LETTER C WITH CEDILLA |  |
+PSG2.032   | Hooktop C | :usv[0188]{char} | 0188 | LATIN SMALL LETTER C WITH HOOK |  |
+PSG2.033   | Curly Tail C | :usv[0255]{char} | 0255 | LATIN SMALL LETTER C WITH CURL |  |
+PSG2.034   | Stretched C | :usv[0297]{char} | 0297 | LATIN LETTER STRETCHED C |  |
+PSG2.035.1 | Curly Tail Stretched C | :usv[1DF0F]{char} | 1DF0F | LATIN LETTER STRETCHED C WITH CURL |  |
+PSG2.035.2 | Capital C | :usv[0043]{char} | 0043 | LATIN CAPITAL LETTER C |  |
+PSG2.036.1 | Lower-Case D | :usv[0064]{char} | 0064 | LATIN SMALL LETTER D |  |
+PSG2.036.2, PSG2.037.1 | Crossed D, Barred D | :usv[0111]{char} | 0111 | LATIN SMALL LETTER D WITH STROKE | variant glyph - see note [^1] |
+PSG2.038   | Front-Hook D | :usv[1DF25]{char} | 1DF25 | LATIN SMALL LETTER D WITH MID-HEIGHT LEFT HOOK |  |
+PSG2.039   | Hooktop D | :usv[0257]{char} | 0257 | LATIN SMALL LETTER D WITH HOOK |  |
+PSG2.040.1 | Right-Tail D | :usv[0256]{char} | 0256 | LATIN SMALL LETTER D WITH TAIL |  |
+PSG2.040.2 | Hooktop Right-Tail D | :usv[1D91]{char} | 1D91 | LATIN SMALL LETTER D WITH HOOK AND TAIL |  |
+PSG2.041   | D-B Ligature | :usv[0238]{char} | 0238 | LATIN SMALL LETTER DB DIGRAPH |  |
+PSG2.042.1 | D-Z Ligature | :usv[02A3]{char} | 02A3 | LATIN SMALL LETTER DZ DIGRAPH |  |
+PSG2.042.2 | D-Yogh Ligature | :usv[02A4]{char} | 02A4 | LATIN SMALL LETTER DEZH DIGRAPH |  |
+PSG2.043.1 | Eth | :usv[00F0]{char} | 00F0 | LATIN SMALL LETTER ETH |  |
+PSG2.043.2 | Delta | :usv[03B4]{char} | 03B4 | GREEK SMALL LETTER DELTA |  |
+PSG2.044   | Capital D | :usv[0044]{char} | 0044 | LATIN CAPITAL LETTER D |  |
+PSG2.045.1 | Lower-Case E | :usv[0065]{char} | 0065 | LATIN SMALL LETTER E |  |
+PSG2.045.2 | Umlaut E | :usv[00EB]{char} | 00EB | LATIN SMALL LETTER E WITH DIAERESIS |  |
+PSG2.046.1 | Polish-Hook E | :usv[0119]{char} | 0119 | LATIN SMALL LETTER E WITH OGONEK |  |
+PSG2.046.2 | Right-Hook E | :usv[1D92]{char} | 1D92 | LATIN SMALL LETTER E WITH RETROFLEX HOOK |  |
+PSG2.048   | Schwa | :usv[0259]{char} | 0259 | LATIN SMALL LETTER SCHWA |  |
+PSG2.049   | Right-Hook Schwa | :usv[025A]{char} | 025A | LATIN SMALL LETTER SCHWA WITH HOOK |  |
+PSG2.050.1 | Reversed E | :usv[0258]{char} | 0258 | LATIN SMALL LETTER REVERSED E |  |
+PSG2.050.2 | Small Capital E | :usv[1D07]{char} | 1D07 | LATIN LETTER SMALL CAPITAL E |  |
+PSG2.051.2 | Capital E | :usv[0045]{char} | 0045 | LATIN CAPITAL LETTER E |  |
+PSG2.052   | Epsilon | :usv[025B]{char} | 025B | LATIN SMALL LETTER OPEN E |  |
+PSG2.053.2 | Right-Hook Epsilon | :usv[0000]{char} | 1D93 | LATIN SMALL LETTER OPEN E WITH RETROFLEX HOOK |  |
+PSG2.054   | Closed Epsilon | :usv[029A]{char} | 029A | LATIN SMALL LETTER CLOSED OPEN E |  |
+PSG2.055   | Reversed Epsilon | :usv[025C]{char} | 025C | LATIN SMALL LETTER REVERSED OPEN E |  |
+PSG2.056   | Right-Hook Reversed Epsilon | :usv[025D]{char} | 025D | LATIN SMALL LETTER REVERSED OPEN E WITH HOOK |  |
+PSG2.057   | Closed Reversed Epsilon | :usv[025E]{char} | 025E | LATIN SMALL LETTER CLOSED REVERSED OPEN E |  |
+PSG2.058.1 | Lower-Case F | :usv[0000]{char} | 0066 | LATIN SMALL LETTER F |  |
+PSG2.058.2 | Script Lower-Case F | :usv[0066]{char} | 0192 | LATIN SMALL LETTER F WITH HOOK |  |
+PSG2.059   | Small Capital F | :usv[A730]{char} | A730 | LATIN LETTER SMALL CAPITAL F |  |
+PSG2.060   | Lower-Case G | :usv[0261]{char} | 0261 | LATIN SMALL LETTER SCRIPT G |  |
+PSG2.061.1, PSG2.061.2 | Barred G, Crossed G | :usv[01E5]{char} | 01E5 | LATIN SMALL LETTER G WITH STROKE | variant glyph - see note [^1] |
+PSG2.062   | Hooktop G | :usv[0260]{char} | 0260 | LATIN SMALL LETTER G WITH HOOK |  |
+PSG2.063   | Looptail G | :usv[0067]{char} | 0067 | LATIN SMALL LETTER G |  |
+PSG2.064   | Small Capital G | :usv[0262]{char} | 0262 | LATIN LETTER SMALL CAPITAL G |  |
+PSG2.065   | Hooktop Small Capital G | :usv[029B]{char} | 029B | LATIN LETTER SMALL CAPITAL G WITH HOOK |  |
+PSG2.066   | Capital G | :usv[0047]{char} | 0047 | LATIN CAPITAL LETTER G |  |
+PSG2.067   | Gamma | :usv[0263]{char} | 0263 | LATIN SMALL LETTER GAMMA |  |
+PSG2.068.1 | Greek Gamma | :usv[03B3]{char} | 03B3 | GREEK SMALL LETTER GAMMA |  |
+PSG2.069.2, PSG2.071 | Baby Gamma, Ram's Horns | :usv[0264]{char} | 0264 | LATIN SMALL LETTER RAMS HORN | variant glyph |
+PSG2.072   | Lower-Case H | :usv[0068]{char} | 0068 | LATIN SMALL LETTER H |  |
+PSG2.073.1 | Underdot H | :usv[1E25]{char} | 1E25 | LATIN SMALL LETTER H WITH DOT BELOW |  |
+PSG2.073.2 | H-V Ligature | :usv[0195]{char} | 0195 | LATIN SMALL LETTER HV |  |
+PSG2.074   | Crossed H | :usv[0127]{char} | 0127 | LATIN SMALL LETTER H WITH STROKE |  |
+PSG2.075   | Hooktop H | :usv[0266]{char} | 0266 | LATIN SMALL LETTER H WITH HOOK |  |
+PSG2.077   | Heng | :usv[A727]{char} | A727 | LATIN SMALL LETTER HENG |  |
+PSG2.078   | Hooktop Heng | :usv[0267]{char} | 0267 | LATIN SMALL LETTER HENG WITH HOOK |  |
+PSG2.079   | Turned H | :usv[0265]{char} | 0265 | LATIN SMALL LETTER TURNED H |  |
+PSG2.080.1 | Curvy Turned H | :usv[02AE]{char} | 02AE | LATIN SMALL LETTER TURNED H WITH FISHHOOK |  |
+PSG2.080.2 | Right-Tail Curvy Turned H | :usv[02AF]{char} | 02AF | LATIN SMALL LETTER TURNED H WITH FISHHOOK AND TAIL |  |
+PSG2.082   | Small Capital H | :usv[029C]{char} | 029C | LATIN LETTER SMALL CAPITAL H |  |
+PSG2.083   | Capital H | :usv[0048]{char} | 0048 | LATIN CAPITAL LETTER H |  |
+PSG2.084.1 | Lower-Case I | :usv[0069]{char} | 0069 | LATIN SMALL LETTER I |  |
+PSG2.084.2 | Umlaut I | :usv[00EF]{char} | 00EF | LATIN SMALL LETTER I WITH DIAERESIS |  |
+PSG2.085   | Dotless I | :usv[0131]{char} | 0131 | LATIN SMALL LETTER DOTLESS I |  |
+PSG2.086   | Barred I | :usv[0268]{char} | 0268 | LATIN SMALL LETTER I WITH STROKE |  |
+PSG2.087.1 | Small Capital I | :usv[026A]{char} | 026A | LATIN LETTER SMALL CAPITAL I |  |
+PSG2.088.1 | Barred Small Capital I | :usv[1D7B]{char} | 1D7B | LATIN SMALL CAPITAL LETTER I WITH STROKE |  |
+PSG2.088.2 | Capital I | :usv[0049]{char} | 0049 | LATIN CAPITAL LETTER I |  |
+PSG2.089.1 | Iota | :usv[0269]{char} | 0269 | LATIN SMALL LETTER IOTA |  |
+PSG2.089.2 | Long-Leg Turned Iota | :usv[027F]{char} | 027F | LATIN SMALL LETTER REVERSED R WITH FISHHOOK |  |
+PSG2.090 | Right-Tail Turned Iota | :usv[0285]{char} | 0285 | LATIN SMALL LETTER SQUAT REVERSED ESH |  |
+PSG2.091 | Lower-Case J | :usv[006A]{char} | 006A | LATIN SMALL LETTER J |  |
+PSG2.093.2 | Barred J | :usv[0249]{char} | 0249 | LATIN SMALL LETTER J WITH STROKE |  |
+PSG2.094 | Curly-Tail J | :usv[029D]{char} | 029D | LATIN SMALL LETTER J WITH CROSSED-TAIL |  |
+PSG2.095 | Wedge J | :usv[01F0]{char} | 01F0 | LATIN SMALL LETTER J WITH CARON |  |
+PSG2.096 | Barred Dotless J | :usv[025F]{char} | 025F | LATIN SMALL LETTER DOTLESS J WITH STROKE |  |
+PSG2.097 | Hooktop Barred Dotless J | :usv[0284]{char} | 0284 | LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK |  |
+PSG2.098 | Small Capital J | :usv[1D0A]{char} | 1D0A | LATIN LETTER SMALL CAPITAL J |  |
+PSG2.099.1 | Lower-Case K | :usv[006B]{char} | 006B | LATIN SMALL LETTER K |  |
+PSG2.099.2 | Crossed K | :usv[A741]{char} | A741 | LATIN SMALL LETTER K WITH STROKE |  |
+PSG2.100 | Hooktop K | :usv[0199]{char} | 0199 | LATIN SMALL LETTER K WITH HOOK |  |
+PSG2.101.1 | Turned K | :usv[029E]{char} | 029E | LATIN SMALL LETTER TURNED K |  |
+PSG2.101.2 | Small Capital K | :usv[1D0B]{char} | 1D0B | LATIN LETTER SMALL CAPITAL K |  |
+PSG2.102 | Turned Small Capital K | :usv[1DF10]{char} | 1DF10 | LATIN LETTER SMALL CAPITAL TURNED K |  |
+PSG2.103.1 | Lower-Case L | :usv[006C]{char} | 006C | LATIN SMALL LETTER L |  |
+PSG2.103.2 | Tilde L | :usv[026B]{char} | 026B | LATIN SMALL LETTER L WITH MIDDLE TILDE |  |
+PSG2.104 | Barred L | :usv[019A]{char} | 019A | LATIN SMALL LETTER L WITH BAR |  |
+PSG2.105 | Belted L | :usv[026C]{char} | 026C | LATIN SMALL LETTER L WITH BELT |  |
+PSG2.106 | Right-Tail L | :usv[026D]{char} | 026D | LATIN SMALL LETTER L WITH RETROFLEX HOOK |  |
+PSG2.107 | L-Yogh Ligature | :usv[026E]{char} | 026E | LATIN SMALL LETTER LEZH |  |
+PSG2.108 | Small Capital L | :usv[029F]{char} | 029F | LATIN LETTER SMALL CAPITAL L |  |
+PSG2.109.1 | Capital L | :usv[004C]{char} | 004C | LATIN CAPITAL LETTER L |  |
+PSG2.110.1 | Lambda | :usv[03BB]{char} | 03BB | GREEK SMALL LETTER LAMDA |  |
+PSG2.110.2 | Crossed Lambda | :usv[019B]{char} | 019B | LATIN SMALL LETTER LAMBDA WITH STROKE |  |
+PSG2.111 | Lower-Case M | :usv[006D]{char} | 006D | LATIN SMALL LETTER M |  |
+PSG2.112 | Meng | :usv[0271]{char} | 0271 | LATIN SMALL LETTER M WITH HOOK |  |
+PSG2.114 | Turned M | :usv[026F]{char} | 026F | LATIN SMALL LETTER TURNED M |  |
+PSG2.116 | Long-Leg Turned M | :usv[0270]{char} | 0270 | LATIN SMALL LETTER TURNED M WITH LONG LEG |  |
+PSG2.117.1 | Small Capital M | :usv[1D0D]{char} | 1D0D | LATIN LETTER SMALL CAPITAL M |  |
+PSG2.117.2 | Capital M | :usv[004D]{char} | 004D | LATIN CAPITAL LETTER M |  |
+PSG2.118.1 | Lower-Case N | :usv[006E]{char} | 006E | LATIN SMALL LETTER N |  |
+PSG2.119.1 | Front-Bar N | :usv[1DF27]{char} | 1DF27 | LATIN SMALL LETTER N WITH MID-HEIGHT LEFT HOOK |  |
+PSG2.119.2 | Pi | :usv[03C0]{char} | 03C0 | GREEK SMALL LETTER PI |  |
+PSG2.120.1 | Long-Leg N | :usv[019E]{char} | 019E | LATIN SMALL LETTER N WITH LONG RIGHT LEG |  |
+PSG2.120.2 | Tilde N | :usv[00F1]{char} | 00F1 | LATIN SMALL LETTER N WITH TILDE |  |
+PSG2.121 | Left-Hook N | :usv[0272]{char} | 0272 | LATIN SMALL LETTER N WITH LEFT HOOK |  |
+PSG2.122.1 | Eng | :usv[014B]{char} | 014B | LATIN SMALL LETTER ENG |  |
+PSG2.122.2 | Eta | :usv[03B7]{char} | 03B7 | GREEK SMALL LETTER ETA |  |
+PSG2.124 | Right-Tail N | :usv[0273]{char} | 0273 | LATIN SMALL LETTER N WITH RETROFLEX HOOK |  |
+PSG2.125 | Small Capital N | :usv[0274]{char} | 0274 | LATIN LETTER SMALL CAPITAL N |  |
+PSG2.126 | Capital N | :usv[004E]{char} | 004E | LATIN CAPITAL LETTER N |  |
+PSG2.127.1 | Lower-Case O | :usv[006F]{char} | 006F | LATIN SMALL LETTER O |  |
+PSG2.128.1 | Umlaut O | :usv[00F6]{char} | 00F6 | LATIN SMALL LETTER O WITH DIAERESIS |  |
+PSG2.128.2 | Polish-Hook O | :usv[01EB]{char} | 01EB | LATIN SMALL LETTER O WITH OGONEK |  |
+PSG2.129.1 | Reversed Polish-Hook O | :usv[018D]{char} | 018D | LATIN SMALL LETTER TURNED DELTA |  |
+PSG2.129.2 | Sigma | :usv[03C3]{char} | 03C3 | GREEK SMALL LETTER SIGMA |  |
+PSG2.130.1 | Capital O | :usv[004F]{char} | 004F | LATIN CAPITAL LETTER O |  |
+PSG2.130.2 | Female Sign | :usv[2640]{char} | 2640 | FEMALE SIGN |  |
+PSG2.131   | Uncrossed Female Sign | :usv[26B2]{char} | 26B2 | NEUTER |  |
+PSG2.132   | Bullseye | :usv[0298]{char} | 0298 | LATIN LETTER BILABIAL CLICK |  |
+PSG2.134   | Barred O | :usv[0275]{char} | 0275 | LATIN SMALL LETTER BARRED O |  |
+PSG2.135   | Theta | :usv[03B8]{char} | 03B8 | GREEK SMALL LETTER THETA |  |
+PSG2.136.1 | Slashed O | :usv[00F8]{char} | 00F8 | LATIN SMALL LETTER O WITH STROKE |  |
+PSG2.136.2 | Null Sign | :usv[2205]{char} | 2205 | EMPTY SET | variant glyph |
+PSG2.138 | Phi | :usv[0278]{char} | 0278 | LATIN SMALL LETTER PHI |  |
+PSG2.139 | O-E Ligature | :usv[0153]{char} | 0153 | LATIN SMALL LIGATURE OE |  |
+PSG2.140 | Small Capital O-E Ligature | :usv[0276]{char} | 0276 | LATIN LETTER SMALL CAPITAL OE |  |
+PSG2.141.1 | Double-O Ligature | :usv[A74F]{char} | A74F | LATIN SMALL LETTER OO |  |
+PSG2.141.2 | Eight | :usv[0038]{char} | 0038 | DIGIT EIGHT | see note [^2] |
+PSG2.143 | Open O | :usv[0254]{char} | 0254 | LATIN SMALL LETTER OPEN O |  |
+PSG2.145.2 | Right-Hook Open O | :usv[1D97]{char} | 1D97 | LATIN SMALL LETTER OPEN O WITH RETROFLEX HOOK |  |
+PSG2.145.3 | Open O-E Ligature | :usv[AB62]{char} | AB62 | LATIN SMALL LETTER OPEN OE |  |
+PSG2.146.1 | Omega | :usv[03C9]{char} | 03C9 | GREEK SMALL LETTER OMEGA |  |
+PSG2.148.1 | Closed Omega | :usv[0277]{char} | 0277 | LATIN SMALL LETTER CLOSED OMEGA |  |
+PSG2.148.2 | Small Capital Omega | :usv[AB65]{char} | AB65 | GREEK LETTER SMALL CAPITAL OMEGA |  |
+PSG2.151.1 | Lower-Case P | :usv[0070]{char} | 0070 | LATIN SMALL LETTER P |  |
+PSG2.151.2 | Barred P | :usv[1D7D]{char} | 1D7D | LATIN SMALL LETTER P WITH STROKE |  |
+PSG2.152 | Hooktop P | :usv[01A5]{char} | 01A5 | LATIN SMALL LETTER P WITH HOOK |  |
+PSG2.153.2 | Small Capital P | :usv[1D18]{char} | 1D18 | LATIN LETTER SMALL CAPITAL P |  |
+PSG2.154.1 | Capital P | :usv[0050]{char} | 0050 | LATIN CAPITAL LETTER P |  |
+PSG2.154.2 | Rho | :usv[03C1]{char} | 03C1 | GREEK SMALL LETTER RHO |  |
+PSG2.155.1 | Wynn | :usv[01BF]{char} | 01BF | LATIN LETTER WYNN |  |
+PSG2.155.2 | Thorn | :usv[00FE]{char} | 00FE | LATIN SMALL LETTER THORN |  |
+PSG2.157 | Lower-Case Q | :usv[0071]{char} | 0071 | LATIN SMALL LETTER Q |  |
+PSG2.158 | Hooktop Q | :usv[02A0]{char} | 02A0 | LATIN SMALL LETTER Q WITH HOOK |  |
+PSG2.159 | Q-P Ligature | :usv[0239]{char} | 0239 | LATIN SMALL LETTER QP DIGRAPH |  |
+PSG2.160 | Lower-Case R | :usv[0072]{char} | 0072 | LATIN SMALL LETTER R |  |
+PSG2.161 | Fishhook R | :usv[027E]{char} | 027E | LATIN SMALL LETTER R WITH FISHHOOK |  |
+PSG2.162 | Long-Leg R | :usv[027C]{char} | 027C | LATIN SMALL LETTER R WITH LONG LEG |  |
+PSG2.163 | Right-Tail R | :usv[027D]{char} | 027D | LATIN SMALL LETTER R WITH TAIL |  |
+PSG2.164 | Turned R | :usv[0279]{char} | 0279 | LATIN SMALL LETTER TURNED R |  |
+PSG2.165 | Right-Tail Turned R | :usv[027B]{char} | 027B | LATIN SMALL LETTER TURNED R WITH HOOK |  |
+PSG2.166 | Turned Long-Leg R | :usv[027A]{char} | 027A | LATIN SMALL LETTER TURNED R WITH LONG LEG |  |
+PSG2.167.1 | Small Capital R | :usv[0280]{char} | 0280 | LATIN LETTER SMALL CAPITAL R |  |
+PSG2.167.2 | Capital R | :usv[0052]{char} | 0052 | LATIN CAPITAL LETTER R |  |
+PSG2.168 | Reversed Small Capital R | :usv[1D19]{char} | 1D19 | LATIN LETTER SMALL CAPITAL REVERSED R |  |
+PSG2.169 | Inverted Small Capital R | :usv[0281]{char} | 0281 | LATIN LETTER SMALL CAPITAL INVERTED R |  |
+PSG2.170.1 | Lower-Case S | :usv[0073]{char} | 0073 | LATIN SMALL LETTER S |  |
+PSG2.170.2 | Capital S | :usv[0053]{char} | 0053 | LATIN CAPITAL LETTER S |  |
+PSG2.171 | Wedge S | :usv[0161]{char} | 0161 | LATIN SMALL LETTER S WITH CARON |  |
+PSG2.172 | Right-Tail S | :usv[0282]{char} | 0282 | LATIN SMALL LETTER S WITH HOOK |  |
+PSG2.173.1 | Esh | :usv[0283]{char} | 0283 | LATIN SMALL LETTER ESH |  |
+PSG2.173.2 | Double-Barred Esh | :usv[1DF0B]{char} | 1DF0B | LATIN SMALL LETTER ESH WITH DOUBLE BAR |  |
+PSG2.174.1 | Looptop Reversed Esh | :usv[01AA]{char} | 01AA | LATIN LETTER REVERSED ESH LOOP |  |
+PSG2.174.2 | Curly-Tail Esh | :usv[0286]{char} | 0286 | LATIN SMALL LETTER ESH WITH CURL |  |
+PSG2.175.1 | Lower-Case T | :usv[0074]{char} | 0074 | LATIN SMALL LETTER T |  |
+PSG2.175.2 | Barred T | :usv[0167]{char} | 0167 | LATIN SMALL LETTER T WITH STROKE |  |
+PSG2.176.1 | Front-Hook T | :usv[1DF2A]{char} | 1DF2A | LATIN SMALL LETTER T WITH MID-HEIGHT LEFT HOOK |  |
+PSG2.176.2 | Left-Hook T | :usv[01AB]{char} | 01AB | LATIN SMALL LETTER T WITH PALATAL HOOK |  |
+PSG2.177.1 | Right-Tail T | :usv[0288]{char} | 0288 | LATIN SMALL LETTER T WITH RETROFLEX HOOK |  |
+PSG2.177.2 | Hooktop T | :usv[01AD]{char} | 01AD | LATIN SMALL LETTER T WITH HOOK |  |
+PSG2.178   | Turned T | :usv[0287]{char} | 0287 | LATIN SMALL LETTER TURNED T |  |
+PSG2.179.2 | T-S Ligature | :usv[02A6]{char} | 02A6 | LATIN SMALL LETTER TS DIGRAPH |  |
+PSG2.180   | T-Esh Ligature | :usv[02A7]{char} | 02A7 | LATIN SMALL LETTER TESH DIGRAPH |  |
+PSG2.181.1 | Lower-Case U | :usv[0075]{char} | 0075 | LATIN SMALL LETTER U |  |
+PSG2.182   | Umlaut U | :usv[00FC]{char} | 00FC | LATIN SMALL LETTER U WITH DIAERESIS |  |
+PSG2.183   | Barred U | :usv[0289]{char} | 0289 | LATIN SMALL LETTER U BAR |  |
+PSG2.184.2 | Slashed U | :usv[A7B9]{char} | A7B9 | LATIN SMALL LETTER U WITH STROKE |  |
+PSG2.185   | Upsilon | :usv[028A]{char} | 028A | LATIN SMALL LETTER UPSILON |  |
+PSG2.186.1 | Small Capital U | :usv[1D1C]{char} | 1D1C | LATIN LETTER SMALL CAPITAL U |  |
+PSG2.187.1 | Barred Small Capital U | :usv[1D7E]{char} | 1D7E | LATIN SMALL CAPITAL LETTER U WITH STROKE |  |
+PSG2.187.3 | Capital U | :usv[0055]{char} | 0055 | LATIN CAPITAL LETTER U |  |
+PSG2.188   | Lower-Case V | :usv[0076]{char} | 0076 | LATIN SMALL LETTER V |  |
+PSG2.189   | Script V | :usv[028B]{char} | 028B | LATIN SMALL LETTER V WITH HOOK |  |
+PSG2.190   | Lower-Case W | :usv[0077]{char} | 0077 | LATIN SMALL LETTER W |  |
+PSG2.191.1 | Subscript W | :usv[032B]{char} | 032B | COMBINING INVERTED DOUBLE ARCH BELOW |  |
+PSG2.193   | Turned W | :usv[028D]{char} | 028D | LATIN SMALL LETTER TURNED W |  |
+PSG2.194   | Lower-Case X | :usv[0078]{char} | 0078 | LATIN SMALL LETTER X |  |
+PSG2.195.3 | Capital X | :usv[0058]{char} | 0058 | LATIN CAPITAL LETTER X |  |
+PSG2.196   | Chi | :usv[03C7]{char} | 03C7 | GREEK SMALL LETTER CHI |  |
+PSG2.197   | Lower-Case Y | :usv[0079]{char} | 0079 | LATIN SMALL LETTER Y |  |
+PSG2.198   | Umlaut Y | :usv[00FF]{char} | 00FF | LATIN SMALL LETTER Y WITH DIAERESIS |  |
+PSG2.200   | Turned Y | :usv[028E]{char} | 028E | LATIN SMALL LETTER TURNED Y |  |
+PSG2.201   | Small Capital Y | :usv[028F]{char} | 028F | LATIN LETTER SMALL CAPITAL Y |  |
+PSG2.202   | Lower-Case Z | :usv[007A]{char} | 007A | LATIN SMALL LETTER Z |  |
+PSG2.203.1 | Comma-Tail Z | :usv[0225]{char} | 0225 | LATIN SMALL LETTER Z WITH HOOK |  |
+PSG2.203.2 | Wedge Z | :usv[017E]{char} | 017E | LATIN SMALL LETTER Z WITH CARON |  |
+PSG2.204   | Curly-Tail Z | :usv[0291]{char} | 0291 | LATIN SMALL LETTER Z WITH CURL |  |
+PSG2.205.1 | Right-Tail Z | :usv[0290]{char} | 0290 | LATIN SMALL LETTER Z WITH RETROFLEX HOOK |  |
+PSG2.205.2 | Crossed Two | :usv[01BB]{char} | 01BB | LATIN LETTER TWO WITH STROKE |  |
+PSG2.206   | Turned Two | :usv[218A]{char} | 218A | TURNED DIGIT TWO |  |
+PSG2.207   | Yogh | :usv[0292]{char} | 0292 | LATIN SMALL LETTER EZH |  |
+PSG2.208.2 | Bent-Tail Yogh | :usv[01BA]{char} | 01BA | LATIN SMALL LETTER EZH WITH TAIL |  |
+PSG2.209.1 | Curly-Tail Yogh | :usv[0293]{char} | 0293 | LATIN SMALL LETTER EZH WITH CURL |  |
+PSG2.209.2 | Reversed Yogh | :usv[01B9]{char} | 01B9 | LATIN SMALL LETTER EZH REVERSED |  |
+PSG2.210   | Turned Three | :usv[218B]{char} | 218B | TURNED DIGIT THREE |  |
+PSG2.211   | Glottal Stop | :usv[0294]{char} | 0294 | LATIN LETTER GLOTTAL STOP |  |
+PSG2.212.1 | Question Mark | :usv[003F]{char} | 003F | QUESTION MARK |  |
+PSG2.212.2 | Seven | :usv[0037]{char} | 0037 | DIGIT SEVEN |  |
+PSG2.213 | Barred Glottal Stop | :usv[02A1]{char} | 02A1 | LATIN LETTER GLOTTAL STOP WITH STROKE |  |
+PSG2.214.1 | Inverted Glottal Stop | :usv[0296]{char} | 0296 | LATIN LETTER INVERTED GLOTTAL STOP |  |
+PSG2.214.2 | Crossed Inverted Glottal Stop | :usv[01BE]{char} | 01BE | LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE |  |
+PSG2.215 | Curly-Tail Inverted Glottal Stop | :usv[1DF0E]{char} | 1DF0E | LATIN LETTER INVERTED GLOTTAL STOP WITH CURL |  |
+PSG2.216 | Reversed Glottal Stop | :usv[0295]{char} | 0295 | LATIN LETTER PHARYNGEAL VOICED FRICATIVE |  |
+PSG2.217 | Nine | :usv[0039]{char} | 0039 | DIGIT NINE |  |
+PSG2.218 | Barred Reversed Glottal Stop | :usv[02A2]{char} | 02A2 | LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE |  |
+PSG2.219 | Exclamation Point | :usv[01C3]{char} | 01C3 | LATIN LETTER RETROFLEX CLICK |  |
+PSG2.221, PSG2.222 | Pipe, Slash | :usv[01C0]{char} | 01C0 | LATIN LETTER DENTAL CLICK | variant glyph |
+PSG2.223, PSG2.224 | Double-Barred Pipe, Double-Barred Slash | :usv[01C2]{char} | 01C2 | LATIN LETTER ALVEOLAR CLICK | variant glyph |
+PSG2.225, PSG2.226.1 | Double Pipe, Double Slash | :usv[01C1]{char} | 01C1 | LATIN LETTER LATERAL CLICK | variant glyph |
+PSG2.227.1 | Number Sign | :usv[0023]{char} | 0023 | NUMBER SIGN |  |
+PSG2.227.2 | Ampersand | :usv[0026]{char} | 0026 | AMPERSAND |  |
+PSG2.228 | Asterisk | :usv[002A]{char} | 002A | ASTERISK |  |
+PSG2.229 | Chao Tone Letters | :usv[02E5]{char} | 02E5 | MODIFIER LETTER EXTRA-HIGH TONE BAR | ligature forming |
+PSG2.229 | Chao Tone Letters | :usv[02E6]{char} | 02E6 | MODIFIER LETTER HIGH TONE BAR | ligature forming |
+PSG2.229 | Chao Tone Letters | :usv[02E7]{char} | 02E7 | MODIFIER LETTER MID TONE BAR | ligature forming |
+PSG2.229 | Chao Tone Letters | :usv[02E8]{char} | 02E8 | MODIFIER LETTER LOW TONE BAR | ligature forming |
+PSG2.229 | Chao Tone Letters | :usv[02E9]{char} | 02E9 | MODIFIER LETTER EXTRA-LOW TONE BAR | ligature forming |
+PSG2.230.1, PSG2.257 | High Tone, Acute Accent | :usv[0301]{char} | 0301 | COMBINING ACUTE ACCENT |  |
+PSG2.230.2, PSG2.231.1 | Mid Tone, Macron | :usv[0304]{char} | 0304 | COMBINING MACRON |  |
+PSG2.230.3, PSG2.258 | Low Tone, Grave Accent | :usv[0300]{char} | 0300 | COMBINING GRAVE ACCENT |  |
+PSG2.230.4, PSG2.260.2 | Rising Tone, Wedge | :usv[030C]{char} | 030C | COMBINING CARON |  |
+PSG2.230.5, PSG2.259 | Falling Tone, Circumflex | :usv[0302]{char} | 0302 | COMBINING CIRCUMFLEX ACCENT |  |
+PSG2.230.6 | Fall-Rise Tone | :usv[1DC9]{char} | 1DC9 | COMBINING ACUTE-GRAVE-ACUTE |  |
+PSG2.231.2 | Minus Sign | :usv[02D7]{char} | 02D7 | MODIFIER LETTER MINUS SIGN |  |
+PSG2.232 | Underbar | :usv[0331]{char} | 0331 | COMBINING MACRON BELOW |  |
+PSG2.233.1 | Plus Sign | :usv[02D6]{char} | 02D6 | MODIFIER LETTER PLUS SIGN |  |
+PSG2.233.2 | Subscript Plus | :usv[031F]{char} | 031F | COMBINING PLUS SIGN BELOW |  |
+PSG2.234.1 | Superscript Cross | :usv[033D]{char} | 033D | COMBINING X ABOVE |  |
+PSG2.234.2 | Superscript Equals | :usv[02ED]{char} | 02ED | MODIFIER LETTER UNASPIRATED |  |
+PSG2.234.3 | Subscript Bridge | :usv[032A]{char} | 032A | COMBINING BRIDGE BELOW |  |
+PSG2.235.1 | Subscript Turned Bridge | :usv[033A]{char} | 033A | COMBINING INVERTED BRIDGE BELOW |  |
+PSG2.235.2 | Subscript Box | :usv[033B]{char} | 033B | COMBINING SQUARE BELOW |  |
+PSG2.236.1 | Raising Sign | :usv[031D]{char} | 031D | COMBINING UP TACK BELOW |  |
+PSG2.236.2 | Lowering Sign | :usv[031E]{char} | 031E | COMBINING DOWN TACK BELOW |  |
+PSG2.236.3 | Advancement Sign | :usv[0318]{char} | 0318 | COMBINING LEFT TACK BELOW |  |
+PSG2.237.1 | Retraction Sign | :usv[0319]{char} | 0319 | COMBINING RIGHT TACK BELOW |  |
+PSG2.237.2 | Vertical Stroke (Superior) | :usv[02C8]{char} | 02C8 | MODIFIER LETTER VERTICAL LINE |  |
+PSG2.238.1 | Vertical Stroke (Inferior) | :usv[02CC]{char} | 02CC | MODIFIER LETTER LOW VERTICAL LINE |  |
+PSG2.238.2 | Syllabicity Mark | :usv[0329]{char} | 0329 | COMBINING VERTICAL LINE BELOW |  |
+PSG2.239.1 | Corner | :usv[031A]{char} | 031A | COMBINING LEFT ANGLE ABOVE |  |
+PSG2.239.2 | Up Arrow | :usv[A71B]{char} | A71B | MODIFIER LETTER RAISED UP ARROW |  |
+PSG2.240.1 | Down Arrow | :usv[A71C]{char} | A71C | MODIFIER LETTER RAISED DOWN ARROW |  |
+PSG2.240.2 | Northeast Arrow | :usv[2197]{char} | 2197 | NORTH EAST ARROW |  |
+PSG2.240.3 | Southeast Arrow | :usv[2198]{char} | 2198 | SOUTH EAST ARROW |  |
+PSG2.241 | Left Pointer | :usv[02C2]{char} | 02C2 | MODIFIER LETTER LEFT ARROWHEAD |  |
+PSG2.242.1 | Right Pointer | :usv[02C3]{char} | 02C3 | MODIFIER LETTER RIGHT ARROWHEAD |  |
+PSG2.242.2 | Subscript Right Pointer | :usv[0355]{char} | 0355 | COMBINING RIGHT ARROWHEAD BELOW |  |
+PSG2.244.1 | Overdot | :usv[0307]{char} | 0307 | COMBINING DOT ABOVE |  |
+PSG2.244.2 | Raised Period | :usv[00B7]{char} | 00B7 | MIDDLE DOT |  |
+PSG2.245.1 | Period | :usv[002E]{char} | 002E | FULL STOP |  |
+PSG2.245.2 | Half-Length Mark | :usv[02D1]{char} | 02D1 | MODIFIER LETTER HALF TRIANGULAR COLON |  |
+PSG2.245.3 | Underdot | :usv[0323]{char} | 0323 | COMBINING DOT BELOW |  |
+PSG2.247 | Umlaut | :usv[0308]{char} | 0308 | COMBINING DIAERESIS |  |
+PSG2.248.1 | Subscript Umlaut | :usv[0324]{char} | 0324 | COMBINING DIAERESIS BELOW |  |
+PSG2.248.2 | Colon | :usv[003A]{char} | 003A | COLON |  |
+PSG2.249.1 | Length Mark | :usv[02D0]{char} | 02D0 | MODIFIER LETTER TRIANGULAR COLON |  |
+PSG2.249.2 | Apostrophe | :usv[02BC]{char} | 02BC | MODIFIER LETTER APOSTROPHE |  |
+PSG2.250.1 | Reversed Apostrophe | :usv[02BB]{char} | 02BB | MODIFIER LETTER TURNED COMMA |  |
+PSG2.250.2 | Left Quote | :usv[2018]{char} | 2018 | LEFT SINGLE QUOTATION MARK |  |
+PSG2.251.1 | Comma | :usv[002C]{char} | 002C | COMMA |  |
+PSG2.251.2 | Reversed Comma | :usv[2E41]{char} | 2E41 | REVERSED COMMA |  |
+PSG2.252.1 | Over-Ring | :usv[030A]{char} | 030A | COMBINING RING ABOVE |  |
+PSG2.252.2 | Under-Ring | :usv[0325]{char} | 0325 | COMBINING RING BELOW |  |
+PSG2.253 | Subscript Left-Half Ring | :usv[031C]{char} | 031C | COMBINING LEFT HALF RING BELOW |  |
+PSG2.254.1 | Right-Half Ring | :usv[02BE]{char} | 02BE | MODIFIER LETTER RIGHT HALF RING |  |
+PSG2.254.2 | Subscript Right-Half Ring | :usv[0339]{char} | 0339 | COMBINING RIGHT HALF RING BELOW |  |
+PSG2.254.3 | Tilde | :usv[0303]{char} | 0303 | COMBINING TILDE |  |
+PSG2.255.1 | Mid Tilde | :usv[0334]{char} | 0334 | COMBINING TILDE OVERLAY | precomposed preferred - see note [^3] |
+PSG2.255.2 | Subscript Tilde | :usv[0330]{char} | 0330 | COMBINING TILDE BELOW |  |
+PSG2.256 | Subscript Seagull | :usv[033C]{char} | 033C | COMBINING SEAGULL BELOW |  |
+PSG2.260.1 | Subscript Circumflex | :usv[032D]{char} | 032D | COMBINING CIRCUMFLEX ACCENT BELOW |  |
+PSG2.261.1 | Subscript Wedge | :usv[032C]{char} | 032C | COMBINING CARON BELOW |  |
+PSG2.261.2 | Polish Hook | :usv[0328]{char} | 0328 | COMBINING OGONEK |  |
+PSG2.262.1 | Cedilla | :usv[0327]{char} | 0327 | COMBINING CEDILLA |  |
+PSG2.262.2 | Left Hook | :usv[0321]{char} | 0321 | COMBINING PALATALIZED HOOK BELOW | precomposed preferred - see note [^3] |
+PSG2.263 | Rhoticity Sign | :usv[02DE]{char} | 02DE | MODIFIER LETTER RHOTIC HOOK |  |
+PSG2.264.1 | Right Hook | :usv[0322]{char} | 0322 | COMBINING RETROFLEX HOOK BELOW | precomposed preferred - see note [^3] |
+PSG2.264.2 | Breve | :usv[0306]{char} | 0306 | COMBINING BREVE |  |
+PSG2.265.1 | Round Cap | :usv[0311]{char}| 0311 | COMBINING INVERTED BREVE |  |
+PSG2.265.2 | Subscript Arch | :usv[032F]{char}| 032F | COMBINING INVERTED BREVE BELOW |  |
+PSG2.266.1 | Top Ligature | :usv[0361]{char} | 0361 | COMBINING DOUBLE INVERTED BREVE |  |
+PSG2.266.2 | Bottom Ligature | :usv[035C]{char} | 035C | COMBINING DOUBLE BREVE BELOW |  |
+
+[^1]: Use :usv[01E5]{char} :usv[01E5]{usv} unless the :usv[0067]{char} :usv[0067]{usv} vs :usv[0261]{char} :usv[0261]{usv} distinction should be kept for barred/crossed forms.
+
+[^2]: Use :usv[0038]{usv} unless a case pair distinction is required. In the case of Algonquin, Huron use :usv[0222]{char} :usv[0222]{usv} and :usv[0223]{char} :usv[0223]{usv}.
+
+[^3]: It is preferable to use precomposed characters with the tilde and hooks as found in the Phonetic Extensions block or IPA Extensions block.
+
+
+#### Unicode character sequences
+
+The following symbols correspond to a sequence of Unicode characters.
+
+| ID | Name | Graphics | USVs | Comment |
+| --- | ---- | -------- | ---- | ------- |
+| PSG2.010.1 | Overdot Turned Script A     | :usv[0252]{char}:usv[0307]{char} | :usv[0252]{usv} :usv[0307]{usv} |  |
+| PSG2.010.2 | Umlaut Turned Script A      | :usv[0252]{char}:usv[0308]{char} | :usv[0252]{usv} :usv[0308]{usv} |  |
+| PSG2.013.1 | Overdot Ash                 | :usv[00E6]{char}:usv[0307]{char} | :usv[00E6]{usv} :usv[0307]{usv} |  |
+| PSG2.013.2 | Umlaut Ash                  | :usv[00E6]{char}:usv[0308]{char} | :usv[00E6]{usv} :usv[0308]{usv} |  |
+| PSG2.028.1 | Acute-Accent C              | :usv[0063]{char}:usv[0301]{char} | :usv[0063]{usv} :usv[0301]{usv} |  |
+| PSG2.051.1 | Umlaut Small Capital E      | :usv[1D07]{char}:usv[0308]{char} | :usv[1D07]{usv} :usv[0308]{usv} |  |
+| PSG2.053.1 | Overdot Epsilon             | :usv[025B]{char}:usv[0307]{char} | :usv[025B]{usv} :usv[0307]{usv} |  |
+| PSG2.087.2 | Umlaut Small Capital I      | :usv[026A]{char}:usv[0308]{char} | :usv[026A]{usv} :usv[0308]{usv} |  |
+| PSG2.118.2 | Acute-Accent N              | :usv[006E]{char}:usv[0301]{char} | :usv[006E]{usv} :usv[0301]{usv} |  |
+| PSG2.127.2 | Overdot O                   | :usv[006F]{char}:usv[0307]{char} | :usv[006F]{usv} :usv[0307]{usv} |  |
+| PSG2.144.1 | Overdot Open O              | :usv[0254]{char}:usv[0307]{char} | :usv[0254]{usv} :usv[0307]{usv} |  |
+| PSG2.144.2 | Umlaut Open O               | :usv[0254]{char}:usv[0308]{char} | :usv[0254]{usv} :usv[0308]{usv} |  |
+| PSG2.146.2 | Overdot Omega               | :usv[03C9]{char}:usv[0307]{char} | :usv[03C9]{usv} :usv[0307]{usv} |  |
+| PSG2.147.1 | Umlaut Omega                | :usv[03C9]{char}:usv[0308]{char} | :usv[03C9]{usv} :usv[0308]{usv} |  |
+| PSG2.149.1 | Overdot Small Capital Omega | :usv[AB65]{char}:usv[0307]{char} | :usv[AB65]{usv} :usv[0307]{usv} |  |
+| PSG2.149.2 | Umlaut Small Capital Omega  | :usv[AB65]{char}:usv[0308]{char} | :usv[AB65]{usv} :usv[0308]{usv} |  |
+| PSG2.181.2 | Overdot U                   | :usv[0075]{char}:usv[0307]{char} | :usv[0075]{usv} :usv[0307]{usv} |  |
+| PSG2.186.2 | Overdot Small Capital U     | :usv[1D1C]{char}:usv[0307]{char} | :usv[1D1C]{usv} :usv[0307]{usv} |  |
+| PSG2.191.2 | Overdot W                   | :usv[0077]{char}:usv[0307]{char} | :usv[0077]{usv} :usv[0307]{usv} |  |
+| PSG2.191.3 | Umlaut W                    | :usv[0077]{char}:usv[0308]{char} | :usv[0077]{usv} :usv[0308]{usv} |  |
+| PSG2.195.1 | Subscript-Circumflex X      | :usv[0078]{char}:usv[032D]{char} | :usv[0078]{usv} :usv[032D]{usv} |  |
+| PSG2.195.2 | Subscript-Arch X            | :usv[0078]{char}:usv[032F]{char} | :usv[0078]{usv} :usv[032F]{usv} |  |
+| PSG2.208.1 | Wedge Yogh                  | :usv[0292]{char}:usv[030C]{char} | :usv[0292]{usv} :usv[030C]{usv} |  |
+
+
+
+#### Characters not present in Unicode
+
+The following symbols are included in the _Phonetic Symbol Guide_ but do not have any Unicode equivalents.
+
+| ID | Name |
+| --- | ---- |
+| PSG2.016.2 | Inverted Small Capital A |
+| PSG2.017.2 | Small Capital A-O Ligature |
+| PSG2.019 | Small Capital Delta |
+| PSG2.021.3 | Slashed B |
+| PSG2.035.1 | Curly Tail Stretched C |
+| PSG2.037.2 | Slashed D |
+| PSG2.068.2 | Front-Tail Gamma |
+| PSG2.069.1 | Back-Tail Gamma |
+| PSG2.076 | Right-Tail Hooktop H |
+| PSG2.093.1 | Hooktop J |
+| PSG2.102 | Turned Small Capital K |
+| PSG2.109.2 | Reversed Small Capital L |
+| PSG2.113 | H-M Ligature |
+| PSG2.145.1 | Barred Open O |
+| PSG2.147.2 | Inverted Omega |
+| PSG2.150 | Barred Small Capital Omega |
+| PSG2.153.1 | Left-Hook P |
+| PSG2.173.2 | Double-Barred Esh |
+| PSG2.179.1 | Curly-Tail Turned T |
+| PSG2.184.1 | Half-Barred U |
+| PSG2.184.2 | Slashed U |
+| PSG2.187.2 | Turned Small Capital U |
+| PSG2.192 | Slashed W |
+| PSG2.206 | Turned Two |
+| PSG2.215 | Curly-Tail Inverted Glottal Stop |
+| PSG2.226.2 | Triple Slash |
+| PSG2.243 | Superscript Left Arrow |
+| PSG2.251.2 | Reversed Comma |
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>
