@@ -60,3 +60,19 @@ You can stop the service by typing Ctrl-D (or Ctrl-C).
 When you are happy with the changes you made to the Markdown files, you can commit and push them to git in the usual way. GitHub Actions will then pick up your commits, generate the whole website again and publish everything to [https://writingsystems.info/](https://writingsystems.info/)
 
 Note: You might like to run a linter in VSCode like Markdownlint to help you catch potential Markdown errors. Your Problems tab will reveal issues but you can also close it if it becomes too noisy.
+
+### Updating the local dev container
+
+Occasionally, especially after an Astro major version update, the local Docker container needs to be updated to grab later versions of node and other packages. It may not be enough to run `npm ci`. When trying to run `npm run dev` you may get an error like:
+
+```
+Node.js v22.9.0 is not supported by Astro!
+Please upgrade Node.js to a supported version: “>=22.12.0”
+```
+
+To fix this from VSCode:
+
+- Left-click on the blue Dev Container control in the bottom left corner of the VSCode window
+- Choose ‘Rebuild container’ in the window bar pop-up that appears
+
+This will rebuild the container with the proper versions.
