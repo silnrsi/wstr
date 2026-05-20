@@ -1,0 +1,491 @@
+---
+title: Character Requirements for a Nastaliq (Arabic script) font
+tags: [script-aran]
+lastUpdated: 2026-05-13
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+Developing comprehensive fonts can be quite a challenge. There are over 340 characters in the Arabic Unicode blocks (not including the presentations forms). For many of those characters, there are up to 4 different forms. An Arabic script font can require many, many glyphs.
+
+When you get to the needs for [Nastaliq (slanted style)][nastaliq], the size of font is increased exponentially. If a font supports all of the following characters, we believe that most languages using the Nastaliq style of Arabic script would be well supported. Our hope is that all type designers who are designing fonts for the Nastaliq style will be willing to add these characters to their fonts. This would be a great service to the languages using Nastaliq.
+
+There are comments below about glyph variants that may be needed to support some languages. 
+
+The process for developing this list was based on the following:
+
+- Decision to include all Codepage 1252 and MacRoman characters
+- Decision to include many characters required for publishing (spaces and dashes)
+- Decision to support Urdu and all known languages using the Nastaliq style
+- Feedback on the resulting character set
+
+
+Feedback on the character repertoire is welcomed.
+
+
+| Graphic | USV | Name | Comment |
+| ------- | --- | ---- | ------- |
+| :usv[0600]{char} | 0600 | :usv[0600]{name} |  |
+| :usv[0601]{char} | 0601 | :usv[0601]{name} |  |
+| :usv[0602]{char} | 0602 | :usv[0602]{name} |  |
+| :usv[0603]{char} | 0603 | :usv[0603]{name} |  |
+| :usv[060C]{char} | 060C | :usv[060C]{name} |  |
+| :usv[060D]{char} | 060D | :usv[060D]{name} |  |
+| :usv[060E]{char} | 060E | :usv[060E]{name} |  |
+| :usv[060F]{char} | 060F | :usv[060F]{name} |  |
+| :usv[0610]{char} | 0610 | :usv[0610]{name} |  |
+| :usv[0611]{char} | 0611 | :usv[0611]{name} |  |
+| :usv[0612]{char} | 0612 | :usv[0612]{name} |  |
+| :usv[0613]{char} | 0613 | :usv[0613]{name} |  |
+| :usv[0614]{char} | 0614 | :usv[0614]{name} |  |
+| :usv[0615]{char} | 0615 | :usv[0615]{name} |  |
+| :usv[061B]{char} | 061B | :usv[061B]{name} |  |
+| :usv[061F]{char} | 061F | :usv[061F]{name} |  |
+| :usv[0620]{char} | 0620 | :usv[0620]{name} |  |
+| :usv[0621]{char} | 0621 | :usv[0621]{name} |  |
+| :usv[0622]{char} | 0622 | :usv[0622]{name} |  |
+| :usv[0623]{char} | 0623 | :usv[0623]{name} |  |
+| :usv[0624]{char} | 0624 | :usv[0624]{name} |  |
+| :usv[0625]{char} | 0625 | :usv[0625]{name} |  |
+| :usv[0626]{char} | 0626 | :usv[0626]{name} |  |
+| :usv[0627]{char} | 0627 | :usv[0627]{name} |  |
+| :usv[0628]{char} | 0628 | :usv[0628]{name} |  |
+| :usv[0629]{char} | 0629 | :usv[0629]{name} |  |
+| :usv[062A]{char} | 062A | :usv[062A]{name} |  |
+| :usv[062B]{char} | 062B | :usv[062B]{name} |  |
+| :usv[062C]{char} | 062C | :usv[062C]{name} |  |
+| :usv[062D]{char} | 062D | :usv[062D]{name} |  |
+| :usv[062E]{char} | 062E | :usv[062E]{name} |  |
+| :usv[062F]{char} | 062F | :usv[062F]{name} |  |
+| :usv[0630]{char} | 0630 | :usv[0630]{name} |  |
+| :usv[0631]{char} | 0631 | :usv[0631]{name} |  |
+| :usv[0632]{char} | 0632 | :usv[0632]{name} |  |
+| :usv[0633]{char} | 0633 | :usv[0633]{name} |  |
+| :usv[0634]{char} | 0634 | :usv[0634]{name} |  |
+| :usv[0635]{char} | 0635 | :usv[0635]{name} |  |
+| :usv[0636]{char} | 0636 | :usv[0636]{name} |  |
+| :usv[0637]{char} | 0637 | :usv[0637]{name} |  |
+| :usv[0638]{char} | 0638 | :usv[0638]{name} |  |
+| :usv[0639]{char} | 0639 | :usv[0639]{name} |  |
+| :usv[063A]{char} | 063A | :usv[063A]{name} |  |
+| :usv[0641]{char} | 0641 | :usv[0641]{name} |  |
+| :usv[0642]{char} | 0642 | :usv[0642]{name} |  |
+| :usv[0643]{char} | 0643 | :usv[0643]{name} |  |
+| :usv[0644]{char} | 0644 | :usv[0644]{name} |  |
+| :usv[0645]{char} | 0645 | :usv[0645]{name} |  |
+| :usv[0646]{char} | 0646 | :usv[0646]{name} |  |
+| :usv[0647]{char} | 0647 | :usv[0647]{name} | There is a glyph variant for this character which is used in Urdu (see [Glyph Variants for U+0647](https://scriptsource.org/entry/vzqg8xdd6y)) |
+| :usv[0648]{char} | 0648 | :usv[0648]{name} |  |
+| :usv[064A]{char} | 064A | :usv[064A]{name} |  |
+| :usv[064B]{char} | 064B | :usv[064B]{name} |  |
+| :usv[064C]{char} | 064C | :usv[064C]{name} | There is a glyph variant for this character which is sometimes used in Pakistan (see [Glyph Variant for U+064C](https://scriptsource.org/entry/wkgqmp9bj9)) |
+| :usv[064D]{char} | 064D | :usv[064D]{name} |  |
+| :usv[064E]{char} | 064E | :usv[064E]{name} |  |
+| :usv[064F]{char} | 064F | :usv[064F]{name} |  |
+| :usv[0650]{char} | 0650 | :usv[0650]{name} | There is a glyph variant for this character which is used in Urdu (see [Variant Behavior for Kasra (U+0650)](https://scriptsource.org/entry/un52u34n6m)) |
+| :usv[0651]{char} | 0651 | :usv[0651]{name} |  |
+| :usv[0652]{char} | 0652 | :usv[0652]{name} | There is a glyph variant for this character (see [Glyph Variants for U+0652](https://scriptsource.org/entry/e74dnu7usc)) |
+| :usv[0653]{char} | 0653 | :usv[0653]{name} |  |
+| :usv[0654]{char} | 0654 | :usv[0654]{name} |  |
+| :usv[0655]{char} | 0655 | :usv[0655]{name} |  |
+| :usv[0656]{char} | 0656 | :usv[0656]{name} |  |
+| :usv[0657]{char} | 0657 | :usv[0657]{name} |  |
+| :usv[0658]{char} | 0658 | :usv[0658]{name} |  |
+| :usv[065A]{char} | 065A | :usv[065A]{name} |  |
+| :usv[065B]{char} | 065B | :usv[065B]{name} |  |
+| :usv[065E]{char} | 065E | :usv[065E]{name} |  |
+| :usv[065F]{char} | 065F | :usv[065F]{name} |  |
+| :usv[0660]{char} | 0660 | :usv[0660]{name} |  |
+| :usv[0661]{char} | 0661 | :usv[0661]{name} |  |
+| :usv[0662]{char} | 0662 | :usv[0662]{name} |  |
+| :usv[0663]{char} | 0663 | :usv[0663]{name} |  |
+| :usv[0664]{char} | 0664 | :usv[0664]{name} |  |
+| :usv[0665]{char} | 0665 | :usv[0665]{name} |  |
+| :usv[0666]{char} | 0666 | :usv[0666]{name} |  |
+| :usv[0667]{char} | 0667 | :usv[0667]{name} |  |
+| :usv[0668]{char} | 0668 | :usv[0668]{name} |  |
+| :usv[0669]{char} | 0669 | :usv[0669]{name} |  |
+| :usv[066A]{char} | 066A | :usv[066A]{name} |  |
+| :usv[066B]{char} | 066B | :usv[066B]{name} |  |
+| :usv[066C]{char} | 066C | :usv[066C]{name} |  |
+| :usv[066D]{char} | 066D | :usv[066D]{name} |  |
+| :usv[0670]{char} | 0670 | :usv[0670]{name} |  |
+| :usv[0672]{char} | 0672 | :usv[0672]{name} |  |
+| :usv[0673]{char} | 0673 | :usv[0673]{name} |  |
+| :usv[0674]{char} | 0674 | :usv[0674]{name} |  |
+| :usv[0675]{char} | 0675 | :usv[0675]{name} |  |
+| :usv[0679]{char} | 0679 | :usv[0679]{name} |  |
+| :usv[067A]{char} | 067A | :usv[067A]{name} |  |
+| :usv[067B]{char} | 067B | :usv[067B]{name} |  |
+| :usv[067C]{char} | 067C | :usv[067C]{name} |  |
+| :usv[067D]{char} | 067D | :usv[067D]{name} |  |
+| :usv[067E]{char} | 067E | :usv[067E]{name} |  |
+| :usv[0681]{char} | 0681 | :usv[0681]{name} |  |
+| :usv[0683]{char} | 0683 | :usv[0683]{name} |  |
+| :usv[0684]{char} | 0684 | :usv[0684]{name} |  |
+| :usv[0685]{char} | 0685 | :usv[0685]{name} |  |
+| :usv[0686]{char} | 0686 | :usv[0686]{name} |  |
+| :usv[0687]{char} | 0687 | :usv[0687]{name} |  |
+| :usv[0688]{char} | 0688 | :usv[0688]{name} |  |
+| :usv[0689]{char} | 0689 | :usv[0689]{name} |  |
+| :usv[068A]{char} | 068A | :usv[068A]{name} |  |
+| :usv[068B]{char} | 068B | :usv[068B]{name} |  |
+| :usv[0690]{char} | 0690 | :usv[0690]{name} |  |
+| :usv[0691]{char} | 0691 | :usv[0691]{name} |  |
+| :usv[0693]{char} | 0693 | :usv[0693]{name} |  |
+| :usv[0696]{char} | 0696 | :usv[0696]{name} |  |
+| :usv[0697]{char} | 0697 | :usv[0697]{name} |  |
+| :usv[0698]{char} | 0698 | :usv[0698]{name} |  |
+| :usv[0699]{char} | 0699 | :usv[0699]{name} |  |
+| :usv[069A]{char} | 069A | :usv[069A]{name} |  |
+| :usv[06A9]{char} | 06A9 | :usv[06A9]{name} |  |
+| :usv[06AB]{char} | 06AB | :usv[06AB]{name} |  |
+| :usv[06AF]{char} | 06AF | :usv[06AF]{name} |  |
+| :usv[06B1]{char} | 06B1 | :usv[06B1]{name} |  |
+| :usv[06B3]{char} | 06B3 | :usv[06B3]{name} |  |
+| :usv[06B5]{char} | 06B5 | :usv[06B5]{name} |  |
+| :usv[06B9]{char} | 06B9 | :usv[06B9]{name} |  |
+| :usv[06BA]{char} | 06BA | :usv[06BA]{name} |  |
+| :usv[06BB]{char} | 06BB | :usv[06BB]{name} |  |
+| :usv[06BC]{char} | 06BC | :usv[06BC]{name} |  |
+| :usv[06BE]{char} | 06BE | :usv[06BE]{name} |  |
+| :usv[06C0]{char} | 06C0 | :usv[06C0]{name} |  |
+| :usv[06C1]{char} | 06C1 | :usv[06C1]{name} |  |
+| :usv[06C2]{char} | 06C2 | :usv[06C2]{name} |  |
+| :usv[06C3]{char} | 06C3 | :usv[06C3]{name} |  |
+| :usv[06C4]{char} | 06C4 | :usv[06C4]{name} |  |
+| :usv[06C5]{char} | 06C5 | :usv[06C5]{name} |  |
+| :usv[06C6]{char} | 06C6 | :usv[06C6]{name} |  |
+| :usv[06C7]{char} | 06C7 | :usv[06C7]{name} |  |
+| :usv[06CC]{char} | 06CC | :usv[06CC]{name} |  |
+| :usv[06CD]{char} | 06CD | :usv[06CD]{name} |  |
+| :usv[06CE]{char} | 06CE | :usv[06CE]{name} |  |
+| :usv[06D0]{char} | 06D0 | :usv[06D0]{name} |  |
+| :usv[06D2]{char} | 06D2 | :usv[06D2]{name} |  |
+| :usv[06D3]{char} | 06D3 | :usv[06D3]{name} |  |
+| :usv[06D4]{char} | 06D4 | :usv[06D4]{name} |  |
+| :usv[06DC]{char} | 06DC | :usv[06DC]{name} |  |
+| :usv[06DD]{char} | 06DD | :usv[06DD]{name} | There is a glyph variant for this character (see [Glyph Variants for U+06DD](https://scriptsource.org/entry/dhy9sz67vj)) |
+| :usv[06EA]{char} | 06EA | :usv[06EA]{name} |  |
+| :usv[06F0]{char} | 06F0 | :usv[06F0]{name} |  |
+| :usv[06F1]{char} | 06F1 | :usv[06F1]{name} |  |
+| :usv[06F2]{char} | 06F2 | :usv[06F2]{name} |  |
+| :usv[06F3]{char} | 06F3 | :usv[06F3]{name} |  |
+| :usv[06F4]{char} | 06F4 | :usv[06F4]{name} | There is a glyph variant for this character which is used in Urdu (see [Glyph Variant for U+06F4](https://scriptsource.org/entry/qrjyr8u42f)) |
+| :usv[06F5]{char} | 06F5 | :usv[06F5]{name} |  |
+| :usv[06F6]{char} | 06F6 | :usv[06F6]{name} | There is a glyph variant for this character which is used in Urdu (see [Glyph Variant for U+06F6](https://scriptsource.org/entry/d9axc6tdxy)) |
+| :usv[06F7]{char} | 06F7 | :usv[06F7]{name} | There is a glyph variant for this character which is used in Urdu (see [Glyph Variant for U+06F7](https://scriptsource.org/entry/hpxhu92xry)) |
+| :usv[06F8]{char} | 06F8 | :usv[06F8]{name} |  |
+| :usv[06F9]{char} | 06F9 | :usv[06F9]{name} |  |
+| :usv[0759]{char} | 0759 | :usv[0759]{name} |  |
+| :usv[075C]{char} | 075C | :usv[075C]{name} |  |
+| :usv[0768]{char} | 0768 | :usv[0768]{name} |  |
+| :usv[0769]{char} | 0769 | :usv[0769]{name} |  |
+| :usv[076A]{char} | 076A | :usv[076A]{name} |  |
+| :usv[076B]{char} | 076B | :usv[076B]{name} |  |
+| :usv[076C]{char} | 076C | :usv[076C]{name} |  |
+| :usv[076D]{char} | 076D | :usv[076D]{name} |  |
+| :usv[076E]{char} | 076E | :usv[076E]{name} |  |
+| :usv[076F]{char} | 076F | :usv[076F]{name} |  |
+| :usv[0770]{char} | 0770 | :usv[0770]{name} |  |
+| :usv[0771]{char} | 0771 | :usv[0771]{name} |  |
+| :usv[08FF]{char} | 08FF | :usv[08FF]{name} |  |
+| :usv[FD3E]{char} | FD3E | :usv[FD3E]{name} |  |
+| :usv[FD3F]{char} | FD3F | :usv[FD3F]{name} |  |
+| :usv[FDF2]{char} | FDF2 | :usv[FDF2]{name} |  |
+
+## Codepage 1252 and Mac-Roman merger
+
+We believe that any Nastaliq font should include a core set of Roman characters for mixed script use as well as for common punctuation requirements in Arabic script text. The characters in the two lists below are our recommendation for a basic set of characters. The combined lists include the union of Windows CP1252 and Mac-Roman.
+
+### Characters often used in Arabic script
+
+These are characters often required in regular Arabic text (not necessarily mixed script). Because these are normally used in Arabic text, these characters should be designed to match the design style of the Arabic script characters listed above.
+
+
+
+| Graphic | USV | Name | Comment |
+| ------- | --- | ---- | ------- |
+| :usv[0020]{char}  | 0020  | :usv[0020]{name}  |  |
+| :usv[0021]{char}  | 0021  | :usv[0021]{name}  |  |
+| :usv[0022]{char}  | 0022  | :usv[0022]{name}  |  |
+| :usv[0026]{char}  | 0026  | :usv[0026]{name}  |  |
+| :usv[0027]{char}  | 0027  | :usv[0027]{name}  |  |
+| :usv[0028]{char}  | 0028  | :usv[0028]{name}  |  |
+| :usv[0029]{char}  | 0029  | :usv[0029]{name}  |  |
+| :usv[002B]{char}  | 002B  | :usv[002B]{name}  |  |
+| :usv[002C]{char}  | 002C  | :usv[002C]{name}  |  |
+| :usv[002D]{char}  | 002D  | :usv[002D]{name}  |  |
+| :usv[002E]{char}  | 002E  | :usv[002E]{name}  |  |
+| :usv[002F]{char}  | 002F  | :usv[002F]{name}  |  |
+| :usv[0030]{char}  | 0030  | :usv[0030]{name}  |  |
+| :usv[0031]{char}  | 0031  | :usv[0031]{name}  |  |
+| :usv[0032]{char}  | 0032  | :usv[0032]{name}  |  |
+| :usv[0033]{char}  | 0033  | :usv[0033]{name}  |  |
+| :usv[0034]{char}  | 0034  | :usv[0034]{name}  |  |
+| :usv[0035]{char}  | 0035  | :usv[0035]{name}  |  |
+| :usv[0036]{char}  | 0036  | :usv[0036]{name}  |  |
+| :usv[0037]{char}  | 0037  | :usv[0037]{name}  |  |
+| :usv[0038]{char}  | 0038  | :usv[0038]{name}  |  |
+| :usv[0039]{char}  | 0039  | :usv[0039]{name}  |  |
+| :usv[003A]{char}  | 003A  | :usv[003A]{name}  |  |
+| :usv[003B]{char}  | 003B  | :usv[003B]{name}  |  |
+| :usv[003C]{char}  | 003C  | :usv[003C]{name}  |  |
+| :usv[003D]{char}  | 003D  | :usv[003D]{name}  |  |
+| :usv[003E]{char}  | 003E  | :usv[003E]{name}  |  |
+| :usv[003F]{char}  | 003F  | :usv[003F]{name}  |  |
+| :usv[0040]{char}  | 0040  | :usv[0040]{name}  |  |
+| :usv[005B]{char}  | 005B  | :usv[005B]{name}  |  |
+| :usv[005C]{char}  | 005C  | :usv[005C]{name}  |  |
+| :usv[005D]{char}  | 005D  | :usv[005D]{name}  |  |
+| :usv[007B]{char}  | 007B  | :usv[007B]{name}  |  |
+| :usv[007C]{char}  | 007C  | :usv[007C]{name}  |  |
+| :usv[007D]{char}  | 007D  | :usv[007D]{name}  |  |
+| :usv[00AB]{char}  | 00AB  | :usv[00AB]{name}  |  |
+| :usv[00BB]{char}  | 00BB  | :usv[00BB]{name}  |  |
+| :usv[00D7]{char}  | 00D7  | :usv[00D7]{name}  |  |
+| :usv[00F7]{char}  | 00F7  | :usv[00F7]{name}  |  |
+| :usv[2000]{char}  | 2000 | :usv[2000]{name} |  |
+| :usv[2001]{char}  | 2001 | :usv[2001]{name} |  |
+| :usv[2002]{char}  | 2002 | :usv[2002]{name} |  |
+| :usv[2003]{char}  | 2003 | :usv[2003]{name} |  |
+| :usv[2004]{char}  | 2004 | :usv[2004]{name} |  |
+| :usv[2005]{char}  | 2005 | :usv[2005]{name} |  |
+| :usv[2006]{char}  | 2006 | :usv[2006]{name} |  |
+| :usv[2007]{char}  | 2007 | :usv[2007]{name} |  |
+| :usv[2008]{char}  | 2008 | :usv[2008]{name} |  |
+| :usv[2009]{char}  | 2009 | :usv[2009]{name} |  |
+| :usv[200A]{char}  | 200A | :usv[200A]{name} |  |
+| :usv[200B]{char}  | 200B | :usv[200B]{name} |  |
+| :usv[200C]{char}  | 200C  | :usv[200C]{name}  |  |
+| :usv[200D]{char}  | 200D  | :usv[200D]{name}  |  |
+| :usv[200F]{char}  | 200F  | :usv[200F]{name}  |  |
+| :usv[2018]{char}  | 2018  | :usv[2018]{name}  |  |
+| :usv[2019]{char}  | 2019  | :usv[2019]{name}  |  |
+| :usv[201C]{char}  | 201C  | :usv[201C]{name}  |  |
+| :usv[201D]{char}  | 201D  | :usv[201D]{name}  |  |
+| :usv[2027]{char}  | 2027 | :usv[2027]{name} |  |
+| :usv[2028]{char}  | 2028 | :usv[2028]{name} |  |
+| :usv[2029]{char}  | 2029 | :usv[2029]{name} |  |
+| :usv[202A]{char}  | 202A | :usv[202A]{name} |  |
+| :usv[202B]{char}  | 202B | :usv[202B]{name} |  |
+| :usv[202C]{char}  | 202C | :usv[202C]{name} |  |
+| :usv[202D]{char}  | 202D | :usv[202D]{name} |  |
+| :usv[202E]{char}  | 202E | :usv[202E]{name} |  |
+| :usv[202F]{char}  | 202F | :usv[202F]{name} |  |
+| :usv[2039]{char}  | 2039  | :usv[2039]{name}  |  |
+| :usv[203A]{char}  | 203A  | :usv[203A]{name}  |  |
+| :usv[2060]{char}  | 2060 | :usv[2060]{name} |  |
+| :usv[2066]{char}  | 2066 | :usv[2066]{name} |  |
+| :usv[2067]{char}  | 2067 | :usv[2067]{name} |  |
+| :usv[2068]{char}  | 2068 | :usv[2068]{name} |  |
+| :usv[2069]{char}  | 2069 | :usv[2069]{name} |  |
+| :usv[206C]{char}  | 206C | :usv[206C]{name} |  |
+| :usv[206D]{char}  | 206D | :usv[206D]{name} |  |
+| :usv[2212]{char}  | 2212 | :usv[2212]{name} |  |
+| :usv[2219]{char}  | 2219 | :usv[2219]{name} |  |
+| :usv[25CC]{char}  | 25CC  | :usv[25CC]{name}  |  |
+
+### Other characters 
+
+These are other characters from Codepage 1252 and/or Mac-Roman used in mixed script (Latin and Nastaliq) text and publishing.
+
+
+
+| Graphic | USV | Name | Comment |
+| ------- | --- | ---- | ------- |
+| :usv[0023]{char}  | 0023  | :usv[0023]{name}  |  |
+| :usv[0024]{char}  | 0024  | :usv[0024]{name}  |  |
+| :usv[0025]{char}  | 0025  | :usv[0025]{name}  |  |
+| :usv[002A]{char}  | 002A  | :usv[002A]{name}  |  |
+| :usv[0041]{char}  | 0041  | :usv[0041]{name}  |  |
+| :usv[0042]{char}  | 0042  | :usv[0042]{name}  |  |
+| :usv[0043]{char}  | 0043  | :usv[0043]{name}  |  |
+| :usv[0044]{char}  | 0044  | :usv[0044]{name}  |  |
+| :usv[0045]{char}  | 0045  | :usv[0045]{name}  |  |
+| :usv[0046]{char}  | 0046  | :usv[0046]{name}  |  |
+| :usv[0047]{char}  | 0047  | :usv[0047]{name}  |  |
+| :usv[0048]{char}  | 0048  | :usv[0048]{name}  |  |
+| :usv[0049]{char}  | 0049  | :usv[0049]{name}  |  |
+| :usv[004A]{char}  | 004A  | :usv[004A]{name}  |  |
+| :usv[004B]{char}  | 004B  | :usv[004B]{name}  |  |
+| :usv[004C]{char}  | 004C  | :usv[004C]{name}  |  |
+| :usv[004D]{char}  | 004D  | :usv[004D]{name}  |  |
+| :usv[004E]{char}  | 004E  | :usv[004E]{name}  |  |
+| :usv[004F]{char}  | 004F  | :usv[004F]{name}  |  |
+| :usv[0050]{char}  | 0050  | :usv[0050]{name}  |  |
+| :usv[0051]{char}  | 0051  | :usv[0051]{name}  |  |
+| :usv[0052]{char}  | 0052  | :usv[0052]{name}  |  |
+| :usv[0053]{char}  | 0053  | :usv[0053]{name}  |  |
+| :usv[0054]{char}  | 0054  | :usv[0054]{name}  |  |
+| :usv[0055]{char}  | 0055  | :usv[0055]{name}  |  |
+| :usv[0056]{char}  | 0056  | :usv[0056]{name}  |  |
+| :usv[0057]{char}  | 0057  | :usv[0057]{name}  |  |
+| :usv[0058]{char}  | 0058  | :usv[0058]{name}  |  |
+| :usv[0059]{char}  | 0059  | :usv[0059]{name}  |  |
+| :usv[005A]{char}  | 005A  | :usv[005A]{name}  |  |
+| :usv[005E]{char}  | 005E  | :usv[005E]{name}  |  |
+| :usv[005F]{char}  | 005F  | :usv[005F]{name}  |  |
+| :usv[0060]{char}  | 0060  | :usv[0060]{name}  |  |
+| :usv[0061]{char}  | 0061  | :usv[0061]{name}  |  |
+| :usv[0062]{char}  | 0062  | :usv[0062]{name}  |  |
+| :usv[0063]{char}  | 0063  | :usv[0063]{name}  |  |
+| :usv[0064]{char}  | 0064  | :usv[0064]{name}  |  |
+| :usv[0065]{char}  | 0065  | :usv[0065]{name}  |  |
+| :usv[0066]{char}  | 0066  | :usv[0066]{name}  |  |
+| :usv[0067]{char}  | 0067  | :usv[0067]{name}  |  |
+| :usv[0068]{char}  | 0068  | :usv[0068]{name}  |  |
+| :usv[0069]{char}  | 0069  | :usv[0069]{name}  |  |
+| :usv[006A]{char}  | 006A  | :usv[006A]{name}  |  |
+| :usv[006B]{char}  | 006B  | :usv[006B]{name}  |  |
+| :usv[006C]{char}  | 006C  | :usv[006C]{name}  |  |
+| :usv[006D]{char}  | 006D  | :usv[006D]{name}  |  |
+| :usv[006E]{char}  | 006E  | :usv[006E]{name}  |  |
+| :usv[006F]{char}  | 006F  | :usv[006F]{name}  |  |
+| :usv[0070]{char}  | 0070  | :usv[0070]{name}  |  |
+| :usv[0071]{char}  | 0071  | :usv[0071]{name}  |  |
+| :usv[0072]{char}  | 0072  | :usv[0072]{name}  |  |
+| :usv[0073]{char}  | 0073  | :usv[0073]{name}  |  |
+| :usv[0074]{char}  | 0074  | :usv[0074]{name}  |  |
+| :usv[0075]{char}  | 0075  | :usv[0075]{name}  |  |
+| :usv[0076]{char}  | 0076  | :usv[0076]{name}  |  |
+| :usv[0077]{char}  | 0077  | :usv[0077]{name}  |  |
+| :usv[0078]{char}  | 0078  | :usv[0078]{name}  |  |
+| :usv[0079]{char}  | 0079  | :usv[0079]{name}  |  |
+| :usv[007A]{char}  | 007A  | :usv[007A]{name}  |  |
+| :usv[007E]{char}  | 007E  | :usv[007E]{name}  |  |
+| :usv[00A0]{char}  | 00A0  | :usv[00A0]{name}  |  |
+| :usv[00A1]{char}  | 00A1  | :usv[00A1]{name}  |  |
+| :usv[00A2]{char}  | 00A2  | :usv[00A2]{name}  |  |
+| :usv[00A3]{char}  | 00A3  | :usv[00A3]{name}  |  |
+| :usv[00A4]{char}  | 00A4  | :usv[00A4]{name}  |  |
+| :usv[00A5]{char}  | 00A5  | :usv[00A5]{name}  |  |
+| :usv[00A6]{char}  | 00A6  | :usv[00A6]{name}  |  |
+| :usv[00A7]{char}  | 00A7  | :usv[00A7]{name}  |  |
+| :usv[00A8]{char}  | 00A8  | :usv[00A8]{name}  |  |
+| :usv[00A9]{char}  | 00A9  | :usv[00A9]{name}  |  |
+| :usv[00AA]{char}  | 00AA  | :usv[00AA]{name}  |  |
+| :usv[00AC]{char}  | 00AC  | :usv[00AC]{name}  |  |
+| :usv[00AD]{char}  | 00AD  | :usv[00AD]{name}  |  |
+| :usv[00AE]{char}  | 00AE  | :usv[00AE]{name}  |  |
+| :usv[00AF]{char}  | 00AF  | :usv[00AF]{name}  |  |
+| :usv[00B0]{char}  | 00B0  | :usv[00B0]{name}  |  |
+| :usv[00B1]{char}  | 00B1  | :usv[00B1]{name}  |  |
+| :usv[00B2]{char}  | 00B2  | :usv[00B2]{name}  |  |
+| :usv[00B3]{char}  | 00B3  | :usv[00B3]{name}  |  |
+| :usv[00B4]{char}  | 00B4  | :usv[00B4]{name}  |  |
+| :usv[00B5]{char}  | 00B5  | :usv[00B5]{name}  |  |
+| :usv[00B6]{char}  | 00B6  | :usv[00B6]{name}  |  |
+| :usv[00B7]{char}  | 00B7  | :usv[00B7]{name}  |  |
+| :usv[00B8]{char}  | 00B8  | :usv[00B8]{name}  |  |
+| :usv[00B9]{char}  | 00B9  | :usv[00B9]{name}  |  |
+| :usv[00BA]{char}  | 00BA  | :usv[00BA]{name}  |  |
+| :usv[00BC]{char}  | 00BC  | :usv[00BC]{name}  |  |
+| :usv[00BD]{char}  | 00BD  | :usv[00BD]{name}  |  |
+| :usv[00BE]{char}  | 00BE  | :usv[00BE]{name}  |  |
+| :usv[00BF]{char}  | 00BF  | :usv[00BF]{name}  |  |
+| :usv[00C0]{char}  | 00C0  | :usv[00C0]{name}  |  |
+| :usv[00C1]{char}  | 00C1  | :usv[00C1]{name}  |  |
+| :usv[00C2]{char}  | 00C2  | :usv[00C2]{name}  |  |
+| :usv[00C3]{char}  | 00C3  | :usv[00C3]{name}  |  |
+| :usv[00C4]{char}  | 00C4  | :usv[00C4]{name}  |  |
+| :usv[00C5]{char}  | 00C5  | :usv[00C5]{name}  |  |
+| :usv[00C6]{char}  | 00C6  | :usv[00C6]{name}  |  |
+| :usv[00C7]{char}  | 00C7  | :usv[00C7]{name}  |  |
+| :usv[00C8]{char}  | 00C8  | :usv[00C8]{name}  |  |
+| :usv[00C9]{char}  | 00C9  | :usv[00C9]{name}  |  |
+| :usv[00CA]{char}  | 00CA  | :usv[00CA]{name}  |  |
+| :usv[00CB]{char}  | 00CB  | :usv[00CB]{name}  |  |
+| :usv[00CC]{char}  | 00CC  | :usv[00CC]{name}  |  |
+| :usv[00CD]{char}  | 00CD  | :usv[00CD]{name}  |  |
+| :usv[00CE]{char}  | 00CE  | :usv[00CE]{name}  |  |
+| :usv[00CF]{char}  | 00CF  | :usv[00CF]{name}  |  |
+| :usv[00D0]{char}  | 00D0  | :usv[00D0]{name}  |  |
+| :usv[00D1]{char}  | 00D1  | :usv[00D1]{name}  |  |
+| :usv[00D2]{char}  | 00D2  | :usv[00D2]{name}  |  |
+| :usv[00D3]{char}  | 00D3  | :usv[00D3]{name}  |  |
+| :usv[00D4]{char}  | 00D4  | :usv[00D4]{name}  |  |
+| :usv[00D5]{char}  | 00D5  | :usv[00D5]{name}  |  |
+| :usv[00D6]{char}  | 00D6  | :usv[00D6]{name}  |  |
+| :usv[00D8]{char}  | 00D8  | :usv[00D8]{name}  |  |
+| :usv[00D9]{char}  | 00D9  | :usv[00D9]{name}  |  |
+| :usv[00DA]{char}  | 00DA  | :usv[00DA]{name}  |  |
+| :usv[00DB]{char}  | 00DB  | :usv[00DB]{name}  |  |
+| :usv[00DC]{char}  | 00DC  | :usv[00DC]{name}  |  |
+| :usv[00DD]{char}  | 00DD  | :usv[00DD]{name}  |  |
+| :usv[00DE]{char}  | 00DE  | :usv[00DE]{name}  |  |
+| :usv[00DF]{char}  | 00DF  | :usv[00DF]{name}  |  |
+| :usv[00E0]{char}  | 00E0  | :usv[00E0]{name}  |  |
+| :usv[00E1]{char}  | 00E1  | :usv[00E1]{name}  |  |
+| :usv[00E2]{char}  | 00E2  | :usv[00E2]{name}  |  |
+| :usv[00E3]{char}  | 00E3  | :usv[00E3]{name}  |  |
+| :usv[00E4]{char}  | 00E4  | :usv[00E4]{name}  |  |
+| :usv[00E5]{char}  | 00E5  | :usv[00E5]{name}  |  |
+| :usv[00E6]{char}  | 00E6  | :usv[00E6]{name}  |  |
+| :usv[00E7]{char}  | 00E7  | :usv[00E7]{name}  |  |
+| :usv[00E8]{char}  | 00E8  | :usv[00E8]{name}  |  |
+| :usv[00E9]{char}  | 00E9  | :usv[00E9]{name}  |  |
+| :usv[00EA]{char}  | 00EA  | :usv[00EA]{name}  |  |
+| :usv[00EB]{char}  | 00EB  | :usv[00EB]{name}  |  |
+| :usv[00EC]{char}  | 00EC  | :usv[00EC]{name}  |  |
+| :usv[00ED]{char}  | 00ED  | :usv[00ED]{name}  |  |
+| :usv[00EE]{char}  | 00EE  | :usv[00EE]{name}  |  |
+| :usv[00EF]{char}  | 00EF  | :usv[00EF]{name}  |  |
+| :usv[00F0]{char}  | 00F0  | :usv[00F0]{name}  |  |
+| :usv[00F1]{char}  | 00F1  | :usv[00F1]{name}  |  |
+| :usv[00F2]{char}  | 00F2  | :usv[00F2]{name}  |  |
+| :usv[00F3]{char}  | 00F3  | :usv[00F3]{name}  |  |
+| :usv[00F4]{char}  | 00F4  | :usv[00F4]{name}  |  |
+| :usv[00F5]{char}  | 00F5  | :usv[00F5]{name}  |  |
+| :usv[00F6]{char}  | 00F6  | :usv[00F6]{name}  |  |
+| :usv[00F8]{char}  | 00F8  | :usv[00F8]{name}  |  |
+| :usv[00F9]{char}  | 00F9  | :usv[00F9]{name}  |  |
+| :usv[00FA]{char}  | 00FA  | :usv[00FA]{name}  |  |
+| :usv[00FB]{char}  | 00FB  | :usv[00FB]{name}  |  |
+| :usv[00FC]{char}  | 00FC  | :usv[00FC]{name}  |  |
+| :usv[00FD]{char}  | 00FD  | :usv[00FD]{name}  |  |
+| :usv[00FE]{char}  | 00FE  | :usv[00FE]{name}  |  |
+| :usv[00FF]{char}  | 00FF  | :usv[00FF]{name}  |  |
+| :usv[0131]{char}  | 0131  | :usv[0131]{name}  |  |
+| :usv[0152]{char}  | 0152  | :usv[0152]{name}  |  |
+| :usv[0153]{char}  | 0153  | :usv[0153]{name}  |  |
+| :usv[0160]{char}  | 0160  | :usv[0160]{name}  |  |
+| :usv[0161]{char}  | 0161  | :usv[0161]{name}  |  |
+| :usv[0178]{char}  | 0178  | :usv[0178]{name}  |  |
+| :usv[017D]{char}  | 017D  | :usv[017D]{name}  |  |
+| :usv[017E]{char}  | 017E  | :usv[017E]{name}  |  |
+| :usv[0192]{char}  | 0192  | :usv[0192]{name}  |  |
+| :usv[02C6]{char}  | 02C6  | :usv[02C6]{name}  |  |
+| :usv[02C7]{char}  | 02C7  | :usv[02C7]{name}  |  |
+| :usv[02C9]{char}  | 02C9  | :usv[02C9]{name}  |  |
+| :usv[02D0]{char}  | 02D0  | :usv[02D0]{name}  |  |
+| :usv[02D8]{char}  | 02D8  | :usv[02D8]{name}  |  |
+| :usv[02D9]{char}  | 02D9  | :usv[02D9]{name}  |  |
+| :usv[02DA]{char}  | 02DA  | :usv[02DA]{name}  |  |
+| :usv[02DB]{char}  | 02DB  | :usv[02DB]{name}  |  |
+| :usv[02DC]{char}  | 02DC  | :usv[02DC]{name}  |  |
+| :usv[200E]{char}  | 200E  | :usv[200E]{name}  |  |
+| :usv[2010]{char}  | 2010  | :usv[2010]{name}  |  |
+| :usv[2011]{char}  | 2011  | :usv[2011]{name}  |  |
+| :usv[2012]{char}  | 2012  | :usv[2012]{name}  |  |
+| :usv[2013]{char}  | 2013  | :usv[2013]{name}  |  |
+| :usv[2014]{char}  | 2014  | :usv[2014]{name}  |  |
+| :usv[2015]{char}  | 2015  | :usv[2015]{name}  |  |
+| :usv[201A]{char}  | 201A  | :usv[201A]{name}  |  |
+| :usv[201E]{char}  | 201E  | :usv[201E]{name}  |  |
+| :usv[2020]{char}  | 2020  | :usv[2020]{name}  |  |
+| :usv[2021]{char}  | 2021  | :usv[2021]{name}  |  |
+| :usv[2022]{char}  | 2022  | :usv[2022]{name}  |  |
+| :usv[2026]{char}  | 2026  | :usv[2026]{name}  |  |
+| :usv[2030]{char}  | 2030  | :usv[2030]{name}  |  |
+| :usv[2044]{char}  | 2044  | :usv[2044]{name}  |  |
+| :usv[2074]{char}  | 2074  | :usv[2074]{name}  |  |
+| :usv[20AC]{char}  | 20AC  | :usv[20AC]{name}  |  |
+| :usv[2122]{char}  | 2122  | :usv[2122]{name}  |  |
+| :usv[FEFF]{char}  | FEFF  | :usv[FEFF]{name}  |  |
+| :usv[FFFC]{char}  | FFFC  | :usv[FFFC]{name}  |  |
+| :usv[FFFD]{char}  | FFFD | :usv[FFFD]{name} |  |
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>
+
+[nastaliq]: https://en.wikipedia.org/wiki/Nastaliq
