@@ -1,0 +1,108 @@
+---
+title: Everyday Unicode
+tags: [encoding]
+lastUpdated: 2026-05-13
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+On the ScriptSource site you have probably seen a lot of Unicode information. Some may wonder about the emphasis on Unicode or even what Unicode is.
+
+In answer to the question "What Is Unicode?", the [Unicode website says][what-is-unicode]: 
+
+> _Unicode provides a unique number for every character,<br />
+no matter what the platform,<br />
+no matter what the program,<br />
+no matter what the language._
+
+Joel Lee, former Director Non-Roman Script Initiative, SIL International says:
+
+> “Unicode is a global standard whose ambitious goal is to uniquely encode every character of every language in the world. It is needed for all forms of print and digital communication as the world moves increasingly toward becoming a global, information-driven society. These are historic times in the Information Age; decisions made today will likely impact the way the world interchanges information for centuries to come. It is especially important that minority language groups and their writing systems are carefully researched to determine exactly what should be included in Unicode. Without a good way to encode these writing systems in Unicode, these minority language groups—some numbering in the millions of people—cannot fully participate in the digital information society that most of the world takes for granted.”
+
+### What’s in a document?
+
+You may be able to read a lot of information on the computer in a language you know. What you may not realize is that that information is stored in the computer as a sequence of numbers that represent characters. The text you are reading is stored as numbers. Your document “knows” _nothing whatsoever_ about the shape of any character it contains.
+
+#### Viewing the text in a document
+
+So how does the computer know what character shape (glyph) to display for each code point? That’s what fonts are for.
+
+A computer font decodes those numbers and displays them in a way for you to read the text. You do not even need to know what is going on in the background.
+
+#### Code speak
+
+Let's look at the example phrase "Hello World!" and see how it is stored in the computer:
+
+| H | e | l | l | o |   | W | o | r | l | d | ! |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0048 | 0065 | 006C | 006C | 006F | 0020 | 0057 | 006F | 0072 | 006C | 0064 | 0021 |
+
+It’s a coded message. This example is using the Unicode encoding. In the past there were many other encodings in use. Some were standardized (such as ASCII and ANSI), others were not. The only way to know what a number represented was if you held the code (a font that supported those numbers). 
+
+#### Encodings for minority languages
+
+For many minority languages, _none_ of the standard encodings had all of the characters needed for that language. Suppose a linguist wanted to use an eng (:usv[014B]{char}) in an orthography. What if this character was not available in any standard encoding at the time? The only solution was to modify an existing font and put the eng in some slot that had a character we didn’t need (such as Ñ). This might be called a "hacked" font or a "custom-encoded" font. When we hack a font like this we are, in effect, defining a new encoding. 
+
+#### Hacked fonts (custom-encoded)
+
+Custom encodings can cause problems. To understand why, we must realize that…
+
+#### Characters are more than just shapes
+
+They have various properties: 
+
+- Sort order: a, b, c, … …, z
+- Letters form words, limiting where lines break.
+- Capitalization: a → A, b → B, c → C, … …, z → Z
+
+
+Here’s why it matters: software “knows” about these properties, _but only for standard encodings supported by the system._
+
+#### Unexpected Behavior
+
+Hacking a font changes the glyph associated with a given code point. But it does _not_ change the assumptions made by software about the properties of the original character.
+
+Example: In a standard encoding, capitalization would give us ñ -&gt; Ñ
+
+So, in our custom encoding, :usv[014B]{char} became Ñ. Oops. Fortunately, this one was easy to fix (hack it again!)
+
+But, you can see that we had a problem. There were many other issues similar to this, and much worse!
+
+#### Tower of Babel (again)
+
+Besides incorrect behavior, other problems arise. If you want to send someone a copy of a document, you have to make sure they have any hacked font(s) used to create it. This gets messy, especially if there are different versions of the hacked fonts used. (Do you suppose this has ever happened?) Also, if a document gets separated from the hacked font used to create it, some data may be lost. Why? Because, without the font, there is no “decoder”.
+
+When archiving data and documents, it is vitally important to use a standardized, well-documented encoding with readily available fonts...
+
+#### Unicode
+
+In the late 1980’s efforts were begun to develop a single, standardized encoding.
+
+- One codepoint per character (not glyph)
+- Ŋ and :usv[014A]{char} are the same character (and codepoint), different glyphs
+- Initially planned to allow about 65,000 characters.
+- Later modified to allow over one million.
+- Currently, over 110,000 characters are covered by Unicode.
+- Intended to cover the needs of all writing systems
+
+
+#### Benefits of using Unicode
+
+- Only one encoding to support
+- Interchangeable data
+- Solves the “special character” problem once and for all
+- Many of our writing systems are now supported in commercial software
+
+
+As long as we know a document is using Unicode, the computer can now display the correct characters, and we can be confident that we are seeing what was intended to be displayed.
+
+Unfortunately, there are still some writing systems that are not yet supported in Unicode or in commercial software. However, the number of unsupported writing systems is minimal compared to ten years ago.
+
+There are many other layers of what is happening with text. I haven't discussed Unicode fonts, smart fonts, how to keyboard your text, etc. but hopefully this gives a good introduction to some of the complexities of problems that Unicode attempts to solve.
+
+This site provides a lot of Unicode information under **Encoding & Unicode**. In addition, on the individual script pages there is Unicode information specific to that script.
+
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>
+
+[what-is-unicode]: https://www.unicode.org/standard/WhatIsUnicode.html
