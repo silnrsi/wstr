@@ -1,0 +1,30 @@
+---
+title: Options for Representing Glottal Stops in Orthographies
+tags: [char-02bc, char-2019, char-0027, char-a78b, char-a78c, char-0241, char-0242, char-02be, char-0294, orthography]
+lastUpdated: 2026-05-13
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+People frequently ask what character to use to represent a glottal stop in orthographies. There are a lot of different things that people have done in the past. 
+
+If you want something that looks like a curly quote you should use :usv[02BC]{usv char name}. You _could_ use :usv[2019]{usv char name}, but there are at least two issues with that. It is considered punctuation with different properties than an orthographic character _and_ if you use quote marks there is nothing to distinguish between the two characters. (SIL's Roman fonts (such as [Andika][andika], [Charis][charis], and [Gentium][gentium]) all have an alternate glyph for :usv[02BC]{usv char name} which is a bit larger than normal to help distinguish the glyph from :usv[2019]{usv char name}.)
+
+Many orthographies have used something that looks like the straight quote. There were so many problems with using :usv[0027]{usv char name} for this character that [SIL][sil] requested the addition of a character to Unicode for that. You should use :usv[A78C]{usv char name} (one language even "cases" this and :usv[A78B]{usv} is used for the uppercase). (SIL's Roman fonts (such as [Andika][andika], [Charis][charis], and [Gentium][gentium]) all have alternate glyphs for :usv[A78C]{usv char name} and :usv[A78B]{usv char name} which are a bit larger than normal to help distinguish the glyph from :usv[0027]{usv char name}.)
+
+:usv[02BE]{usv char name} is sometimes used for transliterating Arabic hamza (glottal stop). This looks different from both :usv[A78C]{usv char name} and :usv[02BC]{usv char name} and might be a good option for traditions which recognize the transliterated hamza.
+
+Some Saskatchewan orthographies use an upper and lowercase glottal stop. Those are :usv[0241]{usv char name} and :usv[0242]{usv char name}.
+
+Of course, the IPA representation is :usv[0294]{usv char name} and some languages also use this in their orthographies (where casing is not required).
+
+There are some issues with using each of these. Most fonts will contain :usv[0027]{usv char name} and :usv[2019]{usv char name}. However, as mentioned above, they carry punctuation properties rather than letter properties. There are fewer fonts which have the other characters. As fonts are updated they are more and more likely to contain these other characters.
+
+An alternative approach is to use a letter of the English alphabet that is not used in the standard orthography. For example, at least one language has chosen to use the letter &lt;q&gt; to represent glottal stop.
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>
+
+[charis]: https://software.sil.org/charis/
+[andika]: https://software.sil.org/andika/
+[gentium]: https://software.sil.org/gentium/
+[sil]: https://www.sil.org
