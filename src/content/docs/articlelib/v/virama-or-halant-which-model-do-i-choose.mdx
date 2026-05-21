@@ -1,0 +1,19 @@
+---
+title: Virama or Halant, which model do I choose?
+tags: [script-deva, script-mymr, char-094d, char-1039, encoding]
+lastUpdated: 2026-05-13
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+In comparing the encoding of a script like Myanmar with Devanagari, one immediately notices that there is somewhat of a difference in encoding models. Devanagari follows what I will call the _halant_ model. In this the _halant_ is used to mark that the inherent vowel associated with a consonant is not to sound. (That is, the inherent vowel is killed.) 
+
+Myanmar, on the other hand, follows what I will call the _virama_ model. Myanmar uses a _virama_ to kill the inherent vowel of a consonant. On the surface one would expect that, since both scripts are marking an identical linguistic process, they should use the same encoding model. To understand how and why the models are different, we need to examine them in some more detail.
+
+In the _halant_ model, whether a conjunct is formed is a matter of convention and free variation. If a conjunct isn't created where one might be expected, the text might look slightly odd, but it can't be considered to be wrongly spelled. Thus the question of when two consonants with a _halant_ between should be conjoined is left up to the font. Yes, there are codes to inhibit conjunction in certain situations, but these codes (:usv[200D]{usv char name} and :usv[200C]{usv char name}) are not considered part of spelling. The question as to their usefulness is one for a different posting.
+
+In the _virama_ model, there are two characters that have the function of killing a consonant's inherent vowel. In Devanagari terms, one corresponds to a forced visible _halant_ and the other to a forced conjunct-forming character. Why are there these two? The reason is that in scripts that use the _virama_ model, whether the killer is visible or conjoining (rendered by stacking the second consonant under the first) is not a free, stylistic question, but is part of spelling. If you conjoin when you should use a visible killer then you have spelt the word wrongly. Likewise the other way around.
+
+Those designing encodings, therefore, have to decide whether the script they are encoding conjoins consonants for stylistic reasons or whether making a conjunct in contrast to marking a visible killer is a question of spelling. If it is free and stylistic, then the _halant_ model is probably the best way to go; if it is not free, but is part of the spelling, then the virama model is best.
+
+<CaptionText text='This article, written by Martin Hosken, formerly appeared on ScriptSource.'/>

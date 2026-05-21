@@ -1,0 +1,118 @@
+---
+title: Devanagari Transliteration
+tags: [script-deva, lang-san, lang-hin, transliteration]
+lastUpdated: 2026-05-13
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+There are several methods of transliteration from Devanagari into Roman scripts.
+
+A standard transliteration convention was codified in the ISO 15919 standard of 2001. It uses diacritics to map the much larger set of Brahmic graphemes to the Latin script. The Devanagari-specific portion is nearly identical to the academic standard for Sanskrit, IAST. More information about this standard is available from [Wikipedia][res-15919]. Copies of the standard can be obtained from the Central Secretariat, ISO, Case postale 56, 1211 Geneva 20, Switzerland, or purchased from the [ISO website][iso].
+
+The International Alphabet of Sanskrit Transliteration (IAST) is the academic standard for the romanization of Sanskrit. IAST is the de-facto standard used in printed publications, such as books and magazines; with the wider availability of Unicode fonts, it is also increasingly used for electronic texts. It is based on a standard established by the Congress of Orientalists at Athens in 1912. A [Devanagari to Latin transliterator][deva-latn] is available, based on the IAST standard.
+
+ITRANS is a lossless transliteration scheme from Devanagari into ASCII which is widely used in electronic texts. It is an extension of the Harvard-Kyoto scheme, which was set up by Harvard University and the University of Kyoto for the purpose of transliterating Sanskrit into ASCII. ITRANS is associated with an application of the same name that enables typesetting in Indic scripts. The user inputs in Roman letters and the ITRANS pre-processor displays the Roman letters into Devanagari. ITRANS is online at [Online Interface to Itrans][itrans].
+
+The National Library at Kolkata (NLK) romanization, intended for the romanization of all Indic scripts, is an extension of IAST.
+
+The Huntarian system is the one officially used by the Government of India. The original system has undergone evolution over time, and some diacritics have not been accepted by all users of the system. Not using the diacritics means that long versus short vowels, and dental versus retroflex consonants, are not differentiated in the transliteration. More information about the Hunterian system is available from [Wikipedia][hunterian].
+
+This table compares some of the different Romanization systems currently in use.  Please note that the table does not currently include additional Devanagari characters used for Kashmiri, Marathi, or Sanskrit.
+
+### Consonants:
+
+| Devanagari | ISO 15919 | IAST* | ITRANS* | Harvard-Kyoto* | NLK | Huntarian |
+| ---------- | --------- | ----- | ------- | -------------- | --- | --------- |
+| :usv[0915]{char} | ka | K k | k | k | ka | ka |
+| :usv[0916]{char} | kha | Kh kh | kh | kh | kha | kha |
+| :usv[0917]{char} | ga | G g | g | g | ga | ga |
+| :usv[0918]{char} | gha | Gh gh | gh | gh | gha | gha |
+| :usv[0919]{char} | ṅa | Ṅ ṅ | ~N/N^ | G | ṅa | nga |
+| :usv[091A]{char} | ca | C c | ch | c | ca | cha |
+| :usv[091B]{char} | cha | Ch ch | Ch | ch | cha | chha |
+| :usv[091C]{char} | ja | J j | j | j | ja | ja |
+| :usv[091D]{char} | jha | Jh jh | jh | jh | jh | jha |
+| :usv[091E]{char} | ña | Ñ ñ | ~n / JN | J | ña | na |
+| :usv[091F]{char} | ṭa | Ṭ ṭ  | T | T | ṭa | ta |
+| :usv[0920]{char} | ṭha | Ṭh ṭh | Th | Th | ṭha | tha |
+| :usv[0921]{char} | ḍa | Ḍ ḍ | D | D | ḍa | da |
+| :usv[0922]{char} | ḍha | Ḍh ḍh | Dh | Dh | ḍha | dha |
+| :usv[0923]{char} | ṇa | Ṇ ṇ | N | N | ṇa | na |
+| :usv[0924]{char} | ta | T t | t | t | ta | ta |
+| :usv[0925]{char} | tha | Th th | th | th | tha | tha |
+| :usv[0926]{char} | da | D d | d | d | da | da |
+| :usv[0927]{char} | dha | Dh dh | dh | dh | dha | dha |
+| :usv[0928]{char} | na | N n | n | n | na | na |
+| :usv[092A]{char} | pa | P p | p | p | pa | pa |
+| :usv[092B]{char} | pha | Ph ph | ph | ph | pha | pha |
+| :usv[092C]{char} | ba | B b | b | b | ba | ba |
+| :usv[092D]{char} | bha | Bh bh | bh | bh | bha | bha |
+| :usv[092E]{char} | ma | M m | m | m | ma | ma |
+| :usv[092F]{char} | ya | Y y | y | y | ya | ya |
+| :usv[0930]{char} | ra | R r | r | r | ra | ra |
+| :usv[0932]{char} | la | L l | L | l | la | la |
+| :usv[0933]{char} | ḷa |   |   |   |   |   |
+| :usv[0935]{char} | va | V v | v/w | v | va | wa/va |
+| :usv[0936]{char} | śa | Ś ś | sh | z | śa | sha/sa** |
+| :usv[0937]{char} | ṣa | Ṣ ṣ | Sh | S | ṣa | sha |
+| :usv[0938]{char} | sa | S s | s | s | sa | sa |
+| :usv[0939]{char} | ha | H h | h | h | ha | ha |
+| :usv[0958]{char} | qa |   | q |   |   | qa |
+| :usv[0959]{char} | k̲h̲a |   |     Kh |   |   | kha |
+| :usv[095A]{char} | ġa |   | G |   |   | gha |
+| :usv[095B]{char} | za |   | z / J |   |   |   |
+| :usv[095C]{char} | ṛa |   | .D |   |   |   |
+| :usv[095D]{char} | ṛha |   | .Dh |  |   |   |
+| :usv[095E]{char} | fa |   | f |   |   |   |
+
+### Vowels:
+
+| Devanagari | ISO 15919 | IAST* | ITRANS* | Harvard-Kyoto | NLK | Huntarian |
+| ---------- | --------- | ----- | ------- | ------------- | --- | --------- |
+| :usv[0905]{char} | a | A a | a | a | a | a |
+| :usv[0906]{char} / :usv[093E]{char} | ā | Ā ā | A/aa | A | ā | a/ā |
+| :usv[0907]{char} / :usv[093F]{char} | i | I i | i | i | i | i |
+| :usv[0908]{char} / :usv[0940]{char} | ī | Ī ī | I/ii | I | ī | i/ī |
+| :usv[0909]{char} / :usv[0941]{char} | u | U u | u | u | u | u |
+| :usv[090A]{char} / :usv[0942]{char} | ū | Ū ū | U / uu | U | ū | ū |
+| :usv[090F]{char} / :usv[0947]{char} | ē | E e | e | e | ē | e |
+| :usv[0910]{char} / :usv[0948]{char} | ai | Ai ai | ai | ai | ai | ai |
+| :usv[0913]{char} / :usv[094B]{char} | ō | O o | o | o | ō | o |
+| :usv[0914]{char} / :usv[094C]{char} | au | Au au | au | au | au | au |
+| :usv[090B]{char} / :usv[0943]{char} | r̥ |   | Rri/Ri | R |   | ri/ṛĭ |
+| :usv[090C]{char} / :usv[0962]{char} | ḷ |   |   | lR | LLi / Li |   |
+| :usv[0960]{char} / :usv[0944]{char} | r̥̄ |   |   | RR | RRI / RI | ri/ṟĭ |
+| :usv[0961]{char} / :usv[0963]{char} | ḹ |   | LLI / LI | lRR |   |   |
+
+### Conjuncts:
+
+| Devanagari | ISO 15919 | IAST* | ITRANS* | Harvard-Kyoto | NLK | Huntarian |
+| ---------- | --------- | ----- | ------- | ------------- | --- | --------- |
+| :usv[0915]{char}:usv[094D]{char}:usv[0937]{char} | kṣa |   | x/ksh |   |   | ksha/kṣha |
+| :usv[0924]{char}:usv[094D]{char}:usv[0930]{char} | tra |  | tra |   |   | tra |
+| :usv[091C]{char}:usv[094D]{char}:usv[091E]{char} | jña |   | GY/j~n |   |   | gya / jña (Sanskrit) |
+| :usv[0937]{char}:usv[094D]{char}:usv[0930]{char} | śra |   | shr |   |   | shra |
+
+### Non-Alphabetic Symbols:
+
+| Devanagari | ISO 15919 | IAST* | ITRANS* | Harvard-Kyoto | NLK | Huntarian |
+| ---------- | --------- | ----- | ------- | ------------- | --- | --------- |
+| :usv[095F]{char} | ẏa |   |   |   |   |   |
+| :usv[0902]{char} | ṁ | Ṃ ṃ | .n/M/.m | M |   | h/ḥ |
+| :usv[0903]{char} | ḥ | Ḥ ḥ | H | H |   |   |
+| :usv[0901]{char} | mँ |   | .N |   |   | m / n / ṃ / ṅ |
+| halant |   |   | .h |   |   |   |
+| om symbol |   |   | OM / AUM |   |   |   |
+
+`*` IAST, ITRANS and Harvard-Kyoto do not represent the implicit ‘a’ by default. This must be included explicitly if required.
+
+`**` Both _sha_ and _sa_ are used by Nepali speakers.
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>
+
+[res-15919]: https://en.wikipedia.org/wiki/ISO_15919
+[iso]: https://www.iso.org/standard/28333.html
+[deva-latn]: https://github.com/Vyshantha/devanagaritransliterate
+[hunterian]: https://en.wikipedia.org/wiki/Hunterian_transliteration
+[itrans]: https://www.aczoom.com/itrans/online/
