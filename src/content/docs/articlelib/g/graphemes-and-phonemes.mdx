@@ -1,0 +1,24 @@
+---
+title: Graphemes and phonemes
+tags: [writing systems]
+lastUpdated: 2026-05-13
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+We've recently added a new feature to ScriptSource that provides the ability to document the graphemes that are used by a writing system and what phonemes they correspond to. In other words, to answer the question: what letters are used to represent what sounds in which languages?
+
+First let's define a few terms:
+
+A <a href='/reference/glossary#grapheme'>**grapheme**</a> is a unit of writing in a given language. Now to be honest, people do have different definitions of the term grapheme. The way we use the term in ScriptSource is to refer to a character, or combination of characters, that represent a sound, and so a grapheme differs from a basic letter of the alphabet. You can think of a grapheme as a symbol  that you need to learn in order to be able to read. In English, for instance, there are 26 letters of the alphabet, each of which is a grapheme. But we also consider various combinations to be graphemes. For instance, the sequence "sh", representing the sound /ʃ/ as in 'shell', is a grapheme. A grapheme that consists of more than one character is called a **multigraph**.
+
+The term <a href='/reference/glossary#phon'>**phoneme**</a> is well defined among linguists. It represents a distinctive sound as perceived by speakers of a language. Using English as an example again, there are subtle differences in how we pronounce the sound /t/, depending on what other sounds occur around it, or where it falls within a word. But each of those subtly different sounds is considered to be a "t sound"; in fact, native speakers are generally unaware of the differences. And so /t/ is a single phoneme (where the subtly different pronunciations are called **allophones** of the phoneme /t/).
+
+Also note that every language has a different set of phonemes, depending on how native speakers perceive the sounds in the language. In English, the initial sounds in the words 'yam' and 'jam' correspond to different phonemes - /j/ and /dʒ/. In Spanish, however, they are both allophones of the same phoneme (at least in some dialects!).
+
+Phonemes are identified by symbols from the International Phonetic Alphabet (IPA). The [The International Phonetic Alphabet and the Latin script](/articlelib/t/the-international-phonetic-alphabet-and-latin-script/) page is a good introductory article on IPA.
+
+By convention, graphemes are written surrounded by angle brackets, and phonemes by slashes. So we would say that the grapheme ‹sh› represents the phoneme /ʃ/ in English.
+
+
+<CaptionText text='This article, written by Sharon Correll, formerly appeared on ScriptSource.'/>
