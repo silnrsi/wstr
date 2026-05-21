@@ -321,7 +321,7 @@ Term | Definition
 <a id='surfenc'></a>surface encoding|see <a href='#presformenc'>presentation form encoding</a>.
 <a id='surrogate'></a>surrogate pair|a mechanism in the <a href='#utf16'>UTF-16</a> encoding form of <a href='#unicode'>Unicode</a> in which two 16-bit code unites from the range 0xD800 to 0xDFFF are used to encode Unicode <a href='#supplement'>supplementary plane</a> characters, i.e. with Unicode scalar values in the range U+10000 to U+10FFFF.
 <a id='syllabary'></a>syllabary|a form of writing in which the symbols represent syllables--most commonly a vowel-and-consonant combination. A syllabary differs from an <a href='#abugida'>abugida</a> in that there are no distinct elements of the symbols to correspond to the syllable's phonemes.
-<a id='syllo'></a>syllograph|part of a <a href='#syllabary'>syllabary</a>, a character which represents a syllable. The term is used almost exclusively to refer to a character from the [Ethiopic](https://scriptsource.org/scr/Ethi) script, though this tendency does not preclude its use in other contexts.
+<a id='syllo'></a>syllograph|part of a <a href='#syllabary'>syllabary</a>, a character which represents a syllable. The term is used almost exclusively to refer to a character from the [Ethiopic](/scrlang/scripts/arab) script, though this tendency does not preclude its use in other contexts.
 <a id='symbolfont'></a>symbol-encoded font|a font used either for non-orthographic collections of shapes (such as Wingdings) or for legacy orthographies (e.g., SIL Ezra, SIL Galatia, SIL IPA) created prior to availability of Unicode-based solutions. Symbol-encoded fonts encode characters in the <a href='#pua'>Private Use Area</a>, typically U+F020 .. U+F0FF.
 
 ## <a id="T"></a>T
