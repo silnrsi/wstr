@@ -1,0 +1,141 @@
+---
+title: IPA transcription with SIL fonts
+tags: [script-latn, transcription, phonetics]
+lastUpdated: 2026-05-13
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+### Introduction
+
+SIL Global has produced several font sets over the years that allow for the transcription of linguistic data using the International Phonetic Alphabet. These fonts are:
+
+- Unicode-encoded fonts
+  - [Charis][font-charis]
+  - [Doulos SIL][font-doulos] (this font is no longer being maintained)
+  - [Gentium][font-gentium]
+  - [Andika][font-andika]
+
+- Legacy fonts
+  - [SIL IPA93 2.0][encore-ipa]
+  - [SIL IPA 1.2][encore-ipa]
+
+
+In general, SIL recommends the use of the Unicode-encoded fonts. The older, “legacy” fonts were designed to work with text in a custom 8-bit encoding, not a recognized character encoding standard, and required changing fonts when switching between normal text and IPA transcription. With Unicode-encoded fonts, the user can produce both normal text and IPA transcription with a single font. In addition, Unicode provides cross-platform compatibility. There were built-in incompatibilities between Windows and Mac versions of the legacy fonts, whereas Unicode has been adopted as a standard for Windows, Mac, and Linux systems. Using Unicode fonts:
+
+- Facilitates sharing your data files and archiving your data for future generations.
+- Allows compatibility with updated computer operating systems and SIL software.
+
+
+Having said that, there are certain special cases that may warrant the use of the legacy fonts:
+
+- You are using a legacy application which does not support the use of Unicode or does not support smart-font capabilities for proper placement of diacritics.
+- You want to produce a near-publication quality document with Doulos, but need the bold, italic, and bold-italic typefaces.
+- You want to produce a near-publication quality document with Sophia or
+Manuscript.
+- It is possible that some Universities and Journals continue to require the use of SIL IPA93 fonts. Until that policy is changed you may need to use the [SIL IPA93 fonts][encore-ipa].
+
+
+
+
+Below, we provide a brief discussion of the issues related to the use of each of the above-mentioned fonts. The best option for publication-quality typesetting is Charis.
+
+### Font Home Pages
+
+#### Unicode-encoded Fonts
+
+[Charis Home Page][font-charis] — Charis is a Unicode-encoded serif font. Besides having a comprehensive inventory of glyphs needed for almost any Roman- or Cyrillic-based writing system, it also contains the entire inventory of the International Phonetic Alphabet. It has built-in “smart-font” capabilities, so diacritics are properly placed. It contains all four typefaces (regular, bold, italic, and bold-italic). This is the font that SIL recommends using for publication-quality typesetting. SIL plans to continue developing Charis in the future.
+
+[Doulos SIL Home Page][font-doulos] — Doulos SIL is a Unicode-encoded serif font similar to Times New Roman. Besides having a comprehensive inventory of glyphs needed for almost any Roman- or Cyrillic-based writing system, it also contains the entire inventory of the International Phonetic Alphabet. It has built-in “smart-font” capabilities, so diacritics are properly placed. It only contains the regular typeface; bold, italic, and bold-italic are not available. SIL has no plans for further development of Doulos SIL.
+
+[Gentium Home Page][font-gentium] — Gentium is a Unicode-encoded font designed by SIL member Victor Gaultney. Gentium and Gentium Book each include regular, bold, italic, and bold-italic typefaces. Besides containing all the character and “smart-font” capabilities in Doulos SIL and Charis, it also supports both ancient and modern Greek. SIL plans to continue developing Gentium in the future.
+
+[Andika Home Page][font-andika] — Andika is a sans serif, Unicode-compliant font designed especially for literacy use, taking into account the needs of beginning readers. Besides having a comprehensive inventory of glyphs needed for almost any Roman- or Cyrillic-based writing system, it also contains the entire inventory of the International Phonetic Alphabet. Andika includes regular, bold, italic and bold-italic typefaces. 
+
+#### Legacy Fonts
+
+[SIL IPA93 2.0 Home Page][encore-ipa] — SIL IPA93 (sometimes referred to as the SIL IPA Encore fonts) encodes the version of the International Phonetic Alphabet adopted in 1993 (and revised slightly in 1996). The font set includes three type faces: Doulos (similar to Times New Roman), Sophia (similar to Univers), and Manuscript (monospace). These fonts include regular, bold, italic, and bold-italic typefaces, allowing for near-publication quality typesetting. SIL has _not_ produced a Unicode-encoded version of Sophia or Manuscript (but see “Doulos SIL” above). There are no plans for further development of the SIL IPA93 font set.
+
+[SIL IPA 1.2 Home Page][encore-ipa] — SIL IPA encodes the version of the International Phonetic Alphabet adopted at the 1989 Kiel convention. The font set includes three type faces: Doulos (similar to Times New Roman), Sophia (similar to Univers), and Manuscript (monospace). These fonts do _not_ include bold, italic, or bold-italic typefaces. In addition, this version of the IPA has been superceded by a revision done in 1993. SIL no longer recommends the use of this font set. There are no plans for further development of the SIL IPA font set.
+
+[Asked Questions][ipa93-faq] about the SIL IPA and SIL IPA93 (legacy) fonts
+
+
+
+:::tip[Important]
+The SIL Encore IPA and SIL IPA93 fonts are obsolete, symbol-encoded fonts. Their use is discouraged. If you decide to download and use these fonts, please note there is _no user support for these fonts._
+:::
+
+
+### Other IPA Resources 
+
+#### IPA Unicode codepoints
+
+The [official IPA site][ipa-home] does not currently give us the Unicode codepoints for the official IPA (although the newer versions of “The IPA Handbook” do have the Unicode codepoints listed in the back). There are several places you can check for this information. Try
+
+- [IPA Symbol Equivalents (on ScriptSource)][ipa-symbol-equiv]
+- [Phonetic Symbol Guide](/articlelib/p/phonetic-symbol-guide/)
+- [The International Phonetic Alphabet in Unicode][ipa-not-official]
+- [International Phonetic Alphabet Chart][ipa-chart]
+
+Another resource for answering this kind of question (and maybe avoiding having to figure it out yourself!) is the [SIL IPA93 conversion map][map-sil-ipa-1993] or the [IPA (SIL) Unicode Keyboard][kbd-ipa].
+
+#### IPA Unicode Keyboards
+
+[IPA (SIL) Keyman Keyboard][kbd-ipa] - This popular Keyman keyboard was created for typing in IPA data. In addition, the keyboard works on mobile devices.
+
+Keyman works on Windows, macOS, and Linux. Thus, we no longer support our previous keyboards which worked with older versions of Keyman, MSKLC, KMFL, FreeKey, and Ukelele. If you still wish to access the older versions of our IPA keyboards they are still available here: [IPA Unicode Keyboards][kbd-ipa-old].
+
+#### IPA Character Picker Utility
+
+[Unicode character pickers][r12a-picker] — Pickers allow you to quickly create phrases in a script by clicking on Unicode characters arranged in a way that aids their identification. The phrase appears at the bottom of the screen and you can easily cut and paste the result into your own document. Pickers are likely to be most useful if you don't know a script well enough to use the native keyboard. The arrangement of characters also makes it much more useable than a regular character map utility.
+
+#### Conversion to Unicode
+
+[SIL Converters][silconverters] is a tool that aids in converting data from legacy encodings to Unicode. It works in conjunction with [TECkit][teckit] mapping files. With SIL Converters and one of the following mapping files, documents using the old IPA fonts can be converted to Unicode.
+
+##### SIL IPA93
+
+A mapping file for converting SIL IPA (1993) data to Unicode is available from the [SIL IPA 93][map-sil-ipa-1993] page.
+
+##### SIL IPA (1990)
+
+A mapping file for converting SIL IPA (1990) data to Unicode is available from the [SIL IPA 1990][map-sil-ipa-1990] page.
+
+##### Amer Phon SILDoulos font
+
+A mapping file for converting Amer Phon SILDoulos data to Unicode is available from the [Amer Phon Mapping Files page][map-ipa-amer-phon].
+
+##### IPA-SAM phonetic fonts
+
+A mapping file for converting IPA-SAM phonetic data to Unicode is available from the [IPA-SAM phonetic fonts][map-ipa-sam] page.
+
+#### Tone in Unicode
+
+The document [Marking Tone][tone] gives an overview of most of the ways you can mark tone in Unicode.
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>
+
+[encore-ipa]: https://scripts.sil.org/cms/scripts/page.php?item_id=encore-ipa
+[font-andika]: https://software.sil.org/andika
+[font-charis]: https://software.sil.org/charis
+[font-gentium]: https://software.sil.org/gentium
+[font-doulos]: https://software.sil.org/doulos
+[ipa-chart]: https://linguiste.jmsf.org
+[ipa-home]: https://www.internationalphoneticassociation.org/
+[ipa-not-official]: https://www.internationalphoneticalphabet.org/ipa-charts/ipa-symbols-with-unicode-decimal-and-hex-codes/
+[ipa-symbol-equiv]: https://scriptsource.org/entry/wlbaybzb9e
+[ipa93-faq]: https://scripts.sil.org/FontFAQ_IPA93
+[kbd-ipa-old]: https://scripts.sil.org/UniIPAKeyboard
+[kbd-ipa]: https://keyman.com/keyboards/sil_ipa
+[map-ipa-amer-phon]: https://github.com/silnrsi/wsresources/tree/master/scripts/Latn/legacy/sil-amer-phon/mappings
+[map-ipa-sam]: https://github.com/silnrsi/wsresources/tree/master/scripts/Latn/legacy/ipa-sampa/mappings
+[map-sil-ipa-1990]: https://github.com/silnrsi/wsresources/tree/master/scripts/Latn/legacy/sil-ipa-1990/mappings
+[map-sil-ipa-1993]: https://github.com/silnrsi/wsresources/tree/master/scripts/Latn/legacy/sil-ipa-1993/mappings
+[r12a-picker]: https://r12a.github.io/pickers/ipa/index.html
+[silconverters]: https://software.sil.org/silconverters/
+[silpua]: https://github.com/silnrsi/silpua/
+[teckit]: https://software.sil.org/teckit/
+[tone]: https://scriptsource.org/entry/j4qda7gusc
+
+
