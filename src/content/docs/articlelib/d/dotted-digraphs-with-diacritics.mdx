@@ -1,0 +1,19 @@
+---
+title: Dotted digraphs with diacritics
+tags: [script-latn, char-0133, char-01c8, char-01c9, char-01cb, char-01cc]
+lastUpdated: 2026-05-06
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+When an "i" or "j" have a combining mark placed above the character the dot is removed. However, the following characters do not follow this model.
+
+Unicode specifies that, unlike i or j, etc., these characters do not lose their dots:
+
+- :usv[0133]{usv char name}
+- :usv[01C8]{usv char name}
+- :usv[01C9]{usv char name}
+- :usv[01CB]{usv char name}
+- :usv[01CC]{usv char name}
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>

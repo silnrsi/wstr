@@ -1,0 +1,19 @@
+---
+title: Combining overlays
+tags: [char-0141, char-0142, char-0334, char-0335, char-0336, char-0337, char-0338, encoding]
+lastUpdated: 2026-05-06
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+Sometimes people get confused about whether to use precomposed or decomposed characters that are in Unicode. 
+
+We can look at whether to use a "combining overlay" character plus the base character or whether to use a precomposed character. For example, Unicode has :usv[0141]{usv char name}. Is it more appropriate to use :usv[0141]{char} or to use :usv[004C]{usv char name} + :usv[0338]{usv char name}?
+
+A simple rule-of-thumb to go by is that if a character has diacritics (either above or below the character), it can be decomposed. If the character has an “overlay” (superimposed on the character) then the preformed (not precomposed) character should be used. 
+
+An easy way to find Unicode characters is to look at: [Unicode Latin and Cyrillic characters – sorted](https://scripts.sil.org/Unicode40_sorted). This document is sorted alphabetically. However, it does not show character properties and decompositions, so if you find you need that information you will need to go to the Unicode book or the [Unicode website](http://www.unicode.org/charts) to find that information. You can find charts of all the Unicode characters at this site, but another chart that is particularly useful is the chart for [Combining Diacritical Marks](http://www.unicode.org/charts/PDF/U0300.pdf).
+
+In the example we are using (:usv[0141]{usv name char}) you will find that there is no decomposition listed for this character and so you should _not_ use “L” + “/” (:usv[004C]{usv name} + :usv[0338]{usv name}). This also means that we should not be using the term “precomposed” for this character, rather, it is “preformed”.
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>

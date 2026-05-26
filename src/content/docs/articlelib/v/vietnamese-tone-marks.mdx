@@ -1,0 +1,20 @@
+---
+title: Vietnamese tone marks
+tags: [script-latn, char-0340, char-0341, char-0300, char-0301, lang-vie]
+lastUpdated: 2026-05-06
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+These two characters were apparently originally added for Vietnamese use. However, they are now discouraged from use:
+
+- :usv[0340]{usv} :usv[0300]{char} :usv[0340]{name}
+- :usv[0341]{usv} :usv[0301]{char} :usv[0341]{name}
+
+
+Instead, you should use:
+
+- :usv[0300]{usv char name}
+- :usv[0301]{usv char name}
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>

@@ -213,6 +213,7 @@ def generate_articles(path, inFname, inFnameContents):
 
 # end of generate_articles()
 
+
 if __name__ == "__main__":
 
 	generate_articles("../data/", "entries-handfixed.csv", "entries-contents.csv")
