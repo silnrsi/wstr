@@ -1,6 +1,15 @@
-import _samples from '../../data/google-fonts-samples.json'
+import { useEffect, useState } from 'react'
+import { createUnifont, providers, type FontFaceData, type RemoteFontSource } from 'unifont'
+import type { LangTag } from 'mui-language-picker'
+import rawSamples from '../../data/google-fonts-samples.json'
+import silflo from '../../plugins/sil-flo.mts'
 
-const samples: Record<string, string | null> = _samples
+const samples: Record<string, string | null> = rawSamples
+
+const unifont = await createUnifont([
+    silflo(),
+    providers.google()
+])
 
 type FontType = "ttf" | "woff" | "woff2"
 
@@ -19,8 +28,9 @@ interface File {
 type Defaults = Record<FontType, string>;
 type Files = Record<string,File> 
 export interface Props {
-    lang?: string,
+    tag: LangTag,
     family: string,
+    familyid: string,
     license?: string,
     files?: Files,
     defaults?: Defaults,
@@ -49,15 +59,29 @@ const sourceIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
 </svg>
 
 function Sample(props: Props) {
-    const {lang, defaults={} as Defaults, family, files={}, features} = props
-    const flourl = files[defaults?.woff2 ?? defaults?.ttf]?.flourl
+    const { tag, family } = props
+    const lang = tag.full;
+    const [ font, setFont ] = useState<FontFaceData>();
 
-    if (flourl)
+    useEffect(() => { 
+        async function getFonts(family: string) {
+            const { fonts } = await unifont.resolveFont(family, {
+                formats: ['woff2', 'woff','ttf'] ,
+                styles: ['normal'],
+                subsets: ['any']
+            })
+            setFont(fonts[0])
+        }
+
+        getFonts(family);
+    }, [])
+    
+    if (font)
     {
-        const css_features = features ? features.split(/\s+/).map(f => f.replace(/^(\w+)=(\d+)$/, '"$1" $2')).join(',') : "normal"
+        const css_features = font.featureSettings ? font.featureSettings.split(/\s+/).map(f => f.replace(/^(\w+)=(\d+)$/, '"$1" $2')).join(',') : "normal"
         const fontFamily = `@font-face {
             font-family: '${family}';
-            src: url('${flourl}');
+            src: url('${(font.src[0] as RemoteFontSource).url}');
             font-feature-settings: ${css_features};
         }`
         const key = lang?.split('-',2).join('-');

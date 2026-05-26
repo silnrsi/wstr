@@ -98,7 +98,7 @@ function ApiBrowser() {
         <ol className='lff-families'>
           {data.defaultfamily.map((id: string) => {
             const rec = data.families[id]
-            return <li key={id}><Family lang={tag?.full} {...rec}/></li>
+            return <li key={id}><Family tag={tag} {...rec}/></li>
           })}
         </ol>
         <details>
