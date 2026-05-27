@@ -1,0 +1,56 @@
+---
+title: Dataset - UCD UnicodeData.txt
+lastUpdated: 2026-05-28
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+:::note
+This is a guidance document for authors, primarily the Writing Systems Technology (WSTech) team.
+:::
+
+## File location(s)
+
+`src/data/UnicodeData.txt`
+
+## Data format and model
+
+This is a UTF8 encoded text file semi-colon separated vaues for each record with one record per line.  See the Unicode Consortium UAX #44 document for detailed information on data model used for [`UnicodeData.txt`][unicode-data-txt]
+
+[unicode-data-txt]: https://www.unicode.org/reports/tr44/#UnicodeData.txt
+
+## Source and licensing
+
+The data was downloaded directly from the latest edition published on the Unicode Consortium's [public download site][ucd-download].
+See the [History](#history) section for the date of retrieval. This data is distributed and used under the [Unicode License v3][unicode-terms-of-use].
+
+[license]: https://www.unicode.org/license.txt
+[ucd-download]: https://www.unicode.org/Public/UCD/latest/
+
+## Uses
+
+The data is read by low-level `coredata` routines and is ultimately used by mechanisms that can display characters by USV, glyph, and name - `<Character />`, `:usv[]`, `:char[]`, etc. as well as the `<CharacterTable />` component.
+
+## History
+|||
+|---|---|
+|2026-05-27| Downloaded from [Unicode 17.0.0 UCD][unicode-data-txt-v17]. |
+
+[unicode-data-txt-v17]: https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt
+## Maintenance processes
+
+This dataset should be updated whenever there is a new major, or significant release of the Unicode Standard.
+
+[unicode-data-txt-latest]: https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
+
+<Steps>
+
+1. Download a copy of the `UnicodeData.txt` file from the [stable latest url][unicode-data-txt-latest]
+
+2. Replace `src/data/UnicodeData.txt` with the new copy.
+
+3. Confirm that the [Character components](/devteam/component-reference#character-component) render correctly.
+
+4. Commit to a new branch, and issue a pull request. Using a branch is especially important if this update needs to be co-ordinated with other datasets, Unicode update procedures, or anouncements.
+
+</Steps>
