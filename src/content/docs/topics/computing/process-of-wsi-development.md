@@ -1,0 +1,135 @@
+---
+title: The Process of WSI Development
+description: Writing system implementations do not just appear, they are developed
+sidebar:
+    order: 2300
+lastUpdated: 2026-05-29
+draft: true
+---
+
+Writing system implementations (WSI) do not just appear, they are developed. They can, however, seem to take shape in haphazard ways, without strong focus and direction. This is due to the diverse nature of WSI components. The people who design fonts are not always the same people who understand keyboard development.
+
+Despite this diverse nature, it is possible to initiate, coordinate and complete a WSI development program. It requires a basic understanding of WSI components and their relationships to one another &mdash; which were addressed in [Writing Systems Computing Model](/topics/computing/ws-computing-model/). In addition, it needs a clear knowledge of the process of WSI development. This holds true for both the development of individual components as well as a complete integrated system. This section describes the WSI development process, and in doing so, recommends a basic procedure for planning such projects. 
+
+## Determine needs
+
+The first step in addressing writing system computing needs is to _determine the needs_. A focused approach based on problem solving can help to limit a development project, give it reasonable objectives and a means for evaluation. Many such approaches are available, and the process can be rather informal, such as making a list of needs, or can be formalized using systems such as [Logical Framework Analysis][logical-framework].
+
+### What do users need to do?
+
+This step begins with an effort to _concretely identify what users need to do_. This could be writing down their cultural history, publishing a community newspaper, setting up a Web site on health education, or communicating through email. This may seem obvious, but is often neglected, and is a major cause of failure in WSI development projects.
+
+### What components are needed?
+
+This information will help _determine what software applications and WSI components are needed_. This can start with an evaluation of applications suitable for the tasks related to what users need to accomplish (see above). In the case of a community newspaper, the community might look at a number of word processors and desktop publishing applications and decide which application best meets their need. Once that is decided, they can review what WSI components are available for that application, and determine what additional pieces need to be developed.
+
+It would be nice if this process always worked in this way. In reality, the choice of application is usually determined by what WSI components exist, and which application supports those components. For example, in India, a particular word processing application might be chosen solely because it supports a particular writing system, such as Gujarati.
+
+An extended example of this step may be helpful. The Tai Dam people of Southeast Asia have a writing system that is beautiful, but has numerous accents that must be carefully aligned with each letter. To publish a dictionary of their language would require:
+
+- A database program that can manage the large amounts of data required.
+- A word processor or desktop publishing package that can import information from the database program, and supports paragraph and character styles. This is needed for proper formatting.
+- A standard encoding scheme for their data that works in both applications.
+- A keyboarding component that, at a minimum, works in the database.
+- A font that works in both applications and is complete and accurate.
+- A rendering system that can position the accents properly. This may be optional for the database, but is required for the final layout.
+- A set of sorting routines, most likely built into the database, that respects the commonly understood order of letters in the alphabet.
+- A set of encoding conversion routines if there is already data in another encoding that the community wishes to integrate into the database.
+
+All but the first two items on this list would be considered WSI components. 
+
+### What information is needed?
+
+At this point it becomes important to _gather relevant linguistic and technical information_. A language community might have a very complete understanding of their writing system, but WSI development requires that information to be documented. Since computers behave in objective, analytical ways, the linguistic information needs to be similarly objective and analytical. This is so important that it is the first Key to Success listed in [Keys to Success](/topics/computing/keys-to-success/).
+
+Technical information, sometimes unrelated to the writing system may also be needed. For example, a word processor under consideration may support a variety of rendering methods. Details on each of those methods, and what sort of rendering behaviors they support, is important.
+
+The ultimate purpose in gathering information is to provide the developers &mdash; those who will create WSI components &mdash; the information they need. Details need to be communicated clearly and unambiguously so that developers know exactly how components ought to behave. A cooperative dialogue between experts on the given writing system and developers will likely be needed in the information-gathering process. 
+
+### What model of distribution is appropriate?
+
+Early in the planning process, it is wise to _think through how WSI components ought to be distributed_. The model of distribution for a community-wide email project would need to be more broad and less costly for the individual, whereas a dictionary project completed by a team of two people only needs two copies of each component, and would likely have a source of special funding. This issue is increasingly relevant as intellectual property (IP) concerns gain more visibility around the world. For a detailed analysis of the difficulties and issues related to WSIs and IP, see the companion document: [“Intellectual Property Concerns in the Development of Complex Script and Language Resources”][ip-empty].
+
+## Identify and apply development resources
+
+The second step in WSI planning is to _identify and apply appropriate development resources_. This refers to the companies, organizations and individuals that contribute to the project, whether that be in the form of specific deliverable components or consultant expertise in an area. It also refers to the non-personnel needs: funding, materials, equipment, etc., although that is not discussed in detail here.
+
+Coordinated planning of WSIs does not imply that components should come only from one source. In fact, there are great benefits from distributed development. Components can be developed by whoever has the expertise. Projects that involve volunteers and charitable organizations can limit their involvement to what can be reasonably expected. The need for communication between parties motivates everyone to document their work.
+
+The key to matching up WSI needs with resources is to identify who has the skills to complete each task, then consider what would motivate their involvement. For example, an independent, volunteer font designer might be willing to design a font, but not have the time or expertise to add smart rendering capabilities. In this case, a separate company could be contracted to add the additional routines. This would motivate the volunteer, and in so doing, reduce the funding needed to only what the separate company would charge.
+
+A slightly more involved example might be where a minority language community has significant understanding about their writing system, but does not have the technical knowledge needed to implement it in major software applications. Major software developers depend on industry encoding standards, and are very hesitant to implement support for scripts for which no standard exists. Hence, a key to application support would be inclusion of the script in an international standard &mdash; [Unicode][unicode-home]. Let us suppose, though, that the community does not understand the process for adding their script to Unicode. A non-governmental organization (NGO) might have great technical expertise in this process, but lack details of how the writing system works. 
+
+None of these groups can remedy the situation themselves, but could work together. The NGO could work with the language community to prepare a proposal for the Unicode Consortium to consider. Once accepted, the major software developer could add support. The community would be motivated by the desire to see their language working in major applications, the NGO would be motivated out of humanitarian concern, and the software developer would be motivated by a desire to make their software fully support that portion of Unicode, which could have commercial benefits.
+
+The section on [the roles of various people and organizations in WSI development](/topics/computing/roles-and-actors/), addresses these issues in greater depth.
+
+## Develop components
+
+Once the needs have been determined, and the resources identified, the third step is to develop the actual components. This document has already discussed some issues around component development, with greater detail in later sections, but it can be helpful to review the general milestones in approximate order. Note that these actions do not necessarily have to be done in this order. Most could be done in parallel to one another. The actions, which closely parallel the SIL WSTech model, are:
+
+- **Choose the supported encoding(s).** This must be done first, as it affects all other components and is the bridge between them. In most cases the encoding should be Unicode, although there are situations when this is not completely applicable (such as if a script is not yet accepted into Unicode). For an introduction to the technical sections, which gives an overview of key topics, see [Characters, Codepoints, Glyphs](/topics/encoding/characters-codepoints-glyphs/). For detailed information on encodings and Unicode, see [Unicode Concepts](/topics/encoding/unicode-concepts/).
+- **Obtain or design font(s).** There are many sources for fonts, from commercial companies to freeware developers. It may, however, be necessary to design an original font. Details on font requirements, sources for fonts and the process of original design can be found in [Glyph Design]([glyph-design]). Fonts are also the most commonly ‘pirated’ types of software, so IP issues need to be carefully considered. See [“Intellectual Property Concerns in the Development of Complex Script and Language Resources”][ip-empty] for an in-depth look at the problems.
+- **Add smart behaviors to the font(s), if necessary.** This will depend on the behavior of the writing system and the support for smart rendering in applications. This is currently a highly technical task, and the number of available experts are few. See [Shaping and Rendering](/topics/fonts/shaping-and-rendering/) for more details.
+- **Develop keyboard(s).** This is often the most important component from the user’s perspective. They need to be able to type in an intuitive manner that fits their writing system well. It is also common to have to support multiple keyboarding standards, since not all users are coming to the computer with the same history of computer literacy. [From Keystrokes to Codepoints](/topics/input/from-keystrokes-to-codepoints/) discusses general keyboard design theory and related issues.
+- **Enable data conversion.** Unless a WSI is the very first implementation of a certain writing system on a computer, there is likely to be a large body of text that needs to be converted from older encodings to new ones. This may also not be just a one-time effort, as many older computer systems will remain in use even when new WSIs are available.
+- **Add analysis tools.** As illustrated earlier, these peripheral components can be important, but are not discussed in any more detail here.
+-
+## Gather components into solutions
+
+The final step in WSI development is to _gather the diverse components into functional solutions_. Some examples:
+
+- [LaoScript for Windows][laoscript] is a shareware package that includes fonts, keyboards, conversion and other utilities (word demarcation, spell-checking, Thai-Lao translation). It supports Unicode as well as older encodings and works in most Windows applications. This is an example of a very complete, full-featured WSI, developed by a single developer.
+- The [SIL Dai Banna Font]([daibanna-font]) is a free package of fonts for the New Tai Lue (Xishuangbanna Dai) script. It works in all standard Macintosh and Windows applications. The script does not need smart rendering, nor analysis tools, and as the first implementation of the writing system, the package does not include text conversion tools. It is not a complete solution on its own, as it depends on a separate program for keyboard handling (that must be downloaded separately).
+
+In the second example, people would need to download and install two separate packages (main package and keyboard handler) to create a functioning WSI. This is becoming more common, particularly among free or inexpensive solutions. 
+
+The ideal is, of course, a single package (like LaoScript for Windows) that can be easily installed and used, with common documentation. This can be expensive for a company to develop and expensive for the user to purchase. It can require licensing fonts and software from different sources, and is not always accessible to the general public.
+
+Good, inexpensive WSIs can also be assembled from a variety of sources. For example, there is no complete Unicode-based solution for ancient Greek from a single vendor. The nature of standards-based solutions, however, allows components from multiple vendors to be interoperable. As a result, a completely free working system for personal use in Windows can be put together by combining:
+
+- [Gentium fonts][gentium] (SIL Global)
+- [Greek Classical Keyman keyboard][classicalgreek] (Manuel Lopez)
+- A keyboard manager program, [Keyman][keyman] 
+- An [encoding converter][legacy-greek] for Greek, which works with [SIL Converters][silconverters], that converts text from many older encodings to Unicode, or from one script to another script
+
+This involves interacting with five different Web sites and managing three separate software installations &mdash; but it works and is free for personal use. In other words, it meets most basic needs for ancient Greek computing. 
+
+### Integration
+
+One key to success of this final step in WSI development is integration. If a WSI is produced by a single developer, integration is relatively easy. Diverse WSIs made up of many components run the risk that assumptions made for one component will impact other components, sometimes in surprising ways.
+
+Communication between developers is the best insurance against these incompatibilities. The primary role of a WSI project manager that involves components from multiple sources is to foster communication on technical issues. Deliberate mechanisms for developer communication (Web forums, email discussion lists, etc.) can be very helpful.
+
+It can also be important to follow international standards, such as Unicode. If each component developer agrees to use Unicode as the primary encoding, then components can be prepared separately and assembled later. This is the case for the Greek example discussed earlier. Even though it is very likely that the four developers never spoke to one another, the system works because of uniform Unicode support.
+
+### Testing
+
+Another important part of putting WSIs together is testing. This is often ignored or neglected due to limited resources, but has a strong impact on the usefulness and acceptance of a WSI. There is not enough room to discuss testing strategies in this document, but a single principle is most important &mdash; do it.
+
+### Documentation
+
+Whether a WSI is simple or complex, or developed by a single developer or a broad group, documentation is important. Two types of documentation (at a minimum) should be delivered:
+
+- **End user documentation.** This would consist of basic installation steps and a brief instruction to use, such as a keyboard layout.
+- **Technical reference material.** This would include discussion and a listing of the encoding used, a full reference to what fonts contain, detailed listing of smart font behaviors, etc. A technically-capable person ought to be able to pick up this reference and develop additional components that work in harmony with the rest of the package. They should also be able to help an end user who has difficulties, or who needs some additional features.
+
+Again, this holds true even if the WSI is a collection of diverse components. Technical reference material should likely come from the primary developer of each component, but users would appreciate a single document that describes the installation of complex packages.
+
+There are creative ways in which this documentation can be delivered. It is not always necessary to produce commercial-style printed documentation. A site of Web pages can serve just as well, if not better, because it is always available on the internet and could be regularly updated to reflect changes and problem resolutions. 
+
+<Attribution type='Article' copyyears='2003-2026' copyholder='UNESCO and SIL International Inc.' author='Victor Gaultney' license='CC BY-SA 3.0' licenseUrl='https://creativecommons.org/licenses/by-sa/3.0/'/>
+
+<CaptionText text='This article formerly appeared on scripts.sil.org.'/>
+
+[logical-framework]: https://en.wikipedia.org/wiki/Logical_Framework_Approach
+[unicode-home]: https://home.unicode.org/
+[laoscript]: https://laoscript.net/
+[daibanna-font]: https://software.sil.org/daibanna/
+[gentium]: https://software.sil.org/gentium/
+[classicalgreek]: https://keyman.com/keyboards/greekclassical
+[keyman]: https://keyman.com/
+[silconverters]: https://software.sil.org/silconverters/
+[legacy-greek]: https://github.com/silnrsi/wsresources/tree/master/scripts/Grek/legacy
+[glyph-design]: https://scripts.sil.org/cms/scripts/page.php?id=wsi_guidelines_sec_8&site_id=nrsi
+[ip-empty]: https://scripts.sil.org/cms/scripts/page.php?id=unescoip&site_id=nrsi
