@@ -205,7 +205,6 @@ Because of this, **Unicode encourages the use, wherever available, of markup-bas
 - [Unicode Webinar on Bidirectional Text: Part 1, The Basics of Bidi][unicode-webinar-bidi-1] -- Presentation by Richard Ishida, Questions and Answers by Roozbeh Pournader and Richard Ishida
 - [Unicode Webinar on Bidirectional Text (Part 2): Delving into Bidi][unicode-webinar-bidi-2] -- This second Bidi event gives three bidi experts an opportunity to share more information, including on UI, as well as answer more user specific questions.
 - [Unicode Webinar on Bidirectional Text (Part 3): Mastering Bidirectional Content for Translators and Localizers][unicode-webinar-bidi-3] -- Focuses on common issues encountered in handling right-to-left text, especially those impacting translators working in right-to-left scripts.
-- [Text Direction issues][sil-bidi] -- Tips for getting mixed right-to-left and left-to-right text to appear correctly.
 
 [uax9]: https://www.unicode.org/reports/tr9/
 [unicode-bidi-class-values]: https://www.unicode.org/reports/tr44/#Bidi_Class_Values
@@ -221,5 +220,4 @@ Because of this, **Unicode encourages the use, wherever available, of markup-bas
 [unicode-webinar-bidi-1]: https://www.youtube.com/watch?v=mVHuTkdKw8Q
 [unicode-webinar-bidi-2]: https://www.youtube.com/watch?v=_gZUK-CJYDc
 [unicode-webinar-bidi-3]: https://www.youtube.com/watch?v=rBK9CNIZWLY
-[sil-bidi]: https://vimeo.com/1144886570
 
