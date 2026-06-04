@@ -190,7 +190,7 @@ Creating a WSI is hard work. The whole process involves many different actors ta
 
 One of the key points that arises from this model is that it is very unlikely that a complete solution will be provided by a single actor. Interaction between the various actors involved in a particular orthography is essential. As each actor acknowledges the value of the others to the process, better WSIs will result, and users will be better served.
 
-<Attribution type='Article' copyyears='2003-2026' copyholder='UNESCO and SIL International Inc.' author='Martin Hosken and Lorna A. Priest' license='CC BY-SA 3.0' licenseUrl='https://creativecommons.org/licenses/by-sa/3.0/'/>
+<Attribution type='Article' copyyears='2003-2026' copyholder='UNESCO and SIL International Inc.' author='Martin Hosken and Lorna A. Priest' license='CC BY-SA 3.0' licenseurl='https://creativecommons.org/licenses/by-sa/3.0/'/>
 
 <CaptionText text='This article formerly appeared on scripts.sil.org.'/>
 

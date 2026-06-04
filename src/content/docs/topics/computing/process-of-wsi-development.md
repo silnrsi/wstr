@@ -118,7 +118,7 @@ Again, this holds true even if the WSI is a collection of diverse components. Te
 
 There are creative ways in which this documentation can be delivered. It is not always necessary to produce commercial-style printed documentation. A site of Web pages can serve just as well, if not better, because it is always available on the internet and could be regularly updated to reflect changes and problem resolutions. 
 
-<Attribution type='Article' copyyears='2003-2026' copyholder='UNESCO and SIL International Inc.' author='Victor Gaultney' license='CC BY-SA 3.0' licenseUrl='https://creativecommons.org/licenses/by-sa/3.0/'/>
+<Attribution type='Article' copyyears='2003-2026' copyholder='UNESCO and SIL International Inc.' author='Victor Gaultney' license='CC BY-SA 3.0' licenseurl='https://creativecommons.org/licenses/by-sa/3.0/'/>
 
 <CaptionText text='This article formerly appeared on scripts.sil.org.'/>
 

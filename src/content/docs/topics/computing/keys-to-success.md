@@ -76,7 +76,7 @@ If even a single character is missing, the cost to the WSI development process c
 
 The final objective and goal of this key is to verify that every character in the writing system has been accepted into the Unicode Standard, and if it has not, to navigate through the Unicode proposal process until that is the case. The good news is that thanks to the hard work of many people over the years, the great majority of scripts and characters that will be needed for WSIs are already in place. If that is not the case for a WSI need, then a strong commitment to the process &mdash; and a good deal of patience &mdash; will be required. See [Unicode Concepts](/topics/encoding/unicode-concepts/#byte-order-unicode-encoding-schemes).
 
-<Attribution type='Article' copyyears='2003-2026' copyholder='UNESCO and SIL International Inc.' author='Victor Gaultney' license='CC BY-SA 3.0' licenseUrl='https://creativecommons.org/licenses/by-sa/3.0/'/>
+<Attribution type='Article' copyyears='2003-2026' copyholder='UNESCO and SIL International Inc.' author='Victor Gaultney' license='CC BY-SA 3.0' licenseurl='https://creativecommons.org/licenses/by-sa/3.0/'/>
 
 <CaptionText text='This article formerly appeared on scripts.sil.org.'/>
 
