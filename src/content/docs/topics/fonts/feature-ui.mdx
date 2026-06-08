@@ -1,13 +1,11 @@
 ---
-title: Font and Feature UI
+title: Font Feature UIs
 description: Recommendations for how font feature selection should work
 sidebar:
-    order: 2540
+    order: 5524
 tags: [opentype, features]
-lastUpdated: 2026-01-28
+lastUpdated: 2026-06-08
 ---
-
-## Feature UI
 
 Fonts can support a wide variety of [OpenType features][ot-features]. Some font features are internal and not for user control and some are for user control. [font.py][ptx-font.py] has a list of user controllable features. The rest should not be displayed in an application.
 
@@ -15,7 +13,7 @@ Developing a User Interface to access the user-selectable features has long been
 
 User-selectable font features _should_ be exposed to the user in the application UI. Some applications just include all the features in one big dialog box, as LibreOffice does below. Other applications are a bit more organized and separate them into different tabs or sections in a dialog.
 
-![Figure: LibreOffice](images/2540-libreoffice.png "Most features in one dialog")
+![Figure: LibreOffice](images/5524-libreoffice.png "Most features in one dialog")
 
 As mentioned above, applications have implemented a User Interface for selecting the user-selectable features in a variety of ways. Because each application implements the selection in different places, it is sometimes difficult to find where to set the user-selectable features.
 
@@ -201,7 +199,7 @@ Languages are sometimes selected at the bottom of an application window. The fol
 
 The full specification for Character Variants allows for tooltips (for example, hover over the Character Variant "Capital H stroke" and see the tooltip). The specification also includes the ability to list the default glyph and each alternate. Although the sample text is extremely small, PTXprint supports this.
 
-![Figure: PTXprint](images/2540-ptxprint-tooltips-sample.png "PTXprint tooltip with sample alternates")
+![Figure: PTXprint](images/5524-ptxprint-tooltips-sample.png "PTXprint tooltip with sample alternates")
 
 
 ### Resources

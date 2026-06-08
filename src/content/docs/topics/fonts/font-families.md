@@ -4,7 +4,7 @@ description: Recommendations for support the three types of font families.
 sidebar:
     order: 2550
 tags: [ribbi, variable, axis-based]
-lastUpdated: 2026-01-28
+lastUpdated: 2026-06-08
 ---
 
 ## Three types of font families
@@ -21,7 +21,7 @@ Users are most familiar with fonts that have up to four different standard faces
 
 Some applications will display these other weights as separate font families (except bold). Ideally, an application should see, for example, **Gentium** as one font with ten **faces** rather than as separate fonts.
 
-![Figure: Gentium weights](images/2540-gentium-weights.png "Display one font with ten weights")
+![Figure: Gentium weights](images/2550-gentium-weights.png "Display one font with ten weights")
 
 If a user selects the Regular weight of Gentium, an application could then use the Bold weight for contrast (such as in headings).
 If the user selects Medium, then the heavier weight (such as for headings) should be ExtraBold.
