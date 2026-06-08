@@ -5,7 +5,7 @@ sidebar:
     order: 2500
     label: App Development Best Practice
 tags: [conversion, encoding, fonts, input, layout, rendering]
-lastUpdated: 2025-11-05
+lastUpdated: 2026-06-08
 ---
 
 ## Introduction
@@ -132,8 +132,9 @@ In addition, a language may require particular glyph variants for a character. F
 - _Font contains user-controlled features_ - These are glyph variant features or behaviors that a user can explicitly choose to apply to the selected text (or style definition). These features may not be simple on/off features and may have multiple options. An example is the [_Eng_][gentium-cv43] feature that offers three glyph variants. **Applications need to provide a good user interface that allows users to control these features.** One user-friendly way to support this is to provide a dialog that offers a choice of the variants available in the font. Ideally the choice of variants would only be offered if relevant to the language.
 - _Application applies appropriate features based on language and locale data_ - In some cases, the locale data for a language contains information on the preferred glyph variant features that should be used. This is stored in the SLDR file for the language tag, and can be obtained using the LDML API. See [Locale Data][locale-data] and related articles.
 
-For more information on font features see [OpenType][opentype].
+For more information on font features and UIs see [OpenType][opentype] and [Font Feature UIs][feature-ui].
 
+[feature-ui]: /topics/fonts/feature-ui
 [gentium-cv43]: https://software.sil.org/gentium/features/#cv43
 [gentium-langsr]: https://software.sil.org/gentium/features/#langsr
 [graphite]: https://graphite.sil.org/
