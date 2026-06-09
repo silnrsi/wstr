@@ -423,7 +423,7 @@ The existence of these "confusable" characters also offers the possibility of de
 **You will do your users a great service if your software can warn users when they use a character from a different script.**
 
 Additional resources: 
-- [Dotless letters and movable combining marks][dotless-letters]
+- [Dotless letters and movable combining marks](/articlelib/d/dotless-letters-and-movable-combining-marks)
 - [Unicode Utilities: Confusables][res-confusables]
 - [Unicode's Where is my Character?][uni-where-character]
 - [Unicode Character Properties spreadsheet][ucd-spreadsheet]
@@ -469,7 +469,7 @@ In many cases, the NFC and NFD forms are identical. For example, U+0254 U+0301 i
 
 NFC often provides the most compact storage. NFD may provide advantages for working with the data, since each component is a separate character. 
 
-**Applications should not assume any normalization on data input unless it controls the data source, and should generally output data in NFC.** See [To compose or decompose: that is the question][compose-decompose].
+**Applications should not assume any normalization on data input unless it controls the data source, and should generally output data in NFC.** See [To compose or decompose: that is the question](/articlelib/t/to-compose-or-decompose).
 
 ### Character decomposition mappings
 
@@ -935,9 +935,6 @@ Of course, assigning every last compatibility-decomposable character to some cat
 
 _Portions of this content first appeared in [Guidelines for Writing System Support][wsig], copyright © 2003 UNESCO and SIL International._
 
-
-[compose-decompose]: https://scripts.sil.org/cms/scripts/page.php?id=nfc_vs_nfd&site_id=nrsi
-[dotless-letters]: https://scriptsource.org/entry/k3fmzy7abd
 
 [glo-bmp]: /reference/glossary#bmp
 [glo-bom]: /reference/glossary#bom

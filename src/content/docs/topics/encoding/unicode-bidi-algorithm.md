@@ -213,7 +213,7 @@ Because of this, **Unicode encourages the use, wherever available, of markup-bas
 [opentype-mirroring-pairs]: https://learn.microsoft.com/en-us/typography/opentype/spec/ompl
 [ms-rtlm]: https://www.microsoft.com/typography/otspec/features_pt.htm#rtlm
 [graphite]: https://graphite.sil.org/
-[graphite-description-language]: https://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_devFont
+[graphite-description-language]: https://graphite.sil.org/graphite_download.html
 [unicode-directional-formatting-characters]: https://www.unicode.org/reports/tr9/#Directional_Formatting_Characters
 [unicode-direction-overrides]: https://www.unicode.org/reports/tr9/#Explicit_Directional_Overrides
 [unicode-direction-markup]: https://www.unicode.org/reports/tr9/#Markup_And_Formatting
