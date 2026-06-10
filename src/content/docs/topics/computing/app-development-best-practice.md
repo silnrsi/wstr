@@ -118,7 +118,7 @@ Those who speak and write European languages often have a very simple concept of
 
 To achieve these complex behaviors, fonts include rules that are interpreted by rendering engines. The most common of these systems is [OpenType][opentype], which is built into most operating systems and has become the industry standard. SIL developed its own smart-font system called [Graphite][graphite], which provides more flexible support for some complex scripts, but has much less application support. See [Shaping and Rendering][shaping-and-rendering].
 
-For visual examples of these behaviors see [Examples of Complex Rendering][ss-complex-rendering] and [Reordering and Data Storage Order][ss-reordering]. **Developers who wish to support RTL scripts need to understand the [Unicode Bidi Algorithm][unicode-bidi-algorithm].**
+For visual examples of these behaviors see [Examples of Complex Rendering](/topics/writingsystems/complex-behaviors) and [Reordering and Data Storage Order](/articlelib/r/reordering-and-data-storage-order). **Developers who wish to support RTL scripts need to understand the [Unicode Bidi Algorithm](/topics/encoding/unicode-bidi-algorithm).**
 
 ### Font features and glyph variants
 
@@ -141,9 +141,6 @@ For more information on font features and UIs see [OpenType][opentype] and [Font
 [layout-overview]: /topics/layout/layout-overview
 [opentype]: /topics/fonts/opentype
 [shaping-and-rendering]: /topics/fonts/shaping-and-rendering
-[ss-complex-rendering]: https://scriptsource.org/entry/lu6terdg9u
-[ss-reordering]: https://scriptsource.org/entry/l5bvp27v3r
-[unicode-bidi-algorithm]: /topics/encoding/unicode-bidi-algorithm
 
 ## Text analysis and conversion
 
