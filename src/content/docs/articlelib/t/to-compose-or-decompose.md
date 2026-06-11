@@ -17,7 +17,7 @@ In fact, Unicode declares that there is an equivalence relationship between deco
 - :usv[0063]{usv char name} + :usv[0301]{usv char name} + :usv[0327]{usv char name}
 - :usv[0063]{usv char name} + :usv[0327]{usv char name} + :usv[0301]{usv char name}
 - :usv[00E7]{usv char name} + :usv[0301]{usv char name}
-- :usv[0207]{usv char name} + :usv[0327]{usv char name}
+- :usv[0107]{usv char name} + :usv[0327]{usv char name}
 - :usv[1E09]{usv char name}
 
 For convenience we sometimes refer to the above items as being different **representations** of the same Unicode text, the text in this example being c with a cedilla and acute. There are lots of text fragments that can have multiple representations in terms of Unicode character sequences.
@@ -26,9 +26,9 @@ Unicode further states that software is free to change the character stream from
 
 So the original question is not reasonable: A team might think they can choose to use NFD (decomposed) for their data, but software just might change the data — and it doesn't even have to say it is doing this, because (by definition) this does not change the meaning of the encoded data in any way.
 
-Now it is appropriate to consider selecting a specific convention for a specific process. For example, suppose I wanted to write a Perl or CC program that searches the text for all unique diacritics. The algorithm to locate these is considerably simpler if the data is fully decomposed. So for the purposes of this process, it is helpful to ask that the input data be decomposed. Similarly, for some other process (e.g., spelling check) it may be equally valid for that process to require, even for the exact same text, fully composed representations.
+Now it is appropriate to consider selecting a specific convention for a specific process. For example, suppose I wanted to write a Python, Perl, or CC program that searches the text for all unique diacritics. The algorithm to locate these is considerably simpler if the data is fully decomposed. So for the purposes of this process, it is helpful to ask that the input data be decomposed. Similarly, for some other process (e.g., spelling check) it may be equally valid for that process to require, even for the exact same text, fully composed representations.
 
-To give a concrete example, when designing an encoding conversion mapping for  TECkit, it is sometimes easier to write the conversion rules in terms of fully decomposed text, and sometimes easier in terms of fully composed text, and it is often quite hard, actually, to write a set of rules that successfully handles any arbitrary representation. For this reason the TECkit mapping author can specify that the mapping rules are assuming either NFD or NFC input, and the TECkit engine enforces the correct input by normalizing the data before processing it with the mapping rules.
+To give a concrete example, when designing an encoding conversion mapping for [XeTeX][xetex], it is sometimes easier to write the conversion rules in terms of fully decomposed text, and sometimes easier in terms of fully composed text, and it is often quite hard, actually, to write a set of rules that successfully handles any arbitrary representation. For this reason the [TECkit][teckit] mapping author can specify that the mapping rules are assuming either NFD or NFC input, and the TECkit engine enforces the correct input by normalizing the data before processing it with the mapping rules.
 
 In summary then, we have this axiom:
 
