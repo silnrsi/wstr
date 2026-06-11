@@ -68,10 +68,10 @@ The Unicode Standard includes different types of information:
 _Portions of this content first appeared in [Guidelines for Writing System Support][sil-wsig], copyright © 2003 UNESCO and SIL International._
 
 [sil-wsig]: https://scripts.sil.org/wsi_guidelines.html
-[ss-char-browsing]: https://scriptsource.org/entry/tubkvb6y8f
-[ss-everyday-unicode]: https://scriptsource.org/entry/mhzqeygkuz
-[ss-understanding-unicode-i]: https://scriptsource.org/source/c6rwvqz3gn
-[ss-understanding-unicode-ii]: https://scriptsource.org/source/hqj8q8b4xv
+[ss-char-browsing]: /articlelib/u/unicode-character-browsing/
+[ss-everyday-unicode]: /articlelib/e/everyday-unicode/
+[ss-understanding-unicode-i]: https://scripts.sil.org/IWS-Chapter04a
+[ss-understanding-unicode-ii]: https://scripts.sil.org/IWS-Chapter04b
 [ss-unicode-status]: https://scriptsource.org/entry/tn9r6q9euj
 [ss-unicode]: https://scriptsource.org/entry/z3hs8db5ct
 [uni-code-charts]: https://www.unicode.org/charts/

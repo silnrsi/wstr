@@ -113,7 +113,7 @@ See [Optical character recognition][ocr] for more details.
 [languagetools]: https://languagetools-153419.appspot.com/
 [libreoffice]: https://www.libreoffice.org/
 [ocr]: https://en.wikipedia.org/wiki/Optical_character_recognition
-[regedit]: https://scriptsource.org/entry/tmhr3s5nsc
+[regedit]: /articlelib/u/unicode-hex-input-windows-registry-setting
 [runemaster]: https://flathub.org/en/apps/io.github.johnfactotum.Runemaster
 [speechrecognition]: https://en.wikipedia.org/wiki/Speech_recognition
 [typeit]: https://www.typeit.org/

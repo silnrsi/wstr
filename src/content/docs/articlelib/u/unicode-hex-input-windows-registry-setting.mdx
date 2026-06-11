@@ -1,0 +1,30 @@
+---
+title: Unicode Hex Input Windows Registry setting
+tags: [unicode, input]
+lastUpdated: 2026-06-11
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+Merging this `.reg` file into Windows 7 or later will enable the hexadecimal Unicode input method. After importing (**File / Import**) this file into the registry, you will need to log off or reboot before input method works. The download file is very simple, consisting of:
+
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Control Panel\Input Method]
+"EnableHexNumpad"="1"
+```
+
+Once enabled, arbitrary Unicode characters may be entered into most Windows applications (subject to an appropriate font being installed on the computer) by holding down **Alt** and pressing the **+** key on the numeric keypad, followed by the [USV](/reference/glossary#usv) in hexadecimal (using the main letter keys and any of the number keys). **NumLock** must be turned on before using the numeric keyboard.
+
+Unfortunately this input method does not work reliably in some applications, including Microsoft Word. However, Word does support the **Alt-X** method of input.
+
+These input methods are described in various places including [this article on Wikipedia][wiki-unicode-input].
+
+Download: <a download href="/files/HexInputMethod.reg">HexInputMethod.reg</a>
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>
+
+
+[wiki-unicode-input]: https://en.wikipedia.org/wiki/Unicode_input
+
