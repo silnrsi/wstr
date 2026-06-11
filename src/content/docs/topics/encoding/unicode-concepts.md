@@ -956,7 +956,7 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 [iws-dynamic-composition]: https://scripts.sil.org/cms/scripts/page.php?id=iws-chapter04a&site_id=nrsi#f4c798b1
 [res-code-converter]: https://r12a.github.io/app-conversion/
 [res-confusables]: https://util.unicode.org/UnicodeJsps/confusables.jsp
-[res-precomposed]: https://scriptsource.org/entry/r8cbwvep6z
+[res-precomposed]: /articlelib/p/precomposed-characters-in-unicode
 [res-string-length]: https://www.youtube.com/watch?v=wCExnGiMeF0
 [ucd-spreadsheet]: https://github.com/silnrsi/unicode-resources/tree/main/ucd-spreadsheet
 
