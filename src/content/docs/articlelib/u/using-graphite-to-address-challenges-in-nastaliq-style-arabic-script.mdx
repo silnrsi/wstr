@@ -1,0 +1,32 @@
+---
+title: Using Graphite to Address Challenges in Nastaliq-style Arabic Script
+tags: [script-arab, script-aran, lang-urd, graphite, nastaliq]
+lastUpdated: 2026-06-12
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+import Attribution from '/src/components/Attribution.astro';
+
+This presentation was given at IUC39, October 2015 by Martin Hosken and Sharon Correll. The file is a PDF form of a slideshow.
+
+## Abstract
+
+Nastaliq-style Arabic is one of the most complex forms of writing in the world, and standard font technologies, including OpenType and Graphite, are not quite up to the challenge of handling its sloping, calligraphic form. For this reason, SIL's smart-font technology, [Graphite][graphite], was extended with some special capabilities to address the particular challenges of this beautiful but complicated form of writing.
+
+There are two main challenges that arise in developing a Nastaliq font. One is the sheer volume of glyphs that are required, due to the complexity of the calligraphic shapes. Unlike other forms of Arabic, which require initial, medial, final, and isolate forms for dual-connecting characters, most Nastaliq letters potentially require a separate form to precede every other letter of the alphabet, in both initial and medial contexts. This means that the number of glyphs required in the font is at least O(n2) on the number of base characters.
+
+The sloping nature of Nastaliq creates a second, even greater challenge: glyph collisions. A straightforward, naive layout of base glyphs, nuqtas, and diacritics will inevitably result in a rendering where the glyphs collide, forming ugly and even unreadable text. Fixing these collisions is exacerbated by the large number of glyphs and the complex positioning created by the sloping baseline.
+
+Workarounds to current font technologies have been used to create Urdu-specific fonts, but these approaches do not scale well when multiple languages and a variety of diacritics are needed. For this reason, SIL Global developed a font called "Awami Nastaliq," specifically intended to support lesser-known languages of west Asia, and using an extended version of Graphite.
+
+To solve the problem of collisions, we enhanced Graphite with an automatic collision-fixing capability. The Graphite engine makes use of a simplified form of the rendered glyphs to detect collisions, shift nuqtas and diacritics, and add kerning to create nicely laid-out text. Besides fixing collisions, the kerning mechanism can also create diagonal overlaps in the sloping text, as Nastaliq is traditionally written. The behavior of the algorithm can be fine-tuned using parameters defined in GDL, the programming language used for creating a Graphite font.
+
+Building collision fixing directly into our rendering engine provides a level of power not found in any other font technology.
+
+Download: <a download href="/files/iuc-39-graphite-nastaliq.pdf">IUC 39: Using Graphite to Address Challenges in Nastaliq-style Arabic Script</a>
+
+<Attribution type='Article' copyyears='2015-2026' copyholder='SIL Global' author='Martin Hosken and Sharon Correll' license='CC BY-SA 3.0' licenseurl='https://creativecommons.org/licenses/by-sa/3.0/'/>
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>
+
+[graphite]: https://graphite.sil.org
