@@ -1,7 +1,7 @@
 ---
 // WsGraphemes component: display a table of graphemes and phonograms used by a given writing system.
 // Parameters:
-//     script: ws code, eg. de-Latn
+//     script: wsCode - WS code, eg. de-Latn, fub-Arab
 
 import Character from './Character.astro';
 
@@ -9,10 +9,10 @@ import wsgData from '../data/ws-graphemes.json';
 
 import phonemeData from '../data/phonemes.json';
 
-const pData = phonemeData;
+//const pData = phonemeData;
 
 function phonemeSymbol(key: string): string {
-	return pData[key]?.symbol ?? "";
+	return phonemeData[key]?.symbol ?? "";
 }
 
 const { wsCode } = Astro.props;
@@ -49,9 +49,7 @@ console.log('# phonograms = ' + pgCount);
 		{wsPhonograms.map((wsp) =>
 			<tr> 
 				<td>
-					{wsp.chars.map((ch) =>
-						<Character usv={ch} options="char" />
-					)}
+					&lt;{wsp.chars.map((ch) => <Character usv={ch} options="char" />)}&gt;
 				</td>
 				<td>
 					{wsp.chars.map((ch) =>

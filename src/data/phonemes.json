@@ -23,6 +23,11 @@
         "label":    "voiced bilabial plosive"
     },
 
+    "stp-bil-vd-aspir": {
+        "symbol":   "bʰ",
+        "label":    "aspirated voiced bilabial plosive"
+    },
+
     "stp-alv-vd-phazd": {
         "symbol":   "dˤ",
         "label":    "pharyngealized voiced alveolar plosive"

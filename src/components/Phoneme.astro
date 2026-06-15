@@ -1,0 +1,66 @@
+---
+// Phoneme component: display a table of graphemes and phonograms that represent a given phoneme.
+// Parameters:
+//     script: key - phoneme key, eg. stp-bil-vd
+
+import Character from './Character.astro';
+
+import wsgData from '../data/ws-graphemes.json';
+
+import phonemeData from '../data/phonemes.json';
+
+//function phonemeSymbol(pkey: string): string {
+//	return phonemeData[pkey]?.symbol ?? "ERROR";
+//}
+
+const { key } = Astro.props;
+
+const phSymbol = phonemeData[key]["symbol"];
+const phLabel = phonemeData[key]["label"];
+
+const allPhonograms = wsgData["phonograms"];
+//const allCount = allPhonograms ? allPhonograms.length : 0;
+
+let keyPhonograms  = allPhonograms.filter(pg => pg.phoneme === key);
+let kpgCount = keyPhonograms ? keyPhonograms.length : 0;
+
+console.log('# phonograms = ' + kpgCount);
+
+---
+
+<div>
+
+	<h3>&#x002F;{phSymbol}&#x002F;: {phLabel}</h3>
+
+	{ (kpgCount == 0) ? (
+				<p>None</p>
+		) : (
+
+			<table>
+				<thead>
+					<tr>
+						<th>Writing System</th>
+						<th>Grapheme</th>
+						<th>Example</th>
+						<th>Notes</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					{keyPhonograms.map((kpg) =>
+						<tr> 
+							<td><a href={`/scrlang/graphemes/${(kpg.ws ?? '').toLowerCase()}`}>{kpg.ws}</a></td>
+							<td>
+								&lt;{kpg.chars.map((ch) => <Character usv={ch} options="char" />)}&gt;
+							</td>
+							<td>{kpg.example}</td>
+							<td>{kpg.notes}</td>
+						</tr>
+					)}
+				</tbody>
+
+			</table>
+		)
+	}
+
+</div>
