@@ -1,0 +1,50 @@
+{
+    "CONSONANTS": {},
+
+    "nas-bil": {
+        "symbol":   "m",
+        "label":    "bilabial nasal"
+    },
+    "nas-alv": {
+        "symbol":   "n",
+        "label":    "alveolar nasal"
+    },
+    "nas-vel": {
+        "symbol":   "ŋ",
+        "label":    "velar nasal"
+    },
+    "stp-bil-vl": {
+        "symbol":   "p",
+        "label":    "voiceless bilabial plosive"
+    },
+
+    "stp-bil-vd": {
+        "symbol":   "b",
+        "label":    "voiced bilabial plosive"
+    },
+
+    "stp-alv-vd-phazd": {
+        "symbol":   "dˤ",
+        "label":    "pharyngealized voiced alveolar plosive"
+    },
+
+    "aff-pav-vl": {
+        "symbol":   "tʃ",
+        "label":    "voiceless post-alveolar affricate"
+    },
+    "aff-pav-vd": {
+        "symbol":   "dʒ",
+        "label":    "voiced post-alveolar affricate"
+    },
+    "aff-pal-vd": {
+        "symbol":   "ʝ",
+        "label":    "voiced palatal affricate"
+    },
+
+    "VOWELS": {},
+
+    "vwl_nf_op_unr": {
+        "symbol":   "a",
+        "label":    "open near-front unrounded vowel"
+    }
+}

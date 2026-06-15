@@ -1,0 +1,86 @@
+{
+    "phonograms": [
+        {
+            "ws": "apd-Latn",
+            "chars": ["0062"],
+            "phoneme": "stp-bil-vd",
+            "status": "expected",
+            "example": "baab ‘door’",
+            "notes": ""
+        },
+        {
+            "ws": "apd-Latn",
+            "chars": ["006A"],
+            "phoneme": "aff-pav-vd",
+            "status": "unknown",
+            "example": "jeeran ‘neighbors’",
+            "notes": "Persson orthography"
+        },
+        {
+            "ws": "apd-Latn",
+            "chars": ["1D81", "0067"],
+            "phoneme": "stp-alv-vd-phazd",
+            "status": "expected",
+            "example": "ᶁeef ‘guest’",
+            "notes": "Hillelson orthography"
+        },
+
+
+        {
+            "ws": "de-Latn",
+            "chars": ["0061"],
+            "phoneme": "vwl_nf_op_unr",
+            "status": "common",
+            "example": "was ‘what’",
+            "notes": ""
+        },
+        {
+            "ws": "de-Latn",
+            "chars": ["0062"],
+            "phoneme": "stp-bil-vd",
+            "status": "common",
+            "example": "bleiben ‘stay’, Weib ‘woman’",
+            "notes": ""
+        },   
+        {
+            "ws": "de-Latn",
+            "chars": ["0062", "0062"],
+            "phoneme": "stp-bil-vd",
+            "status": "uncommon",
+            "example": "Ebbe ‘ebb’, abbrechen ‘abort’",
+            "notes": ""
+        },
+        {
+            "ws": "de-Latn",
+            "chars": ["0064"],
+            "phoneme": "aff-pav-vd",
+            "status": "expected",
+            "example": "deine ‘your’, Hund ‘dog’",
+            "notes": "Pronounced [t] when syllable final"
+        },
+
+        {
+            "ws": "xnz-Latn",
+            "chars": ["0062"],
+            "phoneme": "stp-bil-vd",
+            "status": "expected",
+            "example": "",
+            "notes": ""
+        },
+        {
+            "ws": "xnz-Latn",
+            "chars": ["0063"],
+            "phoneme": "aff_pav_vl",
+            "status": "expected",
+            "examples": "",
+            "notes": ""
+        }
+
+    ],
+
+    "intros": {
+        "apd-Latn": "Source: Hartell, Rhonda, ed., Alphabets of Africa. Dakar: UNESCO, 1993.",
+        "de-Latn": "This data applies to the standard High German dialect.",
+        "xnz-Latn": "Source: Jaeger, Marcus and Kamal Hissein. 2012 Aspects of Kenzi-Dongolawi Phonology Related to Orthography. In: Muhammad J. Hashim and Abdel Rahim Hamid Mugaddam. eds. Unity and Diversity of Nubian Languages. Toward a Standardized Writing System of Nubian Languages. Cape Town: CASAS."
+    }
+}

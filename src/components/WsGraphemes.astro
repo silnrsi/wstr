@@ -1,0 +1,70 @@
+---
+// WsGraphemes component: display a table of graphemes and phonograms used by a given writing system.
+// Parameters:
+//     script: ws code, eg. de-Latn
+
+import Character from './Character.astro';
+
+import wsgData from '../data/ws-graphemes.json';
+
+import phonemeData from '../data/phonemes.json';
+
+const pData = phonemeData;
+
+function phonemeSymbol(key: string): string {
+	return pData[key]?.symbol ?? "";
+}
+
+const { wsCode } = Astro.props;
+
+const allPhonograms = wsgData["phonograms"];
+//const allCount = allPhonograms ? allPhonograms.length : 0;
+
+const intros = wsgData["intros"];
+const intro = intros[wsCode];
+
+let wsPhonograms = allPhonograms.filter(pg => pg.ws === wsCode);
+let pgCount = wsPhonograms ? wsPhonograms.length : 0;
+
+console.log('# phonograms = ' + pgCount);
+
+---
+
+<p>{intro}</p>
+
+<div>
+<table>
+	<thead>
+		<tr>
+			<th>Grapheme</th>
+			<th>USV</th>
+			<th>Phoneme</th>
+			<th>Status</th>
+			<th>Example</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		{wsPhonograms.map((wsp) =>
+			<tr> 
+				<td>
+					{wsp.chars.map((ch) =>
+						<Character usv={ch} options="char" />
+					)}
+				</td>
+				<td>
+					{wsp.chars.map((ch) =>
+						<span>{ch} </span>
+					)}	
+				</td>
+				<td>/{phonemeSymbol(wsp.phoneme)}/<br/>{wsp.phoneme}</td>
+				<td>{wsp.status}</td>
+				<td>{wsp.example}</td>
+				<td>{wsp.notes}</td>
+			</tr>
+		)}
+	</tbody>
+
+</table>
+</div>
