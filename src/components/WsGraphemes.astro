@@ -56,7 +56,7 @@ console.log('# phonograms = ' + pgCount);
 						<span>{ch} </span>
 					)}	
 				</td>
-				<td>/{phonemeSymbol(wsp.phoneme)}/<br/>{wsp.phoneme}</td>
+				<td><a href={`/scrlang/phonemes/${(wsp.phoneme)}`}>/{phonemeSymbol(wsp.phoneme)}/</a></td>
 				<td>{wsp.status}</td>
 				<td>{wsp.example}</td>
 				<td>{wsp.notes}</td>

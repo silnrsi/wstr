@@ -22,10 +22,13 @@
         "symbol":   "b",
         "label":    "voiced bilabial plosive"
     },
-
     "stp-bil-vd-aspir": {
         "symbol":   "bʰ",
         "label":    "aspirated voiced bilabial plosive"
+    },
+    "stp-bil-vd-gemin": {
+        "symbol":   "bː",
+        "label":    "geminate voiced bilabial plosive"
     },
 
     "stp-alv-vd-phazd": {
