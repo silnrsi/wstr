@@ -91,3 +91,26 @@
 #LangBcp47 .MuiFilledInput-root {
   background-color: var(--sl-color-bg-nav);
 }
+
+/* Used by PhChartCons component */
+tr.phdr {
+    padding-left: none !important;
+    padding-right: none !important;
+}
+
+th.hdrlabel { 
+    max-width: none; 
+    padding-left: 6px; 
+    padding-right: 7px;
+}
+
+td.phon {
+    padding-left: 8px;
+    padding-right: 7px;
+}
+
+td.ptype {
+    padding-left: 7px;
+    padding-right: 7px;
+    font-style: italic;
+}
