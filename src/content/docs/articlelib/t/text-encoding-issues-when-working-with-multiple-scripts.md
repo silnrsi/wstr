@@ -2,7 +2,7 @@
 title: Text Encoding Issues When Working with Multiple Scripts
 description: There are two approaches to achieving the production of the same text in multiple scripts.
 authors: Martin Hosken
-tags: ["cross-script", "conversion"]
+tags: [cross-script, conversion]
 lastUpdated: 2025-11-24
 ---
 

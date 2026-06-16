@@ -2,7 +2,7 @@
 title: To compose or decompose, that is the question
 description: Whether 'tis nobler in the mind to suffer NFC or NFD...
 authors: Bob Hallissy
-tags: ["nfc", "nfd"]
+tags: [nfc, nfd]
 lastUpdated: 2026-06-09
 ---
 

@@ -2,7 +2,7 @@
 title: Detecting font usage in a web browser
 description: How to determine which font the browser is using to display a bit of text
 authors: Sharon Correll
-tags: ["webfonts", "fonts", "browser"]
+tags: [webfonts, fonts, browser]
 lastUpdated: 2026-04-01
 ---
 

@@ -2,7 +2,7 @@
 title: Transliteration vs. Transcription
 description: Transliteration and transcription are both processes by which text is converted from one script to another.
 authors: Steph Holloway
-tags: ["transliteration", "transcription"]
+tags: [transliteration, transcription]
 lastUpdated: 2025-11-24
 ---
 
