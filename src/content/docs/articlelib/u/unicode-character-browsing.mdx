@@ -5,6 +5,7 @@ lastUpdated: 2026-05-13
 ---
 
 import CaptionText from '/src/components/CaptionText.astro';
+import Attribution from '/src/components/Attribution.astro';
 
 For the casually interested, browsing among the thousands of characters available in the Unicode standard can be a fascinating experience. For those implementing writing system components, finding exact details about a particular character or set of characters can be essential to a successful design. 
 
@@ -22,7 +23,9 @@ This is where Unicode character browsers help out: they provide easy ways to fin
 
 ### Unibook
 
-![Arabic block shown using Unibook from Unicode](images/unicode-character-browsing-1.png "Arabic block shown using Unibook from Unicode")The Unicode Consortium itself provides a useful character browser called [Unibook][unibook]. The original (and continuing) purpose of this program was to print the code charts used to publish the Unicode standard, but it has evolved into a general purpose and useful Unicode character browser. In the Unibook browser window you can click on any character cell and a popup will give additional details (user configurable) about that character. You can also copy any character to the clipboard, thereby providing character-picker functionality.
+![Arabic block shown using Unibook from Unicode](images/unicode-character-browsing-1.png "Arabic block shown using Unibook from Unicode")
+
+The Unicode Consortium itself provides a useful character browser called [Unibook][unibook]. The original (and continuing) purpose of this program was to print the code charts used to publish the Unicode standard, but it has evolved into a general purpose and useful Unicode character browser. In the Unibook browser window you can click on any character cell and a popup will give additional details (user configurable) about that character. You can also copy any character to the clipboard, thereby providing character-picker functionality.
 
 Unibook's sophisticated search facilities can find and highlight characters based on up to four criteria including Unicode property values, character names, font coverage, and even user-supplied property files. Other advanced capabilities include Bidi and Line Break algorithm demos, legacy character set views, and flexible font selections.
 
@@ -46,13 +49,36 @@ http://www.fileformat.info/info/unicode/char/067b/index.htm
 
 Thus you could set up quick-searches in your browser to go directly to the character.
 
+### Finding when a character was added to Unicode
 
-<CaptionText text='This article, written by Bob Hallissy, formerly appeared on ScriptSource.'/>
+One way to find this kind of information is in the [DerivedAge.txt][uni-derivedage] file that is part of the Unicode Character Database.
+
+Another place to find useful information is by Script.
+
+Click on **Scripts Index** under the **Scripts & Languages** subject on the left sidebar.
+
+Click on "Cyrillic" (or whatever script you are interested in)
+
+Search for "Unicode Status" (all scripts _should_ have a "Unicode Status" page). You will need to click on **Full Unicode status for Cyrillic**.
+
+At the top of the [resulting page](/scrlang/unicode/cyrl-unicode) you'll first see a link to the Unicode documentation for the script. In this case, Cyrillic is discussed in Chapter 7, and there are two Unicode Technical Notes which also discuss Cyrillic.
+
+![Unicode Status page for Cyrillic](images/unicode-character-browsing-status.png "Unicode Status page for Cyrillic")
+
+Next you'll see the various blocks for that script. For Cyrillic there are seven blocks containing Cyrillic characters. You can see when a block was added to Unicode. (That doesn't actually mean that all the characters in that block were added, maybe just a few characters were encoded initially.) It also includes a link to the Unicode codecharts (under "Documentation") for that block.
+
+The second table includes many of the characters that were encoded after the script was first encoded. This table is sorted by USV (Unicode Scalar Value). It will show you what version a particular character was added. Also, if the Unicode proposal is available online, we've linked to the Unicode proposal for a character in case you would find it helpful to know why a character was added to Unicode. For example, :usv[0487]{usv char name} was added to Unicode 5.1 and link to the Unicode proposal. From the proposal, I learn how the character compares with :usv[0311]{usv char name} and :usv[0483]{usv char name}. There are examples of this character in the figures of the proposal.
+
+<Attribution type='Article' copyyears='2012-2026' copyholder='SIL Global' author='Bob Hallissy and Lorna Evans' license='CC BY-SA 3.0' licenseurl='https://creativecommons.org/licenses/by-sa/3.0/'/>
+
+
+<CaptionText text='This article formerly appeared on ScriptSource.'/>
 
 [uni-home]: https://home.unicode.org/
 [uni-latest]: https://www.unicode.org/versions/latest/
 [uni-corespec]: https://www.unicode.org/versions/latest/core-spec/
 [uni-charts]: http://www.unicode.org/charts/
+[uni-derivedage]: https://unicode.org/Public/UNIDATA/DerivedAge.txt
 [uni-ucd]: https://www.unicode.org/ucd/
 [unibook]: https://www.unicode.org/unibook/
 [uniview]: https://r12a.github.io/uniview/
