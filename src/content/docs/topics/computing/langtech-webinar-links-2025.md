@@ -43,7 +43,6 @@ Here are links to information and resources mentioned in the [Language Technolog
 
 ## Other help and information
 
-- [ScriptSource][scriptsource]
 - [Archive of scripts.sil.org][sso]
 
 ## Ways to contact us
@@ -70,7 +69,6 @@ Here are links to information and resources mentioned in the [Language Technolog
 [ltwebinar]: https://vimeo.com/1121931174
 [ofl]: https://openfontlicense.org
 [opentype]: /topics/fonts/opentype
-[scriptsource]: https://scriptsource.org
 [sil-fonts-axis]: https://software.sil.org/fonts/axis-based-fonts
 [sil-fonts-faq]: https://software.sil.org/fonts/faq
 [sil-fonts-features]: https://software.sil.org/fonts/features

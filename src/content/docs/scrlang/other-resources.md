@@ -6,7 +6,6 @@ sidebar:
 lastUpdated: 2025-09-04
 ---
 
-- [ScriptSource][scriptsource]
 - [What is a writing system?][what-is-ws]
 - [Wikipedia article on scripts][wiki-scripts]
 - Resources from Richard Ishida
@@ -15,7 +14,6 @@ lastUpdated: 2025-09-04
   - [Orthography descriptions for specific writing systems][orth-descr-for-ws]
 
 
-[scriptsource]: https://scriptsource.org
 [what-is-ws]: /topics/writingsystems/what-is-a-writing-system
 [wiki-scripts]: https://en.wikipedia.org/wiki/Script_(Unicode)
 [script-comparison]: https://r12a.github.io/scripts/script-features
