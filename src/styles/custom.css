@@ -100,13 +100,13 @@ tr.phdr {
 
 th.hdrlabel { 
     max-width: none; 
-    padding-left: 6px; 
-    padding-right: 7px;
+    padding-left: 7px; 
+    padding-right: 8px;
 }
 
 td.phon {
-    padding-left: 8px;
-    padding-right: 7px;
+    padding-left: 9px;
+    padding-right: 8px;
 }
 
 td.ptype {
