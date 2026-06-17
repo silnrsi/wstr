@@ -34,7 +34,7 @@ export function htmlFromUSV(src: string, options: Options) {
     if (!isUSV(usv))
         throw new RangeError(`invalid USV: "${src}": it must be between 0000 and 10ffff`);
 
-    const characterName = getCharacter(usv)?.character_name;
+    const characterName = getCharacter(usv)?.name;
     if (characterName === undefined)
         throw new RangeError(`USV not found: "${USVtoString(usv)}": No character data exists.`);
 
@@ -46,7 +46,7 @@ export function htmlFromUSV(src: string, options: Options) {
     if (options.char) {
         // Decide whether we need to include a dotted circle with combining marks
         const info = getCharacter(usv);
-        const dottedCircle = info?.character_category.startsWith('M') ? String.fromCodePoint(0x25CC) : ''
+        const dottedCircle = info?.general_category.startsWith('M') ? String.fromCodePoint(0x25CC) : ''
         parts.push(dottedCircle + String.fromCodePoint(usv));
     }
     if (options.name) {
