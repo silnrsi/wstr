@@ -72,7 +72,7 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 [ss-everyday-unicode]: /articlelib/e/everyday-unicode/
 [ss-understanding-unicode-i]: https://scripts.sil.org/IWS-Chapter04a
 [ss-understanding-unicode-ii]: https://scripts.sil.org/IWS-Chapter04b
-[ss-unicode-status]: https://scriptsource.org/entry/tn9r6q9euj
+[ss-unicode-status]: /articlelib/u/unicode-character-browsing#finding-when-a-character-was-added-to-unicode
 [ss-unicode]: https://scriptsource.org/entry/z3hs8db5ct
 [uni-code-charts]: https://www.unicode.org/charts/
 [uni-core-spec]: https://www.unicode.org/versions/latest/core-spec/

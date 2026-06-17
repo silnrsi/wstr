@@ -3,10 +3,10 @@ title: Unicode Status for Sirmauri
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-12
+lastUpdated: 2026-06-17
 ---
 
-The Sirmauri script is not yet in Unicode. The script has a tentative allocation at U+11850..U+1189F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Sirmauri script has been accepted for encoding in a future version of the Unicode Standard. The script has a provisional allocation at U+11850..U+1189F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Blocks
 

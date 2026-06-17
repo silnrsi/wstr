@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2026-05-12
 ---
 
-The primary authors of and contributors to this site are the members of the [SIL Writing Systems Technology team][wstech]. Where there are specific or additional authors and contributors they are listed at the end of individual articles. This is often the case with material adapted from previous SIL publications and other SIL websites, including [ScriptSource][scriptsource] and [scripts.sil.org][sso].
+The primary authors of and contributors to this site are the members of the [SIL Writing Systems Technology team][wstech]. Where there are specific or additional authors and contributors they are listed at the end of individual articles. This is often the case with material adapted from previous SIL publications and other SIL websites, including ScriptSource and [scripts.sil.org][sso].
 
 Certain bodies of general content on this site have been incorporated by permission of the following rights holders in accordance with their usage guidelines:
 
@@ -17,14 +17,13 @@ Certain bodies of general content on this site have been incorporated by permiss
 For information on this site's Copyright, License, and Terms of Use see [Policies][policies].
 
 [apache-2.0]: https://spdx.org/licenses/Apache-2.0.html
-[cldr]: http://cldr.unicode.org/
-[ethnologue]: http://www.ethnologue.com/
+[cldr]: https://cldr.unicode.org
+[ethnologue]: https://www.ethnologue.com
 [googlefontstexts]: https://github.com/google/fonts/tree/main/lang/Lib/gflanguages/data/languages
 [lfff]: /scrlang/language-font-finder
 [policies]: /support/policies
-[scriptsource]: https://scriptsource.org
 [sil-tou]: https://www.sil.org/terms-use
 [sso]: https://scripts.sil.org
-[uni-license]: http://www.unicode.org/copyright.html#Exhibit1
-[uni-ucd]: http://www.unicode.org/ucd/
+[uni-license]: https://www.unicode.org/copyright.html#Exhibit1
+[uni-ucd]: https://www.unicode.org/ucd
 [wstech]: https://software.sil.org/wstech/

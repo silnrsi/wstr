@@ -3,12 +3,12 @@ title: About
 description: About WSTR
 sidebar:
   order: 9910
-lastUpdated: 2025-09-17
+lastUpdated: 2026-06-17
 ---
 
 This site is a collection of articles and information related to supporting writing systems on computers and mobile devices. It is sponsored, developed, and maintained by SIL's _Writing Systems Technology_ team.
 
-The goal is to publish useful information for software developers, font developers, and writing system users. In addition to new content, we plan to consolidate and update relevant information previously published on other SIL websites including [scripts.sil.org][sso], [Font Development Best Practices][fdbp], the [SIL Font Development Guide][silfontdev], and [ScriptSource][scriptsource].
+The goal is to publish useful information for software developers, font developers, and writing system users. In addition to new content, we plan to consolidate and update relevant information previously published on other SIL websites including [scripts.sil.org][sso], [Font Development Best Practices][fdbp], the [SIL Font Development Guide][silfontdev], and ScriptSource.
 
 [SIL][sil] is a global, faith-based nonprofit that works with local communities around the world to develop language solutions that expand possibilities for a better life.
 
@@ -16,7 +16,6 @@ SIL’s [_Writing Systems Technology_][wstech] team provides technical support f
 
 [fdbp]: https://silnrsi.github.io/FDBP/en-US/index.html
 [keyman]: https://keyman.com
-[scriptsource]: https://scriptsource.org
 [sil]: https://www.sil.org
 [silfontdev]: /topics/fonts/building-and-modifying-sil-fonts
 [sil-fonts]: https://software.sil.org/fonts/
