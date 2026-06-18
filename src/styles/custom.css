@@ -57,7 +57,7 @@
     top:3px;
 }
 
-.external-link-icon img{
+.external-link-icon img {
     height:1rem;
     margin:0 0 0 2px;
     width:1rem;
@@ -93,23 +93,32 @@
 }
 
 /* Used by PhChartCons component */
-tr.phdr {
+
+tr.ph-hdr {
     padding-left: none !important;
     padding-right: none !important;
 }
 
-th.hdrlabel { 
+th.ph-hdrlabel { 
     max-width: none; 
     padding-left: 7px; 
-    padding-right: 8px;
+    padding-right: 7px;
+    text-align: center;
 }
 
-td.phon {
+td.ph-sym {
     padding-left: 9px;
     padding-right: 8px;
+    text-align: center;
 }
 
-td.ptype {
+td.ph-sym a {
+    font-size: 110%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td.ph-type {
     padding-left: 7px;
     padding-right: 7px;
     font-style: italic;
