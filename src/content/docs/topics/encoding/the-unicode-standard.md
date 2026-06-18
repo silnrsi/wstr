@@ -59,21 +59,19 @@ The Unicode Standard includes different types of information:
 ### Additional resources
 
 - [The Unicode Standard][uni-tus]
-- [Everyday Unicode][ss-everyday-unicode]
-- [Unicode information on ScriptSource][ss-unicode]
-- [Unicode Character Browsing][ss-char-browsing]
-- [Unicode Status in ScriptSource][ss-unicode-status]
+- [Everyday Unicode][ws-everyday-unicode]
+- [Unicode Character Browsing][ws-char-browsing]
+- [Unicode Status in ScriptSource][ws-unicode-status]
 - [Understanding Unicode I][ss-understanding-unicode-i] and [Understanding Unicode II][ss-understanding-unicode-ii]
 
 _Portions of this content first appeared in [Guidelines for Writing System Support][sil-wsig], copyright © 2003 UNESCO and SIL International._
 
 [sil-wsig]: https://scripts.sil.org/wsi_guidelines.html
-[ss-char-browsing]: /articlelib/u/unicode-character-browsing/
-[ss-everyday-unicode]: /articlelib/e/everyday-unicode/
+[ws-char-browsing]: /articlelib/u/unicode-character-browsing/
+[ws-everyday-unicode]: /articlelib/e/everyday-unicode/
 [ss-understanding-unicode-i]: https://scripts.sil.org/IWS-Chapter04a
 [ss-understanding-unicode-ii]: https://scripts.sil.org/IWS-Chapter04b
-[ss-unicode-status]: /articlelib/u/unicode-character-browsing#finding-when-a-character-was-added-to-unicode
-[ss-unicode]: https://scriptsource.org/entry/z3hs8db5ct
+[ws-unicode-status]: /articlelib/u/unicode-character-browsing#finding-when-a-character-was-added-to-unicode
 [uni-code-charts]: https://www.unicode.org/charts/
 [uni-core-spec]: https://www.unicode.org/versions/latest/core-spec/
 [uni-membership]: https://home.unicode.org/membership/membership-levels/
