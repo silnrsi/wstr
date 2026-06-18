@@ -1,56 +1,39 @@
 ---
-title: Types of font families
-description: Recommendations for support the three types of font families.
+title: Font Family Structures
+description: Information on the three types of font families.
 sidebar:
-    order: 2550
-tags: [ribbi, variable, axis-based]
-lastUpdated: 2026-06-08
+    order: 5230
+lastUpdated: 2026-06-18
 ---
 
-## Three types of font families
+Font families can be structured in many ways, but most families are one of three types: RIBBI, Axis-based (Static), or Variable. In general, standard applications should be able to support the first two types: RIBBI and Axis-based. Variable fonts are used mainly for the web and require special application support to handle the various axes. 
 
-There are three types of font families. In general, standard applications should be able to support the first two types: RIBBI and Axis-based fonts. Variable fonts may need more attention to developing a UI to handle the potential weights. 
+## RIBBI families
 
-### RIBBI fonts
+Traditionally most digital font families were distributed as a set of four standard styles: Regular, Italic, Bold, and Bold Italic (RIBBI). Applications built their UIs based on this structure, with **B** and _I_ buttons. This traditional structure is becoming much less common, and applications that make this assumption in their UIs will find that an increasing number of font families will not work well, which may be frustrating to users. 
 
-Users are most familiar with fonts that have up to four different standard faces: Regular, Italic, Bold, and Bold-Italic.
+## Axis-based families
 
-### Axis-based fonts
+[Axis-based][axis-based] (or Static) font families generally go beyond the standard Regular, Italic, Bold, and Bold Italic styles. They commonly provide a wider range of weights such as Thin, ExtraLight, Light, Medium, SemiBold, ExtraBold, and Black. They may also provide other styles as well, such as different widths. They are called Axis-based as the styles refer to specified points along one or more axes, but each font file provides only a single (static) instance. 
 
-[Axis-based][axis-based] fonts generally go beyond the standard Regular, Italic, Bold, and Bold Italic type faces. They can provide other weights such as Thin, ExtraLight, Light, Medium, SemiBold, ExtraBold, Black, etc. They can also provide other styles as well, such as different widths.
+Some applications have trouble with these families, and may display these other weights as separate font families (except Bold). Ideally, an application should see, for example, **Gentium** as one family with ten **styles** rather than as separate fonts.
 
-Some applications will display these other weights as separate font families (except bold). Ideally, an application should see, for example, **Gentium** as one font with ten **faces** rather than as separate fonts.
+![Figure: Gentium weights](images/5230-gentium-weights.png)
 
-![Figure: Gentium weights](images/2550-gentium-weights.png "Display one font with ten weights")
+The application should then allow the user to specify which weights should be used for specific uses (text, headings, emphasis, etc.) through a styles mechanism, similar to how it is handled in CSS. Adobe InDesign is a good example of an application that handles Axis-based families well - and that does not have **B** or _I_ buttons. 
 
-If a user selects the Regular weight of Gentium, an application could then use the Bold weight for contrast (such as in headings).
-If the user selects Medium, then the heavier weight (such as for headings) should be ExtraBold.
-Applications should provide two different selections for fonts to handle these situation;
-one selection for the body text (Regular or Medium), and one selection for the heaver weight (Bold or ExtraBold).
+## Variable fonts
 
-If an application uses a second weight (such as bold) then there needs to be two selections for fonts.
+Variable fonts have all the potential styles in a single font file - or two if italic is included. They are primarily used in web-based applications, and in that environment they can be more flexible than static fonts. Variable fonts allow the user to specify the style as a set of arbitrary values along all provided axes, such as:
 
-[PTXprint][ptxprint] handles this appropriately. 
-
-### Variable fonts
-
-Variable fonts have all the potential styles (axes) in one single font file. They are primarily used in web-based applications, and in that environment they can be more flexible than static fonts. Variable fonts allow for choosing any style such as
-
-- weight (this is the most common axis)
+- weight (the most common axis)
 - width
-- slant
 - optical size
 
-Sliders or input fields are generally used to get the exact style required. Not all variable fonts support all the above axes,
- and some variable fonts support other axes as well.
-
-Variable font families with italics are built as two variable fonts; one for upright styles, one for italic styles. The slant axis is not used to select the italic styles, a different axis is used (the italic axis). Unlike the other axes, the italic axis only has two values, upright or italic (not a range like the other axes).
-
-Standard CSS properties like font-weight, font-style, or font-variation-settings can be used to fine-tune the preferred values.
+Sliders or input fields are generally used to set the exact values required, but other UIs are possible. Standard CSS properties like font-weight, font-style, or font-variation-settings can be used to fine-tune the preferred values.
 
 [Introducing variable fonts][google-vf] gives more details on Variable fonts.
 
 
-[axis-based]: https://software.sil.org/fonts/axis-based-fonts/#application-support
+[axis-based]: https://software.sil.org/fonts/axis-based-fonts/
 [google-vf]: https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
-[ptxprint]: https://software.sil.org/ptxprint/
