@@ -1,0 +1,26 @@
+---
+title: Grapheme Data for Russian written with Cyrillic script
+description: Grapheme/phonogram page
+sidebar:
+    hidden: true
+lastUpdated: 2026-06-18
+---
+
+import WsGraphemes from '../../../../components/WsGraphemes.astro';
+
+Note that Russian orthography is predominantly based on the concept of palatalization, which stems from the nature of consonants. Most consonants are paired as palatalized (also referred to as “soft”) and unpalatalized (“hard”). Russian palatalization is phonemic, with minimal pairs common, e.g. <span lang='xxx-Cyrl'>мат</span> (/mat/ - ‘checkmate’) and <span lang='xxx-Cyrl'>мать</span> (/matʲ/ - ‘mother’), and <span lang='xxx-Cyrl'>угол (/ugəl/ - ‘corner’) and <span lang='xxx-Cyrl'>уголь</span> (/ugəlʲ/ - ‘coal’). Certain consonants do not have palatalized (or soft) counterparts, and are considered to be always “hard”, i.e. <span lang='xxx-Cyrl'>ж</span>, /ʐ/; <span lang='xxx-Cyrl'>ш</span>, /ʂ/; <span lang='xxx-Cyrl'>ц</span>, /ʦ/; and others do not have unpalatalized counterparts, and are considered to be always “soft”, i.e. <span lang='xxx-Cyrl'>щ</span>, /ʃ/ and <span lang='xxx-Cyrl'>ч</span>, /ʧ/. Russian palatalized consonants also affect vowel orthography, creating a system of paired vowels as well (see note below). While it is inaccurate to describe vowels as being either “hard” or “soft”, the different written vowels are used to indicate that the preceding consonant sound is either “hard” (unpalatalized) or “soft” (palatalized). The vowels that are generally used following “hard” consonants are ‹<span lang='xxx-Latn'>a, э, о, у, ы</span>›. Their counterparts, which are used following “soft” consonants, include ‹<span lang='xxx-Cyrl'>я, е, ё, ю, и</span></span>›, respectively.  The presence of a soft or hard consonant when it appears word finally is represented in the orthography by the presence or absence of the “soft sign” ‹<span lang='xxx-Cyrl'>ь</span>›, while word medially the only indication of a consonant’s softness or hardness is usually the presence of the appropriate “soft” or “hard” vowel.
+
+Most Russian consonants can also be paired in terms of voicing, with the exception of ‹<span lang='xxx-Cyrl'>х, ц, ч, щ</span>›, which have no voiced counterparts (except in rare instances with foreign words), and ‹<span lang='xxx-Cyrl'>л, м, н, р</span>›, which have no voiceless counterparts. The presence or absence of voicing is important for pronunciation since Russian has both a regressive assimilation rule for the feature word-medially, as well as a word final devoicing rule. For example, /t/ (‹<span lang='xxx-Cyrl'>т</span>›) is the voiceless counterpart to /d/ (‹<span lang='xxx-Cyrl'>д</span>›), which in turn is the voiced counterpart to /t/ (‹<span lang='xxx-Cyrl'>т</span>›). A /t/ (‹<span lang='xxx-Cyrl'>т</span>›) will need to be voiced when immediately preceding a voiced consonant word-medially, resulting in a /d/ sound instead, while a /d/ will need to be devoiced either when immediately preceding a voiceless consonant or word-finally, resulting in a /t/ sound. The same is true for the “soft” forms of all “hard” consonants.
+
+**Note:** Consonant + vowel spelling conventions do not consistently reflect the distinction between palatal and non-palatal consonants. Therefore, some vowels that would usually signify a preceding palatalized (soft) consonant do appear following consonants that are always unpalatalized (hard). In such cases the vowel that is written does not reflect the actual pronunciation of the sound. This is particularly the case with both foreign loan words and also the case declensions of certain words (e.g. the prepositional case form of words like ). Of particular note is the fact that so-called “soft” vowels (‹<span lang='xxx-Cyrl'>е, ё, и, ю, я</span>›) can follow those sibilant fricatives and affricates which do not have palatalized counterparts, i.e. <span lang=''>xxx-Cyrl ж</span>, /ʐ/; <span lang='xxx-Cyrl'>ш</span>, /ʂ/; <span lang='xxx-Cyrl'>ц</span>, /ʦ/. These consonants are never “softened”. In such cases, the following vowels are pronounced as their counterpart vowels which are used to indicate a preceding unpalatalized (hard) consonant. Examples include words like <span lang=''>xxx-Cyrl цепь</span> 'chain', /ʦɛpj/; <span lang=''>xxx-Cyrl шесть</span> 'six' /ʂɛstj/; жить 'to live', /ʐɨtj/; <span lang=''>xxx-Cyrl Цю́рих</span> 'zürich', /ʦuɾix/.
+
+For further information, I recommend the chapter on phonology found in _Russian: A Linguistic Introduction_, by Paul Cubberley.
+
+Since allophones are not represented in this data, the nuances regarding vowel reduction rules are not represented here.
+
+For the sake of clarity, stress is indicated with an acute accent in all multi-syllable words, even if an accent wouldn’t be included in practical orthography. Note that an acute accent is not used over the vowel ‹<span lang='xxx-Latn'><span lang='xxx-Cyrl'>ё</span></span>›, which is always stressed.
+
+Contributors: Marc Canner, Emily Roth
+
+
+<WsGraphemes wsCode='ru-Cyrl' />
