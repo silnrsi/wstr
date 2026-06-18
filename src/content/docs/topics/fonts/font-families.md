@@ -26,7 +26,7 @@ The application should then allow the user to specify which weights should be us
 
 Variable fonts have all the potential styles in a single font file - or two if italic is included. They are primarily used in web-based applications, and in that environment they can be more flexible than static fonts. Variable fonts allow the user to specify the style as a set of arbitrary values along all provided axes, such as:
 
-- weight (he most common axis)
+- weight (the most common axis)
 - width
 - optical size
 
