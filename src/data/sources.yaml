@@ -170,6 +170,16 @@ arakun2009-ss:
   sortname: Arakun
   keywords: [script-bali]
   abstract: "The 18 consonants that are commonly used to write Balinese script."
+aritonang2000:
+  entrytype: misc
+  title: The encounter of the Batak people with Rheinische Missions-Gesellschaft in the field of education (1861-1940)
+  author: Jan Sihar Aritonang
+  sortname: Aritonang
+  url: https://web.archive.org/web/20120219033317/http://igitur-archive.library.uu.nl/dissertations/1922364/full.pdf
+  date: "2000-06-15"
+  publisher: Universiteit Utrecht
+  location: Utrecht
+  keywords: [script-batk]
 arkland2020-ss:
   entrytype: online
   title: The Rök Runestone
