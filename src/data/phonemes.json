@@ -1,58 +1,1802 @@
 {
-    "CONSONANTS": {},
-
-    "nas-bil": {
-        "symbol":   "m",
-        "label":    "bilabial nasal"
-    },
-    "nas-alv": {
-        "symbol":   "n",
-        "label":    "alveolar nasal"
-    },
-    "nas-vel": {
-        "symbol":   "ŋ",
-        "label":    "velar nasal"
-    },
-    "stp-bil-vl": {
-        "symbol":   "p",
-        "label":    "voiceless bilabial plosive"
-    },
-
-    "stp-bil-vd": {
-        "symbol":   "b",
-        "label":    "voiced bilabial plosive"
-    },
-    "stp-bil-vd-aspir": {
-        "symbol":   "bʰ",
-        "label":    "aspirated voiced bilabial plosive"
-    },
-    "stp-bil-vd-gemin": {
-        "symbol":   "bː",
-        "label":    "geminate voiced bilabial plosive"
-    },
-
-    "stp-alv-vd-phazd": {
-        "symbol":   "dˤ",
-        "label":    "pharyngealized voiced alveolar plosive"
-    },
-
-    "aff-pav-vl": {
-        "symbol":   "tʃ",
-        "label":    "voiceless post-alveolar affricate"
-    },
-    "aff-pav-vd": {
-        "symbol":   "dʒ",
-        "label":    "voiced post-alveolar affricate"
-    },
-    "aff-pal-vd": {
-        "symbol":   "ʝ",
-        "label":    "voiced palatal affricate"
-    },
-
-    "VOWELS": {},
-
-    "vwl_nf_op_unr": {
-        "symbol":   "a",
-        "label":    "open near-front unrounded vowel"
-    }
+	"nas-bil": {
+		"symbol":	"m",
+		"label":	"bilabial nasal",
+		"sortkey":	"c10_10"
+	},
+	"nas-bil-vl": {
+		"symbol":	"m̥",
+		"label":	"voiceless bilablial nasal",
+		"sortkey":	"c10_10_10"
+	},
+	"nas-bil-labzd": {
+		"symbol":	"mʷ",
+		"label":	"labialized bilabial nasal",
+		"sortkey":	"c10_10_120"
+	},
+	"nas-bil-palzd": {
+		"symbol":	"mʲ",
+		"label":	"palatalized bilabial nasal",
+		"sortkey":	"c10_10_140"
+	},
+	"nas-bil-gemin": {
+		"symbol":	"mː",
+		"label":	"geminate bilabial nasal",
+		"sortkey":	"c10_10_180"
+	},
+	"nas-bil-sylla": {
+		"symbol":	"m̩",
+		"label":	"syllabic bilabial nasal",
+		"sortkey":	"c10_10_195"
+	},
+	"nas-llb": {
+		"symbol":	"n̼",
+		"label":	"linguolabial nasal",
+		"sortkey":	"c10_15"
+	},
+	"nas-lbd": {
+		"symbol":	"ɱ",
+		"label":	"labiodental nasal",
+		"sortkey":	"c10_20"
+	},
+	"nas-den": {
+		"symbol":	"n̪",
+		"label":	"dental nasal",
+		"sortkey":	"c10_30"
+	},
+	"nas-den-palzd": {
+		"symbol":	"n̪ʲ",
+		"label":	"palatalized dental nasal",
+		"sortkey":	"c10_30_140"
+	},
+	"nas-alv": {
+		"symbol":	"n",
+		"label":	"alveolar nasal",
+		"sortkey":	"c10_35"
+	},
+	"nas-alv-vl": {
+		"symbol":	"n̥",
+		"label":	"voiceless alveolar nasal",
+		"sortkey":	"c10_35_10"
+	},
+	"nas-alv-labzd": {
+		"symbol":	"nʷ",
+		"label":	"labialized alveolar nasal",
+		"sortkey":	"c10_35_120"
+	},
+	"nas-alv-palzd": {
+		"symbol":	"nʲ",
+		"label":	"palatalized alveolar nasal",
+		"sortkey":	"c10_35_140"
+	},
+	"nas-alv-gemin": {
+		"symbol":	"nː",
+		"label":	"geminate alveolar nasal",
+		"sortkey":	"c10_35_180"
+	},
+	"nas-alv-sylla": {
+		"symbol":	"n̩",
+		"label":	"syllabic alveolar nasal",
+		"sortkey":	"c10_35_195"
+	},
+	"nas-ret": {
+		"symbol":	"ɳ",
+		"label":	"retroflex nasal",
+		"sortkey":	"c10_40"
+	},
+	"nas-alp": {
+		"symbol":	"ɲ̟",
+		"label":	"alveo-palatal nasal",
+		"sortkey":	"c10_50"
+	},
+	"nas-pal": {
+		"symbol":	"ɲ",
+		"label":	"palatal nasal",
+		"sortkey":	"c10_55"
+	},
+	"nas-pal-gemin": {
+		"symbol":	"ɲː",
+		"label":	"geminate palatal nasal",
+		"sortkey":	"c10_55_180"
+	},
+	"nas-vel": {
+		"symbol":	"ŋ",
+		"label":	"velar nasal",
+		"sortkey":	"c10_60"
+	},
+	"nas-vel-gemin": {
+		"symbol":	"ŋː",
+		"label":	"geminate velar nasal",
+		"sortkey":	"c10_60_180"
+	},
+	"nas-uvu": {
+		"symbol":	"ɴ",
+		"label":	"uvular nasal",
+		"sortkey":	"c10_70"
+	},
+	"stp-bil-vl": {
+		"symbol":	"p",
+		"label":	"voiceless bilabial plosive",
+		"sortkey":	"c20_10_10"
+	},
+	"stp-bil-vl-aspir": {
+		"symbol":	"pʰ",
+		"label":	"aspirated voiceless bilabial plosive",
+		"sortkey":	"c20_10_10_110"
+	},
+	"stp-bil-vl-labzd": {
+		"symbol":	"pʷ",
+		"label":	"labialized voiceless bilabial plosive",
+		"sortkey":	"c20_10_10_120"
+	},
+	"stp-bil-vl-palzd": {
+		"symbol":	"pʲ",
+		"label":	"palatalized voiceless bilabial plosive",
+		"sortkey":	"c20_10_10_140"
+	},
+	"stp-bil-vl-pnszd": {
+		"symbol":	"ᵐp",
+		"label":	"prenasalized voiceless bilabial plosive",
+		"sortkey":	"c20_10_10_160"
+	},
+	"stp-bil-vl-gemin": {
+		"symbol":	"pː",
+		"label":	"geminate voiceless bilabial plosive",
+		"sortkey":	"c20_10_10_180"
+	},
+	"stp-bil-vl-implo": {
+		"symbol":	"p̣",
+		"label":	"voiceless bilabial implosive",
+		"sortkey":	"c20_10_10_185"
+	},
+	"stp-bil-vd": {
+		"symbol":	"b",
+		"label":	"voiced bilabial plosive",
+		"sortkey":	"c20_10_20"
+	},
+	"stp-bil-vd-aspir": {
+		"symbol":	"bʰ",
+		"label":	"aspirated voiced bilabial plosive",
+		"sortkey":	"c20_10_20_110"
+	},
+	"stp-bil-vd-labzd": {
+		"symbol":	"bʷ",
+		"label":	"labialized voiced bilabial plosive",
+		"sortkey":	"c20_10_20_120"
+	},
+	"stp-bil-vd-palzd": {
+		"symbol":	"bʲ",
+		"label":	"palatalized voiced bilabial plosive",
+		"sortkey":	"c20_10_20_140"
+	},
+	"stp-bil-vd-pnszd": {
+		"symbol":	"ᵐb",
+		"label":	"prenasalized voiced bilabial plosive",
+		"sortkey":	"c20_10_20_160"
+	},
+	"stp-bil-vd-pnszd-labzd": {
+		"symbol":	"bⁿʷ",
+		"label":	"labialized prenasalized voiced bilabial plosive",
+		"sortkey":	"c20_10_20_160_120"
+	},
+	"stp-bil-vd-pnszd-palzd": {
+		"symbol":	"bⁿʲ",
+		"label":	"palatalized prenasalized voiced bilabial plosive",
+		"sortkey":	"c20_10_20_160_140"
+	},
+	"stp-bil-vd-gemin": {
+		"symbol":	"bː",
+		"label":	"geminate voiced bilabial plosive",
+		"sortkey":	"c20_10_20_180"
+	},
+	"stp-bil-vd-implo": {
+		"symbol":	"ɓ",
+		"label":	"voiced bilabial implosive",
+		"sortkey":	"c20_10_20_185"
+	},
+	"stp-bil-vd-implo-gemin": {
+		"symbol":	"ɓː",
+		"label":	"geminate voiced bilabial implosive",
+		"sortkey":	"c20_10_20_185_180"
+	},
+	"stp-bil-vd-breat": {
+		"symbol":	"bʱ",
+		"label":	"breathy voiced bilabial plosive",
+		"sortkey":	"c20_10_20_70"
+	},
+	"stp-llb-vl": {
+		"symbol":	"t̼",
+		"label":	"voiceless linguolabial plosive",
+		"sortkey":	"c20_15_10"
+	},
+	"stp-llb-vd": {
+		"symbol":	"d̼",
+		"label":	"voiced linguolabial plosive",
+		"sortkey":	"c20_15_20"
+	},
+	"stp-den-vl": {
+		"symbol":	"t̪",
+		"label":	"voiceless dental plosive",
+		"sortkey":	"c20_30_10"
+	},
+	"stp-den-vl-aspir": {
+		"symbol":	"t̪ʰ",
+		"label":	"aspirated voiceless dental plosive",
+		"sortkey":	"c20_30_10_110"
+	},
+	"stp-den-vl-palzd": {
+		"symbol":	"t̪ʲ",
+		"label":	"palatalized voiceless dental plosive",
+		"sortkey":	"c20_30_10_140"
+	},
+	"stp-den-vd": {
+		"symbol":	"d̪",
+		"label":	"voiced dental plosive",
+		"sortkey":	"c20_30_20"
+	},
+	"stp-den-vd-aspir": {
+		"symbol":	"d̪ʰ",
+		"label":	"aspirated voiced dental plosive",
+		"sortkey":	"c20_30_20_110"
+	},
+	"stp-den-vd-palzd": {
+		"symbol":	"d̪ʲ",
+		"label":	"palatalized voiced dental plosive",
+		"sortkey":	"c20_30_20_140"
+	},
+	"stp-den-vd-pnszd": {
+		"symbol":	"ⁿd̪",
+		"label":	"prenasalized voiced dental plosive",
+		"sortkey":	"c20_30_20_160"
+	},
+	"stp-den-vd-implo": {
+		"symbol":	"ɗ̪",
+		"label":	"voiced dental implosive",
+		"sortkey":	"c20_30_20_185"
+	},
+	"stp-den-vd-implo-gemin": {
+		"symbol":	"ɗ̪ː",
+		"label":	"geminate voiced dental implosive",
+		"sortkey":	"c20_30_20_185_180"
+	},
+	"stp-alv-vl": {
+		"symbol":	"t",
+		"label":	"voiceless alveolar plosive",
+		"sortkey":	"c20_35_10"
+	},
+	"stp-alv-vl-aspir": {
+		"symbol":	"tʰ",
+		"label":	"aspirated voiceless alveolar plosive",
+		"sortkey":	"c20_35_10_110"
+	},
+	"stp-alv-vl-palzd": {
+		"symbol":	"tʲ",
+		"label":	"palatalized voiceless alveolar plosive",
+		"sortkey":	"c20_35_10_140"
+	},
+	"stp-alv-vl-phazd": {
+		"symbol":	"tˤ",
+		"label":	"pharyngealized voiceless alveolar plosive",
+		"sortkey":	"c20_35_10_150"
+	},
+	"stp-alv-vl-pnszd": {
+		"symbol":	"ⁿt",
+		"label":	"prenasalized voiceless alveolar plosive",
+		"sortkey":	"c20_35_10_160"
+	},
+	"stp-alv-vl-gemin": {
+		"symbol":	"tː",
+		"label":	"geminate voiceless alveolar plosive",
+		"sortkey":	"c20_35_10_180"
+	},
+	"stp-alv-vl-implo": {
+		"symbol":	"ṭ",
+		"label":	"voiceless alveolar implosive",
+		"sortkey":	"c20_35_10_185"
+	},
+	"stp-alv-vd": {
+		"symbol":	"d",
+		"label":	"voiced alveolar plosive",
+		"sortkey":	"c20_35_20"
+	},
+	"stp-alv-vd-aspir": {
+		"symbol":	"dʰ",
+		"label":	"aspirated voiced alveolar plosive",
+		"sortkey":	"c20_35_20_10"
+	},
+	"stp-alv-vd-palzd": {
+		"symbol":	"dʲ",
+		"label":	"palatalized voiced alveolar plosive",
+		"sortkey":	"c20_35_20_140"
+	},
+	"stp-alv-vd-phazd": {
+		"symbol":	"dˤ",
+		"label":	"pharyngealized voiced alveolar plosive",
+		"sortkey":	"c20_35_20_150"
+	},
+	"stp-alv-vd-pnszd": {
+		"symbol":	"ⁿd",
+		"label":	"prenasalized voiced alveolar plosive",
+		"sortkey":	"c20_35_20_160"
+	},
+	"stp-alv-vd-gemin": {
+		"symbol":	"dː",
+		"label":	"geminate voiced alveolar plosive",
+		"sortkey":	"c20_35_20_180"
+	},
+	"stp-alv-vd-implo": {
+		"symbol":	"ɗ",
+		"label":	"voiced alveolar implosive",
+		"sortkey":	"c20_35_20_185"
+	},
+	"stp-ret-vl": {
+		"symbol":	"ʈ",
+		"label":	"voiceless retroflex plosive",
+		"sortkey":	"c20_40_10"
+	},
+	"stp-ret-vl-aspir": {
+		"symbol":	"ʈʰ",
+		"label":	"aspirated voiceless retroflex plosive",
+		"sortkey":	"c20_40_10_110"
+	},
+	"stp-ret-vd": {
+		"symbol":	"ɖ",
+		"label":	"voiced retroflex plosive",
+		"sortkey":	"c20_40_20"
+	},
+	"stp-ret-vd-aspir": {
+		"symbol":	"ɖʰ",
+		"label":	"aspirated voiced retroflex plosive",
+		"sortkey":	"c20_40_20_110"
+	},
+	"stp-ret-vd-pnszd": {
+		"symbol":	"ᶯɖ",
+		"label":	"prenasalized voiced retroflex plosive",
+		"sortkey":	"c20_40_20_160"
+	},
+	"stp-ret-vd-breat": {
+		"symbol":	"ɖʱ",
+		"label":	"breathy voiced retroflex plosive",
+		"sortkey":	"c20_40_20_70"
+	},
+	"stp-pal-vl": {
+		"symbol":	"c",
+		"label":	"voiceless palatal plosive",
+		"sortkey":	"c20_55_10"
+	},
+	"stp-pal-vl-pnszd": {
+		"symbol":	"ᶮc",
+		"label":	"prenasalized voiceless palatal plosive",
+		"sortkey":	"c20_55_10_160"
+	},
+	"stp-pal-vl-gemin": {
+		"symbol":	"cː",
+		"label":	"geminate voiceless palatal plosive",
+		"sortkey":	"c20_55_10_180"
+	},
+	"stp-pal-vl-implo": {
+		"symbol":	"c̣",
+		"label":	"voiceless palatal implosive",
+		"sortkey":	"c20_55_10_185"
+	},
+	"stp-pal-vd": {
+		"symbol":	"ɟ",
+		"label":	"voiced palatal stop",
+		"sortkey":	"c20_55_20"
+	},
+	"stp-vel-vl": {
+		"symbol":	"k",
+		"label":	"voiceless velar plosive",
+		"sortkey":	"c20_60_10"
+	},
+	"stp-vel-vl-aspir": {
+		"symbol":	"kʰ",
+		"label":	"aspirated voiceless velar plosive",
+		"sortkey":	"c20_60_10_110"
+	},
+	"stp-vel-vl-labzd": {
+		"symbol":	"kʷ",
+		"label":	"labialized voiceless velar plosive",
+		"sortkey":	"c20_60_10_120"
+	},
+	"stp-vel-vl-palzd": {
+		"symbol":	"kʲ",
+		"label":	"palatalized voiceless velar plosive",
+		"sortkey":	"c20_60_10_140"
+	},
+	"stp-vel-vl-pnszd": {
+		"symbol":	"ᵑk",
+		"label":	"prenasalized voiceless velar plosive",
+		"sortkey":	"c20_60_10_160"
+	},
+	"stp-vel-vl-gemin": {
+		"symbol":	"kː",
+		"label":	"geminate voiceless velar plosive",
+		"sortkey":	"c20_60_10_180"
+	},
+	"stp-vel-vl-eject": {
+		"symbol":	"k'",
+		"label":	"voiceless velar ejective",
+		"sortkey":	"c20_60_10_190"
+	},
+	"stp-vel-vl-eject-labzd": {
+		"symbol":	"kʷ'",
+		"label":	"labialized voiceless velar ejective",
+		"sortkey":	"c20_60_10_190_120"
+	},
+	"stp-vel-vl-eject-palzd": {
+		"symbol":	"kʲ'",
+		"label":	"palatalized voiceless velar ejective",
+		"sortkey":	"c20_60_10_190_140"
+	},
+	"stp-vel-vd": {
+		"symbol":	"g",
+		"label":	"voiced velar plosive",
+		"sortkey":	"c20_60_20"
+	},
+	"stp-vel-vd-aspir": {
+		"symbol":	"gʰ",
+		"label":	"aspirated voiced velar plosive",
+		"sortkey":	"c20_60_20_110"
+	},
+	"stp-vel-vd-labzd": {
+		"symbol":	"gʷ",
+		"label":	"labialized voiced velar plosive",
+		"sortkey":	"c20_60_20_120"
+	},
+	"stp-vel-vd-palzd": {
+		"symbol":	"gʲ",
+		"label":	"palatalized voiced velar plosive",
+		"sortkey":	"c20_60_20_140"
+	},
+	"stp-vel-vd-pnszd": {
+		"symbol":	"ᵑg",
+		"label":	"prenasalized voiced velar plosive",
+		"sortkey":	"c20_60_20_160"
+	},
+	"stp-vel-vd-pnszd-labzd": {
+		"symbol":	"gⁿʷ",
+		"label":	"labialized prenasalized voiced velar plosive",
+		"sortkey":	"c20_60_20_160_120"
+	},
+	"stp-vel-vd-gemin": {
+		"symbol":	"gː",
+		"label":	"geminate voiced velar plosive",
+		"sortkey":	"c20_60_20_180"
+	},
+	"stp-vel-vd-breat": {
+		"symbol":	"gʱ",
+		"label":	"breathy voiced velar plosive",
+		"sortkey":	"c20_60_20_70"
+	},
+	"stp-uvu-vl": {
+		"symbol":	"q",
+		"label":	"voiceless uvular stop",
+		"sortkey":	"c20_70_10"
+	},
+	"stp-uvu-vl-pnszd": {
+		"symbol":	"q",
+		"label":	"prenasalized voiceless uvular stop",
+		"sortkey":	"c20_70_10_160"
+	},
+	"stp-glo-vl": {
+		"symbol":	"ʔ",
+		"label":	"voiceless glottal stop",
+		"sortkey":	"c20_90_10"
+	},
+	"stp-glo-vl-labzd": {
+		"symbol":	"ʔʷ",
+		"label":	"labialized voiceless glottal stop",
+		"sortkey":	"c20_90_10_120"
+	},
+	"stp-glo-vl-palzd": {
+		"symbol":	"ʔʲ",
+		"label":	"palatalized voiceless glottal stop",
+		"sortkey":	"c20_90_10_140"
+	},
+	"stp-glo-vl-gemin": {
+		"symbol":	"ʔː",
+		"label":	"geminate voiceless glottal stop",
+		"sortkey":	"c20_90_10_180"
+	},
+	"cli-bil": {
+		"symbol":	"ʘ",
+		"label":	"bilabial click",
+		"sortkey":	"c25_10"
+	},
+	"cli-den": {
+		"symbol":	"ǀ",
+		"label":	"dental click",
+		"sortkey":	"c25_30"
+	},
+	"cli-alv-later": {
+		"symbol":	"ǁ",
+		"label":	"alveolar lateral click",
+		"sortkey":	"c25_35"
+	},
+	"cli-pav": {
+		"symbol":	"ǃ",
+		"label":	"post-alveolar click",
+		"sortkey":	"c25_45"
+	},
+	"cli-pal": {
+		"symbol":	"ǂ",
+		"label":	"palatal click",
+		"sortkey":	"c25_55"
+	},
+	"aff-den-vl": {
+		"symbol":	"t̪s",
+		"label":	"voiceless dental affricate",
+		"sortkey":	"c30_30_10"
+	},
+	"aff-den-vd": {
+		"symbol":	"d̪z",
+		"label":	"voiced dental affricate",
+		"sortkey":	"c30_30_20"
+	},
+	"aff-alv-vl": {
+		"symbol":	"ts",
+		"label":	"voiceless alveolar affricate",
+		"sortkey":	"c30_35_10"
+	},
+	"aff-alv-vl-aspir": {
+		"symbol":	"tsʰ",
+		"label":	"aspirated voiceless alveolar affricate",
+		"sortkey":	"c30_35_10_110"
+	},
+	"aff-alv-vl-palzd": {
+		"symbol":	"tsʲ",
+		"label":	"palatalized voiceless alveolar affricate",
+		"sortkey":	"c30_35_10_40"
+	},
+	"aff-alv-vd": {
+		"symbol":	"dz",
+		"label":	"voiced alveolar affricate",
+		"sortkey":	"c30_35_20"
+	},
+	"aff-alv-vd-pnszd": {
+		"symbol":	"ⁿdz",
+		"label":	"prenasalized voiced alveolar affricate",
+		"sortkey":	"c30_35_20_160"
+	},
+	"aff-ret-vl": {
+		"symbol":	"tʂ",
+		"label":	"voiceless retroflex affricate",
+		"sortkey":	"c30_40_10"
+	},
+	"aff-ret-vl-aspir": {
+		"symbol":	"tʂʰ",
+		"label":	"aspirated voiceless retroflex affricate",
+		"sortkey":	"c30_40_10_110"
+	},
+	"aff-ret-vd": {
+		"symbol":	"dʐ",
+		"label":	"voiced retroflex affricate",
+		"sortkey":	"c30_40_20"
+	},
+	"aff-ret-vd-pnszd": {
+		"symbol":	"ᶯdʐ",
+		"label":	"prenasalized voiced retroflex affricate",
+		"sortkey":	"c30_40_20_160"
+	},
+	"aff-pav-vl": {
+		"symbol":	"tʃ",
+		"label":	"voiceless post-alveolar affricate",
+		"sortkey":	"c30_45_10"
+	},
+	"aff-pav-vl-aspir": {
+		"symbol":	"tʃʰ",
+		"label":	"aspirated voiceless post-alveolar affricate",
+		"sortkey":	"c30_45_10_10"
+	},
+	"aff-pav-vl-labzd": {
+		"symbol":	"tʃʷ",
+		"label":	"labialized voiceless post-alveolar affricate",
+		"sortkey":	"c30_45_10_120"
+	},
+	"aff-pav-vl-gemin": {
+		"symbol":	"tʃː",
+		"label":	"geminate voiceless post-alveolar affricate",
+		"sortkey":	"c30_45_10_180"
+	},
+	"aff-pav-vl-eject": {
+		"symbol":	"tʃ'",
+		"label":	"ejective voiceless post-alveolar affricate",
+		"sortkey":	"c30_45_10_190"
+	},
+	"aff-pav-vd": {
+		"symbol":	"dʒ",
+		"label":	"voiced post-alveolar affricate",
+		"sortkey":	"c30_45_20"
+	},
+	"aff-pav-vd-labzd": {
+		"symbol":	"dʒʷ",
+		"label":	"labialized voiced post-alveolar affricate",
+		"sortkey":	"c30_45_20_120"
+	},
+	"aff-pav-vd-pnszd": {
+		"symbol":	"dʒ",
+		"label":	"prenasalized voiced post-alveolar affricate",
+		"sortkey":	"c30_45_20_160"
+	},
+	"aff-pav-vd-breat": {
+		"symbol":	"dʒʱ",
+		"label":	"breathy voiced post-alveolar affricate",
+		"sortkey":	"c30_45_20_170"
+	},
+	"aff-pav-vd-gemin": {
+		"symbol":	"dʒː",
+		"label":	"geminate voiced post-alveolar affricate",
+		"sortkey":	"c30_45_20_180"
+	},
+	"aff-alp-vl": {
+		"symbol":	"tɕ",
+		"label":	"voiceless alveo-palatal affricate",
+		"sortkey":	"c30_50_10"
+	},
+	"aff-alp-vl-aspir": {
+		"symbol":	"tɕʰ",
+		"label":	"aspirated voiceless alveo-palatal affricate",
+		"sortkey":	"c30_50_10_110"
+	},
+	"aff-alp-vl-breat": {
+		"symbol":	"tɕʱ",
+		"label":	"breathy voiceless alveo-palatal affricate",
+		"sortkey":	"c30_50_10_70"
+	},
+	"aff-alp-vd": {
+		"symbol":	"dʑ",
+		"label":	"voiced alveo-palatal affricate",
+		"sortkey":	"c30_50_20"
+	},
+	"aff-alp-vd-pnszd": {
+		"symbol":	"ᶮdʑ",
+		"label":	"prenasalized voiced alveo-palatal affricate",
+		"sortkey":	"c30_50_20_160"
+	},
+	"aff-pal-vl": {
+		"symbol":	"cç",
+		"label":	"voiceless palatal affricate",
+		"sortkey":	"c30_55_10"
+	},
+	"aff-pal-vd": {
+		"symbol":	"ʝ",
+		"label":	"voiced palatal affricate",
+		"sortkey":	"c30_55_20"
+	},
+	"fri-bil-vl": {
+		"symbol":	"ɸ",
+		"label":	"voiceless bilabial fricative",
+		"sortkey":	"c40_10_10"
+	},
+	"fri-bil-vd": {
+		"symbol":	"β",
+		"label":	"voiced bilabial fricative",
+		"sortkey":	"c40_10_20"
+	},
+	"fri-llb-vl": {
+		"symbol":	"s̼",
+		"label":	"voiceless linguolabial fricative",
+		"sortkey":	"c40_15_10"
+	},
+	"fri-llb-vd": {
+		"symbol":	"z̼",
+		"label":	"voiced linguolabial fricative",
+		"sortkey":	"c40_15_20"
+	},
+	"fri-lbd-vl": {
+		"symbol":	"f",
+		"label":	"voiceless labiodental fricative",
+		"sortkey":	"c40_20_10"
+	},
+	"fri-lbd-vl-palzd": {
+		"symbol":	"fʲ",
+		"label":	"palatalized voiceless labiodental fricative",
+		"sortkey":	"c40_20_10_140"
+	},
+	"fri-lbd-vl-gemin": {
+		"symbol":	"fː",
+		"label":	"geminate voiceless labio-dental fricative",
+		"sortkey":	"c40_20_10_180"
+	},
+	"fri-lbd-vd": {
+		"symbol":	"v",
+		"label":	"voiced labiodental fricative",
+		"sortkey":	"c40_20_20"
+	},
+	"fri-lbd-vd-labzd": {
+		"symbol":	"vʷ",
+		"label":	"labialized voiced labiodental fricative",
+		"sortkey":	"c40_20_20_120"
+	},
+	"fri-lbd-vd-palzd": {
+		"symbol":	"vʲ",
+		"label":	"palatalized voiced labiodental fricative",
+		"sortkey":	"c40_20_20_140"
+	},
+	"fri-den-vl": {
+		"symbol":	"θ",
+		"label":	"voiceless dental fricative",
+		"sortkey":	"c40_30_10"
+	},
+	"fri-den-vl-palzd": {
+		"symbol":	"θʲ",
+		"label":	"palatalized voiceless dental fricative",
+		"sortkey":	"c40_30_10_140"
+	},
+	"fri-den-vl-gemin": {
+		"symbol":	"θː",
+		"label":	"geminate voiceless dental fricative",
+		"sortkey":	"c40_30_10_180"
+	},
+	"fri-den-vd": {
+		"symbol":	"ð",
+		"label":	"voiced dental fricative",
+		"sortkey":	"c40_30_20"
+	},
+	"fri-den-vd-palzd": {
+		"symbol":	"ðʲ",
+		"label":	"palatalized voiced dental fricative",
+		"sortkey":	"c40_30_20_140"
+	},
+	"fri-den-vd-phazd": {
+		"symbol":	"ðˤ",
+		"label":	"pharyngealized voiced dental fricative",
+		"sortkey":	"c40_30_20_150"
+	},
+	"fri-alv-vl": {
+		"symbol":	"s",
+		"label":	"voiceless alveolar fricative",
+		"sortkey":	"c40_35_10"
+	},
+	"fri-alv-vl-labzd": {
+		"symbol":	"sʷ",
+		"label":	"labialized voiceless alveolar fricative",
+		"sortkey":	"c40_35_10_120"
+	},
+	"fri-alv-vl-phazd": {
+		"symbol":	"sˤ",
+		"label":	"pharyngealized voiceless alveolar fricative",
+		"sortkey":	"c40_35_10_150"
+	},
+	"fri-alv-vl-phazd-gemin": {
+		"symbol":	"sˤː",
+		"label":	"geminate pharyngealized voiceless alveolar fricative",
+		"sortkey":	"c40_35_10_150_180"
+	},
+	"fri-alv-vl-gemin": {
+		"symbol":	"sː",
+		"label":	"geminate voiceless alveolar fricative",
+		"sortkey":	"c40_35_10_180"
+	},
+	"fri-alv-vl-palzd": {
+		"symbol":	"sʲ",
+		"label":	"palatalized voiceless alveolar fricative",
+		"sortkey":	"c40_35_10_40"
+	},
+	"fri-alv-vd": {
+		"symbol":	"z",
+		"label":	"voiced alveolar fricative",
+		"sortkey":	"c40_35_20"
+	},
+	"fri-alv-vd-labzd": {
+		"symbol":	"zʷ",
+		"label":	"labialized voiced alveolar fricative",
+		"sortkey":	"c40_35_20_120"
+	},
+	"fri-alv-vd-phazd": {
+		"symbol":	"zˤ",
+		"label":	"pharyngealized voiced alveolar fricative",
+		"sortkey":	"c40_35_20_150"
+	},
+	"fri-alv-vd-phazd-gemin": {
+		"symbol":	"zˤː",
+		"label":	"geminate pharyngealized voiced alveolar fricative",
+		"sortkey":	"c40_35_20_150_180"
+	},
+	"fri-alv-vd-eject": {
+		"symbol":	"z'",
+		"label":	"ejective voiced alveolar fricative",
+		"sortkey":	"c40_35_20_190"
+	},
+	"fri-alv-vd-palzd": {
+		"symbol":	"zʲ",
+		"label":	"palatalized voiced alveolar fricative",
+		"sortkey":	"c40_35_20_40"
+	},
+	"fri-ret-vl": {
+		"symbol":	"ʂ",
+		"label":	"voiceless retroflex fricative",
+		"sortkey":	"c40_40_10"
+	},
+	"fri-ret-vd": {
+		"symbol":	"ʐ",
+		"label":	"voiced retroflex fricative",
+		"sortkey":	"c40_40_20"
+	},
+	"fri-rpa-vl": {
+		"symbol":	"ᶘ",
+		"label":	"voiceless retroflex post-alveolar fricative",
+		"sortkey":	"c40_43_10"
+	},
+	"fri-rpa-vd": {
+		"symbol":	"ᶚ",
+		"label":	"voiced retroflex post-alveolar fricative",
+		"sortkey":	"c40_43_20"
+	},
+	"fri-pav-vl": {
+		"symbol":	"ʃ",
+		"label":	"voiceless post-alveolar fricative",
+		"sortkey":	"c40_45_10"
+	},
+	"fri-pav-vd": {
+		"symbol":	"ʒ",
+		"label":	"voiced post-alveolar fricative",
+		"sortkey":	"c40_45_20"
+	},
+	"fri-alp-vl": {
+		"symbol":	"ɕ",
+		"label":	"voiceless alveo-palatal fricative",
+		"sortkey":	"c40_50_10"
+	},
+	"fri-alp-vl-palzd": {
+		"symbol":	"ɕʲ",
+		"label":	"palatalized voiceless alveo-palatal fricative",
+		"sortkey":	"c40_50_10_140"
+	},
+	"fri-alp-vd": {
+		"symbol":	"ʑ",
+		"label":	"voiced alveo-palatal fricative",
+		"sortkey":	"c40_50_20"
+	},
+	"fri-vel-vl": {
+		"symbol":	"x",
+		"label":	"voiceless velar fricative",
+		"sortkey":	"c40_60_10"
+	},
+	"fri-vel-vl-palzd": {
+		"symbol":	"xʲ",
+		"label":	"palatalized voiceless velar fricative",
+		"sortkey":	"c40_60_10_140"
+	},
+	"fri-vel-vd": {
+		"symbol":	"ɣ",
+		"label":	"voiced velar fricative",
+		"sortkey":	"c40_60_20"
+	},
+	"fri-uvu-vl": {
+		"symbol":	"χ",
+		"label":	"voiceless uvular fricative",
+		"sortkey":	"c40_70_10"
+	},
+	"fri-uvu-vd": {
+		"symbol":	"ʁ",
+		"label":	"voiced uvular fricative",
+		"sortkey":	"c40_70_20"
+	},
+	"fri-pha-vl": {
+		"symbol":	"ħ",
+		"label":	"voiceless pharyngeal fricative",
+		"sortkey":	"c40_80_10"
+	},
+	"fri-pha-vd": {
+		"symbol":	"ʕ",
+		"label":	"voiced pharyngeal fricative",
+		"sortkey":	"c40_80_20"
+	},
+	"fri-epi-vl": {
+		"symbol":	"ʜ",
+		"label":	"voiceless epiglottal fricative",
+		"sortkey":	"c40_85_10"
+	},
+	"fri-epi-vd": {
+		"symbol":	"ʢ̰",
+		"label":	"voiced epiglottal fricative",
+		"sortkey":	"c40_85_20"
+	},
+	"fri-glo-vl": {
+		"symbol":	"h",
+		"label":	"voiceless glottal fricative",
+		"sortkey":	"c40_90_10"
+	},
+	"fri-glo-vl-labzd": {
+		"symbol":	"hʷ",
+		"label":	"labialized voiceless glottal fricative",
+		"sortkey":	"c40_90_10_120"
+	},
+	"fri-glo-vl-palzd": {
+		"symbol":	"hʲ",
+		"label":	"palatalized voiceless glottal fricative",
+		"sortkey":	"c40_90_10_140"
+	},
+	"fri-glo-vd": {
+		"symbol":	"ɦ",
+		"label":	"voiced glottal fricative",
+		"sortkey":	"c40_90_20"
+	},
+	"trl-alv": {
+		"symbol":	"r",
+		"label":	"alveolar trill",
+		"sortkey":	"c50_35"
+	},
+	"trl-alv-gemin": {
+		"symbol":	"rː",
+		"label":	"geminate alveolar trill",
+		"sortkey":	"c50_35_180"
+	},
+	"trl-alv-palzd": {
+		"symbol":	"rʲ",
+		"label":	"palatalized alveolar trill",
+		"sortkey":	"c50_35_40"
+	},
+	"trl-alv-phazd": {
+		"symbol":	"rˤ",
+		"label":	"pharyngealized alveolar trill",
+		"sortkey":	"c50_35_50"
+	},
+	"tap-bil-vd": {
+		"symbol":	"ⱱ̟",
+		"label":	"bilabial flap",
+		"sortkey":	"c60_10_20"
+	},
+	"tap-lbd-vd": {
+		"symbol":	"ⱱ",
+		"label":	"labiodental flap",
+		"sortkey":	"c60_20_20"
+	},
+	"tap-alv": {
+		"symbol":	"ɾ",
+		"label":	"alveolar tap",
+		"sortkey":	"c60_35"
+	},
+	"tap-alv-labzd": {
+		"symbol":	"ɾʷ",
+		"label":	"labialized alveolar tap",
+		"sortkey":	"c60_35_120"
+	},
+	"tap-alv-palzd": {
+		"symbol":	"ɾʲ",
+		"label":	"palatalized alveolar tap",
+		"sortkey":	"c60_35_140"
+	},
+	"tap-alv-gemin": {
+		"symbol":	"ɾː",
+		"label":	"geminate alveolar tap",
+		"sortkey":	"c60_35_180"
+	},
+	"tap-ret": {
+		"symbol":	"ɽ",
+		"label":	"retroflex flap",
+		"sortkey":	"c60_40"
+	},
+	"tap-ret-breat": {
+		"symbol":	"ɽʱ",
+		"label":	"breathy retroflex flap",
+		"sortkey":	"c60_40_70"
+	},
+	"lap-alv": {
+		"symbol":	"l",
+		"label":	"alveolar lateral approximant",
+		"sortkey":	"c75_35"
+	},
+	"lap-alv-vl": {
+		"symbol":	"l̥",
+		"label":	"voiceless alveolar lateral approximant",
+		"sortkey":	"c75_35_10"
+	},
+	"lap-alv-palzd": {
+		"symbol":	"lʲ",
+		"label":	"palatalized alveolar lateral approximant",
+		"sortkey":	"c75_35_140"
+	},
+	"lap-alv-gemin": {
+		"symbol":	"lː",
+		"label":	"geminate alveolar lateral approximant",
+		"sortkey":	"c75_35_180"
+	},
+	"lap-alv-breat": {
+		"symbol":	"lˤ",
+		"label":	"breathy alveolar lateral approximant",
+		"sortkey":	"c75_35_70"
+	},
+	"lap-ret": {
+		"symbol":	"ɭ",
+		"label":	"retroflex lateral approximant",
+		"sortkey":	"c75_40"
+	},
+	"lap-pal": {
+		"symbol":	"ʎ",
+		"label":	"palatal lateral approximant",
+		"sortkey":	"c75_55"
+	},
+	"app-bil": {
+		"symbol":	"w",
+		"label":	"bilabial approximant",
+		"sortkey":	"c80_10"
+	},
+	"app-bil-gemin": {
+		"symbol":	"wː",
+		"label":	"geminate bilabial approximant",
+		"sortkey":	"c80_10_180"
+	},
+	"app-lbd": {
+		"symbol":	"ʋ",
+		"label":	"labiodental approximant",
+		"sortkey":	"c80_20"
+	},
+	"app-ret": {
+		"symbol":	"ɻ",
+		"label":	"retroflex approximant",
+		"sortkey":	"c80_40"
+	},
+	"app-pal": {
+		"symbol":	"j",
+		"label":	"palatal approximant",
+		"sortkey":	"c80_55"
+	},
+	"app-pal-phazd": {
+		"symbol":	"jˤ",
+		"label":	"pharyngealized palatal approximant",
+		"sortkey":	"c80_55_150"
+	},
+	"app-pal-pglzd": {
+		"symbol":	"ˀj",
+		"label":	"preglottalized palatal approximant",
+		"sortkey":	"c80_55_155"
+	},
+	"app-pal-gltzd": {
+		"symbol":	"jˀ",
+		"label":	"glottalized palatal approximant",
+		"sortkey":	"c80_55_157"
+	},
+	"app-pal-gemin": {
+		"symbol":	"jː",
+		"label":	"geminate palatal approximant",
+		"sortkey":	"c80_55_180"
+	},
+	"app-pal-implo": {
+		"symbol":	"j̣",
+		"label":	"implosive palatal approximant",
+		"sortkey":	"c80_55_185"
+	},
+	"app-pal-labzd": {
+		"symbol":	"ɥ",
+		"label":	"labial-palatal approximant",
+		"sortkey":	"c80_55_20"
+	},
+	"app-pal-naszd": {
+		"symbol":	"j̃",
+		"label":	"nasalized palatal approximant",
+		"sortkey":	"c80_55_60"
+	},
+	"app-vel": {
+		"symbol":	"ɰ",
+		"label":	"velar approximant",
+		"sortkey":	"c80_60"
+	},
+	"cons-null": {
+		"symbol":	"∅",
+		"label":	"null",
+		"sortkey":	"c99"
+	},
+	"dart-nas-vel+nas-bil": {
+		"symbol":	"ŋ͡m",
+		"label":	"labial-velar nasal",
+		"sortkey":	"cd10_60+10_10"
+	},
+	"dart-stp-pal-vd+stp-bil-vd": {
+		"symbol":	"ɟ͡b",
+		"label":	"voiced labial-palatal plosive",
+		"sortkey":	"cd20_55_20+20_10_20"
+	},
+	"dart-stp-vel-vl+stp-bil-vl": {
+		"symbol":	"k͡p",
+		"label":	"voiceless labial-velar plosive",
+		"sortkey":	"cd20_60_10+20_10_10"
+	},
+	"dart-stp-vel-vl-aspir+stp-bil-vl-aspir": {
+		"symbol":	"kʰ͡pʰ",
+		"label":	"aspirated voiceless labial-velar plosive",
+		"sortkey":	"cd20_60_10_110+20_10_10_110"
+	},
+	"dart-stp-vel-vd+stp-bil-vd": {
+		"symbol":	"g͡b",
+		"label":	"voiced labial-velar plosive",
+		"sortkey":	"cd20_60_20+20_10_20"
+	},
+	"tone-xhigh": {
+		"symbol":	"˥",
+		"label":	"extra-high tone",
+		"sortkey":	"t10"
+	},
+	"tone-xhigh+high": {
+		"symbol":	"˥˦",
+		"label":	"extra-high to high tone",
+		"sortkey":	"t10_20"
+	},
+	"tone-xhigh+med": {
+		"symbol":	"˥˧",
+		"label":	"extra-high to medium tone",
+		"sortkey":	"t10_30"
+	},
+	"tone-xhigh+low": {
+		"symbol":	"˥˨",
+		"label":	"extra-high to low tone",
+		"sortkey":	"t10_40"
+	},
+	"tone-xhigh+xlow": {
+		"symbol":	"˥˩",
+		"label":	"extra-high to extra-low tone",
+		"sortkey":	"t10_50"
+	},
+	"tone-high": {
+		"symbol":	"˦",
+		"label":	"high tone",
+		"sortkey":	"t20"
+	},
+	"tone-high+xhigh": {
+		"symbol":	"˦˥",
+		"label":	"high to extra-high tone",
+		"sortkey":	"t20_10"
+	},
+	"tone-high+med": {
+		"symbol":	"˦˧",
+		"label":	"high to medium tone",
+		"sortkey":	"t20_30"
+	},
+	"tone-high+low": {
+		"symbol":	"˦˨",
+		"label":	"high to low tone",
+		"sortkey":	"t20_40"
+	},
+	"tone-high+xlow": {
+		"symbol":	"˦˩",
+		"label":	"high to extra-low tone",
+		"sortkey":	"t20_50"
+	},
+	"tone-med": {
+		"symbol":	"˧",
+		"label":	"medium tone",
+		"sortkey":	"t30"
+	},
+	"tone-med+xhigh": {
+		"symbol":	"˧˥",
+		"label":	"medium to extra-high tone",
+		"sortkey":	"t30_10"
+	},
+	"tone-med+high": {
+		"symbol":	"˧˦",
+		"label":	"medium to high tone",
+		"sortkey":	"t30_20"
+	},
+	"tone-med+low": {
+		"symbol":	"˧˨",
+		"label":	"medium to low tone",
+		"sortkey":	"t30_40"
+	},
+	"tone-med+xlow": {
+		"symbol":	"˧˩",
+		"label":	"medium to extra-low tone",
+		"sortkey":	"t30_50"
+	},
+	"tone-low": {
+		"symbol":	"˨",
+		"label":	"low tone",
+		"sortkey":	"t40"
+	},
+	"tone-low+xhigh": {
+		"symbol":	"˨˥",
+		"label":	"low to extra-high tone",
+		"sortkey":	"t40_10"
+	},
+	"tone-low+high": {
+		"symbol":	"˨˦",
+		"label":	"low to high tone",
+		"sortkey":	"t40_20"
+	},
+	"tone-low+med": {
+		"symbol":	"˨˧",
+		"label":	"low to medium tone",
+		"sortkey":	"t40_30"
+	},
+	"tone-low+xlow": {
+		"symbol":	"˨˩",
+		"label":	"low to extra-low tone",
+		"sortkey":	"t40_50"
+	},
+	"tone-xlow": {
+		"symbol":	"˩",
+		"label":	"extra-low tone",
+		"sortkey":	"t50"
+	},
+	"tone-xlow+xhigh": {
+		"symbol":	"˩˥",
+		"label":	"extra-low to extra-high tone",
+		"sortkey":	"t50_10"
+	},
+	"tone-xlow+high": {
+		"symbol":	"˩˦",
+		"label":	"extra-low to high tone",
+		"sortkey":	"t50_20"
+	},
+	"tone-xlow+med": {
+		"symbol":	"˩˧",
+		"label":	"extra-low to medium tone",
+		"sortkey":	"t50_30"
+	},
+	"tone-xlow+low": {
+		"symbol":	"˩˨",
+		"label":	"extra-low to low tone",
+		"sortkey":	"t50_40"
+	},
+	"vwl-fr-cl-unr": {
+		"symbol":	"i",
+		"label":	"close front unrounded vowel",
+		"sortkey":	"v10_10_10"
+	},
+	"vwl-fr-cl-unr-lngth": {
+		"symbol":	"iː",
+		"label":	"lengthened close front unrounded vowel",
+		"sortkey":	"v10_10_10_210"
+	},
+	"vwl-fr-cl-unr-naszd": {
+		"symbol":	"ĩ",
+		"label":	"nasalized close front unrounded vowel",
+		"sortkey":	"v10_10_10_265"
+	},
+	"vwl-fr-cl-unr-naszd-lngth": {
+		"symbol":	"ĩː",
+		"label":	"lengthened nasalized close front unrounded vowel",
+		"sortkey":	"v10_10_10_265_210"
+	},
+	"vwl-fr-cl-rnd": {
+		"symbol":	"y",
+		"label":	"close front rounded vowel",
+		"sortkey":	"v10_10_20"
+	},
+	"vwl-fr-cm-unr": {
+		"symbol":	"e",
+		"label":	"close-mid front unrounded vowel",
+		"sortkey":	"v10_30_10"
+	},
+	"vwl-fr-cm-unr-lngth": {
+		"symbol":	"eː",
+		"label":	"lengthened close-mid front unrounded vowel",
+		"sortkey":	"v10_30_10_210"
+	},
+	"vwl-fr-cm-unr-rtr": {
+		"symbol":	"e̙",
+		"label":	"RTR close-mid front unrounded vowel",
+		"sortkey":	"v10_30_10_235"
+	},
+	"vwl-fr-cm-unr-naszd": {
+		"symbol":	"ẽ",
+		"label":	"nasalized close-mid front unrounded vowel",
+		"sortkey":	"v10_30_10_265"
+	},
+	"vwl-fr-cm-rnd": {
+		"symbol":	"ø",
+		"label":	"close-mid front rounded vowel",
+		"sortkey":	"v10_30_20"
+	},
+	"vwl-fr-md-unr": {
+		"symbol":	"e̞",
+		"label":	"mid front unrounded vowel",
+		"sortkey":	"v10_40_10"
+	},
+	"vwl-fr-md-rnd": {
+		"symbol":	"ø̞",
+		"label":	"mid front rounded vowel",
+		"sortkey":	"v10_40_20"
+	},
+	"vwl-nf-nc-unr": {
+		"symbol":	"ɪ",
+		"label":	"near-close near-front unrounded vowel",
+		"sortkey":	"v20_20_10"
+	},
+	"vwl-nf-nc-rnd": {
+		"symbol":	"ʏ",
+		"label":	"near-close near-front rounded vowel",
+		"sortkey":	"v20_20_20"
+	},
+	"vwl-nf-om-unr": {
+		"symbol":	"ɛ",
+		"label":	"open-mid near-front unrounded vowel",
+		"sortkey":	"v20_50_10"
+	},
+	"vwl-nf-om-unr-lngth": {
+		"symbol":	"ɛː",
+		"label":	"lengthened open-mid near-front unrounded vowel",
+		"sortkey":	"v20_50_10_210"
+	},
+	"vwl-nf-om-unr-naszd": {
+		"symbol":	"ɛ̃",
+		"label":	"nasalized open-mid near-front unrounded vowel",
+		"sortkey":	"v20_50_10_265"
+	},
+	"vwl-nf-om-unr-naszd-lngth": {
+		"symbol":	"ɛ̃ː",
+		"label":	"lengthened nasalized open-mid near-front unrounded vowel",
+		"sortkey":	"v20_50_10_265_210"
+	},
+	"vwl-nf-om-rnd": {
+		"symbol":	"œ",
+		"label":	"open-mid near-front rounded vowel",
+		"sortkey":	"v20_50_20"
+	},
+	"vwl-nf-no-unr": {
+		"symbol":	"æ",
+		"label":	"near-open near-front unrounded vowel",
+		"sortkey":	"v20_60_10"
+	},
+	"vwl-nf-op-unr": {
+		"symbol":	"a",
+		"label":	"open near-front unrounded vowel",
+		"sortkey":	"v20_70_10"
+	},
+	"vwl-nf-op-unr-lngth": {
+		"symbol":	"aː",
+		"label":	"lengthened open near-front unrounded vowel",
+		"sortkey":	"v20_70_10_210"
+	},
+	"vwl-nf-op-unr-naszd": {
+		"symbol":	"ã",
+		"label":	"nasalized open near-front unrounded vowel",
+		"sortkey":	"v20_70_10_265"
+	},
+	"vwl-nf-op-unr-naszd-lngth": {
+		"symbol":	"ãː",
+		"label":	"lengthened nasalized open near-front unrounded vowel",
+		"sortkey":	"v20_70_10_265_210"
+	},
+	"vwl-nf-op-rnd": {
+		"symbol":	"ɶ",
+		"label":	"open near-front rounded vowel",
+		"sortkey":	"v20_70_20"
+	},
+	"vwl-ce-cl-unr": {
+		"symbol":	"ɨ",
+		"label":	"close central unrounded vowel",
+		"sortkey":	"v30_10_10"
+	},
+	"vwl-ce-cl-unr-rtr": {
+		"symbol":	"ɨ̙",
+		"label":	"RTR close central unrounded vowel",
+		"sortkey":	"v30_10_10_235"
+	},
+	"vwl-ce-cl-rnd": {
+		"symbol":	"ʉ",
+		"label":	"close central rounded vowel",
+		"sortkey":	"v30_10_20"
+	},
+	"vwl-ce-cl-rnd-rtr": {
+		"symbol":	"ʉ̙",
+		"label":	"RTR close central rounded vowel",
+		"sortkey":	"v30_10_20_235"
+	},
+	"vwl-ce-nc-unr": {
+		"symbol":	"ɪ̈",
+		"label":	"near-close central unrounded vowel",
+		"sortkey":	"v30_20_10"
+	},
+	"vwl-ce-nc-rnd": {
+		"symbol":	"ʊ̈",
+		"label":	"near-close central rounded vowel",
+		"sortkey":	"v30_20_20"
+	},
+	"vwl-ce-cm-unr": {
+		"symbol":	"ɘ",
+		"label":	"close-mid central unrounded vowel",
+		"sortkey":	"v30_30_10"
+	},
+	"vwl-ce-cm-unr-lngth": {
+		"symbol":	"ɘː",
+		"label":	"lengthened close-mid central unrounded vowel",
+		"sortkey":	"v30_30_10_210"
+	},
+	"vwl-ce-cm-unr-naszd": {
+		"symbol":	"ɘ̃",
+		"label":	"nasalized close-mid central unrounded vowel",
+		"sortkey":	"v30_30_10_265"
+	},
+	"vwl-ce-cm-unr-naszd-lngth": {
+		"symbol":	"ɘ̃ː",
+		"label":	"lengthened nasalized close-mid central unrounded vowel",
+		"sortkey":	"v30_30_10_265_210"
+	},
+	"vwl-ce-cm-rnd": {
+		"symbol":	"ɵ",
+		"label":	"close-mid central rounded vowel",
+		"sortkey":	"v30_30_20"
+	},
+	"vwl-ce-md-unr": {
+		"symbol":	"ə",
+		"label":	"mid central unrounded vowel",
+		"sortkey":	"v30_40_10"
+	},
+	"vwl-ce-md-unr-lngth": {
+		"symbol":	"əː",
+		"label":	"lengthened mid central unrounded vowel",
+		"sortkey":	"v30_40_10_210"
+	},
+	"vwl-ce-md-unr-naszd": {
+		"symbol":	"ə̃",
+		"label":	"nasalized mid central unrounded vowel",
+		"sortkey":	"v30_40_10_265"
+	},
+	"vwl-ce-om-unr": {
+		"symbol":	"ɜ",
+		"label":	"open-mid central unrounded vowel",
+		"sortkey":	"v30_50_10"
+	},
+	"vwl-ce-om-rnd": {
+		"symbol":	"ɞ",
+		"label":	"open-mid central rounded vowel",
+		"sortkey":	"v30_50_20"
+	},
+	"vwl-ce-no-unr": {
+		"symbol":	"ɐ",
+		"label":	"near-open central unrounded vowel",
+		"sortkey":	"v30_60_10"
+	},
+	"vwl-ce-op-unr": {
+		"symbol":	"ä",
+		"label":	"open central unrounded vowel",
+		"sortkey":	"v30_70_10"
+	},
+	"vwl-ce-op-unr-lngth": {
+		"symbol":	"äː",
+		"label":	"lengthened open central unrounded vowel",
+		"sortkey":	"v30_70_10_210"
+	},
+	"vwl-ce-op-unr-rtr": {
+		"symbol":	"ä̙",
+		"label":	"RTR open central unrounded vowel",
+		"sortkey":	"v30_70_10_235"
+	},
+	"vwl-ce-op-unr-naszd": {
+		"symbol":	"ä̃",
+		"label":	"nasalized open central unrounded vowel",
+		"sortkey":	"v30_70_10_265"
+	},
+	"vwl-ce-op-unr-naszd-lngth": {
+		"symbol":	"ä̃ː",
+		"label":	"lengthened nasalized open central unrounded vowel",
+		"sortkey":	"v30_70_10_265_210"
+	},
+	"vwl-ce-ap": {
+		"symbol":	"ɿ",
+		"label":	"apical vowel",
+		"sortkey":	"v30_80"
+	},
+	"vwl-ce-ap-tense": {
+		"symbol":	"ɿ̠",
+		"label":	"tense apical vowel",
+		"sortkey":	"v30_80_175"
+	},
+	"vwl-nb-nc-rnd": {
+		"symbol":	"ʊ",
+		"label":	"near-close near-back rounded vowel",
+		"sortkey":	"v40_20_20"
+	},
+	"vwl-bk-cl-unr": {
+		"symbol":	"ɯ",
+		"label":	"close back unrounded vowel",
+		"sortkey":	"v50_10_10"
+	},
+	"vwl-bk-cl-rnd": {
+		"symbol":	"u",
+		"label":	"close back rounded vowel",
+		"sortkey":	"v50_10_20"
+	},
+	"vwl-bk-cl-rnd-lngth": {
+		"symbol":	"uː",
+		"label":	"lengthened close back rounded vowel",
+		"sortkey":	"v50_10_20_210"
+	},
+	"vwl-bk-cl-rnd-naszd": {
+		"symbol":	"ũ",
+		"label":	"nasalized close back rounded vowel",
+		"sortkey":	"v50_10_20_265"
+	},
+	"vwl-bk-cl-rnd-naszd-lngth": {
+		"symbol":	"ũː",
+		"label":	"lengthened nasalized close back rounded vowel",
+		"sortkey":	"v50_10_20_265_210"
+	},
+	"vwl-bk-cm-unr": {
+		"symbol":	"ɤ",
+		"label":	"close-mid back unrounded vowel",
+		"sortkey":	"v50_30_10"
+	},
+	"vwl-bk-cm-rnd": {
+		"symbol":	"o",
+		"label":	"close-mid back rounded vowel",
+		"sortkey":	"v50_30_20"
+	},
+	"vwl-bk-cm-rnd-lngth": {
+		"symbol":	"oː",
+		"label":	"lengthened close-mid back rounded vowel",
+		"sortkey":	"v50_30_20_210"
+	},
+	"vwl-bk-cm-rnd-rtr": {
+		"symbol":	"o̙",
+		"label":	"RTR close-mid back rounded vowel",
+		"sortkey":	"v50_30_20_235"
+	},
+	"vwl-bk-md-unr": {
+		"symbol":	"ɤ̞",
+		"label":	"mid back unrounded vowel",
+		"sortkey":	"v50_40_10"
+	},
+	"vwl-bk-md-rnd": {
+		"symbol":	"o̞",
+		"label":	"mid back rounded vowel",
+		"sortkey":	"v50_40_20"
+	},
+	"vwl-bk-md-rnd-lngth": {
+		"symbol":	"o̞ː",
+		"label":	"lengthened mid back rounded vowel",
+		"sortkey":	"v50_40_20_210"
+	},
+	"vwl-bk-om-unr": {
+		"symbol":	"ʌ",
+		"label":	"open-mid back unrounded vowel",
+		"sortkey":	"v50_50_10"
+	},
+	"vwl-bk-om-unr-lngth": {
+		"symbol":	"ʌː",
+		"label":	"lengthened open-mid back unrounded vowel",
+		"sortkey":	"v50_50_10_210"
+	},
+	"vwl-bk-om-unr-naszd": {
+		"symbol":	"ʌ̃",
+		"label":	"nasalized open-mid back unrounded vowel",
+		"sortkey":	"v50_50_10_265"
+	},
+	"vwl-bk-om-rnd": {
+		"symbol":	"ɔ",
+		"label":	"open-mid back rounded vowel",
+		"sortkey":	"v50_50_20"
+	},
+	"vwl-bk-om-rnd-lngth": {
+		"symbol":	"ɔː",
+		"label":	"lengthened open-mid back rounded vowel",
+		"sortkey":	"v50_50_20_210"
+	},
+	"vwl-bk-om-rnd-naszd": {
+		"symbol":	"ɔ̃",
+		"label":	"nasalized open-mid back rounded vowel",
+		"sortkey":	"v50_50_20_265"
+	},
+	"vwl-bk-op-unr": {
+		"symbol":	"ɑ",
+		"label":	"open back unrounded vowel",
+		"sortkey":	"v50_70_10"
+	},
+	"vwl-bk-op-rnd": {
+		"symbol":	"ɒ",
+		"label":	"open back rounded vowel",
+		"sortkey":	"v50_70_20"
+	},
+	"vwl-null": {
+		"symbol":	"∅",
+		"label":	"null",
+		"sortkey":	"v99"
+	},
+	"diph-fr-cl-unr+fr-cl-unr+on": {
+		"symbol":	"ji",
+		"label":	"close front unrounded + close front unrounded rising diphthong",
+		"sortkey":	"vd10_10_10+10_10_10+20"
+	},
+	"diph-fr-cl-unr+fr-cm-unr+on": {
+		"symbol":	"je",
+		"label":	"close front unrounded + close-mid front unrounded rising diphthong",
+		"sortkey":	"vd10_10_10+10_30_10+20"
+	},
+	"diph-fr-cl-unr+nf-nc-unr+on": {
+		"symbol":	"jɪ",
+		"label":	"close front unrounded + near-close near-front unrounded rising diphthong",
+		"sortkey":	"vd10_10_10+20_20_10+20"
+	},
+	"diph-fr-cl-unr+nf-op-unr+on": {
+		"symbol":	"ja",
+		"label":	"close front unrounded + open near-front unrounded rising diphthong",
+		"sortkey":	"vd10_10_10+20_70_10+20"
+	},
+	"diph-fr-cl-unr+bk-cl-rnd": {
+		"symbol":	"iu",
+		"label":	"close front unrounded + close back rounded diphthong",
+		"sortkey":	"vd10_10_10+50_10_20"
+	},
+	"diph-fr-cl-unr+bk-cl-rnd+on": {
+		"symbol":	"ju",
+		"label":	"close front unrounded + close back rounded rising diphthong",
+		"sortkey":	"vd10_10_10+50_10_20+20"
+	},
+	"diph-fr-cl-unr+bk-cm-rnd+on": {
+		"symbol":	"jo",
+		"label":	"close front unrounded + close-mid back rounded rising diphthong",
+		"sortkey":	"vd10_10_10+50_30_20+20"
+	},
+	"diph-fr-cl-unr-lngth+bk-cl-rnd": {
+		"symbol":	"iːu",
+		"label":	"lengthened close front unrounded + close back rounded diphthong",
+		"sortkey":	"vd10_10_10_210+50_10_20"
+	},
+	"diph-fr-cm-unr+fr-cl-unr": {
+		"symbol":	"ei",
+		"label":	"close-mid front unrounded + close front unrounded diphthong",
+		"sortkey":	"vd10_30_10+10_10_10"
+	},
+	"diph-fr-cm-unr+bk-cl-rnd": {
+		"symbol":	"eu",
+		"label":	"close-mid front unrounded + close back rounded diphthong",
+		"sortkey":	"vd10_30_10+50_10_20"
+	},
+	"diph-fr-cm-unr-lngth+fr-cl-unr": {
+		"symbol":	"eːi",
+		"label":	"lengthened close-mid front unrounded + close front unrounded diphthong",
+		"sortkey":	"vd10_30_10_210+10_10_10"
+	},
+	"diph-fr-cm-unr-lngth+bk-cl-rnd": {
+		"symbol":	"eːu",
+		"label":	"lengthened close-mid front unrounded + close back rounded diphthong",
+		"sortkey":	"vd10_30_10_210+50_10_20"
+	},
+	"diph-nf-nc-unr+ce-md-unr": {
+		"symbol":	"ɪə",
+		"label":	"near-close near-front unrounded + mid central unrounded diphthong",
+		"sortkey":	"vd20_20_10+30_40_10"
+	},
+	"diph-nf-om-unr+fr-cl-unr": {
+		"symbol":	"ɛi",
+		"label":	"open-mid near-front unrounded + close front unrounded diphthong",
+		"sortkey":	"vd20_50_10+10_10_10"
+	},
+	"diph-nf-om-unr+bk-cl-rnd": {
+		"symbol":	"ɛu",
+		"label":	"open-mid near-front unrounded + close back rounded diphthong",
+		"sortkey":	"vd20_50_10+50_10_20"
+	},
+	"diph-nf-om-unr-lngth+fr-cl-unr": {
+		"symbol":	"ɛːi",
+		"label":	"lengthened open-mid near-front unrounded + close front unrounded diphthong",
+		"sortkey":	"vd20_50_10_210+10_10_10"
+	},
+	"diph-nf-om-unr-lngth+bk-cl-rnd": {
+		"symbol":	"ɛːu",
+		"label":	"lengthened open-mid near-front unrounded + close back rounded diphthong",
+		"sortkey":	"vd20_50_10_210+50_10_20"
+	},
+	"diph-nf-op-unr+fr-cl-unr": {
+		"symbol":	"ai",
+		"label":	"open near-front unrounded + close front unrounded diphthong",
+		"sortkey":	"vd20_70_10+10_10_10"
+	},
+	"diph-nf-op-unr+bk-cl-rnd": {
+		"symbol":	"au",
+		"label":	"open near-front unrounded + close back rounded diphthong",
+		"sortkey":	"vd20_70_10+50_10_20"
+	},
+	"diph-nf-op-unr-lngth+fr-cl-unr": {
+		"symbol":	"aːi",
+		"label":	"lengthened open near-front unrounded + close front unrounded diphthong",
+		"sortkey":	"vd20_70_10_210+10_10_10"
+	},
+	"diph-nf-op-unr-lngth+bk-cl-rnd": {
+		"symbol":	"aːu",
+		"label":	"lengthened open near-front unrounded + close back rounded diphthong",
+		"sortkey":	"vd20_70_10_210+50_10_20"
+	},
+	"diph-ce-cl-unr+ce-md-unr": {
+		"symbol":	"ɨə",
+		"label":	"close central unrounded + mid central unrounded diphthong",
+		"sortkey":	"vd30_10_10+30_40_10"
+	},
+	"diph-ce-md-unr+fr-cl-unr": {
+		"symbol":	"əi",
+		"label":	"mid central unrounded + close front unrounded diphthong",
+		"sortkey":	"vd30_40_10+10_10_10"
+	},
+	"diph-ce-md-unr+nf-nc-unr": {
+		"symbol":	"əɪ",
+		"label":	"mid central unrounded + near-close near-front unrounded diphthong",
+		"sortkey":	"vd30_40_10+20_20_10"
+	},
+	"diph-ce-md-unr+bk-cl-rnd": {
+		"symbol":	"əu",
+		"label":	"mid central unrounded + close back rounded diphthong",
+		"sortkey":	"vd30_40_10+50_10_20"
+	},
+	"diph-nb-nc-rnd+ce-md-unr": {
+		"symbol":	"ʊə",
+		"label":	"near-close near-back rounded + mid central unrounded diphthong",
+		"sortkey":	"vd40_20_20+30_40_10"
+	},
+	"diph-bk-cl-rnd+fr-cl-unr": {
+		"symbol":	"ui",
+		"label":	"close back rounded + close front unrounded diphthong",
+		"sortkey":	"vd50_10_20+10_10_10"
+	},
+	"diph-bk-cl-rnd+fr-cl-unr+on": {
+		"symbol":	"wi",
+		"label":	"close back rounded + close front unrounded rising diphthong",
+		"sortkey":	"vd50_10_20+10_10_10+20"
+	},
+	"diph-bk-cl-rnd+fr-cm-unr+on": {
+		"symbol":	"we",
+		"label":	"close back rounded + close-mid front unrounded rising diphthong",
+		"sortkey":	"vd50_10_20+10_30_10+20"
+	},
+	"diph-bk-cl-rnd+nf-nc-unr+on": {
+		"symbol":	"wɪ",
+		"label":	"close back rounded + near-close near-front unrounded rising diphthong",
+		"sortkey":	"vd50_10_20+20_20_10+20"
+	},
+	"diph-bk-cl-rnd+nf-op-unr+on": {
+		"symbol":	"wa",
+		"label":	"close back rounded + open near-front unrounded rising diphthong",
+		"sortkey":	"vd50_10_20+20_70_10+20"
+	},
+	"diph-bk-cl-rnd+bk-cm-rnd+on": {
+		"symbol":	"wo",
+		"label":	"close back rounded + close-mid back rounded rising diphthong",
+		"sortkey":	"vd50_10_20+50_30_20+20"
+	},
+	"diph-bk-cl-rnd-lngth+fr-cl-unr": {
+		"symbol":	"uːi",
+		"label":	"lengthened close back rounded + close front unrounded diphthong",
+		"sortkey":	"vd50_10_20_210+10_10_10"
+	},
+	"diph-bk-cm-unr+bk-cl-rnd": {
+		"symbol":	"ɤu",
+		"label":	"close-mid back unrounded + close back rounded diphthong",
+		"sortkey":	"vd50_30_10+50_10_20"
+	},
+	"diph-bk-cm-rnd+fr-cl-unr": {
+		"symbol":	"oi",
+		"label":	"close-mid back rounded + close front unrounded diphthong",
+		"sortkey":	"vd50_30_20+10_10_10"
+	},
+	"diph-bk-cm-rnd+bk-cl-rnd": {
+		"symbol":	"ou",
+		"label":	"close-mid back rounded + close back rounded diphthong",
+		"sortkey":	"vd50_30_20+50_10_20"
+	},
+	"diph-bk-cm-rnd-lngth+fr-cl-unr": {
+		"symbol":	"oːi",
+		"label":	"lengthened close-mid back rounded + close front unrounded diphthong",
+		"sortkey":	"vd50_30_20_210+10_10_10"
+	},
+	"diph-bk-om-unr+fr-cl-unr": {
+		"symbol":	"ʌi",
+		"label":	"open-mid back unrounded + close front unrounded diphthong",
+		"sortkey":	"vd50_50_10+10_10_10"
+	},
+	"diph-bk-om-unr+bk-cl-rnd": {
+		"symbol":	"ʌu",
+		"label":	"open-mid back unrounded + close back rounded diphthong",
+		"sortkey":	"vd50_50_10+50_10_20"
+	},
+	"diph-bk-om-rnd+fr-cl-unr": {
+		"symbol":	"ɔi",
+		"label":	"open-mid back rounded + close front unrounded diphthong",
+		"sortkey":	"vd50_50_20+10_10_10"
+	},
+	"diph-bk-om-rnd+bk-cl-rnd": {
+		"symbol":	"ɔu",
+		"label":	"open-mid back rounded + close back rounded diphthong",
+		"sortkey":	"vd50_50_20+50_10_20"
+	},
+	"diph-bk-om-rnd-lngth+fr-cl-unr": {
+		"symbol":	"ɔːi",
+		"label":	"lengthened open-mid back rounded + close front unrounded diphthong",
+		"sortkey":	"vd50_50_20_210+10_10_10"
+	},
+	"diph-bk-om-rnd-lngth+bk-cl-rnd": {
+		"symbol":	"ɔːu",
+		"label":	"lengthened open-mid back rounded + close back rounded diphthong",
+		"sortkey":	"vd50_50_20_210+50_10_20"
+	}
 }
