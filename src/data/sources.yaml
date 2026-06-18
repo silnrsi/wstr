@@ -4726,6 +4726,27 @@ mutichou2010-ss:
   sortname: Mutichou
   keywords: [script-beng]
   abstract: "Up to four consecutive Bengali consonants not separated by vowels can be orthographically represented as a ligature called a \"consonant conjunct\". Typically, the first consonant in the conjunct is shown above and/or to the left of the following consonants. In this conjunct, pronounced [ndrɔ], the 'n' component here is in grey, 'd' is in blue, and 'r' is in red. The [ɔ] vowel is inherent, that is, not written."
+n8willis-arab-general:
+  entrytype: online
+  title: Arabic-style shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-arabic-general.md
+  urldate: "2026-06-18"
+  keywords: [script-arab, script-nkoo, script-syrc, script-mong, opentype]
+  annotation: "This document details the general shaping procedure shared by Arabic, N'Ko, Syriac, and Mongolian."  
+n8willis-arab:
+  entrytype: online
+  title: Arabic script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-arabic.md
+  urldate: "2026-06-18"
+  keywords: [script-arab, opentype]
+  annotation: "This document details the general shaping procedure shared by all Arabic script styles, and defines the common pieces that style-specific implementations share."  
+n8willis-deva:
+  entrytype: online
+  title: Devanagari shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-devanagari.md
+  urldate: "2026-06-18"
+  keywords: [script-deva, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Devanagari script."  
 naden1980:
   entrytype: book
   title: Mampruli Spelling Guide
