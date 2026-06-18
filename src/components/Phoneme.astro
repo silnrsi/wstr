@@ -13,10 +13,19 @@ import phonemeData from '../data/phonemes.json';
 //	return phonemeData[pkey]?.symbol ?? "ERROR";
 //}
 
+console.log("read data");
+
 const { key } = Astro.props;
 
+console.log("key = " + key);
+
 const phSymbol = phonemeData[key]["symbol"];
+
+console.log("phSymbol = " + phSymbol);
+
 const phLabel = phonemeData[key]["label"];
+
+console.log("phLabel = " + phLabel);
 
 const allPhonograms = wsgData["phonograms"];
 //const allCount = allPhonograms ? allPhonograms.length : 0;
@@ -53,8 +62,8 @@ console.log('# phonograms = ' + kpgCount);
 							<td>
 								&lt;{kpg.chars.map((ch) => <Character usv={ch} options="char" />)}&gt;
 							</td>
-							<td>{kpg.example}</td>
-							<td>{kpg.notes}</td>
+							<td set:html={kpg.example} />
+							<td set:html={kpg.notes} />
 						</tr>
 					)}
 				</tbody>
