@@ -4731,22 +4731,201 @@ n8willis-arab-general:
   title: Arabic-style shaping in OpenType
   url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-arabic-general.md
   urldate: "2026-06-18"
-  keywords: [script-arab, script-nkoo, script-syrc, script-mong, opentype]
+  organization: n8willis
+   keywords: [script-arab, script-nkoo, script-syrc, script-mong, opentype]
   annotation: "This document details the general shaping procedure shared by Arabic, N'Ko, Syriac, and Mongolian."  
 n8willis-arab:
   entrytype: online
   title: Arabic script shaping in OpenType
   url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-arabic.md
   urldate: "2026-06-18"
+  organization: n8willis
   keywords: [script-arab, opentype]
   annotation: "This document details the general shaping procedure shared by all Arabic script styles, and defines the common pieces that style-specific implementations share."  
+n8willis-beng:
+  entrytype: online
+  title: Bengali shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-bengali.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-beng, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Bengali script."  
 n8willis-deva:
   entrytype: online
   title: Devanagari shaping in OpenType
   url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-devanagari.md
   urldate: "2026-06-18"
+  organization: n8willis
   keywords: [script-deva, opentype]
   annotation: "This document details the shaping procedure needed to display text runs in the Devanagari script."  
+n8willis-gujr:
+  entrytype: online
+  title: Gujarati shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-gujarati.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-gujr, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Gujarati script."  
+n8willis-guru:
+  entrytype: online
+  title: Gurmukhi shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-gujarati.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-guru, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Gurmukhi script."  
+n8willis-hang:
+  entrytype: online
+  title: Hangul script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-hangul.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-hang, script-jamo, script-kore, opentype]
+  annotation: "This document details the general shaping procedure shared by all Hangul script styles, and defines the common pieces that style-specific implementations share."  
+n8willis-hebr:
+  entrytype: online
+  title: Hebrew script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-hebrew.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-hebr, opentype]
+  annotation: "This document details the general shaping procedure shared by all Hebrew script styles, and defines the common pieces that style-specific implementations share."  
+n8willis-indic:
+  entrytype: online
+  title: Indic script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-indic-general.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-beng, script-deva, script-gran, script-gujr, script-guru, script-knda, script-mlym, script-newa, script-orya, script-sinh, script-taml, script-telu, script-tibt, script-tulu, opentype]
+  annotation: "This document outlines the general shaping procedure shared by all Indic scripts, and defines the common pieces that script-specific implementations share."
+n8willis-khmr:
+  entrytype: online
+  title: Khmer shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-khmer.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-khmr, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Khmer script."  
+n8willis-knda:
+  entrytype: online
+  title: Kannada shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-kannada.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-knda, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Kannada script."  
+n8willis-mlym:
+  entrytype: online
+  title: Malayalam shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-malayalam.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-mlym, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Malayalam script."  
+n8willis-mong:
+  entrytype: online
+  title: Mongolian script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-mongolian.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-mong, opentype]
+  annotation: "This document details the general shaping procedure shared by all Mongolian script styles, and defines the common pieces that style-specific implementations share."  
+n8willis-mymr:
+  entrytype: online
+  title: Myanmar shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-myanmar.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-mymr, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Myanmar script."  
+n8willis-nkoo:
+  entrytype: online
+  title: N'Ko script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-nko.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-nkoo, opentype]
+  annotation: "This document details the general shaping procedure shared by all N'Ko script styles, and defines the common pieces that style-specific implementations share."  
+n8willis-opentype:
+  entrytype: online
+  title: Default script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-default.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [opentype]
+  annotation: "This document details the default shaping procedure needed to display text runs in non-complex scripts. It may also be used as a fallback model for unrecognized scripts."  
+n8willis-orya:
+  entrytype: online
+  title: Oriya shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-oriya.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-orya, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Oriya script."  
+n8willis-sinh:
+  entrytype: online
+  title: Sinhala shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-sinhala.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-sinh, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Sinhala script."  
+n8willis-syrc:
+  entrytype: online
+  title: Syriac script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-sinhala.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-syrc, script-syre, script-syrj, script-syrn, opentype]
+  annotation: "This document details the general shaping procedure shared by all Syriac script styles, and defines the common pieces that style-specific implementations share."
+n8willis-taml:
+  entrytype: online
+  title: Tamil shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-tamil.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-taml, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Tamil script."
+n8willis-telu:
+  entrytype: online
+  title: Telugu shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-telugu.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-telu, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Telugu script."
+n8willis-thai-laoo:
+  entrytype: online
+  title: Thai and Lao shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-thai-lao.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-thai, script-laoo, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Thai and Lao scripts."
+n8willis-tibt:
+  entrytype: online
+  title: Tibetan shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-tibetan.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-tibt, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Tibetan script."
+n8willis-use:
+  entrytype: online
+  title: Universal Shaping Engine script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-use.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [fonts, opentype, rendering]
+  annotation: "This document details the default shaping procedure needed to display text runs in scripts supported by the Universal Shaping Engine (USE) model."
+n8willis-vedic:
+  entrytype: online
+  title: Vedic Extensions in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-vedic-extensions.md
+  urldate: "2026-06-18"
+  organization: n8willis
+  keywords: [script-beng, script-deva, script-gran, script-knda, script-mlym, script-newa, script-tibt, script-tulu, opentype]
+  annotation: "This document outlines the shaping information needed to display characters from the Unicode Vedic Extensions block, which may be used within text runs in many Indic scripts."
 naden1980:
   entrytype: book
   title: Mampruli Spelling Guide
