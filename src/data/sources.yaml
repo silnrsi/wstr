@@ -170,6 +170,54 @@ arakun2009-ss:
   sortname: Arakun
   keywords: [script-bali]
   abstract: "The 18 consonants that are commonly used to write Balinese script."
+arab-char-support-sil:
+  entrytype: online
+  title: Arabic Script - Character Set Support
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/charset.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [fonts, script-arab]
+  annotation: "For optimal compatibility with a variety of operating systems, all Non-Roman fonts should also include a set of glyphs for basic Roman characters and punctuation. Ideally this should include all the following characters, although some depend on other considerations (see the notes). The basis for this list is a union of the Windows Codepage 1252 and MacRoman character sets plus additional useful characters."
+arab-comb-order-sil:
+  entrytype: online
+  title: Arabic Script - Combining mark ordering and positioning
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/combiningmarks.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [fonts, opentype, script-arab]
+  annotation: "This page discusses the complex logic required related to reordering combining marks so that they are displayed in a manner expected by the reader. Why these rules are necessary and how they work is described below."
+arab-lam-alef-sil:
+  entrytype: online
+  title: Arabic Script - Lam-Alef and Kashida
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/lamalef.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [char-0644, char-0627, char-0640, fonts, script-arab]
+  annotation: "This page discusses strategies for implementing the lam-alef ligature."
+arab-ligatures-sil:
+  entrytype: online
+  title: Arabic Script - Ligatures and ZWJ
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/ligatures.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [char-200D, fonts, opentype, script-arab]
+  annotation: "This page discusses when the ZERO WIDTH JOINER (ZWJ) should be used to increase the connectedness of adjacent glyphs."
+arab-maddah-sil:
+  entrytype: online
+  title: Arabic Script - Maddah or hamza, etc., relative to vowels
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/maddah.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [char-0653, fonts, opentype, script-arab]
+  annotation: "This page discusses how combining maddah should interact with other vowel marks."
+arab-spanning-sil:
+  entrytype: online
+  title: Arabic Script - Signs Spanning Numbers
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/spanning.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [char-0600, char-0601, char-0602, char-0603, char-0604, char-0605, char-06DD, char-0890, char-0891, char-08E2, fonts, opentype, script-arab]
+  annotation: "This page discusses characters in the Arabic script that span (or enclose) numbers, such as U+06DD End of Ayah and U+0605 Number Mark Above."
 aritonang2000:
   entrytype: misc
   title: The encounter of the Batak people with Rheinische Missions-Gesellschaft in the field of education (1861-1940)
@@ -3402,6 +3450,14 @@ kashmiri-lang:
   urldate: "2025-11-21"
   keywords: [script-arab, lang-kas]
   annotation: "Website about the Kashmiri language, including fonts and keyboard to download and some sample text resources in the language."
+kasra-sil:
+  entrytype: online
+  title: Kasra position relative to shadda
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/kasra.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [char-064B, char-064E, char-0651, script-arab]
+  annotation: "Website about the position of the kasra and kasratan in relation to the shadda."
 kauder1866:
   entrytype: book
   title: "Buch das Gut, enthaltened den Katechismus"
@@ -7700,13 +7756,20 @@ uax44:
   url: https://www.unicode.org/reports/tr44/
   urldate: "2025-11-19"
   keywords: [encoding]
+uax53:
+  entrytype: online
+  entrysubtype: f
+  title: "UAX #53: Unicode Arabic Mark Rendering"
+  url: https://www.unicode.org/reports/tr53/
+  urldate: "2026-06-19"
+  keywords: [encoding, script-arab]
 uax9:
   entrytype: online
   entrysubtype: f
   title: "UAX #9: Unicode Bidirectional Algorithm"
   url: https://www.unicode.org/reports/tr9/
   urldate: "2025-11-19"
-  keywords: [encoding, direction]
+  keywords: [encoding, direction, script-arab, script-hebr, script-mand, script-nkoo, script-samr, script-syrc, script-yezi]
 ubuntu:
   entrytype: online
   entrysubtype: f
