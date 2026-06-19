@@ -1,7 +1,8 @@
 ---
 // Phoneme component: display a table of graphemes and phonograms that represent a given phoneme.
 // Parameters:
-//     script: key - phoneme key, eg. stp-bil-vd
+//     key - phoneme key, eg. stp-bil-vd
+//     shownone: true/false; whether to display anything if the list is empty
 
 import Character from './Character.astro';
 
@@ -12,8 +13,6 @@ import phonemeData from '../data/phonemes.json';
 //function phonemeSymbol(pkey: string): string {
 //	return phonemeData[pkey]?.symbol ?? "ERROR";
 //}
-
-console.log("read data");
 
 const { key } = Astro.props;
 
