@@ -7770,6 +7770,13 @@ uax9:
   url: https://www.unicode.org/reports/tr9/
   urldate: "2025-11-19"
   keywords: [encoding, direction, script-arab, script-hebr, script-mand, script-nkoo, script-samr, script-syrc, script-yezi]
+utn46:
+  entrytype: online
+  entrysubtype: f
+  title: "UTN #46: Rendering the Allah Ligature"
+  url: https://www.unicode.org/notes/tn46/
+  urldate: "2026-06-19"
+  keywords: [encoding, script-arab]
 ubuntu:
   entrytype: online
   entrysubtype: f
