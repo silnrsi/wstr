@@ -1,5 +1,5 @@
 ---
-// ph-symomeChartCons component: generate a chart of consonant phonemes.
+// PhChartCons component: generate a chart of consonant phonemes.
 // Parameters: none
 
 ---
@@ -7,30 +7,31 @@
 <div>
 <table>
 	<thead>
-		<tr>
+		<tr class='ph-noline'>
 			<th>TYPE</th><th/>
-			<th class='ph-hdrlabel' colspan="14">PLACE OF ARTICULATION</th>
+			<th class='ph-center' colspan="14">PLACE OF ARTICULATION</th>
 		</tr>
-		<tr class='ph-hdr'>
-			<th/><th/>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/bilabial.png" alt="Bilabial" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/labiodental.png" alt="Labiodental" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/linguolabial.png" alt="Linguolabial" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/dental.png" alt="Dental" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/alveolar.png" alt="Alveolar" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/retroflex.png" alt="Retroflex" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/postalveolar.png" alt="Post-alveolar" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/alveopalatal.png" alt="Alveo-palatal" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/palatal.png" alt="Palatal" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/velar.png" alt="Velar" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/uvular.png" alt="Uvular" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/pharyngeal.png" alt="Pharyngeal" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/epiglottal.png" alt="Epiglottal" height="95px" width="18px" /></th>
-			<th class='ph-hdrlabel'><img src="/src/content/docs/scrlang/phonemes/images/glottal.png" alt="Glottal" height="95px" width="18px" /></th>
+		<tr class='ph-darkline ph-labelimg'>
+			<th /><th />
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/bilabial.png" alt="Bilabial" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/labiodental.png" alt="Labiodental" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/linguolabial.png" alt="Linguolabial" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/dental.png" alt="Dental" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/alveolar.png" alt="Alveolar" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/retroflex.png" alt="Retroflex" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/postalveolar.png" alt="Post-alveolar" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/alveopalatal.png" alt="Alveo-palatal" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/palatal.png" alt="Palatal" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/velar.png" alt="Velar" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/uvular.png" alt="Uvular" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/pharyngeal.png" alt="Pharyngeal" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/epiglottal.png" alt="Epiglottal" height="95px" width="18px" /></th>
+			<th class='ph-labelimg'><img src="/src/content/docs/scrlang/phonemes/images/glottal.png" alt="Glottal" height="95px" width="18px" /></th>
 		</tr>
 	</thead>
 
 	<tbody>
+		<!-- Nasal -->
 		<tr>
 			<td class='ph-type'>Nasal</td><td/>
 			<td class='ph-sym'><a href='/scrlang/phonemes/nas-bil' title='bilabial nasal'>m</a></td>
@@ -48,11 +49,12 @@
 			<td class='ph-sym'>&nbsp;</td>
 			<td class='ph-sym'>&nbsp;</td>
 		</tr>
-		<tr>
-			<td class='ph-type'>Stop</td><td class='ph-type'>-voice</td>
+		<!-- Stop -->
+		<tr class='ph-noline'>
+			<td class='ph-type'>Stop</td><td class='ph-type' class='ph-voice'>-voice</td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/stp-bil-vl' title='voiceless bilabial plosive'>p</a></td>
-			<td class='ph-sym'><a href='/scrlang/phonemes/stp-lbd-vl' title='voiceless labiodental plosive'>t̼</a></td>
 			<td class='ph-sym'></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/stp-llb-vl' title='voiceless linguolabial plosive'>t̼</a></td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/stp-den-vl' title='voiceless dental plosive'>t̪</a></td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/stp-alv-vl' title='voiceless alveolar plosive'>t</a></td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/stp-ret-vl' title='voiceless retroflex plosive'>ʈ</a></td>
@@ -66,10 +68,10 @@
 			<td class='ph-sym'><a href='/scrlang/phonemes/stp-glo-vl' title='voiceless glottal plosive'>ʔ</a></td>
 		</tr>
 		<tr>
-			<td class='ph-type'></td><td class='ph-type'>+voice</td>
+			<td class='ph-type'></td><td class='ph-type' class='ph-voice'>+voice</td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/stp-bil-vd' title='voiced bilabial plosive'>b</a></td>
-			<td class='ph-sym'><a href='/scrlang/phonemes/stp-lbd-vd' title='voiced labiodental plosive'>d̼</a></td>
 			<td class='ph-sym'></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/stp-llb-vd' title='voiced linguolabial plosive'>d̼</a></td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/stp-den-vd' title='voiced dental plosive'>d̪</a></td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/stp-alv-vd' title='voiced alveolar plosive'>d</a></td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/stp-ret-vd' title='voiced retroflex plosive'>ɖ</a></td>
@@ -82,8 +84,9 @@
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
 		</tr>
+		<!-- Click -->
 		<tr>
-			<td class='ph-type'>Click</td><td class='ph-type'></td>
+			<td class='ph-type'>Click</td><td class='ph-type' class='ph-voice'></td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/cli-bil' title='bilabial click'>ʘ</a></td>
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
@@ -99,8 +102,9 @@
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
 		</tr>
-		<tr>
-			<td class='ph-type'>Affricate</td><td class='ph-type'>-voice</td>
+		<!-- Affricate -->
+		<tr class='ph-noline'>
+			<td class='ph-type'>Affricate</td><td class='ph-type' class='ph-voice'>-voice</td>
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
@@ -117,7 +121,7 @@
 			<td class='ph-sym'></td>
 		</tr>
 		<tr>
-			<td class='ph-type'></td><td class='ph-type'>+voice</td>
+			<td class='ph-type'></td><td class='ph-type' class='ph-voice'>+voice</td>
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
@@ -133,8 +137,9 @@
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
 		</tr>
-		<tr>
-			<td class='ph-type'>Fricative</td><td class='ph-type'>-voice</td>
+		<!-- Fricative -->
+		<tr class='ph-noline'>
+			<td class='ph-type'>Fricative</td><td class='ph-type' class='ph-voice'>-voice</td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/fri-bil-vl' title='voiceless bilabial fricative'>ɸ</a></td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/fri-lbd-vl' title='voiceless labiodental fricative'>f</a></td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/fri-llb-vl' title='voiceless linguolabial fricative'>s̼</a></td>
@@ -151,7 +156,7 @@
 			<td class='ph-sym'><a href='/scrlang/phonemes/fri-glo-vl' title='voiceless glottal fricative'>h</a></td>
 		</tr>
 		<tr>
-			<td class='ph-type'></td><td class='ph-type'>+voice</td>
+			<td class='ph-type'></td><td class='ph-type' class='ph-voice'>+voice</td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/fri-bil-vd' title='voiced bilabial fricative'>β</a></td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/fri-lbd-vd' title='voiced labiodental fricative'>v</a></td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/fri-llb-vd' title='voiced linguolabial fricative'>z̼</a></td>
@@ -167,13 +172,14 @@
 			<td class='ph-sym'><a href='/scrlang/phonemes/fri-epi-vd' title='voiced epiglottal fricative'>ʢ̰</a></td>
 			<td class='ph-sym'><a href='/scrlang/phonemes/fri-glo-vd' title='voiced glottal fricative'>ɦ</a></td>
 		</tr>
-
-
-
-
+		<!-- Trill -->
 		<tr>
-			<td class='ph-type'>Null</td><td class='ph-type'></td>
-			<td class='ph-sym'><a href='/scrlang/phonemes/cons-null' title='null'>∅</a></td>
+			<td class='ph-type'>Trill</td><td class='ph-type'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/trl-alv' title='alveolar trill'>r</a></td>
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
@@ -183,10 +189,86 @@
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
+		</tr>
+		<!-- Tap/Flap -->
+		<tr class='ph-noline'>
+			<td class='ph-type'>Tap/Flag</td><td class='ph-type' class='ph-voice'>-voice</td>
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
 			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/tap-ret' title='retroflex flap'>ɽ</a></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+		</tr>
+		<tr>
+			<td class='ph-type'></td><td class='ph-type' class='ph-voice'>+voice</td>
+			<td class='ph-sym' style="vertical-align: bottom;" >
+				<a href='/scrlang/phonemes/tap-bil' title='bilabial tap'>
+					<img src="/src/content/docs/scrlang/phonemes/images/bil-tap-symbol.png" alt="ⱱ̟" height="17px" width="15px" />
+				</a>
+			</td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/tap-lbd' title='labiodental tap'>ⱱ</a></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/tap-alv' title='alveolar tap'>ɾ</a></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/tap-ret-breat' title='breathy retroflex flap'>ɽʱ</a></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+		</tr>
+		<!-- Lateral -->
+		<tr>
+			<td class='ph-type'>Lateral</td><td class='ph-type' class='ph-voice'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/lat-alv-vl' title='voiced alveolar lateral'>l</a></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/lat-ret-vl' title='voiced retroflex lateral'>ɭ</a></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/lat-pal-vl' title='voiced bilabial lateral'>ʎ</a></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+		</tr>
+		<!-- Approximant -->
+		<tr>
+			<td class='ph-type'>Approximant</td><td/>
+			<td class='ph-sym'><a href='/scrlang/phonemes/app-bil' title='bilabial approximant'>w</a></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/app-lbd' title='labiodental approximant'>ʋ</a></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/app-ret' title='retroflex approximant'>ɻ</a></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/app-pal' title='palatal approximant'>j</a></td>
+			<td class='ph-sym'><a href='/scrlang/phonemes/app-vel' title='velar approximant'>ɰ</a></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+			<td class='ph-sym'></td>
+		</tr>
+		<!-- Null -->
+		<tr class="ph-darkline">
+			<td class='ph-type'>Null</td><td class='ph-type' class='ph-voice'></td>
+			<td class='ph-sym' colspan="14"><a href='/scrlang/phonemes/cons-null' title='null'>∅</a></td>
 		</tr>
 	</tbody>
 

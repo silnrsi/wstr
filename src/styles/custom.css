@@ -95,11 +95,24 @@
 /* Used by PhChartCons component */
 
 tr.ph-hdr {
-    padding-left: none !important;
-    padding-right: none !important;
+    padding-left: none;
+    padding-right: none;
 }
 
-th.ph-hdrlabel { 
+tr.ph-noline td,
+tr.ph-noline th {
+    border-bottom-color: white;
+}
+
+tr.ph-darkline td,
+tr.ph-darkline th {
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+}
+
+/* avoid a lot of horizontal spacing around the labels */
+th.ph-labelimg,
+tr.ph-labelimg th { 
     max-width: none; 
     padding-left: 7px; 
     padding-right: 7px;
@@ -112,6 +125,10 @@ td.ph-sym {
     text-align: center;
 }
 
+td.ph-voice {
+    text-align: right;
+}
+
 td.ph-sym a {
     font-size: 110%;
     text-decoration: none;
@@ -122,4 +139,16 @@ td.ph-type {
     padding-left: 7px;
     padding-right: 7px;
     font-style: italic;
+}
+
+th.ph-center {
+    text-align: center;
+}
+
+tr.ph-small th{
+    font-size: 90%;
+}
+
+tr.ph-tight th {
+   padding-top: 1px; 
 }
