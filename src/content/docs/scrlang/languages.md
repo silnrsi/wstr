@@ -3,7 +3,7 @@ title: Languages
 description: Main page listing all scripts
 sidebar:
     order: 8400
-lastUpdated: 2026-05-12
+lastUpdated: 2026-06-22
 ---
 
 The following are sites that have information on many different languages. For most of these sites, you can access information on a specific language by including that language's three-letter code in the URL as indicated.
@@ -14,8 +14,6 @@ The following are sites that have information on many different languages. For m
     - <code>https://www.ethnologue.com/language/XXX</code>
 - [ISO 639-3][iso-639-3]
     - <code>https://iso639-3.sil.org/code/XXX</code>
-- [ScriptSource][scriptsource]
-    - <code>https://scriptsource.org/lang/XXX</code>
 - [Glottolog/Langdoc][glottolog]
     - <code>https://glottolog.org/glottolog?iso=XXX</code>
 
@@ -43,7 +41,6 @@ The following are sites that have information on many different languages. For m
 
 [ethnologue]: https://www.ethnologue.com/
 [iso-639-3]: https://iso639-3.sil.org/
-[scriptSource]: https://scriptsource.org
 [glottolog]: https://glottolog.org
 [lfff]: /scrlang/language-font-finder
 [olac]: http://www.language-archives.org/
