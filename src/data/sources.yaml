@@ -7770,13 +7770,6 @@ uax9:
   url: https://www.unicode.org/reports/tr9/
   urldate: "2025-11-19"
   keywords: [encoding, direction, script-arab, script-hebr, script-mand, script-nkoo, script-samr, script-syrc, script-yezi]
-utn46:
-  entrytype: online
-  entrysubtype: f
-  title: "UTN #46: Rendering the Allah Ligature"
-  url: https://www.unicode.org/notes/tn46/
-  urldate: "2026-06-19"
-  keywords: [encoding, script-arab]
 ubuntu:
   entrytype: online
   entrysubtype: f
@@ -7925,6 +7918,13 @@ uni-scripts:
   url: https://www.unicode.org/Public/UNIDATA/Scripts.txt
   urldate: "2025-11-19"
   keywords: [encoding, writing systems]
+uni-topical:
+  entrytype: online
+  entrysubtype: f
+  title: Unicode - Topical Document Lists
+  url: https://www.unicode.org/L2/topical/
+  urldate: "2026-06-22"
+  keywords: [encoding, script-arab, script-egyp, script-ethi, script-kitl, script-kits, script-lana, script-mong, script-phlv, script-seal]
 uni-tus:
   entrytype: online
   entrysubtype: f
@@ -7993,19 +7993,59 @@ utn:
 utn10:
   entrytype: online
   entrysubtype: f
-  title: "UTN #10: An Introduction to Indic Scripts"
+  title: "UTN #10, An Introduction to Indic Scripts"
   organization: Unicode
   url: https://www.unicode.org/notes/tn10/
   urldate: "2025-11-19"
   keywords: [encoding, script-beng, script-deva, script- gujr, script-guru, script-knda, script-mlym, script-orya, script-taml, script-telu]
+utn46:
+  entrytype: online
+  entrysubtype: f
+  title: "UTN #46, Rendering the Allah Ligature"
+  organization: Unicode
+  url: https://www.unicode.org/notes/tn46/
+  urldate: "2026-06-19"
+  keywords: [encoding, script-arab]
+utn56:
+  entrytype: online
+  entrysubtype: f
+  title: "UTN #56, Representing Miao in Unicode"
+  organization: Unicode
+  url: https://www.unicode.org/notes/tn56/
+  urldate: "2026-06-22"
+  keywords: [encoding, script-plrd]
+utn58:
+  entrytype: online
+  entrysubtype: f
+  title: "UTN #58, Evolution of Adlam Characters Since Encoding"
+  organization: Unicode
+  url: https://www.unicode.org/notes/tn58/
+  urldate: "2026-06-22"
+  keywords: [encoding, script-adlm]
 utn57:
   entrytype: online
   entrysubtype: f
   title: "UTN #57, Representing Mongolian in Unicode"
   organization: Unicode
   url: https://www.unicode.org/notes/tn57/
-  urldate: "2025-11-19"
+  urldate: "2026-06-22"
   keywords: [encoding, script-mong]
+utn59:
+  entrytype: online
+  entrysubtype: f
+  title: "UTN #59, Representing Tifinagh in Unicode"
+  organization: Unicode
+  url: https://www.unicode.org/notes/tn59/
+  urldate: "2026-06-22"
+  keywords: [encoding, script-tfng]
+utn61:
+  entrytype: online
+  entrysubtype: f
+  title: "UTN #61, Khmer Encoding Structure"
+  organization: Unicode
+  url: https://www.unicode.org/notes/tn61/
+  urldate: "2026-06-22"
+  keywords: [encoding, script-khmr]
 utr:
   entrytype: online
   entrysubtype: f
