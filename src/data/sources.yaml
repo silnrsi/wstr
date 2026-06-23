@@ -7044,6 +7044,14 @@ signwriting-transcription-systems:
   urldate: "2023-08-07"
   keywords: [script-qaaq, script-qabn, script-sgnw, lang-ase, conversion, transcription]
   annotation: "This page presents a small selection of words as represented in SignWriting, Stokoe Notation, and HamNoSys for the purpose of comparison. A photograph of a person signing each word in American Sign Language is also provided."
+sil-arab-patterns:
+  entrytype: online
+  entrysubtype: f
+  title: Characters which follow a different dot pattern
+  organization: SIL
+  url: https://software.sil.org/arabicfonts/differentpattern/
+  urldate: "2026-06-23"
+  keywords: [script-arab, char-064A, char-06BA, char-06BD, char-06CC, char-0775, char-0776, char-077A, char-077B, char-08BB, char-08BC, char-08BD, char-08C4]
 sil-fonts:
   entrytype: online
   entrysubtype: f
