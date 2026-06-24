@@ -3,12 +3,12 @@ title: Dagger-Alef in Arabic Script
 description: Implementing correct behavior for dagger-alef
 authors: Lorna Evans
 tags: [script-arab, char-0670]
-lastUpdated: 2026-03-27
+lastUpdated: 2026-06-24
 ---
 
 import Character from '/src/components/Character.astro';
 
-In order to implement correct behavior in fonts for the _dagger-alef_ (<Character usv="0670" options="usv,char,name"/>) one needs to understand how it should appear. Although there are exceptions, the _dagger-alef_ is not generally written in modern texts, it is primarily used in classical texts.
+In order to implement correct behavior in fonts for the _dagger-alef_ (:usv[0670]{usv char name} one needs to understand how it should appear. Although there are exceptions, the _dagger-alef_ is not generally written in modern texts, it is primarily used in classical texts.
 
 Regarding the _dagger-alef_, Fahmy ([Fahmy, Hossam A. H. 2006, Vol 27, No 2. AlQalam for typesetting traditional Arabic texts. TUGBoat. p. 164][src-fahmy]) says: 
 
@@ -34,6 +34,55 @@ If a consonant has a vowel above it (such as the _fatha_) followed by a _dagger-
 
 ![Dagger-alef](images/dagger-alef1.jpg "Dagger-alef")
 
-Some fonts will offset the dagger alif a little to the left if the character already has a _fatha_ or another vowel above it. 
+Some fonts will offset the _dagger-alef_ a little to the left if the character already has a _fatha_ or another vowel above it. 
+
+## Implementation Issues
+
+A larger dagger-alef may be desired on characters with a large isolate or final deep tail. Compare the first two lines with the red characters in the last two lines.
+
+![Larger Dagger-alef](images/dagger-alef-larger.png "Larger Dagger-alef")
+
+Some traditions, and on some characters, the _dagger-alef_ should be positioned in a slightly different position than other combining marks. Compare the first example with _fatha_ above with the following example with the _dagger-alef_ above.
+
+![Dagger-alef and fatha positioning](images/dagger-alef-anchor.png "Dagger-alef and fatha positioning")
+
+In the SIL implementation to support this behavior, we have two _above_ attachment points. The `diaA` anchor is used for positioning almost all above combining marks. The `alef` anchor is used for positioning _dagger-alef_.
+
+![diaA and alef anchors](images/dagger-alef-all-anchors.png "diaA and alef anchors")
+
+In the GPOS lookup, we have the following code:
+
+```
+# Override mark positioning in the case of dagger-alef on certain chars:
+lookup AlefToBase {
+  lookupflag 0;
+    pos  base @alef  mark @_alef;
+} AlefToBase;
+```
+
+That lookup is used in the `mark` feature, and not in `mkmk`:
+
+```
+feature mark {  # Mark to base Positioning
+    # Same for latin & arabic:
+      lookup MarkToBase;
+      lookup AlefToBase;
+    script arab;
+      lookup MarkToLig;
+...
+} mark ;
+
+```
+
+In another style of font, the _dagger-alef_ is positioned after the _fatha_.
+
+![Dagger-alef and fatha positioning in Alkalami](images/dagger-alef-alkalami.png "Dagger-alef and fatha positioning in Alkalami")
+
+In this example the _dagger-alef_ and _fatha_ form one glyph called `fatha_alefabove-ar`. The Opentype code, in `ccmp` is:
+
+```
+sub fatha-ar alefabove-ar by fatha_alefabove-ar;
+```
+
 
 [src-fahmy]: http://www.tug.org/tugboat/tb27-2/tb87fahmy.pdf
