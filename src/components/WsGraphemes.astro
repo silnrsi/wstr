@@ -15,6 +15,42 @@ function phonemeSymbol(key: string): string {
 	return phonemeData[key]?.symbol ?? "";
 }
 
+function phonemeSlug(key: string): string {
+	let result = phonemeData[key]?.slug ?? key;
+
+	if (result.substring(0, 4) == 'diph') {
+		
+	} else if (result.substring(0, 4) == "dart") {
+	
+	} else if (result.substring(0, 4) == "tone") {
+	
+	} else if (result.substring(0, 3) == "vwl") {
+		// remove modification, eg, '-short'
+		if (result.substring(0, 9) == "vwl-ce-ap") {
+			result = "vwl-ce-ap";
+		} else {
+			result = result.substring(0, 13);	// eg, vwl-fr-op-rnd
+		}
+
+	} else if (result.substring(0, 4) == "cons) {
+
+	} else {   // consonant
+		// remove modification, eg, '-gemin'
+		let place = result.substring(0, 3);
+		if (place == "stp" || place == "aff" || place == "fri" || place == "tap") {
+			result = result.substring(0, 11);	// eg, stp-bil-rnd
+		} else {
+			result = result.substring(0, 7);	// eg, nas-alv
+		}
+	}
+
+	result = phonemeData[result]?.slug ?? result;	// eg, nas-den-palzd -> nas-alv
+
+	result = result.replace("+", "__");
+	console.log(key + " >> " + result);
+	return result;
+}
+
 const { wsCode } = Astro.props;
 
 const allPhonograms = wsgData["phonograms"];
@@ -54,7 +90,7 @@ console.log('# phonograms = ' + pgCount);
 						<span>{ch} </span>
 					)}	
 				</td>
-				<td><a href={`/scrlang/phonemes/${(wsp.phoneme)}`}>/{phonemeSymbol(wsp.phoneme)}/</a></td>
+				<td><a href={`/scrlang/phonemes/${(phonemeSlug(wsp.phoneme))}`}>/{phonemeSymbol(wsp.phoneme)}/</a></td>
 				<td>{wsp.status}</td>
 				<td set:html={wsp.example} />
 				<td set:html={wsp.notes} />

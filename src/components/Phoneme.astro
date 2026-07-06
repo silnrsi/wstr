@@ -2,7 +2,7 @@
 // Phoneme component: display a table of graphemes and phonograms that represent a given phoneme.
 // Parameters:
 //     key - phoneme key, eg. stp-bil-vd
-//     shownone: true/false; whether to display anything if the list is empty
+//     hidenone: "true" | "false" - whether to display anything if the list is empty; default is false
 
 import Character from './Character.astro';
 
@@ -14,16 +14,22 @@ import phonemeData from '../data/phonemes.json';
 //	return phonemeData[pkey]?.symbol ?? "ERROR";
 //}
 
-const { key } = Astro.props;
+const { key, hidenone } = Astro.props;
 
 console.log("key = " + key);
 
-const phSymbol = phonemeData[key]["symbol"];
+const phData = phonemeData[key];
+let phSymbol = "*";
+let phLabel = "INVALID";
+
+if (phData) {
+	phSymbol = phData["symbol"];
+	phLabel = phData["label"];
+}
+
+//const phLabel = phonemeData[key]["label"];
 
 console.log("phSymbol = " + phSymbol);
-
-const phLabel = phonemeData[key]["label"];
-
 console.log("phLabel = " + phLabel);
 
 const allPhonograms = wsgData["phonograms"];
@@ -32,9 +38,11 @@ const allPhonograms = wsgData["phonograms"];
 let keyPhonograms  = allPhonograms.filter(pg => pg.phoneme === key);
 let kpgCount = keyPhonograms ? keyPhonograms.length : 0;
 
-console.log('# phonograms = ' + kpgCount);
+//console.log('# phonograms = ' + kpgCount);
 
 ---
+
+{ (kpgCount == 0 && hidenone == "true") ? null : (
 
 <div>
 
@@ -72,3 +80,4 @@ console.log('# phonograms = ' + kpgCount);
 	}
 
 </div>
+) }
