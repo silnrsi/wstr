@@ -19,7 +19,7 @@ const { key, hidenone } = Astro.props;
 console.log("key = " + key);
 
 const phData = phonemeData[key];
-let phSymbol = "*";
+let phSymbol = "NONE";
 let phLabel = "INVALID";
 
 if (phData) {
@@ -46,7 +46,7 @@ let kpgCount = keyPhonograms ? keyPhonograms.length : 0;
 
 <div>
 
-	<h3>&#x002F;{phSymbol}&#x002F;: {phLabel}</h3>
+	{ (phSymbol == "NONE") ? null : ( <h3>&#x002F;{phSymbol}&#x002F;: {phLabel}</h3> ) }
 
 	{ (kpgCount == 0) ? (
 				<p>None</p>

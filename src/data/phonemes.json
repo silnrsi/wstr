@@ -977,22 +977,22 @@
 		"sortkey":	"c60_20_20",
 		"slug":		"tap-bil-vd"
 	},
-	"tap-alv": {
+	"tap-alv-vd": {
 		"symbol":	"ɾ",
 		"label":	"alveolar tap",
 		"sortkey":	"c60_35"
 	},
-	"tap-alv-labzd": {
+	"tap-alv-vd-labzd": {
 		"symbol":	"ɾʷ",
 		"label":	"labialized alveolar tap",
 		"sortkey":	"c60_35_120"
 	},
-	"tap-alv-palzd": {
+	"tap-alv-vd-palzd": {
 		"symbol":	"ɾʲ",
 		"label":	"palatalized alveolar tap",
 		"sortkey":	"c60_35_140"
 	},
-	"tap-alv-gemin": {
+	"tap-alv-vd-gemin": {
 		"symbol":	"ɾː",
 		"label":	"geminate alveolar tap",
 		"sortkey":	"c60_35_180"
@@ -1038,13 +1038,13 @@
 		"symbol":	"ɭ",
 		"label":	"retroflex lateral approximant",
 		"sortkey":	"c75_40",
-		"slug":		"lap-alv"
+		"slug":		"lap-alv#retroflex"
 	},
 	"lap-pal": {
 		"symbol":	"ʎ",
 		"label":	"palatal lateral approximant",
 		"sortkey":	"c75_55",
-		"slug":		"lap-alv"
+		"slug":		"lap-alv#palatal"
 	},
 	"app-bil": {
 		"symbol":	"w",

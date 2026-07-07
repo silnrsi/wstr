@@ -1155,7 +1155,7 @@
 		{
 			"ws":		"ast-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"caru ‘expensive’",
 			"notes":	""
@@ -1579,7 +1579,7 @@
 		{
 			"ws":		"bcy-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"rame ‘chair’",
 			"notes":	""
@@ -2787,7 +2787,7 @@
 		{
 			"ws":		"de-Latn",
 			"chars":	["0072", "0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"common",
 			"example":	"Herre ‘gentleman’",
 			"notes":	""
@@ -2795,7 +2795,7 @@
 		{
 			"ws":		"de-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"Recht ‘law’",
 			"notes":	""
@@ -3123,7 +3123,7 @@
 		{
 			"ws":		"dv-Thaa",
 			"chars":	["0783"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"<span lang='dv'>ރަށް</span>",
 			"notes":	"Linguists have differing views as to whether /ɾ/ or /ɻ/is the most appropriate phonetic representation of the Raa character. Dr. Bruce Cain maintains that Raa is never a retroflex approximant, and is best described as an alveolar tap."
@@ -5163,7 +5163,7 @@
 		{
 			"ws":		"es-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"pero ‘but’",
 			"notes":	""
@@ -5451,7 +5451,7 @@
 		{
 			"ws":		"fub-Arab",
 			"chars":	["0631"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"<span lang='fub'>رَنٜىٰرٜ</span> ‘white’, <span lang='fub'>يٛرْندٜ</span> ‘supplication’, <span lang='fub'>ڢَجِرِ</span> ‘morning’, <span lang='fub'>عَسَرْ</span> ‘waste’",
 			"notes":	""
@@ -6235,7 +6235,7 @@
 		{
 			"ws":		"fub-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"raneere ‘white’, tornde ‘supplication’, fajiri ‘morning’, asar ‘waste’",
 			"notes":	""
@@ -6539,7 +6539,7 @@
 		{
 			"ws":		"ha-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"rubutu ‘writing’",
 			"notes":	"Distinction between /ɾ/ and /ɽ/ does not exist for all speakers."
@@ -6931,7 +6931,7 @@
 		{
 			"ws":		"id-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"urat ‘vein’, racun ‘poison’",
 			"notes":	"Allophone: [r]"
@@ -16947,7 +16947,7 @@
 		{
 			"ws":		"lbw-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"rano ‘pool’, kara ‘heat’",
 			"notes":	""
@@ -17371,7 +17371,7 @@
 		{
 			"ws":		"nat-Latn",
 			"chars":	["0072", "0077"],
-			"phoneme":	"tap-alv-labzd",
+			"phoneme":	"tap-alv-vd-labzd",
 			"status":	"expected",
 			"example":	"zarwo ‘sky’, bitwarwa ‘neck’",
 			"notes":	""
@@ -17379,7 +17379,7 @@
 		{
 			"ws":		"nat-Latn",
 			"chars":	["0072", "0079"],
-			"phoneme":	"tap-alv-palzd",
+			"phoneme":	"tap-alv-vd-palzd",
 			"status":	"expected",
 			"example":	"ryego ‘guinea fowl’, ugya̱rya̱rya̱ ‘zero’",
 			"notes":	""
@@ -17387,7 +17387,7 @@
 		{
 			"ws":		"nat-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"riga̱ ‘sheanut tree’, a̱huri ‘flute’",
 			"notes":	""
@@ -17955,7 +17955,7 @@
 		{
 			"ws":		"ne-Deva",
 			"chars":	["0930"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"<span lang='npi-Deva'>राम्रो </span> ‘good’",
 			"notes":	"Pronunciation variant"
@@ -18691,7 +18691,7 @@
 		{
 			"ws":		"png-Latn",
 			"chars":	["0072", "0077"],
-			"phoneme":	"tap-alv-labzd",
+			"phoneme":	"tap-alv-vd-labzd",
 			"status":	"expected",
 			"example":	"rwaga, urwiin",
 			"notes":	""
@@ -18699,7 +18699,7 @@
 		{
 			"ws":		"png-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"re̱e̱, ratu",
 			"notes":	""
@@ -19339,7 +19339,7 @@
 		{
 			"ws":		"ru-Cyrl",
 			"chars":	["0440", "044C"],
-			"phoneme":	"tap-alv-palzd",
+			"phoneme":	"tap-alv-vd-palzd",
 			"status":	"expected",
 			"example":	"<span lang='ru'>зверь</span> ‘beast’",
 			"notes":	""
@@ -19347,7 +19347,7 @@
 		{
 			"ws":		"ru-Cyrl",
 			"chars":	["0440"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"<span lang='ru'>раз</span> ‘once’",
 			"notes":	"Preceding either ‹<span lang='ru'>а, о, э, у, ы</span>› or a consonant, or if word-final."
@@ -19355,7 +19355,7 @@
 		{
 			"ws":		"ru-Cyrl",
 			"chars":	["0440"],
-			"phoneme":	"tap-alv-palzd",
+			"phoneme":	"tap-alv-vd-palzd",
 			"status":	"expected",
 			"example":	"<span lang='ru'>ряд</span> ‘row’",
 			"notes":	"Preceding ‹<span lang='ru'>я, ё, е, ю, и</span>›"
@@ -19867,7 +19867,7 @@
 		{
 			"ws":		"srr-Arab",
 			"chars":	["0631"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"<span lang='srr-Arab'>رَخْ</span> ‘to chase’",
 			"notes":	""
@@ -20387,7 +20387,7 @@
 		{
 			"ws":		"srr-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"rax ‘to chase’",
 			"notes":	""
@@ -20699,7 +20699,7 @@
 		{
 			"ws":		"wo-Arab",
 			"chars":	["0631"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"<span lang='wo-Arab'>فࣹرْ</span> ‘to gather’",
 			"notes":	""
@@ -21811,7 +21811,7 @@
 		{
 			"ws":		"wo-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"for ‘to gather’",
 			"notes":	""
@@ -22203,7 +22203,7 @@
 		{
 			"ws":		"xnz-Copt",
 			"chars":	["2CA3"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"",
 			"notes":	""
@@ -22435,7 +22435,7 @@
 		{
 			"ws":		"xnz-Latn",
 			"chars":	["0072"],
-			"phoneme":	"tap-alv",
+			"phoneme":	"tap-alv-vd",
 			"status":	"expected",
 			"example":	"",
 			"notes":	""
