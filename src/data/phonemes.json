@@ -33,19 +33,19 @@
 		"symbol":	"ɱ",
 		"label":	"labiodental nasal",
 		"sortkey":	"c10_20",
-		"slug":		"nas-alv"
+		"slug":		"nas-bil#labiodentals"
 	},
 	"nas-llb": {
 		"symbol":	"n̼",
 		"label":	"linguolabial nasal",
 		"sortkey":	"c10_15",
-		"slug":		"nas-bil"
+		"slug":		"nas-alv#linguolabials"
 	},
 	"nas-den": {
 		"symbol":	"n̪",
 		"label":	"dental nasal",
 		"sortkey":	"c10_30",
-		"slug":		"nas-alv"
+		"slug":		"nas-alv#dentals"
 	},
 	"nas-den-palzd": {
 		"symbol":	"n̪ʲ",
@@ -91,7 +91,7 @@
 		"symbol":	"ɲ̟",
 		"label":	"alveo-palatal nasal",
 		"sortkey":	"c10_50",
-		"slug":		"nas-pal"
+		"slug":		"nas-pal#alveo-palatals"
 	},
 	"nas-pal": {
 		"symbol":	"ɲ",
@@ -212,19 +212,19 @@
 		"symbol":	"t̼",
 		"label":	"voiceless linguolabial plosive",
 		"sortkey":	"c20_15_10",
-		"slug":		"stp-bil-vl"
+		"slug":		"stp-bil-vl#linguolabials"
 	},
 	"stp-llb-vd": {
 		"symbol":	"d̼",
 		"label":	"voiced linguolabial plosive",
 		"sortkey":	"c20_15_20",
-		"slug":		"stp-bil-vd"
+		"slug":		"stp-bil-vd#linguolabials"
 	},
 	"stp-den-vl": {
 		"symbol":	"t̪",
 		"label":	"voiceless dental plosive",
 		"sortkey":	"c20_30_10",
-		"slug":		"stp-alv-vl"
+		"slug":		"stp-alv-vl#dentals"
 	},
 	"stp-den-vl-aspir": {
 		"symbol":	"t̪ʰ",
@@ -240,7 +240,7 @@
 		"symbol":	"d̪",
 		"label":	"voiced dental plosive",
 		"sortkey":	"c20_30_20",
-		"slug":		"stp-alv-vd"
+		"slug":		"stp-alv-vd#dentals"
 	},
 	"stp-den-vd-aspir": {
 		"symbol":	"d̪ʰ",
@@ -517,25 +517,25 @@
 		"symbol":	"ǀ",
 		"label":	"dental click",
 		"sortkey":	"c25_30",
-		"slug":		"cli"
+		"slug":		"cli#dentals"
 	},
 	"cli-alv-later": {
 		"symbol":	"ǁ",
 		"label":	"alveolar lateral click",
 		"sortkey":	"c25_35",
-		"slug":		"cli"
+		"slug":		"cli#alveolars"
 	},
 	"cli-pav": {
 		"symbol":	"ǃ",
 		"label":	"post-alveolar click",
 		"sortkey":	"c25_45",
-		"slug":		"cli"
+		"slug":		"cli#post-alveolars"
 	},
 	"cli-pal": {
 		"symbol":	"ǂ",
 		"label":	"palatal click",
 		"sortkey":	"c25_55",
-		"slug":		"cli"
+		"slug":		"cli#palatals"
 	},
 	"aff-den-vl": {
 		"symbol":	"t̪s",
@@ -596,7 +596,7 @@
 		"symbol":	"tʃ",
 		"label":	"voiceless post-alveolar affricate",
 		"sortkey":	"c30_45_10",
-		"slug":		"aff-pal-vl"
+		"slug":		"aff-pal-vl#post-alveolars"
 	},
 	"aff-pav-vl-aspir": {
 		"symbol":	"tʃʰ",
@@ -622,7 +622,7 @@
 		"symbol":	"dʒ",
 		"label":	"voiced post-alveolar affricate",
 		"sortkey":	"c30_45_20",
-		"slug":		"aff-pal-vd"
+		"slug":		"aff-pal-vd#post-alveolars"
 	},
 	"aff-pav-vd-labzd": {
 		"symbol":	"dʒʷ",
@@ -648,7 +648,7 @@
 		"symbol":	"tɕ",
 		"label":	"voiceless alveo-palatal affricate",
 		"sortkey":	"c30_50_10",
-		"slug":		"aff-pal-vl"
+		"slug":		"aff-pal-vl#alveo-palatals"
 	},
 	"aff-alp-vl-aspir": {
 		"symbol":	"tɕʰ",
@@ -664,7 +664,7 @@
 		"symbol":	"dʑ",
 		"label":	"voiced alveo-palatal affricate",
 		"sortkey":	"c30_50_20",
-		"slug":		"aff-pal-vd"
+		"slug":		"aff-pal-vd#alveo-palatals"
 	},
 	"aff-alp-vd-pnszd": {
 		"symbol":	"ᶮdʑ",
@@ -695,7 +695,7 @@
 		"symbol":	"s̼",
 		"label":	"voiceless linguolabial fricative",
 		"sortkey":	"c40_15_10",
-		"slug":		"fri-bil-vl"
+		"slug":		"fri-alv-vl#linguolabials"
 	},
 	"fri-llb-vd": {
 		"symbol":	"z̼",
@@ -706,7 +706,7 @@
 		"symbol":	"f",
 		"label":	"voiceless labiodental fricative",
 		"sortkey":	"c40_20_10",
-		"slug":		"fri-alv-vl"
+		"slug":		"fri-bil-vl#labiodentals"
 	},
 	"fri-lbd-vl-palzd": {
 		"symbol":	"fʲ",
@@ -737,7 +737,7 @@
 		"symbol":	"θ",
 		"label":	"voiceless dental fricative",
 		"sortkey":	"c40_30_10",
-		"slug":		"fri-alv-vl"
+		"slug":		"fri-alv-vl#dentals"
 	},
 	"fri-den-vl-palzd": {
 		"symbol":	"θʲ",
@@ -753,7 +753,7 @@
 		"symbol":	"ð",
 		"label":	"voiced dental fricative",
 		"sortkey":	"c40_30_20",
-		"slug":		"fri-alv-vd"
+		"slug":		"fri-alv-vd#dentals"
 	},
 	"fri-den-vd-palzd": {
 		"symbol":	"ðʲ",
@@ -839,13 +839,13 @@
 		"symbol":	"ᶘ",
 		"label":	"voiceless retroflex post-alveolar fricative",
 		"sortkey":	"c40_43_10",
-		"slug":		"fri-ret-vl"
+		"slug":		"fri-ret-vl#retroflex-post-alveolars"
 	},
 	"fri-rpa-vd": {
 		"symbol":	"ᶚ",
 		"label":	"voiced retroflex post-alveolar fricative",
 		"sortkey":	"c40_43_20",
-		"slug":		"fri-ret-vd"
+		"slug":		"fri-ret-vd#retroflex-post-alveolars"
 	},
 	"fri-pav-vl": {
 		"symbol":	"ʃ",
@@ -863,7 +863,7 @@
 		"symbol":	"ɕ",
 		"label":	"voiceless alveo-palatal fricative",
 		"sortkey":	"c40_50_10",
-		"slug":		"fri-pal-vl"
+		"slug":		"fri-pal-vl#alveo-palatals"
 	},
 	"fri-alp-vl-palzd": {
 		"symbol":	"ɕʲ",
@@ -874,7 +874,7 @@
 		"symbol":	"ʑ",
 		"label":	"voiced alveo-palatal fricative",
 		"sortkey":	"c40_50_20",
-		"slug":		"fri-pal-vd"
+		"slug":		"fri-pal-vd#alveo-palatals"
 	},
 	"fri-vel-vl": {
 		"symbol":	"x",
@@ -905,25 +905,25 @@
 		"symbol":	"ħ",
 		"label":	"voiceless pharyngeal fricative",
 		"sortkey":	"c40_80_10",
-		"slug":		"fri-glo-vl"
+		"slug":		"fri-glo-vl#pharyngeals"
 	},
 	"fri-pha-vd": {
 		"symbol":	"ʕ",
 		"label":	"voiced pharyngeal fricative",
 		"sortkey":	"c40_80_20",
-		"slug":		"fri-glo-vd"
+		"slug":		"fri-glo-vd#pharyngeals"
 	},
 	"fri-epi-vl": {
 		"symbol":	"ʜ",
 		"label":	"voiceless epiglottal fricative",
 		"sortkey":	"c40_85_10",
-		"slug":		"fri-glo-vl"
+		"slug":		"fri-glo-vl#epiglottals"
 	},
 	"fri-epi-vd": {
 		"symbol":	"ʢ̰",
 		"label":	"voiced epiglottal fricative",
 		"sortkey":	"c40_85_20",
-		"slug":		"fri-glo-vd"
+		"slug":		"fri-glo-vd#epiglottals"
 	},
 	"fri-glo-vl": {
 		"symbol":	"h",
@@ -975,12 +975,13 @@
 		"symbol":	"ⱱ",
 		"label":	"labiodental flap",
 		"sortkey":	"c60_20_20",
-		"slug":		"tap-bil-vd"
+		"slug":		"tap-bil-vd#labiodentals"
 	},
 	"tap-alv-vd": {
 		"symbol":	"ɾ",
 		"label":	"alveolar tap",
-		"sortkey":	"c60_35"
+		"sortkey":	"c60_35",
+		"slug":		"tap-alv#alveolars"
 	},
 	"tap-alv-vd-labzd": {
 		"symbol":	"ɾʷ",
@@ -1001,13 +1002,13 @@
 		"symbol":	"ɽ",
 		"label":	"retroflex flap",
 		"sortkey":	"c60_40",
-		"slug":		"tap-alv"
+		"slug":		"tap-alv#retroflex-flaps"
 	},
 	"tap-ret-breat": {
 		"symbol":	"ɽʱ",
 		"label":	"breathy retroflex flap",
 		"sortkey":	"c60_40_70",
-		"slug":		"tap-alv"
+		"slug":		"tap-alv#retroflex-flaps"
 	},
 	"lap-alv": {
 		"symbol":	"l",
@@ -1060,7 +1061,7 @@
 		"symbol":	"ʋ",
 		"label":	"labiodental approximant",
 		"sortkey":	"c80_20",
-		"slug":		"app-bil"
+		"slug":		"app-bil#labiodentals"
 	},
 	"app-ret": {
 		"symbol":	"ɻ",
@@ -1111,7 +1112,7 @@
 		"symbol":	"ɰ",
 		"label":	"velar approximant",
 		"sortkey":	"c80_60",
-		"slug":		"app-pal"
+		"slug":		"app-pal#velars"
 	},
 	"cons-null": {
 		"symbol":	"∅",
@@ -1323,12 +1324,14 @@
 	"vwl-fr-md-unr": {
 		"symbol":	"e̞",
 		"label":	"mid front unrounded vowel",
-		"sortkey":	"v10_40_10"
+		"sortkey":	"v10_40_10",
+		"slug":		"vwl-fr-md-unr#mid"
 	},
 	"vwl-fr-md-rnd": {
 		"symbol":	"ø̞",
 		"label":	"mid front rounded vowel",
-		"sortkey":	"v10_40_20"
+		"sortkey":	"v10_40_20",
+		"slug":		"vwl-fr-md-rnd#mid"
 	},
 	"vwl-nf-nc-unr": {
 		"symbol":	"ɪ",
@@ -1346,7 +1349,7 @@
 		"symbol":	"ɛ",
 		"label":	"open-mid near-front unrounded vowel",
 		"sortkey":	"v20_50_10",
-		"slug":		"vwl-fr-md-unr"
+		"slug":		"vwl-fr-md-unr#open-mid"
 	},
 	"vwl-nf-om-unr-lngth": {
 		"symbol":	"ɛː",
@@ -1367,13 +1370,13 @@
 		"symbol":	"œ",
 		"label":	"open-mid near-front rounded vowel",
 		"sortkey":	"v20_50_20",
-		"slug":		"vwl-fr-md-rnd"
+		"slug":		"vwl-fr-md-rnd#open-mid"
 	},
 	"vwl-nf-no-unr": {
 		"symbol":	"æ",
 		"label":	"near-open near-front unrounded vowel",
 		"sortkey":	"v20_60_10",
-		"slug":		"vwl-fr-op-unr"
+		"slug":		"vwl-fr-op-unr#near-open"
 	},
 	"vwl-nf-op-unr": {
 		"symbol":	"a",
@@ -1425,19 +1428,20 @@
 	"vwl-ce-nc-unr": {
 		"symbol":	"ɪ̈",
 		"label":	"near-close central unrounded vowel",
-		"sortkey":	"v30_20_10"
+		"sortkey":	"v30_20_10",
+		"slug":		"vwl-ce-cl-unr#near-close"
 	},
 	"vwl-ce-nc-rnd": {
 		"symbol":	"ʊ̈",
 		"label":	"near-close central rounded vowel",
 		"sortkey":	"v30_20_20",
-		"slug":		"vwl-ce-cl-rnd"
+		"slug":		"vwl-ce-cl-rnd#near-close"
 	},
 	"vwl-ce-cm-unr": {
 		"symbol":	"ɘ",
 		"label":	"close-mid central unrounded vowel",
 		"sortkey":	"v30_30_10",
-		"slug":		"vwl-ce-md-unr"
+		"slug":		"vwl-ce-md-unr#close-mid"
 	},
 	"vwl-ce-cm-unr-lngth": {
 		"symbol":	"ɘː",
@@ -1458,7 +1462,7 @@
 		"symbol":	"ɵ",
 		"label":	"close-mid central rounded vowel",
 		"sortkey":	"v30_30_20",
-		"slug":		"vwl-ce-md-rnd"
+		"slug":		"vwl-ce-md-rnd#close-mid"
 	},
 	"vwl-ce-md-unr": {
 		"symbol":	"ə",
@@ -1479,19 +1483,19 @@
 		"symbol":	"ɜ",
 		"label":	"open-mid central unrounded vowel",
 		"sortkey":	"v30_50_10",
-		"slug":		"vwl-ce-op-unr"
+		"slug":		"vwl-ce-md-unr#open-mid"
 	},
 	"vwl-ce-om-rnd": {
 		"symbol":	"ɞ",
 		"label":	"open-mid central rounded vowel",
 		"sortkey":	"v30_50_20",
-		"slug":		"vwl-ce-md-rnd"
+		"slug":		"vwl-ce-md-rnd#open-mid"
 	},
 	"vwl-ce-no-unr": {
 		"symbol":	"ɐ",
 		"label":	"near-open central unrounded vowel",
 		"sortkey":	"v30_60_10",
-		"slug":		"vwl-ce-op-unr"
+		"slug":		"vwl-ce-op-unr#near-open"
 	},
 	"vwl-ce-op-unr": {
 		"symbol":	"ä",
@@ -1532,7 +1536,7 @@
 		"symbol":	"ʊ",
 		"label":	"near-close near-back rounded vowel",
 		"sortkey":	"v40_20_20",
-		"slug":		"vwl-bk-cl-rnd"
+		"slug":		"vwl-bk-cl-rnd#near-close"
 	},
 	"vwl-bk-cl-unr": {
 		"symbol":	"ɯ",
@@ -1563,13 +1567,13 @@
 		"symbol":	"ɤ",
 		"label":	"close-mid back unrounded vowel",
 		"sortkey":	"v50_30_10",
-		"slug":		"vwl-bk-cm-unr"
+		"slug":		"vwl-bk-cm-unr#close-mid"
 	},
 	"vwl-bk-cm-rnd": {
 		"symbol":	"o",
 		"label":	"close-mid back rounded vowel",
 		"sortkey":	"v50_30_20",
-		"slug":		"vwl-bk-cm-rnd"
+		"slug":		"vwl-bk-md-rnd"
 	},
 	"vwl-bk-cm-rnd-lngth": {
 		"symbol":	"oː",
@@ -1584,12 +1588,14 @@
 	"vwl-bk-md-unr": {
 		"symbol":	"ɤ̞",
 		"label":	"mid back unrounded vowel",
-		"sortkey":	"v50_40_10"
+		"sortkey":	"v50_40_10",
+		"slug":		"vwl-bk-md-unr#mid"
 	},
 	"vwl-bk-md-rnd": {
 		"symbol":	"o̞",
 		"label":	"mid back rounded vowel",
-		"sortkey":	"v50_40_20"
+		"sortkey":	"v50_40_20",
+		"slug":		"vwl-bk-md-rnd#mid"
 	},
 	"vwl-bk-md-rnd-lngth": {
 		"symbol":	"o̞ː",
@@ -1616,7 +1622,7 @@
 		"symbol":	"ɔ",
 		"label":	"open-mid back rounded vowel",
 		"sortkey":	"v50_50_20",
-		"slug":		"vwl-bk-md-rnd"
+		"slug":		"vwl-bk-md-rnd#open-mid"
 	},
 	"vwl-bk-om-rnd-lngth": {
 		"symbol":	"ɔː",
@@ -1637,6 +1643,11 @@
 		"symbol":	"ɒ",
 		"label":	"open back rounded vowel",
 		"sortkey":	"v50_70_20"
+	},
+	"vwl-ap": {
+		"symbol":	"ɿ",
+		"label":	"apical vowel",
+		"sortkey":	"v98"
 	},
 	"vwl-null": {
 		"symbol":	"∅",
