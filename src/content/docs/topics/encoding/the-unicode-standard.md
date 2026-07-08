@@ -61,7 +61,7 @@ The Unicode Standard includes different types of information:
 - [The Unicode Standard][uni-tus]
 - [Everyday Unicode][ws-everyday-unicode]
 - [Unicode Character Browsing][ws-char-browsing]
-- [Unicode Status in ScriptSource][ws-unicode-status]
+- [Unicode Status on writingsystems.info][ws-unicode-status]
 - [Understanding Unicode I][ss-understanding-unicode-i] and [Understanding Unicode II][ss-understanding-unicode-ii]
 
 _Portions of this content first appeared in [Guidelines for Writing System Support][sil-wsig], copyright © 2003 UNESCO and SIL International._

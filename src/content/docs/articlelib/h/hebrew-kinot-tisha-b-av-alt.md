@@ -16,7 +16,7 @@ The Kinot are a liturgical set of poems or dirges expressing mourning, pain, and
 [kinot]: https://www.flickr.com/photos/chajms/3755358837
 
 
-Image copyright © 2009[Chajm Guski][chajm-guski] with license [CC BY-SA 2.0][copyright-some-rights-reserved]
+Image copyright © 2009 [Chajm Guski][chajm-guski] with license [CC BY-SA 2.0][copyright-some-rights-reserved]
 Source: ["Kinot"][kinot]
 This article originally appeared on ScriptSource
 
