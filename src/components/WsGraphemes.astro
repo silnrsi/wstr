@@ -15,12 +15,26 @@ function phonemeSymbol(key: string): string {
 	return phonemeData[key]?.symbol ?? "";
 }
 
+function phonemeLabel(key: string): string {
+	return phonemeData[key]?.label ?? "";
+}
+
 function phonemeSlug(key: string): string {
+
 	let result = phonemeData[key]?.slug ?? key;
 
+	const hpos = result.indexOf("#");
+	let anchor = "";
+	if (hpos > -1) {
+		anchor = result.substring(hpos);
+		result = result.substring(0, hpos);
+	}
+
 	if (result.substring(0, 4) == 'diph') {
+		result = result.replace("-lngth", "");
 		
 	} else if (result.substring(0, 4) == "dart") {
+		// NOT YET IMPLEMENTED
 	
 	} else if (result.substring(0, 4) == "tone") {
 	
@@ -38,15 +52,16 @@ function phonemeSlug(key: string): string {
 		// remove modification, eg, '-gemin'
 		let place = result.substring(0, 3);
 		if (place == "stp" || place == "aff" || place == "fri" || place == "tap") {
-			result = result.substring(0, 11);	// eg, stp-bil-rnd
+			result = result.substring(0, 10);	// eg, stp-bil-vl
 		} else {
 			result = result.substring(0, 7);	// eg, nas-alv
 		}
 	}
 
-	result = phonemeData[result]?.slug ?? result;	// eg, nas-den-palzd -> nas-alv
+	result = phonemeData[result]?.slug ?? result;	// eg, nas-den -> nas-alv
 
 	result = result.replace("+", "__");
+	result = result + anchor;
 	console.log(key + " >> " + result);
 	return result;
 }
@@ -56,8 +71,8 @@ const { wsCode } = Astro.props;
 const allPhonograms = wsgData["phonograms"];
 //const allCount = allPhonograms ? allPhonograms.length : 0;
 
-const intros = wsgData["intros"];
-const intro = intros[wsCode];
+//const intros = wsgData["intros"];
+//const intro = intros[wsCode];
 
 let wsPhonograms = allPhonograms.filter(pg => pg.ws === wsCode);
 let pgCount = wsPhonograms ? wsPhonograms.length : 0;
@@ -90,7 +105,7 @@ console.log('# phonograms = ' + pgCount);
 						<span>{ch} </span>
 					)}	
 				</td>
-				<td><a href={`/scrlang/phonemes/${(phonemeSlug(wsp.phoneme))}`}>/{phonemeSymbol(wsp.phoneme)}/</a></td>
+				<td><a href={`/scrlang/phonemes/${(phonemeSlug(wsp.phoneme))}`} title={phonemeLabel(wsp.phoneme)}>/{phonemeSymbol(wsp.phoneme)}/</a></td>
 				<td>{wsp.status}</td>
 				<td set:html={wsp.example} />
 				<td set:html={wsp.notes} />

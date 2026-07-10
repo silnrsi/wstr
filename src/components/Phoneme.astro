@@ -14,6 +14,10 @@ import phonemeData from '../data/phonemes.json';
 //	return phonemeData[pkey]?.symbol ?? "ERROR";
 //}
 
+function wsName(wsKey: string): string {
+	return wsNames[wsKey] ?? "";
+}
+
 const { key, hidenone } = Astro.props;
 
 console.log("key = " + key);
@@ -34,6 +38,8 @@ console.log("phLabel = " + phLabel);
 
 const allPhonograms = wsgData["phonograms"];
 //const allCount = allPhonograms ? allPhonograms.length : 0;
+
+const wsNames = wsgData["names"];
 
 let keyPhonograms  = allPhonograms.filter(pg => pg.phoneme === key);
 let kpgCount = keyPhonograms ? keyPhonograms.length : 0;
@@ -65,7 +71,7 @@ let kpgCount = keyPhonograms ? keyPhonograms.length : 0;
 				<tbody>
 					{keyPhonograms.map((kpg) =>
 						<tr> 
-							<td><a href={`/scrlang/graphemes/${(kpg.ws ?? '').toLowerCase()}`}>{kpg.ws}</a></td>
+							<td><a href={`/scrlang/graphemes/${(kpg.ws ?? '').toLowerCase()}`} title={wsName(kpg.ws)}>{kpg.ws}</a></td>
 							<td>
 								&lt;{kpg.chars.map((ch) => <Character usv={ch} options="char" />)}&gt;
 							</td>

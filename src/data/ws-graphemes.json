@@ -22734,5 +22734,35 @@
 		"xnz-Copt":	"Source: Jaeger, Marcus and Kamal Hissein. 2012 Aspects of Kenzi-Dongolawi Phonology Related to Orthography. In: Muhammad J. Hashim and Abdel Rahim Hamid Mugaddam. eds. Unity and Diversity of Nubian Languages. Toward a Standardized Writing System of Nubian Languages. Cape Town: CASAS.",
 		"xnz-Latn":	"Source: Jaeger, Marcus and Kamal Hissein. 2012 Aspects of Kenzi-Dongolawi Phonology Related to Orthography. In: Muhammad J. Hashim and Abdel Rahim Hamid Mugaddam. eds. Unity and Diversity of Nubian Languages. Toward a Standardized Writing System of Nubian Languages. Cape Town: CASAS.",
 		"yba-Latn":	"Yla Ogoja based on the Okpoma dialect(CR)(CR)Submitted by: Linus Otronyi"
+	},
+
+	"names": {
+		"apd-Latn":	"Sudanese Arabic written with Latin script",
+		"ar-Arab":	"Arabic written with Arabic script",
+		"ast-Latn":	"Asturian written with Latin script",
+		"bcy-Latn":	"Bacama written with Latin script",
+		"blt-Tavt":	"Tai Dam written with Tai Viet script",
+		"de-Latn":	"German written with Latin script",
+		"dv-Thaa":	"Maldivian written with Thaana script",
+		"en-Latn":	"English written with Latin script",
+		"es-Latn":	"Spanish written with Latin script",
+		"fub-Arab":	"Adawama Fulfulde written with Arabic script",
+		"fub-Latn":	"Adawama Fulfulde written with Latin script",
+		"ha-Latn":	"Hause written with Latin script",
+		"id-Latn":	"Indonesian written with Latin script",
+		"ii-Yiii":	"Nuosu Yi written with Yi script",
+		"ii-Latn":	"Nuosu Yi written with Latin script",
+		"lbw-Latn":	"Tolaki written with Latin script",
+		"nat-Latn":	"Ca̱hungwa̱rya̱ written with Latin script",
+		"ne-Deva":	"Nepali written with Devanagari script",
+		"png-Latn":	"Pangu written with Latin script",
+		"ru-Cyrl":	"Russian written with Cyrillic script",
+		"srr-Latn":	"Serer-Sine written with Latin script",
+		"srr-Arab":	"Serer-Sine written with Arabic script",
+		"wo-Latn":	"Wolof written with Latin script",
+		"wo-Arab":	"Wolof written with Arabic script",
+		"xnz-Copt":	"Mattokki written with Coptic script",
+		"xnz-Latn":	"Mattokki written with Latin script",
+		"yba-Latn":	"Yala written with Latin script"
 	}
 }

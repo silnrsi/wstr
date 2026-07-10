@@ -1018,7 +1018,8 @@
 	"lap-alv-vl": {
 		"symbol":	"l̥",
 		"label":	"voiceless alveolar lateral approximant",
-		"sortkey":	"c75_35_10"
+		"sortkey":	"c75_35_10",
+		"slug":		"lat-alv"
 	},
 	"lap-alv-palzd": {
 		"symbol":	"lʲ",
@@ -1337,7 +1338,7 @@
 		"symbol":	"ɪ",
 		"label":	"near-close near-front unrounded vowel",
 		"sortkey":	"v20_20_10",
-		"slug":		"vwl-fr-cl-unr"
+		"slug":		"vwl-fr-cl-unr#near-close"
 	},
 	"vwl-nf-nc-rnd": {
 		"symbol":	"ʏ",
@@ -1657,37 +1658,44 @@
 	"diph-fr-cl-unr+fr-cl-unr+on": {
 		"symbol":	"ji",
 		"label":	"close front unrounded + close front unrounded rising diphthong",
-		"sortkey":	"vd10_10_10+10_10_10+20"
+		"sortkey":	"vd10_10_10+10_10_10+20",
+		"slug":		"diph-fr__fr#rising"
 	},
 	"diph-fr-cl-unr+fr-cm-unr+on": {
 		"symbol":	"je",
 		"label":	"close front unrounded + close-mid front unrounded rising diphthong",
-		"sortkey":	"vd10_10_10+10_30_10+20"
+		"sortkey":	"vd10_10_10+10_30_10+20",
+		"slug":		"diph-fr__fr#rising"
 	},
 	"diph-fr-cl-unr+nf-nc-unr+on": {
 		"symbol":	"jɪ",
 		"label":	"close front unrounded + near-close near-front unrounded rising diphthong",
-		"sortkey":	"vd10_10_10+20_20_10+20"
+		"sortkey":	"vd10_10_10+20_20_10+20",
+		"slug":		"diph-fr__fr#rising"
 	},
 	"diph-fr-cl-unr+nf-op-unr+on": {
 		"symbol":	"ja",
 		"label":	"close front unrounded + open near-front unrounded rising diphthong",
-		"sortkey":	"vd10_10_10+20_70_10+20"
+		"sortkey":	"vd10_10_10+20_70_10+20",
+		"slug":		"diph-fr__nf#rising"
 	},
 	"diph-fr-cl-unr+bk-cl-rnd": {
 		"symbol":	"iu",
 		"label":	"close front unrounded + close back rounded diphthong",
-		"sortkey":	"vd10_10_10+50_10_20"
+		"sortkey":	"vd10_10_10+50_10_20",
+		"slug":		"diph-fr__bk"
 	},
 	"diph-fr-cl-unr+bk-cl-rnd+on": {
 		"symbol":	"ju",
 		"label":	"close front unrounded + close back rounded rising diphthong",
-		"sortkey":	"vd10_10_10+50_10_20+20"
+		"sortkey":	"vd10_10_10+50_10_20+20",
+		"slug":		"diph-fr__bk#rising"
 	},
 	"diph-fr-cl-unr+bk-cm-rnd+on": {
 		"symbol":	"jo",
 		"label":	"close front unrounded + close-mid back rounded rising diphthong",
-		"sortkey":	"vd10_10_10+50_30_20+20"
+		"sortkey":	"vd10_10_10+50_30_20+20",
+		"slug":		"diph-fr__bk#rising"
 	},
 	"diph-fr-cl-unr-lngth+bk-cl-rnd": {
 		"symbol":	"iːu",
@@ -1697,12 +1705,14 @@
 	"diph-fr-cm-unr+fr-cl-unr": {
 		"symbol":	"ei",
 		"label":	"close-mid front unrounded + close front unrounded diphthong",
-		"sortkey":	"vd10_30_10+10_10_10"
+		"sortkey":	"vd10_30_10+10_10_10",
+		"slug":		"diph-fr__fr"
 	},
 	"diph-fr-cm-unr+bk-cl-rnd": {
 		"symbol":	"eu",
 		"label":	"close-mid front unrounded + close back rounded diphthong",
-		"sortkey":	"vd10_30_10+50_10_20"
+		"sortkey":	"vd10_30_10+50_10_20",
+		"slug":		"diph-fr__bk"
 	},
 	"diph-fr-cm-unr-lngth+fr-cl-unr": {
 		"symbol":	"eːi",
@@ -1717,17 +1727,20 @@
 	"diph-nf-nc-unr+ce-md-unr": {
 		"symbol":	"ɪə",
 		"label":	"near-close near-front unrounded + mid central unrounded diphthong",
-		"sortkey":	"vd20_20_10+30_40_10"
+		"sortkey":	"vd20_20_10+30_40_10",
+		"slug":		"diph-fr__ce"
 	},
 	"diph-nf-om-unr+fr-cl-unr": {
 		"symbol":	"ɛi",
 		"label":	"open-mid near-front unrounded + close front unrounded diphthong",
-		"sortkey":	"vd20_50_10+10_10_10"
+		"sortkey":	"vd20_50_10+10_10_10",
+		"slug":		"diph-fr__fr"
 	},
 	"diph-nf-om-unr+bk-cl-rnd": {
 		"symbol":	"ɛu",
 		"label":	"open-mid near-front unrounded + close back rounded diphthong",
-		"sortkey":	"vd20_50_10+50_10_20"
+		"sortkey":	"vd20_50_10+50_10_20",
+		"slug":		"diph-fr__bk"
 	},
 	"diph-nf-om-unr-lngth+fr-cl-unr": {
 		"symbol":	"ɛːi",
@@ -1742,12 +1755,14 @@
 	"diph-nf-op-unr+fr-cl-unr": {
 		"symbol":	"ai",
 		"label":	"open near-front unrounded + close front unrounded diphthong",
-		"sortkey":	"vd20_70_10+10_10_10"
+		"sortkey":	"vd20_70_10+10_10_10",
+		"slug":		"diph-fr__fr"
 	},
 	"diph-nf-op-unr+bk-cl-rnd": {
 		"symbol":	"au",
 		"label":	"open near-front unrounded + close back rounded diphthong",
-		"sortkey":	"vd20_70_10+50_10_20"
+		"sortkey":	"vd20_70_10+50_10_20",
+		"slug":		"diph-fr__bk"
 	},
 	"diph-nf-op-unr-lngth+fr-cl-unr": {
 		"symbol":	"aːi",
@@ -1762,57 +1777,68 @@
 	"diph-ce-cl-unr+ce-md-unr": {
 		"symbol":	"ɨə",
 		"label":	"close central unrounded + mid central unrounded diphthong",
-		"sortkey":	"vd30_10_10+30_40_10"
+		"sortkey":	"vd30_10_10+30_40_10",
+		"slug":		"diph-ce__ce"
 	},
 	"diph-ce-md-unr+fr-cl-unr": {
 		"symbol":	"əi",
 		"label":	"mid central unrounded + close front unrounded diphthong",
-		"sortkey":	"vd30_40_10+10_10_10"
+		"sortkey":	"vd30_40_10+10_10_10",
+		"slug":		"diph-ce__fr"
 	},
 	"diph-ce-md-unr+nf-nc-unr": {
 		"symbol":	"əɪ",
 		"label":	"mid central unrounded + near-close near-front unrounded diphthong",
-		"sortkey":	"vd30_40_10+20_20_10"
+		"sortkey":	"vd30_40_10+20_20_10",
+		"slug":		"diph-ce__nf"
 	},
 	"diph-ce-md-unr+bk-cl-rnd": {
 		"symbol":	"əu",
 		"label":	"mid central unrounded + close back rounded diphthong",
-		"sortkey":	"vd30_40_10+50_10_20"
+		"sortkey":	"vd30_40_10+50_10_20",
+		"slug":		"diph-ce__bk"
 	},
 	"diph-nb-nc-rnd+ce-md-unr": {
 		"symbol":	"ʊə",
 		"label":	"near-close near-back rounded + mid central unrounded diphthong",
-		"sortkey":	"vd40_20_20+30_40_10"
+		"sortkey":	"vd40_20_20+30_40_10",
+		"slug":		"diph-bk__ce"
 	},
 	"diph-bk-cl-rnd+fr-cl-unr": {
 		"symbol":	"ui",
 		"label":	"close back rounded + close front unrounded diphthong",
-		"sortkey":	"vd50_10_20+10_10_10"
+		"sortkey":	"vd50_10_20+10_10_10",
+		"slug":		"diph-bk__fr"
 	},
 	"diph-bk-cl-rnd+fr-cl-unr+on": {
 		"symbol":	"wi",
 		"label":	"close back rounded + close front unrounded rising diphthong",
-		"sortkey":	"vd50_10_20+10_10_10+20"
+		"sortkey":	"vd50_10_20+10_10_10+20",
+		"slug":		"diph-bk++fr#rising"
 	},
 	"diph-bk-cl-rnd+fr-cm-unr+on": {
 		"symbol":	"we",
 		"label":	"close back rounded + close-mid front unrounded rising diphthong",
-		"sortkey":	"vd50_10_20+10_30_10+20"
+		"sortkey":	"vd50_10_20+10_30_10+20",
+		"slug":		"diph-bk__fr#rising"
 	},
 	"diph-bk-cl-rnd+nf-nc-unr+on": {
 		"symbol":	"wɪ",
 		"label":	"close back rounded + near-close near-front unrounded rising diphthong",
-		"sortkey":	"vd50_10_20+20_20_10+20"
+		"sortkey":	"vd50_10_20+20_20_10+20",
+		"slug":		"diph-bk__nf#rising"
 	},
 	"diph-bk-cl-rnd+nf-op-unr+on": {
 		"symbol":	"wa",
 		"label":	"close back rounded + open near-front unrounded rising diphthong",
-		"sortkey":	"vd50_10_20+20_70_10+20"
+		"sortkey":	"vd50_10_20+20_70_10+20",
+		"slug":		"diph-bk__nf#rising"
 	},
 	"diph-bk-cl-rnd+bk-cm-rnd+on": {
 		"symbol":	"wo",
 		"label":	"close back rounded + close-mid back rounded rising diphthong",
-		"sortkey":	"vd50_10_20+50_30_20+20"
+		"sortkey":	"vd50_10_20+50_30_20+20",
+		"slug":		"diph-bk__bk#rising"
 	},
 	"diph-bk-cl-rnd-lngth+fr-cl-unr": {
 		"symbol":	"uːi",
@@ -1822,17 +1848,20 @@
 	"diph-bk-cm-unr+bk-cl-rnd": {
 		"symbol":	"ɤu",
 		"label":	"close-mid back unrounded + close back rounded diphthong",
-		"sortkey":	"vd50_30_10+50_10_20"
+		"sortkey":	"vd50_30_10+50_10_20",
+		"slug":		"diph-bk__bk"
 	},
 	"diph-bk-cm-rnd+fr-cl-unr": {
 		"symbol":	"oi",
 		"label":	"close-mid back rounded + close front unrounded diphthong",
-		"sortkey":	"vd50_30_20+10_10_10"
+		"sortkey":	"vd50_30_20+10_10_10",
+		"slug":		"diph-bk__fr"
 	},
 	"diph-bk-cm-rnd+bk-cl-rnd": {
 		"symbol":	"ou",
 		"label":	"close-mid back rounded + close back rounded diphthong",
-		"sortkey":	"vd50_30_20+50_10_20"
+		"sortkey":	"vd50_30_20+50_10_20",
+		"slug":		"diph-bk__bk"
 	},
 	"diph-bk-cm-rnd-lngth+fr-cl-unr": {
 		"symbol":	"oːi",
@@ -1842,22 +1871,26 @@
 	"diph-bk-om-unr+fr-cl-unr": {
 		"symbol":	"ʌi",
 		"label":	"open-mid back unrounded + close front unrounded diphthong",
-		"sortkey":	"vd50_50_10+10_10_10"
+		"sortkey":	"vd50_50_10+10_10_10",
+		"slug":		"diph-bk__fr"
 	},
 	"diph-bk-om-unr+bk-cl-rnd": {
 		"symbol":	"ʌu",
 		"label":	"open-mid back unrounded + close back rounded diphthong",
-		"sortkey":	"vd50_50_10+50_10_20"
+		"sortkey":	"vd50_50_10+50_10_20",
+		"slug":		"diph-bk__bk"
 	},
 	"diph-bk-om-rnd+fr-cl-unr": {
 		"symbol":	"ɔi",
 		"label":	"open-mid back rounded + close front unrounded diphthong",
-		"sortkey":	"vd50_50_20+10_10_10"
+		"sortkey":	"vd50_50_20+10_10_10",
+		"slug":		"diph-bk__fr"
 	},
 	"diph-bk-om-rnd+bk-cl-rnd": {
 		"symbol":	"ɔu",
 		"label":	"open-mid back rounded + close back rounded diphthong",
-		"sortkey":	"vd50_50_20+50_10_20"
+		"sortkey":	"vd50_50_20+50_10_20",
+		"slug":		"diph-bk__bk"
 	},
 	"diph-bk-om-rnd-lngth+fr-cl-unr": {
 		"symbol":	"ɔːi",
