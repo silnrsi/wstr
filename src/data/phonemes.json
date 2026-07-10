@@ -452,6 +452,11 @@
 		"label":	"labialized voiced velar plosive",
 		"sortkey":	"c20_60_20_120"
 	},
+	"stp-vel-vd-labzd-pnszd": {
+		"symbol":	"ᵑg",
+		"label":	"prenasalized labialized voiced velar plosive",
+		"sortkey":	"c20_60_20_120_160"
+	},
 	"stp-vel-vd-palzd": {
 		"symbol":	"gʲ",
 		"label":	"palatalized voiced velar plosive",
@@ -557,6 +562,11 @@
 		"label":	"aspirated voiceless alveolar affricate",
 		"sortkey":	"c30_35_10_110"
 	},
+	"aff-alv-vl-labzd": {
+		"symbol":	"tsʷ",
+		"label":	"labialized voiceless alveolar affricate",
+		"sortkey":	"c30_35_10_120"
+	},
 	"aff-alv-vl-palzd": {
 		"symbol":	"tsʲ",
 		"label":	"palatalized voiceless alveolar affricate",
@@ -566,6 +576,11 @@
 		"symbol":	"dz",
 		"label":	"voiced alveolar affricate",
 		"sortkey":	"c30_35_20"
+	},
+	"aff-alv-vd-labzd": {
+		"symbol":	"dzʷ",
+		"label":	"labialized voiced alveolar affricate",
+		"sortkey":	"c30_35_20_120"
 	},
 	"aff-alv-vd-pnszd": {
 		"symbol":	"ⁿdz",
@@ -707,6 +722,11 @@
 		"label":	"voiceless labiodental fricative",
 		"sortkey":	"c40_20_10",
 		"slug":		"fri-bil-vl#labiodentals"
+	},
+	"fri-lbd-vl-labzd": {
+		"symbol":	"fʷ",
+		"label":	"labialized voiceless labiodental fricative",
+		"sortkey":	"c40_20_10_120"
 	},
 	"fri-lbd-vl-palzd": {
 		"symbol":	"fʲ",
@@ -1053,6 +1073,11 @@
 		"label":	"bilabial approximant",
 		"sortkey":	"c80_10"
 	},
+	"app-bil-pnszd": {
+		"symbol":	"ᵐw",
+		"label":	"prenasalized bilabial approximant",
+		"sortkey":	"c80_10_160"
+	},
 	"app-bil-gemin": {
 		"symbol":	"wː",
 		"label":	"geminate bilabial approximant",
@@ -1088,6 +1113,11 @@
 		"symbol":	"jˀ",
 		"label":	"glottalized palatal approximant",
 		"sortkey":	"c80_55_157"
+	},
+	"app-pal-pnszd": {
+		"symbol":	"ᶮj",
+		"label":	"prenasalized palatal approximant",
+		"sortkey":	"c80_55_160"
 	},
 	"app-pal-gemin": {
 		"symbol":	"jː",
@@ -1144,6 +1174,11 @@
 		"symbol":	"g͡b",
 		"label":	"voiced labial-velar plosive",
 		"sortkey":	"cd20_60_20+20_10_20"
+	},
+	"dart-stp-vel-vd-pnszd+stp-bil-vd": {
+		"symbol":	"ᵑg͡b",
+		"label":	"prenasalized voiced labial-velar plosive",
+		"sortkey":	"cd20_60_20_160+20_10_20"
 	},
 	"tone-xhigh": {
 		"symbol":	"˥",
@@ -1295,6 +1330,11 @@
 		"label":	"close front rounded vowel",
 		"sortkey":	"v10_10_20"
 	},
+	"vwl-fr-cl-rnd-lngth": {
+		"symbol":	"yː",
+		"label":	"lengthened close front rounded vowel",
+		"sortkey":	"v10_10_20_210"
+	},
 	"vwl-fr-cm-unr": {
 		"symbol":	"e",
 		"label":	"close-mid front unrounded vowel",
@@ -1321,6 +1361,11 @@
 		"label":	"close-mid front rounded vowel",
 		"sortkey":	"v10_30_20",
 		"slug":		"vwl-fr-md-rnd"
+	},
+	"vwl-fr-cm-rnd-lngth": {
+		"symbol":	"øː",
+		"label":	"lengthened close-mid front rounded vowel",
+		"sortkey":	"v10_30_20_210"
 	},
 	"vwl-fr-md-unr": {
 		"symbol":	"e̞",
@@ -1405,6 +1450,11 @@
 		"label":	"open near-front rounded vowel",
 		"sortkey":	"v20_70_20",
 		"slug":		"vwl-fr-op-rnd"
+	},
+	"vwl-nf-op-rnd-lngth": {
+		"symbol":	"ɶː",
+		"label":	"lengthened open near-front rounded vowel",
+		"sortkey":	"v20_70_20_210"
 	},
 	"vwl-ce-cl-unr": {
 		"symbol":	"ɨ",
@@ -1814,7 +1864,7 @@
 		"symbol":	"wi",
 		"label":	"close back rounded + close front unrounded rising diphthong",
 		"sortkey":	"vd50_10_20+10_10_10+20",
-		"slug":		"diph-bk++fr#rising"
+		"slug":		"diph-bk__fr#rising"
 	},
 	"diph-bk-cl-rnd+fr-cm-unr+on": {
 		"symbol":	"we",

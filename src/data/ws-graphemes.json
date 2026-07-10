@@ -1003,7 +1003,7 @@
 		{
 			"ws":		"ast-Latn",
 			"chars":	["0067", "00FC"],
-			"phoneme":	"app-bil",
+			"phoneme":	"stp-vel-vd+app-bil",
 			"status":	"common",
 			"example":	"güe ‘ox’",
 			"notes":	""
@@ -1705,6 +1705,438 @@
 			"notes":	""
 		},
 		{
+			"ws":		"bec-Latn",
+			"chars":	["0061", "0069"],
+			"phoneme":	"diph-nf-op-unr+fr-cl-unr",
+			"status":	"rare",
+			"example":	"baptais ‘baptise’",
+			"notes":	"Only in borrowed words."
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0061"],
+			"phoneme":	"vwl-nf-op-unr",
+			"status":	"expected",
+			"example":	"akpa ‘box’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0062", "0077"],
+			"phoneme":	"stp-bil-vd-labzd",
+			"status":	"expected",
+			"example":	"bwap ‘broad’, ɛbwal ‘baggy’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0062"],
+			"phoneme":	"stp-bil-vd",
+			"status":	"expected",
+			"example":	"bem ‘slow’, obe ‘law’, cɛb ‘true’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0063", "0077"],
+			"phoneme":	"aff-alv-vl-labzd",
+			"status":	"expected",
+			"example":	"cwa ‘accuse’, icwe ‘shame’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0063"],
+			"phoneme":	"aff-alv-vl",
+			"status":	"expected",
+			"example":	"<span lang='bec'>ɔcalɛ ‘bridge’, cile ‘cover’</span>",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0064"],
+			"phoneme":	"stp-alv-vd",
+			"status":	"expected",
+			"example":	"de ‘stop’, ɛdɛma ‘road’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0065"],
+			"phoneme":	"vwl-fr-cm-unr",
+			"status":	"expected",
+			"example":	"izembi ‘axe’, atimbile ‘squirrel’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0066", "0077"],
+			"phoneme":	"fri-lbd-vl",
+			"status":	"expected",
+			"example":	"ofufwe ‘wife’",
+			"notes":	"Labialised in environment u_e"
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0066", "0077"],
+			"phoneme":	"fri-lbd-vl-labzd",
+			"status":	"expected",
+			"example":	"fwap ‘shallow’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0066"],
+			"phoneme":	"fri-lbd-vl",
+			"status":	"expected",
+			"example":	"falɛ ‘untie’, ifofu ‘debt’, kaf ‘hoe’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0067", "0062"],
+			"phoneme":	"dart-stp-vel-vd+stp-bil-vd",
+			"status":	"expected",
+			"example":	"gbeli ‘clear’, ogbologbo ‘dragonfly’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0067", "0068"],
+			"phoneme":	"app-vel",
+			"status":	"expected",
+			"example":	"sɛgha ‘rejoice’, mɛyegh ‘lesson’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0067", "0077"],
+			"phoneme":	"stp-vel-vd-labzd",
+			"status":	"expected",
+			"example":	"<span lang='bec'>ɛgwa ‘uncle’</span>",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0067"],
+			"phoneme":	"stp-vel-vd",
+			"status":	"expected",
+			"example":	"gɔlʉ ‘agree’, ɛgalɛ ‘fence’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0068"],
+			"phoneme":	"fri-glo-vl",
+			"status":	"expected",
+			"example":	"hee ‘begin’, ɛhambɛl ‘centipede’",
+			"notes":	"Mostly used in Ici dialect."
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0069", "0061"],
+			"phoneme":	"diph-fr-cl-unr+nf-op-unr+on",
+			"status":	"expected",
+			"example":	"<span lang='bec'>ɛfiaavɛ ‘lie’, lia ‘cry’</span>",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0069", "0061"],
+			"phoneme":	"vwl-nf-op-unr",
+			"status":	"common",
+			"example":	"asiavɛl ‘fishing line’, cia ‘be afraid’",
+			"notes":	"After the palatalised allophone of ‹<span lang='bec'>s</span>›, ‹<span lang='bec'>c</span>› or ‹<span lang='bec'>z</span>› only."
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0069", "0065"],
+			"phoneme":	"vwl-fr-cm-unr",
+			"status":	"uncommon",
+			"example":	"kie ‘share’",
+			"notes":	"Non-phonemic [i] is sometimes inserted between velar stops and /e/, mostly in Ici dialect."
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0069", "006F"],
+			"phoneme":	"vwl-bk-cm-rnd",
+			"status":	"rare",
+			"example":	"cioo ‘no way!’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0069"],
+			"phoneme":	"vwl-fr-cl-unr",
+			"status":	"expected",
+			"example":	"ovile ‘palm tree’, ogbendi ‘parlour’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006B", "0070"],
+			"phoneme":	"dart-stp-vel-vl+stp-bil-vl",
+			"status":	"expected",
+			"example":	"kpiili ‘tie’, ɔkpʉmʉ ‘bottle’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006B", "0077"],
+			"phoneme":	"stp-vel-vl-labzd",
+			"status":	"expected",
+			"example":	"kwo ‘die’, ɛkwalɛghɛ ‘fingernail’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006B"],
+			"phoneme":	"stp-vel-vl",
+			"status":	"expected",
+			"example":	"kam ‘squeeze’, ɔkambɛ ‘rope’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006C"],
+			"phoneme":	"lap-alv",
+			"status":	"expected",
+			"example":	"lii ‘look for’, ilolu ‘beard’, avel ‘hunting net’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006D", "0062", "0077"],
+			"phoneme":	"stp-bil-vd-pnszd",
+			"status":	"expected",
+			"example":	"okumbwe ‘storm’",
+			"notes":	"Labialised in environment u_e"
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006D", "0062"],
+			"phoneme":	"stp-bil-vd-pnszd",
+			"status":	"expected",
+			"example":	"mbɛla ‘heap up’, itimbe ‘house’, ɛvamb ‘antelope’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006D", "0067", "0062"],
+			"phoneme":	"dart-stp-vel-vd-pnszd+stp-bil-vd",
+			"status":	"expected",
+			"example":	"mgbʉwa ‘crash’, kpʉmgbɛlɛ ‘approach’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006D", "0077"],
+			"phoneme":	"nas-bil",
+			"status":	"expected",
+			"example":	"yumwe ‘pierce’",
+			"notes":	"Labialised in environment u_e"
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006D", "0077"],
+			"phoneme":	"nas-bil-labzd",
+			"status":	"expected",
+			"example":	"mwem ‘all’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006D"],
+			"phoneme":	"nas-bil",
+			"status":	"expected",
+			"example":	"mati ‘calf of leg’, ɔtʉmʉ ‘work’, ɔciam ‘friend’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006E", "0064"],
+			"phoneme":	"stp-alv-vd-pnszd",
+			"status":	"expected",
+			"example":	"ndalɛ ‘like’, ozindi ‘journey’, agund ‘cow’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006E", "0079"],
+			"phoneme":	"app-pal-pnszd",
+			"status":	"expected",
+			"example":	"nyandɛ ‘trample’, ɛnyɛghɛ ‘tooth’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006E", "007A"],
+			"phoneme":	"aff-alv-vd-pnszd",
+			"status":	"expected",
+			"example":	"<span lang='bec'>ɛnzɔ ‘debt’, nzighe ‘pulverise’</span>",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006E"],
+			"phoneme":	"nas-alv",
+			"status":	"expected",
+			"example":	"na ‘give’, ɛnʉnʉ ‘bird’, ɔmbɔn ‘path’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["006F"],
+			"phoneme":	"vwl-bk-cm-rnd",
+			"status":	"expected",
+			"example":	"igose ‘green mamba’, ato ‘bungalow’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0070"],
+			"phoneme":	"stp-bil-vl",
+			"status":	"expected",
+			"example":	"pɛsa ‘polish’, ɔpavɛ ‘cockroach’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0073", "0077"],
+			"phoneme":	"fri-alv-vl-labzd",
+			"status":	"expected",
+			"example":	"sweŋ ‘silent’, ɔswaŋɛ ‘compound’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0073"],
+			"phoneme":	"fri-alv-vl",
+			"status":	"expected",
+			"example":	"saŋgɛ ‘write’, isi ‘eye’, ɛkas ‘sifter’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0074"],
+			"phoneme":	"stp-alv-vl",
+			"status":	"expected",
+			"example":	"te ‘show’, itumu ‘bundle’, ɛkpɛt ‘dregs’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0075"],
+			"phoneme":	"vwl-bk-cl-rnd",
+			"status":	"expected",
+			"example":	"ikule ‘guinea corn’, ofolu ‘soup’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0076"],
+			"phoneme":	"fri-lbd-vd",
+			"status":	"expected",
+			"example":	"va ‘come’, ivu ‘goat’, ɛkɛv ‘example’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0077"],
+			"phoneme":	"app-bil",
+			"status":	"expected",
+			"example":	"wanɛ ‘child’, ɛwa ‘dog’, ɛzɔw ‘mushroom’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0079"],
+			"phoneme":	"app-pal",
+			"status":	"expected",
+			"example":	"ya ‘eat’, ɛyɔŋ ‘snake’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["007A", "0077"],
+			"phoneme":	"aff-alv-vd-labzd",
+			"status":	"expected",
+			"example":	"zwaŋɛ ‘join’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["007A"],
+			"phoneme":	"aff-alv-vd",
+			"status":	"expected",
+			"example":	"zɛnda ‘chase’, iziŋ ‘fly’",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["014B", "0067", "0077"],
+			"phoneme":	"stp-vel-vd-labzd-pnszd",
+			"status":	"expected",
+			"example":	"<span lang='bec'>ŋgwa ‘hear’, ɛŋgwan ‘mother’</span>",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["014B", "0067"],
+			"phoneme":	"stp-vel-vd-pnszd",
+			"status":	"expected",
+			"example":	"<span lang='bec'>ŋgoolu ‘scrape’, ɛyʉŋgʉ ‘honey’, akaŋg ‘head-scarf’</span>",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["014B", "006D"],
+			"phoneme":	"dart-nas-vel+nas-bil",
+			"status":	"rare",
+			"example":	"<span lang='bec'>ɔŋmaŋa ‘face-dye plant’</span>",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["014B", "0077"],
+			"phoneme":	"app-bil-pnszd",
+			"status":	"expected",
+			"example":	"<span lang='bec'>ŋwaghɛ ‘roast’, aŋwa ‘cat’</span>",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["014B"],
+			"phoneme":	"nas-vel",
+			"status":	"expected",
+			"example":	"<span lang='bec'>ɛzɛŋɛ ‘egg’, ɔlɔŋ ‘trousers’</span>",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0254"],
+			"phoneme":	"vwl-bk-om-rnd",
+			"status":	"expected",
+			"example":	"<span lang='bec'>ɛŋgɔl ‘money’, ɛsɔ ‘elephant’</span>",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["025B"],
+			"phoneme":	"vwl-ce-nc-unr",
+			"status":	"expected",
+			"example":	"<span lang='bec'>ɔvɛla ‘rain’, ɛsalɛ ‘broom’</span>",
+			"notes":	""
+		},
+		{
+			"ws":		"bec-Latn",
+			"chars":	["0289"],
+			"phoneme":	"vwl-nb-nc-rnd",
+			"status":	"expected",
+			"example":	"<span lang='bec'>ɔnʉl ‘person’, ɛmʉ ‘speech’</span>",
+			"notes":	""
+		},
+		{
 			"ws":		"blt-Tavt",
 			"chars":	["AA80"],
 			"phoneme":	"stp-glo-vl",
@@ -2147,7 +2579,7 @@
 		{
 			"ws":		"blt-Tavt",
 			"chars":	["AAB9", "AAB1"],
-			"phoneme":	"vwl-nf-op-unr",
+			"phoneme":	"app-bil",
 			"status":	"expected",
 			"example":	"<span lang='blt'>ꪹꪔ꪿ꪱ</span> ‘turtle’",
 			"notes":	"ligature: short /a/ + /w/"
@@ -2187,7 +2619,7 @@
 		{
 			"ws":		"blt-Tavt",
 			"chars":	["AABB"],
-			"phoneme":	"vwl-ce-md-unr",
+			"phoneme":	"app-bil",
 			"status":	"expected",
 			"example":	"<span lang='blt'>ꪻꪄ꪿</span> ‘dry’, <span lang='blt'>ꪻꪠ</span> ‘who’",
 			"notes":	"ligature: /ə/ + /w/ - realized phonetically as [əɨ]"
@@ -2195,7 +2627,7 @@
 		{
 			"ws":		"blt-Tavt",
 			"chars":	["AABC"],
-			"phoneme":	"vwl-nf-op-unr",
+			"phoneme":	"app-pal",
 			"status":	"expected",
 			"example":	"<span lang='blt'>ꪼꪜ</span> ‘to go’, <span lang='blt'>ꪼꪏ</span> ‘teacher’",
 			"notes":	"ligature: short /a/ + /j/"
@@ -2219,7 +2651,7 @@
 		{
 			"ws":		"blt-Tavt",
 			"chars":	["AABE"],
-			"phoneme":	"vwl-nf-op-unr",
+			"phoneme":	"nas-bil",
 			"status":	"expected",
 			"example":	"<span lang='blt'>ꪜꪾ꫁</span> ‘to cut down’, <span lang='blt'>ꪙꪾ꫁</span> ‘water’",
 			"notes":	"ligature: short /a/ + /m/"
@@ -2387,7 +2819,7 @@
 		{
 			"ws":		"de-Latn",
 			"chars":	["0063", "0068", "0073"],
-			"phoneme":	"stp-vel-vl",
+			"phoneme":	"fri-alv-vl",
 			"status":	"uncommon",
 			"example":	"Wachs ‘wax’",
 			"notes":	""
@@ -2643,7 +3075,7 @@
 		{
 			"ws":		"de-Latn",
 			"chars":	["006B", "006E"],
-			"phoneme":	"stp-vel-vl",
+			"phoneme":	"stp-vel-vl+nas-alv",
 			"status":	"expected",
 			"example":	"Knochen ‘bone’",
 			"notes":	""
@@ -2747,7 +3179,7 @@
 		{
 			"ws":		"de-Latn",
 			"chars":	["0070", "0066"],
-			"phoneme":	"fri-lbd-vl",
+			"phoneme":	"stp-bil-vl+fri-lbd-vl",
 			"status":	"common",
 			"example":	"Pferd ‘horse’, Kopf ‘head’",
 			"notes":	""
@@ -2779,7 +3211,7 @@
 		{
 			"ws":		"de-Latn",
 			"chars":	["0071", "0075"],
-			"phoneme":	"stp-vel-vl",
+			"phoneme":	"stp-vel-vl+fri-lbd-vd",
 			"status":	"expected",
 			"example":	"Quelle ‘source’",
 			"notes":	""
@@ -2939,7 +3371,7 @@
 		{
 			"ws":		"de-Latn",
 			"chars":	["0078"],
-			"phoneme":	"stp-vel-vl",
+			"phoneme":	"stp-vel-vl+fri-alv-vl",
 			"status":	"uncommon",
 			"example":	"Text ‘text’, exzellente ‘excellent’",
 			"notes":	"Primarily loan words"
@@ -3403,7 +3835,7 @@
 		{
 			"ws":		"dv-Thaa",
 			"chars":	["078C", "07B0"],
-			"phoneme":	"app-pal",
+			"phoneme":	"app-pal+stp-den-vl",
 			"status":	"expected",
 			"example":	"<span lang='dv'>ފޮތްތައް</span>",
 			"notes":	"Prepausally pronounced [jʔ]."
@@ -4099,14 +4531,6 @@
 		{
 			"ws":		"en-Latn",
 			"chars":	["0065"],
-			"phoneme":	"diph-fr-cm-unr+fr-cl-unr",
-			"status":	"rare",
-			"example":	"carburetor",
-			"notes":	""
-		},
-		{
-			"ws":		"en-Latn",
-			"chars":	["0065"],
 			"phoneme":	"vwl-ce-md-unr",
 			"status":	"common",
 			"example":	"garden",
@@ -4189,15 +4613,15 @@
 			"chars":	["0067"],
 			"phoneme":	"aff-pav-vd",
 			"status":	"common",
-			"example":	"gem, gaol",
-			"notes":	"Usually before e, i and y; very rarely before other letters"
+			"example":	"gem",
+			"notes":	"Before e and i"
 		},
 		{
 			"ws":		"en-Latn",
 			"chars":	["0067"],
 			"phoneme":	"stp-vel-vd",
 			"status":	"common",
-			"example":	"game, girl",
+			"example":	"girl",
 			"notes":	"Almost always before a, o and u; occasionally before e and i"
 		},
 		{
@@ -4661,7 +5085,7 @@
 			"chars":	["0074", "0069"],
 			"phoneme":	"fri-pav-vl",
 			"status":	"common",
-			"example":	"patient, nation",
+			"example":	"patient",
 			"notes":	""
 		},
 		{
@@ -4670,14 +5094,6 @@
 			"phoneme":	"stp-alv-vl",
 			"status":	"expected",
 			"example":	"toy",
-			"notes":	""
-		},
-		{
-			"ws":		"en-Latn",
-			"chars":	["0075", "0065"],
-			"phoneme":	"vwl-bk-cl-rnd",
-			"status":	"common",
-			"example":	"glue",
 			"notes":	""
 		},
 		{
@@ -4979,7 +5395,7 @@
 		{
 			"ws":		"es-Latn",
 			"chars":	["0067", "00FC"],
-			"phoneme":	"app-bil",
+			"phoneme":	"stp-vel-vl+app-bil",
 			"status":	"common",
 			"example":	"lingüístico ‘linguistic’",
 			"notes":	""
@@ -5291,7 +5707,7 @@
 		{
 			"ws":		"es-Latn",
 			"chars":	["0078"],
-			"phoneme":	"fri-alv-vl",
+			"phoneme":	"stp-vel-vl+fri-alv-vl",
 			"status":	"expected",
 			"example":	"conexión ‘connection’",
 			"notes":	""
@@ -5677,7 +6093,7 @@
 			"chars":	["0644"],
 			"phoneme":	"lap-alv",
 			"status":	"expected",
-			"example":	"<span lang='fub'>لٜکِّ</span> ‘tree, medicine’, <span lang='fub'>غِلْطِ</span> ‘worms’, <span lang='fub'>بَلَّلْ</span> ‘help’, <span lang='fub'>ݠٛولَ</span> ‘dove’, <span lang='fub'>لاَمُ</span> ‘kingdom, rule’, {lang:first-char سِل",
+			"example":	"<span lang='fub'>لٜکِّ</span> ‘tree, medicine’, <span lang='fub'>غِلْطِ</span> ‘worms’, <span lang='fub'>بَلَّلْ</span> ‘help’, <span lang='fub'>ݠٛولَ</span> ‘dove’, <span lang='fub'>لاَمُ</span> ‘kingdom, rule’, <span lang='fub'>سِلاَوٛ</span> ‘basket’",
 			"notes":	""
 		},
 		{
@@ -7342,7 +7758,7 @@
 			"phoneme":	"tone-xhigh",
 			"status":	"expected",
 			"example":	"lit ‘lift’",
-			"notes":	"Syllable-final only. There are two systematic spelling exceptions in this tone category: /u̱˥/ is spelled ‹<span lang='ii-Latn'>ut</span>› rather than *‹<span lang='ii-Latn'>urt</span>›, and /ɨ̱˥/ is spelled ‹<span lang='ii-Latn'>yt</span>› rather than *‹{lang:firs"
+			"notes":	"Syllable-final only. There are two systematic spelling exceptions in this tone category: /u̱˥/ is spelled ‹<span lang='ii-Latn'>ut</span>› rather than *‹<span lang='ii-Latn'>urt</span>›, and /ɨ̱˥/ is spelled ‹<span lang='ii-Latn'>yt</span>› rather than *‹<span lang='ii-Latn'>yrt</span>›. This causes no ambiguity, because the lax counterparts of these two vowels do not occur in this tone."
 		},
 		{
 			"ws":		"ii-Latn",
@@ -16883,10 +17299,10 @@
 		{
 			"ws":		"lbw-Latn",
 			"chars":	["006D", "0062"],
-			"phoneme":	"nas-bil",
+			"phoneme":	"stp-bil-vd-pnszd",
 			"status":	"expected",
 			"example":	"mbule ‘return’, omba ‘four’",
-			"notes":	"Prenasalized stop segment mb"
+			"notes":	""
 		},
 		{
 			"ws":		"lbw-Latn",
@@ -16899,18 +17315,18 @@
 		{
 			"ws":		"lbw-Latn",
 			"chars":	["006E", "0064"],
-			"phoneme":	"stp-alv-vd",
+			"phoneme":	"stp-den-vd-pnszd",
 			"status":	"expected",
 			"example":	"ndee ‘usually’, pundi ‘banana’",
-			"notes":	"Prenasalized stop segment nd"
+			"notes":	""
 		},
 		{
 			"ws":		"lbw-Latn",
 			"chars":	["006E", "0067", "0067"],
-			"phoneme":	"stp-vel-vd",
+			"phoneme":	"stp-vel-vd-pnszd",
 			"status":	"expected",
 			"example":	"nggiro'o ‘that’, bunggu ‘back, rear’",
-			"notes":	"Prenasalized stop segment ŋg"
+			"notes":	""
 		},
 		{
 			"ws":		"lbw-Latn",
@@ -19175,6 +19591,14 @@
 			"status":	"expected",
 			"example":	"<span lang='ru'>мои́</span> ‘my’, <span lang='ru'>во́ин</span> ‘warrior’",
 			"notes":	"Following a vowel"
+		},
+		{
+			"ws":		"ru-Cyrl",
+			"chars":	["0438"],
+			"phoneme":	"vwl-ce-cl-unr",
+			"status":	"expected",
+			"example":	"<span lang='ru'>переживёт</span> ‘outlive’, <span lang='ru'>шить</span> ‘sew’, <span lang='ru'>ши́шка</span> ‘cone’, <span lang='ru'>с и́грами</span> ‘with games’, <span lang='ru'>к ива́ну</span> ‘to ivan’, {lang:first-char ",
+			"notes":	"When preceeded by an always-hard (non-palatalized) consonant (‹<span lang='ru'>ж, ш, ц</span>›) or hard prepositions. Some linguists consider /ɨ/ to be an allophone of /i/, rather than an independent phoneme"
 		},
 		{
 			"ws":		"ru-Cyrl",
@@ -22711,6 +23135,7 @@
 		"ar-Arab":	"This data is for Modern Standard Arabic (MSA).(CR)(CR)Sources:(CR)(CR)- [Wikipedia: Arabic, “Literary Arabic”](https://en.wikipedia.org/wiki/Arabic#Literary_Arabic)(CR)- [Wikipedia: Hamza](https://en.wikipedia.org/wiki/Hamza)(CR)- Daniels, Peter T. and William Bright, eds. 1996. _The World's Writing Systems_, p. 560(CR)- Mace, John. 2003. _Beginner's Arabic Script_.(CR)(CR)(CR)We did not include gemination over all consonants. It is likely that shadda (for gemination) can occur over other consonants. However, the use of shadda is rare in MSA and examples over other consonants proved difficult to find.(CR)(CR)This information is purely a start on documenting the phonemes for MSA. We welcome feedback.(CR)(CR)Contributor: Lorna Evans",
 		"ast-Latn":	"The data shown below of graphemes and phonemes for Asturian is quite simplified, and is intended to represent his three dialectal areas (Western, Central and Eastern Asturian).(CR)(CR)(Source: Álvaro Arias, University of Oviedo)",
 		"bcy-Latn":	"The data here only contained the Ɓacama (Ɓwaatye) phonemes.(CR)(CR)The data does not include the tones because there is no tone marking in the orthography; hence tone section is omitted here.(CR)(CR)Contributor: Kaduwe N. Ornan",
+		"bec-Latn":	"The data shown below represents the graphemes and phonemes for Iceve-Maci. In particular, it represents the Oliti (or Ici) dialect, from which the examples are drawn, although the Bacheve dialect differs very little.(CR)(CR)The sounds indicated are phonemes, not actual phones. The phonemes /s/, /ts/ and /dz/ each have a palatalised allophone (resp. [ʃ], [tʃ] and [dʒ]) that occurs before certain dialect-dependent vowels that include at least /i/, /e/ and /ia/. Both /ɰ/ and /v/ are often reduced to one of the approximants [ɰ], [w] or [j], conditioned by the preceding vowel, particularly when they occur in noun suffixes. These are treated as allophones of /ɰ/ and /v/, despite the same phones also occurring in the phonemes /w/ and /j/. Simiarly, the realisation of /a/ when it occurs in prefixes has several realisations, some of which resemble other phonemes, such as /e/.(CR)(CR)Vowels may be doubled in writing Iceve. This represents a sequence of two short vowels, rather than a separate long vowel phoneme. It is not separately illustrated in the data.(CR)(CR)Diacritics are used to represent grammatical tone. This is not represented in the data.(CR)(CR)See _Iceve Orthography_ (Cox 2023) and _A Phonological Overview of Iceve-Maci_ (Cox 2013) for further details.(CR)(CR)Contributor: Bruce Cox",
 		"blt-Tavt":	"Tai Dam (ISO code blt) is a Tai language of Vietnam. It is primarily spoken in Sơn La province and surrounding areas of Vietnam and Laos. The Tai Viet script (ISO code Tavt) is the traditional script used by the Tai Dam and several closely related languages.(CR)(CR)There are a number of variations in the way the language is written. That shown here represents the writing of Baccam Don, from Thuan Chau in Sơn La Province.(CR)(CR)My primary sources are:(CR)(CR)- Baccam Don, Baccam Faluang, Baccam Hung and Dorothy Fippinger, _Tai Dam-English, English-Tai Dam Vocabulary Book_, 1989.(CR)- Fippinger, Jay and Dorothy Fippinger, “Black Tai Phonemes with Reference to White Tai,” _Anthropological Linguistics_, 12:83-97, March 1970.(CR)- Gedney, William J. “A Comparative Sketch of White, Black, and Red Tai.” _The Social Science Review_, Special Number (1964).(CR)(CR)(CR)Note that I use the “high” and “low” tone series labels as they are used by the language community, which are reflected in the Unicode character names, and which are the reverse of the way the labels are used in the Tai linguistic community.(CR)(CR)#### Vowels(CR)(CR)Like all Tai languages, Tai Dam vowels are written above, below, to the left, and to the right, of the initial consonant. A dotted circle is used here to show the position of the vowel relative to the initial consonant. But Tai Dam is visually encoded, so the left-side and right-side vowels are spacing characters, not diacritics, even though they are shown here with the dotted circle.(CR)(CR)#### Tone(CR)(CR)Tai Dam has six tones: four level tones and two glides. The tone numbering system most often used for the spoken language is that introduced by Gedney 1964, and Fippinger 1970:(CR)(CR)- Lower-mid level(CR)- High rising(CR)- Low: level or falling, terminated by a glottal catch(CR)- High level(CR)- Higher-mid level(CR)- Mid falling: abruptly falling from the level of tone 5, terminated by a glottal catch(CR)(CR)(CR)Only tones 2 and 5 occur on checked syllables (i.e. closed syllables ending with /p/, /t/, /k/, or /ʔ/).(CR)(CR)I have chosen to represent the level tones with the tone bars Extra High, High, Low, and Extra Low, respectively (omitting the Mid tone bar).(CR)(CR)In the written language, three different tone marking systems have been used for the Tai Viet in different times and places:(CR)(CR)- Historically, tones were not marked beyond the use of the high and low series consonants. In this system, tones are underdifferentiated. This system would be used in all documents before 1975, but is less common now.(CR)- Since 1975, one segment of the Tai Dam community has adopted the use of the Lao diacritic tone marks Mai Ek (U+AABF) and Mai Tho (U+AAC1).(CR)- Another segment of the Tai Dam community has created a pair of spacing tone marks, Mai Nueng (U+AAC0) and Mai Song (U+AAC2).(CR)(CR)(CR)Tone systems 2 and 3 are parallel to each other, with Mai Ek being equivalent to Mai Nueng, and Mai Tho equivalent to Mai Song.(CR)(CR)Tone system 1 can be derived from either of the other two by omitting the Mai Ek and Mai Tho, or Mai Nueng and Mai Song.(CR)(CR)I have chosen to describe systems 2 and 3 here.(CR)(CR)_Abbreviations:_ In the tone-related graphemes, -Low C- indicates the use of a Low Series Consonant for the intial consonant; -High C- indicates the use of a high series consonant in the initial position.(CR)(CR)Contributor: Jim Brase, SIL International",
 		"de-Latn":	"This data applies to the standard High German dialect.",
 		"dv-Thaa":	"The Thaana alphabet is unique to the Dhivehi language. The script contains two types of basic signs. The consonant signs are considered the actual letters of the alphabet, and they include a null consonant, ‹<span lang='xxx-Thaa' dir='rtl'>އ</span>› (“alifu”). The consonant letters form the base line of writing, while the vowels signs—and the null vowel ‹<span lang='xxx-Thaa' dir='rtl'>ް</span>› (“sukun”)--are diacritics written either above or below the consonant line, depending on the vowel. The writing of vowels is obligatory in Dhivehi.(CR)(CR)In addition to the standard Thaana alphabet, there is a set of extra letters, known as “thiki jehi Thaana” (“dotted Thaana”). These letters, which are formed from the basic Thaana letters by the addition of one or three dots above or below a Thaana letter, were designed to transcribe the Perso-Arabic script. The presence of such a dotted letter is a sure sign of a word of foreign origin. Many such words, if they are establised loans, have alternate nativized spellings without dotted letters. Note, however, that the ‹<span lang='xxx-Thaa' dir='rtl'>ޕ</span>› (“paviyani”) has a dot but is part of the basic Thaana script, not the dotted series. Both the basic Thaana and the dotted Thaana letters are included in the table.(CR)(CR)The Thaana script accurately represents Dhivehi phonemes and morphophonology, but it has a number of systematic usages that are unusual, and which a phoneme-grapheme table obscures somewhat. One such usage is that of a gemination marker, ‹<span lang='xxx-Thaa' dir='rtl'>އް</span>› (“alifu-sukun”), which geminates a following consonant (the alifu-sukun also writes a coda /k/, but if there is a following consonant, a /k/ in coda position will be pronounced as gemination of that consonant anyway). Because gemination is not considered a phoneme, the geminating effect of the ‹<span lang='xxx-Thaa' dir='rtl'>އް</span>› is repeated many times in the accompanying table, with each geminatable consonant phoneme. Similarly, ‹<span lang='xxx-Thaa' dir='rtl'>ން</span>›, writes any coda nasal, which will be pronounced as homorganic with a following consonant or as [ŋ] in the absence of a consonant. In the latter case, it may be underlyingly either /m/ or /n/. A ‹<span lang='xxx-Thaa' dir='rtl'>ނ</span>› without a vowel sign or sukun (null-vowel sign) combines with a following consonant letter to form a digraph representing a prensalized stop.(CR)(CR)Vowels in Dhivehi may be either long or short. In general, the long vowels are doubled versions of the short vowels, but the doubled sign forms a single sign, not a digraph, in that it takes up the space of only a single vowel sign. The second part of a diphthong is written on a null consonant (“alifu”) sign.(CR)(CR)The first 9 letters of the Thaana alphabet (ie the list of consonant letters) are derived from the Arabic numerals 1 through 9, while the vowel signs for /a/, /i/, and /u/, as well as the null-vowel “sukun”, are derived from the optional vowel diacritics of the Arabic script. The names of many of the Thaana consonant letters are taken from the names of the corresponding letters of the Arabic script. Other consonant names end in -viyani.(CR)(CR)The examples listed in the table are taken from standard written Dhivehi, which is based on the northern dialect, particularly that of Malé. Certain systematic differences in other dialects are noted, however, and flagged in the notes.(CR)(CR)References for Thaana include the following: (1) DeSila, M.W.S (1969) The phonological efficiency of the Maldivian writing system. Anthropological Linguistics 11, 199-208. (2) Gair, J.W. &amp; B.D. Cain (1996) Dhivehi Writing. In P.T. Daniels &amp; W. Bright (eds.) The World's Writing Systems, 564-568, Oxford University Press. (3) Gnanadesikan, A.E. (2012) Maldivian Thaana, Japanese kana, and the representation of moras in writing. Writing Systems Research 4 (1-2), 91-102. (4) Gnanadesikan, A.E., R.W. McGowan, S.L. Rafalko, &amp; K.S. Burk (2013) Thaana Basics: Getting Started with the Maldivian Alphabet. Technical Report, University of Maryland Center for Advanced Study of Language.(CR)(CR)Source: Amalia Gnandesikan",
@@ -22741,6 +23166,7 @@
 		"ar-Arab":	"Arabic written with Arabic script",
 		"ast-Latn":	"Asturian written with Latin script",
 		"bcy-Latn":	"Bacama written with Latin script",
+		"bec-Latn":	"Iceve-Maci written with Latin script",
 		"blt-Tavt":	"Tai Dam written with Tai Viet script",
 		"de-Latn":	"German written with Latin script",
 		"dv-Thaa":	"Maldivian written with Thaana script",

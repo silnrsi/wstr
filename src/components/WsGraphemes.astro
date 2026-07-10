@@ -66,6 +66,26 @@ function phonemeSlug(key: string): string {
 	return result;
 }
 
+function seqLength(key: string): string {
+	if ( key.substring(0, 4) == "diph") {
+		return 0;
+	} else {
+		return key.split("+").length;
+	}
+}
+
+function seqKey(key: string, i: integer): string {
+	const seqKeys = key.split("+");
+	let result = seqKeys[i];
+	//console.log(key + '[' + i + '] = ' + result);
+	return result;
+}
+
+function seqSymbol(key: string, i: integer): string {
+	const seqKeys = key.split("+");
+	return phonemeSymbol(seqKeys[i]);
+}
+
 const { wsCode } = Astro.props;
 
 const allPhonograms = wsgData["phonograms"];
@@ -77,7 +97,7 @@ const allPhonograms = wsgData["phonograms"];
 let wsPhonograms = allPhonograms.filter(pg => pg.ws === wsCode);
 let pgCount = wsPhonograms ? wsPhonograms.length : 0;
 
-console.log('# phonograms = ' + pgCount);
+//console.log('# phonograms = ' + pgCount);
 
 ---
 
@@ -105,7 +125,17 @@ console.log('# phonograms = ' + pgCount);
 						<span>{ch} </span>
 					)}	
 				</td>
-				<td><a href={`/scrlang/phonemes/${(phonemeSlug(wsp.phoneme))}`} title={phonemeLabel(wsp.phoneme)}>/{phonemeSymbol(wsp.phoneme)}/</a></td>
+				<td>
+				{seqLength(wsp.phoneme) > 1 ? 
+					<span>/{seqSymbol(wsp.phoneme, 0)}{seqSymbol(wsp.phoneme, 1)}/ =<br/> 
+					<a href={`/scrlang/phonemes/${(phonemeSlug(seqKey(wsp.phoneme,0)))}`} title={phonemeLabel(seqKey(wsp.phoneme,0))}>/{phonemeSymbol(seqKey(wsp.phoneme,0))}/</a>
+					+
+					<a href={`/scrlang/phonemes/${(phonemeSlug(seqKey(wsp.phoneme,1)))}`} title={phonemeLabel(seqKey(wsp.phoneme,1))}>/{phonemeSymbol(seqKey(wsp.phoneme,1))}/</a>
+					</span>
+					:
+					<a href={`/scrlang/phonemes/${(phonemeSlug(wsp.phoneme))}`} title={phonemeLabel(wsp.phoneme)}>/{phonemeSymbol(wsp.phoneme)}/</a>
+				}
+				</td>
 				<td>{wsp.status}</td>
 				<td set:html={wsp.example} />
 				<td set:html={wsp.notes} />
