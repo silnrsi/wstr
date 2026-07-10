@@ -12,7 +12,7 @@ In The Unicode Standard, Symbols are discussed in [Chapter 22 Symbols](http://ww
 
 ## Blocks
 
-There are also Emoji Symbols (which have a different script code) referenced here: [Unicode Status for Emoji & Pictograph Symbols](/scrlang/unicode/z-emoji-pictograph-unicode/).
+There are also Emoji Symbols (which have a different script code) referenced here: [Unicode Status for Emoji & Pictograph Symbols](/scrlang/unicode/zsye-unicode/).
 
 | Blocks | Character Range | Block Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------------ | ------------- |
@@ -479,6 +479,11 @@ A number of proposals for various Symbols have been submitted to the Unicode Tec
 - 2016-07-11 Proposal to encode symbols for Go game notation — Andrew West (WG2 N4719R, [L2/16-185](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-185))
   - _Recommendations to UTC #148 August 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu, and Lisa Moore ([L2/16-216](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-216)) (See section 15 for recommendations)_
   - _UTC #148 Minutes ([L2/16-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-203)) (See E.5 for decision and action items)_
+- 2020-08-24 Request to move the tentative location of Kaktovik numerals on the roadmap — Eduardo Marín Silva ([L2/20-262](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-262))
+  - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 20.)_
+- 2021-04-29 Unicode request for Kaktovik numerals — Eduardo Marín Silva, Kirk Miller, Catherine Strand ([L2/21-058](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-058))
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 16.)_
+  - _UTC #167 Minutes ([L2/21-067](https://www.unicode.org/L2/L2021/21066.htm)) (See B.1, 167-C7, 167-A40, 167-A41 for decision and action items)_
 - 2023-01-29 Proposal to Encode a Hungarian Forint Symbol in the Unicode Standard — Vacek Nules ([L2/23-060](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-060))
   - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.iii.6.)_
   - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.6 for decision and action items)_

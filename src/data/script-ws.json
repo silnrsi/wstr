@@ -115,8 +115,8 @@
         ]
     },
     {
-        "ScriptName": "Akkha",
-        "ScriptCode": "Qabl",
+        "ScriptName": "Magar Akkha",
+        "ScriptCode": "x-magar-akkha",
         "WrSys": []
     },
     {
@@ -5317,18 +5317,18 @@
         ]
     },
     {
-        "ScriptName": "Aztec Pictograms",
-        "ScriptCode": "Qa26",
+        "ScriptName": "Aztec (Nahuatl)",
+        "ScriptCode": "x-aztec-nahuatl",
         "WrSys": []
     },
     {
-        "ScriptName": "Badaga",
-        "ScriptCode": "Qabq",
+        "ScriptName": "Badugu",
+        "ScriptCode": "x-badugu",
         "WrSys": []
     },
     {
         "ScriptName": "Bagam (Eghap)",
-        "ScriptCode": "Qabh",
+        "ScriptCode": "x-bagam",
         "WrSys": []
     },
     {
@@ -5382,12 +5382,12 @@
     },
     {
         "ScriptName": "Balti-A",
-        "ScriptCode": "Qaab",
+        "ScriptCode": "x-balti-a",
         "WrSys": []
     },
     {
         "ScriptName": "Balti-B",
-        "ScriptCode": "Qa63",
+        "ScriptCode": "x-balti-b",
         "WrSys": []
     },
     {
@@ -6118,7 +6118,7 @@
     },
     {
         "ScriptName": "Bété",
-        "ScriptCode": "Qa00",
+        "ScriptCode": "x-bete",
         "WrSys": []
     },
     {
@@ -6142,7 +6142,7 @@
     },
     {
         "ScriptName": "Bhujinmol",
-        "ScriptCode": "Qa74",
+        "ScriptCode": "x-bhujinmol",
         "WrSys": []
     },
     {
@@ -6242,12 +6242,7 @@
     },
     {
         "ScriptName": "Borama (Gadabuursi)",
-        "ScriptCode": "Qa85",
-        "WrSys": []
-    },
-    {
-        "ScriptName": "Bowen (Lao Baiwen)",
-        "ScriptCode": "Qabe",
+        "ScriptCode": "x-borama",
         "WrSys": []
     },
     {
@@ -8421,7 +8416,7 @@
     },
     {
         "ScriptName": "Byblos",
-        "ScriptCode": "Qa29",
+        "ScriptCode": "x-byblos",
         "WrSys": []
     },
     {
@@ -8530,8 +8525,8 @@
         ]
     },
     {
-        "ScriptName": "Chalukya (Box-Headed)",
-        "ScriptCode": "Qa31",
+        "ScriptName": "Box-Headed",
+        "ScriptCode": "x-box-headed",
         "WrSys": []
     },
     {
@@ -8607,7 +8602,7 @@
     },
     {
         "ScriptName": "Chola",
-        "ScriptCode": "Qa32",
+        "ScriptCode": "x-chola",
         "WrSys": []
     },
     {
@@ -8695,7 +8690,7 @@
                 "LangCode": "bfq",
                 "Variants": [
                     {
-                        "Code": "bfq-Zzzz-IN-x-badaga",
+                        "Code": "bfq-Zzzz-IN-x-badugu",
                         "Country": "India"
                     }
                 ]
@@ -20544,7 +20539,7 @@
     },
     {
         "ScriptName": "Coorgi-Cox",
-        "ScriptCode": "Qa68",
+        "ScriptCode": "x-coorgi-cox",
         "WrSys": []
     },
     {
@@ -26257,11 +26252,6 @@
         ]
     },
     {
-        "ScriptName": "Duota",
-        "ScriptCode": "Qaaf",
-        "WrSys": []
-    },
-    {
         "ScriptName": "Duployan shorthand, Duployan stenography",
         "ScriptCode": "Dupl",
         "WrSys": [
@@ -26386,7 +26376,7 @@
     },
     {
         "ScriptName": "Eebee Hmong",
-        "ScriptCode": "Qa84",
+        "ScriptCode": "x-eebee-hmong",
         "WrSys": []
     },
     {
@@ -26471,17 +26461,17 @@
     },
     {
         "ScriptName": "Ersu Shaba Picture Writing",
-        "ScriptCode": "Qaag",
+        "ScriptCode": "x-ersu-shaba",
         "WrSys": []
     },
     {
         "ScriptName": "Eshkol-Wachman movement notation system",
-        "ScriptCode": "Qaah",
+        "ScriptCode": "x-eshkol-wachman",
         "WrSys": []
     },
     {
         "ScriptName": "Eskaya",
-        "ScriptCode": "Qabr",
+        "ScriptCode": "x-eskaya",
         "WrSys": []
     },
     {
@@ -27256,17 +27246,17 @@
     },
     {
         "ScriptName": "Fula-1 (Dita)",
-        "ScriptCode": "Qa01",
+        "ScriptCode": "x-fula-dita",
         "WrSys": []
     },
     {
         "ScriptName": "Fula-2 (Ba)",
-        "ScriptCode": "Qa02",
+        "ScriptCode": "x-fula-ba",
         "WrSys": []
     },
     {
         "ScriptName": "Gangga Malayu",
-        "ScriptCode": "Qa35",
+        "ScriptCode": "x-gangga-malayu",
         "WrSys": []
     },
     {
@@ -28166,7 +28156,7 @@
     },
     {
         "ScriptName": "HamNoSys Notation",
-        "ScriptCode": "Qabn",
+        "ScriptCode": "x-hamburg-notation-system",
         "WrSys": []
     },
     {
@@ -29751,7 +29741,7 @@
     },
     {
         "ScriptName": "Iban",
-        "ScriptCode": "Qa83",
+        "ScriptCode": "x-iban",
         "WrSys": []
     },
     {
@@ -30011,7 +30001,7 @@
     },
     {
         "ScriptName": "Jing",
-        "ScriptCode": "Qa38",
+        "ScriptCode": "x-jing",
         "WrSys": []
     },
     {
@@ -30035,12 +30025,12 @@
     },
     {
         "ScriptName": "Kaddare",
-        "ScriptCode": "Qa75",
+        "ScriptCode": "x-kaddare",
         "WrSys": []
     },
     {
         "ScriptName": "Kaida",
-        "ScriptCode": "Qa80",
+        "ScriptCode": "x-kaida",
         "WrSys": []
     },
     {
@@ -30527,17 +30517,12 @@
     },
     {
         "ScriptName": "Khatt-i Baburi",
-        "ScriptCode": "Qa60",
-        "WrSys": []
-    },
-    {
-        "ScriptName": "Khema Tamu Phri",
-        "ScriptCode": "Qa07",
+        "ScriptCode": "x-khatt-i-baburi",
         "WrSys": []
     },
     {
         "ScriptName": "Khimhun Tangsa",
-        "ScriptCode": "Qa57",
+        "ScriptCode": "x-khimhun-tangsa",
         "WrSys": []
     },
     {
@@ -30863,7 +30848,7 @@
     },
     {
         "ScriptName": "Khotanese",
-        "ScriptCode": "Qa40",
+        "ScriptCode": "x-khotanese",
         "WrSys": []
     },
     {
@@ -31004,7 +30989,7 @@
     },
     {
         "ScriptName": "Lahnda (Landa)",
-        "ScriptCode": "Qaaj",
+        "ScriptCode": "x-landa",
         "WrSys": []
     },
     {
@@ -117230,7 +117215,7 @@
     },
     {
         "ScriptName": "Masaba",
-        "ScriptCode": "Qa10",
+        "ScriptCode": "x-masaba",
         "WrSys": []
     },
     {
@@ -117556,7 +117541,7 @@
     },
     {
         "ScriptName": "Micmac Hieroglyphs (Kauder ideograms)",
-        "ScriptCode": "Qabg",
+        "ScriptCode": "x-micmac-hieroglyphs",
         "WrSys": []
     },
     {
@@ -117829,7 +117814,7 @@
     },
     {
         "ScriptName": "Mwangwego",
-        "ScriptCode": "Qa54",
+        "ScriptCode": "x-mwangwego",
         "WrSys": []
     },
     {
@@ -118647,7 +118632,7 @@
     },
     {
         "ScriptName": "Numidian",
-        "ScriptCode": "Qa45",
+        "ScriptCode": "x-numidian",
         "WrSys": []
     },
     {
@@ -119696,8 +119681,13 @@
         ]
     },
     {
-        "ScriptName": "Paleohispanic",
-        "ScriptCode": "Qa37",
+        "ScriptName": "Palaeohispanic (North)",
+        "ScriptCode": "x-no-palaeohispanic",
+        "WrSys": []
+    },
+    {
+        "ScriptName": "Palaeohispanic (South)",
+        "ScriptCode": "x-so-palaeohispanic",
         "WrSys": []
     },
     {
@@ -119740,7 +119730,7 @@
     },
     {
         "ScriptName": "Pau Cin Hau Syllabary",
-        "ScriptCode": "Qa14",
+        "ScriptCode": "x-pau-cin-hau-syllabary",
         "WrSys": []
     },
     {
@@ -119900,12 +119890,12 @@
     },
     {
         "ScriptName": "Pyu (Tircul)",
-        "ScriptCode": "Qa48",
+        "ScriptCode": "x-pyu",
         "WrSys": []
     },
     {
         "ScriptName": "Raina Kama (Hausa)",
-        "ScriptCode": "Qa15",
+        "ScriptCode": "x-hausa-raina-kama",
         "WrSys": []
     },
     {
@@ -120242,7 +120232,7 @@
     },
     {
         "ScriptName": "Salifou Hausa",
-        "ScriptCode": "Qa16",
+        "ScriptCode": "x-hausa-salifou",
         "WrSys": []
     },
     {
@@ -120298,7 +120288,7 @@
     },
     {
         "ScriptName": "Satavahana",
-        "ScriptCode": "Qa49",
+        "ScriptCode": "x-satavahana",
         "WrSys": []
     },
     {
@@ -120416,7 +120406,7 @@
     },
     {
         "ScriptName": "SignFont Notation",
-        "ScriptCode": "Qaao",
+        "ScriptCode": "x-signfont",
         "WrSys": []
     },
     {
@@ -120587,7 +120577,7 @@
     },
     {
         "ScriptName": "Stokoe Notation",
-        "ScriptCode": "Qaaq",
+        "ScriptCode": "x-stokoe-notation",
         "WrSys": []
     },
     {
@@ -120936,7 +120926,7 @@
     },
     {
         "ScriptName": "Tafi (Hausa)",
-        "ScriptCode": "Qa18",
+        "ScriptCode": "x-hausa-tafi",
         "WrSys": []
     },
     {
@@ -121751,7 +121741,7 @@
     },
     {
         "ScriptName": "Tani",
-        "ScriptCode": "Qa51",
+        "ScriptCode": "x-tani",
         "WrSys": []
     },
     {
@@ -123788,7 +123778,7 @@
     },
     {
         "ScriptName": "Tikamuli",
-        "ScriptCode": "Qa19",
+        "ScriptCode": "x-tikamuli",
         "WrSys": []
     },
     {
@@ -123901,7 +123891,7 @@
     },
     {
         "ScriptName": "Turkestani",
-        "ScriptCode": "Qa53",
+        "ScriptCode": "x-turkestani",
         "WrSys": []
     },
     {
@@ -124220,11 +124210,6 @@
                 ]
             }
         ]
-    },
-    {
-        "ScriptName": "Unwritten",
-        "ScriptCode": "Qaax",
-        "WrSys": []
     },
     {
         "ScriptName": "Vai",
@@ -124556,12 +124541,12 @@
     },
     {
         "ScriptName": "Zhuang Square",
-        "ScriptCode": "Qa52",
+        "ScriptCode": "x-zhuang-square",
         "WrSys": []
     },
     {
         "ScriptName": "Zou",
-        "ScriptCode": "Qa23",
+        "ScriptCode": "x-zou",
         "WrSys": []
     }
 ]

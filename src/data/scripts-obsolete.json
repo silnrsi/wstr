@@ -84,8 +84,8 @@
         "script_shortName": "Ahom script"
     },
     {
-        "script_name": "Akkha",
-        "script_code": "Qabl",
+        "script_name": "Magar Akkha",
+        "script_code": "x-magar-akkha",
         "script_type": "abugida",
         "script_family": "Indic",
         "script_direction": "LTR",
@@ -252,8 +252,8 @@
         "script_shortName": "Avestan script"
     },
     {
-        "script_name": "Aztec Pictograms",
-        "script_code": "Qa26",
+        "script_name": "Aztec (Nahuatl)",
+        "script_code": "x-aztec-nahuatl",
         "script_type": "logo-syllabary",
         "script_family": "American",
         "script_direction": "[unspecified]",
@@ -271,17 +271,17 @@
         "script_splitGraphs": "no",
         "script_ligatures": "none",
         "script_sample": "a:8:{s:9:\"file_name\";s:36:\"Aztec_SunStone_pictograms_sample.jpg\";s:14:\"file_MIME_type\";s:10:\"image\/jpeg\";s:9:\"file_type\";s:4:\"jpeg\";s:10:\"is_package\";b:0;s:7:\"caption\";s:40:\"Detail from Aztec Sun Stone, Mexico City\";s:6:\"author\";s:0:\"\";s:9:\"copyright\";s:21:\"© Steven Zucker 2015\";s:5:\"notes\";s:0:\"\";}",
-        "__display_name": "Aztec Pictograms",
+        "__display_name": "Aztec (Nahuatl) Pictograms",
         "script_displayCode": "",
         "script_openTypeTags": "",
         "script_status": "Historical",
         "script_numericCodePlus": "[none]",
-        "script_sortName": "Aztec Pictograms",
-        "script_shortName": "Aztec Pictograms"
+        "script_sortName": "Aztec (Nahuatl)",
+        "script_shortName": "Aztec (Nahuatl)"
     },
     {
-        "script_name": "Badaga",
-        "script_code": "Qabq",
+        "script_name": "Badugu",
+        "script_code": "x-badugu",
         "script_type": "abugida",
         "script_family": "Indic",
         "script_direction": "LTR",
@@ -299,17 +299,17 @@
         "script_splitGraphs": "[unknown]",
         "script_ligatures": "[unspecified]",
         "script_sample": "a:8:{s:9:\"file_name\";s:17:\"Badaga_sample.jpg\";s:14:\"file_MIME_type\";s:10:\"image\/jpeg\";s:9:\"file_type\";s:4:\"jpeg\";s:10:\"is_package\";b:0;s:7:\"caption\";s:51:\"Detail from booklet used to learn the Badaga script\";s:6:\"author\";s:25:\"Wg Cdr Bellie Jayaprakash\";s:9:\"copyright\";s:8:\"©  2018\";s:5:\"notes\";s:21:\"Used with permission.\";}",
-        "__display_name": "Badaga",
+        "__display_name": "Badugu",
         "script_displayCode": "",
         "script_openTypeTags": "",
         "script_status": "Unclear",
         "script_numericCodePlus": "942 (private use, alias, or special)",
-        "script_sortName": "Badaga",
-        "script_shortName": "Badaga script"
+        "script_sortName": "Badugu",
+        "script_shortName": "Badugu script"
     },
     {
         "script_name": "Bagam (Eghap)",
-        "script_code": "Qabh",
+        "script_code": "x-bagam",
         "script_type": "logo-syllabary",
         "script_family": "African",
         "script_direction": "LTR",
@@ -365,7 +365,7 @@
     },
     {
         "script_name": "Balti-A",
-        "script_code": "Qaab",
+        "script_code": "x-balti-a",
         "script_type": "abugida",
         "script_family": "Indic",
         "script_direction": "RTL",
@@ -393,7 +393,7 @@
     },
     {
         "script_name": "Balti-B",
-        "script_code": "Qa63",
+        "script_code": "x-balti-b",
         "script_type": "abugida",
         "script_family": "Indic",
         "script_direction": "LTR",
@@ -561,7 +561,7 @@
     },
     {
         "script_name": "Bété",
-        "script_code": "Qa00",
+        "script_code": "x-bete",
         "script_type": "syllabary",
         "script_family": "African",
         "script_direction": "LTR",
@@ -617,7 +617,7 @@
     },
     {
         "script_name": "Bhujinmol",
-        "script_code": "Qa74",
+        "script_code": "x-bhujinmol",
         "script_type": "abugida",
         "script_family": "Indic",
         "script_direction": "LTR",
@@ -729,7 +729,7 @@
     },
     {
         "script_name": "Borama (Gadabuursi)",
-        "script_code": "Qa85",
+        "script_code": "x-borama",
         "script_type": "alphabet",
         "script_family": "African",
         "script_direction": "LTR",
@@ -754,34 +754,6 @@
         "script_numericCodePlus": "[none]",
         "script_sortName": "Borama (Gadabuursi)",
         "script_shortName": "Borama script"
-    },
-    {
-        "script_name": "Bowen (Lao Baiwen)",
-        "script_code": "Qabe",
-        "script_type": "syllabary",
-        "script_family": "East Asian",
-        "script_direction": "vertical (RTL) and horizontal (LTR)",
-        "script_baseline": "centered",
-        "script_whiteSpace": "[unspecified]",
-        "script_features": "",
-        "script_typicalFont": "",
-        "script_alternateNames": "",
-        "script_numericCode": "930",
-        "script_casing": "no",
-        "script_diacritics": "[unknown]",
-        "script_contextualForms": "[unknown]",
-        "script_complexPos": "[unknown]",
-        "script_reordering": "[unknown]",
-        "script_splitGraphs": "[unknown]",
-        "script_ligatures": "[unspecified]",
-        "script_sample": "a:8:{s:9:\"file_name\";s:12:\"nosample.png\";s:14:\"file_MIME_type\";s:9:\"image\/png\";s:9:\"file_type\";s:3:\"png\";s:10:\"is_package\";b:0;s:7:\"caption\";s:0:\"\";s:6:\"author\";s:0:\"\";s:9:\"copyright\";s:0:\"\";s:5:\"notes\";s:0:\"\";}",
-        "__display_name": "Bowen (Lao Baiwen)",
-        "script_displayCode": "",
-        "script_openTypeTags": "",
-        "script_status": "Unclear",
-        "script_numericCodePlus": "930 (private use, alias, or special)",
-        "script_sortName": "Bowen (Lao Baiwen)",
-        "script_shortName": ""
     },
     {
         "script_name": "Brahmi",
@@ -897,7 +869,7 @@
     },
     {
         "script_name": "Byblos",
-        "script_code": "Qa29",
+        "script_code": "x-byblos",
         "script_type": "syllabary",
         "script_family": "Middle Eastern",
         "script_direction": "RTL",
@@ -1008,8 +980,8 @@
         "script_shortName": "Chakma script"
     },
     {
-        "script_name": "Chalukya (Box-Headed)",
-        "script_code": "Qa31",
+        "script_name": "Box-Headed",
+        "script_code": "x-box-headed",
         "script_type": "abugida",
         "script_family": "Indic",
         "script_direction": "[unspecified]",
@@ -1027,13 +999,13 @@
         "script_splitGraphs": "[unknown]",
         "script_ligatures": "[unspecified]",
         "script_sample": "a:8:{s:9:\"file_name\";s:12:\"nosample.png\";s:14:\"file_MIME_type\";s:9:\"image\/png\";s:9:\"file_type\";s:3:\"png\";s:10:\"is_package\";b:0;s:7:\"caption\";s:0:\"\";s:6:\"author\";s:0:\"\";s:9:\"copyright\";s:0:\"\";s:5:\"notes\";s:0:\"\";}",
-        "__display_name": "Chalukya (Box-Headed)",
+        "__display_name": "Box-Headed",
         "script_displayCode": "",
         "script_openTypeTags": "",
         "script_status": "Historical",
         "script_numericCodePlus": "[none]",
-        "script_sortName": "Chalukya (Box-Headed)",
-        "script_shortName": "Chalukya script"
+        "script_sortName": "Box-Headed",
+        "script_shortName": "Box-Headed script"
     },
     {
         "script_name": "Cham",
@@ -1121,7 +1093,7 @@
     },
     {
         "script_name": "Chola",
-        "script_code": "Qa32",
+        "script_code": "x-chola",
         "script_type": "abugida",
         "script_family": "Indic",
         "script_direction": "LTR",
@@ -1317,7 +1289,7 @@
     },
     {
         "script_name": "Coorgi-Cox",
-        "script_code": "Qa68",
+        "script_code": "x-coorgi-cox",
         "script_type": "alphabet",
         "script_family": "Indic",
         "script_direction": "LTR",
@@ -1624,34 +1596,6 @@
         "script_shortName": "Dogra script"
     },
     {
-        "script_name": "Duota",
-        "script_code": "Qaaf",
-        "script_type": "abugida",
-        "script_family": "Mainland Southeast Asian",
-        "script_direction": "LTR",
-        "script_baseline": "bottom",
-        "script_whiteSpace": "[unspecified]",
-        "script_features": "",
-        "script_typicalFont": "",
-        "script_alternateNames": "",
-        "script_numericCode": "905",
-        "script_casing": "[unknown]",
-        "script_diacritics": "[unknown]",
-        "script_contextualForms": "[unknown]",
-        "script_complexPos": "[unknown]",
-        "script_reordering": "[unknown]",
-        "script_splitGraphs": "[unknown]",
-        "script_ligatures": "[unspecified]",
-        "script_sample": "a:8:{s:9:\"file_name\";s:12:\"nosample.png\";s:14:\"file_MIME_type\";s:9:\"image\/png\";s:9:\"file_type\";s:3:\"png\";s:10:\"is_package\";b:0;s:7:\"caption\";s:0:\"\";s:6:\"author\";s:0:\"\";s:9:\"copyright\";s:0:\"\";s:5:\"notes\";s:0:\"\";}",
-        "__display_name": "Duota",
-        "script_displayCode": "",
-        "script_openTypeTags": "",
-        "script_status": "Current",
-        "script_numericCodePlus": "905 (private use, alias, or special)",
-        "script_sortName": "Duota",
-        "script_shortName": "Duota script"
-    },
-    {
         "script_name": "Duployan shorthand, Duployan stenography",
         "script_code": "Dupl",
         "script_type": "alphabet",
@@ -1681,7 +1625,7 @@
     },
     {
         "script_name": "Eebee Hmong",
-        "script_code": "Qa84",
+        "script_code": "x-eebee-hmong",
         "script_type": "alphabet",
         "script_family": "Mainland Southeast Asian",
         "script_direction": "LTR",
@@ -1849,7 +1793,7 @@
     },
     {
         "script_name": "Ersu Shaba Picture Writing",
-        "script_code": "Qaag",
+        "script_code": "x-ersu-shaba",
         "script_type": "logo-syllabary",
         "script_family": "East Asian",
         "script_direction": "other",
@@ -1877,7 +1821,7 @@
     },
     {
         "script_name": "Eshkol-Wachman movement notation system",
-        "script_code": "Qaah",
+        "script_code": "x-eshkol-wachman",
         "script_type": "featural",
         "script_family": "Signed Language",
         "script_direction": "vertical (LTR) and horizontal (LTR)",
@@ -1905,7 +1849,7 @@
     },
     {
         "script_name": "Eskaya",
-        "script_code": "Qabr",
+        "script_code": "x-eskaya",
         "script_type": "syllabary",
         "script_family": "Insular Southeast Asian",
         "script_direction": "LTR",
@@ -1961,7 +1905,7 @@
     },
     {
         "script_name": "Fula-1 (Dita)",
-        "script_code": "Qa01",
+        "script_code": "x-fula-dita",
         "script_type": "alphabet",
         "script_family": "African",
         "script_direction": "[unspecified]",
@@ -1989,7 +1933,7 @@
     },
     {
         "script_name": "Fula-2 (Ba)",
-        "script_code": "Qa02",
+        "script_code": "x-fula-ba",
         "script_type": "alphabet",
         "script_family": "African",
         "script_direction": "LTR",
@@ -2017,7 +1961,7 @@
     },
     {
         "script_name": "Gangga Malayu",
-        "script_code": "Qa35",
+        "script_code": "x-gangga-malayu",
         "script_type": "abugida",
         "script_family": "Mainland Southeast Asian",
         "script_direction": "[unspecified]",
@@ -2325,7 +2269,7 @@
     },
     {
         "script_name": "HamNoSys Notation",
-        "script_code": "Qabn",
+        "script_code": "x-hamburg-notation-system",
         "script_type": "featural",
         "script_family": "Signed Language",
         "script_direction": "LTR",
@@ -2661,7 +2605,7 @@
     },
     {
         "script_name": "Iban",
-        "script_code": "Qa83",
+        "script_code": "x-iban",
         "script_type": "syllabary",
         "script_family": "Insular Southeast Asian",
         "script_direction": "LTR",
@@ -2913,7 +2857,7 @@
     },
     {
         "script_name": "Jing",
-        "script_code": "Qa38",
+        "script_code": "x-jing",
         "script_type": "[unspecified]",
         "script_family": "East Asian",
         "script_direction": "[unspecified]",
@@ -2969,7 +2913,7 @@
     },
     {
         "script_name": "Kaddare",
-        "script_code": "Qa75",
+        "script_code": "x-kaddare",
         "script_type": "alphabet",
         "script_family": "African",
         "script_direction": "[unspecified]",
@@ -2997,7 +2941,7 @@
     },
     {
         "script_name": "Kaida",
-        "script_code": "Qa80",
+        "script_code": "x-kaida",
         "script_type": "logo-syllabary",
         "script_family": "East Asian",
         "script_direction": "vertical (RTL)",
@@ -3193,7 +3137,7 @@
     },
     {
         "script_name": "Khatt-i Baburi",
-        "script_code": "Qa60",
+        "script_code": "x-khatt-i-baburi",
         "script_type": "abjad",
         "script_family": "Middle Eastern",
         "script_direction": "RTL",
@@ -3220,36 +3164,8 @@
         "script_shortName": "Khatt-i Baburi script"
     },
     {
-        "script_name": "Khema Tamu Phri",
-        "script_code": "Qa07",
-        "script_type": "abugida",
-        "script_family": "Indic",
-        "script_direction": "LTR",
-        "script_baseline": "[unspecified]",
-        "script_whiteSpace": "between words",
-        "script_features": "[none specified]",
-        "script_typicalFont": "",
-        "script_alternateNames": "",
-        "script_numericCode": "0",
-        "script_casing": "no",
-        "script_diacritics": "[unknown]",
-        "script_contextualForms": "[unknown]",
-        "script_complexPos": "yes",
-        "script_reordering": "[unknown]",
-        "script_splitGraphs": "[unknown]",
-        "script_ligatures": "required",
-        "script_sample": "a:8:{s:9:\"file_name\";s:16:\"Khema_sample.png\";s:14:\"file_MIME_type\";s:9:\"image\/png\";s:9:\"file_type\";s:3:\"png\";s:10:\"is_package\";b:0;s:7:\"caption\";s:45:\"Khema script chart (see Symbols & Characters)\";s:6:\"author\";s:15:\"Biswajit Mandal\";s:9:\"copyright\";s:0:\"\";s:5:\"notes\";s:0:\"\";}",
-        "__display_name": "Khema Tamu Phri",
-        "script_displayCode": "",
-        "script_openTypeTags": "",
-        "script_status": "Unclear",
-        "script_numericCodePlus": "[none]",
-        "script_sortName": "Khema Tamu Phri",
-        "script_shortName": "Khema Tamu Phri script"
-    },
-    {
         "script_name": "Khimhun Tangsa",
-        "script_code": "Qa57",
+        "script_code": "x-khimhun-tangsa",
         "script_type": "abugida",
         "script_family": "Indic",
         "script_direction": "[unspecified]",
@@ -3389,7 +3305,7 @@
     },
     {
         "script_name": "Khotanese",
-        "script_code": "Qa40",
+        "script_code": "x-khotanese",
         "script_type": "abugida",
         "script_family": "Central Asian",
         "script_direction": "LTR",
@@ -3585,7 +3501,7 @@
     },
     {
         "script_name": "Lahnda (Landa)",
-        "script_code": "Qaaj",
+        "script_code": "x-landa",
         "script_type": "abugida",
         "script_family": "Indic",
         "script_direction": "LTR",
@@ -4145,7 +4061,7 @@
     },
     {
         "script_name": "Masaba",
-        "script_code": "Qa10",
+        "script_code": "x-masaba",
         "script_type": "syllabary",
         "script_family": "African",
         "script_direction": "LTR",
@@ -4425,7 +4341,7 @@
     },
     {
         "script_name": "Micmac Hieroglyphs (Kauder ideograms)",
-        "script_code": "Qabg",
+        "script_code": "x-micmac-hieroglyphs",
         "script_type": "logo-syllabary",
         "script_family": "American",
         "script_direction": "LTR",
@@ -4593,7 +4509,7 @@
     },
     {
         "script_name": "Mwangwego",
-        "script_code": "Qa54",
+        "script_code": "x-mwangwego",
         "script_type": "abugida",
         "script_family": "African",
         "script_direction": "LTR",
@@ -4845,7 +4761,7 @@
     },
     {
         "script_name": "Numidian",
-        "script_code": "Qa45",
+        "script_code": "x-numidian",
         "script_type": "[unspecified]",
         "script_family": "African",
         "script_direction": "vertical (LTR) and horizontal (RTL)",
@@ -5404,8 +5320,8 @@
         "script_shortName": "Pahawh Hmong script"
     },
     {
-        "script_name": "Paleohispanic",
-        "script_code": "Qa37",
+        "script_name": "Palaeohispanic (North)",
+        "script_code": "x-no-palaeohispanic",
         "script_type": "[unspecified]",
         "script_family": "European",
         "script_direction": "[unspecified]",
@@ -5423,13 +5339,41 @@
         "script_splitGraphs": "[unknown]",
         "script_ligatures": "[unspecified]",
         "script_sample": "a:8:{s:9:\"file_name\";s:46:\"Paleoahispanic_Plom_I_de_La_Bastida_sample.jpg\";s:14:\"file_MIME_type\";s:10:\"image\/jpeg\";s:9:\"file_type\";s:4:\"jpeg\";s:10:\"is_package\";b:0;s:7:\"caption\";s:53:\"The lead plaque I from la Bastida (see Use & History)\";s:6:\"author\";s:11:\"Tautintanes\";s:9:\"copyright\";s:7:\"© 2007\";s:5:\"notes\";s:12:\"CC-BY-SA 3.0\";}",
-        "__display_name": "Paleohispanic",
+        "__display_name": "Palaeohispanic (North)",
         "script_displayCode": "",
         "script_openTypeTags": "",
         "script_status": "Historical",
         "script_numericCodePlus": "[none]",
-        "script_sortName": "Paleohispanic",
-        "script_shortName": "Iberian script"
+        "script_sortName": "Palaeohispanic (North)",
+        "script_shortName": "Palaeohispanic (North) script"
+    },
+    {
+        "script_name": "Palaeohispanic (South)",
+        "script_code": "x-so-palaeohispanic",
+        "script_type": "[unspecified]",
+        "script_family": "European",
+        "script_direction": "[unspecified]",
+        "script_baseline": "[unspecified]",
+        "script_whiteSpace": "[unspecified]",
+        "script_features": "[none specified]",
+        "script_typicalFont": "",
+        "script_alternateNames": "",
+        "script_numericCode": "0",
+        "script_casing": "[unknown]",
+        "script_diacritics": "[unknown]",
+        "script_contextualForms": "[unknown]",
+        "script_complexPos": "[unknown]",
+        "script_reordering": "[unknown]",
+        "script_splitGraphs": "[unknown]",
+        "script_ligatures": "[unspecified]",
+        "script_sample": "a:8:{s:9:\"file_name\";s:46:\"Paleoahispanic_Plom_I_de_La_Bastida_sample.jpg\";s:14:\"file_MIME_type\";s:10:\"image\/jpeg\";s:9:\"file_type\";s:4:\"jpeg\";s:10:\"is_package\";b:0;s:7:\"caption\";s:53:\"The lead plaque I from la Bastida (see Use & History)\";s:6:\"author\";s:11:\"Tautintanes\";s:9:\"copyright\";s:7:\"© 2007\";s:5:\"notes\";s:12:\"CC-BY-SA 3.0\";}",
+        "__display_name": "Palaeohispanic (South)",
+        "script_displayCode": "",
+        "script_openTypeTags": "",
+        "script_status": "Historical",
+        "script_numericCodePlus": "[none]",
+        "script_sortName": "Palaeohispanic (South)",
+        "script_shortName": "Palaeohispanic (South) script"
     },
     {
         "script_name": "Palmyrene",
@@ -5489,7 +5433,7 @@
     },
     {
         "script_name": "Pau Cin Hau Syllabary",
-        "script_code": "Qa14",
+        "script_code": "x-pau-cin-hau-syllabary",
         "script_type": "logo-syllabary",
         "script_family": "Mainland Southeast Asian",
         "script_direction": "[unspecified]",
@@ -5685,7 +5629,7 @@
     },
     {
         "script_name": "Pyu (Tircul)",
-        "script_code": "Qa48",
+        "script_code": "x-pyu",
         "script_type": "[unspecified]",
         "script_family": "Mainland Southeast Asian",
         "script_direction": "[unspecified]",
@@ -5713,7 +5657,7 @@
     },
     {
         "script_name": "Raina Kama (Hausa)",
-        "script_code": "Qa15",
+        "script_code": "x-hausa-raina-kama",
         "script_type": "alphabet",
         "script_family": "African",
         "script_direction": "LTR",
@@ -5909,7 +5853,7 @@
     },
     {
         "script_name": "Salifou Hausa",
-        "script_code": "Qa16",
+        "script_code": "x-hausa-salifou",
         "script_type": "alphabet",
         "script_family": "African",
         "script_direction": "[unspecified]",
@@ -5993,7 +5937,7 @@
     },
     {
         "script_name": "Satavahana",
-        "script_code": "Qa49",
+        "script_code": "x-satavahana",
         "script_type": "abugida",
         "script_family": "Indic",
         "script_direction": "LTR",
@@ -6189,7 +6133,7 @@
     },
     {
         "script_name": "SignFont Notation",
-        "script_code": "Qaao",
+        "script_code": "x-signfont",
         "script_type": "featural",
         "script_family": "Signed Language",
         "script_direction": "LTR",
@@ -6385,7 +6329,7 @@
     },
     {
         "script_name": "Stokoe Notation",
-        "script_code": "Qaaq",
+        "script_code": "x-stokoe-notation",
         "script_type": "featural",
         "script_family": "Signed Language",
         "script_direction": "LTR",
@@ -6665,7 +6609,7 @@
     },
     {
         "script_name": "Tafi (Hausa)",
-        "script_code": "Qa18",
+        "script_code": "x-hausa-tafi",
         "script_type": "alphabet",
         "script_family": "African",
         "script_direction": "LTR",
@@ -6973,7 +6917,7 @@
     },
     {
         "script_name": "Tani",
-        "script_code": "Qa51",
+        "script_code": "x-tani",
         "script_type": "alphabet",
         "script_family": "Indic",
         "script_direction": "LTR",
@@ -7169,7 +7113,7 @@
     },
     {
         "script_name": "Tikamuli",
-        "script_code": "Qa19",
+        "script_code": "x-tikamuli",
         "script_type": "abugida",
         "script_family": "Indic",
         "script_direction": "LTR",
@@ -7337,7 +7281,7 @@
     },
     {
         "script_name": "Turkestani",
-        "script_code": "Qa53",
+        "script_code": "x-turkestani",
         "script_type": "abugida",
         "script_family": "Central Asian",
         "script_direction": "LTR",
@@ -7418,34 +7362,6 @@
         "script_numericCodePlus": "440 (syllabic)",
         "script_sortName": "Unified Canadian Aboriginal Syllabics",
         "script_shortName": "Unified Canadian Aboriginal Syllabics script"
-    },
-    {
-        "script_name": "Unwritten",
-        "script_code": "Qaax",
-        "script_type": "[unspecified]",
-        "script_family": "[unspecified]",
-        "script_direction": "[unspecified]",
-        "script_baseline": "[unspecified]",
-        "script_whiteSpace": "[unspecified]",
-        "script_features": "",
-        "script_typicalFont": "",
-        "script_alternateNames": "",
-        "script_numericCode": "923",
-        "script_casing": "[unknown]",
-        "script_diacritics": "[unknown]",
-        "script_contextualForms": "[unknown]",
-        "script_complexPos": "[unknown]",
-        "script_reordering": "[unknown]",
-        "script_splitGraphs": "[unknown]",
-        "script_ligatures": "[unspecified]",
-        "script_sample": "",
-        "__display_name": "Unwritten",
-        "script_displayCode": "",
-        "script_openTypeTags": "",
-        "script_status": "Current",
-        "script_numericCodePlus": "923 (private use, alias, or special)",
-        "script_sortName": "Unwritten",
-        "script_shortName": "Unwritten"
     },
     {
         "script_name": "Vai",
@@ -7701,7 +7617,7 @@
     },
     {
         "script_name": "Zhuang Square",
-        "script_code": "Qa52",
+        "script_code": "x-zhuang-square",
         "script_type": "logo-syllabary",
         "script_family": "East Asian",
         "script_direction": "vertical (LTR) and horizontal (RTL)",
@@ -7729,7 +7645,7 @@
     },
     {
         "script_name": "Zou",
-        "script_code": "Qa23",
+        "script_code": "x-zou",
         "script_type": "[unspecified]",
         "script_family": "Mainland Southeast Asian",
         "script_direction": "LTR",

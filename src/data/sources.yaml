@@ -39,7 +39,7 @@ abdullahi2011:
   date: "2011"
   publisher: Fahimta Publishing Company
   location: "Katsina, Nigeria"
-  keywords: [script-qa18]
+  keywords: [script-x-hausa-tafi]
   annotation: "This book is written by the creator of the Tafi script. It describes his reason for inventing the script and the process he went through to do so, and provides a detailed explanation of how the script works."
 abdullahi2016-ss:
   entrytype: online
@@ -49,7 +49,7 @@ abdullahi2016-ss:
   date: "2016-04-15"
   organization: MUSADAB
   sortname: Abdullahi
-  keywords: [script-qa18, lang-hau, lang-ibo, lang-yor]
+  keywords: [script-x-hausa-tafi, lang-hau, lang-ibo, lang-yor]
   abstract: "Taken from [https://tafiwriting.com/]"
 adobe-open-source:
   entrytype: online
@@ -281,7 +281,7 @@ aviv2005:
   url: http://icarusfilms.com/new2005/brul.html
   date: "2005"
   publisher: Icarus Films
-  keywords: [script-qa00]
+  keywords: [script-x-bete]
   annotation: "Independent film-maker Nurith Aviv produced a 17-minute documentary about the Bété script in 2005, featuring interviews with Frédéric Bruly Bouabré, the script’s creator."
 aysomphone2007-ss:
   entrytype: online
@@ -333,7 +333,7 @@ babelstone2025-ss:
   organization: Wikimedia
   presort: 22
   sortname: BabelStone
-  keywords: [script-qaag]
+  keywords: [script-x-ersu-shaba]
   abstract: "Ersu astrological almanac for half of a month, with Ersu Shaba pictographs and explanations in Tibetan."
 back2015:
   entrytype: article
@@ -388,7 +388,7 @@ barber1995:
   publisher: Redwood Books
   location: "Wiltshire, UK"
   pages: 428-431
-  keywords: [script-qa15]
+  keywords: [script-x-hausa-raina-kama]
   annotation: "This book section tells the story of the Raina Kama writers' circle and the alphabet they used. It does not contain technical information about the Raina Kama alphabet; rather it provides brief historical information."
 batak-script-ss:
   entrytype: online
@@ -589,7 +589,7 @@ bouabre:
   title: Frédéric Bruly Bouabré at the CAAC
   url: http://www.caacart.com/pigozzi-artist.php?i=Bruly-Bouabre-Frederic&m=14
   urldate: "2011-11-04"
-  keywords: [script-qa00]
+  keywords: [script-x-bete]
   annotation: "The Contemporary African Art Collection (CAAC), based in Geneva, is a private collection created by Italian business man, Jean Pigozzi. The collection contains 122 pages of Frédéric Bruly Bouabré’s original drawings which led to the creation of the Bété script in 1956."
 boyd2009:
   entrytype: misc
@@ -913,7 +913,7 @@ chola:
   title: "Chola at the Government Museum, Chennai"
   url: http://www.chennaimuseum.org/draft/gallery/01/04/inscrip2.htm
   urldate: "2011-11-08"
-  keywords: [script-qa32]
+  keywords: [script-x-chola]
   annotation: "The Government Museum in Chennai has a sample inscription in the Chola script, which is available to view online by clicking the link below."
 chong:
   entrytype: online
@@ -1029,7 +1029,7 @@ cohen1977:
   date: "1977"
   publisher: De Gruyter Mouton
   location: The Hague
-  keywords: [script-qaah, lang-isr]
+  keywords: [script-x-eshkol-wachman, lang-isr]
   annotation: "Employing the Eshkol-Wachman Movement Notation System in a dictionary of Israeli Sign Language."
 compbell1977:
   entrytype: inbook
@@ -1102,7 +1102,7 @@ coorgi-cox-ss:
   organization: Wikimedia
   presort: 22
   sortname: Udelida
-  keywords: [script-qa68]
+  keywords: [script-x-coorgi-cox]
   abstract: "The characters of the Coorgi-Cox script with corresponding Latin script characters."
 coretext:
   entrytype: online
@@ -1432,7 +1432,7 @@ dalby1968:
   date: "1968"
   pages: 156-197
   volume: "IX"
-  keywords: [script-afak, script-bass, script-vaii, script-mend, script-loma, script-kpel, script-bamu, script-qabh, script-qa00]
+  keywords: [script-afak, script-bass, script-vaii, script-mend, script-loma, script-kpel, script-bamu, script-x-bagam, script-x-bete]
   annotation: "This paper discusses the sources of inspiration and design of the Vai, Mende, Loma, Kpelle, Bamum, Bagam, Bete and Djuka syllabaries, and the Bassa and Obɛri Ɔkaimɛ alphabets."
 dalby1969:
   entrytype: article
@@ -1443,7 +1443,7 @@ dalby1969:
   date: "1969"
   pages: 161-181
   volume: "X"
-  keywords: [script-gara, script-nkoo, script-qa02, script-qa01]
+  keywords: [script-gara, script-nkoo, script-x-fula-ba, script-x-fula-dita]
   annotation: "This is the third article David Dalby wrote on the indigenous scripts of West Africa. A sixth script (Gola) is mentioned as a postscript to the article. No samples are included and it seems to be mentioned in hopes that someone would provide the author with further information."
 daniels1996aramaic:
   entrytype: inbook
@@ -1820,7 +1820,7 @@ eshkol1971:
   date: "1971"
   publisher: Movement Notation Society
   location: Tel Aviv
-  keywords: [script-qaah, lang-isr]
+  keywords: [script-x-eshkol-wachman, lang-isr]
   annotation: "Description of the Eshkol-Wachman movement notation for use with Israeli Sign Language (ISL)."
 eslami2013:
   entrytype: online
@@ -2139,7 +2139,7 @@ furniss:
   author: Graham Furniss
   sortname: Furniss
   publisher: "School of Oriental and African Studies, University of London"
-  keywords: [script-qa15]
+  keywords: [script-x-hausa-raina-kama]
   annotation: "This paper includes a description of the history of the Nigerian writers' circle Raina Kama which created the script of the same name. It also includes samples of the script, although these are small and somewhat indistinct when the document is viewed on-screen.(CR)(CR)Clicking the link below will download a PDF of this document from the Hausa literature database at SOAS."
 fynn:
   entrytype: online
@@ -2216,7 +2216,7 @@ galtier1987:
   pages: 255-266
   volume: "57"
   number: "1"
-  keywords: [script-qa10]
+  keywords: [script-x-masaba]
   annotation: "This article (in French) outlines the history of indigenous African writing systems, in particular the Masaba script, and includes a Masaba character chart. The features and behaviour of the Masaba script are also discussed."
 gandhiji-hut-ss:
   entrytype: online
@@ -2528,7 +2528,7 @@ greenfield2003:
   publisher: The John Carter Brown Library
   location: "Providence, RI"
   pages: 189-214
-  keywords: [script-qabg]
+  keywords: [script-x-micmac-hieroglyphs]
 gregersen1977a:
   entrytype: book
   title: "Language in Africa: an introductory survey"
@@ -2650,7 +2650,7 @@ hamnosys:
   organization: Academy of Sciences in Hamburg
   url: https://www.sign-lang.uni-hamburg.de/dgs-korpus/files/inhalt_pdf/HamNoSys_2018.pdf
   urldate: "2023-08-03"
-  keywords: [script-qabn]
+  keywords: [script-x-hamburg-notation-system]
   annotation: "Quite comprehensive HamNoSys documentation, describing the features of the script and how each element of signed language is represented."
 hannas1997:
   entrytype: inbook
@@ -2801,7 +2801,7 @@ hewson1988:
   date: "1988"
   pages: 55-61
   volume: "47"
-  keywords: [script-qabg]
+  keywords: [script-x-micmac-hieroglyphs]
 hieratic-edwin-smith-ss:
   entrytype: online
   title: Edwin Smith Papyrus in Egyptian Hieratic Script
@@ -2843,7 +2843,7 @@ hoernle1915:
   pages: 487-493
   volume: "2"
   number: "2"
-  keywords: [script-qa40]
+  keywords: [script-x-khotanese]
   annotation: "This article focuses on the positioning of the diacritical mark indicating the short u in the Khotanese script, which made it almost indistinguishable from the long a."
 holisky1996:
   entrytype: inbook
@@ -2867,7 +2867,7 @@ hongkai2009:
   pages: 159-186
   volume: "1"
   number: "1"
-  keywords: [script-qaag]
+  keywords: [script-x-ersu-shaba]
   annotation: "This is an English translation of a Chinese paper written in 1982 by Hongkai Sun. It was translated in 2008 and published in the Asian Highlands Perspectives journal. The article provides an overview and analysis of some of the features of the Ersu Shaba Pictographic Writing System. The view held by some linguists that the pictographs are simply a series of drawings, rather than a writing system, is contested and reasons given for its contestation. Finally, two sample texts in the script are analysed and translated."
 hooley1978:
   entrytype: book
@@ -2890,7 +2890,7 @@ hopkins2008:
   pages: 75-89
   volume: "2008"
   number: "192"
-  keywords: [script-sgnw, script-qaaq]
+  keywords: [script-sgnw, script-x-stokoe-notation]
   abstract: "This article introduces the reader to the sociolinguistic issues surrounding the adoption of a writing system for sign languages. Initially, some background on sign language and Deaf culture is presented, followed by a discussion of several alternatives for writing sign languages and how these alternatives have been used and/or adopted. Sign languages in most parts of the world compete with spoken languages (languages that have established written traditions), resulting in diglossia. Though many scholars who work with the deaf community have tried to develop ways to write sign language(s), many Deaf do not feel the need for a writing system, either because they use video media or because they see writing as best done in the dominant language in their diglossic situation."
   annotation: "A discussion of various sign language writing systems and notations."
 hosken2008:
@@ -3326,7 +3326,7 @@ jackson2025-ss:
   organization: Wikimedia
   presort: 22
   sortname: Jackson
-  keywords: [script-qa83]
+  keywords: [script-x-iban]
   abstract: "Iban alphabet chart"
 jain2003:
   entrytype: inbook
@@ -3368,7 +3368,7 @@ jayaprakash:
   organization: Badagas of the Blue Mountains
   url: https://badaga.co/language/badaga-script/
   urldate: "2018-10-05"
-  keywords: [script-qabq, lang-bfq]
+  keywords: [script-x-badugu, lang-bfq]
   annotation: "A webpage containing details of several scripts which have been created to write the Badaga language, including the script devised by Kadasoley Yogesh."
 jayavara2009-ss:
   entrytype: online
@@ -3399,7 +3399,7 @@ kaida-script-ss:
   organization: Wikimedia
   presort: 22
   sortname: Metisauvergnat
-  keywords: [script-qa80]
+  keywords: [script-x-kaida]
   abstract: "Kaidā glyphs (カイダー字, Kaidā ji) are a set of pictograms once used in the Yaeyama Islands of southwestern Japan. The word kaidā was taken from Yonaguni, and most studies on the pictographs focused on Yonaguni Island. However, there is evidence for their use in Yaeyama's other islands, most notably on Taketomi Island.[1] They were used primarily for tax notices, thus were closely associated with the poll tax imposed on Yaeyama by Ryūkyū on Okinawa Island, which was in turn dominated by Satsuma Domain on Southern Kyushu."
 kandhadai2010:
   entrytype: article
@@ -3465,7 +3465,7 @@ kauder1866:
   sortname: Kauder
   url: http://www.archive.org/details/cihm_45436
   date: "1866"
-  keywords: [script-qabg]
+  keywords: [script-x-micmac-hieroglyphs]
   annotation: "This is an online microfiche copy of a Micmac prayer book from 1866. It is available to download in PDF format from the link below."
 kaur2010-ss:
   entrytype: online
@@ -3553,7 +3553,7 @@ khotanese-manuscript-ss:
   date: "2024-01-08"
   organization: Wikipedia
   presort: 22
-  keywords: [script-qa40, lang-kho]
+  keywords: [script-x-khotanese, lang-kho]
   abstract: "Khotanese manuscript with a poem written by the Khotanese thanking their Tibetan conquerors for 'guarding this land of Khotan'.<br />(CR)This file has been provided by the International Dunhuang Project from its digital collections, from original file BLE4_IOLKHOT50_4R1_1.<br />(CR)Catalogue entry: IOL Khot 50(4)"
 khudawadi-script-ss:
   entrytype: online
@@ -3697,7 +3697,7 @@ landa-script-ss:
   organization: Wikimedia
   presort: 22
   sortname: Trini1988
-  keywords: [script-qaaj]
+  keywords: [script-x-landa]
   abstract: "Landa Script, previously used in Punjab and Sindh."
 langtags:
   entrytype: online
@@ -3736,7 +3736,7 @@ lauder1921:
   sortname: Lauder
   url: http://www.archive.org/details/manueldeprires00kaud
   date: "1921"
-  keywords: [script-qabg]
+  keywords: [script-x-micmac-hieroglyphs]
   annotation: "This is an online copy of a Micmac Prayer book, reprinted in 1921. It is available for download from the link below."
 ldml:
   entrytype: online
@@ -3833,7 +3833,7 @@ lewis1958:
   pages: 134-156
   volume: "21"
   number: "1"
-  keywords: [script-qa85, lang-som]
+  keywords: [script-x-borama, lang-som]
   annotation: "This article discusses an orthography invented nearly 80 years ago by a well-known Gadabuursi sheikh. This is likely to be the first description of the script in literature."
 lexilogos-ss:
   entrytype: online
@@ -3994,7 +3994,7 @@ mafundikwa2004bambara:
   publisher: Mark Batty
   location: New York
   pages: 74-76
-  keywords: [script-qa10]
+  keywords: [script-x-masaba]
   annotation: "This chapter of Saki Mafundikwa's book briefly describes the Masaba syllabary and includes the character repertoire."
 mafundikwa2004bassa:
   entrytype: inbook
@@ -4017,7 +4017,7 @@ mafundikwa2004fula:
   publisher: Mark Batty
   location: New York
   pages: "132"
-  keywords: [script-qa02]
+  keywords: [script-x-fula-ba]
   annotation: "A chart showing the characters used to write the Fula Ba alphabet is provided in Saki Mafundikwa's book Afrikan Alphabets."
 mafundikwa2004fuladita:
   entrytype: inbook
@@ -4029,7 +4029,7 @@ mafundikwa2004fuladita:
   publisher: Mark Batty
   location: New York
   pages: "133"
-  keywords: [script-qa01]
+  keywords: [script-x-fula-dita]
   annotation: "Saki Mafundikwa's book African Alphabets contains a chart showing the characters used for writing the Fula Dita alphabet."
 mafundikwa2004mende:
   entrytype: inbook
@@ -4149,7 +4149,7 @@ martin2000:
   url: http://www.signwriting.org/archive/docs1/sw0032-Stokoe-Sutton.pdf
   date: "2000"
   publisher: Western Washington University
-  keywords: [script-qaaq, script-sgnw]
+  keywords: [script-x-stokoe-notation, script-sgnw]
   annotation: "A comparison of Stokoe Notation and Sutton SignWriting using concepts from linguistics. The discussion covers the creation and development of both systems, as well as a description of their structural features and a discussion of each one's suitability for purpose."
 masaba-syllabary-ss:
   entrytype: online
@@ -4158,7 +4158,7 @@ masaba-syllabary-ss:
   date: "2025-11-10"
   organization: Wikimedia
   presort: 22
-  keywords: [script-qa10]
+  keywords: [script-x-masaba]
 massaquoi1911:
   entrytype: article
   title: The Vai people and their syllabic writing
@@ -4473,7 +4473,7 @@ movement-notation:
   title: "Movement & Notation"
   url: http://movement-notation.org
   urldate: "2013-03-14"
-  keywords: [script-qaah]
+  keywords: [script-x-eshkol-wachman]
   annotation: "An introduction to the Eshkol-Wachman system of movement notation."
 moz-variable-fonts:
   entrytype: online
@@ -5040,7 +5040,7 @@ newkirk1987:
   date: "1987"
   publisher: "Salk Institute for Biological Studies, Emerson & Stern Associates"
   location: San Diego
-  keywords: [script-qaao]
+  keywords: [script-x-signfont]
   annotation: "An explanation of the workings of SignFont Notation."
 nichols1996:
   entrytype: inbook
@@ -5101,7 +5101,7 @@ numidian-ss:
   date: "2025-10-27"
   organization: Wikimedia
   presort: 22
-  keywords: [script-phnx, script-qa45, lang-nxm]
+  keywords: [script-phnx, script-x-numidian, lang-nxm]
   abstract: "The first published sketch of the bilingual Ateban Mausoleum inscription of Dougga, Tunisia (Jean Emile Humbert).<br />(CR)Left side: Punic language, Phoenician script. Right side: Numidian language, Numidian script."
 obolensky1965:
   entrytype: book
@@ -5875,7 +5875,7 @@ omni-míkmaq:
   presort: 30
   url: http://www.omniglot.com/writing/mikmaq.htm
   urldate: "2010-07-08"
-  keywords: [script-qabg]
+  keywords: [script-x-micmac-hieroglyphs]
 omni-modi:
   entrytype: online
   title: Modi alphabet
@@ -6257,7 +6257,7 @@ onceinawhile2026-ss:
   organization: Wikimedia
   presort: 22
   sortname: Onceinawhile
-  keywords: [script-qa29]
+  keywords: [script-x-byblos]
   abstract: "The tablet is on display in the National Museum of Beirut."
 opentype:
   entrytype: online
@@ -6315,7 +6315,7 @@ osborn2004:
   sortname: Osborn
   url: http://www.bisharat.net/Demos/Hausa_alphabet.htm
   date: "2004-02-10"
-  keywords: [script-qa16]
+  keywords: [script-x-hausa-salifou]
 osborn2005:
   entrytype: online
   title: Hausa alphabet from a 1993 publication
@@ -6323,7 +6323,7 @@ osborn2005:
   sortname: Osborn
   url: http://www.bisharat.net/Demos/Hausa_alpha_2.htm
   date: "2005-04-19"
-  keywords: [script-qa15]
+  keywords: [script-x-hausa-raina-kama]
   annotation: "This page contains a character chart showing the letters of the alphabet used by the Raina Kama writers' circle."
 osmanya-alphabet-ss:
   entrytype: online
@@ -6778,7 +6778,7 @@ rovenchak2009:
   date: "2009"
   volume: "2009"
   number: "0009-10-19125"
-  keywords: [script-bamu, script-qabh]
+  keywords: [script-bamu, script-x-bagam]
   abstract: "The Bagam (Eghap) script from the Grassfields region of Cameroon is briefly analyzed. An attempt to identify the phonetic values of some Bagam characters is made and some similarity with the Bamum script is reported."
   annotation: "Paper analyzing the Bagam script."
 ryazanov2023-ss:
@@ -7042,7 +7042,7 @@ signwriting-transcription-systems:
   organization: SignWriting
   url: http://www.signwriting.org/forums/linguistics/ling001.html
   urldate: "2023-08-07"
-  keywords: [script-qaaq, script-qabn, script-sgnw, lang-ase, conversion, transcription]
+  keywords: [script-x-stokoe-notation, script-x-hamburg-notation-system, script-sgnw, lang-ase, conversion, transcription]
   annotation: "This page presents a small selection of words as represented in SignWriting, Stokoe Notation, and HamNoSys for the purpose of comparison. A photograph of a person signing each word in American Sign Language is also provided."
 sil-arab-patterns:
   entrytype: online
@@ -7432,7 +7432,7 @@ tautintanes2020-ss:
   organization: Wikimedia
   presort: 22
   sortname: Tautintanes
-  keywords: [script-qa37]
+  keywords: [script-x-no-palaeohispanic, script-x-so-palaeohispanic]
   abstract: "Inscription on lead plaque found at La Bastida de les Alcuses in Valencia, Spain."
 teckit:
   entrytype: online
@@ -7539,7 +7539,7 @@ toba2005:
   url: http://unesdoc.unesco.org/images/0013/001399/139952m.pdf
   date: "2005"
   publisher: UNESCO
-  keywords: [script-qabl, script-brah]
+  keywords: [script-x-magar-akkha, script-brah]
   annotation: "This paper discusses the languages of Nepal in the context of the country's geographic, socio-linguistic and multi-cultural situation. It was written as a follow up to the UNESCO Universal Declaration on Cultural Diversity and to the proclamation of 21 May as the World Day for Cultural Diversity for Dialogue and Development in 2001."
 todhri-alphabet-ss:
   entrytype: online
@@ -7639,7 +7639,7 @@ tuchscherer1999:
   date: "1999"
   pages: 55-77
   volume: "98"
-  keywords: [script-qabh]
+  keywords: [script-x-bagam]
 tuchscherer2007:
   entrytype: inbook
   title: "Recording, Communicating and Making Visible: A history of writing and systems of graphic symbolism in Africa"
@@ -7650,7 +7650,7 @@ tuchscherer2007:
   date: "2007"
   publisher: Five Continents Editions
   pages: 37-53
-  keywords: [script-qabh, script-nkoo, script-bass, script-vaii, script-mend, script-bamu]
+  keywords: [script-x-bagam, script-nkoo, script-bass, script-vaii, script-mend, script-bamu]
   annotation: "This chapter is part of the catalogue that accompanied the 2007 exhibition, Inscribing Meaning, at the Smithsonian Institute, which explored the relationships between African art, graphic systems and the written word. This chapter discusses graphic symbolism in Africa, and provides a historical overview of the spread of written communication in the context of African religion, art and major historical events in the region. A number of indigenous African writing systems are discussed in some detail."
 tulu-symbols-ss:
   entrytype: online
@@ -7672,7 +7672,7 @@ turkestani-brahmi-ss:
   organization: Wikimedia
   presort: 22
   sortname: Welch
-  keywords: [script-qa53, lang-san]
+  keywords: [script-x-turkestani, lang-san]
   abstract: "This is a part of nine Weber manuscripts discovered in the 19th-century in northwest China, analyzed and published in 1893 by August Friedrich Rudolf Hoernle. Later tracing suggest that the manuscripts were discovered in Kucha, in the region where the Bower manuscripts were discovered.<br />(CR)The manuscripts are now preserved at the Bodleian Library, Oxford University (MS 1091, ABCIM 238).(CR)(CR)The 9 manuscripts are historically significant as they are among the oldest known paper manuscripts of the Indian subcontinent literature. Of the nine, four manuscripts have been traced to be on paper made in Nepal, the other five on paper made in Central Asia.(CR)(CR)The first 8 of the 9 manuscripts are in Sanskrit language, the last is a mix of Pali and Sanskrit language with numerous grammatical errors.(CR)(CR)The Weber manuscripts are a collection of different texts written in different scripts. Four are in early northwest Gupta script, others in Turkestani Brahmi (formerly called Central Asian Nagari script). Both of these scripts became extinct long ago, because they evolved into other regional writing scripts such as Sarda, Siddha, Devanagari, Nandinagari and others."
 twardoch-kreska:
   entrytype: online
@@ -7988,7 +7988,7 @@ unseth2008:
   pages: 357-371
   volume: "36"
   number: "3"
-  keywords: [script-perm, script-lisu, script-cans, script-qabg, script-cyrl, script-ethi, script-plrd]
+  keywords: [script-perm, script-lisu, script-cans, script-x-micmac-hieroglyphs, script-cyrl, script-ethi, script-plrd]
   abstract: "Throughout history and within a number of language communities, orthographies have enabled the initial transcription of spoken languages. This paper examines the few cases in which a person from outside a language community devised a script for a previously unwritten language. In all of the cases studied, the outsiders who devised scripts for the language communities were Christian missionaries. Among the eight cases are several common factors, and in all the cases, devising something unique for the community (rather than introducing something from the missionaries' own culture) was part of a successful strategy for church planting within these groups."
   annotation: "A journal article on several scripts that were initially devised by Christian Missionaries."
 utn:
@@ -8536,7 +8536,7 @@ welch2025-ss:
   organization: Wikimedia
   presort: 22
   sortname: Welch
-  keywords: [script-qa31]
+  keywords: [script-x-box-headed]
   abstract: "The Aihole inscription, also known as the Aihole prashasti, is a nineteen line Sanskrit inscription at Meguti Jain temple in Aihole, Karnataka, India. The inscription has 19 lines of Sanskrit in old Chalukyan script. It is on a stone set as a part of the east outer wall of the Meguti temple, with the text covering about 4.75 feet by 2 feet surface. The letters are between 0.5 and 0.62 inches in height."
 wiki-abkhaz:
   entrytype: online
@@ -8627,7 +8627,7 @@ wiki-aztec:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Aztec_writing
   date: "2011-11-07"
-  keywords: [script-qa26]
+  keywords: [script-x-aztec-nahuatl]
   annotation: "This is the Wikipedia page for Aztec writing. It describes the structure of the script and how it was used."
 wiki-babylonian-numerals-ss:
   entrytype: online
@@ -8644,7 +8644,7 @@ wiki-balti:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Balti_language#Script
   date: "2010-07-02"
-  keywords: [script-qaab]
+  keywords: [script-x-balti-a]
 wiki-bashkir:
   entrytype: online
   title: "Bashkir Language - Alphabet and Dialects"
@@ -8676,7 +8676,7 @@ wiki-byblos:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Byblos_syllabary
   date: "2011-11-10"
-  keywords: [script-qa29]
+  keywords: [script-x-byblos]
   annotation: "This article describes the Byblos script, with a focus on particular Byblos inscriptions and their attempted decipherment."
 wiki-capital-eszett:
   entrytype: online
@@ -8815,7 +8815,7 @@ wiki-eshkol-wachman:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Eshkol-Wachman_Movement_Notation
   date: "2010-10-05"
-  keywords: [script-qaah]
+  keywords: [script-x-eshkol-wachman]
 wiki-eszett:
   entrytype: online
   title: Eszett
@@ -8922,7 +8922,7 @@ wiki-iberian:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Iberian_scripts
   date: "2011-11-08"
-  keywords: [script-qa37]
+  keywords: [script-x-no-palaeohispanic, script-x-so-palaeohispanic]
   annotation: "This is the Wikipedia article about the Iberian scripts. It covers the main variants of the scripts, and provides brief details of their history."
 wiki-influence-cherokee-vai-ss:
   entrytype: online
@@ -9106,7 +9106,7 @@ wiki-mikmaq:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Mi%27kmaq_hieroglyphic_writing
   date: "2010-07-08"
-  keywords: [script-qabg]
+  keywords: [script-x-micmac-hieroglyphs]
 wiki-moldovan:
   entrytype: online
   title: Moldovan Cyrillic Alphabet
@@ -9262,7 +9262,7 @@ wiki-sawndip:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Sawndip
   date: "2011-11-10"
-  keywords: [script-qa52]
+  keywords: [script-x-zhuang-square]
   annotation: "This page describes the history and use of the Zhuang Square script (also called Sawndip) and provides information about the script's features and behaviour."
 wiki-script-adlm:
   entrytype: online
@@ -11102,7 +11102,7 @@ wiki-stokoe:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Stokoe_notation
   date: "2010-09-07"
-  keywords: [script-qaaq]
+  keywords: [script-x-stokoe-notation]
 wiki-tabassaran:
   entrytype: online
   title: "Tabassaran Language - Writing System"
@@ -11235,7 +11235,7 @@ wiki-zhuang-square-ss:
   urldate: "2026-04-17"
   organization: Wikipedia
   presort: 22
-  keywords: [script-qa52]
+  keywords: [script-x-zhuang-square]
   abstract: "This is article 1 of the Universal Declaration of Human Rights (UDHR) in the Zhuang Square script."
 wikibooks-cherokee:
   entrytype: online
@@ -11449,7 +11449,7 @@ zou-script:
   title: The Zou Script
   url: http://zoculsin.blogspot.com/2010/10/zou-script.html
   date: "2010-03-07"
-  keywords: [script-qa23]
+  keywords: [script-x-zou]
   annotation: "Zo Cultural-cum-Literature Society (ZOCULSIN) is a non-profit voluntary organisation for the preservation and development of the Zo language. This is an article on their blog about the Zou script."
 zubrinic:
   entrytype: online
