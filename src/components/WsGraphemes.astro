@@ -66,9 +66,23 @@ function phonemeSlug(key: string): string {
 	return result;
 }
 
+function isDblArt(key: string): boolean {
+	return key.indexOf("dart") == 0;
+}
+
+function dblArtKey(key: string, i: integer): string {
+	const kmod = key.replace("dart-", "");
+	const keys = kmod.split("+");
+	let result = keys[i];
+	//console.log(key + '[' + i + '] = ' + result);
+	return result;
+}
+
 function seqLength(key: string): string {
 	if ( key.substring(0, 4) == "diph") {
-		return 0;
+		return 1;
+	} else if ( isDblArt(key) ) {
+		return 1;
 	} else {
 		return key.split("+").length;
 	}
@@ -133,7 +147,16 @@ let pgCount = wsPhonograms ? wsPhonograms.length : 0;
 					<a href={`/scrlang/phonemes/${(phonemeSlug(seqKey(wsp.phoneme,1)))}`} title={phonemeLabel(seqKey(wsp.phoneme,1))}>/{phonemeSymbol(seqKey(wsp.phoneme,1))}/</a>
 					</span>
 					:
-					<a href={`/scrlang/phonemes/${(phonemeSlug(wsp.phoneme))}`} title={phonemeLabel(wsp.phoneme)}>/{phonemeSymbol(wsp.phoneme)}/</a>
+					<span>
+						{isDblArt(wsp.phoneme) ? 
+							<span>/{phonemeSymbol(wsp.phoneme)}/&nbsp;=<br/>
+							<a href={`/scrlang/phonemes/${(phonemeSlug(dblArtKey(wsp.phoneme,0)))}#dart`} title={phonemeLabel(dblArtKey(wsp.phoneme,0))}>/{phonemeSymbol(dblArtKey(wsp.phoneme,0))}/</a>
+							&nbsp;&nbsp;&#x0361;&nbsp;
+							<a href={`/scrlang/phonemes/${(phonemeSlug(dblArtKey(wsp.phoneme,1)))}#dart`} title={phonemeLabel(dblArtKey(wsp.phoneme,1))}>/{phonemeSymbol(dblArtKey(wsp.phoneme,1))}/</a>
+							</span> 
+							:
+							<a href={`/scrlang/phonemes/${(phonemeSlug(wsp.phoneme))}`} title={phonemeLabel(wsp.phoneme)}>/{phonemeSymbol(wsp.phoneme)}/</a>	}
+					</span>
 				}
 				</td>
 				<td>{wsp.status}</td>
