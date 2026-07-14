@@ -66,8 +66,12 @@ function phonemeSlug(key: string): string {
 	return result;
 }
 
+function isTone(key: string): boolean {
+	return (key.indexOf("tone") === 0);
+}
+
 function isDblArt(key: string): boolean {
-	return key.indexOf("dart") == 0;
+	return key.indexOf("dart") === 0;
 }
 
 function dblArtKey(key: string, i: integer): string {
@@ -142,17 +146,21 @@ let pgCount = wsPhonograms ? wsPhonograms.length : 0;
 				<td>
 				{seqLength(wsp.phoneme) > 1 ? 
 					<span>/{seqSymbol(wsp.phoneme, 0)}{seqSymbol(wsp.phoneme, 1)}/ =<br/> 
-					<a href={`/scrlang/phonemes/${(phonemeSlug(seqKey(wsp.phoneme,0)))}`} title={phonemeLabel(seqKey(wsp.phoneme,0))}>/{phonemeSymbol(seqKey(wsp.phoneme,0))}/</a>
-					+
-					<a href={`/scrlang/phonemes/${(phonemeSlug(seqKey(wsp.phoneme,1)))}`} title={phonemeLabel(seqKey(wsp.phoneme,1))}>/{phonemeSymbol(seqKey(wsp.phoneme,1))}/</a>
+						<a href={`/scrlang/phonemes/${(phonemeSlug(seqKey(wsp.phoneme,0)))}`} title={phonemeLabel(seqKey(wsp.phoneme,0))}>/{phonemeSymbol(seqKey(wsp.phoneme,0))}/</a>
+						+
+						{isTone(seqKey(wsp.phoneme,1)) ?
+							<span>/{phonemeSymbol(seqKey(wsp.phoneme,1))}/</span>
+							:
+							<a href={`/scrlang/phonemes/${(phonemeSlug(seqKey(wsp.phoneme,1)))}`} title={phonemeLabel(seqKey(wsp.phoneme,1))}>/{phonemeSymbol(seqKey(wsp.phoneme,1))}/</a>
+						}
 					</span>
 					:
 					<span>
 						{isDblArt(wsp.phoneme) ? 
 							<span>/{phonemeSymbol(wsp.phoneme)}/&nbsp;=<br/>
-							<a href={`/scrlang/phonemes/${(phonemeSlug(dblArtKey(wsp.phoneme,0)))}#dart`} title={phonemeLabel(dblArtKey(wsp.phoneme,0))}>/{phonemeSymbol(dblArtKey(wsp.phoneme,0))}/</a>
-							&nbsp;&nbsp;&#x0361;&nbsp;
-							<a href={`/scrlang/phonemes/${(phonemeSlug(dblArtKey(wsp.phoneme,1)))}#dart`} title={phonemeLabel(dblArtKey(wsp.phoneme,1))}>/{phonemeSymbol(dblArtKey(wsp.phoneme,1))}/</a>
+								<a href={`/scrlang/phonemes/${(phonemeSlug(dblArtKey(wsp.phoneme,0)))}#dart`} title={phonemeLabel(dblArtKey(wsp.phoneme,0))}>/{phonemeSymbol(dblArtKey(wsp.phoneme,0))}/</a>
+								&nbsp;&nbsp;&#x0361;&nbsp;
+								<a href={`/scrlang/phonemes/${(phonemeSlug(dblArtKey(wsp.phoneme,1)))}#dart`} title={phonemeLabel(dblArtKey(wsp.phoneme,1))}>/{phonemeSymbol(dblArtKey(wsp.phoneme,1))}/</a>
 							</span> 
 							:
 							<a href={`/scrlang/phonemes/${(phonemeSlug(wsp.phoneme))}`} title={phonemeLabel(wsp.phoneme)}>/{phonemeSymbol(wsp.phoneme)}/</a>	}
