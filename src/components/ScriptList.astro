@@ -4,6 +4,13 @@
 import { getCollection } from 'astro:content';
 const scrDocs = await getCollection('scriptdocs');
 
+const { nonunicode = "False"} = Astro.props;
+
+function isNonUnicode(key: string): boolean {
+	return (key.substring(0,2) == "x-");
+}
+
+
 let sortedDocs = scrDocs.sort((a, b) => (a.data.scrpropsortname ?? '').localeCompare(b.data.scrpropsortname ?? ''));
 
 ---
@@ -11,6 +18,9 @@ let sortedDocs = scrDocs.sort((a, b) => (a.data.scrpropsortname ?? '').localeCom
 <div>
 	<table>
 	<thead>
+	{nonunicode == "True" ?
+		<tr>Name</th>
+		:
 		<tr>
 			<th>ISO</th>
 			<th>Name</th>
@@ -19,10 +29,21 @@ let sortedDocs = scrDocs.sort((a, b) => (a.data.scrpropsortname ?? '').localeCom
 			<th>Direction</th>
 			<th>Status</th>
 		</tr>
+	}
 	</thead>
 	<tbody>
 		{sortedDocs.map(scriptArt => {
-			if ((scriptArt.data.scrpropcode ?? '').charAt(0) != "Q") {
+			if (isNonUnicode(scriptArt.data.scrpropcode ?? '')) {
+				{if (nonunicode == "True") {
+					return  (
+						<tr>
+							<td><a href={`/scrlang/scripts/${(scriptArt.data.scrpropcode ?? '').toLowerCase()}`}>{scriptArt.data.scrpropname}</a></td>
+						</tr>
+					);
+				}}
+				return null;
+			} else {
+				{if (nonunicode == "True") { return null; }}
 				return (
 					<tr>
 						<td>{scriptArt.data.scrpropcode}</td>
