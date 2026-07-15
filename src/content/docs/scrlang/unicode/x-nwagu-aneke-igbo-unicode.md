@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-09-29
 ---
 
-The Nwagu Aneke Igbo script is not yet in Unicode. It is not yet in the Roadmap for the Unicode Standard. The [Script Encoding Initiative](https://sei.berkeley.edu/) includes this script in their list of “Scripts Not Yet Encoded". Contributions here may support their efforts.
+The Nwagu Aneke Igbo script is not yet in Unicode. It is not yet in the Roadmap for the Unicode Standard. The [Script Encoding Initiative](https://sei.berkeley.edu/) includes this script in their list of “Scripts to Encode”. Contributions here may support their efforts.
 
 Documents that mention the script have been submitted to the Unicode Technical Committee:
 - 2022-03-03 Update on implementation status of African scripts — Charles L. Riley ([L2/22-073](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-073))
