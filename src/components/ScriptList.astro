@@ -10,6 +10,10 @@ function isNonUnicode(key: string): boolean {
 	return (key.substring(0,2) == "x-");
 }
 
+function isSpecialZCode(key: string): boolean {
+	const c = key.substring(0,4);
+	return (c == "Zxxx" || c == "Zyyy" || c == "Zzzz" || c == "Zinh");
+}
 
 let sortedDocs = scrDocs.sort((a, b) => (a.data.scrpropsortname ?? '').localeCompare(b.data.scrpropsortname ?? ''));
 
@@ -43,6 +47,7 @@ let sortedDocs = scrDocs.sort((a, b) => (a.data.scrpropsortname ?? '').localeCom
 				}}
 				return null;
 			} else {
+				{if (isSpecialZCode(scriptArt.data.scrpropcode ?? '')) { return null; }}
 				{if (nonunicode == "True") { return null; }}
 				return (
 					<tr>
