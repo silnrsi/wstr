@@ -8,9 +8,9 @@ lastUpdated: 2025-09-17
 
 import ScriptList from '../../../components/ScriptList.astro';
 
-## Unicode scripts
+## ISO 15924 script codes
 
-The following scripts are encoded in Unicode and have been assigned official ISO codes.
+The following scripts are those that have been assigned official [ISO 15924][iso-15924] script codes. Not all of the scripts have been encoded in Unicode.
 
 <ScriptList nonunicode="False" />
 
@@ -26,7 +26,8 @@ The following scripts are encoded in Unicode and have been assigned official ISO
 
 ## Non-Unicode scripts
 
-The following scripts are those that are not included in the Unicode standard and do not have official ISO codes.
+The following scripts are those that have **not** been assigned official [ISO 15924][iso-15924] script codes. None of these scripts are encoded in Unicode.
 
 <ScriptList nonunicode="True" />
 
+[iso-15924]: https://www.unicode.org/iso15924
