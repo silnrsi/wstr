@@ -40,9 +40,14 @@ let sortedDocs = scrDocs.sort((a, b) => (a.data.scrpropsortname ?? '').localeCom
 			if (isNonUnicode(scriptArt.data.scrpropcode ?? '')) {
 				{if (nonunicode == "True") {
 					return  (
-						<tr>
-							<td><a href={`/scrlang/scripts/${(scriptArt.data.scrpropcode ?? '').toLowerCase()}`}>{scriptArt.data.scrpropname}</a></td>
-						</tr>
+					<tr>
+						<td>{scriptArt.data.scrpropcode}</td>
+						<td><a href={`/scrlang/scripts/${(scriptArt.data.scrpropcode ?? '').toLowerCase()}`}>{scriptArt.data.scrpropname}</a></td>
+						<td>{scriptArt.data.scrpropregion}</td>
+						<td>{scriptArt.data.scrproptype}</td>
+						<td>{scriptArt.data.scrpropdirection}</td>
+						<td>{scriptArt.data.scrpropstatus}</td>
+					</tr>
 					);
 				}}
 				return null;
