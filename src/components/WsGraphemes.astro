@@ -26,7 +26,7 @@ interface PhonemeItem {
 }
 
 const wsgData: Phonogram[] = wsgDataUntyped;
-const phonemeData: Phoneme[] = phonemeDataUntyped;
+const phonemeData: PhonemeItem[] = phonemeDataUntyped;
 
 function phonemeSymbol(key: string): string {
 	return phonemeData[key]?.symbol ?? "";
@@ -150,13 +150,13 @@ let wsPhonograms: Phonogram[] = allPhonograms.filter(pg => pg.ws === wsCode);
 	</thead>
 
 	<tbody>
-		{wsPhonograms.map((wsp) =>
+		{wsPhonograms.map((wsp: Phonogram) =>
 			<tr> 
 				<td>
-					&lt;{wsp.chars.map((ch) => <Character usv={ch} options="char" />)}&gt;
+					&lt;{wsp.chars.map((ch: string) => <Character usv={ch} options="char" />)}&gt;
 				</td>
 				<td>
-					{wsp.chars.map((ch) =>
+					{wsp.chars.map((ch: string) =>
 						<span>{ch} </span>
 					)}	
 				</td>
