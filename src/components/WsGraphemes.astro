@@ -5,11 +5,28 @@
 
 import Character from './Character.astro';
 
-import wsgData from '../data/ws-graphemes.json';
+import wsgDataUntyped from '../data/ws-graphemes.json';
 
-import phonemeData from '../data/phonemes.json';
+import phonemeDataUntyped from '../data/phonemes.json';
 
-//const pData = phonemeData;
+interface Phonogram {
+	ws: string;
+	chars: string[];
+	phoneme: string;
+	status: string;
+	example: string;
+	notes: string;
+}
+
+interface PhonemeItem {
+	symbol: string;
+	label: string;
+	sortkey: string;
+	slug: string;
+}
+
+const wsgData: Phonogram[] = wsgDataUntyped;
+const phonemeData: Phoneme[] = phonemeDataUntyped;
 
 function phonemeSymbol(key: string): string {
 	return phonemeData[key]?.symbol ?? "";
@@ -21,10 +38,10 @@ function phonemeLabel(key: string): string {
 
 function phonemeSlug(key: string): string {
 
-	let result = phonemeData[key]?.slug ?? key;
+	let result: string = phonemeData[key]?.slug ?? key;
 
-	const hpos = result.indexOf("#");
-	let anchor = "";
+	const hpos: number = result.indexOf("#");
+	let anchor: string = "";
 	if (hpos > -1) {
 		anchor = result.substring(hpos);
 		result = result.substring(0, hpos);
@@ -50,7 +67,7 @@ function phonemeSlug(key: string): string {
 
 	} else {   // consonant
 		// remove modification, eg, '-gemin'
-		let place = result.substring(0, 3);
+		let place: string = result.substring(0, 3);
 		if (place == "stp" || place == "aff" || place == "fri" || place == "tap") {
 			result = result.substring(0, 10);	// eg, stp-bil-vl
 		} else {
@@ -75,9 +92,9 @@ function isDblArt(key: string): boolean {
 }
 
 function dblArtKey(key: string, i: number): string {
-	const kmod = key.replace("dart-", "");
-	const keys = kmod.split("+");
-	let result = keys[i];
+	const kmod: string = key.replace("dart-", "");
+	const keys: string[] = kmod.split("+");
+	let result: string = keys[i];
 	//console.log(key + '[' + i + '] = ' + result);
 	return result;
 }
@@ -92,28 +109,28 @@ function seqLength(key: string): number {
 	}
 }
 
-function seqKey(key: string, i: integer): string {
-	const seqKeys = key.split("+");
-	let result = seqKeys[i];
+function seqKey(key: string, i: number): string {
+	const seqKeys: string[] = key.split("+");
+	let result: string = seqKeys[i];
 	//console.log(key + '[' + i + '] = ' + result);
 	return result;
 }
 
-function seqSymbol(key: string, i: integer): string {
-	const seqKeys = key.split("+");
+function seqSymbol(key: string, i: number): string {
+	const seqKeys: string[] = key.split("+");
 	return phonemeSymbol(seqKeys[i]);
 }
 
 const { wsCode } = Astro.props;
 
-const allPhonograms = wsgData["phonograms"];
-//const allCount = allPhonograms ? allPhonograms.length : 0;
+const allPhonograms: Phonogram[] = wsgData["phonograms"];
+//const allCount: number = allPhonograms ? allPhonograms.length : 0;
 
-//const intros = wsgData["intros"];
-//const intro = intros[wsCode];
+//const intros: string[] = wsgData["intros"];
+//const intro: string = intros[wsCode];
 
-let wsPhonograms = allPhonograms.filter(pg => pg.ws === wsCode);
-//let pgCount = wsPhonograms ? wsPhonograms.length : 0;
+let wsPhonograms: Phonogram[] = allPhonograms.filter(pg => pg.ws === wsCode);
+//let pgCount: number = wsPhonograms ? wsPhonograms.length : 0;
 
 //console.log('# phonograms = ' + pgCount);
 

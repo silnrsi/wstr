@@ -2,7 +2,7 @@
 // Phoneme component: display a table of graphemes and phonograms that represent a given phoneme.
 // Parameters:
 //     key:       phoneme key, eg. stp-bil-vd
-//     hidenone:  "true" | "false" - whether to display anything if the list is empty; default is false
+//     hidenone:  "true" | "false" - whether to display anything (ie, "None") if the list is empty; default is false
 //     seq:       "true" | "false" - match phoneme sequences that include the key
 //     dart:      "true" | "false" - match double-articulation phonemes that include the key
 
@@ -12,12 +12,28 @@ import wsgData from '../data/ws-graphemes.json';
 
 import phonemeData from '../data/phonemes.json';
 
+interface Phonogram {
+	ws: string;
+	chars: string[];
+	phoneme: string;
+	status: string;
+	example: string;
+	notes: string;
+}
+
+interface PhonemeItem {
+	symbol: string;
+	label: string;
+	sortkey: string;
+	slug: string;
+}
+
 function phonemeSymbol(pkey: string): string {
 	return phonemeData[pkey]?.symbol ?? "ERROR";
 }
 
 function wsName(wsKey: string): string {
-	let result = wsNames[wsKey] ?? "";
+	let result: string = wsNames[wsKey] ?? "";
 	//if (seq == 'true') {
 	//	result = "sequences including " + result;
 	//}
@@ -49,26 +65,27 @@ const { key, hidenone, seq, dart } = Astro.props;
 
 console.log("key = " + key);
 
-const phData = phonemeData[key];
-let phSymbol = "NONE";
-let phLabel = "INVALID";
+const phData: PhonemeItem[] = phonemeData[key];
+
+let phSymbol: string = "NONE";
+let phLabel: string = "INVALID";
 
 if (phData) {
 	phSymbol = phData["symbol"];
 	phLabel = phData["label"];
 }
 
-//const phLabel = phonemeData[key]["label"];
+//const phLabel: string = phonemeData[key]["label"];
 
 console.log("phSymbol = " + phSymbol);
 console.log("phLabel = " + phLabel);
 
-const allPhonograms = wsgData["phonograms"];
-//const allCount = allPhonograms ? allPhonograms.length : 0;
+const allPhonograms: Phonogram[] = wsgData["phonograms"];
+//const allCount: number = allPhonograms ? allPhonograms.length : 0;
 
-const wsNames = wsgData["names"];
+const wsNames: string[] = wsgData["names"];
 
-let keyPhonograms = [];
+let keyPhonograms: Phonograms[] = [];
 if (dart == "true") {
 	keyPhonograms  = allPhonograms.filter(pg => (isDblArt(pg.phoneme) && pg.phoneme.indexOf(key) > -1 && pg.phoneme != key));
 } else if (seq == "true") {
