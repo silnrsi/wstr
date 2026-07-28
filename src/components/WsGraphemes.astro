@@ -74,7 +74,7 @@ function isDblArt(key: string): boolean {
 	return key.indexOf("dart") === 0;
 }
 
-function dblArtKey(key: string, i: integer): string {
+function dblArtKey(key: string, i: number): string {
 	const kmod = key.replace("dart-", "");
 	const keys = kmod.split("+");
 	let result = keys[i];
@@ -82,7 +82,7 @@ function dblArtKey(key: string, i: integer): string {
 	return result;
 }
 
-function seqLength(key: string): string {
+function seqLength(key: string): number {
 	if ( key.substring(0, 4) == "diph") {
 		return 1;
 	} else if ( isDblArt(key) ) {
@@ -113,7 +113,7 @@ const allPhonograms = wsgData["phonograms"];
 //const intro = intros[wsCode];
 
 let wsPhonograms = allPhonograms.filter(pg => pg.ws === wsCode);
-let pgCount = wsPhonograms ? wsPhonograms.length : 0;
+//let pgCount = wsPhonograms ? wsPhonograms.length : 0;
 
 //console.log('# phonograms = ' + pgCount);
 

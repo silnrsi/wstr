@@ -32,14 +32,15 @@ function isSeq(key: string): boolean {
 	return (!isDblArt(key)) && (key.indexOf("+") > -1);
 }
 
-function seqKey(key: string, i: integer): string {
-	const seqKeys = key.split("+");
-	let result = seqKeys[i];
-	//console.log(key + '[' + i + '] = ' + result);
-	return result;
-}
+// not used:
+//function seqKey(key: string, i: number): string {
+//	const seqKeys = key.split("+");
+//	let result = seqKeys[i];
+//	//console.log(key + '[' + i + '] = ' + result);
+//	return result;
+//}
 
-function seqSymbol(key: string, i: integer): string {
+function seqSymbol(key: string, i: number): string {
 	const seqKeys = key.split("+");
 	return phonemeSymbol(seqKeys[i]);
 }
