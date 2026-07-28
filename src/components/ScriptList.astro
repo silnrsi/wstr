@@ -12,7 +12,7 @@ function isNonUnicode(key: string): boolean {
 
 function isSpecialZCode(key: string): boolean {
 	const c = key.substring(0,4);
-	return (c == "Zxxx" || c == "Zyyy" || c == "Zzzz" || c == "Zinh");
+	return (c == "Qaaa" || c == "Qabx" ||c == "Zxxx" || c == "Zyyy" || c == "Zzzz" || c == "Zinh" || c == "Zsye" || c == "Zsym" || c == "Zmth");
 }
 
 let sortedDocs = scrDocs.sort((a, b) => (a.data.scrpropsortname ?? '').localeCompare(b.data.scrpropsortname ?? ''));
