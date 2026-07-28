@@ -1,0 +1,139 @@
+---
+// Phoneme component: display a table of graphemes and phonograms that represent a given phoneme.
+// Parameters:
+//     key:       phoneme key, eg. stp-bil-vd
+//     hidenone:  "true" | "false" - whether to display anything if the list is empty; default is false
+//     seq:       "true" | "false" - match phoneme sequences that include the key
+//     dart:      "true" | "false" - match double-articulation phonemes that include the key
+
+import Character from './Character.astro';
+
+import wsgData from '../data/ws-graphemes.json';
+
+import phonemeData from '../data/phonemes.json';
+
+function phonemeSymbol(pkey: string): string {
+	return phonemeData[pkey]?.symbol ?? "ERROR";
+}
+
+function wsName(wsKey: string): string {
+	let result = wsNames[wsKey] ?? "";
+	//if (seq == 'true') {
+	//	result = "sequences including " + result;
+	//}
+	return result;
+}
+
+function isDblArt(key: string): boolean {
+	return key.indexOf("dart") == 0;
+}
+
+function isSeq(key: string): boolean {
+	return (!isDblArt(key)) && (key.indexOf("+") > -1);
+}
+
+function seqKey(key: string, i: integer): string {
+	const seqKeys = key.split("+");
+	let result = seqKeys[i];
+	//console.log(key + '[' + i + '] = ' + result);
+	return result;
+}
+
+function seqSymbol(key: string, i: integer): string {
+	const seqKeys = key.split("+");
+	return phonemeSymbol(seqKeys[i]);
+}
+
+const { key, hidenone, seq, dart } = Astro.props;
+
+console.log("key = " + key);
+
+const phData = phonemeData[key];
+let phSymbol = "NONE";
+let phLabel = "INVALID";
+
+if (phData) {
+	phSymbol = phData["symbol"];
+	phLabel = phData["label"];
+}
+
+//const phLabel = phonemeData[key]["label"];
+
+console.log("phSymbol = " + phSymbol);
+console.log("phLabel = " + phLabel);
+
+const allPhonograms = wsgData["phonograms"];
+//const allCount = allPhonograms ? allPhonograms.length : 0;
+
+const wsNames = wsgData["names"];
+
+let keyPhonograms = [];
+if (dart == "true") {
+	keyPhonograms  = allPhonograms.filter(pg => (isDblArt(pg.phoneme) && pg.phoneme.indexOf(key) > -1 && pg.phoneme != key));
+} else if (seq == "true") {
+	// The key is present as part of a sequence:
+	keyPhonograms  = allPhonograms.filter(pg => (isSeq(pg.phoneme) && pg.phoneme.indexOf(key) > -1 && pg.phoneme != key));
+} else {
+	// The key is present exactly:
+	keyPhonograms  = allPhonograms.filter(pg => pg.phoneme === key);
+}
+let kpgCount = keyPhonograms ? keyPhonograms.length : 0;
+
+console.log('# phonograms = ' + kpgCount);
+
+---
+
+{ (kpgCount == 0 && hidenone == "true") ? null : (
+
+<div>
+
+	{ (phSymbol == "NONE") ? null : ( 
+		<h3>
+			{ dart == 'true' ? "Double articulations involving " : null }
+			{ seq == 'true' ? "Sequences including " : null }
+			&#x002F;{phSymbol}&#x002F; - {phLabel}
+		</h3> ) }
+
+	{ (kpgCount == 0) ? (
+				<p>None</p>
+		) : (
+
+			<table>
+				<thead>
+					<tr>
+						<th>Writing System</th>
+						{ (dart === 'true') ? <th>Phoneme</th> : null }
+						{ (seq === 'true') ? <th>Phoneme Sequence</th> : null }
+						<th>Grapheme</th>
+						<th>Example</th>
+						<th>Notes</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					{keyPhonograms.map((kpg) =>
+						<tr> 
+							<td><a href={`/scrlang/graphemes/${(kpg.ws ?? '').toLowerCase()}`} title={wsName(kpg.ws)}>{kpg.ws}</a></td>
+							{ (dart === 'true') ? 
+								<td><span>/{phonemeSymbol(kpg.phoneme)}/</span></td>
+								: null 
+							}
+							{ (seq === 'true') ? 
+								<td><span>/{seqSymbol(kpg.phoneme, 0)}{seqSymbol(kpg.phoneme, 1)}/</span></td>
+								: null 
+							}
+							<td>
+								&lt;{kpg.chars.map((ch) => <Character usv={ch} options="char" />)}&gt;
+							</td>
+							<td set:html={kpg.example} />
+							<td set:html={kpg.notes} />
+						</tr>
+					)}
+				</tbody>
+
+			</table>
+		)
+	}
+
+</div>
+) }
