@@ -5,7 +5,7 @@
 
 import Character from './Character.astro';
 
-import wsgDataUntyped from '../data/ws-graphemes.json';
+import wsgData from '../data/ws-graphemes.json';
 
 import phonemeDataUntyped from '../data/phonemes.json';
 
@@ -25,8 +25,7 @@ interface PhonemeItem {
 	slug: string;
 }
 
-const wsgData: Phonogram[] = wsgDataUntyped;
-const phonemeData: PhonemeItem[] = phonemeDataUntyped;
+const phonemeData: Map<string, PhonemeItem> = phonemeDataUntyped;
 
 function phonemeSymbol(key: string): string {
 	return phonemeData[key]?.symbol ?? "";
@@ -126,7 +125,7 @@ const { wsCode } = Astro.props;
 const allPhonograms: Phonogram[] = wsgData["phonograms"];
 //const allCount: number = allPhonograms ? allPhonograms.length : 0;
 
-//const intros: string[] = wsgData["intros"];
+//const intros: Map<string,string> = wsgData["intros"];
 //const intro: string = intros[wsCode];
 
 let wsPhonograms: Phonogram[] = allPhonograms.filter(pg => pg.ws === wsCode);

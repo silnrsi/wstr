@@ -8,7 +8,7 @@
 
 import Character from './Character.astro';
 
-import wsgDataUntyped from '../data/ws-graphemes.json';
+import wsgData from '../data/ws-graphemes.json';
 
 import phonemeDataUntyped from '../data/phonemes.json';
 
@@ -28,8 +28,7 @@ interface PhonemeItem {
 	slug: string;
 }
 
-const wsgData: Phonogram[] = wsgDataUntyped;
-const phonemeData: PhonemeItem[] = phonemeDataUntyped;
+const phonemeData: Map<string, PhonemeItem> = phonemeDataUntyped;
 
 function phonemeSymbol(pkey: string): string {
 	return phonemeData[pkey]?.symbol ?? "ERROR";
@@ -65,10 +64,9 @@ function seqSymbol(key: string, i: number): string {
 }
 
 const { key, hidenone, seq, dart } = Astro.props;
+const keyStr: string = key;
 
-console.log("key = " + key);
-
-const phData: PhonemeItem = phonemeData[key];
+const phData: PhonemeItem = phonemeData[keyStr];
 
 let phSymbol: string = "NONE";
 let phLabel: string = "INVALID";
@@ -78,7 +76,7 @@ if (phData) {
 	phLabel = phData["label"];
 }
 
-//const phLabel: string = phonemeData[key]["label"];
+//const phLabel: string = phonemeData[keyStr]["label"];
 
 console.log("phSymbol = " + phSymbol);
 console.log("phLabel = " + phLabel);
@@ -86,7 +84,7 @@ console.log("phLabel = " + phLabel);
 const allPhonograms: Phonogram[] = wsgData["phonograms"];
 //const allCount: number = allPhonograms ? allPhonograms.length : 0;
 
-const wsNames: string[] = wsgData["names"];
+const wsNames: Map<string, string> = wsgData["names"];
 
 let keyPhonograms: Phonogram[] = [];
 if (dart == "true") {
