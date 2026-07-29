@@ -105,7 +105,6 @@ export default defineConfig({
                         'scrlang/scripts-index',
                         'scrlang/languages',
                         'scrlang/language-font-finder',
-                        'scrlang/phoneme-charts',
                         'scrlang/other-resources',
                     ]
                 },
