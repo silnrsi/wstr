@@ -57,7 +57,7 @@
     top:3px;
 }
 
-.external-link-icon img{
+.external-link-icon img {
     height:1rem;
     margin:0 0 0 2px;
     width:1rem;
@@ -90,4 +90,65 @@
 
 #LangBcp47 .MuiFilledInput-root {
   background-color: var(--sl-color-bg-nav);
+}
+
+/* Used by PhChartCons component */
+
+tr.ph-hdr {
+    padding-left: none;
+    padding-right: none;
+}
+
+tr.ph-noline td,
+tr.ph-noline th {
+    border-bottom-color: white;
+}
+
+tr.ph-darkline td,
+tr.ph-darkline th {
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+}
+
+/* avoid a lot of horizontal spacing around the labels */
+th.ph-labelimg,
+tr.ph-labelimg th { 
+    max-width: none; 
+    padding-left: 7px; 
+    padding-right: 7px;
+    text-align: center;
+}
+
+td.ph-sym {
+    padding-left: 9px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+td.ph-voice {
+    text-align: right;
+}
+
+td.ph-sym a {
+    font-size: 110%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td.ph-type {
+    padding-left: 7px;
+    padding-right: 7px;
+    font-style: italic;
+}
+
+th.ph-center {
+    text-align: center;
+}
+
+tr.ph-small th{
+    font-size: 90%;
+}
+
+tr.ph-tight th {
+   padding-top: 1px; 
 }

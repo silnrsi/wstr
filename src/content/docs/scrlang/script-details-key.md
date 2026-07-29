@@ -2,6 +2,7 @@
 title: Scripts Details Explanation
 description: Documentation of the script detail items
 sidebar:
+    order: 8910
     hidden: true
 lastUpdated: 2025-08-29
 ---
