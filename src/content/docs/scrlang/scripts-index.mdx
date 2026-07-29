@@ -8,6 +8,30 @@ lastUpdated: 2025-09-17
 
 import ScriptList from '../../../components/ScriptList.astro';
 
-The following scripts are those that have been assigned official ISO codes.
+## Scripts with ISO script codes
 
-<ScriptList />
+The following scripts are those that have been assigned official [ISO 15924][iso-15924] script codes. Most but not all of the scripts have been encoded in Unicode.
+
+<ScriptList nonunicode="False" />
+
+## Special script categories
+
+These are not actual scripts but are special codes for other uses. 
+
+- [Reserved for private use (start)](/scrlang/scripts/qaaa) [Qaaa]
+- [Reserved for private use (end)](/scrlang/scripts/qabx) [Qabx]
+- [Inherited script](/scrlang/scripts/zinh) [Zinh]
+- [Mathematical notation](/scrlang/scripts/zmth) [Zmth]
+- [Symbols (Emoji variant)](/scrlang/scripts/zsym) [Zsye]
+- [Symbols](/scrlang/scripts/zsym) [Zsym]
+- [Unwritten documents](/scrlang/scripts/zxxx) [Zxxx]
+- [Undetermined script](/scrlang/scripts/zyyy) [Zyyy]
+- [Unencoded script](/scrlang/scripts/zzzz) [Zzzz]
+
+## Scripts without ISO script codes
+
+The following scripts are those that have **not** been assigned official [ISO 15924][iso-15924] script codes. None of these scripts are encoded in Unicode.
+
+<ScriptList nonunicode="True" />
+
+[iso-15924]: https://www.unicode.org/iso15924
