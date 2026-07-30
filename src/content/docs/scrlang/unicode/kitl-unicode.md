@@ -3,10 +3,10 @@ title: Unicode Status for Khitan Large
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-04-24
+lastUpdated: 2026-07-30
 ---
 
-The Khitan Large (or Khitan Ideographs) script is not yet in Unicode. The script has a tentative allocation at U+18D80..U+195FF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Khitan Large (or Khitan Ideographs) script is not yet in Unicode. The script has a tentative allocation at U+19200..U+19AFF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 A Unicode summary of documents related to this script is available here: [Topical Document List: Khitan Scripts](https://www.unicode.org/L2/topical/khitan/)
 

@@ -3,10 +3,10 @@ title: Unicode Status for N’ti
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-05-07
+lastUpdated: 2026-07-30
 ---
 
-The N’ti (sometimes called Soninke) script is not yet in Unicode. The script has not yet been added to the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
+The N’ti (sometimes called Soninke) script is not yet in Unicode. The script has a tentative allocation at U+1CB80..U+1CBAF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Blocks
 

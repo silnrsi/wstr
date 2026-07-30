@@ -3,10 +3,10 @@ title: Unicode Status for Ndiko Jonam
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-05-07
+lastUpdated: 2026-07-30
 ---
 
-The Ndiko Jonam (formerly called Luo Lakeside) script is not yet in Unicode. The script is not yet in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
+The Ndiko Jonam (formerly called Luo Lakeside) script is not yet in Unicode. The script has a tentative allocation at U+1CB30..U+1CB7F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Blocks
 

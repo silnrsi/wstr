@@ -3,10 +3,10 @@ title: Unicode Status for Kore Sebeli
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-05-07
+lastUpdated: 2026-07-30
 ---
 
-The Kore Sebeli script is not yet in Unicode. The script has a tentative allocation at U+15B00..U+15B6F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
+The Kore Sebeli script is not yet in Unicode. The script has a tentative allocation at U+15B00..U+15B5F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
 
 ## Blocks
 
