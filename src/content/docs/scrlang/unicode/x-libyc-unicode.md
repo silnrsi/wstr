@@ -1,12 +1,12 @@
 ---
-title: Unicode Status for Libyc
+title: Unicode Status for Libyco-Berber
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-01-30
+lastUpdated: 2026-07-30
 ---
 
-The Libyc script is not yet in Unicode. The script has not yet been added to the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
+The Libyco-Berber script is not yet in Unicode. The script has not yet been added to the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. 
 
 ## Blocks
 

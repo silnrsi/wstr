@@ -1,12 +1,12 @@
 ---
-title: Unicode Status for Thai Noi
+title: Unicode Status for Tai Noi
 description: Supplementary script page
 sidebar:
     hidden: true
 lastUpdated: 2025-09-29
 ---
 
-The Thai Noi script is not yet in Unicode. It is also not yet in the Roadmap to the UCS.
+The Tai Noi script is not yet in Unicode. It is also not yet in the Roadmap to the UCS.
 
 ## Blocks
 
