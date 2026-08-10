@@ -3,7 +3,7 @@ title: Unicode Status for Gurmukhi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-08-10
 ---
 
 In The Unicode Standard, Gurmukhi script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G668388), [UTN 25: Gurmukhi Character Names](https://www.unicode.org/notes/tn25/), and in [UTN 30: ISCII to Unicode Conversion Issues for Gurmukhi](https://www.unicode.org/notes/tn30/).
@@ -104,3 +104,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #164 Minutes ([L2/20-172](https://www.unicode.org/L2/L2020/20172.htm)) (See B.1 for decision and action items)_
 - 2020-07-01 Proposed Changes to Gurmukhi — Manvir Singh, Irvanjit Singh ([L2/20-183](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-183))
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 11c.)_
+- 2026-03-26 Proposal to encode historic forms of Gurmukhi supplementary consonants -- Srinidhi A, Sridatta A ([L2/26-167](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-167))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 2.14)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 2.14 for decision and action items)_

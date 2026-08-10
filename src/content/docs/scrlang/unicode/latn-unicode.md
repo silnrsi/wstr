@@ -3,7 +3,7 @@ title: Unicode Status for Latin
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-05-07
+lastUpdated: 2026-08-10
 ---
 
 In The Unicode Standard, Latin script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G4321), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), [UTN 29: The Use of Phonetic and Other Symbols in Dictionaries: A Brief Survey](https://www.unicode.org/notes/tn29/), and in [UTN 44: Medieval Latin Character Recommendations](https://www.unicode.org/notes/tn44/).
@@ -911,3 +911,18 @@ Andreas Stötzner, Achim Trunk, Charlotte Wahl([L2/24-244](https://www.unicode.o
 - 2026-04-11 Unicode request for Catholic Albanian letter edhe — Francesco Catoni, Kirk Miller ([L2/26-117](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-117))
   - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 2.4)_
   - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 2.4 for decision and action items)_
+- 2025-09-24 Unicode request for two Latin orthographic pairs derived from "I i" — Ismael Robles Haloui ([L2/26-144](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-144))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 2.10)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 2.10 for decision and action items)_
+- 2026-02-06 Unicode request for zh ligature — Kirk Miller ([L2/26-065]	(https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-065))
+- 2026-03-06 Unicode request for basic symbols of the Romance dialectological atlases — Kirk Miller ([L2/26-079](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-079))
+- 2026-03-31 Alpha Feedback on Cossic characters (N5333R2) — Denis Moyogo Jacquerye ([L2/26-115](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-115))
+- 2026-04-07 Work group reply to Alpha Feedback on Cossic characters by D. M. Jacquerye (31. 3. 2026) — Uwe Mayer, Siegmund Probst, David Rabouin, Elisabeth Rinner, Andreas Stötzner, Achim Trunk, Charlotte Wahl ([L2/26-116](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-116))
+- 2026-04-10 Unicode request for modifier capital Y — Kirk Miller ([L2/26-118](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-118))
+- 2026-04-11 Unicode request for Catholic Albanian letter edhe — Francesco Catoni, Kirk Miller ([L2/26-117](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-117))
+- 2026-06-12 Unicode request for Albanian Frashëri alphabet — Francesco Catoni ([L2/26-175]	(https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-175))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 2.11)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 2.11 for decision and action items)_
+- 2026-06-28 Unicode request for Latin dotless i with descender — Ismael Robles Haloui ([L2/26-176](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-176))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 2.18)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 2.18 for decision and action items)_

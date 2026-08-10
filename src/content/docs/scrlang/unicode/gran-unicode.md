@@ -3,7 +3,7 @@ title: Unicode Status for Grantha
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-08-10
 ---
 
 In The Unicode Standard, Grantha script implementation is discussed in [Chapter 15: South and Central Asia-IV — Other Historic Scripts](https://www.unicode.org/versions/latest/core-spec/#G81052).
@@ -172,3 +172,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #154 January 2018 on Script Proposals ([L2/18-039](http://www.unicode.org/L2/L2018/18039-script-adhoc-rec.pdf)) (See point 6b section 4.)_
 - 2022-04-13 Specification updates for orthographic syllables and line breaking — Norbert Lindenberg, et al ([L2/22-086](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-086))
 - 2022-04-15 Line breaking at orthographic syllable boundaries (revised) — Norbert Lindenberg, et al ([L2/22-080](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-080))
+- 2026-02-21 Revised Annotation for Grantha Anusvara Signs in the Code Chart -- Sridatta A, Srinidhi A ([L2/26-164](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-164))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 5.4)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 5.4 for decision and action items)_

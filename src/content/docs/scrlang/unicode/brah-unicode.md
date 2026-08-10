@@ -3,7 +3,7 @@ title: Unicode Status for Brahmi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-05-07
+lastUpdated: 2026-08-10
 ---
 
 In The Unicode Standard, Brahmi script implementation is discussed in [Chapter 14: South and Central Asia-III — Ancient Scripts](https://www.unicode.org/versions/latest/core-spec/#G39063).
@@ -32,7 +32,7 @@ _Documentation refers to [ISO Working Group](https://www.unicode.org/wg2/) and U
 A number of proposals for its inclusion were submitted to the Unicode Technical Committee and WG2:
 - 1992-10-30 Brahmi and Other Scripts of India — Rick McGowan ([Unicode Technical Report #3 R2](http://www.unicode.org/reports/tr3-2/))
 - 1998-01-18 Proposal to encode Brahmi in Plane 1 of ISO/IEC 10646 — Michael Everson ([L2/98-032](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/98-032))
-- 2000-02-15 Scripts from the Past in Future Versions of Unicode — Carl-Martin Bunz                 ([L2/00-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-128))
+- 2000-02-15 Scripts from the Past in Future Versions of Unicode — Carl-Martin Bunz     ([L2/00-128](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-128))
 - 2000-04-26 Further comments on historic scripts — Carl-Martin Bunz ([L2/00-153](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/00-153))
 - 2002-11-02 Note for the UTC on the encoding of Brahmi in Unicode — Stefan Baums, Andrew Glass ([L2/02-397](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/02-397))
 - 2003-07-27  Proposal for the Encoding of Brahmi — Stefan Baums, Andrew Glass ([L2/03-249](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/03-249))
@@ -47,7 +47,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2011-11-02 Proposal to encode 1107F Brahmi Number Joiner (revised) — Andrew Glass, Shriramana Sharma ([WG2 N4166](https://www.unicode.org/wg2/docs/n4166.pdf), [L2/11-357](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-357))
 - 2011-11-04 Proposed Additions to ISO/IEC 10646 — U.S. National Body ([WG2 N4181](https://www.unicode.org/wg2/docs/n4181.pdf), [L2/11-330](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/11-330))
 - 2012-01-12 Special rendering of some jihvamuliya/upadhmaniya characters — Shriramana Sharma ([L2/12-020](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-020))
-- 2012-03-17 Request for editorial updates to various Indic scripts — Shriramana Sharma             ([L2/12-106](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-106))
+- 2012-03-17 Request for editorial updates to various Indic scripts — Shriramana Sharma ([L2/12-106](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-106))
 - 2012-05-02 Brahmi Letter LLA glyph in TUS – Comment on document L2/12-106 — Naga Ganesan ([L2/12-165](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-165))
 - 2012-07-10 Proposal to add two characters for Brahmi — Shriramana Sharma ([L2/12-226](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-226))
 - 2012-07-18 Update on Brahmi and other Indic unification issues — Shriramana Sharma ([L2/12-236](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/12-236))
@@ -80,7 +80,7 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2020-01-05 Comments on L2/19-402 Proposal to Encode 6 Characters in the Brahmi Block — Andrew Glass ([L2/20-037](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-037))
   - _Recommendations to UTC #162 January 2020 on Script Proposals ([L2/20-046](http://www.unicode.org/L2/L2020/20046-script-adhoc-rept.pdf)) (See point 7.)_
   - _Recommendations to UTC #163 April-May 2020 on Script Proposals ([L2/20-105](https://www.unicode.org/L2/L2020/20105-script-adhoc-rept.pdf)) (See point 5.)_
-- 2020-02-24 Proposal to Annotate Brahmi Sign Anusvara — Vinodh Rajan, Shriramana Sharma     ([L2/20-069](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-069))
+- 2020-02-24 Proposal to Annotate Brahmi Sign Anusvara — Vinodh Rajan, Shriramana Sharma ([L2/20-069](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-069))
   - _Recommendations to UTC #163 April-May 2020 on Script Proposals ([L2/20-105](https://www.unicode.org/L2/L2020/20105-script-adhoc-rept.pdf)) (See point 5.)_
   - _Recommendations to UTC #164 July 2020 on Script Proposals ([L2/20-169](https://www.unicode.org/L2/L2020/20169-script-adhoc-rept.pdf)) (See point 10.)_
 - 2020-04-21 Comments on L2/20-069: Encoding of Tamil Brahmi Virama (U+11070) — Naga Ganesan ([L2/20-129](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-129))
@@ -93,3 +93,6 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2025-08-17 Response on encoding BRAHMI MINIMIZING VIRAMA — Srinidhi A, Sridatta A ([L2/26-066](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-066))
   - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 2.10)_
   - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 2.10 for decision and action items)_
+- 2025-08-17 Response on encoding BRAHMI MINIMIZING VIRAMA -- Srinidhi A, Sridatta A ([L2/26-066](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-066))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 2.5)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 2.5 for decision and action items)_

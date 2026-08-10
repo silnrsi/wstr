@@ -3,7 +3,7 @@ title: Unicode Status for Egyptian Hieroglyphs
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-06-07
+lastUpdated: 2026-08-10
 ---
 
 In The Unicode Standard, implementation of Egyptian Hieroglyphs is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/#G26607), [UTN 32: Mapping Between Manuel de Codage and Unicode Egyptian Hieroglyphs](https://www.unicode.org/notes/tn32/), and in [Unicode Egyptian Hieroglyph Database (Unikemet)](https://www.unicode.org/reports/tr57/).
@@ -249,3 +249,5 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2026-05-27 Accumulated Feedback: PRI #538 canonical ordering of overlays — Mark-Jan Nederhof ([ID20260327091028](https://www.unicode.org/review/pri538/feedback.html#ID20260327091028))
   - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 6.3)_
   - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 6.3 for decision and action items)_
+- 2026-07-24 Changes to Unikemet properties between 17.0 and 18.0 -- Robin Leroy ([L2/26-199](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-199))
+- 2026-07-30 Changes to the text of TUS Core Spec 11.4.2 Egyptian Hieroglyph Format Controls relating to the ordering of elements joined by the overlay control (U+13436) -- Andrew Glass ([L2/26-204](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-204))

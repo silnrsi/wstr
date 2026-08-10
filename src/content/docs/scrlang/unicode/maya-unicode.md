@@ -3,7 +3,7 @@ title: Unicode Status for Mayan hieroglyphs
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-08-10
 ---
 
 Mayan hieroglyphs are not yet in Unicode. The script has a tentative allocation at U+15500..U+15AFF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
@@ -32,3 +32,5 @@ A number of documents towards its inclusion have been submitted to the Unicode T
   - _Recommendations to UTC #174 January 2023 on Script Proposals ([L2/23-012](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-012)) (See point B.15.)_
 - 2023-10-09 Updated List of Characters for Mayan Codices (supersedes L2/20-248) — Carlos Pallán Gayol ([L2/23-228](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-228))
   - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.29.)_
+- 2026-06-19 Proposal to Encode Codical Maya Hieroglyphs -- Dr. Des. Carlos Pallan, Dr. Andrew Glass, Céline Tamignaux, Nick Sahler ([L2/26-145](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-145))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 7)_

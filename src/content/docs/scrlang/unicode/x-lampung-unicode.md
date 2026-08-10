@@ -3,10 +3,10 @@ title: Unicode Status for Lampung
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-01-30
+lastUpdated: 2026-08-10
 ---
 
-The Lampung script is not yet in Unicode. The script has a tentative allocation at U+1E700..U+1E73F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. It is also discussed in [UTN 35: Indonesian and Philippine Scripts and extensions](https://www.unicode.org/notes/tn35/).
+The Lampung (or Lampungic) script is not yet in Unicode. The script has a tentative allocation at U+1E700..U+1E73F in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. It is also discussed in [UTN 35: Indonesian and Philippine Scripts and extensions](https://www.unicode.org/notes/tn35/).
 
 ## Blocks
 
@@ -32,3 +32,6 @@ A number of documents towards inclusion in Unicode have been submitted to the Un
   - _UTC #185 Minutes ([L2/25-226](https://www.unicode.org/L2/L2025/25226.htm)) (See D.1 Section 1.6 for decision and action items)_
 - 2026-01-13 Updated Proposal to Encode the Lampung Script (Second Revision) — Febri Muhammad Nasrullah ([L2/26-036](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-036))
   - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 7.)_
+- 2026-05-19 Proposal to Encode the Lampungic Script in Unicode -- Febri Muhammad Nasrullah ([L2/26-194] (https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-194))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 1.4)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 1.4 for decision and action items)_
