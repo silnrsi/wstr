@@ -3,12 +3,12 @@ title: Dagger-Alef in Arabic Script
 description: Implementing correct behavior for dagger-alef
 authors: Lorna Evans
 tags: [script-arab, char-0670]
-lastUpdated: 2026-06-24
+lastUpdated: 2026-08-12
 ---
 
 import Character from '/src/components/Character.astro';
 
-In order to implement correct behavior in fonts for the _dagger-alef_ (:usv[0670]{usv char name} one needs to understand how it should appear. Although there are exceptions, the _dagger-alef_ is not generally written in modern texts, it is primarily used in classical texts.
+In order to implement correct behavior in fonts for the _dagger-alef_ (:usv[0670]{usv char name}), one needs to understand how it should appear. Although there are exceptions, the _dagger-alef_ is not generally written in modern texts, it is primarily used in classical texts.
 
 Regarding the _dagger-alef_, Fahmy ([Fahmy, Hossam A. H. 2006, Vol 27, No 2. AlQalam for typesetting traditional Arabic texts. TUGBoat. p. 164][src-fahmy]) says: 
 
@@ -23,7 +23,7 @@ Regarding the _dagger-alef_, Fahmy ([Fahmy, Hossam A. H. 2006, Vol 27, No 2. AlQ
 >If the dagger alif is a mark, its positioning on the character is similar to that of the short vowels."
 
 
-In the case of _dagger-alef_ as a "separate character", _dagger-alef_ should be placed above a space or even above <Character usv="00A0" options="usv,char,name"/>(Unfortunately, Microsoft Word does not support the _dagger-alef_ on a space. However, LibreOffice does support it.) When developing a font, <Character usv="0020" options="usv,char,name"/> and <Character usv="00A0" options="usv,char,name"/> must support putting a combining mark (such as <Character usv="0067" options="usv,char,name"/>) above the space.}. See _dagger-alef_ **above the space** in the first word of the first sample above.
+In the case of _dagger-alef_ as a "separate character", _dagger-alef_ should be placed above a space or even above <Character usv="00A0" options="usv,name"/>. (Unfortunately, Microsoft Word does not support the _dagger-alef_ on a space. However, LibreOffice does support it.) When developing a font, <Character usv="0020" options="usv,name"/> and <Character usv="00A0" options="usv,name"/> must support putting a combining mark (such as <Character usv="0670" options="usv,char,name"/>) above the space. See _dagger-alef_ **above the space** in the first word of the first sample above.
 
 In general, if _dagger-alef_ is above a "tooth" then the anchor point for the _dagger-alef_ should be centered above the tooth (there are some who disagree with this and believe the _dagger-alef_ should be slightly to the left of the "tooth"). The example below shows the _dagger-alef_ above the tooth of both the initial and medial yeh:
 
