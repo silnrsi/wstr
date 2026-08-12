@@ -74,7 +74,7 @@ function isDblArt(key: string): boolean {
 	return key.indexOf("dart") === 0;
 }
 
-function dblArtKey(key: string, i: integer): string {
+function dblArtKey(key: string, i: number): string {
 	const kmod = key.replace("dart-", "");
 	const keys = kmod.split("+");
 	let result = keys[i];
@@ -92,14 +92,14 @@ function seqLength(key: string): string {
 	}
 }
 
-function seqKey(key: string, i: integer): string {
+function seqKey(key: string, i: number): string {
 	const seqKeys = key.split("+");
 	let result = seqKeys[i];
 	//console.log(key + '[' + i + '] = ' + result);
 	return result;
 }
 
-function seqSymbol(key: string, i: integer): string {
+function seqSymbol(key: string, i: number): string {
 	const seqKeys = key.split("+");
 	return phonemeSymbol(seqKeys[i]);
 }
