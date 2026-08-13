@@ -1,12 +1,12 @@
 ---
-title: Unicode Status for Rma
+title: Unicode Status for Wei Rma
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-01-30
+lastUpdated: 2026-08-13
 ---
 
-The Rma script is not yet in Unicode. The script is not yet in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Wei Rma script is not yet in Unicode. The script is not yet in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Blocks
 
