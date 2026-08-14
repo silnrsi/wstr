@@ -107,23 +107,23 @@ tr.ph-noline th {
 tr.ph-darkline td,
 tr.ph-darkline th {
     border-bottom-color: var(--sl-color-text);
-    border-bottom-width: 2px;
+    border-bottom-width: 2pt;
 }
 
 /* avoid a lot of horizontal spacing around the labels */
 th.ph-label,
 tr.ph-label th { 
     max-width: none; 
-    padding-left: 7px; 
-    padding-right: 7px;
+    padding-left: 5.5pt; 
+    padding-right: 5.5pt;
     text-align: left;
     text-orientation: sideways;
     writing-mode: sideways-lr;
 }
 
 td.ph-sym {
-    padding-left: 9px;
-    padding-right: 8px;
+    padding-left: 6pt;
+    padding-right: 4pt;
     text-align: center;
 }
 
@@ -138,8 +138,8 @@ td.ph-sym a {
 }
 
 td.ph-type {
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 5.5pt;
+    padding-right: 5.5pt;
     font-style: italic;
 }
 
@@ -152,5 +152,5 @@ tr.ph-small th{
 }
 
 tr.ph-tight th {
-   padding-top: 1px; 
+   padding-top: 1pt; 
 }
