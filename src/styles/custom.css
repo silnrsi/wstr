@@ -101,12 +101,12 @@ tr.ph-hdr {
 
 tr.ph-noline td,
 tr.ph-noline th {
-    border-bottom-color: white;
+    border-bottom-color: transparent
 }
 
 tr.ph-darkline td,
 tr.ph-darkline th {
-    border-bottom-color: black;
+    border-bottom-color: var(--sl-color-text);
     border-bottom-width: 2px;
 }
 
