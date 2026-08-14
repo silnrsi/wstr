@@ -111,12 +111,14 @@ tr.ph-darkline th {
 }
 
 /* avoid a lot of horizontal spacing around the labels */
-th.ph-labelimg,
-tr.ph-labelimg th { 
+th.ph-label,
+tr.ph-label th { 
     max-width: none; 
     padding-left: 7px; 
     padding-right: 7px;
-    text-align: center;
+    text-align: left;
+    text-orientation: sideways;
+    writing-mode: sideways-lr;
 }
 
 td.ph-sym {
