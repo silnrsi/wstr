@@ -3,7 +3,7 @@ title: Detecting font usage in a web browser
 description: How to determine which font the browser is using to display a bit of text
 authors: Sharon Correll
 tags: [webfonts, fonts, browser]
-lastUpdated: 2026-04-01
+lastUpdated: 2026-08-14
 ---
 
 It is often really important to be able to determine exactly which font the browser is using to display a bit of text. Unfortunately it's not always straightforward to figure this out, since the browser doesn't necessarily use the exact font that is specified in the HTML or CSS. There are several situations where the browser may substitute one font for another:
@@ -48,6 +48,8 @@ Once the extension is selected, the font information will be shown:
 ![Using the font infos add-on to discover the font used for text](images/detecting-font-usage-font-infos-list-font.png "Using the font infos add-on to discover the font used for text")
 
 Even if the browser falls back to a font that is not included in the style's font list, the **FontInfo** tool will indicate exactly which one is being used.
+
+If you want to use WhatFont on a locally hosted file, you should enable "Access local files on your computer" and then restart Firefox.
 
 ## Edge
 
