@@ -9,6 +9,7 @@ import cookieconsent from "@jop-software/astro-cookieconsent";
 import remarkCharacterDirectives from './src/plugins/remark-usv-directive.mts';
 import remarkSourcesLinkReference from './src/plugins/remark-sources-link-reference.mts';
 import react from '@astrojs/react';
+import { unified } from '@astrojs/markdown-remark';
 
 const googleAnalyticsId = 'G-WHT6CVPT8M';
 
@@ -236,33 +237,35 @@ export default defineConfig({
         react(),
     ],
     markdown: {
-        remarkPlugins: [
-            remarkSourcesLinkReference('/biblio/'),
-            remarkCharacterDirectives,
-        ],
-        rehypePlugins: [
-            rehypeFigureTitle, [
-                rehypeExternalLinks, {
-                    target: '_blank', // Open external links in a new tab
-                    rel: ['external', 'nofollow',], // Add security attributes
-                    // Optional: Add content (e.g., an icon) to the end of external links
-                    content: {
-                        type: 'element',
-                        tagName: 'img',
-                        properties: {
-                            src: '/svgs/external-link.svg',
-                            //title: 'External link',
-                            //alt: 'External link',
-                        },
-                        children: [],
-                    },
-                    // Optional: Add attributes to the added content
-                    contentProperties: { 'aria-hidden': true, class: 'external-link-icon' },
-                    // Optional: Filter which <a> tags are processed (e.g., exclude links within code blocks)
-                    selectors: 'a:not(pre a):not(code a)',
-                },
+        processor: unified({
+            remarkPlugins: [
+                remarkSourcesLinkReference('/biblio/'),
+                remarkCharacterDirectives,
             ],
-        ],
+            rehypePlugins: [
+                rehypeFigureTitle, [
+                    rehypeExternalLinks, {
+                        target: '_blank', // Open external links in a new tab
+                        rel: ['external', 'nofollow',], // Add security attributes
+                        // Optional: Add content (e.g., an icon) to the end of external links
+                        content: {
+                            type: 'element',
+                            tagName: 'img',
+                            properties: {
+                                src: '/svgs/external-link.svg',
+                                //title: 'External link',
+                                //alt: 'External link',
+                            },
+                            children: [],
+                        },
+                        // Optional: Add attributes to the added content
+                        contentProperties: { 'aria-hidden': true, class: 'external-link-icon' },
+                        // Optional: Filter which <a> tags are processed (e.g., exclude links within code blocks)
+                        selectors: 'a:not(pre a):not(code a)',
+                    },
+                ],
+            ],
+        })
     },
     redirects: {
         "/guides/app-development-best-practice": "/topics/computing/app-development-best-practice",
