@@ -121,11 +121,16 @@ tr.ph-label th {
     writing-mode: sideways-lr;
 }
 
+@font-face {
+    font-family: 'Charis';
+    src: url('https://fonts.languagetechnology.org/fonts/sil/charis/web/Charis-Regular.woff2')
+}
+
 td.ph-sym {
     padding-left: 6pt;
     padding-right: 4pt;
     text-align: center;
-    font-family: 'Andika', sans-serif;
+    font-family: 'Charis', serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -137,7 +142,7 @@ td.ph-voice {
 td.ph-sym a {
     font-size: 110%;
     text-decoration: none;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 td.ph-type {
