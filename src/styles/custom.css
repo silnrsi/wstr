@@ -114,23 +114,23 @@ tr.ph-darkline th {
 th.ph-label,
 tr.ph-label th { 
     max-width: none; 
-    padding-left: 5.5pt; 
-    padding-right: 5.5pt;
+    padding-left: 0.5rem; 
+    padding-right: 0.5rem;
     text-align: left;
     text-orientation: sideways;
     writing-mode: sideways-lr;
 }
 
 @font-face {
-    font-family: 'Charis';
-    src: url('https://fonts.languagetechnology.org/fonts/sil/charis/web/Charis-Regular.woff2')
+    font-family: 'Gentium-SB';
+    src: url('https://fonts.languagetechnology.org/fonts/sil/gentium/web/Gentium-SemiBold.woff2')
 }
 
 td.ph-sym {
-    padding-left: 6pt;
-    padding-right: 4pt;
+    padding-left: 0rem;
+    padding-right: 0rem;
     text-align: center;
-    font-family: 'Charis', serif;
+    font-family: 'Gentium-SB', serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -140,14 +140,14 @@ td.ph-voice {
 }
 
 td.ph-sym a {
-    font-size: 110%;
+    font-size: 160%;
     text-decoration: none;
     /* font-weight: bold; */
 }
 
 td.ph-type {
-    padding-left: 5.5pt;
-    padding-right: 5.5pt;
+    padding-left: 0rem;
+    padding-right: 0.5rem;
     font-style: italic;
 }
 
@@ -160,5 +160,5 @@ tr.ph-small th{
 }
 
 tr.ph-tight th {
-   padding-top: 1pt; 
+   padding-top: 0pt; 
 }
