@@ -1,9 +1,9 @@
 ---
 title: Different kinds of hamza characters in Arabic script
 description: Arabic has a variety of hamza characters which can be rendered differently
-authors: Sharon Correll
+authors: Sharon Correll and Lorna Evans
 tags: [script-arab, char-08a8, char-076c, char-0678, char-06c2, char-06d3, char-0681, char-0677, char-0676, char-0675, char-0673, char-0672, char-0625, char-0624, char-0623, char-0674, char-0654, char-0621, char-0655, char-065f]
-lastUpdated: 2025-10-17
+lastUpdated: 2026-08-20
 ---
 
 import Character from '/src/components/Character.astro';
@@ -22,6 +22,10 @@ In the initial and medial forms, it takes the form of a beh (<Character usv="062
 
 ![Contextual shaping of yeh with hamza above](images/different-kinds-of-arabic-hamza.png "Contextual shaping of yeh with hamza above")
 
+In addition, the position of the _hamza above_ is different for the Kyrgyz language. The _hamza_ should be placed toward the top of the _yeh_ in isolate and final forms, rather than over the bowl.
+
+![Kyrgyz yeh with hamza above](images/different-kinds-of-yeh-hamza.png "Kyrgyz yeh with hamza above")
+
 ### <Character usv="0654" options="usv,char,name"/>, <Character usv="0655" options="usv,char,name"/>, <Character usv="065F" options="usv,char,name"/>
 
 These characters are true combining characters; they behave like diacritics. It is unlikely to find them on letters that also contain nuqtas, so for rendering purposes they could take the place of nuqtas. You would generally expect to find them on vowels or approximants such as alif, waw, yeh, yeh-barree (bariyeh), heh, goal-heh, reh, or laam.
@@ -30,9 +34,20 @@ The wavy hamza looks like this: <Character usv="065F" options="char"/> . It is u
 
 ### <Character usv="0674" options="usv,char,name"/>
 
-This character is intended only for use in a few languages like Kazakh and perhaps Uyghur. It is considered a base character, but is written in conjunction with other characters in a unique way.
+This character is intended only for use in a few languages like Kazakh, Malay, and perhaps Uyghur. It is a base character (spacing), not a combining mark. 
 
-Since I am working with Nastaliq, I don't need to support it, so I haven't bothered to research it much. :-) If you can describe its behavior or usage, please comment below!
+The following characters are not recommended for use. Their compatibility decompositions include <Character usv="0674" options="usv,char,name"/>, but the ordering of characters in the decomposition sequences are the reverse of what is expected. 
+
+- <Character usv="0675" options="usv,char,name"/>
+- <Character usv="0676" options="usv,char,name"/>
+- <Character usv="0677" options="usv,char,name"/>
+- <Character usv="0678" options="usv,char,name"/> 
+
+Additionally, Malay Jawi uses <Character usv="0674" options="usv,char,name"/>. The position of the _high hamza_ remains at three-quarters height, but it is similar in size to <Character usv="0621" options="usv,char,name"/>. 
+
+![High Hamza](images/different-kinds-of-high-hamza.png "Standard and Malay High Hamza")
+
+See the [High Hamza][uni-high-hamza] section in The Unicode Standard.
 
 ### Characters that include a hamza
 
@@ -53,3 +68,5 @@ Some other characters that include a hamza are:
 - <Character usv="076C" options="usv,char,name"/>
 - <Character usv="08A8" options="usv,char,name"/>
 
+
+[uni-high-hamza]: https://www.unicode.org/versions/latest/core-spec/chapter-9/#G66979
