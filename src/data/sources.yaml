@@ -2893,16 +2893,6 @@ hopkins2008:
   keywords: [script-sgnw, script-x-stokoe-notation]
   abstract: "This article introduces the reader to the sociolinguistic issues surrounding the adoption of a writing system for sign languages. Initially, some background on sign language and Deaf culture is presented, followed by a discussion of several alternatives for writing sign languages and how these alternatives have been used and/or adopted. Sign languages in most parts of the world compete with spoken languages (languages that have established written traditions), resulting in diglossia. Though many scholars who work with the deaf community have tried to develop ways to write sign language(s), many Deaf do not feel the need for a writing system, either because they use video media or because they see writing as best done in the dominant language in their diglossic situation."
   annotation: "A discussion of various sign language writing systems and notations."
-hosken2008:
-  entrytype: online
-  title: Sequence Checking in Thai and Lao
-  author: Martin Hosken
-  sortname: Hosken
-  organization: SIL
-  url: http://scripts.sil.org/ThaiLaoSeq
-  date: "2008-04-25"
-  keywords: [script-thai, script-laoo, lang-kxm, lang-brv, lang-bru, lang-sss, lang-lwl, lang-lcp, analysis]
-  annotation: "Article containing details of problematic or 'illegal' character sequences that have been encountered in languages using the Thai and Lao scripts, so that system and application developers may take them into account as they design."
 hosszú2012:
   entrytype: book
   title: "Heritage of Scribes - The Relation of Rovas Scripts to Eurasian Writing Systems"
