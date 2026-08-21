@@ -1,0 +1,80 @@
+---
+title: Sequence Checking in Thai and Lao
+authors: Martin Hosken
+tags: [script-thai, script-laoo, unicode]
+lastUpdated: 2008-04-25
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+import Attribution from '/src/components/Attribution.astro';
+
+## Introduction
+
+With the Unicode character set being so large, it is natural for system and application implementors to want to provide some mechanism for indicating what are clearly illegal sequences of Unicode characters. For example, adding a Devanagari diacritic to a Thai base character makes no sense. Further, because modern smart fonts are designed with certain sequences in mind, it makes sense for applications to disallow other sequences as not being renderable. The result is that increasingly, system and application developers are programming what sequences of Unicode characters their systems will support. They do this with a particular language or set of languages in mind.
+
+Unfortunately, it is often necessary when representing a minority language in a script to use novel character sequences to represent the sounds in that language. The language may be from a very different language family than the national language and so is not easily represented by the script in question. The result is that various sequences that implementors may consider illegal for the national language, are in fact legal and necessary for a minority language using a national script.
+
+On this page, we list some of the more problematic sequences that have been encountered so that system and application developers may take them into account as they design.
+
+## Thai
+
+In Northern Khmer we find the following:
+
+- U+0E21 U+0E39 U+0E4D U+0E22
+- U+0E22 U+0E338 U+0E4D U+0E1A ‘night’
+- U+0E01 U+0E34 U+0E3A U+0E08 ‘step away’
+- U+0E25 U+0E37 U+0E3A U+0E2D
+- U+0E2D U+0E36 U+0E3A U+0E01 (syllable pattern)
+
+Precise code order is not clear in the above cases. The diacritics could occur in reverse order. See Mon-Khmer Studies 16-17:255-272 (1990)
+
+In Bru we find the following:
+
+- U+0E41 U+0E15 U+0E47 U+0E48 U+0E07 ‘to spread’
+- U+0E40 U+0E08 U+0E3A U+0E48 U+0E2D ‘already’
+- U+0E40 U+0E1B U+0E23 U+0E3A U+0E34 U+0E48 U+0E2B U+0E4C ‘dirty’
+- U+0E42 U+0E08 U+0E4A U+0E48 ‘bunch of bamboo’
+- U+0E40 U+0E1B U+0E3A U+0E35 U+0E48 U+0E22 ‘to mix’
+
+In addition, in So we find:
+
+- U+0E42 U+0E3A U+0E17 U+0E23 ‘So (the name of the language group)’
+
+In Lwa we have:
+
+- U+0E2D U+0E32 U+0E37 ‘chase’
+- U+0E22 U+0E32 U+0E36 ‘mine’
+
+### Presentations
+
+The following was presented at NECTEC, Bangkok, Thailand with respect to the impact minority language use of the Thai script has on the Thai script itself.
+
+<a href="/files/thailaoseq_mar06.pdf" class="file-pdf">Presentation on Minority use of Thai Script, given to NECTEC, March 2006</a>
+
+<Attribution type='Article' copyyears='2006-2026' copyholder='SIL Global' author='Martin Hosken' license='CC BY-SA 3.0' licenseurl='https://creativecommons.org/licenses/by-sa/3.0/'/>
+
+## Lao
+
+Very often the sequence rules for Thai are used for Lao script as well. Thus there are similar problems for languages using Lao script:
+
+In Bru we find:
+
+- U+0EA3 U+0EBD U+0ECD U+0E87 ‘like, as’
+- U+0E9E U+0ECD U+0EC9 U+0EBD U+0E81 or U+0E9E U+0EC9 U+0EBD U+0ECD U+0E81 ‘smoke’
+
+In Phunoi we find:
+
+- U+0E9A U+0EBD U+0EB9 ‘flower bud’
+- U+0E9B U+0EC9 U+0EBD U+0EB2 U+0E99 ‘run’
+
+In Tai Dam there are cases of two stacking tone marks.
+
+- U+0E81 U+0EC9 U+0ECB U+0EB2 U+0E99 ‘to collapse’
+- U+0E81 U+0EB1 U+0EC8 U+0ECB U+0E87 ‘to hit, to pound’
+
+## Conclusion
+
+It is noticeable that the approach taken for sequence constraint in Thai and Lao is one of disallowing everything except that which is clearly allowed. For the benefit of minority languages and their development it may be that taking an approach of first allowing anything that can be rendered and then adding perhaps some further constraints will provide longer term stability as more scripts are developed and the needs of minority languages cause software maintanence issues.
+
+
+<CaptionText text='This article formerly appeared on scripts.sil.org.'/>
