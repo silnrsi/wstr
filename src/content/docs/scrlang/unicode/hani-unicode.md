@@ -3,7 +3,7 @@ title: Unicode Status for Han
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-07-10
+lastUpdated: 2026-08-24
 ---
 
 In The Unicode Standard, Han implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/latest/core-spec/#G29086).
@@ -31,6 +31,8 @@ Han was first encoded in The Unicode Standard version 1.0. The script is now enc
 | CJK Compatibility Ideographs Supplement  |  2F800..2FA1F  |  3.1  | [U2F800](http://www.unicode.org/charts/PDF/U2F800.pdf)  |
 | CJK Unified Ideographs Extension G  |  30000..3134F |  14.0  |  [U30000](http://www.unicode.org/charts/PDF/U30000.pdf)  |
 | CJK Unified Ideographs Extension H  |  31350..323AF |  15.0  |  [U31350](http://www.unicode.org/charts/PDF/U31350.pdf)  |
+| CJK Unified Ideographs Extension I  |  2EBF0..2EE5D |  15.1  |  [U2EBF0](https://www.unicode.org/charts/PDF/U2EBF0.pdf)  |
+| CJK Unified Ideographs Extension J  |  323B0..33479 |  17.0  |  [U323B0](https://www.unicode.org/charts/PDF/U323B0.pdf)  |
 
 ## Characters
 

@@ -2227,6 +2227,15 @@ gandhiji-hut-ss:
   presort: 22
   keywords: [script-gujr]
   abstract: "This is the sign posted outside the hut where Gandhi stayed briefly, written in the Gujarati language and script.The translation provided at the location reads,(CR)(CR)\"Here under the mango tree in the hut made of palm leaves (khajoori) Gandhiji stayed from 14-4-1930 to 4-5-1930 after the world famous Dandi march. From here he gave impetus to the civil disobedience movement for breaking the salt act started on April 6 at Dandi and turned it into a nation wide movement. It was also from this place that he wrote a letter to the British viceroy expressing his firm resolve to march to the salt works at Dharasana.(CR)(CR)This is the place from where he was arrested by the British government after midnight on May 4, 1930.\""
+gaultney2015:
+  entrytype: misc
+  title: Balancing typeface economy and legibility: Practical techniques for the type designer
+  author: Victor Gaultney
+  sortname: Gaultney
+  url: https://gaultney.org/jvgtype/typedesign/legibility/
+  date: "2001"
+  keywords: [script-latn, fonts]
+  annotation: "This brief essay looks at some of the variables that affect legibility, particularly those under the control of the type designer. From this foundation, it continues with a summary of techniques used in the design of economical typefaces throughout type history and evaluates their impact on legibility. The focus is primarily on Latin text types, even though others (sans-serif, blackletter) can be quite compact and legible in their own right. Extreme experiments in legibility or economy are not covered as they have little practical value."
 gaultney2002:
   entrytype: misc
   title: Problems of Diacritic Design for Latin Script Text Faces
