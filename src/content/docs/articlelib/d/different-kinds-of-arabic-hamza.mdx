@@ -2,8 +2,8 @@
 title: Different kinds of hamza characters in Arabic script
 description: Arabic has a variety of hamza characters which can be rendered differently
 authors: Sharon Correll and Lorna Evans
-tags: [script-arab, char-08a8, char-076c, char-0678, char-06c2, char-06d3, char-0681, char-0677, char-0676, char-0675, char-0673, char-0672, char-0625, char-0624, char-0623, char-0674, char-0654, char-0621, char-0655, char-065f]
-lastUpdated: 2026-08-20
+tags: [script-arab, char-0621, char-065f, char-0623, char-0624, char-0625, char-0654, char-0655, char-0672, char-0673, char-0674, char-0675, char-0676, char-0677, char-0678, char-0681, char-06c0, char-06c2, char-06d3, char-076c, char-0881, char-0882, char-08a8]
+lastUpdated: 2026-08-24
 ---
 
 import Character from '/src/components/Character.astro';
@@ -13,6 +13,10 @@ As part of the development process for the Nastaliq-style font I'm working on, I
 ### <Character usv="0621" options="usv,char,name"/>
 
 This is the standard hamza base character, essentially the head of an ain (<Character usv="0639" options="char"/>). It is always displayed as an isolate form, causing breaking in the middle of the word. It never has cursive connections to other characters.
+
+In general, the Nastaliq-style of the _hamza_ is written in a similar manner to the Naskh-style of _hamza_. However, when used as a combining mark on a base character, it usually looks more like a wavy character. Some languages, such as Kashmiri, will retain the _hamza_ shape as used in the blue line below.
+
+![Usual Nastaliq-style of hamza in black](images/different-kinds-of-nastaliq-hamza.png "Usual Nastaliq-style of hamza in black")
 
 ### <Character usv="0626" options="usv,char,name"/>
 
@@ -63,10 +67,12 @@ Some other characters that include a hamza are:
 - <Character usv="0677" options="usv,char,name"/>
 - <Character usv="0678" options="usv,char,name"/>
 - <Character usv="0681" options="usv,char,name"/>
+- <Character usv="06C0" options="usv,char,name"/>
 - <Character usv="06C2" options="usv,char,name"/>
 - <Character usv="06D3" options="usv,char,name"/>
 - <Character usv="076C" options="usv,char,name"/>
+- <Character usv="0881" options="usv,char,name"/>
+- <Character usv="0882" options="usv,char,name"/>
 - <Character usv="08A8" options="usv,char,name"/>
-
 
 [uni-high-hamza]: https://www.unicode.org/versions/latest/core-spec/chapter-9/#G66979
