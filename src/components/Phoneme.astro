@@ -8,13 +8,9 @@
 
 import Character from './Character.astro';
 
-import wsgData from '../data/ws-graphemes.json';
+import { phonemeData, phonograms as allPhonograms, wsNames, phonemeSymbol, phonemeLabel, phonemeSlug } from './Phonemes.mts';
 
-import phonemeData from '../data/phonemes.json';
-
-function phonemeSymbol(pkey: string): string {
-	return phonemeData[pkey]?.symbol ?? "ERROR";
-}
+//import { p } from './Phonemes.mts';
 
 function wsName(wsKey: string): string {
 	let result = wsNames[wsKey] ?? "";
@@ -57,15 +53,10 @@ if (phData) {
 	phLabel = phData["label"];
 }
 
-//const phLabel = phonemeData[key]["label"];
-
 console.log("phSymbol = " + phSymbol);
 console.log("phLabel = " + phLabel);
 
-const allPhonograms = wsgData["phonograms"];
 //const allCount = allPhonograms ? allPhonograms.length : 0;
-
-const wsNames = wsgData["names"];
 
 let keyPhonograms = [];
 if (dart == "true") {
@@ -123,7 +114,7 @@ console.log('# phonograms = ' + kpgCount);
 								: null 
 							}
 							<td>
-								&lt;{kpg.chars.map((ch) => <Character usv={ch} options="char" />)}&gt;
+								&lt;{kpg.chars.map((ch) => <Character usv={ch} options={["char"]} />)}&gt;
 							</td>
 							<td set:html={kpg.example} />
 							<td set:html={kpg.notes} />
