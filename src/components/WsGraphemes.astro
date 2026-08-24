@@ -1,0 +1,128 @@
+---
+// WsGraphemes component: display a table of graphemes and phonograms used by a given writing system.
+// Parameters:
+//     script: wsCode - WS code, eg. de-Latn, fub-Arab
+
+import Character from './Character.astro';
+
+import { phonograms as allPhonograms, phonemeSymbol, phonemeLabel, phonemeSlug } from './Phonemes.mts';
+
+
+function isTone(key: string): boolean {
+	return (key.indexOf("tone") === 0);
+}
+
+function isDblArt(key: string): boolean {
+	return key.indexOf("dart") === 0;
+}
+
+function dblArtKey(key: string, i: number): string {
+	const kmod = key.replace("dart-", "");
+	const keys = kmod.split("+");
+	let result = keys[i];
+	//console.log(key + '[' + i + '] = ' + result);
+	return result;
+}
+
+function seqLength(key: string): number {
+	if ( key.substring(0, 4) == "diph") {
+		return 1;
+	} else if ( isDblArt(key) ) {
+		return 1;
+	} else {
+		return key.split("+").length;
+	}
+}
+
+function seqKey(key: string, i: number): string {
+	const seqKeys = key.split("+");
+	let result = seqKeys[i];
+	//console.log(key + '[' + i + '] = ' + result);
+	return result;
+}
+
+function seqSymbol(key: string, i: number): string {
+	const seqKeys = key.split("+");
+	return phonemeSymbol(seqKeys[i]);
+}
+
+const { wsCode } = Astro.props;
+
+//const allCount = allPhonograms ? allPhonograms.length : 0;
+
+let wsPhonograms = allPhonograms.filter(pg => pg.ws === wsCode);
+
+//let pgCount = wsPhonograms ? wsPhonograms.length : 0;
+//console.log('# phonograms = ' + pgCount);
+
+---
+
+<div>
+<table>
+	<thead>
+		<tr>
+			<th>Grapheme</th>
+			<th>USV</th>
+			<th>Phoneme</th>
+			<th>Status</th>
+			<th>Example</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		{wsPhonograms.map((wsp) =>
+			<tr> 
+				<td>
+					&lt;{wsp.chars.map((ch) => <Character usv={ch} options={["char"]} />)}&gt;
+				</td>
+				<td>
+					{wsp.chars.map((ch) =>
+						<span>{ch} </span>
+					)}	
+				</td>
+				<td>
+				{seqLength(wsp.phoneme) > 1 ? 
+					<span>/{seqSymbol(wsp.phoneme, 0)}{seqSymbol(wsp.phoneme, 1)}/ =<br/>
+						{isTone(seqKey(wsp.phoneme,0)) ?
+							<span>/{phonemeSymbol(seqKey(wsp.phoneme,1))}/</span>
+							:
+							<a href={`/scrlang/phonemes/${(phonemeSlug(seqKey(wsp.phoneme,0)))}`} title={phonemeLabel(seqKey(wsp.phoneme,0))}>/{phonemeSymbol(seqKey(wsp.phoneme,0))}/</a>
+						}
+						+
+						{ // for now assume that if the first half is a tone, the second half is as well:
+						  (isTone(seqKey(wsp.phoneme,1)) || isTone(seqKey(wsp.phoneme,0)) ) ?
+							<span>/{phonemeSymbol(seqKey(wsp.phoneme,1))}/</span>
+							:
+							<a href={`/scrlang/phonemes/${(phonemeSlug(seqKey(wsp.phoneme,1)))}`} title={phonemeLabel(seqKey(wsp.phoneme,1))}>/{phonemeSymbol(seqKey(wsp.phoneme,1))}/</a>
+						}
+					</span>
+					:
+					<span>
+						{isTone(wsp.phoneme) ?
+							<span>/{phonemeSymbol(wsp.phoneme)}/</span>
+							:
+							<span>
+							{isDblArt(wsp.phoneme) ? 
+								<span>/{phonemeSymbol(wsp.phoneme)}/&nbsp;=<br/>
+									<a href={`/scrlang/phonemes/${(phonemeSlug(dblArtKey(wsp.phoneme,0)))}#dart`} title={phonemeLabel(dblArtKey(wsp.phoneme,0))}>/{phonemeSymbol(dblArtKey(wsp.phoneme,0))}/</a>
+									&nbsp;&nbsp;&#x0361;&nbsp;
+									<a href={`/scrlang/phonemes/${(phonemeSlug(dblArtKey(wsp.phoneme,1)))}#dart`} title={phonemeLabel(dblArtKey(wsp.phoneme,1))}>/{phonemeSymbol(dblArtKey(wsp.phoneme,1))}/</a>
+								</span> 
+								:
+								<a href={`/scrlang/phonemes/${(phonemeSlug(wsp.phoneme))}`} title={phonemeLabel(wsp.phoneme)}>/{phonemeSymbol(wsp.phoneme)}/</a>
+							}
+							</span>
+						}
+					</span>
+				}
+				</td>
+				<td>{wsp.status}</td>
+				<td set:html={wsp.example} />
+				<td set:html={wsp.notes} />
+			</tr>
+		)}
+	</tbody>
+
+</table>
+</div>

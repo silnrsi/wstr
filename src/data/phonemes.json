@@ -545,12 +545,14 @@
 	"aff-den-vl": {
 		"symbol":	"t̪s",
 		"label":	"voiceless dental affricate",
-		"sortkey":	"c30_30_10"
+		"sortkey":	"c30_30_10",
+		"slug":		"aff-alv-vl#dentals"	
 	},
 	"aff-den-vd": {
 		"symbol":	"d̪z",
 		"label":	"voiced dental affricate",
-		"sortkey":	"c30_30_20"
+		"sortkey":	"c30_30_20",
+		"slug":		"aff-alv-vd#dentals"	
 	},
 	"aff-alv-vl": {
 		"symbol":	"ts",
@@ -715,7 +717,8 @@
 	"fri-llb-vd": {
 		"symbol":	"z̼",
 		"label":	"voiced linguolabial fricative",
-		"sortkey":	"c40_15_20"
+		"sortkey":	"c40_15_20",
+		"slug":		"fri-alv-vd#linguolabials"	
 	},
 	"fri-lbd-vl": {
 		"symbol":	"f",
@@ -741,7 +744,8 @@
 	"fri-lbd-vd": {
 		"symbol":	"v",
 		"label":	"voiced labiodental fricative",
-		"sortkey":	"c40_20_20"
+		"sortkey":	"c40_20_20",
+		"slug":		"fri-bil-vd#labiodentals"
 	},
 	"fri-lbd-vd-labzd": {
 		"symbol":	"vʷ",
@@ -1001,7 +1005,7 @@
 		"symbol":	"ɾ",
 		"label":	"alveolar tap",
 		"sortkey":	"c60_35",
-		"slug":		"tap-alv#alveolars"
+		"slug":		"tap-alv#alveolar-taps"
 	},
 	"tap-alv-vd-labzd": {
 		"symbol":	"ɾʷ",
@@ -1039,7 +1043,7 @@
 		"symbol":	"l̥",
 		"label":	"voiceless alveolar lateral approximant",
 		"sortkey":	"c75_35_10",
-		"slug":		"lat-alv"
+		"slug":		"lap-alv"
 	},
 	"lap-alv-palzd": {
 		"symbol":	"lʲ",
@@ -1618,13 +1622,13 @@
 		"symbol":	"ɤ",
 		"label":	"close-mid back unrounded vowel",
 		"sortkey":	"v50_30_10",
-		"slug":		"vwl-bk-cm-unr#close-mid"
+		"slug":		"vwl-bk-md-unr#close-mid"
 	},
 	"vwl-bk-cm-rnd": {
 		"symbol":	"o",
 		"label":	"close-mid back rounded vowel",
 		"sortkey":	"v50_30_20",
-		"slug":		"vwl-bk-md-rnd"
+		"slug":		"vwl-bk-md-rnd#close-mid"
 	},
 	"vwl-bk-cm-rnd-lngth": {
 		"symbol":	"oː",
@@ -1896,13 +1900,6 @@
 		"sortkey":	"vd20_50_10+30_40_10",
 		"slug":		"diph-fr__ce"
 	},
-	"diph-nf-nc-unr+ce-md-unr": {
-		"symbol":	"ɪə",
-		"label":	"near-close near-front unrounded + mid central unrounded diphthong",
-		"sortkey":	"vd20_20_10+30_40_10",
-		"slug":		"diph-fr__ce"
-	},
-
 	"diph-nf-op-unr+nb-nc-rnd": {
 		"symbol":	"aʊ",
 		"label":	"open near-front unrounded + near-close near-back rounded diphthong",
