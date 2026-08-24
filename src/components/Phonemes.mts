@@ -57,7 +57,6 @@ export function phonemeSlug(key: string): string {
 		} else {
 			result = result.substring(0, 13);	// eg, vwl-fr-op-rnd
 		}
-
 	} else if (result.substring(0, 4) == "cons") {  // eg, cons-null
 
 	} else {   // consonant
@@ -71,6 +70,10 @@ export function phonemeSlug(key: string): string {
 	}
 
 	result = phonemeData[result]?.slug ?? result;	// eg, nas-den -> nas-alv
+	const hpos2 = result.indexOf("#");
+	if (hpos2 > -1) {
+		result = result.substring(0, hpos2);
+	}
 
 	result = result.replace("+", "__");
 	result = result + anchor;

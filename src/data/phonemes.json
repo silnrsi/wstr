@@ -1661,7 +1661,7 @@
 		"symbol":	"ʌ",
 		"label":	"open-mid back unrounded vowel",
 		"sortkey":	"v50_50_10",
-		"slug":		"vwl-bk-md-unr"
+		"slug":		"vwl-bk-md-unr#open-mid"
 	},
 	"vwl-bk-om-unr-lngth": {
 		"symbol":	"ʌː",
