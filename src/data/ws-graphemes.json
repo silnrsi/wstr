@@ -17845,7 +17845,7 @@
 			"chars":	["0905"],
 			"phoneme":	"vwl-ce-md-unr",
 			"status":	"expected",
-			"example":	"<span lang='npi-Deva'>अकमक्क</span> ‘confused’",
+			"example":	"<span lang='ne-Deva'>अकमक्क</span> ‘confused’",
 			"notes":	"Possibly the vowel is closer to [ʌ]."
 		},
 		{
@@ -17853,7 +17853,7 @@
 			"chars":	["0905"],
 			"phoneme":	"vwl-nf-op-unr",
 			"status":	"expected",
-			"example":	"<span lang='npi-Deva'>अगाडि</span> ‘before’",
+			"example":	"<span lang='ne-Deva'>अगाडि</span> ‘before’",
 			"notes":	""
 		},
 		{
@@ -17861,15 +17861,15 @@
 			"chars":	["0906", "0907"],
 			"phoneme":	"diph-nf-op-unr+fr-cl-unr",
 			"status":	"expected",
-			"example":	"<span lang='npi-Deva'>भाइ</span> ‘younger brother’",
-			"notes":	"/ai/ can be represented by ‹आई›, ‹आी›, ‹ˌाˌी›, or ‹ˌाई›."
+			"example":	"<span lang='ne-Deva'>भाइ</span> ‘younger brother’",
+			"notes":	"/ai/ can be represented by ‹<span lang='ne'>आई</span>›, ‹<span lang='ne'>आी</span>›, ‹<span lang='ne'>ˌाˌी</span>›, or ‹<span lang='ne'>ˌाई</span>›."
 		},
 		{
 			"ws":		"ne-Deva",
 			"chars":	["0906", "0909"],
 			"phoneme":	"diph-nf-op-unr+bk-cl-rnd",
 			"status":	"expected",
-			"example":	"<span lang='npi-Deva'>आउनु</span> ‘to come",
+			"example":	"<span lang='ne-Deva'>आउनु</span> ‘to come",
 			"notes":	"/au/ can be represented by ‹<span lang='ne'>आउ</span>›, ‹<span lang='ne'>आु</span>›, ‹<span lang='ne'>ˌाˌु</span>›, or ‹<span lang='ne'>ˌाउ</span>›."
 		},
 		{
@@ -18102,7 +18102,7 @@
 			"phoneme":	"aff-pav-vd-breat",
 			"status":	"expected",
 			"example":	"<span lang='npi-Deva'>झट्ट</span> ‘immediately’",
-			"notes":	"The Nepali form of this character - <span lang='npi-Deva'>झ</span> - is different than what is used in India (<span lang='ne'>झ</span>)."
+			"notes":	"The Nepali form of this character - <span lang='ne'>झ</span> - is different than what is used in India (<span lang='hi'>झ</span>)."
 		},
 		{
 			"ws":		"ne-Deva",

@@ -114,7 +114,7 @@ let kpgCount = keyPhonograms ? keyPhonograms.length : 0;
 								: null 
 							}
 							<td>
-								&lt;{kpg.chars.map((ch) => <Character usv={ch} options={["char"]} />)}&gt;
+								&lt;<span lang=`${kpg.ws ?? ''}`>{kpg.chars.map((ch) => <Character usv={ch} options={["char"]} />)}</span>&gt;
 							</td>
 							<td set:html={kpg.example} />
 							<td set:html={kpg.notes} />

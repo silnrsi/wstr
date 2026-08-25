@@ -126,6 +126,20 @@ tr.ph-label th {
     src: url('https://fonts.languagetechnology.org/fonts/sil/gentium/web/Gentium-SemiBold.woff2')
 }
 
+@font-face {
+    font-family: 'Annapurna-R';
+    src: url('https//fonts.languagetechnology.org/fonts/sil/annapurna/web/Annapurna-Regular.woff2')
+}
+
+:lang(ne), :lang(ne-Deva), :lang(npi), :lang(npi-Deva) {
+    font-family: Annapurna-R, sans-serif;
+    font-feature-settings: "ss01" 1, "ss08" 1, "ss09" 1, "ss10" 1;
+}
+
+:lang(hi), :lang(hi-Deva) {
+    font-family: Annapurna-R, sans-serif;
+}
+
 td.ph-sym {
     padding-left: 0rem;
     padding-right: 0rem;
@@ -133,6 +147,10 @@ td.ph-sym {
     font-family: 'Gentium-SB', serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+td.ph-sym-wsg {
+    font-family: 'Gentium-SB', serif;
 }
 
 td.ph-voice {

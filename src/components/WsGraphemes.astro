@@ -74,14 +74,14 @@ let wsPhonograms = allPhonograms.filter(pg => pg.ws === wsCode);
 		{wsPhonograms.map((wsp) =>
 			<tr> 
 				<td>
-					&lt;{wsp.chars.map((ch) => <Character usv={ch} options={["char"]} />)}&gt;
+					&lt;<span lang=`${wsCode}`>{wsp.chars.map((ch) => <Character usv={ch} options={["char"]} />)}</span>&gt;
 				</td>
 				<td>
 					{wsp.chars.map((ch) =>
 						<span>{ch} </span>
 					)}	
 				</td>
-				<td>
+				<td class="ph-sym-wsg">
 				{seqLength(wsp.phoneme) > 1 ? 
 					<span>/{seqSymbol(wsp.phoneme, 0)}{seqSymbol(wsp.phoneme, 1)}/ =<br/>
 						{isTone(seqKey(wsp.phoneme,0)) ?
