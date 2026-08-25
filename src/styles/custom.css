@@ -128,7 +128,7 @@ tr.ph-label th {
 
 @font-face {
     font-family: 'Annapurna-R';
-    src: url('https//fonts.languagetechnology.org/fonts/sil/annapurna/web/Annapurna-Regular.woff2')
+    src: url('https//fonts.languagetechnology.org/fonts/sil/annapurna/web/AnnapurnaSIL-Regular.woff2')
 }
 
 :lang(ne), :lang(ne-Deva), :lang(npi), :lang(npi-Deva) {
@@ -140,7 +140,11 @@ tr.ph-label th {
     font-family: Annapurna-R, sans-serif;
 }
 
-td.ph-sym {
+.ph-sym {
+    font-family: 'Gentium-SB', serif; 
+}
+
+td.ph-sym-chart {
     padding-left: 0rem;
     padding-right: 0rem;
     text-align: center;
@@ -149,18 +153,14 @@ td.ph-sym {
     font-style: normal;
 }
 
-td.ph-sym-wsg {
-    font-family: 'Gentium-SB', serif;
+td.ph-sym-chart a {
+    font-size: 160%;
+    text-decoration: none;
+    /* font-weight: bold; */
 }
 
 td.ph-voice {
     text-align: right;
-}
-
-td.ph-sym a {
-    font-size: 160%;
-    text-decoration: none;
-    /* font-weight: bold; */
 }
 
 td.ph-type {

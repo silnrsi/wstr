@@ -81,7 +81,7 @@ let wsPhonograms = allPhonograms.filter(pg => pg.ws === wsCode);
 						<span>{ch} </span>
 					)}	
 				</td>
-				<td class="ph-sym-wsg">
+				<td class="ph-sym">
 				{seqLength(wsp.phoneme) > 1 ? 
 					<span>/{seqSymbol(wsp.phoneme, 0)}{seqSymbol(wsp.phoneme, 1)}/ =<br/>
 						{isTone(seqKey(wsp.phoneme,0)) ?
