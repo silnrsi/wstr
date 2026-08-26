@@ -128,12 +128,12 @@ tr.ph-label th {
 
 @font-face {
     font-family: 'Annapurna-R';
-    src: url('https//fonts.languagetechnology.org/fonts/sil/annapurnasil/web/AnnapurnaSIL-Regular.woff2')
+    src: url('https://fonts.languagetechnology.org/fonts/sil/annapurnasil/web/AnnapurnaSIL-Regular.woff2')
 }
 
 @font-face {
     font-family: 'TaiHeritagePro-R';
-    src: url('https//fonts.languagetechnology.org/fonts/sil/taiheritagepro/web/TaiHeritagePro-Regular.woff')
+    src: url('https://fonts.languagetechnology.org/fonts/sil/taiheritagepro/web/TaiHeritagePro-Regular.woff2')
 }
 
 :lang(ne), :lang(ne-Deva), :lang(npi), :lang(npi-Deva) {
