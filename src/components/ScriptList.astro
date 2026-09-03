@@ -23,7 +23,14 @@ let sortedDocs = scrDocs.sort((a, b) => (a.data.scrpropsortname ?? '').localeCom
 	<table>
 	<thead>
 	{nonunicode == "True" ?
-		<tr>Name</th>
+		<tr>
+			<th>Unofficial code</th>
+			<th>Name</th>
+			<th>Region</th>
+			<th>Type</th>
+			<th>Direction</th>
+			<th>Status</th>
+		</tr>
 		:
 		<tr>
 			<th>ISO</th>
