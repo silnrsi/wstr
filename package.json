@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
-    "@astrojs/react": "^5.0.5",
+    "@astrojs/react": "^6.0.5",
     "@astrojs/starlight": "^0.39.2",
     "@emotion/styled": "^11.14.1",
     "@jop-software/astro-cookieconsent": "^3.0.1",
