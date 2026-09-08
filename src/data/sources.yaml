@@ -200,7 +200,7 @@ arab-ligatures-sil:
   url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/ligatures.md
   urldate: "2026-06-19"
   organization: SIL Global
-  keywords: [char-200D, fonts, opentype, script-arab]
+  keywords: [char-200d, fonts, opentype, script-arab]
   annotation: "This page discusses when the ZERO WIDTH JOINER (ZWJ) should be used to increase the connectedness of adjacent glyphs."
 arab-maddah-sil:
   entrytype: online
@@ -216,7 +216,7 @@ arab-spanning-sil:
   url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/spanning.md
   urldate: "2026-06-19"
   organization: SIL Global
-  keywords: [char-0600, char-0601, char-0602, char-0603, char-0604, char-0605, char-06DD, char-0890, char-0891, char-08E2, fonts, opentype, script-arab]
+  keywords: [char-0600, char-0601, char-0602, char-0603, char-0604, char-0605, char-06dd, char-0890, char-0891, char-08e2, fonts, opentype, script-arab]
   annotation: "This page discusses characters in the Arabic script that span (or enclose) numbers, such as U+06DD End of Ayah and U+0605 Number Mark Above."
 aritonang2000:
   entrytype: misc
@@ -3455,7 +3455,7 @@ kasra-sil:
   url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/kasra.md
   urldate: "2026-06-19"
   organization: SIL Global
-  keywords: [char-064B, char-064E, char-0651, script-arab]
+  keywords: [char-064b, char-064e, char-0651, script-arab]
   annotation: "Website about the position of the kasra and kasratan in relation to the shadda."
 kauder1866:
   entrytype: book
@@ -7050,7 +7050,7 @@ sil-arab-patterns:
   organization: SIL
   url: https://software.sil.org/arabicfonts/differentpattern/
   urldate: "2026-06-23"
-  keywords: [script-arab, char-064A, char-06BA, char-06BD, char-06CC, char-0775, char-0776, char-077A, char-077B, char-08BB, char-08BC, char-08BD, char-08C4]
+  keywords: [script-arab, char-064a, char-06ba, char-06bd, char-06cc, char-0775, char-0776, char-077a, char-077b, char-08bb, char-08bc, char-08bd, char-08c4]
 sil-fonts:
   entrytype: online
   entrysubtype: f
@@ -8004,7 +8004,7 @@ utn10:
   organization: Unicode
   url: https://www.unicode.org/notes/tn10/
   urldate: "2025-11-19"
-  keywords: [encoding, script-beng, script-deva, script- gujr, script-guru, script-knda, script-mlym, script-orya, script-taml, script-telu]
+  keywords: [encoding, script-beng, script-deva, script-gujr, script-guru, script-knda, script-mlym, script-orya, script-taml, script-telu]
 utn46:
   entrytype: online
   entrysubtype: f
