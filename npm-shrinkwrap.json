@@ -7182,7 +7182,7 @@
     "node_modules/mui-language-picker": {
       "version": "2.7.6-pre.0",
       "resolved": "file:.vendor/mui-language-picker-2.7.6-pre.0.tgz",
-      "integrity": "sha512-12ePF25ToBJMmmrGXe90oz8NoUMnPRs9Xw1PoA5BQ9loDW3TPqGxUZ2CXwvzWvYegCl3V2/kkVvUA4LZoCfFeA==",
+      "integrity": "sha512-pqyeK8ENSsdS4zNqs7XWSK6lPhI4nFW+5hjxQIAa2/S3H0OGX6jRy1VOiLHaCsHaMKgRU6/KyGxsQ/bfpDAQQQ==",
       "license": "MIT",
       "dependencies": {
         "lodash": "^4.18.1"
