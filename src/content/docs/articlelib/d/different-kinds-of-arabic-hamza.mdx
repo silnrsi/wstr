@@ -8,19 +8,17 @@ lastUpdated: 2026-08-28
 
 import Character from '/src/components/Character.astro';
 
-As part of the development process for the Nastaliq-style font I'm working on, I've needed to come to grips with the different forms of "hamza" characters and how they are rendered.
+As part of the development process for any Arabic script font, and especially for a Nastaliq-style font, understanding the different forms of "hamza" characters and how they are rendered is important. 
 
-### <Character usv="0621" options="usv,char,name"/>
+### ARABIC LETTER HAMZA
 
-This is the standard hamza base character, essentially the head of an ain (<Character usv="0639" options="char"/>). It is always displayed as an isolate form, causing breaking in the middle of the word. It never has cursive connections to other characters.
+<Character usv="0621" options="usv,char,name"/> is the standard hamza base character, essentially the head of an ain (<Character usv="0639" options="char"/>). It is always displayed as an isolate form, causing breaking in the middle of the word. It never has cursive connections to other characters.
 
 In general, the Nastaliq-style of the _hamza_ is written in a similar manner to the Naskh-style of _hamza_. However, when used as a combining mark on a base character, it usually looks more like a wavy character. Some languages, such as Kashmiri, will retain the _hamza_ shape as used in the blue line below.
 
 ![Usual Nastaliq-style of hamza in black](images/different-kinds-of-nastaliq-hamza.png "Usual Nastaliq-style of hamza in black")
 
-### <Character usv="0626" options="usv,char,name"/>
-
-This character can be called a "hamza-yeh". Although it appears to combine in interesting ways with other characters, it is not a combining character in the typical sense.
+### ARABIC LETTER YEH WITH HAMZA ABOVE
 
 <Character usv="0626" options="usv,char,name"/> is canonically equivalent to the sequence &lt;<Character usv="064A" options="usv,char,name"/>, <Character usv="0654" options="usv,char,name"/>&gt;. However, when _hamza above_ is applied to _yeh_, it loses its dots in all positional forms. See the [Combining Hamza][uni-hamza] section in The Unicode Standard.
 
@@ -30,22 +28,15 @@ In addition, the position of the _hamza above_ is different for the Kyrgyz langu
 
 ![Kyrgyz yeh with hamza above](images/different-kinds-of-yeh-hamza.png "Kyrgyz yeh with hamza above")
 
-### <Character usv="0654" options="usv,char,name"/>, <Character usv="0655" options="usv,char,name"/>, <Character usv="065F" options="usv,char,name"/>
+### Combining hamza and hamza-like characters
 
-These characters are true combining characters; they behave like diacritics. It is unlikely to find them on letters that also contain nuqtas, so for rendering purposes they could take the place of nuqtas. You would generally expect to find them on vowels or approximants such as alif, waw, yeh, yeh-barree (bariyeh), heh, goal-heh, reh, or laam.
+<Character usv="0654" options="usv,char,name"/>, <Character usv="0655" options="usv,char,name"/>, and <Character usv="065F" options="usv,char,name"/> are true combining characters; they behave like diacritics. You would generally expect to find them on vowels or approximants such as alif, waw, yeh, yeh-barree (bariyeh), heh, goal-heh, reh, or laam.
 
-The wavy hamza looks like this: <Character usv="065F" options="char"/> . It is used in lesser-known languages written with Arabic script.
+<Character usv="065F" options="usv,char,name"/> was added for the Kashmiri language.
 
-### <Character usv="0674" options="usv,char,name"/>
+### ARABIC LETTER HIGH HAMZA and related characters
 
-This character is intended only for use in a few languages like Kazakh, Malay, and perhaps Uyghur. It is a base character (spacing), not a combining mark. 
-
-The following characters are not recommended for use. Their compatibility decompositions include <Character usv="0674" options="usv,char,name"/>, but the ordering of characters in the decomposition sequences are the reverse of what is expected. 
-
-- <Character usv="0675" options="usv,char,name"/>
-- <Character usv="0676" options="usv,char,name"/>
-- <Character usv="0677" options="usv,char,name"/>
-- <Character usv="0678" options="usv,char,name"/> 
+<Character usv="0674" options="usv,char,name"/> is intended only for use in a few languages like Kazakh, Malay, and perhaps Uyghur. It is a base character (spacing), _not_ a combining mark. 
 
 Additionally, Malay Jawi uses <Character usv="0674" options="usv,char,name"/>. The position of the _high hamza_ remains at three-quarters height, but it is similar in size to <Character usv="0621" options="usv,char,name"/>. 
 
@@ -53,19 +44,20 @@ Additionally, Malay Jawi uses <Character usv="0674" options="usv,char,name"/>. T
 
 See the [High Hamza][uni-high-hamza] section in The Unicode Standard.
 
-### Characters that include a hamza
+The following characters are not recommended for use because their compatibility decompositions include <Character usv="0674" options="usv,char,name"/>, but the ordering of characters in the decomposition sequences are the reverse of what is expected. 
 
-Some other characters that include a hamza are:
+- <Character usv="0675" options="usv,char,name"/>
+- <Character usv="0676" options="usv,char,name"/>
+- <Character usv="0677" options="usv,char,name"/>
+- <Character usv="0678" options="usv,char,name"/> 
+
+### Other characters that include a hamza
 
 - <Character usv="0623" options="usv,char,name"/>
 - <Character usv="0624" options="usv,char,name"/>
 - <Character usv="0625" options="usv,char,name"/>
 - <Character usv="0672" options="usv,char,name"/>
 - <Character usv="0673" options="usv,char,name"/>
-- <Character usv="0675" options="usv,char,name"/>
-- <Character usv="0676" options="usv,char,name"/>
-- <Character usv="0677" options="usv,char,name"/>
-- <Character usv="0678" options="usv,char,name"/>
 - <Character usv="0681" options="usv,char,name"/>
 - <Character usv="06C0" options="usv,char,name"/>
 - <Character usv="06C2" options="usv,char,name"/>
