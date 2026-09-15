@@ -1,7 +1,7 @@
 ---
 title: Dev Team Links
 description: Links to dev team pages
-lastUpdated: 2026-05-12
+lastUpdated: 2026-09-15
 ---
 
 :::note
@@ -44,3 +44,4 @@ These are links to pages intended for use by the development team.
 - [Markdown Testing](/devteam/markdown-testing)
 - [Extended Markdown](/devteam/extended-markdown)
 - [File Testing](/devteam/file-testing)
+- [Pages to Test after major astro or component updates](/devteam/pages-to-test)
