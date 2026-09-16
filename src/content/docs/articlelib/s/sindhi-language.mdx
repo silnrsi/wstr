@@ -1,0 +1,42 @@
+---
+title: Sindhi language features
+authors: Lorna Evans
+tags: [char-0644, char-0645, char-0627, char-0647, char-06be, char-0650, char-0651, char-060c, char-061b, char-2e41, char-204f, char-06f6, char-06f7, script-arab, lang-sd]
+lastUpdated: 2026-09-16
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+import Character from '/src/components/Character.astro';
+
+Fonts which are intended to support the Sindhi language must include some different design features than those designed for standard Arabic. In every case, the blue is what a Sindhi font should support.
+
+The _lam-alef_ ligature should be designed in a Sindhi-style.
+
+![Sindhi lam-alef](images/sindhi-language-lam-alef.png)
+<CaptionText text='Sindhi lam-alef.'/>
+
+The _meem_ should have a short tail.
+
+![Sindhi meem](images/sindhi-language-meem.png)
+<CaptionText text='Sindhi meem.'/>
+
+There is some disagreement on which _heh_ codepoint should be used for Sindhi. The shape of the character is not in disagreement, but which codepoint should be used is not clear. SIL has chosen to use <Character usv="0647" options="usv,char,name"/>, and the Sindhi Language Authority has used <Character usv="06BE" options="usv,char,name"/>.
+
+![Sindhi heh](images/sindhi-language-heh.png)
+<CaptionText text='Sindhi heh.'/>
+
+When a _kasra_ is used in context with the _shadda_, most Arabic fonts will move the _kasra_ up and ligate it below the _shadda_. This should not happen for Sindhi support. The _kasra_ should remain below the base. Also, note that diacritics on isolate and final forms of characters are left offset to the _nukat_.
+
+![Sindhi shadda-kasra](images/sindhi-language-shadda-kasra.png)
+<CaptionText text='Sindhi shadda-kasra.'/>
+
+The Sindhi style of comma and semi-colon (<Character usv="060C" options="usv,char,name"/> and <Character usv="061B" options="usv,char,name"/>) is to be downward rather than upward. Instead of making this a glyph variant, the Unicode Standard says to use different codepoints, namely <Character usv="2E41" options="usv,char,name"/> and <Character usv="204F" options="usv,char,name"/>.
+
+![Sindhi comma and semi-colon](images/sindhi-language-comma.png)
+<CaptionText text='Sindhi comma and semi-colon.'/>
+
+Sindhi has a different style of digits for <Character usv="06F6" options="usv,char,name"/> and <Character usv="06F7" options="usv,char,name"/>.
+
+![Sindhi digits](images/sindhi-language-digits.png)
+<CaptionText text='Sindhi digits.'/>
+
