@@ -3,18 +3,20 @@ title: Unicode Status for Bengali
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-05-07
+lastUpdated: 2026-09-16
 ---
 
 In The Unicode Standard, Bengali script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G664195).
 
 ## Blocks
 
-The Bengali script was first encoded in The Unicode Standard version 1.0. Since that time the encoding has undergone a small number of modifications; the script is encoded in the following block:
+The Bengali script was first encoded in The Unicode Standard version 1.0. Since that time the encoding has undergone a small number of modifications; the script is encoded in the following blocks:
 
 | Blocks | Character Range | Added in Unicode Version | Documentation |
 | ------ | --------------- | ------------------------ | ------------- |
-| Bengali | 0980..09FF | 1.0 | [U0980.pdf](http://www.unicode.org/charts/PDF/U0980.pdf) |
+| Bengali | 0980..09FF | 1.0 | [U0980.pdf](https://www.unicode.org/charts/PDF/U0980.pdf) |
+| Bengali Supplement | 11DF0..11DFF | 18.0 | [U0980.pdf](https://www.unicode.org/charts/PDF/U11DF0.pdf) |
+
 
 [Vedic Extensions](/scrlang/unicode/x-vedic-unicode) may be used with the Bengali script as well as many other Indic scripts.
 

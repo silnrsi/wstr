@@ -3,7 +3,7 @@ title: Unicode Status for Sumero-Akkadian Cuneiform
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-09-16
 ---
 
 In The Unicode Standard, implementation of Sumero-Akkadian Cuneiform is discussed in [Chapter 11 Cuneiform and Hieroglyphs](https://www.unicode.org/versions/latest/core-spec/#G26852) and in [UTR 56 Unicode Cuneiform Sign Lists](https://www.unicode.org/reports/tr56/).
@@ -14,9 +14,10 @@ The Cuneiform script was encoded in The Unicode Standard version 5.0. The script
 
 | Blocks  |  Character Range  |  Added in Unicode Version  |  Unicode Chart  |
 | ------- | ----------------- | -------------------------- | --------------- |
-| Cuneiform  |  12000..123FF  |  5.0  |  [U12000.pdf](http://www.unicode.org/charts/PDF/U12000.pdf)  |
-| Cuneiform Numbers and Punctuation |  12400..1247F  | 5.0  |  [U12400.pdf](http://www.unicode.org/charts/PDF/U12400.pdf)  |
-| Early Dynastic Cuneiform  |  12480..1254F  |  8.0  |  [U12480.pdf](http://www.unicode.org/charts/PDF/U12480.pdf)  |
+| Cuneiform  |  12000..123FF  |  5.0  |  [U12000.pdf](https://www.unicode.org/charts/PDF/U12000.pdf)  |
+| Cuneiform Numbers and Punctuation |  12400..1247F  | 5.0  |  [U12400.pdf](https://www.unicode.org/charts/PDF/U12400.pdf)  |
+| Early Dynastic Cuneiform  |  12480..1254F  |  8.0  |  [U12480.pdf](https://www.unicode.org/charts/PDF/U12480.pdf)  |
+| Archaic Cuneiform Numerals |  12550..1268F  |  18.0  |  [U12480.pdf](https://www.unicode.org/charts/PDF/U12550.pdf)  |
 
 ## Characters
 

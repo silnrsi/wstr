@@ -3,12 +3,12 @@ title: Unicode Status for Symbols
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-19
+lastUpdated: 2026-09-16
 ---
 
 In the Unicode Standard there are characters that are considered Symbols, but they are associated with certain scripts. The characters listed here are Symbols (Math_Symbol, Currency_Symbol, Modifier_Symbol, Other_Symbol), but they are in the "Common" category rather than associated with a particular script.
 
-In The Unicode Standard, Symbols are discussed in [Chapter 22 Symbols](http://www.unicode.org/versions/latest/ch22.pdf).
+In The Unicode Standard, Symbols are discussed in [Chapter 22 Symbols](https://www.unicode.org/versions/latest/ch22.pdf).
 
 ## Blocks
 
@@ -16,69 +16,71 @@ There are also Emoji Symbols (which have a different script code) referenced her
 
 | Blocks | Character Range | Block Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------------ | ------------- |
-| Basic Latin | 0024, 002B, 003C..003E, 005E, 0060, 007C, 007E | 1.1 | [U0000](http://www.unicode.org/charts/PDF/U0000.pdf) |
-| Latin-1 Supplement | 00A2..00A6, 00A8..00A9, 00AC, 00AE..00B1, 00B4, 00B8, 00D7, 00F7 | 1.1 | [U0080](http://www.unicode.org/charts/PDF/U0080.pdf) |
-| Spacing Modifier Letters | 02C2..02C5, 02D2..02DF, 02E5..02E9, 02ED, 02EF..02FF | 1.1 | [U02B0](http://www.unicode.org/charts/PDF/U02B0.pdf) |
-| Greek and Coptic | 0385 | 1.1 | [U0370](http://www.unicode.org/charts/PDF/U0370.pdf) |
-| Thai | 0E3F | 1.1 | [U0E00](http://www.unicode.org/charts/PDF/U0E00.pdf) |
-| Tibetan | 0FD5..0FD8 | 5.2 | [U0F00](http://www.unicode.org/charts/PDF/U0F00.pdf) |
-| General Punctuation | 2044, 2052 | 1.1 | [U2000](http://www.unicode.org/charts/PDF/U2000.pdf) |
-| Superscripts and Subscripts | 207A..207C, 208A..208C | 1.1 | [U2070](http://www.unicode.org/charts/PDF/U2070.pdf) |
-| Currency Symbols | 20A0..20CF | 1.1 | [U20A0](http://www.unicode.org/charts/PDF/U20A0.pdf) |
-| Letterlike Symbols | 2100..2101, 2103..2106, 2108..2109, 2114, 2116..2118, 211E..2123, 2125, 2127, 2129, 212E, 213A..213B, 2140..2144, 214A..214D, 214F | 1.1 | [U2100](http://www.unicode.org/charts/PDF/U2100.pdf) |
-| Number Forms | 218A..218B | 8.0 | [U2150](http://www.unicode.org/charts/PDF/U2150.pdf) |
-| Arrows | 2190..21FF | 1.1 | [U2190](http://www.unicode.org/charts/PDF/U2190.pdf) |
-| Mathematical Operators | 2200..22FF | 1.1 | [U2200](http://www.unicode.org/charts/PDF/U2200.pdf) |
-| Miscellaneous Technical | 2300..23FF | 1.1 | [U2300](http://www.unicode.org/charts/PDF/U2300.pdf) |
-| Control Pictures | 2400..243F | 1.1 | [U2400](http://www.unicode.org/charts/PDF/U2400.pdf) |
-| Optical Character Recognition | 2440..245F | 1.1 | [U2440](http://www.unicode.org/charts/PDF/U2440.pdf) |
-| Enclosed Alphanumerics | 2460..24FF | 1.1 | [U2460](http://www.unicode.org/charts/PDF/U2460.pdf) |
-| Box Drawing | 2500..257F | 1.1 | [U2500](http://www.unicode.org/charts/PDF/U2500.pdf) |
-| Block Elements | 2580..259F | 1.1 | [U2580](http://www.unicode.org/charts/PDF/U2580.pdf) |
-| Geometric Shapes | 25A0..25FF | 1.1 | [U25A0](http://www.unicode.org/charts/PDF/U25A0.pdf) |
-| Miscellaneous Symbols (Emoji &amp; Pictographs) | 2600..26FF | 1.1 | [U2600](http://www.unicode.org/charts/PDF/U2600.pdf) |
-| Dingbats (Emoji &amp; Pictographs) | 2700..27BF | 1.1 | [U2700](http://www.unicode.org/charts/PDF/U2700.pdf) |
-| Miscellaneous Mathematical Symbols-A | 27C0..27EF | 3.2 | [U27C0](http://www.unicode.org/charts/PDF/U27C0.pdf) |
-| Supplemental Arrows-A | 27F0..27FF | 3.2 | [U27F0](http://www.unicode.org/charts/PDF/U27F0.pdf) |
-| Supplemental Arrows-B | 2900..297F | 3.2 | [U2900](http://www.unicode.org/charts/PDF/U2900.pdf) |
-| Miscellaneous Mathematical Symbols-B | 2980..29FF | 3.2 | [U2980](http://www.unicode.org/charts/PDF/U2980.pdf) |
-| Supplemental Mathematical Operators | 2A00..2AFF | 3.2 | [U2A00](http://www.unicode.org/charts/PDF/U2A00.pdf) |
-| Miscellaneous Symbols and Arrows | 2B00.2BFF | 4.0 | [U2B00](http://www.unicode.org/charts/PDF/U2B00.pdf) |
-| Ideographic Description Characters | 2FF0..2FFF | 3.0 | [U2FF0](http://www.unicode.org/charts/PDF/U2FF0.pdf) |
-| CJK Symbols and Punctuation | 3004, 3012..3013, 3020, 3036..3037, 303E..303F | 1.1 | [U3000](http://www.unicode.org/charts/PDF/U3000.pdf) |
-| Hiragana | 309B..309C | 1.1 | [U3040](http://www.unicode.org/charts/PDF/U3040.pdf) |
-| Kanbun | 3190..319F | 1.1 | [U3190](http://www.unicode.org/charts/PDF/U3190.pdf) |
-| CJK Strokes | 31C0..31EF | 4.1 | [U31C0](http://www.unicode.org/charts/PDF/U31C0.pdf) |
-| Enclosed CJK Letters and Months | 3200..32FF | 1.1 | [U3200](http://www.unicode.org/charts/PDF/U3200.pdf) |
-| CJK Compatibility | 3300..33FF | 1.1 | [U3300](http://www.unicode.org/charts/PDF/U3300.pdf) |
-| Yijing Hexagram Symbols | 4DC0..4DFF | 4.0 | [U4DC0](http://www.unicode.org/charts/PDF/U4DC0.pdf) |
-| Modifier Tone Letters | A700..A71F | 4.1 | [UA700](http://www.unicode.org/charts/PDF/UA700.pdf) |
-| Latin Extended-D | A720..A721, A789..A78A | 5.0 | [UA720](http://www.unicode.org/charts/PDF/UA720.pdf) |
-| Common Indic Number Forms | A836..A839 | 5.2 | [UA830](http://www.unicode.org/charts/PDF/UA830.pdf) |
-| Latin Extended-E | AB5B | 7.0 | [UAB30](http://www.unicode.org/charts/PDF/UAB30.pdf) |
-| Small Form Variants | FE62, FE64..FE66, FE69 | 1.1 | [UFE50](http://www.unicode.org/charts/PDF/UFE50.pdf) |
-| Halfwidth and Fullwidth Forms | FF00..FFEF | 1.1 | [UFF00](http://www.unicode.org/charts/PDF/UFF00.pdf) |
-| Specials | FFFC..FFFD | 1.1 | [UFFF0](http://www.unicode.org/charts/PDF/UFFF0.pdf) |
-| Aegean Numbers | 10137..1013F | 4.0 | [U10100](http://www.unicode.org/charts/PDF/U10100.pdf) |
-| Ancient Symbols | 10190..101CF | 5.1 | [U10190](http://www.unicode.org/charts/PDF/U10190.pdf) |
-| Phaistos Disc | 101D0..101FF | 5.1 | [U101D0](http://www.unicode.org/charts/PDF/U101D0.pdf) |
-| Byzantine Musical Symbols | 1D000..1D0FF | 3.1 | [U1D000](http://www.unicode.org/charts/PDF/U1D000.pdf) |
-| Musical Symbols | 1D100..1D1FF | 3.1 | [U1D100](http://www.unicode.org/charts/PDF/U1D100.pdf) |
-| Tai Xuan Jing Symbols | 1D300..1D35F | 4.0 | [U1D300](http://www.unicode.org/charts/PDF/U1D300.pdf) |
-| Mathematical Alphanumeric Symbols | 1D6C1, 1D6DB, 1D6FB, 1D715, 1D735, 1D74F, 1D76F, 1D789, 1D7A9, 1D7C3 | 3.1 | [U1D400](http://www.unicode.org/charts/PDF/U1D400.pdf) |
-| Mahjong Tiles | 1F000..1F02F | 5.1 | [U1F000](http://www.unicode.org/charts/PDF/U1F000.pdf) |
-| Domino Tiles | 1F030..1F09F | 5.1 | [U1F030](http://www.unicode.org/charts/PDF/U1F030.pdf) |
-| Playing Cards | 1F0A0..1F0FF | 6.0 | [U1F0A0](http://www.unicode.org/charts/PDF/U1F0A0.pdf) |
-| Enclosed Alphanumeric Supplement | 1F100..1F1FF | 5.2 | [U1F100](http://www.unicode.org/charts/PDF/U1F100.pdf) |
-| Enclosed Ideographic Supplement | 1F200..1F2FF | 5.2 | [U1F200](http://www.unicode.org/charts/PDF/U1F200.pdf) |
-| Miscellaneous Symbols and Pictographs (Emoji &amp; Pictographs) | 1F300..1F5FF | 6.0 | [U1F300](http://www.unicode.org/charts/PDF/U1F300.pdf) |
-| Emoticons (Emoji &amp; Pictographs) | 1F600..1F64F | 6.0 | [U1F600](http://www.unicode.org/charts/PDF/U1F600.pdf) |
-| Ornamental Dingbats (Emoji &amp; Pictographs) | 1F650..1F67F | 7.0 | [U1F650](http://www.unicode.org/charts/PDF/U1F650.pdf) |
-| Transport and Map Symbols (Emoji &amp; Pictographs) | 1F680..1F6FF | 6.0 | [U1F680](http://www.unicode.org/charts/PDF/U1F680.pdf) |
-| Alchemical Symbols | 1F700..1F77F | 6.0 | [U1F700](http://www.unicode.org/charts/PDF/U1F700.pdf) |
-| Geometric Shapes Extended | 1F780..1F7FF | 7.0 | [U1F780](http://www.unicode.org/charts/PDF/U1F780.pdf) |
-| Supplemental Arrows-C | 1F800..1F8FF | 7.0 | [U1F800](http://www.unicode.org/charts/PDF/U1F800.pdf) |
-| Supplemental Symbols and Pictographs | 1F900..1F9FF | 8.0 | [U1F900](http://www.unicode.org/charts/PDF/U1F900.pdf) |
+| Basic Latin | 0024, 002B, 003C..003E, 005E, 0060, 007C, 007E | 1.1 | [U0000](https://www.unicode.org/charts/PDF/U0000.pdf) |
+| Latin-1 Supplement | 00A2..00A6, 00A8..00A9, 00AC, 00AE..00B1, 00B4, 00B8, 00D7, 00F7 | 1.1 | [U0080](https://www.unicode.org/charts/PDF/U0080.pdf) |
+| Spacing Modifier Letters | 02C2..02C5, 02D2..02DF, 02E5..02E9, 02ED, 02EF..02FF | 1.1 | [U02B0](https://www.unicode.org/charts/PDF/U02B0.pdf) |
+| Greek and Coptic | 0385 | 1.1 | [U0370](https://www.unicode.org/charts/PDF/U0370.pdf) |
+| Thai | 0E3F | 1.1 | [U0E00](https://www.unicode.org/charts/PDF/U0E00.pdf) |
+| Tibetan | 0FD5..0FD8 | 5.2 | [U0F00](https://www.unicode.org/charts/PDF/U0F00.pdf) |
+| General Punctuation | 2044, 2052 | 1.1 | [U2000](https://www.unicode.org/charts/PDF/U2000.pdf) |
+| Superscripts and Subscripts | 207A..207C, 208A..208C | 1.1 | [U2070](https://www.unicode.org/charts/PDF/U2070.pdf) |
+| Currency Symbols | 20A0..20CF | 1.1 | [U20A0](https://www.unicode.org/charts/PDF/U20A0.pdf) |
+| Letterlike Symbols | 2100..2101, 2103..2106, 2108..2109, 2114, 2116..2118, 211E..2123, 2125, 2127, 2129, 212E, 213A..213B, 2140..2144, 214A..214D, 214F | 1.1 | [U2100](https://www.unicode.org/charts/PDF/U2100.pdf) |
+| Number Forms | 218A..218B | 8.0 | [U2150](https://www.unicode.org/charts/PDF/U2150.pdf) |
+| Arrows | 2190..21FF | 1.1 | [U2190](https://www.unicode.org/charts/PDF/U2190.pdf) |
+| Mathematical Operators | 2200..22FF | 1.1 | [U2200](https://www.unicode.org/charts/PDF/U2200.pdf) |
+| Miscellaneous Technical | 2300..23FF | 1.1 | [U2300](https://www.unicode.org/charts/PDF/U2300.pdf) |
+| Control Pictures | 2400..243F | 1.1 | [U2400](https://www.unicode.org/charts/PDF/U2400.pdf) |
+| Optical Character Recognition | 2440..245F | 1.1 | [U2440](https://www.unicode.org/charts/PDF/U2440.pdf) |
+| Enclosed Alphanumerics | 2460..24FF | 1.1 | [U2460](https://www.unicode.org/charts/PDF/U2460.pdf) |
+| Box Drawing | 2500..257F | 1.1 | [U2500](https://www.unicode.org/charts/PDF/U2500.pdf) |
+| Block Elements | 2580..259F | 1.1 | [U2580](https://www.unicode.org/charts/PDF/U2580.pdf) |
+| Geometric Shapes | 25A0..25FF | 1.1 | [U25A0](https://www.unicode.org/charts/PDF/U25A0.pdf) |
+| Miscellaneous Symbols (Emoji &amp; Pictographs) | 2600..26FF | 1.1 | [U2600](https://www.unicode.org/charts/PDF/U2600.pdf) |
+| Dingbats (Emoji &amp; Pictographs) | 2700..27BF | 1.1 | [U2700](https://www.unicode.org/charts/PDF/U2700.pdf) |
+| Miscellaneous Mathematical Symbols-A | 27C0..27EF | 3.2 | [U27C0](https://www.unicode.org/charts/PDF/U27C0.pdf) |
+| Supplemental Arrows-A | 27F0..27FF | 3.2 | [U27F0](https://www.unicode.org/charts/PDF/U27F0.pdf) |
+| Supplemental Arrows-B | 2900..297F | 3.2 | [U2900](https://www.unicode.org/charts/PDF/U2900.pdf) |
+| Miscellaneous Mathematical Symbols-B | 2980..29FF | 3.2 | [U2980](https://www.unicode.org/charts/PDF/U2980.pdf) |
+| Supplemental Mathematical Operators | 2A00..2AFF | 3.2 | [U2A00](https://www.unicode.org/charts/PDF/U2A00.pdf) |
+| Miscellaneous Symbols and Arrows | 2B00.2BFF | 4.0 | [U2B00](https://www.unicode.org/charts/PDF/U2B00.pdf) |
+| Ideographic Description Characters | 2FF0..2FFF | 3.0 | [U2FF0](https://www.unicode.org/charts/PDF/U2FF0.pdf) |
+| CJK Symbols and Punctuation | 3004, 3012..3013, 3020, 3036..3037, 303E..303F | 1.1 | [U3000](https://www.unicode.org/charts/PDF/U3000.pdf) |
+| Hiragana | 309B..309C | 1.1 | [U3040](https://www.unicode.org/charts/PDF/U3040.pdf) |
+| Kanbun | 3190..319F | 1.1 | [U3190](https://www.unicode.org/charts/PDF/U3190.pdf) |
+| CJK Strokes | 31C0..31EF | 4.1 | [U31C0](https://www.unicode.org/charts/PDF/U31C0.pdf) |
+| Enclosed CJK Letters and Months | 3200..32FF | 1.1 | [U3200](https://www.unicode.org/charts/PDF/U3200.pdf) |
+| CJK Compatibility | 3300..33FF | 1.1 | [U3300](https://www.unicode.org/charts/PDF/U3300.pdf) |
+| Yijing Hexagram Symbols | 4DC0..4DFF | 4.0 | [U4DC0](https://www.unicode.org/charts/PDF/U4DC0.pdf) |
+| Modifier Tone Letters | A700..A71F | 4.1 | [UA700](https://www.unicode.org/charts/PDF/UA700.pdf) |
+| Latin Extended-D | A720..A721, A789..A78A | 5.0 | [UA720](https://www.unicode.org/charts/PDF/UA720.pdf) |
+| Common Indic Number Forms | A836..A839 | 5.2 | [UA830](https://www.unicode.org/charts/PDF/UA830.pdf) |
+| Latin Extended-E | AB5B | 7.0 | [UAB30](https://www.unicode.org/charts/PDF/UAB30.pdf) |
+| Small Form Variants | FE62, FE64..FE66, FE69 | 1.1 | [UFE50](https://www.unicode.org/charts/PDF/UFE50.pdf) |
+| Halfwidth and Fullwidth Forms | FF00..FFEF | 1.1 | [UFF00](https://www.unicode.org/charts/PDF/UFF00.pdf) |
+| Specials | FFFC..FFFD | 1.1 | [UFFF0](https://www.unicode.org/charts/PDF/UFFF0.pdf) |
+| Aegean Numbers | 10137..1013F | 4.0 | [U10100](https://www.unicode.org/charts/PDF/U10100.pdf) |
+| Ancient Symbols | 10190..101CF | 5.1 | [U10190](https://www.unicode.org/charts/PDF/U10190.pdf) |
+| Phaistos Disc | 101D0..101FF | 5.1 | [U101D0](https://www.unicode.org/charts/PDF/U101D0.pdf) |
+| Byzantine Musical Symbols | 1D000..1D0FF | 3.1 | [U1D000](https://www.unicode.org/charts/PDF/U1D000.pdf) |
+| Musical Symbols | 1D100..1D1FF | 3.1 | [U1D100](https://www.unicode.org/charts/PDF/U1D100.pdf) |
+| Musical Symbols Supplement | 1D250..1D28F | 18.0 | [U1D250](https://www.unicode.org/charts/PDF/U1D250.pdf) |
+| Tai Xuan Jing Symbols | 1D300..1D35F | 4.0 | [U1D300](https://www.unicode.org/charts/PDF/U1D300.pdf) |
+| Mathematical Alphanumeric Symbols | 1D6C1, 1D6DB, 1D6FB, 1D715, 1D735, 1D74F, 1D76F, 1D789, 1D7A9, 1D7C3 | 3.1 | [U1D400](https://www.unicode.org/charts/PDF/U1D400.pdf) |
+| Miscellaneous Symbols and Arrows Extended | 1DB00..1DBFF | 18.0 | [U1DB00](https://www.unicode.org/charts/PDF/U1DB00.pdf) |
+| Mahjong Tiles | 1F000..1F02F | 5.1 | [U1F000](https://www.unicode.org/charts/PDF/U1F000.pdf) |
+| Domino Tiles | 1F030..1F09F | 5.1 | [U1F030](https://www.unicode.org/charts/PDF/U1F030.pdf) |
+| Playing Cards | 1F0A0..1F0FF | 6.0 | [U1F0A0](https://www.unicode.org/charts/PDF/U1F0A0.pdf) |
+| Enclosed Alphanumeric Supplement | 1F100..1F1FF | 5.2 | [U1F100](https://www.unicode.org/charts/PDF/U1F100.pdf) |
+| Enclosed Ideographic Supplement | 1F200..1F2FF | 5.2 | [U1F200](https://www.unicode.org/charts/PDF/U1F200.pdf) |
+| Miscellaneous Symbols and Pictographs (Emoji &amp; Pictographs) | 1F300..1F5FF | 6.0 | [U1F300](https://www.unicode.org/charts/PDF/U1F300.pdf) |
+| Emoticons (Emoji &amp; Pictographs) | 1F600..1F64F | 6.0 | [U1F600](https://www.unicode.org/charts/PDF/U1F600.pdf) |
+| Ornamental Dingbats (Emoji &amp; Pictographs) | 1F650..1F67F | 7.0 | [U1F650](https://www.unicode.org/charts/PDF/U1F650.pdf) |
+| Transport and Map Symbols (Emoji &amp; Pictographs) | 1F680..1F6FF | 6.0 | [U1F680](https://www.unicode.org/charts/PDF/U1F680.pdf) |
+| Alchemical Symbols | 1F700..1F77F | 6.0 | [U1F700](https://www.unicode.org/charts/PDF/U1F700.pdf) |
+| Geometric Shapes Extended | 1F780..1F7FF | 7.0 | [U1F780](https://www.unicode.org/charts/PDF/U1F780.pdf) |
+| Supplemental Arrows-C | 1F800..1F8FF | 7.0 | [U1F800](https://www.unicode.org/charts/PDF/U1F800.pdf) |
+| Supplemental Symbols and Pictographs | 1F900..1F9FF | 8.0 | [U1F900](https://www.unicode.org/charts/PDF/U1F900.pdf) |
 
 ## Characters
 
@@ -454,39 +456,39 @@ The following is a list of all Symbols and which version of Unicode they were ad
 ## Proposals and documents
 
 A number of proposals for various Symbols have been submitted to the Unicode Technical Committee and WG2:
-- 2016-02-23 Proposal to add the Copyleft Symbol to Unicode — David Faulks ([L2/16-059](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-059))
-  - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 14 for recommendations)_
-  - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.2 for decision and action items)_
-- 2016-03-03 Astrological Plutos — David Faulks ([L2/16-067](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-067))
-  - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 13a for recommendations)_
-  - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.4 for decision and action items)_
-- 2016-03-06 Extra Symbols from Uranian Astrology — David Faulks ([L2/16-064](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-064))
-  - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 13b for recommendations)_
-  - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.3 for decision and action items)_
-- 2016-03-14 Proposal to encode two Western-style tally marks — Ken Lunde, Daisuke Miura     ([L2/16-065](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-065))
-  - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 15 for recommendations)_
-  - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.7 for decision and action items)_
-- 2016-04-21 Proposal to encode symbols for Go game notation — Andrew West (WG2 N4719, [L2/16-108](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-108))
-  - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.6 for decision and action items)_
-- 2016-05-28 Additional Symbols for Astrology — David Faulks ([L2/16-080](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-080))
-  - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 13c for recommendations)_
-  - _UTC #147 Minutes ([L2/16-121](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.4 for decision and action items)_
-  - _Recommendations to UTC #148 August 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu, and Lisa Moore ([L2/16-216](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-216)) (See section 16a for recommendations)_
-  - _UTC #148 Minutes ([L2/16-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-203)) (See E.2 for decision and action items)_
-- 2016-06-09 Extra Aspect Symbols for Astrology — David Faulks ([L2/16-174](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-174))
-- 2016-06-12 Eris and Sedna Symbols — David Faulks ([L2/16-173](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-173))
-  - _Recommendations to UTC #148 August 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu, and Lisa Moore ([L2/16-216](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-216)) (See section 16.b for recommendations)_
-- 2016-07-11 Proposal to encode symbols for Go game notation — Andrew West (WG2 N4719R, [L2/16-185](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-185))
-  - _Recommendations to UTC #148 August 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu, and Lisa Moore ([L2/16-216](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-216)) (See section 15 for recommendations)_
-  - _UTC #148 Minutes ([L2/16-203](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-203)) (See E.5 for decision and action items)_
-- 2020-08-24 Request to move the tentative location of Kaktovik numerals on the roadmap — Eduardo Marín Silva ([L2/20-262](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-262))
-  - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](http://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 20.)_
-- 2021-04-29 Unicode request for Kaktovik numerals — Eduardo Marín Silva, Kirk Miller, Catherine Strand ([L2/21-058](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-058))
-  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](http://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 16.)_
+- 2016-02-23 Proposal to add the Copyleft Symbol to Unicode — David Faulks ([L2/16-059](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-059))
+  - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 14 for recommendations)_
+  - _UTC #147 Minutes ([L2/16-121](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.2 for decision and action items)_
+- 2016-03-03 Astrological Plutos — David Faulks ([L2/16-067](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-067))
+  - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 13a for recommendations)_
+  - _UTC #147 Minutes ([L2/16-121](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.4 for decision and action items)_
+- 2016-03-06 Extra Symbols from Uranian Astrology — David Faulks ([L2/16-064](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-064))
+  - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 13b for recommendations)_
+  - _UTC #147 Minutes ([L2/16-121](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.3 for decision and action items)_
+- 2016-03-14 Proposal to encode two Western-style tally marks — Ken Lunde, Daisuke Miura     ([L2/16-065](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-065))
+  - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 15 for recommendations)_
+  - _UTC #147 Minutes ([L2/16-121](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.7 for decision and action items)_
+- 2016-04-21 Proposal to encode symbols for Go game notation — Andrew West (WG2 N4719, [L2/16-108](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-108))
+  - _UTC #147 Minutes ([L2/16-121](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.6 for decision and action items)_
+- 2016-05-28 Additional Symbols for Astrology — David Faulks ([L2/16-080](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-080))
+  - _Recommendations to UTC #147 May 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu ([L2/16-156](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-156)) (See section 13c for recommendations)_
+  - _UTC #147 Minutes ([L2/16-121](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-121)) (See E.4 for decision and action items)_
+  - _Recommendations to UTC #148 August 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu, and Lisa Moore ([L2/16-216](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-216)) (See section 16a for recommendations)_
+  - _UTC #148 Minutes ([L2/16-203](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-203)) (See E.2 for decision and action items)_
+- 2016-06-09 Extra Aspect Symbols for Astrology — David Faulks ([L2/16-174](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-174))
+- 2016-06-12 Eris and Sedna Symbols — David Faulks ([L2/16-173](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-173))
+  - _Recommendations to UTC #148 August 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu, and Lisa Moore ([L2/16-216](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-216)) (See section 16.b for recommendations)_
+- 2016-07-11 Proposal to encode symbols for Go game notation — Andrew West (WG2 N4719R, [L2/16-185](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-185))
+  - _Recommendations to UTC #148 August 2016 on Script Proposals — Deborah Anderson, Ken Whistler, Rick McGowan, Roozbeh Pournader, Andrew Glass, Laurentiu Iancu, and Lisa Moore ([L2/16-216](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-216)) (See section 15 for recommendations)_
+  - _UTC #148 Minutes ([L2/16-203](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/16-203)) (See E.5 for decision and action items)_
+- 2020-08-24 Request to move the tentative location of Kaktovik numerals on the roadmap — Eduardo Marín Silva ([L2/20-262](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/20-262))
+  - _Recommendations to UTC #165 October 2020 on Script Proposals ([L2/20-250](https://www.unicode.org/L2/L2020/20250-script-adhoc-rept.pdf)) (See point 20.)_
+- 2021-04-29 Unicode request for Kaktovik numerals — Eduardo Marín Silva, Kirk Miller, Catherine Strand ([L2/21-058](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/21-058))
+  - _Recommendations to UTC #167 April 2021 on Script Proposals ([L2/21-073](https://www.unicode.org/L2/L2021/21073-script-adhoc-rept.pdf)) (See point 16.)_
   - _UTC #167 Minutes ([L2/21-067](https://www.unicode.org/L2/L2021/21066.htm)) (See B.1, 167-C7, 167-A40, 167-A41 for decision and action items)_
-- 2023-01-29 Proposal to Encode a Hungarian Forint Symbol in the Unicode Standard — Vacek Nules ([L2/23-060](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-060))
+- 2023-01-29 Proposal to Encode a Hungarian Forint Symbol in the Unicode Standard — Vacek Nules ([L2/23-060](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-060))
   - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.iii.6.)_
-  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.6 for decision and action items)_
-- 2023-04-28 Revised designs of the alchemical symbols block — Kirk Miller ([L2/23-069](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-069))
+  - _UTC #175 Minutes ([L2/23-076](https://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.6 for decision and action items)_
+- 2023-04-28 Revised designs of the alchemical symbols block — Kirk Miller ([L2/23-069](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-069))
   - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.iii.5.)_
-  - _UTC #175 Minutes ([L2/23-076](http://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.5 for decision and action items)_
+  - _UTC #175 Minutes ([L2/23-076](https://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.5 for decision and action items)_

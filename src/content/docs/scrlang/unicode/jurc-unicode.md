@@ -3,14 +3,19 @@ title: Unicode Status for Jurchen
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-07-30
+lastUpdated: 2026-09-16
 ---
 
-The Jurchen script has been accepted for encoding in a future version of the Unicode Standard. The script has a provisional assignment at U+18E00..U+191DF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+In The Unicode Standard, Jurchen script implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-18/#G59286).
 
 ## Blocks
 
-None.
+The Jurchen script was encoded in The Unicode Standard version 18.0. The script is encoded in the following blocks:
+
+| Blocks | Character Range | Added in Unicode Version | Unicode Chart |
+| ------ | --------------- | ------------------------ | ------------- |
+| Jurchen | 18E00..1919F | 18.0 | [U18E00](https://www.unicode.org/charts/PDF/U18E00.pdf) |
+| Jurchen Radicals | 191A0..191DF | 18.0 | [U191A0](https://www.unicode.org/charts/PDF/U191A0.pdf) |
 
 ## Proposals and documents
 
