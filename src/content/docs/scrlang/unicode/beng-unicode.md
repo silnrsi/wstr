@@ -15,7 +15,7 @@ The Bengali script was first encoded in The Unicode Standard version 1.0. Since 
 | Blocks | Character Range | Added in Unicode Version | Documentation |
 | ------ | --------------- | ------------------------ | ------------- |
 | Bengali | 0980..09FF | 1.0 | [U0980.pdf](https://www.unicode.org/charts/PDF/U0980.pdf) |
-| Bengali Supplement | 11DF0..11DFF | 18.0 | [U0980.pdf](https://www.unicode.org/charts/PDF/U11DF0.pdf) |
+| Bengali Supplement | 11DF0..11DFF | 18.0 | [U11DF0.pdf](https://www.unicode.org/charts/PDF/U11DF0.pdf) |
 
 
 [Vedic Extensions](/scrlang/unicode/x-vedic-unicode) may be used with the Bengali script as well as many other Indic scripts.

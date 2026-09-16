@@ -16,7 +16,7 @@ The Small Seal script was encoded in The Unicode Standard version 18.0. The scri
 
 | Blocks | Character Range | Added in Unicode Version | Unicode Chart |
 | ------ | --------------- | ------------------------ | ------------- |
-| Small Seal | 3D000..3FC3F | 18.0 | [U18E00](https://www.unicode.org/charts/PDF/U3D000.pdf) |
+| Small Seal | 3D000..3FC3F | 18.0 | [U3D000](https://www.unicode.org/charts/PDF/U3D000.pdf) |
 
 ## Proposals and documents
 
