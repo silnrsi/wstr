@@ -17,6 +17,7 @@ const googleAnalyticsId = 'G-WHT6CVPT8M';
 export default defineConfig({
     site: process.env.ASTRO_SITE || "https://writingsystems.info",
     base: process.env.ASTRO_BASE || "/",
+    compressHTML: true,
     integrations: [
         starlight({
             title: 'Writing Systems Technical Resources',
