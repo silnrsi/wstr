@@ -39,7 +39,7 @@ abdullahi2011:
   date: "2011"
   publisher: Fahimta Publishing Company
   location: "Katsina, Nigeria"
-  keywords: [script-qa18]
+  keywords: [script-x-hausa-tafi]
   annotation: "This book is written by the creator of the Tafi script. It describes his reason for inventing the script and the process he went through to do so, and provides a detailed explanation of how the script works."
 abdullahi2016-ss:
   entrytype: online
@@ -49,7 +49,7 @@ abdullahi2016-ss:
   date: "2016-04-15"
   organization: MUSADAB
   sortname: Abdullahi
-  keywords: [script-qa18, lang-hau, lang-ibo, lang-yor]
+  keywords: [script-x-hausa-tafi, lang-hau, lang-ibo, lang-yor]
   abstract: "Taken from [https://tafiwriting.com/]"
 adobe-open-source:
   entrytype: online
@@ -170,6 +170,64 @@ arakun2009-ss:
   sortname: Arakun
   keywords: [script-bali]
   abstract: "The 18 consonants that are commonly used to write Balinese script."
+arab-char-support-sil:
+  entrytype: online
+  title: Arabic Script - Character Set Support
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/charset.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [fonts, script-arab]
+  annotation: "For optimal compatibility with a variety of operating systems, all Non-Roman fonts should also include a set of glyphs for basic Roman characters and punctuation. Ideally this should include all the following characters, although some depend on other considerations (see the notes). The basis for this list is a union of the Windows Codepage 1252 and MacRoman character sets plus additional useful characters."
+arab-comb-order-sil:
+  entrytype: online
+  title: Arabic Script - Combining mark ordering and positioning
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/combiningmarks.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [fonts, opentype, script-arab]
+  annotation: "This page discusses the complex logic required related to reordering combining marks so that they are displayed in a manner expected by the reader. Why these rules are necessary and how they work is described below."
+arab-lam-alef-sil:
+  entrytype: online
+  title: Arabic Script - Lam-Alef and Kashida
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/lamalef.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [char-0644, char-0627, char-0640, fonts, script-arab]
+  annotation: "This page discusses strategies for implementing the lam-alef ligature."
+arab-ligatures-sil:
+  entrytype: online
+  title: Arabic Script - Ligatures and ZWJ
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/ligatures.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [char-200d, fonts, opentype, script-arab]
+  annotation: "This page discusses when the ZERO WIDTH JOINER (ZWJ) should be used to increase the connectedness of adjacent glyphs."
+arab-maddah-sil:
+  entrytype: online
+  title: Arabic Script - Maddah or hamza, etc., relative to vowels
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/maddah.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [char-0653, fonts, opentype, script-arab]
+  annotation: "This page discusses how combining maddah should interact with other vowel marks."
+arab-spanning-sil:
+  entrytype: online
+  title: Arabic Script - Signs Spanning Numbers
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/spanning.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [char-0600, char-0601, char-0602, char-0603, char-0604, char-0605, char-06dd, char-0890, char-0891, char-08e2, fonts, opentype, script-arab]
+  annotation: "This page discusses characters in the Arabic script that span (or enclose) numbers, such as U+06DD End of Ayah and U+0605 Number Mark Above."
+aritonang2000:
+  entrytype: misc
+  title: The encounter of the Batak people with Rheinische Missions-Gesellschaft in the field of education (1861-1940)
+  author: Jan Sihar Aritonang
+  sortname: Aritonang
+  url: https://web.archive.org/web/20120219033317/http://igitur-archive.library.uu.nl/dissertations/1922364/full.pdf
+  date: "2000-06-15"
+  publisher: Universiteit Utrecht
+  location: Utrecht
+  keywords: [script-batk]
 arkland2020-ss:
   entrytype: online
   title: The Rök Runestone
@@ -223,7 +281,7 @@ aviv2005:
   url: http://icarusfilms.com/new2005/brul.html
   date: "2005"
   publisher: Icarus Films
-  keywords: [script-qa00]
+  keywords: [script-x-bete]
   annotation: "Independent film-maker Nurith Aviv produced a 17-minute documentary about the Bété script in 2005, featuring interviews with Frédéric Bruly Bouabré, the script’s creator."
 aysomphone2007-ss:
   entrytype: online
@@ -275,7 +333,7 @@ babelstone2025-ss:
   organization: Wikimedia
   presort: 22
   sortname: BabelStone
-  keywords: [script-qaag]
+  keywords: [script-x-ersu-shaba]
   abstract: "Ersu astrological almanac for half of a month, with Ersu Shaba pictographs and explanations in Tibetan."
 back2015:
   entrytype: article
@@ -330,7 +388,7 @@ barber1995:
   publisher: Redwood Books
   location: "Wiltshire, UK"
   pages: 428-431
-  keywords: [script-qa15]
+  keywords: [script-x-hausa-raina-kama]
   annotation: "This book section tells the story of the Raina Kama writers' circle and the alphabet they used. It does not contain technical information about the Raina Kama alphabet; rather it provides brief historical information."
 batak-script-ss:
   entrytype: online
@@ -531,7 +589,7 @@ bouabre:
   title: Frédéric Bruly Bouabré at the CAAC
   url: http://www.caacart.com/pigozzi-artist.php?i=Bruly-Bouabre-Frederic&m=14
   urldate: "2011-11-04"
-  keywords: [script-qa00]
+  keywords: [script-x-bete]
   annotation: "The Contemporary African Art Collection (CAAC), based in Geneva, is a private collection created by Italian business man, Jean Pigozzi. The collection contains 122 pages of Frédéric Bruly Bouabré’s original drawings which led to the creation of the Bété script in 1956."
 boyd2009:
   entrytype: misc
@@ -855,7 +913,7 @@ chola:
   title: "Chola at the Government Museum, Chennai"
   url: http://www.chennaimuseum.org/draft/gallery/01/04/inscrip2.htm
   urldate: "2011-11-08"
-  keywords: [script-qa32]
+  keywords: [script-x-chola]
   annotation: "The Government Museum in Chennai has a sample inscription in the Chola script, which is available to view online by clicking the link below."
 chong:
   entrytype: online
@@ -971,7 +1029,7 @@ cohen1977:
   date: "1977"
   publisher: De Gruyter Mouton
   location: The Hague
-  keywords: [script-qaah, lang-isr]
+  keywords: [script-x-eshkol-wachman, lang-isr]
   annotation: "Employing the Eshkol-Wachman Movement Notation System in a dictionary of Israeli Sign Language."
 compbell1977:
   entrytype: inbook
@@ -1044,7 +1102,7 @@ coorgi-cox-ss:
   organization: Wikimedia
   presort: 22
   sortname: Udelida
-  keywords: [script-qa68]
+  keywords: [script-x-coorgi-cox]
   abstract: "The characters of the Coorgi-Cox script with corresponding Latin script characters."
 coretext:
   entrytype: online
@@ -1374,7 +1432,7 @@ dalby1968:
   date: "1968"
   pages: 156-197
   volume: "IX"
-  keywords: [script-afak, script-bass, script-vaii, script-mend, script-loma, script-kpel, script-bamu, script-qabh, script-qa00]
+  keywords: [script-afak, script-bass, script-vaii, script-mend, script-loma, script-kpel, script-bamu, script-x-bagam, script-x-bete]
   annotation: "This paper discusses the sources of inspiration and design of the Vai, Mende, Loma, Kpelle, Bamum, Bagam, Bete and Djuka syllabaries, and the Bassa and Obɛri Ɔkaimɛ alphabets."
 dalby1969:
   entrytype: article
@@ -1385,7 +1443,7 @@ dalby1969:
   date: "1969"
   pages: 161-181
   volume: "X"
-  keywords: [script-gara, script-nkoo, script-qa02, script-qa01]
+  keywords: [script-gara, script-nkoo, script-x-fula-ba, script-x-fula-dita]
   annotation: "This is the third article David Dalby wrote on the indigenous scripts of West Africa. A sixth script (Gola) is mentioned as a postscript to the article. No samples are included and it seems to be mentioned in hopes that someone would provide the author with further information."
 daniels1996aramaic:
   entrytype: inbook
@@ -1762,7 +1820,7 @@ eshkol1971:
   date: "1971"
   publisher: Movement Notation Society
   location: Tel Aviv
-  keywords: [script-qaah, lang-isr]
+  keywords: [script-x-eshkol-wachman, lang-isr]
   annotation: "Description of the Eshkol-Wachman movement notation for use with Israeli Sign Language (ISL)."
 eslami2013:
   entrytype: online
@@ -2081,7 +2139,7 @@ furniss:
   author: Graham Furniss
   sortname: Furniss
   publisher: "School of Oriental and African Studies, University of London"
-  keywords: [script-qa15]
+  keywords: [script-x-hausa-raina-kama]
   annotation: "This paper includes a description of the history of the Nigerian writers' circle Raina Kama which created the script of the same name. It also includes samples of the script, although these are small and somewhat indistinct when the document is viewed on-screen.(CR)(CR)Clicking the link below will download a PDF of this document from the Hausa literature database at SOAS."
 fynn:
   entrytype: online
@@ -2158,7 +2216,7 @@ galtier1987:
   pages: 255-266
   volume: "57"
   number: "1"
-  keywords: [script-qa10]
+  keywords: [script-x-masaba]
   annotation: "This article (in French) outlines the history of indigenous African writing systems, in particular the Masaba script, and includes a Masaba character chart. The features and behaviour of the Masaba script are also discussed."
 gandhiji-hut-ss:
   entrytype: online
@@ -2169,6 +2227,15 @@ gandhiji-hut-ss:
   presort: 22
   keywords: [script-gujr]
   abstract: "This is the sign posted outside the hut where Gandhi stayed briefly, written in the Gujarati language and script.The translation provided at the location reads,(CR)(CR)\"Here under the mango tree in the hut made of palm leaves (khajoori) Gandhiji stayed from 14-4-1930 to 4-5-1930 after the world famous Dandi march. From here he gave impetus to the civil disobedience movement for breaking the salt act started on April 6 at Dandi and turned it into a nation wide movement. It was also from this place that he wrote a letter to the British viceroy expressing his firm resolve to march to the salt works at Dharasana.(CR)(CR)This is the place from where he was arrested by the British government after midnight on May 4, 1930.\""
+gaultney2001:
+  entrytype: misc
+  title: "Balancing typeface economy and legibility: Practical techniques for the type designer"
+  author: Victor Gaultney
+  sortname: Gaultney
+  url: https://gaultney.org/jvgtype/typedesign/legibility/
+  date: "2001"
+  keywords: [script-latn, fonts]
+  annotation: "This brief essay looks at some of the variables that affect legibility, particularly those under the control of the type designer. From this foundation, it continues with a summary of techniques used in the design of economical typefaces throughout type history and evaluates their impact on legibility. The focus is primarily on Latin text types, even though others (sans-serif, blackletter) can be quite compact and legible in their own right. Extreme experiments in legibility or economy are not covered as they have little practical value."
 gaultney2002:
   entrytype: misc
   title: Problems of Diacritic Design for Latin Script Text Faces
@@ -2470,7 +2537,7 @@ greenfield2003:
   publisher: The John Carter Brown Library
   location: "Providence, RI"
   pages: 189-214
-  keywords: [script-qabg]
+  keywords: [script-x-micmac-hieroglyphs]
 gregersen1977a:
   entrytype: book
   title: "Language in Africa: an introductory survey"
@@ -2592,7 +2659,7 @@ hamnosys:
   organization: Academy of Sciences in Hamburg
   url: https://www.sign-lang.uni-hamburg.de/dgs-korpus/files/inhalt_pdf/HamNoSys_2018.pdf
   urldate: "2023-08-03"
-  keywords: [script-qabn]
+  keywords: [script-x-hamburg-notation-system]
   annotation: "Quite comprehensive HamNoSys documentation, describing the features of the script and how each element of signed language is represented."
 hannas1997:
   entrytype: inbook
@@ -2743,7 +2810,7 @@ hewson1988:
   date: "1988"
   pages: 55-61
   volume: "47"
-  keywords: [script-qabg]
+  keywords: [script-x-micmac-hieroglyphs]
 hieratic-edwin-smith-ss:
   entrytype: online
   title: Edwin Smith Papyrus in Egyptian Hieratic Script
@@ -2785,7 +2852,7 @@ hoernle1915:
   pages: 487-493
   volume: "2"
   number: "2"
-  keywords: [script-qa40]
+  keywords: [script-x-khotanese]
   annotation: "This article focuses on the positioning of the diacritical mark indicating the short u in the Khotanese script, which made it almost indistinguishable from the long a."
 holisky1996:
   entrytype: inbook
@@ -2809,7 +2876,7 @@ hongkai2009:
   pages: 159-186
   volume: "1"
   number: "1"
-  keywords: [script-qaag]
+  keywords: [script-x-ersu-shaba]
   annotation: "This is an English translation of a Chinese paper written in 1982 by Hongkai Sun. It was translated in 2008 and published in the Asian Highlands Perspectives journal. The article provides an overview and analysis of some of the features of the Ersu Shaba Pictographic Writing System. The view held by some linguists that the pictographs are simply a series of drawings, rather than a writing system, is contested and reasons given for its contestation. Finally, two sample texts in the script are analysed and translated."
 hooley1978:
   entrytype: book
@@ -2832,19 +2899,9 @@ hopkins2008:
   pages: 75-89
   volume: "2008"
   number: "192"
-  keywords: [script-sgnw, script-qaaq]
+  keywords: [script-sgnw, script-x-stokoe-notation]
   abstract: "This article introduces the reader to the sociolinguistic issues surrounding the adoption of a writing system for sign languages. Initially, some background on sign language and Deaf culture is presented, followed by a discussion of several alternatives for writing sign languages and how these alternatives have been used and/or adopted. Sign languages in most parts of the world compete with spoken languages (languages that have established written traditions), resulting in diglossia. Though many scholars who work with the deaf community have tried to develop ways to write sign language(s), many Deaf do not feel the need for a writing system, either because they use video media or because they see writing as best done in the dominant language in their diglossic situation."
   annotation: "A discussion of various sign language writing systems and notations."
-hosken2008:
-  entrytype: online
-  title: Sequence Checking in Thai and Lao
-  author: Martin Hosken
-  sortname: Hosken
-  organization: SIL
-  url: http://scripts.sil.org/ThaiLaoSeq
-  date: "2008-04-25"
-  keywords: [script-thai, script-laoo, lang-kxm, lang-brv, lang-bru, lang-sss, lang-lwl, lang-lcp, analysis]
-  annotation: "Article containing details of problematic or 'illegal' character sequences that have been encountered in languages using the Thai and Lao scripts, so that system and application developers may take them into account as they design."
 hosszú2012:
   entrytype: book
   title: "Heritage of Scribes - The Relation of Rovas Scripts to Eurasian Writing Systems"
@@ -3268,7 +3325,7 @@ jackson2025-ss:
   organization: Wikimedia
   presort: 22
   sortname: Jackson
-  keywords: [script-qa83]
+  keywords: [script-x-iban]
   abstract: "Iban alphabet chart"
 jain2003:
   entrytype: inbook
@@ -3310,7 +3367,7 @@ jayaprakash:
   organization: Badagas of the Blue Mountains
   url: https://badaga.co/language/badaga-script/
   urldate: "2018-10-05"
-  keywords: [script-qabq, lang-bfq]
+  keywords: [script-x-badugu, lang-bfq]
   annotation: "A webpage containing details of several scripts which have been created to write the Badaga language, including the script devised by Kadasoley Yogesh."
 jayavara2009-ss:
   entrytype: online
@@ -3341,7 +3398,7 @@ kaida-script-ss:
   organization: Wikimedia
   presort: 22
   sortname: Metisauvergnat
-  keywords: [script-qa80]
+  keywords: [script-x-kaida]
   abstract: "Kaidā glyphs (カイダー字, Kaidā ji) are a set of pictograms once used in the Yaeyama Islands of southwestern Japan. The word kaidā was taken from Yonaguni, and most studies on the pictographs focused on Yonaguni Island. However, there is evidence for their use in Yaeyama's other islands, most notably on Taketomi Island.[1] They were used primarily for tax notices, thus were closely associated with the poll tax imposed on Yaeyama by Ryūkyū on Okinawa Island, which was in turn dominated by Satsuma Domain on Southern Kyushu."
 kandhadai2010:
   entrytype: article
@@ -3392,6 +3449,14 @@ kashmiri-lang:
   urldate: "2025-11-21"
   keywords: [script-arab, lang-kas]
   annotation: "Website about the Kashmiri language, including fonts and keyboard to download and some sample text resources in the language."
+kasra-sil:
+  entrytype: online
+  title: Kasra position relative to shadda
+  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/kasra.md
+  urldate: "2026-06-19"
+  organization: SIL Global
+  keywords: [char-064b, char-064e, char-0651, script-arab]
+  annotation: "Website about the position of the kasra and kasratan in relation to the shadda."
 kauder1866:
   entrytype: book
   title: "Buch das Gut, enthaltened den Katechismus"
@@ -3399,7 +3464,7 @@ kauder1866:
   sortname: Kauder
   url: http://www.archive.org/details/cihm_45436
   date: "1866"
-  keywords: [script-qabg]
+  keywords: [script-x-micmac-hieroglyphs]
   annotation: "This is an online microfiche copy of a Micmac prayer book from 1866. It is available to download in PDF format from the link below."
 kaur2010-ss:
   entrytype: online
@@ -3487,7 +3552,7 @@ khotanese-manuscript-ss:
   date: "2024-01-08"
   organization: Wikipedia
   presort: 22
-  keywords: [script-qa40, lang-kho]
+  keywords: [script-x-khotanese, lang-kho]
   abstract: "Khotanese manuscript with a poem written by the Khotanese thanking their Tibetan conquerors for 'guarding this land of Khotan'.<br />(CR)This file has been provided by the International Dunhuang Project from its digital collections, from original file BLE4_IOLKHOT50_4R1_1.<br />(CR)Catalogue entry: IOL Khot 50(4)"
 khudawadi-script-ss:
   entrytype: online
@@ -3631,7 +3696,7 @@ landa-script-ss:
   organization: Wikimedia
   presort: 22
   sortname: Trini1988
-  keywords: [script-qaaj]
+  keywords: [script-x-landa]
   abstract: "Landa Script, previously used in Punjab and Sindh."
 langtags:
   entrytype: online
@@ -3670,7 +3735,7 @@ lauder1921:
   sortname: Lauder
   url: http://www.archive.org/details/manueldeprires00kaud
   date: "1921"
-  keywords: [script-qabg]
+  keywords: [script-x-micmac-hieroglyphs]
   annotation: "This is an online copy of a Micmac Prayer book, reprinted in 1921. It is available for download from the link below."
 ldml:
   entrytype: online
@@ -3767,7 +3832,7 @@ lewis1958:
   pages: 134-156
   volume: "21"
   number: "1"
-  keywords: [script-qa85, lang-som]
+  keywords: [script-x-borama, lang-som]
   annotation: "This article discusses an orthography invented nearly 80 years ago by a well-known Gadabuursi sheikh. This is likely to be the first description of the script in literature."
 lexilogos-ss:
   entrytype: online
@@ -3928,7 +3993,7 @@ mafundikwa2004bambara:
   publisher: Mark Batty
   location: New York
   pages: 74-76
-  keywords: [script-qa10]
+  keywords: [script-x-masaba]
   annotation: "This chapter of Saki Mafundikwa's book briefly describes the Masaba syllabary and includes the character repertoire."
 mafundikwa2004bassa:
   entrytype: inbook
@@ -3951,7 +4016,7 @@ mafundikwa2004fula:
   publisher: Mark Batty
   location: New York
   pages: "132"
-  keywords: [script-qa02]
+  keywords: [script-x-fula-ba]
   annotation: "A chart showing the characters used to write the Fula Ba alphabet is provided in Saki Mafundikwa's book Afrikan Alphabets."
 mafundikwa2004fuladita:
   entrytype: inbook
@@ -3963,7 +4028,7 @@ mafundikwa2004fuladita:
   publisher: Mark Batty
   location: New York
   pages: "133"
-  keywords: [script-qa01]
+  keywords: [script-x-fula-dita]
   annotation: "Saki Mafundikwa's book African Alphabets contains a chart showing the characters used for writing the Fula Dita alphabet."
 mafundikwa2004mende:
   entrytype: inbook
@@ -4083,7 +4148,7 @@ martin2000:
   url: http://www.signwriting.org/archive/docs1/sw0032-Stokoe-Sutton.pdf
   date: "2000"
   publisher: Western Washington University
-  keywords: [script-qaaq, script-sgnw]
+  keywords: [script-x-stokoe-notation, script-sgnw]
   annotation: "A comparison of Stokoe Notation and Sutton SignWriting using concepts from linguistics. The discussion covers the creation and development of both systems, as well as a description of their structural features and a discussion of each one's suitability for purpose."
 masaba-syllabary-ss:
   entrytype: online
@@ -4092,7 +4157,7 @@ masaba-syllabary-ss:
   date: "2025-11-10"
   organization: Wikimedia
   presort: 22
-  keywords: [script-qa10]
+  keywords: [script-x-masaba]
 massaquoi1911:
   entrytype: article
   title: The Vai people and their syllabic writing
@@ -4407,7 +4472,7 @@ movement-notation:
   title: "Movement & Notation"
   url: http://movement-notation.org
   urldate: "2013-03-14"
-  keywords: [script-qaah]
+  keywords: [script-x-eshkol-wachman]
   annotation: "An introduction to the Eshkol-Wachman system of movement notation."
 moz-variable-fonts:
   entrytype: online
@@ -4716,6 +4781,181 @@ mutichou2010-ss:
   sortname: Mutichou
   keywords: [script-beng]
   abstract: "Up to four consecutive Bengali consonants not separated by vowels can be orthographically represented as a ligature called a \"consonant conjunct\". Typically, the first consonant in the conjunct is shown above and/or to the left of the following consonants. In this conjunct, pronounced [ndrɔ], the 'n' component here is in grey, 'd' is in blue, and 'r' is in red. The [ɔ] vowel is inherent, that is, not written."
+n8willis-arab-general:
+  entrytype: online
+  title: Arabic-style shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-arabic-general.md
+  urldate: "2026-06-18"
+  keywords: [script-arab, script-nkoo, script-syrc, script-mong, opentype]
+  annotation: "This document details the general shaping procedure shared by Arabic, N'Ko, Syriac, and Mongolian."  
+n8willis-arab:
+  entrytype: online
+  title: Arabic script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-arabic.md
+  urldate: "2026-06-18"
+  keywords: [script-arab, opentype]
+  annotation: "This document details the general shaping procedure shared by all Arabic script styles, and defines the common pieces that style-specific implementations share."  
+n8willis-beng:
+  entrytype: online
+  title: Bengali shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-bengali.md
+  urldate: "2026-06-18"
+  keywords: [script-beng, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Bengali script."  
+n8willis-deva:
+  entrytype: online
+  title: Devanagari shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-devanagari.md
+  urldate: "2026-06-18"
+  keywords: [script-deva, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Devanagari script."  
+n8willis-gujr:
+  entrytype: online
+  title: Gujarati shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-gujarati.md
+  urldate: "2026-06-18"
+  keywords: [script-gujr, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Gujarati script."  
+n8willis-guru:
+  entrytype: online
+  title: Gurmukhi shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-gujarati.md
+  urldate: "2026-06-18"
+  keywords: [script-guru, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Gurmukhi script."  
+n8willis-hang:
+  entrytype: online
+  title: Hangul script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-hangul.md
+  urldate: "2026-06-18"
+  keywords: [script-hang, script-jamo, script-kore, opentype]
+  annotation: "This document details the general shaping procedure shared by all Hangul script styles, and defines the common pieces that style-specific implementations share."  
+n8willis-hebr:
+  entrytype: online
+  title: Hebrew script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-hebrew.md
+  urldate: "2026-06-18"
+  keywords: [script-hebr, opentype]
+  annotation: "This document details the general shaping procedure shared by all Hebrew script styles, and defines the common pieces that style-specific implementations share."  
+n8willis-indic:
+  entrytype: online
+  title: Indic script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-indic-general.md
+  urldate: "2026-06-18"
+  keywords: [script-beng, script-deva, script-gran, script-gujr, script-guru, script-knda, script-mlym, script-newa, script-orya, script-sinh, script-taml, script-telu, script-tibt, script-tulu, opentype]
+  annotation: "This document outlines the general shaping procedure shared by all Indic scripts, and defines the common pieces that script-specific implementations share."
+n8willis-khmr:
+  entrytype: online
+  title: Khmer shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-khmer.md
+  urldate: "2026-06-18"
+  keywords: [script-khmr, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Khmer script."  
+n8willis-knda:
+  entrytype: online
+  title: Kannada shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-kannada.md
+  urldate: "2026-06-18"
+  keywords: [script-knda, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Kannada script."  
+n8willis-mlym:
+  entrytype: online
+  title: Malayalam shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-malayalam.md
+  urldate: "2026-06-18"
+  keywords: [script-mlym, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Malayalam script."  
+n8willis-mong:
+  entrytype: online
+  title: Mongolian script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-mongolian.md
+  urldate: "2026-06-18"
+  keywords: [script-mong, opentype]
+  annotation: "This document details the general shaping procedure shared by all Mongolian script styles, and defines the common pieces that style-specific implementations share."  
+n8willis-mymr:
+  entrytype: online
+  title: Myanmar shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-myanmar.md
+  urldate: "2026-06-18"
+  keywords: [script-mymr, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Myanmar script."  
+n8willis-nkoo:
+  entrytype: online
+  title: N'Ko script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-nko.md
+  urldate: "2026-06-18"
+  keywords: [script-nkoo, opentype]
+  annotation: "This document details the general shaping procedure shared by all N'Ko script styles, and defines the common pieces that style-specific implementations share."  
+n8willis-opentype:
+  entrytype: online
+  title: Default script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-default.md
+  urldate: "2026-06-18"
+  keywords: [opentype]
+  annotation: "This document details the default shaping procedure needed to display text runs in non-complex scripts. It may also be used as a fallback model for unrecognized scripts."  
+n8willis-orya:
+  entrytype: online
+  title: Oriya shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-oriya.md
+  urldate: "2026-06-18"
+  keywords: [script-orya, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Oriya script."  
+n8willis-sinh:
+  entrytype: online
+  title: Sinhala shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-sinhala.md
+  urldate: "2026-06-18"
+  keywords: [script-sinh, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Sinhala script."  
+n8willis-syrc:
+  entrytype: online
+  title: Syriac script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-sinhala.md
+  urldate: "2026-06-18"
+  keywords: [script-syrc, script-syre, script-syrj, script-syrn, opentype]
+  annotation: "This document details the general shaping procedure shared by all Syriac script styles, and defines the common pieces that style-specific implementations share."
+n8willis-taml:
+  entrytype: online
+  title: Tamil shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-tamil.md
+  urldate: "2026-06-18"
+  keywords: [script-taml, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Tamil script."
+n8willis-telu:
+  entrytype: online
+  title: Telugu shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-telugu.md
+  urldate: "2026-06-18"
+  keywords: [script-telu, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Telugu script."
+n8willis-thai-laoo:
+  entrytype: online
+  title: Thai and Lao shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-thai-lao.md
+  urldate: "2026-06-18"
+  keywords: [script-thai, script-laoo, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Thai and Lao scripts."
+n8willis-tibt:
+  entrytype: online
+  title: Tibetan shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-tibetan.md
+  urldate: "2026-06-18"
+  keywords: [script-tibt, opentype]
+  annotation: "This document details the shaping procedure needed to display text runs in the Tibetan script."
+n8willis-use:
+  entrytype: online
+  title: Universal Shaping Engine script shaping in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-use.md
+  urldate: "2026-06-18"
+  keywords: [fonts, opentype, rendering]
+  annotation: "This document details the default shaping procedure needed to display text runs in scripts supported by the Universal Shaping Engine (USE) model."
+n8willis-vedic:
+  entrytype: online
+  title: Vedic Extensions in OpenType
+  url: https://github.com/n8willis/opentype-shaping-documents/blob/master/opentype-shaping-vedic-extensions.md
+  urldate: "2026-06-18"
+  keywords: [script-beng, script-deva, script-gran, script-knda, script-mlym, script-newa, script-tibt, script-tulu, opentype]
+  annotation: "This document outlines the shaping information needed to display characters from the Unicode Vedic Extensions block, which may be used within text runs in many Indic scripts."
 naden1980:
   entrytype: book
   title: Mampruli Spelling Guide
@@ -4799,7 +5039,7 @@ newkirk1987:
   date: "1987"
   publisher: "Salk Institute for Biological Studies, Emerson & Stern Associates"
   location: San Diego
-  keywords: [script-qaao]
+  keywords: [script-x-signfont]
   annotation: "An explanation of the workings of SignFont Notation."
 nichols1996:
   entrytype: inbook
@@ -4860,7 +5100,7 @@ numidian-ss:
   date: "2025-10-27"
   organization: Wikimedia
   presort: 22
-  keywords: [script-phnx, script-qa45, lang-nxm]
+  keywords: [script-phnx, script-x-numidian, lang-nxm]
   abstract: "The first published sketch of the bilingual Ateban Mausoleum inscription of Dougga, Tunisia (Jean Emile Humbert).<br />(CR)Left side: Punic language, Phoenician script. Right side: Numidian language, Numidian script."
 obolensky1965:
   entrytype: book
@@ -5634,7 +5874,7 @@ omni-míkmaq:
   presort: 30
   url: http://www.omniglot.com/writing/mikmaq.htm
   urldate: "2010-07-08"
-  keywords: [script-qabg]
+  keywords: [script-x-micmac-hieroglyphs]
 omni-modi:
   entrytype: online
   title: Modi alphabet
@@ -6016,7 +6256,7 @@ onceinawhile2026-ss:
   organization: Wikimedia
   presort: 22
   sortname: Onceinawhile
-  keywords: [script-qa29]
+  keywords: [script-x-byblos]
   abstract: "The tablet is on display in the National Museum of Beirut."
 opentype:
   entrytype: online
@@ -6074,7 +6314,7 @@ osborn2004:
   sortname: Osborn
   url: http://www.bisharat.net/Demos/Hausa_alphabet.htm
   date: "2004-02-10"
-  keywords: [script-qa16]
+  keywords: [script-x-hausa-salifou]
 osborn2005:
   entrytype: online
   title: Hausa alphabet from a 1993 publication
@@ -6082,7 +6322,7 @@ osborn2005:
   sortname: Osborn
   url: http://www.bisharat.net/Demos/Hausa_alpha_2.htm
   date: "2005-04-19"
-  keywords: [script-qa15]
+  keywords: [script-x-hausa-raina-kama]
   annotation: "This page contains a character chart showing the letters of the alphabet used by the Raina Kama writers' circle."
 osmanya-alphabet-ss:
   entrytype: online
@@ -6361,7 +6601,7 @@ recommended-chars-ss:
   date: "2024"
   organization: SIL Global
   keywords: [fonts]
-  abstract: ":::tip[](CR)SIL has updated the list of recommended characters and the file for this is now in a format useful for pysilfont. The updated file, which will continue to be maintained, is available in  [this repository](https://github.com/silnrsi/pysilfont/blob/master/src/silfont/data/required_chars.md). The file itself is here: [https://github.com/silnrsi/pysilfont/blob/master/src/silfont/data/required_chars.csv](https://github.com/silnrsi/pysilfont/blob/master/src/silfont/data/required_chars.csv). The information below is still available for historical reasons, but it will not be further updated.(CR):::For optimal compatibility with a variety of operating systems, all Non-Roman fonts should include a set of glyphs for basic Roman characters and punctuation. Ideally this should include all the following characters, although some depend on other considerations (see the notes). The basis for this list is a union of the Windows Codepage 1252 and MacRoman character sets plus additional useful characters. This list is also available as a [download file](https://scriptsource.org/entry/ur5l5lvx87).(CR)(CR)Although this page is not intended to explain how to implement OpenType for these characters, there are some notes which might be valuable for implementers.(CR)(CR)|  Block  |  Chars  |  Why Include?  |(CR)| ------- | ------- | -------------- |(CR)|  Basic Latin  |  0020..007E  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  Latin-1 Supplement  |  00A0..00FF  |  Codepage 1252<br/>(many are also in Mac-Roman)  |(CR)|  Latin Extended-A  |  0131  |  Mac-Roman  |(CR)|  Latin Extended-A  |  0152..0153, 0160..0161, 0178, 017D..017E  |  Codepage 1252<br/>(many are also in Mac-Roman)  |(CR)|  Latin Extended-B  |  0192  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  IPA Extensions  |   |  Some have requested adding any IPA characters that are in use in the country. WSTech recommends _not_ trying to make your Non-Roman font suitable for linguistics as well. Linguists should be encouraged to use a complete font such as [Doulos SIL](http://software.sil.org/doulos/) or [Charis SIL](http://software.sil.org/charis/). An application like [FLEx](http://software.sil.org/fieldworks) should recognize that such linguistic \"markup\" may be in a different script from the vernacular data, so it may need to use separate fonts (and writing system behaviors) for those elements that are not in the same orthography as the vernacular data.  |(CR)|  Spacing Modifier Letters  |  02C6, 02DC  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  Spacing Modifier Letters  |  02C7, 02D0, 02D8..02DB, 02DD  |  Mac-Roman  |(CR)|  Combining Diacritical Marks  |  034F  |  Add if your Non-Roman script needs the CGJ  |(CR)|  Greek and Coptic  |  03C0  |  Mac-Roman  |(CR)|  General Punctuation  |  2000..2012  |  **Note 1:** Control characters, typically shown in the standard with a dotted square box, should be included to support publishing and Non-Roman fonts. Depending on rendering engine and smart font logic, the default glyph for a control character might be (1) a visible glyph which, if a \"show invisibles\" feature is not enabled, is then either deleted or substituted by an invisible glyph during rendering, or (2) an invisible glyph which can then be substituted by a visible glyph using the \"show invisibles\" feature. <br/>**Note 2:** Many of the spaces  and dashes are necessary for publishing. <br/>**Note 3:** Some punctuation characters in a font need to work for both Roman and Non-Roman script, but a different shape may be needed for each. In that case, you should include both sets of punctuation in the font. The cmap should point to the Latin-compatible ones; the others should be unencoded. However, in the OpenType table for your Non-Roman script, in the \"ccmp\" feature, substitute the Non-Roman-compatible glyphs for the Latin ones (thus the font works for _both_ scripts). This will only work if the Non-Roman script is well supported by applications and rendering engines. In the case of a script such as Ethiopic, the Ethiopic-style punctuation never gets substituted. In this case, the default should be Ethiopic-style punctuation and a Stylistic Set is an option for turning on Latin-style punctuation.  |(CR)|  General Punctuation  |  2013..2014  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  General Punctuation  |  2015  |  See \"Note 2\" above.  |(CR)|  General Punctuation  |  2018..201A, 201C..201E, 2020..2022, 2026  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  General Punctuation  |  2027  |  Used in publishing.  |(CR)|  General Punctuation  |  2028..2029  |  See \"Note 1\" above.  |(CR)|  General Punctuation  |  202A..202E  |  See \"Note 1\" above. These are only needed if the font supports right-to-left scripts. |(CR)|  General Punctuation  |  202F  |  See \"Note 1\" above.  |(CR)|  General Punctuation  |  2030, 2039..203A  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  General Punctuation  |  2044  |  Mac-Roman  |(CR)|  General Punctuation  |  2060  |  See \"Note 1\" above.  |(CR)|  General Punctuation  |  2066..2069  |  See \"Note 1\" above. These are only needed if the font supports right-to-left scripts. |(CR)|  Currency Symbols  |  20AC  |  Codepage 1252<br/>Consider adding currency symbol(s) that may be needed for the countries where the fonts might be used.  |(CR)|  Letterlike Symbols  |  2122  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  Letterlike Symbols  |  2126  |  Mac-Roman  |(CR)|  Mathematical Operators  |  2202, 2206, 220F, 2211  |  Mac-Roman  |(CR)|  Mathematical Operators  |  2219  |  Sometimes used instead of 00B7.  |(CR)|  Mathematical Operators  |  221A, 221E, 222B, 2248, 2260, 2264..2265  |  Mac-Roman  |(CR)|  Control Pictures  |  2423  |  Used to represent a visible space in TeX  |(CR)|  Geometric Shapes  |  25CA  |  Mac-Roman  |(CR)|  Geometric Shapes  |  25CC  |  If your OpenType font supports combining diacritics, be sure to include U+25CC DOTTED CIRCLE in your font, and optionally include this in your positioning rules for all your combining marks. This is because Uniscribe will insert U+25CC between \"illegal\" diacritic sequences (such as two U+064E characters in a row) to make the mistake more visible.<br/>See [Handling invalid combining marks](https://docs.microsoft.com/en-us/typography/script-development/arabic#handling-invalid-combining-marks).  |(CR)|  Alphabetic Presentation Forms  |  FB01..FB02  |  Mac-Roman  |(CR)|  Variation Selectors  |  FE00.FE0F  |  We recommend that _all_ fonts include support for Unicode variation selectors, even if the characters supported by a font don't combine with VSs — in fact, especially if they don't — i.e. add them to the cmap and point them to null glyphs.<br/>The reason is this: it's possible that at some point in the future a VS mapping could be defined for potentially any character in Unicode. It's not all that likely to happen for the characters in the standard now, but there is no way in principle to guarantee it. If at some point in the future text started appearing with VSs where you didn't expect them before (e.g. a VS within Cyrillic script), then you wouldn't want people (using your previously existing fonts) to suddenly start seeing boxes (or whatever is used to represent unsupported glyphs). Of course, your font would not display the variant glyph they would like to see, but the font would still display something legible.<br/>Related to this, people need a way on occasion to see hidden control characters such as VSs, ZWJs, viramas and other similar characters. All fonts should include control picture glyphs for all of these ... and there should be an OT feature that turns off any shaping based on these controls and causes these control pictures to be displayed.[^1] |(CR)| Arabic Presentation Forms-B  |  FEFF  |  BYTE ORDER MARK, making this visible might be helpful  |(CR)| Specials  |  FFFC..FFFD  |  Encoding conversion utilities often put these in, and it's a lot easier for someone looking at the converted text to figure out what's going on if these have a visual representation.  |(CR)(CR)(CR)(CR)(CR)(CR)[^1]: This note was first posted to an OpenType mailing list by a member of the WSTech team(CR)(CR)(CR)(CR)(CR)"
+  abstract: ":::tip[](CR)SIL has updated the list of recommended characters and the file for this is now in a format useful for pysilfont. The updated file, which will continue to be maintained, is available in  [this repository](https://github.com/silnrsi/pysilfont/blob/master/src/silfont/data/required_chars.md). The file itself is here: [https://github.com/silnrsi/pysilfont/blob/master/src/silfont/data/required_chars.csv](https://github.com/silnrsi/pysilfont/blob/master/src/silfont/data/required_chars.csv). The information below is still available for historical reasons, but it will not be further updated.(CR):::For optimal compatibility with a variety of operating systems, all Non-Roman fonts should include a set of glyphs for basic Roman characters and punctuation. Ideally this should include all the following characters, although some depend on other considerations (see the notes). The basis for this list is a union of the Windows Codepage 1252 and MacRoman character sets plus additional useful characters. (CR)(CR)Although this page is not intended to explain how to implement OpenType for these characters, there are some notes which might be valuable for implementers.(CR)(CR)|  Block  |  Chars  |  Why Include?  |(CR)| ------- | ------- | -------------- |(CR)|  Basic Latin  |  0020..007E  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  Latin-1 Supplement  |  00A0..00FF  |  Codepage 1252<br/>(many are also in Mac-Roman)  |(CR)|  Latin Extended-A  |  0131  |  Mac-Roman  |(CR)|  Latin Extended-A  |  0152..0153, 0160..0161, 0178, 017D..017E  |  Codepage 1252<br/>(many are also in Mac-Roman)  |(CR)|  Latin Extended-B  |  0192  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  IPA Extensions  |   |  Some have requested adding any IPA characters that are in use in the country. WSTech recommends _not_ trying to make your Non-Roman font suitable for linguistics as well. Linguists should be encouraged to use a complete font such as [Doulos SIL](http://software.sil.org/doulos/) or [Charis SIL](http://software.sil.org/charis/). An application like [FLEx](http://software.sil.org/fieldworks) should recognize that such linguistic \"markup\" may be in a different script from the vernacular data, so it may need to use separate fonts (and writing system behaviors) for those elements that are not in the same orthography as the vernacular data.  |(CR)|  Spacing Modifier Letters  |  02C6, 02DC  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  Spacing Modifier Letters  |  02C7, 02D0, 02D8..02DB, 02DD  |  Mac-Roman  |(CR)|  Combining Diacritical Marks  |  034F  |  Add if your Non-Roman script needs the CGJ  |(CR)|  Greek and Coptic  |  03C0  |  Mac-Roman  |(CR)|  General Punctuation  |  2000..2012  |  **Note 1:** Control characters, typically shown in the standard with a dotted square box, should be included to support publishing and Non-Roman fonts. Depending on rendering engine and smart font logic, the default glyph for a control character might be (1) a visible glyph which, if a \"show invisibles\" feature is not enabled, is then either deleted or substituted by an invisible glyph during rendering, or (2) an invisible glyph which can then be substituted by a visible glyph using the \"show invisibles\" feature. <br/>**Note 2:** Many of the spaces  and dashes are necessary for publishing. <br/>**Note 3:** Some punctuation characters in a font need to work for both Roman and Non-Roman script, but a different shape may be needed for each. In that case, you should include both sets of punctuation in the font. The cmap should point to the Latin-compatible ones; the others should be unencoded. However, in the OpenType table for your Non-Roman script, in the \"ccmp\" feature, substitute the Non-Roman-compatible glyphs for the Latin ones (thus the font works for _both_ scripts). This will only work if the Non-Roman script is well supported by applications and rendering engines. In the case of a script such as Ethiopic, the Ethiopic-style punctuation never gets substituted. In this case, the default should be Ethiopic-style punctuation and a Stylistic Set is an option for turning on Latin-style punctuation.  |(CR)|  General Punctuation  |  2013..2014  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  General Punctuation  |  2015  |  See \"Note 2\" above.  |(CR)|  General Punctuation  |  2018..201A, 201C..201E, 2020..2022, 2026  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  General Punctuation  |  2027  |  Used in publishing.  |(CR)|  General Punctuation  |  2028..2029  |  See \"Note 1\" above.  |(CR)|  General Punctuation  |  202A..202E  |  See \"Note 1\" above. These are only needed if the font supports right-to-left scripts. |(CR)|  General Punctuation  |  202F  |  See \"Note 1\" above.  |(CR)|  General Punctuation  |  2030, 2039..203A  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  General Punctuation  |  2044  |  Mac-Roman  |(CR)|  General Punctuation  |  2060  |  See \"Note 1\" above.  |(CR)|  General Punctuation  |  2066..2069  |  See \"Note 1\" above. These are only needed if the font supports right-to-left scripts. |(CR)|  Currency Symbols  |  20AC  |  Codepage 1252<br/>Consider adding currency symbol(s) that may be needed for the countries where the fonts might be used.  |(CR)|  Letterlike Symbols  |  2122  |  Codepage 1252 _and_ Mac-Roman  |(CR)|  Letterlike Symbols  |  2126  |  Mac-Roman  |(CR)|  Mathematical Operators  |  2202, 2206, 220F, 2211  |  Mac-Roman  |(CR)|  Mathematical Operators  |  2219  |  Sometimes used instead of 00B7.  |(CR)|  Mathematical Operators  |  221A, 221E, 222B, 2248, 2260, 2264..2265  |  Mac-Roman  |(CR)|  Control Pictures  |  2423  |  Used to represent a visible space in TeX  |(CR)|  Geometric Shapes  |  25CA  |  Mac-Roman  |(CR)|  Geometric Shapes  |  25CC  |  If your OpenType font supports combining diacritics, be sure to include U+25CC DOTTED CIRCLE in your font, and optionally include this in your positioning rules for all your combining marks. This is because Uniscribe will insert U+25CC between \"illegal\" diacritic sequences (such as two U+064E characters in a row) to make the mistake more visible.<br/>See [Handling invalid combining marks](https://docs.microsoft.com/en-us/typography/script-development/arabic#handling-invalid-combining-marks).  |(CR)|  Alphabetic Presentation Forms  |  FB01..FB02  |  Mac-Roman  |(CR)|  Variation Selectors  |  FE00.FE0F  |  We recommend that _all_ fonts include support for Unicode variation selectors, even if the characters supported by a font don't combine with VSs — in fact, especially if they don't — i.e. add them to the cmap and point them to null glyphs.<br/>The reason is this: it's possible that at some point in the future a VS mapping could be defined for potentially any character in Unicode. It's not all that likely to happen for the characters in the standard now, but there is no way in principle to guarantee it. If at some point in the future text started appearing with VSs where you didn't expect them before (e.g. a VS within Cyrillic script), then you wouldn't want people (using your previously existing fonts) to suddenly start seeing boxes (or whatever is used to represent unsupported glyphs). Of course, your font would not display the variant glyph they would like to see, but the font would still display something legible.<br/>Related to this, people need a way on occasion to see hidden control characters such as VSs, ZWJs, viramas and other similar characters. All fonts should include control picture glyphs for all of these ... and there should be an OT feature that turns off any shaping based on these controls and causes these control pictures to be displayed.[^1] |(CR)| Arabic Presentation Forms-B  |  FEFF  |  BYTE ORDER MARK, making this visible might be helpful  |(CR)| Specials  |  FFFC..FFFD  |  Encoding conversion utilities often put these in, and it's a lot easier for someone looking at the converted text to figure out what's going on if these have a visual representation.  |(CR)(CR)(CR)(CR)(CR)(CR)[^1]: This note was first posted to an OpenType mailing list by a member of the WSTech team(CR)(CR)(CR)(CR)(CR)"
 redish:
   entrytype: misc
   title: The Cherokee Alphabet And How To Use It
@@ -6537,7 +6777,7 @@ rovenchak2009:
   date: "2009"
   volume: "2009"
   number: "0009-10-19125"
-  keywords: [script-bamu, script-qabh]
+  keywords: [script-bamu, script-x-bagam]
   abstract: "The Bagam (Eghap) script from the Grassfields region of Cameroon is briefly analyzed. An attempt to identify the phonetic values of some Bagam characters is made and some similarity with the Bamum script is reported."
   annotation: "Paper analyzing the Bagam script."
 ryazanov2023-ss:
@@ -6801,8 +7041,16 @@ signwriting-transcription-systems:
   organization: SignWriting
   url: http://www.signwriting.org/forums/linguistics/ling001.html
   urldate: "2023-08-07"
-  keywords: [script-qaaq, script-qabn, script-sgnw, lang-ase, conversion, transcription]
+  keywords: [script-x-stokoe-notation, script-x-hamburg-notation-system, script-sgnw, lang-ase, conversion, transcription]
   annotation: "This page presents a small selection of words as represented in SignWriting, Stokoe Notation, and HamNoSys for the purpose of comparison. A photograph of a person signing each word in American Sign Language is also provided."
+sil-arab-patterns:
+  entrytype: online
+  entrysubtype: f
+  title: Characters which follow a different dot pattern
+  organization: SIL
+  url: https://software.sil.org/arabicfonts/differentpattern/
+  urldate: "2026-06-23"
+  keywords: [script-arab, char-064a, char-06ba, char-06bd, char-06cc, char-0775, char-0776, char-077a, char-077b, char-08bb, char-08bc, char-08bd, char-08c4]
 sil-fonts:
   entrytype: online
   entrysubtype: f
@@ -7028,2222 +7276,6 @@ soyombo-writing-ss:
   sortname: Orgio89
   keywords: [script-soyo]
   abstract: "The Soyombo script writing of Mongolia. This script was first created by Zanabazar."
-ss-script-adlm:
-  entrytype: online
-  title: Adlam
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Adlm
-  urldate: "2025-11-17"
-  keywords: [script-adlm]
-ss-script-afak:
-  entrytype: online
-  title: Afaka
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Afak
-  urldate: "2025-11-17"
-  keywords: [script-afak]
-ss-script-aghb:
-  entrytype: online
-  title: Caucasian Albanian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Aghb
-  urldate: "2025-11-17"
-  keywords: [script-aghb]
-ss-script-ahom:
-  entrytype: online
-  title: Ahom
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Ahom
-  urldate: "2025-11-17"
-  keywords: [script-ahom]
-ss-script-arab:
-  entrytype: online
-  title: Arabic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Arab
-  urldate: "2025-11-17"
-  keywords: [script-arab]
-ss-script-aran:
-  entrytype: online
-  title: Arabic (Nastaliq variant)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Aran
-  urldate: "2025-11-17"
-  keywords: [script-aran]
-ss-script-armi:
-  entrytype: online
-  title: Imperial Aramaic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Armi
-  urldate: "2025-11-17"
-  keywords: [script-armi]
-ss-script-armn:
-  entrytype: online
-  title: Armenian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Armn
-  urldate: "2025-11-17"
-  keywords: [script-armn]
-ss-script-avst:
-  entrytype: online
-  title: Avestan
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Avst
-  urldate: "2025-11-17"
-  keywords: [script-avst]
-ss-script-bali:
-  entrytype: online
-  title: Balinese
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Bali
-  urldate: "2025-11-17"
-  keywords: [script-bali]
-ss-script-bamu:
-  entrytype: online
-  title: Bamum
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Bamu
-  urldate: "2025-11-17"
-  keywords: [script-bamu]
-ss-script-bass:
-  entrytype: online
-  title: Bassa Vah
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Bass
-  urldate: "2025-11-17"
-  keywords: [script-bass]
-ss-script-batk:
-  entrytype: online
-  title: Batak
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Batk
-  urldate: "2025-11-17"
-  keywords: [script-batk]
-ss-script-beng:
-  entrytype: online
-  title: Bengali (Bangla)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Beng
-  urldate: "2025-11-17"
-  keywords: [script-beng]
-ss-script-berf:
-  entrytype: online
-  title: Beria Erfe
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Berf
-  urldate: "2025-11-17"
-  keywords: [script-berf]
-ss-script-bhks:
-  entrytype: online
-  title: Bhaiksuki
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Bhks
-  urldate: "2025-11-17"
-  keywords: [script-bhks]
-ss-script-blis:
-  entrytype: online
-  title: Blissymbols
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Blis
-  urldate: "2025-11-17"
-  keywords: [script-blis]
-ss-script-bopo:
-  entrytype: online
-  title: Bopomofo
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Bopo
-  urldate: "2025-11-17"
-  keywords: [script-bopo]
-ss-script-brah:
-  entrytype: online
-  title: Brahmi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Brah
-  urldate: "2025-11-17"
-  keywords: [script-brah]
-ss-script-brai:
-  entrytype: online
-  title: Braille
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Brai
-  urldate: "2025-11-17"
-  keywords: [script-brai]
-ss-script-bugi:
-  entrytype: online
-  title: Buginese
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Bugi
-  urldate: "2025-11-17"
-  keywords: [script-bugi]
-ss-script-buhd:
-  entrytype: online
-  title: Buhid
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Buhd
-  urldate: "2025-11-17"
-  keywords: [script-buhd]
-ss-script-cakm:
-  entrytype: online
-  title: Chakma
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Cakm
-  urldate: "2025-11-17"
-  keywords: [script-cakm]
-ss-script-cans:
-  entrytype: online
-  title: Unified Canadian Aboriginal Syllabics
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Cans
-  urldate: "2025-11-17"
-  keywords: [script-cans]
-ss-script-cari:
-  entrytype: online
-  title: Carian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Cari
-  urldate: "2025-11-17"
-  keywords: [script-cari]
-ss-script-cham:
-  entrytype: online
-  title: Cham
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Cham
-  urldate: "2025-11-17"
-  keywords: [script-cham]
-ss-script-cher:
-  entrytype: online
-  title: Cherokee
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Cher
-  urldate: "2025-11-17"
-  keywords: [script-cher]
-ss-script-chis:
-  entrytype: online
-  title: Chisoi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Chis
-  urldate: "2025-11-17"
-  keywords: [script-chis]
-ss-script-chrs:
-  entrytype: online
-  title: Chorasmian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Chrs
-  urldate: "2025-11-17"
-  keywords: [script-chrs]
-ss-script-cirt:
-  entrytype: online
-  title: Cirth
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Cirt
-  urldate: "2025-11-17"
-  keywords: [script-cirt]
-ss-script-copt:
-  entrytype: online
-  title: Coptic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Copt
-  urldate: "2025-11-17"
-  keywords: [script-copt]
-ss-script-cpmn:
-  entrytype: online
-  title: "Cypro-Minoan"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Cpmn
-  urldate: "2025-11-17"
-  keywords: [script-cpmn]
-ss-script-cprt:
-  entrytype: online
-  title: Cypriot syllabary
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Cprt
-  urldate: "2025-11-17"
-  keywords: [script-cprt]
-ss-script-cyrl:
-  entrytype: online
-  title: Cyrillic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Cyrl
-  urldate: "2025-11-17"
-  keywords: [script-cyrl]
-ss-script-cyrs:
-  entrytype: online
-  title: Cyrillic (Old Church Slavonic variant)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Cyrs
-  urldate: "2025-11-17"
-  keywords: [script-cyrs]
-ss-script-deva:
-  entrytype: online
-  title: Devanagari (Nagari)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Deva
-  urldate: "2025-11-17"
-  keywords: [script-deva]
-ss-script-diak:
-  entrytype: online
-  title: Dives Akuru
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Diak
-  urldate: "2025-11-17"
-  keywords: [script-diak]
-ss-script-dogr:
-  entrytype: online
-  title: Dogra
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Dogr
-  urldate: "2025-11-17"
-  keywords: [script-dogr]
-ss-script-dsrt:
-  entrytype: online
-  title: Deseret (Mormon)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Dsrt
-  urldate: "2025-11-17"
-  keywords: [script-dsrt]
-ss-script-dupl:
-  entrytype: online
-  title: "Duployan shorthand, Duployan stenography"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Dupl
-  urldate: "2025-11-17"
-  keywords: [script-dupl]
-ss-script-egyd:
-  entrytype: online
-  title: Egyptian demotic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Egyd
-  urldate: "2025-11-17"
-  keywords: [script-egyd]
-ss-script-egyh:
-  entrytype: online
-  title: Egyptian hieratic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Egyh
-  urldate: "2025-11-17"
-  keywords: [script-egyh]
-ss-script-egyp:
-  entrytype: online
-  title: Egyptian hieroglyphs
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Egyp
-  urldate: "2025-11-17"
-  keywords: [script-egyp]
-ss-script-elba:
-  entrytype: online
-  title: Elbasan
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Elba
-  urldate: "2025-11-17"
-  keywords: [script-elba]
-ss-script-elym:
-  entrytype: online
-  title: Elymaic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Elym
-  urldate: "2025-11-17"
-  keywords: [script-elym]
-ss-script-ethi:
-  entrytype: online
-  title: Ethiopic (Geʻez)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Ethi
-  urldate: "2025-11-17"
-  keywords: [script-ethi]
-ss-script-gara:
-  entrytype: online
-  title: Garay
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Gara
-  urldate: "2025-11-17"
-  keywords: [script-gara]
-ss-script-geok:
-  entrytype: online
-  title: Khutsuri (Asomtavruli and Nuskhuri)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Geok
-  urldate: "2025-11-17"
-  keywords: [script-geok]
-ss-script-geor:
-  entrytype: online
-  title: Georgian (Mkhedruli and Mtavruli)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Geor
-  urldate: "2025-11-17"
-  keywords: [script-geor]
-ss-script-glag:
-  entrytype: online
-  title: Glagolitic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Glag
-  urldate: "2025-11-17"
-  keywords: [script-glag]
-ss-script-gong:
-  entrytype: online
-  title: Gunjala Gondi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Gong
-  urldate: "2025-11-17"
-  keywords: [script-gong]
-ss-script-gonm:
-  entrytype: online
-  title: Masaram Gondi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Gonm
-  urldate: "2025-11-17"
-  keywords: [script-gonm]
-ss-script-goth:
-  entrytype: online
-  title: Gothic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Goth
-  urldate: "2025-11-17"
-  keywords: [script-goth]
-ss-script-gran:
-  entrytype: online
-  title: Grantha
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Gran
-  urldate: "2025-11-17"
-  keywords: [script-gran]
-ss-script-grek:
-  entrytype: online
-  title: Greek
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Grek
-  urldate: "2025-11-17"
-  keywords: [script-grek]
-ss-script-gujr:
-  entrytype: online
-  title: Gujarati
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Gujr
-  urldate: "2025-11-17"
-  keywords: [script-gujr]
-ss-script-gukh:
-  entrytype: online
-  title: Gurung Khema
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Gukh
-  urldate: "2025-11-17"
-  keywords: [script-gukh]
-ss-script-guru:
-  entrytype: online
-  title: Gurmukhi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Guru
-  urldate: "2025-11-17"
-  keywords: [script-guru]
-ss-script-hanb:
-  entrytype: online
-  title: Han with Bopomofo (alias for Hant + Bopo)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hanb
-  urldate: "2025-11-17"
-  keywords: [script-hanb]
-ss-script-hang:
-  entrytype: online
-  title: "Hangul (Hangŭl, Hangeul)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hang
-  urldate: "2025-11-17"
-  keywords: [script-hang]
-ss-script-hani:
-  entrytype: online
-  title: "Han (Hanzi, Kanji, Hanja)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hani
-  urldate: "2025-11-17"
-  keywords: [script-hani]
-ss-script-hano:
-  entrytype: online
-  title: Hanunoo (Hanunóo)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hano
-  urldate: "2025-11-17"
-  keywords: [script-hano]
-ss-script-hans:
-  entrytype: online
-  title: Han (Simplified variant)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hans
-  urldate: "2025-11-17"
-  keywords: [script-hans]
-ss-script-hant:
-  entrytype: online
-  title: Han (Traditional variant)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hant
-  urldate: "2025-11-17"
-  keywords: [script-hant]
-ss-script-hatr:
-  entrytype: online
-  title: Hatran
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hatr
-  urldate: "2025-11-17"
-  keywords: [script-hatr]
-ss-script-hebr:
-  entrytype: online
-  title: Hebrew
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hebr
-  urldate: "2025-11-17"
-  keywords: [script-hebr]
-ss-script-hira:
-  entrytype: online
-  title: Hiragana
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hira
-  urldate: "2025-11-17"
-  keywords: [script-hira]
-ss-script-hluw:
-  entrytype: online
-  title: "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hluw
-  urldate: "2025-11-17"
-  keywords: [script-hluw]
-ss-script-hmng:
-  entrytype: online
-  title: Pahawh Hmong
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hmng
-  urldate: "2025-11-17"
-  keywords: [script-hmng]
-ss-script-hmnp:
-  entrytype: online
-  title: Nyiakeng Puachue Hmong
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hmnp
-  urldate: "2025-11-17"
-  keywords: [script-hmnp]
-ss-script-hntl:
-  entrytype: online
-  title: Han (Traditional variant) with Latin (alias for Hant + Latn)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hntl
-  urldate: "2025-11-17"
-  keywords: [script-hntl]
-ss-script-hrkt:
-  entrytype: online
-  title: Japanese syllabaries (alias for Hiragana + Katakana)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hrkt
-  urldate: "2025-11-17"
-  keywords: [script-hrkt]
-ss-script-hung:
-  entrytype: online
-  title: Old Hungarian (Hungarian Runic)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Hung
-  urldate: "2025-11-17"
-  keywords: [script-hung]
-ss-script-inds:
-  entrytype: online
-  title: Indus (Harappan)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Inds
-  urldate: "2025-11-17"
-  keywords: [script-inds]
-ss-script-ital:
-  entrytype: online
-  title: "Old Italic (Etruscan, Oscan)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Ital
-  urldate: "2025-11-17"
-  keywords: [script-ital]
-ss-script-jamo:
-  entrytype: online
-  title: Jamo (alias for Jamo subset of Hangul)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Jamo
-  urldate: "2025-11-17"
-  keywords: [script-jamo]
-ss-script-java:
-  entrytype: online
-  title: Javanese
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Java
-  urldate: "2025-11-17"
-  keywords: [script-java]
-ss-script-jpan:
-  entrytype: online
-  title: Japanese (alias for Han + Hiragana + Katakana)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Jpan
-  urldate: "2025-11-17"
-  keywords: [script-jpan]
-ss-script-jurc:
-  entrytype: online
-  title: Jurchen
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Jurc
-  urldate: "2025-11-17"
-  keywords: [script-jurc]
-ss-script-kali:
-  entrytype: online
-  title: Kayah Li
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Kali
-  urldate: "2025-11-17"
-  keywords: [script-kali]
-ss-script-kana:
-  entrytype: online
-  title: Katakana
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Kana
-  urldate: "2025-11-17"
-  keywords: [script-kana]
-ss-script-kawi:
-  entrytype: online
-  title: Kawi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Kawi
-  urldate: "2025-11-17"
-  keywords: [script-kawi]
-ss-script-khar:
-  entrytype: online
-  title: Kharoshthi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Khar
-  urldate: "2025-11-17"
-  keywords: [script-khar]
-ss-script-khmr:
-  entrytype: online
-  title: Khmer
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Khmr
-  urldate: "2025-11-17"
-  keywords: [script-khmr]
-ss-script-khoj:
-  entrytype: online
-  title: Khojki
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Khoj
-  urldate: "2025-11-17"
-  keywords: [script-khoj]
-ss-script-kitl:
-  entrytype: online
-  title: Khitan Large script
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Kitl
-  urldate: "2025-11-17"
-  keywords: [script-kitl]
-ss-script-kits:
-  entrytype: online
-  title: Khitan Small script
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Kits
-  urldate: "2025-11-17"
-  keywords: [script-kits]
-ss-script-knda:
-  entrytype: online
-  title: Kannada
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Knda
-  urldate: "2025-11-17"
-  keywords: [script-knda]
-ss-script-kore:
-  entrytype: online
-  title: Korean (alias for Hangul + Han)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Kore
-  urldate: "2025-11-17"
-  keywords: [script-kore]
-ss-script-kpel:
-  entrytype: online
-  title: Kpelle
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Kpel
-  urldate: "2025-11-17"
-  keywords: [script-kpel]
-ss-script-krai:
-  entrytype: online
-  title: Kirat Rai
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Krai
-  urldate: "2025-11-17"
-  keywords: [script-krai]
-ss-script-kthi:
-  entrytype: online
-  title: Kaithi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Kthi
-  urldate: "2025-11-17"
-  keywords: [script-kthi]
-ss-script-lana:
-  entrytype: online
-  title: Tai Tham (Lanna)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Lana
-  urldate: "2025-11-17"
-  keywords: [script-lana]
-ss-script-laoo:
-  entrytype: online
-  title: Lao
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Laoo
-  urldate: "2025-11-17"
-  keywords: [script-laoo]
-ss-script-latf:
-  entrytype: online
-  title: Latin (Fraktur variant)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Latf
-  urldate: "2025-11-17"
-  keywords: [script-latf]
-ss-script-latg:
-  entrytype: online
-  title: Latin (Gaelic variant)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Latg
-  urldate: "2025-11-17"
-  keywords: [script-latg]
-ss-script-latn:
-  entrytype: online
-  title: Latin
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Latn
-  urldate: "2025-11-17"
-  keywords: [script-latn]
-ss-script-leke:
-  entrytype: online
-  title: Leke
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Leke
-  urldate: "2025-11-17"
-  keywords: [script-leke]
-ss-script-lepc:
-  entrytype: online
-  title: Lepcha (Róng)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Lepc
-  urldate: "2025-11-17"
-  keywords: [script-lepc]
-ss-script-limb:
-  entrytype: online
-  title: Limbu
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Limb
-  urldate: "2025-11-17"
-  keywords: [script-limb]
-ss-script-lina:
-  entrytype: online
-  title: Linear A
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Lina
-  urldate: "2025-11-17"
-  keywords: [script-lina]
-ss-script-linb:
-  entrytype: online
-  title: Linear B
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Linb
-  urldate: "2025-11-17"
-  keywords: [script-linb]
-ss-script-lisu:
-  entrytype: online
-  title: Lisu (Fraser)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Lisu
-  urldate: "2025-11-17"
-  keywords: [script-lisu]
-ss-script-loma:
-  entrytype: online
-  title: Loma
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Loma
-  urldate: "2025-11-17"
-  keywords: [script-loma]
-ss-script-lyci:
-  entrytype: online
-  title: Lycian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Lyci
-  urldate: "2025-11-17"
-  keywords: [script-lyci]
-ss-script-lydi:
-  entrytype: online
-  title: Lydian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Lydi
-  urldate: "2025-11-17"
-  keywords: [script-lydi]
-ss-script-mahj:
-  entrytype: online
-  title: Mahajani
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Mahj
-  urldate: "2025-11-17"
-  keywords: [script-mahj]
-ss-script-maka:
-  entrytype: online
-  title: Makasar
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Maka
-  urldate: "2025-11-17"
-  keywords: [script-maka]
-ss-script-mand:
-  entrytype: online
-  title: "Mandaic, Mandaean"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Mand
-  urldate: "2025-11-17"
-  keywords: [script-mand]
-ss-script-mani:
-  entrytype: online
-  title: Manichaean
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Mani
-  urldate: "2025-11-17"
-  keywords: [script-mani]
-ss-script-marc:
-  entrytype: online
-  title: Marchen
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Marc
-  urldate: "2025-11-17"
-  keywords: [script-marc]
-ss-script-maya:
-  entrytype: online
-  title: Mayan hieroglyphs
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Maya
-  urldate: "2025-11-17"
-  keywords: [script-maya]
-ss-script-medf:
-  entrytype: online
-  title: "Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Medf
-  urldate: "2025-11-17"
-  keywords: [script-medf]
-ss-script-mend:
-  entrytype: online
-  title: Mende Kikakui
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Mend
-  urldate: "2025-11-17"
-  keywords: [script-mend]
-ss-script-merc:
-  entrytype: online
-  title: Meroitic Cursive
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Merc
-  urldate: "2025-11-17"
-  keywords: [script-merc]
-ss-script-mero:
-  entrytype: online
-  title: Meroitic Hieroglyphs
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Mero
-  urldate: "2025-11-17"
-  keywords: [script-mero]
-ss-script-mlym:
-  entrytype: online
-  title: Malayalam
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Mlym
-  urldate: "2025-11-17"
-  keywords: [script-mlym]
-ss-script-modi:
-  entrytype: online
-  title: "Modi, Moḍī"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Modi
-  urldate: "2025-11-17"
-  keywords: [script-modi]
-ss-script-mong:
-  entrytype: online
-  title: Mongolian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Mong
-  urldate: "2025-11-17"
-  keywords: [script-mong]
-ss-script-moon:
-  entrytype: online
-  title: "Moon (Moon code, Moon script, Moon type)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Moon
-  urldate: "2025-11-17"
-  keywords: [script-moon]
-ss-script-mroo:
-  entrytype: online
-  title: "Mro, Mru"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Mroo
-  urldate: "2025-11-17"
-  keywords: [script-mroo]
-ss-script-mtei:
-  entrytype: online
-  title: "Meitei Mayek (Meithei, Meetei)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Mtei
-  urldate: "2025-11-17"
-  keywords: [script-mtei]
-ss-script-mult:
-  entrytype: online
-  title: Multani
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Mult
-  urldate: "2025-11-17"
-  keywords: [script-mult]
-ss-script-mymr:
-  entrytype: online
-  title: Myanmar (Burmese)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Mymr
-  urldate: "2025-11-17"
-  keywords: [script-mymr]
-ss-script-nagm:
-  entrytype: online
-  title: Nag Mundari
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Nagm
-  urldate: "2025-11-17"
-  keywords: [script-nagm]
-ss-script-nand:
-  entrytype: online
-  title: Nandinagari
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Nand
-  urldate: "2025-11-17"
-  keywords: [script-nand]
-ss-script-narb:
-  entrytype: online
-  title: Old North Arabian (Ancient North Arabian)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Narb
-  urldate: "2025-11-17"
-  keywords: [script-narb]
-ss-script-nbat:
-  entrytype: online
-  title: Nabataean
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Nbat
-  urldate: "2025-11-17"
-  keywords: [script-nbat]
-ss-script-newa:
-  entrytype: online
-  title: "Newa, Newar, Newari, Nepāla lipi"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Newa
-  urldate: "2025-11-17"
-  keywords: [script-newa]
-ss-script-nkdb:
-  entrytype: online
-  title: Naxi Dongba
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Nkdb
-  urldate: "2025-11-17"
-  keywords: [script-nkdb]
-ss-script-nkgb:
-  entrytype: online
-  title: "Naxi Geba (na²¹ɕi³³ gʌ²¹ba²¹, 'Na-'Khi ²Ggŏ-¹baw, Nakhi Geba)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Nkgb
-  urldate: "2025-11-17"
-  keywords: [script-nkgb]
-ss-script-nkoo:
-  entrytype: online
-  title: N’Ko
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Nkoo
-  urldate: "2025-11-17"
-  keywords: [script-nkoo]
-ss-script-nshu:
-  entrytype: online
-  title: Nüshu
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Nshu
-  urldate: "2025-11-17"
-  keywords: [script-nshu]
-ss-script-ogam:
-  entrytype: online
-  title: Ogham
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Ogam
-  urldate: "2025-11-17"
-  keywords: [script-ogam]
-ss-script-olck:
-  entrytype: online
-  title: "Ol Chiki (Ol Cemet’, Ol Santali)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Olck
-  urldate: "2025-11-17"
-  keywords: [script-olck]
-ss-script-onao:
-  entrytype: online
-  title: Ol Onal
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Onao
-  urldate: "2025-11-17"
-  keywords: [script-onao]
-ss-script-orkh:
-  entrytype: online
-  title: "Old Turkic, Orkhon Runic"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Orkh
-  urldate: "2025-11-17"
-  keywords: [script-orkh]
-ss-script-orya:
-  entrytype: online
-  title: Oriya (Odia)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Orya
-  urldate: "2025-11-17"
-  keywords: [script-orya]
-ss-script-osge:
-  entrytype: online
-  title: Osage
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Osge
-  urldate: "2025-11-17"
-  keywords: [script-osge]
-ss-script-osma:
-  entrytype: online
-  title: Osmanya
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Osma
-  urldate: "2025-11-17"
-  keywords: [script-osma]
-ss-script-ougr:
-  entrytype: online
-  title: Old Uyghur
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Ougr
-  urldate: "2025-11-17"
-  keywords: [script-ougr]
-ss-script-palm:
-  entrytype: online
-  title: Palmyrene
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Palm
-  urldate: "2025-11-17"
-  keywords: [script-palm]
-ss-script-pauc:
-  entrytype: online
-  title: Pau Cin Hau
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Pauc
-  urldate: "2025-11-17"
-  keywords: [script-pauc]
-ss-script-pcun:
-  entrytype: online
-  title: "Proto-Cuneiform"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Pcun
-  urldate: "2025-11-17"
-  keywords: [script-pcun]
-ss-script-pelm:
-  entrytype: online
-  title: "Proto-Elamite"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Pelm
-  urldate: "2025-11-17"
-  keywords: [script-pelm]
-ss-script-perm:
-  entrytype: online
-  title: Old Permic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Perm
-  urldate: "2025-11-17"
-  keywords: [script-perm]
-ss-script-phag:
-  entrytype: online
-  title: "Phags-pa"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Phag
-  urldate: "2025-11-17"
-  keywords: [script-phag]
-ss-script-phli:
-  entrytype: online
-  title: Inscriptional Pahlavi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Phli
-  urldate: "2025-11-17"
-  keywords: [script-phli]
-ss-script-phlp:
-  entrytype: online
-  title: Psalter Pahlavi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Phlp
-  urldate: "2025-11-17"
-  keywords: [script-phlp]
-ss-script-phlv:
-  entrytype: online
-  title: Book Pahlavi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Phlv
-  urldate: "2025-11-17"
-  keywords: [script-phlv]
-ss-script-phnx:
-  entrytype: online
-  title: Phoenician
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Phnx
-  urldate: "2025-11-17"
-  keywords: [script-phnx]
-ss-script-piqd:
-  entrytype: online
-  title: Klingon (KLI pIqaD)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Piqd
-  urldate: "2025-11-17"
-  keywords: [script-piqd]
-ss-script-plrd:
-  entrytype: online
-  title: Miao (Pollard)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Plrd
-  urldate: "2025-11-17"
-  keywords: [script-plrd]
-ss-script-prti:
-  entrytype: online
-  title: Inscriptional Parthian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Prti
-  urldate: "2025-11-17"
-  keywords: [script-prti]
-ss-script-psin:
-  entrytype: online
-  title: "Proto-Sinaitic"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Psin
-  urldate: "2025-11-17"
-  keywords: [script-psin]
-ss-script-qa00:
-  entrytype: online
-  title: Bété
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa00
-  urldate: "2025-11-17"
-  keywords: [script-qa00]
-ss-script-qa01:
-  entrytype: online
-  title: "Fula-1 (Dita)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa01
-  urldate: "2025-11-17"
-  keywords: [script-qa01]
-ss-script-qa02:
-  entrytype: online
-  title: "Fula-2 (Ba)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa02
-  urldate: "2025-11-17"
-  keywords: [script-qa02]
-ss-script-qa07:
-  entrytype: online
-  title: Khema Tamu Phri
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa07
-  urldate: "2025-11-17"
-  keywords: [script-qa07]
-ss-script-qa10:
-  entrytype: online
-  title: Masaba
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa10
-  urldate: "2025-11-17"
-  keywords: [script-qa10]
-ss-script-qa14:
-  entrytype: online
-  title: Pau Cin Hau Syllabary
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa14
-  urldate: "2025-11-17"
-  keywords: [script-qa14]
-ss-script-qa15:
-  entrytype: online
-  title: Raina Kama (Hausa)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa15
-  urldate: "2025-11-17"
-  keywords: [script-qa15]
-ss-script-qa16:
-  entrytype: online
-  title: Salifou Hausa
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa16
-  urldate: "2025-11-17"
-  keywords: [script-qa16]
-ss-script-qa18:
-  entrytype: online
-  title: Tafi (Hausa)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa18
-  urldate: "2025-11-17"
-  keywords: [script-qa18]
-ss-script-qa19:
-  entrytype: online
-  title: Tikamuli
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa19
-  urldate: "2025-11-17"
-  keywords: [script-qa19]
-ss-script-qa23:
-  entrytype: online
-  title: Zou
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa23
-  urldate: "2025-11-17"
-  keywords: [script-qa23]
-ss-script-qa26:
-  entrytype: online
-  title: Aztec Pictograms
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa26
-  urldate: "2025-11-17"
-  keywords: [script-qa26]
-ss-script-qa29:
-  entrytype: online
-  title: Byblos
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa29
-  urldate: "2025-11-17"
-  keywords: [script-qa29]
-ss-script-qa31:
-  entrytype: online
-  title: "Chalukya (Box-Headed)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa31
-  urldate: "2025-11-17"
-  keywords: [script-qa31]
-ss-script-qa32:
-  entrytype: online
-  title: Chola
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa32
-  urldate: "2025-11-17"
-  keywords: [script-qa32]
-ss-script-qa35:
-  entrytype: online
-  title: Gangga Malayu
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa35
-  urldate: "2025-11-17"
-  keywords: [script-qa35]
-ss-script-qa37:
-  entrytype: online
-  title: Paleohispanic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa37
-  urldate: "2025-11-17"
-  keywords: [script-qa37]
-ss-script-qa38:
-  entrytype: online
-  title: Jing
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa38
-  urldate: "2025-11-17"
-  keywords: [script-qa38]
-ss-script-qa40:
-  entrytype: online
-  title: Khotanese
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa40
-  urldate: "2025-11-17"
-  keywords: [script-qa40]
-ss-script-qa45:
-  entrytype: online
-  title: Numidian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa45
-  urldate: "2025-11-17"
-  keywords: [script-qa45]
-ss-script-qa48:
-  entrytype: online
-  title: Pyu (Tircul)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa48
-  urldate: "2025-11-17"
-  keywords: [script-qa48]
-ss-script-qa49:
-  entrytype: online
-  title: Satavahana
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa49
-  urldate: "2025-11-17"
-  keywords: [script-qa49]
-ss-script-qa51:
-  entrytype: online
-  title: Tani
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa51
-  urldate: "2025-11-17"
-  keywords: [script-qa51]
-ss-script-qa52:
-  entrytype: online
-  title: Zhuang Square
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa52
-  urldate: "2025-11-17"
-  keywords: [script-qa52]
-ss-script-qa53:
-  entrytype: online
-  title: Turkestani
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa53
-  urldate: "2025-11-17"
-  keywords: [script-qa53]
-ss-script-qa54:
-  entrytype: online
-  title: Mwangwego
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa54
-  urldate: "2025-11-17"
-  keywords: [script-qa54]
-ss-script-qa57:
-  entrytype: online
-  title: Khimhun Tangsa
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa57
-  urldate: "2025-11-17"
-  keywords: [script-qa57]
-ss-script-qa60:
-  entrytype: online
-  title: "Khatt-i Baburi"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa60
-  urldate: "2025-11-17"
-  keywords: [script-qa60]
-ss-script-qa63:
-  entrytype: online
-  title: "Balti-B"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa63
-  urldate: "2025-11-17"
-  keywords: [script-qa63]
-ss-script-qa68:
-  entrytype: online
-  title: "Coorgi-Cox"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa68
-  urldate: "2025-11-17"
-  keywords: [script-qa68]
-ss-script-qa74:
-  entrytype: online
-  title: Bhujinmol
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa74
-  urldate: "2025-11-17"
-  keywords: [script-qa74]
-ss-script-qa75:
-  entrytype: online
-  title: Kaddare
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa75
-  urldate: "2025-11-17"
-  keywords: [script-qa75]
-ss-script-qa80:
-  entrytype: online
-  title: Kaida
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa80
-  urldate: "2025-11-17"
-  keywords: [script-qa80]
-ss-script-qa83:
-  entrytype: online
-  title: Iban
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa83
-  urldate: "2025-11-17"
-  keywords: [script-qa83]
-ss-script-qa84:
-  entrytype: online
-  title: Eebee Hmong
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa84
-  urldate: "2025-11-17"
-  keywords: [script-qa84]
-ss-script-qa85:
-  entrytype: online
-  title: Borama (Gadabuursi)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qa85
-  urldate: "2025-11-17"
-  keywords: [script-qa85]
-ss-script-qaaa:
-  entrytype: online
-  title: Reserved for private use (start)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qaaa
-  urldate: "2025-11-17"
-  keywords: [script-qaaa]
-ss-script-qaab:
-  entrytype: online
-  title: "Balti-A"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qaab
-  urldate: "2025-11-17"
-  keywords: [script-qaab]
-ss-script-qaaf:
-  entrytype: online
-  title: Duota
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qaaf
-  urldate: "2025-11-17"
-  keywords: [script-qaaf]
-ss-script-qaag:
-  entrytype: online
-  title: Ersu Shaba Picture Writing
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qaag
-  urldate: "2025-11-17"
-  keywords: [script-qaag]
-ss-script-qaah:
-  entrytype: online
-  title: "Eshkol-Wachman movement notation system"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qaah
-  urldate: "2025-11-17"
-  keywords: [script-qaah]
-ss-script-qaaj:
-  entrytype: online
-  title: Lahnda (Landa)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qaaj
-  urldate: "2025-11-17"
-  keywords: [script-qaaj]
-ss-script-qaao:
-  entrytype: online
-  title: SignFont Notation
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qaao
-  urldate: "2025-11-17"
-  keywords: [script-qaao]
-ss-script-qaaq:
-  entrytype: online
-  title: Stokoe Notation
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qaaq
-  urldate: "2025-11-17"
-  keywords: [script-qaaq]
-ss-script-qaax:
-  entrytype: online
-  title: Unwritten
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qaax
-  urldate: "2025-11-17"
-  keywords: [script-qaax]
-ss-script-qabe:
-  entrytype: online
-  title: Bowen (Lao Baiwen)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qabe
-  urldate: "2025-11-17"
-  keywords: [script-qabe]
-ss-script-qabg:
-  entrytype: online
-  title: Micmac Hieroglyphs (Kauder ideograms)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qabg
-  urldate: "2025-11-17"
-  keywords: [script-qabg]
-ss-script-qabh:
-  entrytype: online
-  title: Bagam (Eghap)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qabh
-  urldate: "2025-11-17"
-  keywords: [script-qabh]
-ss-script-qabl:
-  entrytype: online
-  title: Akkha
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qabl
-  urldate: "2025-11-17"
-  keywords: [script-qabl]
-ss-script-qabn:
-  entrytype: online
-  title: HamNoSys Notation
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qabn
-  urldate: "2025-11-17"
-  keywords: [script-qabn]
-ss-script-qabq:
-  entrytype: online
-  title: Badaga
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qabq
-  urldate: "2025-11-17"
-  keywords: [script-qabq]
-ss-script-qabr:
-  entrytype: online
-  title: Eskaya
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qabr
-  urldate: "2025-11-17"
-  keywords: [script-qabr]
-ss-script-qabx:
-  entrytype: online
-  title: Reserved for private use (end)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Qabx
-  urldate: "2025-11-17"
-  keywords: [script-qabx]
-ss-script-ranj:
-  entrytype: online
-  title: Ranjana
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Ranj
-  urldate: "2025-11-17"
-  keywords: [script-ranj]
-ss-script-rjng:
-  entrytype: online
-  title: "Rejang (Redjang, Kaganga)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Rjng
-  urldate: "2025-11-17"
-  keywords: [script-rjng]
-ss-script-rohg:
-  entrytype: online
-  title: Hanifi Rohingya
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Rohg
-  urldate: "2025-11-17"
-  keywords: [script-rohg]
-ss-script-roro:
-  entrytype: online
-  title: Rongorongo
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Roro
-  urldate: "2025-11-17"
-  keywords: [script-roro]
-ss-script-runr:
-  entrytype: online
-  title: Runic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Runr
-  urldate: "2025-11-17"
-  keywords: [script-runr]
-ss-script-samr:
-  entrytype: online
-  title: Samaritan
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Samr
-  urldate: "2025-11-17"
-  keywords: [script-samr]
-ss-script-sara:
-  entrytype: online
-  title: Sarati
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sara
-  urldate: "2025-11-17"
-  keywords: [script-sara]
-ss-script-sarb:
-  entrytype: online
-  title: Old South Arabian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sarb
-  urldate: "2025-11-17"
-  keywords: [script-sarb]
-ss-script-saur:
-  entrytype: online
-  title: Saurashtra
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Saur
-  urldate: "2025-11-17"
-  keywords: [script-saur]
-ss-script-seal:
-  entrytype: online
-  title: (Small) Seal
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Seal
-  urldate: "2025-11-17"
-  keywords: [script-seal]
-ss-script-sgnw:
-  entrytype: online
-  title: SignWriting
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sgnw
-  urldate: "2025-11-17"
-  keywords: [script-sgnw]
-ss-script-shaw:
-  entrytype: online
-  title: Shavian (Shaw)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Shaw
-  urldate: "2025-11-17"
-  keywords: [script-shaw]
-ss-script-shrd:
-  entrytype: online
-  title: "Sharada, Śāradā"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Shrd
-  urldate: "2025-11-17"
-  keywords: [script-shrd]
-ss-script-shui:
-  entrytype: online
-  title: Shuishu
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Shui
-  urldate: "2025-11-17"
-  keywords: [script-shui]
-ss-script-sidd:
-  entrytype: online
-  title: "Siddham, Siddhaṃ, Siddhamātṛkā"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sidd
-  urldate: "2025-11-17"
-  keywords: [script-sidd]
-ss-script-sidt:
-  entrytype: online
-  title: Sidetic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sidt
-  urldate: "2025-11-17"
-  keywords: [script-sidt]
-ss-script-sind:
-  entrytype: online
-  title: "Khudawadi, Sindhi"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sind
-  urldate: "2025-11-17"
-  keywords: [script-sind]
-ss-script-sinh:
-  entrytype: online
-  title: Sinhala
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sinh
-  urldate: "2025-11-17"
-  keywords: [script-sinh]
-ss-script-sogd:
-  entrytype: online
-  title: Sogdian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sogd
-  urldate: "2025-11-17"
-  keywords: [script-sogd]
-ss-script-sogo:
-  entrytype: online
-  title: Old Sogdian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sogo
-  urldate: "2025-11-17"
-  keywords: [script-sogo]
-ss-script-sora:
-  entrytype: online
-  title: Sora Sompeng
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sora
-  urldate: "2025-11-17"
-  keywords: [script-sora]
-ss-script-soyo:
-  entrytype: online
-  title: Soyombo
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Soyo
-  urldate: "2025-11-17"
-  keywords: [script-soyo]
-ss-script-sund:
-  entrytype: online
-  title: Sundanese
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sund
-  urldate: "2025-11-17"
-  keywords: [script-sund]
-ss-script-sunu:
-  entrytype: online
-  title: Sunuwar
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sunu
-  urldate: "2025-11-17"
-  keywords: [script-sunu]
-ss-script-sylo:
-  entrytype: online
-  title: Syloti Nagri
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Sylo
-  urldate: "2025-11-17"
-  keywords: [script-sylo]
-ss-script-syrc:
-  entrytype: online
-  title: Syriac
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Syrc
-  urldate: "2025-11-17"
-  keywords: [script-syrc]
-ss-script-syre:
-  entrytype: online
-  title: Syriac (Estrangelo variant)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Syre
-  urldate: "2025-11-17"
-  keywords: [script-syre]
-ss-script-syrj:
-  entrytype: online
-  title: Syriac (Western variant)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Syrj
-  urldate: "2025-11-17"
-  keywords: [script-syrj]
-ss-script-syrn:
-  entrytype: online
-  title: Syriac (Eastern variant)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Syrn
-  urldate: "2025-11-17"
-  keywords: [script-syrn]
-ss-script-tagb:
-  entrytype: online
-  title: Tagbanwa
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Tagb
-  urldate: "2025-11-17"
-  keywords: [script-tagb]
-ss-script-takr:
-  entrytype: online
-  title: "Takri, Ṭākrī, Ṭāṅkrī"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Takr
-  urldate: "2025-11-17"
-  keywords: [script-takr]
-ss-script-tale:
-  entrytype: online
-  title: Tai Le
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Tale
-  urldate: "2025-11-17"
-  keywords: [script-tale]
-ss-script-talu:
-  entrytype: online
-  title: New Tai Lue
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Talu
-  urldate: "2025-11-17"
-  keywords: [script-talu]
-ss-script-taml:
-  entrytype: online
-  title: Tamil
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Taml
-  urldate: "2025-11-17"
-  keywords: [script-taml]
-ss-script-tang:
-  entrytype: online
-  title: Tangut
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Tang
-  urldate: "2025-11-17"
-  keywords: [script-tang]
-ss-script-tavt:
-  entrytype: online
-  title: Tai Viet
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Tavt
-  urldate: "2025-11-17"
-  keywords: [script-tavt]
-ss-script-tayo:
-  entrytype: online
-  title: Tai Yo
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Tayo
-  urldate: "2025-11-17"
-  keywords: [script-tayo]
-ss-script-telu:
-  entrytype: online
-  title: Telugu
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Telu
-  urldate: "2025-11-17"
-  keywords: [script-telu]
-ss-script-teng:
-  entrytype: online
-  title: Tengwar
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Teng
-  urldate: "2025-11-17"
-  keywords: [script-teng]
-ss-script-tfng:
-  entrytype: online
-  title: Tifinagh (Berber)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Tfng
-  urldate: "2025-11-17"
-  keywords: [script-tfng]
-ss-script-tglg:
-  entrytype: online
-  title: "Tagalog (Baybayin, Alibata)"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Tglg
-  urldate: "2025-11-17"
-  keywords: [script-tglg]
-ss-script-thaa:
-  entrytype: online
-  title: Thaana
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Thaa
-  urldate: "2025-11-17"
-  keywords: [script-thaa]
-ss-script-thai:
-  entrytype: online
-  title: Thai
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Thai
-  urldate: "2025-11-17"
-  keywords: [script-thai]
-ss-script-tibt:
-  entrytype: online
-  title: Tibetan
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Tibt
-  urldate: "2025-11-17"
-  keywords: [script-tibt]
-ss-script-tirh:
-  entrytype: online
-  title: Tirhuta
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Tirh
-  urldate: "2025-11-17"
-  keywords: [script-tirh]
-ss-script-tnsa:
-  entrytype: online
-  title: Tangsa
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Tnsa
-  urldate: "2025-11-17"
-  keywords: [script-tnsa]
-ss-script-todr:
-  entrytype: online
-  title: Todhri
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Todr
-  urldate: "2025-11-17"
-  keywords: [script-todr]
-ss-script-tols:
-  entrytype: online
-  title: Tolong Siki
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Tols
-  urldate: "2025-11-17"
-  keywords: [script-tols]
-ss-script-toto:
-  entrytype: online
-  title: Toto
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Toto
-  urldate: "2025-11-17"
-  keywords: [script-toto]
-ss-script-tutg:
-  entrytype: online
-  title: "Tulu-Tigalari"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Tutg
-  urldate: "2025-11-17"
-  keywords: [script-tutg]
-ss-script-ugar:
-  entrytype: online
-  title: Ugaritic
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Ugar
-  urldate: "2025-11-17"
-  keywords: [script-ugar]
-ss-script-vaii:
-  entrytype: online
-  title: Vai
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Vaii
-  urldate: "2025-11-17"
-  keywords: [script-vaii]
-ss-script-visp:
-  entrytype: online
-  title: Visible Speech
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Visp
-  urldate: "2025-11-17"
-  keywords: [script-visp]
-ss-script-vith:
-  entrytype: online
-  title: Vithkuqi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Vith
-  urldate: "2025-11-17"
-  keywords: [script-vith]
-ss-script-wara:
-  entrytype: online
-  title: Warang Citi (Varang Kshiti)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Wara
-  urldate: "2025-11-17"
-  keywords: [script-wara]
-ss-script-wcho:
-  entrytype: online
-  title: Wancho
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Wcho
-  urldate: "2025-11-17"
-  keywords: [script-wcho]
-ss-script-wole:
-  entrytype: online
-  title: Woleai
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Wole
-  urldate: "2025-11-17"
-  keywords: [script-wole]
-ss-script-xpeo:
-  entrytype: online
-  title: Old Persian
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Xpeo
-  urldate: "2025-11-17"
-  keywords: [script-xpeo]
-ss-script-xsux:
-  entrytype: online
-  title: "Cuneiform, Sumero-Akkadian"
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Xsux
-  urldate: "2025-11-17"
-  keywords: [script-xsux]
-ss-script-yezi:
-  entrytype: online
-  title: Yezidi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Yezi
-  urldate: "2025-11-17"
-  keywords: [script-yezi]
-ss-script-yiii:
-  entrytype: online
-  title: Yi
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Yiii
-  urldate: "2025-11-17"
-  keywords: [script-yiii]
-ss-script-zanb:
-  entrytype: online
-  title: Zanabazar Square
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Zanb
-  urldate: "2025-11-17"
-  keywords: [script-zanb]
-ss-script-zinh:
-  entrytype: online
-  title: Code for inherited script
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Zinh
-  urldate: "2025-11-17"
-  keywords: [script-zinh]
-ss-script-zmth:
-  entrytype: online
-  title: Mathematical notation
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Zmth
-  urldate: "2025-11-17"
-  keywords: [script-zmth]
-ss-script-zsye:
-  entrytype: online
-  title: Symbols (Emoji variant)
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Zsye
-  urldate: "2025-11-17"
-  keywords: [script-zsye]
-ss-script-zsym:
-  entrytype: online
-  title: Symbols
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Zsym
-  urldate: "2025-11-17"
-  keywords: [script-zsym]
-ss-script-zxxx:
-  entrytype: online
-  title: Code for unwritten documents
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Zxxx
-  urldate: "2025-11-17"
-  keywords: [script-zxxx]
-ss-script-zyyy:
-  entrytype: online
-  title: Code for undetermined script
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Zyyy
-  urldate: "2025-11-17"
-  keywords: [script-zyyy]
-ss-script-zzzz:
-  entrytype: online
-  title: Code for uncoded script
-  organization: ScriptSource
-  presort: 10
-  url: https://scriptsource.org/scr/Zzzz
-  urldate: "2025-11-17"
-  keywords: [script-zzzz]
 star:
   entrytype: online
   title: Sylheti Translation and Research
@@ -9399,7 +7431,7 @@ tautintanes2020-ss:
   organization: Wikimedia
   presort: 22
   sortname: Tautintanes
-  keywords: [script-qa37]
+  keywords: [script-x-no-palaeohispanic, script-x-so-palaeohispanic]
   abstract: "Inscription on lead plaque found at La Bastida de les Alcuses in Valencia, Spain."
 teckit:
   entrytype: online
@@ -9506,7 +7538,7 @@ toba2005:
   url: http://unesdoc.unesco.org/images/0013/001399/139952m.pdf
   date: "2005"
   publisher: UNESCO
-  keywords: [script-qabl, script-brah]
+  keywords: [script-x-magar-akkha, script-brah]
   annotation: "This paper discusses the languages of Nepal in the context of the country's geographic, socio-linguistic and multi-cultural situation. It was written as a follow up to the UNESCO Universal Declaration on Cultural Diversity and to the proclamation of 21 May as the World Day for Cultural Diversity for Dialogue and Development in 2001."
 todhri-alphabet-ss:
   entrytype: online
@@ -9606,7 +7638,7 @@ tuchscherer1999:
   date: "1999"
   pages: 55-77
   volume: "98"
-  keywords: [script-qabh]
+  keywords: [script-x-bagam]
 tuchscherer2007:
   entrytype: inbook
   title: "Recording, Communicating and Making Visible: A history of writing and systems of graphic symbolism in Africa"
@@ -9617,7 +7649,7 @@ tuchscherer2007:
   date: "2007"
   publisher: Five Continents Editions
   pages: 37-53
-  keywords: [script-qabh, script-nkoo, script-bass, script-vaii, script-mend, script-bamu]
+  keywords: [script-x-bagam, script-nkoo, script-bass, script-vaii, script-mend, script-bamu]
   annotation: "This chapter is part of the catalogue that accompanied the 2007 exhibition, Inscribing Meaning, at the Smithsonian Institute, which explored the relationships between African art, graphic systems and the written word. This chapter discusses graphic symbolism in Africa, and provides a historical overview of the spread of written communication in the context of African religion, art and major historical events in the region. A number of indigenous African writing systems are discussed in some detail."
 tulu-symbols-ss:
   entrytype: online
@@ -9639,7 +7671,7 @@ turkestani-brahmi-ss:
   organization: Wikimedia
   presort: 22
   sortname: Welch
-  keywords: [script-qa53, lang-san]
+  keywords: [script-x-turkestani, lang-san]
   abstract: "This is a part of nine Weber manuscripts discovered in the 19th-century in northwest China, analyzed and published in 1893 by August Friedrich Rudolf Hoernle. Later tracing suggest that the manuscripts were discovered in Kucha, in the region where the Bower manuscripts were discovered.<br />(CR)The manuscripts are now preserved at the Bodleian Library, Oxford University (MS 1091, ABCIM 238).(CR)(CR)The 9 manuscripts are historically significant as they are among the oldest known paper manuscripts of the Indian subcontinent literature. Of the nine, four manuscripts have been traced to be on paper made in Nepal, the other five on paper made in Central Asia.(CR)(CR)The first 8 of the 9 manuscripts are in Sanskrit language, the last is a mix of Pali and Sanskrit language with numerous grammatical errors.(CR)(CR)The Weber manuscripts are a collection of different texts written in different scripts. Four are in early northwest Gupta script, others in Turkestani Brahmi (formerly called Central Asian Nagari script). Both of these scripts became extinct long ago, because they evolved into other regional writing scripts such as Sarda, Siddha, Devanagari, Nandinagari and others."
 twardoch-kreska:
   entrytype: online
@@ -9731,13 +7763,20 @@ uax44:
   url: https://www.unicode.org/reports/tr44/
   urldate: "2025-11-19"
   keywords: [encoding]
+uax53:
+  entrytype: online
+  entrysubtype: f
+  title: "UAX #53: Unicode Arabic Mark Rendering"
+  url: https://www.unicode.org/reports/tr53/
+  urldate: "2026-06-19"
+  keywords: [encoding, script-arab]
 uax9:
   entrytype: online
   entrysubtype: f
   title: "UAX #9: Unicode Bidirectional Algorithm"
   url: https://www.unicode.org/reports/tr9/
   urldate: "2025-11-19"
-  keywords: [encoding, direction]
+  keywords: [encoding, direction, script-arab, script-hebr, script-mand, script-nkoo, script-samr, script-syrc, script-yezi]
 ubuntu:
   entrytype: online
   entrysubtype: f
@@ -9886,6 +7925,13 @@ uni-scripts:
   url: https://www.unicode.org/Public/UNIDATA/Scripts.txt
   urldate: "2025-11-19"
   keywords: [encoding, writing systems]
+uni-topical:
+  entrytype: online
+  entrysubtype: f
+  title: Unicode - Topical Document Lists
+  url: https://www.unicode.org/L2/topical/
+  urldate: "2026-06-22"
+  keywords: [encoding, script-arab, script-egyp, script-ethi, script-kitl, script-kits, script-lana, script-mong, script-phlv, script-seal]
 uni-tus:
   entrytype: online
   entrysubtype: f
@@ -9941,7 +7987,7 @@ unseth2008:
   pages: 357-371
   volume: "36"
   number: "3"
-  keywords: [script-perm, script-lisu, script-cans, script-qabg, script-cyrl, script-ethi, script-plrd]
+  keywords: [script-perm, script-lisu, script-cans, script-x-micmac-hieroglyphs, script-cyrl, script-ethi, script-plrd]
   abstract: "Throughout history and within a number of language communities, orthographies have enabled the initial transcription of spoken languages. This paper examines the few cases in which a person from outside a language community devised a script for a previously unwritten language. In all of the cases studied, the outsiders who devised scripts for the language communities were Christian missionaries. Among the eight cases are several common factors, and in all the cases, devising something unique for the community (rather than introducing something from the missionaries' own culture) was part of a successful strategy for church planting within these groups."
   annotation: "A journal article on several scripts that were initially devised by Christian Missionaries."
 utn:
@@ -9954,19 +8000,59 @@ utn:
 utn10:
   entrytype: online
   entrysubtype: f
-  title: "UTN #10: An Introduction to Indic Scripts"
+  title: "UTN #10, An Introduction to Indic Scripts"
   organization: Unicode
   url: https://www.unicode.org/notes/tn10/
   urldate: "2025-11-19"
-  keywords: [encoding, script-beng, script-deva, script- gujr, script-guru, script-knda, script-mlym, script-orya, script-taml, script-telu]
+  keywords: [encoding, script-beng, script-deva, script-gujr, script-guru, script-knda, script-mlym, script-orya, script-taml, script-telu]
+utn46:
+  entrytype: online
+  entrysubtype: f
+  title: "UTN #46, Rendering the Allah Ligature"
+  organization: Unicode
+  url: https://www.unicode.org/notes/tn46/
+  urldate: "2026-06-19"
+  keywords: [encoding, script-arab]
+utn56:
+  entrytype: online
+  entrysubtype: f
+  title: "UTN #56, Representing Miao in Unicode"
+  organization: Unicode
+  url: https://www.unicode.org/notes/tn56/
+  urldate: "2026-06-22"
+  keywords: [encoding, script-plrd]
+utn58:
+  entrytype: online
+  entrysubtype: f
+  title: "UTN #58, Evolution of Adlam Characters Since Encoding"
+  organization: Unicode
+  url: https://www.unicode.org/notes/tn58/
+  urldate: "2026-06-22"
+  keywords: [encoding, script-adlm]
 utn57:
   entrytype: online
   entrysubtype: f
   title: "UTN #57, Representing Mongolian in Unicode"
   organization: Unicode
   url: https://www.unicode.org/notes/tn57/
-  urldate: "2025-11-19"
+  urldate: "2026-06-22"
   keywords: [encoding, script-mong]
+utn59:
+  entrytype: online
+  entrysubtype: f
+  title: "UTN #59, Representing Tifinagh in Unicode"
+  organization: Unicode
+  url: https://www.unicode.org/notes/tn59/
+  urldate: "2026-06-22"
+  keywords: [encoding, script-tfng]
+utn61:
+  entrytype: online
+  entrysubtype: f
+  title: "UTN #61, Khmer Encoding Structure"
+  organization: Unicode
+  url: https://www.unicode.org/notes/tn61/
+  urldate: "2026-06-22"
+  keywords: [encoding, script-khmr]
 utr:
   entrytype: online
   entrysubtype: f
@@ -10449,7 +8535,7 @@ welch2025-ss:
   organization: Wikimedia
   presort: 22
   sortname: Welch
-  keywords: [script-qa31]
+  keywords: [script-x-box-headed]
   abstract: "The Aihole inscription, also known as the Aihole prashasti, is a nineteen line Sanskrit inscription at Meguti Jain temple in Aihole, Karnataka, India. The inscription has 19 lines of Sanskrit in old Chalukyan script. It is on a stone set as a part of the east outer wall of the Meguti temple, with the text covering about 4.75 feet by 2 feet surface. The letters are between 0.5 and 0.62 inches in height."
 wiki-abkhaz:
   entrytype: online
@@ -10540,7 +8626,7 @@ wiki-aztec:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Aztec_writing
   date: "2011-11-07"
-  keywords: [script-qa26]
+  keywords: [script-x-aztec-nahuatl]
   annotation: "This is the Wikipedia page for Aztec writing. It describes the structure of the script and how it was used."
 wiki-babylonian-numerals-ss:
   entrytype: online
@@ -10557,7 +8643,7 @@ wiki-balti:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Balti_language#Script
   date: "2010-07-02"
-  keywords: [script-qaab]
+  keywords: [script-x-balti-a]
 wiki-bashkir:
   entrytype: online
   title: "Bashkir Language - Alphabet and Dialects"
@@ -10589,7 +8675,7 @@ wiki-byblos:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Byblos_syllabary
   date: "2011-11-10"
-  keywords: [script-qa29]
+  keywords: [script-x-byblos]
   annotation: "This article describes the Byblos script, with a focus on particular Byblos inscriptions and their attempted decipherment."
 wiki-capital-eszett:
   entrytype: online
@@ -10728,7 +8814,7 @@ wiki-eshkol-wachman:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Eshkol-Wachman_Movement_Notation
   date: "2010-10-05"
-  keywords: [script-qaah]
+  keywords: [script-x-eshkol-wachman]
 wiki-eszett:
   entrytype: online
   title: Eszett
@@ -10835,7 +8921,7 @@ wiki-iberian:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Iberian_scripts
   date: "2011-11-08"
-  keywords: [script-qa37]
+  keywords: [script-x-no-palaeohispanic, script-x-so-palaeohispanic]
   annotation: "This is the Wikipedia article about the Iberian scripts. It covers the main variants of the scripts, and provides brief details of their history."
 wiki-influence-cherokee-vai-ss:
   entrytype: online
@@ -11019,7 +9105,7 @@ wiki-mikmaq:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Mi%27kmaq_hieroglyphic_writing
   date: "2010-07-08"
-  keywords: [script-qabg]
+  keywords: [script-x-micmac-hieroglyphs]
 wiki-moldovan:
   entrytype: online
   title: Moldovan Cyrillic Alphabet
@@ -11175,7 +9261,7 @@ wiki-sawndip:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Sawndip
   date: "2011-11-10"
-  keywords: [script-qa52]
+  keywords: [script-x-zhuang-square]
   annotation: "This page describes the history and use of the Zhuang Square script (also called Sawndip) and provides information about the script's features and behaviour."
 wiki-script-adlm:
   entrytype: online
@@ -13015,7 +11101,7 @@ wiki-stokoe:
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Stokoe_notation
   date: "2010-09-07"
-  keywords: [script-qaaq]
+  keywords: [script-x-stokoe-notation]
 wiki-tabassaran:
   entrytype: online
   title: "Tabassaran Language - Writing System"
@@ -13148,7 +11234,7 @@ wiki-zhuang-square-ss:
   urldate: "2026-04-17"
   organization: Wikipedia
   presort: 22
-  keywords: [script-qa52]
+  keywords: [script-x-zhuang-square]
   abstract: "This is article 1 of the Universal Declaration of Human Rights (UDHR) in the Zhuang Square script."
 wikibooks-cherokee:
   entrytype: online
@@ -13362,7 +11448,7 @@ zou-script:
   title: The Zou Script
   url: http://zoculsin.blogspot.com/2010/10/zou-script.html
   date: "2010-03-07"
-  keywords: [script-qa23]
+  keywords: [script-x-zou]
   annotation: "Zo Cultural-cum-Literature Society (ZOCULSIN) is a non-profit voluntary organisation for the preservation and development of the Zo language. This is an article on their blog about the Zou script."
 zubrinic:
   entrytype: online

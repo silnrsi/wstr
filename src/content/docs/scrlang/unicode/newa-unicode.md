@@ -3,7 +3,7 @@ title: Unicode Status for Newa
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-18
+lastUpdated: 2026-08-10
 ---
 
 In The Unicode Standard, Newa script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G31609).
@@ -71,3 +71,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2019-04-24 Request to change the default behavior of Newa Initial Ra — Zachary Scheuren, Ananda Maharjan ([L2/19-170](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/19-170))
   - _Recommendations to UTC #159 April-May 2019 on Script Proposals ([L2/19-173](http://www.unicode.org/L2/L2019/19173-script-adhoc-recs.pdf)) (See point 15.)_
   - _UTC #159 Minutes ([L2/19-122](http://www.unicode.org/L2/L2019/19122.htm)) (See D.6 for decision and action items)_
+- 2026-05-17 Proposal to encode NEWA LETTER HEAVY YA -- Sridatta A, Srinidhi A ([L2/26-171](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-171))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 2.4)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 2.4 for decision and action items)_

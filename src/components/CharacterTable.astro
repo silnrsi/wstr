@@ -11,9 +11,9 @@ const rows = [];
 for (let usv = start; usv <= end; usv++) {
   const character = getCharacter(usv);
   rows.push({ 
-    usv: character?.character_usv, 
+    usv: character?.usv, 
     character: character ? String.fromCodePoint(usv) : '', 
-    characterName: character?.character_name 
+    characterName: character?.name 
   });
 }
 ---

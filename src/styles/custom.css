@@ -126,7 +126,34 @@ tr.ph-label th {
     src: url('https://fonts.languagetechnology.org/fonts/sil/gentium/web/Gentium-SemiBold.woff2')
 }
 
-td.ph-sym {
+@font-face {
+    font-family: 'Annapurna-R';
+    src: url('https://fonts.languagetechnology.org/fonts/sil/annapurnasil/web/AnnapurnaSIL-Regular.woff2')
+}
+
+@font-face {
+    font-family: 'TaiHeritagePro-R';
+    src: url('https://fonts.languagetechnology.org/fonts/sil/taiheritagepro/web/TaiHeritagePro-Regular.woff2')
+}
+
+:lang(ne), :lang(ne-Deva), :lang(npi), :lang(npi-Deva) {
+    font-family: Annapurna-R, sans-serif;
+    font-feature-settings: "ss01" 1, "ss08" 1, "ss09" 1, "ss10" 1;
+}
+
+:lang(hi), :lang(hi-Deva) {
+    font-family: Annapurna-R, sans-serif;
+}
+
+:lang(blt) {
+    font-family: TaiHeritagePro-R, sans-serif;
+}
+
+.ph-sym {
+    font-family: 'Gentium-SB', serif; 
+}
+
+td.ph-sym-chart {
     padding-left: 0rem;
     padding-right: 0rem;
     text-align: center;
@@ -135,14 +162,14 @@ td.ph-sym {
     font-style: normal;
 }
 
-td.ph-voice {
-    text-align: right;
-}
-
-td.ph-sym a {
+td.ph-sym-chart a {
     font-size: 160%;
     text-decoration: none;
     /* font-weight: bold; */
+}
+
+td.ph-voice {
+    text-align: right;
 }
 
 td.ph-type {

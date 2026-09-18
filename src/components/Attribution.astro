@@ -6,6 +6,8 @@ const { type, copyyears, copyholder, license, copyurl, licenseurl, author, sourc
     <p>
         {   (license === "Public Domain") ? (
                 <>{type}&#x20;is in the public domain.</>
+            ) : (license === "CC0 1.0") ? (
+                <>{type}&#x20;has been placed in the public domain via <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a>.</>
             ) : copyurl ? (
                 <>{type} copyright © {copyyears}&#x20;<a href={copyurl} target="_blank">{copyholder}</a></>
             ) : (
@@ -13,7 +15,7 @@ const { type, copyyears, copyholder, license, copyurl, licenseurl, author, sourc
             )
         }
 
-        { license !== "Public Domain" && (
+        { license !== "Public Domain" && license !== "CC0 1.0" && (
             licenseurl ? (
                 <>with license <a href={licenseurl} target="_blank">{license}</a>.</>
             ) : (

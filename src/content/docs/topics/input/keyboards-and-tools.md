@@ -187,7 +187,7 @@ _Portions of this content first appeared in [Guidelines for Writing System Suppo
 [keyman-developer]: https://keyman.com/developer/
 [keyman]: https://keyman.com
 [kmfl]: https://kmfl.sourceforge.net/
-[msklc]: https://scriptsource.org/entry/m98qmxx7dx
+[msklc]: https://www.microsoft.com/en-us/download/details.aspx?id=102134
 [multiling]: https://play.google.com/store/apps/details?id=kl.ime.oh
 [ukelele]: https://software.sil.org/ukelele/
 [wsig7]: https://scripts.sil.org/wsi_guidelines_sec_7.html

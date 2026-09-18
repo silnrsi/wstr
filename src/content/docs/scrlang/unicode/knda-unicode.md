@@ -3,7 +3,7 @@ title: Unicode Status for Kannada
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-05-07
+lastUpdated: 2026-08-10
 ---
 
 In The Unicode Standard, Kannada script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G38298).
@@ -136,3 +136,16 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2026-03-28 Proposal to encode the Four Diacritic Marks of Kannada in Unicode — Biswajit Mandal ([L2/26-113](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-113))
   - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 2.11)_
   - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 2.11 for decision and action items)_
+- 2026-03-07 Proposal to encode Samavedic svara markers in Kannada -- Srinidhi A, Sridatta A ([L2/26-131](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-131))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 2.13)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 2.13 for decision and action items)_
+- 2026-03-28 Proposal to encode the Four Diacritic Marks of Kannada in Unicode -- Biswajit Mandal ([L2/26-113](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-113))
+- 2026-05-08 Proposal to encode Ardhanusvara in Kannada -- Sridatta A, Srinidhi A ([L2/26-169](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-169))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 2.2)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 2.2 for decision and action items)_
+- 2026-06-13 Proposal to encode Combining Anusvara above in Kannada -- Sridatta A, Srinidhi A ([L2/26-170](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-170))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 2.1)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 2.1 for decision and action items)_
+- 2026-03-09 Usage of Aytam in the other South Indian scripts -- Sridatta A, Srinidhi A ([L2/26-165](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-165))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 4.1)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 4.1 for decision and action items)_

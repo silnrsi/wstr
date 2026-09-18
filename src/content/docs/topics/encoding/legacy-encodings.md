@@ -30,10 +30,7 @@ If &#x00BD; was reused for a character such as &#x014b;, software would sometime
 
 ## Helpful Resources:
 
-- [Text Encoding Issues When Working with Multiple Scripts][text-enc-script]
-- [Introduction to Text Conversion and Transliteration][intro-text-conv]
-
-[intro-text-conv]: https://scriptsource.org/entry/xlzd6n5aqt
-[text-enc-script]: https://scriptsource.org/entry/yrl9a5tk4e
+- [Text Encoding Issues When Working with Multiple Scripts](/articlelib/t/text-encoding-issues-when-working-with-multiple-scripts)
+- [Introduction to Text Conversion and Transliteration](/topics/encoding/encoding-conversion)
 
 

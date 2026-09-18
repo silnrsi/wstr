@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightLinksValidator from 'starlight-links-validator';
 import astroBrokenLinksChecker from 'astro-broken-links-checker';
+import { unified } from '@astrojs/markdown-remark'
 import rehypeFigureTitle from 'rehype-figure-title';
 import rehypeExternalLinks from 'rehype-external-links';
 import cookieconsent from "@jop-software/astro-cookieconsent";
@@ -16,6 +17,7 @@ const googleAnalyticsId = 'G-WHT6CVPT8M';
 export default defineConfig({
     site: process.env.ASTRO_SITE || "https://writingsystems.info",
     base: process.env.ASTRO_BASE || "/",
+    compressHTML: true,
     integrations: [
         starlight({
             title: 'Writing Systems Technical Resources',
@@ -78,7 +80,6 @@ export default defineConfig({
             sidebar: [
                 {
                     label: 'Guides',
-                    //autogenerate: { directory: 'guides' },
                     items: [
                         'topics/computing/app-development-best-practice',
                         'topics/fonts/font-design-and-development',
@@ -100,7 +101,6 @@ export default defineConfig({
                 },
                 {
                     label: 'Scripts & Languages',
-                    //autogenerate: { directory: 'scrlang' },
                     items: [
                         'scrlang/scripts-index',
                         'scrlang/languages',
@@ -111,7 +111,6 @@ export default defineConfig({
                 },
                 {
                     label: 'Reference',
-                    //autogenerate: { directory: 'reference' },
                     items: [
                         'reference/glossary',
                         'reference/standards',
@@ -119,7 +118,6 @@ export default defineConfig({
                 },
                 {
                     label: 'Support',
-                    //autogenerate: { directory: 'support' },
                     items: [
                         'support/about',
                         'support/acknowledgements',
@@ -237,33 +235,35 @@ export default defineConfig({
         react(),
     ],
     markdown: {
-        remarkPlugins: [
-            remarkSourcesLinkReference('/biblio/'),
-            remarkCharacterDirectives,
-        ],
-        rehypePlugins: [
-            rehypeFigureTitle, [
-                rehypeExternalLinks, {
-                    target: '_blank', // Open external links in a new tab
-                    rel: ['external', 'nofollow',], // Add security attributes
-                    // Optional: Add content (e.g., an icon) to the end of external links
-                    content: {
-                        type: 'element',
-                        tagName: 'img',
-                        properties: {
-                            src: '/svgs/external-link.svg',
-                            //title: 'External link',
-                            //alt: 'External link',
-                        },
-                        children: [],
-                    },
-                    // Optional: Add attributes to the added content
-                    contentProperties: { 'aria-hidden': true, class: 'external-link-icon' },
-                    // Optional: Filter which <a> tags are processed (e.g., exclude links within code blocks)
-                    selectors: 'a:not(pre a):not(code a)',
-                },
+        processor: unified({
+            remarkPlugins: [
+                remarkSourcesLinkReference('/biblio/'),
+                remarkCharacterDirectives,
             ],
-        ],
+            rehypePlugins: [
+                rehypeFigureTitle, [
+                    rehypeExternalLinks, {
+                        target: '_blank', // Open external links in a new tab
+                        rel: ['external', 'nofollow',], // Add security attributes
+                        // Optional: Add content (e.g., an icon) to the end of external links
+                        content: {
+                            type: 'element',
+                            tagName: 'img',
+                            properties: {
+                                src: '/svgs/external-link.svg',
+                                //title: 'External link',
+                                //alt: 'External link',
+                            },
+                            children: [],
+                        },
+                        // Optional: Add attributes to the added content
+                        contentProperties: { 'aria-hidden': true, class: 'external-link-icon' },
+                        // Optional: Filter which <a> tags are processed (e.g., exclude links within code blocks)
+                        selectors: 'a:not(pre a):not(code a)',
+                    },
+                ],
+            ],
+        })
     },
     redirects: {
         "/guides/app-development-best-practice": "/topics/computing/app-development-best-practice",

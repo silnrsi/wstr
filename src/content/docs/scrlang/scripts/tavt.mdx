@@ -3,7 +3,7 @@ title: Tai Viet
 description: Top-level script page
 sidebar:
     hidden: true
-lastUpdated: 2026-07-28
+lastUpdated: 2026-08-26
 scrpropcode: Tavt
 scrproptype: abugida
 scrpropname: Tai Viet
@@ -25,8 +25,22 @@ import WsList from '../../../../components/WsList.astro';
 import ArticlesList from '../../../../components/ArticlesList.astro';
 import SourceLinksList from '../../../../components/SourceLinksList.astro';
 import BibList from '../../../../components/BibList.astro';
+import Attribution from '/src/components/Attribution.astro';
+import CaptionText from '/src/components/CaptionText.astro';
 
-![Tai Viet script sample](../images/tavt-sample.png "&quot;Mr. Countless Warts&quot;, recorded 1969-70 by B.Q., transcribed by Jay and Dorothy Fippinger.")
+![Tai Viet script sample](../images/tavt-sample.png)
+<CaptionText text="&quot;Mr. Countless Warts&quot;, recorded 1969-70 by B.Q., transcribed by Jay and Dorothy Fippinger."/>
+<Attribution
+    type="Image"
+    copyholder="SIL Global"
+    copyurl=""
+    copyyears="2011"
+    license="CC BY-SA 3.0"
+    licenseurl="https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+    author=""
+    source="SIL"
+    sourceurl=""
+/>
 
 ## Script details
 
@@ -45,7 +59,7 @@ Traditionally, tone was only partially marked in the orthography. As in other Ta
 
 Little is known about the origin of the Tai Viet script. It appears to have been derived from the Thai script around  the 16th century, which is in turn of Khmer, and ultimately Brahmic, origin.
 
-Please note that, although the Tai Viet script does exhibit reordering behaviour, that reordering is not typically reflected in software implementations. See [Syllable Structure and Reordering in Tai Viet](https://scriptsource.org/entry/ca53syu3cl) or [Reordering and Data Storage Order](https://scriptsource.org/entry/l5bvp27v3r) for more details.
+Please note that, although the Tai Viet script does exhibit reordering behaviour, that reordering is not typically reflected in software implementations. See [Syllable Structure and Reordering in Tai Viet](/articlelib/t/tai-viet-syllable-structure) or [Reordering and Data Storage Order](/articlelib/r/reordering-and-data-storage-order) for more details.
 </details>
 
 ## Languages that use this script
@@ -62,12 +76,6 @@ In The Unicode Standard, Tai Viet script implementation is discussed in [Chapter
 ## Resources
 
 <ArticlesList tag='script-tavt' header='Related articles' />
-
-### Grapheme and phoneme data
-
-Data indicating how characters are used to represent sounds is available for the following languages as written with Tai Viet script:
-
-- [Tai Dam](/scrlang/graphemes/blt-tavt)
 
 <SourceLinksList tag='script-tavt' header='External links' entrytype='online' />
 

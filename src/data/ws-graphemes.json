@@ -2657,102 +2657,6 @@
 			"notes":	"ligature: short /a/ + /m/"
 		},
 		{
-			"ws":		"blt-Tavt",
-			"chars":	["AA81", "AA85", "AA89", "AA8B", "AA8F", "AA91", "AA93", "AA95", "AA97", "AA99", "AA9B", "AA9D", "AAA1", "AAA3", "AAA5", "AAA9", "AAAB", "AAAD", "AAAF", "AABF"],
-			"phoneme":	"tone-high",
-			"status":	"common",
-			"example":	"<span lang='blt'>ꪁ꪿ꪱ</span> ‘price, value’",
-			"notes":	"tone 5, unchecked syllables – System 2"
-		},
-		{
-			"ws":		"blt-Tavt",
-			"chars":	["AA81", "AA85", "AA89", "AA8B", "AA8F", "AA91", "AA93", "AA95", "AA97", "AA99", "AA9B", "AA9D", "AAA1", "AAA3", "AAA5", "AAA9", "AAAB", "AAAD", "AAAF", "AAC0"],
-			"phoneme":	"tone-high",
-			"status":	"common",
-			"example":	"<span lang='blt'>ꪁꪱꫀ</span> ‘price, value’",
-			"notes":	"tone 5, unchecked syllables – System 3"
-		},
-		{
-			"ws":		"blt-Tavt",
-			"chars":	["AA81", "AA85", "AA89", "AA8B", "AA8F", "AA91", "AA93", "AA95", "AA97", "AA99", "AA9B", "AA9D", "AAA1", "AAA3", "AAA5", "AAA9", "AAAB", "AAAD", "AAAF", "AAC1"],
-			"phoneme":	"tone-med+xlow",
-			"status":	"common",
-			"example":	"<span lang='blt'>ꪁ꫁ꪱ</span> ‘to trade’",
-			"notes":	"tone 6 (unchecked syllables only) – System 2"
-		},
-		{
-			"ws":		"blt-Tavt",
-			"chars":	["AA81", "AA85", "AA89", "AA8B", "AA8F", "AA91", "AA93", "AA95", "AA97", "AA99", "AA9B", "AA9D", "AAA1", "AAA3", "AAA5", "AAA9", "AAAB", "AAAD", "AAAF", "AAC2"],
-			"phoneme":	"tone-med+xlow",
-			"status":	"common",
-			"example":	"<span lang='blt'>ꪁꪱꫂ</span> ‘to trade’",
-			"notes":	"tone 6 (unchecked syllables only) – System 3"
-		},
-		{
-			"ws":		"blt-Tavt",
-			"chars":	["AA81", "AA85", "AA89", "AA8B", "AA8F", "AA91", "AA93", "AA95", "AA97", "AA99", "AA9B", "AA9D", "AAA1", "AAA3", "AAA5", "AAA9", "AAAB", "AAAD", "AAAF"],
-			"phoneme":	"tone-high",
-			"status":	"expected",
-			"example":	"<span lang='blt'>ꪁꪱꪒ</span> ‘to bind together’",
-			"notes":	"tone 5, checked syllables"
-		},
-		{
-			"ws":		"blt-Tavt",
-			"chars":	["AA81", "AA85", "AA89", "AA8B", "AA8F", "AA91", "AA93", "AA95", "AA97", "AA99", "AA9B", "AA9D", "AAA1", "AAA3", "AAA5", "AAA9", "AAAB", "AAAD", "AAAF"],
-			"phoneme":	"tone-xhigh",
-			"status":	"expected",
-			"example":	"<span lang='blt'>ꪁꪱ</span> ‘to remain in’",
-			"notes":	"tone 4 (unchecked syllables only)"
-		},
-		{
-			"ws":		"blt-Tavt",
-			"chars":	["AA80", "AA84", "AA88", "AA8A", "AA8E", "AA90", "AA92", "AA94", "AA96", "AA98", "AA9A", "AA9C", "AAA0", "AAA2", "AAA4", "AAA8", "AAAA", "AAAC", "AAAE", "AABF"],
-			"phoneme":	"tone-med+xhigh",
-			"status":	"common",
-			"example":	"<span lang='blt'>ꪀ꪿ꪱ</span> ‘place’",
-			"notes":	"tone 2, unchecked syllables – System 2"
-		},
-		{
-			"ws":		"blt-Tavt",
-			"chars":	["AA80", "AA84", "AA88", "AA8A", "AA8E", "AA90", "AA92", "AA94", "AA96", "AA98", "AA9A", "AA9C", "AAA0", "AAA2", "AAA4", "AAA8", "AAAA", "AAAC", "AAAE", "AAC0"],
-			"phoneme":	"tone-med+xhigh",
-			"status":	"common",
-			"example":	"<span lang='blt'>ꪀꪱꫀ</span> ‘place’",
-			"notes":	"tone 2, unchecked syllables – System 3"
-		},
-		{
-			"ws":		"blt-Tavt",
-			"chars":	["AA80", "AA84", "AA88", "AA8A", "AA8E", "AA90", "AA92", "AA94", "AA96", "AA98", "AA9A", "AA9C", "AAA0", "AAA2", "AAA4", "AAA8", "AAAA", "AAAC", "AAAE", "AAC1"],
-			"phoneme":	"tone-xlow",
-			"status":	"common",
-			"example":	"<span lang='blt'>ꪀ꫁ꪱ</span> ‘rice seedling’",
-			"notes":	"tone 3 (unchecked syllables only) – System 2"
-		},
-		{
-			"ws":		"blt-Tavt",
-			"chars":	["AA80", "AA84", "AA88", "AA8A", "AA8E", "AA90", "AA92", "AA94", "AA96", "AA98", "AA9A", "AA9C", "AAA0", "AAA2", "AAA4", "AAA8", "AAAA", "AAAC", "AAAE", "AAC2"],
-			"phoneme":	"tone-xlow",
-			"status":	"common",
-			"example":	"<span lang='blt'>ꪀꪱꫂ</span> ‘rice seedling’",
-			"notes":	"tone 3 (unchecked syllables only) – System 3"
-		},
-		{
-			"ws":		"blt-Tavt",
-			"chars":	["AA80", "AA84", "AA88", "AA8A", "AA8E", "AA90", "AA92", "AA94", "AA96", "AA98", "AA9A", "AA9C", "AAA0", "AAA2", "AAA4", "AAA8", "AAAA", "AAAC", "AAAE"],
-			"phoneme":	"tone-low",
-			"status":	"expected",
-			"example":	"<span lang='blt'>ꪀꪱ</span> ‘crow’",
-			"notes":	"tone 1 (unchecked syllables only)"
-		},
-		{
-			"ws":		"blt-Tavt",
-			"chars":	["AA80", "AA84", "AA88", "AA8A", "AA8E", "AA90", "AA92", "AA94", "AA96", "AA98", "AA9A", "AA9C", "AAA0", "AAA2", "AAA4", "AAA8", "AAAA", "AAAC", "AAAE"],
-			"phoneme":	"tone-med+xhigh",
-			"status":	"expected",
-			"example":	"<span lang='blt'>ꪀꪱꪀ</span> ‘to guard’",
-			"notes":	"tone 2, checked syllables -- Phonetically similar to tone 4 unchecked syllables"
-		},
-		{
 			"ws":		"de-Latn",
 			"chars":	["0061", "0061"],
 			"phoneme":	"vwl-nf-op-unr",
@@ -17941,7 +17845,7 @@
 			"chars":	["0905"],
 			"phoneme":	"vwl-ce-md-unr",
 			"status":	"expected",
-			"example":	"<span lang='npi-Deva'>अकमक्क</span> ‘confused’",
+			"example":	"<span lang='ne-Deva'>अकमक्क</span> ‘confused’",
 			"notes":	"Possibly the vowel is closer to [ʌ]."
 		},
 		{
@@ -17949,7 +17853,7 @@
 			"chars":	["0905"],
 			"phoneme":	"vwl-nf-op-unr",
 			"status":	"expected",
-			"example":	"<span lang='npi-Deva'>अगाडि</span> ‘before’",
+			"example":	"<span lang='ne-Deva'>अगाडि</span> ‘before’",
 			"notes":	""
 		},
 		{
@@ -17957,15 +17861,15 @@
 			"chars":	["0906", "0907"],
 			"phoneme":	"diph-nf-op-unr+fr-cl-unr",
 			"status":	"expected",
-			"example":	"<span lang='npi-Deva'>भाइ</span> ‘younger brother’",
-			"notes":	"/ai/ can be represented by ‹आई›, ‹आी›, ‹ˌाˌी›, or ‹ˌाई›."
+			"example":	"<span lang='ne-Deva'>भाइ</span> ‘younger brother’",
+			"notes":	"/ai/ can be represented by ‹<span lang='ne'>आई</span>›, ‹<span lang='ne'>आी</span>›, ‹<span lang='ne'>ˌाˌी</span>›, or ‹<span lang='ne'>ˌाई</span>›."
 		},
 		{
 			"ws":		"ne-Deva",
 			"chars":	["0906", "0909"],
 			"phoneme":	"diph-nf-op-unr+bk-cl-rnd",
 			"status":	"expected",
-			"example":	"<span lang='npi-Deva'>आउनु</span> ‘to come",
+			"example":	"<span lang='ne-Deva'>आउनु</span> ‘to come",
 			"notes":	"/au/ can be represented by ‹<span lang='ne'>आउ</span>›, ‹<span lang='ne'>आु</span>›, ‹<span lang='ne'>ˌाˌु</span>›, or ‹<span lang='ne'>ˌाउ</span>›."
 		},
 		{
@@ -18198,7 +18102,7 @@
 			"phoneme":	"aff-pav-vd-breat",
 			"status":	"expected",
 			"example":	"<span lang='npi-Deva'>झट्ट</span> ‘immediately’",
-			"notes":	"The Nepali form of this character - <span lang='npi-Deva'>झ</span> - is different than what is used in India (<span lang='ne'>झ</span>)."
+			"notes":	"The Nepali form of this character - <span lang='ne'>झ</span> - is different than what is used in India (<span lang='hi'>झ</span>)."
 		},
 		{
 			"ws":		"ne-Deva",
@@ -19483,7 +19387,7 @@
 		{
 			"ws":		"ru-Cyrl",
 			"chars":	["0435"],
-			"phoneme":	"app-pal+fr-cm-unr",
+			"phoneme":	"app-pal+vwl-fr-cm-unr",
 			"status":	"expected",
 			"example":	"<span lang='ru'>е́сть</span> ‘eat’, <span lang='ru'>чита́ет</span> ‘is reading’",
 			"notes":	"When either word-initial or following a vowel"
@@ -21115,7 +21019,7 @@
 		{
 			"ws":		"wo-Arab",
 			"chars":	["0631", "0651"],
-			"phoneme":	"tap-alv-gemin",
+			"phoneme":	"tap-alv-vd-gemin",
 			"status":	"expected",
 			"example":	"<span lang='wo-Arab'>ݖُرّ</span> ‘very (red)’",
 			"notes":	""
@@ -22227,7 +22131,7 @@
 		{
 			"ws":		"wo-Latn",
 			"chars":	["0072", "0072"],
-			"phoneme":	"tap-alv-gemin",
+			"phoneme":	"tap-alv-vd-gemin",
 			"status":	"expected",
 			"example":	"curr ‘very (red)’",
 			"notes":	""

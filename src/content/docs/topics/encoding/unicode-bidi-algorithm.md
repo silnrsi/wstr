@@ -205,7 +205,6 @@ Because of this, **Unicode encourages the use, wherever available, of markup-bas
 - [Unicode Webinar on Bidirectional Text: Part 1, The Basics of Bidi][unicode-webinar-bidi-1] -- Presentation by Richard Ishida, Questions and Answers by Roozbeh Pournader and Richard Ishida
 - [Unicode Webinar on Bidirectional Text (Part 2): Delving into Bidi][unicode-webinar-bidi-2] -- This second Bidi event gives three bidi experts an opportunity to share more information, including on UI, as well as answer more user specific questions.
 - [Unicode Webinar on Bidirectional Text (Part 3): Mastering Bidirectional Content for Translators and Localizers][unicode-webinar-bidi-3] -- Focuses on common issues encountered in handling right-to-left text, especially those impacting translators working in right-to-left scripts.
-- [Text Direction issues][sil-bidi] -- Tips for getting mixed right-to-left and left-to-right text to appear correctly.
 
 [uax9]: https://www.unicode.org/reports/tr9/
 [unicode-bidi-class-values]: https://www.unicode.org/reports/tr44/#Bidi_Class_Values
@@ -214,12 +213,11 @@ Because of this, **Unicode encourages the use, wherever available, of markup-bas
 [opentype-mirroring-pairs]: https://learn.microsoft.com/en-us/typography/opentype/spec/ompl
 [ms-rtlm]: https://www.microsoft.com/typography/otspec/features_pt.htm#rtlm
 [graphite]: https://graphite.sil.org/
-[graphite-description-language]: https://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_devFont
+[graphite-description-language]: https://graphite.sil.org/graphite_download.html
 [unicode-directional-formatting-characters]: https://www.unicode.org/reports/tr9/#Directional_Formatting_Characters
 [unicode-direction-overrides]: https://www.unicode.org/reports/tr9/#Explicit_Directional_Overrides
 [unicode-direction-markup]: https://www.unicode.org/reports/tr9/#Markup_And_Formatting
 [unicode-webinar-bidi-1]: https://www.youtube.com/watch?v=mVHuTkdKw8Q
 [unicode-webinar-bidi-2]: https://www.youtube.com/watch?v=_gZUK-CJYDc
 [unicode-webinar-bidi-3]: https://www.youtube.com/watch?v=rBK9CNIZWLY
-[sil-bidi]: https://vimeo.com/1144886570
 

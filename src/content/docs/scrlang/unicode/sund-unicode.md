@@ -3,7 +3,7 @@ title: Unicode Status for Sundanese
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-05-07
+lastUpdated: 2026-08-10
 ---
 
 In The Unicode Standard, Sundanese script implementation is discussed in [Chapter 17: Southeast Asia-II — Indonesia and the Philippines](https://www.unicode.org/versions/latest/core-spec/#G27244).
@@ -57,3 +57,7 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2026-02-25 Annotation for Sundanese Characters — Febri Muhammad Nasrulla ([L2/26-076](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-076))
   - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 5.2)_
   - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 1.1 for decision and action items)_
+- 2026-02-25 Annotation for Sundanese Characters -- Febri Muhammad Nasrulla ([L2/26-076](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-076))
+- 2026-03-19 Proposal to Encode 4 Old Sundanese Characters -- Febri Muhammad Nasrullah ([L2/26-195](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-195))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 7)_
+

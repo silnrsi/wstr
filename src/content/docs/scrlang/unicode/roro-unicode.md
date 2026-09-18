@@ -6,7 +6,7 @@ sidebar:
 lastUpdated: 2025-10-06
 ---
 
-The Rongorongo script is not yet in Unicode.  At one point the script had a tentative allocation in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. However, it is no longer in the roadmap.
+The Rongorongo script is not yet in Unicode. At one point the script had a tentative allocation in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard. However, it is no longer in the roadmap.
 
 ## Blocks
 

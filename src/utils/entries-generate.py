@@ -178,7 +178,7 @@ def generate_articles(path, inFname, inFnameContents):
 					if hasAttrib:
 						outFile.write("<Attribution type='Article' copyyears='" + artCopyYears
 							+ "' copyholder='" + artCopyHolder + "' author='" + artAuthor 
-							+ "' license='" + artLicense + "' licenseUrl='" + artLicenseUrl + "'/>\n\n")
+							+ "' license='" + artLicense + "' licenseurl='" + artLicenseUrl + "'/>\n\n")
 											
 				# end of article
 						
@@ -200,7 +200,7 @@ def generate_articles(path, inFname, inFnameContents):
 					if hasAttrib:
 						outFile.write("<Attribution type='Image' copyyears='" + imgCopyYears
 							+ "' copyholder='" + imgCopyHolder + "' author='" + imgAuthor 
-							+ "' license='" + imgLicense + "' licenseUrl='" + imgLicenseUrl 
+							+ "' license='" + imgLicense + "' licenseurl='" + imgLicenseUrl 
 							+ "' source='" + imgAttribSite + "' sourceurl='" + imgAttribUrl
 							+ "'/>\n\n")
 					

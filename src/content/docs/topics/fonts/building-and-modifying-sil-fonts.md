@@ -569,7 +569,7 @@ _If you want to eventually contribute any changes back to the original projects,
 
 ### Using GUI font design tools
 
-Many font design changes are best done with dedicated font editors, such as [Glyphs][glyphs]. All the major font editors now support the UFO3 font format, however the level of their support differs greatly and each one still has some rough edges. The subsections below give specific guidance on using each editor successfully. _In some cases we don't yet have a well-tested and established workflow. We'll add details for each tool as we complete testing._
+Many font design changes are best done with dedicated font editors, such as [Glyphs][glyphs] or [Fontra][fontra]. All the major font editors now support the UFO3 font format, however the level of their support differs greatly and each one still has some rough edges. The subsections below give specific guidance on using each editor successfully. _In some cases we don't yet have a well-tested and established workflow. We'll add details for each tool as we complete testing._
 
 There are some general principles to keep in mind when using font editors with our projects:
 
@@ -580,9 +580,11 @@ There are some general principles to keep in mind when using font editors with o
 - Import/export with editors can cause data loss. The workflows described below attempt to minimize this, but be aware that it can occur.
 - When committing changes to projects, be selective about what you commit. You may need to ignore/discard changes that relate to specific editor use. Selective commits can be a good workaround for data loss!
 
+We have used all the following tools, and often choose the design tool based on what we're wanting to accomplish and in which context (macOS, Linux, Windows). Our workflow makes no assumptions regarding which tool is preferred - and we regularly use a variety of tools even within a single project.
+
 #### Glyphs
 
-We currently use the [Glyphs][glyphs] font editor (version 3.x) to take care of the design side of font creation. It is a closed-source, macOS-only tool, but it's well-maintained, has many open plugins and extension scripts, and provides decent support for open formats. Thankfully, there is also a libre/open source python library called [glyphsLib][glyphslib] which provides cross-platform read and write support for the native [source format of Glyphs][glyphs-format] the _.glyphs_ file.
+We currently use the [Glyphs][glyphs] font editor (version 3.x) as our primary tool for the design side of font creation (although we are moving more towards Fontra - see below). It is a closed-source, macOS-only tool, but it's well-maintained, has many open plugins and extension scripts, and provides decent support for open formats. Thankfully, there is also a libre/open source python library called [glyphsLib][glyphslib] which provides cross-platform read and write support for the native [source format of Glyphs][glyphs-format] the _.glyphs_ file.
 
 To load the current font sources into Glyphs, we do not open the UFOs directly. Instead, we use the following process using project-specific scripts (run from within the container, or alternatively you can install the necessary libraries in your macOS computer via a simple shell script [update-preflight-libs-pyenv.sh][preflight-update]):
 
@@ -594,6 +596,16 @@ To load the current font sources into Glyphs, we do not open the UFOs directly. 
 This is the best tested and recommended method for modifying fonts with a dedicated font editor. _Most of our projects include these scripts._
 
 Technical detail: Due to limitations of the glyphsLib library the Glyphs file that this roundtrip process uses follows the Glyphs2, not Glyphs3, format. Version 3.x of the Glyphs app fully supports the Glyphs2 format, however some newer Glyphs-specific features are not supported.
+
+#### Fontra
+
+[Fontra][fontra] is an excellent, free and open source font editor based on web technologies. It is fast, cross-platform, has a well-designed UI, and directly supports UFO+designspace sources. We are beginning to use this more and more for font design tasks. Recommended process:
+
+- Open the designspace file directly with Fontra or the Fontra Pak helper app. It is better to open the designspace than individual UFO files.
+- Make any changes. They are immediately saved directly to the UFOs.
+- Run `./preflight` to normalize and sync — _this is important!_
+- Review the changes in your git client  — _this is also important as it's easy to make unintended changes due to Fontra's immediate saves._
+- Commit (then push) the changes you want to keep.
 
 #### Robofont
 
@@ -611,7 +623,7 @@ There may also be some other additions depending on the project or Robofont 4 ve
 
 #### FontForge
 
-Recently released version of [FontForge][fontforge] - starting from version 20230101 - have vastly improved UFO3 support. It's important to use releases since that version and also be sure that your version of pysilfont is current, as we have recently added built-in support for handling FontForge-produced UFOs. The workflow is:
+Versions of [FontForge][fontforge] starting from 20230101 have vastly improved UFO3 support. It's important to use releases since that version and also be sure that your version of pysilfont is current, as we have recently added built-in support for handling FontForge-produced UFOs. The workflow is:
 
 - Open individual UFOs in FontForge, make changes _(but do not save!)_
 - Choose File / Generate Fonts... and specify the output format as _Unified Font Object (UFO3)_, replacing the original UFO. _You can now quit FontForge - there is no need to save the file._
@@ -630,10 +642,6 @@ It is also possible to use FontForge on another OS (and macOS in particular) to 
 #### FontLab
 
 Recent versions of [FontLab][fontlab] have improved UFO3 support, however there are still significant issues. We hope to provide a workflow for FontLab at some point, however it is not a high priority for us as we no longer use FontLab ourselves as our primary font editor.
-
-#### Other font editors
-
-Other font editors will be reviewed and their workflow steps described here in the future.
 
 ## Contributing Changes
 

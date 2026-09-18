@@ -1,7 +1,7 @@
 ---
 title: Dev Team Links
 description: Links to dev team pages
-lastUpdated: 2026-05-12
+lastUpdated: 2026-09-15
 ---
 
 :::note
@@ -21,9 +21,11 @@ These are links to pages intended for use by the development team.
 - [Adding and Revising Content](/devteam/adding-and-revising-content)
 - [Datasets](/devteam/datasets)
     - [Dataset - Characters](/devteam/dataset-characters)
+    - [Dataset - Graphemes and Phonemes](/devteam/dataset-graphemes) - TODO
     - [Dataset - LFF Sample Texts](/devteam/dataset-sample-text)
     - [Dataset - Scripts](/devteam/dataset-scripts)
     - [Dataset - Sources](/devteam/dataset-sources)
+    - [Dataset - UCD UnicodeData.txt](/devteam/dataset-ucd-unicodedata)
     - [Dataset - Documentation Template](/devteam/dataset-template)
 - [Miscellaneous Maintenance](/devteam/miscellaneous-maintenance)
 
@@ -43,3 +45,4 @@ These are links to pages intended for use by the development team.
 - [Markdown Testing](/devteam/markdown-testing)
 - [Extended Markdown](/devteam/extended-markdown)
 - [File Testing](/devteam/file-testing)
+- [Pages to Test after major astro or component updates](/devteam/pages-to-test)

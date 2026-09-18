@@ -401,7 +401,7 @@ This rule says: make a new key for the sequence VF that is identical to the sequ
 If you want to make two characters/sequences have an identical sort key use the = for example:
 
 ```
-a=b
+&a=b
 ```
 
 In fact the two elements are not given identical sort keys, but are made identical down to below the 3rd level. At the 4th level they are made different purely by their Unicode USV in some arbitrary way. This is to ensure a stable sort, so that data will always sort the same way even if you don’t care which way it is.

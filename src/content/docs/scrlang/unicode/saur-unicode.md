@@ -3,7 +3,7 @@ title: Unicode Status for Saurashtra
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-08-10
 ---
 
 In The Unicode Standard, Saurashtra script implementation is discussed in [Chapter 13: South and Central Asia-II — Other Modern Scripts](https://www.unicode.org/versions/latest/core-spec/#G28198).
@@ -48,3 +48,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2019-07-23 Comments on Public Review Issues (April 28, 2019 - July 23, 2019) — Rick McGowan ([L2/19-272](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/19-272))
   - _Recommendations to UTC #161 October 2019 on Script Proposals ([L2/19-343](http://www.unicode.org/L2/L2019/19343-script-adhoc-recs.pdf)) (See point 11.)_
   - _UTC #161 Minutes ([L2/19-323](https://www.unicode.org/L2/L2019/19323.htm)) (See D.8 for decision and action items)_
+- 2026-03-26 Proposal to Encode Two New Signs of Saurashtra in Unicode -- Biswajit Mandal ([L2/26-166](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-166))
+  - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 2.15)_
+  - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 2.15 for decision and action items)_

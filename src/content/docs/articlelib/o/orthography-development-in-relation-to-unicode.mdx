@@ -1,0 +1,67 @@
+---
+title: Orthography development in relation to Unicode
+description: In designing a writing system, one must decide what symbols will be used and how.
+authors: Lorna Evans
+tags: [orthography, unicode]
+lastUpdated: 2026-06-11
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+
+It is out of our scope to give complete guidelines for developing an orthography. However, we would like to give you a process to work through from a [Unicode][unicode] perspective.
+
+In designing a writing system, one must decide what symbols will be used and how. Here we list Unicode factors that should be taken into account. At least two sets of standards should be considered when developing an orthography:
+
+- National/local alphabet (local or national standards may have higher priority than phonetic considerations) and
+- [The Unicode Standard][unicode].
+
+Our concern here is with the Unicode Standard.
+
+:::note
+The crucial question now is, “Does the character being considered already exist in the Unicode Standard?”
+:::
+
+The Unicode Consortium will not readily accept the addition of randomly created characters. If the character under consideration does not already exist in Unicode you should seriously reconsider an alternative that does. Using a character that is not already in the Unicode Standard leads to the following problems:
+
+- Standard fonts will not contain that character
+- Diacritics will not be placed properly on that character
+- Words will possibly be broken in inappropriate places
+
+If the character you want to use exists in the Unicode Standard, then there are some further issues to think about.
+
+In developing an orthography (see [UCD Spreadsheets][ucd-spreadsheet]),
+
+- Consideration should be given to the following for each character:
+   - What are the character’s properties?
+      - If it is a lower case letter it should have a **Ll** (Letter, Lowercase) category
+         - Make sure there is already a matching upper case letter
+      - If it is an upper case letter it should have a **Lu** (Letter, Uppercase) category.
+      - Some letters do not have case (no upper and lower case variants). For these, consideration should be given to:
+         - Unless it has “case”, the character you choose should have a Lm (Letter, Modifier) category.
+         - If the script you are working with does not use case at all, characters will have a **Lo** (Letter, Other), **Mc** (Mark, Spacing Combining), or **Mn** (Mark, Spacing Combining) category.
+         - Some people have been creative in using **punctuation marks** for marking tone, glottal stops and other features that are properly part of a word. Do not consider doing this! If punctuation marks are used, they will not be considered part of the word. You might find what you need in this block: [Spacing Modifier Letters][uni-spacing-mod]. However, not all of these are considered word building (for instance, some of these have a character property of **Sk** “Symbol, Modifier”). Check the character properties (see [UCD Spreadsheets][ucd-spreadsheet]) of any symbol you are considering using.
+   - What is the form of capital letters? If you are uncertain, look at “Upper Case equivalent” and “Lower Case equivalent” in [UCD Spreadsheets][ucd-spreadsheet].
+      - Make sure Lower Case letters match the appropriate Upper Case letter or you will run into problems if you choose pairs that are not associated with each other (see [How do I know which version of the schwa to use?](/articlelib/h/how-do-i-encode#character-choices)).
+- How do you represent tone?
+   - Diacritics — these are found in the [Combining Diacritical Marks][uni-comb] and [Combining Diacritical Marks Supplement][uni-comb-sup] sections of the Unicode Standard. Do not use U+0334..U+0338 and U+0340..U+0345.
+   - Special letters — follow the guidelines for character properties.
+   - Punctuation — Tone is generally considered part of a word and if you use punctuation marks it will not be considered part of the word. Follow the guidelines listed under punctuation.
+   - Numbers — “Normal” superscript numbers can be used (U+00B9, U+00B2, U+00B3, U+2074, U+2075, U+2076, U+2077, U+2078, U+2079, U+2070 represent 1,2,3,4,5,6,7,8,9,0 respectively).
+- How do you represent a word boundary? Unless you are using a non-Roman script you can probably count on this being simply a space and will not be an issue in the orthography.
+
+
+### Other Resources
+
+- [Unicode Technical Note #19 (Recommendations for Creating New Orthographies)][uni-tn19]
+- [Factors in Designing Effective Orthographies for Unwritten Languages][orth-factors]
+- [Non-alphabetic characters in orthographies](/articlelib/u/unicode-best-practice)
+
+<CaptionText text='This article formerly appeared on scripts.sil.org.'/>
+
+[unicode]: https://www.unicode.org
+[ucd-spreadsheet]: https://github.com/silnrsi/unicode-resources/tree/main/ucd-spreadsheet
+[uni-spacing-mod]: https://www.unicode.org/charts/PDF/U02B0.pdf
+[uni-comb]: https://www.unicode.org/charts/PDF/U0300.pdf
+[uni-comb-sup]: https://www.unicode.org/charts/PDF/U1DC0.pdf
+[uni-tn19]: https://www.unicode.org/notes/tn19/
+[orth-factors]: https://www.sil.org/resources/archives/7830
