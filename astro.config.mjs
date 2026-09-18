@@ -17,6 +17,7 @@ const googleAnalyticsId = 'G-WHT6CVPT8M';
 export default defineConfig({
     site: process.env.ASTRO_SITE || "https://writingsystems.info",
     base: process.env.ASTRO_BASE || "/",
+    compressHTML: true,
     integrations: [
         starlight({
             title: 'Writing Systems Technical Resources',
@@ -79,7 +80,6 @@ export default defineConfig({
             sidebar: [
                 {
                     label: 'Guides',
-                    //autogenerate: { directory: 'guides' },
                     items: [
                         'topics/computing/app-development-best-practice',
                         'topics/fonts/font-design-and-development',
@@ -101,7 +101,6 @@ export default defineConfig({
                 },
                 {
                     label: 'Scripts & Languages',
-                    //autogenerate: { directory: 'scrlang' },
                     items: [
                         'scrlang/scripts-index',
                         'scrlang/languages',
@@ -112,7 +111,6 @@ export default defineConfig({
                 },
                 {
                     label: 'Reference',
-                    //autogenerate: { directory: 'reference' },
                     items: [
                         'reference/glossary',
                         'reference/standards',
@@ -120,7 +118,6 @@ export default defineConfig({
                 },
                 {
                     label: 'Support',
-                    //autogenerate: { directory: 'support' },
                     items: [
                         'support/about',
                         'support/acknowledgements',
