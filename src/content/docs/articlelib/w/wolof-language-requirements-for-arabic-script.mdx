@@ -1,0 +1,55 @@
+---
+title: Wolof language requirements for Arabic script
+authors: Lorna Evans
+tags: [char-062f, char-064F, char-0650, char-0651, char-0657, char-0752, char-0756, char-075d, char-0767, char-08f4, char-08f5, char-08f7, char-08f9, char-08fa, script-arab, lang-wo]
+lastUpdated: 2026-09-21
+---
+
+import CaptionText from '/src/components/CaptionText.astro';
+import Character from '/src/components/Character.astro';
+
+Wolof can be written in three different scripts (Arabic, Garay, and Latin). Fonts which are intended to support the Wolof language using **Arabic script** must include some different lesser-used characters as well as different design features than those designed for standard Arabic. In every case, the blue is what a Wolof font should support.
+
+## Special characters
+
+Wolof includes some special characters which are not used in standard Arabic. These are:
+
+- <Character usv="0752" options="usv,char,name"/>
+- <Character usv="0756" options="usv,char,name"/>
+- <Character usv="075d" options="usv,char,name"/>
+- <Character usv="0767" options="usv,char,name"/>
+- <Character usv="08f4" options="usv,char,name"/>
+- <Character usv="08f5" options="usv,char,name"/>
+- <Character usv="08f7" options="usv,char,name"/>
+- <Character usv="08f9" options="usv,char,name"/>
+- <Character usv="08fa" options="usv,char,name"/>
+
+The first four characters in the above list are dual-joining base characters. Next, we have five vowel marks which are required in addition to more standard vowel marks.
+
+## Shadda plus kasra positioning
+
+When a _kasra_ is used in context with the _shadda_, most Arabic fonts will move the _kasra_ up and ligate it below the _shadda_. This should not happen for Wolof support. The _kasra_ should remain below the base. 
+
+![Wolof shadda-kasra](images/wolof-language-shadda-kasra.png)
+<CaptionText text='Wolof shadda-kasra in blue.'/>
+
+## Dal shape
+
+The design of the _dal_ (and all related characters) in Wolof should be more squared, as shown in blue below.
+
+![Wolof dal](images/wolof-language-dal.png)
+<CaptionText text='Wolof dal in blue.'/>
+
+## Damma
+
+For <Character usv="064f" options="usv,char,name"/>, the Wolof preference is that the stroke does not completely go through the initial stroke as seen in blue.
+
+![Wolof damma](images/wolof-language-damma.png)
+<CaptionText text='Wolof damma in blue.'/>
+
+## Inverted damma
+
+Wolof requires an open style for <Character usv="0657" options="usv,char,name"/>. See [Glyph Variant for U+0657](/articlelib/g/glyph-variant-for-u-0657).
+
+See also [What is a Warsh Orthography?](/articlelib/w/warsh-orthography) for other considerations.
+
