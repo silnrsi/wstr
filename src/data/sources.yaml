@@ -173,7 +173,7 @@ arakun2009-ss:
 arab-char-support-sil:
   entrytype: online
   title: Arabic Script - Character Set Support
-  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/charset.md
+  url: https://github.com/silnrsi/font-arabic/blob/master/documentation/developer/charset.md
   urldate: "2026-06-19"
   organization: SIL Global
   keywords: [fonts, script-arab]
@@ -181,7 +181,7 @@ arab-char-support-sil:
 arab-comb-order-sil:
   entrytype: online
   title: Arabic Script - Combining mark ordering and positioning
-  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/combiningmarks.md
+  url: https://github.com/silnrsi/font-arabic/blob/master/documentation/combiningmarks.md
   urldate: "2026-06-19"
   organization: SIL Global
   keywords: [fonts, opentype, script-arab]
@@ -189,7 +189,7 @@ arab-comb-order-sil:
 arab-lam-alef-sil:
   entrytype: online
   title: Arabic Script - Lam-Alef and Kashida
-  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/lamalef.md
+  url: https://github.com/silnrsi/font-arabic/blob/master/documentation/developer/lamalef.md
   urldate: "2026-06-19"
   organization: SIL Global
   keywords: [char-0644, char-0627, char-0640, fonts, script-arab]
@@ -197,7 +197,7 @@ arab-lam-alef-sil:
 arab-ligatures-sil:
   entrytype: online
   title: Arabic Script - Ligatures and ZWJ
-  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/ligatures.md
+  url: https://github.com/silnrsi/font-arabic/blob/master/documentation/developer/ligatures.md
   urldate: "2026-06-19"
   organization: SIL Global
   keywords: [char-200d, fonts, opentype, script-arab]
@@ -205,7 +205,7 @@ arab-ligatures-sil:
 arab-maddah-sil:
   entrytype: online
   title: Arabic Script - Maddah or hamza, etc., relative to vowels
-  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/maddah.md
+  url: https://github.com/silnrsi/font-arabic/blob/master/documentation/developer/maddah.md
   urldate: "2026-06-19"
   organization: SIL Global
   keywords: [char-0653, fonts, opentype, script-arab]
@@ -213,7 +213,7 @@ arab-maddah-sil:
 arab-spanning-sil:
   entrytype: online
   title: Arabic Script - Signs Spanning Numbers
-  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/spanning.md
+  url: https://github.com/silnrsi/font-arabic/blob/master/documentation/spanning.md
   urldate: "2026-06-19"
   organization: SIL Global
   keywords: [char-0600, char-0601, char-0602, char-0603, char-0604, char-0605, char-06dd, char-0890, char-0891, char-08e2, fonts, opentype, script-arab]
@@ -3452,7 +3452,7 @@ kashmiri-lang:
 kasra-sil:
   entrytype: online
   title: Kasra position relative to shadda
-  url: https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/kasra.md
+  url: https://github.com/silnrsi/font-arabic/blob/master/documentation/developer/kasra.md
   urldate: "2026-06-19"
   organization: SIL Global
   keywords: [char-064b, char-064e, char-0651, script-arab]
