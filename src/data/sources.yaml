@@ -6724,6 +6724,15 @@ rogers2005tibetan:
   location: Oxford
   pages: 223-226
   keywords: [script-tibt]
+rohingya-language-org:
+  entrytype: online
+  title: The Rohingya Language Resource
+  organization: RohingyaLanguage.org
+  presort: 20
+  url: https://rohingyalanguage.org/
+  urldate: "2026-09-29"
+  keywords: [script-rohg]
+  annotation: "RohingyaLanguage.org is dedicated to preserving and promoting the Rohingya language using the Hanifi Rohingya script. Tools and educational resources for the Rohingya community are availablable."
 rolv:
   entrytype: online
   entrysubtype: f
