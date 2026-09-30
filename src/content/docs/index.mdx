@@ -10,7 +10,7 @@ tableOfContents: false
 import { Card, CardGrid } from '@astrojs/starlight/components';
 import { Icon } from '@astrojs/starlight/components';
 
-**This site is a collection of resources for supporting alphabets, scripts, and writing systems on digital devices and communication platforms.** It is more of a library than an encyclopedia, and is intended for a wide range of people—from beginners to experts. This is the new home for material from older SIL Writing Systems Technology sites: [Font Development Best Practices][fdbp], [SIL Font Development Guide][silfontdev], and [scripts.sil.org][sso]. We are also in the process of migrating much of the material from ScriptSource to this site over the next few months. See [Migrating from ScriptSource][migration].
+**This site is a collection of resources for supporting alphabets, scripts, and writing systems on digital devices and communication platforms.** It is more of a library than an encyclopedia, and is intended for a wide range of people—from beginners to experts. This is the new home for material from older SIL Writing Systems Technology sites: [Font Development Best Practices][fdbp], [SIL Font Development Guide][silfontdev], and [scripts.sil.org][sso]. **We have also migrated much of the material from ScriptSource to this site—see [Migrating from ScriptSource][migration].**
 
 [fdbp]: https://silnrsi.github.io/FDBP/en-US/index.html
 [migration]: /support/migrating-from-scriptsource
@@ -18,6 +18,23 @@ import { Icon } from '@astrojs/starlight/components';
 [sso]: https://scripts.sil.org/
 
 <CardGrid>
+  <Card title="Scripts & Languages" icon="pencil">
+    Discover information on individual scripts and languages starting with the [Scripts Index](/scrlang/scripts-index).
+    
+    Individual script pages provide detail on script properties, languages that use the script, Unicode status, and to relevant articles.
+
+    See [Languages](/scrlang/languages) for links to keyboards and specific language information on the [Ethnologue](https://www.ethnologue.com/) and other websites.
+  </Card>
+  <Card title="Finding Information" icon="magnifier">
+    <Icon name="up-arrow" color="var(--sl-color-accent)" size="2rem" /> Use the Search bar at the top of the page.
+
+    <Icon name="bars" color="var(--sl-color-accent)" size="2rem" /> Browse the sidebar or menu to discover main articles—click on the Topic names to explore.
+
+    <Icon name="list-format" color="var(--sl-color-accent)" size="2rem" /> Look up words and technical terms in the comprehensive [Glossary](/reference/glossary).
+
+    _What information are you looking for?_ _[Contact us!](/support/contact)_
+
+  </Card>
   <Card title="Guides" icon="open-book">
     [Application Development Best Practice](/topics/computing/app-development-best-practice) is a thorough guide for developers who want their software to be able to handle a wide range of global writing systems.
 
@@ -38,22 +55,5 @@ import { Icon } from '@astrojs/starlight/components';
     - [Font & Style Naming](/topics/fonts/font-and-style-naming)
     - [Copyright & Licensing](/topics/fonts/copyright-and-licensing)
     - [Unicode Concepts](/topics/encoding/unicode-concepts)
-  </Card>
-  <Card title="Finding Information" icon="magnifier">
-    <Icon name="up-arrow" color="var(--sl-color-accent)" size="2rem" /> Use the Search bar at the top of the page.
-
-    <Icon name="bars" color="var(--sl-color-accent)" size="2rem" /> Browse the sidebar or menu to discover main articles—click on the Topic names to explore.
-
-    <Icon name="list-format" color="var(--sl-color-accent)" size="2rem" /> Look up words and technical terms in the comprehensive [Glossary](/reference/glossary).
-
-    _What information are you looking for?_ _[Contact us!](/support/contact)_
-
-  </Card>
-  <Card title="Scripts & Languages" icon="pencil">
-    Discover information on individual scripts and languages starting with the [Scripts Index](/scrlang/scripts-index).
-    
-    Individual script pages provide detail on script properties, languages that use the script, Unicode status, and to relevant articles.
-
-    See [Languages](/scrlang/languages) for links to keyboards and specific language information on the [Ethnologue](https://www.ethnologue.com/) and other websites.
   </Card>
 </CardGrid>
