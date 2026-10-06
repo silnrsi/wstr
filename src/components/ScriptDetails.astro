@@ -2,9 +2,27 @@
 // ScriptDetails component: show a script's properties in a table.
 // The properties are taken from the script page front-matter.
 // TODO: Replace with ScriptInfo?
+import { Aside } from '@astrojs/starlight/components'
 
 const { scrpropcode, scrproptype, scrpropregion, scrpropstatus, scrpropdirection, scrpropbaseline, scrpropcase, scrpropwspace, scrpropbehavior, scrpropisonumkey, scrpropotcode } = Astro.locals.starlightRoute.entry.data;
 ---
+<template  id="script-redirect-contextual-notice">
+<Aside type="tip" title="Looking for ScriptSource?">
+	The ScriptSource website has been retired but most of the content of script pages has been
+	moved here. For more information read
+	<a href="/support/migrating-from-scriptsource">Migrating from ScriptSource</a>
+</Aside>
+</template>
+
+<script defer is:inline>
+	const referrer = new URL(document.referrer)
+	if (referrer.hostname.toLowerCase() === 'scriptsource.org') {
+		const template = document.getElementById("script-redirect-contextual-notice")
+		const heading = document.getElementById("script-details")?.parentNode
+		const notice = document.importNode(template?.content, true)
+		heading?.parentNode?.insertBefore(notice, heading)
+	}
+</script>
 
 <details>
 <summary>See all script details: code, region, status and more</summary>

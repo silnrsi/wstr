@@ -268,5 +268,7 @@ export default defineConfig({
     redirects: {
         "/guides/app-development-best-practice": "/topics/computing/app-development-best-practice",
         "/guides/font-design-and-development": "/topics/fonts/font-design-and-development",
+        "/scrlang/scripts/qaaf": "/support/migrating-from-scriptsource",
+        "/scrlang/scripts/qabe": "/support/migrating-from-scriptsource"
     }
 });
