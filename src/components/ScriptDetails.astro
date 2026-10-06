@@ -15,8 +15,8 @@ const { scrpropcode, scrproptype, scrpropregion, scrpropstatus, scrpropdirection
 </template>
 
 <script defer is:inline>
-	const referrer = new URL(document.referrer)
-	if (referrer.hostname.toLowerCase() === 'scriptsource.org') {
+	const url = new URL(document.URL)
+	if (url.searchParams.has('from-ssp')) {
 		const template = document.getElementById("script-redirect-contextual-notice")
 		const heading = document.getElementById("script-details")?.parentNode
 		const notice = document.importNode(template?.content, true)
