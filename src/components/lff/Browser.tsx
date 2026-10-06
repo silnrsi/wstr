@@ -23,10 +23,10 @@ function createDarkModeTheme(): Theme {
   })
 }
 
-type LFFResponse = Record<string, any> | null
+type LFFResponse = Record<string, any>
 
 function ApiBrowser() {
-  const [data, setData] = useState<LFFResponse>(null);
+  const [data, setData] = useState<LFFResponse>();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<Error|null>(null);
   const [theme, setTheme] = useState(createDarkModeTheme());
@@ -34,23 +34,7 @@ function ApiBrowser() {
   const [bcp47, setBcp47] = useState("und");
   const [lgName, setLgName] = useState("");
 
-
-  const observer = new MutationObserver((mutations) => {
-    mutations.forEach(record => {
-      if (document.documentElement.dataset.theme != record.oldValue) {
-        setTheme(createDarkModeTheme())
-      }
-    })
-  })
-  observer.observe(document.documentElement, { 
-    attributes: true,
-    attributeFilter: ['data-theme'],
-    attributeOldValue: true,
-  })
-
-  async function fetchData() {
-    console.log(`Calling LFF API for ${bcp47}`)
-    setLoading(true);
+  async function fetchData(langtag: string) {
     setError(null);
     try {
       const response = await fetch(`https://lff.api.languagetechnology.org/lang/${bcp47}`);
@@ -62,8 +46,6 @@ function ApiBrowser() {
     } catch (e: any) {
       setData(null)
       setError(e);
-    } finally {
-      setLoading(false);
     }
   };
 
@@ -114,7 +96,29 @@ function ApiBrowser() {
     )
   }
 
-  useEffect(() => { if (bcp47 != "und" && bcp47 != "" ) fetchData() }, [bcp47])
+  useEffect(() => {
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach(record => {
+        if (document.documentElement.dataset.theme != record.oldValue) {
+          setTheme(createDarkModeTheme(document.documentElement.dataset.theme === 'dark'))
+        }
+      })
+    })
+    observer.observe(document.documentElement, { 
+      attributes: true,
+      attributeFilter: ['data-theme'],
+      attributeOldValue: true,
+    })
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => { 
+    if (bcp47 == "und" || bcp47 == "" ) return
+
+      setLoading(true);
+      fetchData(bcp47)
+      setLoading(false);
+  }, [bcp47])
 
   return (
     <div className='lff-container'>
@@ -131,7 +135,10 @@ function ApiBrowser() {
           required
           disabled={loading}
           offline={true}
-          t={{...languagePickerStrings_en, select: "Select", findALanguage: "Find a language by name, code, or country" }}
+          t={{...languagePickerStrings_en, 
+              select: "Select",
+              findALanguage: "Find a language by name, code, or country"
+            }}
         />
       </ThemeProvider>
       {loading && <p>Loading LFF data for {lgName}...</p>}
@@ -140,6 +147,5 @@ function ApiBrowser() {
     </div>
   );
 }
-
 
 export default ApiBrowser;
