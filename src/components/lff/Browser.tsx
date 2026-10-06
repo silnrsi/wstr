@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from 'react';
 import { LanguagePicker, type LangTag, languagePickerStrings_en } from 'mui-language-picker'
-import { ThemeProvider, createTheme, type PaletteMode, type Theme } from "@mui/material/styles";
+import { ThemeProvider, createTheme, type Theme } from "@mui/material/styles";
 import Family from './Family'
 
 const copyIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true" fill="currentColor" style={{width: '1em', height: '1em', colorAdjust: 'economy', verticalAlign: '-0.125em'}}>
@@ -15,21 +15,17 @@ const copyIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" a
   <path d="M288 464L64 464c-8.8 0-16-7.2-16-16l0-224c0-8.8 7.2-16 16-16l48 0 0-48-48 0c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-48-48 0 0 48c0 8.8-7.2 16-16 16zM224 304c-8.8 0-16-7.2-16-16l0-224c0-8.8 7.2-16 16-16l224 0c8.8 0 16 7.2 16 16l0 224c0 8.8-7.2 16-16 16l-224 0zm-64-16c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L224 0c-35.3 0-64 28.7-64 64l0 224z"/>
 </svg>
 
-function createDarkModeTheme(): Theme {
-  return createTheme({
-    palette: {
-      mode: document.documentElement.dataset.theme as PaletteMode,
-    },
-  })
+function createDarkModeTheme(dark: boolean): Theme {
+  return createTheme({ colorSchemes: { dark: dark } })
 }
 
 type LFFResponse = Record<string, any>
 
 function ApiBrowser() {
-  const [data, setData] = useState<LFFResponse>();
+  const [data, setData] = useState<LFFResponse|null>();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<Error|null>(null);
-  const [theme, setTheme] = useState(createDarkModeTheme());
+  const [theme, setTheme] = useState(createDarkModeTheme(document.documentElement.dataset.theme === 'dark'));
   const [tag, setTag] = useState<LangTag>();
   const [bcp47, setBcp47] = useState("und");
   const [lgName, setLgName] = useState("");
@@ -37,7 +33,7 @@ function ApiBrowser() {
   async function fetchData(langtag: string) {
     setError(null);
     try {
-      const response = await fetch(`https://lff.api.languagetechnology.org/lang/${bcp47}`);
+      const response = await fetch(`https://lff.api.languagetechnology.org/lang/${langtag}`);
       if (!response.ok)
         throw new Error(await response.text(), { cause: response.status } );
 
@@ -122,7 +118,7 @@ function ApiBrowser() {
 
   return (
     <div className='lff-container'>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider noSsr={true} disableTransitionOnChange={true} theme={theme}>
         <LanguagePicker
           value={bcp47}
           setCode={setBcp47}
