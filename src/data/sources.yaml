@@ -4273,6 +4273,20 @@ miller2004:
   urldate: "2025-11-21"
   keywords: [script-nshu]
   annotation: "This 2004 article by Laura Miller aims to clear up some of the misunderstandings about the Nüshu script that have been propagated in the media. It is written primarily in response to a particular article published in the Washington Post the same year, but addresses misleading ideas that are found in other non-academic sources also. The author is a professor of anthropology at Loyola University, Chicago. She specializes in linguistic anthropology and Japan studies, and her research interests include linguistic ideology, folk models, popular culture, gender representations in media and language, and writing systems."
+miller2013:
+  entrytype: online
+  title: A Description of Kmhmu’ Lao Script-Based Orthography
+  author: Michelle Miller
+  editor: Paul Sidwell and Brian Migliazza
+  sortname: Miller
+  journaltitle: Mon-Khmer Studies
+  url: url: http://mksjournal.org/mks42miller.pdf
+  date: "2013-05-14"
+  pages: 12-25
+  volume: "42"
+  urldate: "2026-10-07"
+  keywords: [script-laoo, lang-kjg, orthography]
+  annotation: "Kmhmu’ is a language of the Mon-Khmer language family. Extensive linguistic research and analysis of the varieties of Kmhmu’ spoken in Southeast Asia has led to the grouping of Kmhmu’ into three dialect categories, generally referred to as Northern, Western and Southern (Svantesson 1989). The orthography described in this paper was developed for the Southern dialect and utilizes a Lao-based script."
 millet1996:
   entrytype: inbook
   title: The Meroitic Script
@@ -5522,7 +5536,7 @@ omni-gondi:
   url: http://www.omniglot.com/writing/gondi.htm
   urldate: "2011-11-04"
   keywords: [script-gonm, lang-gon]
-  annotation: "This page provides information about two scripts for writing the Gondi language, the Masaram Gondi script of 1928 as documented in ScriptSource, and the Gond script which was created in 2010. A chart of vowels, consonants and numerals is provided."
+  annotation: "This page provides information about two scripts for writing the Gondi language, the Masaram Gondi script of 1928 as documented in writingsystems.info, and the Gond script which was created in 2010. A chart of vowels, consonants and numerals is provided."
 omni-gothic:
   entrytype: online
   title: Gothic Alphabet
@@ -6680,7 +6694,7 @@ roberts2010:
   date: "2010"
   volume: "2"
   number: "2"
-  keywords: [lang-kbp]
+  keywords: [lang-kbp, orthography]
   annotation: "This article uses the example of Kabiye, one of the national languages of Togo, to illustrate the way in which miscues (errors in reading) can be a result of a toneless orthography being applied to a tone language. However, the author finds that the non-representation of tone in the orthography only accounts for a part of the problem. Hidden or unclear morpheme boundaries can have a greater effect, both in themselves and in the fact that they can further conceal tone by masking the roots of morphemes. The author suggests that, if the roots were made explicit, tone could be deduced to a much greater extent without having to be written."
 roberts2014:
   entrytype: article
@@ -7235,6 +7249,15 @@ sogdian-alphabet-ss:
   sortname: Lubossekk
   keywords: [script-sogd]
   abstract: "Sogdian Alphabet"
+sok-makara-2019:
+  entrytype: online
+  title: Khmer Character Specification/Usages
+  author: Makara Sok
+  url: https://github.com/MakaraSok/khmer-character-specification/blob/master/specification.md
+  date: "2019-05-03"
+  sortname: Sok
+  keywords: [script-khmr, orthography]
+  abstract: "The Khmer language is the national language of the Kingdom of Cambodia and the Khmer script is the official script used not only in writing the Khmer language, but other ethnic minority languages. It is also used to write religious documents (i.e. Dharma). This document seeks to describe how the Khmer script is used in various languages nowadays."
 song-dynasty-hanzi-text-ss:
   entrytype: online
   title: Song Dynasty Hanzi Text
