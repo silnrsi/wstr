@@ -26,19 +26,19 @@ index 3ae0695..0000000
 -}
 diff --git a/npm-shrinkwrap.json b/npm-shrinkwrap.json
 new file mode 100644
-index 0000000..ed80706
+index 0000000..9cd7cf6
 --- /dev/null
 +++ b/npm-shrinkwrap.json
 @@ -0,0 +1,10627 @@
 +{
 +  "name": "mui-language-picker",
-+  "version": "2.7.6-pre.0",
++  "version": "2.7.6-pre.1",
 +  "lockfileVersion": 3,
 +  "requires": true,
 +  "packages": {
 +    "": {
 +      "name": "mui-language-picker",
-+      "version": "2.7.6-pre.0",
++      "version": "2.7.6-pre.1",
 +      "license": "MIT",
 +      "dependencies": {
 +        "lodash": "^4.18.1"
@@ -10658,14 +10658,14 @@ index 0000000..ed80706
 +  }
 +}
 diff --git a/package.json b/package.json
-index 2a3b0a3..62073a4 100644
+index 2a3b0a3..2c9ea50 100644
 --- a/package.json
 +++ b/package.json
 @@ -1,6 +1,6 @@
  {
    "name": "mui-language-picker",
 -  "version": "2.7.5",
-+  "version": "2.7.6-pre.0",
++  "version": "2.7.6-pre.1",
    "description": "Material UI language picker",
    "main": "dist/index.js",
    "types": "dist/index.d.ts",
@@ -10689,6 +10689,13 @@ index 2a3b0a3..62073a4 100644
    },
    "browserslist": {
      "production": [
+@@ -113,4 +113,4 @@
+   "volta": {
+     "node": "22.19.0"
+   }
+-}
++}
+\ No newline at end of file
 diff --git a/src/LanguageChoice.tsx b/src/LanguageChoice.tsx
 index a93090f..a3d0298 100644
 --- a/src/LanguageChoice.tsx
@@ -10710,7 +10717,7 @@ index a93090f..a3d0298 100644
            <ListItemText
              primary={
 diff --git a/src/LanguagePicker.tsx b/src/LanguagePicker.tsx
-index c4d0cc9..3b27a7f 100644
+index c4d0cc9..1fa40f5 100644
 --- a/src/LanguagePicker.tsx
 +++ b/src/LanguagePicker.tsx
 @@ -44,7 +44,6 @@ import { getDisplayName, DisplayName } from './getDisplayName';
@@ -10795,7 +10802,7 @@ index c4d0cc9..3b27a7f 100644
 +        .reduce((acc, m) => {
 +          return [...acc.filter(lt => m.includes(lt)), ...m.filter(lt => acc.includes(lt))]
 +        })
-+        .filter(lt => !list.includes(lt))
++        .filter(lt => lt.tag[0] !== '_' && !list.includes(lt))
 +
 +      parts.sort((a, b) => a.name.localeCompare(b.name));
 +      const lcSearch = search.toLocaleLowerCase();
