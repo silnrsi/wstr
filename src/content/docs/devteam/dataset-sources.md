@@ -29,7 +29,7 @@ See [Sources Reference](/devteam/sources-reference/).
 
 ## History
 
-- **2026 January** - Generated from ScriptSource
+- **2026 January** - generated from ScriptSource
 
 ## Maintenance processes
 

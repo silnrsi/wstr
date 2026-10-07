@@ -27,7 +27,7 @@ The data is read by low-level `coredata` routines and is ultimately used by mech
 
 ## History
 
-- **2025 September** Added by Tim Eves along with coredata Astro components for displaying character data.
+- **2025 September** - added by Tim Eves along with coredata Astro components for displaying character data.
 
 ## Maintenance processes
 
