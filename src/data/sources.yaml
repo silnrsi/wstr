@@ -934,6 +934,17 @@ chung2015-ss:
   sortname: Chung
   keywords: [script-plrd, lang-yna, lang-sfm, lang-ygp, lang-hmd, lang-cqd, lang-ktp, lang-mww, lang-ywq, lang-lpo]
   abstract: "Abstract: <br />(CR)The Miao Script (formerly the Pollard Script) has been adapted to nine languages in three different language groups: Hmongic, Lolo-Burmese, and Burmic.  It has been standardized by the International Standardization Organization.  Historically, it was used for official publications in China and for literature and literacy development within the nine ethnolinguistic groups. Five of them still use the script.  In the past decade, more than twenty languages in these three groups have been newly recognized, which raises the question of its potential for use in literacy development among the least literate of these groups."
+clark2007:
+  entrytype: misc
+  title: "Alphabet and orthography statement for Fulfulde [FUB] Ajamiya (found in Nigeria, Cameroon, Chad and Central African Republic)"
+  author: Scott Clark
+  sortname: Clark
+  url: https://www.sil.org/resources/archives/32286
+  date: "2007"
+  publisher: SIL Global
+  location: "Yaoundé, Cameroon"
+  keywords: [script-arab, lang-fub, orthography]
+  abstract: "The alphabet described in this document is the result of many years of research, which began in the early 1960’s by Dr. Kristian Skulberg of Norway (in Ngaoundéré, Cameroon). Ron Nelson and the Sawtu Linjiila staff (a Fulfulde media and radio organization) continued his work in the 1980’s. By 1990, the orthography was well established. The orthography in the present statement has not significantly changed since that time. In 1998, at the JCMWA/MICCAO conference in Ngaoundéré, Cameroon; over 100 representatives from 14 West African countries agreed that this orthography would be a good standard for writing the Fulfulde language with Arabic script (called Ajamiya)."
 clauson2002:
   entrytype: inbook
   title: The texts in Sogdian and Uygur Scripts
@@ -4274,7 +4285,7 @@ miller2004:
   keywords: [script-nshu]
   annotation: "This 2004 article by Laura Miller aims to clear up some of the misunderstandings about the Nüshu script that have been propagated in the media. It is written primarily in response to a particular article published in the Washington Post the same year, but addresses misleading ideas that are found in other non-academic sources also. The author is a professor of anthropology at Loyola University, Chicago. She specializes in linguistic anthropology and Japan studies, and her research interests include linguistic ideology, folk models, popular culture, gender representations in media and language, and writing systems."
 miller2013:
-  entrytype: online
+  entrytype: inbook
   title: A Description of Kmhmu’ Lao Script-Based Orthography
   author: Michelle Miller
   editor: Paul Sidwell and Brian Migliazza
@@ -8019,7 +8030,7 @@ unseth2008:
   pages: 357-371
   volume: "36"
   number: "3"
-  keywords: [script-perm, script-lisu, script-cans, script-x-micmac-hieroglyphs, script-cyrl, script-ethi, script-plrd]
+  keywords: [script-perm, script-lisu, script-cans, script-x-micmac-hieroglyphs, script-cyrl, script-ethi, script-plrd, orthography]
   abstract: "Throughout history and within a number of language communities, orthographies have enabled the initial transcription of spoken languages. This paper examines the few cases in which a person from outside a language community devised a script for a previously unwritten language. In all of the cases studied, the outsiders who devised scripts for the language communities were Christian missionaries. Among the eight cases are several common factors, and in all the cases, devising something unique for the community (rather than introducing something from the missionaries' own culture) was part of a successful strategy for church planting within these groups."
   annotation: "A journal article on several scripts that were initially devised by Christian Missionaries."
 utn:
@@ -8866,7 +8877,7 @@ wiki-ethiopic-diaspora-ss:
   abstract: "Ge'ez is a sacred script in the Rastafarian religion. Roots reggae musicians have used it in album art.(CR)(CR)The film 500 Years Later (፭፻-ዓመታት በኋላ) was the first mainstream Western documentary to use Ge'ez characters, which were used in the title. The script also appears in the trailer and promotional material of the film."
 wiki-evenki:
   entrytype: online
-  title: "Evenki  Language: Orthography"
+  title: "Evenki Language: Orthography"
   organization: Wikipedia
   url: https://en.wikipedia.org/wiki/Evenk_language#Orthography
   date: "2011-07-01"
