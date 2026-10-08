@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, Suspense, use } from 'react';
+import { useState, useEffect, Suspense, use, ViewTransition } from 'react';
 import { LanguagePicker, type LangTag, languagePickerStrings_en } from 'mui-language-picker'
 import { ThemeProvider, createTheme, type Theme } from "@mui/material/styles";
 import Family from './Family'
@@ -10,7 +10,7 @@ type LFFResponse = Record<string, any>
 
 async function queryLFF(langtag: string): Promise<LFFResponse> {
   const response = await fetch(`https://lff.api.languagetechnology.org/lang/${langtag}`)
-      if (!response.ok)
+  if (!response.ok)
     throw new Error(await response.text(), { cause: response.status } )
 
   return await response.json() as LFFResponse
@@ -42,38 +42,38 @@ function Response({langtag, tagset, name}: Props) {
           <p style={{ color: 'red' }}>
             Error fetching {name} ({langtag}): server responsed with status: {resp.cause as number}
           </p>)  
-    }
+      }
   }
 
   const data = resp as LFFResponse;
-    return (
-      <div>
-        <h2>Available fonts</h2>
+  return (
+    <div>
+      <h2>Available fonts</h2>
 
-        <p><em>The list below is not a comprehensive list of all fonts that support the language,
-          but rather a minimal selection of commonly used open fonts that are likely to work well.
+      <p><em>The list below is not a comprehensive list of all fonts that support the language,
+        but rather a minimal selection of commonly used open fonts that are likely to work well.
         Additional fonts for some scripts and languages may be available from
         <a href="https://fonts.google.com" target="_blank" rel="noopener noreferrer">Google Fonts</a>.
-          Text used for font samples may not be in the selected language.</em></p>
+        Text used for font samples may not be in the selected language.</em></p>
       <ol className='lff-families'>{
         data.defaultfamily.map((id: string) => {
-            const rec = data.families[id]
+          const rec = data.families[id]
           return <li key={id}><Family lang={tagset?.full} {...rec}/></li>
         })
       }</ol>
 
-        <details>
-          <summary>
+      <details>
+        <summary>
           View full record for {name} ({langtag}) from LFF version {data.apiversion}
           <button className='lff-copy' onClick={copyRawResponse}>{Icon.copy}</button>
-          </summary>
-          <pre className='lff-response'>
+        </summary>
+        <pre className='lff-response'>
           <code id="raw-response">{JSON.stringify(data, null, 2)}</code>
-          </pre>
-        </details>
-      </div>
-    )
-  }
+        </pre>
+      </details>
+    </div>
+  )      
+}
 
 
 function createDarkModeTheme(dark: boolean): Theme {
@@ -122,9 +122,11 @@ function ApiBrowser() {
             }}
         />
       </ThemeProvider>
+      <ViewTransition>
         <Suspense fallback={<p>Loading LFF data for {name}...</p>}>
           <Response langtag={bcp47} tagset={tag as LangTag} name={name}/>
         </Suspense>
+      </ViewTransition>
     </div>
   );
 }

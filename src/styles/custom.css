@@ -10,7 +10,7 @@
     --sl-line-height-headings: 1.0;
     /* reduce default size of h3 headings to increase contrast with h2 */
     --sl-text-h3: 1.625rem; /* 26px */
-    }
+}
 
 .sl-markdown-content .sl-heading-wrapper.level-h2 {
     margin-top: 1.4rem !important; 
@@ -49,7 +49,7 @@
     --sl-color-accent: hsl(210.16, 100%, 36.27%);
     /* set color of body text to black */
     --sl-color-text: hsl(255, 0%, 0%);
-    }
+}
 
 .external-link-icon {
     display:inline-flex;
