@@ -13,17 +13,34 @@ Grapheme and phoneme data is dispersed through a number of files.
 
 ### Phonemes
 
-- phonemes.json
+- src/data/phonemes.json - includes a list of all phonemes recognized by the system.
 
-- phoneme-charts.mdx - charts for consonants, vowels, and diphthongs, with links to phoneme pages
+- src/content/docs/srclang/phoneme-charts.mdx - charts for consonants, vowels, and diphthongs, with links to phoneme pages
 
-- phonemes pages - MDX files in scrlang/phonemes; display graphemes associated with the phoneme and related phonemes; e.g., aff-pal-vd.mdx, vwl-bk-op-rnd.mdx
+- phonemes pages - MDX files in src/content/docs/scrlang/phonemes; display graphemes associated with the phoneme and related phonemes; e.g., aff-pal-vd.mdx, vwl-bk-op-rnd.mdx
+
+#### Phoneme JSON fields
+
+- **main key**: unique for each phoneme; e.g., `nas-bil-palzd` means "palatalized bilabial nasal; see Phoneme Keys section below.
+- **symbol**: IPA symbol corresponding to the phoneme, e.g., "mʲ"
+- **label**: prose label; e.g., "palatalized bilabial nasal"
+- **sortkey**: provides a way to logically sort the phoneme list; not currently used within WSTR; see Phoneme Keys section below
+- **slug**: since most phoneme pages display multiple phonemes, this is the bit used in the URL in order to jump to the appropriate section of the relevant phoneme page. It is only needed for phonemes whose main key does _not_ match the phoneme page, e.g., nas-lbd -> nas-alv#labiodentals, vwl-ce-nc-rnd -> vwl-ce-cl-rnd#near-close.
 
 ### Graphemes
 
-- ws-graphemes.json
+- src/data/ws-graphemes.json - phonograms (grapheme -> phoneme mappings) organized by writing system.
 
-- grapheme pages - MDX files located in scrlang/graphemes; display grapheme and phoneme information for writing systems; e.g., ar-arab.mdx, nat-latn.mdx
+- grapheme pages - MDX files located in src/content/docs/scrlang/graphemes; display grapheme and phoneme information for writing systems; e.g., ar-arab.mdx, nat-latn.mdx
+
+#### Grapheme JSON fields
+
+- **ws**: writing system code, eg, ru-Cyrl, blt-Tavt; lowercased, this must match the grapheme page name.
+- **chars**: a list of USVs that comprise the grapheme (must always  be a list, even for single-char graphemes).
+- **phoneme**: the key of the phoneme that this phonogram represents
+- **status**: expected, common, uncommon, rare, obsolete; these are documented in the spreadsheet template instructions.
+- **example**: a sample string containing the phonogram ideally followed by a gloss. The sample should be wrapped in a <span> to indicate the language, and the gloss should quoted with single curly quotes. Multiple examples are separated by commas.
+- **notes**: additional information about the phonogram. Graphemes included in the note should be surrounded by single gillemets, eg "‹ay› is used word-finally".
 
 ## Source and licensing
 
@@ -54,14 +71,15 @@ Components that work with this data include:
 
 Currently grapheme sets must be added by hand. The process is:
 
-- Create or obtain a spreadsheet describing all the phonemes, graphemes, and phonograms used by the writing system. The template spreadsheet was used by ScriptSource.
-- Note the official writing system code; this is the identifier for the data.
+- Note the official writing system code; this is the identifier for the data. It should always include both language code and script, e.g., ru-Cyrl, es-Latn.
+- Create or obtain a spreadsheet describing all the phonemes, graphemes, and phonograms used by the writing system. The template spreadsheet is src/data/graphemes/grapheme_template.ods; there is also an XLTX version available. There are also sample spreadsheets for English and Spanish. Name the spreadsheet file something like "Language Name [ws-Code].ods".
 - Ensure that all necessary phonemes are present in the current phonemes.json file; add any new ones (see below).
 - Add the grapheme and phonogram data to the ws-graphemes.json file, modeled after current data.*
     - Also add information for the writing system in the 'intros' and 'names' section at the bottom of the file. The 'intros' section is not currently used; the introductory information is hard-coded in the .mdx file.
-- Add an .MDX file for writing system in the scrlang/graphemes directory, modeled after a similar writing system.
-- Add the writing system to the list in GraphemeWsList.astro.
-- Find the .MDX file in the scrlang/scripts directory for the writing system's script. If it is not already there, add a section under **Resources** called "Grapheme and phoneme data"; this goes between the "Related articles" and the "External links" sections. Include a link to the new grapheme page in the scrlang/graphemes directory. Also include a link to data for the same language in a different script, if any. (See arab.mdx as an example.)
+- Add an .MDX file for writing system in the src/content/data/scrlang/graphemes directory, modeled after a similar writing system.
+- Add the writing system to the list in src/components/GraphemeWsList.astro.
+- Find the .MDX file in the src/content/docs/scrlang/scripts directory for the writing system's script. If it is not already there, add a section under **Resources** called "Grapheme and phoneme data"; this goes between the "Related articles" and the "External links" sections. Include a link to the new grapheme page in the scrlang/graphemes directory. Also include a link to data for the same language in a different script, if any. (See arab.mdx as an example.)
+- Archive the spreadsheet in the WSTR/Data Archives/Graphemes directory on Google Drive.
 
 *In the future we could write a script to generate the JSON data, but that has currently not been done since we have little expectation of new grapheme sets being added.
 
@@ -73,11 +91,11 @@ Adding a new phoneme is unlikely to be needed but might be necessary if a writin
 
 - If the new phoneme is a modification of an existing phoneme (eg, nasalized, lengthened, etc.):
     - Add the modified form of phoneme to the phoneme MDX file for the base form.
-    - Add the new phoneme to phonemes.json. Place it in the file near related phonemes, ordered by sort key. All phonemes require a key, symbol, label, and sortkey. You probably don't need to include a slug. 
+    - Add the new phoneme to phonemes.json. Place it in the file near related phonemes, ordered by sort key. All phonemes require a main key, symbol, label, and sortkey. You probably don't need to include a slug. 
 
 - If the new phoneme has a completely new base:
     - Decide which phoneme page the new phoneme belongs on. (It's unlikely that you will need to create a new phoneme page; just pick the most closely related existing one.) Add a new section to display the new phoneme. Include modified forms similar to existing phonemes on the same page.
-    - Add the new phoneme to phonemes.json. Place it in the file near related phonemes, ordered by sort key. All phonemes require a key, symbol, label, and sortkey. You'll need to include a slug indicating the phoneme page and the section header you added.
+    - Add the new phoneme to phonemes.json. Place it in the file near related phonemes, ordered by sort key. All phonemes require a main key, symbol, label, and sortkey. You'll also need to include a slug indicating the phoneme page and the section header you added.
     - Add the new phoneme to the appropriate phoneme chart file - PhChartCons.astro, PhChartVowel.astro,  or PhChartDiph.astro.
 
 #### Phoneme keys
@@ -105,7 +123,7 @@ An exception to these patterns is 'cons-null'.
 - app = approximant; sort key = 80
 - null = null; sort key = 99
 
-**Place of articulation codes**
+**Place-of-articulation codes**
 - bil = bilabial; sort key = 10
 - llb = linguolabial; sort key = 15
 - lbd = labiodental; sort key = 20
@@ -151,7 +169,7 @@ Note that URL slugs use '__" where the key uses '+'.
 
 ##### Vowel keys
 
-Vowel keys are off the form:
+Vowel keys are of the form:
 - vwl-PP-HH-RRR - placement, height, rounding
 - vwl-PP-HH-RRR-MMMMM - placement, height, rounding, modification
 - vwl-PP-HH-RRR-MMM - placement, height, rounding, modification
@@ -198,4 +216,4 @@ etc.
 
 Note that URL slugs use '__" where the key uses '+'. 
 
-The anchor '#rising' corresponds to the '+on' part of the key, which indicates an "onset" or rising diphthong.
+The anchor '#rising' corresponds to the '+on' part of the key, which indicates an "on-glide" or rising diphthong.
