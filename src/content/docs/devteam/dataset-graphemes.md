@@ -22,22 +22,22 @@ Grapheme and phoneme data is dispersed through a number of files.
 #### Phoneme JSON fields
 
 - **main key**: unique for each phoneme; e.g., `nas-bil-palzd` means "palatalized bilabial nasal; see Phoneme Keys section below.
-- **symbol**: IPA symbol corresponding to the phoneme, e.g., "mʲ"
-- **label**: prose label; e.g., "palatalized bilabial nasal"
-- **sortkey**: provides a way to logically sort the phoneme list; not currently used within WSTR; see Phoneme Keys section below
+- **symbol**: IPA symbol corresponding to the phoneme, e.g., "mʲ".
+- **label**: prose label; e.g., "palatalized bilabial nasal".
+- **sortkey**: provides a way to logically sort the phoneme list; not currently used within WSTR; see Phoneme Keys section below.
 - **slug**: since most phoneme pages display multiple phonemes, this is the bit used in the URL in order to jump to the appropriate section of the relevant phoneme page. It is only needed for phonemes whose main key does _not_ match the phoneme page, e.g., nas-lbd -> nas-alv#labiodentals, vwl-ce-nc-rnd -> vwl-ce-cl-rnd#near-close.
 
 ### Graphemes
 
 - src/data/ws-graphemes.json - phonograms (grapheme -> phoneme mappings) organized by writing system.
 
-- grapheme pages - MDX files located in src/content/docs/scrlang/graphemes; display grapheme and phoneme information for writing systems; e.g., ar-arab.mdx, nat-latn.mdx
+- grapheme pages - MDX files located in src/content/docs/scrlang/graphemes; display grapheme and phoneme information for writing systems; e.g., ar-arab.mdx, nat-latn.mdx.
 
 #### Grapheme JSON fields
 
 - **ws**: writing system code, eg, ru-Cyrl, blt-Tavt; lowercased, this must match the grapheme page name.
 - **chars**: a list of USVs that comprise the grapheme (must always  be a list, even for single-char graphemes).
-- **phoneme**: the key of the phoneme that this phonogram represents
+- **phoneme**: the key of the phoneme that this phonogram represents.
 - **status**: expected, common, uncommon, rare, obsolete; these are documented in the spreadsheet template instructions.
 - **example**: a sample string containing the phonogram ideally followed by a gloss. The sample should be wrapped in a <span> to indicate the language, and the gloss should quoted with single curly quotes. Multiple examples are separated by commas.
 - **notes**: additional information about the phonogram. Graphemes included in the note should be surrounded by single gillemets, eg "‹ay› is used word-finally".
@@ -76,7 +76,7 @@ Currently grapheme sets must be added by hand. The process is:
 - Ensure that all necessary phonemes are present in the current phonemes.json file; add any new ones (see below).
 - Add the grapheme and phonogram data to the ws-graphemes.json file, modeled after current data.*
     - Also add information for the writing system in the 'intros' and 'names' section at the bottom of the file. The 'intros' section is not currently used; the introductory information is hard-coded in the .mdx file.
-- Add an .MDX file for writing system in the src/content/data/scrlang/graphemes directory, modeled after a similar writing system.
+- Add an .MDX file for the writing system in the src/content/data/scrlang/graphemes directory, modeled after a similar writing system.
 - Add the writing system to the list in src/components/GraphemeWsList.astro.
 - Find the .MDX file in the src/content/docs/scrlang/scripts directory for the writing system's script. If it is not already there, add a section under **Resources** called "Grapheme and phoneme data"; this goes between the "Related articles" and the "External links" sections. Include a link to the new grapheme page in the scrlang/graphemes directory. Also include a link to data for the same language in a different script, if any. (See arab.mdx as an example.)
 - Archive the spreadsheet in the WSTR/Data Archives/Graphemes directory on Google Drive.
