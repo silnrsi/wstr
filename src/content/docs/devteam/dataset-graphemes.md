@@ -1,5 +1,5 @@
 ---
-title: Dataset - Graphems and Phonemes
+title: Dataset - Graphemes and Phonemes
 lastUpdated: 2026-09-23
 ---
 
@@ -17,7 +17,7 @@ Grapheme and phoneme data is dispersed through a number of files.
 
 - `src/content/docs/srclang/phoneme-charts.mdx` - charts for consonants, vowels, and diphthongs, with links to phoneme pages
 
-- phonemes pages - MDX files in `src/content/docs/scrlang/phonemes`; display graphemes associated with the phoneme and related phonemes; e.g., `aff-pal-vd.mdx`, `vwl-bk-op-rnd.mdx`
+- phonemes pages - MDX files in `src/content/docs/scrlang/phonemes`; display graphemes associated with the indicated phoneme as well as related phonemes; e.g., `aff-pal-vd.mdx`, `vwl-bk-op-rnd.mdx`
 
 #### Phoneme JSON fields
 
@@ -71,15 +71,15 @@ Components that work with this data include:
 
 Currently grapheme sets must be added by hand. The process is:
 
-- Note the official writing system code; this is the identifier for the data. It should always include both language code and script, e.g., ru-Cyrl, es-Latn.
+- Note the official writing system code; this is the identifier for the data. It should always include both language and script codes, e.g., ru-Cyrl, es-Latn.
 - Download the <a download href="/files/graphemes.zip">graphemes template package</a> and unzip it. It includes LibreOffice and Excel spreadsheets and sample files for English and Spanish.
 - Use one of the templates to create a spreadsheet describing all the phonemes, graphemes, and phonograms used by the writing system. (The two spreadsheets are identical; I found that LibreOffice handled non-Roman data a little better than Excel.) Instructions are found in the Instructions tab. Name the spreadsheet file something like "Language Name [ws-Code].ods".
 - Ensure that all necessary phonemes are present in the current `phonemes.json` file; add any new ones (see below).
 - Add the grapheme and phonogram data to the `ws-graphemes.json` file, modeled after current data.*
-    - Also add information for the writing system in the 'intros' and 'names' section at the bottom of the file. The 'intros' section is not currently used; the introductory information is hard-coded in the .mdx file.
-- Add an .MDX file for the writing system in the `src/content/data/scrlang/graphemes` directory, modeled after a similar writing system.
+    - Also add information for the writing system in the 'intros' and 'names' section at the bottom of the file. (The 'intros' section is not currently used; the introductory information is hard-coded in the .mdx file.)
+- Add a new .MDX file for the writing system in the `src/content/data/scrlang/graphemes` directory, modeled after a similar writing system.
 - Add the writing system to the list in `src/components/GraphemeWsList.astro`.
-- Find the .MDX file in the `src/content/docs/scrlang/scripts` directory for the writing system's script. If it is not already there, add a section under **Resources** called "Grapheme and phoneme data"; this goes between the "Related articles" and the "External links" sections. Include a link to the new grapheme page in the `scrlang/graphemes` directory. Also include a link to data for the same language in a different script, if any. (See `arab.mdx` as an example.)
+- Find the .MDX file in the `src/content/docs/scrlang/scripts` directory for the writing system's script. Look for a section under **Resources** called "Grapheme and phoneme data", or add it if necessary; this goes between the "Related articles" and the "External links" sections. Include a link to the new grapheme page in the `scrlang/graphemes` directory. Also include a link to data for the same language in a different script, if any. (See `arab.mdx` as an example.)
 - Archive the spreadsheet in the WSTR/Data Archives/Graphemes directory on Google Drive.
 
 *In the future we could write a script to generate the JSON data, but that has currently not been done since we have little expectation of new grapheme sets being added.
