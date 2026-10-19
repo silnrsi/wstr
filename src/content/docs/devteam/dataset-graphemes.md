@@ -13,25 +13,25 @@ Grapheme and phoneme data is dispersed through a number of files.
 
 ### Phonemes
 
-- src/data/phonemes.json - includes a list of all phonemes recognized by the system.
+- `src/data/phonemes.json` - includes a list of all phonemes recognized by the system.
 
-- src/content/docs/srclang/phoneme-charts.mdx - charts for consonants, vowels, and diphthongs, with links to phoneme pages
+- `src/content/docs/srclang/phoneme-charts.mdx` - charts for consonants, vowels, and diphthongs, with links to phoneme pages
 
-- phonemes pages - MDX files in src/content/docs/scrlang/phonemes; display graphemes associated with the phoneme and related phonemes; e.g., aff-pal-vd.mdx, vwl-bk-op-rnd.mdx
+- phonemes pages - MDX files in `src/content/docs/scrlang/phonemes`; display graphemes associated with the phoneme and related phonemes; e.g., `aff-pal-vd.mdx`, `vwl-bk-op-rnd.mdx`
 
 #### Phoneme JSON fields
 
-- **main key**: unique for each phoneme; e.g., `nas-bil-palzd` means "palatalized bilabial nasal; see Phoneme Keys section below.
+- **main key**: unique for each phoneme; e.g., 'nas-bil-palzd' means "palatalized bilabial nasal; see Phoneme Keys section below.
 - **symbol**: IPA symbol corresponding to the phoneme, e.g., "mʲ".
 - **label**: prose label; e.g., "palatalized bilabial nasal".
 - **sortkey**: provides a way to logically sort the phoneme list; not currently used within WSTR; see Phoneme Keys section below.
-- **slug**: since most phoneme pages display multiple phonemes, this is the bit used in the URL in order to jump to the appropriate section of the relevant phoneme page. It is only needed for phonemes whose main key does _not_ match the phoneme page, e.g., nas-lbd -> nas-alv#labiodentals, vwl-ce-nc-rnd -> vwl-ce-cl-rnd#near-close.
+- **slug**: since most phoneme pages display multiple phonemes, this is the bit used in the URL in order to jump to the appropriate section of the relevant phoneme page. It is only needed for phonemes whose main key does _not_ match the phoneme page, e.g., 'nas-lbd' -> `nas-alv#labiodentals`, 'vwl-ce-nc-rnd' -> `vwl-ce-cl-rnd#near-close`.
 
 ### Graphemes
 
-- src/data/ws-graphemes.json - phonograms (grapheme -> phoneme mappings) organized by writing system.
+- `src/data/ws-graphemes.json` - phonograms (grapheme -> phoneme mappings) organized by writing system.
 
-- grapheme pages - MDX files located in src/content/docs/scrlang/graphemes; display grapheme and phoneme information for writing systems; e.g., ar-arab.mdx, nat-latn.mdx.
+- grapheme pages - MDX files located in `src/content/docs/scrlang/graphemes`; display grapheme and phoneme information for writing systems; e.g., `ar-arab.mdx`, `nat-latn.mdx`.
 
 #### Grapheme JSON fields
 
@@ -53,13 +53,13 @@ The data is used by the phoneme and grapheme MDX pages mentioned above.
 Components that work with this data include:
 
 - Phoneme charts - these are implemented using components to allow more complicated HTML than what an MDX file will handle:
-    - PhChartCons.astro 
-    - PhChartDiph.astro
-    - PhChartVowel.astro
-- Phoneme.astro - used by phoneme pages to display a table of graphemes and phonograms that represent a given phoneme
-- WsGraphemes.astro - used by grapheme pages to display a table of graphemes and phonograms used by a given writing system
-- Phonemes.mts - auxiliary file containing functions used by Phoneme.astro and WsGraphemes.astro.
-- GraphemeWsList.astro - included in phoneme-charts.mdx; uses a component in order to put the list inside of a "Details" twisty.
+    - `PhChartCons.astro`
+    - `PhChartDiph.astro`
+    - `PhChartVowel.astro`
+- `Phoneme.astro` - used by phoneme pages to display a table of graphemes and phonograms that represent a given phoneme
+- `WsGraphemes.astro` - used by grapheme pages to display a table of graphemes and phonograms used by a given writing system
+- `Phonemes.mts` - auxiliary file containing functions used by `Phoneme.astro` and `WsGraphemes.astro`.
+- `GraphemeWsList.astro` - included in `phoneme-charts.mdx`; uses a component in order to put the list inside of a "Details" twisty.
 
 ## History
 
@@ -72,14 +72,14 @@ Components that work with this data include:
 Currently grapheme sets must be added by hand. The process is:
 
 - Note the official writing system code; this is the identifier for the data. It should always include both language code and script, e.g., ru-Cyrl, es-Latn.
-- Download the template package from public/files/graphemes.zip and unzip it. It includes LibreOffice and Excel spreadsheets and sample files for English and Spanish.
+- Download the <a download href="/files/graphemes.zip">graphemes template package</a> and unzip it. It includes LibreOffice and Excel spreadsheets and sample files for English and Spanish.
 - Use one of the templates to create a spreadsheet describing all the phonemes, graphemes, and phonograms used by the writing system. (The two spreadsheets are identical; I found that LibreOffice handled non-Roman data a little better than Excel.) Instructions are found in the Instructions tab. Name the spreadsheet file something like "Language Name [ws-Code].ods".
-- Ensure that all necessary phonemes are present in the current phonemes.json file; add any new ones (see below).
-- Add the grapheme and phonogram data to the ws-graphemes.json file, modeled after current data.*
+- Ensure that all necessary phonemes are present in the current `phonemes.json` file; add any new ones (see below).
+- Add the grapheme and phonogram data to the `ws-graphemes.json` file, modeled after current data.*
     - Also add information for the writing system in the 'intros' and 'names' section at the bottom of the file. The 'intros' section is not currently used; the introductory information is hard-coded in the .mdx file.
-- Add an .MDX file for the writing system in the src/content/data/scrlang/graphemes directory, modeled after a similar writing system.
-- Add the writing system to the list in src/components/GraphemeWsList.astro.
-- Find the .MDX file in the src/content/docs/scrlang/scripts directory for the writing system's script. If it is not already there, add a section under **Resources** called "Grapheme and phoneme data"; this goes between the "Related articles" and the "External links" sections. Include a link to the new grapheme page in the scrlang/graphemes directory. Also include a link to data for the same language in a different script, if any. (See arab.mdx as an example.)
+- Add an .MDX file for the writing system in the `src/content/data/scrlang/graphemes` directory, modeled after a similar writing system.
+- Add the writing system to the list in `src/components/GraphemeWsList.astro`.
+- Find the .MDX file in the `src/content/docs/scrlang/scripts` directory for the writing system's script. If it is not already there, add a section under **Resources** called "Grapheme and phoneme data"; this goes between the "Related articles" and the "External links" sections. Include a link to the new grapheme page in the `scrlang/graphemes` directory. Also include a link to data for the same language in a different script, if any. (See `arab.mdx` as an example.)
 - Archive the spreadsheet in the WSTR/Data Archives/Graphemes directory on Google Drive.
 
 *In the future we could write a script to generate the JSON data, but that has currently not been done since we have little expectation of new grapheme sets being added.
@@ -88,16 +88,16 @@ Currently grapheme sets must be added by hand. The process is:
 
 Adding a new phoneme is unlikely to be needed but might be necessary if a writing system is added with unusual phonology.
 
-- Add the phoneme to phonemes.json, being sure to follow the conventions for the phoneme key (see below). Sortkeys are not currently used, but it is recommended to fill them out anyway. Add the new phoneme in sortkey order. Slugs are needed for basic phonemes when there is a mismatch between the page containing the display for the phoneme and the phoneme key. (E.g., slugs are _not_ needed for 'stp-alv-vl' or 'stp-alv-vl-aspir' since the phoneme page is called 'stp-alv-vl.mdx', but it is needed for 'stp-den-vl' which is displayed on the same page. It is _not_ needed for 'stp-den-vl-aspir' since it is specified for 'stp-den-vl'.)
+- Add the phoneme to `phonemes.json`, being sure to follow the conventions for the phoneme key (see below). Sortkeys are not currently used, but it is recommended to fill them out anyway. Add the new phoneme in sortkey order. Slugs are needed for basic phonemes when there is a mismatch between the page containing the display for the phoneme and the phoneme key. (E.g., slugs are _not_ needed for 'stp-alv-vl' or 'stp-alv-vl-aspir' since the phoneme page is called `stp-alv-vl.mdx`, but it is needed for 'stp-den-vl' which is displayed on the same page. It is _not_ needed for 'stp-den-vl-aspir' since it is already specified for 'stp-den-vl'.)
 
 - If the new phoneme is a modification of an existing phoneme (eg, nasalized, lengthened, etc.):
-    - Add the modified form of phoneme to the phoneme MDX file for the base form.
-    - Add the new phoneme to phonemes.json. Place it in the file near related phonemes, ordered by sort key. All phonemes require a main key, symbol, label, and sortkey. You probably don't need to include a slug. 
+    - Add the modified form of phoneme to the phoneme MDX file for the base form in `scrlang/phonemes`.
+    - Add the new phoneme to `phonemes.json`. Place it in the file near related phonemes, ordered by sort key. All phonemes require a main key, symbol, label, and sortkey. You probably don't need to include a slug. 
 
 - If the new phoneme has a completely new base:
-    - Decide which phoneme page the new phoneme belongs on. (It's unlikely that you will need to create a new phoneme page; just pick the most closely related existing one.) Add a new section to display the new phoneme. Include modified forms similar to existing phonemes on the same page.
-    - Add the new phoneme to phonemes.json. Place it in the file near related phonemes, ordered by sort key. All phonemes require a main key, symbol, label, and sortkey. You'll also need to include a slug indicating the phoneme page and the section header you added.
-    - Add the new phoneme to the appropriate phoneme chart file - PhChartCons.astro, PhChartVowel.astro,  or PhChartDiph.astro.
+    - Decide which phoneme page in `scrlang/phonemes` the new phoneme belongs on. (It's unlikely that you will need to create a new phoneme page; just pick the most closely related existing one.) Add a new section to display the new phoneme. Include modified forms similar to existing phonemes on the same page.
+    - Add the new phoneme to `phonemes.json`. Place it in the file near related phonemes, ordered by sort key. All phonemes require a main key, symbol, label, and sortkey. You'll also need to include a slug indicating the phoneme page and the section header you added.
+    - Add the new phoneme to the appropriate phoneme chart file - `PhChartCons.astro`, `PhChartVowel.astro`,  or `PhChartDiph.astro`.
 
 #### Phoneme keys
 
@@ -158,7 +158,7 @@ Consonant keys are of the form:
 - pglzd = preglottalized; sort key = 155
 - sylla = syllabic; sort key = 195
 
-##### Double articulation keys
+##### Doubly-articulated-consonant keys
 
 Doubly-articulated consonant keys are of the form:
 - dart-TTT-PPP+TTT-PPP
