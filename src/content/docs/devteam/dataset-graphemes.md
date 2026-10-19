@@ -72,7 +72,8 @@ Components that work with this data include:
 Currently grapheme sets must be added by hand. The process is:
 
 - Note the official writing system code; this is the identifier for the data. It should always include both language code and script, e.g., ru-Cyrl, es-Latn.
-- Create or obtain a spreadsheet describing all the phonemes, graphemes, and phonograms used by the writing system. The template spreadsheet is src/data/graphemes/grapheme_template.ods; there is also an XLTX version available. There are also sample spreadsheets for English and Spanish. Name the spreadsheet file something like "Language Name [ws-Code].ods".
+- Download the template package from public/files/graphemes.zip and unzip it. It includes LibreOffice and Excel spreadsheets and sample files for English and Spanish.
+- Use one of the templates to create a spreadsheet describing all the phonemes, graphemes, and phonograms used by the writing system. (The two spreadsheets are identical; I found that LibreOffice handled non-Roman data a little better than Excel.) Instructions are found in the Instructions tab. Name the spreadsheet file something like "Language Name [ws-Code].ods".
 - Ensure that all necessary phonemes are present in the current phonemes.json file; add any new ones (see below).
 - Add the grapheme and phonogram data to the ws-graphemes.json file, modeled after current data.*
     - Also add information for the writing system in the 'intros' and 'names' section at the bottom of the file. The 'intros' section is not currently used; the introductory information is hard-coded in the .mdx file.
@@ -87,7 +88,7 @@ Currently grapheme sets must be added by hand. The process is:
 
 Adding a new phoneme is unlikely to be needed but might be necessary if a writing system is added with unusual phonology.
 
-- Add the phoneme to phonemes.json, being sure to follow the conventions for the phoneme key (see below). Sortkeys are not currently used, but it is recommended to fill them out anyway. Add the new phoneme in sortkey order. Slugs are needed when there is a mismatch between the page containing the display for the phoneme and the phoneme key.
+- Add the phoneme to phonemes.json, being sure to follow the conventions for the phoneme key (see below). Sortkeys are not currently used, but it is recommended to fill them out anyway. Add the new phoneme in sortkey order. Slugs are needed for basic phonemes when there is a mismatch between the page containing the display for the phoneme and the phoneme key. (E.g., slugs are _not_ needed for 'stp-alv-vl' or 'stp-alv-vl-aspir' since the phoneme page is called 'stp-alv-vl.mdx', but it is needed for 'stp-den-vl' which is displayed on the same page. It is _not_ needed for 'stp-den-vl-aspir' since it is specified for 'stp-den-vl'.)
 
 - If the new phoneme is a modification of an existing phoneme (eg, nasalized, lengthened, etc.):
     - Add the modified form of phoneme to the phoneme MDX file for the base form.
@@ -108,8 +109,7 @@ Consonant keys are of the form:
 - TTT-PPP-MMMMM - type, place of articulation, modification 
 - TTT-PPP-VV-MMMMM - type, place of articulation, voicing, modification
 - TTT-PPP-VV-MMMMM-MMMMM - type, place of articulation, voicing, 2 modifications
-
-An exception to these patterns is 'cons-null'.
+- cons-null
 
 **Type codes**
 - nas = nasal; sort key = 10
@@ -174,6 +174,7 @@ Vowel keys are of the form:
 - vwl-PP-HH-RRR-MMMMM - placement, height, rounding, modification
 - vwl-PP-HH-RRR-MMM - placement, height, rounding, modification
 - vwl-PP-HH-RRR-MMMMM-MMMMM - placement, height, rounding, 2 modifications
+- vwl-null
 
 Note that in the label height is put first, but in the key and sortkey, placement is put first.
 
@@ -216,4 +217,4 @@ etc.
 
 Note that URL slugs use '__" where the key uses '+'. 
 
-The anchor '#rising' corresponds to the '+on' part of the key, which indicates an "on-glide" or rising diphthong.
+The slug's anchor '#rising' corresponds to the '+on' part of the key, which indicates an "on-glide" or rising diphthong.
