@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
-    "@astrojs/markdown-remark": "^7.3.1",
     "@astrojs/react": "^6.0.5",
     "@astrojs/starlight": "^0.42.0",
     "@emotion/styled": "^11.14.1",
@@ -23,8 +22,8 @@
     "astro-broken-links-checker": "imazen/astro-broken-link-checker",
     "csv": "^6.5.0",
     "mui-language-picker": "file:.vendor/mui-language-picker-2.7.6-pre.2.tgz",
-    "rehype-external-links": "^3.0.0",
-    "rehype-figure-title": "^1.1.0",
+    "satteri-external-links": "^0.1.1",
+    "satteri-figure": "^0.2.0",
     "sharp": "^0.35.4",
     "starlight-links-validator": "^0.26.0",
     "typescript": "^6.0.3"

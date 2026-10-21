@@ -1,18 +1,10 @@
 ---
-import remarkRehype from 'remark-rehype'
-import remarkParse from 'remark-parse'
-import rehypeStringify from 'rehype-stringify'
-import {unified} from 'unified'
+import { markdownToHtml } from 'satteri';
 
 const { text } = Astro.props;
-
-const caption = await unified()
-    .use(remarkParse)
-    .use(remarkRehype)
-    .use(rehypeStringify)
-    .process(text)
+const { html } = markdownToHtml(text)
 ---
-<div class="captiontext sl-flex" set:html={caption} />
+<div class="captiontext sl-flex" set:html={html} />
 <style>
     .captiontext {
         font-size: var(--sl-text-xs);

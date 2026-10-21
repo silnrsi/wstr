@@ -1,15 +1,15 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
-import starlightLinksValidator from 'starlight-links-validator';
-import astroBrokenLinksChecker from 'astro-broken-links-checker';
-import { unified } from '@astrojs/markdown-remark'
-import rehypeFigureTitle from 'rehype-figure-title';
-import rehypeExternalLinks from 'rehype-external-links';
-import cookieconsent from "@jop-software/astro-cookieconsent";
-import remarkCharacterDirectives from './src/plugins/remark-usv-directive.mts';
-import remarkSourcesLinkReference from './src/plugins/remark-sources-link-reference.mts';
+import { satteri } from '@astrojs/markdown-satteri';
 import react from '@astrojs/react';
+import starlight from '@astrojs/starlight';
+import cookieconsent from "@jop-software/astro-cookieconsent";
+import { defineConfig } from 'astro/config';
+import astroBrokenLinksChecker from 'astro-broken-links-checker';
+import satteriFigureTitle from 'satteri-figure';
+import satteriExternalLinks from 'satteri-external-links';
+import satteriCharacterDirectives from './src/plugins/satteri/usv-directive.mts';
+import satteriSourcesLinkReference from './src/plugins/satteri/sources-link-reference.mts';
+import starlightLinksValidator from 'starlight-links-validator';
 
 const googleAnalyticsId = 'G-WHT6CVPT8M';
 
@@ -235,14 +235,14 @@ export default defineConfig({
         react(),
     ],
     markdown: {
-        processor: unified({
-            remarkPlugins: [
-                remarkSourcesLinkReference('/biblio/'),
-                remarkCharacterDirectives,
+        processor: satteri({
+            mdastPlugins: [
+                satteriSourcesLinkReference('/biblio/'),
+                satteriCharacterDirectives
             ],
-            rehypePlugins: [
-                  rehypeFigureTitle, 
-                [ rehypeExternalLinks, {
+            hastPlugins: [
+                satteriFigureTitle(),
+                satteriExternalLinks({
                     target: '_blank', // Open external links in a new tab
                     rel: ['external', 'nofollow',], // Add security attributes
                     // Optional: Add content (e.g., an icon) to the end of external links
@@ -257,11 +257,9 @@ export default defineConfig({
                         children: [],
                     },
                     // Optional: Add attributes to the added content
-                    contentProperties: { 'aria-hidden': true, class: 'external-link-icon' },
-                    // Optional: Filter which <a> tags are processed (e.g., exclude links within code blocks)
-                    selectors: 'a:not(pre a):not(code a)',
-                }],
-            ],
+                    contentProperties: { 'aria-hidden': true, class: 'external-link-icon' }
+                })
+            ]
         })
     },
     redirects: {
