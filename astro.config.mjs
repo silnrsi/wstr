@@ -241,27 +241,26 @@ export default defineConfig({
                 remarkCharacterDirectives,
             ],
             rehypePlugins: [
-                rehypeFigureTitle, [
-                    rehypeExternalLinks, {
-                        target: '_blank', // Open external links in a new tab
-                        rel: ['external', 'nofollow',], // Add security attributes
-                        // Optional: Add content (e.g., an icon) to the end of external links
-                        content: {
-                            type: 'element',
-                            tagName: 'img',
-                            properties: {
-                                src: '/svgs/external-link.svg',
-                                //title: 'External link',
-                                //alt: 'External link',
-                            },
-                            children: [],
+                  rehypeFigureTitle, 
+                [ rehypeExternalLinks, {
+                    target: '_blank', // Open external links in a new tab
+                    rel: ['external', 'nofollow',], // Add security attributes
+                    // Optional: Add content (e.g., an icon) to the end of external links
+                    content: {
+                        type: 'element',
+                        tagName: 'img',
+                        properties: {
+                            src: '/svgs/external-link.svg',
+                            //title: 'External link',
+                            //alt: 'External link',
                         },
-                        // Optional: Add attributes to the added content
-                        contentProperties: { 'aria-hidden': true, class: 'external-link-icon' },
-                        // Optional: Filter which <a> tags are processed (e.g., exclude links within code blocks)
-                        selectors: 'a:not(pre a):not(code a)',
+                        children: [],
                     },
-                ],
+                    // Optional: Add attributes to the added content
+                    contentProperties: { 'aria-hidden': true, class: 'external-link-icon' },
+                    // Optional: Filter which <a> tags are processed (e.g., exclude links within code blocks)
+                    selectors: 'a:not(pre a):not(code a)',
+                }],
             ],
         })
     },
