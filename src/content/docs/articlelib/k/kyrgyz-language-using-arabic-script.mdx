@@ -1,0 +1,62 @@
+---
+title: Kyrgyz language using Arabic script
+authors: Lorna Evans
+tags: [char-0627, char-0628, char-067E, char-0646, char-062A, char-062C, char-0686, char-062D, char-06a7, char-0642, char-0639, char-0643, char-06af, char-06ad, char-0644, char-0645, char-0648, char-06c5, char-06c7, char-06c9, char-06cb, char-0633, char-0634, char-062f, char-0631, char-0632, char-0647, char-0649, char-0626, char-064a, script-arab, lang-ky]
+lastUpdated: 2026-10-23
+---
+
+import Character from '/src/components/Character.astro';
+
+Fonts which are intended to support the Kyrgyz language must include some different design features than those designed for standard Arabic.
+
+### ARABIC LETTER YEH WITH HAMZA ABOVE
+
+The position of the :usv[0626]{usv char name} is different for the Kyrgyz language. See [Different kinds of hamza characters in Arabic script](/articlelib/d/different-kinds-of-arabic-hamza#arabic-letter-yeh-with-hamza-above).
+
+### ARABIC LETTER KIRGHIZ OE
+
+:usv[06c5]{usv char name} has had different shapes in the Unicode codecharts. It has now been standardized. See [Glyph Variant for U+06C5](/articlelib/g/glyph-variant-for-u-06c5) for further explanation.
+
+### Opentype
+
+In order to add OpenType support for the Kyrgyz language it is important to note that the ISO 639-3 is `kir`, the two letter code is `ky`, and the Opentype language tag is `KIR `. This information is valuable for testing.
+
+We have found that the OpenType code in the font should use the [Opentype language tag][ot-lang] (`KIR `). However, when testing the font in html, it will be necessary to use `lang="ky"`.
+
+In addition, when converting an html file to pdf using [weasyprint][weasyprint], we had to convert the code to `kir` (`-e s/lang=\"ky\"/lang=\"kir\"/`).
+
+### Character set
+
+- :usv[0627]{usv char name} 
+- :usv[0628]{usv char name} 
+- :usv[067e]{usv char name} 
+- :usv[0646]{usv char name} 
+- :usv[062a]{usv char name} 
+- :usv[062c]{usv char name} 
+- :usv[0686]{usv char name} 
+- :usv[062d]{usv char name} 
+- :usv[06a7]{usv char name} 
+- :usv[0642]{usv char name} 
+- :usv[0639]{usv char name} 
+- :usv[0643]{usv char name} 
+- :usv[06af]{usv char name} 
+- :usv[06ad]{usv char name} 
+- :usv[0644]{usv char name} 
+- :usv[0645]{usv char name} 
+- :usv[0648]{usv char name} 
+- :usv[06c5]{usv char name} 
+- :usv[06c7]{usv char name} 
+- :usv[06c9]{usv char name} 
+- :usv[06cb]{usv char name} 
+- :usv[0633]{usv char name} 
+- :usv[0634]{usv char name} 
+- :usv[062f]{usv char name} 
+- :usv[0631]{usv char name} 
+- :usv[0632]{usv char name} 
+- :usv[0647]{usv char name} 
+- :usv[0649]{usv char name} 
+- :usv[0626]{usv char name} 
+- :usv[0641]{usv char name} 
+
+[ot-lang]: https://learn.microsoft.com/en-us/typography/opentype/spec/languagetags
+[weasyprint]: https://github.com/Kozea/WeasyPrint/releases
