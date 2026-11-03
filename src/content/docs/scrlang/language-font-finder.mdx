@@ -10,7 +10,7 @@ sidebar:
         size: small
 lastUpdated: 2026-05-12
 ---
-import LFFBrowser from '../../../components/lff/Browser'
+import LFFBrowser from '../../../components/lff'
 
 :::caution[Test version]{icon="sun"}
 This is an early beta test version. We welcome your feedback and suggestions - see the Feedback section below. Please let us know if this service is helpful to you, and if there are any features you would like to see added.
@@ -18,7 +18,7 @@ This is an early beta test version. We welcome your feedback and suggestions - s
 
 Type a language name, [language tag][language-tagging], or country in the box below to choose a language. Then select the script, and the _Language Font Finder_ will provide information about free and openly licensed fonts that are likely to support that writing system.
 
-<LFFBrowser client:only="react"/>
+<LFFBrowser client:only="react" />
 
 The data used for this _Language Font Finder (LFF)_ is also available to software developers through a REST API. See the [LFF service API documentation](https://lff.api.languagetechnology.org/docs) for details. Some sample texts are from the [Google Fonts language data][googlefontstexts] and used under the terms of the [Apache 2.0 license][apache-2.0].
 
