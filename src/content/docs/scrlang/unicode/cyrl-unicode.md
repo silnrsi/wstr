@@ -3,7 +3,7 @@ title: Unicode Status for Cyrillic
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-18
+lastUpdated: 2026-11-09
 ---
 
 In The Unicode Standard, Cyrillic script implementation is discussed in [Chapter 7 Europe-I: Modern and Liturgical Scripts ](https://www.unicode.org/versions/latest/core-spec/#G10850), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), and in [UTN 41: Church Slavonic Typography in Unicode](https://www.unicode.org/notes/tn41/).
@@ -196,3 +196,6 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
 - 2025-04-04 Unicode request for Cyrillic letter jeru with connecting bar — Kirk Miller ([L2/25-112](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-112))
   - _Recommendations to UTC #183 April 2025 on Script Proposals ([L2/25-091](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/25-091)) (See point 1.5.)_
   - _UTC #183 Minutes ([L2/25-085](https://www.unicode.org/L2/L2025/25085.htm)) (See D.1 1.5 for decision and action items)_
+- 2026-10-12 Unicode request for South Slavic Cyrillic modifier letters -- Kirk Miller ([L2/26-244](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-244))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 2.9)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.9 for decision and action items)_

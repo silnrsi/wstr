@@ -3,7 +3,7 @@ title: Unicode Status for Vithkuqi
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-11-18
+lastUpdated: 2026-11-09
 ---
 
 In The Unicode Standard, Vithkuqi (Veqilharxhi or Büthakukye) script implementation is discussed in [Chapter 8 Europe-II — Ancient and Other Scripts](https://www.unicode.org/versions/latest/core-spec/#G40863).
@@ -33,3 +33,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #165 Minutes ([L2/20-237](https://www.unicode.org/L2/L2020/20237.htm)) (See B.1 for decision and action items)_
   - _Recommendations to UTC #166 January 2021 on Script Proposals ([L2/21-016](https://www.unicode.org/L2/L2021/21016r-script-adhoc-rept.pdf)) (See point 5.)_
   - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 5 for decision and action items)_
+- 2026-08-11 Unicode request for Vithkuqi annotations II -- Francesco Catoni, Kirk Miller ([L2/26-208](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-208))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 5.1)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 5.1 for decision and action items)_

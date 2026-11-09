@@ -3,10 +3,10 @@ title: Unicode Status for Mayan hieroglyphs
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-08-10
+lastUpdated: 2026-11-09
 ---
 
-Mayan hieroglyphs are not yet in Unicode. The script has a tentative allocation at U+15500..U+15AFF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+Mayan hieroglyphs are not yet in Unicode. The script has a provisional assignment at U+15500..U+15AFF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Blocks
 
@@ -34,3 +34,5 @@ A number of documents towards its inclusion have been submitted to the Unicode T
   - _Recommendations to UTC #177 November 2023 on Script Proposals ([L2/23-238](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-238)) (See point C.29.)_
 - 2026-06-19 Proposal to Encode Codical Maya Hieroglyphs -- Dr. Des. Carlos Pallan, Dr. Andrew Glass, Céline Tamignaux, Nick Sahler ([L2/26-145](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-145))
   - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 7)_
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 1.1)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 1.1 for decision and action items)_

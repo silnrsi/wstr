@@ -3,7 +3,7 @@ title: Unicode Status for Myanmar
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-11-09
 ---
 
 In The Unicode Standard, Myanmar script implementation is discussed in [Chapter 16 Southeast Asia-I — Thailand, Laos, Myanmar, Cambodia, Vietnam](https://www.unicode.org/versions/latest/core-spec/#G24999) and in [Unicode Technical Note #11: Representing Myanmar in Unicode](http://www.unicode.org/notes/tn11/).
@@ -134,3 +134,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #172 Minutes ([L2/22-121](https://www.unicode.org/L2/L2022/22121.htm)) (See F.3 for decision and action items)_
 - 2022-10-17 Canonical combining class for nukta characters — Norbert Lindenberg ([L2/22-250](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/22-250))
   - _UTC #173 Minutes ([L2/22-241](http://www.unicode.org/L2/L2022/22241.htm)) (See D.1.10 for decision and action items)_
+- 2026-10-09 Proposal to encode Myanmar letters for Kham Dom Pa'O -- Ben Mitchell ([L2/26-222](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-222))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 2.10)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.10 for decision and action items)_

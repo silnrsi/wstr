@@ -3,7 +3,7 @@ title: Unicode Status for Latin
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-08-10
+lastUpdated: 2026-11-09
 ---
 
 In The Unicode Standard, Latin script implementation is discussed in [Chapter 7 Europe-I — Modern and Liturgical Scripts](https://www.unicode.org/versions/latest/core-spec/#G4321), [UTN 26: On the Encoding of Latin, Greek, Cyrillic, and Han](https://www.unicode.org/notes/tn26/), [UTN 29: The Use of Phonetic and Other Symbols in Dictionaries: A Brief Survey](https://www.unicode.org/notes/tn29/), and in [UTN 44: Medieval Latin Character Recommendations](https://www.unicode.org/notes/tn44/).
@@ -926,3 +926,23 @@ Andreas Stötzner, Achim Trunk, Charlotte Wahl([L2/24-244](https://www.unicode.o
 - 2026-06-28 Unicode request for Latin dotless i with descender — Ismael Robles Haloui ([L2/26-176](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-176))
   - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 2.18)_
   - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 2.18 for decision and action items)_
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 2.5)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.5 for decision and action items)_
+- 2026-10-09 Unicode request for turned dotless i -- Kirk Miller ([L2/26-225](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-225))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 2.7)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.7 for decision and action items)_
+- 2026-10-12 Proposal to encode four Latin letters of Benjamin Franklin's reformed alphabet -- Karl Pentzlin ([L2/26-230](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-230))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 2.14)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.14 for decision and action items)_
+- 2026-10-12 Proposal to encode in the UCS extensions to Ellis's Phonotypic Alphabet for writing Yahgan and Ona -- Yoram Meroz, Karl Pentzlin ([L2/26-245](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-245))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 2.8)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.8 for decision and action items)_
+- 2026-10-12 New Proposal to add LATIN CAPITAL TURNED W -- Denis Moyogo Jacquerye ([L2/26-246](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-246))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 2.6)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.6 for decision and action items)_
+- 2026-10-12 Commas and Cedillas: Report on UTC 159-A81 -- Roozbeh Pournader ([L2/26-247](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-247))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 5.2)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 5.2 for decision and action items)_
+- 2026-10-13 Request to re-order 5 letterlike symbols in the 1DB00 block -- Andreas Stötzner ([L2/26-259](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-259))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 3.1)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.1 for decision and action items)_

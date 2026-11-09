@@ -3,7 +3,7 @@ title: Unicode Status for Kannada
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-08-10
+lastUpdated: 2026-11-06
 ---
 
 In The Unicode Standard, Kannada script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G38298).
@@ -149,3 +149,9 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2026-03-09 Usage of Aytam in the other South Indian scripts -- Sridatta A, Srinidhi A ([L2/26-165](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-165))
   - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 4.1)_
   - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 4.1 for decision and action items)_
+- 2026-10-13 Character properties of U+0CD5 KANNADA LENGTH MARK -- Sridatta A, Srinidhi A ([L2/26-250](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-250))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 4.3)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 4.3 for decision and action items)_
+- 2026-10-13 Repha and its behaviour in Kannada script -- Sridatta A, Srinidhi A ([L2/26-253](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-253))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 5.4)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 5.4 for decision and action items)_

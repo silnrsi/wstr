@@ -3,7 +3,7 @@ title: Unicode Status for Symbols
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-09-16
+lastUpdated: 2026-11-09
 ---
 
 In the Unicode Standard there are characters that are considered Symbols, but they are associated with certain scripts. The characters listed here are Symbols (Math_Symbol, Currency_Symbol, Modifier_Symbol, Other_Symbol), but they are in the "Common" category rather than associated with a particular script.
@@ -492,3 +492,15 @@ A number of proposals for various Symbols have been submitted to the Unicode Tec
 - 2023-04-28 Revised designs of the alchemical symbols block — Kirk Miller ([L2/23-069](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-069))
   - _Recommendations to UTC #175 April 2023 on Script Proposals ([L2/23-083](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/23-083)) (See point A.iii.5.)_
   - _UTC #175 Minutes ([L2/23-076](https://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.5 for decision and action items)_
+- 2026-10-08 Proposal to encode miscellaneous mathematical symbols (revised) -- Uwe Mayer, et al ([L2/26-140](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-140))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 3.2)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.2 for decision and action items)_
+- 2026-10-09 Proposal to Encode 4 Unencoded Big5 ETen Extension Box Drawing Characters -- Night Koo, Luke036 ([L2/26-220](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-220))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 3.4)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.4 for decision and action items)_
+- 2026-10-12 Proposal to encode TURNED DIGIT ONE for Balanced Ternary -- Adam Victor ([L2/26-228](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-228))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 3.3)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.3 for decision and action items)_
+- 2026-10-13 Request to re-order 5 letterlike symbols in the 1DB00 block -- Andreas Stötzner ([L2/26-259](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-259))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 3.1)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.1 for decision and action items)_

@@ -3,7 +3,7 @@ title: Unicode Status for Malayalam
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-08-10
+lastUpdated: 2026-11-09
 ---
 
 In The Unicode Standard, Malayalam script implementation is discussed in [Chapter 12 South and Central Asia-I — Official Scripts of India](https://www.unicode.org/versions/latest/core-spec/#G22346).
@@ -246,3 +246,6 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2026-03-09 Usage of Aytam in the other South Indian scripts -- Sridatta A, Srinidhi A ([L2/26-165](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-165))
   - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 4.1)_
   - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 4.1 for decision and action items)_
+- 2026-10-13 Proposal to encode Vedic Double Anusvara in Malayalam -- Sridatta A, Srinidhi A ([L2/26-251](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-251))
+  - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 2.11)_
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.11 for decision and action items)_

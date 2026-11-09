@@ -3,7 +3,7 @@ title: Unicode Status for Seal
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-09-16
+lastUpdated: 2026-11-09
 ---
 
 In The Unicode Standard, Seal script (commonly called Small Seal or sometimes called Shuowen) implementation is discussed in [Chapter 18: East Asia](https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-18/#G59286).
@@ -68,3 +68,5 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2026-02-17 Accumulated Feedback: PRI #536: Incorrect Ideograph for Seal U+3E770 — Ruixi Zhangy ([ID20260217012529](https://www.unicode.org/review/pri536/feedback.html#ID20260217012529))
   - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 6.7)_
   - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 6.7 for decision and action items)_
+- 2026-09-29 Proposal to Add “kSEAL_AdditionalSrc” Property to SealSources.txt -- suzuki toshiya ([L2/26-218](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-218))
+  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See E.1 Section 9 for decision and action items)_

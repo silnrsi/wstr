@@ -3,10 +3,10 @@ title: Unicode Status for Proto-Cuneiform
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2026-07-30
+lastUpdated: 2026-11-09
 ---
 
-The Proto-Cuneiform script has been accepted for encoding in a future version of the Unicode Standard. The script has a provisional assignment at U+12690..U+12BFF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Proto-Cuneiform script has been accepted for encoding in a future version of the Unicode Standard. The script has an allocation at at U+12690..U+12BFF in the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Blocks
 
