@@ -201,12 +201,12 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 2.12 for decision and action items)_
 - 2026-08-11 Revised Proposal to encode the Devanagari Sign Final Anusvara -- Biswajit Mandal ([L2/26-206](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-206))
   - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 2.2)_
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.2 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.2 for decision and action items)_
 - 2026-10-09 Proposal to encode the Devanagari Correction Mark for Vowel Signs -- Biswajit Mandal ([L2/26-221](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-221))
   - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 2.4)_
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.4 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.4 for decision and action items)_
 - 2026-10-13 Proposal to encode three new characters of Devanagari -- Biswajit Mandal ([L2/26-248](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-248))
   - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 2.3)_
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.3 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 2.3 for decision and action items)_
 - 2026-10-13 Proposal to encode Devanagari Double Separator -- Biswajit Mandal ([L2/26-249](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-249))
 

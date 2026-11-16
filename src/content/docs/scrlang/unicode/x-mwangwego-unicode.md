@@ -35,4 +35,4 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #186 (January 2026) on Script Proposals ([L2/26-010](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-010)) (See point 1.1.)_
   - _UTC #186 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26003.htm)) (See D.1 1.1 for decision and action items)_
   - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 1.5)_
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 1.5 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 1.5 for decision and action items)_

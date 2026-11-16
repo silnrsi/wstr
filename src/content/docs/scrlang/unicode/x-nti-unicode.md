@@ -24,4 +24,4 @@ Documents that mention the script have been submitted to the Unicode Technical C
   - _Recommendations to UTC #188 (July 2026) on Script Proposals ([L2/26-158](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-158)) (See point 1.3)_
   - _UTC #188 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26151.htm)) (See D.1 1.3 for decision and action items)_
   - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 1.2)_
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 1.2 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 1.2 for decision and action items)_

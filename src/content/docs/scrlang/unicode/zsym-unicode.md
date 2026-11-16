@@ -494,13 +494,13 @@ A number of proposals for various Symbols have been submitted to the Unicode Tec
   - _UTC #175 Minutes ([L2/23-076](https://www.unicode.org/L2/L2023/23076.htm)) (See D.1.1.5 for decision and action items)_
 - 2026-10-08 Proposal to encode miscellaneous mathematical symbols (revised) -- Uwe Mayer, et al ([L2/26-140](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-140))
   - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 3.2)_
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.2 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.2 for decision and action items)_
 - 2026-10-09 Proposal to Encode 4 Unencoded Big5 ETen Extension Box Drawing Characters -- Night Koo, Luke036 ([L2/26-220](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-220))
   - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 3.4)_
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.4 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.4 for decision and action items)_
 - 2026-10-12 Proposal to encode TURNED DIGIT ONE for Balanced Ternary -- Adam Victor ([L2/26-228](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-228))
   - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 3.3)_
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.3 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.3 for decision and action items)_
 - 2026-10-13 Request to re-order 5 letterlike symbols in the 1DB00 block -- Andreas Stötzner ([L2/26-259](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-259))
   - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 3.1)_
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.1 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 3.1 for decision and action items)_

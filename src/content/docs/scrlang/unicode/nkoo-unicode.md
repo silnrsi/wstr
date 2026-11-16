@@ -61,5 +61,5 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 2.9)_
   - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 2.9 for decision and action items)_
 - 2026-08-13 Formal Opposition to the Proposal for New Characters in the Nko Script Block (April 2026) -- World Organization for the Development of Nko (WODN) ([L2/26-209](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-209))
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.3 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.3 for decision and action items)_
 

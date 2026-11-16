@@ -223,5 +223,5 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
 - 2026-07-30 Updates for Mongolian Variation Sequences for Unicode 18.0 -- Ken Whistler, Kushim Jiang ([L2/26-203](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-203))
 - 2026-08-11 Resolving Cross-Writing-System Ambiguity in Mongolian Script -- Kushim Jiang ([L2/26-207](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-207))
   - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 5.6)_
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 5.6 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 5.6 for decision and action items)_
 

@@ -65,4 +65,4 @@ A number of proposals for its inclusion were submitted to the Unicode Technical 
   - _UTC #179 Minutes ([L2/24-061](https://www.unicode.org/L2/L2024/24061.htm)) (See D.1 Section II-2 for decision and action items)_
 - 2026-09-08 On U+055F ARMENIAN ABBREVIATION MARK -- Roozbeh Pournader ([L2/26-213](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-213))
   - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 5.3)_
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 5.3 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 5.3 for decision and action items)_

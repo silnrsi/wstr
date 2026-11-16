@@ -69,4 +69,4 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _Recommendations to UTC #187 (April 2026) on Script Proposals ([L2/26-100](http://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-100)) (See point 6.7)_
   - _UTC #187 Minutes ([L2/26-003](https://www.unicode.org/L2/L2026/26093.htm)) (See D.1 6.7 for decision and action items)_
 - 2026-09-29 Proposal to Add “kSEAL_AdditionalSrc” Property to SealSources.txt -- suzuki toshiya ([L2/26-218](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-218))
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See E.1 Section 9 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See E.1 Section 9 for decision and action items)_

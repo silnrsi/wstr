@@ -35,4 +35,4 @@ A number of proposals for its inclusion have been submitted to the Unicode Techn
   - _UTC #166 Minutes ([L2/21-009](https://www.unicode.org/L2/L2021/21009.htm)) (See B.1 — 5 for decision and action items)_
 - 2026-08-11 Unicode request for Vithkuqi annotations II -- Francesco Catoni, Kirk Miller ([L2/26-208](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-208))
   - _Recommendations to UTC #189 (October 2026) on Script Proposals ([L2/26-239](https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?L2/26-239)) (See point 5.1)_
-  - _UTC #189 Minutes ([L2/26-151](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 5.1 for decision and action items)_
+  - _UTC #189 Minutes ([L2/26-232](https://www.unicode.org/L2/L2026/26232.htm)) (See D.1 5.1 for decision and action items)_
