@@ -1,12 +1,12 @@
 ---
-title: Unicode Status for Diteme tsa Dinoko
+title: Unicode Status for Ditema tsa Dinoko
 description: Supplementary script page
 sidebar:
     hidden: true
-lastUpdated: 2025-09-29
+lastUpdated: 2026-11-16
 ---
 
-The Diteme tsa Dinoko script is not yet in Unicode. The script has not yet been added to the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
+The Ditema tsa Dinoko script is not yet in Unicode. The script has not yet been added to the [Roadmap to the SMP](http://www.unicode.org/roadmaps/smp/) for the Unicode Standard.
 
 ## Blocks
 
